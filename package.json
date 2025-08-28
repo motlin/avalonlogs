@@ -1,0 +1,38 @@
+{
+  "name": "avalonlogs",
+  "version": "1.0.0",
+  "description": "https://avalongame.online/ is a site that allows friends to play Avalon: The Resistance in person or via videoconference.",
+  "main": "fetch-new-logs.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "format": "biome format --write . && prettier --write .",
+    "ci:eslint": "eslint . --format json --output-file eslint_report.json",
+    "ci:prettier": "prettier --check \"src/**/*.{js,ts,css,md,json}\"",
+    "ci:biome": "biome format .",
+    "ci:typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motlin/avalonlogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/motlin/avalonlogs/issues"
+  },
+  "homepage": "https://github.com/motlin/avalonlogs#readme",
+  "dependencies": {
+    "firebase-admin": "^13.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1"
+  }
+}

@@ -1,6 +1,10 @@
 # `just --list --unsorted`
-@default:
-    just --list --unsorted
+default:
+    @just --list --unsorted
+
+# `npm install`
+install:
+    npm install
 
 # Download a specific log document by ID
 download DOC_ID:
