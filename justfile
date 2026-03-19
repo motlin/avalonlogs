@@ -24,10 +24,6 @@ download DOC_ID:
 
 # Fetch all avalon logs from Firestore
 fetch-logs:
-    ./fetch-avalon-logs-all.sh
+    node fetch-new-logs.js
 
-# Split the large avalon-logs-all.json file into individual game files
-split-logs:
-    ./split-logs.sh
-
-all: fetch-logs split-logs
+all: fetch-logs
