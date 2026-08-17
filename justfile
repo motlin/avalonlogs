@@ -7,6 +7,7 @@ install:
     vp install
 
 # Download a specific log document by ID
+[arg("DOC_ID", long="doc-id", help="Google document ID")]
 download DOC_ID:
     #!/usr/bin/env bash
     set -Eeuo pipefail
