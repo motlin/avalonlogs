@@ -22,6 +22,17 @@ download DOC_ID:
         --prettyPrint
     echo "Saved to logs/{{ DOC_ID }}"
 
+# `npm run typecheck:ci`
+typecheck: install
+    npm run typecheck:ci
+
+# `pre-commit run --all-files`
+pre-commit: install
+    pre-commit run --all-files
+
+# Run all pre-commit checks
+precommit: typecheck pre-commit
+
 # Fetch all avalon logs from Firestore
 fetch-logs:
     node fetch-new-logs.js
