@@ -6,6 +6,17 @@ default:
 install:
     npm install
 
+# `npm run ci:typecheck`
+typecheck: install
+    npm run ci:typecheck
+
+# `pre-commit run --all-files`
+pre-commit: install
+    pre-commit run --all-files
+
+# Run all pre-commit checks
+precommit: typecheck pre-commit
+
 # Download a specific log document by ID
 download DOC_ID:
     #!/usr/bin/env bash

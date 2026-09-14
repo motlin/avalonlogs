@@ -14,9 +14,9 @@ Of those wins, Merlin was assassinated 41% of the time (2801 / 6835 games). That
 
 ## Merlin
 
-In games *without* the Merlin role (ie, the barebones Resistance game), evil has a win percentage of about 50%.
+In games _without_ the Merlin role (ie, the barebones Resistance game), evil has a win percentage of about 50%.
 
-What a great balance! So what happens when we add the powerful Merlin role? Turns out the odds of the good team passing 3 quests goes all the way up to 68% of all games! How great for the good team, right? Except... the odds of the evil team winning actually *increase* from 50% to 57%. If you've played Avalon, you shouldn't be surprised. With Merlin in the game, evil now has a powerful assassination ability, which allows them to eke out a win even after the good team passes 3 missions. In fact, a successful Merlin kill contributes to about 44% of all evil wins.
+What a great balance! So what happens when we add the powerful Merlin role? Turns out the odds of the good team passing 3 quests goes all the way up to 68% of all games! How great for the good team, right? Except... the odds of the evil team winning actually _increase_ from 50% to 57%. If you've played Avalon, you shouldn't be surprised. With Merlin in the game, evil now has a powerful assassination ability, which allows them to eke out a win even after the good team passes 3 missions. In fact, a successful Merlin kill contributes to about 44% of all evil wins.
 
 Based on the stats above, it would seem that the base Resistance game is the more balanced game with its 50-50 good-evil win rate. And yet, an overwhelming 92% of the games played on the site are Avalon games, not Resistance. (Perhaps Avalon is simply the more fun game to play, even if it's not as balanced?)
 
@@ -40,6 +40,6 @@ Having **Oberon** in the game improves the good team's chances by 3-4%. **Mordre
 
 # Other ideas for data exploration
 
-* Examine whether different cohorts of players have different game meta as evidenced by stats
-* Examine how the length of the game in wallclock time affects stats
-* Examine whether some players are better in some roles than others (probably not enough of a sample size)
+- Examine whether different cohorts of players have different game meta as evidenced by stats
+- Examine how the length of the game in wallclock time affects stats
+- Examine whether some players are better in some roles than others (probably not enough of a sample size)
