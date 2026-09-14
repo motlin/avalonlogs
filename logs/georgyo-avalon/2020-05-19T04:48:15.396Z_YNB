@@ -1,0 +1,199 @@
+{
+ "timeCreated": {
+  "_seconds": 1589863695,
+  "_nanoseconds": 396000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "uid": "LNbFQPCC7NhM56pyXzg2u76WE0g1",
+   "name": "BRYCE"
+  },
+  {
+   "name": "AFFINE",
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2"
+  },
+  {
+   "uid": "o4LZvEhWgaexflrQs0XWpfRyVTD2",
+   "name": "CBROWN"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589863877,
+  "_nanoseconds": 699000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "ADAM",
+    "NIKOLAI"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ADAM",
+      "NIKOLAI",
+      "CBROWN"
+     ],
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "BRYCE",
+     "votes": [
+      "BRYCE"
+     ],
+     "team": [
+      "BRYCE",
+      "ADAM",
+      "AFFINE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "AFFINE",
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "proposer": "AFFINE",
+     "votes": [
+      "AFFINE"
+     ]
+    },
+    {
+     "votes": [
+      "CBROWN",
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "team": [
+      "ADAM",
+      "CBROWN",
+      "NIKOLAI"
+     ],
+     "state": "APPROVED",
+     "proposer": "CBROWN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "ADAM",
+    "CBROWN",
+    "NIKOLAI"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NIKOLAI",
+     "votes": [
+      "CBROWN",
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "team": [
+      "ADAM",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ADAM",
+    "NIKOLAI"
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING"
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "ADAM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "AFFINE"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "CBROWN"
+   },
+   {
+    "name": "BRYCE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "NIKOLAI": true,
+    "ADAM": true
+   },
+   {
+    "CBROWN": true,
+    "NIKOLAI": true,
+    "ADAM": true
+   },
+   {
+    "NIKOLAI": true,
+    "ADAM": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "ADAM"
+ }
+}

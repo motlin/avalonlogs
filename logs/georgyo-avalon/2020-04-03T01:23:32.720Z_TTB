@@ -1,0 +1,482 @@
+{
+ "timeCreated": {
+  "_seconds": 1585877012,
+  "_nanoseconds": 720000000
+ },
+ "players": [
+  {
+   "uid": "GnwQ0bTmgmh1EQyNUkmhNymEjDQ2",
+   "name": "ALEX"
+  },
+  {
+   "uid": "HxO2KojRUgTTB7bddvC2RA5EQzY2",
+   "name": "SAM"
+  },
+  {
+   "name": "ADAM",
+   "uid": "88Z15Csk6FaccdZn9W0xTqkl73C2"
+  },
+  {
+   "uid": "XTl3qtn7DMX0jIlqppCqdQjPAFE2",
+   "name": "KEVINSTOCK"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "Xz6SDgaC4lhFKwvf7WhJg9ER8ga2"
+  },
+  {
+   "uid": "qHMnxFkrntUA9bTqfRewFmPjaes1",
+   "name": "SHARON"
+  },
+  {
+   "uid": "Lz8eeZidlbN3vvvxPLmbTRBW7TF2",
+   "name": "ANIN"
+  },
+  {
+   "uid": "eacR81DbSLOb7oTQgTU7Qx1L0WY2",
+   "name": "KEVIN"
+  },
+  {
+   "name": "OWEN",
+   "uid": "qR5nuybAoccU1CGPIv3LK8LuYsV2"
+  },
+  {
+   "uid": "k2hm49zGtwSAN4QTbG0MLczEZuu1",
+   "name": "JET"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585878859,
+  "_nanoseconds": 517385000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "KLAUDIA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JET"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ADAM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KEVINSTOCK",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "OWEN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SAM",
+    "assassin": false
+   },
+   {
+    "name": "KEVIN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "ALEX",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "ANIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SHARON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "KEVIN": true,
+    "JET": false,
+    "OWEN": true
+   },
+   {
+    "ALEX": false,
+    "ANIN": true,
+    "ADAM": true,
+    "KLAUDIA": true
+   },
+   {
+    "KLAUDIA": true,
+    "ANIN": true,
+    "SHARON": true,
+    "KEVINSTOCK": true
+   },
+   {
+    "KLAUDIA": true,
+    "JET": true,
+    "ANIN": true,
+    "SHARON": true,
+    "KEVINSTOCK": true
+   },
+   {
+    "KLAUDIA": true,
+    "ANIN": true,
+    "OWEN": true,
+    "KEVINSTOCK": true,
+    "SHARON": true
+   }
+  ],
+  "assassinated": "KEVINSTOCK"
+ },
+ "missions": [
+  {
+   "team": [
+    "JET",
+    "KEVIN",
+    "OWEN"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "KEVINSTOCK",
+      "ADAM",
+      "SAM"
+     ],
+     "votes": [
+      "JET",
+      "ADAM",
+      "SAM",
+      "KEVIN"
+     ],
+     "proposer": "KEVINSTOCK"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "KEVINSTOCK",
+      "ALEX"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "JET",
+      "KEVINSTOCK",
+      "ALEX"
+     ],
+     "proposer": "KLAUDIA"
+    },
+    {
+     "votes": [
+      "ALEX",
+      "ANIN",
+      "SHARON",
+      "KLAUDIA",
+      "KEVINSTOCK"
+     ],
+     "proposer": "SHARON",
+     "state": "REJECTED",
+     "team": [
+      "SHARON",
+      "ANIN",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "proposer": "ANIN",
+     "team": [
+      "ANIN",
+      "SHARON",
+      "KLAUDIA"
+     ],
+     "votes": [
+      "SHARON",
+      "KLAUDIA",
+      "KEVINSTOCK",
+      "ALEX",
+      "ANIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JET",
+      "KEVIN",
+      "OWEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "KEVIN",
+     "votes": [
+      "KLAUDIA",
+      "JET",
+      "ADAM",
+      "KEVINSTOCK",
+      "OWEN",
+      "SAM",
+      "KEVIN",
+      "ALEX",
+      "ANIN",
+      "SHARON"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "OWEN",
+      "JET",
+      "ADAM",
+      "SAM"
+     ],
+     "proposer": "OWEN",
+     "votes": [
+      "ADAM",
+      "SAM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JET",
+     "state": "REJECTED",
+     "team": [
+      "KEVINSTOCK",
+      "SAM",
+      "SHARON",
+      "OWEN"
+     ],
+     "votes": [
+      "KEVINSTOCK",
+      "OWEN",
+      "KEVIN"
+     ]
+    },
+    {
+     "proposer": "ALEX",
+     "team": [
+      "ALEX",
+      "JET",
+      "ANIN",
+      "SAM"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JET",
+      "ALEX",
+      "ANIN"
+     ]
+    },
+    {
+     "team": [
+      "SAM",
+      "KEVIN",
+      "OWEN",
+      "KLAUDIA"
+     ],
+     "proposer": "SAM",
+     "votes": [
+      "SAM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "KLAUDIA",
+      "ADAM",
+      "SAM",
+      "ALEX",
+      "KEVIN",
+      "ANIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANIN",
+      "ALEX",
+      "KLAUDIA",
+      "ADAM"
+     ],
+     "proposer": "ADAM"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "ANIN",
+    "ALEX",
+    "KLAUDIA",
+    "ADAM"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KEVINSTOCK",
+     "votes": [
+      "SHARON",
+      "KLAUDIA",
+      "JET",
+      "ADAM",
+      "KEVINSTOCK",
+      "OWEN"
+     ],
+     "team": [
+      "KEVINSTOCK",
+      "SHARON",
+      "ANIN",
+      "KLAUDIA"
+     ]
+    }
+   ],
+   "team": [
+    "KEVINSTOCK",
+    "SHARON",
+    "ANIN",
+    "KLAUDIA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "KEVINSTOCK",
+    "KLAUDIA",
+    "SHARON",
+    "ANIN",
+    "JET"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KLAUDIA",
+     "team": [
+      "KEVINSTOCK",
+      "KLAUDIA",
+      "SHARON",
+      "ANIN",
+      "JET"
+     ],
+     "votes": [
+      "KEVINSTOCK",
+      "OWEN",
+      "ANIN",
+      "SHARON",
+      "KLAUDIA",
+      "JET",
+      "ADAM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SHARON",
+      "KEVINSTOCK",
+      "OWEN",
+      "ANIN"
+     ],
+     "team": [
+      "KEVINSTOCK",
+      "KLAUDIA",
+      "SHARON",
+      "ANIN",
+      "OWEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "SHARON"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "SHARON",
+      "KEVINSTOCK",
+      "KLAUDIA",
+      "ANIN",
+      "OWEN"
+     ],
+     "proposer": "ANIN",
+     "votes": [
+      "JET",
+      "KEVINSTOCK",
+      "OWEN",
+      "SHARON",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "votes": [
+      "JET",
+      "KEVINSTOCK",
+      "OWEN",
+      "KLAUDIA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KEVINSTOCK",
+      "KLAUDIA",
+      "SHARON",
+      "ANIN",
+      "OWEN"
+     ],
+     "proposer": "KEVIN"
+    },
+    {
+     "votes": [
+      "KEVINSTOCK",
+      "OWEN",
+      "SAM",
+      "ANIN",
+      "SHARON",
+      "KLAUDIA"
+     ],
+     "team": [
+      "OWEN",
+      "ANIN",
+      "SHARON",
+      "KLAUDIA",
+      "KEVINSTOCK"
+     ],
+     "proposer": "OWEN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 5,
+   "team": [
+    "OWEN",
+    "ANIN",
+    "SHARON",
+    "KLAUDIA",
+    "KEVINSTOCK"
+   ]
+  }
+ ]
+}

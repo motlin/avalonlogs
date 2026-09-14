@@ -1,0 +1,205 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "SOULJABOY": true,
+    "GEORGIA": true
+   },
+   {
+    "BRIANNA": true,
+    "MARIANNE": false,
+    "SOULJABOY": true
+   },
+   {
+    "HANNAH": false,
+    "GEORGIA": true
+   },
+   {
+    "MARIANNE": false,
+    "SOULJABOY": true,
+    "BRIANNA": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "HANNAH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BRIANNA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "GEORGIA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SOULJABOY"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MARIANNE"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "team": [
+    "GEORGIA",
+    "SOULJABOY"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "BRIANNA",
+      "GEORGIA",
+      "MARIANNE"
+     ],
+     "team": [
+      "GEORGIA",
+      "SOULJABOY"
+     ],
+     "proposer": "GEORGIA",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "BRIANNA",
+      "SOULJABOY",
+      "MARIANNE"
+     ],
+     "proposer": "BRIANNA",
+     "votes": [
+      "HANNAH",
+      "BRIANNA",
+      "GEORGIA",
+      "SOULJABOY",
+      "MARIANNE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "BRIANNA",
+    "SOULJABOY",
+    "MARIANNE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "GEORGIA",
+      "HANNAH"
+     ],
+     "state": "APPROVED",
+     "proposer": "HANNAH",
+     "votes": [
+      "GEORGIA",
+      "SOULJABOY",
+      "MARIANNE",
+      "HANNAH"
+     ]
+    }
+   ],
+   "team": [
+    "GEORGIA",
+    "HANNAH"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SOULJABOY",
+     "votes": [
+      "GEORGIA",
+      "SOULJABOY",
+      "MARIANNE",
+      "HANNAH",
+      "BRIANNA"
+     ],
+     "team": [
+      "SOULJABOY",
+      "MARIANNE",
+      "BRIANNA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "SOULJABOY",
+    "MARIANNE",
+    "BRIANNA"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591403871,
+  "_nanoseconds": 214000000
+ },
+ "players": [
+  {
+   "name": "MARIANNE",
+   "uid": "CHcDgfCFI8bhUK8ia4PHH6flyLn2"
+  },
+  {
+   "uid": "FclA83RzzIMat31SwXjvDvEm1IN2",
+   "name": "GEORGIA"
+  },
+  {
+   "uid": "mIz1IF00ANSbfD635j8T2t4wbNi1",
+   "name": "BRIANNA"
+  },
+  {
+   "name": "HANNAH",
+   "uid": "foR6btPlUeTRAzffRUDUgy4dnMo1"
+  },
+  {
+   "uid": "VaNBhxQSnGUdaj3qInNgoly0hDU2",
+   "name": "SOULJABOY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591403585,
+  "_nanoseconds": 978000000
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "players": [
+  {
+   "name": "RONTHEDON",
+   "uid": "0rTAcu1opiTsNwzW0XRBUBaTdmI3"
+  },
+  {
+   "uid": "Wstt4g4WR8SqEmzVyksAqjvnHpa2",
+   "name": "ANAKA"
+  },
+  {
+   "name": "ROSHISPOSH",
+   "uid": "kspGkIQnRmfRNP2ZVRXYQfx87pp1"
+  },
+  {
+   "name": "RAMBALA",
+   "uid": "ibmz1jmg7IPhzZHmb9ydgVubV1I3"
+  },
+  {
+   "name": "KIJES",
+   "uid": "wZSh5VGq9JPbdov4mO6ssUfJDpF2"
+  },
+  {
+   "uid": "P2H3PKkhSAY8Cqb9HhIXDy8INZi2",
+   "name": "SOMA"
+  },
+  {
+   "uid": "w11VGAZZZreJKLs441OwR6YGFYp1",
+   "name": "TAIGAIKE"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "ROSHISPOSH",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "RONTHEDON"
+   },
+   {
+    "name": "ANAKA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ROSHISPOSH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "RAMBALA",
+    "role": "MORGANA"
+   },
+   {
+    "name": "TAIGAIKE",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "SOMA",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "KIJES"
+   }
+  ],
+  "votes": [
+   {
+    "RAMBALA": false,
+    "ANAKA": true
+   },
+   {
+    "TAIGAIKE": true,
+    "ROSHISPOSH": true,
+    "SOMA": true
+   },
+   {
+    "TAIGAIKE": true,
+    "ROSHISPOSH": true,
+    "SOMA": true
+   },
+   {
+    "ROSHISPOSH": true,
+    "TAIGAIKE": false,
+    "KIJES": true,
+    "SOMA": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "RAMBALA",
+     "state": "APPROVED",
+     "votes": [
+      "KIJES",
+      "RONTHEDON",
+      "ANAKA",
+      "ROSHISPOSH",
+      "RAMBALA",
+      "TAIGAIKE",
+      "SOMA"
+     ],
+     "team": [
+      "RAMBALA",
+      "ANAKA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "RAMBALA",
+    "ANAKA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ANAKA",
+      "ROSHISPOSH",
+      "RAMBALA",
+      "TAIGAIKE",
+      "SOMA",
+      "KIJES",
+      "RONTHEDON"
+     ],
+     "state": "APPROVED",
+     "proposer": "KIJES",
+     "team": [
+      "TAIGAIKE",
+      "SOMA",
+      "ROSHISPOSH"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "TAIGAIKE",
+    "SOMA",
+    "ROSHISPOSH"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "SOMA",
+    "TAIGAIKE",
+    "ROSHISPOSH"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "TAIGAIKE",
+      "SOMA",
+      "KIJES",
+      "RONTHEDON",
+      "ANAKA",
+      "ROSHISPOSH",
+      "RAMBALA"
+     ],
+     "team": [
+      "SOMA",
+      "TAIGAIKE",
+      "ROSHISPOSH"
+     ],
+     "proposer": "SOMA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "TAIGAIKE",
+    "SOMA",
+    "ROSHISPOSH",
+    "KIJES"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "TAIGAIKE",
+      "SOMA",
+      "ROSHISPOSH",
+      "KIJES"
+     ],
+     "proposer": "TAIGAIKE",
+     "state": "APPROVED",
+     "votes": [
+      "SOMA",
+      "KIJES",
+      "RONTHEDON",
+      "ANAKA",
+      "ROSHISPOSH",
+      "TAIGAIKE"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 1
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591472027,
+  "_nanoseconds": 997000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591471613,
+  "_nanoseconds": 516000000
+ }
+}

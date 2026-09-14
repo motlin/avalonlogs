@@ -1,0 +1,340 @@
+{
+ "timeFinished": {
+  "_seconds": 1596849807,
+  "_nanoseconds": 736000000
+ },
+ "players": [
+  {
+   "name": "ANDREW",
+   "uid": "OP4yeheff0bXznnVhMl2zxHeUdo2"
+  },
+  {
+   "uid": "XJpAkBjLmCXgWG8MaCvRgbkA1Bn2",
+   "name": "KEERTHI"
+  },
+  {
+   "uid": "3cKq6TsLmSeMaYxF8uLSS9JoDYj2",
+   "name": "ANT"
+  },
+  {
+   "uid": "vMh9CfiEKUS6khUdh8kUSo5SL3c2",
+   "name": "ARIANE"
+  },
+  {
+   "name": "CONOR",
+   "uid": "hTv4X162SmUYwylZvab4Ddz2NMX2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596848369,
+  "_nanoseconds": 374000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KEERTHI"
+   },
+   {
+    "role": "MORGANA",
+    "name": "ANT",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ANDREW",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ARIANE",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CONOR"
+   }
+  ],
+  "votes": [
+   {
+    "CONOR": true,
+    "ARIANE": true
+   },
+   {
+    "KEERTHI": true,
+    "CONOR": true,
+    "ARIANE": false
+   },
+   {
+    "ARIANE": false,
+    "KEERTHI": true
+   },
+   {
+    "CONOR": true,
+    "KEERTHI": true,
+    "ANT": true
+   },
+   {
+    "ANT": true,
+    "KEERTHI": true,
+    "CONOR": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "ANDREW"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "ARIANE",
+    "CONOR"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ANT",
+      "ARIANE",
+      "CONOR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ARIANE",
+      "CONOR"
+     ],
+     "proposer": "ARIANE"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ANT",
+      "KEERTHI",
+      "ARIANE",
+      "CONOR"
+     ],
+     "state": "APPROVED",
+     "proposer": "CONOR",
+     "team": [
+      "CONOR",
+      "KEERTHI",
+      "ARIANE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "CONOR",
+    "KEERTHI",
+    "ARIANE"
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANDREW",
+      "CONOR"
+     ],
+     "proposer": "ANDREW",
+     "state": "REJECTED",
+     "votes": [
+      "KEERTHI",
+      "ANT"
+     ]
+    },
+    {
+     "team": [
+      "KEERTHI",
+      "ARIANE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ARIANE",
+      "ANT",
+      "KEERTHI"
+     ],
+     "proposer": "KEERTHI"
+    }
+   ],
+   "team": [
+    "KEERTHI",
+    "ARIANE"
+   ],
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "KEERTHI",
+    "ANT",
+    "CONOR"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ANT",
+     "state": "REJECTED",
+     "votes": [
+      "ANT"
+     ],
+     "team": [
+      "ANT",
+      "KEERTHI",
+      "CONOR"
+     ]
+    },
+    {
+     "votes": [
+      "ANT",
+      "ARIANE"
+     ],
+     "team": [
+      "ARIANE",
+      "CONOR",
+      "ANDREW"
+     ],
+     "proposer": "ARIANE",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "CONOR",
+     "votes": [
+      "ARIANE",
+      "CONOR"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CONOR",
+      "ANT",
+      "ARIANE"
+     ]
+    },
+    {
+     "team": [
+      "ANDREW",
+      "KEERTHI",
+      "ANT"
+     ],
+     "proposer": "ANDREW",
+     "state": "REJECTED",
+     "votes": [
+      "ANDREW"
+     ]
+    },
+    {
+     "team": [
+      "KEERTHI",
+      "ANT",
+      "CONOR"
+     ],
+     "proposer": "KEERTHI",
+     "state": "APPROVED",
+     "votes": [
+      "ANT",
+      "CONOR",
+      "ARIANE",
+      "KEERTHI"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "KEERTHI",
+    "ANT",
+    "CONOR"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANT"
+     ],
+     "team": [
+      "KEERTHI",
+      "ANT",
+      "CONOR"
+     ],
+     "proposer": "ANT"
+    },
+    {
+     "votes": [
+      "ARIANE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANDREW",
+      "KEERTHI",
+      "ARIANE"
+     ],
+     "proposer": "ARIANE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CONOR",
+     "team": [
+      "ANT",
+      "ARIANE",
+      "CONOR"
+     ],
+     "votes": [
+      "ARIANE",
+      "CONOR"
+     ]
+    },
+    {
+     "proposer": "ANDREW",
+     "votes": [
+      "KEERTHI",
+      "ANDREW"
+     ],
+     "team": [
+      "ANDREW",
+      "KEERTHI",
+      "CONOR"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CONOR",
+      "ARIANE",
+      "ANT",
+      "KEERTHI"
+     ],
+     "team": [
+      "KEERTHI",
+      "ANT",
+      "CONOR"
+     ],
+     "proposer": "KEERTHI"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

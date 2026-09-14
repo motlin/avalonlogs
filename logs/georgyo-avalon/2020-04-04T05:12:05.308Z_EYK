@@ -1,0 +1,232 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "RENINI": true,
+    "JESS": true
+   },
+   {
+    "RENINI": true,
+    "JESS": true,
+    "MOCHI": true
+   },
+   {
+    "JESS": true,
+    "MOCHI": false,
+    "RENINI": true
+   },
+   {
+    "TIM": true,
+    "MOCHI": false,
+    "JESS": true,
+    "CASEY": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "TIM",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "MOCHI",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "CASEY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "COLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "GID"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JESS"
+   },
+   {
+    "role": "MERLIN",
+    "name": "RENINI",
+    "assassin": false
+   }
+  ],
+  "assassinated": "RENINI",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1585977355,
+  "_nanoseconds": 941206000
+ },
+ "players": [
+  {
+   "name": "JESS",
+   "uid": "kCt7hnrAfeU7XEeFrfZRwxkPytX2"
+  },
+  {
+   "uid": "f46hrrHShIgGipLo06rAKFkN3142",
+   "name": "RENINI"
+  },
+  {
+   "uid": "NCFB9cPIsnX3xtNmnsAdXUVpRUn2",
+   "name": "MOCHI"
+  },
+  {
+   "uid": "18woXz2FfeQdASbbUrspRCvQHUi1",
+   "name": "TIM"
+  },
+  {
+   "name": "COLIN",
+   "uid": "bh3gKSmGgfWDgCvKWeruOH5bVmy1"
+  },
+  {
+   "name": "GID",
+   "uid": "XBPGIBk6ujUBMBaqT9b9l2fGAtI2"
+  },
+  {
+   "uid": "6LUPzKtivbMjFWVn0OR7rohoo5a2",
+   "name": "CASEY"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "TIM",
+      "MOCHI",
+      "GID",
+      "JESS",
+      "RENINI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JESS",
+      "RENINI"
+     ],
+     "proposer": "JESS"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "JESS",
+    "RENINI"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "JESS",
+    "RENINI",
+    "MOCHI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "RENINI",
+     "state": "APPROVED",
+     "team": [
+      "JESS",
+      "RENINI",
+      "MOCHI"
+     ],
+     "votes": [
+      "TIM",
+      "MOCHI",
+      "CASEY",
+      "COLIN",
+      "GID",
+      "JESS",
+      "RENINI"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "MOCHI",
+     "votes": [
+      "TIM",
+      "MOCHI",
+      "CASEY",
+      "COLIN",
+      "GID",
+      "JESS",
+      "RENINI"
+     ],
+     "team": [
+      "JESS",
+      "RENINI",
+      "MOCHI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "JESS",
+    "RENINI",
+    "MOCHI"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "JESS",
+    "MOCHI",
+    "TIM",
+    "CASEY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TIM",
+      "MOCHI",
+      "COLIN",
+      "JESS"
+     ],
+     "team": [
+      "JESS",
+      "MOCHI",
+      "TIM",
+      "CASEY"
+     ],
+     "proposer": "TIM"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585977125,
+  "_nanoseconds": 308000000
+ }
+}

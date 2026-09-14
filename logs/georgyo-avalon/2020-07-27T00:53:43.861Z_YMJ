@@ -1,0 +1,285 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RYAN"
+   },
+   {
+    "name": "BRIAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "WILL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ADAM"
+   },
+   {
+    "name": "JACK",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DAULTON"
+   }
+  ],
+  "votes": [
+   {
+    "WILL": true,
+    "BRIAN": true
+   },
+   {
+    "WILL": true,
+    "RYAN": true,
+    "BRIAN": false
+   },
+   {
+    "DAULTON": true,
+    "RYAN": true,
+    "JACK": false,
+    "WILL": true
+   },
+   {
+    "ADAM": true,
+    "JACK": false,
+    "DAULTON": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1595811917,
+  "_nanoseconds": 621000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "JACK",
+      "DAULTON",
+      "RYAN",
+      "BRIAN",
+      "WILL"
+     ],
+     "team": [
+      "BRIAN",
+      "WILL"
+     ],
+     "proposer": "BRIAN"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "BRIAN",
+    "WILL"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DAULTON",
+      "RYAN",
+      "BRIAN",
+      "WILL"
+     ],
+     "team": [
+      "RYAN",
+      "BRIAN",
+      "WILL"
+     ],
+     "proposer": "RYAN",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "RYAN",
+    "BRIAN",
+    "WILL"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "RYAN",
+      "DAULTON"
+     ],
+     "team": [
+      "DAULTON",
+      "JACK",
+      "WILL",
+      "RYAN"
+     ],
+     "proposer": "DAULTON",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ADAM",
+      "JACK",
+      "DAULTON"
+     ],
+     "team": [
+      "JACK",
+      "ADAM",
+      "RYAN",
+      "DAULTON"
+     ],
+     "state": "REJECTED",
+     "proposer": "JACK"
+    },
+    {
+     "team": [
+      "JACK",
+      "ADAM",
+      "BRIAN",
+      "WILL"
+     ],
+     "proposer": "ADAM",
+     "state": "REJECTED",
+     "votes": [
+      "BRIAN",
+      "ADAM"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "WILL",
+     "votes": [
+      "RYAN",
+      "WILL",
+      "JACK",
+      "DAULTON"
+     ],
+     "team": [
+      "WILL",
+      "JACK",
+      "RYAN",
+      "DAULTON"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "WILL",
+    "JACK",
+    "RYAN",
+    "DAULTON"
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "BRIAN",
+      "ADAM",
+      "DAULTON"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "BRIAN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "RYAN",
+      "ADAM",
+      "JACK"
+     ],
+     "proposer": "RYAN",
+     "votes": []
+    },
+    {
+     "votes": [
+      "RYAN",
+      "BRIAN",
+      "WILL",
+      "JACK",
+      "DAULTON"
+     ],
+     "team": [
+      "DAULTON",
+      "ADAM",
+      "JACK"
+     ],
+     "proposer": "DAULTON",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DAULTON",
+    "ADAM",
+    "JACK"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JACK",
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2"
+  },
+  {
+   "name": "ADAM",
+   "uid": "fFCH4DQRTpUVCVrn3NNx99qhlZD3"
+  },
+  {
+   "name": "WILL",
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1"
+  },
+  {
+   "uid": "EHYfAoNoRMfUQVovgiSACfXd6nq2",
+   "name": "BRIAN"
+  },
+  {
+   "uid": "gAiRUjpSMlbOzGpCzUNPHhcdscG3",
+   "name": "RYAN"
+  },
+  {
+   "uid": "C58KNFd0vcdJEonDao29DeU4Tzk1",
+   "name": "DAULTON"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595811223,
+  "_nanoseconds": 861000000
+ }
+}

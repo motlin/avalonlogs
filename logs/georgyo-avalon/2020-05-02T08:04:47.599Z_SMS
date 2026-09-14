@@ -1,0 +1,262 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588406687,
+  "_nanoseconds": 599000000
+ },
+ "players": [
+  {
+   "name": "SASA",
+   "uid": "RdWyDFt1wjgMtfCzE8jJhHsVzZr2"
+  },
+  {
+   "uid": "aFMsf9BmvmT8UsbBmnGjiauAAXc2",
+   "name": "MARC"
+  },
+  {
+   "uid": "ofsJiwY8M7RGr9OParPygu6eOMl2",
+   "name": "MOONSTONE"
+  },
+  {
+   "uid": "7txfLPGHklbkkW5oRqhakBXF4Ta2",
+   "name": "SIMIANWARE"
+  },
+  {
+   "name": "ANTONIS",
+   "uid": "prWhmTrKUrb3JCD7BIXccyRgNZk1"
+  },
+  {
+   "uid": "WJTahOj9WZdGyoXV7aoTGTphvc22",
+   "name": "MATT"
+  },
+  {
+   "name": "LISA",
+   "uid": "hHVlD413iDZm5A5KmuTpRmEKJ6i1"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SASA",
+      "LISA"
+     ],
+     "proposer": "ANTONIS",
+     "votes": [
+      "MARC",
+      "MOONSTONE",
+      "SASA",
+      "ANTONIS",
+      "LISA"
+     ]
+    }
+   ],
+   "team": [
+    "SASA",
+    "LISA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "SIMIANWARE",
+      "MARC",
+      "SASA",
+      "MATT",
+      "ANTONIS",
+      "LISA"
+     ],
+     "state": "APPROVED",
+     "proposer": "MATT",
+     "team": [
+      "LISA",
+      "MATT",
+      "MOONSTONE"
+     ]
+    }
+   ],
+   "team": [
+    "LISA",
+    "MATT",
+    "MOONSTONE"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "LISA",
+     "team": [
+      "LISA",
+      "ANTONIS",
+      "MARC"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MOONSTONE",
+      "SASA",
+      "MATT",
+      "ANTONIS",
+      "LISA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "LISA",
+    "ANTONIS",
+    "MARC"
+   ]
+  },
+  {
+   "team": [
+    "SASA",
+    "MARC",
+    "MATT",
+    "SIMIANWARE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SASA",
+     "votes": [
+      "LISA",
+      "SIMIANWARE",
+      "MOONSTONE",
+      "SASA",
+      "ANTONIS"
+     ],
+     "team": [
+      "SASA",
+      "MARC",
+      "MATT",
+      "SIMIANWARE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "SIMIANWARE",
+    "MARC",
+    "ANTONIS",
+    "SASA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SASA",
+      "ANTONIS",
+      "SIMIANWARE",
+      "MARC"
+     ],
+     "proposer": "MARC",
+     "state": "APPROVED",
+     "team": [
+      "SIMIANWARE",
+      "MARC",
+      "ANTONIS",
+      "SASA"
+     ]
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588408093,
+  "_nanoseconds": 222000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MARC"
+   },
+   {
+    "name": "MOONSTONE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SASA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MATT",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANTONIS"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LISA",
+    "assassin": false
+   },
+   {
+    "name": "SIMIANWARE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "MARC",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "SASA": true,
+    "LISA": true
+   },
+   {
+    "MOONSTONE": true,
+    "MATT": true,
+    "LISA": false
+   },
+   {
+    "MARC": true,
+    "ANTONIS": true,
+    "LISA": false
+   },
+   {
+    "MATT": true,
+    "MARC": true,
+    "SASA": true,
+    "SIMIANWARE": true
+   },
+   {
+    "SIMIANWARE": true,
+    "SASA": true,
+    "ANTONIS": true,
+    "MARC": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

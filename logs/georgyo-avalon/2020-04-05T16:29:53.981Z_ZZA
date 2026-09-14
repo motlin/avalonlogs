@@ -1,0 +1,261 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "BRANDI": true,
+    "SAM": true
+   },
+   {
+    "ZZA": true,
+    "CAROL": true,
+    "BRANDI": true
+   },
+   {
+    "BEN": true,
+    "ZZA": true,
+    "CAROL": false,
+    "BRANDI": true
+   },
+   {
+    "SAM": true,
+    "BRANDI": true,
+    "ZZA": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "GURU"
+   },
+   {
+    "name": "SAM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BEN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "ZZA",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "BRANDI"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "CAROL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "BEN"
+ },
+ "players": [
+  {
+   "uid": "qfxHMKOC34YgXovzQuSH2lNT0ic2",
+   "name": "BEN"
+  },
+  {
+   "name": "BRANDI",
+   "uid": "KR1VPw8z7fWr2KmhJZY0YlcFEQJ3"
+  },
+  {
+   "uid": "eXwaxL4jeMeJBgT8rIc061jWIM22",
+   "name": "CAROL"
+  },
+  {
+   "name": "GURU",
+   "uid": "q0hQ1XUSJhchzpU8KJFpVaat4Au1"
+  },
+  {
+   "uid": "dvTgs7wShBcAS89U44YdJ3e0VEF3",
+   "name": "SAM"
+  },
+  {
+   "uid": "Xo1yf7Z1QxVaXLd9PAC40dhSjTr2",
+   "name": "ZZA"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ZZA",
+      "BRANDI",
+      "CAROL",
+      "GURU",
+      "SAM",
+      "BEN"
+     ],
+     "team": [
+      "BRANDI",
+      "SAM"
+     ],
+     "state": "APPROVED",
+     "proposer": "GURU"
+    }
+   ],
+   "team": [
+    "BRANDI",
+    "SAM"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "BRANDI",
+    "CAROL",
+    "ZZA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CAROL",
+      "SAM",
+      "BRANDI"
+     ],
+     "state": "REJECTED",
+     "proposer": "SAM",
+     "team": [
+      "SAM",
+      "CAROL",
+      "ZZA"
+     ]
+    },
+    {
+     "team": [
+      "ZZA",
+      "CAROL",
+      "BRANDI"
+     ],
+     "state": "REJECTED",
+     "proposer": "ZZA",
+     "votes": [
+      "ZZA",
+      "BRANDI",
+      "CAROL"
+     ]
+    },
+    {
+     "votes": [
+      "ZZA",
+      "SAM",
+      "BEN"
+     ],
+     "proposer": "BEN",
+     "state": "REJECTED",
+     "team": [
+      "BEN",
+      "SAM",
+      "GURU"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BRANDI",
+     "team": [
+      "BRANDI",
+      "CAROL",
+      "ZZA"
+     ],
+     "votes": [
+      "SAM",
+      "ZZA",
+      "BRANDI",
+      "CAROL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CAROL",
+     "votes": [
+      "CAROL",
+      "BEN",
+      "ZZA",
+      "BRANDI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CAROL",
+      "BRANDI",
+      "BEN",
+      "ZZA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "CAROL",
+    "BRANDI",
+    "BEN",
+    "ZZA"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "BRANDI",
+      "SAM",
+      "ZZA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GURU",
+      "SAM",
+      "BEN",
+      "ZZA",
+      "CAROL"
+     ],
+     "proposer": "GURU"
+    }
+   ],
+   "team": [
+    "BRANDI",
+    "SAM",
+    "ZZA"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586104686,
+  "_nanoseconds": 526474000
+ },
+ "timeCreated": {
+  "_seconds": 1586104193,
+  "_nanoseconds": 981000000
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "TARJ",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ADELIGENTO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "RONAR"
+   },
+   {
+    "name": "MITA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PREEYA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "LAUREN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "ERIC"
+   }
+  ],
+  "votes": [
+   {
+    "PREEYA": true,
+    "TARJ": true
+   },
+   {
+    "RONAR": false,
+    "TARJ": true,
+    "PREEYA": true
+   },
+   {
+    "RONAR": false,
+    "ADELIGENTO": true,
+    "TARJ": true
+   },
+   {
+    "ADELIGENTO": true,
+    "MITA": false,
+    "PREEYA": true,
+    "ERIC": true
+   },
+   {
+    "LAUREN": true,
+    "PREEYA": true,
+    "ADELIGENTO": true,
+    "MITA": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1602287369,
+  "_nanoseconds": 980000000
+ },
+ "players": [
+  {
+   "name": "TARJ",
+   "uid": "IrgGgmAa9PgtIGY6eYuFqywdBi82"
+  },
+  {
+   "name": "LAUREN",
+   "uid": "8MC7HRuJZfUcROPPuzOPvAr8ZnC3"
+  },
+  {
+   "name": "PREEYA",
+   "uid": "1mEASkaTfIUMrsDvFPj1kd65Plm2"
+  },
+  {
+   "name": "RONAR",
+   "uid": "Z69rsSkcoOYmYRAr3F646WWQzlx1"
+  },
+  {
+   "uid": "FGO6WC8LISdIEeEuUZ8xzza4mX82",
+   "name": "ADELIGENTO"
+  },
+  {
+   "uid": "MN5FrqSZiLVGGXc2A4qIwiaIxpX2",
+   "name": "MITA"
+  },
+  {
+   "name": "ERIC",
+   "uid": "jA5WHJKeZ0NWM9RSDtwhWcAnFr42"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "PREEYA",
+    "TARJ"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PREEYA",
+      "TARJ"
+     ],
+     "proposer": "PREEYA",
+     "votes": [
+      "LAUREN",
+      "RONAR",
+      "PREEYA",
+      "ADELIGENTO",
+      "TARJ",
+      "MITA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MITA",
+      "RONAR",
+      "ADELIGENTO",
+      "PREEYA",
+      "ERIC",
+      "TARJ"
+     ],
+     "proposer": "RONAR",
+     "team": [
+      "PREEYA",
+      "TARJ",
+      "RONAR"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PREEYA",
+    "TARJ",
+    "RONAR"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ADELIGENTO",
+      "RONAR",
+      "TARJ"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADELIGENTO",
+      "TARJ",
+      "ERIC",
+      "PREEYA",
+      "MITA",
+      "RONAR"
+     ],
+     "proposer": "ADELIGENTO"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "ADELIGENTO",
+    "RONAR",
+    "TARJ"
+   ]
+  },
+  {
+   "team": [
+    "ERIC",
+    "MITA",
+    "ADELIGENTO",
+    "PREEYA"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ERIC",
+      "MITA",
+      "ADELIGENTO",
+      "PREEYA"
+     ],
+     "votes": [
+      "MITA",
+      "ERIC",
+      "RONAR",
+      "ADELIGENTO"
+     ],
+     "proposer": "MITA"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 2
+  },
+  {
+   "team": [
+    "LAUREN",
+    "PREEYA",
+    "MITA",
+    "ADELIGENTO"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "LAUREN",
+      "PREEYA",
+      "MITA",
+      "ADELIGENTO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MITA",
+      "RONAR",
+      "LAUREN",
+      "ERIC"
+     ],
+     "proposer": "ERIC"
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1602286697,
+  "_nanoseconds": 107000000
+ }
+}

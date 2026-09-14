@@ -1,0 +1,221 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "FAHEEM",
+   "uid": "k04SqWCeh7VKNbhWUUKOMzYepxK2"
+  },
+  {
+   "name": "DREVIL",
+   "uid": "B19DtdmNnKhmAD5EdnZuYGRrbeu2"
+  },
+  {
+   "name": "PETER",
+   "uid": "CMMO7gIesgfmdHE3zHlPik6bpZt1"
+  },
+  {
+   "name": "BESTPETER",
+   "uid": "yfIwCbb5nvZn98OUABDOQixK3Eb2"
+  },
+  {
+   "name": "PETERGGGGG",
+   "uid": "0E15goi5wwhYQDXlgoTXrhTucv33"
+  },
+  {
+   "name": "MARIUS",
+   "uid": "xKDmB6yllZRu91QrCs4oK13WhFx1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596912814,
+  "_nanoseconds": 967000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "MARIUS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "DREVIL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BESTPETER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "PETER"
+   },
+   {
+    "assassin": false,
+    "name": "PETERGGGGG",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "FAHEEM",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "PETER": false,
+    "DREVIL": true
+   },
+   {
+    "PETERGGGGG": true,
+    "BESTPETER": true,
+    "DREVIL": true
+   },
+   {
+    "BESTPETER": true,
+    "DREVIL": true,
+    "PETERGGGGG": true,
+    "MARIUS": true
+   },
+   {
+    "FAHEEM": true,
+    "PETERGGGGG": true,
+    "PETER": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "PETERGGGGG"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "FAHEEM",
+      "MARIUS",
+      "PETER",
+      "BESTPETER"
+     ],
+     "team": [
+      "DREVIL",
+      "PETER"
+     ],
+     "state": "APPROVED",
+     "proposer": "DREVIL"
+    }
+   ],
+   "team": [
+    "DREVIL",
+    "PETER"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DREVIL",
+      "MARIUS",
+      "PETERGGGGG",
+      "PETER",
+      "FAHEEM",
+      "BESTPETER"
+     ],
+     "team": [
+      "DREVIL",
+      "BESTPETER",
+      "PETERGGGGG"
+     ],
+     "proposer": "PETER"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DREVIL",
+    "BESTPETER",
+    "PETERGGGGG"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PETERGGGGG",
+      "BESTPETER",
+      "DREVIL",
+      "MARIUS"
+     ],
+     "votes": [
+      "DREVIL",
+      "PETER",
+      "BESTPETER",
+      "MARIUS"
+     ],
+     "state": "APPROVED",
+     "proposer": "BESTPETER"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "PETERGGGGG",
+    "BESTPETER",
+    "DREVIL",
+    "MARIUS"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "PETERGGGGG",
+      "FAHEEM",
+      "PETER"
+     ],
+     "state": "APPROVED",
+     "proposer": "PETERGGGGG",
+     "votes": [
+      "DREVIL",
+      "FAHEEM",
+      "MARIUS",
+      "BESTPETER"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "PETERGGGGG",
+    "FAHEEM",
+    "PETER"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596913900,
+  "_nanoseconds": 742000000
+ }
+}

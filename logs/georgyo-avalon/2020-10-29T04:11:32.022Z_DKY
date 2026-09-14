@@ -1,0 +1,345 @@
+{
+ "timeCreated": {
+  "_seconds": 1603944692,
+  "_nanoseconds": 22000000
+ },
+ "timeFinished": {
+  "_seconds": 1603946115,
+  "_nanoseconds": 940000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JON"
+   },
+   {
+    "assassin": false,
+    "name": "ZOINK",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "EUBAD",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "DABID"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRIS"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "DAVE"
+   },
+   {
+    "name": "SORA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "RAKE",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AUSTIN"
+   }
+  ],
+  "votes": [
+   {
+    "DABID": true,
+    "JON": true,
+    "AUSTIN": true
+   },
+   {
+    "SORA": true,
+    "DABID": true,
+    "AUSTIN": true,
+    "ZOINK": true
+   },
+   {
+    "SORA": true,
+    "DABID": true,
+    "ZOINK": true,
+    "EUBAD": false
+   },
+   {
+    "ZOINK": true,
+    "AUSTIN": true,
+    "RAKE": false,
+    "SORA": true,
+    "DAVE": false
+   },
+   {
+    "ZOINK": true,
+    "AUSTIN": true,
+    "DABID": true,
+    "SORA": true,
+    "CHRIS": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "JON",
+  "state": "EVIL_WIN"
+ },
+ "players": [
+  {
+   "uid": "K6n5ZwinJFYYmcrVlyhDGV3lIiB3",
+   "name": "AUSTIN"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "zwgDpleRYnawDDM40a0sAEb3BnC2"
+  },
+  {
+   "name": "DAVE",
+   "uid": "8g7YRpV0HJYG6KxE9pcVwEw0TGd2"
+  },
+  {
+   "name": "EUBAD",
+   "uid": "rl3AwEXHHmUGDgnRkKY7nXAlTDH2"
+  },
+  {
+   "uid": "h4yVQ8x0j1YbFY2H1lsPB4bOkUg1",
+   "name": "RAKE"
+  },
+  {
+   "name": "SORA",
+   "uid": "cWDlfGdkKwhimFb8FCjFDy6nYM23"
+  },
+  {
+   "name": "DABID",
+   "uid": "4u2kYJRmBXRqIwSOFjiiyChiKho2"
+  },
+  {
+   "name": "JON",
+   "uid": "p1p2zNvE76QGzg4Csr8I4dCAPFI3"
+  },
+  {
+   "name": "ZOINK",
+   "uid": "OYymiqyo35hbVMtINwv90LtSyBy1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JON",
+      "DABID",
+      "EUBAD",
+      "SORA",
+      "RAKE"
+     ],
+     "team": [
+      "AUSTIN",
+      "JON",
+      "DABID"
+     ],
+     "proposer": "JON",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "AUSTIN",
+    "JON",
+    "DABID"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ZOINK",
+    "AUSTIN",
+    "SORA",
+    "DABID"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ZOINK",
+      "AUSTIN",
+      "SORA",
+      "DABID"
+     ],
+     "votes": [
+      "JON",
+      "SORA",
+      "DABID",
+      "EUBAD",
+      "ZOINK"
+     ],
+     "proposer": "ZOINK",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "DABID",
+      "SORA",
+      "ZOINK",
+      "EUBAD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RAKE",
+      "SORA",
+      "ZOINK",
+      "DAVE",
+      "EUBAD"
+     ],
+     "proposer": "AUSTIN"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "DABID",
+    "SORA",
+    "ZOINK",
+    "EUBAD"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "CHRIS",
+     "team": [
+      "CHRIS",
+      "JON",
+      "DABID",
+      "AUSTIN",
+      "SORA"
+     ],
+     "votes": [
+      "JON",
+      "CHRIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "CHRIS",
+      "EUBAD",
+      "DAVE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DAVE",
+      "RAKE",
+      "CHRIS",
+      "ZOINK",
+      "DABID"
+     ],
+     "proposer": "DAVE"
+    },
+    {
+     "team": [
+      "CHRIS",
+      "DAVE",
+      "RAKE",
+      "DABID",
+      "AUSTIN"
+     ],
+     "votes": [
+      "CHRIS",
+      "JON",
+      "DAVE",
+      "EUBAD"
+     ],
+     "state": "REJECTED",
+     "proposer": "EUBAD"
+    },
+    {
+     "votes": [
+      "RAKE",
+      "DAVE",
+      "DABID",
+      "AUSTIN",
+      "SORA",
+      "EUBAD"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AUSTIN",
+      "DAVE",
+      "ZOINK",
+      "SORA",
+      "RAKE"
+     ],
+     "proposer": "RAKE"
+    }
+   ],
+   "team": [
+    "AUSTIN",
+    "DAVE",
+    "ZOINK",
+    "SORA",
+    "RAKE"
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "state": "FAIL",
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SORA",
+      "ZOINK",
+      "AUSTIN",
+      "DABID",
+      "CHRIS"
+     ],
+     "votes": [
+      "SORA",
+      "JON",
+      "DABID",
+      "CHRIS",
+      "ZOINK",
+      "AUSTIN"
+     ],
+     "proposer": "SORA"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "SORA",
+    "ZOINK",
+    "AUSTIN",
+    "DABID",
+    "CHRIS"
+   ],
+   "numFails": 0,
+   "teamSize": 5
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "PAIL",
+     "team": [
+      "PAIL",
+      "EX"
+     ],
+     "votes": [
+      "BROWN",
+      "ANAND",
+      "EX",
+      "WILL",
+      "BIBBSRIBS",
+      "PAIL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PAIL",
+    "EX"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "BROWN",
+    "EX",
+    "WILL"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "BROWN",
+     "state": "APPROVED",
+     "team": [
+      "BROWN",
+      "EX",
+      "WILL"
+     ],
+     "votes": [
+      "ANAND",
+      "EX",
+      "WILL",
+      "BROWN",
+      "BIBBSRIBS"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ANAND",
+      "BIBBSRIBS",
+      "PAIL",
+      "WILL"
+     ],
+     "votes": [
+      "BIBBSRIBS",
+      "BROWN",
+      "WILL",
+      "ANAND"
+     ],
+     "state": "APPROVED",
+     "proposer": "WILL"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ANAND",
+    "BIBBSRIBS",
+    "PAIL",
+    "WILL"
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "ANAND",
+    "BIBBSRIBS",
+    "PAIL"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ANAND",
+     "votes": [
+      "ANAND",
+      "BIBBSRIBS",
+      "BROWN",
+      "WILL",
+      "PAIL"
+     ],
+     "team": [
+      "ANAND",
+      "BIBBSRIBS",
+      "PAIL"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "BIBBSRIBS",
+    "BROWN",
+    "PAIL",
+    "EX"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "BIBBSRIBS",
+      "BROWN",
+      "PAIL",
+      "EX"
+     ],
+     "votes": [
+      "PAIL",
+      "EX",
+      "BIBBSRIBS",
+      "BROWN"
+     ],
+     "proposer": "BIBBSRIBS",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "ANAND",
+   "uid": "5PIMqoYxksaNFhOMC7CU3ZHRoRu2"
+  },
+  {
+   "name": "BIBBSRIBS",
+   "uid": "ha13KWv86GcxGL0QoubOYYDohmU2"
+  },
+  {
+   "uid": "qxtQnzzURCX5yMWhjSzRFJs0t7n2",
+   "name": "EX"
+  },
+  {
+   "name": "PAIL",
+   "uid": "gQZgLxgOHIZ0OhO9fMWm7O9HNz42"
+  },
+  {
+   "name": "BROWN",
+   "uid": "5T1Uzi7nrRecaXsv1pitDMtk3Ef2"
+  },
+  {
+   "name": "WILL",
+   "uid": "gR3uaPqRCteBifVza5NrmT4xRpt1"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "BIBBSRIBS",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BROWN"
+   },
+   {
+    "assassin": false,
+    "name": "EX",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "PAIL",
+    "role": "MERLIN"
+   },
+   {
+    "name": "WILL",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "BIBBSRIBS"
+   },
+   {
+    "assassin": true,
+    "name": "ANAND",
+    "role": "MORDRED"
+   }
+  ],
+  "votes": [
+   {
+    "PAIL": true,
+    "EX": true
+   },
+   {
+    "WILL": false,
+    "BROWN": true,
+    "EX": true
+   },
+   {
+    "WILL": true,
+    "BIBBSRIBS": true,
+    "PAIL": true,
+    "ANAND": true
+   },
+   {
+    "ANAND": false,
+    "BIBBSRIBS": true,
+    "PAIL": true
+   },
+   {
+    "BROWN": true,
+    "BIBBSRIBS": true,
+    "EX": true,
+    "PAIL": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1610943878,
+  "_nanoseconds": 253000000
+ },
+ "timeCreated": {
+  "_seconds": 1610942626,
+  "_nanoseconds": 12000000
+ }
+}

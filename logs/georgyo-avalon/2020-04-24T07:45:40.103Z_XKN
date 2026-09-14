@@ -1,0 +1,313 @@
+{
+ "timeFinished": {
+  "_seconds": 1587715309,
+  "_nanoseconds": 349000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "DAVID": true,
+    "SUSHI": true,
+    "DAVE": true
+   },
+   {
+    "DAVE": true,
+    "MEG": true,
+    "SUSHI": true,
+    "DAVID": true
+   },
+   {
+    "SUSHI": false,
+    "DAVE": true,
+    "MEG": true,
+    "DAVID": true
+   },
+   {
+    "DAVID": true,
+    "DAVE": true,
+    "MEG": true,
+    "SUSHI": false,
+    "LEANNE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "LEANNE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DENNIS"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GRACEWHO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LOONG",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MEG"
+   },
+   {
+    "name": "RAY",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DAVE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DAVID"
+   },
+   {
+    "name": "SUSHI",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "SUSHI",
+    "DAVE",
+    "DAVID"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MEG",
+      "DAVE",
+      "SUSHI",
+      "GRACEWHO"
+     ],
+     "state": "REJECTED",
+     "proposer": "DENNIS",
+     "team": [
+      "LOONG",
+      "GRACEWHO",
+      "MEG"
+     ]
+    },
+    {
+     "votes": [
+      "LOONG",
+      "DAVE",
+      "DAVID",
+      "SUSHI",
+      "LEANNE",
+      "GRACEWHO"
+     ],
+     "proposer": "GRACEWHO",
+     "state": "APPROVED",
+     "team": [
+      "SUSHI",
+      "DAVE",
+      "DAVID"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "MEG",
+    "DAVID",
+    "DAVE",
+    "SUSHI"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SUSHI",
+      "LEANNE",
+      "GRACEWHO"
+     ],
+     "team": [
+      "MEG",
+      "RAY",
+      "LEANNE",
+      "GRACEWHO"
+     ],
+     "proposer": "LOONG",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MEG",
+      "DAVE",
+      "DAVID",
+      "SUSHI",
+      "DENNIS",
+      "GRACEWHO"
+     ],
+     "team": [
+      "MEG",
+      "DAVID",
+      "DAVE",
+      "SUSHI"
+     ],
+     "proposer": "MEG",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GRACEWHO",
+      "LOONG",
+      "MEG",
+      "RAY",
+      "DAVE",
+      "DAVID",
+      "SUSHI",
+      "LEANNE"
+     ],
+     "proposer": "RAY",
+     "team": [
+      "DAVID",
+      "DAVE",
+      "SUSHI",
+      "MEG"
+     ]
+    }
+   ],
+   "team": [
+    "DAVID",
+    "DAVE",
+    "SUSHI",
+    "MEG"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "team": [
+    "LEANNE",
+    "MEG",
+    "DAVID",
+    "SUSHI",
+    "DAVE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "DAVID",
+     "team": [
+      "DAVID",
+      "RAY",
+      "DAVE",
+      "DENNIS",
+      "GRACEWHO"
+     ],
+     "votes": [
+      "DAVE",
+      "DAVID",
+      "GRACEWHO"
+     ]
+    },
+    {
+     "team": [
+      "LEANNE",
+      "MEG",
+      "DAVID",
+      "SUSHI",
+      "DAVE"
+     ],
+     "state": "APPROVED",
+     "proposer": "LEANNE",
+     "votes": [
+      "DAVE",
+      "DAVID",
+      "LEANNE",
+      "GRACEWHO",
+      "MEG"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 5,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "LOONG",
+   "uid": "RVcuHfDkDlRrRC7f0GIBNJTrBp53"
+  },
+  {
+   "uid": "Eb6kfMlTsWNiTQ4VbICrVqwCi5s1",
+   "name": "MEG"
+  },
+  {
+   "uid": "cVP48rDOzyY0YtVeXRdkai1INr53",
+   "name": "RAY"
+  },
+  {
+   "name": "DAVID",
+   "uid": "QKvQ8xjx3tfP9qi7tWnluzcyvjY2"
+  },
+  {
+   "uid": "wjJdesaiMaRxbYtQFWjW8BUHNKr1",
+   "name": "LEANNE"
+  },
+  {
+   "uid": "Qhge8kcoqhbhubpp2rtQSM95AqU2",
+   "name": "DAVE"
+  },
+  {
+   "name": "SUSHI",
+   "uid": "28ZzvGYVTESZKGop7g9d6CNbdlg1"
+  },
+  {
+   "name": "DENNIS",
+   "uid": "XSSNdr8pbnfvWnvYCuvpS1BIoIe2"
+  },
+  {
+   "name": "GRACEWHO",
+   "uid": "nU0ibRRxZBSopFEM6Kj6TYfvAUm1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587714340,
+  "_nanoseconds": 103000000
+ }
+}

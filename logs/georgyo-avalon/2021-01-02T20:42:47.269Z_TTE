@@ -1,0 +1,275 @@
+{
+ "timeCreated": {
+  "_seconds": 1609620167,
+  "_nanoseconds": 269000000
+ },
+ "players": [
+  {
+   "uid": "zH62FhdO93fgue6xy1GZiX6emJC3",
+   "name": "BRIAN"
+  },
+  {
+   "name": "BRUCE",
+   "uid": "UDW0LpRg2STjoxnExy4LaQCHg0s1"
+  },
+  {
+   "uid": "Q5qgYH7iT4NHnj6MNsv7W605RUf1",
+   "name": "JOE"
+  },
+  {
+   "name": "HU",
+   "uid": "rhReFTrGCIW29G5PPpSOEmovGF02"
+  },
+  {
+   "name": "MAYKO",
+   "uid": "HHItKdP7xvdDetulD1pTHKA1wok2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "BRIAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HU",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "BRUCE",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JOE",
+    "assassin": false
+   },
+   {
+    "name": "MAYKO",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "BRIAN": true,
+    "MAYKO": true
+   },
+   {
+    "MAYKO": true,
+    "JOE": true,
+    "BRIAN": true
+   },
+   {
+    "MAYKO": false,
+    "BRIAN": true
+   },
+   {
+    "BRIAN": true,
+    "BRUCE": false,
+    "JOE": true
+   },
+   {
+    "BRIAN": true,
+    "JOE": true,
+    "HU": true
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "MAYKO",
+      "BRIAN"
+     ],
+     "proposer": "MAYKO",
+     "votes": [
+      "MAYKO",
+      "BRIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BRIAN",
+      "BRUCE"
+     ],
+     "proposer": "BRIAN",
+     "state": "REJECTED",
+     "votes": [
+      "BRIAN",
+      "JOE"
+     ]
+    },
+    {
+     "votes": [
+      "MAYKO",
+      "BRUCE",
+      "JOE",
+      "BRIAN"
+     ],
+     "team": [
+      "BRIAN",
+      "MAYKO"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRUCE"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "BRIAN",
+    "MAYKO"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BRIAN",
+    "MAYKO",
+    "JOE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BRIAN",
+      "MAYKO",
+      "JOE"
+     ],
+     "state": "APPROVED",
+     "proposer": "JOE",
+     "votes": [
+      "BRIAN",
+      "MAYKO",
+      "JOE",
+      "BRUCE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HU",
+     "votes": [
+      "BRUCE",
+      "BRIAN",
+      "HU",
+      "JOE"
+     ],
+     "team": [
+      "BRIAN",
+      "MAYKO"
+     ]
+    }
+   ],
+   "team": [
+    "BRIAN",
+    "MAYKO"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MAYKO"
+     ],
+     "proposer": "MAYKO",
+     "state": "REJECTED",
+     "team": [
+      "JOE",
+      "HU",
+      "MAYKO"
+     ]
+    },
+    {
+     "votes": [
+      "JOE",
+      "BRIAN",
+      "BRUCE"
+     ],
+     "proposer": "BRIAN",
+     "team": [
+      "BRUCE",
+      "BRIAN",
+      "JOE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BRUCE",
+    "BRIAN",
+    "JOE"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "BRUCE",
+      "JOE",
+      "HU"
+     ],
+     "proposer": "BRUCE"
+    },
+    {
+     "votes": [
+      "MAYKO",
+      "JOE",
+      "HU",
+      "BRIAN"
+     ],
+     "team": [
+      "HU",
+      "JOE",
+      "BRIAN"
+     ],
+     "proposer": "JOE",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "HU",
+    "JOE",
+    "BRIAN"
+   ],
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609621366,
+  "_nanoseconds": 949000000
+ }
+}

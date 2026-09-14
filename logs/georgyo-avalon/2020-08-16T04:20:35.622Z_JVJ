@@ -1,0 +1,288 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "PICKLEBOI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NATHAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CHRIS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "WILL",
+    "assassin": false
+   },
+   {
+    "name": "MAGGIE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "BEN"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CHRIS": true,
+    "MAGGIE": true
+   },
+   {
+    "WILL": true,
+    "MAGGIE": false,
+    "CHRIS": true
+   },
+   {
+    "MAGGIE": false,
+    "NATHAN": true,
+    "PICKLEBOI": true,
+    "CHRIS": true
+   },
+   {
+    "BEN": false,
+    "NATHAN": true,
+    "WILL": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "kLcA2vNNH7N9dUmvlsAaRIoryUO2",
+   "name": "BEN"
+  },
+  {
+   "uid": "jeWwT2iLauOBK1EWkm8HEA0LF5h1",
+   "name": "NATHAN"
+  },
+  {
+   "uid": "Mlj1qcrbbPh3rdp4IXOSSGUH1it1",
+   "name": "CHRIS"
+  },
+  {
+   "uid": "cgZpimDaXVhA6iQgzqxARiSpF3G2",
+   "name": "MAGGIE"
+  },
+  {
+   "name": "WILL",
+   "uid": "pnzBIItauTYXwhKIOBla3vY79oX2"
+  },
+  {
+   "uid": "KzT00XSSEjdTKXa0SSMsagAlPqt1",
+   "name": "PICKLEBOI"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1597554325,
+  "_nanoseconds": 183000000
+ },
+ "timeCreated": {
+  "_seconds": 1597551635,
+  "_nanoseconds": 622000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHRIS",
+    "MAGGIE"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CHRIS",
+      "MAGGIE"
+     ],
+     "proposer": "CHRIS",
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "PICKLEBOI",
+      "WILL",
+      "MAGGIE",
+      "NATHAN",
+      "BEN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "MAGGIE",
+    "CHRIS",
+    "WILL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MAGGIE",
+      "CHRIS",
+      "WILL"
+     ],
+     "votes": [
+      "MAGGIE",
+      "WILL",
+      "NATHAN",
+      "CHRIS",
+      "PICKLEBOI"
+     ],
+     "state": "APPROVED",
+     "proposer": "MAGGIE"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "PICKLEBOI",
+    "CHRIS",
+    "NATHAN",
+    "MAGGIE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "WILL",
+      "NATHAN",
+      "BEN",
+      "MAGGIE"
+     ],
+     "proposer": "WILL",
+     "state": "REJECTED",
+     "votes": [
+      "WILL",
+      "NATHAN",
+      "MAGGIE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "PICKLEBOI",
+      "CHRIS",
+      "NATHAN",
+      "MAGGIE"
+     ],
+     "votes": [
+      "MAGGIE",
+      "NATHAN",
+      "PICKLEBOI",
+      "CHRIS"
+     ],
+     "proposer": "PICKLEBOI"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "BEN",
+     "state": "REJECTED",
+     "votes": [
+      "MAGGIE"
+     ],
+     "team": [
+      "BEN",
+      "WILL",
+      "NATHAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "NATHAN",
+      "CHRIS",
+      "MAGGIE"
+     ],
+     "proposer": "NATHAN"
+    },
+    {
+     "votes": [
+      "NATHAN",
+      "CHRIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CHRIS",
+      "PICKLEBOI",
+      "NATHAN"
+     ],
+     "proposer": "CHRIS"
+    },
+    {
+     "team": [
+      "MAGGIE",
+      "BEN",
+      "NATHAN"
+     ],
+     "proposer": "MAGGIE",
+     "state": "REJECTED",
+     "votes": [
+      "NATHAN",
+      "MAGGIE",
+      "PICKLEBOI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "MAGGIE",
+      "BEN",
+      "NATHAN",
+      "WILL",
+      "PICKLEBOI"
+     ],
+     "proposer": "WILL",
+     "team": [
+      "WILL",
+      "BEN",
+      "NATHAN"
+     ]
+    }
+   ],
+   "team": [
+    "WILL",
+    "BEN",
+    "NATHAN"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": []
+  }
+ ]
+}

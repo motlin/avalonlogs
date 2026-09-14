@@ -1,0 +1,233 @@
+{
+ "timeFinished": {
+  "_seconds": 1585885731,
+  "_nanoseconds": 386467000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "MEGAMIND",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "HELLO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KUSH"
+   },
+   {
+    "name": "AMALICIOUS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "ANOOVA"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JAMALANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SHWETA"
+   }
+  ],
+  "assassinated": "AMALICIOUS",
+  "votes": [
+   {
+    "KUSH": true,
+    "HELLO": true
+   },
+   {
+    "HELLO": true,
+    "JAMALANA": true,
+    "KUSH": false
+   },
+   {
+    "HELLO": true,
+    "SHWETA": true,
+    "JAMALANA": true
+   },
+   {
+    "JAMALANA": true,
+    "SHWETA": true,
+    "MEGAMIND": true,
+    "HELLO": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "KUSH",
+    "HELLO"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KUSH",
+      "HELLO"
+     ],
+     "proposer": "KUSH",
+     "votes": [
+      "HELLO",
+      "KUSH",
+      "AMALICIOUS",
+      "ANOOVA",
+      "JAMALANA",
+      "SHWETA",
+      "MEGAMIND"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "JAMALANA",
+    "KUSH",
+    "HELLO"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JAMALANA",
+      "KUSH",
+      "HELLO"
+     ],
+     "votes": [
+      "ANOOVA",
+      "JAMALANA",
+      "SHWETA",
+      "MEGAMIND",
+      "HELLO",
+      "KUSH"
+     ],
+     "proposer": "JAMALANA",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "SHWETA",
+     "team": [
+      "SHWETA",
+      "JAMALANA",
+      "HELLO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AMALICIOUS",
+      "JAMALANA",
+      "SHWETA",
+      "MEGAMIND",
+      "KUSH"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "SHWETA",
+    "JAMALANA",
+    "HELLO"
+   ]
+  },
+  {
+   "team": [
+    "MEGAMIND",
+    "JAMALANA",
+    "HELLO",
+    "SHWETA"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "HELLO",
+      "AMALICIOUS",
+      "ANOOVA",
+      "JAMALANA",
+      "SHWETA",
+      "MEGAMIND"
+     ],
+     "team": [
+      "MEGAMIND",
+      "JAMALANA",
+      "HELLO",
+      "SHWETA"
+     ],
+     "state": "APPROVED",
+     "proposer": "MEGAMIND"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585884785,
+  "_nanoseconds": 748000000
+ },
+ "players": [
+  {
+   "name": "HELLO",
+   "uid": "sssKhfz7a9MFk0PWViXgO98omJ22"
+  },
+  {
+   "name": "KUSH",
+   "uid": "TaO9yk0FrOeZwTKvzJpNmyO9LBH2"
+  },
+  {
+   "uid": "xHur8FX5X7WyMjrdASX9zSQ1jZM2",
+   "name": "JAMALANA"
+  },
+  {
+   "name": "SHWETA",
+   "uid": "ejFnZmLieSOxys5nXfyfP3BoCaz2"
+  },
+  {
+   "uid": "gV9hjrfmHhXXtZ7fK609y1JqSpt1",
+   "name": "MEGAMIND"
+  },
+  {
+   "uid": "Rczd91ROoBZnNxaHZHByBOkQ0T73",
+   "name": "AMALICIOUS"
+  },
+  {
+   "name": "ANOOVA",
+   "uid": "ul6RVxxcMxckjMIsd1FtPsVcKbA3"
+  }
+ ]
+}

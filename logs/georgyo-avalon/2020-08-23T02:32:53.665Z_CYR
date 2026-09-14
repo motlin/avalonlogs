@@ -1,0 +1,266 @@
+{
+ "players": [
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "uid": "gOiGniqYSdWLat6om6YeFJidRZ22",
+   "name": "GAURAV"
+  },
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "uid": "GzD74mMvO2YiAXAJwNsr94mxQYf1",
+   "name": "JET"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598149973,
+  "_nanoseconds": 665000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ADAM": true,
+    "GAURAV": true
+   },
+   {
+    "GAURAV": true,
+    "KLAUDIA": false,
+    "JET": true
+   },
+   {
+    "ADAM": true,
+    "GAURAV": false
+   },
+   {
+    "KLAUDIA": false,
+    "JET": true,
+    "NIKOLAI": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ADAM"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NIKOLAI"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JET"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "KLAUDIA"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "GAURAV"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1598150505,
+  "_nanoseconds": 860000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ADAM",
+    "GAURAV"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ADAM",
+      "JET",
+      "GAURAV"
+     ],
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "GAURAV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "KLAUDIA",
+    "GAURAV",
+    "JET"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "GAURAV",
+      "ADAM",
+      "JET"
+     ],
+     "votes": [
+      "JET",
+      "ADAM"
+     ],
+     "proposer": "JET"
+    },
+    {
+     "votes": [
+      "NIKOLAI"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "JET",
+      "ADAM"
+     ]
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "GAURAV",
+      "JET"
+     ],
+     "proposer": "KLAUDIA",
+     "votes": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "GAURAV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KLAUDIA",
+      "JET",
+      "ADAM",
+      "GAURAV"
+     ],
+     "team": [
+      "ADAM",
+      "GAURAV"
+     ],
+     "proposer": "GAURAV",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ADAM",
+    "GAURAV"
+   ],
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "JET",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "proposer": "JET",
+     "votes": [
+      "ADAM",
+      "JET"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "ADAM",
+      "JET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ADAM",
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "JET",
+      "ADAM",
+      "NIKOLAI",
+      "KLAUDIA"
+     ],
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "proposer": "KLAUDIA"
+    }
+   ],
+   "team": [
+    "KLAUDIA",
+    "NIKOLAI",
+    "JET"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "players": [
+  {
+   "uid": "gHl3iOwoK5SZowN0Y4H03NKsgO82",
+   "name": "ARTHELEON"
+  },
+  {
+   "uid": "r2pfRYBwwielilDXW1t0FUHRwl72",
+   "name": "GWAPA"
+  },
+  {
+   "name": "ALPHA",
+   "uid": "QjpCdHUkskM06ADVGzJ3xui7Uin1"
+  },
+  {
+   "uid": "wtqKxj0yVnh7ktEC8T2a4wT2Ry63",
+   "name": "GENQE"
+  },
+  {
+   "name": "SWEETCOFFE",
+   "uid": "LrsTn18eGvc3NiKm4G12modQNdc2"
+  }
+ ],
+ "outcome": {
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "name": "ARTHELEON",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "GWAPA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "SWEETCOFFE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ALPHA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GENQE"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SWEETCOFFE": true,
+    "ARTHELEON": true
+   },
+   {
+    "ARTHELEON": false,
+    "SWEETCOFFE": true,
+    "GENQE": true
+   },
+   {
+    "ALPHA": true,
+    "GENQE": true
+   },
+   {
+    "GWAPA": true,
+    "GENQE": true,
+    "ALPHA": true
+   }
+  ],
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587238665,
+  "_nanoseconds": 555000000
+ },
+ "missions": [
+  {
+   "team": [
+    "SWEETCOFFE",
+    "ARTHELEON"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "SWEETCOFFE",
+      "ALPHA",
+      "GENQE",
+      "ARTHELEON",
+      "GWAPA"
+     ],
+     "proposer": "SWEETCOFFE",
+     "team": [
+      "SWEETCOFFE",
+      "ARTHELEON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ARTHELEON",
+      "SWEETCOFFE",
+      "ALPHA",
+      "GENQE"
+     ],
+     "state": "APPROVED",
+     "proposer": "ARTHELEON",
+     "team": [
+      "GENQE",
+      "SWEETCOFFE",
+      "ARTHELEON"
+     ]
+    }
+   ],
+   "team": [
+    "GENQE",
+    "SWEETCOFFE",
+    "ARTHELEON"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "GWAPA",
+     "votes": [
+      "GWAPA",
+      "ALPHA",
+      "GENQE"
+     ],
+     "team": [
+      "GENQE",
+      "ALPHA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "GENQE",
+    "ALPHA"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALPHA",
+      "ARTHELEON",
+      "GWAPA"
+     ],
+     "proposer": "ALPHA",
+     "team": [
+      "GWAPA",
+      "ALPHA",
+      "GENQE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "GWAPA",
+    "ALPHA",
+    "GENQE"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587238527,
+  "_nanoseconds": 485000000
+ }
+}

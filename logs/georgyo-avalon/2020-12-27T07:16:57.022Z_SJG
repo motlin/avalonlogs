@@ -1,0 +1,368 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609053417,
+  "_nanoseconds": 22000000
+ },
+ "timeFinished": {
+  "_seconds": 1609055477,
+  "_nanoseconds": 435000000
+ },
+ "players": [
+  {
+   "name": "EMILY",
+   "uid": "jzpZGHVfjbS3p6VsfpGY53wN27T2"
+  },
+  {
+   "name": "ANDRE",
+   "uid": "kjWhpHOyOdXBDAeRChYElLQhYJL2"
+  },
+  {
+   "name": "WANDY",
+   "uid": "CYkvMSpz6jY4SUArjxfEOQ291YC3"
+  },
+  {
+   "name": "CHONGZ",
+   "uid": "64McfzW9cJPIOzSj8rfmYGhScLg1"
+  },
+  {
+   "name": "MIKE",
+   "uid": "o2le7m7rXvQDAWZ9hTXakkMVOZ53"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "L6cFKHEED6YMGL2rnCfSlDbDPxr2"
+  },
+  {
+   "uid": "a9zinWFXOuRCFGdnneS5bJQPuRF2",
+   "name": "ALBERT"
+  },
+  {
+   "uid": "T3KiFaDEOEY8wSMnNf76VjKor313",
+   "name": "KEVIN"
+  },
+  {
+   "uid": "joJpaaDYeEQuiQPRx9Uq1LWE6Mk1",
+   "name": "JOVI"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JOVI": true,
+    "EMILY": true,
+    "ANDREW": true
+   },
+   {
+    "JOVI": false,
+    "CHONGZ": true,
+    "KEVIN": true,
+    "ANDREW": true
+   },
+   {
+    "ALBERT": true,
+    "CHONGZ": true,
+    "KEVIN": true,
+    "MIKE": true
+   },
+   {
+    "KEVIN": true,
+    "CHONGZ": true,
+    "MIKE": true,
+    "WANDY": false,
+    "ALBERT": true
+   }
+  ],
+  "assassinated": "ALBERT",
+  "roles": [
+   {
+    "name": "WANDY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "MIKE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "JOVI",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KEVIN"
+   },
+   {
+    "name": "ALBERT",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANDRE",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANDREW",
+    "assassin": false
+   },
+   {
+    "name": "EMILY",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHONGZ"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "EMILY",
+    "ANDREW",
+    "JOVI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ANDREW",
+      "KEVIN",
+      "JOVI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANDREW",
+      "JOVI",
+      "KEVIN"
+     ],
+     "proposer": "KEVIN"
+    },
+    {
+     "proposer": "JOVI",
+     "votes": [
+      "EMILY",
+      "ANDREW",
+      "JOVI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JOVI",
+      "EMILY",
+      "ANDREW"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMILY",
+      "WANDY",
+      "JOVI",
+      "KEVIN",
+      "ANDRE",
+      "ANDREW"
+     ],
+     "proposer": "EMILY",
+     "team": [
+      "EMILY",
+      "ANDREW",
+      "JOVI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "JOVI",
+    "CHONGZ",
+    "KEVIN",
+    "ANDREW"
+   ],
+   "proposals": [
+    {
+     "proposer": "ANDRE",
+     "state": "REJECTED",
+     "votes": [
+      "JOVI",
+      "WANDY"
+     ],
+     "team": [
+      "EMILY",
+      "ANDRE",
+      "ANDREW",
+      "JOVI"
+     ]
+    },
+    {
+     "team": [
+      "EMILY",
+      "ANDREW",
+      "JOVI",
+      "WANDY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "EMILY",
+      "WANDY"
+     ],
+     "proposer": "WANDY"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHONGZ",
+      "EMILY"
+     ],
+     "team": [
+      "CHONGZ",
+      "EMILY",
+      "ANDREW",
+      "JOVI"
+     ],
+     "proposer": "CHONGZ"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KEVIN",
+      "MIKE",
+      "ALBERT",
+      "EMILY"
+     ],
+     "team": [
+      "MIKE",
+      "ANDREW",
+      "ALBERT",
+      "KEVIN"
+     ],
+     "proposer": "MIKE"
+    },
+    {
+     "proposer": "ANDREW",
+     "state": "APPROVED",
+     "votes": [
+      "WANDY",
+      "EMILY",
+      "MIKE",
+      "KEVIN",
+      "ANDREW",
+      "ANDRE",
+      "CHONGZ",
+      "JOVI"
+     ],
+     "team": [
+      "JOVI",
+      "CHONGZ",
+      "KEVIN",
+      "ANDREW"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "KEVIN",
+    "ALBERT",
+    "CHONGZ",
+    "MIKE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ALBERT"
+     ],
+     "proposer": "ALBERT",
+     "state": "REJECTED",
+     "team": [
+      "ALBERT",
+      "ANDREW",
+      "CHONGZ",
+      "KEVIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KEVIN",
+     "team": [
+      "KEVIN",
+      "ALBERT",
+      "CHONGZ",
+      "MIKE"
+     ],
+     "votes": [
+      "MIKE",
+      "WANDY",
+      "KEVIN",
+      "ALBERT",
+      "CHONGZ"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ANDRE",
+      "MIKE",
+      "JOVI",
+      "EMILY",
+      "KEVIN",
+      "ALBERT",
+      "CHONGZ",
+      "WANDY"
+     ],
+     "proposer": "JOVI",
+     "team": [
+      "KEVIN",
+      "ALBERT",
+      "CHONGZ",
+      "MIKE",
+      "WANDY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 5,
+   "team": [
+    "KEVIN",
+    "ALBERT",
+    "CHONGZ",
+    "MIKE",
+    "WANDY"
+   ],
+   "numFails": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 5
+  }
+ ]
+}

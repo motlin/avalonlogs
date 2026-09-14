@@ -1,0 +1,441 @@
+{
+ "players": [
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  },
+  {
+   "uid": "lHuA9yYSt5NKTHJwybC2U1Kn9kJ2",
+   "name": "ASIFION"
+  },
+  {
+   "name": "ASHLEY",
+   "uid": "ivaHwePiuuXwqECqfwgH2xFsrnz2"
+  },
+  {
+   "name": "SEAN",
+   "uid": "WQADefDBh7Prh3zmvSwKuztnx6k1"
+  },
+  {
+   "name": "ANGELA",
+   "uid": "hHKJ6bdIFqOn6055JHZ7v65qOcb2"
+  },
+  {
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2",
+   "name": "PRAVEEN"
+  },
+  {
+   "name": "SHUMING",
+   "uid": "EE7ZTSuP6qc4qaGhlK5uRMkOxxH2"
+  },
+  {
+   "name": "YI",
+   "uid": "hJeFLpAxnFMEypzHti9SffWE3px1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1599199489,
+  "_nanoseconds": 780000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "YI": true,
+    "ANGELA": true,
+    "CHEVIN": true
+   },
+   {
+    "ANGELA": true,
+    "YI": true,
+    "CHEVIN": true,
+    "PRAVEEN": true
+   },
+   {
+    "ANGELA": false,
+    "YI": true,
+    "CHEVIN": true,
+    "PRAVEEN": true
+   },
+   {
+    "ANGELA": false,
+    "YI": true,
+    "SEAN": false,
+    "PRAVEEN": true,
+    "CHEVIN": true
+   },
+   {
+    "CHEVIN": true,
+    "PRAVEEN": true,
+    "ANGELA": false,
+    "ASHLEY": false,
+    "SHUMING": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "PRAVEEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SHUMING"
+   },
+   {
+    "role": "MERLIN",
+    "name": "ASIFION",
+    "assassin": false
+   },
+   {
+    "name": "CHEVIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SEAN",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "YI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ANGELA"
+   },
+   {
+    "role": "OBERON",
+    "name": "ASHLEY",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1599197019,
+  "_nanoseconds": 59000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SEAN",
+      "ASHLEY",
+      "SHUMING"
+     ],
+     "state": "REJECTED",
+     "proposer": "ASHLEY",
+     "team": [
+      "CHEVIN",
+      "ASHLEY",
+      "SEAN"
+     ]
+    },
+    {
+     "votes": [
+      "YI",
+      "SEAN",
+      "ASHLEY",
+      "PRAVEEN"
+     ],
+     "proposer": "SEAN",
+     "team": [
+      "SEAN",
+      "ANGELA",
+      "PRAVEEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHEVIN",
+      "PRAVEEN",
+      "ANGELA",
+      "YI",
+      "SHUMING"
+     ],
+     "team": [
+      "CHEVIN",
+      "ANGELA",
+      "YI"
+     ],
+     "proposer": "ANGELA"
+    }
+   ],
+   "team": [
+    "CHEVIN",
+    "ANGELA",
+    "YI"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "YI",
+    "ANGELA",
+    "CHEVIN",
+    "PRAVEEN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "YI",
+      "ANGELA",
+      "CHEVIN",
+      "PRAVEEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "PRAVEEN",
+     "votes": [
+      "SHUMING",
+      "PRAVEEN",
+      "YI",
+      "ASIFION",
+      "ASHLEY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "YI",
+    "PRAVEEN",
+    "ANGELA",
+    "CHEVIN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SHUMING",
+      "ASIFION"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANGELA",
+      "YI",
+      "SEAN",
+      "CHEVIN"
+     ],
+     "proposer": "SHUMING"
+    },
+    {
+     "team": [
+      "YI",
+      "PRAVEEN",
+      "ANGELA",
+      "CHEVIN"
+     ],
+     "votes": [
+      "ANGELA",
+      "YI",
+      "CHEVIN",
+      "SHUMING",
+      "ASIFION"
+     ],
+     "proposer": "YI",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SHUMING",
+      "ASHLEY"
+     ],
+     "team": [
+      "CHEVIN",
+      "ASHLEY",
+      "ANGELA",
+      "PRAVEEN",
+      "YI"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHEVIN"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ASIFION",
+     "team": [
+      "ASIFION",
+      "YI",
+      "SEAN",
+      "PRAVEEN",
+      "ANGELA"
+     ],
+     "votes": [
+      "ANGELA",
+      "SHUMING",
+      "ASIFION",
+      "YI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ASHLEY",
+      "CHEVIN",
+      "YI",
+      "PRAVEEN",
+      "SEAN"
+     ],
+     "proposer": "ASHLEY",
+     "votes": [
+      "ASHLEY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHEVIN",
+      "ANGELA",
+      "SEAN",
+      "ASHLEY",
+      "PRAVEEN"
+     ],
+     "votes": [
+      "ANGELA",
+      "SHUMING",
+      "SEAN",
+      "ASHLEY"
+     ],
+     "proposer": "SEAN"
+    },
+    {
+     "team": [
+      "CHEVIN",
+      "ANGELA",
+      "YI",
+      "PRAVEEN",
+      "SEAN"
+     ],
+     "proposer": "ANGELA",
+     "state": "APPROVED",
+     "votes": [
+      "ANGELA",
+      "PRAVEEN",
+      "CHEVIN",
+      "ASHLEY",
+      "SHUMING",
+      "ASIFION",
+      "YI",
+      "SEAN"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "CHEVIN",
+    "ANGELA",
+    "YI",
+    "PRAVEEN",
+    "SEAN"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 5
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ASHLEY",
+      "ANGELA",
+      "PRAVEEN",
+      "CHEVIN",
+      "SHUMING"
+     ],
+     "votes": [
+      "ASHLEY",
+      "SHUMING",
+      "CHEVIN"
+     ],
+     "proposer": "PRAVEEN"
+    },
+    {
+     "votes": [
+      "ASHLEY"
+     ],
+     "proposer": "SHUMING",
+     "state": "REJECTED",
+     "team": [
+      "SHUMING",
+      "PRAVEEN",
+      "ANGELA",
+      "YI",
+      "ASHLEY"
+     ]
+    },
+    {
+     "team": [
+      "ASIFION",
+      "SEAN",
+      "YI",
+      "PRAVEEN",
+      "ANGELA"
+     ],
+     "votes": [
+      "SHUMING",
+      "SEAN",
+      "ANGELA"
+     ],
+     "proposer": "YI",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "CHEVIN",
+      "SHUMING",
+      "PRAVEEN",
+      "ANGELA",
+      "ASHLEY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHEVIN",
+      "PRAVEEN",
+      "SHUMING",
+      "ANGELA",
+      "ASHLEY"
+     ],
+     "proposer": "CHEVIN"
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": [
+    "CHEVIN",
+    "PRAVEEN",
+    "SHUMING",
+    "ANGELA",
+    "ASHLEY"
+   ],
+   "numFails": 2
+  }
+ ]
+}

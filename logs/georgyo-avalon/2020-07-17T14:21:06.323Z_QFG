@@ -1,0 +1,237 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ISABEL": true,
+    "BEK": true
+   },
+   {
+    "HUBERT": false,
+    "ISABEL": true,
+    "BEK": true
+   },
+   {
+    "BEK": true,
+    "ISABEL": true,
+    "BEKTAY": true,
+    "DANIEL": true
+   },
+   {
+    "DANIEL": true,
+    "BEKTAY": true,
+    "ISABEL": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "ISABEL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "DANIEL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "RIS"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BEK",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "HUBERT"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BEKTAY"
+   }
+  ],
+  "assassinated": "ISABEL"
+ },
+ "players": [
+  {
+   "name": "HUBERT",
+   "uid": "ObzcwjZR3ehMLkokUEDwhhiwV5S2"
+  },
+  {
+   "name": "BEK",
+   "uid": "GeBOAVPiDHZMvxoa7685dNGzK9I2"
+  },
+  {
+   "name": "ISABEL",
+   "uid": "j900gCp7FzM26sNSwKzGSQ4PiM53"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "Os0YDK5gPQPrHfUaAJU21JSCMSA2"
+  },
+  {
+   "name": "RIS",
+   "uid": "lrkD2zijD6clbj10jN9cCjgpRKj1"
+  },
+  {
+   "name": "BEKTAY",
+   "uid": "Ot807av58TZZupgz1enIz2QYUkH2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "BEK",
+    "ISABEL"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BEK",
+      "ISABEL"
+     ],
+     "proposer": "BEK",
+     "votes": [
+      "DANIEL",
+      "BEKTAY",
+      "RIS",
+      "ISABEL",
+      "HUBERT",
+      "BEK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BEK",
+      "ISABEL",
+      "HUBERT"
+     ],
+     "votes": [
+      "HUBERT",
+      "BEK",
+      "ISABEL",
+      "RIS"
+     ],
+     "proposer": "ISABEL"
+    }
+   ],
+   "team": [
+    "BEK",
+    "ISABEL",
+    "HUBERT"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DANIEL",
+     "votes": [
+      "DANIEL",
+      "BEK",
+      "BEKTAY",
+      "ISABEL",
+      "HUBERT",
+      "RIS"
+     ],
+     "team": [
+      "ISABEL",
+      "DANIEL",
+      "BEK",
+      "BEKTAY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "ISABEL",
+    "DANIEL",
+    "BEK",
+    "BEKTAY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "RIS",
+     "state": "REJECTED",
+     "team": [
+      "RIS",
+      "ISABEL",
+      "DANIEL"
+     ],
+     "votes": [
+      "RIS"
+     ]
+    },
+    {
+     "team": [
+      "BEKTAY",
+      "ISABEL",
+      "DANIEL"
+     ],
+     "proposer": "BEKTAY",
+     "state": "APPROVED",
+     "votes": [
+      "ISABEL",
+      "BEK",
+      "RIS",
+      "HUBERT",
+      "DANIEL",
+      "BEKTAY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "BEKTAY",
+    "ISABEL",
+    "DANIEL"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1594996646,
+  "_nanoseconds": 239000000
+ },
+ "timeCreated": {
+  "_seconds": 1594995666,
+  "_nanoseconds": 323000000
+ }
+}

@@ -1,0 +1,297 @@
+{
+ "timeFinished": {
+  "_seconds": 1584772903,
+  "_nanoseconds": 885869000
+ },
+ "timeCreated": {
+  "_seconds": 1584772319,
+  "_nanoseconds": 98000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ASDF",
+     "votes": [
+      "SEAL",
+      "ASDF",
+      "KASO"
+     ],
+     "team": [
+      "JASON",
+      "ASDF"
+     ]
+    },
+    {
+     "proposer": "KASO",
+     "team": [
+      "KASO",
+      "SEAL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ASDF",
+      "KASO",
+      "DAN",
+      "SEAL",
+      "JASON",
+      "CRANBERRY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KASO",
+    "SEAL"
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "MESH",
+    "JASON",
+    "SEAL"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CRANBERRY",
+     "votes": [
+      "KASO",
+      "DAN",
+      "CRANBERRY"
+     ],
+     "team": [
+      "KASO",
+      "CRANBERRY",
+      "SEAL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "MESH",
+     "votes": [
+      "DAN",
+      "MESH",
+      "SEAL",
+      "JASON"
+     ],
+     "team": [
+      "MESH",
+      "JASON",
+      "SEAL"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "JASON",
+    "MESH",
+    "ASDF"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JASON",
+      "MESH",
+      "ASDF"
+     ],
+     "proposer": "DAN"
+    },
+    {
+     "votes": [
+      "DAN",
+      "MESH",
+      "SEAL",
+      "JASON",
+      "CRANBERRY"
+     ],
+     "team": [
+      "JASON",
+      "MESH",
+      "ASDF"
+     ],
+     "proposer": "SEAL",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "JASON",
+    "ASDF",
+    "SEAL",
+    "CRANBERRY"
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ASDF",
+      "DAN",
+      "SEAL",
+      "CRANBERRY"
+     ],
+     "team": [
+      "JASON",
+      "ASDF",
+      "SEAL",
+      "CRANBERRY"
+     ],
+     "proposer": "JASON"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ASDF",
+    "JASON",
+    "SEAL",
+    "CRANBERRY"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "SEAL",
+      "CRANBERRY",
+      "ASDF",
+      "DAN",
+      "MESH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ASDF",
+      "JASON",
+      "SEAL",
+      "CRANBERRY"
+     ],
+     "proposer": "ASDF"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "JASON",
+   "uid": "iWerJ1HfBCaEx4Qe9WB2nTowY9s1"
+  },
+  {
+   "uid": "z14LChGPUbYIncoEJ2caeOyF6xV2",
+   "name": "ASDF"
+  },
+  {
+   "uid": "KkkKSlAgHTbUUAaIhEx7oI5ZyKE3",
+   "name": "KASO"
+  },
+  {
+   "uid": "iNAQcph203MiZYuG34jFCNW2gO63",
+   "name": "CRANBERRY"
+  },
+  {
+   "name": "MESH",
+   "uid": "yLn90Dm2xTMC1BYVHwd81GOFSZ83"
+  },
+  {
+   "uid": "s9xnuvaOmtSkXW8Bm3iaVJAeGCn1",
+   "name": "DAN"
+  },
+  {
+   "name": "SEAL",
+   "uid": "LJGIabLzkVOMbJtsqgVvnZO6eoy1"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "KASO": true,
+    "SEAL": true
+   },
+   {
+    "MESH": false,
+    "SEAL": true,
+    "JASON": true
+   },
+   {
+    "ASDF": true,
+    "JASON": true,
+    "MESH": false
+   },
+   {
+    "CRANBERRY": true,
+    "SEAL": true,
+    "ASDF": true,
+    "JASON": true
+   },
+   {
+    "ASDF": true,
+    "CRANBERRY": false,
+    "JASON": true,
+    "SEAL": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "CRANBERRY",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ASDF"
+   },
+   {
+    "name": "KASO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": true,
+    "name": "MESH",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SEAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JASON",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "timeFinished": {
+  "_seconds": 1585367344,
+  "_nanoseconds": 977381000
+ },
+ "players": [
+  {
+   "name": "JENSEN",
+   "uid": "Eu4a5j79TMWWqQteW5LTu4p8knF2"
+  },
+  {
+   "name": "PERLOJR",
+   "uid": "XNFmc2W9XeU9XDRIjYjmHsJ5Axg1"
+  },
+  {
+   "name": "MERYL",
+   "uid": "fq0gqbsD6Jdgwez2gS8VwEV1b2x2"
+  },
+  {
+   "uid": "v9Gh0iBdAYY8FnPOk6QU9mv0JIQ2",
+   "name": "JACKASS"
+  },
+  {
+   "uid": "ptD3XzbG13c81o00yLcrzPrrqxE2",
+   "name": "RICHARD"
+  },
+  {
+   "name": "IMMERLIN",
+   "uid": "zGbaJi6VDkNiNU6GJj5yNKLedBr2"
+  },
+  {
+   "name": "BRENDA",
+   "uid": "iwPWy9ndarVsQsCRNZ97iQSFIZU2"
+  },
+  {
+   "uid": "67zx3R7W9yX20B3n9OaAH5VjYmS2",
+   "name": "PURR"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585366407,
+  "_nanoseconds": 908000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "PERLOJR": true,
+    "RICHARD": true,
+    "MERYL": true
+   },
+   {
+    "IMMERLIN": false,
+    "JACKASS": true,
+    "RICHARD": false,
+    "PURR": true
+   },
+   {
+    "IMMERLIN": false,
+    "MERYL": true,
+    "JACKASS": true,
+    "RICHARD": false
+   },
+   {
+    "PERLOJR": true,
+    "IMMERLIN": false,
+    "PURR": true,
+    "RICHARD": false,
+    "JENSEN": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "MERYL",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "IMMERLIN",
+    "assassin": false
+   },
+   {
+    "name": "JACKASS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JENSEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "PERLOJR"
+   },
+   {
+    "assassin": false,
+    "name": "RICHARD",
+    "role": "MORDRED"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BRENDA",
+    "assassin": true
+   },
+   {
+    "name": "PURR",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "PERLOJR",
+    "MERYL",
+    "RICHARD"
+   ],
+   "proposals": [
+    {
+     "proposer": "PERLOJR",
+     "state": "APPROVED",
+     "votes": [
+      "BRENDA",
+      "PURR",
+      "MERYL",
+      "IMMERLIN",
+      "JENSEN",
+      "PERLOJR",
+      "RICHARD"
+     ],
+     "team": [
+      "PERLOJR",
+      "MERYL",
+      "RICHARD"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "JACKASS",
+    "RICHARD",
+    "IMMERLIN",
+    "PURR"
+   ],
+   "numFails": 2,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "JENSEN",
+      "PURR",
+      "MERYL"
+     ],
+     "state": "REJECTED",
+     "proposer": "MERYL",
+     "team": [
+      "MERYL",
+      "PERLOJR",
+      "JENSEN",
+      "PURR"
+     ]
+    },
+    {
+     "votes": [
+      "RICHARD",
+      "PURR",
+      "MERYL",
+      "IMMERLIN",
+      "JACKASS",
+      "PERLOJR"
+     ],
+     "team": [
+      "JACKASS",
+      "RICHARD",
+      "IMMERLIN",
+      "PURR"
+     ],
+     "proposer": "JACKASS",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 2,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "RICHARD",
+      "JENSEN",
+      "MERYL",
+      "PERLOJR"
+     ],
+     "proposer": "RICHARD",
+     "votes": [
+      "JENSEN",
+      "PERLOJR",
+      "RICHARD",
+      "MERYL"
+     ]
+    },
+    {
+     "team": [
+      "IMMERLIN",
+      "MERYL",
+      "RICHARD",
+      "JACKASS"
+     ],
+     "state": "APPROVED",
+     "proposer": "IMMERLIN",
+     "votes": [
+      "PERLOJR",
+      "RICHARD",
+      "IMMERLIN",
+      "JACKASS",
+      "JENSEN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "IMMERLIN",
+    "MERYL",
+    "RICHARD",
+    "JACKASS"
+   ]
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JENSEN",
+      "PERLOJR",
+      "RICHARD",
+      "IMMERLIN",
+      "PURR"
+     ],
+     "votes": [
+      "JENSEN",
+      "PERLOJR",
+      "RICHARD",
+      "BRENDA",
+      "IMMERLIN"
+     ],
+     "proposer": "BRENDA"
+    }
+   ],
+   "team": [
+    "JENSEN",
+    "PERLOJR",
+    "RICHARD",
+    "IMMERLIN",
+    "PURR"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

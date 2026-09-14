@@ -1,0 +1,231 @@
+{
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "VS2Gqn7sJ8QVJQ2yRc0zKrhmHKl1"
+  },
+  {
+   "uid": "g84eZoKAxNRzEDxgPF2umUSHoac2",
+   "name": "CHRISS"
+  },
+  {
+   "uid": "cTbbyc4v9OgQJJqK71XKkvftIT03",
+   "name": "REBECCA"
+  },
+  {
+   "name": "MICHAEL",
+   "uid": "rw9nctf4HnZc8NTlvxZPpeSb05s1"
+  },
+  {
+   "name": "MICHAELL",
+   "uid": "Pc2KkUPL9CeM8sjbWs7aTOeYWjl2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589501522,
+  "_nanoseconds": 723000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "CHRISS",
+    "MICHAELL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MICHAEL",
+      "CHRIS",
+      "REBECCA",
+      "MICHAELL"
+     ],
+     "team": [
+      "CHRISS",
+      "MICHAELL"
+     ],
+     "proposer": "CHRISS"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MICHAELL",
+      "CHRISS",
+      "REBECCA"
+     ],
+     "votes": [
+      "MICHAEL",
+      "CHRIS",
+      "REBECCA",
+      "MICHAELL",
+      "CHRISS"
+     ],
+     "proposer": "REBECCA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "MICHAELL",
+    "CHRISS",
+    "REBECCA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "MICHAEL",
+    "REBECCA"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "MICHAEL",
+     "votes": [
+      "REBECCA",
+      "CHRISS",
+      "MICHAEL",
+      "CHRIS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MICHAEL",
+      "REBECCA"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "MICHAELL",
+    "CHRIS",
+    "MICHAEL"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MICHAELL",
+     "votes": [
+      "MICHAEL",
+      "CHRIS",
+      "REBECCA",
+      "MICHAELL",
+      "CHRISS"
+     ],
+     "team": [
+      "MICHAELL",
+      "CHRIS",
+      "MICHAEL"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MICHAELL",
+      "CHRISS",
+      "CHRIS"
+     ],
+     "team": [
+      "MICHAELL",
+      "CHRISS",
+      "CHRIS"
+     ],
+     "proposer": "CHRIS",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "MICHAELL",
+    "CHRISS",
+    "CHRIS"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589501236,
+  "_nanoseconds": 166000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "CHRISS": true,
+    "MICHAELL": true
+   },
+   {
+    "MICHAELL": true,
+    "REBECCA": true,
+    "CHRISS": true
+   },
+   {
+    "MICHAEL": true,
+    "REBECCA": false
+   },
+   {
+    "MICHAELL": false,
+    "CHRIS": true,
+    "MICHAEL": true
+   },
+   {
+    "CHRISS": true,
+    "MICHAELL": false,
+    "CHRIS": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "REBECCA",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MICHAELL"
+   },
+   {
+    "name": "CHRISS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MICHAEL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CHRIS",
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": null
+ }
+}

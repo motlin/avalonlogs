@@ -1,0 +1,231 @@
+{
+ "timeFinished": {
+  "_seconds": 1585368359,
+  "_nanoseconds": 197137000
+ },
+ "timeCreated": {
+  "_seconds": 1585367621,
+  "_nanoseconds": 313000000
+ },
+ "players": [
+  {
+   "name": "SUP",
+   "uid": "ekLN2kLHLpOHigMXjPTZkvVxrgO2"
+  },
+  {
+   "name": "SOHAM",
+   "uid": "asYYOGTqkLQ7kQUexxXT6i5yiJp1"
+  },
+  {
+   "uid": "GMh0AenbwKPtyPYHbul1SVB9C743",
+   "name": "SLATT"
+  },
+  {
+   "name": "VEEEED",
+   "uid": "cn9pr3EsfXYqFGTUwgWfRj5Vuwl1"
+  },
+  {
+   "uid": "4tuxqvzUyXdfyQJChEgPNTgOVls1",
+   "name": "AVISHIP"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "SOHAM",
+      "SLATT"
+     ],
+     "proposer": "SLATT",
+     "votes": [
+      "VEEEED",
+      "SUP",
+      "SOHAM",
+      "SLATT",
+      "AVISHIP"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "SOHAM",
+    "SLATT"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "SOHAM",
+      "SLATT",
+      "VEEEED"
+     ],
+     "votes": [
+      "VEEEED",
+      "SUP",
+      "SOHAM",
+      "SLATT",
+      "AVISHIP"
+     ],
+     "proposer": "VEEEED",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SOHAM",
+    "SLATT",
+    "VEEEED"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "SUP",
+    "SOHAM"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AVISHIP",
+     "votes": [
+      "AVISHIP",
+      "VEEEED",
+      "SUP",
+      "SOHAM",
+      "SLATT"
+     ],
+     "team": [
+      "SUP",
+      "SOHAM"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "SUP",
+    "SOHAM",
+    "AVISHIP"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SUP",
+      "SOHAM",
+      "AVISHIP"
+     ],
+     "votes": [
+      "VEEEED",
+      "SUP",
+      "SOHAM",
+      "SLATT",
+      "AVISHIP"
+     ],
+     "proposer": "SUP"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "SUP",
+    "SOHAM",
+    "SLATT"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SUP",
+      "SOHAM",
+      "SLATT"
+     ],
+     "votes": [
+      "SUP",
+      "SOHAM",
+      "SLATT",
+      "VEEEED"
+     ],
+     "proposer": "SOHAM"
+    }
+   ]
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "VEEEED",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "SUP",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SOHAM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SLATT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "AVISHIP"
+   }
+  ],
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "SOHAM": true,
+    "SLATT": true
+   },
+   {
+    "SLATT": true,
+    "SOHAM": true,
+    "VEEEED": false
+   },
+   {
+    "SUP": true,
+    "SOHAM": true
+   },
+   {
+    "SOHAM": true,
+    "AVISHIP": false,
+    "SUP": true
+   },
+   {
+    "SLATT": true,
+    "SOHAM": true,
+    "SUP": true
+   }
+  ],
+  "assassinated": "SLATT"
+ }
+}

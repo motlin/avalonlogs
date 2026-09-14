@@ -1,0 +1,333 @@
+{
+ "timeCreated": {
+  "_seconds": 1589765225,
+  "_nanoseconds": 348000000
+ },
+ "missions": [
+  {
+   "team": [
+    "LAURA",
+    "ALEX"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LAURA"
+     ],
+     "proposer": "ALEX",
+     "team": [
+      "KATE",
+      "MARIN"
+     ]
+    },
+    {
+     "votes": [
+      "MARIN",
+      "LUCI",
+      "LAURA",
+      "ALEX",
+      "KATE",
+      "SHILPA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "ALEX"
+     ],
+     "proposer": "LAURA"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "RACHEL",
+      "LAURA",
+      "ALEX"
+     ],
+     "proposer": "RACHEL",
+     "votes": [
+      "RACHEL",
+      "ALEX",
+      "KATE",
+      "SHILPA",
+      "LUCI",
+      "LAURA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "RACHEL",
+    "LAURA",
+    "ALEX"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "LUCI",
+    "SHILPA",
+    "MARIN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "MARIN",
+     "state": "APPROVED",
+     "votes": [
+      "LUCI",
+      "LAURA",
+      "SHILPA",
+      "MARIN"
+     ],
+     "team": [
+      "LUCI",
+      "SHILPA",
+      "MARIN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "LAURA",
+      "RACHEL",
+      "ALEX",
+      "KATE",
+      "SHILPA",
+      "MARIN"
+     ],
+     "team": [
+      "KATE",
+      "RACHEL",
+      "ALEX",
+      "LAURA"
+     ],
+     "proposer": "KATE",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KATE",
+    "RACHEL",
+    "ALEX",
+    "LAURA"
+   ],
+   "numFails": 2,
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "LUCI",
+      "KATE",
+      "SHILPA"
+     ],
+     "proposer": "LUCI",
+     "team": [
+      "LUCI",
+      "KATE",
+      "SHILPA",
+      "RACHEL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LUCI",
+      "KATE",
+      "SHILPA"
+     ],
+     "proposer": "SHILPA",
+     "state": "REJECTED",
+     "team": [
+      "SHILPA",
+      "RACHEL",
+      "KATE",
+      "LUCI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MARIN",
+      "LAURA",
+      "ALEX"
+     ],
+     "team": [
+      "ALEX",
+      "LAURA",
+      "MARIN",
+      "LUCI"
+     ],
+     "proposer": "ALEX"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LAURA",
+      "SHILPA",
+      "LUCI",
+      "KATE"
+     ],
+     "votes": [
+      "LAURA"
+     ],
+     "proposer": "LAURA"
+    },
+    {
+     "proposer": "RACHEL",
+     "state": "APPROVED",
+     "votes": [
+      "RACHEL",
+      "KATE",
+      "SHILPA",
+      "MARIN",
+      "LUCI"
+     ],
+     "team": [
+      "RACHEL",
+      "KATE",
+      "SHILPA",
+      "LUCI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "RACHEL",
+    "KATE",
+    "SHILPA",
+    "LUCI"
+   ],
+   "state": "SUCCESS"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "KATE",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RACHEL",
+    "assassin": false
+   },
+   {
+    "name": "ALEX",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KATE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "SHILPA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MARIN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LUCI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "LAURA"
+   }
+  ],
+  "votes": [
+   {
+    "LAURA": true,
+    "ALEX": true
+   },
+   {
+    "LAURA": true,
+    "RACHEL": true,
+    "ALEX": true
+   },
+   {
+    "MARIN": false,
+    "LUCI": true,
+    "SHILPA": true
+   },
+   {
+    "KATE": true,
+    "ALEX": false,
+    "RACHEL": true,
+    "LAURA": false
+   },
+   {
+    "RACHEL": true,
+    "SHILPA": true,
+    "LUCI": true,
+    "KATE": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "TWBhTLIEb9XLJZiaBjybvSaEqst2",
+   "name": "RACHEL"
+  },
+  {
+   "uid": "2Zb1rJDsQHRxsWI9w2lZYUdNj3B3",
+   "name": "MARIN"
+  },
+  {
+   "name": "KATE",
+   "uid": "EsoZjhreZ5NroMmS2BV8q2msSyQ2"
+  },
+  {
+   "name": "LUCI",
+   "uid": "0WHqB20fcCcUocHfDgOmkq4ejeG3"
+  },
+  {
+   "uid": "1s0UQTHKIjWOvDgh9Neire0ASyK2",
+   "name": "SHILPA"
+  },
+  {
+   "uid": "lrF8F5LbhEUZElNRZzfMCCJdGD63",
+   "name": "ALEX"
+  },
+  {
+   "uid": "dfyD8hMwW0hTPhZVWpTF5loifbb2",
+   "name": "LAURA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589766544,
+  "_nanoseconds": 355000000
+ }
+}

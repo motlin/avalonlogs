@@ -1,0 +1,239 @@
+{
+ "timeCreated": {
+  "_seconds": 1590287801,
+  "_nanoseconds": 85000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "BEN": true,
+    "BOOMER": true
+   },
+   {
+    "BOOMER": false,
+    "GEG": true,
+    "BEN": true
+   },
+   {
+    "GEG": true,
+    "ALEX": true
+   },
+   {
+    "BOOMER": false,
+    "BEN": true,
+    "ALEX": true
+   },
+   {
+    "BEN": true,
+    "GEG": true,
+    "BOOMER": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "BOOMER",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ALEX",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "GEG"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "DIANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BEN",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "BOOMER",
+     "votes": [
+      "GEG",
+      "DIANA",
+      "BOOMER"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BOOMER",
+      "BEN"
+     ]
+    }
+   ],
+   "team": [
+    "BOOMER",
+    "BEN"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "BOOMER",
+      "GEG"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GEG",
+      "DIANA",
+      "BEN",
+      "BOOMER"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "BEN",
+    "BOOMER",
+    "GEG"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "GEG",
+    "ALEX"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "GEG",
+     "team": [
+      "GEG",
+      "ALEX"
+     ],
+     "votes": [
+      "ALEX",
+      "GEG",
+      "BEN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ALEX",
+    "BEN",
+    "BOOMER"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "BEN",
+      "BOOMER"
+     ],
+     "proposer": "ALEX",
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "DIANA",
+      "BOOMER"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "BOOMER",
+    "GEG",
+    "BEN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DIANA",
+      "ALEX"
+     ],
+     "team": [
+      "BOOMER",
+      "GEG",
+      "ALEX"
+     ],
+     "proposer": "DIANA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BOOMER",
+      "DIANA",
+      "BEN"
+     ],
+     "team": [
+      "BOOMER",
+      "GEG",
+      "BEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BOOMER"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1590288422,
+  "_nanoseconds": 914000000
+ },
+ "players": [
+  {
+   "uid": "kLcA2vNNH7N9dUmvlsAaRIoryUO2",
+   "name": "BEN"
+  },
+  {
+   "name": "GEG",
+   "uid": "bI0etkIxAERLBvyxWPxbJY5hVuz2"
+  },
+  {
+   "name": "ALEX",
+   "uid": "RQSiWEI5IRfYS70BzidxD5pfTNC3"
+  },
+  {
+   "name": "DIANA",
+   "uid": "vjjHURE6pXYxvtaeqcoknMdqAag2"
+  },
+  {
+   "name": "BOOMER",
+   "uid": "2c2hdHWxRQfGz0CxisuLcDRz4fy2"
+  }
+ ]
+}

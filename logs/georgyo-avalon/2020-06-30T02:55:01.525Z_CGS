@@ -1,0 +1,293 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "DNAIK",
+      "SOGGY"
+     ],
+     "votes": [
+      "JISHNU",
+      "VDAD",
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "SW"
+     ],
+     "state": "APPROVED",
+     "proposer": "DNAIK"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DNAIK",
+    "SOGGY"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "DNAIK",
+    "SW",
+    "VDAD"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "DNAIK",
+      "SW",
+      "VDAD"
+     ],
+     "proposer": "JISHNU",
+     "state": "APPROVED",
+     "votes": [
+      "SOGGY",
+      "DNAIK",
+      "SW",
+      "JISHNU"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ISHYISH",
+    "SOGGY",
+    "SW",
+    "VDAD"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ISHYISH",
+      "SOGGY",
+      "SW",
+      "VDAD"
+     ],
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "SW",
+      "JISHNU",
+      "VDAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "ISHYISH"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ISHYISH",
+    "SOGGY",
+    "SW"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ISHYISH",
+      "SOGGY",
+      "SW"
+     ],
+     "proposer": "SOGGY",
+     "state": "APPROVED",
+     "votes": [
+      "JISHNU",
+      "VDAD",
+      "SOGGY",
+      "ISHYISH",
+      "SW"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "VDAD",
+    "SOGGY",
+    "ISHYISH",
+    "JISHNU"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ISHYISH",
+      "VDAD",
+      "SOGGY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JISHNU",
+      "VDAD",
+      "SOGGY",
+      "ISHYISH"
+     ],
+     "proposer": "VDAD"
+    },
+    {
+     "votes": [
+      "SW"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SW",
+      "SOGGY",
+      "JISHNU",
+      "ISHYISH"
+     ],
+     "proposer": "SW"
+    },
+    {
+     "proposer": "DNAIK",
+     "state": "REJECTED",
+     "votes": [
+      "DNAIK"
+     ],
+     "team": [
+      "DNAIK",
+      "JISHNU",
+      "ISHYISH",
+      "SW"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VDAD",
+      "SOGGY",
+      "ISHYISH",
+      "SW"
+     ],
+     "proposer": "JISHNU",
+     "team": [
+      "VDAD",
+      "SOGGY",
+      "ISHYISH",
+      "JISHNU"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "ISHYISH",
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62"
+  },
+  {
+   "name": "SOGGY",
+   "uid": "2cqiTd5tlyOAZjk7XzGEH0pINPE2"
+  },
+  {
+   "name": "VDAD",
+   "uid": "svDYUCW0jUM1fTevlycZO5jYAWj1"
+  },
+  {
+   "name": "SW",
+   "uid": "6fyAXLuEa6USYubPr2C7UVJ82252"
+  },
+  {
+   "name": "DNAIK",
+   "uid": "zBKMzPQp8uODk6urkBaihOcq9J53"
+  },
+  {
+   "uid": "TvUQJRJs1oVKif3v2TrhiZ93gBc2",
+   "name": "JISHNU"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593485701,
+  "_nanoseconds": 525000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DNAIK": true,
+    "SOGGY": true
+   },
+   {
+    "VDAD": false,
+    "DNAIK": true,
+    "SW": true
+   },
+   {
+    "ISHYISH": true,
+    "VDAD": true,
+    "SOGGY": true,
+    "SW": true
+   },
+   {
+    "SOGGY": false,
+    "ISHYISH": true,
+    "SW": true
+   },
+   {
+    "SOGGY": false,
+    "VDAD": true,
+    "ISHYISH": true,
+    "JISHNU": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JISHNU",
+    "assassin": false
+   },
+   {
+    "name": "VDAD",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "SOGGY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ISHYISH"
+   },
+   {
+    "role": "MERLIN",
+    "name": "DNAIK",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1593486062,
+  "_nanoseconds": 815000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

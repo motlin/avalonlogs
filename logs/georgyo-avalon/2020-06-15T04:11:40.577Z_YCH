@@ -1,0 +1,201 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1592194625,
+  "_nanoseconds": 143000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MATT": false,
+    "MARC": true
+   },
+   {
+    "YB": true,
+    "DREW": true,
+    "MATT": true
+   },
+   {
+    "YB": true,
+    "MATT": false
+   },
+   {
+    "MARC": false,
+    "CONNOR": true,
+    "YB": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "MATT",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "YB",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "DREW",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CONNOR",
+    "assassin": false
+   },
+   {
+    "name": "MARC",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 1,
+   "team": [
+    "MATT",
+    "MARC"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MATT",
+      "MARC"
+     ],
+     "proposer": "MATT",
+     "votes": [
+      "CONNOR",
+      "MARC",
+      "MATT"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "DREW",
+    "YB",
+    "MATT"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DREW",
+      "YB",
+      "MATT"
+     ],
+     "proposer": "DREW",
+     "votes": [
+      "MATT",
+      "YB",
+      "DREW"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "YB",
+    "MATT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "YB",
+      "MATT"
+     ],
+     "proposer": "YB",
+     "votes": [
+      "MATT",
+      "YB",
+      "DREW"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "CONNOR",
+    "MARC",
+    "YB"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "CONNOR",
+      "MARC",
+      "YB"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CONNOR",
+      "MARC",
+      "MATT",
+      "YB"
+     ],
+     "proposer": "CONNOR"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592194300,
+  "_nanoseconds": 577000000
+ },
+ "players": [
+  {
+   "name": "DREW",
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1"
+  },
+  {
+   "uid": "dBbDTVYBVOX3bdMaEHBbhW01IIB3",
+   "name": "YB"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83"
+  },
+  {
+   "uid": "Kd9gvaBxtCO5a0I4MmewNknH2lZ2",
+   "name": "MARC"
+  },
+  {
+   "name": "MATT",
+   "uid": "CYfGT7p15xRFRJjUZ4oBAgrpLrP2"
+  }
+ ]
+}

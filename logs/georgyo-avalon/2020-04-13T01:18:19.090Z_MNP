@@ -1,0 +1,323 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "KELSEY",
+    "KIM"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "KELSEY",
+      "GRAMMALAMB",
+      "PP",
+      "KIM",
+      "JERBEAR",
+      "TIM",
+      "EMILY"
+     ],
+     "state": "APPROVED",
+     "proposer": "KIM",
+     "team": [
+      "KELSEY",
+      "KIM"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "KELSEY",
+    "KIM",
+    "JERBEAR"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "KELSEY",
+      "KIM",
+      "JERBEAR"
+     ],
+     "proposer": "JERBEAR",
+     "state": "APPROVED",
+     "votes": [
+      "EMILY",
+      "KELSEY",
+      "PP",
+      "KIM",
+      "JERBEAR"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "GRAMMALAMB",
+     "team": [
+      "JERBEAR",
+      "GRAMMALAMB",
+      "TIM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TIM",
+      "GRAMMALAMB",
+      "PP",
+      "KIM",
+      "JERBEAR"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "JERBEAR",
+    "GRAMMALAMB",
+    "TIM"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "TIM",
+      "EMILY",
+      "JERBEAR",
+      "KIM"
+     ],
+     "votes": [
+      "JERBEAR",
+      "EMILY"
+     ],
+     "proposer": "EMILY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "TIM",
+      "EMILY",
+      "KELSEY",
+      "GRAMMALAMB",
+      "JERBEAR"
+     ],
+     "state": "APPROVED",
+     "proposer": "TIM",
+     "team": [
+      "TIM",
+      "GRAMMALAMB",
+      "PP",
+      "KELSEY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "TIM",
+    "GRAMMALAMB",
+    "PP",
+    "KELSEY"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "KELSEY",
+     "state": "REJECTED",
+     "team": [
+      "KELSEY",
+      "KIM",
+      "EMILY",
+      "GRAMMALAMB"
+     ],
+     "votes": [
+      "KIM",
+      "KELSEY",
+      "GRAMMALAMB"
+     ]
+    },
+    {
+     "votes": [
+      "EMILY",
+      "PP",
+      "KIM"
+     ],
+     "state": "REJECTED",
+     "proposer": "PP",
+     "team": [
+      "EMILY",
+      "KIM",
+      "PP",
+      "GRAMMALAMB"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KIM",
+     "team": [
+      "EMILY",
+      "PP",
+      "KIM",
+      "GRAMMALAMB"
+     ],
+     "votes": [
+      "EMILY",
+      "KIM"
+     ]
+    },
+    {
+     "team": [
+      "JERBEAR",
+      "TIM",
+      "KELSEY",
+      "GRAMMALAMB"
+     ],
+     "proposer": "JERBEAR",
+     "state": "APPROVED",
+     "votes": [
+      "TIM",
+      "EMILY",
+      "KELSEY",
+      "GRAMMALAMB",
+      "PP",
+      "JERBEAR"
+     ]
+    }
+   ],
+   "team": [
+    "JERBEAR",
+    "TIM",
+    "KELSEY",
+    "GRAMMALAMB"
+   ],
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "KELSEY": true,
+    "KIM": true
+   },
+   {
+    "JERBEAR": true,
+    "KELSEY": false,
+    "KIM": true
+   },
+   {
+    "JERBEAR": true,
+    "TIM": true,
+    "GRAMMALAMB": true
+   },
+   {
+    "PP": false,
+    "KELSEY": false,
+    "GRAMMALAMB": true,
+    "TIM": true
+   },
+   {
+    "GRAMMALAMB": true,
+    "JERBEAR": true,
+    "TIM": true,
+    "KELSEY": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TIM",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "EMILY",
+    "assassin": true
+   },
+   {
+    "name": "KELSEY",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "name": "GRAMMALAMB",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "PP"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KIM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JERBEAR",
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "oTmk2ZkWMvPSYFXEv8Nuir8HrtM2",
+   "name": "EMILY"
+  },
+  {
+   "name": "TIM",
+   "uid": "oq2SOz3Nr4e8pEdu793UIinIHmG2"
+  },
+  {
+   "name": "KELSEY",
+   "uid": "S4eBsjHo1OOMCKiftZxwqjvjASs1"
+  },
+  {
+   "uid": "dQqnaON18nhJmUISyZj0wNKKqtg1",
+   "name": "PP"
+  },
+  {
+   "name": "KIM",
+   "uid": "RYQDmRtW13eb2qUYp9FYVhPO51O2"
+  },
+  {
+   "uid": "tohdiz2PmUhTifV5rjwg11Rmoql1",
+   "name": "JERBEAR"
+  },
+  {
+   "uid": "Axb4GALwIoUbjmpmRDMwLwfEpEH2",
+   "name": "GRAMMALAMB"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1586740699,
+  "_nanoseconds": 90000000
+ },
+ "timeFinished": {
+  "_seconds": 1586741565,
+  "_nanoseconds": 275279000
+ }
+}

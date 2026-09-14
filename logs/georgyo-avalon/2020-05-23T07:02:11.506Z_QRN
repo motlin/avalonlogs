@@ -1,0 +1,266 @@
+{
+ "timeCreated": {
+  "_seconds": 1590217331,
+  "_nanoseconds": 506000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "GAUTIST",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "WOKSH"
+   },
+   {
+    "name": "TAMLNIG",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NGP"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ROL"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "GAUTIST": true,
+    "ROL": true
+   },
+   {
+    "ROL": true,
+    "WOKSH": true,
+    "TAMLNIG": false
+   },
+   {
+    "WOKSH": true,
+    "ROL": true
+   },
+   {
+    "ROL": true,
+    "GAUTIST": false,
+    "WOKSH": true
+   },
+   {
+    "NGP": true,
+    "ROL": true,
+    "TAMLNIG": false
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "NGP",
+   "uid": "Eno0tibIuPPcnKjz4xDjP8xd5b33"
+  },
+  {
+   "uid": "Pp7MrNe3aSgGNsXsXLsq43IUXC12",
+   "name": "ROL"
+  },
+  {
+   "name": "WOKSH",
+   "uid": "Ht6pOUzsSgeFigHLnsVPdjNaRpW2"
+  },
+  {
+   "name": "GAUTIST",
+   "uid": "y6AfOhozN3PUZPVubgONVxp8DUb2"
+  },
+  {
+   "uid": "d7tEhZgNE1ckPhNqWyWtfSDOoeq1",
+   "name": "TAMLNIG"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "GAUTIST",
+    "ROL"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NGP",
+      "ROL",
+      "GAUTIST",
+      "WOKSH",
+      "TAMLNIG"
+     ],
+     "team": [
+      "GAUTIST",
+      "ROL"
+     ],
+     "proposer": "GAUTIST"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "TAMLNIG",
+    "WOKSH",
+    "ROL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GAUTIST",
+      "WOKSH",
+      "TAMLNIG",
+      "ROL"
+     ],
+     "team": [
+      "TAMLNIG",
+      "WOKSH",
+      "ROL"
+     ],
+     "proposer": "TAMLNIG"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TAMLNIG",
+      "NGP"
+     ],
+     "team": [
+      "NGP",
+      "GAUTIST"
+     ],
+     "proposer": "NGP",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ROL",
+     "state": "REJECTED",
+     "votes": [
+      "NGP",
+      "ROL"
+     ],
+     "team": [
+      "ROL",
+      "NGP"
+     ]
+    },
+    {
+     "proposer": "WOKSH",
+     "state": "APPROVED",
+     "votes": [
+      "WOKSH",
+      "TAMLNIG",
+      "ROL"
+     ],
+     "team": [
+      "WOKSH",
+      "ROL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "WOKSH",
+    "ROL"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "GAUTIST",
+    "ROL",
+    "WOKSH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ROL",
+      "GAUTIST",
+      "WOKSH",
+      "TAMLNIG"
+     ],
+     "team": [
+      "GAUTIST",
+      "ROL",
+      "WOKSH"
+     ],
+     "proposer": "GAUTIST"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "NGP",
+    "TAMLNIG",
+    "ROL"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GAUTIST",
+      "TAMLNIG"
+     ],
+     "team": [
+      "WOKSH",
+      "GAUTIST",
+      "NGP"
+     ],
+     "proposer": "TAMLNIG"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NGP",
+      "GAUTIST",
+      "TAMLNIG"
+     ],
+     "team": [
+      "NGP",
+      "TAMLNIG",
+      "ROL"
+     ],
+     "proposer": "NGP"
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1590217621,
+  "_nanoseconds": 693000000
+ }
+}

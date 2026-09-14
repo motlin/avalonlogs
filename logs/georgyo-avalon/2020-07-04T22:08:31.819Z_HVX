@@ -1,0 +1,243 @@
+{
+ "players": [
+  {
+   "name": "TERRY",
+   "uid": "tcFOWKJ60ZaEq3cfaNGH3wbAQi62"
+  },
+  {
+   "name": "NIKA",
+   "uid": "qVOp9nemh5PWS9SDPYrIEb7fAQA2"
+  },
+  {
+   "name": "EDMUND",
+   "uid": "XOH6ai8OtMe8g3UVJrmTf2dcH6z2"
+  },
+  {
+   "uid": "hvFfVIG7m6Zt7QhWPs5uxIIbB7K2",
+   "name": "LIN"
+  },
+  {
+   "uid": "e3X2U0TVzLcXJsBiBC3igfrxrIv1",
+   "name": "SULIAT"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "NIKA",
+    "SULIAT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "SULIAT",
+     "team": [
+      "NIKA",
+      "SULIAT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NIKA",
+      "EDMUND",
+      "LIN",
+      "TERRY",
+      "SULIAT"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "TERRY",
+    "NIKA",
+    "SULIAT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "TERRY",
+      "NIKA",
+      "SULIAT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TERRY",
+      "SULIAT",
+      "NIKA",
+      "EDMUND",
+      "LIN"
+     ],
+     "proposer": "TERRY"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "TERRY",
+    "SULIAT"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "NIKA",
+     "votes": [
+      "NIKA"
+     ],
+     "team": [
+      "NIKA",
+      "SULIAT"
+     ]
+    },
+    {
+     "team": [
+      "TERRY",
+      "SULIAT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SULIAT",
+      "NIKA",
+      "EDMUND",
+      "LIN",
+      "TERRY"
+     ],
+     "proposer": "EDMUND"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TERRY",
+      "NIKA",
+      "EDMUND",
+      "LIN"
+     ],
+     "team": [
+      "LIN",
+      "NIKA",
+      "TERRY"
+     ],
+     "proposer": "LIN"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "LIN",
+    "NIKA",
+    "TERRY"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SULIAT",
+      "EDMUND",
+      "LIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SULIAT",
+     "team": [
+      "EDMUND",
+      "LIN",
+      "SULIAT"
+     ]
+    }
+   ],
+   "team": [
+    "EDMUND",
+    "LIN",
+    "SULIAT"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "EDMUND"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "LIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TERRY"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SULIAT"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "NIKA"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "SULIAT": true,
+    "NIKA": true
+   },
+   {
+    "NIKA": true,
+    "TERRY": true,
+    "SULIAT": false
+   },
+   {
+    "TERRY": true,
+    "SULIAT": false
+   },
+   {
+    "LIN": true,
+    "NIKA": true,
+    "TERRY": true
+   },
+   {
+    "EDMUND": true,
+    "LIN": true,
+    "SULIAT": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1593900511,
+  "_nanoseconds": 819000000
+ },
+ "timeFinished": {
+  "_seconds": 1593901593,
+  "_nanoseconds": 243000000
+ }
+}

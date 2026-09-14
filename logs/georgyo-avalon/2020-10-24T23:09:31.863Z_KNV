@@ -1,0 +1,356 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "MERCY": true,
+    "TSHEEJ": true,
+    "MARY": true
+   },
+   {
+    "MERCY": true,
+    "TSHEEJ": true,
+    "JERIAH": true,
+    "MARY": false
+   },
+   {
+    "MERCY": true,
+    "JOSIAH": false,
+    "TSHEEJ": true,
+    "NATE": false
+   },
+   {
+    "YOUA": true,
+    "JEDI": true,
+    "JERIAH": true,
+    "MARY": true,
+    "MERCY": true
+   },
+   {
+    "JERIAH": true,
+    "JEDI": true,
+    "MERCY": true,
+    "MARY": false,
+    "YOUA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JEDI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "MARY",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "name": "MERCY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "NATE"
+   },
+   {
+    "name": "JOSIAH",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JERIAH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TSHEEJ"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "YOUA"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "name": "JEDI",
+   "uid": "auhAAFCXioZ3Bkjw9Z1meFuHXpi2"
+  },
+  {
+   "uid": "cgkA5KykmfcOEZLo9lpAYc1TJlE3",
+   "name": "MERCY"
+  },
+  {
+   "name": "MARY",
+   "uid": "eCQGD2luCWa233a0FXVOhLNfVRH2"
+  },
+  {
+   "name": "JOSIAH",
+   "uid": "um2qvL64P4MvC7O7CpkHbcLKrdv1"
+  },
+  {
+   "name": "YOUA",
+   "uid": "KvgaDMzVCeeIChA7fHGLWM72I1v1"
+  },
+  {
+   "name": "JERIAH",
+   "uid": "gH4rnQr3ghSRKU58HMqe4kP9VJn2"
+  },
+  {
+   "name": "NATE",
+   "uid": "zmI1UczHOxYhm0Yz0pi589cCKpF3"
+  },
+  {
+   "name": "TSHEEJ",
+   "uid": "ZdoPl34veMSUwYB1jVcjFSP1KUh2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "MERCY",
+    "MARY",
+    "TSHEEJ"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEDI",
+      "JOSIAH",
+      "MARY",
+      "NATE",
+      "MERCY",
+      "YOUA"
+     ],
+     "team": [
+      "MERCY",
+      "MARY",
+      "TSHEEJ"
+     ],
+     "proposer": "MERCY"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MARY",
+    "MERCY",
+    "TSHEEJ",
+    "JERIAH"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "MARY",
+     "votes": [
+      "MERCY",
+      "YOUA",
+      "TSHEEJ",
+      "MARY",
+      "JOSIAH",
+      "JERIAH",
+      "NATE"
+     ],
+     "team": [
+      "MARY",
+      "MERCY",
+      "TSHEEJ",
+      "JERIAH"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JOSIAH",
+     "team": [
+      "MERCY",
+      "JEDI",
+      "NATE",
+      "JOSIAH"
+     ],
+     "votes": [
+      "NATE",
+      "YOUA",
+      "JEDI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MARY",
+      "NATE",
+      "YOUA"
+     ],
+     "team": [
+      "MERCY",
+      "MARY",
+      "NATE",
+      "TSHEEJ"
+     ],
+     "proposer": "YOUA"
+    },
+    {
+     "votes": [
+      "MARY",
+      "YOUA",
+      "JERIAH",
+      "JOSIAH"
+     ],
+     "state": "REJECTED",
+     "proposer": "JERIAH",
+     "team": [
+      "JERIAH",
+      "MARY",
+      "MERCY",
+      "YOUA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "NATE",
+     "team": [
+      "NATE",
+      "TSHEEJ",
+      "MERCY",
+      "JEDI"
+     ],
+     "votes": [
+      "JERIAH",
+      "JEDI",
+      "YOUA",
+      "TSHEEJ"
+     ]
+    },
+    {
+     "votes": [
+      "MERCY",
+      "TSHEEJ",
+      "JOSIAH",
+      "NATE",
+      "JEDI",
+      "YOUA"
+     ],
+     "proposer": "TSHEEJ",
+     "state": "APPROVED",
+     "team": [
+      "TSHEEJ",
+      "NATE",
+      "MERCY",
+      "JOSIAH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "TSHEEJ",
+    "NATE",
+    "MERCY",
+    "JOSIAH"
+   ],
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JEDI",
+      "MARY",
+      "JERIAH",
+      "YOUA",
+      "MERCY"
+     ],
+     "proposer": "JEDI",
+     "votes": [
+      "MERCY",
+      "JERIAH",
+      "JEDI",
+      "TSHEEJ",
+      "JOSIAH",
+      "YOUA",
+      "MARY",
+      "NATE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [
+    "JEDI",
+    "MARY",
+    "JERIAH",
+    "YOUA",
+    "MERCY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "MERCY",
+     "team": [
+      "JEDI",
+      "MERCY",
+      "MARY",
+      "JERIAH",
+      "YOUA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MARY",
+      "YOUA",
+      "MERCY",
+      "JERIAH",
+      "NATE",
+      "JEDI"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "JEDI",
+    "MERCY",
+    "MARY",
+    "JERIAH",
+    "YOUA"
+   ],
+   "teamSize": 5,
+   "numFails": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1603580971,
+  "_nanoseconds": 863000000
+ },
+ "timeFinished": {
+  "_seconds": 1603583104,
+  "_nanoseconds": 11000000
+ }
+}

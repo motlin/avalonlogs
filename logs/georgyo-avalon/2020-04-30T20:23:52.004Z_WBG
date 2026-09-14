@@ -1,0 +1,272 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "pkhcbqsuLPRP2gqJuZcCnMBEoAq1",
+   "name": "JAREK"
+  },
+  {
+   "name": "MACIEK",
+   "uid": "KfUNizbMqCYWqAFANHPRI5oyPZj2"
+  },
+  {
+   "name": "POLINA",
+   "uid": "bFMW2UxDeLb531j4PJVKmsuPlLk2"
+  },
+  {
+   "name": "TOMKE",
+   "uid": "5GLwW31R3ddUVMWe776TH7XZpvG3"
+  },
+  {
+   "name": "JANEK",
+   "uid": "q6sQb0CBN6TehRMwWTho0duukyQ2"
+  },
+  {
+   "uid": "0jSc4z7GF1SQ3CCrJJHSfSkcx0r2",
+   "name": "KAZET"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "TOMKE",
+      "POLINA",
+      "JANEK"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TOMKE",
+      "JANEK"
+     ],
+     "proposer": "JANEK"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TOMKE",
+      "JANEK"
+     ],
+     "team": [
+      "KAZET",
+      "TOMKE"
+     ],
+     "proposer": "KAZET"
+    },
+    {
+     "proposer": "JAREK",
+     "votes": [
+      "TOMKE",
+      "JAREK",
+      "JANEK"
+     ],
+     "team": [
+      "TOMKE",
+      "JAREK"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JANEK",
+      "MACIEK",
+      "TOMKE",
+      "POLINA",
+      "JAREK"
+     ],
+     "state": "APPROVED",
+     "proposer": "MACIEK",
+     "team": [
+      "MACIEK",
+      "JAREK"
+     ]
+    }
+   ],
+   "team": [
+    "MACIEK",
+    "JAREK"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "TOMKE",
+    "POLINA",
+    "KAZET"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JANEK",
+      "TOMKE",
+      "POLINA",
+      "JAREK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "TOMKE",
+      "POLINA",
+      "KAZET"
+     ],
+     "proposer": "POLINA"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "JAREK",
+    "POLINA",
+    "JANEK",
+    "KAZET"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "TOMKE",
+      "POLINA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JANEK",
+      "TOMKE",
+      "POLINA",
+      "JAREK"
+     ],
+     "proposer": "TOMKE"
+    },
+    {
+     "team": [
+      "JANEK",
+      "KAZET",
+      "JAREK",
+      "POLINA"
+     ],
+     "votes": [
+      "JANEK"
+     ],
+     "proposer": "JANEK",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JAREK",
+      "POLINA",
+      "JANEK",
+      "KAZET"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JANEK"
+     ],
+     "proposer": "KAZET"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JAREK",
+     "team": [
+      "JAREK",
+      "POLINA",
+      "JANEK",
+      "KAZET"
+     ],
+     "votes": [
+      "JANEK",
+      "POLINA",
+      "JAREK",
+      "KAZET"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JAREK": true,
+    "MACIEK": false
+   },
+   {
+    "POLINA": true,
+    "KAZET": false,
+    "TOMKE": true
+   },
+   {
+    "POLINA": true,
+    "JAREK": true,
+    "KAZET": false,
+    "JANEK": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TOMKE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "POLINA"
+   },
+   {
+    "name": "JAREK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "KAZET"
+   },
+   {
+    "name": "JANEK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MACIEK"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1588278232,
+  "_nanoseconds": 4000000
+ },
+ "timeFinished": {
+  "_seconds": 1588279344,
+  "_nanoseconds": 524000000
+ }
+}

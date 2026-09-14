@@ -1,0 +1,268 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "EMILY": true,
+    "ANDREW": true
+   },
+   {
+    "EMILY": true,
+    "ANDREW": true,
+    "IVANA": false
+   },
+   {
+    "BECKA": false,
+    "TEDRA": true,
+    "ED": true
+   },
+   {
+    "ED": true,
+    "SNIFFSNIFF": true,
+    "EMILY": true,
+    "ANDREW": true
+   },
+   {
+    "EMILY": true,
+    "SNIFFSNIFF": false,
+    "ANDREW": true,
+    "ED": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "TEDRA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "BECKA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ANDREW"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ED",
+    "assassin": false
+   },
+   {
+    "name": "SNIFFSNIFF",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "IVANA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "EMILY",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ANDREW",
+    "EMILY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ANDREW",
+      "EMILY"
+     ],
+     "votes": [
+      "BECKA",
+      "ANDREW",
+      "ED",
+      "SNIFFSNIFF",
+      "IVANA",
+      "EMILY",
+      "TEDRA"
+     ],
+     "proposer": "EMILY",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TEDRA",
+      "BECKA",
+      "ANDREW",
+      "ED",
+      "SNIFFSNIFF",
+      "IVANA",
+      "EMILY"
+     ],
+     "proposer": "ANDREW",
+     "team": [
+      "EMILY",
+      "IVANA",
+      "ANDREW"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "EMILY",
+    "IVANA",
+    "ANDREW"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "BECKA",
+     "team": [
+      "BECKA",
+      "ED",
+      "TEDRA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ED",
+      "SNIFFSNIFF",
+      "IVANA",
+      "EMILY",
+      "TEDRA",
+      "BECKA",
+      "ANDREW"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "BECKA",
+    "ED",
+    "TEDRA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "IVANA",
+      "EMILY",
+      "TEDRA",
+      "BECKA",
+      "ANDREW",
+      "ED",
+      "SNIFFSNIFF"
+     ],
+     "proposer": "ED",
+     "state": "APPROVED",
+     "team": [
+      "ED",
+      "ANDREW",
+      "EMILY",
+      "SNIFFSNIFF"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "team": [
+    "ED",
+    "ANDREW",
+    "EMILY",
+    "SNIFFSNIFF"
+   ],
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "IVANA",
+     "state": "APPROVED",
+     "votes": [
+      "IVANA",
+      "EMILY",
+      "BECKA",
+      "ANDREW",
+      "ED",
+      "SNIFFSNIFF"
+     ],
+     "team": [
+      "ANDREW",
+      "ED",
+      "SNIFFSNIFF",
+      "EMILY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "ANDREW",
+    "ED",
+    "SNIFFSNIFF",
+    "EMILY"
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586064161,
+  "_nanoseconds": 872608000
+ },
+ "timeCreated": {
+  "_seconds": 1586063838,
+  "_nanoseconds": 507000000
+ },
+ "players": [
+  {
+   "name": "ANDREW",
+   "uid": "LELyEKUjXNe9ajl1gZMrf2dNaNk2"
+  },
+  {
+   "name": "BECKA",
+   "uid": "HooE43lDYxOxTwCHHVhYq9wyOtt1"
+  },
+  {
+   "name": "ED",
+   "uid": "D9eyIeYgvdN0KSNHDVVHmcVEMy73"
+  },
+  {
+   "name": "IVANA",
+   "uid": "hiClTskdZpbRjdMU5xI3RHpqU9U2"
+  },
+  {
+   "name": "SNIFFSNIFF",
+   "uid": "fHLM0Y9FTbbLR4UUV7FFxj6LYJY2"
+  },
+  {
+   "uid": "qF4O3Y0Jcqe76aahJ1Dd8FHxob43",
+   "name": "TEDRA"
+  },
+  {
+   "name": "EMILY",
+   "uid": "G1G8tEVu7kPjU1VVay0eMD889823"
+  }
+ ]
+}

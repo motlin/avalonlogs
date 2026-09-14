@@ -1,0 +1,459 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "BRYWEN": true,
+    "ADAM": true
+   },
+   {
+    "ADAM": false,
+    "NIKOLAI": true,
+    "BRYWEN": false
+   },
+   {
+    "ANINDYA": true,
+    "ADAM": false,
+    "CRAIG": true,
+    "KLAUDIA": true
+   },
+   {
+    "CRAIG": true,
+    "ANINDYA": true,
+    "KLAUDIA": true
+   },
+   {
+    "ANINDYA": true,
+    "CRAIG": true,
+    "NIKOLAI": true,
+    "KLAUDIA": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "BRYWEN",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ADAM"
+   },
+   {
+    "name": "CRAIG",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "KLAUDIA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NIKOLAI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANINDYA"
+   }
+  ],
+  "assassinated": "NIKOLAI"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CRAIG",
+      "KLAUDIA"
+     ],
+     "team": [
+      "CRAIG",
+      "KLAUDIA"
+     ],
+     "proposer": "CRAIG",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KLAUDIA",
+     "votes": [
+      "CRAIG",
+      "KLAUDIA"
+     ],
+     "team": [
+      "KLAUDIA",
+      "CRAIG"
+     ]
+    },
+    {
+     "votes": [
+      "ANINDYA",
+      "KLAUDIA"
+     ],
+     "proposer": "ANINDYA",
+     "state": "REJECTED",
+     "team": [
+      "ANINDYA",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "KLAUDIA"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "team": [
+      "ADAM",
+      "BRYWEN"
+     ],
+     "votes": [
+      "ADAM",
+      "CRAIG",
+      "KLAUDIA",
+      "NIKOLAI",
+      "ANINDYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "ADAM"
+    }
+   ],
+   "team": [
+    "ADAM",
+    "BRYWEN"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BRYWEN",
+    "NIKOLAI",
+    "ADAM"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [],
+     "proposer": "BRYWEN",
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "ADAM",
+      "BRYWEN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CRAIG",
+      "ADAM"
+     ],
+     "proposer": "CRAIG",
+     "team": [
+      "CRAIG",
+      "ADAM",
+      "BRYWEN"
+     ]
+    },
+    {
+     "team": [
+      "BRYWEN",
+      "KLAUDIA",
+      "ADAM"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "BRYWEN"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ANINDYA",
+      "CRAIG"
+     ],
+     "team": [
+      "ADAM",
+      "ANINDYA",
+      "CRAIG"
+     ],
+     "proposer": "ANINDYA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "NIKOLAI",
+      "ANINDYA",
+      "BRYWEN",
+      "ADAM",
+      "CRAIG",
+      "KLAUDIA"
+     ],
+     "proposer": "NIKOLAI",
+     "team": [
+      "BRYWEN",
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "CRAIG",
+      "KLAUDIA",
+      "ANINDYA",
+      "ADAM"
+     ],
+     "votes": [
+      "ADAM"
+     ],
+     "state": "REJECTED",
+     "proposer": "ADAM"
+    },
+    {
+     "team": [
+      "BRYWEN",
+      "CRAIG",
+      "KLAUDIA",
+      "ANINDYA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BRYWEN"
+     ],
+     "proposer": "BRYWEN"
+    },
+    {
+     "team": [
+      "CRAIG",
+      "ANINDYA",
+      "KLAUDIA",
+      "ADAM"
+     ],
+     "votes": [
+      "ADAM",
+      "CRAIG"
+     ],
+     "state": "REJECTED",
+     "proposer": "CRAIG"
+    },
+    {
+     "votes": [
+      "ADAM",
+      "CRAIG",
+      "KLAUDIA"
+     ],
+     "team": [
+      "CRAIG",
+      "KLAUDIA",
+      "ANINDYA",
+      "ADAM"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ANINDYA",
+     "votes": [
+      "NIKOLAI",
+      "ANINDYA",
+      "BRYWEN",
+      "ADAM",
+      "CRAIG",
+      "KLAUDIA"
+     ],
+     "team": [
+      "KLAUDIA",
+      "ANINDYA",
+      "CRAIG",
+      "ADAM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "KLAUDIA",
+    "ANINDYA",
+    "CRAIG",
+    "ADAM"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "NIKOLAI",
+     "state": "APPROVED",
+     "team": [
+      "ANINDYA",
+      "KLAUDIA",
+      "CRAIG"
+     ],
+     "votes": [
+      "BRYWEN",
+      "ADAM",
+      "CRAIG",
+      "KLAUDIA",
+      "NIKOLAI",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ANINDYA",
+    "KLAUDIA",
+    "CRAIG"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CRAIG",
+      "KLAUDIA",
+      "ANINDYA",
+      "ADAM"
+     ],
+     "votes": [
+      "ADAM"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "team": [
+      "BRYWEN",
+      "CRAIG",
+      "KLAUDIA",
+      "ANINDYA"
+     ],
+     "proposer": "BRYWEN",
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "proposer": "CRAIG",
+     "team": [
+      "CRAIG",
+      "KLAUDIA",
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "NIKOLAI",
+      "CRAIG"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA",
+      "NIKOLAI"
+     ],
+     "proposer": "KLAUDIA",
+     "team": [
+      "CRAIG",
+      "KLAUDIA",
+      "ANINDYA",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CRAIG",
+      "KLAUDIA",
+      "NIKOLAI",
+      "ANINDYA"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ANINDYA",
+      "KLAUDIA",
+      "CRAIG"
+     ],
+     "proposer": "ANINDYA"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "NIKOLAI",
+    "ANINDYA",
+    "KLAUDIA",
+    "CRAIG"
+   ],
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "BRYWEN",
+   "uid": "zJvaiYaqpdY0oBb9K2o9LH58rf43"
+  },
+  {
+   "name": "CRAIG",
+   "uid": "4sNqa4aD3MWk2zEPWcJKx4sKBXf1"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "name": "ANINDYA",
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  },
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1594350930,
+  "_nanoseconds": 130000000
+ },
+ "timeFinished": {
+  "_seconds": 1594352140,
+  "_nanoseconds": 210000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

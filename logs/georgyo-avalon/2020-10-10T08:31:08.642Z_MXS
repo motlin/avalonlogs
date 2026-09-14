@@ -1,0 +1,224 @@
+{
+ "players": [
+  {
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2",
+   "name": "RYAN"
+  },
+  {
+   "name": "ALLY",
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52"
+  },
+  {
+   "uid": "aoQvgG3wE6c0b1xmTJthRZs5E433",
+   "name": "DRSUES"
+  },
+  {
+   "uid": "gwix1oO6aIT8R7vtBfwGdZEPFKG2",
+   "name": "JAY"
+  },
+  {
+   "uid": "j9ls4MYglxZclHY6BCerDK8x7Vk2",
+   "name": "JOON"
+  },
+  {
+   "uid": "Vx8DzbnEyrezzZk1KQFcmEgq2Op1",
+   "name": "BRANDEN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1602318978,
+  "_nanoseconds": 44000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "BRANDEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "name": "JAY",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "DRSUES"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JOON"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "RYAN"
+   },
+   {
+    "name": "ALLY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JOON": true,
+    "BRANDEN": true
+   },
+   {
+    "JOON": true,
+    "BRANDEN": true,
+    "RYAN": false
+   },
+   {
+    "DRSUES": true,
+    "JOON": true,
+    "BRANDEN": true,
+    "ALLY": true
+   },
+   {
+    "DRSUES": true,
+    "BRANDEN": true,
+    "JOON": true
+   }
+  ],
+  "assassinated": "DRSUES"
+ },
+ "timeCreated": {
+  "_seconds": 1602318668,
+  "_nanoseconds": 642000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "BRANDEN",
+     "state": "APPROVED",
+     "team": [
+      "BRANDEN",
+      "JOON"
+     ],
+     "votes": [
+      "JAY",
+      "DRSUES",
+      "BRANDEN",
+      "RYAN",
+      "JOON"
+     ]
+    }
+   ],
+   "team": [
+    "BRANDEN",
+    "JOON"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DRSUES",
+      "BRANDEN",
+      "ALLY",
+      "JOON",
+      "RYAN",
+      "JAY"
+     ],
+     "team": [
+      "JOON",
+      "BRANDEN",
+      "RYAN"
+     ],
+     "proposer": "RYAN"
+    }
+   ],
+   "team": [
+    "JOON",
+    "BRANDEN",
+    "RYAN"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BRANDEN",
+      "JAY",
+      "JOON",
+      "ALLY",
+      "DRSUES"
+     ],
+     "proposer": "ALLY",
+     "state": "APPROVED",
+     "team": [
+      "ALLY",
+      "DRSUES",
+      "JOON",
+      "BRANDEN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "ALLY",
+    "DRSUES",
+    "JOON",
+    "BRANDEN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DRSUES",
+      "JOON",
+      "JAY",
+      "ALLY",
+      "BRANDEN"
+     ],
+     "proposer": "DRSUES",
+     "state": "APPROVED",
+     "team": [
+      "DRSUES",
+      "JOON",
+      "BRANDEN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "DRSUES",
+    "JOON",
+    "BRANDEN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

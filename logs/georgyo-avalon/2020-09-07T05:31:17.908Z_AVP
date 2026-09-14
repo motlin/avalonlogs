@@ -1,0 +1,532 @@
+{
+ "players": [
+  {
+   "uid": "X2mcyKLMPMQhWx17AwSBOdLjAr63",
+   "name": "SAAD"
+  },
+  {
+   "uid": "Nl3X1bQKg2UiLz2f9LXhdaymPOj2",
+   "name": "MK"
+  },
+  {
+   "uid": "l80na79FLpZ2ERDdTX03mI7J3423",
+   "name": "HAM"
+  },
+  {
+   "uid": "i16IM8BCiSOOwasYM5f3ovVNMUD3",
+   "name": "URWAH"
+  },
+  {
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1",
+   "name": "RAHUL"
+  },
+  {
+   "name": "NEERAJ",
+   "uid": "QeTFttr1YEWnQ9ra8R6nqn1pRaY2"
+  },
+  {
+   "name": "RAAS",
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2"
+  },
+  {
+   "name": "TMKT",
+   "uid": "bTQLvAatPxbtNgWzvcF0KsYdcXA2"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2",
+   "name": "ZAIN"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "MK",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ZAIN"
+   },
+   {
+    "assassin": false,
+    "name": "SAAD",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "name": "HAM",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "RAAS"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "URWAH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MAFAZLA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "NEERAJ",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "TMKT",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "RAHUL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "MK": true,
+    "RAAS": true,
+    "MAFAZLA": true
+   },
+   {
+    "NEERAJ": true,
+    "SAAD": true,
+    "MAFAZLA": true,
+    "MK": false
+   },
+   {
+    "URWAH": true,
+    "NEERAJ": true,
+    "MAFAZLA": true,
+    "RAAS": false
+   },
+   {
+    "TMKT": false,
+    "RAAS": false,
+    "SAAD": true,
+    "HAM": true,
+    "MK": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1599456677,
+  "_nanoseconds": 908000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1599458941,
+  "_nanoseconds": 993000000
+ },
+ "missions": [
+  {
+   "team": [
+    "RAAS",
+    "MAFAZLA",
+    "MK"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SAAD",
+      "NEERAJ",
+      "MAFAZLA"
+     ],
+     "votes": [
+      "NEERAJ",
+      "URWAH",
+      "HAM",
+      "SAAD"
+     ],
+     "proposer": "HAM"
+    },
+    {
+     "votes": [
+      "HAM",
+      "URWAH",
+      "TMKT"
+     ],
+     "proposer": "URWAH",
+     "team": [
+      "HAM",
+      "URWAH",
+      "TMKT"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "RAHUL",
+     "votes": [
+      "URWAH",
+      "HAM"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "HAM",
+      "RAHUL",
+      "SAAD"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NEERAJ",
+      "URWAH",
+      "HAM",
+      "TMKT"
+     ],
+     "team": [
+      "NEERAJ",
+      "RAAS",
+      "TMKT"
+     ],
+     "proposer": "NEERAJ"
+    },
+    {
+     "votes": [
+      "MK",
+      "MAFAZLA",
+      "HAM",
+      "TMKT",
+      "URWAH",
+      "RAAS",
+      "SAAD",
+      "RAHUL",
+      "ZAIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "RAAS",
+     "team": [
+      "RAAS",
+      "MAFAZLA",
+      "MK"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "MK",
+    "SAAD",
+    "MAFAZLA",
+    "NEERAJ"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MAFAZLA",
+      "TMKT"
+     ],
+     "proposer": "TMKT",
+     "state": "REJECTED",
+     "team": [
+      "MK",
+      "TMKT",
+      "RAAS",
+      "MAFAZLA"
+     ]
+    },
+    {
+     "team": [
+      "MAFAZLA",
+      "TMKT",
+      "RAAS",
+      "SAAD"
+     ],
+     "proposer": "MAFAZLA",
+     "votes": [
+      "URWAH",
+      "TMKT",
+      "MAFAZLA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ZAIN",
+     "state": "REJECTED",
+     "votes": [
+      "SAAD",
+      "ZAIN"
+     ],
+     "team": [
+      "MAFAZLA",
+      "ZAIN",
+      "MK",
+      "SAAD"
+     ]
+    },
+    {
+     "team": [
+      "SAAD",
+      "MAFAZLA",
+      "NEERAJ",
+      "MK"
+     ],
+     "votes": [
+      "HAM",
+      "NEERAJ",
+      "TMKT",
+      "MK",
+      "SAAD"
+     ],
+     "proposer": "SAAD",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MK",
+      "SAAD",
+      "MAFAZLA",
+      "NEERAJ"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NEERAJ",
+      "URWAH",
+      "HAM",
+      "RAAS",
+      "SAAD",
+      "RAHUL",
+      "MK",
+      "ZAIN",
+      "MAFAZLA"
+     ],
+     "proposer": "MK"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "HAM",
+     "team": [
+      "ZAIN",
+      "HAM",
+      "NEERAJ",
+      "RAAS"
+     ],
+     "votes": [
+      "NEERAJ",
+      "HAM"
+     ]
+    },
+    {
+     "proposer": "URWAH",
+     "votes": [
+      "URWAH",
+      "TMKT",
+      "RAAS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MK",
+      "RAAS",
+      "URWAH",
+      "MAFAZLA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "RAHUL",
+     "votes": [
+      "HAM",
+      "RAHUL",
+      "SAAD",
+      "URWAH",
+      "TMKT"
+     ],
+     "team": [
+      "MAFAZLA",
+      "MK",
+      "SAAD",
+      "TMKT"
+     ]
+    },
+    {
+     "team": [
+      "RAAS",
+      "NEERAJ",
+      "HAM",
+      "ZAIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "NEERAJ",
+     "votes": [
+      "NEERAJ",
+      "HAM",
+      "RAHUL"
+     ]
+    },
+    {
+     "proposer": "RAAS",
+     "votes": [
+      "MAFAZLA",
+      "HAM",
+      "TMKT",
+      "URWAH",
+      "RAHUL",
+      "MK",
+      "ZAIN",
+      "SAAD",
+      "RAAS",
+      "NEERAJ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RAAS",
+      "MAFAZLA",
+      "NEERAJ",
+      "URWAH"
+     ]
+    }
+   ],
+   "team": [
+    "RAAS",
+    "MAFAZLA",
+    "NEERAJ",
+    "URWAH"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "team": [
+    "MK",
+    "HAM",
+    "RAAS",
+    "SAAD",
+    "TMKT"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "URWAH",
+      "RAHUL",
+      "SAAD",
+      "HAM",
+      "TMKT"
+     ],
+     "proposer": "TMKT",
+     "team": [
+      "MK",
+      "TMKT",
+      "SAAD",
+      "MAFAZLA",
+      "RAHUL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MAFAZLA",
+      "RAHUL",
+      "MK",
+      "ZAIN",
+      "SAAD"
+     ],
+     "proposer": "MAFAZLA",
+     "votes": [
+      "URWAH",
+      "SAAD",
+      "MAFAZLA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ZAIN",
+      "HAM",
+      "NEERAJ",
+      "RAHUL",
+      "TMKT"
+     ],
+     "proposer": "ZAIN",
+     "state": "REJECTED",
+     "votes": [
+      "ZAIN",
+      "RAHUL",
+      "NEERAJ",
+      "HAM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "SAAD",
+     "team": [
+      "SAAD",
+      "MK",
+      "MAFAZLA",
+      "RAHUL",
+      "TMKT"
+     ],
+     "votes": [
+      "TMKT",
+      "MK",
+      "SAAD"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAFAZLA",
+      "NEERAJ",
+      "MK",
+      "RAHUL",
+      "TMKT",
+      "URWAH",
+      "HAM",
+      "RAAS"
+     ],
+     "proposer": "MK",
+     "team": [
+      "MK",
+      "HAM",
+      "RAAS",
+      "SAAD",
+      "TMKT"
+     ]
+    }
+   ],
+   "numFails": 3,
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5
+  }
+ ]
+}

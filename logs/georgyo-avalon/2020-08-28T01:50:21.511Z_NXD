@@ -1,0 +1,303 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "AFFINE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JET"
+   },
+   {
+    "assassin": false,
+    "name": "KLAUDIA",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "NIKHIL",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ADAM",
+    "assassin": true
+   }
+  ],
+  "votes": [
+   {
+    "KLAUDIA": false,
+    "NIKHIL": true
+   },
+   {
+    "AFFINE": true,
+    "NIKHIL": true,
+    "ADAM": false
+   },
+   {
+    "AFFINE": true,
+    "JET": true
+   },
+   {
+    "JET": true,
+    "NIKHIL": true,
+    "AFFINE": true
+   },
+   {
+    "NIKHIL": true,
+    "JET": true,
+    "AFFINE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "AFFINE"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ADAM",
+      "JET"
+     ],
+     "team": [
+      "ADAM",
+      "JET"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "KLAUDIA",
+      "JET",
+      "ADAM"
+     ],
+     "proposer": "NIKHIL",
+     "state": "APPROVED",
+     "team": [
+      "NIKHIL",
+      "KLAUDIA"
+     ]
+    }
+   ],
+   "team": [
+    "NIKHIL",
+    "KLAUDIA"
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JET",
+      "ADAM"
+     ],
+     "proposer": "AFFINE",
+     "team": [
+      "AFFINE",
+      "JET",
+      "ADAM"
+     ]
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "AFFINE",
+      "ADAM"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA"
+     ]
+    },
+    {
+     "proposer": "JET",
+     "state": "REJECTED",
+     "votes": [
+      "JET"
+     ],
+     "team": [
+      "JET",
+      "NIKHIL",
+      "ADAM"
+     ]
+    },
+    {
+     "votes": [
+      "JET",
+      "ADAM"
+     ],
+     "team": [
+      "ADAM",
+      "JET",
+      "NIKHIL"
+     ],
+     "proposer": "ADAM",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NIKHIL",
+      "ADAM",
+      "AFFINE"
+     ],
+     "proposer": "NIKHIL",
+     "votes": [
+      "KLAUDIA",
+      "AFFINE",
+      "ADAM",
+      "NIKHIL"
+     ]
+    }
+   ],
+   "team": [
+    "NIKHIL",
+    "ADAM",
+    "AFFINE"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "AFFINE",
+    "JET"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AFFINE",
+     "votes": [
+      "JET",
+      "NIKHIL",
+      "AFFINE"
+     ],
+     "team": [
+      "AFFINE",
+      "JET"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "AFFINE",
+    "JET",
+    "NIKHIL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KLAUDIA"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "AFFINE",
+      "JET"
+     ]
+    },
+    {
+     "team": [
+      "AFFINE",
+      "JET",
+      "NIKHIL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JET",
+      "AFFINE",
+      "NIKHIL"
+     ],
+     "proposer": "JET"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "team": [
+      "JET",
+      "NIKHIL",
+      "AFFINE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KLAUDIA",
+      "AFFINE",
+      "ADAM",
+      "NIKHIL",
+      "JET"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "JET",
+    "NIKHIL",
+    "AFFINE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1598579858,
+  "_nanoseconds": 330000000
+ },
+ "players": [
+  {
+   "uid": "g4Gjm73b8UTD4k34SLYlr1IYmC13",
+   "name": "JET"
+  },
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3"
+  },
+  {
+   "name": "AFFINE",
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598579421,
+  "_nanoseconds": 511000000
+ }
+}

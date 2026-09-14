@@ -1,0 +1,252 @@
+{
+ "outcome": {
+  "assassinated": "SIDDHANT",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "CON": true,
+    "SIDDHANT": true
+   },
+   {
+    "CON": true,
+    "SIDDHANT": true,
+    "ASHWIN": false
+   },
+   {
+    "SIDDHANT": true,
+    "ISHAN": true
+   },
+   {
+    "ISHAN": true,
+    "CON": true,
+    "SIDDHANT": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "ASHWIN",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "RKSHTHRMSH"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "CON",
+    "assassin": false
+   },
+   {
+    "name": "ISHAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SIDDHANT",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1599428511,
+  "_nanoseconds": 539000000
+ },
+ "players": [
+  {
+   "name": "CON",
+   "uid": "0zuuHtvL6LWGtXtEK9nLUE4nVSx1"
+  },
+  {
+   "uid": "kWtlNEwwBpfcfIQFE5fUEzd6PNh2",
+   "name": "SIDDHANT"
+  },
+  {
+   "uid": "Et6HabxhsTbia8wks2VCLqqD0X02",
+   "name": "RKSHTHRMSH"
+  },
+  {
+   "name": "ISHAN",
+   "uid": "N7zO1f0RGhXZOfeAZztZK6WygAx2"
+  },
+  {
+   "name": "ASHWIN",
+   "uid": "V1Pc3x5nb5S2mqdQKBToNtQXXuf2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "SIDDHANT",
+      "ASHWIN"
+     ],
+     "votes": [
+      "CON",
+      "ASHWIN"
+     ],
+     "proposer": "SIDDHANT",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "CON",
+      "RKSHTHRMSH"
+     ],
+     "state": "REJECTED",
+     "proposer": "RKSHTHRMSH",
+     "votes": [
+      "RKSHTHRMSH",
+      "CON"
+     ]
+    },
+    {
+     "votes": [
+      "ISHAN",
+      "CON",
+      "RKSHTHRMSH"
+     ],
+     "team": [
+      "SIDDHANT",
+      "CON"
+     ],
+     "proposer": "ISHAN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SIDDHANT",
+    "CON"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "SIDDHANT",
+    "ASHWIN",
+    "CON"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ASHWIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CON",
+      "ASHWIN",
+      "SIDDHANT"
+     ],
+     "proposer": "ASHWIN"
+    },
+    {
+     "votes": [
+      "RKSHTHRMSH",
+      "ISHAN"
+     ],
+     "proposer": "CON",
+     "team": [
+      "CON",
+      "RKSHTHRMSH",
+      "ASHWIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ISHAN",
+      "SIDDHANT",
+      "ASHWIN",
+      "CON",
+      "RKSHTHRMSH"
+     ],
+     "team": [
+      "SIDDHANT",
+      "ASHWIN",
+      "CON"
+     ],
+     "proposer": "SIDDHANT",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RKSHTHRMSH",
+     "votes": [
+      "ISHAN",
+      "ASHWIN",
+      "RKSHTHRMSH"
+     ],
+     "team": [
+      "ISHAN",
+      "SIDDHANT"
+     ]
+    }
+   ],
+   "team": [
+    "ISHAN",
+    "SIDDHANT"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "CON",
+    "SIDDHANT",
+    "ISHAN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ASHWIN",
+      "ISHAN",
+      "RKSHTHRMSH",
+      "CON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CON",
+      "SIDDHANT",
+      "ISHAN"
+     ],
+     "proposer": "ISHAN"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1599427590,
+  "_nanoseconds": 737000000
+ }
+}

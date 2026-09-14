@@ -1,0 +1,295 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "M",
+  "votes": [
+   {
+    "ADP": true,
+    "ADURIAN": true
+   },
+   {
+    "ADURIAN": false,
+    "M": true,
+    "ADP": true
+   },
+   {
+    "M": true,
+    "ZAREENAH": true,
+    "PAIS": true
+   },
+   {
+    "M": true,
+    "PAIS": true,
+    "ADP": true,
+    "ZAREENAH": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ADURIAN",
+    "role": "MORGANA"
+   },
+   {
+    "name": "ZAREENAH",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "OBET",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "RABIT",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "M",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ADP",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "PAIS"
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1603996996,
+  "_nanoseconds": 518000000
+ },
+ "players": [
+  {
+   "uid": "ZFgUktJiuxZj6wOC4HX9xrcvZNv1",
+   "name": "RABIT"
+  },
+  {
+   "uid": "12ampu9xP3QZvRKNDdGEiMlmGFH2",
+   "name": "OBET"
+  },
+  {
+   "name": "PAIS",
+   "uid": "nWTZrfZ9zChuIsOwu76kNBmCZNr1"
+  },
+  {
+   "name": "ZAREENAH",
+   "uid": "ib1oo3Qyppb7cdWge0Z1IMGS6hQ2"
+  },
+  {
+   "name": "ADURIAN",
+   "uid": "nCIuoZdvenXVQcR9Pl42EnkfkO92"
+  },
+  {
+   "uid": "cerZqFV3jIXGTuBL71ygi9AkasX2",
+   "name": "ADP"
+  },
+  {
+   "name": "M",
+   "uid": "Rruh6j25tzbNhwLoaRnNc25Ng5s1"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ADURIAN",
+    "ADP"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ADURIAN",
+      "ADP"
+     ],
+     "state": "APPROVED",
+     "proposer": "ADURIAN",
+     "votes": [
+      "ADP",
+      "ZAREENAH",
+      "ADURIAN",
+      "RABIT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ADURIAN",
+    "M",
+    "ADP"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ADP",
+     "votes": [
+      "ADURIAN",
+      "RABIT",
+      "ADP",
+      "OBET"
+     ],
+     "team": [
+      "ADURIAN",
+      "M",
+      "ADP"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ZAREENAH",
+    "PAIS",
+    "M"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ZAREENAH",
+      "PAIS",
+      "M"
+     ],
+     "team": [
+      "M",
+      "ZAREENAH",
+      "PAIS"
+     ],
+     "state": "REJECTED",
+     "proposer": "M"
+    },
+    {
+     "proposer": "RABIT",
+     "team": [
+      "RABIT",
+      "ADP",
+      "PAIS"
+     ],
+     "votes": [
+      "ADP",
+      "RABIT"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "OBET",
+     "team": [
+      "ZAREENAH",
+      "OBET",
+      "M"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "OBET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ZAREENAH",
+      "PAIS"
+     ],
+     "team": [
+      "PAIS",
+      "M",
+      "ZAREENAH"
+     ],
+     "proposer": "PAIS"
+    },
+    {
+     "votes": [
+      "ADURIAN",
+      "ZAREENAH",
+      "PAIS",
+      "M"
+     ],
+     "team": [
+      "ZAREENAH",
+      "PAIS",
+      "M"
+     ],
+     "state": "APPROVED",
+     "proposer": "ZAREENAH"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ADURIAN",
+      "M",
+      "ZAREENAH",
+      "RABIT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ADURIAN",
+      "RABIT",
+      "M"
+     ],
+     "proposer": "ADURIAN"
+    },
+    {
+     "proposer": "ADP",
+     "state": "APPROVED",
+     "team": [
+      "PAIS",
+      "ZAREENAH",
+      "M",
+      "ADP"
+     ],
+     "votes": [
+      "M",
+      "ZAREENAH",
+      "ADP",
+      "PAIS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "PAIS",
+    "ZAREENAH",
+    "M",
+    "ADP"
+   ],
+   "numFails": 0,
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1603997698,
+  "_nanoseconds": 119000000
+ }
+}

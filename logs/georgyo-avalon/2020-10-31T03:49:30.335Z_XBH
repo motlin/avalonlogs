@@ -1,0 +1,245 @@
+{
+ "players": [
+  {
+   "name": "SHAWN",
+   "uid": "BYcr6J1oxrPio777HmmpY61t7hj2"
+  },
+  {
+   "name": "MICHAELA",
+   "uid": "V4RKuLCOKiRqemTxQtmDQsEpeCk1"
+  },
+  {
+   "name": "GABIN",
+   "uid": "sIrgAWMdHHM1HRklcEECtygpHFq1"
+  },
+  {
+   "uid": "ffTgf371ShgM9iBWTZYQNHgsIGC2",
+   "name": "AZY"
+  },
+  {
+   "name": "MOOSH",
+   "uid": "hQ9UrDwWGqa45QV6WN4TOdnY6H13"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "AZY": true,
+    "MOOSH": true
+   },
+   {
+    "MOOSH": true,
+    "GABIN": false,
+    "MICHAELA": true
+   },
+   {
+    "AZY": true,
+    "MOOSH": true
+   },
+   {
+    "MOOSH": true,
+    "AZY": false,
+    "SHAWN": true
+   },
+   {
+    "AZY": false,
+    "GABIN": false,
+    "SHAWN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "GABIN"
+   },
+   {
+    "name": "SHAWN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MOOSH"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "AZY"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MICHAELA"
+   }
+  ],
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1604116170,
+  "_nanoseconds": 335000000
+ },
+ "timeFinished": {
+  "_seconds": 1604116780,
+  "_nanoseconds": 13000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "AZY",
+      "MOOSH"
+     ],
+     "votes": [
+      "MICHAELA",
+      "GABIN",
+      "AZY",
+      "MOOSH",
+      "SHAWN"
+     ],
+     "proposer": "GABIN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "AZY",
+    "MOOSH"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "AZY",
+     "votes": [
+      "MOOSH",
+      "GABIN",
+      "AZY"
+     ],
+     "team": [
+      "GABIN",
+      "MOOSH",
+      "MICHAELA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "GABIN",
+    "MOOSH",
+    "MICHAELA"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MOOSH",
+     "votes": [
+      "GABIN",
+      "AZY",
+      "MOOSH",
+      "MICHAELA",
+      "SHAWN"
+     ],
+     "team": [
+      "MOOSH",
+      "AZY"
+     ]
+    }
+   ],
+   "team": [
+    "MOOSH",
+    "AZY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "SHAWN",
+    "AZY",
+    "MOOSH"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SHAWN",
+     "state": "APPROVED",
+     "team": [
+      "SHAWN",
+      "AZY",
+      "MOOSH"
+     ],
+     "votes": [
+      "MOOSH",
+      "MICHAELA",
+      "SHAWN",
+      "GABIN",
+      "AZY"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MICHAELA",
+      "GABIN",
+      "AZY"
+     ],
+     "votes": [
+      "MICHAELA",
+      "MOOSH"
+     ],
+     "proposer": "MICHAELA"
+    },
+    {
+     "proposer": "GABIN",
+     "state": "APPROVED",
+     "votes": [
+      "SHAWN",
+      "AZY",
+      "GABIN",
+      "MICHAELA"
+     ],
+     "team": [
+      "AZY",
+      "GABIN",
+      "SHAWN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "AZY",
+    "GABIN",
+    "SHAWN"
+   ]
+  }
+ ]
+}

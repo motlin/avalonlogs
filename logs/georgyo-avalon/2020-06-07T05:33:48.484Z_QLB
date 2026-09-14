@@ -1,0 +1,253 @@
+{
+ "timeCreated": {
+  "_seconds": 1591508028,
+  "_nanoseconds": 484000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MERLIM": true,
+    "SHREYAS": true
+   },
+   {
+    "MERLIM": true,
+    "DADI": true,
+    "ISHYISH": true
+   },
+   {
+    "RUIRUI": true,
+    "SHREYAS": false
+   },
+   {
+    "ISHYISH": true,
+    "SHREYAS": false,
+    "DADI": true
+   },
+   {
+    "RUIRUI": true,
+    "ISHYISH": true,
+    "DADI": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "SHREYAS",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MERLIM"
+   },
+   {
+    "name": "DADI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "ISHYISH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "RUIRUI"
+   }
+  ],
+  "assassinated": "ISHYISH",
+  "state": "GOOD_WIN"
+ },
+ "players": [
+  {
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2",
+   "name": "DADI"
+  },
+  {
+   "uid": "4rIubwDrfKeZ3d7XBWhRmJkylLc2",
+   "name": "RUIRUI"
+  },
+  {
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62",
+   "name": "ISHYISH"
+  },
+  {
+   "name": "MERLIM",
+   "uid": "jqC6DNw9QPehrIBORPxDYw1IfwH2"
+  },
+  {
+   "name": "SHREYAS",
+   "uid": "A7YjAEzvbWchUA0mXahjFNni5Z33"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591508468,
+  "_nanoseconds": 539000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "MERLIM",
+    "SHREYAS"
+   ],
+   "proposals": [
+    {
+     "proposer": "SHREYAS",
+     "state": "APPROVED",
+     "votes": [
+      "RUIRUI",
+      "SHREYAS",
+      "MERLIM",
+      "DADI"
+     ],
+     "team": [
+      "MERLIM",
+      "SHREYAS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ISHYISH",
+      "DADI",
+      "MERLIM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MERLIM",
+      "DADI",
+      "ISHYISH"
+     ],
+     "proposer": "DADI"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "ISHYISH",
+    "DADI",
+    "MERLIM"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SHREYAS",
+      "MERLIM",
+      "DADI",
+      "RUIRUI"
+     ],
+     "proposer": "RUIRUI",
+     "team": [
+      "RUIRUI",
+      "SHREYAS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "RUIRUI",
+    "SHREYAS"
+   ],
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ISHYISH",
+     "team": [
+      "ISHYISH",
+      "DADI",
+      "MERLIM"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MERLIM",
+      "ISHYISH"
+     ]
+    },
+    {
+     "team": [
+      "MERLIM",
+      "DADI",
+      "ISHYISH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ISHYISH",
+      "MERLIM"
+     ],
+     "proposer": "MERLIM"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SHREYAS",
+     "team": [
+      "SHREYAS",
+      "ISHYISH",
+      "DADI"
+     ],
+     "votes": [
+      "ISHYISH",
+      "SHREYAS",
+      "MERLIM"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "SHREYAS",
+    "ISHYISH",
+    "DADI"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ISHYISH",
+      "DADI",
+      "RUIRUI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DADI",
+      "ISHYISH",
+      "RUIRUI"
+     ],
+     "proposer": "DADI"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ISHYISH",
+    "DADI",
+    "RUIRUI"
+   ],
+   "state": "SUCCESS"
+  }
+ ]
+}

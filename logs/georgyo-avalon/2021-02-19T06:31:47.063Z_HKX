@@ -1,0 +1,270 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SUV": true,
+    "SHRIYA": true
+   },
+   {
+    "ANIRVIN": true,
+    "SHRIYA": true,
+    "SUV": false
+   },
+   {
+    "MOO": true,
+    "SUV": true
+   },
+   {
+    "MOO": true,
+    "SUV": false,
+    "ANIRVIN": true
+   },
+   {
+    "SHRIYA": true,
+    "ANIRVIN": true,
+    "MOO": true
+   }
+  ],
+  "assassinated": "SHRIYA",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "SUV"
+   },
+   {
+    "name": "MOO",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANIRVIN"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "SHRIYA"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "HARMOO"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "SHRIYA",
+   "uid": "hATZjJlLGWZc5hnygH1A3fjuJyv2"
+  },
+  {
+   "uid": "ImJazsDeEYb3yN0qUKPFw4CUDm73",
+   "name": "ANIRVIN"
+  },
+  {
+   "uid": "6EpKQ5HRZAfN9RCylP5gYnj510P2",
+   "name": "MOO"
+  },
+  {
+   "name": "HARMOO",
+   "uid": "SLMRXG5QXrQmtA0pKT97D5NeEd02"
+  },
+  {
+   "uid": "ebMquQOdtTMLSdIpWoPeJUt6bwI2",
+   "name": "SUV"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1613716307,
+  "_nanoseconds": 63000000
+ },
+ "timeFinished": {
+  "_seconds": 1613717358,
+  "_nanoseconds": 258000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "SHRIYA",
+      "SUV"
+     ],
+     "proposer": "SUV",
+     "state": "APPROVED",
+     "votes": [
+      "HARMOO",
+      "ANIRVIN",
+      "MOO",
+      "SHRIYA"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SHRIYA",
+    "SUV"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "ANIRVIN",
+    "SUV",
+    "SHRIYA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SHRIYA",
+      "MOO",
+      "HARMOO"
+     ],
+     "votes": [
+      "SHRIYA",
+      "ANIRVIN"
+     ],
+     "proposer": "SHRIYA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ANIRVIN",
+     "votes": [
+      "ANIRVIN",
+      "SHRIYA",
+      "SUV",
+      "MOO"
+     ],
+     "team": [
+      "ANIRVIN",
+      "SUV",
+      "SHRIYA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MOO",
+    "SUV"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "MOO",
+      "SUV"
+     ],
+     "proposer": "MOO",
+     "state": "APPROVED",
+     "votes": [
+      "MOO",
+      "SHRIYA",
+      "ANIRVIN",
+      "SUV",
+      "HARMOO"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "SUV",
+    "ANIRVIN",
+    "MOO"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SHRIYA",
+      "HARMOO"
+     ],
+     "team": [
+      "SUV",
+      "ANIRVIN",
+      "SHRIYA"
+     ],
+     "proposer": "HARMOO"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SUV",
+      "ANIRVIN",
+      "MOO"
+     ],
+     "proposer": "SUV",
+     "votes": [
+      "ANIRVIN",
+      "SUV",
+      "SHRIYA",
+      "HARMOO",
+      "MOO"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "SHRIYA",
+     "team": [
+      "SHRIYA",
+      "MOO",
+      "ANIRVIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MOO",
+      "SHRIYA"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANIRVIN",
+      "MOO",
+      "SHRIYA"
+     ],
+     "team": [
+      "ANIRVIN",
+      "SHRIYA",
+      "MOO"
+     ],
+     "proposer": "ANIRVIN"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ANIRVIN",
+    "SHRIYA",
+    "MOO"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ]
+}

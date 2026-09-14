@@ -1,0 +1,275 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "MORCANA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MORDRED",
+    "name": "SOMU",
+    "assassin": false
+   },
+   {
+    "name": "ISHYISH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "OPITER",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JON",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "DADI",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "TANHUNG",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SHREYAS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ISHYISH": true,
+    "TANHUNG": true,
+    "OPITER": true
+   },
+   {
+    "OPITER": true,
+    "SOMU": false,
+    "TANHUNG": true,
+    "ISHYISH": true
+   },
+   {
+    "DADI": false,
+    "TANHUNG": true,
+    "ISHYISH": true,
+    "OPITER": true
+   },
+   {
+    "SOMU": false,
+    "JON": true,
+    "MORCANA": false,
+    "SHREYAS": true,
+    "TANHUNG": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1595134583,
+  "_nanoseconds": 119000000
+ },
+ "players": [
+  {
+   "name": "ISHYISH",
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62"
+  },
+  {
+   "name": "OPITER",
+   "uid": "4rIubwDrfKeZ3d7XBWhRmJkylLc2"
+  },
+  {
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2",
+   "name": "DADI"
+  },
+  {
+   "name": "TANHUNG",
+   "uid": "YFVN16lNL0SgIGALnBsczNv2RgD2"
+  },
+  {
+   "name": "MORCANA",
+   "uid": "jqC6DNw9QPehrIBORPxDYw1IfwH2"
+  },
+  {
+   "uid": "wpe6Yo39PNheuIqhhuAlarR6tGe2",
+   "name": "SOMU"
+  },
+  {
+   "uid": "A7YjAEzvbWchUA0mXahjFNni5Z33",
+   "name": "SHREYAS"
+  },
+  {
+   "name": "JON",
+   "uid": "v9McHy9wYncXW0NskwBzsK4hBZv2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595134006,
+  "_nanoseconds": 229000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "ISHYISH",
+    "TANHUNG",
+    "OPITER"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ISHYISH",
+     "team": [
+      "ISHYISH",
+      "TANHUNG",
+      "OPITER"
+     ],
+     "votes": [
+      "ISHYISH",
+      "MORCANA",
+      "OPITER",
+      "SHREYAS",
+      "JON",
+      "TANHUNG",
+      "SOMU",
+      "DADI"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "OPITER",
+    "ISHYISH",
+    "TANHUNG",
+    "SOMU"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DADI",
+      "ISHYISH",
+      "SHREYAS",
+      "TANHUNG",
+      "JON",
+      "SOMU",
+      "OPITER",
+      "MORCANA"
+     ],
+     "proposer": "OPITER",
+     "team": [
+      "OPITER",
+      "ISHYISH",
+      "TANHUNG",
+      "SOMU"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "SHREYAS",
+      "DADI",
+      "OPITER",
+      "ISHYISH",
+      "JON"
+     ],
+     "proposer": "DADI",
+     "team": [
+      "DADI",
+      "ISHYISH",
+      "OPITER",
+      "TANHUNG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DADI",
+    "ISHYISH",
+    "OPITER",
+    "TANHUNG"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "TANHUNG",
+      "SHREYAS",
+      "JON",
+      "OPITER",
+      "SOMU"
+     ],
+     "votes": [
+      "JON",
+      "TANHUNG",
+      "SOMU"
+     ],
+     "proposer": "TANHUNG"
+    },
+    {
+     "team": [
+      "MORCANA",
+      "SHREYAS",
+      "JON",
+      "SOMU",
+      "TANHUNG"
+     ],
+     "proposer": "MORCANA",
+     "state": "APPROVED",
+     "votes": [
+      "MORCANA",
+      "JON",
+      "SOMU",
+      "SHREYAS",
+      "OPITER"
+     ]
+    }
+   ],
+   "team": [
+    "MORCANA",
+    "SHREYAS",
+    "JON",
+    "SOMU",
+    "TANHUNG"
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "FAIL"
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

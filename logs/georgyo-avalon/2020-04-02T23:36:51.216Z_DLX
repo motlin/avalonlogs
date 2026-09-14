@@ -1,0 +1,237 @@
+{
+ "timeCreated": {
+  "_seconds": 1585870611,
+  "_nanoseconds": 216000000
+ },
+ "outcome": {
+  "assassinated": "VDEAN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "JZ",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "VDEAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "GUSTAVOSMA"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "DIBYA"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "VDEAN": true,
+    "GUSTAVOSMA": true
+   },
+   {
+    "JZ": false,
+    "GUSTAVOSMA": true,
+    "VDEAN": true
+   },
+   {
+    "DIBYA": true,
+    "DAN": true
+   },
+   {
+    "DIBYA": false,
+    "JZ": false,
+    "DAN": true
+   },
+   {
+    "GUSTAVOSMA": true,
+    "DAN": true,
+    "VDEAN": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "GUSTAVOSMA",
+      "VDEAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JZ",
+      "DAN",
+      "GUSTAVOSMA",
+      "DIBYA"
+     ],
+     "proposer": "GUSTAVOSMA"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "GUSTAVOSMA",
+    "VDEAN"
+   ]
+  },
+  {
+   "team": [
+    "GUSTAVOSMA",
+    "JZ",
+    "VDEAN"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VDEAN",
+      "DAN",
+      "GUSTAVOSMA",
+      "DIBYA",
+      "JZ"
+     ],
+     "proposer": "JZ",
+     "team": [
+      "GUSTAVOSMA",
+      "JZ",
+      "VDEAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "DAN",
+    "DIBYA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DAN",
+      "DIBYA",
+      "JZ"
+     ],
+     "proposer": "DAN",
+     "state": "APPROVED",
+     "team": [
+      "DAN",
+      "DIBYA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "DAN",
+      "DIBYA",
+      "JZ"
+     ],
+     "votes": [
+      "DAN",
+      "DIBYA",
+      "JZ"
+     ],
+     "state": "APPROVED",
+     "proposer": "DIBYA"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "DAN",
+    "DIBYA",
+    "JZ"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "GUSTAVOSMA",
+    "DAN",
+    "VDEAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "GUSTAVOSMA",
+      "VDEAN",
+      "DIBYA"
+     ],
+     "proposer": "VDEAN",
+     "state": "REJECTED",
+     "votes": [
+      "DIBYA"
+     ]
+    },
+    {
+     "proposer": "GUSTAVOSMA",
+     "state": "APPROVED",
+     "team": [
+      "GUSTAVOSMA",
+      "DAN",
+      "VDEAN"
+     ],
+     "votes": [
+      "VDEAN",
+      "DAN",
+      "GUSTAVOSMA"
+     ]
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585871737,
+  "_nanoseconds": 683805000
+ },
+ "players": [
+  {
+   "name": "GUSTAVOSMA",
+   "uid": "l1j5kwmoWdX9MIs5ZmoiODnOndZ2"
+  },
+  {
+   "uid": "1XMUnWAvbLdZnYLtn1WPDdvYrdR2",
+   "name": "JZ"
+  },
+  {
+   "name": "DAN",
+   "uid": "d91diyGDRWhYCaZ1gNvv74NLDDm2"
+  },
+  {
+   "uid": "fVKY4kTDqJU4ZWVH4vVHMRkvsIr2",
+   "name": "DIBYA"
+  },
+  {
+   "uid": "ILklViaQV3bimjqQVirK0UcbKqJ3",
+   "name": "VDEAN"
+  }
+ ]
+}

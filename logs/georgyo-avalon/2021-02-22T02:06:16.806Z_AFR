@@ -1,0 +1,237 @@
+{
+ "players": [
+  {
+   "name": "SARAH",
+   "uid": "QE8lSDvgTtQw9sbm9cll5q1zY1H3"
+  },
+  {
+   "name": "SOPHIA",
+   "uid": "pfyPCW5hnRWSCvdVpEciqYhwOBv2"
+  },
+  {
+   "name": "JULIA",
+   "uid": "8DnljCkwd3PzcIh3EjT4OwnBrbm2"
+  },
+  {
+   "name": "SABRINA",
+   "uid": "ax4o12nKdOgGn9HyUPXVSgx4KzJ2"
+  },
+  {
+   "name": "MOLLY",
+   "uid": "DWwdVxeaZHMCCnvNwTJGwog6t4a2"
+  },
+  {
+   "name": "EMMA",
+   "uid": "EeuuM7uuJSZmkLGVaNqXlHY6vTl2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1613959576,
+  "_nanoseconds": 806000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "EMMA": true,
+    "SOPHIA": true
+   },
+   {
+    "SABRINA": true,
+    "EMMA": true,
+    "SOPHIA": true
+   },
+   {
+    "SARAH": false,
+    "SABRINA": true,
+    "SOPHIA": true,
+    "JULIA": true
+   },
+   {
+    "JULIA": true,
+    "SOPHIA": true,
+    "EMMA": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "SARAH",
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JULIA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SABRINA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SOPHIA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "EMMA"
+   },
+   {
+    "name": "MOLLY",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": "SOPHIA"
+ },
+ "timeFinished": {
+  "_seconds": 1613959919,
+  "_nanoseconds": 739000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "SOPHIA",
+    "EMMA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SOPHIA",
+      "EMMA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SABRINA",
+     "votes": [
+      "SOPHIA",
+      "MOLLY",
+      "EMMA",
+      "SABRINA",
+      "SARAH",
+      "JULIA"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "EMMA",
+    "SOPHIA",
+    "SABRINA"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "MOLLY",
+     "votes": [
+      "MOLLY",
+      "SARAH"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MOLLY",
+      "SARAH",
+      "SABRINA"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMMA",
+      "SARAH",
+      "JULIA",
+      "SOPHIA",
+      "SABRINA"
+     ],
+     "team": [
+      "EMMA",
+      "SOPHIA",
+      "SABRINA"
+     ],
+     "proposer": "EMMA"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "SARAH",
+      "SOPHIA",
+      "JULIA",
+      "SABRINA"
+     ],
+     "proposer": "SARAH",
+     "votes": [
+      "JULIA",
+      "SARAH",
+      "MOLLY",
+      "SOPHIA",
+      "EMMA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "SARAH",
+    "SOPHIA",
+    "JULIA",
+    "SABRINA"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "EMMA",
+    "SOPHIA",
+    "JULIA"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "EMMA",
+      "SOPHIA",
+      "JULIA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JULIA",
+      "SOPHIA",
+      "EMMA",
+      "SARAH",
+      "SABRINA"
+     ],
+     "proposer": "SOPHIA"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

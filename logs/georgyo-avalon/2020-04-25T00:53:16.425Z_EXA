@@ -1,0 +1,199 @@
+{
+ "timeCreated": {
+  "_seconds": 1587775996,
+  "_nanoseconds": 425000000
+ },
+ "timeFinished": {
+  "_seconds": 1587776292,
+  "_nanoseconds": 278000000
+ },
+ "players": [
+  {
+   "name": "ALEXIS",
+   "uid": "S56JnMQWPxdeVzmrFAMPMlVXeWx1"
+  },
+  {
+   "uid": "6ji7qI2QW5dtxhgFZJ2eYBVcKsL2",
+   "name": "MADISON"
+  },
+  {
+   "uid": "XtYZvDdteXNZATCeHMvWqyFE39S2",
+   "name": "BEN"
+  },
+  {
+   "uid": "Uns8jizFJ3U0iQSzyz3MosQUjev1",
+   "name": "EZRA"
+  },
+  {
+   "name": "SAM",
+   "uid": "GtyBet2MaATTBeDpYJqmKQKHl712"
+  },
+  {
+   "name": "TRAITOR",
+   "uid": "OiP8IVAVJrbQbVXaQ5wjZAYEKC42"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ALEXIS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SAM",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "BEN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MADISON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TRAITOR"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "EZRA",
+    "assassin": false
+   }
+  ],
+  "assassinated": "ALEXIS",
+  "votes": [
+   {
+    "TRAITOR": true,
+    "ALEXIS": true
+   },
+   {
+    "BEN": true,
+    "MADISON": true,
+    "EZRA": true
+   },
+   {
+    "ALEXIS": true,
+    "BEN": true,
+    "TRAITOR": true,
+    "EZRA": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "ALEXIS",
+    "TRAITOR"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEXIS",
+      "TRAITOR"
+     ],
+     "votes": [
+      "SAM",
+      "BEN",
+      "MADISON",
+      "TRAITOR",
+      "EZRA",
+      "ALEXIS"
+     ],
+     "proposer": "ALEXIS"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "TRAITOR",
+      "EZRA",
+      "ALEXIS",
+      "SAM",
+      "BEN",
+      "MADISON"
+     ],
+     "team": [
+      "MADISON",
+      "EZRA",
+      "BEN"
+     ],
+     "proposer": "MADISON",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MADISON",
+    "EZRA",
+    "BEN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BEN",
+    "ALEXIS",
+    "EZRA",
+    "TRAITOR"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "ALEXIS",
+      "EZRA",
+      "TRAITOR"
+     ],
+     "proposer": "BEN",
+     "votes": [
+      "ALEXIS",
+      "SAM",
+      "BEN",
+      "MADISON",
+      "TRAITOR",
+      "EZRA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING"
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

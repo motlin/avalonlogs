@@ -1,0 +1,266 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "kxOTeulhGKcu2MOCO9lYm5giHP82",
+   "name": "ROHAN"
+  },
+  {
+   "name": "SHRAVAN",
+   "uid": "JbCckK6FAEQcLuHKAvN69wqbOS73"
+  },
+  {
+   "uid": "V4SAGCzS9KMfXt2eiWuWhKXSMm12",
+   "name": "KLAY"
+  },
+  {
+   "uid": "U6scF13Z1JREsmyEZfa2cjw35qB3",
+   "name": "BRYANT"
+  },
+  {
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03",
+   "name": "NOBODY"
+  },
+  {
+   "name": "AMEYA",
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "BRYANT",
+    "KLAY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BRYANT",
+      "KLAY"
+     ],
+     "votes": [
+      "BRYANT",
+      "ROHAN",
+      "KLAY",
+      "AMEYA",
+      "SHRAVAN",
+      "NOBODY"
+     ],
+     "proposer": "BRYANT"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NOBODY",
+      "BRYANT",
+      "KLAY"
+     ],
+     "state": "APPROVED",
+     "proposer": "NOBODY",
+     "votes": [
+      "KLAY",
+      "AMEYA",
+      "NOBODY",
+      "SHRAVAN",
+      "BRYANT",
+      "ROHAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "NOBODY",
+    "BRYANT",
+    "KLAY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "KLAY",
+    "BRYANT",
+    "NOBODY",
+    "AMEYA"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "KLAY",
+      "BRYANT",
+      "NOBODY",
+      "AMEYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "AMEYA",
+     "votes": [
+      "SHRAVAN",
+      "NOBODY",
+      "BRYANT",
+      "AMEYA",
+      "KLAY"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ROHAN",
+      "KLAY",
+      "NOBODY"
+     ],
+     "votes": [
+      "KLAY",
+      "ROHAN",
+      "NOBODY"
+     ],
+     "state": "REJECTED",
+     "proposer": "ROHAN"
+    },
+    {
+     "team": [
+      "SHRAVAN",
+      "ROHAN",
+      "NOBODY"
+     ],
+     "state": "REJECTED",
+     "proposer": "SHRAVAN",
+     "votes": [
+      "SHRAVAN",
+      "KLAY",
+      "AMEYA"
+     ]
+    },
+    {
+     "proposer": "KLAY",
+     "state": "REJECTED",
+     "votes": [
+      "KLAY",
+      "ROHAN",
+      "NOBODY"
+     ],
+     "team": [
+      "KLAY",
+      "NOBODY",
+      "ROHAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BRYANT",
+     "team": [
+      "BRYANT",
+      "KLAY",
+      "ROHAN"
+     ],
+     "votes": [
+      "ROHAN",
+      "KLAY",
+      "NOBODY",
+      "BRYANT"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "BRYANT",
+    "KLAY",
+    "ROHAN"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "BRYANT": true,
+    "KLAY": true
+   },
+   {
+    "BRYANT": true,
+    "KLAY": true,
+    "NOBODY": true
+   },
+   {
+    "AMEYA": false,
+    "BRYANT": true,
+    "NOBODY": true,
+    "KLAY": true
+   },
+   {
+    "BRYANT": true,
+    "KLAY": true,
+    "ROHAN": true
+   }
+  ],
+  "assassinated": "KLAY",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "ROHAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "NOBODY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "KLAY"
+   },
+   {
+    "name": "SHRAVAN",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BRYANT",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "AMEYA",
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1613208843,
+  "_nanoseconds": 324000000
+ },
+ "timeCreated": {
+  "_seconds": 1613208283,
+  "_nanoseconds": 335000000
+ }
+}

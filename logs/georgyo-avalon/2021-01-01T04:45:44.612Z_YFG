@@ -1,0 +1,252 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "WING",
+     "team": [
+      "WING",
+      "FAYE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FAYE",
+      "IRENE",
+      "WING",
+      "RICKY",
+      "WILL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "WING",
+    "FAYE"
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "FAYE",
+    "WING",
+    "DP"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DP",
+     "votes": [
+      "DP",
+      "FAYE",
+      "IRENE",
+      "WING",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FAYE",
+      "WING",
+      "DP"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RICKY",
+      "FAYE"
+     ],
+     "team": [
+      "FAYE",
+      "WING",
+      "WILL",
+      "RICKY"
+     ],
+     "proposer": "RICKY"
+    },
+    {
+     "votes": [
+      "DP",
+      "WILL",
+      "WING"
+     ],
+     "proposer": "WILL",
+     "team": [
+      "WILL",
+      "FAYE",
+      "WING",
+      "DP"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "WILL",
+      "DP",
+      "WING",
+      "IRENE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FAYE",
+      "WILL",
+      "DP",
+      "IRENE",
+      "WING"
+     ],
+     "proposer": "IRENE"
+    }
+   ],
+   "team": [
+    "WILL",
+    "DP",
+    "WING",
+    "IRENE"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "FAYE",
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "FAYE",
+      "RICKY",
+      "DP",
+      "WING"
+     ],
+     "team": [
+      "WING",
+      "DP",
+      "WILL"
+     ]
+    }
+   ],
+   "team": [
+    "WING",
+    "DP",
+    "WILL"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609477638,
+  "_nanoseconds": 446000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "WILL",
+   "uid": "fasM8yaK8nMKceeGHt9VGsY75tc2"
+  },
+  {
+   "uid": "PUXoz9NUqVPdCuGWAJRsZE2hp253",
+   "name": "IRENE"
+  },
+  {
+   "uid": "bNa9gCgPh8fFT0RoDzAvke18XFm2",
+   "name": "FAYE"
+  },
+  {
+   "uid": "ckhaDUspynbPybSFwF6k7tkuT7S2",
+   "name": "WING"
+  },
+  {
+   "name": "DP",
+   "uid": "va2tfENG3eYqMf2tOPphcp64S7t2"
+  },
+  {
+   "name": "RICKY",
+   "uid": "G5qA1p2rovRLUSQVN37zUCO021K3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1609476344,
+  "_nanoseconds": 612000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "IRENE",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "FAYE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "RICKY",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "DP",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "WING",
+    "assassin": false
+   },
+   {
+    "name": "WILL",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": "WING",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "FAYE": true,
+    "WING": true
+   },
+   {
+    "DP": true,
+    "WING": true,
+    "FAYE": true
+   },
+   {
+    "IRENE": false,
+    "DP": true,
+    "WILL": true,
+    "WING": true
+   },
+   {
+    "DP": true,
+    "WING": true,
+    "WILL": true
+   }
+  ]
+ }
+}

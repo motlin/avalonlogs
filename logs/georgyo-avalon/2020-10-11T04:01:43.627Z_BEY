@@ -1,0 +1,257 @@
+{
+ "timeCreated": {
+  "_seconds": 1602388903,
+  "_nanoseconds": 627000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": "GRACE",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "GRACE": true,
+    "PETER": true
+   },
+   {
+    "PETER": false,
+    "GRACE": true,
+    "JUSTIN": true
+   },
+   {
+    "MKIM": false,
+    "GRACE": true
+   },
+   {
+    "PETER": true,
+    "GRACE": true,
+    "MU": true
+   },
+   {
+    "MU": true,
+    "JUSTIN": true,
+    "GRACE": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "PETER",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "JUSTIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MU"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MKIM"
+   },
+   {
+    "name": "GRACE",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1602389269,
+  "_nanoseconds": 328000000
+ },
+ "missions": [
+  {
+   "team": [
+    "PETER",
+    "GRACE"
+   ],
+   "proposals": [
+    {
+     "proposer": "PETER",
+     "votes": [
+      "PETER",
+      "JUSTIN",
+      "MU",
+      "MKIM",
+      "GRACE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PETER",
+      "GRACE"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JUSTIN",
+      "GRACE",
+      "MU",
+      "PETER",
+      "MKIM"
+     ],
+     "team": [
+      "PETER",
+      "GRACE",
+      "JUSTIN"
+     ],
+     "proposer": "JUSTIN"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "PETER",
+    "GRACE",
+    "JUSTIN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MU",
+     "state": "APPROVED",
+     "votes": [
+      "MU",
+      "MKIM",
+      "PETER",
+      "JUSTIN",
+      "GRACE"
+     ],
+     "team": [
+      "MKIM",
+      "GRACE"
+     ]
+    }
+   ],
+   "team": [
+    "MKIM",
+    "GRACE"
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "GRACE",
+     "votes": [
+      "GRACE",
+      "MU"
+     ],
+     "team": [
+      "GRACE",
+      "JUSTIN",
+      "MU"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JUSTIN",
+      "MU",
+      "MKIM"
+     ],
+     "votes": [
+      "MU",
+      "MKIM"
+     ],
+     "proposer": "MKIM"
+    },
+    {
+     "proposer": "PETER",
+     "state": "APPROVED",
+     "team": [
+      "GRACE",
+      "MU",
+      "PETER"
+     ],
+     "votes": [
+      "JUSTIN",
+      "PETER",
+      "MU"
+     ]
+    }
+   ],
+   "team": [
+    "GRACE",
+    "MU",
+    "PETER"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "MU",
+    "GRACE",
+    "JUSTIN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "MU",
+      "GRACE",
+      "JUSTIN"
+     ],
+     "proposer": "JUSTIN",
+     "state": "APPROVED",
+     "votes": [
+      "MU",
+      "GRACE",
+      "JUSTIN"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "PETER",
+   "uid": "c5TcJ6dgYmSdSkgo8eiwgBHXaf53"
+  },
+  {
+   "name": "JUSTIN",
+   "uid": "V7VY8GYZiTQgLtsAXv1fdb8ICDA3"
+  },
+  {
+   "name": "MU",
+   "uid": "r2eEkZuDfxXcfyBP2HcUvLE47dD2"
+  },
+  {
+   "name": "GRACE",
+   "uid": "IYlPpW2ejoRhu6WXAthStpME5e92"
+  },
+  {
+   "uid": "NwjyGCurgqV0IY3vCqg7Tb35V1u1",
+   "name": "MKIM"
+  }
+ ]
+}

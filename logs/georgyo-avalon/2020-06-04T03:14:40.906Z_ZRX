@@ -1,0 +1,284 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "ISHYISH",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "DNAIK",
+    "assassin": false
+   },
+   {
+    "name": "THEPEBBLE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ICE",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "SPLOOSH",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SOGGY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "SPLOOSH": true,
+    "DNAIK": true
+   },
+   {
+    "ICE": false,
+    "THEPEBBLE": true,
+    "DNAIK": true
+   },
+   {
+    "DNAIK": true,
+    "SPLOOSH": true,
+    "SOGGY": true,
+    "THEPEBBLE": true
+   },
+   {
+    "DNAIK": true,
+    "SOGGY": true,
+    "ISHYISH": false
+   },
+   {
+    "DNAIK": true,
+    "THEPEBBLE": true,
+    "ISHYISH": false,
+    "ICE": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1591240480,
+  "_nanoseconds": 906000000
+ },
+ "players": [
+  {
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62",
+   "name": "ISHYISH"
+  },
+  {
+   "name": "THEPEBBLE",
+   "uid": "BFYQOA17uOXmU9tXluHXb964U4C3"
+  },
+  {
+   "uid": "2cqiTd5tlyOAZjk7XzGEH0pINPE2",
+   "name": "SOGGY"
+  },
+  {
+   "uid": "IroQlyB05YPqQDIKP8xOZd2AFJE2",
+   "name": "ICE"
+  },
+  {
+   "name": "SPLOOSH",
+   "uid": "fS9mr21rGYQwBBMdESWSjZGuOsv2"
+  },
+  {
+   "name": "DNAIK",
+   "uid": "zBKMzPQp8uODk6urkBaihOcq9J53"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DNAIK",
+      "ICE",
+      "SPLOOSH",
+      "SOGGY",
+      "ISHYISH"
+     ],
+     "proposer": "DNAIK",
+     "team": [
+      "DNAIK",
+      "SPLOOSH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "DNAIK",
+    "SPLOOSH"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "THEPEBBLE",
+    "DNAIK",
+    "ICE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ISHYISH",
+     "team": [
+      "THEPEBBLE",
+      "DNAIK",
+      "ICE"
+     ],
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "THEPEBBLE",
+      "DNAIK",
+      "SOGGY",
+      "SPLOOSH"
+     ],
+     "state": "APPROVED",
+     "proposer": "THEPEBBLE",
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH",
+      "SOGGY"
+     ]
+    }
+   ],
+   "team": [
+    "THEPEBBLE",
+    "DNAIK",
+    "SOGGY",
+    "SPLOOSH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DNAIK",
+      "SOGGY",
+      "ISHYISH"
+     ],
+     "proposer": "SOGGY"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DNAIK",
+    "SOGGY",
+    "ISHYISH"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "ISHYISH",
+    "DNAIK",
+    "ICE",
+    "THEPEBBLE"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ICE",
+     "votes": [
+      "ISHYISH",
+      "ICE"
+     ],
+     "team": [
+      "ISHYISH",
+      "THEPEBBLE",
+      "SOGGY",
+      "ICE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SOGGY",
+      "THEPEBBLE",
+      "SPLOOSH"
+     ],
+     "team": [
+      "DNAIK",
+      "SPLOOSH",
+      "THEPEBBLE",
+      "SOGGY"
+     ],
+     "proposer": "SPLOOSH"
+    },
+    {
+     "team": [
+      "ISHYISH",
+      "DNAIK",
+      "ICE",
+      "THEPEBBLE"
+     ],
+     "proposer": "DNAIK",
+     "state": "APPROVED",
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591240887,
+  "_nanoseconds": 363000000
+ }
+}

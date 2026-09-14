@@ -1,0 +1,203 @@
+{
+ "players": [
+  {
+   "name": "OLIV",
+   "uid": "P4yAroaWSTN9FPh0vR5hkTzwyQX2"
+  },
+  {
+   "name": "BONKA",
+   "uid": "NdetIiCjLBR930xg18JsOO1Ve942"
+  },
+  {
+   "name": "LINA",
+   "uid": "T7Qonv8APxOmoNIYEQzumYkWXS83"
+  },
+  {
+   "name": "TIEN",
+   "uid": "pKfto30bDMasUN2QcTsgwZeMq513"
+  },
+  {
+   "name": "KIMMY",
+   "uid": "qEOf7X6yptNCOjDS4zZTqNgxztA2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587268981,
+  "_nanoseconds": 470000000
+ },
+ "timeCreated": {
+  "_seconds": 1587268642,
+  "_nanoseconds": 105000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "OLIV",
+    "BONKA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "TIEN",
+      "LINA",
+      "BONKA",
+      "KIMMY"
+     ],
+     "team": [
+      "OLIV",
+      "BONKA"
+     ],
+     "state": "APPROVED",
+     "proposer": "BONKA"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BONKA",
+      "KIMMY",
+      "OLIV",
+      "TIEN",
+      "LINA"
+     ],
+     "proposer": "LINA",
+     "state": "APPROVED",
+     "team": [
+      "LINA",
+      "OLIV",
+      "BONKA"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "LINA",
+    "OLIV",
+    "BONKA"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "KIMMY",
+    "TIEN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KIMMY",
+      "TIEN"
+     ],
+     "proposer": "TIEN",
+     "votes": [
+      "TIEN",
+      "LINA",
+      "KIMMY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "LINA",
+    "TIEN",
+    "KIMMY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "TIEN",
+      "LINA",
+      "KIMMY"
+     ],
+     "proposer": "KIMMY",
+     "team": [
+      "LINA",
+      "TIEN",
+      "KIMMY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "TIEN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KIMMY",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "OLIV",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "TIEN",
+    "assassin": false
+   },
+   {
+    "name": "LINA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "BONKA",
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "OLIV": true,
+    "BONKA": true
+   },
+   {
+    "OLIV": false,
+    "LINA": true,
+    "BONKA": false
+   },
+   {
+    "TIEN": true,
+    "KIMMY": true
+   },
+   {
+    "LINA": true,
+    "TIEN": true,
+    "KIMMY": true
+   }
+  ]
+ }
+}

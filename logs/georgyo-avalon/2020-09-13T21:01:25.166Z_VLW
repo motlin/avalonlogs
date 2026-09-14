@@ -1,0 +1,254 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "ARTH": true,
+    "JAMIE": true
+   },
+   {
+    "ARTH": false,
+    "JAMIE": true,
+    "BEN": true
+   },
+   {
+    "JAMIE": true,
+    "DHIVAN": true
+   },
+   {
+    "BEN": true,
+    "DHIVAN": false,
+    "JAMIE": true
+   },
+   {
+    "THOMAS": true,
+    "BEN": true,
+    "JAMIE": true
+   }
+  ],
+  "assassinated": "THOMAS",
+  "roles": [
+   {
+    "name": "DHIVAN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JAMIE",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BEN",
+    "assassin": false
+   },
+   {
+    "name": "ARTH",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "THOMAS",
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "DHIVAN",
+   "uid": "sIyZAPeUL1a51o68i8GZ3Et9Ryn1"
+  },
+  {
+   "uid": "6magoNdlrpgmTrsWzhN7rXb6F1D3",
+   "name": "ARTH"
+  },
+  {
+   "uid": "JfL1lB1zYOc09vEapFfCfkRkF232",
+   "name": "BEN"
+  },
+  {
+   "name": "JAMIE",
+   "uid": "UVzjJn8xErgtLz0n8tnfg57xqDw2"
+  },
+  {
+   "uid": "XnrnAMOMEtWuQ9WNKhiVBQ1L3xV2",
+   "name": "THOMAS"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "ARTH",
+    "JAMIE"
+   ],
+   "proposals": [
+    {
+     "proposer": "ARTH",
+     "state": "APPROVED",
+     "votes": [
+      "THOMAS",
+      "DHIVAN",
+      "ARTH",
+      "JAMIE"
+     ],
+     "team": [
+      "ARTH",
+      "JAMIE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "BEN",
+    "JAMIE",
+    "ARTH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "JAMIE",
+      "ARTH"
+     ],
+     "votes": [
+      "DHIVAN",
+      "BEN",
+      "THOMAS",
+      "ARTH",
+      "JAMIE"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "DHIVAN",
+    "JAMIE"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "DHIVAN",
+      "JAMIE",
+      "ARTH",
+      "BEN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DHIVAN",
+      "JAMIE"
+     ],
+     "proposer": "JAMIE"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "BEN",
+      "THOMAS"
+     ],
+     "team": [
+      "THOMAS",
+      "JAMIE",
+      "BEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "THOMAS"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAMIE",
+      "DHIVAN",
+      "ARTH"
+     ],
+     "team": [
+      "DHIVAN",
+      "BEN",
+      "JAMIE"
+     ],
+     "proposer": "DHIVAN"
+    }
+   ],
+   "team": [
+    "DHIVAN",
+    "BEN",
+    "JAMIE"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "BEN",
+    "THOMAS",
+    "JAMIE"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ARTH",
+     "votes": [
+      "ARTH"
+     ],
+     "team": [
+      "ARTH",
+      "JAMIE",
+      "DHIVAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BEN",
+     "team": [
+      "BEN",
+      "THOMAS",
+      "JAMIE"
+     ],
+     "votes": [
+      "JAMIE",
+      "THOMAS",
+      "BEN"
+     ]
+    }
+   ],
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1600031261,
+  "_nanoseconds": 684000000
+ },
+ "timeCreated": {
+  "_seconds": 1600030885,
+  "_nanoseconds": 166000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

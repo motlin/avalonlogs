@@ -1,0 +1,260 @@
+{
+ "timeCreated": {
+  "_seconds": 1588476751,
+  "_nanoseconds": 527000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ANIKETH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MARLIN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BANANA",
+    "assassin": false
+   },
+   {
+    "name": "SUSHHI",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "PKBOOLEAN",
+    "assassin": false
+   },
+   {
+    "name": "NITWIT",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "CHAITHANYA",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "BANANA": true,
+    "MARLIN": true
+   },
+   {
+    "ANIKETH": true,
+    "BANANA": true,
+    "MARLIN": false
+   },
+   {
+    "ANIKETH": true,
+    "MARLIN": false,
+    "PKBOOLEAN": true
+   },
+   {
+    "PKBOOLEAN": true,
+    "BANANA": true,
+    "SUSHHI": true,
+    "ANIKETH": true
+   },
+   {
+    "ANIKETH": true,
+    "CHAITHANYA": false,
+    "PKBOOLEAN": true,
+    "BANANA": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "mhGqERYygScqJ0S29jQ3yK7o2ku2",
+   "name": "ANIKETH"
+  },
+  {
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3",
+   "name": "MARLIN"
+  },
+  {
+   "name": "PKBOOLEAN",
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652"
+  },
+  {
+   "uid": "cAjDOV1WbPRqRjv28SDq7BYb6Up2",
+   "name": "CHAITHANYA"
+  },
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "SUSHHI"
+  },
+  {
+   "name": "NITWIT",
+   "uid": "M9nSGFmZJLediRJeU20AOG8aVjU2"
+  },
+  {
+   "uid": "weox9NOyNDZiyKTtPDAXxvazdFV2",
+   "name": "BANANA"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "BANANA",
+     "votes": [
+      "BANANA",
+      "SUSHHI",
+      "CHAITHANYA",
+      "MARLIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BANANA",
+      "MARLIN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "BANANA",
+    "MARLIN"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ANIKETH",
+     "votes": [
+      "BANANA",
+      "PKBOOLEAN",
+      "NITWIT",
+      "CHAITHANYA",
+      "ANIKETH",
+      "MARLIN"
+     ],
+     "team": [
+      "BANANA",
+      "ANIKETH",
+      "MARLIN"
+     ]
+    }
+   ],
+   "team": [
+    "BANANA",
+    "ANIKETH",
+    "MARLIN"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MARLIN",
+    "ANIKETH",
+    "PKBOOLEAN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MARLIN",
+     "team": [
+      "MARLIN",
+      "ANIKETH",
+      "PKBOOLEAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NITWIT",
+      "CHAITHANYA",
+      "MARLIN",
+      "PKBOOLEAN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "PKBOOLEAN",
+    "ANIKETH",
+    "BANANA",
+    "SUSHHI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BANANA",
+      "SUSHHI",
+      "PKBOOLEAN",
+      "NITWIT"
+     ],
+     "team": [
+      "PKBOOLEAN",
+      "ANIKETH",
+      "BANANA",
+      "SUSHHI"
+     ],
+     "proposer": "PKBOOLEAN"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "BANANA",
+    "CHAITHANYA",
+    "PKBOOLEAN",
+    "ANIKETH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BANANA",
+      "PKBOOLEAN",
+      "NITWIT",
+      "CHAITHANYA",
+      "ANIKETH"
+     ],
+     "team": [
+      "BANANA",
+      "CHAITHANYA",
+      "PKBOOLEAN",
+      "ANIKETH"
+     ],
+     "proposer": "CHAITHANYA"
+    }
+   ],
+   "numFails": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588477674,
+  "_nanoseconds": 975000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

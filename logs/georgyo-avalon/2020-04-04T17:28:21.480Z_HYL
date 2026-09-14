@@ -1,0 +1,396 @@
+{
+ "timeCreated": {
+  "_seconds": 1586021301,
+  "_nanoseconds": 480000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "NATHY": true,
+    "MAX": true
+   },
+   {
+    "NATHY": true,
+    "KAWIN": true,
+    "BRIGHT": true
+   },
+   {
+    "PARBBANANA": true,
+    "NATHY": true,
+    "MAX": true,
+    "BRIGHT": false
+   },
+   {
+    "KAWIN": true,
+    "NATHY": true,
+    "BRIGHT": false
+   },
+   {
+    "NATHY": true,
+    "MAX": true,
+    "KAWIN": false,
+    "PARBBANANA": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "name": "PARBBANANA",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MAX"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "KAWIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BRIGHT"
+   },
+   {
+    "name": "NATHY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "MVH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "PARBBANANA",
+      "MAX",
+      "BRIGHT",
+      "NATHY"
+     ],
+     "team": [
+      "MAX",
+      "NATHY"
+     ],
+     "proposer": "MAX",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "MAX",
+    "NATHY"
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PARBBANANA",
+      "MAX",
+      "NATHY"
+     ],
+     "proposer": "PARBBANANA",
+     "votes": [
+      "NATHY",
+      "PARBBANANA",
+      "MAX"
+     ]
+    },
+    {
+     "proposer": "BRIGHT",
+     "state": "REJECTED",
+     "team": [
+      "BRIGHT",
+      "MVH",
+      "KAWIN"
+     ],
+     "votes": [
+      "BRIGHT"
+     ]
+    },
+    {
+     "votes": [
+      "MAX",
+      "NATHY"
+     ],
+     "proposer": "NATHY",
+     "state": "REJECTED",
+     "team": [
+      "MAX",
+      "NATHY",
+      "BRIGHT"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MVH",
+     "votes": [
+      "MVH",
+      "PARBBANANA",
+      "NATHY"
+     ],
+     "team": [
+      "MVH",
+      "NATHY",
+      "MAX"
+     ]
+    },
+    {
+     "votes": [
+      "PARBBANANA",
+      "MAX",
+      "KAWIN",
+      "BRIGHT",
+      "NATHY",
+      "MVH"
+     ],
+     "team": [
+      "KAWIN",
+      "BRIGHT",
+      "NATHY"
+     ],
+     "state": "APPROVED",
+     "proposer": "KAWIN"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "KAWIN",
+    "BRIGHT",
+    "NATHY"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "PARBBANANA",
+    "BRIGHT",
+    "NATHY",
+    "MAX"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MAX",
+     "votes": [
+      "PARBBANANA",
+      "MAX",
+      "BRIGHT",
+      "NATHY"
+     ],
+     "team": [
+      "PARBBANANA",
+      "BRIGHT",
+      "NATHY",
+      "MAX"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "KAWIN",
+    "NATHY",
+    "BRIGHT"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "PARBBANANA",
+     "team": [
+      "MAX",
+      "KAWIN",
+      "NATHY"
+     ],
+     "votes": [
+      "NATHY",
+      "PARBBANANA"
+     ]
+    },
+    {
+     "proposer": "BRIGHT",
+     "state": "REJECTED",
+     "team": [
+      "BRIGHT",
+      "NATHY",
+      "PARBBANANA"
+     ],
+     "votes": [
+      "BRIGHT",
+      "NATHY"
+     ]
+    },
+    {
+     "votes": [
+      "BRIGHT",
+      "NATHY"
+     ],
+     "proposer": "NATHY",
+     "team": [
+      "BRIGHT",
+      "NATHY",
+      "KAWIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MVH",
+      "NATHY",
+      "BRIGHT"
+     ],
+     "votes": [
+      "BRIGHT",
+      "NATHY",
+      "MVH"
+     ],
+     "proposer": "MVH",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "KAWIN",
+     "state": "APPROVED",
+     "team": [
+      "KAWIN",
+      "NATHY",
+      "BRIGHT"
+     ],
+     "votes": [
+      "PARBBANANA",
+      "KAWIN",
+      "BRIGHT",
+      "NATHY",
+      "MVH"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "NATHY",
+    "PARBBANANA",
+    "MAX",
+    "KAWIN"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "MAX",
+     "state": "REJECTED",
+     "votes": [
+      "MAX"
+     ],
+     "team": [
+      "MAX",
+      "PARBBANANA",
+      "BRIGHT",
+      "MVH"
+     ]
+    },
+    {
+     "team": [
+      "PARBBANANA",
+      "KAWIN",
+      "NATHY",
+      "MVH"
+     ],
+     "proposer": "PARBBANANA",
+     "state": "REJECTED",
+     "votes": [
+      "PARBBANANA",
+      "MAX",
+      "NATHY"
+     ]
+    },
+    {
+     "proposer": "BRIGHT",
+     "state": "REJECTED",
+     "votes": [
+      "BRIGHT",
+      "NATHY"
+     ],
+     "team": [
+      "KAWIN",
+      "PARBBANANA",
+      "NATHY",
+      "MVH"
+     ]
+    },
+    {
+     "team": [
+      "NATHY",
+      "PARBBANANA",
+      "MAX",
+      "KAWIN"
+     ],
+     "proposer": "NATHY",
+     "state": "APPROVED",
+     "votes": [
+      "MAX",
+      "KAWIN",
+      "NATHY",
+      "PARBBANANA"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586023202,
+  "_nanoseconds": 106226000
+ },
+ "players": [
+  {
+   "name": "KAWIN",
+   "uid": "KbQoJzhjtOOj1ZEeVFJEMVemsDA3"
+  },
+  {
+   "name": "MAX",
+   "uid": "ADvaw7a0lLddAlMCpIIkbAsoRbE2"
+  },
+  {
+   "name": "PARBBANANA",
+   "uid": "k0ftUfghG6gnMIuLMeTTScGvOwS2"
+  },
+  {
+   "uid": "BKEQKXL8GJO3oRlZFpbzYrkg5Jk1",
+   "name": "BRIGHT"
+  },
+  {
+   "name": "NATHY",
+   "uid": "04rZmmUgcJYUQLEGJjAysU6HVQz2"
+  },
+  {
+   "name": "MVH",
+   "uid": "22aeKaMtG5QoQww8f940lbnyGWI3"
+  }
+ ]
+}

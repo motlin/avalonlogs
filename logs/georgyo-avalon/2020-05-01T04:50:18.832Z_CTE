@@ -1,0 +1,276 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "wS9QDxVzAshPVoc0eNfG8GPPpvw2",
+   "name": "NALEX"
+  },
+  {
+   "name": "AUSTINMR",
+   "uid": "WsTlvjwqPSb7VjGMaKwDgyoAczN2"
+  },
+  {
+   "name": "IMANI",
+   "uid": "S5auLYcyr3YoktcUnyastmEtEHs2"
+  },
+  {
+   "name": "VIC",
+   "uid": "bOCAeOK2CcTZvm0DhP4BapqCfiF2"
+  },
+  {
+   "name": "AHHHHH",
+   "uid": "iYBVo02kiwO84Nn9E6VmmOfwbF82"
+  },
+  {
+   "uid": "drkp1urIzkdFvan0qCxxw0lusn13",
+   "name": "ANA"
+  },
+  {
+   "uid": "7zvdgwEfHbgJtpqqx21s2vzpQxp2",
+   "name": "OOF"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "AHHHHH",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "ANA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "IMANI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "VIC",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "AUSTINMR",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "NALEX"
+   },
+   {
+    "name": "OOF",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "IMANI": true,
+    "NALEX": true
+   },
+   {
+    "IMANI": true,
+    "AUSTINMR": false,
+    "NALEX": true
+   },
+   {
+    "VIC": true,
+    "IMANI": true,
+    "OOF": true
+   },
+   {
+    "NALEX": true,
+    "AHHHHH": false,
+    "VIC": false,
+    "OOF": true
+   },
+   {
+    "ANA": true,
+    "IMANI": true,
+    "AUSTINMR": false,
+    "NALEX": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1588309540,
+  "_nanoseconds": 741000000
+ },
+ "timeCreated": {
+  "_seconds": 1588308618,
+  "_nanoseconds": 832000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "NALEX",
+    "IMANI"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "AHHHHH",
+      "ANA",
+      "IMANI",
+      "VIC",
+      "AUSTINMR",
+      "NALEX"
+     ],
+     "state": "APPROVED",
+     "proposer": "NALEX",
+     "team": [
+      "NALEX",
+      "IMANI"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NALEX",
+      "AUSTINMR",
+      "IMANI"
+     ],
+     "votes": [
+      "ANA",
+      "IMANI",
+      "VIC",
+      "AUSTINMR",
+      "NALEX"
+     ],
+     "proposer": "AUSTINMR"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "NALEX",
+    "AUSTINMR",
+    "IMANI"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "VIC",
+    "IMANI",
+    "OOF"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "IMANI",
+      "AUSTINMR"
+     ],
+     "proposer": "IMANI",
+     "state": "REJECTED",
+     "team": [
+      "OOF",
+      "NALEX",
+      "VIC"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "VIC",
+     "votes": [
+      "NALEX",
+      "OOF",
+      "VIC",
+      "AUSTINMR"
+     ],
+     "team": [
+      "VIC",
+      "IMANI",
+      "OOF"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 2,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AHHHHH",
+      "ANA",
+      "IMANI",
+      "VIC",
+      "AUSTINMR",
+      "OOF"
+     ],
+     "team": [
+      "AHHHHH",
+      "VIC",
+      "NALEX",
+      "OOF"
+     ],
+     "proposer": "AHHHHH"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "AHHHHH",
+    "VIC",
+    "NALEX",
+    "OOF"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "AUSTINMR",
+    "ANA",
+    "IMANI",
+    "NALEX"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "IMANI",
+      "VIC",
+      "AUSTINMR",
+      "OOF",
+      "ANA"
+     ],
+     "proposer": "ANA",
+     "state": "APPROVED",
+     "team": [
+      "AUSTINMR",
+      "ANA",
+      "IMANI",
+      "NALEX"
+     ]
+    }
+   ]
+  }
+ ]
+}

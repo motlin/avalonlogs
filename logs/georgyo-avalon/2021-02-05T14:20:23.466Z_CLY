@@ -1,0 +1,175 @@
+{
+ "players": [
+  {
+   "uid": "sEsYhmIrsrhIgR2KHM9hmeFOLaI2",
+   "name": "FROGGIE"
+  },
+  {
+   "name": "CRASHUMAN",
+   "uid": "nUYxdVXfcTbv1KThLkLjsGsosnq1"
+  },
+  {
+   "name": "POOP",
+   "uid": "ezJkuEHNN7aYMa0dbbD7HP2qUot2"
+  },
+  {
+   "name": "WORM",
+   "uid": "gnKR7uWjzre88tsmaykMdxg1xbm1"
+  },
+  {
+   "name": "ANANGEL",
+   "uid": "ARxcHl3VUBVydftaJpisyWwNYaI2"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "ANANGEL": true,
+    "WORM": true
+   },
+   {
+    "FROGGIE": true,
+    "POOP": true,
+    "CRASHUMAN": true
+   },
+   {
+    "ANANGEL": true,
+    "WORM": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "CRASHUMAN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "FROGGIE",
+    "assassin": true
+   },
+   {
+    "name": "POOP",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "WORM",
+    "assassin": false
+   },
+   {
+    "name": "ANANGEL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "ANANGEL"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1612534823,
+  "_nanoseconds": 466000000
+ },
+ "timeFinished": {
+  "_seconds": 1612535070,
+  "_nanoseconds": 865000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ANANGEL",
+      "WORM"
+     ],
+     "proposer": "ANANGEL",
+     "state": "APPROVED",
+     "votes": [
+      "WORM",
+      "ANANGEL",
+      "FROGGIE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ANANGEL",
+    "WORM"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "POOP",
+      "WORM",
+      "FROGGIE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FROGGIE",
+      "CRASHUMAN",
+      "POOP"
+     ],
+     "proposer": "FROGGIE"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "FROGGIE",
+    "CRASHUMAN",
+    "POOP"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "WORM",
+    "ANANGEL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CRASHUMAN",
+      "WORM",
+      "ANANGEL"
+     ],
+     "proposer": "CRASHUMAN",
+     "state": "APPROVED",
+     "team": [
+      "WORM",
+      "ANANGEL"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

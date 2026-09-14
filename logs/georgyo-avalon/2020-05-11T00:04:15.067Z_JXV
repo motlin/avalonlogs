@@ -1,0 +1,244 @@
+{
+ "players": [
+  {
+   "name": "JIM",
+   "uid": "0JHTg7ZXCBXtOUop3x2FaKZtnNq1"
+  },
+  {
+   "uid": "g7rwHbTJRmedXlQtZs3cRtsYwR43",
+   "name": "SAMMIE"
+  },
+  {
+   "uid": "nLCLOI1U87Vr28IwWA1MNunueWf2",
+   "name": "SAL"
+  },
+  {
+   "uid": "mfU86kNSdCaFdLEfg76wxbGWS3c2",
+   "name": "NOAH"
+  },
+  {
+   "uid": "9YgRanEWgvcCaCDHzG8mnHK9eLU2",
+   "name": "CYRUS"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589156835,
+  "_nanoseconds": 5000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "CYRUS": true,
+    "JIM": true
+   },
+   {
+    "SAL": true,
+    "NOAH": true,
+    "SAMMIE": false
+   },
+   {
+    "JIM": true,
+    "SAL": true
+   },
+   {
+    "CYRUS": true,
+    "JIM": false,
+    "SAL": true
+   },
+   {
+    "SAL": true,
+    "JIM": false,
+    "NOAH": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SAL"
+   },
+   {
+    "name": "CYRUS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "NOAH"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JIM"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SAMMIE",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "JIM",
+    "CYRUS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SAL",
+      "CYRUS",
+      "NOAH",
+      "JIM",
+      "SAMMIE"
+     ],
+     "proposer": "JIM",
+     "team": [
+      "JIM",
+      "CYRUS"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NOAH",
+      "JIM",
+      "SAMMIE",
+      "SAL",
+      "CYRUS"
+     ],
+     "team": [
+      "SAMMIE",
+      "SAL",
+      "NOAH"
+     ],
+     "proposer": "SAMMIE"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "SAMMIE",
+    "SAL",
+    "NOAH"
+   ]
+  },
+  {
+   "team": [
+    "JIM",
+    "SAL"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "SAL",
+     "team": [
+      "JIM",
+      "SAL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SAL",
+      "CYRUS",
+      "NOAH",
+      "JIM",
+      "SAMMIE"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JIM",
+      "SAMMIE",
+      "NOAH"
+     ],
+     "proposer": "NOAH",
+     "votes": [
+      "NOAH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CYRUS",
+      "SAL",
+      "JIM"
+     ],
+     "proposer": "CYRUS",
+     "votes": [
+      "SAL",
+      "CYRUS",
+      "JIM",
+      "SAMMIE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "CYRUS",
+    "SAL",
+    "JIM"
+   ]
+  },
+  {
+   "team": [
+    "JIM",
+    "SAL",
+    "NOAH"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JIM",
+      "SAL",
+      "NOAH"
+     ],
+     "proposer": "JIM",
+     "votes": [
+      "SAL",
+      "NOAH",
+      "JIM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589155455,
+  "_nanoseconds": 67000000
+ }
+}

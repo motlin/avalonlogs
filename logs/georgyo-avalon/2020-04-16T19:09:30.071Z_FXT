@@ -1,0 +1,267 @@
+{
+ "timeCreated": {
+  "_seconds": 1587064170,
+  "_nanoseconds": 71000000
+ },
+ "players": [
+  {
+   "uid": "vpfGqtxejjXWS1COxi4YEkOVz3U2",
+   "name": "CAITLIN"
+  },
+  {
+   "uid": "vKr7qhoIrGOSWFOdMr5lNLyuzzn1",
+   "name": "TODD"
+  },
+  {
+   "name": "ALICE",
+   "uid": "KG767dfSgmOaacKmolfrfWTOGGr2"
+  },
+  {
+   "name": "BARWELL",
+   "uid": "j0ZOuvzQF8SL5PkhOrNsA74xYZp2"
+  },
+  {
+   "name": "ANDY",
+   "uid": "hBQAWZAci4XhPZaJCFlzS2JSOfg2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587064995,
+  "_nanoseconds": 888175000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TODD",
+     "team": [
+      "BARWELL",
+      "ALICE"
+     ],
+     "votes": [
+      "ANDY",
+      "ALICE",
+      "BARWELL",
+      "CAITLIN",
+      "TODD"
+     ]
+    }
+   ],
+   "team": [
+    "BARWELL",
+    "ALICE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ALICE",
+     "votes": [
+      "ANDY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANDY",
+      "CAITLIN",
+      "TODD"
+     ]
+    },
+    {
+     "votes": [
+      "ANDY",
+      "ALICE",
+      "CAITLIN",
+      "TODD"
+     ],
+     "proposer": "BARWELL",
+     "state": "APPROVED",
+     "team": [
+      "ANDY",
+      "ALICE",
+      "CAITLIN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ANDY",
+    "ALICE",
+    "CAITLIN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "ALICE",
+      "CAITLIN"
+     ],
+     "proposer": "ANDY",
+     "state": "APPROVED",
+     "team": [
+      "BARWELL",
+      "TODD"
+     ]
+    }
+   ],
+   "team": [
+    "BARWELL",
+    "TODD"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TODD",
+      "BARWELL",
+      "CAITLIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ALICE",
+      "CAITLIN"
+     ],
+     "proposer": "CAITLIN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANDY",
+      "ALICE",
+      "CAITLIN",
+      "TODD"
+     ],
+     "team": [
+      "TODD",
+      "ALICE",
+      "BARWELL"
+     ],
+     "proposer": "TODD"
+    }
+   ],
+   "team": [
+    "TODD",
+    "ALICE",
+    "BARWELL"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "CAITLIN",
+    "TODD",
+    "ALICE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANDY",
+      "ALICE"
+     ],
+     "team": [
+      "ANDY",
+      "CAITLIN",
+      "BARWELL"
+     ],
+     "proposer": "ALICE"
+    },
+    {
+     "votes": [
+      "ANDY",
+      "ALICE",
+      "BARWELL"
+     ],
+     "proposer": "BARWELL",
+     "state": "APPROVED",
+     "team": [
+      "CAITLIN",
+      "TODD",
+      "ALICE"
+     ]
+    }
+   ]
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ALICE": true,
+    "BARWELL": true
+   },
+   {
+    "CAITLIN": true,
+    "ANDY": false,
+    "ALICE": true
+   },
+   {
+    "TODD": true,
+    "BARWELL": true
+   },
+   {
+    "TODD": true,
+    "ALICE": true,
+    "BARWELL": false
+   },
+   {
+    "TODD": true,
+    "ALICE": true,
+    "CAITLIN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ANDY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ALICE"
+   },
+   {
+    "name": "BARWELL",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CAITLIN"
+   },
+   {
+    "assassin": false,
+    "name": "TODD",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "CAITLIN",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ }
+}

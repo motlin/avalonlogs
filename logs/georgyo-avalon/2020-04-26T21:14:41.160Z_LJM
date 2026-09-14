@@ -1,0 +1,313 @@
+{
+ "players": [
+  {
+   "name": "YAMIN",
+   "uid": "ZfYkRxOjOueo9q2aiXdkO1Z47QI2"
+  },
+  {
+   "uid": "lv14MbnawpVMhMSTONQv4icOU4O2",
+   "name": "HAELIN"
+  },
+  {
+   "name": "LUKE",
+   "uid": "f46eNuDGPWZGJZmXEEouqQL5fP63"
+  },
+  {
+   "uid": "DAFFA27l52RNY3pnYCeHqx2Dnv33",
+   "name": "LUCAS"
+  },
+  {
+   "name": "DOR",
+   "uid": "7UBOBC3ahycOg95iCNLBs5LbyX93"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587935681,
+  "_nanoseconds": 160000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "DOR"
+   },
+   {
+    "name": "YAMIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LUKE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "HAELIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "name": "LUCAS",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "LUKE",
+  "votes": [
+   {
+    "LUCAS": true,
+    "DOR": true
+   },
+   {
+    "LUCAS": true,
+    "DOR": true,
+    "HAELIN": false
+   },
+   {
+    "HAELIN": false,
+    "LUKE": true
+   },
+   {
+    "DOR": true,
+    "LUKE": true,
+    "YAMIN": true
+   },
+   {
+    "DOR": true,
+    "YAMIN": true,
+    "LUKE": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1587937293,
+  "_nanoseconds": 480000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "HAELIN",
+      "LUCAS",
+      "DOR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DOR",
+      "LUCAS"
+     ],
+     "proposer": "DOR"
+    }
+   ],
+   "team": [
+    "DOR",
+    "LUCAS"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "LUCAS",
+    "DOR",
+    "HAELIN"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LUCAS",
+      "YAMIN"
+     ],
+     "team": [
+      "LUKE",
+      "LUCAS",
+      "YAMIN"
+     ],
+     "proposer": "YAMIN"
+    },
+    {
+     "votes": [
+      "HAELIN",
+      "LUCAS",
+      "DOR"
+     ],
+     "team": [
+      "LUCAS",
+      "DOR",
+      "HAELIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "HAELIN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "LUKE",
+     "votes": [
+      "DOR",
+      "LUKE"
+     ],
+     "team": [
+      "LUKE",
+      "DOR"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LUCAS"
+     ],
+     "proposer": "LUCAS",
+     "team": [
+      "DOR",
+      "LUCAS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DOR",
+      "YAMIN"
+     ],
+     "team": [
+      "DOR",
+      "HAELIN"
+     ],
+     "proposer": "DOR"
+    },
+    {
+     "proposer": "YAMIN",
+     "team": [
+      "DOR",
+      "YAMIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "YAMIN",
+      "LUKE"
+     ]
+    },
+    {
+     "votes": [
+      "LUCAS",
+      "DOR",
+      "YAMIN",
+      "LUKE",
+      "HAELIN"
+     ],
+     "proposer": "HAELIN",
+     "team": [
+      "HAELIN",
+      "LUKE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HAELIN",
+    "LUKE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "DOR",
+    "LUKE",
+    "YAMIN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "YAMIN",
+      "LUKE",
+      "DOR"
+     ],
+     "votes": [
+      "DOR",
+      "LUKE"
+     ],
+     "proposer": "LUKE",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LUCAS",
+      "LUKE",
+      "YAMIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "LUCAS",
+     "votes": [
+      "LUCAS"
+     ]
+    },
+    {
+     "votes": [
+      "DOR",
+      "YAMIN",
+      "LUKE"
+     ],
+     "proposer": "DOR",
+     "state": "APPROVED",
+     "team": [
+      "DOR",
+      "LUKE",
+      "YAMIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "YAMIN",
+     "team": [
+      "DOR",
+      "LUKE",
+      "YAMIN"
+     ],
+     "votes": [
+      "LUCAS",
+      "DOR",
+      "YAMIN",
+      "LUKE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "DOR",
+    "LUKE",
+    "YAMIN"
+   ],
+   "numFails": 0
+  }
+ ]
+}

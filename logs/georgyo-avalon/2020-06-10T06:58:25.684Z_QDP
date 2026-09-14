@@ -1,0 +1,298 @@
+{
+ "players": [
+  {
+   "name": "SIPSOP",
+   "uid": "7C5ZmvG5d8PbUHlWMQD3O0MsurB3"
+  },
+  {
+   "uid": "YdAX0PmXGJahWMVjXb1aayZ7d3B2",
+   "name": "BRIN"
+  },
+  {
+   "name": "JONE",
+   "uid": "gmkYNMfRn6Qj4mXZuJZ7Tc41WXT2"
+  },
+  {
+   "uid": "fxtVFvVdk3U0BJ3mrtOuVuQDdYH2",
+   "name": "JONA"
+  },
+  {
+   "name": "STEVEN",
+   "uid": "epHempy5D5WpkmakogDQxe8dsG43"
+  },
+  {
+   "name": "CANDACE",
+   "uid": "2DfTudmjRpafLQQho25vT4pGDDU2"
+  },
+  {
+   "name": "KAVEL",
+   "uid": "DiTDjibNGoQcsaQ3Wv1kWVoZH9p1"
+  },
+  {
+   "name": "INFEREE",
+   "uid": "bgGpU21IEta9oDwnPryyMC5bzti2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "BRIN"
+   },
+   {
+    "role": "MORDRED",
+    "name": "JONE",
+    "assassin": false
+   },
+   {
+    "name": "JONA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "SIPSOP",
+    "role": "MERLIN"
+   },
+   {
+    "name": "KAVEL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CANDACE"
+   },
+   {
+    "assassin": false,
+    "name": "INFEREE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "STEVEN"
+   }
+  ],
+  "votes": [
+   {
+    "JONE": true,
+    "SIPSOP": true,
+    "BRIN": true
+   },
+   {
+    "JONE": true,
+    "JONA": true,
+    "BRIN": true,
+    "SIPSOP": true
+   },
+   {
+    "SIPSOP": true,
+    "BRIN": true,
+    "JONA": true,
+    "JONE": false
+   },
+   {
+    "JONE": false,
+    "BRIN": false,
+    "SIPSOP": true,
+    "INFEREE": true,
+    "KAVEL": true
+   },
+   {
+    "JONE": false,
+    "SIPSOP": true,
+    "JONA": true,
+    "CANDACE": true,
+    "KAVEL": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1591772305,
+  "_nanoseconds": 684000000
+ },
+ "timeFinished": {
+  "_seconds": 1591773790,
+  "_nanoseconds": 22000000
+ },
+ "missions": [
+  {
+   "team": [
+    "JONE",
+    "BRIN",
+    "SIPSOP"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SIPSOP",
+      "KAVEL",
+      "CANDACE",
+      "INFEREE",
+      "STEVEN",
+      "BRIN",
+      "JONE",
+      "JONA"
+     ],
+     "team": [
+      "JONE",
+      "BRIN",
+      "SIPSOP"
+     ],
+     "proposer": "BRIN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JONE",
+     "votes": [
+      "STEVEN",
+      "BRIN",
+      "JONE",
+      "JONA",
+      "SIPSOP",
+      "KAVEL",
+      "CANDACE",
+      "INFEREE"
+     ],
+     "team": [
+      "BRIN",
+      "JONE",
+      "SIPSOP",
+      "JONA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BRIN",
+    "JONE",
+    "SIPSOP",
+    "JONA"
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "JONE",
+    "JONA",
+    "SIPSOP",
+    "BRIN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "JONE",
+      "JONA",
+      "SIPSOP",
+      "BRIN"
+     ],
+     "votes": [
+      "BRIN",
+      "JONE",
+      "JONA",
+      "KAVEL",
+      "CANDACE",
+      "INFEREE"
+     ],
+     "proposer": "JONA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BRIN",
+      "JONE",
+      "JONA",
+      "SIPSOP",
+      "KAVEL",
+      "CANDACE",
+      "INFEREE",
+      "STEVEN"
+     ],
+     "proposer": "STEVEN",
+     "state": "APPROVED",
+     "team": [
+      "SIPSOP",
+      "BRIN",
+      "JONE",
+      "KAVEL",
+      "INFEREE"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "team": [
+    "SIPSOP",
+    "BRIN",
+    "JONE",
+    "KAVEL",
+    "INFEREE"
+   ],
+   "failsRequired": 2,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "BRIN",
+      "JONE",
+      "JONA",
+      "SIPSOP",
+      "KAVEL",
+      "CANDACE",
+      "STEVEN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JONA",
+      "CANDACE",
+      "KAVEL",
+      "SIPSOP",
+      "JONE"
+     ],
+     "proposer": "CANDACE"
+    }
+   ],
+   "team": [
+    "JONA",
+    "CANDACE",
+    "KAVEL",
+    "SIPSOP",
+    "JONE"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

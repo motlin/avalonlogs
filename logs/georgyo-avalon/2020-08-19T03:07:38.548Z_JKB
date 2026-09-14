@@ -1,0 +1,266 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "KLAUDIA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "NIKOLAI",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ADAM",
+    "assassin": false
+   },
+   {
+    "name": "ALYSSA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JET"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "votes": [
+   {
+    "NIKOLAI": true,
+    "KLAUDIA": true
+   },
+   {
+    "KLAUDIA": false,
+    "NIKOLAI": false,
+    "JET": true
+   },
+   {
+    "ADAM": true,
+    "ALYSSA": true
+   },
+   {
+    "JET": true,
+    "ALYSSA": true,
+    "ADAM": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1597806458,
+  "_nanoseconds": 548000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "KLAUDIA",
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KLAUDIA",
+      "JET",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KLAUDIA",
+    "NIKOLAI"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "JET",
+    "NIKOLAI",
+    "KLAUDIA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "ALYSSA"
+     ],
+     "proposer": "ALYSSA",
+     "state": "REJECTED",
+     "votes": [
+      "ALYSSA"
+     ]
+    },
+    {
+     "votes": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "JET"
+     ],
+     "team": [
+      "JET",
+      "NIKOLAI",
+      "KLAUDIA"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIKOLAI"
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ALYSSA",
+    "ADAM"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "JET",
+      "ALYSSA",
+      "ADAM",
+      "KLAUDIA",
+      "NIKOLAI"
+     ],
+     "team": [
+      "ALYSSA",
+      "ADAM"
+     ],
+     "proposer": "JET",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "ADAM",
+    "JET",
+    "ALYSSA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "ALYSSA",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "NIKOLAI"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "votes": [
+      "KLAUDIA"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "ALYSSA",
+      "ADAM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "ALYSSA",
+      "ADAM"
+     ],
+     "votes": [
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "proposer": "ALYSSA"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "ALYSSA"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ALYSSA",
+      "ADAM"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ADAM",
+      "JET",
+      "ALYSSA"
+     ],
+     "proposer": "JET",
+     "votes": [
+      "ADAM",
+      "JET",
+      "ALYSSA",
+      "KLAUDIA",
+      "NIKOLAI"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1597806811,
+  "_nanoseconds": 194000000
+ },
+ "players": [
+  {
+   "uid": "BsKHDR2tcCTGSxFjjtq0oIkN0xf1",
+   "name": "ALYSSA"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  },
+  {
+   "uid": "SpYOpe3gmgcZo91i5ClSApS8l5g1",
+   "name": "JET"
+  },
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  }
+ ]
+}

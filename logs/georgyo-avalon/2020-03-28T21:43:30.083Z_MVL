@@ -1,0 +1,227 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "THOMAS"
+   },
+   {
+    "assassin": false,
+    "name": "MONI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "MELANIE"
+   },
+   {
+    "assassin": false,
+    "name": "VIIVINILS",
+    "role": "MORGANA"
+   },
+   {
+    "name": "SASCHA",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "THOMAS": true,
+    "VIIVINILS": true
+   },
+   {
+    "MELANIE": true,
+    "SASCHA": true,
+    "THOMAS": true
+   },
+   {
+    "VIIVINILS": false,
+    "MELANIE": true
+   },
+   {
+    "MELANIE": true,
+    "THOMAS": true,
+    "MONI": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "THOMAS"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "THOMAS",
+    "VIIVINILS"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MELANIE",
+     "state": "APPROVED",
+     "votes": [
+      "MONI",
+      "MELANIE",
+      "VIIVINILS",
+      "SASCHA",
+      "THOMAS"
+     ],
+     "team": [
+      "THOMAS",
+      "VIIVINILS"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "THOMAS",
+      "MONI",
+      "MELANIE",
+      "VIIVINILS",
+      "SASCHA"
+     ],
+     "team": [
+      "MELANIE",
+      "THOMAS",
+      "SASCHA"
+     ],
+     "proposer": "VIIVINILS",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MELANIE",
+    "THOMAS",
+    "SASCHA"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "THOMAS",
+      "MELANIE"
+     ],
+     "proposer": "THOMAS",
+     "team": [
+      "THOMAS",
+      "MELANIE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MELANIE",
+      "VIIVINILS"
+     ],
+     "state": "APPROVED",
+     "proposer": "MONI",
+     "votes": [
+      "MONI",
+      "MELANIE",
+      "VIIVINILS",
+      "SASCHA",
+      "THOMAS"
+     ]
+    }
+   ],
+   "team": [
+    "MELANIE",
+    "VIIVINILS"
+   ],
+   "state": "FAIL",
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SASCHA"
+     ],
+     "proposer": "SASCHA",
+     "state": "REJECTED",
+     "team": [
+      "VIIVINILS",
+      "SASCHA",
+      "THOMAS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "THOMAS",
+      "MONI",
+      "MELANIE"
+     ],
+     "votes": [
+      "THOMAS",
+      "MONI",
+      "MELANIE"
+     ],
+     "proposer": "MELANIE"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "THOMAS",
+    "MONI",
+    "MELANIE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585431810,
+  "_nanoseconds": 83000000
+ },
+ "timeFinished": {
+  "_seconds": 1585432342,
+  "_nanoseconds": 357150000
+ },
+ "players": [
+  {
+   "uid": "x3DGTZaRPWN4PCGF7vrpimcLAFv1",
+   "name": "THOMAS"
+  },
+  {
+   "uid": "ouSsaVD0oIXGO4izHP6CSx4jK112",
+   "name": "MONI"
+  },
+  {
+   "uid": "wKUU7OIh1AdPIkKQsqVna228uC53",
+   "name": "SASCHA"
+  },
+  {
+   "uid": "SsTdiZnv5GdolSHVgtbNrU1GuWm1",
+   "name": "MELANIE"
+  },
+  {
+   "name": "VIIVINILS",
+   "uid": "FQCrxofUcGYNM5kOMv0BSDptPZH3"
+  }
+ ]
+}

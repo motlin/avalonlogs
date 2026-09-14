@@ -1,0 +1,216 @@
+{
+ "timeCreated": {
+  "_seconds": 1592665931,
+  "_nanoseconds": 395000000
+ },
+ "timeFinished": {
+  "_seconds": 1592667135,
+  "_nanoseconds": 6000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CRAIG",
+     "votes": [
+      "CRAIG",
+      "ROSS",
+      "BENEDICT",
+      "NIKITA",
+      "GEORGE"
+     ],
+     "team": [
+      "GEORGE",
+      "BENEDICT"
+     ]
+    }
+   ],
+   "team": [
+    "GEORGE",
+    "BENEDICT"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ROSS",
+      "BENEDICT",
+      "NIKITA"
+     ],
+     "proposer": "ROSS",
+     "team": [
+      "ROSS",
+      "NIKITA",
+      "BENEDICT"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ROSS",
+    "NIKITA",
+    "BENEDICT"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "NIKITA",
+    "GEORGE"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NIKITA",
+      "GEORGE"
+     ],
+     "proposer": "NIKITA",
+     "votes": [
+      "NIKITA",
+      "GEORGE",
+      "CRAIG",
+      "ROSS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 2,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "NIKITA",
+    "BENEDICT",
+    "CRAIG"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NIKITA",
+      "GEORGE",
+      "ROSS"
+     ],
+     "proposer": "GEORGE",
+     "state": "REJECTED",
+     "votes": [
+      "ROSS",
+      "GEORGE"
+     ]
+    },
+    {
+     "team": [
+      "NIKITA",
+      "BENEDICT",
+      "CRAIG"
+     ],
+     "proposer": "BENEDICT",
+     "state": "APPROVED",
+     "votes": [
+      "CRAIG",
+      "BENEDICT",
+      "NIKITA"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "CRAIG",
+   "uid": "eKWelV19QZWhHVqj8lYB7moIJWw2"
+  },
+  {
+   "name": "ROSS",
+   "uid": "sfynjgWC4kY2fr7ihsWPf57b4893"
+  },
+  {
+   "uid": "gLTe7yFxjeNytsAIdUXgnV9Nz3H3",
+   "name": "NIKITA"
+  },
+  {
+   "uid": "X6IRMWocVbNbkR10TdZ668orfez2",
+   "name": "GEORGE"
+  },
+  {
+   "uid": "ZWKc7uM0bFOxqzl8tSSXKByaUFB2",
+   "name": "BENEDICT"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "BENEDICT": false,
+    "GEORGE": true
+   },
+   {
+    "NIKITA": true,
+    "ROSS": true,
+    "BENEDICT": false
+   },
+   {
+    "GEORGE": true,
+    "NIKITA": true
+   },
+   {
+    "CRAIG": false,
+    "NIKITA": true,
+    "BENEDICT": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "name": "CRAIG",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "ROSS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "BENEDICT",
+    "assassin": false
+   },
+   {
+    "name": "NIKITA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "GEORGE"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

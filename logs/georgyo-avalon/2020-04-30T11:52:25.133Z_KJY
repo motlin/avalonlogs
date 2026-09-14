@@ -1,0 +1,202 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588247897,
+  "_nanoseconds": 510000000
+ },
+ "players": [
+  {
+   "name": "VIET",
+   "uid": "z1pJNhIkudeHquTDnpvBR64CY252"
+  },
+  {
+   "name": "ALLAN",
+   "uid": "b4rIuDPmu1RBhwViQ0XzOHsQjRp1"
+  },
+  {
+   "name": "ANWAR",
+   "uid": "rvOeMl3TINOwztWyKxePZQx1u883"
+  },
+  {
+   "name": "NEVIN",
+   "uid": "imN1n6zwnabEtwlUkv5EC46Sbp82"
+  },
+  {
+   "name": "SARAH",
+   "uid": "SmgurBmcDkfVLLtyMTlpakGGvGf1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588247545,
+  "_nanoseconds": 133000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "NEVIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "VIET",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SARAH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ALLAN",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "ANWAR",
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SARAH": true,
+    "VIET": true
+   },
+   {
+    "NEVIN": true,
+    "SARAH": true,
+    "ALLAN": true
+   },
+   {
+    "NEVIN": true,
+    "SARAH": true
+   }
+  ],
+  "assassinated": "ALLAN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "SARAH",
+      "VIET"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SARAH",
+      "ALLAN",
+      "NEVIN",
+      "VIET"
+     ],
+     "proposer": "SARAH"
+    }
+   ],
+   "team": [
+    "SARAH",
+    "VIET"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ALLAN",
+    "NEVIN",
+    "SARAH"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "VIET",
+      "ANWAR",
+      "ALLAN"
+     ],
+     "proposer": "VIET",
+     "votes": [
+      "VIET",
+      "ALLAN"
+     ]
+    },
+    {
+     "team": [
+      "ALLAN",
+      "NEVIN",
+      "SARAH"
+     ],
+     "proposer": "ALLAN",
+     "state": "APPROVED",
+     "votes": [
+      "VIET",
+      "SARAH",
+      "ALLAN"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "NEVIN",
+    "SARAH"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "NEVIN",
+      "ANWAR"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NEVIN",
+      "ALLAN"
+     ],
+     "proposer": "ANWAR"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NEVIN",
+      "VIET",
+      "SARAH",
+      "ALLAN"
+     ],
+     "team": [
+      "NEVIN",
+      "SARAH"
+     ],
+     "proposer": "NEVIN"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": []
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ]
+}

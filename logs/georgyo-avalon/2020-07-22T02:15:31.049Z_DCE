@@ -1,0 +1,305 @@
+{
+ "players": [
+  {
+   "name": "MINI",
+   "uid": "IeXICrMA62QT4cmrASLOZr1z2d63"
+  },
+  {
+   "uid": "fjQZGtOmRHVfbUPJfemn6Z6rzFk2",
+   "name": "CALEB"
+  },
+  {
+   "uid": "fkXAhd677lekXNAxDTRvyrb5V9c2",
+   "name": "LONG"
+  },
+  {
+   "name": "JINA",
+   "uid": "7aUliTr46oepOOspk2OMPNXEOe23"
+  },
+  {
+   "name": "LES",
+   "uid": "OFOtJ6c1oSQXO3tSybBsrxlE6HA2"
+  },
+  {
+   "name": "JP",
+   "uid": "aRRmRdicv9VnUCPGxBXVokC8VTs2"
+  },
+  {
+   "uid": "Ca3VT5d9X2SOfy4zFq3XplRuVlD3",
+   "name": "RACHEL"
+  },
+  {
+   "name": "KAROLINE",
+   "uid": "bnDN3aL0EOcwoRA2zQzFV0xa7r33"
+  },
+  {
+   "name": "SUE",
+   "uid": "aCFZ4NtDwjUwp3UsxincYtV2fhG3"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595384131,
+  "_nanoseconds": 49000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "RACHEL": true,
+    "CALEB": false,
+    "MINI": true
+   },
+   {
+    "CALEB": false,
+    "SUE": true,
+    "MINI": true,
+    "JINA": true
+   },
+   {
+    "MINI": true,
+    "SUE": true,
+    "LES": false,
+    "CALEB": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "LES",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "KAROLINE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "RACHEL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "LONG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SUE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "CALEB",
+    "assassin": true
+   },
+   {
+    "name": "MINI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "JP"
+   },
+   {
+    "name": "JINA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1595385258,
+  "_nanoseconds": 476000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "LES",
+      "RACHEL",
+      "SUE",
+      "CALEB"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RACHEL",
+      "CALEB",
+      "LES"
+     ],
+     "proposer": "RACHEL"
+    },
+    {
+     "team": [
+      "KAROLINE",
+      "JINA",
+      "LONG"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KAROLINE",
+      "LONG",
+      "MINI"
+     ],
+     "proposer": "KAROLINE"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LES",
+      "RACHEL",
+      "SUE",
+      "CALEB",
+      "MINI"
+     ],
+     "team": [
+      "RACHEL",
+      "MINI",
+      "CALEB"
+     ],
+     "proposer": "SUE"
+    }
+   ],
+   "team": [
+    "RACHEL",
+    "MINI",
+    "CALEB"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "CALEB",
+    "MINI",
+    "JINA",
+    "SUE"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MINI",
+      "JP",
+      "JINA"
+     ],
+     "team": [
+      "MINI",
+      "LES",
+      "JP",
+      "JINA"
+     ],
+     "proposer": "MINI"
+    },
+    {
+     "team": [
+      "CALEB",
+      "MINI",
+      "JINA",
+      "SUE"
+     ],
+     "proposer": "CALEB",
+     "state": "APPROVED",
+     "votes": [
+      "MINI",
+      "JINA",
+      "LES",
+      "LONG",
+      "SUE",
+      "CALEB"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "LES",
+    "SUE",
+    "CALEB",
+    "MINI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "LONG",
+      "CALEB",
+      "MINI",
+      "KAROLINE"
+     ],
+     "votes": [
+      "LONG",
+      "CALEB",
+      "MINI"
+     ],
+     "state": "REJECTED",
+     "proposer": "LONG"
+    },
+    {
+     "team": [
+      "JINA",
+      "LES",
+      "JP",
+      "RACHEL"
+     ],
+     "votes": [
+      "SUE",
+      "JP",
+      "JINA",
+      "RACHEL"
+     ],
+     "proposer": "JINA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "LES",
+      "SUE",
+      "CALEB",
+      "MINI"
+     ],
+     "votes": [
+      "LONG",
+      "SUE",
+      "MINI",
+      "JINA",
+      "LES"
+     ],
+     "proposer": "LES"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 2
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "PENDING"
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ]
+}

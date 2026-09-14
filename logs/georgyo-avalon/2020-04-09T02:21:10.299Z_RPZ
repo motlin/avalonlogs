@@ -1,0 +1,294 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "LAUREN": true,
+    "BECCA": false
+   },
+   {
+    "ROHOOOT": true,
+    "LAUREN": true,
+    "AUSTIN": true
+   },
+   {
+    "LYSONDRA": true,
+    "ROHOOOT": true,
+    "LAUREN": true,
+    "AUSTIN": true
+   },
+   {
+    "AUSTIN": true,
+    "ROHOOOT": true,
+    "LAUREN": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AUSTIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "LYSONDRA"
+   },
+   {
+    "name": "ROHOOOT",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BECCA"
+   },
+   {
+    "assassin": false,
+    "name": "Q",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "LAUREN"
+   }
+  ],
+  "assassinated": "ROHOOOT"
+ },
+ "timeCreated": {
+  "_seconds": 1586398870,
+  "_nanoseconds": 299000000
+ },
+ "missions": [
+  {
+   "team": [
+    "LAUREN",
+    "BECCA"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "LAUREN",
+      "AUSTIN"
+     ],
+     "proposer": "AUSTIN",
+     "votes": [
+      "BECCA",
+      "LAUREN",
+      "AUSTIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BECCA",
+      "Q"
+     ],
+     "team": [
+      "BECCA",
+      "LYSONDRA"
+     ],
+     "proposer": "BECCA",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "LAUREN",
+     "team": [
+      "LAUREN",
+      "BECCA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BECCA",
+      "Q",
+      "LAUREN",
+      "AUSTIN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "LYSONDRA",
+      "ROHOOOT",
+      "Q"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "Q"
+     ],
+     "proposer": "LYSONDRA"
+    },
+    {
+     "votes": [
+      "Q",
+      "BECCA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "Q",
+      "ROHOOOT",
+      "LYSONDRA"
+     ],
+     "proposer": "Q"
+    },
+    {
+     "votes": [
+      "ROHOOOT",
+      "Q",
+      "LYSONDRA"
+     ],
+     "state": "REJECTED",
+     "proposer": "ROHOOOT",
+     "team": [
+      "ROHOOOT",
+      "LAUREN",
+      "Q"
+     ]
+    },
+    {
+     "votes": [
+      "ROHOOOT",
+      "Q",
+      "LAUREN",
+      "AUSTIN",
+      "LYSONDRA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AUSTIN",
+      "LAUREN",
+      "ROHOOOT"
+     ],
+     "proposer": "AUSTIN"
+    }
+   ],
+   "team": [
+    "AUSTIN",
+    "LAUREN",
+    "ROHOOOT"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BECCA"
+     ],
+     "proposer": "BECCA",
+     "team": [
+      "Q",
+      "LYSONDRA",
+      "BECCA",
+      "LAUREN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LAUREN",
+     "team": [
+      "AUSTIN",
+      "LAUREN",
+      "LYSONDRA",
+      "ROHOOOT"
+     ],
+     "votes": [
+      "AUSTIN",
+      "ROHOOOT",
+      "BECCA",
+      "LAUREN"
+     ]
+    }
+   ],
+   "team": [
+    "AUSTIN",
+    "LAUREN",
+    "LYSONDRA",
+    "ROHOOOT"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "AUSTIN",
+    "LAUREN",
+    "ROHOOOT"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "Q",
+      "LAUREN",
+      "AUSTIN",
+      "ROHOOOT"
+     ],
+     "proposer": "LYSONDRA",
+     "team": [
+      "AUSTIN",
+      "LAUREN",
+      "ROHOOOT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586399555,
+  "_nanoseconds": 118751000
+ },
+ "players": [
+  {
+   "name": "AUSTIN",
+   "uid": "PdG76HczXYUkkfGByllhBBWwq892"
+  },
+  {
+   "name": "BECCA",
+   "uid": "RZ4n7c4sRZNnvPj5cWTPptMHDrH2"
+  },
+  {
+   "uid": "5S4t5k5ixNSoAhDqNOA6x7DJwX73",
+   "name": "LAUREN"
+  },
+  {
+   "name": "LYSONDRA",
+   "uid": "fTftQUgbFQgHJzfjsRh0ymubOWK2"
+  },
+  {
+   "name": "Q",
+   "uid": "CGg1guufy4TIMKdT0SDX4k3yi7Z2"
+  },
+  {
+   "uid": "IJYhyXj9nLeftkL4e9GjLl5tdBJ2",
+   "name": "ROHOOOT"
+  }
+ ]
+}

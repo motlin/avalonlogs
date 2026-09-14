@@ -1,0 +1,254 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "KELSEY": true,
+    "ADRIAN": false
+   },
+   {
+    "LUKE": true,
+    "JACK": true,
+    "MATT": false
+   },
+   {
+    "JACK": true,
+    "LUKE": true,
+    "ERYCK": true,
+    "KELSEY": true
+   },
+   {
+    "JACK": true,
+    "KELSEY": true,
+    "ERYCK": true
+   },
+   {
+    "KELSEY": true,
+    "JACK": true,
+    "LUKE": true,
+    "ERYCK": true
+   }
+  ],
+  "assassinated": "ERYCK",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LUKE",
+    "assassin": false
+   },
+   {
+    "name": "ADRIAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MATT"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ERYCK",
+    "assassin": false
+   },
+   {
+    "name": "JACK",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KELSEY",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1590978336,
+  "_nanoseconds": 802000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "MATT",
+   "uid": "jGdN7urETQfmo3ECxfellnLouGf2"
+  },
+  {
+   "uid": "IzYLLk1P13PGnuQvs7xUOPVJh7n1",
+   "name": "KELSEY"
+  },
+  {
+   "uid": "4MgsumaQWYSgluqbP1RckSVym3b2",
+   "name": "JACK"
+  },
+  {
+   "name": "LUKE",
+   "uid": "gVncdOzvyrc1fKiBsipaXEmGOjA2"
+  },
+  {
+   "uid": "2rYlwh0lykQj9o5DsYT73Lwv0li2",
+   "name": "ERYCK"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "cD9DYMjiePYJoV7aOdgrY320Xgh1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590979885,
+  "_nanoseconds": 247000000
+ },
+ "missions": [
+  {
+   "team": [
+    "KELSEY",
+    "ADRIAN"
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "KELSEY",
+      "ADRIAN"
+     ],
+     "proposer": "ADRIAN",
+     "votes": [
+      "ERYCK",
+      "KELSEY",
+      "LUKE",
+      "ADRIAN",
+      "MATT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "MATT",
+    "JACK",
+    "LUKE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MATT",
+      "JACK",
+      "LUKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "MATT",
+     "votes": [
+      "JACK",
+      "KELSEY",
+      "LUKE",
+      "ADRIAN",
+      "MATT"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "KELSEY",
+    "LUKE",
+    "ERYCK",
+    "JACK"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "KELSEY",
+      "LUKE",
+      "ERYCK",
+      "JACK"
+     ],
+     "votes": [
+      "LUKE",
+      "ADRIAN",
+      "MATT",
+      "ERYCK",
+      "JACK",
+      "KELSEY"
+     ],
+     "state": "APPROVED",
+     "proposer": "KELSEY"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "KELSEY",
+      "JACK",
+      "ERYCK"
+     ],
+     "proposer": "JACK",
+     "votes": [
+      "ERYCK",
+      "JACK",
+      "KELSEY",
+      "LUKE",
+      "ADRIAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KELSEY",
+    "JACK",
+    "ERYCK"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ERYCK",
+      "LUKE",
+      "JACK",
+      "KELSEY"
+     ],
+     "votes": [
+      "ERYCK",
+      "JACK",
+      "KELSEY",
+      "LUKE",
+      "ADRIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "LUKE"
+    }
+   ],
+   "team": [
+    "ERYCK",
+    "LUKE",
+    "JACK",
+    "KELSEY"
+   ]
+  }
+ ]
+}

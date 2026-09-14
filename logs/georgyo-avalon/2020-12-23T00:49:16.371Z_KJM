@@ -1,0 +1,234 @@
+{
+ "players": [
+  {
+   "uid": "sxLISnim3ER9UDMOosxowsX3i4B3",
+   "name": "AIDAN"
+  },
+  {
+   "uid": "QiNZCie8NQVlC2Qnpg2AJzY2Hnk1",
+   "name": "MIKAYLA"
+  },
+  {
+   "name": "CLO",
+   "uid": "zzfTZcX8XfNJtcW2WKTAkcPl3Cy2"
+  },
+  {
+   "name": "MEG",
+   "uid": "V26GyNUVclXP2Fh9wtj4NefoP7C2"
+  },
+  {
+   "uid": "L0Gx6Bis5pcXH1FfGkFIYNHXT9F3",
+   "name": "MARTIN"
+  },
+  {
+   "name": "BRI",
+   "uid": "rfhJ8mdUFeO0YWCiiKESkylhlb12"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1608684556,
+  "_nanoseconds": 371000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1608684883,
+  "_nanoseconds": 433000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "CLO",
+    "AIDAN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "AIDAN",
+      "MEG"
+     ],
+     "proposer": "AIDAN",
+     "votes": [
+      "MEG",
+      "AIDAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CLO",
+      "BRI",
+      "MIKAYLA"
+     ],
+     "team": [
+      "MIKAYLA",
+      "BRI"
+     ],
+     "proposer": "MIKAYLA"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CLO",
+      "MIKAYLA",
+      "BRI",
+      "MARTIN",
+      "AIDAN"
+     ],
+     "proposer": "CLO",
+     "team": [
+      "CLO",
+      "AIDAN"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "MARTIN",
+    "CLO",
+    "BRI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MEG",
+      "CLO",
+      "MARTIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MEG",
+      "MIKAYLA"
+     ],
+     "proposer": "MEG"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "MARTIN",
+     "votes": [
+      "AIDAN",
+      "MIKAYLA",
+      "MARTIN",
+      "CLO",
+      "BRI"
+     ],
+     "team": [
+      "MARTIN",
+      "CLO",
+      "BRI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "BRI",
+    "CLO",
+    "AIDAN",
+    "MARTIN"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "BRI",
+      "MIKAYLA",
+      "CLO",
+      "MARTIN",
+      "AIDAN"
+     ],
+     "team": [
+      "BRI",
+      "CLO",
+      "AIDAN",
+      "MARTIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRI"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "CLO": true,
+    "AIDAN": true
+   },
+   {
+    "BRI": true,
+    "CLO": true,
+    "MARTIN": true
+   },
+   {
+    "AIDAN": true,
+    "MARTIN": true,
+    "BRI": true,
+    "CLO": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "AIDAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "MEG",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BRI"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MIKAYLA",
+    "assassin": true
+   },
+   {
+    "name": "CLO",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "MARTIN",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "MARTIN",
+  "state": "GOOD_WIN"
+ }
+}

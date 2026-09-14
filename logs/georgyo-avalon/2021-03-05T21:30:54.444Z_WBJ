@@ -1,0 +1,261 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1614980490,
+  "_nanoseconds": 591000000
+ },
+ "missions": [
+  {
+   "team": [
+    "YANNY",
+    "EVAN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "EVAN",
+      "YANNY",
+      "PAUL",
+      "GABE",
+      "GORD"
+     ],
+     "state": "APPROVED",
+     "proposer": "YANNY",
+     "team": [
+      "YANNY",
+      "EVAN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "EVAN",
+    "YANNY",
+    "GABE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "YANNY",
+      "EVAN",
+      "GORD",
+      "GABE",
+      "PAUL"
+     ],
+     "team": [
+      "EVAN",
+      "YANNY",
+      "GABE"
+     ],
+     "proposer": "GABE",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "GORD",
+      "PAUL",
+      "MARK"
+     ],
+     "votes": [
+      "GORD",
+      "MARK",
+      "PAUL"
+     ],
+     "state": "REJECTED",
+     "proposer": "GORD"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "PAUL",
+     "team": [
+      "PAUL",
+      "MARK",
+      "GORD"
+     ],
+     "votes": [
+      "EVAN",
+      "MARK",
+      "GORD",
+      "PAUL"
+     ]
+    }
+   ],
+   "team": [
+    "PAUL",
+    "MARK",
+    "GORD"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "GORD",
+    "PAUL",
+    "MARK",
+    "LOUIS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "PAUL",
+      "MARK",
+      "EVAN"
+     ],
+     "team": [
+      "GORD",
+      "PAUL",
+      "MARK",
+      "EVAN"
+     ],
+     "proposer": "MARK",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "GORD",
+      "PAUL",
+      "MARK",
+      "LOUIS"
+     ],
+     "votes": [
+      "LOUIS",
+      "PAUL",
+      "YANNY",
+      "GORD",
+      "MARK",
+      "EVAN"
+     ],
+     "proposer": "LOUIS"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "GABE",
+   "uid": "7YTHrz9p6XXO8n12VKwkFAxBzWX2"
+  },
+  {
+   "uid": "LkST3AyXeJNaUDsAdLExhKLJ5Xo1",
+   "name": "GORD"
+  },
+  {
+   "uid": "tQFFUEAHnQhMds64rOaakLRW3dl1",
+   "name": "PAUL"
+  },
+  {
+   "name": "MARK",
+   "uid": "o8RlNNfQuCVVK7HxH0OjsagSEOo2"
+  },
+  {
+   "name": "LOUIS",
+   "uid": "FxNVnPh3OQhH9a24DbpHwR8uJLU2"
+  },
+  {
+   "uid": "KsOnlPTkSagnb6YG3XoxWQ6xTUr1",
+   "name": "EVAN"
+  },
+  {
+   "name": "YANNY",
+   "uid": "5wT6hEk7h1OrespCYq34YPAwqdx2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1614979854,
+  "_nanoseconds": 444000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "EVAN": true,
+    "YANNY": true
+   },
+   {
+    "YANNY": false,
+    "EVAN": true,
+    "GABE": false
+   },
+   {
+    "PAUL": true,
+    "GORD": true,
+    "MARK": true
+   },
+   {
+    "GORD": true,
+    "PAUL": true,
+    "MARK": true,
+    "LOUIS": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MARK"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "GABE"
+   },
+   {
+    "role": "OBERON",
+    "name": "YANNY",
+    "assassin": false
+   },
+   {
+    "name": "PAUL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LOUIS",
+    "assassin": false
+   },
+   {
+    "name": "GORD",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EVAN"
+   }
+  ],
+  "assassinated": "LOUIS",
+  "state": "GOOD_WIN"
+ }
+}

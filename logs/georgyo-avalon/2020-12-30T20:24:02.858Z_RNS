@@ -1,0 +1,277 @@
+{
+ "timeFinished": {
+  "_seconds": 1609361290,
+  "_nanoseconds": 203000000
+ },
+ "timeCreated": {
+  "_seconds": 1609359842,
+  "_nanoseconds": 858000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "LENA": true,
+    "MEERA": true
+   },
+   {
+    "LENA": true,
+    "MEERA": true,
+    "PARAAG": true
+   },
+   {
+    "LENA": true,
+    "PARAAG": true,
+    "KALPA": true,
+    "HEMAL": false
+   },
+   {
+    "STEVE": true,
+    "PARAAG": true,
+    "KALPA": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MEERA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "STEVE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HEMAL",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KALPA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LENA",
+    "assassin": false
+   },
+   {
+    "name": "PARAAG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "HEMAL",
+   "uid": "tPONeMAmqneWMarCscrGBO8Xuce2"
+  },
+  {
+   "name": "LENA",
+   "uid": "cyza35QKWBNPODvGjbaQFwUe2SC3"
+  },
+  {
+   "uid": "xMdI4E5u7VSIiy6AJeacY15ZMxf1",
+   "name": "STEVE"
+  },
+  {
+   "uid": "sIdRynFlyWNrAzmdHcuHNzqXa232",
+   "name": "KALPA"
+  },
+  {
+   "name": "MEERA",
+   "uid": "4Jlz7InJ6zcAMa7WQK4kdOUWr6v1"
+  },
+  {
+   "uid": "0bpbQGNpviXk9ICeAyDulsSch8W2",
+   "name": "PARAAG"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "MEERA",
+    "LENA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "PARAAG",
+      "STEVE",
+      "LENA",
+      "KALPA",
+      "MEERA",
+      "HEMAL"
+     ],
+     "proposer": "MEERA",
+     "state": "APPROVED",
+     "team": [
+      "MEERA",
+      "LENA"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MEERA",
+      "LENA",
+      "PARAAG"
+     ],
+     "proposer": "PARAAG",
+     "votes": [
+      "HEMAL",
+      "PARAAG",
+      "LENA",
+      "KALPA",
+      "STEVE"
+     ]
+    }
+   ],
+   "team": [
+    "MEERA",
+    "LENA",
+    "PARAAG"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "LENA",
+      "PARAAG",
+      "KALPA",
+      "HEMAL",
+      "STEVE"
+     ],
+     "proposer": "HEMAL",
+     "state": "APPROVED",
+     "team": [
+      "HEMAL",
+      "LENA",
+      "KALPA",
+      "PARAAG"
+     ]
+    }
+   ],
+   "team": [
+    "HEMAL",
+    "LENA",
+    "KALPA",
+    "PARAAG"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "LENA",
+     "state": "REJECTED",
+     "votes": [
+      "LENA",
+      "PARAAG",
+      "STEVE"
+     ],
+     "team": [
+      "LENA",
+      "PARAAG",
+      "KALPA"
+     ]
+    },
+    {
+     "votes": [
+      "KALPA",
+      "HEMAL"
+     ],
+     "team": [
+      "HEMAL",
+      "PARAAG",
+      "LENA"
+     ],
+     "state": "REJECTED",
+     "proposer": "STEVE"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KALPA"
+     ],
+     "team": [
+      "STEVE",
+      "MEERA",
+      "PARAAG"
+     ],
+     "proposer": "KALPA"
+    },
+    {
+     "votes": [
+      "KALPA",
+      "MEERA"
+     ],
+     "team": [
+      "STEVE",
+      "PARAAG",
+      "MEERA"
+     ],
+     "proposer": "MEERA",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "PARAAG",
+      "STEVE",
+      "KALPA"
+     ],
+     "votes": [
+      "STEVE",
+      "PARAAG",
+      "MEERA",
+      "LENA",
+      "KALPA",
+      "HEMAL"
+     ],
+     "proposer": "PARAAG",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "PARAAG",
+    "STEVE",
+    "KALPA"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "timeFinished": {
+  "_seconds": 1589841397,
+  "_nanoseconds": 177000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "TODD",
+      "ECV"
+     ],
+     "state": "APPROVED",
+     "proposer": "GUS",
+     "votes": [
+      "TODD",
+      "GUS",
+      "CHERRY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "TODD",
+    "ECV"
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TODD",
+      "ECV",
+      "CHERRY"
+     ],
+     "team": [
+      "CHERRY",
+      "ECV",
+      "PATRICK"
+     ],
+     "proposer": "CHERRY"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "CHERRY",
+    "ECV",
+    "PATRICK"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "ECV",
+     "votes": [
+      "TODD",
+      "ECV",
+      "GUS",
+      "PATRICK",
+      "CHERRY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PATRICK",
+      "CHERRY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "PATRICK",
+    "CHERRY"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "CHERRY",
+    "TODD",
+    "PATRICK"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "TODD",
+     "team": [
+      "GUS",
+      "PATRICK",
+      "ECV"
+     ],
+     "votes": [
+      "PATRICK",
+      "CHERRY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "GUS",
+      "PATRICK",
+      "CHERRY"
+     ],
+     "proposer": "PATRICK",
+     "state": "APPROVED",
+     "team": [
+      "CHERRY",
+      "TODD",
+      "PATRICK"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "CHERRY",
+      "ECV",
+      "PATRICK"
+     ],
+     "votes": [
+      "GUS",
+      "PATRICK",
+      "CHERRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "GUS"
+    }
+   ],
+   "team": [
+    "CHERRY",
+    "ECV",
+    "PATRICK"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "TODD"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ECV"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GUS"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "PATRICK"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CHERRY"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "TODD": false,
+    "ECV": true
+   },
+   {
+    "ECV": true,
+    "CHERRY": true,
+    "PATRICK": true
+   },
+   {
+    "CHERRY": true,
+    "PATRICK": true
+   },
+   {
+    "PATRICK": true,
+    "TODD": false,
+    "CHERRY": true
+   },
+   {
+    "CHERRY": true,
+    "PATRICK": true,
+    "ECV": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "CHERRY",
+   "uid": "OgHLk6FrW2TMiSaFmKoneBcSUh92"
+  },
+  {
+   "uid": "DLNeBGDxf2PyEmY2xyCWWJNT7wy2",
+   "name": "ECV"
+  },
+  {
+   "uid": "YpKqPO8AQ7g2GcdjteJ0Yhe6uK43",
+   "name": "TODD"
+  },
+  {
+   "uid": "DbkjK8CtJEfTH8E7ljjcmjuOqVf2",
+   "name": "PATRICK"
+  },
+  {
+   "name": "GUS",
+   "uid": "CIiOlARWLRMUrH27bte1BaLwJ2V2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589840545,
+  "_nanoseconds": 168000000
+ }
+}

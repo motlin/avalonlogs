@@ -1,0 +1,200 @@
+{
+ "players": [
+  {
+   "name": "AISHU",
+   "uid": "LsgrP9F0i4Pe6J4MArW5ahvJPH63"
+  },
+  {
+   "uid": "5dbKjv5BmHfFGwGy4Z2KvqA1SkY2",
+   "name": "VENKAT"
+  },
+  {
+   "uid": "XFUN3EwXd3NbNSo2eOqibMpJ7123",
+   "name": "NAV"
+  },
+  {
+   "name": "RAVI",
+   "uid": "jDLgmuSoPYZdeRIwrriymPqevk42"
+  },
+  {
+   "uid": "GEeecKv71nZFB6Pao8ZT7Me3l0v1",
+   "name": "SUCHIN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586059798,
+  "_nanoseconds": 94000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SUCHIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "VENKAT"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "RAVI"
+   },
+   {
+    "name": "AISHU",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "NAV",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ],
+  "assassinated": "VENKAT",
+  "votes": [
+   {
+    "SUCHIN": false,
+    "VENKAT": true
+   },
+   {
+    "RAVI": true,
+    "NAV": true,
+    "VENKAT": true
+   },
+   {
+    "VENKAT": true,
+    "RAVI": true
+   },
+   {
+    "VENKAT": true,
+    "RAVI": true,
+    "AISHU": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "SUCHIN",
+    "VENKAT"
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SUCHIN",
+      "VENKAT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SUCHIN",
+      "VENKAT",
+      "RAVI",
+      "AISHU",
+      "NAV"
+     ],
+     "proposer": "AISHU"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "VENKAT",
+    "NAV",
+    "RAVI"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "VENKAT",
+      "NAV",
+      "RAVI"
+     ],
+     "votes": [
+      "SUCHIN",
+      "VENKAT",
+      "RAVI",
+      "NAV"
+     ],
+     "state": "APPROVED",
+     "proposer": "VENKAT"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "VENKAT",
+    "RAVI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VENKAT",
+      "RAVI",
+      "AISHU"
+     ],
+     "team": [
+      "VENKAT",
+      "RAVI"
+     ],
+     "proposer": "NAV"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AISHU",
+      "VENKAT",
+      "RAVI"
+     ],
+     "team": [
+      "AISHU",
+      "RAVI",
+      "VENKAT"
+     ],
+     "proposer": "RAVI"
+    }
+   ],
+   "team": [
+    "AISHU",
+    "RAVI",
+    "VENKAT"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586060240,
+  "_nanoseconds": 978171000
+ }
+}

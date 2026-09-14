@@ -1,0 +1,223 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "THUY": true,
+    "SAM": true
+   },
+   {
+    "THUY": false,
+    "CAM": true,
+    "SAM": true
+   },
+   {
+    "SAM": true,
+    "JEN": true,
+    "SIMONE": true,
+    "THUY": false
+   },
+   {
+    "CAM": true,
+    "MICHELLE": false,
+    "SIMONE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MICHELLE",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "CAM",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SIMONE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SAM",
+    "assassin": false
+   },
+   {
+    "name": "THUY",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "JEN",
+   "uid": "QU50MosWFfYzxviXDgspiSugaUk2"
+  },
+  {
+   "uid": "hMyvLCmwHkSrIfCOJDjVh7YHxAs2",
+   "name": "MICHELLE"
+  },
+  {
+   "uid": "jeL8S7lq6nd9C0D3zf1NI3wAV1B3",
+   "name": "CAM"
+  },
+  {
+   "uid": "dp0J2fUvQ9gj7wNGpwtQ37d6C222",
+   "name": "SIMONE"
+  },
+  {
+   "uid": "LqYzt6RQCaXVsEbegSExM5aemtS2",
+   "name": "THUY"
+  },
+  {
+   "uid": "l7AjzdjRx7ddnDaboyCFfVwu3eI3",
+   "name": "SAM"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "THUY",
+    "SAM"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "THUY",
+     "votes": [
+      "SIMONE",
+      "SAM",
+      "THUY",
+      "JEN",
+      "MICHELLE",
+      "CAM"
+     ],
+     "team": [
+      "THUY",
+      "SAM"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "THUY",
+    "SAM",
+    "CAM"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "THUY",
+      "SAM",
+      "CAM"
+     ],
+     "proposer": "SAM",
+     "votes": [
+      "SAM",
+      "THUY",
+      "JEN",
+      "MICHELLE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "SIMONE",
+    "THUY",
+    "SAM",
+    "JEN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SIMONE",
+      "SAM",
+      "THUY",
+      "JEN",
+      "CAM"
+     ],
+     "proposer": "JEN",
+     "team": [
+      "SIMONE",
+      "THUY",
+      "SAM",
+      "JEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "CAM",
+      "SIMONE",
+      "MICHELLE"
+     ],
+     "proposer": "MICHELLE",
+     "state": "APPROVED",
+     "votes": [
+      "SIMONE",
+      "THUY",
+      "JEN",
+      "MICHELLE",
+      "CAM"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "CAM",
+    "SIMONE",
+    "MICHELLE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587867533,
+  "_nanoseconds": 914000000
+ },
+ "timeFinished": {
+  "_seconds": 1587868457,
+  "_nanoseconds": 396000000
+ }
+}

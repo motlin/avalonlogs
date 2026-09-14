@@ -1,0 +1,262 @@
+{
+ "players": [
+  {
+   "name": "PATRICK",
+   "uid": "PYYzqvbAyGeFXfpEIFus8sRMaWP2"
+  },
+  {
+   "name": "NICK",
+   "uid": "3BZDbZZUidhTK3mWnTiu3F3bNXI3"
+  },
+  {
+   "name": "MALTE",
+   "uid": "pqAjF6kKN2MkzfS5rtX6JctlusN2"
+  },
+  {
+   "name": "CHRISTOPH",
+   "uid": "Tzfj8KypC2NvafKDnRgrbYdDtk42"
+  },
+  {
+   "name": "MARKUS",
+   "uid": "mRt3Q8chi3VkwBRXnqGZqf8l0gj2"
+  },
+  {
+   "name": "INGO",
+   "uid": "ACKpLvD5HMNJPjbaoVuC4C7gdNA2"
+  },
+  {
+   "name": "JONAS",
+   "uid": "pI1TOu36TlScMCZ9OXJxqLYuMPx1"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "INGO",
+    "PATRICK"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "PATRICK",
+      "NICK"
+     ],
+     "proposer": "PATRICK",
+     "state": "REJECTED",
+     "votes": [
+      "JONAS",
+      "MALTE",
+      "PATRICK"
+     ]
+    },
+    {
+     "votes": [
+      "JONAS",
+      "MALTE",
+      "MARKUS",
+      "NICK",
+      "CHRISTOPH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "INGO",
+      "PATRICK"
+     ],
+     "proposer": "NICK"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRISTOPH",
+      "JONAS",
+      "INGO",
+      "MALTE",
+      "PATRICK",
+      "MARKUS",
+      "NICK"
+     ],
+     "proposer": "MALTE",
+     "team": [
+      "CHRISTOPH",
+      "MALTE",
+      "NICK"
+     ]
+    }
+   ],
+   "team": [
+    "CHRISTOPH",
+    "MALTE",
+    "NICK"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NICK"
+     ],
+     "proposer": "CHRISTOPH",
+     "team": [
+      "CHRISTOPH",
+      "PATRICK",
+      "NICK"
+     ]
+    },
+    {
+     "votes": [
+      "MARKUS",
+      "NICK",
+      "CHRISTOPH",
+      "JONAS",
+      "INGO",
+      "MALTE",
+      "PATRICK"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARKUS",
+     "team": [
+      "NICK",
+      "MALTE",
+      "CHRISTOPH"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "NICK",
+    "MALTE",
+    "CHRISTOPH"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "INGO",
+     "team": [
+      "NICK",
+      "MALTE",
+      "CHRISTOPH",
+      "MARKUS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "INGO",
+      "MALTE",
+      "PATRICK",
+      "MARKUS",
+      "NICK",
+      "CHRISTOPH"
+     ]
+    }
+   ],
+   "team": [
+    "NICK",
+    "MALTE",
+    "CHRISTOPH",
+    "MARKUS"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588457700,
+  "_nanoseconds": 556000000
+ },
+ "timeFinished": {
+  "_seconds": 1588458757,
+  "_nanoseconds": 676000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "INGO": false,
+    "PATRICK": true
+   },
+   {
+    "NICK": true,
+    "MALTE": true,
+    "CHRISTOPH": true
+   },
+   {
+    "NICK": true,
+    "MALTE": true,
+    "CHRISTOPH": true
+   },
+   {
+    "MARKUS": true,
+    "MALTE": true,
+    "CHRISTOPH": true,
+    "NICK": true
+   }
+  ],
+  "assassinated": "PATRICK",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "JONAS",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "name": "INGO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MALTE"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "PATRICK"
+   },
+   {
+    "assassin": false,
+    "name": "MARKUS",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NICK"
+   },
+   {
+    "name": "CHRISTOPH",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ]
+ }
+}

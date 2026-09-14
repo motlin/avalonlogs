@@ -1,0 +1,237 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "JESSIE": true,
+    "SAILORMOON": true
+   },
+   {
+    "MARIE": true,
+    "JESSIE": true,
+    "SAILORMOON": true
+   },
+   {
+    "SAILORMOON": false,
+    "MARGIE": true
+   },
+   {
+    "MARIE": true,
+    "JESSIE": false,
+    "NINGNING": true
+   },
+   {
+    "JESSIE": false,
+    "SAILORMOON": false,
+    "MARIE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JESSIE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "name": "NINGNING",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SAILORMOON"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MARIE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MARGIE"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "hXPpkhR8RYVCVZDKNzFEdQ14LQQ2",
+   "name": "NINGNING"
+  },
+  {
+   "uid": "uvGuZq9ON3fEfVY6khWHfZVFnsD3",
+   "name": "MARGIE"
+  },
+  {
+   "name": "JESSIE",
+   "uid": "OV1hs4nFpnSQRrBVGBDhW6HV9jx1"
+  },
+  {
+   "name": "SAILORMOON",
+   "uid": "W0RlhZImwzQXOsZ94ohYV8uz3Dt1"
+  },
+  {
+   "name": "MARIE",
+   "uid": "ZjIxFIBYdaaRYfIHeOS48Pk8Qp12"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SAILORMOON",
+     "state": "APPROVED",
+     "votes": [
+      "JESSIE",
+      "SAILORMOON",
+      "MARIE"
+     ],
+     "team": [
+      "JESSIE",
+      "SAILORMOON"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "JESSIE",
+    "SAILORMOON"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "MARIE",
+    "SAILORMOON",
+    "JESSIE"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JESSIE",
+      "SAILORMOON",
+      "MARIE",
+      "MARGIE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MARIE",
+      "SAILORMOON",
+      "JESSIE"
+     ],
+     "proposer": "MARIE"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "NINGNING"
+     ],
+     "proposer": "NINGNING",
+     "state": "REJECTED",
+     "team": [
+      "MARGIE",
+      "NINGNING"
+     ]
+    },
+    {
+     "team": [
+      "MARGIE",
+      "SAILORMOON"
+     ],
+     "votes": [
+      "SAILORMOON",
+      "MARIE",
+      "MARGIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARGIE"
+    }
+   ],
+   "team": [
+    "MARGIE",
+    "SAILORMOON"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "JESSIE",
+     "votes": [
+      "JESSIE",
+      "SAILORMOON",
+      "MARIE"
+     ],
+     "team": [
+      "JESSIE",
+      "MARIE",
+      "NINGNING"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JESSIE",
+    "MARIE",
+    "NINGNING"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "MARIE",
+      "JESSIE",
+      "SAILORMOON"
+     ],
+     "team": [
+      "SAILORMOON",
+      "MARIE",
+      "JESSIE"
+     ],
+     "proposer": "SAILORMOON",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SAILORMOON",
+    "MARIE",
+    "JESSIE"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587174020,
+  "_nanoseconds": 50000000
+ },
+ "timeCreated": {
+  "_seconds": 1587173417,
+  "_nanoseconds": 616000000
+ }
+}

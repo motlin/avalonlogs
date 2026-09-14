@@ -1,0 +1,267 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "JISHNU"
+   },
+   {
+    "name": "VDAD",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "SOGGY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "MEET",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ISHYISH",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DNAIK"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SW"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "VDAD",
+  "votes": [
+   {
+    "DNAIK": true,
+    "SW": true
+   },
+   {
+    "DNAIK": true,
+    "SOGGY": true,
+    "SW": false
+   },
+   {
+    "VDAD": true,
+    "SOGGY": true,
+    "ISHYISH": true
+   },
+   {
+    "DNAIK": true,
+    "ISHYISH": true,
+    "MEET": true,
+    "SOGGY": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "team": [
+    "SW",
+    "DNAIK"
+   ],
+   "proposals": [
+    {
+     "proposer": "SW",
+     "state": "APPROVED",
+     "team": [
+      "SW",
+      "DNAIK"
+     ],
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "SW",
+      "JISHNU",
+      "VDAD",
+      "SOGGY",
+      "MEET"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DNAIK",
+    "SW",
+    "SOGGY"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "DNAIK",
+      "SW",
+      "SOGGY"
+     ],
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "SW",
+      "JISHNU",
+      "VDAD",
+      "SOGGY",
+      "MEET"
+     ],
+     "proposer": "DNAIK",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "VDAD",
+      "SOGGY",
+      "SW"
+     ],
+     "proposer": "JISHNU",
+     "votes": [
+      "JISHNU",
+      "MEET",
+      "SW"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SOGGY",
+     "state": "APPROVED",
+     "team": [
+      "VDAD",
+      "SOGGY",
+      "ISHYISH"
+     ],
+     "votes": [
+      "SW",
+      "JISHNU",
+      "VDAD",
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "VDAD",
+    "SOGGY",
+    "ISHYISH"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ISHYISH",
+    "DNAIK",
+    "MEET",
+    "SOGGY"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "VDAD",
+     "team": [
+      "VDAD",
+      "ISHYISH",
+      "DNAIK",
+      "SW"
+     ],
+     "votes": [
+      "MEET",
+      "SW"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "SW",
+      "JISHNU",
+      "VDAD",
+      "SOGGY",
+      "MEET"
+     ],
+     "team": [
+      "ISHYISH",
+      "DNAIK",
+      "MEET",
+      "SOGGY"
+     ],
+     "proposer": "MEET",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593487212,
+  "_nanoseconds": 697000000
+ },
+ "players": [
+  {
+   "name": "ISHYISH",
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62"
+  },
+  {
+   "name": "SW",
+   "uid": "6fyAXLuEa6USYubPr2C7UVJ82252"
+  },
+  {
+   "name": "DNAIK",
+   "uid": "zBKMzPQp8uODk6urkBaihOcq9J53"
+  },
+  {
+   "uid": "TvUQJRJs1oVKif3v2TrhiZ93gBc2",
+   "name": "JISHNU"
+  },
+  {
+   "uid": "2cqiTd5tlyOAZjk7XzGEH0pINPE2",
+   "name": "SOGGY"
+  },
+  {
+   "name": "VDAD",
+   "uid": "svDYUCW0jUM1fTevlycZO5jYAWj1"
+  },
+  {
+   "name": "MEET",
+   "uid": "jv6X4XlPYIa0KKckgHosuTEnajB2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593486363,
+  "_nanoseconds": 296000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

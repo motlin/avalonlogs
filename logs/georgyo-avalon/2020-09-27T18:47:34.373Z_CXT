@@ -1,0 +1,209 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ERIC",
+   "uid": "kGvA3nXIQ8Mc6yowjWznJW8yUWz1"
+  },
+  {
+   "name": "RACHEL",
+   "uid": "rrx3GrCVV3SCn3rbVGG60M17pBE2"
+  },
+  {
+   "name": "ARTHUR",
+   "uid": "5zq4biOfAaYhpGO7nuAgr16JwHl1"
+  },
+  {
+   "uid": "ApY12RifR1UFXdtxofO9kDunBQ13",
+   "name": "DUG"
+  },
+  {
+   "name": "DUSTIN",
+   "uid": "DKxpAZWADbeKV0dNRvIr1G63QD92"
+  },
+  {
+   "uid": "LYe4E3kV8gX7o1KGxM2jNOoQD0L2",
+   "name": "STEVE"
+  }
+ ],
+ "outcome": {
+  "assassinated": "ERIC",
+  "votes": [
+   {
+    "ARTHUR": true,
+    "STEVE": true
+   },
+   {
+    "RACHEL": true,
+    "DUG": true,
+    "ERIC": true
+   },
+   {
+    "DUSTIN": true,
+    "RACHEL": true,
+    "ARTHUR": true,
+    "STEVE": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "ARTHUR",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "STEVE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "RACHEL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ERIC",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "DUSTIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DUG"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "DUSTIN",
+     "votes": [
+      "DUSTIN",
+      "ARTHUR",
+      "ERIC"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DUSTIN",
+      "ARTHUR"
+     ]
+    },
+    {
+     "votes": [
+      "RACHEL",
+      "DUSTIN",
+      "ERIC",
+      "ARTHUR",
+      "STEVE"
+     ],
+     "team": [
+      "STEVE",
+      "ARTHUR"
+     ],
+     "state": "APPROVED",
+     "proposer": "STEVE"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "STEVE",
+    "ARTHUR"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ERIC",
+    "RACHEL",
+    "DUG"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ERIC",
+     "votes": [
+      "RACHEL",
+      "ERIC",
+      "DUSTIN",
+      "ARTHUR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ERIC",
+      "RACHEL",
+      "DUG"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "RACHEL",
+    "DUSTIN",
+    "STEVE",
+    "ARTHUR"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "DUSTIN",
+      "STEVE",
+      "ERIC",
+      "ARTHUR",
+      "DUG",
+      "RACHEL"
+     ],
+     "team": [
+      "RACHEL",
+      "DUSTIN",
+      "STEVE",
+      "ARTHUR"
+     ],
+     "proposer": "RACHEL",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1601232454,
+  "_nanoseconds": 373000000
+ },
+ "timeFinished": {
+  "_seconds": 1601233010,
+  "_nanoseconds": 689000000
+ }
+}

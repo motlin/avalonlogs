@@ -1,0 +1,215 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "RUDY",
+    "GEMI"
+   ],
+   "proposals": [
+    {
+     "proposer": "GEMI",
+     "state": "APPROVED",
+     "votes": [
+      "GUANHONG",
+      "MIZ",
+      "RUDY",
+      "GEMI"
+     ],
+     "team": [
+      "RUDY",
+      "GEMI"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "GEMI",
+    "RUDY",
+    "MIZ"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "GEMI",
+      "GUANHONG",
+      "RUDY"
+     ],
+     "votes": [
+      "RUDY",
+      "GEMI"
+     ],
+     "state": "REJECTED",
+     "proposer": "GUANHONG"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "GEMI",
+      "RUDY",
+      "MIZ"
+     ],
+     "proposer": "RUDY",
+     "votes": [
+      "MIZ",
+      "RUDY",
+      "GEMI"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MIZ",
+      "TONY",
+      "GEMI"
+     ],
+     "team": [
+      "TONY",
+      "MIZ"
+     ],
+     "proposer": "TONY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "TONY",
+    "MIZ"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MIZ",
+      "GEMI",
+      "RUDY",
+      "TONY"
+     ],
+     "team": [
+      "TONY",
+      "MIZ",
+      "GEMI"
+     ],
+     "proposer": "MIZ"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "TONY",
+    "MIZ",
+    "GEMI"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1608574791,
+  "_nanoseconds": 815000000
+ },
+ "players": [
+  {
+   "uid": "oxjaPi4DuCeTM77ZqqYWAFg9rlv2",
+   "name": "RUDY"
+  },
+  {
+   "name": "TONY",
+   "uid": "cBE6oxITMJTJxqW461G896WnbQu1"
+  },
+  {
+   "name": "MIZ",
+   "uid": "FZsyZVgJvoXwGNsB1EX6BkdMXtU2"
+  },
+  {
+   "uid": "ZeDeWnBWVJeD6GxNhYM4ckZ9Uuw2",
+   "name": "GEMI"
+  },
+  {
+   "uid": "CrK8gI6B9WXBF4gfNPH5jXYLPHu1",
+   "name": "GUANHONG"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1608574272,
+  "_nanoseconds": 719000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "TONY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "RUDY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "GEMI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MIZ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "GUANHONG",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "RUDY": true,
+    "GEMI": true
+   },
+   {
+    "GEMI": true,
+    "MIZ": true,
+    "RUDY": false
+   },
+   {
+    "TONY": true,
+    "MIZ": true
+   },
+   {
+    "MIZ": true,
+    "GEMI": true,
+    "TONY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "MIZ"
+ }
+}

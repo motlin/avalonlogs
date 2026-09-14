@@ -1,0 +1,247 @@
+{
+ "timeFinished": {
+  "_seconds": 1587150662,
+  "_nanoseconds": 160000000
+ },
+ "timeCreated": {
+  "_seconds": 1587150049,
+  "_nanoseconds": 407000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "FREYA": true,
+    "CHRIS": true
+   },
+   {
+    "GEE": true,
+    "CHRIS": true,
+    "FREYA": true
+   },
+   {
+    "BCP": false,
+    "LAUREN": false,
+    "CHRISP": false
+   },
+   {
+    "GEE": true,
+    "CHRIS": true,
+    "FREYA": true,
+    "CAITLIN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "BCP",
+    "assassin": false
+   },
+   {
+    "name": "LAUREN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "CHRISP",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRIS"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "FREYA"
+   },
+   {
+    "assassin": false,
+    "name": "CAITLIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "GEE",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "GEE"
+ },
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "CNdzUQBOCCTQ9HRwUvbRfkPYZQT2"
+  },
+  {
+   "uid": "sjDYme6TOZS2wbJAzkGZIx2QGsr2",
+   "name": "BCP"
+  },
+  {
+   "name": "CHRISP",
+   "uid": "lB8lbIJcbwPHO6KbGjba8w59ZJ32"
+  },
+  {
+   "name": "GEE",
+   "uid": "YagLhfqjiqUcYj865sgJQn63QTI2"
+  },
+  {
+   "name": "LAUREN",
+   "uid": "QX3gT2JuGTSZimADImdKn0ISNS13"
+  },
+  {
+   "uid": "vpfGqtxejjXWS1COxi4YEkOVz3U2",
+   "name": "CAITLIN"
+  },
+  {
+   "name": "FREYA",
+   "uid": "yTwrkcmWEIQLMSV5dzFWvYqGEjW2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "FREYA",
+      "CAITLIN",
+      "GEE",
+      "BCP",
+      "LAUREN"
+     ],
+     "team": [
+      "CHRIS",
+      "FREYA"
+     ],
+     "proposer": "FREYA"
+    }
+   ],
+   "team": [
+    "CHRIS",
+    "FREYA"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "CHRIS",
+     "votes": [
+      "CHRIS",
+      "FREYA",
+      "CAITLIN",
+      "GEE",
+      "BCP",
+      "LAUREN"
+     ],
+     "team": [
+      "CHRIS",
+      "FREYA",
+      "GEE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "CHRIS",
+    "FREYA",
+    "GEE"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BCP",
+      "CHRISP",
+      "CAITLIN"
+     ],
+     "team": [
+      "CHRIS",
+      "CHRISP",
+      "FREYA"
+     ],
+     "state": "REJECTED",
+     "proposer": "BCP"
+    },
+    {
+     "team": [
+      "BCP",
+      "CHRISP",
+      "LAUREN"
+     ],
+     "votes": [
+      "CHRISP",
+      "CAITLIN",
+      "BCP",
+      "LAUREN"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHRISP"
+    }
+   ],
+   "team": [
+    "BCP",
+    "CHRISP",
+    "LAUREN"
+   ],
+   "numFails": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "CAITLIN",
+    "GEE",
+    "FREYA",
+    "CHRIS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "GEE",
+     "team": [
+      "CAITLIN",
+      "GEE",
+      "FREYA",
+      "CHRIS"
+     ],
+     "votes": [
+      "CHRIS",
+      "FREYA",
+      "CAITLIN",
+      "GEE",
+      "BCP"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

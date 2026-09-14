@@ -1,0 +1,189 @@
+{
+ "players": [
+  {
+   "uid": "FsSMezxveKW4xhtccNREa32WOPj2",
+   "name": "TOODALOO"
+  },
+  {
+   "name": "LY",
+   "uid": "WKvghQagVWS6x9ujsTzcV3jBLGp2"
+  },
+  {
+   "name": "KOGED",
+   "uid": "VuGQcFgR52fbCCs3zSmlFgI1kj43"
+  },
+  {
+   "name": "PXX",
+   "uid": "mCLI17i5bGacQaw1lMotUKEVqdg1"
+  },
+  {
+   "uid": "7vMFGdI3zXV1a457eFkgBAP72CE3",
+   "name": "UPDOG"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "PXX",
+    "KOGED"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "PXX",
+     "state": "APPROVED",
+     "votes": [
+      "KOGED",
+      "TOODALOO",
+      "UPDOG",
+      "PXX"
+     ],
+     "team": [
+      "PXX",
+      "KOGED"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "UPDOG",
+    "KOGED",
+    "PXX"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "UPDOG",
+      "KOGED",
+      "PXX"
+     ],
+     "votes": [
+      "UPDOG",
+      "LY",
+      "PXX",
+      "KOGED"
+     ],
+     "proposer": "UPDOG",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "TOODALOO",
+      "PXX"
+     ],
+     "votes": [
+      "PXX",
+      "TOODALOO"
+     ],
+     "proposer": "TOODALOO"
+    },
+    {
+     "team": [
+      "LY",
+      "PXX"
+     ],
+     "proposer": "LY",
+     "votes": [
+      "UPDOG",
+      "LY",
+      "TOODALOO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "LY",
+    "PXX"
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587263353,
+  "_nanoseconds": 295000000
+ },
+ "timeFinished": {
+  "_seconds": 1587263886,
+  "_nanoseconds": 976000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "KOGED",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "TOODALOO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "UPDOG"
+   },
+   {
+    "name": "LY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "PXX",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "UPDOG",
+  "votes": [
+   {
+    "KOGED": true,
+    "PXX": true
+   },
+   {
+    "UPDOG": true,
+    "KOGED": true,
+    "PXX": true
+   },
+   {
+    "PXX": true,
+    "LY": true
+   }
+  ]
+ }
+}

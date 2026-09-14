@@ -1,0 +1,266 @@
+{
+ "timeCreated": {
+  "_seconds": 1591764242,
+  "_nanoseconds": 783000000
+ },
+ "players": [
+  {
+   "uid": "NFyxqxEIcta28SvRIZ2DDKsIfJj2",
+   "name": "KAVEL"
+  },
+  {
+   "name": "BRIN",
+   "uid": "YdAX0PmXGJahWMVjXb1aayZ7d3B2"
+  },
+  {
+   "name": "SOPW",
+   "uid": "M1fzkagA1oZnzCyrdrJD4tGGqNp2"
+  },
+  {
+   "name": "MAT",
+   "uid": "7niHrJYzjJTvooxK6TowiRgjsMN2"
+  },
+  {
+   "uid": "epHempy5D5WpkmakogDQxe8dsG43",
+   "name": "STEVEN"
+  },
+  {
+   "name": "SIPSOP",
+   "uid": "7C5ZmvG5d8PbUHlWMQD3O0MsurB3"
+  },
+  {
+   "uid": "bgGpU21IEta9oDwnPryyMC5bzti2",
+   "name": "INFEREE"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "MAT",
+     "votes": [
+      "BRIN",
+      "MAT",
+      "KAVEL",
+      "SIPSOP",
+      "INFEREE",
+      "STEVEN",
+      "SOPW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KAVEL",
+      "MAT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "KAVEL",
+    "MAT"
+   ],
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "STEVEN",
+    "KAVEL",
+    "SIPSOP"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "STEVEN",
+      "KAVEL",
+      "SIPSOP"
+     ],
+     "state": "APPROVED",
+     "proposer": "STEVEN",
+     "votes": [
+      "MAT",
+      "KAVEL",
+      "SIPSOP",
+      "INFEREE",
+      "STEVEN",
+      "SOPW"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SIPSOP",
+     "team": [
+      "SIPSOP",
+      "STEVEN",
+      "BRIN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "STEVEN",
+      "SOPW",
+      "MAT",
+      "SIPSOP",
+      "INFEREE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "SIPSOP",
+    "STEVEN",
+    "BRIN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "BRIN",
+    "SIPSOP",
+    "STEVEN",
+    "MAT"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "MAT",
+      "SOPW",
+      "KAVEL",
+      "STEVEN"
+     ],
+     "votes": [
+      "MAT",
+      "INFEREE",
+      "SOPW"
+     ],
+     "state": "REJECTED",
+     "proposer": "INFEREE"
+    },
+    {
+     "team": [
+      "KAVEL",
+      "INFEREE",
+      "SIPSOP",
+      "BRIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "KAVEL",
+     "votes": [
+      "MAT",
+      "KAVEL",
+      "INFEREE"
+     ]
+    },
+    {
+     "votes": [
+      "BRIN",
+      "KAVEL",
+      "SIPSOP",
+      "INFEREE",
+      "STEVEN",
+      "SOPW"
+     ],
+     "team": [
+      "BRIN",
+      "SIPSOP",
+      "STEVEN",
+      "MAT"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRIN"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "assassinated": "STEVEN",
+  "votes": [
+   {
+    "KAVEL": true,
+    "MAT": false
+   },
+   {
+    "KAVEL": true,
+    "STEVEN": true,
+    "SIPSOP": true
+   },
+   {
+    "STEVEN": true,
+    "SIPSOP": true,
+    "BRIN": true
+   },
+   {
+    "SIPSOP": true,
+    "STEVEN": true,
+    "BRIN": true,
+    "MAT": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "MAT",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "name": "KAVEL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SIPSOP",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "INFEREE"
+   },
+   {
+    "assassin": false,
+    "name": "STEVEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "SOPW",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRIN",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591765072,
+  "_nanoseconds": 987000000
+ }
+}

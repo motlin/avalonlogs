@@ -1,0 +1,288 @@
+{
+ "timeCreated": {
+  "_seconds": 1591471283,
+  "_nanoseconds": 538000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "CALEB",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "GLEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "GEORGE",
+    "assassin": true
+   },
+   {
+    "name": "JUSTSWEE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "RONG"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MATT"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "JUSTSWEE",
+  "votes": [
+   {
+    "RONG": true,
+    "GEORGE": true
+   },
+   {
+    "GEORGE": true,
+    "CALEB": true,
+    "RONG": true
+   },
+   {
+    "RONG": false,
+    "GEORGE": false,
+    "GLEN": true,
+    "CALEB": true
+   },
+   {
+    "JUSTSWEE": true,
+    "GLEN": true,
+    "MATT": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1591472202,
+  "_nanoseconds": 333000000
+ },
+ "missions": [
+  {
+   "team": [
+    "RONG",
+    "GEORGE"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "GLEN",
+      "GEORGE",
+      "JUSTSWEE",
+      "MATT"
+     ],
+     "team": [
+      "RONG",
+      "GEORGE"
+     ],
+     "proposer": "RONG",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "GEORGE",
+      "RONG",
+      "CALEB"
+     ],
+     "proposer": "CALEB",
+     "votes": [
+      "CALEB",
+      "GEORGE",
+      "RONG",
+      "MATT"
+     ]
+    }
+   ],
+   "team": [
+    "GEORGE",
+    "RONG",
+    "CALEB"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "GEORGE",
+    "RONG",
+    "CALEB",
+    "GLEN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CALEB",
+      "GEORGE",
+      "RONG",
+      "GLEN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "GLEN",
+      "GEORGE"
+     ],
+     "proposer": "GLEN"
+    },
+    {
+     "team": [
+      "MATT",
+      "GEORGE",
+      "RONG",
+      "CALEB"
+     ],
+     "state": "REJECTED",
+     "proposer": "MATT",
+     "votes": [
+      "GEORGE",
+      "RONG",
+      "MATT"
+     ]
+    },
+    {
+     "votes": [
+      "GEORGE",
+      "JUSTSWEE",
+      "RONG"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CALEB",
+      "GEORGE",
+      "RONG",
+      "JUSTSWEE"
+     ],
+     "proposer": "JUSTSWEE"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "GEORGE",
+     "votes": [
+      "CALEB",
+      "GLEN",
+      "GEORGE",
+      "RONG"
+     ],
+     "team": [
+      "GEORGE",
+      "RONG",
+      "CALEB",
+      "GLEN"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "RONG",
+     "team": [
+      "RONG",
+      "MATT",
+      "JUSTSWEE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "RONG"
+     ]
+    },
+    {
+     "proposer": "CALEB",
+     "state": "REJECTED",
+     "votes": [
+      "CALEB",
+      "RONG"
+     ],
+     "team": [
+      "RONG",
+      "GLEN",
+      "GEORGE"
+     ]
+    },
+    {
+     "votes": [
+      "MATT",
+      "GLEN",
+      "GEORGE",
+      "RONG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GLEN",
+      "MATT",
+      "JUSTSWEE"
+     ],
+     "proposer": "GLEN"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "GLEN",
+    "MATT",
+    "JUSTSWEE"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "CALEB",
+   "uid": "a1R4ajhXgzTtwBcXxpSXP3jitY72"
+  },
+  {
+   "uid": "68FMpefMPcYPooRQbRDrqeaI4t83",
+   "name": "GLEN"
+  },
+  {
+   "name": "MATT",
+   "uid": "RikkUOlzDAcNnP9fgpVIppyFVzj1"
+  },
+  {
+   "name": "JUSTSWEE",
+   "uid": "hkvwEHhYOiVIFrScBXl1186HZ1r1"
+  },
+  {
+   "uid": "gGmDTxLq3fdtYYJCJz0GhZ03Mli2",
+   "name": "GEORGE"
+  },
+  {
+   "name": "RONG",
+   "uid": "Ef6cX3pNPRQb5NvGRtj08e7haip1"
+  }
+ ]
+}

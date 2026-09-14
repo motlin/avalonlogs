@@ -1,0 +1,303 @@
+{
+ "players": [
+  {
+   "name": "RAAS",
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2"
+  },
+  {
+   "name": "RAHUL",
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1"
+  },
+  {
+   "uid": "1pALZ8GpFfaGpwypxX6CDZvFFJ22",
+   "name": "CHEZMASTA"
+  },
+  {
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23",
+   "name": "MAFAZLA"
+  },
+  {
+   "name": "ZAIN",
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2"
+  },
+  {
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073",
+   "name": "SANJY"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "CHEZMASTA",
+  "votes": [
+   {
+    "ZAIN": true,
+    "SANJY": true
+   },
+   {
+    "SANJY": true,
+    "ZAIN": true,
+    "RAAS": true
+   },
+   {
+    "CHEZMASTA": true,
+    "SANJY": true,
+    "RAAS": false,
+    "ZAIN": true
+   },
+   {
+    "RAHUL": true,
+    "SANJY": true,
+    "CHEZMASTA": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "MAFAZLA",
+    "assassin": false
+   },
+   {
+    "name": "RAHUL",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "CHEZMASTA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SANJY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "RAAS",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ZAIN"
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ZAIN",
+      "SANJY"
+     ],
+     "votes": [
+      "MAFAZLA",
+      "RAHUL",
+      "CHEZMASTA",
+      "SANJY",
+      "RAAS",
+      "ZAIN"
+     ],
+     "proposer": "ZAIN",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ZAIN",
+    "SANJY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "MAFAZLA",
+      "RAHUL",
+      "SANJY",
+      "RAAS",
+      "ZAIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ZAIN",
+      "SANJY",
+      "RAAS"
+     ],
+     "proposer": "SANJY"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ZAIN",
+    "SANJY",
+    "RAAS"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ZAIN",
+      "SANJY",
+      "RAAS",
+      "RAHUL"
+     ],
+     "proposer": "RAAS",
+     "votes": [
+      "RAAS",
+      "ZAIN",
+      "SANJY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "MAFAZLA",
+      "RAAS",
+      "ZAIN",
+      "RAHUL"
+     ],
+     "proposer": "RAHUL"
+    },
+    {
+     "proposer": "CHEZMASTA",
+     "votes": [
+      "RAAS",
+      "ZAIN",
+      "MAFAZLA",
+      "SANJY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHEZMASTA",
+      "RAAS",
+      "ZAIN",
+      "SANJY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "CHEZMASTA",
+    "RAAS",
+    "ZAIN",
+    "SANJY"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "RAHUL",
+    "CHEZMASTA",
+    "SANJY"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SANJY",
+      "ZAIN",
+      "MAFAZLA"
+     ],
+     "team": [
+      "ZAIN",
+      "SANJY",
+      "MAFAZLA"
+     ],
+     "proposer": "MAFAZLA"
+    },
+    {
+     "team": [
+      "ZAIN",
+      "SANJY",
+      "CHEZMASTA"
+     ],
+     "votes": [
+      "ZAIN",
+      "CHEZMASTA",
+      "SANJY"
+     ],
+     "state": "REJECTED",
+     "proposer": "ZAIN"
+    },
+    {
+     "proposer": "SANJY",
+     "state": "REJECTED",
+     "votes": [
+      "SANJY"
+     ],
+     "team": [
+      "RAHUL",
+      "SANJY",
+      "RAAS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHEZMASTA",
+      "SANJY",
+      "RAAS"
+     ],
+     "proposer": "RAAS",
+     "votes": [
+      "SANJY",
+      "RAAS"
+     ]
+    },
+    {
+     "team": [
+      "RAHUL",
+      "CHEZMASTA",
+      "SANJY"
+     ],
+     "votes": [
+      "MAFAZLA",
+      "RAHUL",
+      "CHEZMASTA",
+      "SANJY",
+      "RAAS",
+      "ZAIN"
+     ],
+     "proposer": "RAHUL",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588481977,
+  "_nanoseconds": 32000000
+ },
+ "timeCreated": {
+  "_seconds": 1588481375,
+  "_nanoseconds": 250000000
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JUDIII": true,
+    "ANNAX": true
+   },
+   {
+    "DHANA": true,
+    "JUDIII": false,
+    "ANNAX": true
+   },
+   {
+    "ANNAS": true,
+    "ANNAX": true
+   },
+   {
+    "ANNAX": true,
+    "ANNAS": true,
+    "JUDIII": false
+   },
+   {
+    "DHANA": true,
+    "JUDIII": false,
+    "ANNAX": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "KEVIN"
+   },
+   {
+    "name": "ANNAX",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JUDIII"
+   },
+   {
+    "name": "DHANA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "ANNAS",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "ANNAS",
+   "uid": "AvL8kgfBZiWeLNsGZuLZEDPe8dD2"
+  },
+  {
+   "name": "ANNAX",
+   "uid": "fUTuKbT8NYaUed1yBrFKh27zOOH2"
+  },
+  {
+   "name": "JUDIII",
+   "uid": "3jYpVJA8jyYDd4Y1wxAlUkNPfPj2"
+  },
+  {
+   "name": "DHANA",
+   "uid": "soHKlrflMlQt9ncwae9jpeJra9x1"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "Caopz8kKWQXvef37J0iZSBpsZaG2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ANNAX",
+    "JUDIII"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JUDIII",
+     "votes": [
+      "KEVIN",
+      "ANNAX",
+      "JUDIII",
+      "DHANA",
+      "ANNAS"
+     ],
+     "team": [
+      "ANNAX",
+      "JUDIII"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "DHANA",
+    "JUDIII",
+    "ANNAX"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DHANA",
+      "JUDIII",
+      "ANNAX"
+     ],
+     "votes": [
+      "DHANA",
+      "ANNAS",
+      "KEVIN",
+      "ANNAX",
+      "JUDIII"
+     ],
+     "proposer": "DHANA"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "KEVIN",
+      "ANNAX"
+     ],
+     "team": [
+      "KEVIN",
+      "ANNAX"
+     ],
+     "state": "REJECTED",
+     "proposer": "KEVIN"
+    },
+    {
+     "team": [
+      "ANNAX",
+      "ANNAS"
+     ],
+     "votes": [
+      "ANNAX",
+      "JUDIII",
+      "ANNAS"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANNAS"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ANNAX",
+    "ANNAS"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ANNAS",
+    "ANNAX",
+    "JUDIII"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANNAS",
+      "ANNAX",
+      "JUDIII"
+     ],
+     "proposer": "ANNAX",
+     "votes": [
+      "ANNAS",
+      "ANNAX",
+      "JUDIII"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "JUDIII",
+    "DHANA",
+    "ANNAX"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "DHANA",
+      "KEVIN",
+      "JUDIII"
+     ],
+     "proposer": "JUDIII",
+     "state": "APPROVED",
+     "team": [
+      "JUDIII",
+      "DHANA",
+      "ANNAX"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590896000,
+  "_nanoseconds": 609000000
+ },
+ "timeFinished": {
+  "_seconds": 1590896982,
+  "_nanoseconds": 366000000
+ }
+}

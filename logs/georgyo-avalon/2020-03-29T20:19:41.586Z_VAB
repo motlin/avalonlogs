@@ -1,0 +1,246 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EVA"
+   },
+   {
+    "assassin": false,
+    "name": "MAX",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JOE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "IDO",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "LOGAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "votes": [
+   {
+    "IDO": false,
+    "MAX": true
+   },
+   {
+    "EVA": true,
+    "MAX": true,
+    "JOE": true
+   },
+   {
+    "EVA": true,
+    "JOE": true
+   },
+   {
+    "JOE": true,
+    "EVA": true,
+    "MAX": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "IDO",
+   "uid": "xktobEw95VdYv7fAUX53tMzb0Ku1"
+  },
+  {
+   "uid": "Mlkq7mGszSga6WTayYuf5WN5r0o2",
+   "name": "MAX"
+  },
+  {
+   "name": "EVA",
+   "uid": "RvCdx31U97Yz8GEQpVLXnliU19p1"
+  },
+  {
+   "name": "LOGAN",
+   "uid": "rg7FTyteDagVDJPg9o6VzOXqSZs2"
+  },
+  {
+   "name": "JOE",
+   "uid": "ZZbaXEr38UQkXrmNBzVhW30DIAg2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585513505,
+  "_nanoseconds": 733385000
+ },
+ "timeCreated": {
+  "_seconds": 1585513181,
+  "_nanoseconds": 586000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "IDO",
+    "MAX"
+   ],
+   "proposals": [
+    {
+     "proposer": "IDO",
+     "state": "REJECTED",
+     "votes": [
+      "EVA",
+      "MAX"
+     ],
+     "team": [
+      "IDO",
+      "MAX"
+     ]
+    },
+    {
+     "proposer": "MAX",
+     "votes": [
+      "MAX",
+      "IDO",
+      "EVA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "IDO",
+      "MAX"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MAX",
+    "EVA",
+    "JOE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "EVA",
+      "JOE"
+     ],
+     "proposer": "EVA",
+     "team": [
+      "JOE",
+      "EVA",
+      "MAX"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "IDO",
+      "LOGAN"
+     ],
+     "team": [
+      "EVA",
+      "LOGAN",
+      "IDO"
+     ],
+     "proposer": "LOGAN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EVA",
+      "MAX",
+      "JOE"
+     ],
+     "team": [
+      "MAX",
+      "EVA",
+      "JOE"
+     ],
+     "proposer": "JOE"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "IDO",
+     "state": "REJECTED",
+     "votes": [
+      "IDO"
+     ],
+     "team": [
+      "IDO",
+      "EVA"
+     ]
+    },
+    {
+     "team": [
+      "EVA",
+      "JOE"
+     ],
+     "proposer": "MAX",
+     "votes": [
+      "MAX",
+      "JOE",
+      "IDO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "EVA",
+    "JOE"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "EVA",
+      "MAX",
+      "JOE"
+     ],
+     "team": [
+      "MAX",
+      "JOE",
+      "EVA"
+     ],
+     "state": "APPROVED",
+     "proposer": "EVA"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "MAX",
+    "JOE",
+    "EVA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING"
+  }
+ ]
+}

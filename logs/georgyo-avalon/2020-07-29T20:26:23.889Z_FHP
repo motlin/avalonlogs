@@ -1,0 +1,189 @@
+{
+ "players": [
+  {
+   "name": "IMELDA",
+   "uid": "go7Ty4TWPGQ70BlL3fpZmSCT0t32"
+  },
+  {
+   "name": "JOE",
+   "uid": "xjKxzjgRp3PJEms1qLVMQjKmIxr2"
+  },
+  {
+   "uid": "cCaavGdZXvYJt0tdJb1vrcm34M12",
+   "name": "LOZENGE"
+  },
+  {
+   "uid": "XSn1Q4PvB4RrZQCYZyf1mmIhBzx1",
+   "name": "MAISIE"
+  },
+  {
+   "name": "CDOG",
+   "uid": "k0sXdd6H1TMxBT4mEAhTJIG1BQB2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MAISIE",
+      "IMELDA",
+      "CDOG",
+      "LOZENGE"
+     ],
+     "state": "APPROVED",
+     "proposer": "IMELDA",
+     "team": [
+      "IMELDA",
+      "MAISIE"
+     ]
+    }
+   ],
+   "team": [
+    "IMELDA",
+    "MAISIE"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "LOZENGE",
+    "IMELDA",
+    "JOE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JOE",
+      "LOZENGE",
+      "CDOG"
+     ],
+     "proposer": "JOE",
+     "votes": [
+      "CDOG",
+      "LOZENGE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "LOZENGE",
+     "state": "APPROVED",
+     "team": [
+      "LOZENGE",
+      "IMELDA",
+      "JOE"
+     ],
+     "votes": [
+      "CDOG",
+      "LOZENGE",
+      "JOE"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MAISIE",
+     "votes": [
+      "MAISIE",
+      "IMELDA",
+      "CDOG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MAISIE",
+      "IMELDA"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "MAISIE",
+    "IMELDA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "MAISIE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "IMELDA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "CDOG"
+   },
+   {
+    "name": "LOZENGE",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JOE"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "IMELDA": true,
+    "MAISIE": true
+   },
+   {
+    "LOZENGE": true,
+    "IMELDA": true,
+    "JOE": true
+   },
+   {
+    "MAISIE": true,
+    "IMELDA": true
+   }
+  ],
+  "assassinated": "MAISIE"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1596054383,
+  "_nanoseconds": 889000000
+ },
+ "timeFinished": {
+  "_seconds": 1596054839,
+  "_nanoseconds": 277000000
+ }
+}

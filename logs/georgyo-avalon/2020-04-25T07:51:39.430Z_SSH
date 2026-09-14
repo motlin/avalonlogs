@@ -1,0 +1,224 @@
+{
+ "timeCreated": {
+  "_seconds": 1587801099,
+  "_nanoseconds": 430000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JARED",
+   "uid": "fxCl0C5MAqhIbZcRmrALFHbC3rg2"
+  },
+  {
+   "name": "TYLER",
+   "uid": "TFrP40olTWMh98sCyc1utQ6S1pG3"
+  },
+  {
+   "name": "CACTUSJACK",
+   "uid": "qejLzo3nQiboNrFugHzlnekNRAW2"
+  },
+  {
+   "uid": "g5ZP4nyRi6bINYoeC5m8EjXrIcC3",
+   "name": "NATHANHS"
+  },
+  {
+   "uid": "oEQ9DxrOZvNZYWHc689xJAs91hK2",
+   "name": "RILEY"
+  },
+  {
+   "name": "WANG",
+   "uid": "ac26FEaKVTTMGSH0ThMtWnp0yrG2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "CACTUSJACK",
+    "JARED"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CACTUSJACK",
+      "JARED"
+     ],
+     "proposer": "CACTUSJACK",
+     "state": "APPROVED",
+     "votes": [
+      "TYLER",
+      "JARED",
+      "WANG",
+      "NATHANHS",
+      "RILEY",
+      "CACTUSJACK"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TYLER",
+      "JARED",
+      "WANG",
+      "NATHANHS",
+      "RILEY",
+      "CACTUSJACK"
+     ],
+     "team": [
+      "JARED",
+      "CACTUSJACK",
+      "NATHANHS"
+     ],
+     "proposer": "NATHANHS",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JARED",
+    "CACTUSJACK",
+    "NATHANHS"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "JARED",
+    "CACTUSJACK",
+    "NATHANHS",
+    "RILEY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JARED",
+      "CACTUSJACK",
+      "NATHANHS",
+      "RILEY"
+     ],
+     "votes": [
+      "CACTUSJACK",
+      "TYLER",
+      "NATHANHS",
+      "RILEY"
+     ],
+     "state": "APPROVED",
+     "proposer": "RILEY"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "WANG",
+     "state": "APPROVED",
+     "votes": [
+      "NATHANHS",
+      "CACTUSJACK",
+      "TYLER",
+      "JARED",
+      "WANG"
+     ],
+     "team": [
+      "JARED",
+      "WANG",
+      "TYLER"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JARED",
+    "WANG",
+    "TYLER"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587801659,
+  "_nanoseconds": 907000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "WANG",
+  "roles": [
+   {
+    "name": "JARED",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "WANG",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NATHANHS",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "RILEY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CACTUSJACK"
+   },
+   {
+    "assassin": false,
+    "name": "TYLER",
+    "role": "MERLIN"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JARED": true,
+    "CACTUSJACK": true
+   },
+   {
+    "NATHANHS": true,
+    "JARED": true,
+    "CACTUSJACK": true
+   },
+   {
+    "CACTUSJACK": true,
+    "RILEY": false,
+    "JARED": true,
+    "NATHANHS": true
+   },
+   {
+    "JARED": true,
+    "TYLER": true,
+    "WANG": true
+   }
+  ]
+ }
+}

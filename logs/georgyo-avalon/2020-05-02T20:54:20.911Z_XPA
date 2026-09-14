@@ -1,0 +1,268 @@
+{
+ "timeFinished": {
+  "_seconds": 1588453502,
+  "_nanoseconds": 313000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "NANCY": true,
+    "DANYEL": true
+   },
+   {
+    "HARRY": true,
+    "DAN": true,
+    "DANYEL": true
+   },
+   {
+    "SAMUEL": false,
+    "LIZ": true,
+    "HARRY": true,
+    "DANYEL": true
+   },
+   {
+    "DANYEL": true,
+    "LIZ": true,
+    "DAN": false
+   },
+   {
+    "DAN": false,
+    "DANYEL": true,
+    "HARRY": true,
+    "SAMUEL": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "NANCY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HARRY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DANYEL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SAMUEL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LIZ",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "DAN"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588452860,
+  "_nanoseconds": 911000000
+ },
+ "players": [
+  {
+   "name": "DAN",
+   "uid": "1KscPlcN71N6saMF77l6pZ1oDA73"
+  },
+  {
+   "name": "DANYEL",
+   "uid": "QqiiKIN6XxZj645ixXaVaVYXKu33"
+  },
+  {
+   "uid": "EWjDx5O75eZo6vLblcOUJRcpr492",
+   "name": "NANCY"
+  },
+  {
+   "uid": "d7m2PYX5hyYqGs16PeevJtp8fvz2",
+   "name": "HARRY"
+  },
+  {
+   "uid": "9yepjdmZmIbeIeMwm045iI4l37o1",
+   "name": "SAMUEL"
+  },
+  {
+   "uid": "sBsLwJcmHHWeyshMC9Y7Oxj87OO2",
+   "name": "LIZ"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "DANYEL",
+    "NANCY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "DANYEL",
+     "votes": [
+      "DAN",
+      "NANCY",
+      "HARRY",
+      "DANYEL",
+      "SAMUEL",
+      "LIZ"
+     ],
+     "team": [
+      "DANYEL",
+      "NANCY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "HARRY",
+      "SAMUEL",
+      "LIZ"
+     ],
+     "votes": [
+      "NANCY",
+      "SAMUEL",
+      "LIZ"
+     ],
+     "state": "REJECTED",
+     "proposer": "NANCY"
+    },
+    {
+     "proposer": "HARRY",
+     "state": "APPROVED",
+     "team": [
+      "DAN",
+      "DANYEL",
+      "HARRY"
+     ],
+     "votes": [
+      "DAN",
+      "NANCY",
+      "HARRY",
+      "DANYEL",
+      "SAMUEL",
+      "LIZ"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "DAN",
+    "DANYEL",
+    "HARRY"
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "SAMUEL",
+    "HARRY",
+    "LIZ",
+    "DANYEL"
+   ],
+   "proposals": [
+    {
+     "proposer": "SAMUEL",
+     "team": [
+      "SAMUEL",
+      "HARRY",
+      "LIZ",
+      "DANYEL"
+     ],
+     "votes": [
+      "DAN",
+      "NANCY",
+      "HARRY",
+      "DANYEL",
+      "SAMUEL",
+      "LIZ"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "LIZ",
+    "DANYEL",
+    "DAN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "LIZ",
+      "DANYEL",
+      "DAN"
+     ],
+     "votes": [
+      "HARRY",
+      "DANYEL",
+      "LIZ",
+      "DAN"
+     ],
+     "proposer": "LIZ",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DAN",
+      "HARRY",
+      "DANYEL",
+      "SAMUEL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DAN",
+      "SAMUEL",
+      "HARRY",
+      "DANYEL"
+     ],
+     "proposer": "DAN"
+    }
+   ],
+   "team": [
+    "DAN",
+    "SAMUEL",
+    "HARRY",
+    "DANYEL"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 1
+  }
+ ]
+}

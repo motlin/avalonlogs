@@ -1,0 +1,228 @@
+{
+ "players": [
+  {
+   "name": "MAISIE",
+   "uid": "XSn1Q4PvB4RrZQCYZyf1mmIhBzx1"
+  },
+  {
+   "uid": "go7Ty4TWPGQ70BlL3fpZmSCT0t32",
+   "name": "IMELDA"
+  },
+  {
+   "name": "ALOCE",
+   "uid": "Ozj7fWm3LWUag3K1H4tjGXiHe1K2"
+  },
+  {
+   "name": "ALIHA",
+   "uid": "JOjO5n8d6VNtL83Y2VVDKJmXs823"
+  },
+  {
+   "name": "SNL",
+   "uid": "xjKxzjgRp3PJEms1qLVMQjKmIxr2"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "MAISIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "IMELDA"
+   },
+   {
+    "name": "SNL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "ALOCE"
+   },
+   {
+    "name": "ALIHA",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": "IMELDA",
+  "votes": [
+   {
+    "ALIHA": true,
+    "MAISIE": true
+   },
+   {
+    "MAISIE": true,
+    "ALOCE": false,
+    "SNL": true
+   },
+   {
+    "IMELDA": true,
+    "MAISIE": true
+   },
+   {
+    "MAISIE": true,
+    "ALIHA": false,
+    "IMELDA": true
+   },
+   {
+    "MAISIE": true,
+    "IMELDA": true,
+    "SNL": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1590785765,
+  "_nanoseconds": 275000000
+ },
+ "missions": [
+  {
+   "team": [
+    "ALIHA",
+    "MAISIE"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ALIHA",
+      "MAISIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALIHA",
+     "votes": [
+      "IMELDA",
+      "ALOCE",
+      "ALIHA",
+      "MAISIE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "SNL",
+    "MAISIE",
+    "ALOCE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MAISIE",
+      "SNL",
+      "ALOCE"
+     ],
+     "team": [
+      "SNL",
+      "MAISIE",
+      "ALOCE"
+     ],
+     "state": "APPROVED",
+     "proposer": "SNL"
+    }
+   ]
+  },
+  {
+   "team": [
+    "MAISIE",
+    "IMELDA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MAISIE",
+     "state": "APPROVED",
+     "team": [
+      "MAISIE",
+      "IMELDA"
+     ],
+     "votes": [
+      "IMELDA",
+      "ALOCE",
+      "ALIHA",
+      "MAISIE"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "IMELDA",
+     "state": "APPROVED",
+     "team": [
+      "MAISIE",
+      "IMELDA",
+      "ALIHA"
+     ],
+     "votes": [
+      "IMELDA",
+      "ALOCE",
+      "ALIHA",
+      "MAISIE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MAISIE",
+    "IMELDA",
+    "ALIHA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SNL",
+      "IMELDA",
+      "MAISIE"
+     ],
+     "proposer": "ALOCE",
+     "state": "APPROVED",
+     "votes": [
+      "MAISIE",
+      "IMELDA",
+      "SNL"
+     ]
+    }
+   ],
+   "team": [
+    "SNL",
+    "IMELDA",
+    "MAISIE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590784533,
+  "_nanoseconds": 889000000
+ }
+}

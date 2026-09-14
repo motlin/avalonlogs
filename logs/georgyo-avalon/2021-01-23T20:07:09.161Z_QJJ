@@ -1,0 +1,248 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "GREB",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "HEBE",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "name": "GREB",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "CRABB"
+   },
+   {
+    "assassin": false,
+    "name": "BRIONY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "EM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MATHIESONS"
+   }
+  ],
+  "votes": [
+   {
+    "MATHIESONS": true,
+    "EM": true
+   },
+   {
+    "EM": true,
+    "CRABB": true,
+    "MATHIESONS": true
+   },
+   {
+    "GREB": true,
+    "EM": true,
+    "MATHIESONS": false,
+    "BRIONY": true
+   },
+   {
+    "BRIONY": true,
+    "EM": true,
+    "CRABB": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "team": [
+    "EM",
+    "MATHIESONS"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "EM",
+      "MATHIESONS"
+     ],
+     "votes": [
+      "HEBE",
+      "CRABB",
+      "BRIONY",
+      "EM",
+      "GREB"
+     ],
+     "proposer": "EM",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MATHIESONS",
+    "EM",
+    "CRABB"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "HEBE",
+      "GREB",
+      "BRIONY"
+     ],
+     "votes": [
+      "MATHIESONS",
+      "CRABB",
+      "BRIONY"
+     ],
+     "proposer": "CRABB"
+    },
+    {
+     "votes": [
+      "CRABB",
+      "BRIONY",
+      "EM",
+      "MATHIESONS",
+      "GREB"
+     ],
+     "proposer": "MATHIESONS",
+     "team": [
+      "MATHIESONS",
+      "EM",
+      "CRABB"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MATHIESONS",
+      "GREB",
+      "EM",
+      "BRIONY"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRIONY",
+     "votes": [
+      "BRIONY",
+      "CRABB",
+      "EM",
+      "MATHIESONS"
+     ]
+    }
+   ],
+   "team": [
+    "MATHIESONS",
+    "GREB",
+    "EM",
+    "BRIONY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "HEBE",
+     "votes": [
+      "HEBE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "HEBE",
+      "MATHIESONS",
+      "CRABB"
+     ]
+    },
+    {
+     "proposer": "GREB",
+     "votes": [
+      "BRIONY",
+      "GREB",
+      "CRABB",
+      "MATHIESONS",
+      "EM"
+     ],
+     "team": [
+      "EM",
+      "CRABB",
+      "BRIONY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "EM",
+    "CRABB",
+    "BRIONY"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1611433768,
+  "_nanoseconds": 170000000
+ },
+ "players": [
+  {
+   "name": "CRABB",
+   "uid": "T2fvALSROMUu4AAvr3TaIu6lqdB2"
+  },
+  {
+   "name": "MATHIESONS",
+   "uid": "SSjlysnPKDZzfb85UpRM6VRnbXU2"
+  },
+  {
+   "name": "BRIONY",
+   "uid": "BpoHfAQg55Pnkko9TepTXAjHdDk1"
+  },
+  {
+   "name": "HEBE",
+   "uid": "YVuxdHPbBXXzyz3FbB5L18Wi94L2"
+  },
+  {
+   "uid": "kQqx7blbXfh68s54cs5cHObD3b02",
+   "name": "GREB"
+  },
+  {
+   "uid": "CMp27uOduUME9BVoYpNHQj1p1xg1",
+   "name": "EM"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1611432429,
+  "_nanoseconds": 161000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

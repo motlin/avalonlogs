@@ -1,0 +1,232 @@
+{
+ "players": [
+  {
+   "name": "JACK",
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2"
+  },
+  {
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1",
+   "name": "WILL"
+  },
+  {
+   "name": "REID",
+   "uid": "JsV7G0CQiXg86UzXmJdBAU0xe4n1"
+  },
+  {
+   "uid": "gAiRUjpSMlbOzGpCzUNPHhcdscG3",
+   "name": "RYAN"
+  },
+  {
+   "name": "JONESY",
+   "uid": "xi35CAgu1pQX6cz9w1TGaSxDB7u1"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "EHYfAoNoRMfUQVovgiSACfXd6nq2"
+  },
+  {
+   "uid": "IYJsCh44gxO4DSnfNlnO6Quz4pu2",
+   "name": "PATRICK"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "JONESY",
+    "REID"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "JONESY",
+      "REID"
+     ],
+     "proposer": "JONESY",
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "REID",
+      "RYAN",
+      "WILL",
+      "PATRICK",
+      "JONESY"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JONESY",
+      "REID",
+      "BRIAN"
+     ],
+     "votes": [
+      "REID",
+      "RYAN",
+      "WILL",
+      "JONESY",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRIAN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "JONESY",
+    "REID",
+    "BRIAN"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PATRICK",
+      "JONESY",
+      "BRIAN"
+     ],
+     "votes": [
+      "BRIAN",
+      "WILL",
+      "JACK",
+      "JONESY"
+     ],
+     "proposer": "PATRICK"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "PATRICK",
+    "JONESY",
+    "BRIAN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "REID",
+      "RYAN",
+      "PATRICK",
+      "JONESY",
+      "BRIAN"
+     ],
+     "proposer": "JACK",
+     "state": "APPROVED",
+     "team": [
+      "JACK",
+      "PATRICK",
+      "BRIAN",
+      "JONESY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 2,
+   "team": [
+    "JACK",
+    "PATRICK",
+    "BRIAN",
+    "JONESY"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588987693,
+  "_nanoseconds": 615000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "WILL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PATRICK"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JACK",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JONESY",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "BRIAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "REID",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "RYAN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "REID": true,
+    "JONESY": true
+   },
+   {
+    "REID": false,
+    "BRIAN": true,
+    "JONESY": true
+   },
+   {
+    "PATRICK": true,
+    "JONESY": true,
+    "BRIAN": true
+   },
+   {
+    "PATRICK": true,
+    "JONESY": true,
+    "JACK": false,
+    "BRIAN": true
+   }
+  ],
+  "assassinated": "JONESY"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588987268,
+  "_nanoseconds": 335000000
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "players": [
+  {
+   "name": "AXELMAAW",
+   "uid": "xNaZI0VUXohspaIe058p418SVfz2"
+  },
+  {
+   "uid": "SwwhDtIvV5VrfuW1pDR9gbKTqCm1",
+   "name": "ALICE"
+  },
+  {
+   "uid": "Pcu1CbTGv0YzOhUAdMU7w7BBIgX2",
+   "name": "MAAW"
+  },
+  {
+   "uid": "AZ3iLMw9gIbgaM9MAJG6ShtLlGu2",
+   "name": "LUCIA"
+  },
+  {
+   "uid": "S3p6vasAjlMH0L0Pujxrbs7nNJv2",
+   "name": "PETA"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "MAAW",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "MAAW": true,
+    "LUCIA": true
+   },
+   {
+    "PETA": true,
+    "LUCIA": true,
+    "ALICE": true
+   },
+   {
+    "AXELMAAW": false,
+    "ALICE": true
+   },
+   {
+    "ALICE": true,
+    "AXELMAAW": true,
+    "MAAW": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PETA"
+   },
+   {
+    "name": "LUCIA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ALICE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "AXELMAAW",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "MAAW",
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "LUCIA",
+    "MAAW"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "PETA",
+      "LUCIA",
+      "ALICE",
+      "AXELMAAW",
+      "MAAW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LUCIA",
+      "MAAW"
+     ],
+     "proposer": "LUCIA"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "PETA",
+     "votes": [
+      "PETA",
+      "AXELMAAW",
+      "MAAW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ALICE",
+      "PETA",
+      "LUCIA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "ALICE",
+    "PETA",
+    "LUCIA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ALICE",
+      "MAAW",
+      "PETA",
+      "LUCIA"
+     ],
+     "proposer": "AXELMAAW",
+     "team": [
+      "AXELMAAW",
+      "ALICE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "AXELMAAW",
+    "ALICE"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "MAAW",
+    "ALICE",
+    "AXELMAAW"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "AXELMAAW",
+      "MAAW"
+     ],
+     "proposer": "ALICE",
+     "state": "REJECTED",
+     "team": [
+      "MAAW",
+      "LUCIA",
+      "ALICE"
+     ]
+    },
+    {
+     "proposer": "MAAW",
+     "state": "APPROVED",
+     "votes": [
+      "LUCIA",
+      "ALICE",
+      "AXELMAAW",
+      "MAAW",
+      "PETA"
+     ],
+     "team": [
+      "MAAW",
+      "ALICE",
+      "AXELMAAW"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588440407,
+  "_nanoseconds": 960000000
+ },
+ "timeCreated": {
+  "_seconds": 1588440109,
+  "_nanoseconds": 710000000
+ }
+}

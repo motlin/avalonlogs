@@ -1,0 +1,227 @@
+{
+ "outcome": {
+  "assassinated": "RAY",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ED": true,
+    "CHA": true
+   },
+   {
+    "CHA": true,
+    "RAY": true,
+    "JAM": true
+   },
+   {
+    "CHA": true,
+    "KEVIN": false
+   },
+   {
+    "CHA": true,
+    "ED": false,
+    "JAM": true
+   },
+   {
+    "RAY": true,
+    "CHA": true,
+    "JAM": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ED",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "CHA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "RAY"
+   },
+   {
+    "name": "KEVIN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "JAM",
+    "role": "PERCIVAL"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ED",
+    "CHA"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ED",
+      "CHA"
+     ],
+     "votes": [
+      "KEVIN",
+      "JAM",
+      "ED",
+      "CHA",
+      "RAY"
+     ],
+     "proposer": "ED",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "RAY",
+    "JAM",
+    "CHA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ED",
+      "CHA",
+      "RAY",
+      "KEVIN",
+      "JAM"
+     ],
+     "proposer": "RAY",
+     "state": "APPROVED",
+     "team": [
+      "RAY",
+      "JAM",
+      "CHA"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "CHA",
+    "KEVIN"
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ED",
+      "CHA",
+      "KEVIN"
+     ],
+     "team": [
+      "CHA",
+      "KEVIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "KEVIN"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "JAM",
+    "CHA",
+    "ED"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JAM",
+      "CHA",
+      "ED"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ED",
+      "CHA",
+      "JAM"
+     ],
+     "proposer": "JAM"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "CHA",
+      "RAY",
+      "JAM"
+     ],
+     "votes": [
+      "ED",
+      "CHA",
+      "RAY",
+      "JAM"
+     ],
+     "proposer": "CHA",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CHA",
+    "RAY",
+    "JAM"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585743711,
+  "_nanoseconds": 87207000
+ },
+ "timeCreated": {
+  "_seconds": 1585743057,
+  "_nanoseconds": 560000000
+ },
+ "players": [
+  {
+   "uid": "tvSDSkh5GRdzi75roQ75i9i9YZh1",
+   "name": "KEVIN"
+  },
+  {
+   "uid": "FO1cu0XDEuYoHq5pfsKcaz8yEgl1",
+   "name": "JAM"
+  },
+  {
+   "name": "CHA",
+   "uid": "wwyRaFSm2HTOGzwTaDLgdTGtWfR2"
+  },
+  {
+   "name": "ED",
+   "uid": "zCcN9b6B90V2WDHZNmmUN7PBfr82"
+  },
+  {
+   "uid": "6axDRcJBlQOswwhVamPWuvqglxa2",
+   "name": "RAY"
+  }
+ ]
+}

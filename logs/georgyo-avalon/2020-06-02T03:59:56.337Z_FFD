@@ -1,0 +1,410 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "KLAUDIA": true,
+    "GOODWIN": true
+   },
+   {
+    "KLAUDIA": false,
+    "JET": true,
+    "ADAM": true
+   },
+   {
+    "HUMBERT": true,
+    "JET": true,
+    "GOODWIN": true,
+    "KLAUDIA": false
+   },
+   {
+    "ADAM": true,
+    "HUMBERT": true,
+    "BADWIN": true
+   },
+   {
+    "ADAM": true,
+    "BADWIN": true,
+    "HUMBERT": true,
+    "JET": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "BADWIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "HUMBERT"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ADAM"
+   },
+   {
+    "name": "JET",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KLAUDIA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "BADWIN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "GOODWIN",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "players": [
+  {
+   "uid": "L8welunHOHaNlpw5kDPKZEWlxYt2",
+   "name": "HUMBERT"
+  },
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2",
+   "name": "BADWIN"
+  },
+  {
+   "name": "GOODWIN",
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2"
+  },
+  {
+   "name": "JET",
+   "uid": "sZAbXIiWArSQ03rtdYtijtUIHCf1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591070396,
+  "_nanoseconds": 337000000
+ },
+ "timeFinished": {
+  "_seconds": 1591071705,
+  "_nanoseconds": 226000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "GOODWIN",
+     "votes": [
+      "ADAM",
+      "JET",
+      "GOODWIN"
+     ],
+     "team": [
+      "GOODWIN",
+      "KLAUDIA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ADAM",
+      "GOODWIN"
+     ],
+     "proposer": "JET",
+     "state": "REJECTED",
+     "votes": [
+      "ADAM",
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "HUMBERT",
+      "JET"
+     ],
+     "team": [
+      "JET",
+      "KLAUDIA"
+     ],
+     "proposer": "HUMBERT",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ADAM",
+      "JET",
+      "GOODWIN"
+     ],
+     "team": [
+      "GOODWIN",
+      "ADAM"
+     ],
+     "proposer": "ADAM",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BADWIN",
+      "GOODWIN",
+      "HUMBERT",
+      "ADAM",
+      "KLAUDIA"
+     ],
+     "team": [
+      "KLAUDIA",
+      "GOODWIN"
+     ],
+     "proposer": "KLAUDIA"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "KLAUDIA",
+    "GOODWIN"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "KLAUDIA",
+      "BADWIN",
+      "GOODWIN"
+     ],
+     "proposer": "BADWIN",
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "votes": [
+      "HUMBERT",
+      "JET"
+     ],
+     "team": [
+      "GOODWIN",
+      "JET",
+      "KLAUDIA"
+     ],
+     "state": "REJECTED",
+     "proposer": "GOODWIN"
+    },
+    {
+     "team": [
+      "HUMBERT",
+      "KLAUDIA",
+      "JET"
+     ],
+     "proposer": "JET",
+     "state": "REJECTED",
+     "votes": [
+      "HUMBERT",
+      "JET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "HUMBERT",
+      "KLAUDIA",
+      "JET"
+     ],
+     "proposer": "HUMBERT",
+     "votes": [
+      "KLAUDIA",
+      "HUMBERT",
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "ADAM",
+      "KLAUDIA",
+      "BADWIN",
+      "GOODWIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ADAM",
+      "KLAUDIA",
+      "JET"
+     ],
+     "proposer": "ADAM"
+    }
+   ],
+   "team": [
+    "ADAM",
+    "KLAUDIA",
+    "JET"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "HUMBERT",
+    "KLAUDIA",
+    "GOODWIN",
+    "JET"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "KLAUDIA",
+     "votes": [
+      "JET"
+     ],
+     "team": [
+      "HUMBERT",
+      "KLAUDIA",
+      "JET",
+      "BADWIN"
+     ]
+    },
+    {
+     "proposer": "BADWIN",
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "BADWIN",
+      "GOODWIN",
+      "JET",
+      "HUMBERT"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "HUMBERT",
+      "JET"
+     ],
+     "team": [
+      "GOODWIN",
+      "KLAUDIA",
+      "HUMBERT",
+      "JET"
+     ],
+     "proposer": "GOODWIN"
+    },
+    {
+     "votes": [
+      "KLAUDIA",
+      "GOODWIN",
+      "HUMBERT",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "HUMBERT",
+      "KLAUDIA",
+      "GOODWIN",
+      "JET"
+     ],
+     "proposer": "JET"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "HUMBERT",
+     "votes": [],
+     "team": [
+      "ADAM",
+      "HUMBERT",
+      "KLAUDIA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "HUMBERT",
+      "ADAM",
+      "JET",
+      "BADWIN"
+     ],
+     "team": [
+      "HUMBERT",
+      "ADAM",
+      "BADWIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ADAM"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "HUMBERT",
+    "ADAM",
+    "BADWIN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA"
+     ],
+     "proposer": "KLAUDIA",
+     "team": [
+      "HUMBERT",
+      "ADAM",
+      "KLAUDIA",
+      "BADWIN"
+     ]
+    },
+    {
+     "votes": [
+      "KLAUDIA",
+      "BADWIN",
+      "ADAM",
+      "JET"
+     ],
+     "team": [
+      "HUMBERT",
+      "ADAM",
+      "BADWIN",
+      "JET"
+     ],
+     "proposer": "BADWIN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "HUMBERT",
+    "ADAM",
+    "BADWIN",
+    "JET"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "HERALD",
+      "AIMKRIS"
+     ],
+     "votes": [
+      "AIMKRIS",
+      "ZATCHARY",
+      "SEVERUS",
+      "ESSIE",
+      "HERALD",
+      "EXCALIBUR"
+     ],
+     "state": "APPROVED",
+     "proposer": "HERALD"
+    }
+   ],
+   "team": [
+    "HERALD",
+    "AIMKRIS"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ZATCHARY",
+     "state": "APPROVED",
+     "votes": [
+      "AIMKRIS",
+      "ZATCHARY",
+      "SEVERUS",
+      "ESSIE",
+      "HERALD",
+      "EXCALIBUR"
+     ],
+     "team": [
+      "AIMKRIS",
+      "HERALD",
+      "ZATCHARY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "AIMKRIS",
+    "HERALD",
+    "ZATCHARY"
+   ]
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "SEVERUS",
+    "ESSIE",
+    "AIMKRIS",
+    "EXCALIBUR"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "SEVERUS",
+     "state": "APPROVED",
+     "team": [
+      "SEVERUS",
+      "ESSIE",
+      "AIMKRIS",
+      "EXCALIBUR"
+     ],
+     "votes": [
+      "ESSIE",
+      "EXCALIBUR",
+      "AIMKRIS",
+      "ZATCHARY",
+      "SEVERUS"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ESSIE",
+    "ZATCHARY",
+    "HERALD"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "AIMKRIS",
+     "state": "REJECTED",
+     "votes": [
+      "SEVERUS"
+     ],
+     "team": [
+      "ZATCHARY",
+      "SEVERUS",
+      "EXCALIBUR"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ESSIE",
+      "EXCALIBUR",
+      "AIMKRIS",
+      "ZATCHARY",
+      "SEVERUS"
+     ],
+     "proposer": "ESSIE",
+     "team": [
+      "ESSIE",
+      "ZATCHARY",
+      "HERALD"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585457280,
+  "_nanoseconds": 16000000
+ },
+ "timeFinished": {
+  "_seconds": 1585457692,
+  "_nanoseconds": 193257000
+ },
+ "players": [
+  {
+   "uid": "ClT9L90YJjavxeUJgR8uiVEUcWr2",
+   "name": "ESSIE"
+  },
+  {
+   "name": "EXCALIBUR",
+   "uid": "tFlup2WLLfTURvJywa5CUUGp9Ch1"
+  },
+  {
+   "name": "HERALD",
+   "uid": "nGtLaMqioEP1XpJEBuyyh08318i1"
+  },
+  {
+   "uid": "JZx70lyTW1dTuhjqFuhy2ON3qJ43",
+   "name": "ZATCHARY"
+  },
+  {
+   "uid": "xw59oSmtJzcfYzAZ592RivHmWbh1",
+   "name": "SEVERUS"
+  },
+  {
+   "name": "AIMKRIS",
+   "uid": "IE2hWe23x1MkBGg4EsfNjORvdsx2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "ZATCHARY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SEVERUS",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ESSIE",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "HERALD",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "EXCALIBUR",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "AIMKRIS"
+   }
+  ],
+  "votes": [
+   {
+    "HERALD": true,
+    "AIMKRIS": true
+   },
+   {
+    "AIMKRIS": false,
+    "ZATCHARY": true,
+    "HERALD": true
+   },
+   {
+    "EXCALIBUR": true,
+    "ESSIE": false,
+    "SEVERUS": true,
+    "AIMKRIS": false
+   },
+   {
+    "ESSIE": false,
+    "HERALD": true,
+    "ZATCHARY": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ }
+}

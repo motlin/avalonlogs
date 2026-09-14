@@ -1,0 +1,254 @@
+{
+ "timeCreated": {
+  "_seconds": 1595375841,
+  "_nanoseconds": 720000000
+ },
+ "timeFinished": {
+  "_seconds": 1595376641,
+  "_nanoseconds": 49000000
+ },
+ "players": [
+  {
+   "uid": "fvFnkXTLhKXjLmO15nWTKISC9oi1",
+   "name": "FLY"
+  },
+  {
+   "uid": "3fwa6RkTYOcx99zn7HYVHTYjVMq2",
+   "name": "NXG"
+  },
+  {
+   "name": "BOSSMAN",
+   "uid": "q78WRgUspVfBbMzCvgFevSnJmsn2"
+  },
+  {
+   "name": "CHUCK",
+   "uid": "RomzvLUXOQOI9ZyRguqeJRqWKGx1"
+  },
+  {
+   "uid": "PLw2k8YfVbfBXIAveP8ImwBXm7u1",
+   "name": "JENNA"
+  },
+  {
+   "uid": "EKyhtGgmjmPgR2hxXKULALHMIbj2",
+   "name": "FATTDONN"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "BOSSMAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FLY",
+    "assassin": false
+   },
+   {
+    "name": "FATTDONN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JENNA",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CHUCK"
+   },
+   {
+    "name": "NXG",
+    "role": "MORDRED",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "JENNA": true,
+    "BOSSMAN": true
+   },
+   {
+    "BOSSMAN": true,
+    "JENNA": false,
+    "CHUCK": true
+   },
+   {
+    "FLY": true,
+    "FATTDONN": true,
+    "JENNA": false,
+    "BOSSMAN": true
+   },
+   {
+    "FATTDONN": true,
+    "CHUCK": true,
+    "FLY": true
+   },
+   {
+    "BOSSMAN": true,
+    "FLY": true,
+    "FATTDONN": true,
+    "CHUCK": true
+   }
+  ],
+  "assassinated": "FATTDONN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JENNA",
+      "CHUCK",
+      "NXG",
+      "BOSSMAN",
+      "FLY"
+     ],
+     "proposer": "BOSSMAN",
+     "team": [
+      "BOSSMAN",
+      "JENNA"
+     ]
+    }
+   ],
+   "team": [
+    "BOSSMAN",
+    "JENNA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "BOSSMAN",
+    "CHUCK",
+    "JENNA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CHUCK",
+      "NXG",
+      "BOSSMAN",
+      "FLY",
+      "JENNA"
+     ],
+     "proposer": "CHUCK",
+     "team": [
+      "BOSSMAN",
+      "CHUCK",
+      "JENNA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "FATTDONN",
+    "BOSSMAN",
+    "JENNA",
+    "FLY"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NXG",
+      "BOSSMAN",
+      "FLY",
+      "FATTDONN",
+      "JENNA"
+     ],
+     "proposer": "JENNA",
+     "team": [
+      "FATTDONN",
+      "BOSSMAN",
+      "JENNA",
+      "FLY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "CHUCK",
+    "FATTDONN",
+    "FLY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BOSSMAN",
+      "FLY",
+      "FATTDONN",
+      "JENNA",
+      "CHUCK",
+      "NXG"
+     ],
+     "team": [
+      "CHUCK",
+      "FATTDONN",
+      "FLY"
+     ],
+     "proposer": "FATTDONN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "BOSSMAN",
+    "FATTDONN",
+    "CHUCK",
+    "FLY"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "FLY",
+     "votes": [
+      "BOSSMAN",
+      "FLY",
+      "FATTDONN",
+      "CHUCK",
+      "NXG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BOSSMAN",
+      "FATTDONN",
+      "CHUCK",
+      "FLY"
+     ]
+    }
+   ]
+  }
+ ]
+}

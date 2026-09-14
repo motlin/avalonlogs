@@ -1,0 +1,261 @@
+{
+ "timeCreated": {
+  "_seconds": 1585451956,
+  "_nanoseconds": 808000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WALKER",
+      "NIGEL",
+      "JEFF",
+      "CARL",
+      "NIKI",
+      "LAURA",
+      "AUDREY"
+     ],
+     "team": [
+      "WALKER",
+      "LAURA"
+     ],
+     "proposer": "WALKER"
+    }
+   ],
+   "team": [
+    "WALKER",
+    "LAURA"
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "LAURA",
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "NIKI",
+      "AUDREY"
+     ],
+     "votes": [
+      "NIKI",
+      "LAURA",
+      "AUDREY",
+      "WALKER"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "LAURA",
+    "NIKI",
+    "AUDREY"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JEFF",
+      "NIGEL",
+      "CARL"
+     ],
+     "state": "APPROVED",
+     "proposer": "AUDREY",
+     "votes": [
+      "CARL",
+      "NIKI",
+      "AUDREY",
+      "WALKER",
+      "NIGEL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JEFF",
+    "NIGEL",
+    "CARL"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "NIGEL",
+    "CARL",
+    "JEFF",
+    "LAURA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JEFF",
+     "team": [
+      "NIGEL",
+      "CARL",
+      "JEFF",
+      "LAURA"
+     ],
+     "votes": [
+      "NIKI",
+      "AUDREY",
+      "WALKER",
+      "JEFF"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "NIGEL",
+    "CARL",
+    "JEFF",
+    "NIKI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NIGEL",
+      "CARL",
+      "JEFF",
+      "NIKI"
+     ],
+     "votes": [
+      "CARL",
+      "NIKI",
+      "LAURA",
+      "AUDREY",
+      "WALKER",
+      "NIGEL",
+      "JEFF"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIGEL"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "uid": "eg7UDaA2gMU7K7gcPabyg60I5Oo1",
+   "name": "NIGEL"
+  },
+  {
+   "uid": "pXtvGj9rVth15svpr2JgbxoOF2v1",
+   "name": "CARL"
+  },
+  {
+   "name": "NIKI",
+   "uid": "qy500PYGGFYrccUzWpCNhaOvssR2"
+  },
+  {
+   "name": "WALKER",
+   "uid": "KQ6CAvEFXeUnyTqHpokvrSzwYbx1"
+  },
+  {
+   "uid": "OGEkIrBTuGMFQGh5qi0BSlZczTc2",
+   "name": "LAURA"
+  },
+  {
+   "name": "AUDREY",
+   "uid": "UoslXRO7vaefHq19QAlBoIxYoAt1"
+  },
+  {
+   "name": "JEFF",
+   "uid": "bYzgcJ3LUESk0lJyH2zm8nD8oxh1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585452753,
+  "_nanoseconds": 658413000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "WALKER": false,
+    "LAURA": true
+   },
+   {
+    "LAURA": true,
+    "NIKI": true,
+    "AUDREY": false
+   },
+   {
+    "NIGEL": true,
+    "CARL": true,
+    "JEFF": true
+   },
+   {
+    "JEFF": true,
+    "NIGEL": true,
+    "LAURA": true,
+    "CARL": true
+   },
+   {
+    "CARL": true,
+    "NIGEL": false,
+    "NIKI": true,
+    "JEFF": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "CARL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NIKI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "LAURA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "AUDREY",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "WALKER",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORDRED",
+    "name": "NIGEL",
+    "assassin": false
+   },
+   {
+    "name": "JEFF",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "KRISSY",
+   "uid": "qkREv9k5OaUNv4xjVGQc8Xk7Es42"
+  },
+  {
+   "name": "CHRISTINA",
+   "uid": "ngDfLy3QqdfNrdRsKLuMRtJg1jF3"
+  },
+  {
+   "uid": "dEl5r3XPOuPiGMVrzRoVTl5VJUO2",
+   "name": "JANINE"
+  },
+  {
+   "name": "QDAM",
+   "uid": "igQLnSyDqgaO9C1WLmFtKJyjm1K2"
+  },
+  {
+   "name": "TIM",
+   "uid": "hkyxZh5nTIXububho80ZekkEmPC2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593920147,
+  "_nanoseconds": 654000000
+ },
+ "timeCreated": {
+  "_seconds": 1593919741,
+  "_nanoseconds": 639000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JANINE": true,
+    "QDAM": true
+   },
+   {
+    "KRISSY": true,
+    "QDAM": true,
+    "JANINE": true
+   },
+   {
+    "QDAM": true,
+    "JANINE": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "name": "JANINE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TIM"
+   },
+   {
+    "assassin": false,
+    "name": "CHRISTINA",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "KRISSY"
+   },
+   {
+    "assassin": false,
+    "name": "QDAM",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "JANINE",
+    "QDAM"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHRISTINA",
+     "state": "APPROVED",
+     "votes": [
+      "CHRISTINA",
+      "KRISSY",
+      "QDAM",
+      "JANINE"
+     ],
+     "team": [
+      "JANINE",
+      "QDAM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "KRISSY",
+      "QDAM",
+      "JANINE"
+     ],
+     "proposer": "JANINE",
+     "state": "APPROVED",
+     "votes": [
+      "TIM",
+      "CHRISTINA",
+      "KRISSY",
+      "QDAM",
+      "JANINE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KRISSY",
+    "QDAM",
+    "JANINE"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "JANINE",
+    "QDAM"
+   ],
+   "proposals": [
+    {
+     "proposer": "QDAM",
+     "votes": [
+      "TIM",
+      "KRISSY",
+      "QDAM",
+      "JANINE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JANINE",
+      "QDAM"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [],
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ]
+}

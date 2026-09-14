@@ -1,0 +1,292 @@
+{
+ "players": [
+  {
+   "uid": "8vZHgT8OM4MFGQF4TdbtIllBsjk2",
+   "name": "PENG"
+  },
+  {
+   "name": "CHEWBACCA",
+   "uid": "dzVl0d9H3WWynPReKdDRD9sMfHj1"
+  },
+  {
+   "name": "CHELS",
+   "uid": "NNGlzpzt5ZTDw2RQsF0GsK7lpkg1"
+  },
+  {
+   "uid": "Y8Uu5euVrLMWCRLR24KBvJdtDjn2",
+   "name": "HOTPOTATO"
+  },
+  {
+   "name": "EUGENE",
+   "uid": "iZoVCDPWxygH6ByrEbh8QstBzMB2"
+  },
+  {
+   "name": "ZAC",
+   "uid": "UIFqukR596dfPWUG6LDjDHJ8Mth2"
+  },
+  {
+   "name": "DYNOWZ",
+   "uid": "uBwyxp6xhGa7emq4tfxQ3Khs0UY2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586884654,
+  "_nanoseconds": 767000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1586885584,
+  "_nanoseconds": 586687000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "HOTPOTATO",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHEWBACCA",
+    "assassin": false
+   },
+   {
+    "name": "PENG",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "EUGENE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DYNOWZ"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "CHELS"
+   },
+   {
+    "name": "ZAC",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "HOTPOTATO",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "CHEWBACCA": true,
+    "PENG": false
+   },
+   {
+    "ZAC": true,
+    "HOTPOTATO": true,
+    "CHELS": false
+   },
+   {
+    "CHEWBACCA": true,
+    "HOTPOTATO": true,
+    "DYNOWZ": true
+   },
+   {
+    "HOTPOTATO": true,
+    "DYNOWZ": true,
+    "CHEWBACCA": true,
+    "ZAC": true
+   },
+   {
+    "HOTPOTATO": true,
+    "CHEWBACCA": true,
+    "DYNOWZ": true,
+    "ZAC": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CHELS",
+      "HOTPOTATO",
+      "CHEWBACCA",
+      "PENG",
+      "EUGENE",
+      "DYNOWZ"
+     ],
+     "team": [
+      "PENG",
+      "CHEWBACCA"
+     ],
+     "state": "APPROVED",
+     "proposer": "DYNOWZ"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "PENG",
+    "CHEWBACCA"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHELS",
+    "HOTPOTATO",
+    "ZAC"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PENG",
+     "votes": [
+      "CHEWBACCA",
+      "PENG",
+      "EUGENE",
+      "DYNOWZ",
+      "CHELS",
+      "ZAC"
+     ],
+     "team": [
+      "CHELS",
+      "HOTPOTATO",
+      "ZAC"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "HOTPOTATO",
+    "DYNOWZ",
+    "CHEWBACCA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "HOTPOTATO",
+      "DYNOWZ",
+      "CHEWBACCA"
+     ],
+     "proposer": "CHEWBACCA",
+     "votes": [
+      "HOTPOTATO",
+      "CHEWBACCA",
+      "EUGENE",
+      "ZAC"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "CHEWBACCA",
+    "HOTPOTATO",
+    "DYNOWZ",
+    "ZAC"
+   ],
+   "failsRequired": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ZAC",
+      "CHEWBACCA",
+      "EUGENE",
+      "CHELS"
+     ],
+     "votes": [
+      "CHELS",
+      "ZAC"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHELS"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHEWBACCA",
+      "HOTPOTATO",
+      "DYNOWZ",
+      "ZAC"
+     ],
+     "votes": [
+      "CHELS",
+      "ZAC",
+      "HOTPOTATO",
+      "CHEWBACCA",
+      "PENG",
+      "DYNOWZ"
+     ],
+     "proposer": "HOTPOTATO"
+    }
+   ]
+  },
+  {
+   "team": [
+    "DYNOWZ",
+    "ZAC",
+    "CHEWBACCA",
+    "HOTPOTATO"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "EUGENE",
+      "CHELS",
+      "ZAC"
+     ],
+     "proposer": "EUGENE",
+     "state": "REJECTED",
+     "team": [
+      "HOTPOTATO",
+      "DYNOWZ",
+      "ZAC",
+      "EUGENE"
+     ]
+    },
+    {
+     "votes": [
+      "CHEWBACCA",
+      "DYNOWZ",
+      "ZAC",
+      "HOTPOTATO"
+     ],
+     "state": "APPROVED",
+     "proposer": "ZAC",
+     "team": [
+      "DYNOWZ",
+      "ZAC",
+      "CHEWBACCA",
+      "HOTPOTATO"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4
+  }
+ ]
+}

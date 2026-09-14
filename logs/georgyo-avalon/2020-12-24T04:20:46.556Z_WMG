@@ -1,0 +1,339 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "GRENCH": true,
+    "NATE": true,
+    "JOHN": true
+   },
+   {
+    "JOHN": true,
+    "GRENCH": false,
+    "DUCKFYLAN": true,
+    "JURDEN": false
+   },
+   {
+    "ZADDY": true,
+    "DUCKFYLAN": true,
+    "JURDEN": true,
+    "NICK": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Five team proposals in a row rejected",
+  "roles": [
+   {
+    "name": "NATE",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "NICK",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "GRENCH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JOHN"
+   },
+   {
+    "name": "BURT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DUCKFYLAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "JURDEN",
+    "assassin": false
+   },
+   {
+    "name": "ZADDY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "mJgs6HzQv7QfaWiH04QnKsv1c173",
+   "name": "NATE"
+  },
+  {
+   "name": "NICK",
+   "uid": "s9yJ3ByHbzSyiGuiHSzD9fbe8nG3"
+  },
+  {
+   "uid": "oeecPBu1fURXFCLRjIBGzk03HhN2",
+   "name": "BURT"
+  },
+  {
+   "uid": "F6tkLU8l1oaKSRjE9FQtkvIKw9H3",
+   "name": "DUCKFYLAN"
+  },
+  {
+   "name": "ZADDY",
+   "uid": "G93wgz4l7lcqJO9pZ78gxqB24XD2"
+  },
+  {
+   "uid": "6VP4FbZF4oX7dbFYUpK4bDFHSYv2",
+   "name": "JOHN"
+  },
+  {
+   "uid": "SyNAkeDeFQWi00FqoTL17VVgM013",
+   "name": "JURDEN"
+  },
+  {
+   "uid": "jytY7Iic2cPSYWQMiJ4jnFHvl442",
+   "name": "GRENCH"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "GRENCH",
+     "state": "APPROVED",
+     "votes": [
+      "BURT",
+      "DUCKFYLAN",
+      "GRENCH",
+      "ZADDY",
+      "JURDEN",
+      "NATE",
+      "JOHN"
+     ],
+     "team": [
+      "JOHN",
+      "GRENCH",
+      "NATE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JOHN",
+    "GRENCH",
+    "NATE"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JURDEN",
+    "GRENCH",
+    "JOHN",
+    "DUCKFYLAN"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "NATE",
+     "state": "APPROVED",
+     "votes": [
+      "DUCKFYLAN",
+      "JURDEN",
+      "JOHN",
+      "GRENCH",
+      "BURT",
+      "NATE"
+     ],
+     "team": [
+      "JURDEN",
+      "GRENCH",
+      "JOHN",
+      "DUCKFYLAN"
+     ]
+    }
+   ],
+   "numFails": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ZADDY",
+      "BURT",
+      "DUCKFYLAN",
+      "JOHN"
+     ],
+     "votes": [
+      "ZADDY",
+      "NICK",
+      "JOHN",
+      "BURT"
+     ],
+     "proposer": "NICK"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "BURT",
+      "NATE",
+      "JURDEN",
+      "GRENCH"
+     ],
+     "votes": [
+      "DUCKFYLAN",
+      "GRENCH",
+      "BURT",
+      "JURDEN"
+     ],
+     "proposer": "BURT"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GRENCH",
+      "DUCKFYLAN",
+      "JOHN",
+      "JURDEN",
+      "NATE",
+      "ZADDY",
+      "NICK"
+     ],
+     "team": [
+      "DUCKFYLAN",
+      "ZADDY",
+      "JURDEN",
+      "NICK"
+     ],
+     "proposer": "DUCKFYLAN"
+    }
+   ],
+   "team": [
+    "DUCKFYLAN",
+    "ZADDY",
+    "JURDEN",
+    "NICK"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "NICK",
+      "ZADDY",
+      "JOHN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ZADDY",
+     "team": [
+      "NICK",
+      "DUCKFYLAN",
+      "JOHN",
+      "ZADDY",
+      "JURDEN"
+     ]
+    },
+    {
+     "votes": [
+      "GRENCH",
+      "JOHN",
+      "NICK"
+     ],
+     "team": [
+      "JOHN",
+      "DUCKFYLAN",
+      "BURT",
+      "ZADDY",
+      "GRENCH"
+     ],
+     "state": "REJECTED",
+     "proposer": "JOHN"
+    },
+    {
+     "team": [
+      "JURDEN",
+      "DUCKFYLAN",
+      "NATE",
+      "ZADDY",
+      "BURT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JURDEN",
+      "JOHN",
+      "BURT"
+     ],
+     "proposer": "JURDEN"
+    },
+    {
+     "votes": [
+      "JURDEN",
+      "GRENCH",
+      "JOHN"
+     ],
+     "proposer": "GRENCH",
+     "state": "REJECTED",
+     "team": [
+      "GRENCH",
+      "ZADDY",
+      "DUCKFYLAN",
+      "JURDEN",
+      "NATE"
+     ]
+    },
+    {
+     "team": [
+      "NATE",
+      "JURDEN",
+      "DUCKFYLAN",
+      "NICK",
+      "ZADDY"
+     ],
+     "proposer": "NATE",
+     "votes": [
+      "JURDEN",
+      "DUCKFYLAN",
+      "ZADDY",
+      "JOHN"
+     ],
+     "state": "REJECTED"
+    }
+   ],
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1608783646,
+  "_nanoseconds": 556000000
+ },
+ "timeFinished": {
+  "_seconds": 1608784961,
+  "_nanoseconds": 506000000
+ }
+}

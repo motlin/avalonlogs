@@ -1,0 +1,252 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "NITWIT"
+   },
+   {
+    "assassin": false,
+    "name": "NICHOLAS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "NIKHIL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "LINDA"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "NILS"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JONNYBAKUM"
+   }
+  ],
+  "votes": [
+   {
+    "NICHOLAS": true,
+    "NIKHIL": true
+   },
+   {
+    "LINDA": true,
+    "NICHOLAS": true,
+    "NIKHIL": true
+   },
+   {
+    "NIKHIL": true,
+    "JONNYBAKUM": false,
+    "NILS": true,
+    "NICHOLAS": true
+   },
+   {
+    "NIKHIL": true,
+    "NICHOLAS": true,
+    "NILS": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "LINDA"
+ },
+ "timeCreated": {
+  "_seconds": 1598042729,
+  "_nanoseconds": 445000000
+ },
+ "players": [
+  {
+   "name": "NITWIT",
+   "uid": "M9nSGFmZJLediRJeU20AOG8aVjU2"
+  },
+  {
+   "name": "JONNYBAKUM",
+   "uid": "aWn0bIdDw2Ol7sI3lchHRoTflM23"
+  },
+  {
+   "name": "NICHOLAS",
+   "uid": "0mASMBkOu2RJhfHhh7THzmEpxuw1"
+  },
+  {
+   "uid": "xg0r1nuLAkWaB05MMHHy84coJFh2",
+   "name": "LINDA"
+  },
+  {
+   "name": "NILS",
+   "uid": "LOqynpyzkHNZWSjmPjWNqH12FGv1"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "jiM8i7sonhOhVMun1Wl3dke3PlM2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "NICHOLAS",
+    "NIKHIL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NICHOLAS",
+      "NIKHIL"
+     ],
+     "votes": [
+      "NILS",
+      "NITWIT",
+      "LINDA",
+      "NICHOLAS",
+      "NIKHIL",
+      "JONNYBAKUM"
+     ],
+     "proposer": "LINDA"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "NILS",
+     "team": [
+      "NIKHIL",
+      "NICHOLAS",
+      "LINDA"
+     ],
+     "votes": [
+      "LINDA",
+      "NICHOLAS",
+      "NITWIT",
+      "NILS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "NIKHIL",
+    "NICHOLAS",
+    "LINDA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "NICHOLAS",
+      "NITWIT",
+      "LINDA",
+      "JONNYBAKUM"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKHIL",
+     "votes": [
+      "NIKHIL",
+      "NILS",
+      "JONNYBAKUM"
+     ]
+    },
+    {
+     "votes": [
+      "NITWIT",
+      "JONNYBAKUM",
+      "NICHOLAS",
+      "NILS",
+      "LINDA",
+      "NIKHIL"
+     ],
+     "team": [
+      "NICHOLAS",
+      "NIKHIL",
+      "NILS",
+      "JONNYBAKUM"
+     ],
+     "proposer": "NITWIT",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "NICHOLAS",
+    "NIKHIL",
+    "NILS",
+    "JONNYBAKUM"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "NICHOLAS",
+    "NIKHIL",
+    "NILS"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "NITWIT",
+      "JONNYBAKUM"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "NILS",
+      "NITWIT"
+     ],
+     "proposer": "JONNYBAKUM"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NICHOLAS",
+      "NIKHIL",
+      "NILS"
+     ],
+     "proposer": "NICHOLAS",
+     "votes": [
+      "NIKHIL",
+      "NICHOLAS",
+      "LINDA",
+      "NITWIT",
+      "NILS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1598043396,
+  "_nanoseconds": 224000000
+ }
+}

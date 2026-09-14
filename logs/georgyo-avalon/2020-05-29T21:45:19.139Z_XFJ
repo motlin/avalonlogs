@@ -1,0 +1,282 @@
+{
+ "players": [
+  {
+   "uid": "rHeFueObmqaICpqE5h9rXjVKp7H2",
+   "name": "HENGXIU"
+  },
+  {
+   "name": "ALEX",
+   "uid": "C5hiTK5S8Dc8acWp3rz7bJLZm5g1"
+  },
+  {
+   "name": "YUAN",
+   "uid": "0YFkZvcNtkVQh260oEp0VoVxj6d2"
+  },
+  {
+   "name": "CHEESE",
+   "uid": "5vGimwDSztNbM4fSxRViPyK8LdA3"
+  },
+  {
+   "uid": "uxLQdoYL6gc39WmyxQkZxot1YYq1",
+   "name": "REALYATHAR"
+  },
+  {
+   "name": "YATHARTHA",
+   "uid": "1HWnX0of7RY8tVfgUWYCTQQZ2Cx2"
+  },
+  {
+   "name": "TONNOT",
+   "uid": "UuPAVaS4fsdBzVNL33rqxET4fI32"
+  },
+  {
+   "uid": "20msJ7tv3WQaTy1V0DhkSkSoThw1",
+   "name": "PRADYOT"
+  },
+  {
+   "name": "FAKEYGGOEL",
+   "uid": "uZqlBBy1wpc5ftVKBTCt4lyBVWl1"
+  },
+  {
+   "name": "SIDDHARTHA",
+   "uid": "3kQ1v4ZYhZe6GgyTFvsCUbtv17o1"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ALEX": false,
+    "HENGXIU": true,
+    "YUAN": true
+   },
+   {
+    "HENGXIU": true,
+    "CHEESE": false,
+    "YATHARTHA": true,
+    "TONNOT": true
+   },
+   {
+    "SIDDHARTHA": true,
+    "CHEESE": false,
+    "REALYATHAR": true,
+    "YUAN": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "PRADYOT",
+    "assassin": false
+   },
+   {
+    "name": "YUAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SIDDHARTHA"
+   },
+   {
+    "assassin": false,
+    "name": "TONNOT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "REALYATHAR",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "FAKEYGGOEL",
+    "assassin": false
+   },
+   {
+    "name": "HENGXIU",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "YATHARTHA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ALEX",
+    "assassin": true
+   },
+   {
+    "name": "CHEESE",
+    "role": "MORDRED",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1590789253,
+  "_nanoseconds": 918000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "HENGXIU",
+    "ALEX",
+    "YUAN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SIDDHARTHA",
+     "team": [
+      "HENGXIU",
+      "ALEX",
+      "YUAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PRADYOT",
+      "YUAN",
+      "SIDDHARTHA",
+      "TONNOT",
+      "REALYATHAR",
+      "FAKEYGGOEL",
+      "HENGXIU",
+      "YATHARTHA",
+      "ALEX",
+      "CHEESE"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "HENGXIU",
+    "CHEESE",
+    "YATHARTHA",
+    "TONNOT"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "ALEX",
+      "CHEESE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SIDDHARTHA",
+      "YATHARTHA",
+      "CHEESE",
+      "REALYATHAR"
+     ],
+     "proposer": "HENGXIU"
+    },
+    {
+     "proposer": "ALEX",
+     "state": "APPROVED",
+     "votes": [
+      "PRADYOT",
+      "YUAN",
+      "SIDDHARTHA",
+      "TONNOT",
+      "FAKEYGGOEL",
+      "HENGXIU",
+      "YATHARTHA",
+      "ALEX",
+      "CHEESE"
+     ],
+     "team": [
+      "HENGXIU",
+      "CHEESE",
+      "YATHARTHA",
+      "TONNOT"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHEESE",
+    "YUAN",
+    "SIDDHARTHA",
+    "REALYATHAR"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "REALYATHAR",
+      "HENGXIU",
+      "YUAN",
+      "SIDDHARTHA"
+     ],
+     "team": [
+      "YUAN",
+      "HENGXIU",
+      "SIDDHARTHA",
+      "REALYATHAR"
+     ],
+     "state": "REJECTED",
+     "proposer": "YUAN"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHEESE",
+      "YUAN",
+      "SIDDHARTHA",
+      "REALYATHAR"
+     ],
+     "votes": [
+      "PRADYOT",
+      "YUAN",
+      "SIDDHARTHA",
+      "TONNOT",
+      "REALYATHAR",
+      "FAKEYGGOEL",
+      "HENGXIU",
+      "YATHARTHA",
+      "ALEX",
+      "CHEESE"
+     ],
+     "proposer": "CHEESE"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 2,
+   "team": [],
+   "teamSize": 5,
+   "state": "PENDING"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590788719,
+  "_nanoseconds": 139000000
+ }
+}

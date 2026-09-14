@@ -1,0 +1,230 @@
+{
+ "missions": [
+  {
+   "team": [
+    "DUFF",
+    "TROY"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "MATT",
+      "DUFF",
+      "DZ",
+      "KIKI",
+      "CAIT",
+      "MASON",
+      "TROY"
+     ],
+     "proposer": "CAIT",
+     "state": "APPROVED",
+     "team": [
+      "DUFF",
+      "TROY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KIKI",
+      "CAIT",
+      "TROY",
+      "MATT",
+      "DUFF"
+     ],
+     "proposer": "KIKI",
+     "team": [
+      "KIKI",
+      "TROY",
+      "DUFF"
+     ]
+    }
+   ],
+   "team": [
+    "KIKI",
+    "TROY",
+    "DUFF"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "MASON",
+    "KIKI",
+    "TROY"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MASON",
+      "KIKI",
+      "TROY"
+     ],
+     "votes": [
+      "MATT",
+      "DZ",
+      "CAIT",
+      "MASON"
+     ],
+     "proposer": "DZ"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "DUFF",
+      "KIKI",
+      "CAIT",
+      "TROY"
+     ],
+     "team": [
+      "DUFF",
+      "TROY",
+      "KIKI",
+      "CAIT"
+     ],
+     "proposer": "DUFF"
+    }
+   ],
+   "team": [
+    "DUFF",
+    "TROY",
+    "KIKI",
+    "CAIT"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "DUFF",
+   "uid": "cf0NdAUVOsRY3TyXvbXAP2OLBOg1"
+  },
+  {
+   "name": "TROY",
+   "uid": "rutPyCZbDQZPX8ZWn8kPGgxtjmf2"
+  },
+  {
+   "name": "MASON",
+   "uid": "EuyYu2wVdLXa8Byb8vnRzN0N6hG2"
+  },
+  {
+   "uid": "G4qiF8XoqjTlRCth1KHaotGhjaG2",
+   "name": "MATT"
+  },
+  {
+   "uid": "TbiqYVFCShg5hNPBlgTerXQ6HQF2",
+   "name": "CAIT"
+  },
+  {
+   "name": "KIKI",
+   "uid": "APWq0vl9VidXiFKvOJPf4WO0RCt2"
+  },
+  {
+   "name": "DZ",
+   "uid": "zOXCCCtRgTZfaSB8JMuem6n9clz2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585367796,
+  "_nanoseconds": 794000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DUFF": true,
+    "TROY": true
+   },
+   {
+    "DUFF": true,
+    "TROY": true,
+    "KIKI": true
+   },
+   {
+    "MASON": false,
+    "KIKI": true,
+    "TROY": true
+   },
+   {
+    "TROY": true,
+    "KIKI": true,
+    "DUFF": true,
+    "CAIT": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "MATT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "DUFF",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DZ",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KIKI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "CAIT",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "MASON",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "name": "TROY",
+    "assassin": false
+   }
+  ],
+  "assassinated": "TROY",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1585368001,
+  "_nanoseconds": 14379000
+ }
+}

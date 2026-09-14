@@ -1,0 +1,280 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "TEDDY": true,
+    "TBD": true,
+    "BRITT": true
+   },
+   {
+    "TEDDY": true,
+    "MICHAEL": false,
+    "BRITT": true,
+    "TBD": true
+   },
+   {
+    "IRINA": true,
+    "TEDDY": true,
+    "BRITT": true,
+    "TBD": true
+   },
+   {
+    "IRINA": true,
+    "BRITT": true,
+    "TEDDY": true,
+    "LC": true,
+    "TBD": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "LC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "IRINA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TBD"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "TEDDY"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MICHAEL"
+   },
+   {
+    "assassin": false,
+    "name": "BRITT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TISH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "STEPHANIE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "RYAN",
+    "assassin": true
+   }
+  ],
+  "assassinated": "TISH"
+ },
+ "players": [
+  {
+   "name": "MICHAEL",
+   "uid": "megXNu7Xo9MBDt0BdT8KPi0sWxY2"
+  },
+  {
+   "uid": "FUKE6k48t1MwgKu1vn9WKIjmzZz2",
+   "name": "STEPHANIE"
+  },
+  {
+   "name": "TBD",
+   "uid": "S2E707niQvMvMVZMFRrpnzdWtTK2"
+  },
+  {
+   "uid": "vaSpsaFJ2yPSsErgvbMo06aw5Mn2",
+   "name": "LC"
+  },
+  {
+   "name": "RYAN",
+   "uid": "3VVkwwXoD3ZXQclYWaEUH9dnqt82"
+  },
+  {
+   "uid": "i51L4JoHI9fCW4OvMHtMASLPBUE2",
+   "name": "IRINA"
+  },
+  {
+   "uid": "QaDyYjlwrqX26F0ZXEr3IL5KvCt2",
+   "name": "BRITT"
+  },
+  {
+   "name": "TEDDY",
+   "uid": "KP1zGk48JxWaq2zlX7uyx1LPljW2"
+  },
+  {
+   "name": "TISH",
+   "uid": "oxV5NKGjkYdlHrBrFc2xxmA09ex2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "TEDDY",
+    "BRITT",
+    "TBD"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "TEDDY",
+      "BRITT",
+      "TBD"
+     ],
+     "proposer": "TISH",
+     "state": "APPROVED",
+     "votes": [
+      "BRITT",
+      "TISH",
+      "TEDDY",
+      "LC",
+      "TBD",
+      "STEPHANIE",
+      "MICHAEL"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "MICHAEL",
+    "TEDDY",
+    "TBD",
+    "BRITT"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "STEPHANIE",
+      "TEDDY",
+      "RYAN",
+      "TBD",
+      "BRITT",
+      "LC",
+      "TISH"
+     ],
+     "state": "APPROVED",
+     "proposer": "MICHAEL",
+     "team": [
+      "MICHAEL",
+      "TEDDY",
+      "TBD",
+      "BRITT"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "STEPHANIE"
+     ],
+     "team": [
+      "STEPHANIE",
+      "TBD",
+      "TISH",
+      "RYAN"
+     ],
+     "proposer": "STEPHANIE",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TEDDY",
+      "BRITT",
+      "TBD",
+      "IRINA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BRITT",
+      "TEDDY",
+      "TBD",
+      "LC",
+      "TISH"
+     ],
+     "proposer": "TBD"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TEDDY",
+    "BRITT",
+    "TBD",
+    "IRINA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LC",
+      "TBD",
+      "TISH",
+      "BRITT",
+      "TEDDY",
+      "IRINA"
+     ],
+     "team": [
+      "TEDDY",
+      "BRITT",
+      "TBD",
+      "IRINA",
+      "LC"
+     ],
+     "proposer": "LC"
+    }
+   ],
+   "team": [
+    "TEDDY",
+    "BRITT",
+    "TBD",
+    "IRINA",
+    "LC"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 5,
+   "failsRequired": 2
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1602892504,
+  "_nanoseconds": 867000000
+ },
+ "timeCreated": {
+  "_seconds": 1602891738,
+  "_nanoseconds": 765000000
+ }
+}

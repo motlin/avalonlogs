@@ -1,0 +1,286 @@
+{
+ "players": [
+  {
+   "uid": "4sNqa4aD3MWk2zEPWcJKx4sKBXf1",
+   "name": "CRAIG"
+  },
+  {
+   "name": "JET",
+   "uid": "VIk2iDLCadZpfgNJ6BCevR68Fs03"
+  },
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "uid": "BsKHDR2tcCTGSxFjjtq0oIkN0xf1",
+   "name": "WENO"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  }
+ ],
+ "outcome": {
+  "assassinated": "NIKOLAI",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "WENO"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CRAIG"
+   },
+   {
+    "assassin": false,
+    "name": "JET",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ADAM",
+    "assassin": true
+   },
+   {
+    "name": "NIKOLAI",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "NIKOLAI": true,
+    "ADAM": false
+   },
+   {
+    "JET": true,
+    "NIKOLAI": true,
+    "CRAIG": true
+   },
+   {
+    "CRAIG": true,
+    "NIKOLAI": true
+   },
+   {
+    "NIKOLAI": true,
+    "JET": true,
+    "CRAIG": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1595906666,
+  "_nanoseconds": 847000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "JET",
+     "state": "REJECTED",
+     "team": [
+      "CRAIG",
+      "ADAM"
+     ],
+     "votes": [
+      "JET",
+      "ADAM"
+     ]
+    },
+    {
+     "proposer": "ADAM",
+     "state": "REJECTED",
+     "votes": [
+      "CRAIG",
+      "ADAM"
+     ],
+     "team": [
+      "ADAM",
+      "CRAIG"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ADAM",
+      "WENO"
+     ],
+     "proposer": "WENO",
+     "team": [
+      "WENO",
+      "ADAM"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "NIKOLAI",
+     "votes": [
+      "JET",
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "team": [
+      "ADAM",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "team": [
+    "ADAM",
+    "NIKOLAI"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "NIKOLAI",
+    "CRAIG",
+    "JET"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CRAIG",
+     "votes": [
+      "CRAIG"
+     ],
+     "team": [
+      "CRAIG",
+      "WENO",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JET",
+      "ADAM",
+      "WENO"
+     ],
+     "proposer": "JET",
+     "votes": [
+      "JET"
+     ]
+    },
+    {
+     "team": [
+      "ADAM",
+      "CRAIG",
+      "WENO"
+     ],
+     "votes": [
+      "ADAM"
+     ],
+     "state": "REJECTED",
+     "proposer": "ADAM"
+    },
+    {
+     "proposer": "WENO",
+     "votes": [
+      "JET",
+      "ADAM"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "WENO",
+      "ADAM",
+      "JET"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "NIKOLAI",
+     "votes": [
+      "WENO",
+      "CRAIG",
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKOLAI",
+      "CRAIG",
+      "JET"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CRAIG",
+     "state": "APPROVED",
+     "team": [
+      "CRAIG",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "CRAIG",
+      "JET",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "CRAIG",
+    "NIKOLAI"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "CRAIG",
+    "JET",
+    "NIKOLAI"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JET",
+      "NIKOLAI",
+      "CRAIG"
+     ],
+     "state": "APPROVED",
+     "proposer": "JET",
+     "team": [
+      "CRAIG",
+      "JET",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595905962,
+  "_nanoseconds": 47000000
+ }
+}

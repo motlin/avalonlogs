@@ -1,0 +1,305 @@
+{
+ "missions": [
+  {
+   "team": [
+    "JOEBIDEN",
+    "WILL"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JOEBIDEN",
+     "votes": [
+      "JOEBIDEN",
+      "JEN",
+      "LES",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JOEBIDEN",
+      "WILL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "WILL",
+    "JOEBIDEN",
+    "CALEB"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "WILL",
+      "JOEBIDEN",
+      "CALEB"
+     ],
+     "proposer": "WILL",
+     "votes": [
+      "JEN",
+      "SIMON",
+      "CALEB",
+      "JOEBIDEN",
+      "WILL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LONG",
+      "LES",
+      "SIMON",
+      "JOEBIDEN",
+      "WILL",
+      "JEN",
+      "CALEB"
+     ],
+     "team": [
+      "WILL",
+      "JOEBIDEN",
+      "CALEB"
+     ],
+     "proposer": "SIMON"
+    }
+   ],
+   "team": [
+    "WILL",
+    "JOEBIDEN",
+    "CALEB"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 2,
+   "state": "FAIL",
+   "team": [
+    "JEN",
+    "LONG",
+    "SIMON",
+    "LES"
+   ],
+   "teamSize": 4,
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "CALEB",
+      "LONG",
+      "WILL",
+      "SIMON"
+     ],
+     "proposer": "CALEB",
+     "state": "REJECTED",
+     "votes": [
+      "SIMON"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JEN",
+      "WILL",
+      "LONG",
+      "JOEBIDEN"
+     ],
+     "votes": [
+      "JOEBIDEN",
+      "WILL",
+      "LONG"
+     ],
+     "proposer": "LONG"
+    },
+    {
+     "votes": [
+      "JOEBIDEN",
+      "LES",
+      "LONG"
+     ],
+     "state": "REJECTED",
+     "proposer": "LES",
+     "team": [
+      "LES",
+      "LONG",
+      "JOEBIDEN",
+      "JEN"
+     ]
+    },
+    {
+     "votes": [
+      "LES",
+      "SIMON",
+      "JEN",
+      "LONG"
+     ],
+     "team": [
+      "JEN",
+      "LONG",
+      "SIMON",
+      "LES"
+     ],
+     "state": "APPROVED",
+     "proposer": "JEN"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "LES",
+      "JEN",
+      "JOEBIDEN",
+      "SIMON",
+      "CALEB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JEN",
+      "LES",
+      "JOEBIDEN",
+      "CALEB"
+     ],
+     "proposer": "JOEBIDEN"
+    }
+   ],
+   "team": [
+    "JEN",
+    "LES",
+    "JOEBIDEN",
+    "CALEB"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JEN",
+   "uid": "XjNRC3AOPVdXF64YbxI05ZAqKXU2"
+  },
+  {
+   "uid": "5M9lxOesmddojA9xVTFSY0BXId53",
+   "name": "JOEBIDEN"
+  },
+  {
+   "uid": "Pauy4Wk9z7M8xPFDIWCZYshRXI73",
+   "name": "WILL"
+  },
+  {
+   "uid": "ZIp49Ovt7VWcLpvyRPl4tEamrba2",
+   "name": "SIMON"
+  },
+  {
+   "name": "CALEB",
+   "uid": "fjQZGtOmRHVfbUPJfemn6Z6rzFk2"
+  },
+  {
+   "uid": "fkXAhd677lekXNAxDTRvyrb5V9c2",
+   "name": "LONG"
+  },
+  {
+   "uid": "OFOtJ6c1oSQXO3tSybBsrxlE6HA2",
+   "name": "LES"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "WILL": true,
+    "JOEBIDEN": true
+   },
+   {
+    "CALEB": true,
+    "JOEBIDEN": true,
+    "WILL": true
+   },
+   {
+    "JOEBIDEN": true,
+    "WILL": true,
+    "CALEB": false
+   },
+   {
+    "JEN": false,
+    "SIMON": false,
+    "LES": true,
+    "LONG": true
+   },
+   {
+    "JEN": true,
+    "LES": true,
+    "CALEB": false,
+    "JOEBIDEN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LES"
+   },
+   {
+    "name": "JOEBIDEN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CALEB",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LONG"
+   },
+   {
+    "name": "SIMON",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "WILL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "JEN",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1596599065,
+  "_nanoseconds": 738000000
+ },
+ "timeCreated": {
+  "_seconds": 1596597166,
+  "_nanoseconds": 410000000
+ }
+}

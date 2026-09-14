@@ -1,0 +1,262 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ADP",
+   "uid": "cerZqFV3jIXGTuBL71ygi9AkasX2"
+  },
+  {
+   "name": "RABIT",
+   "uid": "ZFgUktJiuxZj6wOC4HX9xrcvZNv1"
+  },
+  {
+   "uid": "nWTZrfZ9zChuIsOwu76kNBmCZNr1",
+   "name": "FAIZSENPAI"
+  },
+  {
+   "name": "KIKI",
+   "uid": "Rruh6j25tzbNhwLoaRnNc25Ng5s1"
+  },
+  {
+   "uid": "Dsv7rzheuWgY4VHBsC7WaeM3qll2",
+   "name": "JCW"
+  },
+  {
+   "name": "ADURIANKUN",
+   "uid": "iHVrjwsUMlgnkhXn7pXcWsBWfir2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "JCW",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "FAIZSENPAI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ADURIANKUN"
+   },
+   {
+    "name": "ADP",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "name": "RABIT",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "KIKI",
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "KIKI": true,
+    "RABIT": true
+   },
+   {
+    "FAIZSENPAI": true,
+    "RABIT": true,
+    "KIKI": true
+   },
+   {
+    "FAIZSENPAI": true,
+    "KIKI": true,
+    "JCW": true,
+    "RABIT": false
+   },
+   {
+    "ADP": true,
+    "JCW": true,
+    "RABIT": false
+   },
+   {
+    "FAIZSENPAI": true,
+    "ADP": true,
+    "ADURIANKUN": true,
+    "JCW": true
+   }
+  ],
+  "assassinated": "ADURIANKUN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "RABIT",
+     "state": "APPROVED",
+     "votes": [
+      "RABIT",
+      "KIKI",
+      "FAIZSENPAI",
+      "ADP"
+     ],
+     "team": [
+      "RABIT",
+      "KIKI"
+     ]
+    }
+   ],
+   "team": [
+    "RABIT",
+    "KIKI"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "FAIZSENPAI",
+     "state": "APPROVED",
+     "team": [
+      "FAIZSENPAI",
+      "KIKI",
+      "RABIT"
+     ],
+     "votes": [
+      "JCW",
+      "ADP",
+      "FAIZSENPAI",
+      "RABIT"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "FAIZSENPAI",
+    "KIKI",
+    "RABIT"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "KIKI",
+     "votes": [
+      "FAIZSENPAI",
+      "RABIT",
+      "ADP",
+      "JCW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KIKI",
+      "FAIZSENPAI",
+      "RABIT",
+      "JCW"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "KIKI",
+    "FAIZSENPAI",
+    "RABIT",
+    "JCW"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JCW",
+     "state": "APPROVED",
+     "votes": [
+      "JCW",
+      "RABIT",
+      "ADP",
+      "KIKI"
+     ],
+     "team": [
+      "JCW",
+      "RABIT",
+      "ADP"
+     ]
+    }
+   ],
+   "team": [
+    "JCW",
+    "RABIT",
+    "ADP"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ADURIANKUN",
+    "JCW",
+    "ADP",
+    "FAIZSENPAI"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "JCW",
+      "ADURIANKUN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ADURIANKUN",
+     "team": [
+      "ADURIANKUN",
+      "JCW",
+      "FAIZSENPAI",
+      "ADP"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ADURIANKUN",
+      "JCW",
+      "ADP",
+      "FAIZSENPAI"
+     ],
+     "votes": [
+      "ADURIANKUN",
+      "ADP",
+      "JCW",
+      "FAIZSENPAI"
+     ],
+     "proposer": "ADP"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605204681,
+  "_nanoseconds": 930000000
+ },
+ "timeCreated": {
+  "_seconds": 1605204002,
+  "_nanoseconds": 278000000
+ }
+}

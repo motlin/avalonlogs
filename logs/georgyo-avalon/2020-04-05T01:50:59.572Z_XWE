@@ -1,0 +1,249 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "ROCK",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ROCK"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RUDOLPH",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "EDWIN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ROBN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "ROB",
+    "assassin": false
+   },
+   {
+    "name": "CZ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "EDWIN": false,
+    "ROCK": true
+   },
+   {
+    "ROB": true,
+    "ERIC": true,
+    "ROBN": true
+   },
+   {
+    "ROBN": true,
+    "ERIC": true,
+    "ROB": true
+   },
+   {
+    "ROCK": true,
+    "ROBN": true,
+    "ERIC": false,
+    "ROB": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586051459,
+  "_nanoseconds": 572000000
+ },
+ "timeFinished": {
+  "_seconds": 1586053983,
+  "_nanoseconds": 98698000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "EDWIN",
+      "ERIC",
+      "ROBN",
+      "ROB",
+      "CZ",
+      "ROCK",
+      "RUDOLPH"
+     ],
+     "team": [
+      "EDWIN",
+      "ROCK"
+     ],
+     "proposer": "ERIC",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "EDWIN",
+    "ROCK"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ROB",
+      "CZ",
+      "ROCK",
+      "RUDOLPH",
+      "EDWIN",
+      "ERIC",
+      "ROBN"
+     ],
+     "team": [
+      "ROBN",
+      "ERIC",
+      "ROB"
+     ],
+     "proposer": "ROBN"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "ROBN",
+    "ERIC",
+    "ROB"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ROBN",
+      "ERIC",
+      "ROB"
+     ],
+     "votes": [
+      "RUDOLPH",
+      "EDWIN",
+      "ERIC",
+      "ROBN",
+      "ROB",
+      "CZ",
+      "ROCK"
+     ],
+     "proposer": "CZ",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ROBN",
+    "ERIC",
+    "ROB"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "ROB",
+    "ROBN",
+    "ERIC",
+    "ROCK"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "RUDOLPH"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ERIC",
+      "ROB",
+      "ROBN",
+      "RUDOLPH"
+     ],
+     "proposer": "RUDOLPH"
+    },
+    {
+     "proposer": "ROB",
+     "votes": [
+      "ERIC",
+      "ROBN",
+      "ROB",
+      "CZ",
+      "ROCK",
+      "RUDOLPH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ROB",
+      "ROBN",
+      "ERIC",
+      "ROCK"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "players": [
+  {
+   "uid": "k8NE0MajYxRPhTwwVazqFtJGkv93",
+   "name": "EDWIN"
+  },
+  {
+   "name": "ROCK",
+   "uid": "NPBhJgMaqbVQCk4s4R7DfS6SIny1"
+  },
+  {
+   "uid": "AX9PkWlKhlh6oDPFYReift0r6803",
+   "name": "ERIC"
+  },
+  {
+   "uid": "RBqDM2eVZdeDrmiCP9PgwCjUPuF2",
+   "name": "ROBN"
+  },
+  {
+   "uid": "TJ42P1awY2a7aEKu8cJLkEwCGl93",
+   "name": "CZ"
+  },
+  {
+   "uid": "TGFET0MCsDSZbLRnQcD1aIcTvbz1",
+   "name": "RUDOLPH"
+  },
+  {
+   "name": "ROB",
+   "uid": "zYxkG5GTR0Q8yBnAeoYAoNj6GGb2"
+  }
+ ]
+}

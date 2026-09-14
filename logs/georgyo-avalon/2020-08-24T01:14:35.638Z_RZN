@@ -1,0 +1,297 @@
+{
+ "players": [
+  {
+   "name": "FRANZ",
+   "uid": "P97JFBWkopgYd9GoHjK7QBYNO8g1"
+  },
+  {
+   "name": "CATA",
+   "uid": "PIjfbH3sK1fexoYCnLYdUMIJgYf1"
+  },
+  {
+   "uid": "RzkJtVsSEUdupyCYfGiKj6tCri23",
+   "name": "JONATHAN"
+  },
+  {
+   "name": "DIANA",
+   "uid": "v9fQlu8ndAb63fb7RagoLcEwUJF3"
+  },
+  {
+   "uid": "mUNhxnbGUzaj71jVpBRWWRfxYZ03",
+   "name": "MELANYA"
+  },
+  {
+   "name": "STEVEN",
+   "uid": "dCE3KPn9KxZnjfYXcS3lROGWrQm1"
+  },
+  {
+   "name": "CRISTIAN",
+   "uid": "KD6kp5oSYKT9wbu3x0dlKJMG6T83"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598231675,
+  "_nanoseconds": 638000000
+ },
+ "timeFinished": {
+  "_seconds": 1598232466,
+  "_nanoseconds": 504000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "CRISTIAN",
+    "MELANYA"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "FRANZ",
+      "DIANA",
+      "CATA",
+      "MELANYA",
+      "CRISTIAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CRISTIAN",
+      "MELANYA"
+     ],
+     "proposer": "MELANYA"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "FRANZ",
+      "MELANYA",
+      "DIANA",
+      "STEVEN",
+      "CATA"
+     ],
+     "proposer": "STEVEN",
+     "team": [
+      "MELANYA",
+      "JONATHAN",
+      "FRANZ"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "MELANYA",
+    "JONATHAN",
+    "FRANZ"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CRISTIAN",
+     "votes": [
+      "STEVEN",
+      "CRISTIAN",
+      "FRANZ",
+      "CATA",
+      "JONATHAN",
+      "MELANYA",
+      "DIANA"
+     ],
+     "team": [
+      "CATA",
+      "DIANA",
+      "STEVEN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "CATA",
+    "DIANA",
+    "STEVEN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MELANYA",
+    "STEVEN",
+    "CRISTIAN",
+    "DIANA"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "JONATHAN",
+      "FRANZ"
+     ],
+     "proposer": "FRANZ",
+     "team": [
+      "JONATHAN",
+      "STEVEN",
+      "CRISTIAN",
+      "FRANZ"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "CATA",
+      "MELANYA",
+      "JONATHAN",
+      "STEVEN",
+      "FRANZ",
+      "CRISTIAN",
+      "DIANA"
+     ],
+     "proposer": "CATA",
+     "team": [
+      "MELANYA",
+      "STEVEN",
+      "CRISTIAN",
+      "DIANA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CATA",
+      "DIANA",
+      "JONATHAN"
+     ],
+     "proposer": "JONATHAN",
+     "team": [
+      "DIANA",
+      "STEVEN",
+      "FRANZ",
+      "CATA"
+     ]
+    },
+    {
+     "votes": [
+      "CATA",
+      "MELANYA",
+      "STEVEN",
+      "DIANA",
+      "FRANZ",
+      "CRISTIAN",
+      "JONATHAN"
+     ],
+     "proposer": "DIANA",
+     "team": [
+      "DIANA",
+      "CRISTIAN",
+      "STEVEN",
+      "MELANYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "DIANA",
+    "CRISTIAN",
+    "STEVEN",
+    "MELANYA"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "MELANYA": true,
+    "CRISTIAN": true
+   },
+   {
+    "MELANYA": true,
+    "FRANZ": true,
+    "JONATHAN": false
+   },
+   {
+    "STEVEN": true,
+    "DIANA": false,
+    "CATA": true
+   },
+   {
+    "CRISTIAN": true,
+    "DIANA": true,
+    "STEVEN": true,
+    "MELANYA": true
+   },
+   {
+    "STEVEN": true,
+    "CRISTIAN": true,
+    "DIANA": false,
+    "MELANYA": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "DIANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FRANZ",
+    "assassin": false
+   },
+   {
+    "name": "MELANYA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CRISTIAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "CATA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "STEVEN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JONATHAN"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

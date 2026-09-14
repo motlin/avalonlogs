@@ -1,0 +1,291 @@
+{
+ "players": [
+  {
+   "name": "SNE",
+   "uid": "4wyOUES0NmVj4LAI5Kq4uOgbo2Y2"
+  },
+  {
+   "uid": "38unDnZjmGbcg7omgAXzEEtzgNn2",
+   "name": "PRANAV"
+  },
+  {
+   "uid": "1uqw1GrUz1OPVk8uZZBc8ao1XFJ2",
+   "name": "M"
+  },
+  {
+   "name": "HRICCHAI",
+   "uid": "jsuQcwkAh8hZufXyOKFSAxdlIZo1"
+  },
+  {
+   "name": "ROBOROBO",
+   "uid": "tPOBnWGNdlMlLkELrLAQBWgejUp2"
+  },
+  {
+   "name": "HRUDHAI",
+   "uid": "U0nkFO6IHkRUEddg0dwFiLK11xP2"
+  },
+  {
+   "uid": "dJk0zm45lpdRwzfgFhRzf21GThN2",
+   "name": "KILLER"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590937768,
+  "_nanoseconds": 854000000
+ },
+ "timeFinished": {
+  "_seconds": 1590938109,
+  "_nanoseconds": 941000000
+ },
+ "missions": [
+  {
+   "team": [
+    "M",
+    "HRUDHAI"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "HRUDHAI",
+      "ROBOROBO"
+     ],
+     "proposer": "M",
+     "votes": [
+      "HRICCHAI",
+      "M",
+      "PRANAV"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "HRICCHAI",
+     "votes": [
+      "HRICCHAI",
+      "M",
+      "SNE"
+     ],
+     "team": [
+      "ROBOROBO",
+      "HRICCHAI"
+     ]
+    },
+    {
+     "votes": [
+      "PRANAV",
+      "SNE",
+      "HRUDHAI",
+      "ROBOROBO",
+      "HRICCHAI",
+      "M"
+     ],
+     "team": [
+      "M",
+      "HRUDHAI"
+     ],
+     "proposer": "ROBOROBO",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "M",
+    "PRANAV",
+    "KILLER"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SNE",
+      "HRUDHAI",
+      "ROBOROBO",
+      "M",
+      "PRANAV",
+      "KILLER"
+     ],
+     "team": [
+      "M",
+      "PRANAV",
+      "KILLER"
+     ],
+     "proposer": "HRUDHAI"
+    }
+   ]
+  },
+  {
+   "team": [
+    "M",
+    "SNE",
+    "PRANAV"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "M",
+      "SNE",
+      "PRANAV"
+     ],
+     "state": "APPROVED",
+     "proposer": "KILLER",
+     "votes": [
+      "M",
+      "PRANAV",
+      "KILLER",
+      "SNE",
+      "HRICCHAI"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SNE",
+      "ROBOROBO",
+      "HRICCHAI",
+      "PRANAV",
+      "KILLER"
+     ],
+     "team": [
+      "KILLER",
+      "ROBOROBO",
+      "HRICCHAI",
+      "HRUDHAI"
+     ],
+     "proposer": "SNE"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "KILLER",
+    "ROBOROBO",
+    "HRICCHAI",
+    "HRUDHAI"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PRANAV",
+     "team": [
+      "PRANAV",
+      "HRICCHAI",
+      "KILLER",
+      "ROBOROBO"
+     ],
+     "votes": [
+      "M",
+      "PRANAV",
+      "KILLER",
+      "SNE",
+      "ROBOROBO",
+      "HRICCHAI"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "PRANAV",
+    "HRICCHAI",
+    "KILLER",
+    "ROBOROBO"
+   ],
+   "numFails": 1,
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "M": true,
+    "HRUDHAI": true
+   },
+   {
+    "PRANAV": true,
+    "M": false,
+    "KILLER": true
+   },
+   {
+    "SNE": false,
+    "PRANAV": true,
+    "M": true
+   },
+   {
+    "HRUDHAI": true,
+    "HRICCHAI": true,
+    "ROBOROBO": true,
+    "KILLER": true
+   },
+   {
+    "KILLER": true,
+    "PRANAV": true,
+    "HRICCHAI": true,
+    "ROBOROBO": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "M",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PRANAV"
+   },
+   {
+    "assassin": false,
+    "name": "KILLER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SNE",
+    "assassin": false
+   },
+   {
+    "name": "HRUDHAI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "ROBOROBO",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "HRICCHAI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ }
+}

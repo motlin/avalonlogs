@@ -1,0 +1,324 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "DAYN": true,
+    "PETROS": true,
+    "JARED": true
+   },
+   {
+    "DAYN": true,
+    "JARED": true,
+    "JOHN": false,
+    "PETROS": true
+   },
+   {
+    "PETROS": true,
+    "PARK": true,
+    "CHAERIM": false,
+    "JARED": true
+   },
+   {
+    "ENOCH": true,
+    "PETROS": true,
+    "PATTY": true,
+    "JARED": true,
+    "DAYN": true
+   },
+   {
+    "JARED": true,
+    "DAYN": true,
+    "ENOCH": false,
+    "PETROS": true,
+    "PATTY": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ENOCH"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DAYN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JOHN"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "CHAERIM"
+   },
+   {
+    "name": "PARK",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "PETROS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JARED",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MATT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "PATTY",
+    "role": "PERCIVAL"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "OITOapDeIAVbr8pQmcJ3KWWmmNg1",
+   "name": "PETROS"
+  },
+  {
+   "name": "MATT",
+   "uid": "lE4ui5HjtFeI1LwLWkuWohBegAn2"
+  },
+  {
+   "name": "PATTY",
+   "uid": "sRcSrqBFzXf1tqzWVvNJFtA99pf2"
+  },
+  {
+   "name": "CHAERIM",
+   "uid": "9LXLn6Ul28dz6sYCMHQZDiZcx4l1"
+  },
+  {
+   "name": "PARK",
+   "uid": "JKNn4MNnO3RXODCBeUJkxOsmL362"
+  },
+  {
+   "name": "ENOCH",
+   "uid": "JqzNq7whNEh9asJEK4cxy2DCYyM2"
+  },
+  {
+   "uid": "z6tDxgNWjBVrfx2Djo35sEMp9Wn1",
+   "name": "JARED"
+  },
+  {
+   "name": "DAYN",
+   "uid": "wISUfdqwHzTNVWWwRM2S2O0qNIJ3"
+  },
+  {
+   "uid": "ZHeJxCJimnQwJtBXLBKfrA1en953",
+   "name": "JOHN"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "JARED",
+    "DAYN",
+    "PETROS"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PATTY",
+      "MATT",
+      "CHAERIM",
+      "JARED",
+      "DAYN",
+      "JOHN",
+      "ENOCH",
+      "PARK",
+      "PETROS"
+     ],
+     "team": [
+      "JARED",
+      "DAYN",
+      "PETROS"
+     ],
+     "proposer": "DAYN"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "DAYN",
+      "JOHN",
+      "JARED",
+      "CHAERIM",
+      "PETROS",
+      "ENOCH",
+      "MATT"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JOHN",
+      "DAYN",
+      "PETROS",
+      "JARED"
+     ],
+     "proposer": "JOHN"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "JOHN",
+    "DAYN",
+    "PETROS",
+    "JARED"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "PARK",
+    "CHAERIM",
+    "PETROS",
+    "JARED"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "PARK",
+      "CHAERIM",
+      "PETROS",
+      "JARED"
+     ],
+     "proposer": "PETROS",
+     "state": "APPROVED",
+     "votes": [
+      "JARED",
+      "CHAERIM",
+      "ENOCH",
+      "PARK",
+      "PETROS",
+      "JOHN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "PATTY",
+    "PETROS",
+    "JARED",
+    "ENOCH",
+    "DAYN"
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "MATT",
+      "JARED",
+      "PATTY",
+      "CHAERIM",
+      "PARK"
+     ],
+     "state": "REJECTED",
+     "proposer": "MATT",
+     "votes": [
+      "MATT",
+      "CHAERIM",
+      "JOHN",
+      "PARK"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "PATTY",
+     "votes": [
+      "JOHN",
+      "CHAERIM",
+      "PATTY",
+      "DAYN",
+      "ENOCH",
+      "JARED"
+     ],
+     "team": [
+      "PATTY",
+      "PETROS",
+      "JARED",
+      "ENOCH",
+      "DAYN"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "CHAERIM",
+     "team": [
+      "PATTY",
+      "ENOCH",
+      "JARED",
+      "DAYN",
+      "PETROS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ENOCH",
+      "MATT",
+      "PARK",
+      "CHAERIM",
+      "PETROS",
+      "JOHN",
+      "PATTY",
+      "JARED",
+      "DAYN"
+     ]
+    }
+   ],
+   "team": [
+    "PATTY",
+    "ENOCH",
+    "JARED",
+    "DAYN",
+    "PETROS"
+   ],
+   "teamSize": 5,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1605416886,
+  "_nanoseconds": 143000000
+ },
+ "timeFinished": {
+  "_seconds": 1605418290,
+  "_nanoseconds": 952000000
+ }
+}

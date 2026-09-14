@@ -1,0 +1,217 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "KEVLAR",
+    "PRISCA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "KEVLAR",
+      "PRISCA"
+     ],
+     "proposer": "KEVLAR",
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "SAC",
+      "GABE",
+      "KEVLAR",
+      "PRISCA"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PRISCA",
+      "KEVLAR",
+      "MATT"
+     ],
+     "proposer": "PRISCA",
+     "state": "APPROVED",
+     "votes": [
+      "SAC",
+      "GABE",
+      "KEVLAR",
+      "PRISCA",
+      "MATT"
+     ]
+    }
+   ],
+   "team": [
+    "PRISCA",
+    "KEVLAR",
+    "MATT"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "SAC",
+    "GABE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MATT",
+      "SAC"
+     ],
+     "state": "REJECTED",
+     "proposer": "MATT",
+     "votes": [
+      "KEVLAR",
+      "MATT"
+     ]
+    },
+    {
+     "votes": [
+      "SAC",
+      "GABE",
+      "PRISCA"
+     ],
+     "team": [
+      "SAC",
+      "GABE"
+     ],
+     "proposer": "SAC",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GABE",
+      "KEVLAR",
+      "PRISCA",
+      "SAC"
+     ],
+     "team": [
+      "PRISCA",
+      "SAC",
+      "GABE"
+     ],
+     "proposer": "GABE"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "PRISCA",
+    "SAC",
+    "GABE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "assassinated": "SAC",
+  "votes": [
+   {
+    "PRISCA": true,
+    "KEVLAR": true
+   },
+   {
+    "PRISCA": true,
+    "KEVLAR": false,
+    "MATT": false
+   },
+   {
+    "SAC": true,
+    "GABE": true
+   },
+   {
+    "GABE": true,
+    "SAC": true,
+    "PRISCA": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "SAC"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GABE"
+   },
+   {
+    "role": "MORGANA",
+    "name": "KEVLAR",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "PRISCA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MATT",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "players": [
+  {
+   "uid": "d7nNTCgjkqPpmbML5O0EsKkVth22",
+   "name": "PRISCA"
+  },
+  {
+   "name": "MATT",
+   "uid": "3Z1CTAyJMWTIqDM8qDDApr2QqHs1"
+  },
+  {
+   "name": "SAC",
+   "uid": "VZOdIZRhT6gIEsGXPjlYzAf0JKM2"
+  },
+  {
+   "uid": "HUxEZ23vaBMcw9Umi9ZcRftEbMm2",
+   "name": "GABE"
+  },
+  {
+   "name": "KEVLAR",
+   "uid": "4C5j2CXoL3VUDeraoWO2WYEh93h2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586787490,
+  "_nanoseconds": 648255000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1586787295,
+  "_nanoseconds": 409000000
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "players": [
+  {
+   "name": "ADRIAN",
+   "uid": "nCIuoZdvenXVQcR9Pl42EnkfkO92"
+  },
+  {
+   "name": "ZAREENAH",
+   "uid": "ib1oo3Qyppb7cdWge0Z1IMGS6hQ2"
+  },
+  {
+   "uid": "12ampu9xP3QZvRKNDdGEiMlmGFH2",
+   "name": "TONKKOW"
+  },
+  {
+   "uid": "Rruh6j25tzbNhwLoaRnNc25Ng5s1",
+   "name": "YUPI"
+  },
+  {
+   "name": "BURUHTANI",
+   "uid": "fB20grjYDdVXCrYAbqUwqqlhz6i2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "ZAREENAH",
+    "TONKKOW"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "BURUHTANI",
+      "ZAREENAH",
+      "TONKKOW",
+      "ADRIAN"
+     ],
+     "proposer": "TONKKOW",
+     "team": [
+      "ZAREENAH",
+      "TONKKOW"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "YUPI",
+    "TONKKOW",
+    "ZAREENAH"
+   ],
+   "proposals": [
+    {
+     "proposer": "YUPI",
+     "votes": [
+      "TONKKOW",
+      "YUPI",
+      "ZAREENAH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YUPI",
+      "TONKKOW",
+      "ZAREENAH"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "TONKKOW",
+    "YUPI"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ZAREENAH",
+      "BURUHTANI"
+     ],
+     "proposer": "BURUHTANI",
+     "state": "REJECTED",
+     "team": [
+      "BURUHTANI",
+      "TONKKOW"
+     ]
+    },
+    {
+     "votes": [
+      "ADRIAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ADRIAN",
+      "BURUHTANI"
+     ],
+     "proposer": "ADRIAN"
+    },
+    {
+     "proposer": "ZAREENAH",
+     "votes": [
+      "YUPI",
+      "ZAREENAH",
+      "TONKKOW",
+      "BURUHTANI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "TONKKOW",
+      "YUPI"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TONKKOW",
+      "ZAREENAH",
+      "ADRIAN"
+     ],
+     "proposer": "TONKKOW",
+     "state": "APPROVED",
+     "votes": [
+      "BURUHTANI",
+      "YUPI",
+      "ZAREENAH",
+      "TONKKOW",
+      "ADRIAN"
+     ]
+    }
+   ],
+   "team": [
+    "TONKKOW",
+    "ZAREENAH",
+    "ADRIAN"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ZAREENAH"
+     ],
+     "proposer": "YUPI",
+     "state": "REJECTED",
+     "team": [
+      "TONKKOW",
+      "ZAREENAH",
+      "ADRIAN"
+     ]
+    },
+    {
+     "proposer": "BURUHTANI",
+     "state": "REJECTED",
+     "votes": [
+      "BURUHTANI"
+     ],
+     "team": [
+      "ZAREENAH",
+      "TONKKOW",
+      "BURUHTANI"
+     ]
+    },
+    {
+     "votes": [
+      "YUPI",
+      "ADRIAN",
+      "BURUHTANI"
+     ],
+     "proposer": "ADRIAN",
+     "state": "APPROVED",
+     "team": [
+      "ADRIAN",
+      "YUPI",
+      "BURUHTANI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ADRIAN",
+    "YUPI",
+    "BURUHTANI"
+   ],
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589558273,
+  "_nanoseconds": 563000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "TONKKOW": true,
+    "ZAREENAH": true
+   },
+   {
+    "YUPI": true,
+    "TONKKOW": true,
+    "ZAREENAH": true
+   },
+   {
+    "YUPI": true,
+    "TONKKOW": false
+   },
+   {
+    "TONKKOW": false,
+    "ZAREENAH": true,
+    "ADRIAN": true
+   },
+   {
+    "YUPI": true,
+    "BURUHTANI": true,
+    "ADRIAN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "YUPI",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "YUPI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ZAREENAH"
+   },
+   {
+    "name": "TONKKOW",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ADRIAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "BURUHTANI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1589558605,
+  "_nanoseconds": 870000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

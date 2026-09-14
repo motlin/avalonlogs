@@ -1,0 +1,301 @@
+{
+ "outcome": {
+  "assassinated": "MATT",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "CAROLINE": true,
+    "TAMEKIA": true,
+    "JESS": false
+   },
+   {
+    "DIANA": false,
+    "SOPHB": true,
+    "MATT": true,
+    "CAROLINE": true
+   },
+   {
+    "CAROLINE": true,
+    "SOPHW": true,
+    "MATT": true,
+    "TAMEKIA": true
+   },
+   {
+    "MATT": true,
+    "SOPHW": true,
+    "SOPHB": true,
+    "CAROLINE": true,
+    "TAMEKIA": true
+   },
+   {
+    "MATT": true,
+    "TAMEKIA": true,
+    "SOPHW": true,
+    "SOPHB": true,
+    "CAROLINE": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SOPHB",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JESS",
+    "assassin": true
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KAT",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CAROLINE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DIANA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "TAMEKIA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SOPHW",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MATT",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JESS",
+      "KAT",
+      "CAROLINE",
+      "DIANA",
+      "TAMEKIA",
+      "SOPHW",
+      "SOPHB"
+     ],
+     "state": "APPROVED",
+     "proposer": "TAMEKIA",
+     "team": [
+      "TAMEKIA",
+      "CAROLINE",
+      "JESS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TAMEKIA",
+    "CAROLINE",
+    "JESS"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "CAROLINE",
+    "MATT",
+    "DIANA",
+    "SOPHB"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CAROLINE",
+      "MATT",
+      "DIANA",
+      "SOPHB"
+     ],
+     "proposer": "JESS",
+     "votes": [
+      "DIANA",
+      "SOPHB",
+      "JESS",
+      "KAT",
+      "CAROLINE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "CAROLINE",
+    "MATT",
+    "TAMEKIA",
+    "SOPHW"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "CAROLINE",
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "JESS",
+      "CAROLINE",
+      "TAMEKIA",
+      "SOPHW"
+     ],
+     "team": [
+      "CAROLINE",
+      "MATT",
+      "TAMEKIA",
+      "SOPHW"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KAT",
+      "DIANA"
+     ],
+     "team": [
+      "TAMEKIA",
+      "SOPHW",
+      "CAROLINE",
+      "DIANA",
+      "KAT"
+     ],
+     "proposer": "KAT"
+    },
+    {
+     "votes": [
+      "SOPHW",
+      "MATT",
+      "SOPHB",
+      "CAROLINE",
+      "TAMEKIA"
+     ],
+     "team": [
+      "MATT",
+      "CAROLINE",
+      "TAMEKIA",
+      "SOPHW",
+      "SOPHB"
+     ],
+     "state": "APPROVED",
+     "proposer": "MATT"
+    }
+   ],
+   "team": [
+    "MATT",
+    "CAROLINE",
+    "TAMEKIA",
+    "SOPHW",
+    "SOPHB"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MATT",
+      "SOPHB",
+      "SOPHW",
+      "TAMEKIA",
+      "CAROLINE"
+     ],
+     "votes": [
+      "MATT",
+      "SOPHB",
+      "JESS",
+      "CAROLINE",
+      "TAMEKIA",
+      "SOPHW"
+     ],
+     "proposer": "SOPHB",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 5,
+   "team": [
+    "MATT",
+    "SOPHB",
+    "SOPHW",
+    "TAMEKIA",
+    "CAROLINE"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585358887,
+  "_nanoseconds": 967909000
+ },
+ "players": [
+  {
+   "uid": "LfsnZWfJMPUdeRUf2QLd09SCAha2",
+   "name": "MATT"
+  },
+  {
+   "name": "SOPHB",
+   "uid": "5TSBfdBjGzXyOdfgWwZAxCzIaWm2"
+  },
+  {
+   "name": "SOPHW",
+   "uid": "x5dL0Q0SiCe1kRvjYA5oYJItVch2"
+  },
+  {
+   "name": "DIANA",
+   "uid": "mL7thWHYi3U7Npqh6bRaSZLOkLj1"
+  },
+  {
+   "uid": "BTi960OVKwS7jfQ3UVz82YnRM9e2",
+   "name": "TAMEKIA"
+  },
+  {
+   "uid": "3NHWRRwMYjgoLFrMNpXT9L1PPKv1",
+   "name": "JESS"
+  },
+  {
+   "name": "CAROLINE",
+   "uid": "NInnG7YuvSO57FOtHZJjGzbSyiC2"
+  },
+  {
+   "name": "KAT",
+   "uid": "C9rcskwDQPT2VHmLeu9Go7HvtEN2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585357835,
+  "_nanoseconds": 806000000
+ }
+}

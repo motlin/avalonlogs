@@ -1,0 +1,227 @@
+{
+ "players": [
+  {
+   "uid": "gLLjpKCydvWcWZ2vgRhvlichNyt2",
+   "name": "MICHAE"
+  },
+  {
+   "name": "LEEBRYAN",
+   "uid": "CnT5Rwq9XUR8tAZvmUmXVxnUpji1"
+  },
+  {
+   "uid": "6bAd5iCRtSZUOaXnN2OFG1iLH123",
+   "name": "JUSTIN"
+  },
+  {
+   "name": "JACKYLMAO",
+   "uid": "weox4AvyhMSG1yRFxjYsCC7Qs1w2"
+  },
+  {
+   "name": "BRANDONBAE",
+   "uid": "Vbywt8tHaKdYQ7qH0ldGZrKIthH2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1584767484,
+  "_nanoseconds": 797000000
+ },
+ "timeFinished": {
+  "_seconds": 1584767847,
+  "_nanoseconds": 276331000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "JUSTIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BRANDONBAE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "JUSTIN"
+   },
+   {
+    "name": "LEEBRYAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JACKYLMAO",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": true,
+    "name": "MICHAE",
+    "role": "MORDRED"
+   }
+  ],
+  "votes": [
+   {
+    "JUSTIN": true,
+    "MICHAE": true
+   },
+   {
+    "JUSTIN": true,
+    "LEEBRYAN": true,
+    "MICHAE": true
+   },
+   {
+    "LEEBRYAN": true,
+    "MICHAE": false
+   },
+   {
+    "BRANDONBAE": true,
+    "JUSTIN": true,
+    "JACKYLMAO": false
+   },
+   {
+    "LEEBRYAN": true,
+    "BRANDONBAE": true,
+    "JUSTIN": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "MICHAE",
+    "JUSTIN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BRANDONBAE",
+      "JUSTIN",
+      "LEEBRYAN",
+      "JACKYLMAO",
+      "MICHAE"
+     ],
+     "team": [
+      "MICHAE",
+      "JUSTIN"
+     ],
+     "proposer": "MICHAE",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LEEBRYAN",
+      "JACKYLMAO",
+      "BRANDONBAE",
+      "JUSTIN"
+     ],
+     "proposer": "LEEBRYAN",
+     "team": [
+      "LEEBRYAN",
+      "MICHAE",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "team": [
+    "LEEBRYAN",
+    "MICHAE",
+    "JUSTIN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "LEEBRYAN",
+      "MICHAE"
+     ],
+     "proposer": "JUSTIN",
+     "state": "APPROVED",
+     "votes": [
+      "MICHAE",
+      "BRANDONBAE",
+      "JUSTIN",
+      "LEEBRYAN",
+      "JACKYLMAO"
+     ]
+    }
+   ],
+   "team": [
+    "LEEBRYAN",
+    "MICHAE"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BRANDONBAE",
+      "JACKYLMAO",
+      "MICHAE"
+     ],
+     "team": [
+      "JUSTIN",
+      "JACKYLMAO",
+      "BRANDONBAE"
+     ],
+     "proposer": "JACKYLMAO"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "JUSTIN",
+    "JACKYLMAO",
+    "BRANDONBAE"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BRANDONBAE",
+    "LEEBRYAN",
+    "JUSTIN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "BRANDONBAE",
+      "LEEBRYAN",
+      "JUSTIN"
+     ],
+     "proposer": "BRANDONBAE",
+     "votes": [
+      "BRANDONBAE",
+      "JUSTIN",
+      "LEEBRYAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  }
+ ]
+}

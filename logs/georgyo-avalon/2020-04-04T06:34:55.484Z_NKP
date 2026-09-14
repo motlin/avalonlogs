@@ -1,0 +1,300 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "OKSWAG",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RIAN"
+   },
+   {
+    "name": "DANI",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PISTACHIO",
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "PHATDUDE"
+   },
+   {
+    "role": "OBERON",
+    "name": "T",
+    "assassin": false
+   },
+   {
+    "name": "DAN",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "assassinated": "T",
+  "votes": [
+   {
+    "OKSWAG": true,
+    "PHATDUDE": true
+   },
+   {
+    "DAN": false,
+    "PISTACHIO": true,
+    "PHATDUDE": true
+   },
+   {
+    "T": false,
+    "OKSWAG": true,
+    "RIAN": true
+   },
+   {
+    "PHATDUDE": true,
+    "OKSWAG": true,
+    "DAN": false,
+    "PISTACHIO": true
+   },
+   {
+    "PISTACHIO": true,
+    "OKSWAG": true,
+    "RIAN": true,
+    "PHATDUDE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1585982095,
+  "_nanoseconds": 484000000
+ },
+ "timeFinished": {
+  "_seconds": 1585982588,
+  "_nanoseconds": 184228000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "PHATDUDE",
+    "OKSWAG"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "PHATDUDE",
+     "votes": [
+      "DAN",
+      "OKSWAG",
+      "RIAN",
+      "DANI",
+      "PISTACHIO",
+      "PHATDUDE",
+      "T"
+     ],
+     "team": [
+      "PHATDUDE",
+      "OKSWAG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "PISTACHIO",
+    "PHATDUDE",
+    "DAN"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DAN",
+      "RIAN",
+      "T"
+     ],
+     "team": [
+      "DANI",
+      "DAN",
+      "RIAN"
+     ],
+     "proposer": "DANI"
+    },
+    {
+     "team": [
+      "PISTACHIO",
+      "PHATDUDE",
+      "DAN"
+     ],
+     "proposer": "PISTACHIO",
+     "votes": [
+      "DAN",
+      "OKSWAG",
+      "PISTACHIO",
+      "PHATDUDE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "DAN",
+      "OKSWAG",
+      "PHATDUDE"
+     ],
+     "votes": [
+      "DAN",
+      "OKSWAG",
+      "PHATDUDE"
+     ],
+     "state": "REJECTED",
+     "proposer": "DAN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "T",
+      "RIAN",
+      "PHATDUDE"
+     ],
+     "votes": [
+      "T",
+      "RIAN",
+      "DANI"
+     ],
+     "proposer": "T"
+    },
+    {
+     "proposer": "RIAN",
+     "votes": [
+      "T",
+      "DAN",
+      "OKSWAG",
+      "RIAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RIAN",
+      "T",
+      "OKSWAG"
+     ]
+    }
+   ],
+   "team": [
+    "RIAN",
+    "T",
+    "OKSWAG"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "OKSWAG",
+      "PISTACHIO",
+      "PHATDUDE",
+      "T",
+      "DAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "OKSWAG",
+     "team": [
+      "OKSWAG",
+      "PHATDUDE",
+      "DAN",
+      "PISTACHIO"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 2,
+   "team": [
+    "OKSWAG",
+    "PHATDUDE",
+    "DAN",
+    "PISTACHIO"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "PHATDUDE",
+    "OKSWAG",
+    "PISTACHIO",
+    "RIAN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "PHATDUDE",
+     "votes": [
+      "T",
+      "RIAN",
+      "PISTACHIO",
+      "PHATDUDE"
+     ],
+     "team": [
+      "PHATDUDE",
+      "OKSWAG",
+      "PISTACHIO",
+      "RIAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "DAN",
+   "uid": "lBs7HTfpmwguADs2qdGYdul0oTo2"
+  },
+  {
+   "uid": "X5GiVMP6pHN5dQLtDvP03TSIuOk1",
+   "name": "T"
+  },
+  {
+   "name": "RIAN",
+   "uid": "gF6kBgZToWaTVDdc8YwpIkf3DqV2"
+  },
+  {
+   "name": "OKSWAG",
+   "uid": "DpyoWEBuc4fGBYjo2tBdCtRfBH53"
+  },
+  {
+   "uid": "2U36fSJyZ9aNTJFNBJIs9Rd7WK22",
+   "name": "PHATDUDE"
+  },
+  {
+   "name": "DANI",
+   "uid": "lXU3iC2laGey8v3C36bFdO9etH63"
+  },
+  {
+   "uid": "9adf5vRsGfcLOqG8gdYKKQBc2vq2",
+   "name": "PISTACHIO"
+  }
+ ]
+}

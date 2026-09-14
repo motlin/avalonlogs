@@ -1,0 +1,205 @@
+{
+ "timeFinished": {
+  "_seconds": 1604962585,
+  "_nanoseconds": 893000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "SOMELISSA": true,
+    "DANI": true
+   },
+   {
+    "DANI": true,
+    "NICO": false,
+    "FERDINAS": true
+   },
+   {
+    "FERDINAS": true,
+    "NICO": false
+   },
+   {
+    "DANI": true,
+    "SOMELISSA": false,
+    "FERDINAS": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DANI",
+    "assassin": false
+   },
+   {
+    "name": "FERDINAS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ANNE",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SOMELISSA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "NICO",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DANI",
+      "SOMELISSA"
+     ],
+     "votes": [
+      "DANI",
+      "FERDINAS",
+      "SOMELISSA",
+      "ANNE",
+      "NICO"
+     ],
+     "proposer": "SOMELISSA"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "DANI",
+    "SOMELISSA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DANI",
+      "NICO",
+      "FERDINAS"
+     ],
+     "proposer": "ANNE",
+     "votes": [
+      "ANNE",
+      "FERDINAS",
+      "SOMELISSA",
+      "NICO"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "DANI",
+    "NICO",
+    "FERDINAS"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "SOMELISSA",
+      "FERDINAS",
+      "NICO"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FERDINAS",
+      "NICO"
+     ],
+     "proposer": "NICO"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "FERDINAS",
+    "NICO"
+   ],
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "FERDINAS",
+    "SOMELISSA",
+    "DANI"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "FERDINAS",
+      "SOMELISSA",
+      "DANI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FERDINAS",
+      "SOMELISSA",
+      "NICO",
+      "ANNE",
+      "DANI"
+     ],
+     "proposer": "FERDINAS"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604962323,
+  "_nanoseconds": 77000000
+ },
+ "players": [
+  {
+   "name": "DANI",
+   "uid": "MbconwiSprdBngrKlpC9rs2Fcal1"
+  },
+  {
+   "uid": "BwASw66MLFbWpLWOy63SrzOQAq12",
+   "name": "SOMELISSA"
+  },
+  {
+   "uid": "bG5hs9n3NoSe9Cdx6mCPVHB7D4k2",
+   "name": "ANNE"
+  },
+  {
+   "uid": "7bcFVXGPF8dfJ8xeALePK7CnnuA3",
+   "name": "NICO"
+  },
+  {
+   "name": "FERDINAS",
+   "uid": "6cR9iMssXfXDMOoDozqjjJuRGNY2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

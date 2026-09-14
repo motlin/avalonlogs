@@ -1,0 +1,232 @@
+{
+ "players": [
+  {
+   "uid": "fjQZGtOmRHVfbUPJfemn6Z6rzFk2",
+   "name": "CALEB"
+  },
+  {
+   "name": "LES",
+   "uid": "OFOtJ6c1oSQXO3tSybBsrxlE6HA2"
+  },
+  {
+   "name": "RACHEL",
+   "uid": "Ca3VT5d9X2SOfy4zFq3XplRuVlD3"
+  },
+  {
+   "name": "LONG",
+   "uid": "fkXAhd677lekXNAxDTRvyrb5V9c2"
+  },
+  {
+   "uid": "5M9lxOesmddojA9xVTFSY0BXId53",
+   "name": "JOEBIDEN"
+  },
+  {
+   "name": "JINA",
+   "uid": "7aUliTr46oepOOspk2OMPNXEOe23"
+  },
+  {
+   "uid": "Mlm1iPsFnkadIdaT2OivVH67uxz2",
+   "name": "BETHARONI"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JINA",
+     "votes": [
+      "LES",
+      "BETHARONI",
+      "RACHEL",
+      "JINA",
+      "JOEBIDEN"
+     ],
+     "team": [
+      "JINA",
+      "JOEBIDEN"
+     ]
+    }
+   ],
+   "team": [
+    "JINA",
+    "JOEBIDEN"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JOEBIDEN",
+    "JINA",
+    "BETHARONI"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JINA",
+      "JOEBIDEN",
+      "LES",
+      "BETHARONI"
+     ],
+     "proposer": "BETHARONI",
+     "state": "APPROVED",
+     "team": [
+      "JOEBIDEN",
+      "JINA",
+      "BETHARONI"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "CALEB",
+    "RACHEL",
+    "BETHARONI"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JINA",
+      "JOEBIDEN",
+      "BETHARONI",
+      "RACHEL",
+      "CALEB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CALEB",
+      "RACHEL",
+      "BETHARONI"
+     ],
+     "proposer": "CALEB"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "LES",
+      "CALEB",
+      "RACHEL",
+      "BETHARONI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LES",
+      "BETHARONI",
+      "RACHEL",
+      "CALEB",
+      "JINA",
+      "JOEBIDEN"
+     ],
+     "proposer": "LES"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "LES",
+    "CALEB",
+    "RACHEL",
+    "BETHARONI"
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JINA": true,
+    "JOEBIDEN": true
+   },
+   {
+    "JOEBIDEN": true,
+    "BETHARONI": true,
+    "JINA": false
+   },
+   {
+    "CALEB": true,
+    "RACHEL": true,
+    "BETHARONI": true
+   },
+   {
+    "LES": true,
+    "RACHEL": true,
+    "BETHARONI": false,
+    "CALEB": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JOEBIDEN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "BETHARONI"
+   },
+   {
+    "assassin": false,
+    "name": "LES",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "RACHEL",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "LONG"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CALEB"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "JINA"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "JOEBIDEN"
+ },
+ "timeFinished": {
+  "_seconds": 1595470054,
+  "_nanoseconds": 763000000
+ },
+ "timeCreated": {
+  "_seconds": 1595469686,
+  "_nanoseconds": 623000000
+ }
+}

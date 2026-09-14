@@ -1,0 +1,215 @@
+{
+ "timeCreated": {
+  "_seconds": 1590813990,
+  "_nanoseconds": 99000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "NOAH": true,
+    "KEVIN": true
+   },
+   {
+    "KEVIN": true,
+    "JAKE": true,
+    "NOAH": true
+   },
+   {
+    "JAKE": true,
+    "KEVIN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "NOAH",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "CAT",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JAKE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "N"
+   },
+   {
+    "assassin": false,
+    "name": "KEVIN",
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": "NOAH",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "NOAH",
+      "CAT",
+      "JAKE",
+      "KEVIN"
+     ],
+     "team": [
+      "NOAH",
+      "KEVIN"
+     ],
+     "proposer": "NOAH",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "NOAH",
+    "KEVIN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "KEVIN",
+    "NOAH",
+    "JAKE"
+   ],
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "state": "REJECTED",
+     "votes": [
+      "KEVIN",
+      "CAT"
+     ],
+     "team": [
+      "NOAH",
+      "KEVIN",
+      "CAT"
+     ]
+    },
+    {
+     "votes": [
+      "CAT",
+      "JAKE"
+     ],
+     "proposer": "CAT",
+     "state": "REJECTED",
+     "team": [
+      "CAT",
+      "KEVIN",
+      "NOAH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAKE",
+      "N"
+     ],
+     "team": [
+      "N",
+      "JAKE",
+      "KEVIN"
+     ],
+     "proposer": "N"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KEVIN",
+      "NOAH",
+      "JAKE"
+     ],
+     "proposer": "JAKE",
+     "votes": [
+      "KEVIN",
+      "NOAH",
+      "JAKE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "KEVIN",
+      "JAKE"
+     ],
+     "proposer": "NOAH",
+     "state": "APPROVED",
+     "votes": [
+      "JAKE",
+      "KEVIN",
+      "NOAH"
+     ]
+    }
+   ],
+   "team": [
+    "KEVIN",
+    "JAKE"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590814998,
+  "_nanoseconds": 757000000
+ },
+ "players": [
+  {
+   "name": "NOAH",
+   "uid": "bhywJNDIu6XV798ROcMVUMq5DTv1"
+  },
+  {
+   "uid": "gR5l4L4qqnUaGhkfa3IQy7D8euS2",
+   "name": "KEVIN"
+  },
+  {
+   "uid": "536YJ0orocWas0gR0JoIDm6heWO2",
+   "name": "CAT"
+  },
+  {
+   "uid": "oc80wWDoG9VOdBKghFooZSjAS1x1",
+   "name": "N"
+  },
+  {
+   "uid": "zsrFNinNjzeQtj3dh75utQkjXDJ3",
+   "name": "JAKE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

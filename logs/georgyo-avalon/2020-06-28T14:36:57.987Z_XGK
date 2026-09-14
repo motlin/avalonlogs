@@ -1,0 +1,222 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ABBY",
+    "EMILY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ABBY",
+      "EMILY"
+     ],
+     "state": "APPROVED",
+     "proposer": "ABBY",
+     "votes": [
+      "ABBY",
+      "JL",
+      "ABOB",
+      "EMILY",
+      "CHARLOTTE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "JAMES",
+    "ABBY",
+    "EMILY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JAMES",
+      "ABBY",
+      "EMILY"
+     ],
+     "votes": [
+      "ABBY",
+      "JL",
+      "ABOB",
+      "JAMES",
+      "EMILY",
+      "CHARLOTTE"
+     ],
+     "proposer": "JAMES"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ABBY",
+      "JL",
+      "EMILY",
+      "CHARLOTTE"
+     ],
+     "team": [
+      "EMILY",
+      "ABBY",
+      "CHARLOTTE",
+      "JL"
+     ],
+     "state": "APPROVED",
+     "proposer": "EMILY"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "EMILY",
+    "ABBY",
+    "CHARLOTTE",
+    "JL"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "CHARLOTTE",
+    "JAMES",
+    "ABOB"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHARLOTTE",
+     "votes": [
+      "CHARLOTTE",
+      "ABBY",
+      "ABOB",
+      "JAMES"
+     ],
+     "team": [
+      "CHARLOTTE",
+      "JAMES",
+      "ABOB"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": []
+  }
+ ],
+ "players": [
+  {
+   "uid": "4SsapSIAITbFrsTjAU9pBmanqqa2",
+   "name": "EMILY"
+  },
+  {
+   "name": "CHARLOTTE",
+   "uid": "xen6o0h2wrcP30KrH9X4K1PfQYw2"
+  },
+  {
+   "name": "ABOB",
+   "uid": "FoFNcgOeelVV5JvFO7kdPgZOm4W2"
+  },
+  {
+   "name": "JL",
+   "uid": "CKUfVGORC8ZxiGeQz768PUZb8X23"
+  },
+  {
+   "uid": "2t77tYFfdMYB9btTusZk5SB8DX32",
+   "name": "ABBY"
+  },
+  {
+   "name": "JAMES",
+   "uid": "Nh1F1AaEpoMb0qS2mGPCjETMJyi2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593355774,
+  "_nanoseconds": 588000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "EMILY",
+    "assassin": false
+   },
+   {
+    "name": "CHARLOTTE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "ABBY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JL"
+   },
+   {
+    "assassin": false,
+    "name": "ABOB",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JAMES"
+   }
+  ],
+  "votes": [
+   {
+    "EMILY": true,
+    "ABBY": true
+   },
+   {
+    "JAMES": true,
+    "ABBY": false,
+    "EMILY": true
+   },
+   {
+    "EMILY": true,
+    "CHARLOTTE": true,
+    "ABBY": false,
+    "JL": true
+   },
+   {
+    "CHARLOTTE": false,
+    "JAMES": true,
+    "ABOB": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1593355017,
+  "_nanoseconds": 987000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

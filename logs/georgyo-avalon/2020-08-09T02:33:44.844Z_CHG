@@ -1,0 +1,233 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MATT": true,
+    "DANIEL": false,
+    "BRIANKOCK": true
+   },
+   {
+    "NICK": true,
+    "DANIEL": false,
+    "BRIAN": true,
+    "JASON": true
+   },
+   {
+    "SAM": false,
+    "AREEB": true,
+    "NICK": true,
+    "HAOXIANIAN": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "SAM"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AREEB",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BRIAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRIANKOCK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MATT",
+    "assassin": false
+   },
+   {
+    "name": "HAOXIANIAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "DANIEL",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JASON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NICK",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "MATT",
+   "uid": "5XRIF3BUgLaDQGzH9NYiJGFICOx2"
+  },
+  {
+   "name": "BRIANKOCK",
+   "uid": "FqDiHTYPiofwzNWKnWIICd7NWPU2"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "9cGR7dLMiMeiD4iHs0jwZg6ySe92"
+  },
+  {
+   "name": "NICK",
+   "uid": "uyPnYVTPwaaWwQCQXUvqCxAeueY2"
+  },
+  {
+   "uid": "0qZgXtbha7PkZDfNZU61RAsxBSG3",
+   "name": "HAOXIANIAN"
+  },
+  {
+   "name": "JASON",
+   "uid": "50bRte8aFSebeTCMpMWGCl3wzI33"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "mezZ6oKtgBYvcQj1bnSX4FsnykC3"
+  },
+  {
+   "uid": "LE6zPI4LJah0kk37QvFvPOzr47L2",
+   "name": "SAM"
+  },
+  {
+   "name": "AREEB",
+   "uid": "VCqxFhiukTYSHrcOxpnwjJSzWbi1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "team": [
+    "BRIANKOCK",
+    "MATT",
+    "DANIEL"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "BRIANKOCK",
+     "votes": [
+      "NICK",
+      "BRIANKOCK",
+      "JASON",
+      "BRIAN",
+      "SAM",
+      "MATT",
+      "HAOXIANIAN",
+      "DANIEL"
+     ],
+     "team": [
+      "BRIANKOCK",
+      "MATT",
+      "DANIEL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DANIEL",
+      "NICK",
+      "JASON",
+      "BRIAN"
+     ],
+     "votes": [
+      "JASON",
+      "DANIEL",
+      "SAM",
+      "HAOXIANIAN",
+      "BRIAN",
+      "MATT"
+     ],
+     "proposer": "DANIEL"
+    }
+   ],
+   "team": [
+    "DANIEL",
+    "NICK",
+    "JASON",
+    "BRIAN"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "NICK",
+      "HAOXIANIAN",
+      "SAM",
+      "AREEB",
+      "BRIAN"
+     ],
+     "proposer": "NICK",
+     "team": [
+      "HAOXIANIAN",
+      "NICK",
+      "SAM",
+      "AREEB"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "HAOXIANIAN",
+    "NICK",
+    "SAM",
+    "AREEB"
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596940715,
+  "_nanoseconds": 34000000
+ },
+ "timeCreated": {
+  "_seconds": 1596940424,
+  "_nanoseconds": 844000000
+ }
+}

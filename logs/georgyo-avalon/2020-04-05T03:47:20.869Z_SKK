@@ -1,0 +1,286 @@
+{
+ "timeFinished": {
+  "_seconds": 1586059224,
+  "_nanoseconds": 125665000
+ },
+ "timeCreated": {
+  "_seconds": 1586058440,
+  "_nanoseconds": 869000000
+ },
+ "players": [
+  {
+   "name": "ABHIJIT",
+   "uid": "Cbek5quCbMXh0nH2uTRtrGhOcQF2"
+  },
+  {
+   "uid": "1bz2fcupAHODa9KF63TRCnx1rSJ2",
+   "name": "BANANA"
+  },
+  {
+   "name": "PK",
+   "uid": "WZ8JQIfR06MlzZ1fhXMD6vZB1dl1"
+  },
+  {
+   "uid": "fEVex2slDlU9ZqUqgSNagZgVoWV2",
+   "name": "ANIKETH"
+  },
+  {
+   "uid": "uvTKsj0H3zL7a3QH0DPOsm4F1Po1",
+   "name": "CHAI"
+  },
+  {
+   "name": "SUSHI",
+   "uid": "2uqTQJi8WAcB9kPOheGaogiqkL13"
+  },
+  {
+   "name": "MARLIN",
+   "uid": "ya2iQoakGYTOhfW79s1C4atlNqg2"
+  },
+  {
+   "name": "KEERTANA",
+   "uid": "1yPBBYFxatafhUlSbGaT7D4RtH52"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "ANIKETH",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "MARLIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ABHIJIT",
+    "assassin": false
+   },
+   {
+    "name": "BANANA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "KEERTANA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHAI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "PK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SUSHI"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CHAI": true,
+    "PK": true,
+    "ANIKETH": false
+   },
+   {
+    "ANIKETH": true,
+    "KEERTANA": true,
+    "MARLIN": true,
+    "CHAI": true
+   },
+   {
+    "CHAI": true,
+    "SUSHI": true,
+    "MARLIN": true,
+    "KEERTANA": true
+   },
+   {
+    "BANANA": false,
+    "CHAI": true,
+    "SUSHI": true,
+    "MARLIN": true,
+    "ANIKETH": false
+   },
+   {
+    "MARLIN": true,
+    "BANANA": false,
+    "ABHIJIT": false,
+    "SUSHI": true,
+    "KEERTANA": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANIKETH",
+      "CHAI",
+      "PK"
+     ],
+     "votes": [
+      "SUSHI",
+      "ANIKETH",
+      "MARLIN",
+      "ABHIJIT",
+      "BANANA",
+      "KEERTANA",
+      "CHAI",
+      "PK"
+     ],
+     "proposer": "ANIKETH"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ANIKETH",
+    "CHAI",
+    "PK"
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "CHAI",
+    "ANIKETH",
+    "MARLIN",
+    "KEERTANA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARLIN",
+      "ABHIJIT",
+      "BANANA",
+      "KEERTANA",
+      "CHAI"
+     ],
+     "team": [
+      "CHAI",
+      "ANIKETH",
+      "MARLIN",
+      "KEERTANA"
+     ],
+     "proposer": "CHAI"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SUSHI",
+     "votes": [
+      "SUSHI",
+      "ANIKETH",
+      "MARLIN",
+      "KEERTANA",
+      "CHAI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MARLIN",
+      "KEERTANA",
+      "CHAI",
+      "SUSHI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "MARLIN",
+    "KEERTANA",
+    "CHAI",
+    "SUSHI"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ABHIJIT",
+      "KEERTANA",
+      "CHAI",
+      "SUSHI",
+      "MARLIN"
+     ],
+     "proposer": "MARLIN",
+     "team": [
+      "MARLIN",
+      "CHAI",
+      "SUSHI",
+      "BANANA",
+      "ANIKETH"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "MARLIN",
+    "CHAI",
+    "SUSHI",
+    "BANANA",
+    "ANIKETH"
+   ],
+   "teamSize": 5,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ABHIJIT",
+      "BANANA",
+      "KEERTANA",
+      "CHAI",
+      "ANIKETH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KEERTANA",
+      "MARLIN",
+      "SUSHI",
+      "ABHIJIT",
+      "BANANA"
+     ],
+     "proposer": "KEERTANA"
+    }
+   ],
+   "team": [
+    "KEERTANA",
+    "MARLIN",
+    "SUSHI",
+    "ABHIJIT",
+    "BANANA"
+   ],
+   "teamSize": 5,
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1
+  }
+ ]
+}

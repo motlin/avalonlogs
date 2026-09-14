@@ -1,0 +1,215 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "BRIAN",
+    "SAMMYBOY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BRIAN",
+      "SAMMYBOY"
+     ],
+     "proposer": "SAMMYBOY",
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "KHRUSHCHEV",
+      "SARA",
+      "SAMMYBOY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "SAMMYBOY",
+    "KHRUSHCHEV",
+    "BRIAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SAMMYBOY",
+      "KHRUSHCHEV",
+      "SARA"
+     ],
+     "proposer": "SARA",
+     "team": [
+      "SAMMYBOY",
+      "KHRUSHCHEV",
+      "BRIAN"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "CALEB",
+    "SAMMYBOY"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "KHRUSHCHEV",
+     "votes": [
+      "KHRUSHCHEV"
+     ],
+     "team": [
+      "SAMMYBOY",
+      "KHRUSHCHEV"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "CALEB",
+     "votes": [
+      "BRIAN",
+      "KHRUSHCHEV",
+      "SARA",
+      "CALEB",
+      "SAMMYBOY"
+     ],
+     "team": [
+      "CALEB",
+      "SAMMYBOY"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "BRIAN",
+     "state": "APPROVED",
+     "votes": [
+      "SARA",
+      "BRIAN",
+      "CALEB",
+      "KHRUSHCHEV"
+     ],
+     "team": [
+      "BRIAN",
+      "SARA",
+      "KHRUSHCHEV"
+     ]
+    }
+   ],
+   "team": [
+    "BRIAN",
+    "SARA",
+    "KHRUSHCHEV"
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SAMMYBOY": true,
+    "BRIAN": true
+   },
+   {
+    "SAMMYBOY": true,
+    "BRIAN": true,
+    "KHRUSHCHEV": false
+   },
+   {
+    "SAMMYBOY": true,
+    "CALEB": false
+   },
+   {
+    "SARA": true,
+    "BRIAN": true,
+    "KHRUSHCHEV": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SARA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "KHRUSHCHEV"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SAMMYBOY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BRIAN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "CALEB"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1614393799,
+  "_nanoseconds": 287000000
+ },
+ "timeFinished": {
+  "_seconds": 1614394087,
+  "_nanoseconds": 963000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "YNuslEESHqOp6USUpGWPnkEbzIt1",
+   "name": "BRIAN"
+  },
+  {
+   "name": "SAMMYBOY",
+   "uid": "bPy7bwp01AMFbBW7lzCZ5bRfBnl1"
+  },
+  {
+   "name": "SARA",
+   "uid": "5zTs0wx9lORtelv9GIiJgr0wcnU2"
+  },
+  {
+   "name": "KHRUSHCHEV",
+   "uid": "3O9SFMNZkgaAm6xG1dO6IHWcg4C2"
+  },
+  {
+   "name": "CALEB",
+   "uid": "ObVjYypinkNGZsVUeIyYeh0Oomx1"
+  }
+ ]
+}

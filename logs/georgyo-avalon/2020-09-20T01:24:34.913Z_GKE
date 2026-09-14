@@ -1,0 +1,250 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CAREN",
+    "role": "MERLIN"
+   },
+   {
+    "name": "DWIS",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "RANKA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BELVERA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "EMELIA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "SNOOZE",
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "DWIS": true,
+    "EMELIA": true
+   },
+   {
+    "RANKA": true,
+    "DWIS": false,
+    "EMELIA": true
+   },
+   {
+    "SNOOZE": false,
+    "BELVERA": true,
+    "CAREN": true,
+    "RANKA": true
+   },
+   {
+    "BELVERA": true,
+    "SNOOZE": false,
+    "EMELIA": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "EMELIA",
+    "DWIS"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "EMELIA",
+      "DWIS"
+     ],
+     "proposer": "EMELIA",
+     "votes": [
+      "CAREN",
+      "SNOOZE",
+      "EMELIA",
+      "RANKA",
+      "DWIS",
+      "BELVERA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SNOOZE",
+      "RANKA",
+      "DWIS",
+      "CAREN",
+      "EMELIA",
+      "BELVERA"
+     ],
+     "proposer": "RANKA",
+     "state": "APPROVED",
+     "team": [
+      "RANKA",
+      "EMELIA",
+      "DWIS"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "RANKA",
+    "EMELIA",
+    "DWIS"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMELIA",
+      "RANKA",
+      "BELVERA",
+      "CAREN",
+      "DWIS"
+     ],
+     "team": [
+      "SNOOZE",
+      "BELVERA",
+      "CAREN",
+      "RANKA"
+     ],
+     "proposer": "SNOOZE"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "SNOOZE",
+    "BELVERA",
+    "CAREN",
+    "RANKA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "SNOOZE",
+    "BELVERA",
+    "EMELIA"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "BELVERA",
+     "state": "REJECTED",
+     "team": [
+      "BELVERA",
+      "CAREN",
+      "EMELIA"
+     ],
+     "votes": [
+      "BELVERA",
+      "DWIS",
+      "CAREN"
+     ]
+    },
+    {
+     "team": [
+      "RANKA",
+      "EMELIA",
+      "CAREN"
+     ],
+     "votes": [
+      "CAREN"
+     ],
+     "state": "REJECTED",
+     "proposer": "CAREN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMELIA",
+      "RANKA",
+      "DWIS",
+      "SNOOZE"
+     ],
+     "proposer": "DWIS",
+     "team": [
+      "SNOOZE",
+      "BELVERA",
+      "EMELIA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1600565502,
+  "_nanoseconds": 230000000
+ },
+ "players": [
+  {
+   "name": "SNOOZE",
+   "uid": "fGWClpomwQUuMv4eJAKliu9YKxv2"
+  },
+  {
+   "uid": "TUMeLvvp9aUvxEhB2doUt2RA6zC2",
+   "name": "BELVERA"
+  },
+  {
+   "name": "CAREN",
+   "uid": "7iaEdKl9OSaDyHb02JSQ5yvG1ii2"
+  },
+  {
+   "uid": "LpC0hT7T0gVF8npGzcyzWc7sl4q1",
+   "name": "DWIS"
+  },
+  {
+   "name": "EMELIA",
+   "uid": "dBbd3XlIQQTywtz1chVmMM0djHF2"
+  },
+  {
+   "uid": "cxXcO606nRS1xBTs03uewu5EPQD2",
+   "name": "RANKA"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1600565074,
+  "_nanoseconds": 913000000
+ }
+}

@@ -1,0 +1,370 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "KARLIN": true,
+    "JAMES": true,
+    "YELIN": true
+   },
+   {
+    "KARLIN": true,
+    "JAMES": true,
+    "STEPH": false,
+    "YELIN": true
+   },
+   {
+    "STEPH": false,
+    "NIKOLAS": true,
+    "NICK": true,
+    "JAMES": true
+   },
+   {
+    "ABBY": true,
+    "AARON": true,
+    "NICK": true,
+    "YELIN": true,
+    "NIKOLAS": true
+   },
+   {
+    "NICK": true,
+    "JAMES": true,
+    "YELIN": true,
+    "AARON": true,
+    "ABBY": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AARON",
+    "assassin": false
+   },
+   {
+    "name": "ABBY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JAMES",
+    "role": "MERLIN"
+   },
+   {
+    "name": "NIKOLAS",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "YELIN"
+   },
+   {
+    "assassin": false,
+    "name": "STEPH",
+    "role": "OBERON"
+   },
+   {
+    "name": "NICK",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "KARLIN"
+   }
+  ],
+  "assassinated": "JAMES"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JAMES",
+      "NIKOLAS",
+      "YELIN",
+      "STEPH",
+      "NICK",
+      "KARLIN",
+      "AARON",
+      "ABBY"
+     ],
+     "proposer": "JAMES",
+     "team": [
+      "JAMES",
+      "YELIN",
+      "KARLIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "JAMES",
+    "YELIN",
+    "KARLIN"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "YELIN",
+     "state": "APPROVED",
+     "team": [
+      "JAMES",
+      "YELIN",
+      "KARLIN",
+      "STEPH"
+     ],
+     "votes": [
+      "JAMES",
+      "NIKOLAS",
+      "YELIN",
+      "STEPH",
+      "KARLIN",
+      "AARON",
+      "ABBY"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "JAMES",
+    "YELIN",
+    "KARLIN",
+    "STEPH"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ABBY",
+     "votes": [
+      "ABBY",
+      "NIKOLAS"
+     ],
+     "team": [
+      "ABBY",
+      "JAMES",
+      "KARLIN",
+      "YELIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NICK",
+      "AARON",
+      "ABBY",
+      "NIKOLAS",
+      "YELIN",
+      "STEPH"
+     ],
+     "proposer": "NIKOLAS",
+     "team": [
+      "NIKOLAS",
+      "NICK",
+      "STEPH",
+      "JAMES"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "NIKOLAS",
+    "NICK",
+    "STEPH",
+    "JAMES"
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "STEPH",
+      "KARLIN"
+     ],
+     "team": [
+      "KARLIN",
+      "NIKOLAS",
+      "NICK",
+      "ABBY",
+      "STEPH"
+     ],
+     "proposer": "KARLIN"
+    },
+    {
+     "team": [
+      "JAMES",
+      "NICK",
+      "KARLIN",
+      "NIKOLAS",
+      "AARON"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "STEPH",
+      "KARLIN"
+     ],
+     "proposer": "STEPH"
+    },
+    {
+     "proposer": "NICK",
+     "votes": [
+      "AARON",
+      "ABBY",
+      "JAMES",
+      "NIKOLAS",
+      "YELIN",
+      "STEPH",
+      "NICK",
+      "KARLIN"
+     ],
+     "team": [
+      "NICK",
+      "AARON",
+      "YELIN",
+      "NIKOLAS",
+      "ABBY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "NICK",
+    "AARON",
+    "YELIN",
+    "NIKOLAS",
+    "ABBY"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "AARON",
+     "votes": [
+      "JAMES"
+     ],
+     "team": [
+      "AARON",
+      "JAMES",
+      "YELIN",
+      "ABBY",
+      "NICK"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NICK",
+      "AARON",
+      "JAMES",
+      "YELIN",
+      "ABBY"
+     ],
+     "votes": [
+      "AARON",
+      "ABBY",
+      "JAMES",
+      "NICK"
+     ],
+     "proposer": "JAMES"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ABBY",
+      "YELIN",
+      "JAMES",
+      "AARON",
+      "NICK"
+     ],
+     "votes": [
+      "AARON",
+      "ABBY",
+      "JAMES",
+      "YELIN",
+      "NICK"
+     ],
+     "proposer": "YELIN"
+    }
+   ],
+   "team": [
+    "ABBY",
+    "YELIN",
+    "JAMES",
+    "AARON",
+    "NICK"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593307259,
+  "_nanoseconds": 39000000
+ },
+ "timeFinished": {
+  "_seconds": 1593310177,
+  "_nanoseconds": 910000000
+ },
+ "players": [
+  {
+   "uid": "7grjDu8CBfRtQ6tGZgf7I6GZMv83",
+   "name": "NICK"
+  },
+  {
+   "uid": "kOm6DFzZbsgZZuwSeFSr5zmWFzz1",
+   "name": "AARON"
+  },
+  {
+   "name": "JAMES",
+   "uid": "GF0BaVfxNBZFk9LHgQCRSbZg5g93"
+  },
+  {
+   "uid": "Cz3L5keyzrOXsD1Vw3ywRib6jJT2",
+   "name": "YELIN"
+  },
+  {
+   "name": "ABBY",
+   "uid": "evKDRoGMNibWHGjdXUJncUOvYL93"
+  },
+  {
+   "name": "NIKOLAS",
+   "uid": "TGBXCFPEe7O15Tpc8pN8z8EcifF3"
+  },
+  {
+   "name": "KARLIN",
+   "uid": "v9qEYBLTH6anIt55z2vb3kTm08W2"
+  },
+  {
+   "uid": "baLxUgluQocYmbhD5jfPH6BBeAB3",
+   "name": "STEPH"
+  }
+ ]
+}

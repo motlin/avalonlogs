@@ -1,0 +1,245 @@
+{
+ "players": [
+  {
+   "name": "MICAH",
+   "uid": "vPt22JpCYBR3i0jRIR3cG4PrXHi2"
+  },
+  {
+   "uid": "tl0BXkgVFJYIAvdgE73ac6gS0623",
+   "name": "TIVER"
+  },
+  {
+   "name": "AVI",
+   "uid": "50HGOX9U3hX4KBhXC6I6HVOHF373"
+  },
+  {
+   "name": "CHAS",
+   "uid": "FXlQIfi6rRSUmEoxJD6KpHEl0r52"
+  },
+  {
+   "uid": "1wrZV4o5AJe3Vnn6WTvyxi4U2Cn1",
+   "name": "SIRTAIN"
+  },
+  {
+   "name": "ZAIYA",
+   "uid": "WZh8dsE43kSholVTJwyOJJ49AXo2"
+  },
+  {
+   "name": "DATMAGIC",
+   "uid": "9k0MKgfXKtQVmfmP6QHu3EKL4J23"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "TIVER",
+    "AVI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "TIVER",
+      "AVI"
+     ],
+     "votes": [
+      "CHAS",
+      "DATMAGIC",
+      "ZAIYA",
+      "AVI",
+      "TIVER",
+      "SIRTAIN"
+     ],
+     "proposer": "TIVER",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "AVI",
+    "TIVER",
+    "MICAH"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AVI",
+     "team": [
+      "AVI",
+      "TIVER",
+      "MICAH"
+     ],
+     "votes": [
+      "AVI",
+      "DATMAGIC",
+      "ZAIYA",
+      "SIRTAIN"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "SIRTAIN",
+    "TIVER",
+    "AVI"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHAS",
+     "state": "REJECTED",
+     "votes": [
+      "ZAIYA",
+      "CHAS"
+     ],
+     "team": [
+      "CHAS",
+      "TIVER",
+      "ZAIYA"
+     ]
+    },
+    {
+     "team": [
+      "SIRTAIN",
+      "TIVER",
+      "AVI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AVI",
+      "TIVER",
+      "SIRTAIN",
+      "DATMAGIC",
+      "MICAH",
+      "ZAIYA"
+     ],
+     "proposer": "SIRTAIN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZAIYA",
+      "SIRTAIN",
+      "MICAH",
+      "CHAS"
+     ],
+     "team": [
+      "MICAH",
+      "SIRTAIN",
+      "ZAIYA",
+      "CHAS"
+     ],
+     "proposer": "ZAIYA"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 2,
+   "teamSize": 4,
+   "team": [
+    "MICAH",
+    "SIRTAIN",
+    "ZAIYA",
+    "CHAS"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1605991984,
+  "_nanoseconds": 790000000
+ },
+ "timeCreated": {
+  "_seconds": 1605991402,
+  "_nanoseconds": 778000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "AVI": true,
+    "TIVER": true
+   },
+   {
+    "AVI": true,
+    "MICAH": true,
+    "TIVER": true
+   },
+   {
+    "TIVER": true,
+    "AVI": false,
+    "SIRTAIN": true
+   },
+   {
+    "MICAH": false,
+    "SIRTAIN": true,
+    "CHAS": true,
+    "ZAIYA": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "CHAS",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "DATMAGIC",
+    "assassin": false
+   },
+   {
+    "name": "ZAIYA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "AVI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "TIVER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHAS",
+    "assassin": false
+   },
+   {
+    "name": "SIRTAIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MICAH",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ]
+ }
+}

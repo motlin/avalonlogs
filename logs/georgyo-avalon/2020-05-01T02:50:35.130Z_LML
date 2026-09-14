@@ -1,0 +1,187 @@
+{
+ "timeCreated": {
+  "_seconds": 1588301435,
+  "_nanoseconds": 130000000
+ },
+ "timeFinished": {
+  "_seconds": 1588301647,
+  "_nanoseconds": 598000000
+ },
+ "players": [
+  {
+   "name": "CLARKE",
+   "uid": "tVzLWspl9JUfk4W14AZ9AHs10Ho2"
+  },
+  {
+   "uid": "0toI95LW1HWLWPmOZQzOipoFxMk1",
+   "name": "EMMA"
+  },
+  {
+   "uid": "uXl0VpkPjLfTnLiJ6UR6HILD9ti1",
+   "name": "CAM"
+  },
+  {
+   "uid": "cBECi8V6elP9QNDW3vtHldc4BWi2",
+   "name": "SKINNYPENI"
+  },
+  {
+   "name": "NOAH",
+   "uid": "3UwjrkyGarNVl37xRiAZU5ilVgn2"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "CLARKE",
+    "role": "MORGANA",
+    "assassin": true
+   },
+   {
+    "name": "SKINNYPENI",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "EMMA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NOAH"
+   },
+   {
+    "name": "CAM",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": "SKINNYPENI",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "CAM": true,
+    "EMMA": true
+   },
+   {
+    "SKINNYPENI": true,
+    "CLARKE": true,
+    "CAM": true
+   },
+   {
+    "SKINNYPENI": true,
+    "CAM": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CAM",
+     "votes": [
+      "EMMA",
+      "NOAH",
+      "CAM"
+     ],
+     "team": [
+      "CAM",
+      "EMMA"
+     ]
+    }
+   ],
+   "team": [
+    "CAM",
+    "EMMA"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CAM",
+      "CLARKE",
+      "SKINNYPENI"
+     ],
+     "team": [
+      "CAM",
+      "CLARKE",
+      "SKINNYPENI"
+     ],
+     "proposer": "SKINNYPENI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "CAM",
+    "CLARKE",
+    "SKINNYPENI"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "CAM",
+    "SKINNYPENI"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "EMMA",
+      "NOAH"
+     ],
+     "proposer": "NOAH",
+     "team": [
+      "NOAH",
+      "EMMA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "CLARKE",
+     "state": "APPROVED",
+     "team": [
+      "CAM",
+      "SKINNYPENI"
+     ],
+     "votes": [
+      "CAM",
+      "CLARKE",
+      "SKINNYPENI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

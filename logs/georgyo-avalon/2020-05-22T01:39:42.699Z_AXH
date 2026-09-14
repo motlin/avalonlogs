@@ -1,0 +1,241 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MARCUS"
+   },
+   {
+    "assassin": false,
+    "name": "MIKE",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ALVIN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "MEG",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "CAROL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ELIOT",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PLEE",
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "MIKE": true,
+    "ALVIN": true
+   },
+   {
+    "MARCUS": true,
+    "CAROL": true,
+    "PLEE": true
+   },
+   {
+    "PLEE": true,
+    "MARCUS": true,
+    "CAROL": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "PLEE"
+ },
+ "missions": [
+  {
+   "team": [
+    "ALVIN",
+    "MIKE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ELIOT",
+     "team": [
+      "MEG",
+      "PLEE"
+     ],
+     "votes": [
+      "ALVIN",
+      "MEG",
+      "CAROL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "PLEE",
+      "MARCUS",
+      "MIKE",
+      "ALVIN",
+      "MEG",
+      "CAROL"
+     ],
+     "team": [
+      "ALVIN",
+      "MIKE"
+     ],
+     "proposer": "MIKE",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "PLEE",
+    "CAROL",
+    "MARCUS"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ALVIN",
+      "MEG",
+      "MIKE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ALVIN",
+      "MIKE",
+      "MARCUS"
+     ],
+     "proposer": "MARCUS"
+    },
+    {
+     "team": [
+      "PLEE",
+      "CAROL",
+      "MARCUS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PLEE",
+      "MARCUS",
+      "ALVIN",
+      "CAROL"
+     ],
+     "proposer": "PLEE"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MIKE",
+      "MEG"
+     ],
+     "proposer": "MEG",
+     "state": "REJECTED",
+     "team": [
+      "MIKE",
+      "PLEE",
+      "MEG"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PLEE",
+      "MARCUS",
+      "ALVIN",
+      "CAROL"
+     ],
+     "team": [
+      "PLEE",
+      "CAROL",
+      "MARCUS"
+     ],
+     "proposer": "CAROL"
+    }
+   ],
+   "team": [
+    "PLEE",
+    "CAROL",
+    "MARCUS"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [],
+   "team": []
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590111582,
+  "_nanoseconds": 699000000
+ },
+ "timeFinished": {
+  "_seconds": 1590112280,
+  "_nanoseconds": 105000000
+ },
+ "players": [
+  {
+   "uid": "Kc36t0APpneg2jLX9yJ5N5K0ULx2",
+   "name": "MARCUS"
+  },
+  {
+   "uid": "Bx2bdYkKmwZPmZ8eDZ9vnWUByon2",
+   "name": "PLEE"
+  },
+  {
+   "uid": "00Jhs9xNePYm7Ifmd1U624nQVZL2",
+   "name": "MEG"
+  },
+  {
+   "name": "CAROL",
+   "uid": "HXPQEhFDhVWmHhZAHENWLvz3S2R2"
+  },
+  {
+   "name": "ALVIN",
+   "uid": "fKODVyqpegNgxfVGI4MRsEl1Y8v1"
+  },
+  {
+   "name": "ELIOT",
+   "uid": "90g2Q0d6rYhqusSQ8I6iLSNV5qE2"
+  },
+  {
+   "uid": "I2VJpXDJoGQK0Ln5YGxa5bAFPSb2",
+   "name": "MIKE"
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "players": [
+  {
+   "uid": "iI8TllPrcOcmBW2hiXpf85AvkaT2",
+   "name": "SHERRON"
+  },
+  {
+   "name": "AERIC",
+   "uid": "xyauw7fx00PUpqj1QLQIzuSdYAE2"
+  },
+  {
+   "name": "DEMGANT",
+   "uid": "PzvCZPNDBHXr1ks8ectyjecX95a2"
+  },
+  {
+   "uid": "QggbBgWtvthdsJJmP0roFEJojss1",
+   "name": "DANNYD"
+  },
+  {
+   "name": "AMEYA",
+   "uid": "JO5P5RAEJcgbhhaPj2FTqvkRGdC3"
+  },
+  {
+   "name": "SHAWN",
+   "uid": "Bb4JuubYPGbXMf6gofm8vkf1mBu2"
+  },
+  {
+   "name": "TARUN",
+   "uid": "Y9RLn11E3lWDyWznmyRz8a0Vqs92"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585525502,
+  "_nanoseconds": 893000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "TARUN",
+    "SHERRON"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "TARUN",
+      "SHERRON"
+     ],
+     "proposer": "SHERRON",
+     "state": "APPROVED",
+     "votes": [
+      "SHERRON",
+      "AMEYA",
+      "TARUN",
+      "DANNYD"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "SHERRON",
+      "TARUN",
+      "AERIC"
+     ],
+     "state": "APPROVED",
+     "proposer": "AERIC",
+     "votes": [
+      "AERIC",
+      "DANNYD",
+      "SHAWN",
+      "AMEYA",
+      "DEMGANT",
+      "TARUN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 2,
+   "team": [
+    "SHERRON",
+    "TARUN",
+    "AERIC"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "DANNYD",
+    "DEMGANT",
+    "TARUN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "DANNYD",
+      "DEMGANT",
+      "TARUN"
+     ],
+     "proposer": "DEMGANT",
+     "votes": [
+      "DANNYD",
+      "SHERRON",
+      "SHAWN",
+      "AMEYA",
+      "DEMGANT",
+      "TARUN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "DANNYD",
+      "SHAWN",
+      "DEMGANT",
+      "AERIC"
+     ],
+     "votes": [
+      "AERIC",
+      "DANNYD",
+      "SHAWN",
+      "AMEYA",
+      "DEMGANT"
+     ],
+     "state": "APPROVED",
+     "proposer": "DANNYD"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "DANNYD",
+    "SHAWN",
+    "DEMGANT",
+    "AERIC"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SHERRON": true,
+    "TARUN": true
+   },
+   {
+    "AERIC": false,
+    "SHERRON": false,
+    "TARUN": true
+   },
+   {
+    "DEMGANT": true,
+    "DANNYD": true,
+    "TARUN": true
+   },
+   {
+    "AERIC": true,
+    "DANNYD": true,
+    "SHAWN": true,
+    "DEMGANT": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "AERIC",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DANNYD"
+   },
+   {
+    "name": "SHERRON",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "SHAWN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "AMEYA",
+    "assassin": false
+   },
+   {
+    "name": "DEMGANT",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "TARUN"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "SHAWN"
+ },
+ "timeFinished": {
+  "_seconds": 1585525929,
+  "_nanoseconds": 740679000
+ }
+}

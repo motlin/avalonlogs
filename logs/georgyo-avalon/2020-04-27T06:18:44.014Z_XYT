@@ -1,0 +1,263 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "EMMA",
+      "NIKKI",
+      "AMANDA",
+      "MAL",
+      "URMOM"
+     ],
+     "team": [
+      "URMOM",
+      "AMANDA"
+     ],
+     "state": "APPROVED",
+     "proposer": "URMOM"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "URMOM",
+    "AMANDA"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MAL",
+     "votes": [
+      "EMMA",
+      "NIKKI",
+      "MAL",
+      "URMOM"
+     ],
+     "team": [
+      "NIKKI",
+      "AMANDA",
+      "JERRY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "NIKKI",
+    "AMANDA",
+    "JERRY"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "AMANDA",
+    "EMMA",
+    "URMOM",
+    "JERRY"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "EMMA",
+      "NIKKI"
+     ],
+     "proposer": "EMMA",
+     "team": [
+      "AMANDA",
+      "EMMA",
+      "NIKKI",
+      "URMOM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMMA",
+      "AMANDA",
+      "JERRY",
+      "URMOM"
+     ],
+     "team": [
+      "AMANDA",
+      "EMMA",
+      "URMOM",
+      "JERRY"
+     ],
+     "proposer": "AMANDA"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "URMOM",
+    "EMMA",
+    "AMANDA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "EMMA",
+      "NIKKI",
+      "URMOM"
+     ],
+     "team": [
+      "AMANDA",
+      "URMOM",
+      "EMMA"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "team": [
+      "AMANDA",
+      "JERRY",
+      "EMMA"
+     ],
+     "proposer": "JERRY",
+     "votes": [
+      "AMANDA",
+      "MAL",
+      "JERRY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "URMOM",
+     "votes": [
+      "EMMA",
+      "NIKKI",
+      "AMANDA",
+      "JERRY",
+      "URMOM"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "URMOM",
+      "EMMA",
+      "AMANDA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "AMANDA",
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1"
+  },
+  {
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743",
+   "name": "NIKKI"
+  },
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "name": "URMOM",
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2"
+  },
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  },
+  {
+   "uid": "hK5la6vfLDhZjX1jTOESPDbVD5K2",
+   "name": "EMMA"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587968324,
+  "_nanoseconds": 14000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "URMOM": true,
+    "AMANDA": true
+   },
+   {
+    "NIKKI": true,
+    "JERRY": false,
+    "AMANDA": true
+   },
+   {
+    "EMMA": true,
+    "URMOM": true,
+    "JERRY": true,
+    "AMANDA": true
+   },
+   {
+    "EMMA": true,
+    "URMOM": true,
+    "AMANDA": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "URMOM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "EMMA",
+    "assassin": false
+   },
+   {
+    "name": "NIKKI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "AMANDA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MAL",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "JERRY",
+    "assassin": true
+   }
+  ],
+  "assassinated": "EMMA",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1587969463,
+  "_nanoseconds": 496000000
+ }
+}

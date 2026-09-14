@@ -1,0 +1,233 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "CHENGLENGY",
+      "TURTLE",
+      "ESTHER",
+      "NAOMI",
+      "REBECCA"
+     ],
+     "team": [
+      "ESTHER",
+      "REBECCA"
+     ],
+     "proposer": "ESTHER",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ESTHER",
+    "REBECCA"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CHENGLENGY",
+      "TURTLE",
+      "NAOMI",
+      "REBECCA"
+     ],
+     "proposer": "REBECCA",
+     "state": "APPROVED",
+     "team": [
+      "CHENGLENGY",
+      "REBECCA",
+      "ESTHER"
+     ]
+    }
+   ],
+   "team": [
+    "CHENGLENGY",
+    "REBECCA",
+    "ESTHER"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ESTHER",
+      "NAOMI",
+      "DARAPHONE",
+      "CHENGLENGY"
+     ],
+     "team": [
+      "REBECCA",
+      "DARAPHONE",
+      "CHENGLENGY",
+      "NAOMI"
+     ],
+     "proposer": "DARAPHONE",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "REBECCA",
+    "DARAPHONE",
+    "CHENGLENGY",
+    "NAOMI"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "TURTLE",
+    "NAOMI",
+    "DARAPHONE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "DARAPHONE",
+      "CHENGLENGY",
+      "REBECCA"
+     ],
+     "votes": [
+      "CHENGLENGY",
+      "DARAPHONE"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHENGLENGY"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "TURTLE",
+      "NAOMI",
+      "DARAPHONE"
+     ],
+     "proposer": "TURTLE",
+     "votes": [
+      "ESTHER",
+      "NAOMI",
+      "DARAPHONE",
+      "TURTLE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587426049,
+  "_nanoseconds": 794000000
+ },
+ "players": [
+  {
+   "name": "TURTLE",
+   "uid": "A0zELhbkFPgTkxMGuRK81Wc23Ms2"
+  },
+  {
+   "uid": "CXWTzelSIQYG2PeiFJhFXjjrijV2",
+   "name": "NAOMI"
+  },
+  {
+   "uid": "OQJ1UKLhfrTHlYmUV4066NJxrem2",
+   "name": "ESTHER"
+  },
+  {
+   "name": "REBECCA",
+   "uid": "qX0XCCUFe8XsiD84gCmBII3LFOj1"
+  },
+  {
+   "name": "DARAPHONE",
+   "uid": "TvIfHu98TBacMddaVfuUR5MSdWs1"
+  },
+  {
+   "name": "CHENGLENGY",
+   "uid": "B20t2ABkbINlAh9spbT5b61kxdl1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587425673,
+  "_nanoseconds": 809000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "REBECCA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DARAPHONE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "CHENGLENGY",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TURTLE"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ESTHER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "NAOMI"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ESTHER": true,
+    "REBECCA": true
+   },
+   {
+    "CHENGLENGY": true,
+    "REBECCA": true,
+    "ESTHER": false
+   },
+   {
+    "DARAPHONE": true,
+    "REBECCA": true,
+    "NAOMI": false,
+    "CHENGLENGY": true
+   },
+   {
+    "TURTLE": true,
+    "DARAPHONE": true,
+    "NAOMI": false
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "players": [
+  {
+   "uid": "DhUsOXH1LhSIgj7hiLECw5H0pc23",
+   "name": "MARWA"
+  },
+  {
+   "name": "SAAK",
+   "uid": "lLbnA05okrbSr3qNJsd0AKcpQPN2"
+  },
+  {
+   "uid": "e4BlTiE9YWMZBGbpjl0VjwYJp4u2",
+   "name": "SAM"
+  },
+  {
+   "name": "AD",
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2"
+  },
+  {
+   "name": "JIJI",
+   "uid": "Tlhtdcc5dEffPpWjhxivorKS2HC2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "SAM",
+    "AD"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SAM",
+      "AD"
+     ],
+     "proposer": "JIJI",
+     "state": "APPROVED",
+     "votes": [
+      "MARWA",
+      "JIJI",
+      "AD"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JIJI",
+      "SAAK",
+      "AD",
+      "SAM",
+      "MARWA"
+     ],
+     "team": [
+      "MARWA",
+      "AD",
+      "SAAK"
+     ],
+     "proposer": "MARWA"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "MARWA",
+    "AD",
+    "SAAK"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SAAK",
+     "team": [
+      "SAAK",
+      "JIJI"
+     ],
+     "votes": [
+      "SAAK",
+      "SAM",
+      "JIJI",
+      "MARWA",
+      "AD"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "SAAK",
+    "JIJI"
+   ]
+  },
+  {
+   "team": [
+    "JIJI",
+    "SAM",
+    "MARWA"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "JIJI",
+      "SAAK",
+      "SAM"
+     ],
+     "proposer": "SAM",
+     "state": "REJECTED",
+     "votes": [
+      "JIJI",
+      "SAM"
+     ]
+    },
+    {
+     "proposer": "AD",
+     "team": [
+      "AD",
+      "JIJI",
+      "SAAK"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AD",
+      "SAAK"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JIJI",
+      "SAM",
+      "MARWA"
+     ],
+     "votes": [
+      "JIJI",
+      "SAAK",
+      "SAM",
+      "MARWA"
+     ],
+     "proposer": "JIJI"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "SAAK",
+    "SAM",
+    "MARWA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MARWA",
+      "SAAK",
+      "SAM"
+     ],
+     "proposer": "MARWA",
+     "votes": [
+      "SAM",
+      "MARWA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARWA",
+      "SAAK",
+      "SAM"
+     ],
+     "proposer": "SAAK",
+     "team": [
+      "SAAK",
+      "SAM",
+      "MARWA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1597011105,
+  "_nanoseconds": 178000000
+ },
+ "timeFinished": {
+  "_seconds": 1597012266,
+  "_nanoseconds": 781000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "AD": true,
+    "SAM": true
+   },
+   {
+    "AD": false,
+    "MARWA": true,
+    "SAAK": true
+   },
+   {
+    "SAAK": true,
+    "JIJI": true
+   },
+   {
+    "SAM": true,
+    "JIJI": false,
+    "MARWA": true
+   },
+   {
+    "SAAK": true,
+    "SAM": true,
+    "MARWA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SAAK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SAM",
+    "assassin": false
+   },
+   {
+    "name": "MARWA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "AD"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "JIJI"
+   }
+  ],
+  "assassinated": "SAM",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ }
+}

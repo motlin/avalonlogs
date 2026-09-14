@@ -1,0 +1,368 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "BEN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TERRY"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "HADS"
+   },
+   {
+    "name": "ANNIE",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "LASER",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "AINI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "DOM"
+   },
+   {
+    "name": "ZACK",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "DOM": false,
+    "HADS": true,
+    "ZACK": true
+   },
+   {
+    "HADS": true,
+    "ANNIE": false,
+    "LASER": true,
+    "AINI": true
+   },
+   {
+    "TERRY": true,
+    "DOM": false,
+    "ZACK": true,
+    "AINI": true
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "ZACK",
+    "HADS",
+    "DOM"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "LASER",
+      "AINI"
+     ],
+     "team": [
+      "LASER",
+      "TERRY",
+      "ANNIE"
+     ],
+     "state": "REJECTED",
+     "proposer": "HADS"
+    },
+    {
+     "team": [
+      "DOM",
+      "ANNIE",
+      "LASER"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "DOM"
+    },
+    {
+     "votes": [
+      "BEN",
+      "TERRY",
+      "ANNIE"
+     ],
+     "proposer": "TERRY",
+     "team": [
+      "TERRY",
+      "ANNIE",
+      "HADS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ZACK",
+      "HADS",
+      "DOM"
+     ],
+     "votes": [
+      "HADS",
+      "ANNIE",
+      "DOM",
+      "ZACK",
+      "BEN"
+     ],
+     "proposer": "ZACK",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TERRY",
+      "ANNIE",
+      "LASER"
+     ],
+     "team": [
+      "LASER",
+      "TERRY",
+      "AINI",
+      "ZACK"
+     ],
+     "proposer": "LASER",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "AINI",
+     "team": [
+      "AINI",
+      "ZACK",
+      "HADS",
+      "DOM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LASER",
+      "ANNIE",
+      "DOM",
+      "TERRY"
+     ],
+     "proposer": "ANNIE",
+     "votes": [
+      "ANNIE",
+      "AINI",
+      "ZACK",
+      "TERRY"
+     ]
+    },
+    {
+     "proposer": "BEN",
+     "team": [
+      "BEN",
+      "TERRY",
+      "ZACK",
+      "AINI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BEN",
+      "TERRY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "HADS",
+     "votes": [
+      "DOM",
+      "BEN",
+      "HADS",
+      "ANNIE",
+      "AINI"
+     ],
+     "team": [
+      "ANNIE",
+      "HADS",
+      "AINI",
+      "LASER"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "ANNIE",
+    "HADS",
+    "AINI",
+    "LASER"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "AINI",
+    "TERRY",
+    "ZACK",
+    "DOM"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BEN",
+      "TERRY",
+      "ZACK"
+     ],
+     "proposer": "DOM",
+     "team": [
+      "AINI",
+      "DOM",
+      "TERRY",
+      "ZACK"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "TERRY",
+      "AINI",
+      "HADS",
+      "ZACK"
+     ],
+     "proposer": "TERRY",
+     "votes": [
+      "TERRY",
+      "HADS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ZACK",
+     "votes": [
+      "ZACK"
+     ],
+     "team": [
+      "AINI",
+      "DOM",
+      "TERRY",
+      "ZACK"
+     ]
+    },
+    {
+     "team": [
+      "LASER",
+      "ZACK",
+      "TERRY",
+      "AINI"
+     ],
+     "proposer": "LASER",
+     "state": "REJECTED",
+     "votes": [
+      "HADS",
+      "LASER"
+     ]
+    },
+    {
+     "votes": [
+      "BEN",
+      "TERRY",
+      "ANNIE",
+      "LASER",
+      "AINI",
+      "DOM",
+      "ZACK"
+     ],
+     "team": [
+      "AINI",
+      "TERRY",
+      "ZACK",
+      "DOM"
+     ],
+     "state": "APPROVED",
+     "proposer": "AINI"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 2,
+   "state": "PENDING"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "J4uHg3uOWbX1iyUkkazeHujhL1v2",
+   "name": "AINI"
+  },
+  {
+   "name": "ANNIE",
+   "uid": "g44XtVxErcQTVPSSTkKP1lSCoAp1"
+  },
+  {
+   "name": "BEN",
+   "uid": "2ZdzPZdcH6fzPR6RZZPh3fryDv53"
+  },
+  {
+   "name": "HADS",
+   "uid": "GT90qLUf04MuoIH50h8qJyV6oDo2"
+  },
+  {
+   "uid": "mMwtzyWKAJTfnySrucCrC5iTp2X2",
+   "name": "DOM"
+  },
+  {
+   "uid": "vFPDEBWx6PO1dBeUKD5yt0PMluZ2",
+   "name": "TERRY"
+  },
+  {
+   "name": "ZACK",
+   "uid": "rHMwsTEdpaXX4MwNrypOJ4kr1RF2"
+  },
+  {
+   "name": "LASER",
+   "uid": "nJ4PDUWpPgf34mgE9hFfQw2LOYz1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1584917729,
+  "_nanoseconds": 549598000
+ },
+ "timeCreated": {
+  "_seconds": 1584915693,
+  "_nanoseconds": 132000000
+ }
+}

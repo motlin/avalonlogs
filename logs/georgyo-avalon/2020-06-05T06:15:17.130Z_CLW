@@ -1,0 +1,239 @@
+{
+ "players": [
+  {
+   "uid": "Jrn5SOEoTpQUjp2aMf24njhg2pg1",
+   "name": "SHOOLTALA"
+  },
+  {
+   "name": "YASI",
+   "uid": "eoxx13cGrkc33ZRPWa71ad0Qsz03"
+  },
+  {
+   "name": "CJ",
+   "uid": "DKSwh8wGqhfHWSZq4MCABkLU19z2"
+  },
+  {
+   "name": "SAMAN",
+   "uid": "VTuyFcjanBWQBv1YVZLE6UNDfhn2"
+  },
+  {
+   "uid": "UvOikFKDYbdlIlDSnvPphmPEAlw1",
+   "name": "BECHASS"
+  },
+  {
+   "name": "SHAYANFARA",
+   "uid": "e6bBAOQwbXQhMXzbldYIo3hiN053"
+  },
+  {
+   "uid": "uFPnz97R3dbvqEG04esCyioXOSr2",
+   "name": "JIZANTHEPU"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SAMAN": true,
+    "BECHASS": true
+   },
+   {
+    "SAMAN": true,
+    "SHAYANFARA": true,
+    "BECHASS": false
+   },
+   {
+    "SAMAN": true,
+    "SHAYANFARA": true,
+    "CJ": false
+   },
+   {
+    "YASI": true,
+    "SHOOLTALA": true,
+    "JIZANTHEPU": false,
+    "BECHASS": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SHOOLTALA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "BECHASS",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "YASI",
+    "assassin": false
+   },
+   {
+    "name": "SAMAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CJ",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "name": "JIZANTHEPU",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SHAYANFARA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SAMAN",
+      "BECHASS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHOOLTALA",
+      "BECHASS",
+      "YASI",
+      "SAMAN",
+      "CJ",
+      "JIZANTHEPU",
+      "SHAYANFARA"
+     ],
+     "proposer": "SAMAN"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "SAMAN",
+    "BECHASS"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SAMAN",
+      "BECHASS",
+      "SHAYANFARA"
+     ],
+     "proposer": "BECHASS",
+     "votes": [
+      "SHAYANFARA",
+      "SHOOLTALA",
+      "BECHASS",
+      "YASI",
+      "SAMAN",
+      "CJ",
+      "JIZANTHEPU"
+     ]
+    }
+   ],
+   "team": [
+    "SAMAN",
+    "BECHASS",
+    "SHAYANFARA"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "SHAYANFARA",
+    "SAMAN",
+    "CJ"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SHAYANFARA",
+     "state": "APPROVED",
+     "votes": [
+      "SHOOLTALA",
+      "YASI",
+      "SAMAN",
+      "CJ",
+      "JIZANTHEPU",
+      "SHAYANFARA"
+     ],
+     "team": [
+      "SHAYANFARA",
+      "SAMAN",
+      "CJ"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JIZANTHEPU",
+     "state": "APPROVED",
+     "team": [
+      "JIZANTHEPU",
+      "SHOOLTALA",
+      "YASI",
+      "BECHASS"
+     ],
+     "votes": [
+      "SHAYANFARA",
+      "SHOOLTALA",
+      "BECHASS",
+      "YASI",
+      "SAMAN",
+      "CJ",
+      "JIZANTHEPU"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "JIZANTHEPU",
+    "SHOOLTALA",
+    "YASI",
+    "BECHASS"
+   ],
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591337717,
+  "_nanoseconds": 130000000
+ },
+ "timeFinished": {
+  "_seconds": 1591338470,
+  "_nanoseconds": 148000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

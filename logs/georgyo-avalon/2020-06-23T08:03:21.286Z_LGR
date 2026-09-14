@@ -1,0 +1,246 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JERRY",
+     "team": [
+      "JERRY",
+      "WILL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JERRY",
+      "WILL"
+     ]
+    },
+    {
+     "votes": [
+      "JERRY"
+     ],
+     "team": [
+      "NIKKI",
+      "JERRY"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKKI"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "WILL"
+     ],
+     "proposer": "MAL",
+     "team": [
+      "MAL",
+      "NIKKI"
+     ]
+    },
+    {
+     "team": [
+      "LEA",
+      "NIKKI"
+     ],
+     "proposer": "LEA",
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "LEA"
+     ]
+    },
+    {
+     "proposer": "WILL",
+     "state": "APPROVED",
+     "team": [
+      "WILL",
+      "MAL"
+     ],
+     "votes": [
+      "MAL",
+      "LEA",
+      "JERRY",
+      "NIKKI",
+      "WILL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "WILL",
+    "MAL"
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "MAL",
+    "WILL",
+    "LEA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "WILL",
+      "MAL",
+      "JERRY"
+     ],
+     "votes": [
+      "NIKKI"
+     ],
+     "state": "REJECTED",
+     "proposer": "JERRY"
+    },
+    {
+     "proposer": "NIKKI",
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "NIKKI",
+      "WILL",
+      "MAL"
+     ]
+    },
+    {
+     "team": [
+      "MAL",
+      "WILL",
+      "LEA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "LEA",
+      "WILL"
+     ],
+     "proposer": "MAL"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "LEA",
+     "votes": [
+      "MAL",
+      "LEA",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LEA",
+      "MAL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "LEA",
+    "MAL"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "proposals": []
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592899401,
+  "_nanoseconds": 286000000
+ },
+ "players": [
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743",
+   "name": "NIKKI"
+  },
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  },
+  {
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2",
+   "name": "LEA"
+  },
+  {
+   "name": "WILL",
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "LEA",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "MAL",
+    "assassin": false
+   },
+   {
+    "name": "LEA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "NIKKI"
+   },
+   {
+    "name": "WILL",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "MAL": true,
+    "WILL": true
+   },
+   {
+    "MAL": true,
+    "WILL": true,
+    "LEA": true
+   },
+   {
+    "MAL": true,
+    "LEA": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1592899806,
+  "_nanoseconds": 928000000
+ }
+}

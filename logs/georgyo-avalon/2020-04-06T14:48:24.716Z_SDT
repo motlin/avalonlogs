@@ -1,0 +1,225 @@
+{
+ "timeFinished": {
+  "_seconds": 1586185025,
+  "_nanoseconds": 777734000
+ },
+ "timeCreated": {
+  "_seconds": 1586184504,
+  "_nanoseconds": 716000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "AASS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "MAASSON"
+   },
+   {
+    "assassin": false,
+    "name": "PLEBS",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AZAZA",
+    "assassin": false
+   },
+   {
+    "name": "LO",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "LO": true,
+    "PLEBS": true
+   },
+   {
+    "LO": false,
+    "MAASSON": true,
+    "AZAZA": true
+   },
+   {
+    "PLEBS": true,
+    "AASS": true
+   },
+   {
+    "AZAZA": true,
+    "MAASSON": false,
+    "LO": true
+   },
+   {
+    "PLEBS": true,
+    "MAASSON": false,
+    "LO": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "LO",
+    "PLEBS"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "LO",
+      "PLEBS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AASS",
+      "PLEBS",
+      "LO"
+     ],
+     "proposer": "LO"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "MAASSON",
+    "AZAZA",
+    "LO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MAASSON",
+      "AZAZA",
+      "LO"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MAASSON",
+      "AZAZA",
+      "LO"
+     ],
+     "proposer": "AZAZA"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "PLEBS",
+    "AASS"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "PLEBS",
+      "AASS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AASS",
+      "MAASSON",
+      "PLEBS",
+      "AZAZA"
+     ],
+     "proposer": "AASS"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "MAASSON",
+      "AZAZA",
+      "LO"
+     ],
+     "proposer": "MAASSON",
+     "state": "APPROVED",
+     "team": [
+      "MAASSON",
+      "LO",
+      "AZAZA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "MAASSON",
+    "LO",
+    "AZAZA"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PLEBS",
+      "AZAZA",
+      "LO",
+      "AASS",
+      "MAASSON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PLEBS",
+      "MAASSON",
+      "LO"
+     ],
+     "proposer": "PLEBS"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PLEBS",
+    "MAASSON",
+    "LO"
+   ],
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "name": "MAASSON",
+   "uid": "nNm05yzziwYsGXaoNjmX7q0ZJxy1"
+  },
+  {
+   "uid": "R1EoGZBRFQRyTsqbarRNm0uIiOi2",
+   "name": "PLEBS"
+  },
+  {
+   "name": "LO",
+   "uid": "pSXPQ87GsXUF44LZelPYmw7Zrm93"
+  },
+  {
+   "name": "AZAZA",
+   "uid": "nUVXDRpLHBNBF5siWCcFPvML6Cn1"
+  },
+  {
+   "name": "AASS",
+   "uid": "H7P8E09uJ0W2RY8b52iWX0faKST2"
+  }
+ ]
+}

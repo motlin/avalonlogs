@@ -1,0 +1,229 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1597490297,
+  "_nanoseconds": 367000000
+ },
+ "timeCreated": {
+  "_seconds": 1597490140,
+  "_nanoseconds": 235000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RHYSM",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ETHOS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BRODOS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "JACKSON"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RILEY",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "JACKSON": true,
+    "RHYSM": true
+   },
+   {
+    "JACKSON": false,
+    "RHYSM": true,
+    "BRODOS": true
+   },
+   {
+    "RILEY": true,
+    "BRODOS": true
+   },
+   {
+    "ETHOS": false,
+    "JACKSON": true,
+    "RHYSM": true
+   },
+   {
+    "ETHOS": false,
+    "RILEY": true,
+    "BRODOS": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "BRODOS",
+   "uid": "1uDpgpa8XPUe4b6zk6Wh1kVM2sY2"
+  },
+  {
+   "name": "ETHOS",
+   "uid": "di3Xwu7ohCg8FljSlvtMD8Szbx13"
+  },
+  {
+   "name": "RILEY",
+   "uid": "gNusQ0HgDNMpzmedP4uWbyKhgw33"
+  },
+  {
+   "name": "JACKSON",
+   "uid": "rlyERDdVHigOVcf4cIKSIxCSr9j2"
+  },
+  {
+   "uid": "GgX3TjXvdcUtHdCBujwbuAe9DkC3",
+   "name": "RHYSM"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RHYSM",
+      "JACKSON"
+     ],
+     "proposer": "JACKSON",
+     "votes": [
+      "BRODOS",
+      "ETHOS",
+      "JACKSON",
+      "RHYSM"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "RHYSM",
+    "JACKSON"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JACKSON",
+      "RHYSM",
+      "BRODOS"
+     ],
+     "proposer": "RHYSM",
+     "state": "APPROVED",
+     "votes": [
+      "RILEY",
+      "JACKSON",
+      "ETHOS",
+      "RHYSM",
+      "BRODOS"
+     ]
+    }
+   ],
+   "team": [
+    "JACKSON",
+    "RHYSM",
+    "BRODOS"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "RILEY",
+      "BRODOS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BRODOS",
+      "RILEY",
+      "ETHOS"
+     ],
+     "proposer": "BRODOS"
+    }
+   ],
+   "team": [
+    "RILEY",
+    "BRODOS"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ETHOS",
+    "RHYSM",
+    "JACKSON"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ETHOS",
+      "RHYSM",
+      "JACKSON"
+     ],
+     "proposer": "ETHOS",
+     "votes": [
+      "ETHOS",
+      "JACKSON",
+      "RHYSM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "BRODOS",
+    "ETHOS",
+    "RILEY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BRODOS",
+      "ETHOS",
+      "JACKSON",
+      "RILEY"
+     ],
+     "proposer": "RILEY",
+     "team": [
+      "BRODOS",
+      "ETHOS",
+      "RILEY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ]
+}

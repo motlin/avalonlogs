@@ -1,0 +1,268 @@
+{
+ "players": [
+  {
+   "name": "ARTH",
+   "uid": "cORmGt7PxMTwGU0YNt09fmYNXK63"
+  },
+  {
+   "name": "OAK",
+   "uid": "ddNcLgIySeW8keFlllQ8HPABgop2"
+  },
+  {
+   "uid": "BwoGVcFMKZWBF9ZSfGGkP11TH4X2",
+   "name": "TOM"
+  },
+  {
+   "uid": "Q6yRHfZ6bqThwJkMs95lFcEbzwt2",
+   "name": "AMY"
+  },
+  {
+   "name": "AIDAN",
+   "uid": "uNHSm9fetWWZi7y8LrkJrA06kVC3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590085952,
+  "_nanoseconds": 595000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "TOM",
+     "votes": [
+      "AMY",
+      "AIDAN",
+      "TOM",
+      "ARTH",
+      "OAK"
+     ],
+     "team": [
+      "TOM",
+      "ARTH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TOM",
+    "ARTH"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "AMY",
+    "AIDAN",
+    "ARTH"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AMY",
+      "AIDAN",
+      "TOM",
+      "ARTH"
+     ],
+     "team": [
+      "AMY",
+      "AIDAN",
+      "ARTH"
+     ],
+     "proposer": "AMY"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "ARTH",
+    "TOM"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "AMY",
+      "AIDAN"
+     ],
+     "team": [
+      "AIDAN",
+      "AMY"
+     ],
+     "proposer": "AIDAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "OAK",
+      "AMY",
+      "AIDAN",
+      "TOM",
+      "ARTH"
+     ],
+     "team": [
+      "ARTH",
+      "TOM"
+     ],
+     "state": "APPROVED",
+     "proposer": "ARTH"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "OAK",
+      "AMY",
+      "TOM",
+      "ARTH"
+     ],
+     "team": [
+      "ARTH",
+      "OAK",
+      "TOM"
+     ],
+     "proposer": "OAK",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "ARTH",
+    "OAK",
+    "TOM"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "AMY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TOM",
+      "ARTH",
+      "AIDAN"
+     ],
+     "proposer": "TOM"
+    },
+    {
+     "team": [
+      "AMY",
+      "TOM",
+      "OAK"
+     ],
+     "votes": [
+      "AMY"
+     ],
+     "proposer": "AMY",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "AIDAN",
+     "team": [
+      "AIDAN",
+      "OAK",
+      "TOM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AMY",
+      "AIDAN",
+      "TOM",
+      "OAK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "AIDAN",
+    "OAK",
+    "TOM"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590085406,
+  "_nanoseconds": 597000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "TOM": true,
+    "ARTH": true
+   },
+   {
+    "AIDAN": true,
+    "AMY": false,
+    "ARTH": true
+   },
+   {
+    "ARTH": true,
+    "TOM": true
+   },
+   {
+    "TOM": false,
+    "OAK": true,
+    "ARTH": true
+   },
+   {
+    "AIDAN": true,
+    "TOM": false,
+    "OAK": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "OAK"
+   },
+   {
+    "name": "AMY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "AIDAN",
+    "assassin": false
+   },
+   {
+    "name": "TOM",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ARTH",
+    "assassin": false
+   }
+  ]
+ }
+}

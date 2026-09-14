@@ -1,0 +1,265 @@
+{
+ "timeCreated": {
+  "_seconds": 1592690315,
+  "_nanoseconds": 480000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MAL": true,
+    "AMI": true
+   },
+   {
+    "AMI": false,
+    "WILL": true,
+    "MAL": true
+   },
+   {
+    "WILL": true,
+    "JPAN": true
+   },
+   {
+    "MAL": true,
+    "JPAN": true,
+    "WILL": false
+   },
+   {
+    "JPAN": true,
+    "WILL": false,
+    "JERRY": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "WILL",
+    "role": "MORDRED"
+   },
+   {
+    "name": "AMI",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MAL"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JPAN"
+   },
+   {
+    "name": "JERRY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AMI",
+     "votes": [
+      "WILL",
+      "AMI",
+      "MAL",
+      "JERRY"
+     ],
+     "team": [
+      "AMI",
+      "MAL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "AMI",
+    "MAL"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "WILL",
+    "AMI",
+    "MAL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AMI",
+      "MAL",
+      "JERRY",
+      "WILL"
+     ],
+     "team": [
+      "WILL",
+      "AMI",
+      "MAL"
+     ],
+     "proposer": "WILL"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MAL",
+      "JERRY"
+     ],
+     "team": [
+      "AMI",
+      "MAL"
+     ],
+     "proposer": "JERRY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "AMI",
+      "MAL",
+      "JPAN",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JPAN",
+      "WILL"
+     ],
+     "proposer": "JPAN"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "JPAN",
+    "WILL"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "MAL",
+    "WILL",
+    "JPAN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "AMI",
+      "MAL",
+      "JPAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MAL",
+      "WILL",
+      "JPAN"
+     ],
+     "proposer": "MAL"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "AMI",
+     "state": "REJECTED",
+     "votes": [
+      "AMI"
+     ],
+     "team": [
+      "JERRY",
+      "WILL",
+      "AMI"
+     ]
+    },
+    {
+     "team": [
+      "WILL",
+      "JPAN",
+      "JERRY"
+     ],
+     "state": "REJECTED",
+     "proposer": "WILL",
+     "votes": [
+      "JPAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JERRY",
+      "WILL",
+      "JPAN"
+     ],
+     "votes": [
+      "WILL",
+      "AMI",
+      "JPAN",
+      "JERRY"
+     ],
+     "proposer": "JERRY"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "JERRY",
+    "WILL",
+    "JPAN"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "uid": "Tfkds28SE7OCuA5NCxdwN4QDZ1g1",
+   "name": "JPAN"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "uid": "VcnWgIIosMZ84x989OdH4rgib5v1",
+   "name": "AMI"
+  },
+  {
+   "name": "WILL",
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592691600,
+  "_nanoseconds": 284000000
+ }
+}

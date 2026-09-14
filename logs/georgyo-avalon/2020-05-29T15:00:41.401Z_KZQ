@@ -1,0 +1,261 @@
+{
+ "timeCreated": {
+  "_seconds": 1590764441,
+  "_nanoseconds": 401000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "PRANAV",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "KILLER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SNE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HRUDHAI",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ROBOROBO",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "HRICCHAI"
+   },
+   {
+    "name": "M",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "HRICCHAI",
+  "votes": [
+   {
+    "HRUDHAI": true,
+    "M": true
+   },
+   {
+    "ROBOROBO": true,
+    "M": true,
+    "PRANAV": true
+   },
+   {
+    "ROBOROBO": true,
+    "KILLER": true,
+    "PRANAV": false
+   },
+   {
+    "ROBOROBO": true,
+    "KILLER": true,
+    "M": false,
+    "SNE": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "U0nkFO6IHkRUEddg0dwFiLK11xP2",
+   "name": "HRUDHAI"
+  },
+  {
+   "uid": "tPOBnWGNdlMlLkELrLAQBWgejUp2",
+   "name": "ROBOROBO"
+  },
+  {
+   "uid": "4wyOUES0NmVj4LAI5Kq4uOgbo2Y2",
+   "name": "SNE"
+  },
+  {
+   "uid": "38unDnZjmGbcg7omgAXzEEtzgNn2",
+   "name": "PRANAV"
+  },
+  {
+   "name": "M",
+   "uid": "1uqw1GrUz1OPVk8uZZBc8ao1XFJ2"
+  },
+  {
+   "name": "KILLER",
+   "uid": "dJk0zm45lpdRwzfgFhRzf21GThN2"
+  },
+  {
+   "name": "HRICCHAI",
+   "uid": "jsuQcwkAh8hZufXyOKFSAxdlIZo1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590764835,
+  "_nanoseconds": 550000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "HRUDHAI",
+    "M"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "PRANAV",
+      "ROBOROBO",
+      "HRICCHAI"
+     ],
+     "team": [
+      "ROBOROBO",
+      "HRUDHAI"
+     ],
+     "proposer": "M",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "M",
+      "PRANAV",
+      "KILLER",
+      "SNE",
+      "HRUDHAI",
+      "HRICCHAI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "HRUDHAI",
+      "M"
+     ],
+     "proposer": "KILLER"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ROBOROBO",
+    "PRANAV",
+    "M"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SNE",
+      "HRUDHAI",
+      "HRICCHAI"
+     ],
+     "team": [
+      "HRICCHAI",
+      "HRUDHAI",
+      "SNE"
+     ],
+     "proposer": "HRICCHAI"
+    },
+    {
+     "votes": [
+      "PRANAV",
+      "SNE",
+      "HRUDHAI",
+      "HRICCHAI",
+      "M"
+     ],
+     "team": [
+      "ROBOROBO",
+      "PRANAV",
+      "M"
+     ],
+     "state": "APPROVED",
+     "proposer": "HRUDHAI"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ROBOROBO",
+    "KILLER",
+    "PRANAV"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "M",
+      "PRANAV",
+      "KILLER",
+      "SNE",
+      "HRUDHAI",
+      "ROBOROBO",
+      "HRICCHAI"
+     ],
+     "proposer": "ROBOROBO",
+     "team": [
+      "ROBOROBO",
+      "KILLER",
+      "PRANAV"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "SNE",
+    "ROBOROBO",
+    "M",
+    "KILLER"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SNE",
+      "ROBOROBO",
+      "M",
+      "KILLER"
+     ],
+     "votes": [
+      "M",
+      "SNE",
+      "ROBOROBO",
+      "HRICCHAI"
+     ],
+     "proposer": "SNE",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ]
+}

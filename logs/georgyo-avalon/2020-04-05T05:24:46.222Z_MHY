@@ -1,0 +1,225 @@
+{
+ "timeFinished": {
+  "_seconds": 1586066351,
+  "_nanoseconds": 713807000
+ },
+ "timeCreated": {
+  "_seconds": 1586064286,
+  "_nanoseconds": 222000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "ELIZABETH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ABRAR",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "STACEY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "MATMATMAT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ADITYA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "CISSY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "STERVY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "MATMATMAT": true,
+    "STACEY": true
+   },
+   {
+    "ELIZABETH": true,
+    "ABRAR": true,
+    "MATMATMAT": true
+   },
+   {
+    "ABRAR": true,
+    "MATMATMAT": true,
+    "ELIZABETH": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "MATMATMAT",
+    "STACEY"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "CISSY",
+      "ELIZABETH",
+      "STACEY",
+      "MATMATMAT"
+     ],
+     "team": [
+      "MATMATMAT",
+      "STACEY"
+     ],
+     "state": "APPROVED",
+     "proposer": "STACEY"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ABRAR",
+    "ELIZABETH",
+    "MATMATMAT"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "STERVY",
+     "team": [
+      "ABRAR",
+      "ADITYA",
+      "STERVY"
+     ],
+     "votes": [
+      "ELIZABETH",
+      "ABRAR",
+      "STERVY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CISSY",
+      "MATMATMAT",
+      "ELIZABETH"
+     ],
+     "votes": [
+      "ELIZABETH",
+      "MATMATMAT",
+      "CISSY"
+     ],
+     "proposer": "CISSY"
+    },
+    {
+     "votes": [
+      "ADITYA",
+      "CISSY",
+      "ELIZABETH",
+      "ABRAR",
+      "MATMATMAT"
+     ],
+     "proposer": "ABRAR",
+     "team": [
+      "ABRAR",
+      "ELIZABETH",
+      "MATMATMAT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MATMATMAT",
+    "ELIZABETH",
+    "ABRAR"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "STERVY",
+      "ELIZABETH",
+      "ABRAR",
+      "MATMATMAT"
+     ],
+     "team": [
+      "MATMATMAT",
+      "ELIZABETH",
+      "ABRAR"
+     ],
+     "proposer": "ADITYA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "CISSY",
+   "uid": "LBlcrtQ36mUmuOy1Yhy9U6Ojm5B3"
+  },
+  {
+   "uid": "N9w4vvLGE3YFsIOgHSdBnz5hO6b2",
+   "name": "ABRAR"
+  },
+  {
+   "uid": "uxwQMOOhEnSqLw1vjOKJgNxRytw2",
+   "name": "ADITYA"
+  },
+  {
+   "name": "ELIZABETH",
+   "uid": "icuOgmbz5LffaqcNw9ysbLVAvUh2"
+  },
+  {
+   "name": "MATMATMAT",
+   "uid": "f2gtFqBvJ0dOxa9rNhmxTIf972I3"
+  },
+  {
+   "name": "STACEY",
+   "uid": "EzWtU07M2KSTJyT6JT1Hwp6XgnA3"
+  },
+  {
+   "name": "STERVY",
+   "uid": "AdjbPlKusigIpHh8LlMNvGpKhHt2"
+  }
+ ]
+}

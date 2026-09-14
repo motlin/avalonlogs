@@ -1,0 +1,221 @@
+{
+ "players": [
+  {
+   "name": "ISH",
+   "uid": "Ul8djm3bKjQbIsmj42QuGa0U9NF2"
+  },
+  {
+   "uid": "T6UkJSofBnXK4RnJUdPBL97KFpw1",
+   "name": "NEYMAR"
+  },
+  {
+   "name": "ARUNDHATHY",
+   "uid": "jgYbaXnbFPWYKm1r7aFFvQEgyOA3"
+  },
+  {
+   "name": "DEO",
+   "uid": "sqPmR7mfuaevr9RMSVxqG3ueY472"
+  },
+  {
+   "name": "RAMU",
+   "uid": "0zbOqjICfJfO48I1P8yufYz3UXF3"
+  },
+  {
+   "name": "ANI",
+   "uid": "ijqEuz7xAIXXSOJ3W3EeJejY4yl2"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "DEO",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ISH"
+   },
+   {
+    "name": "NEYMAR",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ARUNDHATHY",
+    "assassin": false
+   },
+   {
+    "name": "DEO",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "RAMU",
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ANI",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ARUNDHATHY": true,
+    "ISH": true
+   },
+   {
+    "ISH": true,
+    "NEYMAR": true,
+    "ARUNDHATHY": true
+   },
+   {
+    "ANI": true,
+    "NEYMAR": true,
+    "ISH": false,
+    "ARUNDHATHY": true
+   },
+   {
+    "ARUNDHATHY": true,
+    "DEO": true,
+    "ANI": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "ISH",
+    "ARUNDHATHY"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ISH",
+      "ARUNDHATHY"
+     ],
+     "proposer": "ISH",
+     "state": "APPROVED",
+     "votes": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "RAMU",
+      "ISH"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "ISH",
+    "NEYMAR",
+    "ARUNDHATHY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "NEYMAR",
+     "votes": [
+      "ISH",
+      "NEYMAR",
+      "ARUNDHATHY",
+      "DEO",
+      "RAMU"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ISH",
+      "NEYMAR",
+      "ARUNDHATHY"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DEO",
+      "ANI",
+      "ISH",
+      "ARUNDHATHY"
+     ],
+     "proposer": "ARUNDHATHY",
+     "team": [
+      "ISH",
+      "NEYMAR",
+      "ARUNDHATHY",
+      "ANI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ISH",
+    "NEYMAR",
+    "ARUNDHATHY",
+    "ANI"
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANI",
+      "ARUNDHATHY",
+      "DEO"
+     ],
+     "votes": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "DEO",
+      "ANI",
+      "ISH"
+     ],
+     "proposer": "DEO"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ANI",
+    "ARUNDHATHY",
+    "DEO"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590320156,
+  "_nanoseconds": 917000000
+ },
+ "timeFinished": {
+  "_seconds": 1590320432,
+  "_nanoseconds": 62000000
+ }
+}

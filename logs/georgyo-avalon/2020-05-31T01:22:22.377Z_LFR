@@ -1,0 +1,261 @@
+{
+ "timeCreated": {
+  "_seconds": 1590888142,
+  "_nanoseconds": 377000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "NGO",
+  "votes": [
+   {
+    "SHAAN": true,
+    "CHOW": true
+   },
+   {
+    "KARLMARX": true,
+    "SHAAN": true,
+    "CHOW": false
+   },
+   {
+    "NGO": true,
+    "SHAAN": true,
+    "HARRISON": false
+   },
+   {
+    "MASON": true,
+    "NGO": true,
+    "KARLMARX": true,
+    "SHAAN": true
+   },
+   {
+    "NGO": true,
+    "SHAAN": true,
+    "MASON": true,
+    "KARLMARX": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "CHOW",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SHAAN"
+   },
+   {
+    "assassin": false,
+    "name": "NGO",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KARLMARX",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "JOE",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "HARRISON",
+    "role": "MORGANA"
+   },
+   {
+    "name": "MASON",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "players": [
+  {
+   "uid": "ee6eyUB14aNrfwxfgS3EpXKkJ4r1",
+   "name": "CHOW"
+  },
+  {
+   "uid": "KTeFn2as4uQa31ytPy1pDJ8IUkB2",
+   "name": "KARLMARX"
+  },
+  {
+   "name": "HARRISON",
+   "uid": "sJM8vjv19qYdDqxf8plzkLYkXLq2"
+  },
+  {
+   "uid": "ecqGjz7tzhMr8GPdHmP95YsJ9Cd2",
+   "name": "NGO"
+  },
+  {
+   "name": "MASON",
+   "uid": "STYYW1bvydOViACtN0rY8luDtp93"
+  },
+  {
+   "uid": "ODlRpf7bJ6bRYHqjxNrRIEBrtPl2",
+   "name": "JOE"
+  },
+  {
+   "uid": "amRYItsOKBYSmkMLrXd9VewVUzn2",
+   "name": "SHAAN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590889990,
+  "_nanoseconds": 267000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "CHOW",
+    "SHAAN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHOW",
+     "votes": [
+      "KARLMARX",
+      "HARRISON",
+      "MASON",
+      "SHAAN"
+     ],
+     "team": [
+      "CHOW",
+      "SHAAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "KARLMARX",
+    "CHOW",
+    "SHAAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "KARLMARX",
+     "votes": [
+      "KARLMARX",
+      "JOE",
+      "MASON",
+      "SHAAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KARLMARX",
+      "CHOW",
+      "SHAAN"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "HARRISON",
+      "SHAAN",
+      "NGO"
+     ],
+     "proposer": "HARRISON",
+     "votes": [
+      "CHOW",
+      "SHAAN",
+      "NGO",
+      "KARLMARX",
+      "JOE",
+      "HARRISON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HARRISON",
+    "SHAAN",
+    "NGO"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "NGO",
+    "MASON",
+    "SHAAN",
+    "KARLMARX"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NGO",
+     "team": [
+      "NGO",
+      "MASON",
+      "SHAAN",
+      "KARLMARX"
+     ],
+     "votes": [
+      "CHOW",
+      "SHAAN",
+      "NGO",
+      "KARLMARX",
+      "JOE",
+      "MASON"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "MASON",
+    "KARLMARX",
+    "NGO",
+    "SHAAN"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "MASON",
+      "KARLMARX",
+      "NGO",
+      "SHAAN"
+     ],
+     "votes": [
+      "NGO",
+      "KARLMARX",
+      "MASON",
+      "SHAAN"
+     ],
+     "proposer": "MASON",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  }
+ ]
+}

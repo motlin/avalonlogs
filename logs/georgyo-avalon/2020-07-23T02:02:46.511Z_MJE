@@ -1,0 +1,279 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "THOMSON",
+    "ERIC"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "THOMSON",
+      "ERIC"
+     ],
+     "proposer": "THOMSON",
+     "votes": [
+      "ERIC",
+      "ASTON",
+      "THOMSON",
+      "KELVIN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "ERIC",
+    "KELVIN",
+    "THOMSON"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "KELVIN",
+     "state": "APPROVED",
+     "votes": [
+      "THOMSON",
+      "KELVIN",
+      "ERIC"
+     ],
+     "team": [
+      "ERIC",
+      "KELVIN",
+      "THOMSON"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ASTON",
+    "THOMSON"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ERIC",
+     "votes": [
+      "THOMSON",
+      "KELVIN",
+      "ERIC",
+      "ASTON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ASTON",
+      "THOMSON"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ERIC",
+      "ASTON"
+     ],
+     "state": "REJECTED",
+     "proposer": "ASTON",
+     "team": [
+      "ASTON",
+      "THOMSON",
+      "ERIC"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SAM",
+      "ERIC"
+     ],
+     "proposer": "SAM",
+     "team": [
+      "SAM",
+      "KELVIN",
+      "ASTON"
+     ]
+    },
+    {
+     "votes": [
+      "ASTON",
+      "THOMSON",
+      "KELVIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "THOMSON",
+     "team": [
+      "THOMSON",
+      "KELVIN",
+      "ASTON"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "THOMSON",
+    "KELVIN",
+    "ASTON"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "KELVIN",
+      "ERIC"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KELVIN",
+      "ERIC",
+      "ASTON"
+     ],
+     "proposer": "KELVIN"
+    },
+    {
+     "votes": [
+      "SAM",
+      "ERIC"
+     ],
+     "team": [
+      "ERIC",
+      "SAM",
+      "ASTON"
+     ],
+     "proposer": "ERIC",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ASTON",
+     "votes": [
+      "ASTON",
+      "KELVIN",
+      "ERIC"
+     ],
+     "team": [
+      "ERIC",
+      "ASTON",
+      "KELVIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ERIC",
+    "ASTON",
+    "KELVIN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ERIC"
+   },
+   {
+    "role": "MORGANA",
+    "name": "SAM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ASTON",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "THOMSON",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "KELVIN"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "KELVIN",
+  "votes": [
+   {
+    "THOMSON": true,
+    "ERIC": true
+   },
+   {
+    "ERIC": true,
+    "THOMSON": false,
+    "KELVIN": true
+   },
+   {
+    "ASTON": true,
+    "THOMSON": true
+   },
+   {
+    "THOMSON": false,
+    "KELVIN": true,
+    "ASTON": true
+   },
+   {
+    "ASTON": true,
+    "KELVIN": true,
+    "ERIC": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1595470521,
+  "_nanoseconds": 618000000
+ },
+ "players": [
+  {
+   "uid": "O78yb4V9GnNff9YuBn8IRotwtf02",
+   "name": "THOMSON"
+  },
+  {
+   "uid": "tQpgKDFOxBgz3AqqpGqocau1S0a2",
+   "name": "KELVIN"
+  },
+  {
+   "uid": "4I4pfoqbS0ZrY0GXWbhVQ9lA49y2",
+   "name": "ERIC"
+  },
+  {
+   "name": "ASTON",
+   "uid": "mzNKoIt7o2gmdzkxYu68nXIRrJi2"
+  },
+  {
+   "uid": "PyFnZWgR6pYN1SgJ1k5nRikqbIq2",
+   "name": "SAM"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595469766,
+  "_nanoseconds": 511000000
+ }
+}

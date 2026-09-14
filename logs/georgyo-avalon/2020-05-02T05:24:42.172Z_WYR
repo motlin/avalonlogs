@@ -1,0 +1,240 @@
+{
+ "timeFinished": {
+  "_seconds": 1588398049,
+  "_nanoseconds": 66000000
+ },
+ "players": [
+  {
+   "name": "ODENIGBO",
+   "uid": "zXNlP6Fj4dVnLAG0wVEbyjdjWYB3"
+  },
+  {
+   "uid": "S4v8Ub7BRTa7JvjCu9XjtqJHpq02",
+   "name": "DEADMAN"
+  },
+  {
+   "name": "GHOSTGIRL",
+   "uid": "NrabLulNZQVjK09MKfcwIkM9qp03"
+  },
+  {
+   "name": "ANYAKNEEZ",
+   "uid": "L8izV0eB92hcuUAo437cR7PS0WF3"
+  },
+  {
+   "name": "CARSON",
+   "uid": "uLRKPAMCLXcegG9VPiNNFViYZuS2"
+  },
+  {
+   "uid": "sMenRKXa1ahIEDXa32uMOccrKid2",
+   "name": "TIK"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588397082,
+  "_nanoseconds": 172000000
+ },
+ "outcome": {
+  "assassinated": "CARSON",
+  "votes": [
+   {
+    "ANYAKNEEZ": true,
+    "ODENIGBO": true
+   },
+   {
+    "ANYAKNEEZ": true,
+    "CARSON": true,
+    "ODENIGBO": false
+   },
+   {
+    "CARSON": true,
+    "GHOSTGIRL": true,
+    "ANYAKNEEZ": true,
+    "DEADMAN": true
+   },
+   {
+    "CARSON": true,
+    "ANYAKNEEZ": true,
+    "GHOSTGIRL": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CARSON"
+   },
+   {
+    "name": "ANYAKNEEZ",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DEADMAN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "TIK"
+   },
+   {
+    "name": "GHOSTGIRL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ODENIGBO"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ODENIGBO",
+    "ANYAKNEEZ"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "GHOSTGIRL",
+      "ODENIGBO",
+      "CARSON",
+      "ANYAKNEEZ",
+      "DEADMAN",
+      "TIK"
+     ],
+     "team": [
+      "ODENIGBO",
+      "ANYAKNEEZ"
+     ],
+     "proposer": "ODENIGBO",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ODENIGBO",
+      "ANYAKNEEZ",
+      "CARSON"
+     ],
+     "state": "APPROVED",
+     "proposer": "DEADMAN",
+     "votes": [
+      "CARSON",
+      "ANYAKNEEZ",
+      "DEADMAN",
+      "TIK",
+      "GHOSTGIRL"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "ODENIGBO",
+    "ANYAKNEEZ",
+    "CARSON"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ANYAKNEEZ",
+    "DEADMAN",
+    "GHOSTGIRL",
+    "CARSON"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "GHOSTGIRL",
+      "ODENIGBO",
+      "DEADMAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "GHOSTGIRL",
+     "team": [
+      "ANYAKNEEZ",
+      "ODENIGBO",
+      "GHOSTGIRL",
+      "TIK"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANYAKNEEZ",
+      "DEADMAN",
+      "GHOSTGIRL",
+      "CARSON"
+     ],
+     "proposer": "ANYAKNEEZ",
+     "votes": [
+      "GHOSTGIRL",
+      "ODENIGBO",
+      "CARSON",
+      "ANYAKNEEZ",
+      "DEADMAN"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "CARSON",
+    "ANYAKNEEZ",
+    "GHOSTGIRL"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CARSON",
+      "ANYAKNEEZ",
+      "GHOSTGIRL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CARSON",
+      "ANYAKNEEZ",
+      "DEADMAN",
+      "TIK",
+      "GHOSTGIRL",
+      "ODENIGBO"
+     ],
+     "proposer": "CARSON"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

@@ -1,0 +1,241 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "KEON": true,
+    "MILLERTIME": true
+   },
+   {
+    "JACOB": false,
+    "ALEXISBAE": true,
+    "JOSIE": true
+   },
+   {
+    "ALEXISBAE": true,
+    "JOSIE": true
+   },
+   {
+    "KEON": true,
+    "MILLERTIME": false,
+    "JOSIE": true
+   },
+   {
+    "MILLERTIME": false,
+    "JOSIE": true,
+    "ALEXISBAE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JACOB",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JOSIE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEXISBAE",
+    "assassin": false
+   },
+   {
+    "name": "KEON",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MILLERTIME",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "l8JzD6xjccgDr0LeRniyX7zhlPP2",
+   "name": "MILLERTIME"
+  },
+  {
+   "name": "JACOB",
+   "uid": "2kkT3FL8EsOPKj3k1U3nv1g07Ou1"
+  },
+  {
+   "uid": "XI0NWp0BEuZ5IIczE3V0461AdCh1",
+   "name": "ALEXISBAE"
+  },
+  {
+   "uid": "CRAo4cjSqXM6sZ3vr9VK2YLji003",
+   "name": "KEON"
+  },
+  {
+   "uid": "AZqFpisR6kWC90Yut3uLT8bTBMF3",
+   "name": "JOSIE"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "MILLERTIME",
+      "KEON"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MILLERTIME",
+      "JACOB",
+      "JOSIE",
+      "ALEXISBAE",
+      "KEON"
+     ],
+     "proposer": "MILLERTIME"
+    }
+   ],
+   "team": [
+    "MILLERTIME",
+    "KEON"
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "JACOB",
+    "ALEXISBAE",
+    "JOSIE"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JACOB",
+      "ALEXISBAE",
+      "JOSIE"
+     ],
+     "votes": [
+      "JOSIE",
+      "ALEXISBAE",
+      "KEON",
+      "MILLERTIME",
+      "JACOB"
+     ],
+     "proposer": "JACOB"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ALEXISBAE",
+    "JOSIE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ALEXISBAE",
+     "votes": [
+      "JACOB",
+      "JOSIE",
+      "ALEXISBAE"
+     ],
+     "team": [
+      "ALEXISBAE",
+      "JOSIE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "MILLERTIME",
+    "JOSIE",
+    "KEON"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MILLERTIME",
+      "JACOB",
+      "JOSIE",
+      "ALEXISBAE",
+      "KEON"
+     ],
+     "team": [
+      "MILLERTIME",
+      "JOSIE",
+      "KEON"
+     ],
+     "proposer": "KEON"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "MILLERTIME",
+    "ALEXISBAE",
+    "JOSIE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JOSIE",
+      "MILLERTIME",
+      "ALEXISBAE"
+     ],
+     "votes": [],
+     "proposer": "JOSIE",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MILLERTIME",
+      "JACOB",
+      "JOSIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "MILLERTIME",
+     "team": [
+      "MILLERTIME",
+      "ALEXISBAE",
+      "JOSIE"
+     ]
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595814583,
+  "_nanoseconds": 33000000
+ },
+ "timeFinished": {
+  "_seconds": 1595815611,
+  "_nanoseconds": 569000000
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "timeFinished": {
+  "_seconds": 1612666081,
+  "_nanoseconds": 797000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "BEN": true,
+    "CONNOR": true
+   },
+   {
+    "CONNOR": true,
+    "KAYLA": false,
+    "BEN": true
+   },
+   {
+    "JASON": true,
+    "CONNOR": true
+   },
+   {
+    "JASON": true,
+    "KAYLA": false,
+    "CONNOR": true
+   },
+   {
+    "BEN": true,
+    "CONNOR": true,
+    "JASON": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "CONNOR",
+    "assassin": false
+   },
+   {
+    "name": "BART",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KAYLA",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "JASON",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "BEN"
+ },
+ "players": [
+  {
+   "name": "BEN",
+   "uid": "dt2w9QmarAVvbJ4XCHimhQKfOmU2"
+  },
+  {
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83",
+   "name": "CONNOR"
+  },
+  {
+   "name": "JASON",
+   "uid": "Lz95a6GiYcVrrQEto66N1VBqxI92"
+  },
+  {
+   "name": "BART",
+   "uid": "uiZHHxdYrThK7mcr6OLJQTcZBO73"
+  },
+  {
+   "name": "KAYLA",
+   "uid": "pZe1H7oDY8TaLOIWNd8KWKbe0Dx1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1612665471,
+  "_nanoseconds": 866000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "BEN",
+    "CONNOR"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "BART",
+     "votes": [
+      "BART",
+      "JASON"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BART",
+      "JASON"
+     ]
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "JASON",
+      "CONNOR"
+     ],
+     "proposer": "KAYLA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BEN",
+     "votes": [
+      "CONNOR",
+      "KAYLA",
+      "BEN",
+      "BART"
+     ],
+     "team": [
+      "BEN",
+      "CONNOR"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JASON",
+      "BEN",
+      "CONNOR"
+     ],
+     "state": "APPROVED",
+     "proposer": "CONNOR",
+     "team": [
+      "CONNOR",
+      "BEN",
+      "KAYLA"
+     ]
+    }
+   ],
+   "team": [
+    "CONNOR",
+    "BEN",
+    "KAYLA"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "JASON",
+     "state": "APPROVED",
+     "team": [
+      "JASON",
+      "CONNOR"
+     ],
+     "votes": [
+      "CONNOR",
+      "JASON",
+      "BEN",
+      "BART"
+     ]
+    }
+   ],
+   "team": [
+    "JASON",
+    "CONNOR"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "CONNOR",
+    "JASON",
+    "KAYLA"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "BART"
+     ],
+     "proposer": "BART",
+     "state": "REJECTED",
+     "team": [
+      "BART",
+      "CONNOR",
+      "JASON"
+     ]
+    },
+    {
+     "proposer": "KAYLA",
+     "state": "APPROVED",
+     "votes": [
+      "CONNOR",
+      "KAYLA",
+      "JASON"
+     ],
+     "team": [
+      "CONNOR",
+      "JASON",
+      "KAYLA"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "BEN",
+    "CONNOR",
+    "JASON"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "BEN",
+     "votes": [
+      "BEN",
+      "JASON",
+      "CONNOR"
+     ],
+     "team": [
+      "BEN",
+      "CONNOR",
+      "JASON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  }
+ ]
+}

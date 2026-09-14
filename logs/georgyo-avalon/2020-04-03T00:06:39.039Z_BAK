@@ -1,0 +1,259 @@
+{
+ "players": [
+  {
+   "name": "ELLEN",
+   "uid": "tbMyQmKrTRMhdTVPWhyPZYzW4h02"
+  },
+  {
+   "name": "KIM",
+   "uid": "a0Z2gAqTsNXCCXuC0YDLh48PhJ63"
+  },
+  {
+   "name": "YI",
+   "uid": "oVKhlXcW3eOJR058jgIjeXdmAoY2"
+  },
+  {
+   "uid": "lgFShAkDmheF0VFLHKSq4VuS5LA3",
+   "name": "KAREN"
+  },
+  {
+   "name": "JIMMY",
+   "uid": "mKRHSdAI67aMae7RUWeiCfKMSvc2"
+  },
+  {
+   "name": "JOHN",
+   "uid": "TIuhZf7MDVfSXA3sCwLZqVEbFkR2"
+  },
+  {
+   "name": "ALEX",
+   "uid": "OfSnvCcZe5anEUWFdUqNf9PvnUK2"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "A4b62HJDANYXomWcxHAGBDw4Fs13"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "KEVIN",
+      "KIM"
+     ],
+     "state": "APPROVED",
+     "proposer": "KIM",
+     "votes": [
+      "KAREN",
+      "JIMMY",
+      "KIM",
+      "ELLEN",
+      "YI",
+      "KEVIN",
+      "ALEX",
+      "JOHN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ALEX",
+    "KEVIN",
+    "KIM"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "KIM",
+    "YI",
+    "JIMMY",
+    "KEVIN"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "YI",
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "KAREN",
+      "JIMMY",
+      "KIM",
+      "ELLEN",
+      "YI"
+     ],
+     "team": [
+      "KIM",
+      "YI",
+      "JIMMY",
+      "KEVIN"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "KAREN",
+    "KIM",
+    "ALEX",
+    "KEVIN"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "KIM",
+      "ELLEN",
+      "YI",
+      "KEVIN",
+      "ALEX",
+      "KAREN",
+      "JIMMY"
+     ],
+     "proposer": "KAREN",
+     "state": "APPROVED",
+     "team": [
+      "KAREN",
+      "KIM",
+      "ALEX",
+      "KEVIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "team": [
+    "KEVIN",
+    "KIM",
+    "KAREN",
+    "ALEX",
+    "JIMMY"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "YI",
+      "ALEX",
+      "KEVIN",
+      "JOHN",
+      "KAREN",
+      "JIMMY",
+      "KIM",
+      "ELLEN"
+     ],
+     "team": [
+      "KEVIN",
+      "KIM",
+      "KAREN",
+      "ALEX",
+      "JIMMY"
+     ],
+     "proposer": "JIMMY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585873040,
+  "_nanoseconds": 612897000
+ },
+ "timeCreated": {
+  "_seconds": 1585872399,
+  "_nanoseconds": 39000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "ALEX": true,
+    "KEVIN": true,
+    "KIM": true
+   },
+   {
+    "KEVIN": false,
+    "JIMMY": true,
+    "YI": true,
+    "KIM": true
+   },
+   {
+    "ALEX": true,
+    "KAREN": true,
+    "KIM": true,
+    "KEVIN": true
+   },
+   {
+    "KAREN": true,
+    "ALEX": true,
+    "JIMMY": true,
+    "KIM": true,
+    "KEVIN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KAREN",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "JIMMY",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "name": "KIM",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ELLEN",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "YI"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX"
+   },
+   {
+    "assassin": true,
+    "name": "KEVIN",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JOHN"
+   }
+  ],
+  "assassinated": "KAREN",
+  "state": "GOOD_WIN"
+ }
+}

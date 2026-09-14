@@ -1,0 +1,219 @@
+{
+ "players": [
+  {
+   "uid": "Otyhww6DQZPfdwldw6MRDatkS5I3",
+   "name": "ALLEN"
+  },
+  {
+   "name": "KFW",
+   "uid": "oGCzA6emXjSBN5FkPEEEI5MDQ5p2"
+  },
+  {
+   "name": "SNOOZY",
+   "uid": "6FxoWQTRccRcdtpqpaXbxRoBMP52"
+  },
+  {
+   "uid": "zQNLjUvTDpVWY4lIMhxwoKBgYjf2",
+   "name": "AND"
+  },
+  {
+   "uid": "ZQ1KYipQAdc5vavrWOzI5Mlz5Wk2",
+   "name": "SKIMILK"
+  },
+  {
+   "name": "MASTERDIZ",
+   "uid": "asYRGAHN8da7cFG4KyWpG3zDLt13"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1610862706,
+  "_nanoseconds": 424000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1610862941,
+  "_nanoseconds": 499000000
+ },
+ "outcome": {
+  "assassinated": "ALLEN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "KFW": true,
+    "AND": true
+   },
+   {
+    "SKIMILK": true,
+    "AND": false,
+    "KFW": false
+   },
+   {
+    "ALLEN": true,
+    "MASTERDIZ": true,
+    "KFW": true,
+    "SNOOZY": true
+   },
+   {
+    "SNOOZY": true,
+    "MASTERDIZ": true,
+    "ALLEN": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SNOOZY"
+   },
+   {
+    "assassin": false,
+    "name": "ALLEN",
+    "role": "MERLIN"
+   },
+   {
+    "name": "KFW",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "AND",
+    "role": "MORGANA"
+   },
+   {
+    "name": "MASTERDIZ",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SKIMILK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "AND",
+    "KFW"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "AND",
+      "KFW"
+     ],
+     "proposer": "AND",
+     "state": "APPROVED",
+     "votes": [
+      "SNOOZY",
+      "AND",
+      "MASTERDIZ",
+      "KFW"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "SKIMILK",
+    "AND",
+    "KFW"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SKIMILK",
+     "votes": [
+      "AND",
+      "KFW",
+      "MASTERDIZ",
+      "SKIMILK"
+     ],
+     "team": [
+      "SKIMILK",
+      "AND",
+      "KFW"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "SNOOZY",
+    "MASTERDIZ",
+    "ALLEN",
+    "KFW"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MASTERDIZ",
+     "votes": [
+      "MASTERDIZ",
+      "KFW",
+      "SNOOZY",
+      "ALLEN"
+     ],
+     "team": [
+      "SNOOZY",
+      "MASTERDIZ",
+      "ALLEN",
+      "KFW"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MASTERDIZ",
+      "SNOOZY",
+      "KFW",
+      "ALLEN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ALLEN",
+      "SNOOZY",
+      "MASTERDIZ"
+     ],
+     "proposer": "ALLEN"
+    }
+   ],
+   "team": [
+    "ALLEN",
+    "SNOOZY",
+    "MASTERDIZ"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  }
+ ]
+}

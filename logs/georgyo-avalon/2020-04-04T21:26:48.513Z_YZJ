@@ -1,0 +1,266 @@
+{
+ "timeCreated": {
+  "_seconds": 1586035608,
+  "_nanoseconds": 513000000
+ },
+ "players": [
+  {
+   "name": "ANNIE",
+   "uid": "EZMer3OkShbw1l8dYKIk979kAaU2"
+  },
+  {
+   "uid": "mozg2iPCMpPPgoKOf8nslG9O96B3",
+   "name": "AMY"
+  },
+  {
+   "uid": "ubi4Htq0LAZXO4jziC9SLUVfWyb2",
+   "name": "ANDREW"
+  },
+  {
+   "uid": "m1rLVowkFshIRy5f1nYcH5EDzIj1",
+   "name": "DASHACLES"
+  },
+  {
+   "name": "NATHAN",
+   "uid": "Xlno18qPfwdW0ABdHTfWUL09MSF3"
+  },
+  {
+   "name": "WINNIE",
+   "uid": "CV4O6UecnPf65pD6fwqypKlUjA42"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586038102,
+  "_nanoseconds": 8390000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "WINNIE",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ANDREW",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "AMY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DASHACLES"
+   },
+   {
+    "assassin": false,
+    "name": "ANNIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NATHAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "DASHACLES",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "AMY": true,
+    "NATHAN": true
+   },
+   {
+    "ANDREW": true,
+    "NATHAN": true,
+    "AMY": true
+   },
+   {
+    "NATHAN": true,
+    "WINNIE": false,
+    "DASHACLES": true,
+    "ANNIE": true
+   },
+   {
+    "WINNIE": false,
+    "ANNIE": true,
+    "DASHACLES": true
+   },
+   {
+    "ANNIE": true,
+    "NATHAN": true,
+    "DASHACLES": true,
+    "ANDREW": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "NATHAN",
+    "AMY"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NATHAN",
+      "AMY"
+     ],
+     "votes": [
+      "WINNIE",
+      "ANDREW",
+      "AMY",
+      "DASHACLES",
+      "ANNIE",
+      "NATHAN"
+     ],
+     "proposer": "AMY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "AMY",
+    "NATHAN",
+    "ANDREW"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NATHAN",
+      "WINNIE",
+      "ANDREW",
+      "AMY",
+      "DASHACLES",
+      "ANNIE"
+     ],
+     "proposer": "ANDREW",
+     "team": [
+      "AMY",
+      "NATHAN",
+      "ANDREW"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "DASHACLES",
+      "AMY",
+      "ANDREW",
+      "NATHAN"
+     ],
+     "votes": [
+      "ANDREW",
+      "AMY",
+      "DASHACLES"
+     ],
+     "proposer": "DASHACLES",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NATHAN",
+      "WINNIE",
+      "ANNIE",
+      "DASHACLES"
+     ],
+     "proposer": "NATHAN",
+     "votes": [
+      "DASHACLES",
+      "NATHAN",
+      "WINNIE",
+      "ANDREW",
+      "AMY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "NATHAN",
+    "WINNIE",
+    "ANNIE",
+    "DASHACLES"
+   ],
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DASHACLES",
+      "ANNIE",
+      "WINNIE",
+      "AMY"
+     ],
+     "proposer": "WINNIE",
+     "state": "APPROVED",
+     "team": [
+      "WINNIE",
+      "ANNIE",
+      "DASHACLES"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "WINNIE",
+    "ANNIE",
+    "DASHACLES"
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANNIE",
+      "NATHAN",
+      "DASHACLES",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DASHACLES",
+      "ANNIE",
+      "NATHAN",
+      "ANDREW",
+      "AMY"
+     ],
+     "proposer": "ANNIE"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ANNIE",
+    "NATHAN",
+    "DASHACLES",
+    "ANDREW"
+   ],
+   "numFails": 0
+  }
+ ]
+}

@@ -1,0 +1,303 @@
+{
+ "timeFinished": {
+  "_seconds": 1590308977,
+  "_nanoseconds": 16000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "RAMU": true,
+    "NIHOR": true
+   },
+   {
+    "RAMU": false,
+    "ARUNDHATHY": true,
+    "NIHOR": true
+   },
+   {
+    "ARUNDHATHY": true,
+    "RAMU": true
+   },
+   {
+    "ARUNDHATHY": true,
+    "NEYMAR": false,
+    "RAMU": true
+   },
+   {
+    "NIHOR": true,
+    "ANI": true,
+    "RAMU": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ARUNDHATHY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NIHOR",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "RAMU",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "ANI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "NEYMAR",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ANI",
+      "RAMU"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANI",
+     "votes": [
+      "RAMU",
+      "ANI"
+     ]
+    },
+    {
+     "votes": [
+      "ARUNDHATHY",
+      "RAMU"
+     ],
+     "team": [
+      "RAMU",
+      "ARUNDHATHY"
+     ],
+     "state": "REJECTED",
+     "proposer": "RAMU"
+    },
+    {
+     "proposer": "NIHOR",
+     "votes": [
+      "NIHOR",
+      "RAMU",
+      "ARUNDHATHY"
+     ],
+     "team": [
+      "RAMU",
+      "NIHOR"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "RAMU",
+    "NIHOR"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "NEYMAR",
+      "NIHOR",
+      "ARUNDHATHY"
+     ],
+     "votes": [
+      "NEYMAR",
+      "ARUNDHATHY"
+     ],
+     "proposer": "NEYMAR"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ARUNDHATHY",
+      "NIHOR",
+      "RAMU"
+     ],
+     "proposer": "ARUNDHATHY",
+     "votes": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "NIHOR",
+      "RAMU"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ARUNDHATHY",
+    "NIHOR",
+    "RAMU"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIHOR",
+      "ANI"
+     ],
+     "team": [
+      "ANI",
+      "ARUNDHATHY"
+     ],
+     "proposer": "ANI"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "RAMU",
+     "team": [
+      "RAMU",
+      "ARUNDHATHY"
+     ],
+     "votes": [
+      "ARUNDHATHY",
+      "NIHOR",
+      "RAMU"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "RAMU",
+    "ARUNDHATHY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "NEYMAR",
+    "ARUNDHATHY",
+    "RAMU"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NEYMAR",
+      "NIHOR"
+     ],
+     "proposer": "NIHOR",
+     "state": "REJECTED",
+     "team": [
+      "NEYMAR",
+      "NIHOR",
+      "ANI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NEYMAR",
+      "NIHOR"
+     ],
+     "team": [
+      "RAMU",
+      "NIHOR",
+      "ARUNDHATHY"
+     ],
+     "proposer": "NEYMAR"
+    },
+    {
+     "team": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "RAMU"
+     ],
+     "proposer": "ARUNDHATHY",
+     "votes": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "NIHOR",
+      "RAMU",
+      "ANI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ANI",
+    "NIHOR",
+    "RAMU"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANI",
+      "NIHOR",
+      "RAMU"
+     ],
+     "proposer": "ANI",
+     "state": "APPROVED",
+     "votes": [
+      "NIHOR",
+      "ANI",
+      "NEYMAR"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590308197,
+  "_nanoseconds": 647000000
+ },
+ "players": [
+  {
+   "name": "RAMU",
+   "uid": "0zbOqjICfJfO48I1P8yufYz3UXF3"
+  },
+  {
+   "uid": "sqPmR7mfuaevr9RMSVxqG3ueY472",
+   "name": "NIHOR"
+  },
+  {
+   "uid": "T6UkJSofBnXK4RnJUdPBL97KFpw1",
+   "name": "NEYMAR"
+  },
+  {
+   "uid": "jgYbaXnbFPWYKm1r7aFFvQEgyOA3",
+   "name": "ARUNDHATHY"
+  },
+  {
+   "uid": "ijqEuz7xAIXXSOJ3W3EeJejY4yl2",
+   "name": "ANI"
+  }
+ ]
+}

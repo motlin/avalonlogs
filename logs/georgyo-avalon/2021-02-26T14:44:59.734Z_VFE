@@ -1,0 +1,214 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ABDALLAH",
+   "uid": "Zebxsj0YjyQQIgGQa5iGRnSBQci1"
+  },
+  {
+   "name": "ADITI",
+   "uid": "sb8fjGAjWdTlBnafC4rYSQaUJSy1"
+  },
+  {
+   "uid": "Wh5bgTTN3lbWkrUcl08Ym8ns7kb2",
+   "name": "VJ"
+  },
+  {
+   "name": "ANAGHA",
+   "uid": "FgfYX0uO5cT2sktTqByH22SOiGy1"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "kXSzo0T3dYQp1lUiG8iXp6aFoU52"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1614351110,
+  "_nanoseconds": 785000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "VJ": false,
+    "DANIEL": true
+   },
+   {
+    "ADITI": true,
+    "DANIEL": true,
+    "ANAGHA": true
+   },
+   {
+    "ANAGHA": true,
+    "DANIEL": true
+   },
+   {
+    "DANIEL": true,
+    "ADITI": true,
+    "ANAGHA": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "DANIEL",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "ABDALLAH",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ANAGHA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "VJ",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "DANIEL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ADITI",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1614350699,
+  "_nanoseconds": 734000000
+ },
+ "missions": [
+  {
+   "team": [
+    "VJ",
+    "DANIEL"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DANIEL",
+      "VJ",
+      "ADITI",
+      "ABDALLAH"
+     ],
+     "team": [
+      "VJ",
+      "DANIEL"
+     ],
+     "proposer": "VJ"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ANAGHA",
+    "DANIEL",
+    "ADITI"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ANAGHA",
+     "votes": [
+      "DANIEL",
+      "ADITI",
+      "ANAGHA"
+     ],
+     "team": [
+      "ANAGHA",
+      "DANIEL",
+      "ADITI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ANAGHA",
+      "DANIEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "DANIEL",
+     "votes": [
+      "DANIEL",
+      "ANAGHA",
+      "ADITI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ANAGHA",
+    "DANIEL"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "ANAGHA",
+    "ADITI",
+    "DANIEL"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ABDALLAH",
+      "ADITI",
+      "ANAGHA"
+     ],
+     "votes": [
+      "ADITI",
+      "ABDALLAH"
+     ],
+     "state": "REJECTED",
+     "proposer": "ABDALLAH"
+    },
+    {
+     "proposer": "ADITI",
+     "votes": [
+      "DANIEL",
+      "ANAGHA",
+      "ADITI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANAGHA",
+      "ADITI",
+      "DANIEL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ]
+}

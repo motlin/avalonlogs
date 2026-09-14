@@ -1,0 +1,439 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "KELLIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DOM",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ZACK",
+    "role": "MERLIN"
+   },
+   {
+    "name": "RONA",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ZZZ",
+    "role": "MORDRED"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANNIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TERRY",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KELLIE": true,
+    "ANNIE": true,
+    "RONA": true
+   },
+   {
+    "KELLIE": true,
+    "TERRY": true,
+    "ANNIE": true,
+    "ZZZ": true
+   },
+   {
+    "KELLIE": true,
+    "ANNIE": true,
+    "ZZZ": false,
+    "TERRY": true
+   },
+   {
+    "TERRY": true,
+    "KELLIE": true,
+    "RONA": false,
+    "ZACK": true,
+    "DOM": false
+   },
+   {
+    "KELLIE": true,
+    "ZZZ": false,
+    "KEVIN": true,
+    "TERRY": true,
+    "ZACK": true
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1592525980,
+  "_nanoseconds": 115000000
+ },
+ "players": [
+  {
+   "name": "ZACK",
+   "uid": "zQr71BOvpxaLkqtIt03ILTk5FK02"
+  },
+  {
+   "uid": "npuvlchehePeb5qBMK1KMx7J2F12",
+   "name": "ANNIE"
+  },
+  {
+   "uid": "7l4eqVu8MTPBqLwvlj5jOeefHZl1",
+   "name": "TERRY"
+  },
+  {
+   "name": "ZZZ",
+   "uid": "aRm0vqTS4Xb7nNEUaoLZWPAWblP2"
+  },
+  {
+   "name": "KELLIE",
+   "uid": "rF4WpeshoTdVAqFeA46d8DbgVLc2"
+  },
+  {
+   "name": "RONA",
+   "uid": "LoTPJ6DhsAhslNziUpgoBMXlmVW2"
+  },
+  {
+   "uid": "g2saJNVJyLfN6OFRyod2aY0Jrer2",
+   "name": "DOM"
+  },
+  {
+   "uid": "XpaUFjjMRRUIQFwomqjLoaDwF4F2",
+   "name": "KEVIN"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "ANNIE",
+    "KELLIE",
+    "RONA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "TERRY",
+     "votes": [
+      "TERRY",
+      "ZACK",
+      "ZZZ"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TERRY",
+      "ZZZ",
+      "KELLIE"
+     ]
+    },
+    {
+     "proposer": "ZZZ",
+     "team": [
+      "TERRY",
+      "ZZZ",
+      "KELLIE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ZACK",
+      "ZZZ",
+      "TERRY",
+      "KELLIE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZZZ",
+      "ANNIE",
+      "KELLIE",
+      "DOM",
+      "ZACK"
+     ],
+     "team": [
+      "ANNIE",
+      "KELLIE",
+      "RONA"
+     ],
+     "proposer": "KELLIE"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ANNIE",
+    "KELLIE",
+    "TERRY",
+    "ZZZ"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "KELLIE",
+      "RONA",
+      "ANNIE"
+     ],
+     "proposer": "RONA",
+     "state": "REJECTED",
+     "team": [
+      "RONA",
+      "KELLIE",
+      "ANNIE",
+      "ZACK"
+     ]
+    },
+    {
+     "team": [
+      "KELLIE",
+      "DOM",
+      "TERRY",
+      "RONA"
+     ],
+     "proposer": "DOM",
+     "state": "REJECTED",
+     "votes": [
+      "KELLIE",
+      "RONA",
+      "KEVIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RONA",
+      "KEVIN",
+      "KELLIE"
+     ],
+     "team": [
+      "ANNIE",
+      "KELLIE",
+      "RONA",
+      "KEVIN"
+     ],
+     "proposer": "KEVIN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ZACK",
+      "TERRY",
+      "KELLIE",
+      "DOM"
+     ],
+     "votes": [
+      "TERRY",
+      "KELLIE",
+      "ZACK",
+      "RONA"
+     ],
+     "proposer": "ZACK"
+    },
+    {
+     "team": [
+      "ANNIE",
+      "KELLIE",
+      "TERRY",
+      "ZZZ"
+     ],
+     "proposer": "ANNIE",
+     "state": "APPROVED",
+     "votes": [
+      "ZZZ",
+      "KEVIN",
+      "ANNIE",
+      "TERRY",
+      "KELLIE",
+      "DOM",
+      "ZACK",
+      "RONA"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ANNIE",
+    "TERRY",
+    "ZZZ",
+    "KELLIE"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "TERRY",
+     "votes": [
+      "TERRY",
+      "KELLIE",
+      "DOM",
+      "RONA",
+      "ZZZ",
+      "KEVIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANNIE",
+      "TERRY",
+      "ZZZ",
+      "KELLIE"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "RONA",
+    "ZACK",
+    "DOM",
+    "KELLIE",
+    "TERRY"
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "ZZZ",
+     "team": [
+      "TERRY",
+      "ZZZ",
+      "KELLIE",
+      "ANNIE",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KEVIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KELLIE",
+     "team": [
+      "RONA",
+      "ZACK",
+      "DOM",
+      "KELLIE",
+      "TERRY"
+     ],
+     "votes": [
+      "KELLIE",
+      "DOM",
+      "ZACK",
+      "RONA",
+      "ZZZ",
+      "ANNIE"
+     ]
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "RONA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TERRY",
+      "RONA",
+      "KELLIE",
+      "ZZZ",
+      "ANNIE"
+     ],
+     "proposer": "RONA"
+    },
+    {
+     "team": [
+      "ANNIE",
+      "ZZZ",
+      "TERRY",
+      "RONA",
+      "DOM"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DOM"
+     ],
+     "proposer": "DOM"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KEVIN",
+      "KELLIE",
+      "ANNIE",
+      "TERRY",
+      "ZACK"
+     ],
+     "proposer": "KEVIN",
+     "votes": [
+      "ANNIE",
+      "KELLIE"
+     ]
+    },
+    {
+     "votes": [
+      "TERRY",
+      "KELLIE",
+      "DOM",
+      "ZACK",
+      "RONA",
+      "KEVIN"
+     ],
+     "proposer": "ZACK",
+     "team": [
+      "KEVIN",
+      "ZACK",
+      "TERRY",
+      "KELLIE",
+      "ZZZ"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 5,
+   "team": [
+    "KEVIN",
+    "ZACK",
+    "TERRY",
+    "KELLIE",
+    "ZZZ"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592522704,
+  "_nanoseconds": 205000000
+ }
+}

@@ -1,0 +1,283 @@
+{
+ "players": [
+  {
+   "uid": "OfWMDq532yaWD9Ui0jmfpofnVEJ2",
+   "name": "BLITZER"
+  },
+  {
+   "uid": "KEucnFBoyMhoyCMZfLLCSO5JrLm1",
+   "name": "ROO"
+  },
+  {
+   "uid": "bCFhl75gEZe6kxaO40sJ6n4dFma2",
+   "name": "CHUBBLES"
+  },
+  {
+   "name": "YALE",
+   "uid": "fsRLnUaQiIR4elKTZ3zlnpgfC5x2"
+  },
+  {
+   "uid": "Zyg68hiA8CXuyllM0dPwrIHv5P33",
+   "name": "WILSON"
+  },
+  {
+   "uid": "Jpp0zmpNKsRqamnHNiipzDe2Fzy1",
+   "name": "KIRAPUP"
+  },
+  {
+   "uid": "fylgNcELRXhCcxh3elgZ4aH4xqD3",
+   "name": "JIE"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "CHUBBLES",
+    "YALE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "KIRAPUP",
+     "team": [
+      "KIRAPUP",
+      "JIE"
+     ],
+     "votes": [
+      "JIE",
+      "KIRAPUP"
+     ]
+    },
+    {
+     "votes": [
+      "KIRAPUP",
+      "JIE"
+     ],
+     "team": [
+      "JIE",
+      "KIRAPUP"
+     ],
+     "state": "REJECTED",
+     "proposer": "JIE"
+    },
+    {
+     "proposer": "BLITZER",
+     "state": "REJECTED",
+     "votes": [
+      "ROO",
+      "BLITZER"
+     ],
+     "team": [
+      "BLITZER",
+      "ROO"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ROO",
+      "CHUBBLES"
+     ],
+     "proposer": "ROO",
+     "votes": [
+      "ROO",
+      "CHUBBLES"
+     ]
+    },
+    {
+     "votes": [
+      "ROO",
+      "CHUBBLES",
+      "BLITZER",
+      "KIRAPUP",
+      "WILSON",
+      "JIE",
+      "YALE"
+     ],
+     "proposer": "CHUBBLES",
+     "state": "APPROVED",
+     "team": [
+      "CHUBBLES",
+      "YALE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "YALE",
+    "CHUBBLES",
+    "WILSON"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "YALE",
+      "CHUBBLES",
+      "WILSON"
+     ],
+     "state": "APPROVED",
+     "proposer": "YALE",
+     "votes": [
+      "WILSON",
+      "JIE",
+      "YALE",
+      "CHUBBLES",
+      "BLITZER"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "WILSON",
+    "ROO",
+    "KIRAPUP"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WILSON",
+      "JIE",
+      "YALE",
+      "ROO",
+      "KIRAPUP"
+     ],
+     "team": [
+      "WILSON",
+      "ROO",
+      "KIRAPUP"
+     ],
+     "proposer": "WILSON"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KIRAPUP",
+     "votes": [
+      "BLITZER",
+      "KIRAPUP",
+      "WILSON",
+      "JIE",
+      "YALE",
+      "ROO"
+     ],
+     "team": [
+      "KIRAPUP",
+      "WILSON",
+      "ROO",
+      "YALE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KIRAPUP",
+    "WILSON",
+    "ROO",
+    "YALE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "BLITZER",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "KIRAPUP",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "WILSON",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JIE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "YALE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "ROO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "CHUBBLES"
+   }
+  ],
+  "votes": [
+   {
+    "CHUBBLES": true,
+    "YALE": true
+   },
+   {
+    "CHUBBLES": false,
+    "WILSON": true,
+    "YALE": true
+   },
+   {
+    "KIRAPUP": true,
+    "ROO": true,
+    "WILSON": true
+   },
+   {
+    "YALE": true,
+    "KIRAPUP": true,
+    "ROO": true,
+    "WILSON": true
+   }
+  ],
+  "assassinated": "ROO",
+  "state": "GOOD_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1587867209,
+  "_nanoseconds": 378000000
+ },
+ "timeCreated": {
+  "_seconds": 1587865472,
+  "_nanoseconds": 521000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

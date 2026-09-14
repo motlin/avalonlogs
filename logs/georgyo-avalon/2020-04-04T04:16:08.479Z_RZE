@@ -1,0 +1,262 @@
+{
+ "missions": [
+  {
+   "team": [
+    "HYUK",
+    "IVY"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JULIA",
+     "votes": [
+      "JULIA",
+      "HYUK",
+      "NTK"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JULIA",
+      "NTK"
+     ]
+    },
+    {
+     "votes": [
+      "IVY",
+      "BIGGPP",
+      "JULIA",
+      "HYUK",
+      "NTK"
+     ],
+     "proposer": "NTK",
+     "state": "APPROVED",
+     "team": [
+      "HYUK",
+      "IVY"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "BIGGPP",
+    "IVY",
+    "HYUK"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BIGGPP",
+     "votes": [
+      "NTK",
+      "IVY",
+      "BIGGPP",
+      "JULIA",
+      "HYUK"
+     ],
+     "team": [
+      "BIGGPP",
+      "IVY",
+      "HYUK"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "IVY",
+     "team": [
+      "IVY",
+      "HYUK",
+      "BIGGPP",
+      "HOYKI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "IVY",
+      "BIGGPP",
+      "JULIA",
+      "HYUK",
+      "NTK"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "IVY",
+    "HYUK",
+    "BIGGPP",
+    "HOYKI"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "BIGGPP",
+      "IVY",
+      "HYUK"
+     ],
+     "votes": [
+      "JULIA",
+      "HYUK",
+      "NTK",
+      "IVY"
+     ],
+     "proposer": "HYUK",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "BIGGPP",
+    "IVY",
+    "HYUK"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "IVY",
+      "BIGGPP",
+      "JULIA",
+      "HOYKI",
+      "HYUK"
+     ],
+     "team": [
+      "HOYKI",
+      "JULIA",
+      "BIGGPP",
+      "IVY"
+     ],
+     "proposer": "HOYKI"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "HOYKI",
+    "JULIA",
+    "BIGGPP",
+    "IVY"
+   ]
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "IVY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BIGGPP",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JULIA"
+   },
+   {
+    "assassin": false,
+    "name": "HOYKI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "HYUK",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "NTK"
+   }
+  ],
+  "votes": [
+   {
+    "IVY": true,
+    "HYUK": true
+   },
+   {
+    "BIGGPP": true,
+    "IVY": true,
+    "HYUK": true
+   },
+   {
+    "IVY": true,
+    "HOYKI": true,
+    "HYUK": false,
+    "BIGGPP": true
+   },
+   {
+    "IVY": true,
+    "BIGGPP": true,
+    "HYUK": false
+   },
+   {
+    "IVY": true,
+    "JULIA": false,
+    "HOYKI": true,
+    "BIGGPP": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1585974310,
+  "_nanoseconds": 824368000
+ },
+ "players": [
+  {
+   "name": "JULIA",
+   "uid": "zY3pVpkUyXO1QW1UnaUAj8z2prf1"
+  },
+  {
+   "name": "NTK",
+   "uid": "Ui8HF0i2aOcayLRvCQzO2RdeCRp2"
+  },
+  {
+   "name": "BIGGPP",
+   "uid": "19d9PeNvMSaefpz07aPG9PGBQIx2"
+  },
+  {
+   "name": "IVY",
+   "uid": "tKUV9qi3N8d73S9dtqqgfz3OOo83"
+  },
+  {
+   "name": "HYUK",
+   "uid": "uXsYCSH4wObajDD7XcO2r5MBYpC3"
+  },
+  {
+   "name": "HOYKI",
+   "uid": "ZbGv7E7dZ8PEqeVAYmFOZ4vFsZ03"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585973768,
+  "_nanoseconds": 479000000
+ }
+}

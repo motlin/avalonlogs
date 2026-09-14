@@ -1,0 +1,219 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "CT",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "MIKE": true,
+    "ANGELA": true
+   },
+   {
+    "MIKE": true,
+    "DIMSUM": false,
+    "TT": true
+   },
+   {
+    "MIKE": true,
+    "CT": true
+   },
+   {
+    "TT": true,
+    "CT": true,
+    "MIKE": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "CT",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DIMSUM",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MIKE"
+   },
+   {
+    "name": "ANGELA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "TT"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANGELA",
+      "MIKE"
+     ],
+     "votes": [
+      "CT",
+      "DIMSUM",
+      "MIKE",
+      "ANGELA",
+      "TT"
+     ],
+     "proposer": "DIMSUM"
+    }
+   ],
+   "team": [
+    "ANGELA",
+    "MIKE"
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MIKE",
+    "DIMSUM",
+    "TT"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DIMSUM",
+      "MIKE",
+      "ANGELA",
+      "TT"
+     ],
+     "team": [
+      "MIKE",
+      "DIMSUM",
+      "TT"
+     ],
+     "proposer": "MIKE"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CT",
+     "state": "APPROVED",
+     "team": [
+      "CT",
+      "MIKE"
+     ],
+     "votes": [
+      "ANGELA",
+      "TT",
+      "CT",
+      "DIMSUM",
+      "MIKE"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "CT",
+    "MIKE"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "TT",
+    "CT",
+    "MIKE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "DIMSUM",
+      "ANGELA"
+     ],
+     "team": [
+      "DIMSUM",
+      "ANGELA",
+      "MIKE"
+     ],
+     "proposer": "ANGELA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "TT",
+      "CT",
+      "MIKE"
+     ],
+     "proposer": "TT",
+     "votes": [
+      "CT",
+      "DIMSUM",
+      "ANGELA",
+      "TT"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590355908,
+  "_nanoseconds": 119000000
+ },
+ "players": [
+  {
+   "name": "ANGELA",
+   "uid": "DrBh8b2z23dj40Jgl2KqsXFTL6S2"
+  },
+  {
+   "name": "TT",
+   "uid": "meIhUhdoMsgr93kLryMHVpQmKqg1"
+  },
+  {
+   "uid": "3XLI12g1jbQsNwn2F8jI7SbAbnk2",
+   "name": "DIMSUM"
+  },
+  {
+   "uid": "KkPhYaSZ5rO6Hkr7So0HquVgHO33",
+   "name": "MIKE"
+  },
+  {
+   "name": "CT",
+   "uid": "6dsV8gCrEtTQVvJ3EHp7HEHUhf52"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590356340,
+  "_nanoseconds": 130000000
+ }
+}

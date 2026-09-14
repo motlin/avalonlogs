@@ -1,0 +1,289 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "YALE": true,
+    "BLITZER": true
+   },
+   {
+    "WILSON": true,
+    "YALE": false,
+    "BLITZER": true
+   },
+   {
+    "YALE": true,
+    "KIRAPUP": false,
+    "JIE": true
+   },
+   {
+    "YALE": true,
+    "CHUBBLES": true,
+    "JIE": true,
+    "BLITZER": true
+   },
+   {
+    "CHUBBLES": true,
+    "ROO": true,
+    "JIE": true,
+    "BLITZER": true
+   }
+  ],
+  "assassinated": "ROO",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BLITZER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KIRAPUP"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "WILSON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JIE"
+   },
+   {
+    "name": "YALE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ROO",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHUBBLES",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1587861432,
+  "_nanoseconds": 918000000
+ },
+ "missions": [
+  {
+   "team": [
+    "BLITZER",
+    "YALE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CHUBBLES",
+      "BLITZER",
+      "WILSON",
+      "YALE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BLITZER",
+      "YALE"
+     ],
+     "proposer": "YALE"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "WILSON",
+    "YALE",
+    "BLITZER"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KIRAPUP",
+      "WILSON",
+      "YALE",
+      "ROO",
+      "CHUBBLES",
+      "BLITZER"
+     ],
+     "proposer": "WILSON",
+     "team": [
+      "WILSON",
+      "YALE",
+      "BLITZER"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KIRAPUP",
+     "team": [
+      "JIE",
+      "YALE",
+      "KIRAPUP"
+     ],
+     "votes": [
+      "KIRAPUP",
+      "JIE",
+      "YALE",
+      "CHUBBLES"
+     ]
+    }
+   ],
+   "team": [
+    "JIE",
+    "YALE",
+    "KIRAPUP"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "BLITZER",
+    "CHUBBLES",
+    "YALE",
+    "JIE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JIE",
+     "state": "APPROVED",
+     "votes": [
+      "BLITZER",
+      "KIRAPUP",
+      "JIE",
+      "YALE",
+      "CHUBBLES"
+     ],
+     "team": [
+      "BLITZER",
+      "CHUBBLES",
+      "YALE",
+      "JIE"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "BLITZER",
+    "ROO",
+    "CHUBBLES",
+    "JIE"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JIE",
+      "YALE",
+      "KIRAPUP"
+     ],
+     "team": [
+      "BLITZER",
+      "CHUBBLES",
+      "YALE",
+      "JIE"
+     ],
+     "proposer": "BLITZER",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ROO",
+     "votes": [
+      "JIE",
+      "CHUBBLES"
+     ],
+     "team": [
+      "JIE",
+      "ROO",
+      "CHUBBLES",
+      "BLITZER"
+     ]
+    },
+    {
+     "votes": [
+      "BLITZER",
+      "JIE",
+      "ROO",
+      "CHUBBLES"
+     ],
+     "team": [
+      "BLITZER",
+      "ROO",
+      "CHUBBLES",
+      "JIE"
+     ],
+     "proposer": "CHUBBLES",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587865022,
+  "_nanoseconds": 574000000
+ },
+ "players": [
+  {
+   "name": "BLITZER",
+   "uid": "OfWMDq532yaWD9Ui0jmfpofnVEJ2"
+  },
+  {
+   "name": "ROO",
+   "uid": "KEucnFBoyMhoyCMZfLLCSO5JrLm1"
+  },
+  {
+   "name": "CHUBBLES",
+   "uid": "bCFhl75gEZe6kxaO40sJ6n4dFma2"
+  },
+  {
+   "name": "YALE",
+   "uid": "fsRLnUaQiIR4elKTZ3zlnpgfC5x2"
+  },
+  {
+   "name": "WILSON",
+   "uid": "Zyg68hiA8CXuyllM0dPwrIHv5P33"
+  },
+  {
+   "name": "KIRAPUP",
+   "uid": "Jpp0zmpNKsRqamnHNiipzDe2Fzy1"
+  },
+  {
+   "uid": "fylgNcELRXhCcxh3elgZ4aH4xqD3",
+   "name": "JIE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

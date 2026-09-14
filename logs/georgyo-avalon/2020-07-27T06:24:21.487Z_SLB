@@ -1,0 +1,289 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1595831827,
+  "_nanoseconds": 879000000
+ },
+ "players": [
+  {
+   "uid": "VaYYMQCO43dh5ZsXCoPGeTKHhWa2",
+   "name": "SHINWANNAB"
+  },
+  {
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52",
+   "name": "ALLY"
+  },
+  {
+   "uid": "KAVm2nNtkoP0XFRiO5JSSqHLcAv1",
+   "name": "JAZ"
+  },
+  {
+   "name": "RYAN",
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2"
+  },
+  {
+   "name": "ALBERT",
+   "uid": "157gZNSdqchRlWTQuHm0KzOOkJG3"
+  },
+  {
+   "name": "DABID",
+   "uid": "4u2kYJRmBXRqIwSOFjiiyChiKho2"
+  },
+  {
+   "uid": "t7sMFpsD9QVfCyTntVjfi5arQ8H3",
+   "name": "POLE"
+  },
+  {
+   "uid": "DpYRwJ0fVHRYMVose9vjdSs25Ww1",
+   "name": "MICHELLLE"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "ALBERT": true,
+    "RYAN": true,
+    "ALLY": true
+   },
+   {
+    "ALBERT": true,
+    "POLE": true,
+    "DABID": false,
+    "RYAN": true
+   },
+   {
+    "MICHELLLE": true,
+    "RYAN": true,
+    "POLE": true,
+    "ALBERT": true
+   },
+   {
+    "SHINWANNAB": true,
+    "POLE": true,
+    "ALBERT": true,
+    "MICHELLLE": true,
+    "RYAN": true
+   }
+  ],
+  "assassinated": "POLE",
+  "roles": [
+   {
+    "name": "RYAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "MICHELLLE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "DABID",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "JAZ",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "POLE",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "ALLY",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ALBERT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SHINWANNAB"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1595831061,
+  "_nanoseconds": 487000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MICHELLLE",
+     "votes": [
+      "MICHELLLE",
+      "DABID",
+      "POLE",
+      "ALLY",
+      "ALBERT",
+      "SHINWANNAB",
+      "RYAN"
+     ],
+     "team": [
+      "RYAN",
+      "ALBERT",
+      "ALLY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "RYAN",
+    "ALBERT",
+    "ALLY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "RYAN",
+    "ALBERT",
+    "POLE",
+    "DABID"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "DABID",
+      "JAZ",
+      "POLE",
+      "ALLY",
+      "ALBERT",
+      "SHINWANNAB",
+      "RYAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHINWANNAB",
+     "team": [
+      "RYAN",
+      "ALBERT",
+      "POLE",
+      "DABID"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "RYAN",
+    "ALBERT",
+    "MICHELLLE",
+    "POLE"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "ALLY",
+     "state": "REJECTED",
+     "team": [
+      "ALLY",
+      "MICHELLLE",
+      "JAZ",
+      "ALBERT"
+     ],
+     "votes": [
+      "JAZ",
+      "ALLY"
+     ]
+    },
+    {
+     "proposer": "JAZ",
+     "state": "REJECTED",
+     "team": [
+      "JAZ",
+      "ALLY",
+      "RYAN",
+      "ALBERT"
+     ],
+     "votes": [
+      "DABID",
+      "JAZ",
+      "ALLY",
+      "ALBERT"
+     ]
+    },
+    {
+     "team": [
+      "RYAN",
+      "ALBERT",
+      "MICHELLLE",
+      "POLE"
+     ],
+     "proposer": "RYAN",
+     "state": "APPROVED",
+     "votes": [
+      "DABID",
+      "POLE",
+      "ALBERT",
+      "SHINWANNAB",
+      "RYAN",
+      "MICHELLLE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ALBERT",
+    "RYAN",
+    "POLE",
+    "MICHELLLE",
+    "SHINWANNAB"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RYAN",
+      "MICHELLLE",
+      "DABID",
+      "POLE",
+      "ALBERT",
+      "SHINWANNAB"
+     ],
+     "team": [
+      "ALBERT",
+      "RYAN",
+      "POLE",
+      "MICHELLLE",
+      "SHINWANNAB"
+     ],
+     "proposer": "ALBERT"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 5
+  }
+ ]
+}

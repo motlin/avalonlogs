@@ -1,0 +1,217 @@
+{
+ "players": [
+  {
+   "uid": "7BzsFuL8XVYqkMV8QfQDKV3sb2T2",
+   "name": "DARYL"
+  },
+  {
+   "name": "JIA",
+   "uid": "vxG5a3jQf2brL65I8p6TrOglh4z1"
+  },
+  {
+   "uid": "IWOJ67yR5MRFdUoXf7BXuodC3KQ2",
+   "name": "CARGUY"
+  },
+  {
+   "name": "SPEAKA",
+   "uid": "8JiyEHhnerhZyN1VOV0z0YlGq213"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "PMvTaqEEneT3hJtEchAZwS9cBbA2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589583892,
+  "_nanoseconds": 297000000
+ },
+ "timeCreated": {
+  "_seconds": 1589582939,
+  "_nanoseconds": 520000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "DARYL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CARGUY"
+   },
+   {
+    "name": "BRIAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JIA",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SPEAKA"
+   }
+  ],
+  "assassinated": "BRIAN",
+  "votes": [
+   {
+    "SPEAKA": true,
+    "BRIAN": true
+   },
+   {
+    "SPEAKA": true,
+    "BRIAN": true,
+    "JIA": false
+   },
+   {
+    "SPEAKA": true,
+    "DARYL": true
+   },
+   {
+    "CARGUY": true,
+    "BRIAN": true,
+    "SPEAKA": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "JIA",
+      "SPEAKA",
+      "DARYL"
+     ],
+     "team": [
+      "BRIAN",
+      "SPEAKA"
+     ],
+     "proposer": "BRIAN"
+    }
+   ],
+   "team": [
+    "BRIAN",
+    "SPEAKA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "JIA",
+    "SPEAKA",
+    "BRIAN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SPEAKA",
+      "DARYL"
+     ],
+     "team": [
+      "DARYL",
+      "JIA",
+      "SPEAKA"
+     ],
+     "proposer": "DARYL",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JIA",
+      "SPEAKA",
+      "BRIAN"
+     ],
+     "votes": [
+      "JIA",
+      "SPEAKA",
+      "DARYL",
+      "CARGUY",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JIA"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SPEAKA",
+      "DARYL"
+     ],
+     "proposer": "CARGUY",
+     "state": "APPROVED",
+     "votes": [
+      "DARYL",
+      "CARGUY",
+      "JIA",
+      "SPEAKA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "SPEAKA",
+    "DARYL"
+   ]
+  },
+  {
+   "team": [
+    "SPEAKA",
+    "CARGUY",
+    "BRIAN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CARGUY",
+      "BRIAN",
+      "SPEAKA"
+     ],
+     "proposer": "SPEAKA",
+     "team": [
+      "SPEAKA",
+      "CARGUY",
+      "BRIAN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ]
+}

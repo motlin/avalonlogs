@@ -1,0 +1,271 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "SABRINA",
+    "SOPHIA"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "SOPHIA",
+     "votes": [
+      "MOLLY",
+      "SARAH",
+      "EMMA",
+      "SABRINA",
+      "JULIA",
+      "SOPHIA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SABRINA",
+      "SOPHIA"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "MOLLY",
+    "SARAH",
+    "SOPHIA"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "MOLLY",
+      "SARAH",
+      "SOPHIA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SABRINA",
+      "MOLLY",
+      "SOPHIA",
+      "SARAH",
+      "EMMA",
+      "JULIA"
+     ],
+     "proposer": "JULIA"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JULIA",
+      "MOLLY",
+      "EMMA",
+      "SOPHIA",
+      "SARAH",
+      "SABRINA"
+     ],
+     "team": [
+      "SARAH",
+      "SOPHIA",
+      "MOLLY",
+      "JULIA"
+     ],
+     "proposer": "SABRINA",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "SARAH",
+    "SOPHIA",
+    "MOLLY",
+    "JULIA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MOLLY",
+      "SARAH",
+      "SOPHIA"
+     ],
+     "votes": [
+      "SARAH",
+      "EMMA",
+      "MOLLY",
+      "SOPHIA",
+      "SABRINA",
+      "JULIA"
+     ],
+     "proposer": "MOLLY",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MOLLY",
+    "SARAH",
+    "SOPHIA"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "SARAH",
+    "EMMA",
+    "MOLLY",
+    "JULIA"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "EMMA",
+      "MOLLY"
+     ],
+     "team": [
+      "SARAH",
+      "MOLLY",
+      "EMMA",
+      "SABRINA"
+     ],
+     "proposer": "EMMA"
+    },
+    {
+     "votes": [
+      "JULIA",
+      "MOLLY",
+      "SARAH",
+      "EMMA",
+      "SOPHIA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SARAH",
+      "EMMA",
+      "MOLLY",
+      "JULIA"
+     ],
+     "proposer": "SARAH"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1613957346,
+  "_nanoseconds": 660000000
+ },
+ "players": [
+  {
+   "name": "SARAH",
+   "uid": "QE8lSDvgTtQw9sbm9cll5q1zY1H3"
+  },
+  {
+   "name": "SOPHIA",
+   "uid": "pfyPCW5hnRWSCvdVpEciqYhwOBv2"
+  },
+  {
+   "name": "JULIA",
+   "uid": "8DnljCkwd3PzcIh3EjT4OwnBrbm2"
+  },
+  {
+   "uid": "ax4o12nKdOgGn9HyUPXVSgx4KzJ2",
+   "name": "SABRINA"
+  },
+  {
+   "uid": "DWwdVxeaZHMCCnvNwTJGwog6t4a2",
+   "name": "MOLLY"
+  },
+  {
+   "name": "EMMA",
+   "uid": "EeuuM7uuJSZmkLGVaNqXlHY6vTl2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1613958018,
+  "_nanoseconds": 337000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "SOPHIA": true,
+    "SABRINA": true
+   },
+   {
+    "MOLLY": true,
+    "SOPHIA": true,
+    "SARAH": true
+   },
+   {
+    "SARAH": true,
+    "JULIA": true,
+    "MOLLY": true,
+    "SOPHIA": false
+   },
+   {
+    "SARAH": true,
+    "SOPHIA": false,
+    "MOLLY": true
+   },
+   {
+    "EMMA": true,
+    "SARAH": true,
+    "MOLLY": true,
+    "JULIA": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "EMMA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "SOPHIA",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SABRINA",
+    "assassin": false
+   },
+   {
+    "name": "MOLLY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SARAH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JULIA",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions"
+ }
+}

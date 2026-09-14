@@ -1,0 +1,317 @@
+{
+ "players": [
+  {
+   "uid": "ZfYkRxOjOueo9q2aiXdkO1Z47QI2",
+   "name": "YAMIN"
+  },
+  {
+   "name": "PHILIP",
+   "uid": "6xbJ2WPWUGVljxQvgc1zf2jes0P2"
+  },
+  {
+   "uid": "DAFFA27l52RNY3pnYCeHqx2Dnv33",
+   "name": "LUCAS"
+  },
+  {
+   "uid": "GGDUXKz8G5aRQbedwCH3K1p9uK62",
+   "name": "BLAKE"
+  },
+  {
+   "uid": "09K2LIvte2XgTKxJWP9wUUCA8Pf1",
+   "name": "JASON"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588391107,
+  "_nanoseconds": 331000000
+ },
+ "timeFinished": {
+  "_seconds": 1588393635,
+  "_nanoseconds": 426000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "LUCAS",
+  "votes": [
+   {
+    "LUCAS": true,
+    "YAMIN": true
+   },
+   {
+    "LUCAS": true,
+    "JASON": true,
+    "YAMIN": false
+   },
+   {
+    "BLAKE": true,
+    "PHILIP": true
+   },
+   {
+    "PHILIP": false,
+    "BLAKE": true,
+    "JASON": true
+   },
+   {
+    "JASON": true,
+    "LUCAS": true,
+    "BLAKE": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "YAMIN"
+   },
+   {
+    "name": "JASON",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "BLAKE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LUCAS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "PHILIP"
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "team": [
+    "YAMIN",
+    "LUCAS"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PHILIP",
+      "LUCAS"
+     ],
+     "proposer": "YAMIN",
+     "votes": [
+      "LUCAS"
+     ]
+    },
+    {
+     "proposer": "PHILIP",
+     "votes": [
+      "LUCAS",
+      "PHILIP"
+     ],
+     "team": [
+      "LUCAS",
+      "PHILIP"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "YAMIN",
+      "LUCAS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "YAMIN",
+      "JASON",
+      "LUCAS"
+     ],
+     "proposer": "LUCAS"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "BLAKE",
+      "JASON",
+      "YAMIN"
+     ],
+     "proposer": "BLAKE",
+     "votes": [
+      "YAMIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JASON",
+     "votes": [
+      "YAMIN",
+      "JASON",
+      "LUCAS"
+     ],
+     "team": [
+      "YAMIN",
+      "LUCAS",
+      "JASON"
+     ]
+    }
+   ],
+   "team": [
+    "YAMIN",
+    "LUCAS",
+    "JASON"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "YAMIN",
+      "JASON"
+     ],
+     "state": "REJECTED",
+     "proposer": "YAMIN",
+     "votes": [
+      "YAMIN"
+     ]
+    },
+    {
+     "votes": [
+      "PHILIP",
+      "JASON",
+      "BLAKE"
+     ],
+     "team": [
+      "PHILIP",
+      "BLAKE"
+     ],
+     "proposer": "PHILIP",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PHILIP",
+    "BLAKE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "PHILIP",
+    "BLAKE",
+    "JASON"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "LUCAS",
+      "YAMIN",
+      "BLAKE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "YAMIN"
+     ],
+     "proposer": "LUCAS"
+    },
+    {
+     "votes": [
+      "PHILIP",
+      "JASON",
+      "BLAKE"
+     ],
+     "proposer": "BLAKE",
+     "team": [
+      "PHILIP",
+      "BLAKE",
+      "JASON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PHILIP",
+      "LUCAS",
+      "JASON"
+     ],
+     "votes": [],
+     "proposer": "JASON"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "PHILIP",
+      "JASON",
+      "YAMIN"
+     ],
+     "proposer": "YAMIN",
+     "votes": [
+      "YAMIN"
+     ]
+    },
+    {
+     "proposer": "PHILIP",
+     "state": "REJECTED",
+     "team": [
+      "PHILIP",
+      "BLAKE",
+      "LUCAS"
+     ],
+     "votes": [
+      "PHILIP"
+     ]
+    },
+    {
+     "votes": [
+      "JASON",
+      "BLAKE",
+      "LUCAS"
+     ],
+     "proposer": "LUCAS",
+     "state": "APPROVED",
+     "team": [
+      "LUCAS",
+      "BLAKE",
+      "JASON"
+     ]
+    }
+   ],
+   "team": [
+    "LUCAS",
+    "BLAKE",
+    "JASON"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ]
+}

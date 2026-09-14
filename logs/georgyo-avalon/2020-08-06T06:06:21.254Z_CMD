@@ -1,0 +1,177 @@
+{
+ "players": [
+  {
+   "name": "KEVIN",
+   "uid": "tqHKcS4M8Wfljh65F2apU3F7ANf1"
+  },
+  {
+   "uid": "TqhpIYDZtkTUyekjeufg08R316J2",
+   "name": "BIGDAWGS"
+  },
+  {
+   "name": "GRACE",
+   "uid": "UOnCEfqteLb5jLFNjp2moHGzzt42"
+  },
+  {
+   "name": "JOANNAA",
+   "uid": "t2ITEVOPRZfDmCFoRAjPn6zButI2"
+  },
+  {
+   "name": "RACHEL",
+   "uid": "Ca3VT5d9X2SOfy4zFq3XplRuVlD3"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "BIGDAWGS": true,
+    "KEVIN": true
+   },
+   {
+    "KEVIN": true,
+    "GRACE": true,
+    "BIGDAWGS": true
+   },
+   {
+    "GRACE": true,
+    "JOANNAA": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "RACHEL",
+  "roles": [
+   {
+    "role": "MORDRED",
+    "name": "BIGDAWGS",
+    "assassin": true
+   },
+   {
+    "name": "KEVIN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RACHEL",
+    "assassin": false
+   },
+   {
+    "name": "GRACE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JOANNAA"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1596693981,
+  "_nanoseconds": 254000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "KEVIN",
+    "BIGDAWGS"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BIGDAWGS",
+     "team": [
+      "KEVIN",
+      "BIGDAWGS"
+     ],
+     "votes": [
+      "JOANNAA",
+      "KEVIN",
+      "GRACE",
+      "BIGDAWGS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "GRACE",
+    "BIGDAWGS",
+    "KEVIN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "GRACE",
+      "BIGDAWGS",
+      "KEVIN"
+     ],
+     "proposer": "GRACE",
+     "votes": [
+      "GRACE",
+      "BIGDAWGS",
+      "KEVIN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "GRACE",
+    "JOANNAA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "GRACE",
+      "JOANNAA"
+     ],
+     "proposer": "JOANNAA",
+     "votes": [
+      "GRACE",
+      "KEVIN",
+      "RACHEL",
+      "JOANNAA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596694187,
+  "_nanoseconds": 225000000
+ }
+}

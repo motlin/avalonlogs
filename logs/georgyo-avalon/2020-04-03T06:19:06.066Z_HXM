@@ -1,0 +1,269 @@
+{
+ "players": [
+  {
+   "uid": "FX8EdqZPhvXZFqZJNGqZmoc44Yh1",
+   "name": "ANTOINE"
+  },
+  {
+   "name": "BURRITO",
+   "uid": "u3cky95zaAP5talg2lNsxpxbPiv1"
+  },
+  {
+   "name": "CHI",
+   "uid": "7kV9GQM0q1SvA3R27T5KcU2HhEh1"
+  },
+  {
+   "name": "DANIELAWES",
+   "uid": "LaamvDTXvYPRLVd6wxvmmfdnP0x2"
+  },
+  {
+   "name": "JAMESBROND",
+   "uid": "jkLLhct5RKdOdmXSzgLKKMMRcVM2"
+  },
+  {
+   "uid": "4QHYQYzAkpT51JPA9YOBkkegT862",
+   "name": "JON"
+  },
+  {
+   "name": "LEO",
+   "uid": "W13XklcJrIZkbfiOgg4VUiaUybp1"
+  },
+  {
+   "uid": "6ACH43BUWAfOtvYEfdRkzZR8uLo1",
+   "name": "THERAPTURE"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585895254,
+  "_nanoseconds": 585243000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "THERAPTURE": true,
+    "ANTOINE": true,
+    "DANIELAWES": true
+   },
+   {
+    "LEO": true,
+    "ANTOINE": true,
+    "THERAPTURE": true,
+    "BURRITO": false
+   },
+   {
+    "LEO": true,
+    "THERAPTURE": true,
+    "JAMESBROND": true,
+    "BURRITO": true
+   },
+   {
+    "JAMESBROND": true,
+    "LEO": true,
+    "THERAPTURE": true,
+    "BURRITO": true,
+    "CHI": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "LEO",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ANTOINE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "THERAPTURE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LEO",
+    "role": "MERLIN"
+   },
+   {
+    "name": "DANIELAWES",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JAMESBROND",
+    "role": "MORDRED"
+   },
+   {
+    "name": "CHI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "BURRITO",
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585894746,
+  "_nanoseconds": 66000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ANTOINE",
+      "THERAPTURE",
+      "LEO",
+      "DANIELAWES",
+      "JAMESBROND",
+      "BURRITO"
+     ],
+     "state": "APPROVED",
+     "proposer": "DANIELAWES",
+     "team": [
+      "DANIELAWES",
+      "THERAPTURE",
+      "ANTOINE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "DANIELAWES",
+    "THERAPTURE",
+    "ANTOINE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ANTOINE",
+      "THERAPTURE",
+      "LEO",
+      "JAMESBROND",
+      "BURRITO"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAMESBROND",
+     "team": [
+      "BURRITO",
+      "LEO",
+      "THERAPTURE",
+      "ANTOINE"
+     ]
+    }
+   ],
+   "team": [
+    "BURRITO",
+    "LEO",
+    "THERAPTURE",
+    "ANTOINE"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "BURRITO",
+    "LEO",
+    "JAMESBROND",
+    "THERAPTURE"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "JON",
+     "votes": [
+      "JON",
+      "JAMESBROND",
+      "THERAPTURE",
+      "DANIELAWES"
+     ],
+     "team": [
+      "JON",
+      "DANIELAWES",
+      "BURRITO",
+      "ANTOINE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BURRITO",
+      "LEO",
+      "JAMESBROND",
+      "THERAPTURE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "THERAPTURE",
+      "LEO",
+      "JAMESBROND",
+      "CHI",
+      "BURRITO"
+     ],
+     "proposer": "LEO"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "THERAPTURE",
+      "LEO",
+      "CHI",
+      "BURRITO",
+      "JAMESBROND"
+     ],
+     "proposer": "THERAPTURE",
+     "votes": [
+      "JAMESBROND",
+      "CHI",
+      "BURRITO",
+      "ANTOINE",
+      "THERAPTURE",
+      "LEO",
+      "DANIELAWES"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "teamSize": 5,
+   "team": [
+    "THERAPTURE",
+    "LEO",
+    "CHI",
+    "BURRITO",
+    "JAMESBROND"
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ]
+}

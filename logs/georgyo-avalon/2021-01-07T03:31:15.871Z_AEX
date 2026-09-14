@@ -1,0 +1,234 @@
+{
+ "timeCreated": {
+  "_seconds": 1609990275,
+  "_nanoseconds": 871000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "BROWN": true,
+    "BROWNY": true
+   },
+   {
+    "BROWNY": true,
+    "BIBBSRIBS": false,
+    "BROWN": true
+   },
+   {
+    "BROWNY": true,
+    "PAIL": true
+   },
+   {
+    "BROWNY": true,
+    "EX": false,
+    "PAIL": true
+   },
+   {
+    "BROWNY": true,
+    "PAIL": true,
+    "BROWN": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "BROWN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "BROWN"
+   },
+   {
+    "name": "PAIL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "BIBBSRIBS"
+   },
+   {
+    "name": "BROWNY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "EX"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "BROWN",
+      "BROWNY",
+      "BIBBSRIBS",
+      "EX",
+      "PAIL"
+     ],
+     "team": [
+      "BROWNY",
+      "BROWN"
+     ],
+     "state": "APPROVED",
+     "proposer": "EX"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "BROWNY",
+    "BROWN"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "BROWN",
+      "BROWNY",
+      "BIBBSRIBS"
+     ],
+     "proposer": "BROWN",
+     "votes": [
+      "PAIL",
+      "BROWNY",
+      "EX",
+      "BROWN",
+      "BIBBSRIBS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BROWN",
+    "BROWNY",
+    "BIBBSRIBS"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BROWNY",
+      "BIBBSRIBS",
+      "EX",
+      "BROWN",
+      "PAIL"
+     ],
+     "team": [
+      "BROWNY",
+      "PAIL"
+     ],
+     "proposer": "PAIL"
+    }
+   ],
+   "team": [
+    "BROWNY",
+    "PAIL"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PAIL",
+      "BROWNY",
+      "EX"
+     ],
+     "votes": [
+      "EX",
+      "BROWN",
+      "BIBBSRIBS",
+      "PAIL",
+      "BROWNY"
+     ],
+     "proposer": "BIBBSRIBS"
+    }
+   ],
+   "team": [
+    "PAIL",
+    "BROWNY",
+    "EX"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "PAIL",
+    "BROWNY",
+    "BROWN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "BROWNY",
+     "team": [
+      "PAIL",
+      "BROWNY",
+      "BROWN"
+     ],
+     "votes": [
+      "BROWNY",
+      "PAIL",
+      "BROWN",
+      "BIBBSRIBS"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1609990801,
+  "_nanoseconds": 841000000
+ },
+ "players": [
+  {
+   "uid": "5PIMqoYxksaNFhOMC7CU3ZHRoRu2",
+   "name": "BROWN"
+  },
+  {
+   "name": "PAIL",
+   "uid": "gQZgLxgOHIZ0OhO9fMWm7O9HNz42"
+  },
+  {
+   "uid": "ha13KWv86GcxGL0QoubOYYDohmU2",
+   "name": "BIBBSRIBS"
+  },
+  {
+   "uid": "5T1Uzi7nrRecaXsv1pitDMtk3Ef2",
+   "name": "BROWNY"
+  },
+  {
+   "name": "EX",
+   "uid": "qxtQnzzURCX5yMWhjSzRFJs0t7n2"
+  }
+ ]
+}

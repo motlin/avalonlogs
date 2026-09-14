@@ -1,0 +1,249 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "JOE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "BRUCE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "HU"
+   },
+   {
+    "name": "MAYKO",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BRIAN",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "HU",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "JOE": true,
+    "BRIAN": true
+   },
+   {
+    "BRUCE": false,
+    "BRIAN": true,
+    "JOE": true
+   },
+   {
+    "JOE": true,
+    "HU": true
+   },
+   {
+    "BRIAN": true,
+    "HU": true,
+    "JOE": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1611439457,
+  "_nanoseconds": 575000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JOE",
+   "uid": "Q5qgYH7iT4NHnj6MNsv7W605RUf1"
+  },
+  {
+   "name": "MAYKO",
+   "uid": "HHItKdP7xvdDetulD1pTHKA1wok2"
+  },
+  {
+   "uid": "zH62FhdO93fgue6xy1GZiX6emJC3",
+   "name": "BRIAN"
+  },
+  {
+   "uid": "UDW0LpRg2STjoxnExy4LaQCHg0s1",
+   "name": "BRUCE"
+  },
+  {
+   "uid": "rhReFTrGCIW29G5PPpSOEmovGF02",
+   "name": "HU"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1611438439,
+  "_nanoseconds": 2000000
+ },
+ "missions": [
+  {
+   "team": [
+    "BRIAN",
+    "JOE"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JOE",
+      "HU"
+     ],
+     "proposer": "JOE",
+     "votes": [
+      "MAYKO",
+      "JOE"
+     ]
+    },
+    {
+     "votes": [
+      "BRIAN",
+      "MAYKO"
+     ],
+     "proposer": "MAYKO",
+     "state": "REJECTED",
+     "team": [
+      "MAYKO",
+      "BRIAN"
+     ]
+    },
+    {
+     "votes": [
+      "BRIAN",
+      "JOE",
+      "MAYKO"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BRIAN",
+      "JOE"
+     ],
+     "proposer": "BRIAN"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "JOE",
+    "BRIAN",
+    "BRUCE"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "BRUCE",
+     "state": "APPROVED",
+     "team": [
+      "JOE",
+      "BRIAN",
+      "BRUCE"
+     ],
+     "votes": [
+      "MAYKO",
+      "BRUCE",
+      "JOE",
+      "BRIAN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "JOE",
+    "HU"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "HU",
+     "votes": [
+      "HU"
+     ],
+     "team": [
+      "BRUCE",
+      "HU"
+     ]
+    },
+    {
+     "votes": [
+      "BRUCE",
+      "HU",
+      "BRIAN",
+      "JOE"
+     ],
+     "proposer": "JOE",
+     "team": [
+      "JOE",
+      "HU"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "MAYKO",
+     "team": [
+      "MAYKO",
+      "BRIAN",
+      "JOE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MAYKO"
+     ]
+    },
+    {
+     "votes": [
+      "BRIAN",
+      "HU",
+      "JOE"
+     ],
+     "proposer": "BRIAN",
+     "state": "APPROVED",
+     "team": [
+      "JOE",
+      "BRIAN",
+      "HU"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "JOE",
+    "BRIAN",
+    "HU"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ]
+}

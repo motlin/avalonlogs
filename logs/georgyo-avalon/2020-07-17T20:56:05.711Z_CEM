@@ -1,0 +1,223 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "KAYLEE",
+   "uid": "mUV8NCCrLOPhXNdD18TGgsvWni12"
+  },
+  {
+   "uid": "2gMhKdZcikbSuKHRCvHuUU2onCm2",
+   "name": "YC"
+  },
+  {
+   "name": "ZACK",
+   "uid": "JAxshKgnKyS1QfwsoQ56GLJpGHe2"
+  },
+  {
+   "name": "HELEN",
+   "uid": "TlyjmkivNLXgBYFUOniFpxh66UF3"
+  },
+  {
+   "uid": "SZ3yRUCkQxVkFReSes4fMCOHGZy2",
+   "name": "ALEX"
+  },
+  {
+   "name": "STELLAR",
+   "uid": "beBy4uxUoGOghrY61LsJOm9AqF72"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595019365,
+  "_nanoseconds": 711000000
+ },
+ "timeFinished": {
+  "_seconds": 1595020490,
+  "_nanoseconds": 223000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ZACK",
+      "ALEX",
+      "HELEN",
+      "STELLAR",
+      "YC",
+      "KAYLEE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YC",
+      "ZACK"
+     ],
+     "proposer": "YC"
+    }
+   ],
+   "team": [
+    "YC",
+    "ZACK"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ZACK",
+     "state": "APPROVED",
+     "votes": [
+      "ZACK",
+      "KAYLEE",
+      "HELEN",
+      "YC"
+     ],
+     "team": [
+      "YC",
+      "ZACK",
+      "HELEN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "YC",
+    "ZACK",
+    "HELEN"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ALEX",
+    "ZACK",
+    "HELEN",
+    "KAYLEE"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "ZACK",
+      "HELEN",
+      "KAYLEE"
+     ],
+     "proposer": "HELEN",
+     "votes": [
+      "HELEN",
+      "ALEX",
+      "YC",
+      "ZACK",
+      "STELLAR",
+      "KAYLEE"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "ALEX",
+    "STELLAR",
+    "KAYLEE"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ALEX",
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "STELLAR",
+      "KAYLEE"
+     ],
+     "votes": [
+      "STELLAR",
+      "ALEX",
+      "YC",
+      "ZACK"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ZACK": true,
+    "YC": true
+   },
+   {
+    "HELEN": true,
+    "YC": true,
+    "ZACK": false
+   },
+   {
+    "ALEX": true,
+    "ZACK": false,
+    "KAYLEE": true,
+    "HELEN": true
+   },
+   {
+    "ALEX": true,
+    "STELLAR": false,
+    "KAYLEE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KAYLEE"
+   },
+   {
+    "assassin": false,
+    "name": "ALEX",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "YC",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "STELLAR",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "HELEN"
+   },
+   {
+    "assassin": true,
+    "name": "ZACK",
+    "role": "MORDRED"
+   }
+  ],
+  "assassinated": null
+ }
+}

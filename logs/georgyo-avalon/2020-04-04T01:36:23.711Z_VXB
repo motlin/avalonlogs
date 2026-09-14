@@ -1,0 +1,262 @@
+{
+ "timeFinished": {
+  "_seconds": 1585965059,
+  "_nanoseconds": 408383000
+ },
+ "players": [
+  {
+   "uid": "CixXSj8hOTai2ZDd37qeXWMmejU2",
+   "name": "MLEGROS"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "vaA1LzuaxaOViJeEPo7WxZ4jEDb2"
+  },
+  {
+   "name": "KILLIAN",
+   "uid": "GptbjnV6ERXuVo5DD4KLJ9A4IYg2"
+  },
+  {
+   "name": "BOY",
+   "uid": "nHdDF5QVrCbx276v3rvUTTgGMIB3"
+  },
+  {
+   "name": "MORDREDD",
+   "uid": "21LDQlDn3GYqEZFjgNh468DkBm23"
+  },
+  {
+   "uid": "TkjP55su1wcztgt8F4s9rXLinoV2",
+   "name": "IAN"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "MORDREDD": true,
+    "CONNOR": false
+   },
+   {
+    "KILLIAN": true,
+    "BOY": true,
+    "IAN": true
+   },
+   {
+    "CONNOR": false,
+    "MLEGROS": true,
+    "BOY": true,
+    "IAN": true
+   },
+   {
+    "IAN": true,
+    "KILLIAN": false,
+    "BOY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "BOY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "MLEGROS"
+   },
+   {
+    "name": "CONNOR",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "MORDREDD",
+    "role": "MERLIN"
+   },
+   {
+    "name": "KILLIAN",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "IAN"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MLEGROS",
+      "CONNOR",
+      "MORDREDD",
+      "KILLIAN"
+     ],
+     "team": [
+      "MORDREDD",
+      "CONNOR"
+     ],
+     "state": "APPROVED",
+     "proposer": "MORDREDD"
+    }
+   ],
+   "team": [
+    "MORDREDD",
+    "CONNOR"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MORDREDD",
+      "KILLIAN",
+      "IAN",
+      "BOY",
+      "MLEGROS",
+      "CONNOR"
+     ],
+     "team": [
+      "IAN",
+      "BOY",
+      "KILLIAN"
+     ],
+     "proposer": "IAN"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "IAN",
+    "BOY",
+    "KILLIAN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MLEGROS",
+      "CONNOR"
+     ],
+     "state": "REJECTED",
+     "proposer": "MLEGROS",
+     "team": [
+      "BOY",
+      "CONNOR",
+      "KILLIAN",
+      "MLEGROS"
+     ]
+    },
+    {
+     "proposer": "CONNOR",
+     "team": [
+      "CONNOR",
+      "KILLIAN",
+      "BOY",
+      "IAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BOY",
+      "CONNOR"
+     ]
+    },
+    {
+     "votes": [
+      "KILLIAN",
+      "IAN",
+      "BOY"
+     ],
+     "proposer": "KILLIAN",
+     "state": "REJECTED",
+     "team": [
+      "KILLIAN",
+      "BOY",
+      "IAN",
+      "MLEGROS"
+     ]
+    },
+    {
+     "proposer": "BOY",
+     "state": "APPROVED",
+     "team": [
+      "BOY",
+      "MLEGROS",
+      "IAN",
+      "CONNOR"
+     ],
+     "votes": [
+      "IAN",
+      "BOY",
+      "MLEGROS",
+      "CONNOR",
+      "KILLIAN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "BOY",
+    "MLEGROS",
+    "IAN",
+    "CONNOR"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "KILLIAN",
+    "IAN",
+    "BOY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CONNOR",
+      "MORDREDD",
+      "KILLIAN",
+      "IAN"
+     ],
+     "team": [
+      "KILLIAN",
+      "IAN",
+      "BOY"
+     ],
+     "proposer": "MORDREDD"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585964183,
+  "_nanoseconds": 711000000
+ }
+}

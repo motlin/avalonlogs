@@ -1,0 +1,230 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587264932,
+  "_nanoseconds": 339000000
+ },
+ "timeCreated": {
+  "_seconds": 1587264527,
+  "_nanoseconds": 652000000
+ },
+ "players": [
+  {
+   "uid": "FsSMezxveKW4xhtccNREa32WOPj2",
+   "name": "TOODALOO"
+  },
+  {
+   "uid": "WKvghQagVWS6x9ujsTzcV3jBLGp2",
+   "name": "LY"
+  },
+  {
+   "name": "KOGED",
+   "uid": "VuGQcFgR52fbCCs3zSmlFgI1kj43"
+  },
+  {
+   "uid": "mCLI17i5bGacQaw1lMotUKEVqdg1",
+   "name": "PXX"
+  },
+  {
+   "uid": "7vMFGdI3zXV1a457eFkgBAP72CE3",
+   "name": "UPDOG"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "LY": true,
+    "TOODALOO": false
+   },
+   {
+    "KOGED": true,
+    "TOODALOO": false,
+    "UPDOG": true
+   },
+   {
+    "PXX": true,
+    "LY": true
+   },
+   {
+    "PXX": true,
+    "KOGED": true,
+    "LY": true
+   },
+   {
+    "LY": true,
+    "UPDOG": false,
+    "PXX": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KOGED",
+    "role": "MERLIN"
+   },
+   {
+    "name": "TOODALOO",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "UPDOG"
+   },
+   {
+    "assassin": false,
+    "name": "LY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "PXX"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "UPDOG",
+     "team": [
+      "TOODALOO",
+      "LY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "UPDOG",
+      "LY",
+      "PXX",
+      "KOGED"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TOODALOO",
+    "LY"
+   ],
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "KOGED",
+    "UPDOG",
+    "TOODALOO"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "KOGED",
+      "UPDOG",
+      "TOODALOO"
+     ],
+     "proposer": "TOODALOO",
+     "votes": [
+      "TOODALOO",
+      "UPDOG",
+      "PXX",
+      "KOGED"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "LY",
+      "PXX"
+     ],
+     "votes": [
+      "KOGED",
+      "LY",
+      "PXX"
+     ],
+     "state": "APPROVED",
+     "proposer": "LY"
+    }
+   ],
+   "team": [
+    "LY",
+    "PXX"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "LY",
+      "PXX",
+      "KOGED"
+     ],
+     "votes": [
+      "TOODALOO",
+      "UPDOG",
+      "LY",
+      "PXX",
+      "KOGED"
+     ],
+     "state": "APPROVED",
+     "proposer": "KOGED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "LY",
+    "PXX",
+    "KOGED"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "LY",
+    "PXX",
+    "UPDOG"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TOODALOO",
+      "UPDOG",
+      "LY",
+      "PXX"
+     ],
+     "proposer": "PXX",
+     "team": [
+      "LY",
+      "PXX",
+      "UPDOG"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  }
+ ]
+}

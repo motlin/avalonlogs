@@ -1,0 +1,361 @@
+{
+ "timeFinished": {
+  "_seconds": 1585875892,
+  "_nanoseconds": 21801000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CONNIE": true,
+    "DIANA": true,
+    "MICHELLE": true
+   },
+   {
+    "MICHELLE": true,
+    "CHRIS": true,
+    "DIANA": false,
+    "CONNIE": true
+   },
+   {
+    "DIANA": true,
+    "CONNIE": true,
+    "TIM": true,
+    "MICHELLE": true
+   },
+   {
+    "CONNIE": true,
+    "TIM": true,
+    "MICHELLE": true,
+    "DIANA": false,
+    "THOMAS": false
+   },
+   {
+    "MICHELLE": true,
+    "CHRIS": true,
+    "CONNIE": true,
+    "DAVID": true,
+    "TIM": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "CHRIS",
+  "roles": [
+   {
+    "name": "DAVID",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MICHELLE"
+   },
+   {
+    "name": "CONNIE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "DIANA"
+   },
+   {
+    "name": "CHRIS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TIM",
+    "assassin": false
+   },
+   {
+    "name": "THOMAS",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BERT",
+    "assassin": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585874114,
+  "_nanoseconds": 869000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "CONNIE",
+    "MICHELLE",
+    "DIANA"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "TIM",
+     "votes": [
+      "CONNIE",
+      "CHRIS",
+      "TIM",
+      "DAVID"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TIM",
+      "DAVID",
+      "CHRIS"
+     ]
+    },
+    {
+     "votes": [
+      "CHRIS",
+      "TIM",
+      "THOMAS",
+      "MICHELLE",
+      "CONNIE",
+      "DIANA"
+     ],
+     "team": [
+      "CONNIE",
+      "MICHELLE",
+      "DIANA"
+     ],
+     "proposer": "CONNIE",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "CONNIE",
+      "MICHELLE",
+      "BERT",
+      "DAVID"
+     ],
+     "state": "REJECTED",
+     "proposer": "BERT",
+     "votes": [
+      "DIANA",
+      "BERT",
+      "DAVID",
+      "MICHELLE"
+     ]
+    },
+    {
+     "votes": [
+      "THOMAS",
+      "DAVID",
+      "MICHELLE",
+      "CONNIE",
+      "DIANA",
+      "CHRIS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DIANA",
+      "CHRIS",
+      "MICHELLE",
+      "CONNIE"
+     ],
+     "proposer": "DIANA"
+    }
+   ],
+   "team": [
+    "DIANA",
+    "CHRIS",
+    "MICHELLE",
+    "CONNIE"
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "MICHELLE",
+    "CONNIE",
+    "DIANA",
+    "TIM"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "DAVID",
+      "TIM",
+      "THOMAS",
+      "MICHELLE"
+     ],
+     "proposer": "DAVID",
+     "state": "REJECTED",
+     "votes": [
+      "DAVID"
+     ]
+    },
+    {
+     "team": [
+      "CHRIS",
+      "DAVID",
+      "TIM",
+      "CONNIE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CHRIS",
+      "DAVID"
+     ],
+     "proposer": "CHRIS"
+    },
+    {
+     "votes": [
+      "TIM",
+      "THOMAS",
+      "MICHELLE",
+      "CONNIE",
+      "DIANA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MICHELLE",
+      "CONNIE",
+      "DIANA",
+      "TIM"
+     ],
+     "proposer": "MICHELLE"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "state": "FAIL",
+   "teamSize": 5,
+   "numFails": 2,
+   "team": [
+    "THOMAS",
+    "DIANA",
+    "MICHELLE",
+    "CONNIE",
+    "TIM"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "THOMAS",
+      "DIANA",
+      "MICHELLE",
+      "CONNIE",
+      "TIM"
+     ],
+     "proposer": "THOMAS",
+     "votes": [
+      "TIM",
+      "THOMAS",
+      "MICHELLE",
+      "CONNIE",
+      "DIANA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MICHELLE",
+      "CONNIE",
+      "CHRIS",
+      "TIM"
+     ],
+     "team": [
+      "TIM",
+      "DAVID",
+      "CHRIS",
+      "MICHELLE",
+      "CONNIE"
+     ],
+     "proposer": "TIM"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CONNIE",
+      "DIANA",
+      "CHRIS",
+      "TIM",
+      "DAVID",
+      "MICHELLE"
+     ],
+     "team": [
+      "CONNIE",
+      "MICHELLE",
+      "TIM",
+      "CHRIS",
+      "DAVID"
+     ],
+     "proposer": "CONNIE"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CONNIE",
+    "MICHELLE",
+    "TIM",
+    "CHRIS",
+    "DAVID"
+   ],
+   "state": "SUCCESS"
+  }
+ ],
+ "players": [
+  {
+   "name": "DIANA",
+   "uid": "SqiaA6X0CjVOxMDPmyjFvcsayX03"
+  },
+  {
+   "name": "DAVID",
+   "uid": "UQJFUagMgcQ2aPTmCXk2tN18Gp73"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "WW9UDSJTWjcv5IEHdIzn4W3pC0F3"
+  },
+  {
+   "uid": "NRa4Y5BvIRUu0NJtNcgsbihHeRV2",
+   "name": "MICHELLE"
+  },
+  {
+   "uid": "U3BfWb5BfHQ0FbnqlzsGEnbrg5p2",
+   "name": "THOMAS"
+  },
+  {
+   "name": "TIM",
+   "uid": "EZ6man5jV1Ws1fTtrxeAIajz8ky2"
+  },
+  {
+   "name": "CONNIE",
+   "uid": "nDW0mIuS9idaEFCyUTBMi9vFZC22"
+  },
+  {
+   "uid": "eCKmhiK0TkYGWHSphHGtFfli6Wt2",
+   "name": "BERT"
+  }
+ ]
+}

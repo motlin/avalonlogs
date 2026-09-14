@@ -1,0 +1,255 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "JAMES",
+      "GAPPLE"
+     ],
+     "state": "APPROVED",
+     "proposer": "GAPPLE",
+     "votes": [
+      "MEG",
+      "PAIN",
+      "JFK",
+      "JAMES",
+      "GAPPLE",
+      "ITSODARK"
+     ]
+    }
+   ],
+   "team": [
+    "JAMES",
+    "GAPPLE"
+   ]
+  },
+  {
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MEG",
+    "JAMES",
+    "GAPPLE"
+   ],
+   "proposals": [
+    {
+     "proposer": "MEG",
+     "votes": [
+      "PAIN",
+      "JFK",
+      "JAMES",
+      "GAPPLE",
+      "ITSODARK",
+      "MEG"
+     ],
+     "team": [
+      "MEG",
+      "JAMES",
+      "GAPPLE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ITSODARK",
+      "PAIN",
+      "JFK",
+      "GAPPLE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ITSODARK",
+      "PAIN",
+      "JFK",
+      "JAMES",
+      "GAPPLE"
+     ],
+     "proposer": "JAMES"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ITSODARK",
+    "PAIN",
+    "JFK",
+    "GAPPLE"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ITSODARK",
+    "PAIN",
+    "GAPPLE"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ITSODARK",
+      "PAIN",
+      "GAPPLE"
+     ],
+     "votes": [
+      "PAIN",
+      "JFK",
+      "JAMES",
+      "GAPPLE",
+      "ITSODARK"
+     ],
+     "proposer": "JFK"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JFK",
+      "ITSODARK",
+      "PAIN",
+      "MEG"
+     ],
+     "votes": [
+      "MEG",
+      "PAIN",
+      "JFK",
+      "GAPPLE",
+      "ITSODARK"
+     ],
+     "proposer": "ITSODARK"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JFK",
+    "ITSODARK",
+    "PAIN",
+    "MEG"
+   ]
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JAMES": true,
+    "GAPPLE": true
+   },
+   {
+    "GAPPLE": false,
+    "JAMES": false,
+    "MEG": true
+   },
+   {
+    "PAIN": true,
+    "GAPPLE": true,
+    "JFK": true,
+    "ITSODARK": true
+   },
+   {
+    "ITSODARK": true,
+    "PAIN": true,
+    "GAPPLE": false
+   },
+   {
+    "MEG": true,
+    "PAIN": true,
+    "JFK": true,
+    "ITSODARK": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PAIN"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JFK"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JAMES"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "GAPPLE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ITSODARK"
+   },
+   {
+    "assassin": false,
+    "name": "MEG",
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": "MEG"
+ },
+ "players": [
+  {
+   "uid": "yEVC0FgCw5Rk1BSAUveuxYHFxOM2",
+   "name": "JFK"
+  },
+  {
+   "name": "ITSODARK",
+   "uid": "AKrwLYy7OjZACqUUHJ8cFwX2Arp1"
+  },
+  {
+   "name": "PAIN",
+   "uid": "lXoeIN8KM9WuIPb4vuvqdJhiQTs1"
+  },
+  {
+   "uid": "R8IXWNsXvzSA8mOjfgcHsBWLxWa2",
+   "name": "GAPPLE"
+  },
+  {
+   "name": "MEG",
+   "uid": "0CJj1V8JS1hAQ79s7Q7oBMojCqH3"
+  },
+  {
+   "name": "JAMES",
+   "uid": "3VsNS1j7AkXqlAs7HRllJMZZyoI2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1594598840,
+  "_nanoseconds": 74000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1594598487,
+  "_nanoseconds": 62000000
+ }
+}

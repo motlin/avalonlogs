@@ -1,0 +1,267 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "PATRICK": true,
+    "YUN": true
+   },
+   {
+    "PATRICK": true,
+    "BRIAN": false,
+    "YUN": true
+   },
+   {
+    "YUN": true,
+    "JESSICA": true,
+    "MEENS": false,
+    "CANDICE": true
+   },
+   {
+    "YUN": true,
+    "CANDICE": true,
+    "JESSICA": true
+   },
+   {
+    "YUN": true,
+    "JESSICA": true,
+    "CANDICE": true,
+    "PATRICK": true
+   }
+  ],
+  "assassinated": "JESSICA",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "MEENS",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "JESSICA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "CANDICE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "BRIAN",
+    "assassin": false
+   },
+   {
+    "name": "YUN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PATRICK",
+    "role": "PERCIVAL"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1614378095,
+  "_nanoseconds": 794000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1614377376,
+  "_nanoseconds": 25000000
+ },
+ "players": [
+  {
+   "uid": "AwXIOWpeehSLQzNXKakZijDwVjm2",
+   "name": "BRIAN"
+  },
+  {
+   "uid": "6XjCPo7WF4O4XauvMClfXlBzNHX2",
+   "name": "MEENS"
+  },
+  {
+   "uid": "uicqjkU03XNTKcvtMPcfgQA5nUF3",
+   "name": "CANDICE"
+  },
+  {
+   "uid": "lkrxHsLoCuTBEP8JJz7exx7bhHp1",
+   "name": "JESSICA"
+  },
+  {
+   "uid": "P2YCmzU7eaQQUTxNgzlWTwmI4s12",
+   "name": "PATRICK"
+  },
+  {
+   "name": "YUN",
+   "uid": "4eFRwHTTRPO56ns8SqdQTafOCbk2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "PATRICK",
+    "YUN"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "YUN",
+     "votes": [
+      "BRIAN",
+      "CANDICE",
+      "JESSICA",
+      "MEENS",
+      "YUN",
+      "PATRICK"
+     ],
+     "team": [
+      "PATRICK",
+      "YUN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "BRIAN",
+    "PATRICK",
+    "YUN"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CANDICE",
+      "BRIAN",
+      "YUN",
+      "MEENS",
+      "PATRICK"
+     ],
+     "proposer": "BRIAN",
+     "team": [
+      "BRIAN",
+      "PATRICK",
+      "YUN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "CANDICE",
+      "MEENS",
+      "PATRICK"
+     ],
+     "team": [
+      "MEENS",
+      "CANDICE",
+      "JESSICA",
+      "YUN"
+     ],
+     "proposer": "MEENS"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "MEENS",
+    "CANDICE",
+    "JESSICA",
+    "YUN"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PATRICK",
+      "MEENS",
+      "CANDICE",
+      "YUN",
+      "JESSICA"
+     ],
+     "team": [
+      "JESSICA",
+      "CANDICE",
+      "YUN"
+     ],
+     "state": "APPROVED",
+     "proposer": "CANDICE"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JESSICA",
+    "CANDICE",
+    "YUN"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "YUN",
+      "PATRICK",
+      "JESSICA"
+     ],
+     "team": [
+      "JESSICA",
+      "YUN",
+      "CANDICE",
+      "PATRICK"
+     ],
+     "state": "REJECTED",
+     "proposer": "JESSICA"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "YUN",
+      "JESSICA",
+      "CANDICE",
+      "PATRICK"
+     ],
+     "team": [
+      "JESSICA",
+      "PATRICK",
+      "YUN",
+      "CANDICE"
+     ],
+     "proposer": "PATRICK"
+    }
+   ],
+   "team": [
+    "JESSICA",
+    "PATRICK",
+    "YUN",
+    "CANDICE"
+   ],
+   "teamSize": 4
+  }
+ ]
+}

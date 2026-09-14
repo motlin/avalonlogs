@@ -1,0 +1,290 @@
+{
+ "timeCreated": {
+  "_seconds": 1590971808,
+  "_nanoseconds": 841000000
+ },
+ "players": [
+  {
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2",
+   "name": "JACK"
+  },
+  {
+   "uid": "youXzvEGd7V3v9Qb5DOMbr7NZv83",
+   "name": "LOGEY"
+  },
+  {
+   "name": "WILL",
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1"
+  },
+  {
+   "name": "MARY",
+   "uid": "dcFBxUuyhuSdi1Hfh5ENbe8DemI2"
+  },
+  {
+   "name": "SLIMMYJIMM",
+   "uid": "rlYsN9yWvjY50whmk7OijNcUXHy2"
+  },
+  {
+   "uid": "IYJsCh44gxO4DSnfNlnO6Quz4pu2",
+   "name": "PATRICK"
+  },
+  {
+   "uid": "zgtpsh8Okvc6dJ0cP3AMDpLx3va2",
+   "name": "TRAVIS"
+  },
+  {
+   "name": "LOZ",
+   "uid": "wjb36q8vTgVlLy4Q8Q9aHhDcmc53"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JACK": true,
+    "SLIMMYJIMM": true,
+    "WILL": true
+   },
+   {
+    "MARY": true,
+    "WILL": false,
+    "JACK": true,
+    "SLIMMYJIMM": true
+   },
+   {
+    "PATRICK": true,
+    "JACK": true,
+    "TRAVIS": true,
+    "WILL": false
+   },
+   {
+    "TRAVIS": false,
+    "PATRICK": true,
+    "WILL": false,
+    "LOZ": true,
+    "MARY": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "JACK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "TRAVIS",
+    "role": "MORGANA"
+   },
+   {
+    "name": "PATRICK",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MARY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "WILL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SLIMMYJIMM"
+   },
+   {
+    "name": "LOGEY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "LOZ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1590972592,
+  "_nanoseconds": 752000000
+ },
+ "missions": [
+  {
+   "team": [
+    "WILL",
+    "JACK",
+    "SLIMMYJIMM"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARY",
+      "WILL",
+      "SLIMMYJIMM",
+      "LOGEY",
+      "LOZ",
+      "JACK",
+      "PATRICK"
+     ],
+     "proposer": "WILL",
+     "team": [
+      "WILL",
+      "JACK",
+      "SLIMMYJIMM"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "WILL",
+      "JACK",
+      "SLIMMYJIMM",
+      "MARY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PATRICK",
+      "MARY",
+      "WILL",
+      "SLIMMYJIMM",
+      "LOGEY",
+      "LOZ"
+     ],
+     "proposer": "MARY"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "WILL",
+    "JACK",
+    "SLIMMYJIMM",
+    "MARY"
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "TRAVIS",
+    "PATRICK",
+    "WILL",
+    "JACK"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SLIMMYJIMM",
+      "JACK",
+      "WILL",
+      "PATRICK"
+     ],
+     "votes": [
+      "MARY",
+      "WILL",
+      "SLIMMYJIMM",
+      "LOZ"
+     ],
+     "proposer": "SLIMMYJIMM"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MARY",
+      "LOGEY",
+      "LOZ"
+     ],
+     "proposer": "PATRICK",
+     "team": [
+      "PATRICK",
+      "TRAVIS",
+      "MARY",
+      "LOGEY"
+     ]
+    },
+    {
+     "proposer": "TRAVIS",
+     "state": "APPROVED",
+     "team": [
+      "TRAVIS",
+      "PATRICK",
+      "WILL",
+      "JACK"
+     ],
+     "votes": [
+      "TRAVIS",
+      "PATRICK",
+      "MARY",
+      "WILL",
+      "LOGEY",
+      "LOZ",
+      "JACK"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 3,
+   "failsRequired": 2,
+   "team": [
+    "LOZ",
+    "WILL",
+    "PATRICK",
+    "TRAVIS",
+    "MARY"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LOZ",
+      "WILL",
+      "PATRICK",
+      "TRAVIS",
+      "MARY"
+     ],
+     "proposer": "LOZ",
+     "votes": [
+      "MARY",
+      "WILL",
+      "LOGEY",
+      "LOZ",
+      "TRAVIS",
+      "PATRICK"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 5
+  }
+ ]
+}

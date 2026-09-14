@@ -1,0 +1,218 @@
+{
+ "timeFinished": {
+  "_seconds": 1606515069,
+  "_nanoseconds": 786000000
+ },
+ "players": [
+  {
+   "name": "LUK",
+   "uid": "h6pB1jPcdxVUY61nk4QklAzutXm2"
+  },
+  {
+   "uid": "AZS9SBB8fpdz6mLRhQr0kn76uZ23",
+   "name": "HUNTSCH"
+  },
+  {
+   "uid": "Vn2CINBApZaUk4PZbVRLgeSRwqA2",
+   "name": "FELIXREAL"
+  },
+  {
+   "name": "FELIXREALL",
+   "uid": "DbnThRKWjbVVuVSSjnjNDWhN1hE3"
+  },
+  {
+   "name": "PIMMELKOPP",
+   "uid": "3Br99uBeJKZTXO2hhdwts6J31KB2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "PIMMELKOPP",
+    "FELIXREAL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "FELIXREALL",
+      "LUK",
+      "FELIXREAL",
+      "PIMMELKOPP"
+     ],
+     "state": "APPROVED",
+     "proposer": "PIMMELKOPP",
+     "team": [
+      "PIMMELKOPP",
+      "FELIXREAL"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "LUK",
+    "HUNTSCH",
+    "FELIXREALL"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "HUNTSCH",
+      "LUK",
+      "FELIXREALL",
+      "FELIXREAL",
+      "PIMMELKOPP"
+     ],
+     "team": [
+      "LUK",
+      "HUNTSCH",
+      "FELIXREALL"
+     ],
+     "state": "APPROVED",
+     "proposer": "LUK"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "HUNTSCH",
+     "team": [
+      "HUNTSCH",
+      "LUK"
+     ],
+     "votes": [
+      "FELIXREAL",
+      "PIMMELKOPP",
+      "HUNTSCH",
+      "LUK",
+      "FELIXREALL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "HUNTSCH",
+    "LUK"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "PIMMELKOPP",
+    "FELIXREALL",
+    "FELIXREAL"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "FELIXREAL",
+     "team": [
+      "PIMMELKOPP",
+      "FELIXREAL",
+      "FELIXREALL"
+     ],
+     "votes": [
+      "LUK",
+      "FELIXREALL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LUK",
+      "FELIXREAL",
+      "FELIXREALL"
+     ],
+     "team": [
+      "PIMMELKOPP",
+      "FELIXREALL",
+      "FELIXREAL"
+     ],
+     "proposer": "FELIXREALL"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1606513848,
+  "_nanoseconds": 680000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "LUK",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "PIMMELKOPP"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "FELIXREAL"
+   },
+   {
+    "name": "FELIXREALL",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "HUNTSCH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "FELIXREAL": true,
+    "PIMMELKOPP": true
+   },
+   {
+    "LUK": true,
+    "FELIXREALL": false,
+    "HUNTSCH": true
+   },
+   {
+    "LUK": false,
+    "HUNTSCH": true
+   },
+   {
+    "FELIXREALL": false,
+    "PIMMELKOPP": true,
+    "FELIXREAL": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ }
+}

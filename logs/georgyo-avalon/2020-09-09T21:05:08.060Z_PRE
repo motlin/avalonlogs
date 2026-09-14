@@ -1,0 +1,254 @@
+{
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "FLOORDROBE",
+      "TOMCUM"
+     ],
+     "state": "APPROVED",
+     "proposer": "TOMCUM",
+     "votes": [
+      "DAVE",
+      "JACOB",
+      "FLOORDROBE",
+      "TOMCUM",
+      "PAIN",
+      "CALLUM"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "FLOORDROBE",
+    "TOMCUM"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "CALLUM",
+    "TOMCUM",
+    "FLOORDROBE"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "DAVE",
+      "PAIN",
+      "JACOB",
+      "TOMCUM",
+      "CALLUM",
+      "FLOORDROBE"
+     ],
+     "proposer": "CALLUM",
+     "team": [
+      "CALLUM",
+      "TOMCUM",
+      "FLOORDROBE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PAIN",
+      "TOMCUM",
+      "FLOORDROBE",
+      "JACOB"
+     ],
+     "state": "APPROVED",
+     "proposer": "PAIN",
+     "votes": [
+      "FLOORDROBE",
+      "TOMCUM",
+      "PAIN",
+      "JACOB"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PAIN",
+    "TOMCUM",
+    "FLOORDROBE",
+    "JACOB"
+   ],
+   "numFails": 2,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CALLUM",
+      "DAVE",
+      "PAIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JACOB",
+     "votes": [
+      "JACOB",
+      "TOMCUM",
+      "DAVE",
+      "FLOORDROBE",
+      "CALLUM",
+      "PAIN"
+     ]
+    }
+   ],
+   "team": [
+    "CALLUM",
+    "DAVE",
+    "PAIN"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "DAVE",
+    "PAIN",
+    "CALLUM",
+    "JACOB"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAVE",
+      "PAIN",
+      "CALLUM",
+      "JACOB"
+     ],
+     "proposer": "DAVE",
+     "votes": [
+      "PAIN",
+      "DAVE",
+      "FLOORDROBE",
+      "JACOB"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "TOMCUM": true,
+    "FLOORDROBE": true
+   },
+   {
+    "FLOORDROBE": false,
+    "TOMCUM": true,
+    "CALLUM": true
+   },
+   {
+    "TOMCUM": true,
+    "PAIN": true,
+    "FLOORDROBE": false,
+    "JACOB": false
+   },
+   {
+    "DAVE": true,
+    "PAIN": true,
+    "CALLUM": true
+   },
+   {
+    "CALLUM": true,
+    "DAVE": true,
+    "PAIN": true,
+    "JACOB": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JACOB"
+   },
+   {
+    "name": "DAVE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PAIN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "FLOORDROBE"
+   },
+   {
+    "name": "CALLUM",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "TOMCUM",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1599685937,
+  "_nanoseconds": 217000000
+ },
+ "players": [
+  {
+   "name": "PAIN",
+   "uid": "AKrwLYy7OjZACqUUHJ8cFwX2Arp1"
+  },
+  {
+   "name": "JACOB",
+   "uid": "h6VaJpxNJrfQOwelT81BOvxJLXn1"
+  },
+  {
+   "uid": "Y76vXX5R0RPJmraDrxzP4UyyxjE3",
+   "name": "DAVE"
+  },
+  {
+   "name": "FLOORDROBE",
+   "uid": "DD0deqwBkAg51sBI7bRddP2CkL53"
+  },
+  {
+   "name": "TOMCUM",
+   "uid": "SmbbR2qU85SUEiBW8zxYftP3fgg2"
+  },
+  {
+   "uid": "QAIwQw5zrpTHW7fNcLqppI5ggSs2",
+   "name": "CALLUM"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1599685508,
+  "_nanoseconds": 60000000
+ }
+}

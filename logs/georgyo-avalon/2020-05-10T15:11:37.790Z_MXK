@@ -1,0 +1,249 @@
+{
+ "players": [
+  {
+   "name": "KENT",
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3"
+  },
+  {
+   "uid": "eTFUv9Kb6zLc8TpjpxfeJt8Qkhm2",
+   "name": "ARES"
+  },
+  {
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22",
+   "name": "SOVEREIGN"
+  },
+  {
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2",
+   "name": "WEI"
+  },
+  {
+   "uid": "JZibxgUvm2TkhIUYAJnvXUt7qJo1",
+   "name": "DANNNN"
+  },
+  {
+   "name": "ESTHERGUO",
+   "uid": "KN2xlTwXNCWodPTuydaNzAqCsQC2"
+  },
+  {
+   "name": "XINYI",
+   "uid": "lVApNSqUFQbFxMX741LbHMgHEnf1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "KENT",
+    "SOVEREIGN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "KENT",
+      "SOVEREIGN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ESTHERGUO",
+      "KENT",
+      "ARES",
+      "SOVEREIGN",
+      "WEI",
+      "DANNNN",
+      "XINYI"
+     ],
+     "proposer": "SOVEREIGN"
+    }
+   ]
+  },
+  {
+   "team": [
+    "ARES",
+    "DANNNN",
+    "ESTHERGUO"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "WEI",
+     "state": "APPROVED",
+     "votes": [
+      "WEI",
+      "DANNNN",
+      "XINYI",
+      "ESTHERGUO",
+      "ARES"
+     ],
+     "team": [
+      "ARES",
+      "DANNNN",
+      "ESTHERGUO"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DANNNN",
+     "votes": [
+      "WEI",
+      "DANNNN",
+      "XINYI",
+      "ESTHERGUO",
+      "KENT",
+      "ARES",
+      "SOVEREIGN"
+     ],
+     "team": [
+      "DANNNN",
+      "ESTHERGUO",
+      "SOVEREIGN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DANNNN",
+    "ESTHERGUO",
+    "SOVEREIGN"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "ESTHERGUO",
+     "state": "REJECTED",
+     "votes": [
+      "ESTHERGUO",
+      "ARES"
+     ],
+     "team": [
+      "WEI",
+      "ARES",
+      "DANNNN",
+      "ESTHERGUO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "XINYI",
+      "DANNNN",
+      "ARES",
+      "WEI"
+     ],
+     "votes": [
+      "ARES",
+      "WEI",
+      "DANNNN",
+      "XINYI"
+     ],
+     "proposer": "XINYI"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "XINYI",
+    "DANNNN",
+    "ARES",
+    "WEI"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589123861,
+  "_nanoseconds": 566000000
+ },
+ "timeCreated": {
+  "_seconds": 1589123497,
+  "_nanoseconds": 790000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KENT": true,
+    "SOVEREIGN": true
+   },
+   {
+    "DANNNN": true,
+    "ARES": true,
+    "ESTHERGUO": true
+   },
+   {
+    "SOVEREIGN": false,
+    "DANNNN": true,
+    "ESTHERGUO": true
+   },
+   {
+    "ARES": true,
+    "WEI": true,
+    "DANNNN": true,
+    "XINYI": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "ESTHERGUO",
+  "roles": [
+   {
+    "name": "DANNNN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "XINYI",
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ESTHERGUO"
+   },
+   {
+    "name": "KENT",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ARES",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "SOVEREIGN",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "WEI"
+   }
+  ]
+ }
+}

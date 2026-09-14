@@ -1,0 +1,204 @@
+{
+ "players": [
+  {
+   "uid": "ouXMorBTweWuQnGMWpQIBjDXcIG2",
+   "name": "RAMYA"
+  },
+  {
+   "uid": "QfWwliaTN3YURPy9X7iXBHFV67z1",
+   "name": "ALKHANSA"
+  },
+  {
+   "name": "SCOTT",
+   "uid": "v6wYFsp31RQ4T73zUw7UYJJsCaw1"
+  },
+  {
+   "name": "LANA",
+   "uid": "pf5B4CT0o3Ynkk558HNRk3YQUyq2"
+  },
+  {
+   "name": "NICOLE",
+   "uid": "9DB1Y4HyYfTXq2A1WqX5zjwWg273"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ALKHANSA",
+    "LANA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ALKHANSA",
+      "LANA"
+     ],
+     "votes": [
+      "ALKHANSA",
+      "LANA",
+      "RAMYA",
+      "NICOLE",
+      "SCOTT"
+     ],
+     "proposer": "LANA",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "NICOLE",
+     "team": [
+      "LANA",
+      "SCOTT",
+      "NICOLE"
+     ],
+     "votes": [
+      "ALKHANSA",
+      "LANA",
+      "RAMYA",
+      "SCOTT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "LANA",
+    "SCOTT",
+    "NICOLE"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LANA",
+      "SCOTT"
+     ],
+     "votes": [
+      "NICOLE",
+      "SCOTT",
+      "LANA",
+      "RAMYA"
+     ],
+     "proposer": "RAMYA"
+    }
+   ],
+   "team": [
+    "LANA",
+    "SCOTT"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "ALKHANSA",
+    "SCOTT",
+    "LANA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALKHANSA",
+      "SCOTT",
+      "LANA"
+     ],
+     "votes": [
+      "SCOTT",
+      "ALKHANSA",
+      "LANA"
+     ],
+     "proposer": "ALKHANSA"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590804769,
+  "_nanoseconds": 932000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ALKHANSA": true,
+    "LANA": true
+   },
+   {
+    "NICOLE": false,
+    "SCOTT": true,
+    "LANA": true
+   },
+   {
+    "SCOTT": true,
+    "LANA": true
+   },
+   {
+    "LANA": true,
+    "ALKHANSA": true,
+    "SCOTT": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "NICOLE"
+   },
+   {
+    "name": "SCOTT",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "ALKHANSA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LANA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "RAMYA",
+    "assassin": true
+   }
+  ],
+  "assassinated": "LANA",
+  "message": "Three successful missions"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590804489,
+  "_nanoseconds": 422000000
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "timeFinished": {
+  "_seconds": 1586055653,
+  "_nanoseconds": 879353000
+ },
+ "timeCreated": {
+  "_seconds": 1586055322,
+  "_nanoseconds": 985000000
+ },
+ "missions": [
+  {
+   "team": [
+    "FORKY",
+    "CHRIZZINE"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "FORKY",
+      "CHRIZZINE"
+     ],
+     "votes": [
+      "GLORIA",
+      "FORKY",
+      "CHRIZZINE"
+     ],
+     "proposer": "FORKY"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "FORKY",
+    "EW",
+    "VIRUS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "EW",
+      "FORKY",
+      "VIRUS",
+      "CHRIZZINE"
+     ],
+     "team": [
+      "FORKY",
+      "EW",
+      "VIRUS"
+     ],
+     "state": "APPROVED",
+     "proposer": "EW"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRIZZINE",
+      "GLORIA",
+      "VIRUS"
+     ],
+     "team": [
+      "FORKY",
+      "VIRUS"
+     ],
+     "proposer": "VIRUS"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "FORKY",
+    "VIRUS"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "GLORIA",
+    "CHRIZZINE",
+    "FORKY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRIZZINE",
+      "GLORIA",
+      "FORKY"
+     ],
+     "team": [
+      "GLORIA",
+      "CHRIZZINE",
+      "FORKY"
+     ],
+     "proposer": "GLORIA"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "name": "GLORIA",
+   "uid": "VDw1wKaKKQUR3Q1S0rYT28Z11Ws2"
+  },
+  {
+   "name": "CHRIZZINE",
+   "uid": "8QoEIat0dDSprs0OsHnGC5LPuYB2"
+  },
+  {
+   "name": "FORKY",
+   "uid": "QAZXiqAs1nV5oe6BgfQwaBzMR5O2"
+  },
+  {
+   "name": "EW",
+   "uid": "blO3cbthEHYMrrcOduALQoWBPXZ2"
+  },
+  {
+   "uid": "tySOxcvJyNYXdaqdKp6kMGz5dFZ2",
+   "name": "VIRUS"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "CHRIZZINE": true,
+    "FORKY": true
+   },
+   {
+    "FORKY": false,
+    "EW": true,
+    "VIRUS": true
+   },
+   {
+    "VIRUS": true,
+    "FORKY": false
+   },
+   {
+    "CHRIZZINE": true,
+    "FORKY": false,
+    "GLORIA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "GLORIA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "EW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "FORKY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "VIRUS"
+   },
+   {
+    "name": "CHRIZZINE",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "players": [
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "uid": "vW4wNkSBNuZHfcUHLu5hClAsLBf2",
+   "name": "JULIE"
+  },
+  {
+   "uid": "xlFldH3u2vSyHdP0JXXHRfTceko1",
+   "name": "ANTOINE"
+  },
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1606580514,
+  "_nanoseconds": 408000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "CHRISTIAN": true,
+    "LAURA": true
+   },
+   {
+    "CHRISTIAN": true,
+    "JULIE": true,
+    "LAURA": true
+   },
+   {
+    "CHRISTIAN": true,
+    "LAURA": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "REGIS",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "JULIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRISTIAN"
+   },
+   {
+    "name": "LAURA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ANTOINE",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1606579199,
+  "_nanoseconds": 544000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "LAURA",
+    "CHRISTIAN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JULIE",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "team": [
+      "REGIS",
+      "ANTOINE"
+     ],
+     "votes": [
+      "REGIS",
+      "ANTOINE"
+     ],
+     "state": "REJECTED",
+     "proposer": "REGIS"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JULIE",
+      "CHRISTIAN"
+     ],
+     "proposer": "JULIE",
+     "votes": [
+      "JULIE",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "team": [
+      "ANTOINE",
+      "LAURA"
+     ],
+     "proposer": "ANTOINE",
+     "state": "REJECTED",
+     "votes": [
+      "ANTOINE"
+     ]
+    },
+    {
+     "proposer": "LAURA",
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "votes": [
+      "ANTOINE",
+      "JULIE",
+      "CHRISTIAN",
+      "LAURA"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "LAURA",
+    "CHRISTIAN",
+    "JULIE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "LAURA",
+      "CHRISTIAN",
+      "JULIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "REGIS",
+      "JULIE",
+      "CHRISTIAN",
+      "LAURA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "LAURA",
+    "CHRISTIAN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "REGIS",
+     "team": [
+      "REGIS",
+      "ANTOINE"
+     ],
+     "votes": []
+    },
+    {
+     "team": [
+      "JULIE",
+      "LAURA"
+     ],
+     "proposer": "JULIE",
+     "votes": [
+      "JULIE",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ANTOINE",
+      "JULIE"
+     ],
+     "proposer": "ANTOINE",
+     "state": "REJECTED",
+     "votes": [
+      "REGIS",
+      "ANTOINE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "votes": [
+      "LAURA",
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "proposer": "LAURA"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

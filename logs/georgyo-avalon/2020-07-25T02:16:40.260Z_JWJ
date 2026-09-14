@@ -1,0 +1,300 @@
+{
+ "players": [
+  {
+   "name": "BIGSEAN",
+   "uid": "uU9NcraRO7XFdadCM4amln4SJp22"
+  },
+  {
+   "uid": "1eDHC8CxeuWidWIUmyeTJNuHZcz2",
+   "name": "MACDADDY"
+  },
+  {
+   "uid": "q9EeBexCuKTYhAsoarEEErhnc0r1",
+   "name": "CAT"
+  },
+  {
+   "uid": "MtnGT8ND0TRjT558c6GGYQXZmxF3",
+   "name": "JAN"
+  },
+  {
+   "uid": "edKFSW9wVFXeRxAfXpUBkSzvFAI2",
+   "name": "DINGLEDERP"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "VJstCI2rzdP6JSGky7tENBuk9Hg2"
+  },
+  {
+   "uid": "KKL6MlYXJxfMl975ZNwPlg2s0Nw1",
+   "name": "AL"
+  },
+  {
+   "uid": "IwrraDhI68dKV0tA8MHszupa7QN2",
+   "name": "MARG"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "CAT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANDREW",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JAN"
+   },
+   {
+    "name": "MARG",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MACDADDY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AL"
+   },
+   {
+    "name": "BIGSEAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "DINGLEDERP",
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "ANDREW": true,
+    "AL": true,
+    "MARG": false
+   },
+   {
+    "CAT": true,
+    "MACDADDY": false,
+    "AL": true,
+    "DINGLEDERP": true
+   },
+   {
+    "BIGSEAN": true,
+    "CAT": true,
+    "ANDREW": true,
+    "MARG": true
+   },
+   {
+    "DINGLEDERP": false,
+    "BIGSEAN": true,
+    "ANDREW": true,
+    "CAT": true,
+    "MARG": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1595644065,
+  "_nanoseconds": 242000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595643400,
+  "_nanoseconds": 260000000
+ },
+ "missions": [
+  {
+   "team": [
+    "ANDREW",
+    "MARG",
+    "AL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CAT",
+      "JAN",
+      "DINGLEDERP"
+     ],
+     "proposer": "CAT",
+     "state": "REJECTED",
+     "votes": [
+      "DINGLEDERP",
+      "CAT"
+     ]
+    },
+    {
+     "team": [
+      "JAN",
+      "AL",
+      "MARG"
+     ],
+     "proposer": "JAN",
+     "votes": [
+      "JAN",
+      "MARG",
+      "AL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAN",
+      "MARG",
+      "DINGLEDERP"
+     ],
+     "team": [
+      "DINGLEDERP",
+      "MARG",
+      "JAN"
+     ],
+     "proposer": "DINGLEDERP"
+    },
+    {
+     "proposer": "ANDREW",
+     "votes": [
+      "JAN",
+      "MARG",
+      "MACDADDY",
+      "AL",
+      "BIGSEAN",
+      "DINGLEDERP",
+      "ANDREW"
+     ],
+     "team": [
+      "ANDREW",
+      "MARG",
+      "AL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "AL",
+      "CAT",
+      "MACDADDY",
+      "DINGLEDERP"
+     ],
+     "proposer": "AL",
+     "state": "APPROVED",
+     "votes": [
+      "CAT",
+      "ANDREW",
+      "JAN",
+      "MARG",
+      "MACDADDY",
+      "DINGLEDERP"
+     ]
+    }
+   ],
+   "team": [
+    "AL",
+    "CAT",
+    "MACDADDY",
+    "DINGLEDERP"
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "ANDREW",
+    "MARG",
+    "BIGSEAN",
+    "CAT"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MARG",
+     "votes": [
+      "JAN",
+      "MARG",
+      "MACDADDY",
+      "BIGSEAN",
+      "DINGLEDERP",
+      "CAT",
+      "ANDREW"
+     ],
+     "team": [
+      "ANDREW",
+      "MARG",
+      "BIGSEAN",
+      "CAT"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BIGSEAN",
+      "CAT",
+      "ANDREW",
+      "MARG",
+      "DINGLEDERP"
+     ],
+     "votes": [
+      "BIGSEAN",
+      "DINGLEDERP",
+      "CAT",
+      "ANDREW",
+      "MARG",
+      "MACDADDY"
+     ],
+     "proposer": "BIGSEAN"
+    }
+   ],
+   "failsRequired": 2,
+   "state": "FAIL",
+   "team": [
+    "BIGSEAN",
+    "CAT",
+    "ANDREW",
+    "MARG",
+    "DINGLEDERP"
+   ],
+   "teamSize": 5
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 5
+  }
+ ]
+}

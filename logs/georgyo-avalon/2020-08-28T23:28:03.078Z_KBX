@@ -1,0 +1,258 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DREWWW": true,
+    "BLITZ": true
+   },
+   {
+    "DREWWW": false,
+    "MEGAN": true,
+    "BLITZ": false
+   },
+   {
+    "GRANT": true,
+    "MEGAN": true,
+    "ANDREW": true
+   },
+   {
+    "MARE": true,
+    "ANDREW": true,
+    "GRANT": true,
+    "MEGAN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "GRANT"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "BLITZ"
+   },
+   {
+    "assassin": false,
+    "name": "ETHAN",
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MEGAN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANDREW",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DREWWW",
+    "role": "OBERON"
+   },
+   {
+    "name": "MARE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "GRANT",
+  "message": "Merlin assassinated"
+ },
+ "players": [
+  {
+   "uid": "q1F6SD58uhT6GmR97lVjtiUAX4s2",
+   "name": "GRANT"
+  },
+  {
+   "uid": "6wBUhhlZQjPFbF1JYSuM4Inmiur1",
+   "name": "ANDREW"
+  },
+  {
+   "uid": "k7ARXyYR8oPMJoTXFWPOGB50ZBu2",
+   "name": "DREWWW"
+  },
+  {
+   "name": "BLITZ",
+   "uid": "pIjSItKivKMn77h7ZckVCClmZIx2"
+  },
+  {
+   "uid": "11rZd85dM6O53ourLEgexCK37Tn2",
+   "name": "MEGAN"
+  },
+  {
+   "name": "MARE",
+   "uid": "DqxUUlW7puW3czqsCW1dYTg5Lsj2"
+  },
+  {
+   "name": "ETHAN",
+   "uid": "k5C6Gy8312dCPjYz5LXbMtwemj13"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "BLITZ",
+      "DREWWW"
+     ],
+     "votes": [
+      "ANDREW",
+      "ETHAN",
+      "BLITZ",
+      "DREWWW",
+      "GRANT",
+      "MEGAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BLITZ"
+    }
+   ],
+   "team": [
+    "BLITZ",
+    "DREWWW"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "MEGAN",
+    "BLITZ",
+    "DREWWW"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ANDREW",
+      "MEGAN",
+      "ETHAN",
+      "BLITZ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MEGAN",
+      "BLITZ",
+      "DREWWW"
+     ],
+     "proposer": "MEGAN"
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MARE",
+      "DREWWW",
+      "BLITZ"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MARE",
+      "ETHAN",
+      "MEGAN"
+     ],
+     "proposer": "MARE"
+    },
+    {
+     "team": [
+      "ETHAN",
+      "ANDREW",
+      "MARE"
+     ],
+     "proposer": "ETHAN",
+     "state": "REJECTED",
+     "votes": [
+      "BLITZ",
+      "ETHAN"
+     ]
+    },
+    {
+     "proposer": "GRANT",
+     "votes": [
+      "GRANT",
+      "ANDREW",
+      "MEGAN",
+      "MARE"
+     ],
+     "team": [
+      "GRANT",
+      "ANDREW",
+      "MEGAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "GRANT",
+    "ANDREW",
+    "MEGAN"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "GRANT",
+    "ANDREW",
+    "MEGAN",
+    "MARE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MARE",
+      "DREWWW",
+      "ANDREW",
+      "GRANT",
+      "MEGAN"
+     ],
+     "team": [
+      "GRANT",
+      "ANDREW",
+      "MEGAN",
+      "MARE"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANDREW"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1598657283,
+  "_nanoseconds": 78000000
+ },
+ "timeFinished": {
+  "_seconds": 1598658554,
+  "_nanoseconds": 791000000
+ }
+}

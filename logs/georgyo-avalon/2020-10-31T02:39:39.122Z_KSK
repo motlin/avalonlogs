@@ -1,0 +1,239 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "MIGUEL",
+    "SEBAXIPI"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SALVA",
+      "POLLARDA",
+      "ADRI",
+      "SEBAXIPI",
+      "TITO",
+      "MIGUEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "SEBAXIPI",
+     "team": [
+      "MIGUEL",
+      "SEBAXIPI"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "SEBAXIPI",
+    "POLLARDA",
+    "MIGUEL"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "MIGUEL",
+     "state": "APPROVED",
+     "team": [
+      "SEBAXIPI",
+      "POLLARDA",
+      "MIGUEL"
+     ],
+     "votes": [
+      "MIGUEL",
+      "ADRI",
+      "POLLARDA",
+      "SALVA",
+      "SEBAXIPI",
+      "TITO"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "POLLARDA",
+     "state": "REJECTED",
+     "votes": [
+      "POLLARDA",
+      "SEBAXIPI",
+      "TITO"
+     ],
+     "team": [
+      "POLLARDA",
+      "SALVA",
+      "TITO",
+      "ADRI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SEBAXIPI",
+      "MIGUEL",
+      "TITO",
+      "POLLARDA",
+      "SALVA"
+     ],
+     "team": [
+      "SALVA",
+      "TITO",
+      "MIGUEL",
+      "POLLARDA"
+     ],
+     "proposer": "SALVA"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "SALVA",
+    "TITO",
+    "MIGUEL",
+    "POLLARDA"
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "TITO",
+      "SALVA",
+      "POLLARDA"
+     ],
+     "proposer": "TITO",
+     "votes": [
+      "TITO",
+      "POLLARDA",
+      "SALVA",
+      "SEBAXIPI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TITO",
+    "SALVA",
+    "POLLARDA"
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604112424,
+  "_nanoseconds": 774000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1604111979,
+  "_nanoseconds": 122000000
+ },
+ "players": [
+  {
+   "uid": "xDwEpsgGLbNyGnuykBc1Dix7c5i2",
+   "name": "SALVA"
+  },
+  {
+   "uid": "caSIal9f8GgIeiep0fAZ0BcOlzk2",
+   "name": "TITO"
+  },
+  {
+   "name": "ADRI",
+   "uid": "ZY8d1fkmPiXaOPfeZAuGTo8cWww2"
+  },
+  {
+   "name": "SEBAXIPI",
+   "uid": "mTGRD1EJGwX3qr9For815p6dmyC2"
+  },
+  {
+   "uid": "rxvWk1dx6jZFYY58PMCymiwA8gG3",
+   "name": "MIGUEL"
+  },
+  {
+   "uid": "x02lZ5pncVaWfHlPEiNnFvyUpD02",
+   "name": "POLLARDA"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SEBAXIPI": true,
+    "MIGUEL": true
+   },
+   {
+    "SEBAXIPI": true,
+    "MIGUEL": false,
+    "POLLARDA": true
+   },
+   {
+    "MIGUEL": true,
+    "SALVA": true,
+    "POLLARDA": true,
+    "TITO": true
+   },
+   {
+    "TITO": true,
+    "POLLARDA": true,
+    "SALVA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "MIGUEL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TITO"
+   },
+   {
+    "assassin": false,
+    "name": "SEBAXIPI",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ADRI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "POLLARDA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SALVA"
+   }
+  ],
+  "assassinated": "POLLARDA",
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN"
+ }
+}

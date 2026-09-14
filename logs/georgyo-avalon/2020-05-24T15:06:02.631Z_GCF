@@ -1,0 +1,252 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SOMA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JERIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MANOJ",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "SANGEETH"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "RAGEMANIAC"
+   }
+  ],
+  "votes": [
+   {
+    "SANGEETH": true,
+    "MANOJ": true
+   },
+   {
+    "SANGEETH": true,
+    "MANOJ": true,
+    "RAGEMANIAC": true
+   },
+   {
+    "JERIN": true,
+    "RAGEMANIAC": false
+   },
+   {
+    "MANOJ": true,
+    "JERIN": true,
+    "SANGEETH": false
+   },
+   {
+    "SANGEETH": false,
+    "SOMA": true,
+    "MANOJ": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MANOJ",
+     "team": [
+      "MANOJ",
+      "SANGEETH"
+     ],
+     "votes": [
+      "SANGEETH",
+      "RAGEMANIAC",
+      "SOMA",
+      "JERIN",
+      "MANOJ"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MANOJ",
+    "SANGEETH"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "MANOJ",
+    "SANGEETH",
+    "RAGEMANIAC"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "MANOJ",
+      "SANGEETH",
+      "RAGEMANIAC"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SANGEETH",
+      "RAGEMANIAC",
+      "JERIN",
+      "MANOJ"
+     ],
+     "proposer": "SANGEETH"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "JERIN",
+    "RAGEMANIAC"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "SOMA",
+     "state": "REJECTED",
+     "votes": [
+      "SOMA"
+     ],
+     "team": [
+      "SANGEETH",
+      "SOMA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JERIN",
+      "MANOJ"
+     ],
+     "team": [
+      "JERIN",
+      "MANOJ"
+     ],
+     "proposer": "RAGEMANIAC"
+    },
+    {
+     "votes": [
+      "SANGEETH",
+      "RAGEMANIAC",
+      "JERIN",
+      "MANOJ"
+     ],
+     "proposer": "JERIN",
+     "state": "APPROVED",
+     "team": [
+      "JERIN",
+      "RAGEMANIAC"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "MANOJ",
+    "JERIN",
+    "SANGEETH"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "SANGEETH",
+      "RAGEMANIAC",
+      "MANOJ"
+     ],
+     "proposer": "MANOJ",
+     "state": "APPROVED",
+     "team": [
+      "MANOJ",
+      "JERIN",
+      "SANGEETH"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "SANGEETH",
+     "votes": [
+      "JERIN",
+      "MANOJ",
+      "SANGEETH"
+     ],
+     "team": [
+      "SOMA",
+      "MANOJ",
+      "SANGEETH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SOMA",
+    "MANOJ",
+    "SANGEETH"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "MANOJ",
+   "uid": "hUKf8ivp7He1LuyG6ycgd7U9Pqs1"
+  },
+  {
+   "name": "SANGEETH",
+   "uid": "b1H6y6VtbgPjiNdo0FFASI3Ys6v1"
+  },
+  {
+   "name": "SOMA",
+   "uid": "N7AFgtdY4igcBphXLcrNdeijltG3"
+  },
+  {
+   "uid": "bPBYvyNxjnX9UpXoDzLjpBvmLe63",
+   "name": "RAGEMANIAC"
+  },
+  {
+   "uid": "D4YPl5HIj9Pe2IbPAyhLkUh4wLB2",
+   "name": "JERIN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590333268,
+  "_nanoseconds": 767000000
+ },
+ "timeCreated": {
+  "_seconds": 1590332762,
+  "_nanoseconds": 631000000
+ }
+}

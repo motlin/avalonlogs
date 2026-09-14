@@ -1,0 +1,290 @@
+{
+ "timeCreated": {
+  "_seconds": 1608763409,
+  "_nanoseconds": 865000000
+ },
+ "timeFinished": {
+  "_seconds": 1608764196,
+  "_nanoseconds": 326000000
+ },
+ "players": [
+  {
+   "uid": "T0Y1Ud9ZYVctLMkv8A0SPJ0revh2",
+   "name": "SPY"
+  },
+  {
+   "uid": "6ctChjQnkyXdQfjTUAg7rBw8TKv1",
+   "name": "DIALATREON"
+  },
+  {
+   "uid": "aVOoUwJPWZbyP49ofmjKwXYbQJq1",
+   "name": "ZEBI"
+  },
+  {
+   "uid": "ctOlmRv8gGUzIW6AHVoia81mPwk2",
+   "name": "COLD"
+  },
+  {
+   "uid": "EF30I4tTBlVSsKpg7gjoWfMEqIx2",
+   "name": "HELLIDER"
+  },
+  {
+   "name": "POUNPOUN",
+   "uid": "NQl0qvLhIrezJEaae5IFXmCXf1U2"
+  }
+ ],
+ "outcome": {
+  "message": "Three missions succeeded",
+  "state": "GOOD_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DIALATREON",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "COLD",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SPY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "POUNPOUN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ZEBI",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "HELLIDER",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "COLD": true,
+    "POUNPOUN": true
+   },
+   {
+    "DIALATREON": true,
+    "COLD": true,
+    "POUNPOUN": true
+   },
+   {
+    "DIALATREON": true,
+    "ZEBI": false,
+    "COLD": true,
+    "POUNPOUN": true
+   },
+   {
+    "SPY": true,
+    "POUNPOUN": true,
+    "HELLIDER": false
+   },
+   {
+    "COLD": true,
+    "DIALATREON": true,
+    "POUNPOUN": true,
+    "SPY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "POUNPOUN",
+    "COLD"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "DIALATREON",
+      "COLD",
+      "POUNPOUN",
+      "ZEBI",
+      "HELLIDER"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "POUNPOUN",
+      "COLD"
+     ],
+     "proposer": "POUNPOUN"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "COLD",
+    "POUNPOUN",
+    "DIALATREON"
+   ],
+   "proposals": [
+    {
+     "proposer": "SPY",
+     "state": "REJECTED",
+     "votes": [
+      "ZEBI",
+      "HELLIDER",
+      "COLD"
+     ],
+     "team": [
+      "SPY",
+      "ZEBI",
+      "HELLIDER"
+     ]
+    },
+    {
+     "votes": [
+      "DIALATREON",
+      "POUNPOUN",
+      "HELLIDER",
+      "ZEBI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "COLD",
+      "POUNPOUN",
+      "DIALATREON"
+     ],
+     "proposer": "DIALATREON"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ZEBI",
+      "DIALATREON",
+      "POUNPOUN",
+      "COLD"
+     ],
+     "votes": [
+      "ZEBI",
+      "COLD",
+      "DIALATREON",
+      "POUNPOUN"
+     ],
+     "proposer": "ZEBI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "ZEBI",
+    "DIALATREON",
+    "POUNPOUN",
+    "COLD"
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "HELLIDER",
+    "SPY",
+    "POUNPOUN"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "COLD",
+     "team": [
+      "SPY",
+      "HELLIDER",
+      "COLD"
+     ],
+     "votes": [
+      "ZEBI",
+      "DIALATREON",
+      "COLD"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "HELLIDER",
+     "votes": [
+      "POUNPOUN",
+      "HELLIDER",
+      "ZEBI",
+      "DIALATREON"
+     ],
+     "team": [
+      "HELLIDER",
+      "SPY",
+      "POUNPOUN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "POUNPOUN",
+    "COLD",
+    "DIALATREON",
+    "SPY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "POUNPOUN",
+      "HELLIDER",
+      "SPY",
+      "DIALATREON"
+     ],
+     "votes": [
+      "ZEBI"
+     ],
+     "proposer": "POUNPOUN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SPY",
+     "votes": [
+      "DIALATREON",
+      "SPY",
+      "COLD",
+      "POUNPOUN"
+     ],
+     "team": [
+      "POUNPOUN",
+      "COLD",
+      "DIALATREON",
+      "SPY"
+     ]
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

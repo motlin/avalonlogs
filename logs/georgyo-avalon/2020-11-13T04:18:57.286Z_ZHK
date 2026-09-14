@@ -1,0 +1,308 @@
+{
+ "players": [
+  {
+   "uid": "Nd5hMAhNClUlVLDwF78qja9Ao8x1",
+   "name": "BEN"
+  },
+  {
+   "uid": "2Wi9syZxnESgSk06YuyrSQSoqnM2",
+   "name": "ETHAN"
+  },
+  {
+   "uid": "mXBWz8EfNZUIZMxqT3tIPYvO6r82",
+   "name": "EVE"
+  },
+  {
+   "uid": "QHTJi1TkMnYBfVBdRc69Qcqyf3y2",
+   "name": "SHORTY"
+  },
+  {
+   "uid": "OEdvBdhbxcdF7ufzjgIxIgKdBj62",
+   "name": "FRANK"
+  },
+  {
+   "name": "ANA",
+   "uid": "hqLlIb2VFecxrwr3KcD0VdyQ86E3"
+  },
+  {
+   "uid": "6NFaV6nifzOPetNODNP3gogDty73",
+   "name": "DANIEL"
+  },
+  {
+   "uid": "egaVx17D5URPyXjgwwnc9ywIoPJ3",
+   "name": "SKATER"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "DANIEL": true,
+    "SKATER": true,
+    "BEN": true
+   },
+   {
+    "DANIEL": true,
+    "SKATER": true,
+    "ETHAN": true,
+    "BEN": false
+   },
+   {
+    "EVE": true,
+    "FRANK": true,
+    "ETHAN": true,
+    "SHORTY": false
+   },
+   {
+    "FRANK": true,
+    "DANIEL": true,
+    "SKATER": true,
+    "ANA": true,
+    "EVE": true
+   },
+   {
+    "ANA": false,
+    "FRANK": true,
+    "DANIEL": true,
+    "SKATER": true,
+    "EVE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "EVE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "DANIEL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BEN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ETHAN",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "ANA"
+   },
+   {
+    "name": "SKATER",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "FRANK"
+   },
+   {
+    "name": "SHORTY",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "BEN",
+    "DANIEL",
+    "SKATER"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "DANIEL",
+      "SKATER"
+     ],
+     "votes": [
+      "BEN",
+      "SHORTY",
+      "ETHAN",
+      "EVE",
+      "FRANK",
+      "DANIEL",
+      "SKATER",
+      "ANA"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ETHAN",
+     "state": "APPROVED",
+     "votes": [
+      "SHORTY",
+      "SKATER",
+      "ETHAN",
+      "FRANK",
+      "BEN",
+      "ANA",
+      "EVE"
+     ],
+     "team": [
+      "BEN",
+      "ETHAN",
+      "DANIEL",
+      "SKATER"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "BEN",
+    "ETHAN",
+    "DANIEL",
+    "SKATER"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "EVE",
+    "ETHAN",
+    "FRANK",
+    "SHORTY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "EVE",
+      "ETHAN",
+      "FRANK",
+      "SHORTY"
+     ],
+     "proposer": "EVE",
+     "votes": [
+      "SHORTY",
+      "ETHAN",
+      "EVE",
+      "DANIEL",
+      "ANA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "SHORTY",
+     "team": [
+      "FRANK",
+      "ETHAN",
+      "BEN",
+      "ANA",
+      "DANIEL"
+     ],
+     "votes": [
+      "ETHAN",
+      "DANIEL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "FRANK",
+     "state": "APPROVED",
+     "team": [
+      "DANIEL",
+      "SKATER",
+      "EVE",
+      "FRANK",
+      "ANA"
+     ],
+     "votes": [
+      "FRANK",
+      "DANIEL",
+      "SHORTY",
+      "ANA",
+      "EVE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "DANIEL",
+    "SKATER",
+    "EVE",
+    "FRANK",
+    "ANA"
+   ],
+   "numFails": 0,
+   "teamSize": 5
+  },
+  {
+   "numFails": 1,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "ANA",
+     "state": "APPROVED",
+     "votes": [
+      "DANIEL",
+      "SKATER",
+      "EVE",
+      "BEN",
+      "ANA",
+      "FRANK",
+      "SHORTY"
+     ],
+     "team": [
+      "ANA",
+      "FRANK",
+      "DANIEL",
+      "SKATER",
+      "EVE"
+     ]
+    }
+   ],
+   "team": [
+    "ANA",
+    "FRANK",
+    "DANIEL",
+    "SKATER",
+    "EVE"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1605241137,
+  "_nanoseconds": 286000000
+ },
+ "timeFinished": {
+  "_seconds": 1605241938,
+  "_nanoseconds": 777000000
+ }
+}

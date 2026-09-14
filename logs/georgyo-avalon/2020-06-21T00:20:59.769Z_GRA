@@ -1,0 +1,381 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "AMANDA",
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1"
+  },
+  {
+   "name": "LEA",
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2",
+   "name": "JERRY"
+  },
+  {
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743",
+   "name": "NIKKI"
+  },
+  {
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83",
+   "name": "WILL"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JERRY": true,
+    "MAL": true
+   },
+   {
+    "JERRY": true,
+    "MAL": true,
+    "WILL": true
+   },
+   {
+    "MAL": true,
+    "LEA": false,
+    "WILL": true,
+    "JERRY": true
+   },
+   {
+    "AMANDA": true,
+    "JERRY": true,
+    "NIKKI": false
+   },
+   {
+    "WILL": true,
+    "MAL": true,
+    "JERRY": true,
+    "AMANDA": true
+   }
+  ],
+  "assassinated": "AMANDA",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "WILL"
+   },
+   {
+    "name": "LEA",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MAL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "AMANDA",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "NIKKI"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1592701305,
+  "_nanoseconds": 864000000
+ },
+ "timeCreated": {
+  "_seconds": 1592698859,
+  "_nanoseconds": 769000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JERRY",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "AMANDA",
+      "WILL"
+     ],
+     "team": [
+      "JERRY",
+      "MAL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "JERRY",
+    "MAL"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "WILL",
+    "JERRY",
+    "MAL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NIKKI",
+      "JERRY",
+      "MAL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "AMANDA"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "team": [
+      "WILL",
+      "JERRY",
+      "MAL"
+     ],
+     "state": "APPROVED",
+     "proposer": "WILL",
+     "votes": [
+      "WILL",
+      "MAL",
+      "JERRY",
+      "AMANDA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "LEA",
+    "MAL",
+    "JERRY",
+    "WILL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "AMANDA",
+      "WILL",
+      "MAL"
+     ],
+     "team": [
+      "AMANDA",
+      "WILL",
+      "JERRY",
+      "MAL"
+     ],
+     "state": "REJECTED",
+     "proposer": "AMANDA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LEA",
+     "team": [
+      "LEA",
+      "MAL",
+      "JERRY",
+      "WILL"
+     ],
+     "votes": [
+      "LEA",
+      "MAL",
+      "JERRY",
+      "WILL"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MAL",
+     "team": [
+      "WILL",
+      "MAL",
+      "AMANDA"
+     ],
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JERRY",
+      "NIKKI",
+      "WILL"
+     ],
+     "votes": [
+      "JERRY"
+     ],
+     "proposer": "JERRY"
+    },
+    {
+     "votes": [
+      "MAL",
+      "AMANDA",
+      "NIKKI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AMANDA",
+      "NIKKI",
+      "JERRY"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "votes": [
+      "WILL",
+      "LEA",
+      "MAL"
+     ],
+     "proposer": "WILL",
+     "state": "REJECTED",
+     "team": [
+      "WILL",
+      "AMANDA",
+      "MAL"
+     ]
+    },
+    {
+     "proposer": "AMANDA",
+     "votes": [
+      "LEA",
+      "MAL",
+      "JERRY",
+      "AMANDA",
+      "NIKKI"
+     ],
+     "team": [
+      "AMANDA",
+      "JERRY",
+      "NIKKI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "AMANDA",
+    "JERRY",
+    "NIKKI"
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "LEA",
+      "MAL",
+      "NIKKI",
+      "WILL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "LEA"
+     ],
+     "proposer": "LEA"
+    },
+    {
+     "votes": [
+      "WILL",
+      "MAL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AMANDA",
+      "NIKKI",
+      "WILL",
+      "MAL"
+     ],
+     "proposer": "MAL"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JERRY",
+      "WILL",
+      "AMANDA",
+      "MAL"
+     ],
+     "votes": [
+      "JERRY"
+     ],
+     "proposer": "JERRY"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKKI",
+      "WILL",
+      "MAL",
+      "AMANDA"
+     ],
+     "votes": [
+      "NIKKI"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "proposer": "WILL",
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "MAL",
+      "JERRY",
+      "AMANDA"
+     ],
+     "team": [
+      "WILL",
+      "JERRY",
+      "MAL",
+      "AMANDA"
+     ]
+    }
+   ],
+   "team": [
+    "WILL",
+    "JERRY",
+    "MAL",
+    "AMANDA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ]
+}

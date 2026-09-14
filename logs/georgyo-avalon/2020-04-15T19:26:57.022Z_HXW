@@ -1,0 +1,259 @@
+{
+ "players": [
+  {
+   "name": "MICMUN",
+   "uid": "qbN93dfyDIfUV1XVqWHDfMXk3kl1"
+  },
+  {
+   "name": "SIMON",
+   "uid": "g2BIP4ek4eXrbT1Q2oUGqhYtI1v1"
+  },
+  {
+   "uid": "5nE0YUlEnsbFGa9ehHhSiQ9QBKl2",
+   "name": "GUTENAPPET"
+  },
+  {
+   "uid": "6CmB9JCEfSUmpGu7iXdhtwg4Xlq2",
+   "name": "KARL"
+  },
+  {
+   "uid": "03AruZXstcPrW14ifXcU4l3eSD03",
+   "name": "META"
+  },
+  {
+   "name": "NORTHMAN",
+   "uid": "qihcBVIS75WI1zhnpCb5haKV4nd2"
+  },
+  {
+   "name": "TRICHTER",
+   "uid": "ggAFw4DsHiZuv6N5rZmpdCHMUgi1"
+  },
+  {
+   "name": "NOTKARL",
+   "uid": "8NTTsSd4MMfHgwlvn0pGHBhZoSg1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586978817,
+  "_nanoseconds": 22000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MICMUN"
+   },
+   {
+    "name": "KARL",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "NORTHMAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NOTKARL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TRICHTER"
+   },
+   {
+    "name": "SIMON",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "META",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "GUTENAPPET",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "MICMUN": true,
+    "NOTKARL": true,
+    "GUTENAPPET": false
+   },
+   {
+    "NOTKARL": true,
+    "KARL": true,
+    "SIMON": true,
+    "MICMUN": true
+   },
+   {
+    "MICMUN": true,
+    "SIMON": false,
+    "KARL": true,
+    "NOTKARL": true
+   },
+   {
+    "TRICHTER": true,
+    "KARL": false,
+    "META": true,
+    "NOTKARL": true,
+    "SIMON": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "MICMUN",
+    "GUTENAPPET",
+    "NOTKARL"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MICMUN",
+     "votes": [
+      "NORTHMAN",
+      "NOTKARL",
+      "SIMON",
+      "META",
+      "GUTENAPPET",
+      "MICMUN",
+      "KARL"
+     ],
+     "team": [
+      "MICMUN",
+      "GUTENAPPET",
+      "NOTKARL"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "META",
+      "MICMUN",
+      "KARL",
+      "NORTHMAN",
+      "NOTKARL",
+      "TRICHTER",
+      "SIMON"
+     ],
+     "team": [
+      "SIMON",
+      "MICMUN",
+      "NOTKARL",
+      "KARL"
+     ],
+     "state": "APPROVED",
+     "proposer": "SIMON"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "SIMON",
+    "MICMUN",
+    "NOTKARL",
+    "KARL"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "KARL",
+    "NOTKARL",
+    "SIMON",
+    "MICMUN"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "MICMUN",
+      "KARL",
+      "NORTHMAN",
+      "NOTKARL",
+      "TRICHTER",
+      "SIMON",
+      "META"
+     ],
+     "state": "APPROVED",
+     "proposer": "GUTENAPPET",
+     "team": [
+      "KARL",
+      "NOTKARL",
+      "SIMON",
+      "MICMUN"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "SIMON",
+    "KARL",
+    "META",
+    "TRICHTER",
+    "NOTKARL"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "SIMON",
+      "KARL",
+      "META",
+      "TRICHTER",
+      "NOTKARL"
+     ],
+     "proposer": "KARL",
+     "state": "APPROVED",
+     "votes": [
+      "NOTKARL",
+      "TRICHTER",
+      "SIMON",
+      "GUTENAPPET",
+      "KARL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1586982978,
+  "_nanoseconds": 380447000
+ }
+}

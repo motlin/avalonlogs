@@ -1,0 +1,338 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "SiSap8cNllgWhRTcJSWCU7GeE2C3",
+   "name": "CZARINA"
+  },
+  {
+   "uid": "9sO5NJ08qOSV5Nk9s7h8kma1FTu2",
+   "name": "EDWIN"
+  },
+  {
+   "uid": "APk07cdHWEWU5sYM2X5j9dYsJHH2",
+   "name": "NEHA"
+  },
+  {
+   "uid": "58cdYfCJ8xbvaKN8x7wXOhfdKyB3",
+   "name": "BEARD"
+  },
+  {
+   "name": "ERIC",
+   "uid": "ZN8rAFPwa7PqM6jgSLGPj4I97QB3"
+  },
+  {
+   "name": "ROBIN",
+   "uid": "xE34cOh5VwabRCAS5zT7tmNAgdl1"
+  },
+  {
+   "name": "RAQUEL",
+   "uid": "PFRA8k5ze2W6yl8sYhF159C3Oz23"
+  },
+  {
+   "uid": "XtogADBG5BWyiDhBGtJ4EciAGOJ3",
+   "name": "RAINIER"
+  }
+ ],
+ "outcome": {
+  "assassinated": "ERIC",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "RAQUEL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "RAINIER"
+   },
+   {
+    "assassin": false,
+    "name": "NEHA",
+    "role": "MORGANA"
+   },
+   {
+    "name": "BEARD",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ROBIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "EDWIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ERIC"
+   },
+   {
+    "role": "MORDRED",
+    "name": "CZARINA",
+    "assassin": false
+   }
+  ],
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "BEARD": true,
+    "NEHA": true,
+    "ERIC": true
+   },
+   {
+    "CZARINA": true,
+    "RAINIER": true,
+    "ROBIN": true,
+    "RAQUEL": true
+   },
+   {
+    "RAINIER": true,
+    "ROBIN": true,
+    "CZARINA": false,
+    "RAQUEL": true
+   },
+   {
+    "CZARINA": false,
+    "RAQUEL": true,
+    "EDWIN": true,
+    "ROBIN": true,
+    "RAINIER": false
+   },
+   {
+    "ERIC": true,
+    "ROBIN": true,
+    "RAQUEL": true,
+    "EDWIN": true,
+    "BEARD": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1589078366,
+  "_nanoseconds": 34000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "ERIC",
+    "BEARD",
+    "NEHA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ERIC",
+      "BEARD",
+      "NEHA"
+     ],
+     "proposer": "ROBIN",
+     "votes": [
+      "RAQUEL",
+      "RAINIER",
+      "NEHA",
+      "BEARD",
+      "ROBIN",
+      "ERIC",
+      "CZARINA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "NEHA",
+      "BEARD",
+      "ROBIN",
+      "ERIC",
+      "CZARINA",
+      "RAQUEL",
+      "RAINIER"
+     ],
+     "proposer": "RAQUEL",
+     "state": "APPROVED",
+     "team": [
+      "RAQUEL",
+      "ROBIN",
+      "RAINIER",
+      "CZARINA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "RAQUEL",
+    "ROBIN",
+    "RAINIER",
+    "CZARINA"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "RAQUEL",
+    "ROBIN",
+    "RAINIER",
+    "CZARINA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RAQUEL",
+      "ROBIN",
+      "RAINIER",
+      "CZARINA"
+     ],
+     "state": "APPROVED",
+     "proposer": "RAINIER",
+     "votes": [
+      "ROBIN",
+      "ERIC",
+      "CZARINA",
+      "RAQUEL",
+      "RAINIER",
+      "NEHA",
+      "BEARD"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "CZARINA",
+      "ROBIN",
+      "RAQUEL",
+      "RAINIER",
+      "EDWIN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RAQUEL",
+      "RAINIER",
+      "NEHA",
+      "BEARD",
+      "ROBIN",
+      "EDWIN",
+      "ERIC",
+      "CZARINA"
+     ],
+     "proposer": "CZARINA"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "CZARINA",
+    "ROBIN",
+    "RAQUEL",
+    "RAINIER",
+    "EDWIN"
+   ],
+   "teamSize": 5
+  },
+  {
+   "proposals": [
+    {
+     "votes": [],
+     "proposer": "EDWIN",
+     "state": "REJECTED",
+     "team": [
+      "RAQUEL",
+      "EDWIN",
+      "ERIC",
+      "RAINIER",
+      "BEARD"
+     ]
+    },
+    {
+     "team": [
+      "NEHA",
+      "RAQUEL",
+      "ERIC",
+      "BEARD",
+      "EDWIN"
+     ],
+     "votes": [
+      "NEHA"
+     ],
+     "proposer": "NEHA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ERIC",
+      "RAQUEL",
+      "BEARD",
+      "ROBIN"
+     ],
+     "proposer": "BEARD",
+     "team": [
+      "BEARD",
+      "EDWIN",
+      "RAQUEL",
+      "ERIC",
+      "ROBIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "EDWIN",
+      "BEARD",
+      "ERIC",
+      "ROBIN",
+      "RAQUEL"
+     ],
+     "votes": [
+      "RAQUEL",
+      "BEARD",
+      "ROBIN",
+      "EDWIN",
+      "ERIC"
+     ],
+     "state": "APPROVED",
+     "proposer": "ERIC"
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": [
+    "EDWIN",
+    "BEARD",
+    "ERIC",
+    "ROBIN",
+    "RAQUEL"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589072359,
+  "_nanoseconds": 375000000
+ }
+}

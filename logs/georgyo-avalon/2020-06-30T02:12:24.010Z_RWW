@@ -1,0 +1,316 @@
+{
+ "players": [
+  {
+   "name": "TAE",
+   "uid": "e6hH1GdJeFeEt9hEM17MZW9Wtrm1"
+  },
+  {
+   "name": "FRANK",
+   "uid": "6yrFWuXILvUTjXxnbHsTIn2brDa2"
+  },
+  {
+   "name": "CHLOE",
+   "uid": "OeZ0gojJG2dWqo1Ob2rGPt1ltaf1"
+  },
+  {
+   "name": "CAT",
+   "uid": "YyEET8ED3TemqzUBMpEUS4HON2G2"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "B3xj2eellEWs3ZnTMUj9KmarQZ03"
+  },
+  {
+   "uid": "xii9UJnhPJRHjZn0e5sthKNGb653",
+   "name": "DAYE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "DAYE",
+      "BRIAN",
+      "TAE",
+      "CAT"
+     ],
+     "proposer": "CAT",
+     "state": "APPROVED",
+     "team": [
+      "CAT",
+      "TAE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "CAT",
+    "TAE"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "BRIAN",
+     "votes": [
+      "CHLOE",
+      "DAYE",
+      "BRIAN",
+      "TAE",
+      "CAT"
+     ],
+     "team": [
+      "BRIAN",
+      "TAE",
+      "CAT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "BRIAN",
+    "TAE",
+    "CAT"
+   ]
+  },
+  {
+   "team": [
+    "FRANK",
+    "CHLOE",
+    "BRIAN",
+    "CAT"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "CHLOE",
+      "DAYE",
+      "CAT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DAYE",
+      "CHLOE",
+      "CAT",
+      "TAE"
+     ],
+     "proposer": "DAYE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "TAE",
+     "votes": [
+      "DAYE",
+      "TAE"
+     ],
+     "team": [
+      "TAE",
+      "CAT",
+      "DAYE",
+      "FRANK"
+     ]
+    },
+    {
+     "votes": [
+      "FRANK",
+      "DAYE",
+      "BRIAN",
+      "CAT"
+     ],
+     "team": [
+      "FRANK",
+      "CHLOE",
+      "BRIAN",
+      "CAT"
+     ],
+     "proposer": "FRANK",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHLOE"
+     ],
+     "proposer": "CHLOE",
+     "team": [
+      "CHLOE",
+      "CAT",
+      "TAE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "CAT",
+     "votes": [
+      "DAYE",
+      "TAE",
+      "CAT",
+      "FRANK",
+      "CHLOE"
+     ],
+     "team": [
+      "FRANK",
+      "TAE",
+      "CAT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "FRANK",
+    "TAE",
+    "CAT"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [],
+     "team": [
+      "TAE",
+      "FRANK",
+      "BRIAN",
+      "CAT"
+     ],
+     "state": "REJECTED",
+     "proposer": "BRIAN"
+    },
+    {
+     "proposer": "DAYE",
+     "team": [
+      "CAT",
+      "DAYE",
+      "TAE",
+      "FRANK"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DAYE",
+      "TAE"
+     ]
+    },
+    {
+     "votes": [
+      "TAE",
+      "CAT",
+      "FRANK",
+      "DAYE"
+     ],
+     "team": [
+      "TAE",
+      "FRANK",
+      "CAT",
+      "DAYE"
+     ],
+     "state": "APPROVED",
+     "proposer": "TAE"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TAE",
+    "FRANK",
+    "CAT",
+    "DAYE"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593484977,
+  "_nanoseconds": 879000000
+ },
+ "timeCreated": {
+  "_seconds": 1593483144,
+  "_nanoseconds": 10000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "TAE": true,
+    "CAT": true
+   },
+   {
+    "CAT": true,
+    "BRIAN": false,
+    "TAE": true
+   },
+   {
+    "CHLOE": true,
+    "BRIAN": false,
+    "CAT": true,
+    "FRANK": true
+   },
+   {
+    "TAE": true,
+    "CAT": true,
+    "FRANK": true
+   },
+   {
+    "FRANK": true,
+    "TAE": true,
+    "CAT": true,
+    "DAYE": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DAYE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BRIAN"
+   },
+   {
+    "role": "MERLIN",
+    "name": "TAE",
+    "assassin": false
+   },
+   {
+    "name": "CAT",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FRANK",
+    "assassin": false
+   },
+   {
+    "name": "CHLOE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "FRANK"
+ }
+}

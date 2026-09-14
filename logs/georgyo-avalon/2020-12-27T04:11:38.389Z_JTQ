@@ -1,0 +1,193 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "GIO": true,
+    "PHONG": true
+   },
+   {
+    "PHONG": true,
+    "GIO": true,
+    "KYLE": true
+   },
+   {
+    "GIO": true,
+    "PHONG": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELLIOTT"
+   },
+   {
+    "name": "PHONG",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SIMON"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "KYLE"
+   },
+   {
+    "assassin": false,
+    "name": "GIO",
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "SIMON"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "GIO",
+    "PHONG"
+   ],
+   "proposals": [
+    {
+     "proposer": "SIMON",
+     "state": "APPROVED",
+     "votes": [
+      "GIO",
+      "SIMON",
+      "ELLIOTT",
+      "KYLE",
+      "PHONG"
+     ],
+     "team": [
+      "GIO",
+      "PHONG"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "KYLE",
+    "GIO",
+    "PHONG"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KYLE",
+      "GIO",
+      "ELLIOTT",
+      "PHONG",
+      "SIMON"
+     ],
+     "proposer": "KYLE",
+     "team": [
+      "KYLE",
+      "GIO",
+      "PHONG"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SIMON",
+      "GIO"
+     ],
+     "team": [
+      "SIMON",
+      "PHONG"
+     ],
+     "proposer": "GIO"
+    },
+    {
+     "votes": [
+      "SIMON",
+      "KYLE",
+      "GIO",
+      "PHONG",
+      "ELLIOTT"
+     ],
+     "team": [
+      "PHONG",
+      "GIO"
+     ],
+     "proposer": "PHONG",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PHONG",
+    "GIO"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609042298,
+  "_nanoseconds": 389000000
+ },
+ "players": [
+  {
+   "name": "PHONG",
+   "uid": "91bJ8OZ9cvglClIeoyoW3qG2ZnX2"
+  },
+  {
+   "name": "ELLIOTT",
+   "uid": "gCtwBMAnXhW3AhOnXHXTyL4rg7s1"
+  },
+  {
+   "name": "SIMON",
+   "uid": "TyFg5WvH7WWDyYJ1BsVeqjATHs83"
+  },
+  {
+   "name": "KYLE",
+   "uid": "wcW0HbOOQ8S3W7Qj8Nm34Phuy9t2"
+  },
+  {
+   "name": "GIO",
+   "uid": "iuDoyc3t1SgHs9LURMXkNH3K8v93"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609042541,
+  "_nanoseconds": 751000000
+ }
+}

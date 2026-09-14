@@ -1,0 +1,243 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "PANKAJ",
+      "ALEXA"
+     ],
+     "votes": [
+      "ALEX",
+      "BRUCE",
+      "ALEXA",
+      "PANKAJ"
+     ],
+     "proposer": "ALEX",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "PANKAJ",
+    "ALEXA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "HSA",
+      "ALEXA",
+      "PANKAJ"
+     ],
+     "state": "REJECTED",
+     "proposer": "BRUCE",
+     "votes": [
+      "BRUCE",
+      "HSA"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEXA",
+      "HSA",
+      "ALEX"
+     ],
+     "votes": [
+      "BRUCE",
+      "HSA",
+      "ALEXA"
+     ],
+     "proposer": "HSA"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "ALEXA",
+    "HSA",
+    "ALEX"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEXA",
+      "BRUCE"
+     ],
+     "votes": [
+      "PANKAJ",
+      "ALEX",
+      "BRUCE",
+      "HSA",
+      "ALEXA"
+     ],
+     "proposer": "PANKAJ"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ALEXA",
+    "BRUCE"
+   ],
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ALEX",
+    "BRUCE",
+    "PANKAJ"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "HSA",
+      "ALEXA",
+      "PANKAJ"
+     ],
+     "team": [
+      "ALEX",
+      "BRUCE",
+      "PANKAJ"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALEXA"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ALEX",
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "BRUCE",
+      "HSA",
+      "ALEXA",
+      "PANKAJ"
+     ],
+     "team": [
+      "ALEXA",
+      "ALEX",
+      "BRUCE"
+     ]
+    }
+   ],
+   "team": [
+    "ALEXA",
+    "ALEX",
+    "BRUCE"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  }
+ ],
+ "players": [
+  {
+   "name": "HSA",
+   "uid": "zaBF0LTwHQgR6ROlZ2gfxjMAL4p1"
+  },
+  {
+   "name": "PANKAJ",
+   "uid": "97SASaTMVcO7sY90P8S1lAKrlX12"
+  },
+  {
+   "name": "ALEXA",
+   "uid": "2DCMfSRdn3TkS5sFKoZHFqGfDV33"
+  },
+  {
+   "uid": "u4DfDWWkpFgNxlJd7fmn5NIyXSx2",
+   "name": "ALEX"
+  },
+  {
+   "name": "BRUCE",
+   "uid": "ugyw4OZ0sZP0oSe7wMCYkzOESbS2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588528225,
+  "_nanoseconds": 363000000
+ },
+ "timeCreated": {
+  "_seconds": 1588526626,
+  "_nanoseconds": 856000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "BRUCE"
+   },
+   {
+    "name": "HSA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ALEXA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "PANKAJ",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "ALEXA": true,
+    "PANKAJ": true
+   },
+   {
+    "ALEX": true,
+    "ALEXA": true,
+    "HSA": true
+   },
+   {
+    "ALEXA": true,
+    "BRUCE": false
+   },
+   {
+    "PANKAJ": true,
+    "ALEX": true,
+    "BRUCE": false
+   },
+   {
+    "ALEX": true,
+    "ALEXA": true,
+    "BRUCE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": null
+ }
+}

@@ -1,0 +1,318 @@
+{
+ "outcome": {
+  "assassinated": "LUKE",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SHAL",
+    "assassin": false
+   },
+   {
+    "name": "ALICE",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "BENNN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "TOM"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ELLA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JAK"
+   },
+   {
+    "name": "TARA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "LUKE"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "LUKE": true,
+    "ELLA": true,
+    "ALICE": false
+   },
+   {
+    "SHAL": true,
+    "ELLA": true,
+    "TOM": false,
+    "TARA": true
+   },
+   {
+    "LUKE": true,
+    "ELLA": true,
+    "TARA": true,
+    "JAK": true
+   },
+   {
+    "BENNN": false,
+    "ELLA": true,
+    "JAK": true,
+    "LUKE": true,
+    "TARA": true
+   },
+   {
+    "JAK": true,
+    "ELLA": true,
+    "TARA": true,
+    "SHAL": true,
+    "LUKE": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALICE",
+      "TOM",
+      "JAK",
+      "ELLA",
+      "SHAL"
+     ],
+     "team": [
+      "ELLA",
+      "ALICE",
+      "LUKE"
+     ],
+     "proposer": "ELLA"
+    }
+   ],
+   "team": [
+    "ELLA",
+    "ALICE",
+    "LUKE"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "TOM",
+      "SHAL",
+      "BENNN"
+     ],
+     "proposer": "SHAL",
+     "team": [
+      "SHAL",
+      "TARA",
+      "TOM",
+      "BENNN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BENNN",
+      "TARA",
+      "SHAL",
+      "ELLA",
+      "ALICE",
+      "TOM"
+     ],
+     "proposer": "TARA",
+     "state": "APPROVED",
+     "team": [
+      "TARA",
+      "SHAL",
+      "ELLA",
+      "TOM"
+     ]
+    }
+   ],
+   "team": [
+    "TARA",
+    "SHAL",
+    "ELLA",
+    "TOM"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "JAK",
+    "LUKE",
+    "ELLA",
+    "TARA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ALICE",
+      "TARA",
+      "JAK",
+      "BENNN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ALICE"
+     ],
+     "proposer": "ALICE"
+    },
+    {
+     "proposer": "LUKE",
+     "team": [
+      "JAK",
+      "LUKE",
+      "ELLA",
+      "TARA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHAL",
+      "LUKE",
+      "ELLA",
+      "TOM",
+      "JAK",
+      "TARA",
+      "ALICE"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "numFails": 1,
+   "team": [
+    "ELLA",
+    "TARA",
+    "JAK",
+    "LUKE",
+    "BENNN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SHAL",
+      "BENNN",
+      "JAK",
+      "ELLA",
+      "TOM"
+     ],
+     "proposer": "BENNN",
+     "team": [
+      "ELLA",
+      "TARA",
+      "JAK",
+      "LUKE",
+      "BENNN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JAK",
+    "TARA",
+    "ELLA",
+    "LUKE",
+    "SHAL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TARA",
+      "LUKE",
+      "ELLA",
+      "BENNN",
+      "SHAL",
+      "JAK"
+     ],
+     "team": [
+      "JAK",
+      "TARA",
+      "ELLA",
+      "LUKE",
+      "SHAL"
+     ],
+     "proposer": "JAK"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "qSnk1ixTSQe99RcFQMoHxUSEYXt2",
+   "name": "TOM"
+  },
+  {
+   "uid": "4Oc1pzCZqGQZyGFl2KO0cCrL2mk1",
+   "name": "ELLA"
+  },
+  {
+   "name": "SHAL",
+   "uid": "NIAmvvfK4pNNBRZTyluXo7elAnh2"
+  },
+  {
+   "uid": "PtnYZP937Yaj3BRoOoEibJKvmNq1",
+   "name": "TARA"
+  },
+  {
+   "uid": "GXz45EgIdGh9vBVwlO3N5zRMZrw2",
+   "name": "ALICE"
+  },
+  {
+   "uid": "bwGw2zkFfeOH24CRKuunkNjFpOn1",
+   "name": "LUKE"
+  },
+  {
+   "name": "BENNN",
+   "uid": "iRszaW7C7kVSlrmOUY3k9MyqssA2"
+  },
+  {
+   "name": "JAK",
+   "uid": "Yc8SPVfUNcXHAbYoCC1bjj9yQTA2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1608877166,
+  "_nanoseconds": 720000000
+ },
+ "timeFinished": {
+  "_seconds": 1608877917,
+  "_nanoseconds": 661000000
+ }
+}

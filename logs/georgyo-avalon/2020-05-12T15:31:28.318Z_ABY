@@ -1,0 +1,282 @@
+{
+ "timeFinished": {
+  "_seconds": 1589298311,
+  "_nanoseconds": 42000000
+ },
+ "players": [
+  {
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22",
+   "name": "SOVEREIGN"
+  },
+  {
+   "name": "SKYX",
+   "uid": "YjIwyhCncYUiYPvf2PZcnmxX2Ou1"
+  },
+  {
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2",
+   "name": "ROBIN"
+  },
+  {
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3",
+   "name": "KENT"
+  },
+  {
+   "name": "WEI",
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2"
+  },
+  {
+   "uid": "w2ngiDASElTWBTMXd9fdYpBlSNx1",
+   "name": "PROVIDENCE"
+  },
+  {
+   "name": "JL",
+   "uid": "bI2OVSenLLhu3HprJLUfksPK1Hm1"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "PROVIDENCE",
+    "WEI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PROVIDENCE",
+     "votes": [
+      "JL",
+      "PROVIDENCE",
+      "SKYX",
+      "KENT",
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI"
+     ],
+     "team": [
+      "PROVIDENCE",
+      "WEI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "JL",
+    "PROVIDENCE",
+    "WEI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SKYX",
+      "KENT",
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI",
+      "JL"
+     ],
+     "team": [
+      "JL",
+      "PROVIDENCE",
+      "WEI"
+     ],
+     "state": "APPROVED",
+     "proposer": "JL"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "SOVEREIGN",
+    "SKYX",
+    "PROVIDENCE"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "SOVEREIGN",
+      "SKYX",
+      "PROVIDENCE"
+     ],
+     "proposer": "SOVEREIGN",
+     "state": "APPROVED",
+     "votes": [
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI",
+      "JL",
+      "SKYX",
+      "KENT"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "SKYX",
+      "KENT",
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI",
+      "JL",
+      "PROVIDENCE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SKYX",
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "WEI"
+     ],
+     "proposer": "SKYX"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "SKYX",
+    "SOVEREIGN",
+    "PROVIDENCE",
+    "WEI"
+   ],
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PROVIDENCE",
+    "SKYX",
+    "JL",
+    "KENT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JL",
+      "WEI",
+      "SKYX",
+      "ROBIN"
+     ],
+     "proposer": "ROBIN",
+     "votes": [
+      "ROBIN",
+      "SKYX",
+      "KENT"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "PROVIDENCE",
+      "SKYX",
+      "KENT",
+      "SOVEREIGN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PROVIDENCE",
+      "SKYX",
+      "JL",
+      "KENT"
+     ],
+     "proposer": "KENT"
+    }
+   ]
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "WEI": true,
+    "PROVIDENCE": true
+   },
+   {
+    "WEI": true,
+    "PROVIDENCE": false,
+    "JL": true
+   },
+   {
+    "SOVEREIGN": true,
+    "SKYX": true,
+    "PROVIDENCE": true
+   },
+   {
+    "SKYX": true,
+    "WEI": true,
+    "SOVEREIGN": false,
+    "PROVIDENCE": false
+   },
+   {
+    "SKYX": true,
+    "PROVIDENCE": false,
+    "KENT": false,
+    "JL": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "SOVEREIGN",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ROBIN"
+   },
+   {
+    "name": "WEI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JL"
+   },
+   {
+    "assassin": false,
+    "name": "PROVIDENCE",
+    "role": "MORGANA"
+   },
+   {
+    "name": "SKYX",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "KENT"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589297488,
+  "_nanoseconds": 318000000
+ }
+}

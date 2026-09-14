@@ -1,0 +1,201 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DEBRULES",
+    "assassin": false
+   },
+   {
+    "name": "DONNAHAVEN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "EMILY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KAT"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BUBBLES",
+    "assassin": true
+   }
+  ],
+  "assassinated": "EMILY",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "DEBRULES": true,
+    "EMILY": true
+   },
+   {
+    "KAT": true,
+    "BUBBLES": false,
+    "DONNAHAVEN": true
+   },
+   {
+    "KAT": true,
+    "EMILY": true
+   },
+   {
+    "EMILY": true,
+    "KAT": true,
+    "DEBRULES": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1599664766,
+  "_nanoseconds": 681000000
+ },
+ "timeCreated": {
+  "_seconds": 1599663953,
+  "_nanoseconds": 488000000
+ },
+ "players": [
+  {
+   "name": "EMILY",
+   "uid": "R5Uvkq7V5VNnR0EXxXYUr5IzITs2"
+  },
+  {
+   "name": "KAT",
+   "uid": "EiaSj82bgxTW2t0Tv80H2DzuHct2"
+  },
+  {
+   "name": "BUBBLES",
+   "uid": "EbAfGpRzLSZ25ybnNiU8tRaEkah1"
+  },
+  {
+   "name": "DEBRULES",
+   "uid": "zFErXeI5VGMmYIxK2hBMww69nw02"
+  },
+  {
+   "name": "DONNAHAVEN",
+   "uid": "cAOTxXkq0zcX8BzMa1LoQYDDK4m1"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "DEBRULES",
+      "DONNAHAVEN",
+      "EMILY",
+      "BUBBLES"
+     ],
+     "team": [
+      "EMILY",
+      "DEBRULES"
+     ],
+     "state": "APPROVED",
+     "proposer": "DEBRULES"
+    }
+   ],
+   "team": [
+    "EMILY",
+    "DEBRULES"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "KAT",
+    "BUBBLES",
+    "DONNAHAVEN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KAT",
+      "DONNAHAVEN",
+      "BUBBLES"
+     ],
+     "proposer": "DONNAHAVEN",
+     "team": [
+      "KAT",
+      "BUBBLES",
+      "DONNAHAVEN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "EMILY",
+     "team": [
+      "EMILY",
+      "KAT"
+     ],
+     "votes": [
+      "EMILY",
+      "KAT",
+      "DEBRULES"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "EMILY",
+    "KAT"
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "EMILY",
+    "KAT",
+    "DEBRULES"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KAT",
+     "team": [
+      "EMILY",
+      "KAT",
+      "DEBRULES"
+     ],
+     "votes": [
+      "KAT",
+      "DEBRULES",
+      "EMILY"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

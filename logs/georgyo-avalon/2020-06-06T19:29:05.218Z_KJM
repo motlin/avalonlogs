@@ -1,0 +1,278 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "AIDAN",
+   "uid": "sxLISnim3ER9UDMOosxowsX3i4B3"
+  },
+  {
+   "name": "CHLOE",
+   "uid": "zzfTZcX8XfNJtcW2WKTAkcPl3Cy2"
+  },
+  {
+   "name": "RACH",
+   "uid": "ljvuZKFHN1hmyfRkYR9u5J4sJZF3"
+  },
+  {
+   "name": "MIKAYLA",
+   "uid": "QiNZCie8NQVlC2Qnpg2AJzY2Hnk1"
+  },
+  {
+   "uid": "V26GyNUVclXP2Fh9wtj4NefoP7C2",
+   "name": "MEG"
+  },
+  {
+   "uid": "L0Gx6Bis5pcXH1FfGkFIYNHXT9F3",
+   "name": "MARTIN"
+  },
+  {
+   "uid": "rfhJ8mdUFeO0YWCiiKESkylhlb12",
+   "name": "BRI"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "AIDAN": true,
+    "CHLOE": true
+   },
+   {
+    "BRI": true,
+    "RACH": false,
+    "MIKAYLA": true
+   },
+   {
+    "CHLOE": true,
+    "MARTIN": true,
+    "AIDAN": true
+   },
+   {
+    "AIDAN": false,
+    "BRI": true,
+    "CHLOE": true,
+    "MARTIN": false
+   },
+   {
+    "MIKAYLA": true,
+    "AIDAN": false,
+    "CHLOE": true,
+    "MEG": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "BRI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "RACH",
+    "assassin": false
+   },
+   {
+    "name": "MEG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MIKAYLA"
+   },
+   {
+    "assassin": false,
+    "name": "AIDAN",
+    "role": "MORGANA"
+   },
+   {
+    "name": "MARTIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHLOE",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1591471745,
+  "_nanoseconds": 218000000
+ },
+ "timeFinished": {
+  "_seconds": 1591472920,
+  "_nanoseconds": 634000000
+ },
+ "missions": [
+  {
+   "team": [
+    "CHLOE",
+    "AIDAN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHLOE",
+      "BRI",
+      "RACH",
+      "MEG",
+      "MIKAYLA",
+      "AIDAN",
+      "MARTIN"
+     ],
+     "team": [
+      "CHLOE",
+      "AIDAN"
+     ],
+     "proposer": "RACH"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BRI",
+      "RACH",
+      "MEG",
+      "MIKAYLA"
+     ],
+     "team": [
+      "MIKAYLA",
+      "BRI",
+      "RACH"
+     ],
+     "proposer": "MIKAYLA"
+    }
+   ],
+   "team": [
+    "MIKAYLA",
+    "BRI",
+    "RACH"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "AIDAN",
+    "CHLOE",
+    "MARTIN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MEG",
+      "MIKAYLA",
+      "AIDAN"
+     ],
+     "team": [
+      "AIDAN",
+      "CHLOE",
+      "BRI"
+     ],
+     "proposer": "MEG",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MEG",
+      "MIKAYLA",
+      "MARTIN",
+      "CHLOE",
+      "BRI",
+      "RACH"
+     ],
+     "team": [
+      "AIDAN",
+      "CHLOE",
+      "MARTIN"
+     ],
+     "proposer": "MARTIN"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BRI",
+      "MARTIN",
+      "AIDAN",
+      "CHLOE"
+     ],
+     "proposer": "BRI",
+     "votes": [
+      "BRI",
+      "RACH",
+      "MEG",
+      "MIKAYLA",
+      "AIDAN",
+      "MARTIN"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "FAIL",
+   "team": [
+    "BRI",
+    "MARTIN",
+    "AIDAN",
+    "CHLOE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "AIDAN",
+    "CHLOE",
+    "MIKAYLA",
+    "MEG"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "AIDAN",
+      "CHLOE",
+      "MIKAYLA",
+      "MEG"
+     ],
+     "proposer": "AIDAN",
+     "state": "APPROVED",
+     "votes": [
+      "MARTIN",
+      "RACH",
+      "MEG",
+      "AIDAN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "timeFinished": {
+  "_seconds": 1586061920,
+  "_nanoseconds": 745468000
+ },
+ "timeCreated": {
+  "_seconds": 1586060710,
+  "_nanoseconds": 269000000
+ },
+ "players": [
+  {
+   "name": "IAN",
+   "uid": "6b0fbKwQdgavvvK84HPuShapRVg2"
+  },
+  {
+   "uid": "G8rvG5lm8uhXWThxGuaCwwpDE5y1",
+   "name": "LAUREN"
+  },
+  {
+   "uid": "oy6I3fglWrbYrd3afmh080M1gyL2",
+   "name": "YABOINATE"
+  },
+  {
+   "uid": "JPU3HMM47JTCTCH1Byi0enhuEbu2",
+   "name": "FISH"
+  },
+  {
+   "name": "ALEX",
+   "uid": "0rBeFXC9VTQCw4xHdNFyE0KWF8I3"
+  },
+  {
+   "name": "MOHAMMAD",
+   "uid": "9eaRTj5gVAO5b2F1N4qY9VahUQs2"
+  },
+  {
+   "name": "JEFF",
+   "uid": "95TkkPobvGOENRrLsc90tycVjuV2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "YABOINATE",
+    "LAUREN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "YABOINATE",
+      "LAUREN"
+     ],
+     "proposer": "YABOINATE",
+     "votes": [
+      "JEFF",
+      "FISH",
+      "ALEX",
+      "MOHAMMAD",
+      "IAN",
+      "LAUREN",
+      "YABOINATE"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "FISH",
+    "ALEX",
+    "IAN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEFF",
+      "FISH",
+      "ALEX",
+      "MOHAMMAD",
+      "IAN"
+     ],
+     "team": [
+      "FISH",
+      "ALEX",
+      "IAN"
+     ],
+     "proposer": "FISH"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "LAUREN",
+    "YABOINATE",
+    "ALEX"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEFF",
+      "FISH",
+      "ALEX",
+      "MOHAMMAD",
+      "IAN",
+      "LAUREN",
+      "YABOINATE"
+     ],
+     "proposer": "ALEX",
+     "team": [
+      "LAUREN",
+      "YABOINATE",
+      "ALEX"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "IAN",
+    "ALEX",
+    "LAUREN",
+    "YABOINATE"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "YABOINATE",
+      "JEFF",
+      "MOHAMMAD"
+     ],
+     "team": [
+      "MOHAMMAD",
+      "LAUREN",
+      "YABOINATE",
+      "FISH"
+     ],
+     "proposer": "MOHAMMAD"
+    },
+    {
+     "proposer": "JEFF",
+     "team": [
+      "IAN",
+      "JEFF",
+      "MOHAMMAD",
+      "LAUREN"
+     ],
+     "votes": [
+      "JEFF",
+      "FISH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "IAN",
+      "ALEX",
+      "LAUREN",
+      "YABOINATE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "IAN",
+      "LAUREN",
+      "YABOINATE"
+     ],
+     "proposer": "IAN"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "YABOINATE": true,
+    "LAUREN": true
+   },
+   {
+    "FISH": false,
+    "ALEX": true,
+    "IAN": true
+   },
+   {
+    "YABOINATE": true,
+    "LAUREN": true,
+    "ALEX": true
+   },
+   {
+    "YABOINATE": true,
+    "ALEX": true,
+    "IAN": true,
+    "LAUREN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "FISH",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ALEX",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MOHAMMAD"
+   },
+   {
+    "name": "IAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "LAUREN"
+   },
+   {
+    "assassin": false,
+    "name": "YABOINATE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JEFF",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": "YABOINATE",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN"
+ }
+}

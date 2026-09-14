@@ -1,0 +1,310 @@
+{
+ "timeCreated": {
+  "_seconds": 1587821410,
+  "_nanoseconds": 190000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "BRYAN": true,
+    "BERNARD": true,
+    "EVE": true
+   },
+   {
+    "BRYAN": true,
+    "BERNARD": true,
+    "GERRY": true,
+    "EVE": true
+   },
+   {
+    "BRYAN": false,
+    "EVE": true,
+    "BERNARD": true,
+    "GERRY": true
+   },
+   {
+    "EVE": false,
+    "XAVIER": true,
+    "BRYAN": false,
+    "GERRY": true,
+    "BERNARD": true
+   },
+   {
+    "BAOREN": true,
+    "MARCUS": true,
+    "BERNARD": true,
+    "SY": true,
+    "EVE": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BRYAN"
+   },
+   {
+    "name": "BAOREN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MARCUS",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "BERNARD"
+   },
+   {
+    "name": "GERRY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "XAVIER",
+    "assassin": false
+   },
+   {
+    "name": "EVE",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "SY",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "VINOLIA"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "BAOREN",
+   "uid": "P6eMzKxVqARhF8xmgb1SPfLMtaw1"
+  },
+  {
+   "name": "SY",
+   "uid": "nihkxcef2tQLCVpxyy4lTHPUYdA3"
+  },
+  {
+   "uid": "gcKCx5DcMNctrCDFOCjNdLK9cUl1",
+   "name": "MARCUS"
+  },
+  {
+   "uid": "GiJ3o8YsEnZG0ktlOKtRLavNCcg2",
+   "name": "VINOLIA"
+  },
+  {
+   "name": "BRYAN",
+   "uid": "ApLexr3LFBXDVTeMpIUAteS8Vr93"
+  },
+  {
+   "name": "BERNARD",
+   "uid": "EcgiqwCU9tWjLA0TVu8duTedWay1"
+  },
+  {
+   "uid": "cBIBuU49xQd3ZUnY9gF9nnd3tnM2",
+   "name": "EVE"
+  },
+  {
+   "name": "XAVIER",
+   "uid": "gkK3jkbWSTT6dgmoJF894uthXNz1"
+  },
+  {
+   "uid": "5TZLglE6IrX2H58xkIKwn20mEOd2",
+   "name": "GERRY"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 3,
+   "team": [
+    "BERNARD",
+    "EVE",
+    "BRYAN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SY",
+     "state": "APPROVED",
+     "team": [
+      "BERNARD",
+      "EVE",
+      "BRYAN"
+     ],
+     "votes": [
+      "BRYAN",
+      "BAOREN",
+      "MARCUS",
+      "BERNARD",
+      "GERRY",
+      "XAVIER",
+      "EVE",
+      "SY",
+      "VINOLIA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BERNARD",
+    "EVE",
+    "BRYAN",
+    "GERRY"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "BERNARD",
+      "EVE",
+      "BRYAN",
+      "GERRY"
+     ],
+     "proposer": "MARCUS",
+     "votes": [
+      "BAOREN",
+      "MARCUS",
+      "BERNARD",
+      "GERRY",
+      "EVE",
+      "SY",
+      "VINOLIA",
+      "BRYAN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "VINOLIA",
+     "votes": [
+      "BRYAN",
+      "BAOREN",
+      "MARCUS",
+      "BERNARD",
+      "GERRY",
+      "XAVIER",
+      "SY",
+      "VINOLIA"
+     ],
+     "team": [
+      "BERNARD",
+      "EVE",
+      "GERRY",
+      "BRYAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "BERNARD",
+    "EVE",
+    "GERRY",
+    "BRYAN"
+   ]
+  },
+  {
+   "team": [
+    "BRYAN",
+    "GERRY",
+    "BERNARD",
+    "EVE",
+    "XAVIER"
+   ],
+   "state": "FAIL",
+   "failsRequired": 2,
+   "numFails": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "BRYAN",
+     "team": [
+      "BRYAN",
+      "GERRY",
+      "BERNARD",
+      "EVE",
+      "XAVIER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BERNARD",
+      "GERRY",
+      "XAVIER",
+      "EVE",
+      "VINOLIA",
+      "BRYAN",
+      "BAOREN",
+      "MARCUS"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "BERNARD",
+     "state": "APPROVED",
+     "votes": [
+      "BRYAN",
+      "BAOREN",
+      "MARCUS",
+      "BERNARD",
+      "EVE",
+      "SY",
+      "VINOLIA"
+     ],
+     "team": [
+      "BAOREN",
+      "SY",
+      "MARCUS",
+      "BERNARD",
+      "EVE"
+     ]
+    }
+   ],
+   "team": [
+    "BAOREN",
+    "SY",
+    "MARCUS",
+    "BERNARD",
+    "EVE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587822229,
+  "_nanoseconds": 607000000
+ }
+}

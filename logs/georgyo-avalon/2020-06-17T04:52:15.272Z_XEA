@@ -1,0 +1,253 @@
+{
+ "timeCreated": {
+  "_seconds": 1592369535,
+  "_nanoseconds": 272000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "SAM",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "KAT",
+    "role": "MERLIN"
+   },
+   {
+    "name": "ZUKO",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CHOCHANG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SBEVE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JINSEOR",
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "CHOCHANG": true,
+    "ZUKO": true
+   },
+   {
+    "JINSEOR": true,
+    "ZUKO": true,
+    "CHOCHANG": true
+   },
+   {
+    "KAT": true,
+    "ZUKO": true,
+    "SBEVE": true,
+    "JINSEOR": false
+   },
+   {
+    "ZUKO": true,
+    "JINSEOR": false,
+    "CHOCHANG": true
+   },
+   {
+    "SAM": false,
+    "CHOCHANG": true,
+    "ZUKO": true,
+    "KAT": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "KAT",
+     "state": "APPROVED",
+     "team": [
+      "CHOCHANG",
+      "ZUKO"
+     ],
+     "votes": [
+      "JINSEOR",
+      "SAM",
+      "KAT",
+      "ZUKO",
+      "CHOCHANG"
+     ]
+    }
+   ],
+   "team": [
+    "CHOCHANG",
+    "ZUKO"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SAM",
+      "KAT",
+      "ZUKO",
+      "CHOCHANG"
+     ],
+     "proposer": "SAM",
+     "team": [
+      "ZUKO",
+      "JINSEOR",
+      "CHOCHANG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ZUKO",
+    "JINSEOR",
+    "CHOCHANG"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "SBEVE",
+    "ZUKO",
+    "KAT",
+    "JINSEOR"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SBEVE",
+      "ZUKO",
+      "KAT",
+      "JINSEOR"
+     ],
+     "votes": [
+      "SBEVE",
+      "JINSEOR",
+      "SAM",
+      "KAT",
+      "ZUKO",
+      "CHOCHANG"
+     ],
+     "state": "APPROVED",
+     "proposer": "SBEVE"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "JINSEOR",
+    "ZUKO",
+    "CHOCHANG"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "JINSEOR",
+     "team": [
+      "JINSEOR",
+      "ZUKO",
+      "CHOCHANG"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JINSEOR",
+      "SAM",
+      "KAT",
+      "ZUKO",
+      "CHOCHANG"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "KAT",
+      "ZUKO",
+      "CHOCHANG",
+      "SAM"
+     ],
+     "votes": [
+      "KAT",
+      "ZUKO",
+      "CHOCHANG",
+      "JINSEOR",
+      "SAM"
+     ],
+     "state": "APPROVED",
+     "proposer": "ZUKO"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "KAT",
+    "ZUKO",
+    "CHOCHANG",
+    "SAM"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592370874,
+  "_nanoseconds": 444000000
+ },
+ "players": [
+  {
+   "name": "CHOCHANG",
+   "uid": "gXqtceCTbCRtd4moT9Br5wa1Ia53"
+  },
+  {
+   "name": "KAT",
+   "uid": "9ssuiwJOSSNg6esBObhV75rA1oj2"
+  },
+  {
+   "name": "SAM",
+   "uid": "c7SVDaaaCtcRcMJgUxP8eEYM7fj1"
+  },
+  {
+   "name": "SBEVE",
+   "uid": "ybKkwalXwWQR6FHp6O6g2eTqkor2"
+  },
+  {
+   "uid": "HiAt7HE0KKMfR86kd0vR1RQjG7h2",
+   "name": "JINSEOR"
+  },
+  {
+   "uid": "AgYdChb0kKhbiZBoF1WArEQ2TPr1",
+   "name": "ZUKO"
+  }
+ ]
+}

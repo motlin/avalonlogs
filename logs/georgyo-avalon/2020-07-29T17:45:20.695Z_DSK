@@ -1,0 +1,254 @@
+{
+ "timeFinished": {
+  "_seconds": 1596045379,
+  "_nanoseconds": 965000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MADDY": true,
+    "AMRO": true
+   },
+   {
+    "HELLRAISER": true,
+    "AMRO": false,
+    "POOJA": true
+   },
+   {
+    "POOJA": true,
+    "HELLRAISER": true
+   },
+   {
+    "AMRO": false,
+    "POOJA": true,
+    "PIYA": true
+   },
+   {
+    "POOJA": true,
+    "HELLRAISER": true,
+    "MADDY": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "HELLRAISER",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "PIYA",
+    "assassin": false
+   },
+   {
+    "name": "POOJA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MADDY",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "AMRO",
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "AMRO",
+   "uid": "5CTLuPHkikd4lp7NAx0MVSTQWjl1"
+  },
+  {
+   "name": "HELLRAISER",
+   "uid": "fvqBWEZQJnhfV6ZFUqe7Zt893We2"
+  },
+  {
+   "uid": "5P3GqqkcSSgAjnfkDbVF5XroTn52",
+   "name": "POOJA"
+  },
+  {
+   "uid": "JvA8dIRGNIQmCc7LGPyGW3x4ir52",
+   "name": "PIYA"
+  },
+  {
+   "uid": "uhyBfm4pKecJkuLzFIGda77f4qS2",
+   "name": "MADDY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596044720,
+  "_nanoseconds": 695000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "MADDY",
+    "AMRO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MADDY",
+      "AMRO"
+     ],
+     "proposer": "MADDY",
+     "votes": [
+      "PIYA",
+      "POOJA",
+      "MADDY",
+      "AMRO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "AMRO",
+    "HELLRAISER",
+    "POOJA"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "PIYA"
+     ],
+     "team": [
+      "AMRO",
+      "HELLRAISER",
+      "POOJA"
+     ],
+     "proposer": "AMRO",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "POOJA",
+      "HELLRAISER"
+     ],
+     "proposer": "HELLRAISER",
+     "votes": [
+      "HELLRAISER",
+      "PIYA",
+      "POOJA",
+      "MADDY"
+     ]
+    }
+   ],
+   "team": [
+    "POOJA",
+    "HELLRAISER"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "AMRO",
+    "POOJA",
+    "PIYA"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "POOJA",
+     "votes": [
+      "AMRO",
+      "PIYA",
+      "POOJA",
+      "MADDY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AMRO",
+      "POOJA",
+      "PIYA"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "MADDY",
+    "HELLRAISER",
+    "POOJA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PIYA",
+      "POOJA",
+      "HELLRAISER"
+     ],
+     "votes": [
+      "HELLRAISER",
+      "PIYA"
+     ],
+     "proposer": "PIYA"
+    },
+    {
+     "votes": [
+      "MADDY"
+     ],
+     "proposer": "MADDY",
+     "state": "REJECTED",
+     "team": [
+      "MADDY",
+      "POOJA",
+      "AMRO"
+     ]
+    },
+    {
+     "proposer": "AMRO",
+     "state": "APPROVED",
+     "team": [
+      "MADDY",
+      "HELLRAISER",
+      "POOJA"
+     ],
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  }
+ ]
+}

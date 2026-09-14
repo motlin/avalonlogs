@@ -1,0 +1,243 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "WILILAM": true,
+    "BOSSMAN": true
+   },
+   {
+    "SAMUEL": true,
+    "BOSSMAN": true,
+    "WILILAM": true
+   },
+   {
+    "BOSSMAN": true,
+    "SAMUEL": true,
+    "WILILAM": false
+   },
+   {
+    "JENNA": true,
+    "SAMUEL": true,
+    "BOSSMAN": true,
+    "EMILY": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "TERRY",
+    "role": "MORDRED"
+   },
+   {
+    "name": "JENNA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "EMILY"
+   },
+   {
+    "name": "CHOWDADDY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "WILILAM"
+   },
+   {
+    "name": "BOSSMAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SAMUEL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "EMILY"
+ },
+ "players": [
+  {
+   "name": "WILILAM",
+   "uid": "vZh9ycR75qa6TtiaBy3NkxvQeiG2"
+  },
+  {
+   "name": "CHOWDADDY",
+   "uid": "tfAxVUGMIMWlEpSwv97Ds7iefTF3"
+  },
+  {
+   "name": "BOSSMAN",
+   "uid": "348eEoIfKxf27lsr912TnP05DZg1"
+  },
+  {
+   "uid": "zmrdkioyJTYYp31WQtuBAYpP0GK2",
+   "name": "SAMUEL"
+  },
+  {
+   "uid": "h3K0oeL9glUvdQhZE0MQCt6o8Oe2",
+   "name": "TERRY"
+  },
+  {
+   "uid": "771qMIIfTibizyJANQrZGz5h3Ou2",
+   "name": "JENNA"
+  },
+  {
+   "uid": "I5TtjjEOBvZLJvUoKjYlmRE7Dcp1",
+   "name": "EMILY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586051286,
+  "_nanoseconds": 533000000
+ },
+ "timeFinished": {
+  "_seconds": 1586051922,
+  "_nanoseconds": 11159000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BOSSMAN",
+     "votes": [
+      "TERRY",
+      "JENNA",
+      "EMILY",
+      "WILILAM",
+      "BOSSMAN",
+      "SAMUEL"
+     ],
+     "team": [
+      "BOSSMAN",
+      "WILILAM"
+     ]
+    }
+   ],
+   "team": [
+    "BOSSMAN",
+    "WILILAM"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TERRY",
+      "EMILY",
+      "WILILAM",
+      "BOSSMAN",
+      "SAMUEL"
+     ],
+     "team": [
+      "BOSSMAN",
+      "WILILAM",
+      "SAMUEL"
+     ],
+     "proposer": "SAMUEL"
+    }
+   ],
+   "team": [
+    "BOSSMAN",
+    "WILILAM",
+    "SAMUEL"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "SAMUEL",
+    "BOSSMAN",
+    "WILILAM"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "BOSSMAN",
+      "SAMUEL",
+      "JENNA",
+      "EMILY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SAMUEL",
+      "BOSSMAN",
+      "WILILAM"
+     ],
+     "proposer": "TERRY"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "BOSSMAN",
+    "SAMUEL",
+    "EMILY",
+    "JENNA"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "JENNA",
+     "votes": [
+      "TERRY",
+      "JENNA",
+      "CHOWDADDY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CHOWDADDY",
+      "BOSSMAN",
+      "JENNA",
+      "WILILAM"
+     ]
+    },
+    {
+     "proposer": "EMILY",
+     "state": "APPROVED",
+     "team": [
+      "BOSSMAN",
+      "SAMUEL",
+      "EMILY",
+      "JENNA"
+     ],
+     "votes": [
+      "JENNA",
+      "EMILY",
+      "BOSSMAN",
+      "SAMUEL"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

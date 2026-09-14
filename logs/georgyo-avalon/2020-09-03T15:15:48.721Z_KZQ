@@ -1,0 +1,308 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "ROBOROBO": true,
+    "NIN": true,
+    "PRANAV": true
+   },
+   {
+    "MP": false,
+    "KILLER": true,
+    "SNE": false,
+    "ROBOROBO": true
+   },
+   {
+    "ROBOROBO": true,
+    "PRANAV": true,
+    "HRUDHAI": true,
+    "NIN": true
+   },
+   {
+    "HRUDHAI": true,
+    "SNE": false,
+    "NIN": true,
+    "HRICCHAI": false,
+    "PRANAV": true
+   },
+   {
+    "HRICCHAI": false,
+    "MP": false,
+    "PRANAV": true,
+    "NIN": true,
+    "ROBOROBO": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ROBOROBO"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "PRANAV"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KILLER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MP",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "HRUDHAI"
+   },
+   {
+    "name": "SNE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "HRICCHAI",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1599146711,
+  "_nanoseconds": 988000000
+ },
+ "players": [
+  {
+   "name": "HRICCHAI",
+   "uid": "jsuQcwkAh8hZufXyOKFSAxdlIZo1"
+  },
+  {
+   "uid": "U0nkFO6IHkRUEddg0dwFiLK11xP2",
+   "name": "HRUDHAI"
+  },
+  {
+   "uid": "38unDnZjmGbcg7omgAXzEEtzgNn2",
+   "name": "PRANAV"
+  },
+  {
+   "name": "ROBOROBO",
+   "uid": "tPOBnWGNdlMlLkELrLAQBWgejUp2"
+  },
+  {
+   "uid": "4wyOUES0NmVj4LAI5Kq4uOgbo2Y2",
+   "name": "SNE"
+  },
+  {
+   "uid": "dJk0zm45lpdRwzfgFhRzf21GThN2",
+   "name": "KILLER"
+  },
+  {
+   "uid": "hRYCpMfb3iZMIVrtVNyBvvriRTq1",
+   "name": "NIN"
+  },
+  {
+   "uid": "bsaZrXIOI0dhzNaSuRK9CL7fca73",
+   "name": "MP"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1599146148,
+  "_nanoseconds": 721000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "ROBOROBO",
+    "PRANAV",
+    "NIN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ROBOROBO",
+      "PRANAV",
+      "KILLER",
+      "HRICCHAI",
+      "SNE",
+      "MP",
+      "HRUDHAI",
+      "NIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ROBOROBO",
+     "team": [
+      "ROBOROBO",
+      "PRANAV",
+      "NIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ROBOROBO",
+      "PRANAV",
+      "NIN",
+      "HRICCHAI"
+     ],
+     "votes": [
+      "HRUDHAI",
+      "HRICCHAI",
+      "NIN",
+      "SNE"
+     ],
+     "proposer": "SNE"
+    },
+    {
+     "team": [
+      "SNE",
+      "ROBOROBO",
+      "KILLER",
+      "MP"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ROBOROBO",
+      "SNE",
+      "MP",
+      "KILLER",
+      "NIN"
+     ],
+     "proposer": "KILLER"
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "SNE",
+    "ROBOROBO",
+    "KILLER",
+    "MP"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NIN",
+     "votes": [
+      "PRANAV",
+      "MP",
+      "KILLER",
+      "ROBOROBO",
+      "HRUDHAI",
+      "HRICCHAI",
+      "NIN",
+      "SNE"
+     ],
+     "team": [
+      "PRANAV",
+      "ROBOROBO",
+      "NIN",
+      "HRUDHAI"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "PRANAV",
+    "ROBOROBO",
+    "NIN",
+    "HRUDHAI"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 2,
+   "team": [
+    "PRANAV",
+    "NIN",
+    "HRICCHAI",
+    "HRUDHAI",
+    "SNE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MP",
+      "ROBOROBO",
+      "HRUDHAI",
+      "SNE",
+      "NIN"
+     ],
+     "team": [
+      "PRANAV",
+      "NIN",
+      "HRICCHAI",
+      "HRUDHAI",
+      "SNE"
+     ],
+     "proposer": "MP"
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 5
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PRANAV",
+      "ROBOROBO",
+      "NIN",
+      "MP",
+      "HRICCHAI"
+     ],
+     "votes": [
+      "MP",
+      "NIN",
+      "ROBOROBO",
+      "HRICCHAI",
+      "SNE"
+     ],
+     "proposer": "HRICCHAI"
+    }
+   ],
+   "team": [
+    "PRANAV",
+    "ROBOROBO",
+    "NIN",
+    "MP",
+    "HRICCHAI"
+   ],
+   "numFails": 2
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

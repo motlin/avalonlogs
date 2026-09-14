@@ -1,0 +1,225 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "AMRO",
+   "uid": "5CTLuPHkikd4lp7NAx0MVSTQWjl1"
+  },
+  {
+   "name": "POOJA",
+   "uid": "5P3GqqkcSSgAjnfkDbVF5XroTn52"
+  },
+  {
+   "name": "MADDY",
+   "uid": "uhyBfm4pKecJkuLzFIGda77f4qS2"
+  },
+  {
+   "name": "HELLRAISER",
+   "uid": "fvqBWEZQJnhfV6ZFUqe7Zt893We2"
+  },
+  {
+   "name": "PRATARDAN",
+   "uid": "b7xV4fuGUJg3ccabKmVByDvBFEq1"
+  },
+  {
+   "name": "PIYA",
+   "uid": "JvA8dIRGNIQmCc7LGPyGW3x4ir52"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595702088,
+  "_nanoseconds": 508000000
+ },
+ "timeFinished": {
+  "_seconds": 1595702397,
+  "_nanoseconds": 552000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "POOJA": true,
+    "PRATARDAN": true
+   },
+   {
+    "MADDY": true,
+    "HELLRAISER": false,
+    "PRATARDAN": true
+   },
+   {
+    "MADDY": true,
+    "AMRO": true,
+    "POOJA": false,
+    "PIYA": true
+   },
+   {
+    "PIYA": true,
+    "AMRO": true,
+    "POOJA": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "POOJA",
+    "assassin": false
+   },
+   {
+    "name": "MADDY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "AMRO",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "PRATARDAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HELLRAISER",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "PIYA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "PRATARDAN",
+      "HELLRAISER",
+      "PIYA"
+     ],
+     "team": [
+      "POOJA",
+      "PRATARDAN"
+     ],
+     "proposer": "HELLRAISER",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "POOJA",
+    "PRATARDAN"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "HELLRAISER",
+    "PRATARDAN",
+    "MADDY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "HELLRAISER",
+      "PRATARDAN",
+      "MADDY"
+     ],
+     "proposer": "PRATARDAN",
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "PRATARDAN",
+      "HELLRAISER",
+      "PIYA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "PIYA",
+      "MADDY",
+      "POOJA",
+      "AMRO"
+     ],
+     "proposer": "PIYA",
+     "state": "APPROVED",
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "PRATARDAN",
+      "HELLRAISER",
+      "PIYA"
+     ]
+    }
+   ],
+   "team": [
+    "PIYA",
+    "MADDY",
+    "POOJA",
+    "AMRO"
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "AMRO",
+    "POOJA",
+    "PIYA"
+   ],
+   "proposals": [
+    {
+     "proposer": "AMRO",
+     "team": [
+      "AMRO",
+      "POOJA",
+      "PIYA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "PRATARDAN",
+      "HELLRAISER"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ]
+}

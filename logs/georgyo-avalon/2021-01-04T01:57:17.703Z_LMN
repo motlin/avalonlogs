@@ -1,0 +1,236 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "KGB",
+    "MAY"
+   ],
+   "proposals": [
+    {
+     "proposer": "KGB",
+     "state": "APPROVED",
+     "votes": [
+      "EEK",
+      "MOLLYYY",
+      "MAX",
+      "KGB",
+      "ANDREW",
+      "MAY"
+     ],
+     "team": [
+      "KGB",
+      "MAY"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "EEK",
+    "MAX",
+    "MOLLYYY"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ANDREW",
+      "EEK",
+      "MAY",
+      "MOLLYYY"
+     ],
+     "team": [
+      "EEK",
+      "MAX",
+      "MOLLYYY"
+     ],
+     "proposer": "MOLLYYY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAX",
+      "KGB",
+      "MAY",
+      "EEK"
+     ],
+     "votes": [
+      "MOLLYYY",
+      "MAY",
+      "MAX",
+      "EEK"
+     ],
+     "proposer": "MAX"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "MAX",
+    "KGB",
+    "MAY",
+    "EEK"
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "KGB",
+    "MAY",
+    "ANDREW"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "EEK",
+     "votes": [
+      "MAX",
+      "MOLLYYY",
+      "EEK"
+     ],
+     "team": [
+      "KGB",
+      "MAY",
+      "EEK"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KGB",
+      "MAY",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "MAY",
+     "votes": [
+      "MAY",
+      "EEK",
+      "KGB",
+      "ANDREW",
+      "MAX"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "MAY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MAX",
+    "assassin": false
+   },
+   {
+    "name": "EEK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "MOLLYYY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "KGB",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ANDREW"
+   }
+  ],
+  "assassinated": "MAY",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "KGB": true,
+    "MAY": true
+   },
+   {
+    "EEK": true,
+    "MOLLYYY": false,
+    "MAX": true
+   },
+   {
+    "KGB": true,
+    "MAY": true,
+    "EEK": true,
+    "MAX": true
+   },
+   {
+    "KGB": true,
+    "MAY": true,
+    "ANDREW": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1609725437,
+  "_nanoseconds": 703000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "5WFxxWdjUHgJDeVYv30337n1xE82",
+   "name": "EEK"
+  },
+  {
+   "uid": "ZAXf69lahEReNHrfHaCxQ1vSzw33",
+   "name": "MAY"
+  },
+  {
+   "uid": "CtnEz8I7wDaQ53rFdl6GASj5Q3s1",
+   "name": "ANDREW"
+  },
+  {
+   "uid": "dMnVnXqH21YGfETIwKrG9o3TOVo2",
+   "name": "KGB"
+  },
+  {
+   "name": "MOLLYYY",
+   "uid": "ZYPC0H5ExMQigcyoUEDQIEvUERm1"
+  },
+  {
+   "name": "MAX",
+   "uid": "fwGJKJACVSWiFnmXSgoLKvBgteJ2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609727795,
+  "_nanoseconds": 698000000
+ }
+}

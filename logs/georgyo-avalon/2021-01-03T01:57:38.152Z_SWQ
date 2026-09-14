@@ -1,0 +1,293 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "BEN",
+  "votes": [
+   {
+    "YOURMOTHER": true,
+    "KAITO": true,
+    "LEBIMAS": true
+   },
+   {
+    "SIRK": true,
+    "VDAWG": true,
+    "TEARASUNDR": true,
+    "FRANK": true
+   },
+   {
+    "SIRK": true,
+    "TEARASUNDR": false,
+    "VDAWG": true,
+    "FRANK": true
+   },
+   {
+    "VDAWG": true,
+    "SIRK": true,
+    "FRANK": true,
+    "LEBIMAS": false,
+    "BEN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "TEARASUNDR",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "VDAWG",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "KAITO"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "FRANK",
+    "assassin": false
+   },
+   {
+    "name": "YOURMOTHER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SIRK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "LEBIMAS",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "BEN",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "team": [
+    "YOURMOTHER",
+    "KAITO",
+    "LEBIMAS"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "YOURMOTHER",
+      "KAITO",
+      "LEBIMAS"
+     ],
+     "votes": [
+      "FRANK",
+      "LEBIMAS",
+      "YOURMOTHER",
+      "BEN",
+      "TEARASUNDR",
+      "SIRK",
+      "KAITO",
+      "VDAWG"
+     ],
+     "state": "APPROVED",
+     "proposer": "TEARASUNDR"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "YOURMOTHER",
+     "team": [
+      "TEARASUNDR",
+      "VDAWG",
+      "SIRK",
+      "FRANK"
+     ],
+     "votes": [
+      "FRANK",
+      "KAITO",
+      "LEBIMAS",
+      "BEN",
+      "VDAWG",
+      "SIRK",
+      "YOURMOTHER"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "TEARASUNDR",
+    "VDAWG",
+    "SIRK",
+    "FRANK"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "TEARASUNDR",
+    "VDAWG",
+    "SIRK",
+    "FRANK"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "VDAWG",
+     "team": [
+      "TEARASUNDR",
+      "VDAWG",
+      "SIRK",
+      "FRANK"
+     ],
+     "votes": [
+      "YOURMOTHER",
+      "VDAWG",
+      "LEBIMAS",
+      "BEN",
+      "FRANK",
+      "TEARASUNDR",
+      "KAITO",
+      "SIRK"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "BEN",
+    "FRANK",
+    "VDAWG",
+    "LEBIMAS",
+    "SIRK"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "TEARASUNDR",
+      "VDAWG",
+      "SIRK",
+      "FRANK"
+     ],
+     "state": "REJECTED",
+     "proposer": "SIRK",
+     "votes": [
+      "LEBIMAS"
+     ]
+    },
+    {
+     "votes": [
+      "TEARASUNDR",
+      "FRANK"
+     ],
+     "team": [
+      "FRANK",
+      "SIRK",
+      "KAITO",
+      "LEBIMAS",
+      "VDAWG"
+     ],
+     "state": "REJECTED",
+     "proposer": "FRANK"
+    },
+    {
+     "votes": [
+      "FRANK",
+      "YOURMOTHER",
+      "VDAWG",
+      "LEBIMAS",
+      "SIRK",
+      "KAITO",
+      "BEN",
+      "TEARASUNDR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "FRANK",
+      "VDAWG",
+      "LEBIMAS",
+      "SIRK"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609639973,
+  "_nanoseconds": 197000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "BEN",
+   "uid": "ThdIVouIYXSExHJuJ4KyrXiJN992"
+  },
+  {
+   "uid": "BJwVJhNHLyceJzyl4b8WSyLEVxv2",
+   "name": "KAITO"
+  },
+  {
+   "name": "LEBIMAS",
+   "uid": "vUe3Bb66f8WvogHI0pA353dOZrJ3"
+  },
+  {
+   "uid": "L7yMjKd66maRngWDmkO1Fx22I8Y2",
+   "name": "TEARASUNDR"
+  },
+  {
+   "name": "YOURMOTHER",
+   "uid": "aKqUSiReJsaUbxxzHrdNobflHzQ2"
+  },
+  {
+   "name": "VDAWG",
+   "uid": "vqvTwBCmNiQ5yXYjS52qD5apJMM2"
+  },
+  {
+   "name": "SIRK",
+   "uid": "LLENEBi4aCN8rhdSN4AznsBE8ih1"
+  },
+  {
+   "uid": "DBqQCMjh0PVKHn0RETRxBxrWP372",
+   "name": "FRANK"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1609639058,
+  "_nanoseconds": 152000000
+ }
+}

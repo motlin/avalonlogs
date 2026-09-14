@@ -1,0 +1,251 @@
+{
+ "timeCreated": {
+  "_seconds": 1589173580,
+  "_nanoseconds": 905000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "SHARON",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "AEONIC",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NETORARE"
+   },
+   {
+    "assassin": false,
+    "name": "AMEYA",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "SHAWN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "TARUN",
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "AMEYA": true,
+    "TARUN": true
+   },
+   {
+    "SHARON": true,
+    "AEONIC": false,
+    "NETORARE": true
+   },
+   {
+    "AMEYA": false,
+    "SHAWN": true,
+    "SHARON": true,
+    "TARUN": true
+   },
+   {
+    "AMEYA": false,
+    "SHARON": true,
+    "SHAWN": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1589173985,
+  "_nanoseconds": 557000000
+ },
+ "players": [
+  {
+   "uid": "QNWqunR9JBQRP09UChJjsLZOyol2",
+   "name": "SHARON"
+  },
+  {
+   "name": "AMEYA",
+   "uid": "S7z8EEjepUVBwuJtbPrp8Sq3w873"
+  },
+  {
+   "name": "TARUN",
+   "uid": "hJvhBX1TWLd6rds8e2E3fN7FQCh2"
+  },
+  {
+   "name": "NETORARE",
+   "uid": "MNNO1fRUjSTZcSj9tpZXcZxssmw1"
+  },
+  {
+   "uid": "N7un5nj5FQaBYtUkaYQMyYAAUfv2",
+   "name": "SHAWN"
+  },
+  {
+   "name": "AEONIC",
+   "uid": "U8nDO26qg9WDIP4SpYP6MsOieHH3"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "AMEYA",
+    "TARUN"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "AMEYA",
+      "TARUN"
+     ],
+     "state": "APPROVED",
+     "proposer": "AMEYA",
+     "votes": [
+      "AMEYA",
+      "SHAWN",
+      "TARUN",
+      "SHARON",
+      "NETORARE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "AEONIC",
+    "NETORARE",
+    "SHARON"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "NETORARE",
+      "SHAWN",
+      "TARUN"
+     ],
+     "team": [
+      "TARUN",
+      "AMEYA",
+      "SHAWN"
+     ],
+     "proposer": "TARUN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "AMEYA",
+      "SHAWN",
+      "TARUN",
+      "SHARON",
+      "AEONIC",
+      "NETORARE"
+     ],
+     "proposer": "NETORARE",
+     "team": [
+      "AEONIC",
+      "NETORARE",
+      "SHARON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "SHAWN",
+    "AMEYA",
+    "TARUN",
+    "SHARON"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "AMEYA",
+      "SHAWN",
+      "TARUN",
+      "SHARON"
+     ],
+     "team": [
+      "SHAWN",
+      "AMEYA",
+      "TARUN",
+      "SHARON"
+     ],
+     "proposer": "SHAWN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "SHARON",
+    "SHAWN",
+    "AMEYA"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SHAWN",
+      "SHARON",
+      "AEONIC"
+     ],
+     "proposer": "AEONIC",
+     "votes": [
+      "AEONIC",
+      "NETORARE",
+      "SHAWN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SHARON",
+      "AEONIC",
+      "NETORARE",
+      "AMEYA",
+      "SHAWN"
+     ],
+     "proposer": "SHARON",
+     "state": "APPROVED",
+     "team": [
+      "SHARON",
+      "SHAWN",
+      "AMEYA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ]
+}

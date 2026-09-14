@@ -1,0 +1,247 @@
+{
+ "timeCreated": {
+  "_seconds": 1591436881,
+  "_nanoseconds": 834000000
+ },
+ "timeFinished": {
+  "_seconds": 1591437227,
+  "_nanoseconds": 963000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ROBIN": true,
+    "KENT": true
+   },
+   {
+    "JL": false,
+    "KENT": true,
+    "ROBIN": true
+   },
+   {
+    "SOVEREIGN": true,
+    "LALALOLOLA": true,
+    "PROVIDENCE": false
+   },
+   {
+    "JL": false,
+    "SOVEREIGN": true,
+    "KENT": false,
+    "PROVIDENCE": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ROBIN"
+   },
+   {
+    "name": "JL",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "DAN"
+   },
+   {
+    "assassin": true,
+    "name": "KENT",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "SOVEREIGN",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LALALOLOLA"
+   },
+   {
+    "name": "PROVIDENCE",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ROBIN",
+    "KENT"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JL",
+      "ROBIN",
+      "KENT",
+      "SOVEREIGN",
+      "PROVIDENCE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ROBIN",
+      "KENT"
+     ],
+     "proposer": "ROBIN"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JL",
+      "ROBIN",
+      "DAN",
+      "KENT",
+      "PROVIDENCE"
+     ],
+     "proposer": "KENT",
+     "team": [
+      "ROBIN",
+      "KENT",
+      "JL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ROBIN",
+    "KENT",
+    "JL"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "SOVEREIGN",
+    "LALALOLOLA",
+    "PROVIDENCE"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "PROVIDENCE",
+      "ROBIN",
+      "JL",
+      "DAN",
+      "KENT"
+     ],
+     "state": "APPROVED",
+     "proposer": "JL",
+     "team": [
+      "SOVEREIGN",
+      "LALALOLOLA",
+      "PROVIDENCE"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "SOVEREIGN",
+    "PROVIDENCE",
+    "KENT",
+    "JL"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "PROVIDENCE",
+     "team": [
+      "PROVIDENCE",
+      "JL",
+      "ROBIN",
+      "DAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "PROVIDENCE",
+      "ROBIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KENT",
+      "SOVEREIGN",
+      "LALALOLOLA",
+      "PROVIDENCE",
+      "JL",
+      "DAN"
+     ],
+     "proposer": "SOVEREIGN",
+     "team": [
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "KENT",
+      "JL"
+     ]
+    }
+   ],
+   "numFails": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "players": [
+  {
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22",
+   "name": "SOVEREIGN"
+  },
+  {
+   "uid": "YjIwyhCncYUiYPvf2PZcnmxX2Ou1",
+   "name": "LALALOLOLA"
+  },
+  {
+   "uid": "7JjF9PyanfdT52w3fzNckmSY8Dn1",
+   "name": "DAN"
+  },
+  {
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2",
+   "name": "ROBIN"
+  },
+  {
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3",
+   "name": "KENT"
+  },
+  {
+   "name": "JL",
+   "uid": "bI2OVSenLLhu3HprJLUfksPK1Hm1"
+  },
+  {
+   "uid": "w2ngiDASElTWBTMXd9fdYpBlSNx1",
+   "name": "PROVIDENCE"
+  }
+ ]
+}

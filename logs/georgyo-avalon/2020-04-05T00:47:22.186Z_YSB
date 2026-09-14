@@ -1,0 +1,231 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "EVAN": false,
+    "NICK": true,
+    "DAN": true
+   },
+   {
+    "EMMA": false,
+    "NOELLE": true,
+    "AUDREY": true,
+    "LAUREN": true
+   },
+   {
+    "BENJI": true,
+    "EMMA": false,
+    "CONRAR": true,
+    "NOELLE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "EMMA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "BENJI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "DAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CONRAR",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NICK"
+   },
+   {
+    "name": "EVAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "LAUREN",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "name": "AUDREY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "NOELLE"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "EVAN",
+    "NICK",
+    "DAN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DAN",
+     "votes": [
+      "EMMA",
+      "BENJI",
+      "DAN",
+      "CONRAR",
+      "NICK",
+      "EVAN",
+      "AUDREY",
+      "NOELLE"
+     ],
+     "team": [
+      "EVAN",
+      "NICK",
+      "DAN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "EMMA",
+      "LAUREN",
+      "NOELLE",
+      "AUDREY"
+     ],
+     "proposer": "EMMA",
+     "state": "APPROVED",
+     "votes": [
+      "EVAN",
+      "LAUREN",
+      "AUDREY",
+      "NOELLE",
+      "EMMA",
+      "DAN",
+      "CONRAR"
+     ]
+    }
+   ],
+   "team": [
+    "EMMA",
+    "LAUREN",
+    "NOELLE",
+    "AUDREY"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "EMMA",
+    "CONRAR",
+    "BENJI",
+    "NOELLE"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "CONRAR",
+     "votes": [
+      "EVAN",
+      "LAUREN",
+      "EMMA",
+      "CONRAR",
+      "NICK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "EMMA",
+      "CONRAR",
+      "BENJI",
+      "NOELLE"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 5,
+   "state": "PENDING",
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 5
+  }
+ ],
+ "players": [
+  {
+   "name": "DAN",
+   "uid": "OCypTTTRUrMI0AsRtVujFqHTCpI3"
+  },
+  {
+   "name": "EMMA",
+   "uid": "qIQVrIuhsJc5Wz1m7frwlEBFxvK2"
+  },
+  {
+   "uid": "p2lTmjDsLxeXEtZYl5pupB85fUl1",
+   "name": "CONRAR"
+  },
+  {
+   "uid": "XaFyNO0EIWdq5qKw0HG0yhUEEWl1",
+   "name": "LAUREN"
+  },
+  {
+   "uid": "X62C93H6nRWGv3s4cDyjC29hzck2",
+   "name": "BENJI"
+  },
+  {
+   "uid": "aIoMjrmGtEMpWdH4ILjrE8DiVxv1",
+   "name": "NICK"
+  },
+  {
+   "name": "EVAN",
+   "uid": "vaixXJush0XOXielDpYoC4hRyCe2"
+  },
+  {
+   "name": "NOELLE",
+   "uid": "VrdDZPfytdOb4rdIqYReAhwkOdj1"
+  },
+  {
+   "name": "AUDREY",
+   "uid": "6CpDpa5bc5VWkvMhXjSBauzqtHg2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586048370,
+  "_nanoseconds": 564063000
+ },
+ "timeCreated": {
+  "_seconds": 1586047642,
+  "_nanoseconds": 186000000
+ }
+}

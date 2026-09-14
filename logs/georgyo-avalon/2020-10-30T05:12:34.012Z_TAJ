@@ -1,0 +1,239 @@
+{
+ "players": [
+  {
+   "name": "MITCHO",
+   "uid": "90kFaKD7k3YNYsGkZ0wFkmVEwty1"
+  },
+  {
+   "uid": "0cDJNjR1jCWkNyhi1RQCHiaqSqp1",
+   "name": "MAX"
+  },
+  {
+   "uid": "mlqR8cezMFMStsPbFmu0CGZBQUc2",
+   "name": "JOSHY"
+  },
+  {
+   "uid": "rdqtVC788oNEpDyHusiX9VrzDOK2",
+   "name": "KELVIN"
+  },
+  {
+   "uid": "VSaK9RxtZRaqJWoSrLkNPyyIClE2",
+   "name": "VIENNA"
+  },
+  {
+   "name": "ERICA",
+   "uid": "Tz6l5rIWNUdT5tZHB0IX5h6YW7y2"
+  },
+  {
+   "uid": "C0ChIHdupxbjdrqHU5rs2eUXwd03",
+   "name": "JOSHTRAN"
+  },
+  {
+   "name": "JFU",
+   "uid": "H9TZv9w1oiZ6BsLIiLhuX8ElK3F3"
+  },
+  {
+   "name": "ABBEY",
+   "uid": "AgYdChb0kKhbiZBoF1WArEQ2TPr1"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ERICA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JOSHY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ABBEY",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "VIENNA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JFU",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MITCHO",
+    "assassin": true
+   },
+   {
+    "name": "JOSHTRAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "KELVIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "MAX"
+   }
+  ],
+  "votes": [
+   {
+    "JFU": true,
+    "MITCHO": true,
+    "ERICA": true
+   },
+   {
+    "JFU": true,
+    "MITCHO": true,
+    "KELVIN": true,
+    "ERICA": true
+   },
+   {
+    "ERICA": true,
+    "JFU": true,
+    "JOSHTRAN": true,
+    "JOSHY": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "JOSHY"
+ },
+ "missions": [
+  {
+   "team": [
+    "MITCHO",
+    "JFU",
+    "ERICA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MITCHO",
+      "JFU",
+      "ERICA"
+     ],
+     "proposer": "MITCHO",
+     "votes": [
+      "MITCHO",
+      "JOSHY",
+      "ERICA",
+      "MAX",
+      "JOSHTRAN",
+      "ABBEY",
+      "JFU",
+      "VIENNA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JFU",
+      "ERICA",
+      "KELVIN",
+      "MITCHO"
+     ],
+     "votes": [
+      "JOSHTRAN",
+      "ERICA",
+      "KELVIN",
+      "JOSHY",
+      "MITCHO",
+      "MAX",
+      "ABBEY",
+      "JFU",
+      "VIENNA"
+     ],
+     "proposer": "MAX",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JFU",
+    "ERICA",
+    "KELVIN",
+    "MITCHO"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "JFU",
+      "JOSHTRAN",
+      "ERICA",
+      "JOSHY"
+     ],
+     "votes": [
+      "MITCHO",
+      "ABBEY",
+      "VIENNA",
+      "JFU",
+      "ERICA",
+      "JOSHY",
+      "JOSHTRAN",
+      "MAX"
+     ],
+     "state": "APPROVED",
+     "proposer": "JOSHY"
+    }
+   ],
+   "team": [
+    "JFU",
+    "JOSHTRAN",
+    "ERICA",
+    "JOSHY"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604034754,
+  "_nanoseconds": 12000000
+ },
+ "timeFinished": {
+  "_seconds": 1604036011,
+  "_nanoseconds": 212000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "timeFinished": {
+  "_seconds": 1586011328,
+  "_nanoseconds": 31066000
+ },
+ "players": [
+  {
+   "name": "SUZIE",
+   "uid": "th6z2WXcgsYAFfWwJVcr9O8DPB62"
+  },
+  {
+   "uid": "4NAa5wR3i8ZvA89B1OEMPNGA8EA2",
+   "name": "THI"
+  },
+  {
+   "name": "HEO",
+   "uid": "tDTrCkN0oCa6dXiTigZVUBcX7IJ2"
+  },
+  {
+   "name": "SHIN",
+   "uid": "O2gqV7Bsarh84HWxqfiDLNFlbqv1"
+  },
+  {
+   "name": "VY",
+   "uid": "VIFHrTqaDzNkeXJ6RabdjNXjsg93"
+  },
+  {
+   "name": "KPNOVA",
+   "uid": "3VZdinfngaY8UuH7VPEvO2dzsNx2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "VY",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SHIN"
+   },
+   {
+    "assassin": false,
+    "name": "THI",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KPNOVA",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "SUZIE"
+   },
+   {
+    "assassin": false,
+    "name": "HEO",
+    "role": "MERLIN"
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "THI",
+  "votes": [
+   {
+    "SUZIE": true,
+    "KPNOVA": true
+   },
+   {
+    "KPNOVA": true,
+    "SUZIE": true,
+    "VY": true
+   },
+   {
+    "SUZIE": false,
+    "KPNOVA": true,
+    "THI": true,
+    "HEO": true
+   },
+   {
+    "KPNOVA": true,
+    "THI": true,
+    "VY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "SUZIE",
+      "KPNOVA"
+     ],
+     "votes": [
+      "KPNOVA",
+      "SUZIE",
+      "HEO",
+      "VY",
+      "SHIN",
+      "THI"
+     ],
+     "proposer": "KPNOVA",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "SUZIE",
+    "KPNOVA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SUZIE",
+     "votes": [
+      "SUZIE",
+      "HEO",
+      "VY",
+      "SHIN",
+      "THI",
+      "KPNOVA"
+     ],
+     "team": [
+      "KPNOVA",
+      "SUZIE",
+      "VY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "KPNOVA",
+    "SUZIE",
+    "VY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "THI",
+    "HEO",
+    "SUZIE",
+    "KPNOVA"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "THI",
+      "HEO",
+      "SUZIE",
+      "KPNOVA"
+     ],
+     "proposer": "THI",
+     "state": "APPROVED",
+     "votes": [
+      "HEO",
+      "VY",
+      "SHIN",
+      "THI",
+      "SUZIE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "VY",
+    "KPNOVA",
+    "THI"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HEO",
+      "VY",
+      "THI",
+      "KPNOVA",
+      "SUZIE"
+     ],
+     "team": [
+      "VY",
+      "KPNOVA",
+      "THI"
+     ],
+     "proposer": "HEO"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586010716,
+  "_nanoseconds": 793000000
+ }
+}

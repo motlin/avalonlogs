@@ -1,0 +1,442 @@
+{
+ "timeFinished": {
+  "_seconds": 1589063869,
+  "_nanoseconds": 728000000
+ },
+ "timeCreated": {
+  "_seconds": 1589059455,
+  "_nanoseconds": 93000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "CEDRIC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "REGIS",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "CECILE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "FARID"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRISTIAN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LAURA"
+   }
+  ],
+  "votes": [
+   {
+    "LAURA": true,
+    "CECILE": true
+   },
+   {
+    "REGIS": false,
+    "CEDRIC": true,
+    "CHRISTIAN": true
+   },
+   {
+    "LAURA": true,
+    "CEDRIC": true,
+    "FARID": true,
+    "CECILE": false
+   },
+   {
+    "FARID": true,
+    "LAURA": true,
+    "CHRISTIAN": true
+   },
+   {
+    "LAURA": true,
+    "CECILE": false,
+    "FARID": true,
+    "CHRISTIAN": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "CECILE",
+    "LAURA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CECILE",
+      "FARID",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "team": [
+      "CECILE",
+      "LAURA"
+     ],
+     "proposer": "CECILE"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "FARID",
+      "CECILE",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "FARID",
+      "CHRISTIAN"
+     ],
+     "proposer": "FARID"
+    },
+    {
+     "team": [
+      "CECILE",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "votes": [
+      "FARID",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "team": [
+      "LAURA",
+      "CECILE",
+      "CEDRIC"
+     ],
+     "votes": [
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "proposer": "LAURA"
+    },
+    {
+     "team": [
+      "CEDRIC",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CHRISTIAN",
+      "CEDRIC"
+     ],
+     "proposer": "CEDRIC"
+    },
+    {
+     "team": [
+      "REGIS",
+      "CHRISTIAN",
+      "CEDRIC"
+     ],
+     "proposer": "REGIS",
+     "votes": [
+      "REGIS",
+      "CECILE",
+      "FARID",
+      "CHRISTIAN",
+      "LAURA",
+      "CEDRIC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "REGIS",
+    "CHRISTIAN",
+    "CEDRIC"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "CEDRIC",
+    "FARID",
+    "CECILE",
+    "LAURA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "LAURA",
+      "CECILE",
+      "CEDRIC",
+      "CHRISTIAN"
+     ],
+     "proposer": "CECILE",
+     "votes": [
+      "CECILE",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "team": [
+      "FARID",
+      "CEDRIC",
+      "REGIS",
+      "LAURA"
+     ],
+     "proposer": "FARID",
+     "state": "REJECTED",
+     "votes": [
+      "FARID"
+     ]
+    },
+    {
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "CECILE",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "LAURA",
+      "CEDRIC",
+      "CECILE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "LAURA",
+     "votes": [
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "CEDRIC",
+      "FARID",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "proposer": "CEDRIC",
+     "team": [
+      "CEDRIC",
+      "FARID",
+      "CECILE",
+      "LAURA"
+     ],
+     "votes": [
+      "CEDRIC",
+      "REGIS",
+      "CECILE",
+      "FARID",
+      "LAURA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "REGIS",
+      "LAURA",
+      "CEDRIC"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CECILE",
+      "FARID",
+      "LAURA"
+     ],
+     "votes": [],
+     "proposer": "CECILE"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "FARID"
+     ],
+     "proposer": "FARID",
+     "team": [
+      "FARID",
+      "LAURA",
+      "REGIS"
+     ]
+    },
+    {
+     "votes": [
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "LAURA",
+      "FARID"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "LAURA",
+     "team": [
+      "LAURA",
+      "CHRISTIAN",
+      "FARID"
+     ],
+     "votes": [
+      "FARID",
+      "CHRISTIAN",
+      "LAURA",
+      "CEDRIC",
+      "REGIS",
+      "CECILE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "LAURA",
+    "CHRISTIAN",
+    "FARID"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "FARID",
+    "CHRISTIAN",
+    "LAURA",
+    "CECILE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CEDRIC",
+      "LAURA",
+      "CHRISTIAN",
+      "FARID"
+     ],
+     "state": "REJECTED",
+     "proposer": "CEDRIC",
+     "votes": [
+      "CEDRIC"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "REGIS",
+     "team": [
+      "REGIS",
+      "FARID",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "votes": [
+      "REGIS"
+     ]
+    },
+    {
+     "team": [
+      "CECILE",
+      "FARID",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "CECILE",
+     "votes": [
+      "CECILE",
+      "REGIS"
+     ]
+    },
+    {
+     "team": [
+      "FARID",
+      "CHRISTIAN",
+      "LAURA",
+      "CECILE"
+     ],
+     "proposer": "FARID",
+     "state": "APPROVED",
+     "votes": [
+      "CECILE",
+      "FARID",
+      "CHRISTIAN",
+      "LAURA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  },
+  {
+   "name": "CECILE",
+   "uid": "Xybo3Pw6qbdtbBJF3Hn2pCnT2Rr1"
+  },
+  {
+   "name": "FARID",
+   "uid": "gOxLJaoqrvPnwE8TrF9eMsgIkr53"
+  },
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  },
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "name": "CEDRIC",
+   "uid": "e6SFzKVMZdbZtFKNryUsTye9UOw2"
+  }
+ ]
+}

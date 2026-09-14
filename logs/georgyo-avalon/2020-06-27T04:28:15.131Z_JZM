@@ -1,0 +1,284 @@
+{
+ "timeCreated": {
+  "_seconds": 1593232095,
+  "_nanoseconds": 131000000
+ },
+ "players": [
+  {
+   "name": "SHAAN",
+   "uid": "amRYItsOKBYSmkMLrXd9VewVUzn2"
+  },
+  {
+   "name": "ADVAY",
+   "uid": "GWEKkkqBdnWFKYP7BAdpIn6EjUj2"
+  },
+  {
+   "name": "AKKA",
+   "uid": "IvcSXXr544ZK52A1fru6UAcYMwl2"
+  },
+  {
+   "name": "MANGYA",
+   "uid": "bgoHsbBn1VUOxUgvS114ZD97ZSy2"
+  },
+  {
+   "name": "ADI",
+   "uid": "ZdO9RWNjU6M9LAJAsoAo5dsQ3Hy2"
+  },
+  {
+   "uid": "oAKoclwIhWPRVFLoV4XY8kdbzy53",
+   "name": "NAV"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593233207,
+  "_nanoseconds": 252000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "MANGYA",
+    "AKKA"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MANGYA",
+     "state": "APPROVED",
+     "team": [
+      "MANGYA",
+      "AKKA"
+     ],
+     "votes": [
+      "ADVAY",
+      "ADI",
+      "MANGYA",
+      "AKKA",
+      "NAV",
+      "SHAAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ADI",
+    "ADVAY",
+    "SHAAN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ADI",
+      "ADVAY",
+      "SHAAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHAAN",
+      "ADVAY",
+      "ADI",
+      "MANGYA",
+      "AKKA",
+      "NAV"
+     ],
+     "proposer": "ADI"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ADVAY",
+    "SHAAN",
+    "ADI",
+    "MANGYA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NAV",
+      "MANGYA",
+      "AKKA"
+     ],
+     "proposer": "NAV",
+     "state": "REJECTED",
+     "team": [
+      "SHAAN",
+      "MANGYA",
+      "ADI",
+      "NAV"
+     ]
+    },
+    {
+     "proposer": "SHAAN",
+     "votes": [
+      "NAV",
+      "SHAAN",
+      "ADVAY"
+     ],
+     "team": [
+      "SHAAN",
+      "ADI",
+      "ADVAY",
+      "AKKA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "NAV",
+      "SHAAN",
+      "ADVAY",
+      "ADI",
+      "MANGYA",
+      "AKKA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ADVAY",
+      "SHAAN",
+      "ADI",
+      "MANGYA"
+     ],
+     "proposer": "ADVAY"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "AKKA",
+     "state": "APPROVED",
+     "team": [
+      "AKKA",
+      "MANGYA",
+      "ADI"
+     ],
+     "votes": [
+      "ADI",
+      "MANGYA",
+      "AKKA",
+      "NAV"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "AKKA",
+    "MANGYA",
+    "ADI"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "MANGYA",
+    "AKKA",
+    "ADVAY",
+    "ADI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MANGYA",
+      "AKKA",
+      "ADVAY",
+      "ADI"
+     ],
+     "proposer": "MANGYA",
+     "votes": [
+      "NAV",
+      "ADI",
+      "MANGYA",
+      "AKKA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "AKKA": true,
+    "MANGYA": true
+   },
+   {
+    "ADVAY": true,
+    "SHAAN": true,
+    "ADI": true
+   },
+   {
+    "MANGYA": false,
+    "ADI": true,
+    "ADVAY": true,
+    "SHAAN": true
+   },
+   {
+    "AKKA": true,
+    "ADI": true,
+    "MANGYA": false
+   },
+   {
+    "ADI": true,
+    "ADVAY": true,
+    "MANGYA": false,
+    "AKKA": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SHAAN",
+    "assassin": false
+   },
+   {
+    "name": "ADVAY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MERLIN",
+    "name": "ADI",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "MANGYA",
+    "assassin": true
+   },
+   {
+    "name": "AKKA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NAV",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

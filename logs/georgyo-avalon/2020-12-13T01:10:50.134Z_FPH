@@ -1,0 +1,260 @@
+{
+ "players": [
+  {
+   "name": "TIPHAINE",
+   "uid": "0j3FLQBabBNGAwqVpprnzZqyuJV2"
+  },
+  {
+   "name": "MADY",
+   "uid": "EjmJHwTQO6aod1jZjKgpQYIpwHx2"
+  },
+  {
+   "name": "MARK",
+   "uid": "1MivkHCnAuWD9DlqroBVqWiaKXn1"
+  },
+  {
+   "uid": "pOmyHNYKyIMTiGLFwcNKbZ2SAtq2",
+   "name": "GABRIELLE"
+  },
+  {
+   "name": "BOB",
+   "uid": "EEqmCLcI4hgYoScokVFSVheTWU43"
+  },
+  {
+   "uid": "Bp7bgecTZOblllmS7tpPyJSxCVx2",
+   "name": "ISABEL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1607821850,
+  "_nanoseconds": 134000000
+ },
+ "timeFinished": {
+  "_seconds": 1607822820,
+  "_nanoseconds": 571000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "TIPHAINE": true,
+    "MARK": true
+   },
+   {
+    "ISABEL": false,
+    "GABRIELLE": true,
+    "BOB": true
+   },
+   {
+    "TIPHAINE": true,
+    "BOB": true,
+    "MARK": true,
+    "ISABEL": false
+   },
+   {
+    "GABRIELLE": true,
+    "TIPHAINE": true,
+    "ISABEL": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MARK"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "ISABEL"
+   },
+   {
+    "name": "GABRIELLE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "BOB",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "MADY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "TIPHAINE",
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "team": [
+    "TIPHAINE",
+    "MARK"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TIPHAINE",
+      "MARK"
+     ],
+     "proposer": "TIPHAINE",
+     "votes": [
+      "TIPHAINE",
+      "ISABEL",
+      "MARK",
+      "BOB"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "ISABEL",
+    "GABRIELLE",
+    "BOB"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "TIPHAINE",
+      "GABRIELLE",
+      "MADY"
+     ],
+     "proposer": "MADY",
+     "team": [
+      "MADY",
+      "TIPHAINE",
+      "GABRIELLE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TIPHAINE",
+      "MARK",
+      "BOB"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BOB",
+      "TIPHAINE",
+      "MARK"
+     ],
+     "proposer": "MARK"
+    },
+    {
+     "proposer": "GABRIELLE",
+     "votes": [
+      "GABRIELLE",
+      "BOB",
+      "ISABEL",
+      "MADY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ISABEL",
+      "GABRIELLE",
+      "BOB"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BOB",
+      "TIPHAINE",
+      "MARK",
+      "ISABEL"
+     ],
+     "votes": [
+      "ISABEL",
+      "MARK",
+      "BOB",
+      "MADY"
+     ],
+     "proposer": "BOB"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "BOB",
+    "TIPHAINE",
+    "MARK",
+    "ISABEL"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "TIPHAINE",
+    "GABRIELLE",
+    "ISABEL"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ISABEL",
+     "state": "REJECTED",
+     "votes": [
+      "ISABEL",
+      "MARK"
+     ],
+     "team": [
+      "BOB",
+      "TIPHAINE",
+      "MADY"
+     ]
+    },
+    {
+     "team": [
+      "TIPHAINE",
+      "GABRIELLE",
+      "ISABEL"
+     ],
+     "proposer": "TIPHAINE",
+     "votes": [
+      "GABRIELLE",
+      "MADY",
+      "ISABEL",
+      "TIPHAINE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ]
+}

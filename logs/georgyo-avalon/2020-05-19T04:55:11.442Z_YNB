@@ -1,0 +1,300 @@
+{
+ "players": [
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "uid": "LNbFQPCC7NhM56pyXzg2u76WE0g1",
+   "name": "BRYCE"
+  },
+  {
+   "uid": "o4LZvEhWgaexflrQs0XWpfRyVTD2",
+   "name": "CBROWN"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2",
+   "name": "AFFINE"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "CBROWN",
+    "AFFINE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "CBROWN"
+     ],
+     "team": [
+      "AFFINE",
+      "NIKOLAI"
+     ],
+     "proposer": "AFFINE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ADAM",
+     "votes": [
+      "CBROWN",
+      "ADAM"
+     ],
+     "team": [
+      "ADAM",
+      "AFFINE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "BRYCE",
+     "team": [
+      "CBROWN",
+      "BRYCE"
+     ],
+     "votes": [
+      "CBROWN"
+     ]
+    },
+    {
+     "team": [
+      "CBROWN",
+      "AFFINE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "AFFINE",
+      "CBROWN"
+     ],
+     "proposer": "CBROWN"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "AFFINE",
+    "ADAM",
+    "BRYCE"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKOLAI",
+      "BRYCE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "BRYCE",
+      "AFFINE"
+     ]
+    },
+    {
+     "team": [
+      "AFFINE",
+      "ADAM",
+      "BRYCE"
+     ],
+     "proposer": "AFFINE",
+     "state": "APPROVED",
+     "votes": [
+      "BRYCE",
+      "ADAM",
+      "AFFINE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "BRYCE",
+    "ADAM"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "team": [
+      "BRYCE",
+      "ADAM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "AFFINE",
+      "CBROWN",
+      "BRYCE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CBROWN",
+      "BRYCE",
+      "ADAM"
+     ],
+     "votes": [
+      "CBROWN"
+     ],
+     "proposer": "BRYCE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CBROWN",
+     "team": [
+      "ADAM",
+      "BRYCE",
+      "CBROWN"
+     ],
+     "votes": [
+      "CBROWN"
+     ]
+    },
+    {
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "BRYCE",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "NIKOLAI",
+      "BRYCE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AFFINE"
+     ],
+     "team": [
+      "AFFINE",
+      "ADAM",
+      "BRYCE"
+     ],
+     "proposer": "AFFINE"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "BRYCE",
+      "AFFINE"
+     ],
+     "votes": [
+      "AFFINE",
+      "CBROWN",
+      "BRYCE",
+      "ADAM",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ADAM",
+    "BRYCE",
+    "AFFINE"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "ADAM",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "AFFINE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CBROWN",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BRYCE",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "AFFINE": true,
+    "CBROWN": false
+   },
+   {
+    "BRYCE": true,
+    "AFFINE": true,
+    "ADAM": true
+   },
+   {
+    "BRYCE": true,
+    "ADAM": true
+   },
+   {
+    "AFFINE": true,
+    "ADAM": true,
+    "BRYCE": true
+   }
+  ],
+  "assassinated": "BRYCE"
+ },
+ "timeFinished": {
+  "_seconds": 1589864548,
+  "_nanoseconds": 495000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589864111,
+  "_nanoseconds": 442000000
+ }
+}

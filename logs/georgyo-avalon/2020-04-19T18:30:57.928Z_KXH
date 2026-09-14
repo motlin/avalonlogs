@@ -1,0 +1,363 @@
+{
+ "timeFinished": {
+  "_seconds": 1587321518,
+  "_nanoseconds": 258000000
+ },
+ "players": [
+  {
+   "name": "FULLMETAL",
+   "uid": "QAFACwIi5iVCSR30oBMKpafm07f1"
+  },
+  {
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2",
+   "name": "AD"
+  },
+  {
+   "name": "EREN",
+   "uid": "7HUOGrGuy9azjzxxu3u1X4D11KE2"
+  },
+  {
+   "name": "HOTTIE",
+   "uid": "vrNkKKHYoBP3nmouJuLWamgK82i2"
+  },
+  {
+   "uid": "aRtexD045UaUsZTHepe4KghcKnv1",
+   "name": "YAMAHA"
+  },
+  {
+   "name": "YUCKYSUCKY",
+   "uid": "PEbvv1lPlkhbZz9FPWopOzRF6rF2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587321057,
+  "_nanoseconds": 928000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Five team proposals in a row rejected",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "EREN"
+   },
+   {
+    "assassin": false,
+    "name": "FULLMETAL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "YAMAHA",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AD"
+   },
+   {
+    "name": "YUCKYSUCKY",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "HOTTIE"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "FULLMETAL": true,
+    "EREN": true
+   },
+   {
+    "FULLMETAL": true,
+    "EREN": true,
+    "AD": true
+   },
+   {
+    "HOTTIE": true,
+    "YUCKYSUCKY": false,
+    "EREN": true,
+    "AD": true
+   },
+   {
+    "EREN": true,
+    "HOTTIE": true,
+    "YUCKYSUCKY": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "FULLMETAL",
+    "EREN"
+   ],
+   "proposals": [
+    {
+     "proposer": "FULLMETAL",
+     "votes": [
+      "AD",
+      "YUCKYSUCKY",
+      "HOTTIE",
+      "EREN",
+      "FULLMETAL",
+      "YAMAHA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FULLMETAL",
+      "EREN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AD",
+      "YUCKYSUCKY",
+      "HOTTIE",
+      "EREN",
+      "YAMAHA"
+     ],
+     "team": [
+      "FULLMETAL",
+      "EREN",
+      "AD"
+     ],
+     "proposer": "AD"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FULLMETAL",
+    "EREN",
+    "AD"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "YUCKYSUCKY",
+    "EREN",
+    "AD",
+    "HOTTIE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "HOTTIE",
+      "EREN",
+      "AD",
+      "FULLMETAL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AD",
+      "YUCKYSUCKY",
+      "EREN"
+     ],
+     "proposer": "EREN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AD",
+      "YUCKYSUCKY",
+      "HOTTIE",
+      "EREN"
+     ],
+     "proposer": "HOTTIE",
+     "team": [
+      "YUCKYSUCKY",
+      "EREN",
+      "AD",
+      "HOTTIE"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "YAMAHA",
+     "state": "REJECTED",
+     "votes": [
+      "YAMAHA"
+     ],
+     "team": [
+      "YAMAHA",
+      "HOTTIE",
+      "AD"
+     ]
+    },
+    {
+     "votes": [
+      "EREN",
+      "FULLMETAL",
+      "AD"
+     ],
+     "team": [
+      "AD",
+      "EREN",
+      "FULLMETAL"
+     ],
+     "proposer": "YUCKYSUCKY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "AD",
+      "EREN",
+      "FULLMETAL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "FULLMETAL",
+      "AD",
+      "EREN"
+     ],
+     "proposer": "FULLMETAL"
+    },
+    {
+     "proposer": "AD",
+     "team": [
+      "AD",
+      "FULLMETAL",
+      "YUCKYSUCKY"
+     ],
+     "votes": [
+      "FULLMETAL",
+      "AD"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "EREN",
+      "FULLMETAL",
+      "YAMAHA",
+      "AD"
+     ],
+     "proposer": "EREN",
+     "state": "APPROVED",
+     "team": [
+      "EREN",
+      "HOTTIE",
+      "YUCKYSUCKY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "EREN",
+    "HOTTIE",
+    "YUCKYSUCKY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [
+    {
+     "proposer": "HOTTIE",
+     "votes": [
+      "HOTTIE"
+     ],
+     "team": [
+      "HOTTIE",
+      "YUCKYSUCKY",
+      "AD",
+      "FULLMETAL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "AD",
+      "YAMAHA"
+     ],
+     "proposer": "YAMAHA",
+     "state": "REJECTED",
+     "team": [
+      "YAMAHA",
+      "AD",
+      "EREN",
+      "FULLMETAL"
+     ]
+    },
+    {
+     "votes": [
+      "AD",
+      "YUCKYSUCKY",
+      "FULLMETAL"
+     ],
+     "proposer": "YUCKYSUCKY",
+     "team": [
+      "YUCKYSUCKY",
+      "FULLMETAL",
+      "AD",
+      "EREN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "FULLMETAL",
+     "state": "REJECTED",
+     "votes": [
+      "AD",
+      "YUCKYSUCKY",
+      "YAMAHA"
+     ],
+     "team": [
+      "FULLMETAL",
+      "AD",
+      "YUCKYSUCKY",
+      "EREN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "HOTTIE",
+      "AD",
+      "YUCKYSUCKY"
+     ],
+     "team": [
+      "AD",
+      "EREN",
+      "HOTTIE",
+      "YUCKYSUCKY"
+     ],
+     "proposer": "AD"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,327 @@
+{
+ "players": [
+  {
+   "name": "DAVID",
+   "uid": "oXYMWdGfqTUdh0obOlr1jDy4myE2"
+  },
+  {
+   "uid": "njE9lR462eaewWEceR23nr32CNx2",
+   "name": "NATE"
+  },
+  {
+   "uid": "RbBznkdQa9M9U8Q7iQZORSR7yfP2",
+   "name": "LILVICKY"
+  },
+  {
+   "uid": "FonMwIIh1mhgg57n39DtCibhDOx2",
+   "name": "JEROME"
+  },
+  {
+   "name": "MARY",
+   "uid": "2iLS2EXvRSZzYKSkNYpuvtRac533"
+  },
+  {
+   "name": "JUJU",
+   "uid": "aqGo6oOqUFZW8Vxk89Zq6URuYzp1"
+  },
+  {
+   "name": "BILLY",
+   "uid": "jqZOuUki3Jdn9c23JQE5Xw1ZMHP2"
+  },
+  {
+   "name": "VANDOD",
+   "uid": "wnoNZsJyqkYxzetUjgDM8WC9xbE3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1607310856,
+  "_nanoseconds": 646000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "LILVICKY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NATE",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MARY",
+    "assassin": true
+   },
+   {
+    "name": "BILLY",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "DAVID",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JEROME",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "VANDOD"
+   },
+   {
+    "name": "JUJU",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "DAVID",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "BILLY": false,
+    "JUJU": true,
+    "VANDOD": true
+   },
+   {
+    "DAVID": true,
+    "JUJU": true,
+    "JEROME": true,
+    "LILVICKY": true
+   },
+   {
+    "JEROME": true,
+    "NATE": false,
+    "JUJU": true,
+    "DAVID": true
+   },
+   {
+    "DAVID": true,
+    "JUJU": true,
+    "LILVICKY": true,
+    "JEROME": true,
+    "MARY": true
+   },
+   {
+    "JUJU": true,
+    "JEROME": true,
+    "VANDOD": true,
+    "DAVID": true,
+    "LILVICKY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "VANDOD",
+    "BILLY",
+    "JUJU"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NATE",
+      "MARY",
+      "LILVICKY",
+      "JEROME",
+      "DAVID",
+      "VANDOD",
+      "JUJU",
+      "BILLY"
+     ],
+     "team": [
+      "VANDOD",
+      "BILLY",
+      "JUJU"
+     ],
+     "state": "APPROVED",
+     "proposer": "VANDOD"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAVID",
+      "JEROME",
+      "JUJU",
+      "LILVICKY"
+     ],
+     "proposer": "DAVID",
+     "votes": [
+      "BILLY",
+      "NATE",
+      "LILVICKY",
+      "DAVID",
+      "VANDOD",
+      "MARY",
+      "JUJU",
+      "JEROME"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "DAVID",
+    "JEROME",
+    "JUJU",
+    "LILVICKY"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "VANDOD",
+      "BILLY",
+      "NATE",
+      "JUJU",
+      "LILVICKY",
+      "DAVID",
+      "MARY",
+      "JEROME"
+     ],
+     "proposer": "NATE",
+     "team": [
+      "JEROME",
+      "NATE",
+      "DAVID",
+      "JUJU"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JEROME",
+    "NATE",
+    "DAVID",
+    "JUJU"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "DAVID",
+    "LILVICKY",
+    "JEROME",
+    "JUJU",
+    "MARY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAVID",
+      "LILVICKY",
+      "JEROME",
+      "JUJU",
+      "MARY"
+     ],
+     "votes": [
+      "NATE",
+      "LILVICKY",
+      "VANDOD",
+      "JEROME",
+      "JUJU",
+      "BILLY",
+      "DAVID",
+      "MARY"
+     ],
+     "proposer": "LILVICKY"
+    }
+   ],
+   "teamSize": 5
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JEROME",
+      "LILVICKY",
+      "DAVID",
+      "JUJU",
+      "MARY"
+     ],
+     "votes": [
+      "MARY"
+     ],
+     "proposer": "JEROME"
+    },
+    {
+     "proposer": "MARY",
+     "team": [
+      "MARY",
+      "JUJU",
+      "JEROME",
+      "LILVICKY",
+      "DAVID"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NATE",
+      "MARY"
+     ]
+    },
+    {
+     "team": [
+      "DAVID",
+      "LILVICKY",
+      "JEROME",
+      "JUJU",
+      "VANDOD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "VANDOD",
+      "JEROME",
+      "DAVID",
+      "LILVICKY",
+      "JUJU"
+     ],
+     "proposer": "JUJU"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "DAVID",
+    "LILVICKY",
+    "JEROME",
+    "JUJU",
+    "VANDOD"
+   ],
+   "teamSize": 5
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1607309507,
+  "_nanoseconds": 154000000
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "DIGGA"
+   },
+   {
+    "name": "SERVER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SHAWN"
+   },
+   {
+    "name": "D",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "TREVOR",
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": "D",
+  "votes": [
+   {
+    "SERVER": true,
+    "SHAWN": true
+   },
+   {
+    "TREVOR": true,
+    "SERVER": true,
+    "D": true
+   },
+   {
+    "D": true,
+    "SERVER": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590118347,
+  "_nanoseconds": 118000000
+ },
+ "timeFinished": {
+  "_seconds": 1590119146,
+  "_nanoseconds": 980000000
+ },
+ "players": [
+  {
+   "uid": "ZyyzxhBD9eOQHwl4qqvk1eNMn4H2",
+   "name": "D"
+  },
+  {
+   "name": "SHAWN",
+   "uid": "BYcr6J1oxrPio777HmmpY61t7hj2"
+  },
+  {
+   "uid": "GImFVPTFd2UOHXtQHdyJanrzeEm2",
+   "name": "DIGGA"
+  },
+  {
+   "name": "SERVER",
+   "uid": "5mxKBeYvSnfrblfV7Ht5KpidKqk1"
+  },
+  {
+   "name": "TREVOR",
+   "uid": "18i2KrPjChcZtXGTaWZgS4DUItv1"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "SHAWN",
+    "SERVER"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SHAWN",
+      "SERVER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DIGGA",
+      "SERVER",
+      "SHAWN",
+      "D",
+      "TREVOR"
+     ],
+     "proposer": "D"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "DIGGA",
+      "SHAWN"
+     ],
+     "team": [
+      "TREVOR",
+      "SERVER",
+      "DIGGA"
+     ],
+     "state": "REJECTED",
+     "proposer": "SHAWN"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "DIGGA",
+     "team": [
+      "TREVOR",
+      "SERVER",
+      "D"
+     ],
+     "votes": [
+      "SHAWN",
+      "D",
+      "TREVOR"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "TREVOR",
+    "SERVER",
+    "D"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SERVER",
+      "SHAWN",
+      "TREVOR"
+     ],
+     "proposer": "SERVER",
+     "team": [
+      "SERVER",
+      "D"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "SERVER",
+    "D"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

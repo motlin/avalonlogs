@@ -1,0 +1,265 @@
+{
+ "players": [
+  {
+   "uid": "wanJ8P6MxthP9lfd3yRJ3OpiImy2",
+   "name": "TIFFANY"
+  },
+  {
+   "uid": "8RvYLyv7r1eQBfjqBhe6jPQXmkQ2",
+   "name": "EVRA"
+  },
+  {
+   "uid": "M0Zoj5PQuQYXQ93oRwdfoTFbjXt2",
+   "name": "DICKSON"
+  },
+  {
+   "name": "YASH",
+   "uid": "5Fumj2DR7pdpPOaNSubyMFFy87b2"
+  },
+  {
+   "uid": "5fRJchdQRihmaYAowJu40J0iVIv1",
+   "name": "NICOLAS"
+  },
+  {
+   "name": "MAXWELL",
+   "uid": "0byXDGR8cCYA6HivK6cA3Kbox5X2"
+  },
+  {
+   "uid": "Xy0BDoPouqUXxmIrARjaKCiqpCD2",
+   "name": "JM"
+  },
+  {
+   "uid": "paAbOOy1tTfqkpYUK79Ga5GzzIm2",
+   "name": "JACKY"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "YASH",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JACKY"
+   },
+   {
+    "name": "DICKSON",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "EVRA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "TIFFANY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JM"
+   },
+   {
+    "assassin": false,
+    "name": "NICOLAS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "MAXWELL"
+   }
+  ],
+  "votes": [
+   {
+    "DICKSON": true,
+    "YASH": false,
+    "NICOLAS": true
+   },
+   {
+    "JACKY": true,
+    "JM": true,
+    "TIFFANY": true,
+    "MAXWELL": false
+   },
+   {
+    "MAXWELL": false,
+    "JACKY": true,
+    "DICKSON": true,
+    "NICOLAS": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1585366042,
+  "_nanoseconds": 599597000
+ },
+ "timeCreated": {
+  "_seconds": 1585365072,
+  "_nanoseconds": 831000000
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "YASH",
+      "JACKY",
+      "EVRA",
+      "TIFFANY",
+      "JM",
+      "NICOLAS",
+      "MAXWELL"
+     ],
+     "state": "APPROVED",
+     "proposer": "DICKSON",
+     "team": [
+      "DICKSON",
+      "YASH",
+      "NICOLAS"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DICKSON",
+    "YASH",
+    "NICOLAS"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "YASH",
+     "state": "REJECTED",
+     "votes": [
+      "YASH",
+      "EVRA",
+      "JM"
+     ],
+     "team": [
+      "MAXWELL",
+      "JM",
+      "JACKY",
+      "TIFFANY"
+     ]
+    },
+    {
+     "team": [
+      "NICOLAS",
+      "JM",
+      "JACKY",
+      "DICKSON"
+     ],
+     "votes": [
+      "JM"
+     ],
+     "state": "REJECTED",
+     "proposer": "NICOLAS"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAXWELL",
+      "JM",
+      "JACKY",
+      "TIFFANY"
+     ],
+     "proposer": "MAXWELL",
+     "votes": [
+      "YASH",
+      "JACKY",
+      "EVRA",
+      "TIFFANY",
+      "JM",
+      "MAXWELL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "MAXWELL",
+    "JM",
+    "JACKY",
+    "TIFFANY"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JM",
+     "votes": [
+      "EVRA",
+      "TIFFANY",
+      "JM"
+     ],
+     "team": [
+      "JACKY",
+      "JM",
+      "NICOLAS",
+      "DICKSON"
+     ]
+    },
+    {
+     "team": [
+      "JACKY",
+      "MAXWELL",
+      "NICOLAS",
+      "DICKSON"
+     ],
+     "state": "APPROVED",
+     "proposer": "JACKY",
+     "votes": [
+      "JM",
+      "MAXWELL",
+      "YASH",
+      "JACKY",
+      "DICKSON",
+      "EVRA",
+      "TIFFANY"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "JACKY",
+    "MAXWELL",
+    "NICOLAS",
+    "DICKSON"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [],
+   "proposals": []
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": []
+  }
+ ]
+}

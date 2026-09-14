@@ -1,0 +1,239 @@
+{
+ "timeCreated": {
+  "_seconds": 1591514142,
+  "_nanoseconds": 622000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ZACH",
+    "YB"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "YB",
+      "ZACH",
+      "MARC"
+     ],
+     "proposer": "YB",
+     "team": [
+      "ZACH",
+      "YB"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ZACH",
+    "YB",
+    "DREW"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ZACH",
+      "YB",
+      "DREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "DREW",
+     "votes": [
+      "YB",
+      "DREW",
+      "ZACH"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MARC",
+     "votes": [
+      "MARC",
+      "YB",
+      "DREW",
+      "ZACH"
+     ],
+     "team": [
+      "MARC",
+      "YB"
+     ]
+    }
+   ],
+   "team": [
+    "MARC",
+    "YB"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CNN"
+     ],
+     "team": [
+      "CNN",
+      "DREW",
+      "ZACH"
+     ],
+     "proposer": "CNN"
+    },
+    {
+     "proposer": "ZACH",
+     "votes": [
+      "MARC",
+      "YB",
+      "ZACH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ZACH",
+      "YB",
+      "MARC"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "ZACH",
+    "YB",
+    "MARC"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MARC",
+      "YB",
+      "DREW",
+      "ZACH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YB",
+      "DREW",
+      "MARC"
+     ],
+     "proposer": "YB"
+    }
+   ],
+   "team": [
+    "YB",
+    "DREW",
+    "MARC"
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591514386,
+  "_nanoseconds": 489000000
+ },
+ "players": [
+  {
+   "name": "ZACH",
+   "uid": "bH4tIAsGmEO9QIrWbxqrS211mdW2"
+  },
+  {
+   "uid": "dBbDTVYBVOX3bdMaEHBbhW01IIB3",
+   "name": "YB"
+  },
+  {
+   "name": "DREW",
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1"
+  },
+  {
+   "uid": "Kd9gvaBxtCO5a0I4MmewNknH2lZ2",
+   "name": "MARC"
+  },
+  {
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83",
+   "name": "CNN"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ZACH": true,
+    "YB": true
+   },
+   {
+    "YB": true,
+    "DREW": true,
+    "ZACH": false
+   },
+   {
+    "MARC": true,
+    "YB": true
+   },
+   {
+    "YB": true,
+    "MARC": true,
+    "ZACH": false
+   },
+   {
+    "YB": false,
+    "DREW": true,
+    "MARC": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CNN"
+   },
+   {
+    "assassin": false,
+    "name": "YB",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DREW"
+   },
+   {
+    "role": "MORDRED",
+    "name": "ZACH",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MARC",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ }
+}

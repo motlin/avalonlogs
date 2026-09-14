@@ -1,0 +1,278 @@
+{
+ "timeFinished": {
+  "_seconds": 1604721596,
+  "_nanoseconds": 277000000
+ },
+ "players": [
+  {
+   "name": "DIANA",
+   "uid": "TdSLnZrv3McycHzbEgOflGZXlsw1"
+  },
+  {
+   "uid": "4L2SwQAOHMgYSZne8telTO9Fph53",
+   "name": "BEAN"
+  },
+  {
+   "uid": "QltbjbGhK2NBqZvz5a9Aq2qPvM92",
+   "name": "BEN"
+  },
+  {
+   "uid": "pIhSudmBI0TxXLYinzEkVhviguu1",
+   "name": "NIC"
+  },
+  {
+   "uid": "Pq6rCz7jVnWenCNXBkwS9gDo7rz2",
+   "name": "ANSHUL"
+  },
+  {
+   "uid": "2TrGchKqleOhgNksc5yqBOFfNv22",
+   "name": "GENEVIEVE"
+  },
+  {
+   "uid": "UflATXq3c5UhKRI4q4uHXKh5t6H2",
+   "name": "JORHAN"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ANSHUL",
+      "GENEVIEVE",
+      "DIANA",
+      "BEN",
+      "BEAN",
+      "NIC"
+     ],
+     "proposer": "BEN",
+     "team": [
+      "BEN",
+      "DIANA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "BEN",
+    "DIANA"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "JORHAN",
+    "BEAN",
+    "ANSHUL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NIC",
+     "votes": [
+      "BEN",
+      "ANSHUL",
+      "DIANA",
+      "BEAN",
+      "NIC"
+     ],
+     "team": [
+      "JORHAN",
+      "BEAN",
+      "ANSHUL"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "BEN",
+    "NIC",
+    "ANSHUL"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ANSHUL",
+      "DIANA",
+      "BEN"
+     ],
+     "proposer": "ANSHUL",
+     "state": "REJECTED",
+     "votes": [
+      "ANSHUL",
+      "GENEVIEVE",
+      "NIC"
+     ]
+    },
+    {
+     "proposer": "GENEVIEVE",
+     "team": [
+      "BEN",
+      "NIC",
+      "ANSHUL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANSHUL",
+      "GENEVIEVE",
+      "BEN",
+      "BEAN",
+      "NIC"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "JORHAN",
+    "DIANA",
+    "NIC",
+    "GENEVIEVE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JORHAN",
+      "DIANA",
+      "NIC",
+      "GENEVIEVE"
+     ],
+     "votes": [
+      "NIC",
+      "GENEVIEVE",
+      "BEAN",
+      "DIANA",
+      "ANSHUL",
+      "JORHAN"
+     ],
+     "proposer": "JORHAN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "JORHAN",
+    "DIANA",
+    "BEAN",
+    "NIC"
+   ],
+   "proposals": [
+    {
+     "proposer": "DIANA",
+     "state": "APPROVED",
+     "votes": [
+      "BEN",
+      "NIC",
+      "DIANA",
+      "JORHAN",
+      "BEAN"
+     ],
+     "team": [
+      "JORHAN",
+      "DIANA",
+      "BEAN",
+      "NIC"
+     ]
+    }
+   ],
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604720878,
+  "_nanoseconds": 438000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "DIANA": true,
+    "BEN": true
+   },
+   {
+    "JORHAN": true,
+    "ANSHUL": true,
+    "BEAN": false
+   },
+   {
+    "ANSHUL": true,
+    "BEN": false,
+    "NIC": true
+   },
+   {
+    "DIANA": true,
+    "NIC": true,
+    "GENEVIEVE": false,
+    "JORHAN": true
+   },
+   {
+    "DIANA": true,
+    "JORHAN": true,
+    "BEAN": false,
+    "NIC": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "GENEVIEVE"
+   },
+   {
+    "name": "DIANA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BEN",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "JORHAN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BEAN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANSHUL"
+   },
+   {
+    "assassin": false,
+    "name": "NIC",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,281 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "BENNO",
+  "votes": [
+   {
+    "NATHAN": true,
+    "RHIBARB": true
+   },
+   {
+    "IZZY": true,
+    "JALLEN": false,
+    "BENNO": true
+   },
+   {
+    "IZZY": true,
+    "BENNO": true,
+    "RHIBARB": true,
+    "NATHAN": true
+   },
+   {
+    "BENNO": true,
+    "IZZY": true,
+    "NATHAN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "NATHAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "BENNO"
+   },
+   {
+    "assassin": true,
+    "name": "KIRA",
+    "role": "MORDRED"
+   },
+   {
+    "name": "IZZY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JALLEN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RHIBARB"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "NATHAN",
+   "uid": "eM9Ltl7b52O1f1oH4iegamCVSoE2"
+  },
+  {
+   "name": "IZZY",
+   "uid": "InTfyaKQ0uYhDlmCtROic0Gh0c02"
+  },
+  {
+   "uid": "fVErk18gatRj5L06IUTGVSgPwNx2",
+   "name": "JALLEN"
+  },
+  {
+   "name": "RHIBARB",
+   "uid": "d2qaR1wtLMf6eD0fe27SXJ85kkA3"
+  },
+  {
+   "name": "KIRA",
+   "uid": "OJ5i775EYPOXRDeEsDfdf672CFa2"
+  },
+  {
+   "uid": "4sTXF8FpXXcusQcAG7ghZmLLZoA2",
+   "name": "BENNO"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "NATHAN",
+    "RHIBARB"
+   ],
+   "proposals": [
+    {
+     "proposer": "KIRA",
+     "team": [
+      "KIRA",
+      "IZZY"
+     ],
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BENNO"
+     ],
+     "proposer": "BENNO",
+     "team": [
+      "BENNO",
+      "NATHAN"
+     ]
+    },
+    {
+     "proposer": "NATHAN",
+     "votes": [
+      "BENNO",
+      "KIRA",
+      "IZZY",
+      "JALLEN",
+      "RHIBARB"
+     ],
+     "team": [
+      "NATHAN",
+      "RHIBARB"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "IZZY",
+    "JALLEN",
+    "BENNO"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JALLEN",
+      "RHIBARB",
+      "KIRA",
+      "IZZY"
+     ],
+     "proposer": "IZZY",
+     "team": [
+      "IZZY",
+      "JALLEN",
+      "BENNO"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "JALLEN",
+      "RHIBARB"
+     ],
+     "proposer": "JALLEN",
+     "state": "REJECTED",
+     "team": [
+      "JALLEN",
+      "BENNO",
+      "NATHAN",
+      "RHIBARB"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "RHIBARB",
+      "IZZY",
+      "KIRA",
+      "NATHAN"
+     ],
+     "votes": [
+      "KIRA",
+      "RHIBARB"
+     ],
+     "proposer": "RHIBARB"
+    },
+    {
+     "proposer": "KIRA",
+     "votes": [
+      "RHIBARB"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "IZZY",
+      "KIRA",
+      "RHIBARB",
+      "NATHAN"
+     ]
+    },
+    {
+     "votes": [
+      "RHIBARB",
+      "NATHAN",
+      "BENNO",
+      "IZZY"
+     ],
+     "team": [
+      "BENNO",
+      "NATHAN",
+      "RHIBARB",
+      "IZZY"
+     ],
+     "state": "APPROVED",
+     "proposer": "BENNO"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "BENNO",
+    "NATHAN",
+    "RHIBARB",
+    "IZZY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "NATHAN",
+      "BENNO",
+      "IZZY",
+      "RHIBARB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NATHAN",
+      "BENNO",
+      "IZZY"
+     ],
+     "proposer": "NATHAN"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "NATHAN",
+    "BENNO",
+    "IZZY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589318753,
+  "_nanoseconds": 636000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589317521,
+  "_nanoseconds": 469000000
+ }
+}

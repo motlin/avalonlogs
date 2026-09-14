@@ -1,0 +1,226 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "PRUDHVI",
+    "BROTHER"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "PRUDHVI",
+     "state": "APPROVED",
+     "votes": [
+      "BROTHER",
+      "NEHA",
+      "PRUDHVI",
+      "SANG",
+      "ADI"
+     ],
+     "team": [
+      "PRUDHVI",
+      "BROTHER"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "PRUDHVI",
+    "BROTHER",
+    "ADI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "PRUDHVI",
+      "BROTHER",
+      "ADI"
+     ],
+     "votes": [
+      "BROTHER",
+      "NEHA",
+      "SANG",
+      "ADI"
+     ],
+     "proposer": "ADI",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "SANG",
+      "NEHA"
+     ],
+     "votes": [
+      "SANG",
+      "ADI",
+      "NEHA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SANG"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "SANG",
+    "NEHA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BROTHER",
+      "NEHA",
+      "SANG",
+      "ADI"
+     ],
+     "team": [
+      "NEHA",
+      "SANG",
+      "ADI"
+     ],
+     "proposer": "NEHA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "NEHA",
+    "SANG",
+    "ADI"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "BROTHER",
+    "SANG",
+    "ADI"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "BROTHER",
+     "votes": [
+      "BROTHER",
+      "SANG",
+      "ADI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BROTHER",
+      "SANG",
+      "ADI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PRUDHVI": true,
+    "BROTHER": true
+   },
+   {
+    "PRUDHVI": false,
+    "ADI": true,
+    "BROTHER": true
+   },
+   {
+    "NEHA": true,
+    "SANG": true
+   },
+   {
+    "NEHA": false,
+    "ADI": true,
+    "SANG": true
+   },
+   {
+    "BROTHER": true,
+    "SANG": true,
+    "ADI": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "BROTHER",
+  "roles": [
+   {
+    "name": "BROTHER",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "NEHA",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "PRUDHVI",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "SANG",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ADI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "qPpkatueTNTbQy5DzxOB6lhDQ852",
+   "name": "ADI"
+  },
+  {
+   "name": "SANG",
+   "uid": "GPA3N4Pv8ZWSrFpbmUepdvJuTgS2"
+  },
+  {
+   "uid": "E6eRdo4LHsNfKUlsqhUE0mjo6M73",
+   "name": "NEHA"
+  },
+  {
+   "uid": "qv1rwJ6JN6X1QQeQ67DByELkf7D3",
+   "name": "BROTHER"
+  },
+  {
+   "name": "PRUDHVI",
+   "uid": "CqjNQ7NJa3ZzdcKrKvyhi7ETzSC3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585372020,
+  "_nanoseconds": 855597000
+ },
+ "timeCreated": {
+  "_seconds": 1585371457,
+  "_nanoseconds": 252000000
+ }
+}

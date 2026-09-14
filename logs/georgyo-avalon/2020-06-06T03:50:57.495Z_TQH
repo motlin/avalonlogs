@@ -1,0 +1,403 @@
+{
+ "players": [
+  {
+   "uid": "ZfYkRxOjOueo9q2aiXdkO1Z47QI2",
+   "name": "YAMIN"
+  },
+  {
+   "name": "SMITA",
+   "uid": "i6YPjBp2mPQeKMlrIacyHZzAUWx1"
+  },
+  {
+   "uid": "jJfenBY0uDWCfNPmbKTZhk57gvd2",
+   "name": "ANIKAH"
+  },
+  {
+   "name": "MAISHA",
+   "uid": "QvBppYnl3fbHoBmVqMtZoVLuSml2"
+  },
+  {
+   "uid": "nndJQWJUs0ZM7phFfyKMLzbEbG53",
+   "name": "ARMAN"
+  },
+  {
+   "name": "NATASHA",
+   "uid": "KzCkTNRbYachCNZRVzIFyUTwhIL2"
+  },
+  {
+   "name": "TUKUN",
+   "uid": "QYg2YKRwgzai6LoOXCZ7MNtWRDL2"
+  },
+  {
+   "name": "SAMI",
+   "uid": "a9OvpmGcaBf7HoeckyMTs7jkN2T2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591416965,
+  "_nanoseconds": 152000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "YAMIN": true,
+    "ANIKAH": true,
+    "SMITA": true
+   },
+   {
+    "ANIKAH": true,
+    "YAMIN": true,
+    "SMITA": true,
+    "ARMAN": false
+   },
+   {
+    "ANIKAH": true,
+    "YAMIN": true,
+    "SAMI": true,
+    "SMITA": true
+   },
+   {
+    "SAMI": true,
+    "ANIKAH": true,
+    "TUKUN": false,
+    "YAMIN": false,
+    "SMITA": true
+   },
+   {
+    "SAMI": true,
+    "SMITA": true,
+    "NATASHA": true,
+    "MAISHA": true,
+    "ANIKAH": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "NATASHA",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "TUKUN",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "SAMI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "MAISHA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "SMITA",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "NATASHA"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "YAMIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ARMAN",
+    "assassin": true
+   },
+   {
+    "name": "ANIKAH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TUKUN",
+      "SAMI",
+      "NATASHA"
+     ],
+     "proposer": "TUKUN",
+     "team": [
+      "TUKUN",
+      "SAMI",
+      "NATASHA"
+     ]
+    },
+    {
+     "votes": [
+      "ARMAN",
+      "ANIKAH"
+     ],
+     "proposer": "SAMI",
+     "state": "REJECTED",
+     "team": [
+      "SAMI",
+      "ANIKAH",
+      "ARMAN"
+     ]
+    },
+    {
+     "proposer": "YAMIN",
+     "team": [
+      "YAMIN",
+      "SMITA",
+      "ANIKAH"
+     ],
+     "votes": [
+      "TUKUN",
+      "MAISHA",
+      "SMITA",
+      "YAMIN",
+      "ANIKAH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "YAMIN",
+    "SMITA",
+    "ANIKAH"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "YAMIN",
+      "SMITA",
+      "ANIKAH",
+      "NATASHA"
+     ],
+     "proposer": "SMITA",
+     "votes": [
+      "NATASHA",
+      "ANIKAH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ANIKAH",
+     "state": "APPROVED",
+     "votes": [
+      "MAISHA",
+      "SMITA",
+      "YAMIN",
+      "ARMAN",
+      "ANIKAH"
+     ],
+     "team": [
+      "ANIKAH",
+      "SMITA",
+      "YAMIN",
+      "ARMAN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "ANIKAH",
+    "SMITA",
+    "YAMIN",
+    "ARMAN"
+   ]
+  },
+  {
+   "team": [
+    "SAMI",
+    "SMITA",
+    "YAMIN",
+    "ANIKAH"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAISHA",
+      "ARMAN"
+     ],
+     "team": [
+      "MAISHA",
+      "ANIKAH",
+      "ARMAN",
+      "SAMI"
+     ],
+     "proposer": "MAISHA"
+    },
+    {
+     "votes": [
+      "ARMAN",
+      "MAISHA"
+     ],
+     "team": [
+      "ARMAN",
+      "MAISHA",
+      "SMITA",
+      "ANIKAH"
+     ],
+     "proposer": "ARMAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ANIKAH",
+      "SMITA",
+      "NATASHA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NATASHA",
+      "SMITA",
+      "ANIKAH",
+      "SAMI"
+     ],
+     "proposer": "NATASHA"
+    },
+    {
+     "team": [
+      "TUKUN",
+      "ARMAN",
+      "SMITA",
+      "ANIKAH"
+     ],
+     "state": "REJECTED",
+     "proposer": "TUKUN",
+     "votes": [
+      "ARMAN",
+      "TUKUN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SAMI",
+     "votes": [
+      "YAMIN",
+      "ARMAN",
+      "ANIKAH",
+      "TUKUN",
+      "MAISHA",
+      "SAMI",
+      "SMITA",
+      "NATASHA"
+     ],
+     "team": [
+      "SAMI",
+      "SMITA",
+      "YAMIN",
+      "ANIKAH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "SMITA",
+    "YAMIN",
+    "ANIKAH",
+    "TUKUN",
+    "SAMI"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "YAMIN",
+     "team": [
+      "YAMIN",
+      "SMITA",
+      "TUKUN",
+      "ARMAN",
+      "ANIKAH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ARMAN",
+      "TUKUN"
+     ]
+    },
+    {
+     "votes": [
+      "YAMIN",
+      "ARMAN",
+      "ANIKAH",
+      "TUKUN",
+      "MAISHA",
+      "SMITA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SMITA",
+      "YAMIN",
+      "ANIKAH",
+      "TUKUN",
+      "SAMI"
+     ],
+     "proposer": "SMITA"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "team": [
+    "ANIKAH",
+    "SMITA",
+    "NATASHA",
+    "SAMI",
+    "MAISHA"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANIKAH",
+      "SMITA",
+      "NATASHA",
+      "SAMI",
+      "MAISHA"
+     ],
+     "votes": [
+      "TUKUN",
+      "MAISHA",
+      "SMITA",
+      "NATASHA",
+      "YAMIN"
+     ],
+     "proposer": "ANIKAH"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591415457,
+  "_nanoseconds": 495000000
+ }
+}

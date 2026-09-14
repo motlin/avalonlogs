@@ -1,0 +1,331 @@
+{
+ "timeCreated": {
+  "_seconds": 1586493216,
+  "_nanoseconds": 529000000
+ },
+ "timeFinished": {
+  "_seconds": 1586496093,
+  "_nanoseconds": 692127000
+ },
+ "outcome": {
+  "assassinated": "ALEXK",
+  "votes": [
+   {
+    "ADITYA": true,
+    "T": true
+   },
+   {
+    "T": true,
+    "PATRICK": true,
+    "ADITYA": true
+   },
+   {
+    "ADITYA": true,
+    "T": true,
+    "PATRICK": true,
+    "ALEXL": false
+   },
+   {
+    "ALEXL": false,
+    "SUV": false,
+    "T": true
+   },
+   {
+    "ADITYA": true,
+    "ALEXK": true,
+    "T": true,
+    "PATRICK": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "PATRICK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "T",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SUV",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ADITYA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ALEXK"
+   },
+   {
+    "name": "ALEXL",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ALEXL",
+      "SUV"
+     ],
+     "team": [
+      "SUV",
+      "ALEXK"
+     ],
+     "proposer": "SUV"
+    },
+    {
+     "team": [
+      "T",
+      "SUV"
+     ],
+     "state": "REJECTED",
+     "proposer": "T",
+     "votes": [
+      "T",
+      "SUV",
+      "ALEXL"
+     ]
+    },
+    {
+     "proposer": "ADITYA",
+     "state": "APPROVED",
+     "votes": [
+      "ADITYA",
+      "ALEXL",
+      "T",
+      "SUV"
+     ],
+     "team": [
+      "ADITYA",
+      "T"
+     ]
+    }
+   ],
+   "team": [
+    "ADITYA",
+    "T"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ADITYA",
+    "PATRICK",
+    "T"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "PATRICK",
+      "T",
+      "ADITYA",
+      "ALEXK"
+     ],
+     "team": [
+      "ADITYA",
+      "PATRICK",
+      "T"
+     ],
+     "state": "APPROVED",
+     "proposer": "PATRICK"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ALEXK",
+      "ALEXL",
+      "T",
+      "ADITYA"
+     ],
+     "proposer": "ALEXL",
+     "team": [
+      "ALEXL",
+      "PATRICK",
+      "ADITYA",
+      "T"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ALEXL",
+    "PATRICK",
+    "ADITYA",
+    "T"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "ALEXL",
+    "T",
+    "SUV"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ADITYA",
+      "T",
+      "PATRICK"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALEXK",
+     "votes": []
+    },
+    {
+     "votes": [
+      "ADITYA",
+      "T",
+      "SUV"
+     ],
+     "proposer": "SUV",
+     "state": "REJECTED",
+     "team": [
+      "T",
+      "ADITYA",
+      "ALEXL"
+     ]
+    },
+    {
+     "team": [
+      "ALEXL",
+      "T",
+      "SUV"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADITYA",
+      "ALEXL",
+      "T",
+      "SUV"
+     ],
+     "proposer": "T"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "PATRICK",
+    "ADITYA",
+    "T",
+    "ALEXK"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ADITYA"
+     ],
+     "proposer": "ADITYA",
+     "team": [
+      "SUV",
+      "ALEXL",
+      "PATRICK",
+      "ADITYA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "PATRICK",
+      "ADITYA",
+      "ALEXK",
+      "T"
+     ],
+     "proposer": "PATRICK",
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "proposer": "ALEXL",
+     "votes": [
+      "ALEXL"
+     ],
+     "team": [
+      "ALEXK",
+      "ALEXL",
+      "PATRICK",
+      "ADITYA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "PATRICK",
+      "ADITYA",
+      "T",
+      "ALEXK"
+     ],
+     "proposer": "ALEXK",
+     "state": "APPROVED",
+     "votes": [
+      "PATRICK",
+      "T",
+      "ADITYA",
+      "ALEXK"
+     ]
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "players": [
+  {
+   "name": "T",
+   "uid": "BYHi6b3ZOqPb9M5QPjFiKgtBDnq1"
+  },
+  {
+   "name": "ADITYA",
+   "uid": "KlN44oQSkdht78wZSHtnme9ynMB2"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "cYwsZba6qnVyMQ5vASCnQHdvm733"
+  },
+  {
+   "name": "ALEXL",
+   "uid": "hJq1uFywA9cp8D4P5hs0bFeiTkg2"
+  },
+  {
+   "name": "ALEXK",
+   "uid": "HdTIwg6quXSLWJ5BLAs9hT6pZ8a2"
+  },
+  {
+   "name": "SUV",
+   "uid": "ebMquQOdtTMLSdIpWoPeJUt6bwI2"
+  }
+ ]
+}

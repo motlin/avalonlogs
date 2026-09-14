@@ -1,0 +1,274 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "TOM",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ANT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "CHRIS"
+   },
+   {
+    "assassin": false,
+    "name": "ALEX",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KATHRYN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "VANDANA"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "ALAN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ANT": true,
+    "CHRIS": true
+   },
+   {
+    "ANT": true,
+    "ALAN": true,
+    "CHRIS": true
+   },
+   {
+    "ANT": true,
+    "CHRIS": false,
+    "KATHRYN": true
+   },
+   {
+    "CHRIS": false,
+    "ALAN": false,
+    "ALEX": true,
+    "ANT": true
+   },
+   {
+    "ANT": true,
+    "VANDANA": true,
+    "KATHRYN": true,
+    "ALAN": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586449477,
+  "_nanoseconds": 389000000
+ },
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "1vu4imj9OPYMK24Ju4CU0LIoCNW2"
+  },
+  {
+   "uid": "Wk5svHrLsseye7UIiJEbm5OkJz32",
+   "name": "KATHRYN"
+  },
+  {
+   "uid": "u5Jc4B8XbxOX0oacVNIBhwNmbbJ3",
+   "name": "ALAN"
+  },
+  {
+   "name": "VANDANA",
+   "uid": "AaO7MyBUyCfUVV0C4m35LeRSkGz1"
+  },
+  {
+   "uid": "tUuknRuBSmT1iG68ln3S41VbPSm1",
+   "name": "TOM"
+  },
+  {
+   "name": "ALEX",
+   "uid": "3UWgvx4zfIQjjmyh9S35wZBeNwj2"
+  },
+  {
+   "name": "ANT",
+   "uid": "p6Lu59IRGHfJXobAA7aiY3RAZFt1"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ANT",
+    "CHRIS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ALEX",
+      "KATHRYN",
+      "ANT"
+     ],
+     "proposer": "ALEX",
+     "state": "REJECTED",
+     "team": [
+      "ALEX",
+      "KATHRYN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ANT",
+     "team": [
+      "ANT",
+      "CHRIS"
+     ],
+     "votes": [
+      "ANT",
+      "CHRIS",
+      "ALEX",
+      "KATHRYN",
+      "VANDANA",
+      "TOM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "CHRIS",
+    "ANT",
+    "ALAN"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHRIS",
+     "team": [
+      "CHRIS",
+      "ANT",
+      "ALAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TOM",
+      "ANT",
+      "CHRIS",
+      "ALEX",
+      "ALAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "KATHRYN",
+    "CHRIS",
+    "ANT"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "KATHRYN",
+     "state": "APPROVED",
+     "votes": [
+      "KATHRYN",
+      "VANDANA",
+      "ALAN",
+      "TOM",
+      "ANT",
+      "CHRIS"
+     ],
+     "team": [
+      "KATHRYN",
+      "CHRIS",
+      "ANT"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ALEX",
+    "ALAN",
+    "CHRIS",
+    "ANT"
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "ALAN",
+      "CHRIS",
+      "ANT"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALAN",
+     "votes": [
+      "ANT",
+      "CHRIS",
+      "ALEX",
+      "VANDANA",
+      "ALAN",
+      "TOM"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANT",
+      "KATHRYN",
+      "VANDANA",
+      "ALAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "VANDANA",
+     "votes": [
+      "ALAN",
+      "TOM",
+      "KATHRYN",
+      "VANDANA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "ANT",
+    "KATHRYN",
+    "VANDANA",
+    "ALAN"
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586450049,
+  "_nanoseconds": 766927000
+ }
+}

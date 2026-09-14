@@ -1,0 +1,235 @@
+{
+ "players": [
+  {
+   "name": "INOAHGUY",
+   "uid": "A2ipdR8FJ5MI2QzwLNsQthZSNqs1"
+  },
+  {
+   "uid": "j9TwCTQEKuZCMKsF6iqz5tMkgjy1",
+   "name": "PETER"
+  },
+  {
+   "name": "KMS",
+   "uid": "qJM2pToQhIR9aZYeDit9lrjlNL72"
+  },
+  {
+   "uid": "zFeqtzWoTCUxlBPGb4t9SZ1k5tz2",
+   "name": "LIGMABALLS"
+  },
+  {
+   "uid": "pJ1OZfDEbHUxsd2Exjri4szdn8g1",
+   "name": "KEVIN"
+  },
+  {
+   "name": "LISA",
+   "uid": "eiyQgsmlGldDljC7k8mHFVbduLk2"
+  },
+  {
+   "name": "TYLER",
+   "uid": "lXpbACle8UbL75R19VkantrcXBa2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "TYLER",
+    "KEVIN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TYLER",
+      "KEVIN"
+     ],
+     "votes": [
+      "KMS",
+      "LIGMABALLS",
+      "KEVIN",
+      "LISA",
+      "TYLER",
+      "INOAHGUY",
+      "PETER"
+     ],
+     "proposer": "KEVIN"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "LISA",
+    "KEVIN",
+    "TYLER"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LIGMABALLS",
+      "KEVIN",
+      "LISA",
+      "TYLER",
+      "INOAHGUY",
+      "PETER",
+      "KMS"
+     ],
+     "team": [
+      "LISA",
+      "KEVIN",
+      "TYLER"
+     ],
+     "state": "APPROVED",
+     "proposer": "LISA"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "TYLER",
+    "INOAHGUY",
+    "KEVIN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TYLER",
+     "votes": [
+      "TYLER",
+      "INOAHGUY",
+      "PETER",
+      "LIGMABALLS"
+     ],
+     "team": [
+      "TYLER",
+      "INOAHGUY",
+      "KEVIN"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "PETER",
+    "KMS",
+    "LIGMABALLS",
+    "INOAHGUY"
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "INOAHGUY",
+      "PETER",
+      "KMS",
+      "LIGMABALLS",
+      "KEVIN"
+     ],
+     "team": [
+      "PETER",
+      "KMS",
+      "LIGMABALLS",
+      "INOAHGUY"
+     ],
+     "proposer": "INOAHGUY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588483826,
+  "_nanoseconds": 140000000
+ },
+ "timeFinished": {
+  "_seconds": 1588484299,
+  "_nanoseconds": 174000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "TYLER",
+    "role": "MORDRED"
+   },
+   {
+    "name": "INOAHGUY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "PETER",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "KMS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "LIGMABALLS"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LISA",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "TYLER": true,
+    "KEVIN": true
+   },
+   {
+    "LISA": true,
+    "KEVIN": true,
+    "TYLER": false
+   },
+   {
+    "TYLER": false,
+    "INOAHGUY": true,
+    "KEVIN": true
+   },
+   {
+    "LIGMABALLS": false,
+    "PETER": false,
+    "KMS": true,
+    "INOAHGUY": true
+   }
+  ],
+  "assassinated": null
+ }
+}

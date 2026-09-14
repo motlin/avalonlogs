@@ -1,0 +1,201 @@
+{
+ "players": [
+  {
+   "uid": "1jHHwUGEfQTY3fFz6iZTZXiiXI33",
+   "name": "EDISON"
+  },
+  {
+   "uid": "O78yb4V9GnNff9YuBn8IRotwtf02",
+   "name": "THOMSON"
+  },
+  {
+   "uid": "PyFnZWgR6pYN1SgJ1k5nRikqbIq2",
+   "name": "SAM"
+  },
+  {
+   "uid": "tQpgKDFOxBgz3AqqpGqocau1S0a2",
+   "name": "KELVIN"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "jYAPv4IuMHcFuPCIWvpnB8CS0Nw2"
+  },
+  {
+   "uid": "DtMW8I7PsCc0uEAwcLX8xRY6xQr1",
+   "name": "ERIC"
+  },
+  {
+   "name": "ASTON",
+   "uid": "mzNKoIt7o2gmdzkxYu68nXIRrJi2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ASTON",
+    "ERIC"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ASTON",
+      "ERIC"
+     ],
+     "proposer": "ASTON",
+     "state": "APPROVED",
+     "votes": [
+      "KELVIN",
+      "ASTON",
+      "ERIC",
+      "EDISON",
+      "THOMSON"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ERIC",
+      "ASTON",
+      "SAM"
+     ],
+     "votes": [
+      "ASTON",
+      "ERIC",
+      "EDISON",
+      "THOMSON"
+     ],
+     "proposer": "EDISON",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ERIC",
+    "ASTON",
+    "SAM"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SAM",
+    "ERIC",
+    "ASTON"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ASTON",
+      "ERIC",
+      "EDISON",
+      "THOMSON",
+      "KELVIN"
+     ],
+     "team": [
+      "SAM",
+      "ERIC",
+      "ASTON"
+     ],
+     "state": "APPROVED",
+     "proposer": "THOMSON"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588818121,
+  "_nanoseconds": 110000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "SAM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "THOMSON"
+   },
+   {
+    "name": "KELVIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ASTON",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ERIC"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "EDISON"
+   },
+   {
+    "name": "ADRIAN",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "ASTON": true,
+    "ERIC": true
+   },
+   {
+    "SAM": true,
+    "ASTON": true,
+    "ERIC": true
+   },
+   {
+    "ERIC": true,
+    "ASTON": true,
+    "SAM": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "ERIC"
+ },
+ "timeFinished": {
+  "_seconds": 1588818440,
+  "_nanoseconds": 671000000
+ }
+}

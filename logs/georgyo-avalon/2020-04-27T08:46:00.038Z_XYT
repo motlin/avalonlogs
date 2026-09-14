@@ -1,0 +1,276 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "JERRY",
+    "LEA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JERRY",
+     "team": [
+      "JERRY",
+      "LEA"
+     ],
+     "votes": [
+      "MAL",
+      "LEA",
+      "JERRY",
+      "URMOM",
+      "AMANDA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LEA",
+    "JERRY",
+    "URMOM"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "LEA",
+      "JERRY",
+      "URMOM"
+     ],
+     "state": "APPROVED",
+     "proposer": "URMOM",
+     "votes": [
+      "URMOM",
+      "AMANDA",
+      "LEA",
+      "JERRY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "numFails": 1,
+   "team": [
+    "LEA",
+    "AMANDA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JERRY"
+     ],
+     "team": [
+      "JERRY",
+      "LEA"
+     ],
+     "proposer": "MAL"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "LEA",
+      "JERRY"
+     ],
+     "team": [
+      "LEA",
+      "AMANDA"
+     ],
+     "proposer": "LEA"
+    }
+   ]
+  },
+  {
+   "team": [
+    "URMOM",
+    "AMANDA",
+    "JERRY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "AMANDA",
+      "JERRY"
+     ],
+     "proposer": "AMANDA",
+     "state": "REJECTED",
+     "team": [
+      "AMANDA",
+      "JERRY",
+      "URMOM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JERRY",
+      "URMOM",
+      "LEA"
+     ],
+     "votes": [],
+     "proposer": "JERRY"
+    },
+    {
+     "proposer": "URMOM",
+     "votes": [
+      "LEA",
+      "JERRY",
+      "URMOM",
+      "AMANDA"
+     ],
+     "team": [
+      "URMOM",
+      "AMANDA",
+      "JERRY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MAL"
+     ],
+     "proposer": "MAL",
+     "team": [
+      "URMOM",
+      "AMANDA",
+      "MAL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "LEA",
+     "state": "APPROVED",
+     "team": [
+      "URMOM",
+      "JERRY",
+      "AMANDA"
+     ],
+     "votes": [
+      "LEA",
+      "JERRY",
+      "URMOM",
+      "AMANDA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "URMOM",
+    "JERRY",
+    "AMANDA"
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "assassinated": "JERRY",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JERRY": true,
+    "LEA": true
+   },
+   {
+    "LEA": false,
+    "URMOM": true,
+    "JERRY": true
+   },
+   {
+    "LEA": false,
+    "AMANDA": true
+   },
+   {
+    "AMANDA": true,
+    "URMOM": true,
+    "JERRY": true
+   },
+   {
+    "AMANDA": true,
+    "URMOM": true,
+    "JERRY": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "MAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LEA",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JERRY"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "URMOM"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "AMANDA"
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1587977160,
+  "_nanoseconds": 38000000
+ },
+ "players": [
+  {
+   "name": "AMANDA",
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1"
+  },
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2",
+   "name": "URMOM"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "uid": "2ArLOkwXwTcCxHpeaGCU0T0n6QZ2",
+   "name": "LEA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587978997,
+  "_nanoseconds": 867000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

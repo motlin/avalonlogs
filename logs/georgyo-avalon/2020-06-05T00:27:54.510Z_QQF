@@ -1,0 +1,244 @@
+{
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANDY",
+      "MATT",
+      "SHANE",
+      "BISHOP",
+      "JENNA"
+     ],
+     "team": [
+      "MATT",
+      "SHANE"
+     ],
+     "proposer": "JENNA"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MATT",
+    "SHANE"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "SHANE",
+    "JENNA",
+    "ANDY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "SHANE",
+      "JENNA",
+      "ANDY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JENNA",
+      "ANDY",
+      "SHANE",
+      "BISHOP"
+     ],
+     "proposer": "MATT"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ANDY",
+    "SHANE"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "MATT",
+      "SHANE",
+      "BISHOP"
+     ],
+     "proposer": "SHANE",
+     "team": [
+      "ANDY",
+      "SHANE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ANDY",
+     "team": [
+      "MATT",
+      "JENNA",
+      "BISHOP"
+     ],
+     "votes": [
+      "MATT",
+      "SHANE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MATT",
+      "SHANE",
+      "JENNA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JENNA",
+      "ANDY",
+      "MATT",
+      "SHANE",
+      "BISHOP"
+     ],
+     "proposer": "BISHOP"
+    }
+   ],
+   "team": [
+    "MATT",
+    "SHANE",
+    "JENNA"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "BISHOP",
+    "ANDY",
+    "SHANE"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "MATT",
+      "JENNA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BISHOP",
+      "ANDY",
+      "SHANE"
+     ],
+     "proposer": "JENNA"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591316874,
+  "_nanoseconds": 510000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MATT": true,
+    "SHANE": true
+   },
+   {
+    "JENNA": true,
+    "SHANE": true,
+    "ANDY": false
+   },
+   {
+    "ANDY": true,
+    "SHANE": true
+   },
+   {
+    "JENNA": true,
+    "SHANE": true,
+    "MATT": false
+   },
+   {
+    "BISHOP": true,
+    "ANDY": false,
+    "SHANE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "ANDY"
+   },
+   {
+    "assassin": false,
+    "name": "MATT",
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SHANE"
+   },
+   {
+    "assassin": false,
+    "name": "BISHOP",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JENNA"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "JENNA",
+   "uid": "pDqWl0mH28ZIBkq1qvZzIUsFxiJ3"
+  },
+  {
+   "name": "MATT",
+   "uid": "lxyFIPUptwaWwhWeuOaS0FXspEt1"
+  },
+  {
+   "uid": "OSiUPCpSz1Zg36hQARy4JOSOnm02",
+   "name": "SHANE"
+  },
+  {
+   "uid": "sqYeHzTkKwhJI6hM3hbbTNmcfNf1",
+   "name": "ANDY"
+  },
+  {
+   "name": "BISHOP",
+   "uid": "Tc3PntzxqtXuZhDOPO93is8fbyz2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591317758,
+  "_nanoseconds": 657000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

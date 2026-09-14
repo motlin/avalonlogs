@@ -1,0 +1,235 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "WINNIE",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PL": true,
+    "WINNIE": true
+   },
+   {
+    "WILLIAM": true,
+    "PL": true,
+    "WINNIE": true
+   },
+   {
+    "WINNIE": true,
+    "VQ": true,
+    "PL": false,
+    "WILLIAM": true
+   },
+   {
+    "VQ": true,
+    "WINNIE": true,
+    "WILLIAM": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "WILLIAM",
+    "assassin": false
+   },
+   {
+    "name": "LH",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "PL",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "WINNIE"
+   },
+   {
+    "name": "TANTAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "VQ",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1598020671,
+  "_nanoseconds": 439000000
+ },
+ "timeFinished": {
+  "_seconds": 1598021350,
+  "_nanoseconds": 450000000
+ },
+ "players": [
+  {
+   "name": "WINNIE",
+   "uid": "Ht0V6yPvPkdrxVfPRU4tdkHrN1j1"
+  },
+  {
+   "uid": "cvKBuXmHBiQVTjrGCDtNCbBXbAV2",
+   "name": "TANTAN"
+  },
+  {
+   "uid": "SLvUR8s8dggh4SKJB8oAvY0yqHA2",
+   "name": "PL"
+  },
+  {
+   "name": "WILLIAM",
+   "uid": "YegTZmUNcESz7s2TXSldSoVMRmF3"
+  },
+  {
+   "uid": "9j3ueVNSnOQ1DTw3N3PwzNZzfqx2",
+   "name": "LH"
+  },
+  {
+   "name": "VQ",
+   "uid": "T9lqbHu2UAQfk7CSaSLnXU9HNJb2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "PL",
+    "WINNIE"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "WINNIE",
+      "VQ",
+      "LH",
+      "PL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PL",
+      "WINNIE"
+     ],
+     "proposer": "PL"
+    }
+   ]
+  },
+  {
+   "team": [
+    "WILLIAM",
+    "PL",
+    "WINNIE"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "WILLIAM",
+     "votes": [
+      "WINNIE",
+      "PL",
+      "LH",
+      "WILLIAM",
+      "VQ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "WILLIAM",
+      "PL",
+      "WINNIE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "WILLIAM",
+    "PL",
+    "WINNIE",
+    "VQ"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "LH",
+     "votes": [
+      "LH"
+     ],
+     "team": [
+      "WINNIE",
+      "PL",
+      "WILLIAM",
+      "LH"
+     ]
+    },
+    {
+     "proposer": "VQ",
+     "state": "APPROVED",
+     "votes": [
+      "TANTAN",
+      "WINNIE",
+      "VQ",
+      "PL",
+      "LH"
+     ],
+     "team": [
+      "WILLIAM",
+      "PL",
+      "WINNIE",
+      "VQ"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "WINNIE",
+      "WILLIAM",
+      "VQ"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WINNIE",
+      "TANTAN",
+      "PL",
+      "WILLIAM",
+      "VQ"
+     ],
+     "proposer": "WINNIE"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "WINNIE",
+    "WILLIAM",
+    "VQ"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ]
+}

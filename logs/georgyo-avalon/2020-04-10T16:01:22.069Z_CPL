@@ -1,0 +1,277 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "WES"
+   },
+   {
+    "name": "CPL",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MICHEL",
+    "role": "MORGANA"
+   },
+   {
+    "name": "PERRY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "LOC",
+    "assassin": true
+   }
+  ],
+  "votes": [
+   {
+    "LOC": true,
+    "CPL": true
+   },
+   {
+    "WES": true,
+    "LOC": false,
+    "CPL": true
+   },
+   {
+    "CPL": true,
+    "MICHEL": true
+   },
+   {
+    "CPL": true,
+    "LOC": false,
+    "PERRY": true
+   },
+   {
+    "CPL": true,
+    "PERRY": true,
+    "WES": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "WES",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "WES",
+      "CPL",
+      "MICHEL",
+      "PERRY",
+      "LOC"
+     ],
+     "proposer": "LOC",
+     "state": "APPROVED",
+     "team": [
+      "LOC",
+      "CPL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "LOC",
+    "CPL"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "WES",
+    "CPL",
+    "LOC"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "MICHEL",
+     "votes": [
+      "LOC",
+      "CPL"
+     ],
+     "team": [
+      "CPL",
+      "LOC",
+      "MICHEL"
+     ]
+    },
+    {
+     "proposer": "PERRY",
+     "state": "REJECTED",
+     "votes": [
+      "PERRY",
+      "LOC"
+     ],
+     "team": [
+      "PERRY",
+      "LOC",
+      "CPL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LOC",
+      "WES",
+      "CPL"
+     ],
+     "proposer": "WES",
+     "team": [
+      "WES",
+      "CPL",
+      "LOC"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CPL",
+     "state": "APPROVED",
+     "votes": [
+      "PERRY",
+      "WES",
+      "CPL",
+      "MICHEL"
+     ],
+     "team": [
+      "MICHEL",
+      "CPL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MICHEL",
+    "CPL"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "CPL",
+    "LOC",
+    "PERRY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "LOC",
+      "CPL",
+      "PERRY"
+     ],
+     "votes": [
+      "PERRY",
+      "LOC"
+     ],
+     "proposer": "LOC"
+    },
+    {
+     "votes": [
+      "MICHEL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CPL",
+      "MICHEL",
+      "PERRY"
+     ],
+     "proposer": "MICHEL"
+    },
+    {
+     "votes": [
+      "CPL",
+      "PERRY",
+      "LOC"
+     ],
+     "proposer": "PERRY",
+     "state": "APPROVED",
+     "team": [
+      "CPL",
+      "LOC",
+      "PERRY"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "CPL",
+    "WES",
+    "PERRY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CPL",
+      "WES",
+      "PERRY"
+     ],
+     "proposer": "WES",
+     "state": "APPROVED",
+     "votes": [
+      "PERRY",
+      "LOC",
+      "WES",
+      "CPL"
+     ]
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586534933,
+  "_nanoseconds": 489071000
+ },
+ "timeCreated": {
+  "_seconds": 1586534482,
+  "_nanoseconds": 69000000
+ },
+ "players": [
+  {
+   "uid": "nnPP02SUyWeF3gpWyfI8T9OzF053",
+   "name": "CPL"
+  },
+  {
+   "name": "LOC",
+   "uid": "aDJx4bobm4WBZGlfm1oaTKVwtkw2"
+  },
+  {
+   "name": "MICHEL",
+   "uid": "9xvziqOuVSMznhIGczBkRjK1jO72"
+  },
+  {
+   "uid": "5DYiPpm4MIhsr9IGXKijFcB0Gnq2",
+   "name": "PERRY"
+  },
+  {
+   "name": "WES",
+   "uid": "M2GRgkRti9aSFRdxOs2Inth39Vz1"
+  }
+ ]
+}

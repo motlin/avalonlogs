@@ -1,0 +1,289 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "ICECUBES",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "BEN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SRINATH",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "ICECUBES",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "GEG"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "CHRIS"
+   }
+  ],
+  "votes": [
+   {
+    "GEG": true,
+    "CHRIS": true
+   },
+   {
+    "GEG": false,
+    "BEN": true,
+    "CHRIS": true
+   },
+   {
+    "SRINATH": true,
+    "BEN": true
+   },
+   {
+    "CHRIS": false,
+    "SRINATH": true,
+    "BEN": true
+   },
+   {
+    "BEN": true,
+    "ICECUBES": true,
+    "SRINATH": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "CHRIS",
+    "GEG"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "CHRIS",
+      "GEG"
+     ],
+     "proposer": "CHRIS",
+     "state": "APPROVED",
+     "votes": [
+      "SRINATH",
+      "ICECUBES",
+      "GEG",
+      "CHRIS",
+      "BEN"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "CHRIS",
+    "GEG",
+    "BEN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHRIS",
+      "GEG",
+      "BEN"
+     ],
+     "votes": [
+      "ICECUBES",
+      "GEG",
+      "CHRIS",
+      "BEN",
+      "SRINATH"
+     ],
+     "proposer": "GEG"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "SRINATH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BEN",
+      "ICECUBES",
+      "GEG",
+      "CHRIS"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "BEN",
+    "SRINATH"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "BEN",
+    "SRINATH",
+    "CHRIS"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "ICECUBES",
+     "team": [
+      "BEN",
+      "ICECUBES",
+      "SRINATH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "BEN",
+      "SRINATH",
+      "GEG"
+     ],
+     "proposer": "SRINATH",
+     "votes": [
+      "SRINATH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SRINATH",
+      "CHRIS",
+      "BEN"
+     ],
+     "proposer": "CHRIS",
+     "team": [
+      "BEN",
+      "SRINATH",
+      "CHRIS"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BEN"
+     ],
+     "team": [
+      "GEG",
+      "BEN",
+      "ICECUBES"
+     ],
+     "proposer": "GEG"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "BEN",
+     "team": [
+      "BEN",
+      "ICECUBES",
+      "SRINATH"
+     ],
+     "votes": [
+      "BEN"
+     ]
+    },
+    {
+     "team": [
+      "BEN",
+      "ICECUBES",
+      "SRINATH"
+     ],
+     "proposer": "ICECUBES",
+     "votes": [
+      "ICECUBES",
+      "BEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BEN",
+      "SRINATH",
+      "ICECUBES"
+     ],
+     "team": [
+      "BEN",
+      "ICECUBES",
+      "SRINATH"
+     ],
+     "proposer": "SRINATH",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "BEN",
+    "ICECUBES",
+    "SRINATH"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592712506,
+  "_nanoseconds": 60000000
+ },
+ "players": [
+  {
+   "name": "BEN",
+   "uid": "kLcA2vNNH7N9dUmvlsAaRIoryUO2"
+  },
+  {
+   "name": "ICECUBES",
+   "uid": "jeWwT2iLauOBK1EWkm8HEA0LF5h1"
+  },
+  {
+   "name": "SRINATH",
+   "uid": "KzT00XSSEjdTKXa0SSMsagAlPqt1"
+  },
+  {
+   "uid": "Mlj1qcrbbPh3rdp4IXOSSGUH1it1",
+   "name": "CHRIS"
+  },
+  {
+   "uid": "bI0etkIxAERLBvyxWPxbJY5hVuz2",
+   "name": "GEG"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592715532,
+  "_nanoseconds": 862000000
+ }
+}

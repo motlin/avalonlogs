@@ -1,0 +1,326 @@
+{
+ "timeCreated": {
+  "_seconds": 1594864121,
+  "_nanoseconds": 9000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "JEREMY",
+    "STEPH"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JEREMY",
+      "STEPH"
+     ],
+     "proposer": "JEREMY",
+     "votes": [
+      "THOMSON",
+      "STEPH",
+      "ERIC",
+      "EDISON",
+      "KELVIN",
+      "JEREMY",
+      "ASTON"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "STEPH",
+    "JEREMY",
+    "THOMSON"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "STEPH",
+      "JEREMY",
+      "THOMSON"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EDISON",
+      "KELVIN",
+      "JEREMY",
+      "ASTON",
+      "THOMSON",
+      "STEPH",
+      "ERIC"
+     ],
+     "proposer": "STEPH"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "THOMSON",
+     "state": "APPROVED",
+     "votes": [
+      "KELVIN",
+      "ASTON",
+      "THOMSON",
+      "STEPH",
+      "EDISON"
+     ],
+     "team": [
+      "THOMSON",
+      "STEPH",
+      "EDISON"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "THOMSON",
+    "STEPH",
+    "EDISON"
+   ]
+  },
+  {
+   "team": [
+    "ASTON",
+    "STEPH",
+    "JEREMY",
+    "EDISON"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "EDISON",
+      "KELVIN",
+      "ASTON",
+      "THOMSON",
+      "STEPH"
+     ],
+     "team": [
+      "ASTON",
+      "STEPH",
+      "JEREMY",
+      "EDISON"
+     ],
+     "proposer": "ASTON",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "KELVIN",
+     "votes": [
+      "ERIC",
+      "EDISON",
+      "KELVIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JEREMY",
+      "KELVIN",
+      "EDISON",
+      "STEPH"
+     ]
+    },
+    {
+     "team": [
+      "ASTON",
+      "EDISON",
+      "KELVIN",
+      "ERIC"
+     ],
+     "proposer": "EDISON",
+     "votes": [
+      "ASTON",
+      "ERIC",
+      "EDISON"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "STEPH",
+      "ERIC"
+     ],
+     "proposer": "ERIC",
+     "team": [
+      "ERIC",
+      "EDISON",
+      "STEPH",
+      "JEREMY"
+     ]
+    },
+    {
+     "votes": [
+      "JEREMY",
+      "EDISON",
+      "KELVIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JEREMY",
+      "EDISON",
+      "ASTON",
+      "KELVIN"
+     ],
+     "proposer": "JEREMY"
+    },
+    {
+     "team": [
+      "EDISON",
+      "ASTON",
+      "STEPH",
+      "JEREMY"
+     ],
+     "votes": [
+      "KELVIN",
+      "JEREMY",
+      "ASTON",
+      "STEPH",
+      "ERIC",
+      "EDISON"
+     ],
+     "proposer": "STEPH",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "EDISON",
+    "ASTON",
+    "STEPH",
+    "JEREMY"
+   ],
+   "numFails": 1
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JEREMY",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "ASTON",
+    "assassin": false
+   },
+   {
+    "name": "THOMSON",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "STEPH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ERIC"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "EDISON",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "KELVIN",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "STEPH": true,
+    "JEREMY": true
+   },
+   {
+    "THOMSON": false,
+    "JEREMY": true,
+    "STEPH": true
+   },
+   {
+    "STEPH": true,
+    "EDISON": true,
+    "THOMSON": false
+   },
+   {
+    "ASTON": true,
+    "EDISON": true,
+    "JEREMY": true,
+    "STEPH": true
+   },
+   {
+    "STEPH": true,
+    "EDISON": true,
+    "JEREMY": true,
+    "ASTON": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1594865369,
+  "_nanoseconds": 826000000
+ },
+ "players": [
+  {
+   "name": "KELVIN",
+   "uid": "tQpgKDFOxBgz3AqqpGqocau1S0a2"
+  },
+  {
+   "name": "EDISON",
+   "uid": "1jHHwUGEfQTY3fFz6iZTZXiiXI33"
+  },
+  {
+   "name": "ERIC",
+   "uid": "4I4pfoqbS0ZrY0GXWbhVQ9lA49y2"
+  },
+  {
+   "uid": "7t2CYSdOQNW7QKmOtgCvVjUv32K3",
+   "name": "JEREMY"
+  },
+  {
+   "uid": "cLBxKWEF0ZV0yqQdCnBXXhe6Pof2",
+   "name": "STEPH"
+  },
+  {
+   "name": "THOMSON",
+   "uid": "O78yb4V9GnNff9YuBn8IRotwtf02"
+  },
+  {
+   "uid": "mzNKoIt7o2gmdzkxYu68nXIRrJi2",
+   "name": "ASTON"
+  }
+ ]
+}

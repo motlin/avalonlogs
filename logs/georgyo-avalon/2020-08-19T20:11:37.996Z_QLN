@@ -1,0 +1,328 @@
+{
+ "timeCreated": {
+  "_seconds": 1597867897,
+  "_nanoseconds": 996000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "RHIBARB",
+      "BENNO"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BENNO"
+     ],
+     "proposer": "RHIBARB"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANGEROO"
+     ],
+     "proposer": "ANGEROO",
+     "team": [
+      "ANGEROO",
+      "NATHAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BENNO"
+     ],
+     "team": [
+      "BENNO",
+      "NATHAN"
+     ],
+     "proposer": "BENNO"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JALLEN",
+      "ANGEROO"
+     ],
+     "votes": [
+      "ANGEROO",
+      "JALLEN"
+     ],
+     "proposer": "JALLEN"
+    },
+    {
+     "proposer": "NATHAN",
+     "team": [
+      "RHIBARB",
+      "NATHAN"
+     ],
+     "votes": [
+      "RHIBARB",
+      "JALLEN",
+      "NATHAN",
+      "ANGEROO",
+      "BENNO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "RHIBARB",
+    "NATHAN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "RHIBARB",
+    "BENNO",
+    "JALLEN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RHIBARB",
+     "team": [
+      "RHIBARB",
+      "BENNO",
+      "JALLEN"
+     ],
+     "votes": [
+      "RHIBARB",
+      "BENNO",
+      "JALLEN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "RHIBARB",
+    "JALLEN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ANGEROO",
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "ANGEROO",
+      "RHIBARB"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JALLEN",
+      "BENNO"
+     ],
+     "proposer": "BENNO",
+     "team": [
+      "BENNO",
+      "JALLEN"
+     ]
+    },
+    {
+     "votes": [
+      "BENNO",
+      "JALLEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JALLEN",
+      "BENNO"
+     ],
+     "proposer": "JALLEN"
+    },
+    {
+     "proposer": "NATHAN",
+     "votes": [
+      "NATHAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BENNO",
+      "NATHAN"
+     ]
+    },
+    {
+     "votes": [
+      "ANGEROO",
+      "JALLEN",
+      "BENNO",
+      "NATHAN",
+      "RHIBARB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RHIBARB",
+      "JALLEN"
+     ],
+     "proposer": "RHIBARB"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ANGEROO",
+     "state": "REJECTED",
+     "team": [
+      "NATHAN",
+      "ANGEROO",
+      "BENNO"
+     ],
+     "votes": []
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BENNO",
+      "ANGEROO",
+      "JALLEN"
+     ],
+     "team": [
+      "BENNO",
+      "JALLEN",
+      "ANGEROO"
+     ],
+     "proposer": "BENNO"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "BENNO",
+    "JALLEN",
+    "ANGEROO"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BENNO",
+      "JALLEN",
+      "ANGEROO"
+     ],
+     "proposer": "JALLEN",
+     "team": [
+      "JALLEN",
+      "BENNO",
+      "ANGEROO"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "JALLEN",
+    "BENNO",
+    "ANGEROO"
+   ],
+   "numFails": 0
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "ANGEROO",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "RHIBARB": true,
+    "NATHAN": false
+   },
+   {
+    "JALLEN": true,
+    "RHIBARB": true,
+    "BENNO": true
+   },
+   {
+    "JALLEN": true,
+    "RHIBARB": false
+   },
+   {
+    "ANGEROO": true,
+    "JALLEN": true,
+    "BENNO": true
+   },
+   {
+    "JALLEN": true,
+    "BENNO": true,
+    "ANGEROO": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "BENNO",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANGEROO",
+    "assassin": false
+   },
+   {
+    "name": "JALLEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "RHIBARB"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "NATHAN"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1597869661,
+  "_nanoseconds": 8000000
+ },
+ "players": [
+  {
+   "uid": "d2qaR1wtLMf6eD0fe27SXJ85kkA3",
+   "name": "RHIBARB"
+  },
+  {
+   "name": "ANGEROO",
+   "uid": "FG7SOZPzquhQibHoe1DBt1uFtJg1"
+  },
+  {
+   "name": "BENNO",
+   "uid": "2ofmEd6j6hVBA87Zw17NYIFaw762"
+  },
+  {
+   "name": "JALLEN",
+   "uid": "fVErk18gatRj5L06IUTGVSgPwNx2"
+  },
+  {
+   "name": "NATHAN",
+   "uid": "eM9Ltl7b52O1f1oH4iegamCVSoE2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

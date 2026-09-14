@@ -1,0 +1,336 @@
+{
+ "players": [
+  {
+   "name": "MAYANK",
+   "uid": "y7oOnzCNhyV5dU1ntb7LdV4iaUk2"
+  },
+  {
+   "name": "HARSH",
+   "uid": "qYiVmb7HYUMow6sP2mc3sPLJs2j2"
+  },
+  {
+   "name": "RISHABH",
+   "uid": "AB5xkzou7ghXtbCgxZISf8t2dd83"
+  },
+  {
+   "uid": "Ea2SW2E1FOWnKZ5abjbQEo9VFYz2",
+   "name": "SHASHWAT"
+  },
+  {
+   "uid": "s8p0hmZChiW7l8g4InOvcW0EdQU2",
+   "name": "PALLAV"
+  },
+  {
+   "uid": "o6ikFvt8nyOAM1kGbGfk7riLoUA2",
+   "name": "YASH"
+  }
+ ],
+ "outcome": {
+  "assassinated": "SHASHWAT",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "SHASHWAT",
+    "assassin": false
+   },
+   {
+    "name": "YASH",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MAYANK"
+   },
+   {
+    "name": "PALLAV",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "HARSH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "RISHABH",
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "RISHABH": true,
+    "MAYANK": true
+   },
+   {
+    "PALLAV": true,
+    "HARSH": true,
+    "SHASHWAT": true
+   },
+   {
+    "PALLAV": true,
+    "MAYANK": true,
+    "HARSH": true,
+    "YASH": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1589806450,
+  "_nanoseconds": 376000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "RISHABH",
+    "MAYANK"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MAYANK",
+      "HARSH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "PALLAV",
+      "RISHABH",
+      "SHASHWAT"
+     ],
+     "proposer": "MAYANK"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "HARSH",
+      "YASH"
+     ],
+     "votes": [
+      "PALLAV",
+      "HARSH",
+      "YASH"
+     ],
+     "proposer": "HARSH"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "RISHABH",
+      "MAYANK"
+     ],
+     "votes": [
+      "PALLAV",
+      "HARSH",
+      "RISHABH",
+      "SHASHWAT",
+      "YASH"
+     ],
+     "proposer": "RISHABH"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "SHASHWAT",
+     "votes": [
+      "RISHABH",
+      "SHASHWAT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MAYANK",
+      "RISHABH",
+      "SHASHWAT"
+     ]
+    },
+    {
+     "team": [
+      "PALLAV",
+      "SHASHWAT",
+      "MAYANK"
+     ],
+     "votes": [
+      "YASH",
+      "PALLAV",
+      "RISHABH"
+     ],
+     "proposer": "PALLAV",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "YASH",
+      "RISHABH",
+      "SHASHWAT"
+     ],
+     "proposer": "YASH",
+     "team": [
+      "YASH",
+      "HARSH",
+      "MAYANK"
+     ]
+    },
+    {
+     "team": [
+      "HARSH",
+      "SHASHWAT",
+      "PALLAV"
+     ],
+     "votes": [
+      "MAYANK",
+      "YASH"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAYANK"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HARSH",
+      "RISHABH",
+      "SHASHWAT",
+      "YASH",
+      "MAYANK"
+     ],
+     "team": [
+      "HARSH",
+      "PALLAV",
+      "SHASHWAT"
+     ],
+     "proposer": "HARSH"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "HARSH",
+    "PALLAV",
+    "SHASHWAT"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "MAYANK",
+    "HARSH",
+    "YASH",
+    "PALLAV"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "PALLAV",
+      "RISHABH",
+      "SHASHWAT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "PALLAV",
+      "RISHABH",
+      "HARSH",
+      "SHASHWAT"
+     ],
+     "proposer": "RISHABH"
+    },
+    {
+     "proposer": "SHASHWAT",
+     "team": [
+      "RISHABH",
+      "PALLAV",
+      "MAYANK",
+      "SHASHWAT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SHASHWAT",
+      "PALLAV",
+      "RISHABH"
+     ]
+    },
+    {
+     "votes": [
+      "RISHABH",
+      "YASH",
+      "PALLAV"
+     ],
+     "proposer": "PALLAV",
+     "state": "REJECTED",
+     "team": [
+      "PALLAV",
+      "YASH",
+      "RISHABH",
+      "HARSH"
+     ]
+    },
+    {
+     "team": [
+      "HARSH",
+      "YASH",
+      "MAYANK",
+      "PALLAV"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "RISHABH",
+      "YASH",
+      "PALLAV"
+     ],
+     "proposer": "YASH"
+    },
+    {
+     "team": [
+      "MAYANK",
+      "HARSH",
+      "YASH",
+      "PALLAV"
+     ],
+     "proposer": "MAYANK",
+     "votes": [
+      "MAYANK",
+      "PALLAV",
+      "HARSH",
+      "RISHABH",
+      "YASH"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589804762,
+  "_nanoseconds": 845000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

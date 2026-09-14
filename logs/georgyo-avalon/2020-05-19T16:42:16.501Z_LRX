@@ -1,0 +1,217 @@
+{
+ "players": [
+  {
+   "uid": "Xg4Zr1wa70hOta568R0pKUY1OcD2",
+   "name": "SUNBIR"
+  },
+  {
+   "uid": "ajIUMzo5CpZKZVlQjkptsPwU5V32",
+   "name": "WILL"
+  },
+  {
+   "uid": "Gv7Z2Oz4W2cfKRB765F0HFnTWo72",
+   "name": "WILLB"
+  },
+  {
+   "name": "SUNBIRTWO",
+   "uid": "rmiWHo9JMvTSMWiUyRozpJTi4Qe2"
+  },
+  {
+   "name": "SUNBIRTHRE",
+   "uid": "QhoZ35L2rWaC87KyTjlTc6V5F3L2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589906536,
+  "_nanoseconds": 501000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "WILLB",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "WILL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SUNBIR",
+    "assassin": true
+   },
+   {
+    "name": "SUNBIRTHRE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SUNBIRTWO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "SUNBIRTWO": true,
+    "WILL": true
+   },
+   {
+    "SUNBIR": true,
+    "SUNBIRTWO": true,
+    "WILL": true
+   },
+   {
+    "WILLB": false,
+    "SUNBIRTWO": true
+   },
+   {
+    "WILL": true,
+    "SUNBIR": true,
+    "SUNBIRTWO": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "WILLB"
+ },
+ "timeFinished": {
+  "_seconds": 1589907117,
+  "_nanoseconds": 839000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "WILL",
+      "SUNBIRTWO"
+     ],
+     "votes": [
+      "SUNBIRTWO",
+      "WILLB",
+      "WILL"
+     ],
+     "proposer": "WILL"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "WILL",
+    "SUNBIRTWO"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "WILLB",
+     "votes": [
+      "WILLB"
+     ],
+     "team": [
+      "WILL",
+      "SUNBIRTWO",
+      "WILLB"
+     ]
+    },
+    {
+     "team": [
+      "SUNBIR",
+      "WILL",
+      "SUNBIRTWO"
+     ],
+     "proposer": "SUNBIRTWO",
+     "state": "APPROVED",
+     "votes": [
+      "SUNBIR",
+      "SUNBIRTHRE",
+      "SUNBIRTWO",
+      "WILLB"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "SUNBIR",
+    "WILL",
+    "SUNBIRTWO"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "WILLB",
+    "SUNBIRTWO"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "WILLB",
+      "SUNBIRTWO"
+     ],
+     "proposer": "SUNBIRTHRE",
+     "votes": [
+      "WILLB",
+      "WILL",
+      "SUNBIR",
+      "SUNBIRTHRE",
+      "SUNBIRTWO"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "SUNBIR",
+    "WILL",
+    "SUNBIRTWO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SUNBIRTWO",
+      "WILLB",
+      "WILL",
+      "SUNBIR",
+      "SUNBIRTHRE"
+     ],
+     "proposer": "SUNBIR",
+     "team": [
+      "SUNBIR",
+      "WILL",
+      "SUNBIRTWO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ]
+}

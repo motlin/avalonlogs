@@ -1,0 +1,315 @@
+{
+ "players": [
+  {
+   "uid": "BTutGuKZrLVDghq13uIpKVtjs7J3",
+   "name": "ELISA"
+  },
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  },
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  },
+  {
+   "uid": "vW4wNkSBNuZHfcUHLu5hClAsLBf2",
+   "name": "JULIE"
+  },
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "name": "ANTOINE",
+   "uid": "xlFldH3u2vSyHdP0JXXHRfTceko1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1606574506,
+  "_nanoseconds": 802000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ELISA",
+      "JULIE",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "LAURA"
+    }
+   ],
+   "team": [
+    "LAURA",
+    "CHRISTIAN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ANTOINE",
+    "LAURA",
+    "CHRISTIAN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANTOINE",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "proposer": "ANTOINE",
+     "state": "APPROVED",
+     "votes": [
+      "ELISA",
+      "JULIE",
+      "CHRISTIAN",
+      "LAURA",
+      "ANTOINE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ELISA",
+     "team": [
+      "ELISA",
+      "CHRISTIAN",
+      "LAURA",
+      "REGIS"
+     ],
+     "votes": [
+      "CHRISTIAN",
+      "ELISA"
+     ]
+    },
+    {
+     "proposer": "REGIS",
+     "state": "REJECTED",
+     "votes": [
+      "REGIS"
+     ],
+     "team": [
+      "REGIS",
+      "LAURA",
+      "JULIE",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHRISTIAN",
+      "LAURA",
+      "REGIS",
+      "ELISA"
+     ],
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "CHRISTIAN",
+      "ELISA"
+     ]
+    },
+    {
+     "team": [
+      "JULIE",
+      "LAURA",
+      "REGIS",
+      "ANTOINE"
+     ],
+     "votes": [
+      "JULIE",
+      "ANTOINE"
+     ],
+     "state": "REJECTED",
+     "proposer": "JULIE"
+    },
+    {
+     "team": [
+      "LAURA",
+      "REGIS",
+      "JULIE",
+      "ANTOINE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANTOINE",
+      "CHRISTIAN",
+      "ELISA",
+      "JULIE",
+      "REGIS",
+      "LAURA"
+     ],
+     "proposer": "LAURA"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "LAURA",
+    "REGIS",
+    "JULIE",
+    "ANTOINE"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "team": [
+    "CHRISTIAN",
+    "REGIS",
+    "JULIE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANTOINE"
+     ],
+     "proposer": "ANTOINE",
+     "team": [
+      "ANTOINE",
+      "JULIE",
+      "REGIS"
+     ]
+    },
+    {
+     "proposer": "ELISA",
+     "team": [
+      "LAURA",
+      "CHRISTIAN",
+      "ELISA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ELISA"
+     ]
+    },
+    {
+     "votes": [
+      "CHRISTIAN",
+      "REGIS",
+      "ANTOINE"
+     ],
+     "team": [
+      "REGIS",
+      "CHRISTIAN",
+      "JULIE"
+     ],
+     "proposer": "REGIS",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "CHRISTIAN",
+      "JULIE",
+      "REGIS",
+      "ANTOINE"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHRISTIAN",
+     "team": [
+      "CHRISTIAN",
+      "REGIS",
+      "JULIE"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "LAURA": true,
+    "CHRISTIAN": true
+   },
+   {
+    "CHRISTIAN": false,
+    "ANTOINE": true,
+    "LAURA": true
+   },
+   {
+    "REGIS": true,
+    "LAURA": true,
+    "ANTOINE": true,
+    "JULIE": false
+   },
+   {
+    "REGIS": true,
+    "JULIE": false,
+    "CHRISTIAN": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "REGIS"
+   },
+   {
+    "name": "JULIE",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ELISA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANTOINE"
+   },
+   {
+    "assassin": false,
+    "name": "LAURA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHRISTIAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1606576249,
+  "_nanoseconds": 448000000
+ }
+}

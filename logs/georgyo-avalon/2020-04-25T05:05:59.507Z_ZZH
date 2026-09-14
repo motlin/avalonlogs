@@ -1,0 +1,414 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "SEAN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "YI"
+   },
+   {
+    "name": "PRAVEEN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MOIRA",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "LL",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "AN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "HANK",
+    "assassin": false
+   },
+   {
+    "name": "CHEVIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "JOEY"
+   }
+  ],
+  "votes": [
+   {
+    "SEAN": true,
+    "LL": true,
+    "JOEY": true
+   },
+   {
+    "SEAN": true,
+    "AN": true,
+    "LL": true,
+    "JOEY": false
+   },
+   {
+    "PRAVEEN": false,
+    "AN": true,
+    "HANK": true,
+    "CHEVIN": true
+   },
+   {
+    "CHEVIN": true,
+    "HANK": true,
+    "YI": true,
+    "AN": true,
+    "LL": true
+   },
+   {
+    "SEAN": true,
+    "HANK": true,
+    "YI": true,
+    "LL": true,
+    "CHEVIN": true
+   }
+  ],
+  "assassinated": "SEAN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "HANK",
+      "CHEVIN",
+      "PRAVEEN"
+     ],
+     "votes": [
+      "HANK",
+      "CHEVIN",
+      "PRAVEEN"
+     ],
+     "proposer": "HANK",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHEVIN",
+      "PRAVEEN",
+      "LL"
+     ],
+     "proposer": "CHEVIN",
+     "votes": [
+      "CHEVIN",
+      "PRAVEEN"
+     ]
+    },
+    {
+     "votes": [
+      "PRAVEEN",
+      "HANK",
+      "CHEVIN"
+     ],
+     "proposer": "PRAVEEN",
+     "team": [
+      "CHEVIN",
+      "PRAVEEN",
+      "HANK"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SEAN",
+      "YI",
+      "MOIRA",
+      "LL",
+      "AN",
+      "HANK",
+      "JOEY"
+     ],
+     "proposer": "LL",
+     "team": [
+      "LL",
+      "SEAN",
+      "JOEY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "LL",
+    "SEAN",
+    "JOEY"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "LL",
+      "SEAN",
+      "JOEY",
+      "MOIRA"
+     ],
+     "proposer": "SEAN",
+     "state": "REJECTED",
+     "votes": [
+      "YI"
+     ]
+    },
+    {
+     "team": [
+      "SEAN",
+      "JOEY",
+      "LL",
+      "AN"
+     ],
+     "proposer": "JOEY",
+     "state": "APPROVED",
+     "votes": [
+      "JOEY",
+      "SEAN",
+      "YI",
+      "LL",
+      "AN"
+     ]
+    }
+   ],
+   "team": [
+    "SEAN",
+    "JOEY",
+    "LL",
+    "AN"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "AN",
+    "HANK",
+    "CHEVIN",
+    "PRAVEEN"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "MOIRA",
+     "team": [
+      "PRAVEEN",
+      "CHEVIN",
+      "LL",
+      "HANK"
+     ],
+     "votes": [
+      "PRAVEEN",
+      "AN",
+      "HANK",
+      "CHEVIN"
+     ]
+    },
+    {
+     "votes": [
+      "AN",
+      "HANK",
+      "CHEVIN",
+      "JOEY",
+      "PRAVEEN"
+     ],
+     "proposer": "AN",
+     "team": [
+      "AN",
+      "HANK",
+      "CHEVIN",
+      "PRAVEEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "YI",
+    "AN",
+    "HANK",
+    "LL",
+    "CHEVIN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "YI",
+      "AN",
+      "HANK",
+      "LL",
+      "CHEVIN"
+     ],
+     "votes": [
+      "CHEVIN",
+      "JOEY",
+      "SEAN",
+      "YI",
+      "MOIRA",
+      "AN",
+      "HANK"
+     ],
+     "state": "APPROVED",
+     "proposer": "YI"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LL",
+    "SEAN",
+    "CHEVIN",
+    "YI",
+    "HANK"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CHEVIN",
+      "LL",
+      "HANK",
+      "AN",
+      "PRAVEEN"
+     ],
+     "votes": [],
+     "proposer": "HANK",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SEAN",
+      "MOIRA",
+      "LL",
+      "HANK"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CHEVIN",
+      "LL",
+      "YI",
+      "SEAN",
+      "HANK"
+     ],
+     "proposer": "CHEVIN"
+    },
+    {
+     "votes": [
+      "PRAVEEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "PRAVEEN",
+      "HANK",
+      "LL",
+      "YI",
+      "SEAN"
+     ],
+     "proposer": "PRAVEEN"
+    },
+    {
+     "votes": [
+      "SEAN",
+      "YI",
+      "MOIRA",
+      "LL",
+      "AN",
+      "HANK",
+      "CHEVIN"
+     ],
+     "proposer": "LL",
+     "team": [
+      "LL",
+      "SEAN",
+      "CHEVIN",
+      "YI",
+      "HANK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 5,
+   "numFails": 0,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587794450,
+  "_nanoseconds": 534000000
+ },
+ "timeCreated": {
+  "_seconds": 1587791159,
+  "_nanoseconds": 507000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1",
+   "name": "CHEVIN"
+  },
+  {
+   "name": "PRAVEEN",
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2"
+  },
+  {
+   "name": "LL",
+   "uid": "1bkbk09boMYSV5pWJPdUEBUELvf2"
+  },
+  {
+   "name": "SEAN",
+   "uid": "hX6Ojw74Z1RCWOKVx2qAk1o09o22"
+  },
+  {
+   "uid": "E2FWameIPiVUqDC6ImczU1GNmqx2",
+   "name": "JOEY"
+  },
+  {
+   "uid": "wmW7nsKi71hbFvaOpNedH7VJfBp2",
+   "name": "MOIRA"
+  },
+  {
+   "name": "AN",
+   "uid": "GUcaXEuwzIXG9zcipS4dBnUSFqY2"
+  },
+  {
+   "name": "YI",
+   "uid": "hJeFLpAxnFMEypzHti9SffWE3px1"
+  },
+  {
+   "name": "HANK",
+   "uid": "CdwzxCOzhrWbDLWjAaoO0uRjNTB3"
+  }
+ ]
+}

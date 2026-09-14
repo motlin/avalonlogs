@@ -1,0 +1,287 @@
+{
+ "timeFinished": {
+  "_seconds": 1588064210,
+  "_nanoseconds": 203000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "MAL",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "LEA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "WILL"
+   },
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "name": "AMANDA",
+    "role": "MORDRED"
+   }
+  ],
+  "assassinated": "LEA",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "MAL": true,
+    "LEA": true
+   },
+   {
+    "MAL": false,
+    "LEA": true,
+    "JERRY": true
+   },
+   {
+    "JERRY": true,
+    "MAL": false
+   },
+   {
+    "WILL": true,
+    "LEA": true,
+    "JERRY": true
+   },
+   {
+    "LEA": true,
+    "WILL": true,
+    "JERRY": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83",
+   "name": "WILL"
+  },
+  {
+   "name": "LEA",
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2"
+  },
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  },
+  {
+   "name": "AMANDA",
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "LEA",
+    "MAL"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "LEA",
+     "team": [
+      "LEA",
+      "MAL"
+     ],
+     "votes": [
+      "WILL",
+      "JERRY",
+      "AMANDA",
+      "MAL",
+      "LEA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MAL",
+      "LEA",
+      "JERRY"
+     ],
+     "team": [
+      "MAL",
+      "LEA",
+      "JERRY"
+     ],
+     "proposer": "MAL",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "MAL",
+    "LEA",
+    "JERRY"
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "MAL",
+    "JERRY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "AMANDA",
+      "MAL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AMANDA",
+      "MAL"
+     ],
+     "proposer": "AMANDA"
+    },
+    {
+     "team": [
+      "JERRY",
+      "WILL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "WILL",
+      "JERRY"
+     ],
+     "proposer": "JERRY"
+    },
+    {
+     "team": [
+      "WILL",
+      "LEA"
+     ],
+     "proposer": "WILL",
+     "state": "REJECTED",
+     "votes": [
+      "LEA",
+      "WILL"
+     ]
+    },
+    {
+     "proposer": "LEA",
+     "state": "REJECTED",
+     "votes": [
+      "LEA",
+      "WILL"
+     ],
+     "team": [
+      "LEA",
+      "WILL"
+     ]
+    },
+    {
+     "votes": [
+      "AMANDA",
+      "MAL",
+      "LEA",
+      "WILL",
+      "JERRY"
+     ],
+     "team": [
+      "MAL",
+      "JERRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "MAL"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "JERRY",
+    "WILL",
+    "LEA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "AMANDA",
+     "team": [
+      "JERRY",
+      "AMANDA",
+      "LEA"
+     ]
+    },
+    {
+     "team": [
+      "JERRY",
+      "WILL",
+      "LEA"
+     ],
+     "proposer": "JERRY",
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "JERRY",
+      "LEA"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "WILL",
+    "LEA",
+    "JERRY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LEA",
+      "WILL",
+      "JERRY"
+     ],
+     "proposer": "WILL",
+     "team": [
+      "WILL",
+      "LEA",
+      "JERRY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588063198,
+  "_nanoseconds": 422000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,323 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MOIRA": true,
+    "PRAVEEN": true
+   },
+   {
+    "MOIRA": true,
+    "CHEVIN": true,
+    "PRAVEEN": false
+   },
+   {
+    "AN": true,
+    "JASMINE": true,
+    "LL": true
+   },
+   {
+    "AN": true,
+    "JASMINE": true,
+    "LL": true,
+    "MOIRA": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "AN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JASMINE"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "PRAVEEN"
+   },
+   {
+    "name": "MOIRA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "AN"
+   },
+   {
+    "role": "OBERON",
+    "name": "YI",
+    "assassin": false
+   },
+   {
+    "name": "LL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHEVIN",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "PRAVEEN",
+    "MOIRA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "YI",
+      "MOIRA"
+     ],
+     "proposer": "YI",
+     "votes": [
+      "JASMINE",
+      "YI"
+     ]
+    },
+    {
+     "proposer": "LL",
+     "state": "REJECTED",
+     "votes": [
+      "MOIRA",
+      "LL"
+     ],
+     "team": [
+      "LL",
+      "MOIRA"
+     ]
+    },
+    {
+     "proposer": "PRAVEEN",
+     "team": [
+      "PRAVEEN",
+      "MOIRA"
+     ],
+     "votes": [
+      "YI",
+      "CHEVIN",
+      "JASMINE",
+      "PRAVEEN",
+      "MOIRA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "MOIRA",
+      "PRAVEEN",
+      "LL"
+     ],
+     "votes": [
+      "CHEVIN",
+      "LL",
+      "YI"
+     ],
+     "proposer": "MOIRA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "PRAVEEN",
+      "MOIRA",
+      "JASMINE"
+     ],
+     "proposer": "JASMINE",
+     "votes": [
+      "CHEVIN",
+      "PRAVEEN",
+      "MOIRA"
+     ]
+    },
+    {
+     "team": [
+      "AN",
+      "JASMINE",
+      "YI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "YI"
+     ],
+     "proposer": "AN"
+    },
+    {
+     "team": [
+      "CHEVIN",
+      "PRAVEEN",
+      "MOIRA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PRAVEEN",
+      "MOIRA",
+      "AN",
+      "CHEVIN",
+      "LL",
+      "JASMINE"
+     ],
+     "proposer": "CHEVIN"
+    }
+   ],
+   "team": [
+    "CHEVIN",
+    "PRAVEEN",
+    "MOIRA"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "YI",
+      "PRAVEEN",
+      "MOIRA"
+     ],
+     "state": "REJECTED",
+     "proposer": "YI",
+     "votes": [
+      "PRAVEEN",
+      "YI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MOIRA",
+      "AN",
+      "LL",
+      "JASMINE"
+     ],
+     "team": [
+      "LL",
+      "JASMINE",
+      "AN"
+     ],
+     "proposer": "LL"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "LL",
+    "JASMINE",
+    "AN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "AN",
+    "LL",
+    "JASMINE",
+    "MOIRA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "PRAVEEN",
+      "CHEVIN"
+     ],
+     "team": [
+      "LL",
+      "MOIRA",
+      "AN",
+      "PRAVEEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "PRAVEEN"
+    },
+    {
+     "votes": [
+      "JASMINE",
+      "MOIRA",
+      "AN",
+      "LL",
+      "CHEVIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MOIRA",
+     "team": [
+      "AN",
+      "LL",
+      "JASMINE",
+      "MOIRA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  },
+  {
+   "uid": "hJeFLpAxnFMEypzHti9SffWE3px1",
+   "name": "YI"
+  },
+  {
+   "uid": "1bkbk09boMYSV5pWJPdUEBUELvf2",
+   "name": "LL"
+  },
+  {
+   "name": "PRAVEEN",
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2"
+  },
+  {
+   "name": "MOIRA",
+   "uid": "wmW7nsKi71hbFvaOpNedH7VJfBp2"
+  },
+  {
+   "uid": "BxJb0DIQGxcyqPgk7W0EgHfAvqI2",
+   "name": "JASMINE"
+  },
+  {
+   "name": "AN",
+   "uid": "fkS5ZYpOT3N3cgqn0bzao5y0aaY2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591491445,
+  "_nanoseconds": 391000000
+ },
+ "timeFinished": {
+  "_seconds": 1591492005,
+  "_nanoseconds": 991000000
+ }
+}

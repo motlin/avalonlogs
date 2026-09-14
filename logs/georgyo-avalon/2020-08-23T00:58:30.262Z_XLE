@@ -1,0 +1,276 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "JESSICA",
+    "PAUL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JESSICA",
+      "PAUL",
+      "GALAHAD",
+      "HOLLY",
+      "SAMANTHA"
+     ],
+     "state": "APPROVED",
+     "proposer": "JESSICA",
+     "team": [
+      "JESSICA",
+      "PAUL"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "HOLLY",
+      "JESSICA",
+      "SAMANTHA",
+      "GALAHAD"
+     ],
+     "proposer": "GALAHAD",
+     "state": "APPROVED",
+     "team": [
+      "JESSICA",
+      "PAUL",
+      "GALAHAD"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JESSICA",
+    "PAUL",
+    "GALAHAD"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PAUL",
+      "GLEN",
+      "GALAHAD"
+     ],
+     "team": [
+      "GALAHAD",
+      "GLEN",
+      "PAUL",
+      "HOLLY"
+     ],
+     "state": "REJECTED",
+     "proposer": "GLEN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "HOLLY",
+      "SAMANTHA",
+      "JESSICA",
+      "GLEN"
+     ],
+     "votes": [
+      "HOLLY",
+      "SAMANTHA"
+     ],
+     "proposer": "HOLLY"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "GALAHAD",
+      "GLEN",
+      "HOLLY",
+      "PAUL"
+     ],
+     "votes": [
+      "GLEN",
+      "JESSICA",
+      "PAUL",
+      "GALAHAD",
+      "HOLLY"
+     ],
+     "proposer": "PAUL"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "GALAHAD",
+    "GLEN",
+    "HOLLY",
+    "PAUL"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SAMANTHA",
+      "HOLLY",
+      "PAUL"
+     ],
+     "proposer": "SAMANTHA",
+     "votes": [
+      "SAMANTHA",
+      "JESSICA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JESSICA",
+     "team": [
+      "JESSICA",
+      "PAUL",
+      "HOLLY"
+     ],
+     "votes": [
+      "SAMANTHA",
+      "JESSICA"
+     ]
+    },
+    {
+     "votes": [
+      "HOLLY",
+      "PAUL",
+      "GLEN",
+      "GALAHAD"
+     ],
+     "team": [
+      "HOLLY",
+      "GLEN",
+      "GALAHAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "GALAHAD"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "HOLLY",
+    "GLEN",
+    "GALAHAD"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "MUkHhrDx39WTzDXqq3cEgrmO4wb2",
+   "name": "GALAHAD"
+  },
+  {
+   "name": "GLEN",
+   "uid": "ugnKNhZPRZbqhZ9wVoBGmuiQDhx1"
+  },
+  {
+   "uid": "AzTgDwYlkDRsC5bpZ4k7lAMh28J2",
+   "name": "HOLLY"
+  },
+  {
+   "uid": "3H2UhJ1Cllfazu1TZ13e5SBrQOy1",
+   "name": "PAUL"
+  },
+  {
+   "uid": "UwSUHshg1KPDngx3YUSi1pUTIjL2",
+   "name": "SAMANTHA"
+  },
+  {
+   "name": "JESSICA",
+   "uid": "mPN3PIMVeVMvtD3YddGLDs9T6AX2"
+  }
+ ],
+ "outcome": {
+  "assassinated": "GALAHAD",
+  "roles": [
+   {
+    "name": "HOLLY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "SAMANTHA"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JESSICA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GALAHAD"
+   },
+   {
+    "role": "MERLIN",
+    "name": "PAUL",
+    "assassin": false
+   },
+   {
+    "name": "GLEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JESSICA": true,
+    "PAUL": true
+   },
+   {
+    "JESSICA": false,
+    "PAUL": true,
+    "GALAHAD": true
+   },
+   {
+    "GLEN": true,
+    "GALAHAD": true,
+    "HOLLY": true,
+    "PAUL": true
+   },
+   {
+    "GALAHAD": true,
+    "HOLLY": true,
+    "GLEN": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1598144738,
+  "_nanoseconds": 443000000
+ },
+ "timeCreated": {
+  "_seconds": 1598144310,
+  "_nanoseconds": 262000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

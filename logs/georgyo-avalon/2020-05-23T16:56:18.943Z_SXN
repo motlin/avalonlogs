@@ -1,0 +1,296 @@
+{
+ "timeCreated": {
+  "_seconds": 1590252978,
+  "_nanoseconds": 943000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "name": "WEI",
+    "role": "MORGANA"
+   },
+   {
+    "name": "ROBIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "DAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "GANSKIES",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "CHEESE",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "PERCIVALS",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SOVEREIGN",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "PROVIDENCE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SOVEREIGN": false,
+    "DAN": true,
+    "PROVIDENCE": true
+   },
+   {
+    "WEI": true,
+    "ROBIN": true,
+    "CHEESE": true,
+    "DAN": true
+   },
+   {
+    "CHEESE": true,
+    "DAN": true,
+    "WEI": true,
+    "ROBIN": true
+   },
+   {
+    "ROBIN": true,
+    "CHEESE": false,
+    "SOVEREIGN": false,
+    "DAN": true,
+    "WEI": false
+   },
+   {
+    "PERCIVALS": true,
+    "PROVIDENCE": true,
+    "CHEESE": false,
+    "GANSKIES": true,
+    "DAN": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "f6AxJ6Tnh8SnMxKKrxFIP0QzLVE3",
+   "name": "GANSKIES"
+  },
+  {
+   "uid": "w2ngiDASElTWBTMXd9fdYpBlSNx1",
+   "name": "PROVIDENCE"
+  },
+  {
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2",
+   "name": "ROBIN"
+  },
+  {
+   "uid": "7JjF9PyanfdT52w3fzNckmSY8Dn1",
+   "name": "DAN"
+  },
+  {
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22",
+   "name": "SOVEREIGN"
+  },
+  {
+   "name": "CHEESE",
+   "uid": "yD0Arogk0PNpBhI0FTxD7oPL5kt1"
+  },
+  {
+   "uid": "qPIYra8LXHcID7Vmxts9q32GUGq2",
+   "name": "PERCIVALS"
+  },
+  {
+   "name": "WEI",
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590253888,
+  "_nanoseconds": 137000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PROVIDENCE",
+     "votes": [
+      "PROVIDENCE",
+      "ROBIN",
+      "DAN",
+      "GANSKIES",
+      "CHEESE",
+      "PERCIVALS",
+      "SOVEREIGN"
+     ],
+     "team": [
+      "PROVIDENCE",
+      "SOVEREIGN",
+      "DAN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "PROVIDENCE",
+    "SOVEREIGN",
+    "DAN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ROBIN",
+    "WEI",
+    "DAN",
+    "CHEESE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ROBIN",
+      "WEI",
+      "DAN",
+      "CHEESE"
+     ],
+     "votes": [
+      "SOVEREIGN",
+      "WEI",
+      "ROBIN",
+      "DAN",
+      "GANSKIES",
+      "CHEESE"
+     ],
+     "proposer": "ROBIN"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ROBIN",
+      "DAN",
+      "WEI",
+      "CHEESE"
+     ],
+     "state": "APPROVED",
+     "proposer": "DAN",
+     "votes": [
+      "DAN",
+      "GANSKIES",
+      "CHEESE",
+      "PERCIVALS",
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "WEI",
+      "ROBIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ROBIN",
+    "DAN",
+    "WEI",
+    "CHEESE"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 5,
+   "numFails": 3,
+   "proposals": [
+    {
+     "team": [
+      "ROBIN",
+      "DAN",
+      "WEI",
+      "CHEESE",
+      "SOVEREIGN"
+     ],
+     "votes": [
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "WEI",
+      "ROBIN",
+      "DAN",
+      "GANSKIES",
+      "PERCIVALS"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOVEREIGN"
+    }
+   ],
+   "team": [
+    "ROBIN",
+    "DAN",
+    "WEI",
+    "CHEESE",
+    "SOVEREIGN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 2
+  },
+  {
+   "team": [
+    "GANSKIES",
+    "PROVIDENCE",
+    "PERCIVALS",
+    "CHEESE",
+    "DAN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "DAN",
+      "GANSKIES",
+      "CHEESE",
+      "PERCIVALS",
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "WEI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GANSKIES",
+      "PROVIDENCE",
+      "PERCIVALS",
+      "CHEESE",
+      "DAN"
+     ],
+     "proposer": "CHEESE"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}
