@@ -1,0 +1,224 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1613423309,
+  "_nanoseconds": 317000000
+ },
+ "players": [
+  {
+   "name": "MOROTO",
+   "uid": "yTdgYUCLPeS45fCfpFqtC4TOh5x1"
+  },
+  {
+   "name": "BRAEDON",
+   "uid": "ZgJFrlu6CMT4TL4XskASinY85Bk2"
+  },
+  {
+   "name": "ALEC",
+   "uid": "iZBEYoYKxscYsvOLN1BKw2xML0A3"
+  },
+  {
+   "name": "TARA",
+   "uid": "tPsjnnR2lOeDRp3k7enwqKeRrNH3"
+  },
+  {
+   "name": "DADDIO",
+   "uid": "Txd9ZijzaaNtwOxoirWKJHbKlc03"
+  },
+  {
+   "uid": "8VQYPfYyHMgjDVGcavpHrgsSEOp1",
+   "name": "MOMMA"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TARA",
+    "assassin": false
+   },
+   {
+    "name": "BRAEDON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "MOMMA"
+   },
+   {
+    "name": "ALEC",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DADDIO",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MOROTO",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "BRAEDON": true,
+    "MOROTO": true
+   },
+   {
+    "TARA": true,
+    "ALEC": false,
+    "BRAEDON": true
+   },
+   {
+    "MOROTO": true,
+    "BRAEDON": true,
+    "TARA": true,
+    "DADDIO": true
+   },
+   {
+    "TARA": true,
+    "BRAEDON": true,
+    "DADDIO": true
+   }
+  ],
+  "assassinated": "BRAEDON"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "BRAEDON",
+     "state": "APPROVED",
+     "votes": [
+      "TARA",
+      "MOMMA",
+      "DADDIO",
+      "ALEC",
+      "MOROTO",
+      "BRAEDON"
+     ],
+     "team": [
+      "BRAEDON",
+      "MOROTO"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "BRAEDON",
+    "MOROTO"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ALEC",
+     "team": [
+      "ALEC",
+      "BRAEDON",
+      "TARA"
+     ],
+     "votes": [
+      "DADDIO",
+      "ALEC",
+      "TARA",
+      "MOROTO",
+      "BRAEDON",
+      "MOMMA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "ALEC",
+    "BRAEDON",
+    "TARA"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "TARA",
+    "MOROTO",
+    "DADDIO",
+    "BRAEDON"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TARA",
+     "team": [
+      "TARA",
+      "MOROTO",
+      "DADDIO",
+      "BRAEDON"
+     ],
+     "votes": [
+      "BRAEDON",
+      "DADDIO",
+      "TARA",
+      "MOROTO"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DADDIO",
+     "votes": [
+      "MOMMA",
+      "BRAEDON",
+      "MOROTO",
+      "DADDIO",
+      "TARA"
+     ],
+     "team": [
+      "DADDIO",
+      "TARA",
+      "BRAEDON"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "DADDIO",
+    "TARA",
+    "BRAEDON"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1613422821,
+  "_nanoseconds": 428000000
+ }
+}

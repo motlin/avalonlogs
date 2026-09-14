@@ -1,0 +1,275 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": "RUST",
+  "votes": [
+   {
+    "DORSPLEEN": false,
+    "METH": true
+   },
+   {
+    "GIGGLES": true,
+    "METH": true,
+    "RAYA": true
+   },
+   {
+    "RAYA": true,
+    "GIGGLES": true,
+    "RUST": true,
+    "METH": true
+   },
+   {
+    "RUST": true,
+    "RAYA": true,
+    "GIGGLES": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "RAYA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "RUST"
+   },
+   {
+    "assassin": true,
+    "name": "DIMPY",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "METH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GIGGLES"
+   },
+   {
+    "assassin": false,
+    "name": "DORSPLEEN",
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeCreated": {
+  "_seconds": 1594526710,
+  "_nanoseconds": 13000000
+ },
+ "timeFinished": {
+  "_seconds": 1594528393,
+  "_nanoseconds": 468000000
+ },
+ "players": [
+  {
+   "name": "RUST",
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3"
+  },
+  {
+   "name": "RAYA",
+   "uid": "X8WTjomlxzPri8T9ltn0aFIpzVC3"
+  },
+  {
+   "name": "METH",
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2"
+  },
+  {
+   "name": "DORSPLEEN",
+   "uid": "l7l07v1E3Gc06hvPX1Jt0GKfH8E2"
+  },
+  {
+   "uid": "1MbncmMJqjYjX0UKL4IDMyU5x0m1",
+   "name": "DIMPY"
+  },
+  {
+   "name": "GIGGLES",
+   "uid": "ERyQcl16HGQPkTh9RpRl6dKKOnH2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "DORSPLEEN",
+      "METH"
+     ],
+     "proposer": "DIMPY",
+     "votes": [
+      "GIGGLES",
+      "DORSPLEEN",
+      "METH",
+      "DIMPY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "DORSPLEEN",
+    "METH"
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "GIGGLES",
+      "RAYA",
+      "METH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RUST",
+      "METH",
+      "GIGGLES",
+      "RAYA"
+     ],
+     "proposer": "GIGGLES"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "GIGGLES",
+    "RAYA",
+    "METH"
+   ]
+  },
+  {
+   "team": [
+    "RUST",
+    "RAYA",
+    "METH",
+    "GIGGLES"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "RUST",
+      "METH",
+      "GIGGLES"
+     ],
+     "team": [
+      "RUST",
+      "RAYA",
+      "METH",
+      "GIGGLES"
+     ],
+     "state": "REJECTED",
+     "proposer": "RUST"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DIMPY",
+      "DORSPLEEN"
+     ],
+     "team": [
+      "RAYA",
+      "GIGGLES",
+      "DORSPLEEN",
+      "METH"
+     ],
+     "proposer": "RAYA"
+    },
+    {
+     "team": [
+      "RUST",
+      "RAYA",
+      "METH",
+      "GIGGLES"
+     ],
+     "votes": [
+      "RAYA",
+      "RUST",
+      "METH",
+      "GIGGLES",
+      "DORSPLEEN"
+     ],
+     "proposer": "METH",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "GIGGLES",
+    "RAYA",
+    "RUST"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "GIGGLES",
+      "RAYA",
+      "DORSPLEEN"
+     ],
+     "proposer": "DORSPLEEN",
+     "state": "REJECTED",
+     "votes": [
+      "DIMPY",
+      "DORSPLEEN"
+     ]
+    },
+    {
+     "proposer": "DIMPY",
+     "team": [
+      "RAYA",
+      "DIMPY",
+      "GIGGLES"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DORSPLEEN",
+      "DIMPY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "GIGGLES",
+      "RAYA",
+      "RUST"
+     ],
+     "proposer": "GIGGLES",
+     "votes": [
+      "GIGGLES",
+      "RAYA",
+      "RUST",
+      "METH"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ]
+}

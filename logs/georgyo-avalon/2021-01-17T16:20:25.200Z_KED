@@ -1,0 +1,228 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DEN": true,
+    "FEEFS": true
+   },
+   {
+    "FEEFS": true,
+    "JOE": true,
+    "MIKE": false
+   },
+   {
+    "ND": true,
+    "FEEFS": true
+   },
+   {
+    "DEN": false,
+    "ND": true,
+    "FEEFS": true
+   },
+   {
+    "JOE": true,
+    "ND": true,
+    "FEEFS": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JOE"
+   },
+   {
+    "name": "FEEFS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DEN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "name": "MIKE",
+    "assassin": false
+   },
+   {
+    "name": "ND",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "assassinated": "ND"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "DEN",
+    "FEEFS"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "MIKE",
+      "JOE",
+      "ND",
+      "DEN",
+      "FEEFS"
+     ],
+     "proposer": "MIKE",
+     "state": "APPROVED",
+     "team": [
+      "DEN",
+      "FEEFS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MIKE",
+    "FEEFS",
+    "JOE"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MIKE",
+      "FEEFS",
+      "JOE"
+     ],
+     "proposer": "DEN",
+     "votes": [
+      "MIKE",
+      "FEEFS",
+      "JOE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "ND",
+    "FEEFS"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JOE",
+      "FEEFS",
+      "ND"
+     ],
+     "team": [
+      "ND",
+      "FEEFS"
+     ],
+     "proposer": "ND"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "FEEFS",
+      "ND",
+      "DEN",
+      "JOE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FEEFS",
+      "ND",
+      "DEN"
+     ],
+     "proposer": "FEEFS"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FEEFS",
+    "ND",
+    "DEN"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ND",
+      "FEEFS",
+      "JOE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FEEFS",
+      "ND",
+      "JOE"
+     ],
+     "proposer": "JOE"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "ND",
+    "FEEFS",
+    "JOE"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "PHim6ip66SZHOr0kj7YxyjMrv8o2",
+   "name": "MIKE"
+  },
+  {
+   "name": "DEN",
+   "uid": "ywHqpFS7FfdOoAD1BS282rNzD1H2"
+  },
+  {
+   "name": "ND",
+   "uid": "lPYxFpeJAoYfHZoTSWFjfpvEs7B3"
+  },
+  {
+   "name": "FEEFS",
+   "uid": "QiceSEq9q5PWzTDLM4BKrDNbOvK2"
+  },
+  {
+   "uid": "phmdP3l6kbdCy3eAxUpzu6AYvvH3",
+   "name": "JOE"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1610900841,
+  "_nanoseconds": 393000000
+ },
+ "timeCreated": {
+  "_seconds": 1610900425,
+  "_nanoseconds": 200000000
+ }
+}

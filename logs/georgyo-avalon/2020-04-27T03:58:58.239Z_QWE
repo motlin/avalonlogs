@@ -1,0 +1,237 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "EM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "RORO"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "GURD"
+   },
+   {
+    "assassin": false,
+    "name": "BOB",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JACKIE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KAREN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "MEECHY",
+    "role": "MERLIN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KAREN": true,
+    "EM": true
+   },
+   {
+    "BOB": true,
+    "EM": true,
+    "KAREN": true
+   },
+   {
+    "BOB": false,
+    "KAREN": true,
+    "JACKIE": true
+   },
+   {
+    "KAREN": true,
+    "EM": true,
+    "GURD": true,
+    "MEECHY": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "MEECHY"
+ },
+ "timeFinished": {
+  "_seconds": 1587960139,
+  "_nanoseconds": 628000000
+ },
+ "players": [
+  {
+   "uid": "xBDVjvpBRebuHideNnoIcaxofLC3",
+   "name": "BOB"
+  },
+  {
+   "uid": "yLAkQMScojeE9vRYF6crXyXJix52",
+   "name": "RORO"
+  },
+  {
+   "uid": "iZiRhBMF9PP30lxHdDj6qbVIebP2",
+   "name": "GURD"
+  },
+  {
+   "uid": "Tac5pqX63lgNHmCT1zjqEjLlrrE2",
+   "name": "MEECHY"
+  },
+  {
+   "uid": "IBAyrHOGFhWVjf4UdF3rQmXqOrE2",
+   "name": "JACKIE"
+  },
+  {
+   "uid": "B1wHtVFkPmaboZhvjjK4CbLdqbs2",
+   "name": "EM"
+  },
+  {
+   "uid": "QFw5F0S2t6VIYjbVEaM3iyB1TDu1",
+   "name": "KAREN"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "GURD",
+      "BOB",
+      "JACKIE",
+      "KAREN",
+      "MEECHY",
+      "EM",
+      "RORO"
+     ],
+     "team": [
+      "KAREN",
+      "EM"
+     ],
+     "state": "APPROVED",
+     "proposer": "KAREN"
+    }
+   ],
+   "team": [
+    "KAREN",
+    "EM"
+   ]
+  },
+  {
+   "team": [
+    "KAREN",
+    "EM",
+    "BOB"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KAREN",
+      "EM",
+      "BOB"
+     ],
+     "proposer": "BOB",
+     "votes": [
+      "MEECHY",
+      "EM",
+      "RORO",
+      "GURD",
+      "BOB",
+      "JACKIE",
+      "KAREN"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "KAREN",
+    "JACKIE",
+    "BOB"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RORO",
+     "votes": [
+      "RORO",
+      "JACKIE",
+      "KAREN",
+      "MEECHY"
+     ],
+     "team": [
+      "KAREN",
+      "JACKIE",
+      "BOB"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "RORO",
+      "GURD",
+      "BOB",
+      "JACKIE",
+      "KAREN",
+      "MEECHY",
+      "EM"
+     ],
+     "team": [
+      "GURD",
+      "KAREN",
+      "EM",
+      "MEECHY"
+     ],
+     "state": "APPROVED",
+     "proposer": "GURD"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 0,
+   "team": [
+    "GURD",
+    "KAREN",
+    "EM",
+    "MEECHY"
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587959938,
+  "_nanoseconds": 239000000
+ }
+}

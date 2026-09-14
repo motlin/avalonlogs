@@ -1,0 +1,269 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TIM",
+      "DIANA",
+      "CHRIS"
+     ],
+     "votes": [
+      "MICHELLE",
+      "CONNIE",
+      "DIANA",
+      "CHRIS",
+      "TIM"
+     ],
+     "state": "APPROVED",
+     "proposer": "TIM"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "TIM",
+    "DIANA",
+    "CHRIS"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "CONNIE",
+    "TIM",
+    "DIANA",
+    "CHRIS"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "CONNIE",
+      "TIM",
+      "DIANA",
+      "CHRIS"
+     ],
+     "proposer": "CONNIE",
+     "state": "APPROVED",
+     "votes": [
+      "DAVID",
+      "MICHELLE",
+      "CONNIE",
+      "DIANA",
+      "CHRIS"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "BERT",
+     "votes": [
+      "BERT",
+      "DAVID",
+      "CONNIE",
+      "CHRIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BERT",
+      "DAVID",
+      "CONNIE",
+      "CHRIS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DAVID",
+      "MICHELLE",
+      "DIANA",
+      "CHRIS",
+      "TIM",
+      "THOMAS"
+     ],
+     "team": [
+      "DIANA",
+      "TIM",
+      "THOMAS",
+      "DAVID"
+     ],
+     "proposer": "DIANA"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "DIANA",
+    "TIM",
+    "THOMAS",
+    "DAVID"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TIM",
+      "THOMAS",
+      "BERT",
+      "DAVID",
+      "CONNIE",
+      "DIANA",
+      "CHRIS"
+     ],
+     "team": [
+      "DAVID",
+      "CHRIS",
+      "TIM",
+      "DIANA",
+      "BERT"
+     ],
+     "proposer": "DAVID"
+    }
+   ],
+   "team": [
+    "DAVID",
+    "CHRIS",
+    "TIM",
+    "DIANA",
+    "BERT"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "uid": "SqiaA6X0CjVOxMDPmyjFvcsayX03",
+   "name": "DIANA"
+  },
+  {
+   "name": "DAVID",
+   "uid": "UQJFUagMgcQ2aPTmCXk2tN18Gp73"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "WW9UDSJTWjcv5IEHdIzn4W3pC0F3"
+  },
+  {
+   "uid": "NRa4Y5BvIRUu0NJtNcgsbihHeRV2",
+   "name": "MICHELLE"
+  },
+  {
+   "uid": "U3BfWb5BfHQ0FbnqlzsGEnbrg5p2",
+   "name": "THOMAS"
+  },
+  {
+   "name": "TIM",
+   "uid": "EZ6man5jV1Ws1fTtrxeAIajz8ky2"
+  },
+  {
+   "name": "CONNIE",
+   "uid": "nDW0mIuS9idaEFCyUTBMi9vFZC22"
+  },
+  {
+   "name": "BERT",
+   "uid": "eCKmhiK0TkYGWHSphHGtFfli6Wt2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585874073,
+  "_nanoseconds": 195706000
+ },
+ "timeCreated": {
+  "_seconds": 1585873225,
+  "_nanoseconds": 391000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "TIM": true,
+    "DIANA": true,
+    "CHRIS": true
+   },
+   {
+    "TIM": false,
+    "CHRIS": true,
+    "CONNIE": true,
+    "DIANA": true
+   },
+   {
+    "TIM": false,
+    "THOMAS": true,
+    "DIANA": true,
+    "DAVID": true
+   },
+   {
+    "DIANA": true,
+    "TIM": false,
+    "BERT": true,
+    "DAVID": true,
+    "CHRIS": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "CHRIS"
+   },
+   {
+    "role": "MORDRED",
+    "name": "TIM",
+    "assassin": false
+   },
+   {
+    "name": "THOMAS",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "BERT",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "DAVID"
+   },
+   {
+    "name": "MICHELLE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CONNIE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DIANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ }
+}

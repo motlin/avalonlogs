@@ -1,0 +1,252 @@
+{
+ "players": [
+  {
+   "uid": "yaz0bzcU0iTaLQQcU9SYkeaGRkk2",
+   "name": "MATTHEW"
+  },
+  {
+   "name": "TRENT",
+   "uid": "4yg2kMlkHdXCnURNU4AgopkDIeI2"
+  },
+  {
+   "name": "TIMOTHY",
+   "uid": "kcpOjnQ3eUUVzSSuSNdsI7Xd0ps2"
+  },
+  {
+   "uid": "dvP3ZChKHEXwjqYh6sWDkAZO83t1",
+   "name": "ETHAN"
+  },
+  {
+   "name": "JOSEPH",
+   "uid": "zg7Dh7Cte5Y6dv10hqsuuk2HVJh1"
+  },
+  {
+   "uid": "4uyJSpvDknOBixmQAZ2Xq1OoHiB3",
+   "name": "JEDIHOTDOG"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "JOSEPH",
+     "state": "APPROVED",
+     "votes": [
+      "JOSEPH",
+      "JEDIHOTDOG",
+      "TRENT",
+      "MATTHEW",
+      "ETHAN",
+      "TIMOTHY"
+     ],
+     "team": [
+      "MATTHEW",
+      "JOSEPH"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "MATTHEW",
+    "JOSEPH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "MATTHEW",
+    "JOSEPH",
+    "TRENT"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MATTHEW",
+      "JOSEPH",
+      "TRENT"
+     ],
+     "proposer": "JEDIHOTDOG",
+     "votes": [
+      "TRENT",
+      "ETHAN",
+      "JOSEPH",
+      "TIMOTHY",
+      "JEDIHOTDOG"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "MATTHEW",
+    "TRENT",
+    "JOSEPH",
+    "ETHAN"
+   ],
+   "proposals": [
+    {
+     "proposer": "MATTHEW",
+     "team": [
+      "MATTHEW",
+      "TRENT",
+      "JOSEPH",
+      "ETHAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MATTHEW",
+      "JOSEPH",
+      "ETHAN",
+      "TRENT"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TRENT",
+      "TIMOTHY",
+      "JOSEPH"
+     ],
+     "votes": [
+      "MATTHEW",
+      "TRENT",
+      "ETHAN",
+      "JOSEPH",
+      "TIMOTHY"
+     ],
+     "proposer": "TRENT"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TRENT",
+    "TIMOTHY",
+    "JOSEPH"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "TIMOTHY",
+      "JEDIHOTDOG",
+      "ETHAN",
+      "JOSEPH"
+     ],
+     "proposer": "TIMOTHY",
+     "votes": [
+      "JOSEPH",
+      "TIMOTHY",
+      "ETHAN",
+      "JEDIHOTDOG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "TIMOTHY",
+    "JEDIHOTDOG",
+    "ETHAN",
+    "JOSEPH"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1611457865,
+  "_nanoseconds": 530000000
+ },
+ "timeCreated": {
+  "_seconds": 1611456838,
+  "_nanoseconds": 936000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MATTHEW": true,
+    "JOSEPH": true
+   },
+   {
+    "MATTHEW": true,
+    "JOSEPH": true,
+    "TRENT": true
+   },
+   {
+    "ETHAN": true,
+    "MATTHEW": true,
+    "JOSEPH": false,
+    "TRENT": true
+   },
+   {
+    "JOSEPH": false,
+    "TIMOTHY": true,
+    "TRENT": true
+   },
+   {
+    "JEDIHOTDOG": true,
+    "ETHAN": true,
+    "JOSEPH": false,
+    "TIMOTHY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "TRENT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MATTHEW"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JEDIHOTDOG"
+   },
+   {
+    "assassin": false,
+    "name": "TIMOTHY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JOSEPH",
+    "assassin": false
+   },
+   {
+    "name": "ETHAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null
+ }
+}

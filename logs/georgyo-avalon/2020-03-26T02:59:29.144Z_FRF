@@ -1,0 +1,443 @@
+{
+ "players": [
+  {
+   "name": "DAN",
+   "uid": "cJtj9t3BMWhqXlSBklZPkT209KR2"
+  },
+  {
+   "uid": "gyiwwU0P58ahYttcfegeM0n4fi33",
+   "name": "JET"
+  },
+  {
+   "name": "OWEN",
+   "uid": "qR5nuybAoccU1CGPIv3LK8LuYsV2"
+  },
+  {
+   "uid": "TF7eIJHQBVT0qNw8571osrNZq6j1",
+   "name": "KERRAN"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "jxOWMCCcPpM8Hj0Wh6pphDmQRTj2"
+  },
+  {
+   "uid": "zFPa9mnjFKeS6Hde2OsU7Wut3QH3",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "KEN",
+   "uid": "qHZf7NHEVia8tmuVEVXQNgIFvFr2"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "NIKOLAI": false,
+    "DAN": true
+   },
+   {
+    "KEN": true,
+    "OWEN": true,
+    "DAN": true
+   },
+   {
+    "KEN": true,
+    "DAN": false,
+    "OWEN": true
+   },
+   {
+    "OWEN": true,
+    "NIKHIL": true,
+    "JET": true,
+    "KERRAN": true
+   },
+   {
+    "OWEN": false,
+    "NIKHIL": true,
+    "JET": true,
+    "KERRAN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NIKHIL",
+    "assassin": false
+   },
+   {
+    "name": "JET",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KERRAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "OWEN"
+   },
+   {
+    "name": "KEN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "DAN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "NIKOLAI"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1585192860,
+  "_nanoseconds": 82397000
+ },
+ "timeCreated": {
+  "_seconds": 1585191569,
+  "_nanoseconds": 144000000
+ },
+ "missions": [
+  {
+   "team": [
+    "DAN",
+    "NIKOLAI"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "NIKOLAI",
+      "KEN"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "JET",
+      "KEN"
+     ]
+    },
+    {
+     "team": [
+      "KEN",
+      "NIKOLAI"
+     ],
+     "proposer": "KEN",
+     "state": "REJECTED",
+     "votes": [
+      "KEN",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "votes": [
+      "JET",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "team": [
+      "DAN",
+      "NIKOLAI"
+     ],
+     "proposer": "DAN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "KERRAN",
+      "OWEN",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "team": [
+      "DAN",
+      "NIKOLAI"
+     ],
+     "proposer": "JET"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "OWEN",
+      "KEN",
+      "KERRAN"
+     ],
+     "votes": [],
+     "proposer": "OWEN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KERRAN",
+      "OWEN",
+      "KEN"
+     ],
+     "votes": [
+      "KERRAN",
+      "OWEN"
+     ],
+     "proposer": "KERRAN"
+    },
+    {
+     "votes": [
+      "KERRAN",
+      "NIKHIL",
+      "JET"
+     ],
+     "team": [
+      "NIKHIL",
+      "KEN",
+      "KERRAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKHIL"
+    },
+    {
+     "votes": [
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKOLAI",
+      "KEN",
+      "OWEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKOLAI"
+    },
+    {
+     "team": [
+      "KEN",
+      "DAN",
+      "OWEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "KEN",
+     "votes": [
+      "JET",
+      "KERRAN",
+      "OWEN",
+      "KEN",
+      "DAN",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "team": [
+    "KEN",
+    "DAN",
+    "OWEN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KERRAN",
+      "OWEN",
+      "KEN",
+      "DAN",
+      "NIKHIL"
+     ],
+     "team": [
+      "DAN",
+      "KEN",
+      "OWEN"
+     ],
+     "proposer": "DAN"
+    }
+   ],
+   "team": [
+    "DAN",
+    "KEN",
+    "OWEN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "NIKHIL",
+    "OWEN",
+    "KERRAN",
+    "JET"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JET"
+     ],
+     "proposer": "JET",
+     "team": [
+      "JET",
+      "KERRAN",
+      "NIKHIL",
+      "KEN"
+     ]
+    },
+    {
+     "votes": [
+      "JET",
+      "KERRAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JET",
+      "OWEN",
+      "KERRAN",
+      "NIKHIL"
+     ],
+     "proposer": "OWEN"
+    },
+    {
+     "proposer": "KERRAN",
+     "state": "REJECTED",
+     "votes": [
+      "KERRAN",
+      "JET"
+     ],
+     "team": [
+      "JET",
+      "OWEN",
+      "KERRAN",
+      "KEN"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "KERRAN",
+      "OWEN",
+      "KEN",
+      "DAN"
+     ],
+     "team": [
+      "NIKHIL",
+      "OWEN",
+      "KERRAN",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIKHIL"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "JET",
+    "OWEN",
+    "KERRAN",
+    "NIKHIL"
+   ],
+   "proposals": [
+    {
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "OWEN",
+      "KERRAN",
+      "NIKHIL",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "team": [
+      "DAN",
+      "KERRAN",
+      "NIKHIL",
+      "KEN"
+     ],
+     "proposer": "KEN",
+     "state": "REJECTED",
+     "votes": [
+      "DAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "DAN",
+     "votes": [
+      "DAN"
+     ],
+     "team": [
+      "DAN",
+      "JET",
+      "NIKHIL",
+      "KERRAN"
+     ]
+    },
+    {
+     "team": [
+      "JET",
+      "KERRAN",
+      "NIKHIL",
+      "KEN"
+     ],
+     "votes": [
+      "JET",
+      "KEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "JET"
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "KERRAN",
+      "OWEN",
+      "DAN"
+     ],
+     "team": [
+      "JET",
+      "OWEN",
+      "KERRAN",
+      "NIKHIL"
+     ],
+     "proposer": "OWEN",
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ]
+}

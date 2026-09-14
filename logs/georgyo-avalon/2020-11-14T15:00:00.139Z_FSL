@@ -1,0 +1,225 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "REGIS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "ELISA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "CHRISTIAN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FABIENNE",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "LAURA"
+   }
+  ],
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "LAURA": true,
+    "FABIENNE": true
+   },
+   {
+    "FABIENNE": true,
+    "REGIS": true,
+    "LAURA": true
+   },
+   {
+    "LAURA": true,
+    "FABIENNE": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "LAURA",
+    "FABIENNE"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHRISTIAN",
+      "FABIENNE"
+     ],
+     "team": [
+      "FABIENNE",
+      "ELISA"
+     ],
+     "proposer": "FABIENNE"
+    },
+    {
+     "proposer": "LAURA",
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "FABIENNE"
+     ],
+     "votes": [
+      "FABIENNE",
+      "ELISA",
+      "CHRISTIAN",
+      "LAURA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CHRISTIAN"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED",
+     "team": [
+      "FABIENNE",
+      "LAURA",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "votes": [
+      "REGIS"
+     ],
+     "team": [
+      "ELISA",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "proposer": "REGIS",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ELISA",
+     "votes": [
+      "ELISA"
+     ],
+     "team": [
+      "ELISA",
+      "FABIENNE",
+      "LAURA"
+     ]
+    },
+    {
+     "proposer": "FABIENNE",
+     "votes": [
+      "REGIS",
+      "FABIENNE",
+      "LAURA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FABIENNE",
+      "LAURA",
+      "REGIS"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "FABIENNE",
+    "LAURA",
+    "REGIS"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "LAURA",
+      "FABIENNE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LAURA",
+      "REGIS",
+      "ELISA",
+      "FABIENNE"
+     ],
+     "proposer": "LAURA"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "LAURA",
+    "FABIENNE"
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [],
+   "proposals": []
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605366698,
+  "_nanoseconds": 406000000
+ },
+ "players": [
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "uid": "dbKmvKJ5dAT9y974xQ1v6mXVRdw2",
+   "name": "ELISA"
+  },
+  {
+   "name": "FABIENNE",
+   "uid": "V8ryY793JBQm57d7B7ljEdKdiQ72"
+  },
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1605366000,
+  "_nanoseconds": 139000000
+ }
+}

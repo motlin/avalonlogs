@@ -1,0 +1,252 @@
+{
+ "players": [
+  {
+   "name": "ERIN",
+   "uid": "xkgeSUDvHSMF8n3I3BQBjN8HD293"
+  },
+  {
+   "name": "RENEE",
+   "uid": "mP5VpOzNbLPeVESLaYt9Mai1WQo2"
+  },
+  {
+   "uid": "CO0ucDe6iFXkXfdWEjHRsWqXpXq1",
+   "name": "DIANE"
+  },
+  {
+   "uid": "FjK49XPkejQ6R4PBh63RqcGR7Uu2",
+   "name": "SYBIL"
+  },
+  {
+   "name": "JOEL",
+   "uid": "xpoVb4oQICPWMG41g9JCbWrSfrE2"
+  },
+  {
+   "name": "AERIN",
+   "uid": "qNMjWbTHMbVN1ixn3Rc61g7PEah2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1609560747,
+  "_nanoseconds": 240000000
+ },
+ "timeCreated": {
+  "_seconds": 1609560119,
+  "_nanoseconds": 652000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "SYBIL",
+      "RENEE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ERIN",
+      "RENEE",
+      "SYBIL",
+      "JOEL",
+      "DIANE"
+     ],
+     "proposer": "JOEL"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SYBIL",
+    "RENEE"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ERIN",
+      "DIANE",
+      "SYBIL"
+     ],
+     "votes": [
+      "ERIN",
+      "RENEE",
+      "DIANE",
+      "JOEL",
+      "SYBIL",
+      "AERIN"
+     ],
+     "proposer": "AERIN"
+    }
+   ],
+   "team": [
+    "ERIN",
+    "DIANE",
+    "SYBIL"
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "AERIN",
+    "RENEE",
+    "ERIN",
+    "DIANE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "AERIN",
+      "RENEE",
+      "ERIN",
+      "DIANE"
+     ],
+     "proposer": "ERIN",
+     "state": "APPROVED",
+     "votes": [
+      "ERIN",
+      "DIANE",
+      "JOEL",
+      "RENEE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "JOEL",
+    "DIANE",
+    "SYBIL"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ERIN",
+      "RENEE",
+      "DIANE",
+      "SYBIL",
+      "JOEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "RENEE",
+     "team": [
+      "JOEL",
+      "DIANE",
+      "SYBIL"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "AERIN",
+    "JOEL",
+    "DIANE",
+    "RENEE"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JOEL",
+      "SYBIL",
+      "RENEE",
+      "DIANE"
+     ],
+     "team": [
+      "AERIN",
+      "JOEL",
+      "DIANE",
+      "RENEE"
+     ],
+     "proposer": "DIANE"
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "RENEE": true,
+    "SYBIL": true
+   },
+   {
+    "DIANE": false,
+    "ERIN": true,
+    "SYBIL": true
+   },
+   {
+    "RENEE": true,
+    "DIANE": true,
+    "ERIN": true,
+    "AERIN": true
+   },
+   {
+    "SYBIL": true,
+    "DIANE": true,
+    "JOEL": false
+   },
+   {
+    "RENEE": true,
+    "JOEL": false,
+    "DIANE": false,
+    "AERIN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SYBIL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ERIN"
+   },
+   {
+    "role": "MORDRED",
+    "name": "DIANE",
+    "assassin": true
+   },
+   {
+    "name": "AERIN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "JOEL",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "RENEE",
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": null
+ }
+}

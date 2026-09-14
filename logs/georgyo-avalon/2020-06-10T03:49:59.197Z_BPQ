@@ -1,0 +1,433 @@
+{
+ "timeFinished": {
+  "_seconds": 1591764821,
+  "_nanoseconds": 450000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "DHRUV": true,
+    "ALEX": true
+   },
+   {
+    "DHRUV": false,
+    "ALEX": true,
+    "MICHAEL": true
+   },
+   {
+    "LIAM": true,
+    "ALEX": true
+   },
+   {
+    "LIAM": true,
+    "MICHAEL": false,
+    "ALEX": true
+   },
+   {
+    "MICHAEL": false,
+    "AWO": true,
+    "ALEX": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ALEX"
+   },
+   {
+    "assassin": false,
+    "name": "AWO",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LIAM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MICHAEL",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "DHRUV",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "players": [
+  {
+   "name": "MICHAEL",
+   "uid": "1x78QMsSA5dEIPjazgO1xInP1Ye2"
+  },
+  {
+   "uid": "RUa1zRxXvgY6810UjGslIsDQHDi1",
+   "name": "LIAM"
+  },
+  {
+   "name": "DHRUV",
+   "uid": "E8Xs6GOKoSNFKPuu9cnRmKqa1fG3"
+  },
+  {
+   "uid": "rsjev61013U5zEB9enqe9YlDXKO2",
+   "name": "AWO"
+  },
+  {
+   "name": "ALEX",
+   "uid": "P352ASvMRPMuqXLKkaCr9dpCSsO2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591760999,
+  "_nanoseconds": 197000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ALEX",
+      "MICHAEL"
+     ],
+     "proposer": "ALEX",
+     "team": [
+      "ALEX",
+      "MICHAEL"
+     ]
+    },
+    {
+     "votes": [
+      "LIAM",
+      "MICHAEL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MICHAEL",
+      "LIAM"
+     ],
+     "proposer": "MICHAEL"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "DHRUV",
+      "LIAM"
+     ],
+     "votes": [
+      "LIAM",
+      "DHRUV"
+     ],
+     "proposer": "LIAM"
+    },
+    {
+     "votes": [
+      "ALEX",
+      "MICHAEL",
+      "DHRUV"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DHRUV",
+      "ALEX"
+     ],
+     "proposer": "DHRUV"
+    }
+   ],
+   "team": [
+    "DHRUV",
+    "ALEX"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "MICHAEL",
+    "DHRUV",
+    "ALEX"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "AWO"
+     ],
+     "proposer": "AWO",
+     "state": "REJECTED",
+     "team": [
+      "AWO",
+      "DHRUV",
+      "LIAM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AWO"
+     ],
+     "proposer": "ALEX",
+     "team": [
+      "LIAM",
+      "AWO",
+      "DHRUV"
+     ]
+    },
+    {
+     "team": [
+      "MICHAEL",
+      "DHRUV",
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MICHAEL"
+     ],
+     "proposer": "MICHAEL"
+    },
+    {
+     "team": [
+      "LIAM",
+      "DHRUV",
+      "ALEX"
+     ],
+     "votes": [
+      "LIAM",
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "proposer": "LIAM"
+    },
+    {
+     "team": [
+      "MICHAEL",
+      "DHRUV",
+      "ALEX"
+     ],
+     "proposer": "DHRUV",
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "AWO",
+      "LIAM",
+      "MICHAEL",
+      "DHRUV"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LIAM",
+    "ALEX"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AWO"
+     ],
+     "team": [
+      "AWO",
+      "DHRUV"
+     ],
+     "proposer": "AWO"
+    },
+    {
+     "proposer": "ALEX",
+     "votes": [
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ALEX",
+      "LIAM"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX",
+      "MICHAEL"
+     ],
+     "proposer": "MICHAEL",
+     "team": [
+      "MICHAEL",
+      "ALEX"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LIAM",
+      "ALEX"
+     ],
+     "votes": [
+      "LIAM",
+      "MICHAEL",
+      "DHRUV",
+      "ALEX"
+     ],
+     "state": "APPROVED",
+     "proposer": "LIAM"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "LIAM",
+    "MICHAEL",
+    "ALEX"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DHRUV"
+     ],
+     "proposer": "DHRUV",
+     "state": "REJECTED",
+     "team": [
+      "DHRUV",
+      "LIAM",
+      "ALEX"
+     ]
+    },
+    {
+     "votes": [],
+     "proposer": "AWO",
+     "team": [
+      "AWO",
+      "ALEX",
+      "MICHAEL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ALEX",
+      "AWO",
+      "MICHAEL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ALEX"
+     ],
+     "proposer": "ALEX"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MICHAEL",
+     "team": [
+      "MICHAEL",
+      "ALEX",
+      "AWO"
+     ],
+     "votes": [
+      "ALEX",
+      "AWO"
+     ]
+    },
+    {
+     "team": [
+      "LIAM",
+      "MICHAEL",
+      "ALEX"
+     ],
+     "votes": [
+      "ALEX",
+      "AWO",
+      "LIAM",
+      "MICHAEL",
+      "DHRUV"
+     ],
+     "proposer": "LIAM",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "MICHAEL",
+    "AWO",
+    "ALEX"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DHRUV"
+     ],
+     "team": [
+      "DHRUV",
+      "LIAM",
+      "ALEX"
+     ],
+     "proposer": "DHRUV"
+    },
+    {
+     "team": [
+      "AWO",
+      "ALEX",
+      "MICHAEL"
+     ],
+     "votes": [
+      "AWO"
+     ],
+     "proposer": "AWO",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ALEX",
+      "AWO",
+      "MICHAEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALEX",
+     "votes": [
+      "ALEX",
+      "AWO"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX",
+      "AWO",
+      "MICHAEL"
+     ],
+     "proposer": "MICHAEL",
+     "team": [
+      "MICHAEL",
+      "AWO",
+      "ALEX"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  }
+ ]
+}

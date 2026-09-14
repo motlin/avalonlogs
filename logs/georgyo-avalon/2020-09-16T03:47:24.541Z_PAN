@@ -1,0 +1,290 @@
+{
+ "players": [
+  {
+   "name": "ISAACAVALO",
+   "uid": "VgHGZdg6hDQikOOLPw2E3ucOQ9B3"
+  },
+  {
+   "name": "MULLBERRY",
+   "uid": "wkMg0TkXecbqWBZi0g08p9hmhjm1"
+  },
+  {
+   "uid": "Cg8Oh5Zyhyd7t6GLNALqE7P1mVe2",
+   "name": "KELLY"
+  },
+  {
+   "name": "GRACIE",
+   "uid": "fw2WsQWP9oSVGRry0wVNl9EUnyA2"
+  },
+  {
+   "name": "ABHIK",
+   "uid": "ooEZqyMtjcgw3moOPnLbzfY50EI2"
+  },
+  {
+   "name": "ANA",
+   "uid": "OFypaVPij4cxIaEYCP48WBnCmjS2"
+  },
+  {
+   "name": "ELLEN",
+   "uid": "0mTgfWde9HM6aXBd4QWZ8XtbaEr1"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ISAACAVALO": true,
+    "MULLBERRY": true
+   },
+   {
+    "GRACIE": true,
+    "ANA": false,
+    "ABHIK": true
+   },
+   {
+    "ISAACAVALO": true,
+    "MULLBERRY": true,
+    "ANA": false
+   },
+   {
+    "MULLBERRY": true,
+    "ELLEN": true,
+    "ISAACAVALO": true,
+    "GRACIE": true
+   },
+   {
+    "GRACIE": true,
+    "ELLEN": true,
+    "MULLBERRY": true,
+    "ISAACAVALO": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "ABHIK",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "ANA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ELLEN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "MULLBERRY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "KELLY",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ISAACAVALO",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GRACIE",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1600228044,
+  "_nanoseconds": 541000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "ISAACAVALO",
+    "MULLBERRY"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ISAACAVALO",
+      "GRACIE",
+      "ANA",
+      "MULLBERRY",
+      "KELLY"
+     ],
+     "team": [
+      "ISAACAVALO",
+      "MULLBERRY"
+     ],
+     "proposer": "ISAACAVALO"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "GRACIE",
+    "ABHIK",
+    "ANA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "GRACIE",
+      "ABHIK",
+      "ANA"
+     ],
+     "votes": [
+      "ELLEN",
+      "GRACIE",
+      "ANA",
+      "ABHIK",
+      "ISAACAVALO",
+      "MULLBERRY"
+     ],
+     "proposer": "MULLBERRY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANA",
+      "KELLY",
+      "GRACIE",
+      "MULLBERRY",
+      "ISAACAVALO",
+      "ELLEN"
+     ],
+     "team": [
+      "ISAACAVALO",
+      "MULLBERRY",
+      "ANA"
+     ],
+     "proposer": "KELLY"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ISAACAVALO",
+    "MULLBERRY",
+    "ANA"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "GRACIE",
+      "ABHIK",
+      "ANA",
+      "ELLEN"
+     ],
+     "proposer": "GRACIE",
+     "team": [
+      "GRACIE",
+      "ISAACAVALO",
+      "MULLBERRY",
+      "ELLEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "GRACIE",
+    "ISAACAVALO",
+    "MULLBERRY",
+    "ELLEN"
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "ELLEN",
+    "GRACIE",
+    "ISAACAVALO",
+    "MULLBERRY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ABHIK",
+     "state": "REJECTED",
+     "votes": [
+      "ABHIK"
+     ],
+     "team": [
+      "ABHIK",
+      "KELLY",
+      "MULLBERRY",
+      "GRACIE"
+     ]
+    },
+    {
+     "votes": [
+      "ANA"
+     ],
+     "team": [
+      "ANA",
+      "MULLBERRY",
+      "ELLEN",
+      "GRACIE"
+     ],
+     "proposer": "ANA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ELLEN",
+      "GRACIE",
+      "ISAACAVALO",
+      "MULLBERRY"
+     ],
+     "votes": [
+      "MULLBERRY",
+      "ELLEN",
+      "ANA",
+      "KELLY",
+      "GRACIE",
+      "ISAACAVALO"
+     ],
+     "proposer": "ELLEN"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1600228806,
+  "_nanoseconds": 455000000
+ }
+}

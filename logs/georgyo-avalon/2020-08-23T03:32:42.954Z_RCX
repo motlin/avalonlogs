@@ -1,0 +1,242 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1598154278,
+  "_nanoseconds": 594000000
+ },
+ "timeCreated": {
+  "_seconds": 1598153562,
+  "_nanoseconds": 954000000
+ },
+ "players": [
+  {
+   "name": "ANJANA",
+   "uid": "Ti7Lw9z4gPPdstAPUOy9rKUZFTG3"
+  },
+  {
+   "uid": "QByb7soR6UR2LDFdRTxxUM88A7I2",
+   "name": "MIKI"
+  },
+  {
+   "uid": "FQ3cUynawHWdo4n8dvcMvZRu3ln1",
+   "name": "VINCENT"
+  },
+  {
+   "name": "JORGE",
+   "uid": "mhGE85IQKQPzHqdze67dr1HvVCh2"
+  },
+  {
+   "uid": "RohdQR83iGRy4vVupOUz3fbCFN92",
+   "name": "NOLA"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JORGE",
+      "MIKI",
+      "ANJANA",
+      "VINCENT",
+      "NOLA"
+     ],
+     "proposer": "NOLA",
+     "team": [
+      "NOLA",
+      "JORGE"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "NOLA",
+    "JORGE"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "NOLA",
+    "JORGE",
+    "VINCENT"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NOLA",
+      "JORGE",
+      "VINCENT"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANJANA",
+     "votes": [
+      "MIKI",
+      "NOLA",
+      "ANJANA",
+      "VINCENT",
+      "JORGE"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "MIKI",
+    "VINCENT"
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MIKI",
+     "votes": [
+      "NOLA",
+      "ANJANA",
+      "MIKI",
+      "JORGE"
+     ],
+     "team": [
+      "MIKI",
+      "VINCENT"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JORGE",
+      "VINCENT",
+      "NOLA"
+     ],
+     "proposer": "VINCENT",
+     "state": "APPROVED",
+     "team": [
+      "JORGE",
+      "VINCENT",
+      "NOLA"
+     ]
+    }
+   ],
+   "team": [
+    "JORGE",
+    "VINCENT",
+    "NOLA"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JORGE",
+     "state": "REJECTED",
+     "votes": [
+      "MIKI"
+     ],
+     "team": [
+      "ANJANA",
+      "MIKI",
+      "JORGE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NOLA",
+      "ANJANA",
+      "VINCENT"
+     ],
+     "proposer": "NOLA",
+     "votes": [
+      "ANJANA",
+      "NOLA",
+      "VINCENT"
+     ]
+    }
+   ],
+   "team": [
+    "NOLA",
+    "ANJANA",
+    "VINCENT"
+   ]
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JORGE": true,
+    "NOLA": true
+   },
+   {
+    "NOLA": true,
+    "VINCENT": true,
+    "JORGE": true
+   },
+   {
+    "MIKI": true,
+    "VINCENT": false
+   },
+   {
+    "NOLA": true,
+    "VINCENT": true,
+    "JORGE": false
+   },
+   {
+    "NOLA": true,
+    "ANJANA": true,
+    "VINCENT": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "JORGE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ANJANA"
+   },
+   {
+    "name": "VINCENT",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MIKI"
+   },
+   {
+    "name": "NOLA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ }
+}

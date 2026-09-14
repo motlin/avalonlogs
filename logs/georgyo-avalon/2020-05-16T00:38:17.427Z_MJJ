@@ -1,0 +1,321 @@
+{
+ "timeFinished": {
+  "_seconds": 1589593131,
+  "_nanoseconds": 449000000
+ },
+ "players": [
+  {
+   "name": "YELIN",
+   "uid": "Cz3L5keyzrOXsD1Vw3ywRib6jJT2"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "olZLki63c0fM8bIO4DG5ru38Jm93"
+  },
+  {
+   "uid": "v9qEYBLTH6anIt55z2vb3kTm08W2",
+   "name": "KARLIN"
+  },
+  {
+   "name": "AARON",
+   "uid": "kOm6DFzZbsgZZuwSeFSr5zmWFzz1"
+  },
+  {
+   "uid": "GF0BaVfxNBZFk9LHgQCRSbZg5g93",
+   "name": "JAMES"
+  },
+  {
+   "name": "ABBY",
+   "uid": "evKDRoGMNibWHGjdXUJncUOvYL93"
+  },
+  {
+   "uid": "Osft2PYKZoSSwUjhagSmKIOFvo83",
+   "name": "JACKIE"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "KARLIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "AARON"
+   },
+   {
+    "name": "JAMES",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "ABBY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JACKIE"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "YELIN"
+   },
+   {
+    "name": "CONNOR",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": "YELIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "CONNOR": true,
+    "YELIN": true
+   },
+   {
+    "ABBY": false,
+    "JAMES": true,
+    "JACKIE": true
+   },
+   {
+    "YELIN": true,
+    "JAMES": false,
+    "CONNOR": true
+   },
+   {
+    "YELIN": true,
+    "CONNOR": true,
+    "JAMES": false,
+    "JACKIE": true
+   },
+   {
+    "JACKIE": true,
+    "CONNOR": true,
+    "KARLIN": true,
+    "YELIN": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589589497,
+  "_nanoseconds": 427000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CONNOR",
+      "YELIN"
+     ],
+     "proposer": "CONNOR",
+     "state": "APPROVED",
+     "votes": [
+      "YELIN",
+      "CONNOR",
+      "AARON",
+      "ABBY",
+      "JACKIE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "CONNOR",
+    "YELIN"
+   ]
+  },
+  {
+   "team": [
+    "JAMES",
+    "ABBY",
+    "JACKIE"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KARLIN",
+      "AARON",
+      "JAMES",
+      "ABBY",
+      "JACKIE"
+     ],
+     "team": [
+      "JAMES",
+      "ABBY",
+      "JACKIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "KARLIN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "AARON",
+     "votes": [
+      "AARON",
+      "JAMES",
+      "ABBY"
+     ],
+     "team": [
+      "AARON",
+      "CONNOR",
+      "JAMES"
+     ]
+    },
+    {
+     "votes": [
+      "JAMES",
+      "ABBY",
+      "JACKIE",
+      "YELIN",
+      "KARLIN",
+      "AARON"
+     ],
+     "team": [
+      "JAMES",
+      "CONNOR",
+      "YELIN"
+     ],
+     "proposer": "JAMES",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "JAMES",
+    "CONNOR",
+    "YELIN"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "ABBY",
+     "votes": [
+      "AARON",
+      "JAMES",
+      "KARLIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ABBY",
+      "CONNOR",
+      "YELIN",
+      "KARLIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAMES",
+      "ABBY",
+      "JACKIE"
+     ],
+     "team": [
+      "JACKIE",
+      "ABBY",
+      "YELIN",
+      "AARON"
+     ],
+     "proposer": "JACKIE"
+    },
+    {
+     "proposer": "YELIN",
+     "state": "APPROVED",
+     "team": [
+      "YELIN",
+      "CONNOR",
+      "JAMES",
+      "JACKIE"
+     ],
+     "votes": [
+      "JAMES",
+      "ABBY",
+      "YELIN",
+      "CONNOR",
+      "AARON"
+     ]
+    }
+   ],
+   "team": [
+    "YELIN",
+    "CONNOR",
+    "JAMES",
+    "JACKIE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CONNOR",
+      "AARON",
+      "JACKIE"
+     ],
+     "proposer": "CONNOR",
+     "team": [
+      "CONNOR",
+      "YELIN",
+      "JACKIE",
+      "KARLIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "KARLIN",
+     "state": "APPROVED",
+     "votes": [
+      "JACKIE",
+      "CONNOR",
+      "KARLIN",
+      "AARON"
+     ],
+     "team": [
+      "CONNOR",
+      "KARLIN",
+      "JACKIE",
+      "YELIN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "CONNOR",
+    "KARLIN",
+    "JACKIE",
+    "YELIN"
+   ]
+  }
+ ]
+}

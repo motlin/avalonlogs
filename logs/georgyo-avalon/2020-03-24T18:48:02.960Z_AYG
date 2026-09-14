@@ -1,0 +1,247 @@
+{
+ "timeFinished": {
+  "_seconds": 1585076747,
+  "_nanoseconds": 39785000
+ },
+ "timeCreated": {
+  "_seconds": 1585075682,
+  "_nanoseconds": 960000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "PABLO",
+      "ARIANA"
+     ],
+     "proposer": "PABLO",
+     "state": "APPROVED",
+     "votes": [
+      "ARIANA",
+      "CAM",
+      "ALISON",
+      "BILL",
+      "GK",
+      "PABLO",
+      "STEPH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "PABLO",
+    "ARIANA"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "team": [
+    "BILL",
+    "ALISON",
+    "STEPH"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "STEPH",
+      "ARIANA",
+      "CAM",
+      "BILL",
+      "GK",
+      "PABLO"
+     ],
+     "team": [
+      "BILL",
+      "ALISON",
+      "STEPH"
+     ],
+     "proposer": "BILL",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ARIANA",
+    "GK",
+    "PABLO"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ARIANA",
+      "GK",
+      "PABLO"
+     ],
+     "votes": [
+      "STEPH",
+      "ARIANA",
+      "CAM",
+      "ALISON",
+      "BILL",
+      "GK"
+     ],
+     "proposer": "GK"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CAM",
+     "votes": [
+      "CAM",
+      "PABLO",
+      "STEPH"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CAM",
+      "ALISON",
+      "ARIANA",
+      "PABLO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CAM",
+      "GK",
+      "ALISON",
+      "PABLO"
+     ],
+     "proposer": "ALISON",
+     "votes": [
+      "STEPH",
+      "CAM",
+      "ALISON",
+      "PABLO"
+     ]
+    }
+   ],
+   "team": [
+    "CAM",
+    "GK",
+    "ALISON",
+    "PABLO"
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 2
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "BILL",
+   "uid": "UujRccWhQud1VY8Tm52gIdO3LYG2"
+  },
+  {
+   "name": "GK",
+   "uid": "UvgSxNwtPQO3uTLsB7HdKjbnsev2"
+  },
+  {
+   "uid": "AM4ybv0SrvVnaGPbGdWOoHi3pFD3",
+   "name": "CAM"
+  },
+  {
+   "name": "ALISON",
+   "uid": "hxyUtF9pfPgp0r8q5QQZqoYsPjm2"
+  },
+  {
+   "uid": "9iSesCWJGEgTIL9aE6djKMZF2TE3",
+   "name": "ARIANA"
+  },
+  {
+   "uid": "k9JVqmnKCaX2MpwXst2sG1hPvHB3",
+   "name": "STEPH"
+  },
+  {
+   "name": "PABLO",
+   "uid": "gWR9g1oPZqgBBIAyFMAuzj843JA3"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ARIANA": true,
+    "PABLO": true
+   },
+   {
+    "BILL": true,
+    "ALISON": false,
+    "STEPH": false
+   },
+   {
+    "ARIANA": true,
+    "GK": true,
+    "PABLO": false
+   },
+   {
+    "PABLO": false,
+    "CAM": true,
+    "ALISON": false,
+    "GK": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CAM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ALISON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BILL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GK"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "PABLO"
+   },
+   {
+    "name": "STEPH",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ARIANA"
+   }
+  ]
+ }
+}

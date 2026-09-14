@@ -1,0 +1,239 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ROHAN",
+      "AMEYA"
+     ],
+     "votes": [
+      "KAUSHAL",
+      "MEMO",
+      "KLAY",
+      "NICK",
+      "PRIDHVI",
+      "ROHAN",
+      "AMEYA"
+     ],
+     "proposer": "ROHAN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ROHAN",
+    "AMEYA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "NICK",
+    "ROHAN",
+    "AMEYA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NICK",
+      "ROHAN",
+      "AMEYA"
+     ],
+     "proposer": "NICK",
+     "votes": [
+      "MEMO",
+      "NICK",
+      "KLAY",
+      "ROHAN",
+      "AMEYA",
+      "PRIDHVI",
+      "KAUSHAL"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ROHAN",
+      "KLAY",
+      "MEMO",
+      "KAUSHAL",
+      "PRIDHVI",
+      "NICK"
+     ],
+     "team": [
+      "KAUSHAL",
+      "ROHAN",
+      "KLAY"
+     ],
+     "proposer": "KAUSHAL",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KAUSHAL",
+    "ROHAN",
+    "KLAY"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ROHAN",
+      "KAUSHAL",
+      "PRIDHVI",
+      "KLAY"
+     ],
+     "votes": [
+      "AMEYA",
+      "NICK",
+      "KLAY",
+      "PRIDHVI",
+      "MEMO",
+      "KAUSHAL",
+      "ROHAN"
+     ],
+     "proposer": "PRIDHVI"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "team": [
+    "ROHAN",
+    "KAUSHAL",
+    "PRIDHVI",
+    "KLAY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598685337,
+  "_nanoseconds": 368000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "AMEYA": true,
+    "ROHAN": true
+   },
+   {
+    "ROHAN": true,
+    "AMEYA": false,
+    "NICK": true
+   },
+   {
+    "KLAY": true,
+    "ROHAN": true,
+    "KAUSHAL": true
+   },
+   {
+    "KAUSHAL": true,
+    "ROHAN": true,
+    "KLAY": false,
+    "PRIDHVI": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "MEMO",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "KLAY",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ROHAN"
+   },
+   {
+    "name": "KAUSHAL",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "AMEYA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "PRIDHVI"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "NICK"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "PRIDHVI"
+ },
+ "timeFinished": {
+  "_seconds": 1598685612,
+  "_nanoseconds": 786000000
+ },
+ "players": [
+  {
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13",
+   "name": "AMEYA"
+  },
+  {
+   "uid": "kxOTeulhGKcu2MOCO9lYm5giHP82",
+   "name": "ROHAN"
+  },
+  {
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03",
+   "name": "NICK"
+  },
+  {
+   "uid": "lHvH2Q0Vc1UbF40N06Zr6svg26i1",
+   "name": "KAUSHAL"
+  },
+  {
+   "uid": "4GfCahioxqeJie6psB9eYJTCG793",
+   "name": "PRIDHVI"
+  },
+  {
+   "uid": "V4SAGCzS9KMfXt2eiWuWhKXSMm12",
+   "name": "KLAY"
+  },
+  {
+   "name": "MEMO",
+   "uid": "1FdWUDx8sCeb6EZoZXIQJlZsnTJ3"
+  }
+ ]
+}

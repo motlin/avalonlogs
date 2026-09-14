@@ -1,0 +1,230 @@
+{
+ "timeFinished": {
+  "_seconds": 1591148035,
+  "_nanoseconds": 28000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "SAM": true,
+    "MIKHAIL": true
+   },
+   {
+    "LAUREN": true,
+    "LAURAJEAN": true,
+    "SETH": false
+   },
+   {
+    "MIKHAIL": true,
+    "LAURAJEAN": true
+   },
+   {
+    "SAM": false,
+    "LAURAJEAN": true,
+    "LAUREN": true
+   },
+   {
+    "MIKHAIL": true,
+    "SAM": false,
+    "LAUREN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "MIKHAIL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SAM",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "LAUREN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LAURAJEAN"
+   },
+   {
+    "name": "SETH",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "SAM",
+   "uid": "pw1qvlZvk0dcFvw6xCUBdGTbLny2"
+  },
+  {
+   "name": "SETH",
+   "uid": "1oM5yAb4a6eJIeO0vNu9vcQAIuv1"
+  },
+  {
+   "name": "MIKHAIL",
+   "uid": "z46Wz6sAEoasfBLFowdUaW56Zua2"
+  },
+  {
+   "uid": "5C12jNawnCcymiP1QbAQbiAMdYl2",
+   "name": "LAURAJEAN"
+  },
+  {
+   "uid": "XJyJHv40fFXnqqpLSLVltfF0IX93",
+   "name": "LAUREN"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "SAM",
+    "MIKHAIL"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "SAM",
+     "votes": [
+      "SAM",
+      "LAUREN",
+      "LAURAJEAN",
+      "SETH",
+      "MIKHAIL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SAM",
+      "MIKHAIL"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "SETH",
+    "LAUREN",
+    "LAURAJEAN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SETH",
+      "LAUREN",
+      "LAURAJEAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SAM",
+      "LAUREN",
+      "LAURAJEAN",
+      "SETH",
+      "MIKHAIL"
+     ],
+     "proposer": "SETH"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "MIKHAIL",
+    "LAURAJEAN"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MIKHAIL",
+     "team": [
+      "MIKHAIL",
+      "LAURAJEAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LAUREN",
+      "LAURAJEAN",
+      "SAM"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "LAURAJEAN",
+    "SAM",
+    "LAUREN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "LAURAJEAN",
+      "SAM",
+      "LAUREN"
+     ],
+     "proposer": "LAURAJEAN",
+     "state": "APPROVED",
+     "votes": [
+      "LAUREN",
+      "LAURAJEAN",
+      "MIKHAIL",
+      "SAM"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "LAUREN",
+    "MIKHAIL",
+    "SAM"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SAM",
+      "LAUREN",
+      "SETH"
+     ],
+     "team": [
+      "LAUREN",
+      "MIKHAIL",
+      "SAM"
+     ],
+     "proposer": "LAUREN",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591147171,
+  "_nanoseconds": 589000000
+ }
+}

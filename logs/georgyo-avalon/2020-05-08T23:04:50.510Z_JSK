@@ -1,0 +1,277 @@
+{
+ "players": [
+  {
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23",
+   "name": "MAFAZLA"
+  },
+  {
+   "name": "SAAD",
+   "uid": "CNDU2KmpIlMMrwYJZzd4YJbOh223"
+  },
+  {
+   "name": "URWAH",
+   "uid": "b25KDZonqXVnJg1BnaKXhGQCFUt1"
+  },
+  {
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2",
+   "name": "ZEE"
+  },
+  {
+   "name": "NEERAJ",
+   "uid": "QeTFttr1YEWnQ9ra8R6nqn1pRaY2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588979862,
+  "_nanoseconds": 676000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MAFAZLA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ZEE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SAAD"
+   },
+   {
+    "name": "URWAH",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "NEERAJ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "NEERAJ",
+  "votes": [
+   {
+    "SAAD": true,
+    "MAFAZLA": true
+   },
+   {
+    "SAAD": true,
+    "NEERAJ": true,
+    "MAFAZLA": false
+   },
+   {
+    "MAFAZLA": true,
+    "SAAD": true
+   },
+   {
+    "ZEE": true,
+    "SAAD": true,
+    "MAFAZLA": false
+   },
+   {
+    "ZEE": true,
+    "NEERAJ": true,
+    "SAAD": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1588979090,
+  "_nanoseconds": 510000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ZEE",
+      "URWAH",
+      "MAFAZLA"
+     ],
+     "proposer": "MAFAZLA",
+     "team": [
+      "MAFAZLA",
+      "SAAD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MAFAZLA",
+    "SAAD"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "NEERAJ",
+    "MAFAZLA",
+    "SAAD"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ZEE",
+      "URWAH"
+     ],
+     "proposer": "SAAD",
+     "team": [
+      "SAAD",
+      "URWAH",
+      "MAFAZLA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "URWAH",
+     "team": [
+      "ZEE",
+      "NEERAJ",
+      "MAFAZLA"
+     ],
+     "votes": [
+      "URWAH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ZEE",
+     "votes": [
+      "ZEE",
+      "URWAH"
+     ],
+     "team": [
+      "SAAD",
+      "ZEE",
+      "MAFAZLA"
+     ]
+    },
+    {
+     "team": [
+      "NEERAJ",
+      "MAFAZLA",
+      "SAAD"
+     ],
+     "proposer": "NEERAJ",
+     "state": "APPROVED",
+     "votes": [
+      "NEERAJ",
+      "SAAD",
+      "URWAH"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MAFAZLA",
+    "SAAD"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MAFAZLA",
+     "state": "APPROVED",
+     "votes": [
+      "ZEE",
+      "SAAD",
+      "URWAH",
+      "MAFAZLA"
+     ],
+     "team": [
+      "MAFAZLA",
+      "SAAD"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZEE",
+      "SAAD",
+      "URWAH",
+      "MAFAZLA"
+     ],
+     "proposer": "SAAD",
+     "team": [
+      "MAFAZLA",
+      "SAAD",
+      "ZEE"
+     ]
+    }
+   ],
+   "team": [
+    "MAFAZLA",
+    "SAAD",
+    "ZEE"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ZEE",
+    "NEERAJ",
+    "SAAD"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ZEE",
+      "URWAH",
+      "SAAD"
+     ],
+     "proposer": "URWAH",
+     "state": "REJECTED",
+     "votes": [
+      "URWAH"
+     ]
+    },
+    {
+     "votes": [
+      "ZEE",
+      "SAAD",
+      "NEERAJ"
+     ],
+     "team": [
+      "ZEE",
+      "NEERAJ",
+      "SAAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "ZEE"
+    }
+   ]
+  }
+ ]
+}

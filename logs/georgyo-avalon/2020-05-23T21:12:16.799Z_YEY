@@ -1,0 +1,235 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "NIKKI": true,
+    "POOJA": true
+   },
+   {
+    "STEPHY": true,
+    "NIKKI": true,
+    "KSHITIJ": false
+   },
+   {
+    "KSHITIJ": false,
+    "POOJA": true,
+    "NIKKI": true
+   },
+   {
+    "MAR": false,
+    "SHRUNKI": true,
+    "KSHITIJ": false,
+    "POOJA": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "POOJA"
+   },
+   {
+    "name": "SHRUNKI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "STEPHY",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MAR"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SHARAN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KSHITIJ"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NIKKI"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "1SxXNNOl35PAHimdgOpUfCxVoOu1",
+   "name": "STEPHY"
+  },
+  {
+   "name": "SHRUNKI",
+   "uid": "lGp8ByI37EMpLi9cRItydwHTfW52"
+  },
+  {
+   "name": "POOJA",
+   "uid": "NWZ3emr589eJEBkWmvKDsIFZffG3"
+  },
+  {
+   "name": "MAR",
+   "uid": "mTfvzwri7zbV5E5sBnofQeUDBEF3"
+  },
+  {
+   "uid": "m0ByOPQRIqNqp9mu9m9fKS1SDM43",
+   "name": "SHARAN"
+  },
+  {
+   "uid": "J9S0BXWD3HQtC3kVmCsSaSr54wr1",
+   "name": "KSHITIJ"
+  },
+  {
+   "uid": "45lqLZ4zc3haX7T3igz3iqWUB1H3",
+   "name": "NIKKI"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "NIKKI",
+    "POOJA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NIKKI",
+      "POOJA"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIKKI",
+     "votes": [
+      "NIKKI",
+      "POOJA",
+      "SHRUNKI",
+      "STEPHY",
+      "MAR",
+      "SHARAN",
+      "KSHITIJ"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "NIKKI",
+    "KSHITIJ",
+    "STEPHY"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NIKKI",
+      "POOJA",
+      "SHRUNKI",
+      "STEPHY",
+      "MAR",
+      "SHARAN",
+      "KSHITIJ"
+     ],
+     "team": [
+      "NIKKI",
+      "KSHITIJ",
+      "STEPHY"
+     ],
+     "proposer": "STEPHY"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "POOJA",
+      "SHRUNKI",
+      "MAR",
+      "KSHITIJ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "POOJA",
+      "KSHITIJ",
+      "NIKKI"
+     ],
+     "proposer": "SHRUNKI"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "POOJA",
+    "KSHITIJ",
+    "NIKKI"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "SHRUNKI",
+      "POOJA",
+      "MAR",
+      "KSHITIJ"
+     ],
+     "state": "APPROVED",
+     "proposer": "POOJA",
+     "votes": [
+      "POOJA",
+      "SHRUNKI",
+      "STEPHY",
+      "MAR",
+      "KSHITIJ"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "SHRUNKI",
+    "POOJA",
+    "MAR",
+    "KSHITIJ"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590268336,
+  "_nanoseconds": 799000000
+ },
+ "timeFinished": {
+  "_seconds": 1590268646,
+  "_nanoseconds": 100000000
+ }
+}

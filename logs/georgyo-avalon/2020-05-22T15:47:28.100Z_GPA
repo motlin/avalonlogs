@@ -1,0 +1,203 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "KENT",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "GANSKIES": true,
+    "SOVEREIGN": true
+   },
+   {
+    "GANSKIES": true,
+    "KENT": true,
+    "SWEE": true
+   },
+   {
+    "SWEE": true,
+    "GANSKIES": true,
+    "VIC": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "VIC",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "SWEE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "GANSKIES",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "RECRUIT",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "PHD",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "KENT"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SOVEREIGN"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590162448,
+  "_nanoseconds": 100000000
+ },
+ "players": [
+  {
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22",
+   "name": "SOVEREIGN"
+  },
+  {
+   "name": "GANSKIES",
+   "uid": "f6AxJ6Tnh8SnMxKKrxFIP0QzLVE3"
+  },
+  {
+   "uid": "JnvFx6wpH8T4LQorOxnu0KTuk1s1",
+   "name": "SWEE"
+  },
+  {
+   "uid": "bHPjqQht3tTIGtpWSbwEdCpmRqJ2",
+   "name": "VIC"
+  },
+  {
+   "name": "PHD",
+   "uid": "qPIYra8LXHcID7Vmxts9q32GUGq2"
+  },
+  {
+   "name": "KENT",
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3"
+  },
+  {
+   "name": "RECRUIT",
+   "uid": "JLqcJkN64Qg9SY4JKFahTOXy3On2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590162692,
+  "_nanoseconds": 495000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "GANSKIES",
+      "SOVEREIGN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GANSKIES",
+      "RECRUIT",
+      "PHD",
+      "KENT",
+      "SOVEREIGN",
+      "VIC"
+     ],
+     "proposer": "GANSKIES"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "GANSKIES",
+    "SOVEREIGN"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "GANSKIES",
+    "SWEE",
+    "KENT"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "VIC",
+      "SWEE",
+      "GANSKIES",
+      "RECRUIT",
+      "PHD",
+      "KENT"
+     ],
+     "team": [
+      "GANSKIES",
+      "SWEE",
+      "KENT"
+     ],
+     "proposer": "SWEE",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "GANSKIES",
+    "VIC",
+    "SWEE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RECRUIT",
+      "PHD",
+      "SOVEREIGN",
+      "VIC"
+     ],
+     "team": [
+      "GANSKIES",
+      "VIC",
+      "SWEE"
+     ],
+     "proposer": "VIC"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 2,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ]
+}

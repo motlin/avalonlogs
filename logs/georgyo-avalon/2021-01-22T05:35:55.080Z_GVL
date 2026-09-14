@@ -1,0 +1,268 @@
+{
+ "players": [
+  {
+   "name": "ORL",
+   "uid": "G4TbKmHtr0ey4HOzZzQJAcDM0n32"
+  },
+  {
+   "name": "RGW",
+   "uid": "i7mjDCmBxzY10c5dKCXRJtgRdNl2"
+  },
+  {
+   "name": "ZYR",
+   "uid": "IUEyMPTx47Rhb8ptapBYoF6QgG63"
+  },
+  {
+   "name": "KIMCHI",
+   "uid": "pp7PXEnOd4U55IGhjG4ce2hjVBv1"
+  },
+  {
+   "uid": "RXum3CGe8Bd1Wi5PY4noQazgBPx1",
+   "name": "BRETT"
+  },
+  {
+   "uid": "U2Tlvjpceebfr64Xzm8DI8HYMdA3",
+   "name": "TUNEQUEEN"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "RGW",
+    "ORL"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RGW",
+     "votes": [
+      "RGW",
+      "TUNEQUEEN",
+      "ZYR",
+      "BRETT",
+      "KIMCHI",
+      "ORL"
+     ],
+     "team": [
+      "RGW",
+      "ORL"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "ORL",
+    "ZYR",
+    "RGW"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ZYR",
+     "state": "APPROVED",
+     "votes": [
+      "RGW",
+      "KIMCHI",
+      "ORL",
+      "BRETT",
+      "TUNEQUEEN",
+      "ZYR"
+     ],
+     "team": [
+      "ORL",
+      "ZYR",
+      "RGW"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "KIMCHI",
+     "votes": [
+      "BRETT",
+      "ORL",
+      "TUNEQUEEN",
+      "KIMCHI",
+      "RGW"
+     ],
+     "team": [
+      "ORL",
+      "RGW",
+      "TUNEQUEEN",
+      "KIMCHI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ORL",
+    "RGW",
+    "TUNEQUEEN",
+    "KIMCHI"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BRETT"
+     ],
+     "team": [
+      "KIMCHI",
+      "RGW",
+      "BRETT"
+     ],
+     "proposer": "BRETT",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "TUNEQUEEN",
+     "votes": [
+      "ORL",
+      "KIMCHI",
+      "TUNEQUEEN",
+      "BRETT",
+      "RGW",
+      "ZYR"
+     ],
+     "team": [
+      "ORL",
+      "KIMCHI",
+      "TUNEQUEEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ORL",
+    "KIMCHI",
+    "TUNEQUEEN"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "ORL",
+    "RGW",
+    "ZYR",
+    "KIMCHI"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "ORL",
+      "KIMCHI",
+      "RGW",
+      "TUNEQUEEN",
+      "ZYR"
+     ],
+     "proposer": "ORL",
+     "state": "APPROVED",
+     "team": [
+      "ORL",
+      "RGW",
+      "ZYR",
+      "KIMCHI"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1611296763,
+  "_nanoseconds": 884000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ORL": true,
+    "RGW": true
+   },
+   {
+    "ZYR": true,
+    "ORL": true,
+    "RGW": true
+   },
+   {
+    "ORL": true,
+    "RGW": true,
+    "KIMCHI": true,
+    "TUNEQUEEN": false
+   },
+   {
+    "KIMCHI": true,
+    "TUNEQUEEN": false,
+    "ORL": true
+   },
+   {
+    "RGW": true,
+    "ZYR": false,
+    "KIMCHI": true,
+    "ORL": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ORL",
+    "assassin": false
+   },
+   {
+    "name": "RGW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KIMCHI"
+   },
+   {
+    "name": "BRETT",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "TUNEQUEEN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ZYR",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1611293755,
+  "_nanoseconds": 80000000
+ }
+}

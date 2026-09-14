@@ -1,0 +1,254 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "JULIAN",
+    "CW"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JULIAN",
+      "CW"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RIGHTLEFT",
+      "CW",
+      "JULIAN",
+      "LILLY"
+     ],
+     "proposer": "CW"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "RIGHTLEFT",
+    "CW",
+    "JULIAN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RIGHTLEFT",
+      "CW",
+      "JULIAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LILLY",
+      "RIGHTLEFT",
+      "CW"
+     ],
+     "proposer": "RIGHTLEFT"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "LILLY",
+    "RIGHTLEFT"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LILLY",
+      "RIGHTLEFT"
+     ],
+     "votes": [
+      "LILLY",
+      "RIGHTLEFT",
+      "CW",
+      "JULIAN"
+     ],
+     "proposer": "LILLY"
+    }
+   ]
+  },
+  {
+   "team": [
+    "TIFF",
+    "LILLY",
+    "RIGHTLEFT"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TIFF",
+     "team": [
+      "TIFF",
+      "LILLY",
+      "RIGHTLEFT"
+     ],
+     "votes": [
+      "LILLY",
+      "RIGHTLEFT",
+      "CW",
+      "TIFF"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 2,
+   "team": [
+    "RIGHTLEFT",
+    "CW",
+    "LILLY"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JULIAN",
+      "TIFF"
+     ],
+     "team": [
+      "JULIAN",
+      "LILLY",
+      "TIFF"
+     ],
+     "proposer": "JULIAN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CW",
+      "RIGHTLEFT",
+      "JULIAN"
+     ],
+     "proposer": "CW",
+     "votes": [
+      "RIGHTLEFT",
+      "CW"
+     ]
+    },
+    {
+     "proposer": "RIGHTLEFT",
+     "votes": [
+      "LILLY",
+      "RIGHTLEFT",
+      "CW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RIGHTLEFT",
+      "CW",
+      "LILLY"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "LILLY",
+   "uid": "EK4lIYvymiPc9E7qSiN58j3bRts2"
+  },
+  {
+   "name": "TIFF",
+   "uid": "xNy8xQHch8MnU9G3fnJtHcb66ko1"
+  },
+  {
+   "uid": "MkMFTnFkB2UJdWgC5rbw8e8aadc2",
+   "name": "JULIAN"
+  },
+  {
+   "uid": "1NAu5LJ2kxNZnSsav6NM1H5nZM32",
+   "name": "CW"
+  },
+  {
+   "name": "RIGHTLEFT",
+   "uid": "veAhSUielRc1Az7jqdV2wbTnBat2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589775243,
+  "_nanoseconds": 952000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "LILLY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "RIGHTLEFT"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "CW"
+   },
+   {
+    "name": "TIFF",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JULIAN",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "CW": true,
+    "JULIAN": true
+   },
+   {
+    "CW": false,
+    "RIGHTLEFT": true,
+    "JULIAN": true
+   },
+   {
+    "RIGHTLEFT": true,
+    "LILLY": true
+   },
+   {
+    "RIGHTLEFT": false,
+    "TIFF": true,
+    "LILLY": true
+   },
+   {
+    "RIGHTLEFT": false,
+    "CW": false,
+    "LILLY": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1589774771,
+  "_nanoseconds": 439000000
+ }
+}

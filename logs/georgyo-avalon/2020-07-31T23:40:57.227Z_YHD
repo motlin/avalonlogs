@@ -1,0 +1,257 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JUN",
+   "uid": "dC2rhnbihPgT8jDmLeQKSigns8Q2"
+  },
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  },
+  {
+   "name": "MICHAELP",
+   "uid": "2sjc3XRTDFMvxy3fYcsDjtxGzSE2"
+  },
+  {
+   "uid": "OExp95tV1pXrAmUtUIi9naRsFOs2",
+   "name": "ARAVIND"
+  },
+  {
+   "name": "CLIFF",
+   "uid": "uc5wEQfmukh20e0tr99KgsQgXTC2"
+  },
+  {
+   "name": "JEDIAH",
+   "uid": "0EwMN07DPLYjSQrNoWCOIyYmB8s1"
+  },
+  {
+   "name": "JAKE",
+   "uid": "bqlmyMYsaIdhDrL7NI4PZk7Cf6H2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596238857,
+  "_nanoseconds": 227000000
+ },
+ "timeFinished": {
+  "_seconds": 1596239356,
+  "_nanoseconds": 274000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "JEDIAH",
+     "state": "APPROVED",
+     "team": [
+      "JEDIAH",
+      "JAKE"
+     ],
+     "votes": [
+      "JEDIAH",
+      "CLIFF",
+      "JUN",
+      "JAKE"
+     ]
+    }
+   ],
+   "team": [
+    "JEDIAH",
+    "JAKE"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAKE",
+      "JEDIAH",
+      "CLIFF",
+      "JUN"
+     ],
+     "team": [
+      "JEDIAH",
+      "JAKE",
+      "JUN"
+     ],
+     "proposer": "JAKE"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JEDIAH",
+    "JAKE",
+    "JUN"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "JUN",
+    "JEDIAH",
+    "JAKE"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "JUN",
+      "JEDIAH",
+      "JAKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "JUN",
+     "votes": [
+      "JUN",
+      "JEDIAH",
+      "JAKE",
+      "CLIFF"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 3,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "JEDIAH",
+      "CLIFF",
+      "CHEVIN",
+      "JAKE"
+     ],
+     "team": [
+      "CHEVIN",
+      "JUN",
+      "JEDIAH",
+      "JAKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHEVIN"
+    }
+   ],
+   "team": [
+    "CHEVIN",
+    "JUN",
+    "JEDIAH",
+    "JAKE"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "CLIFF",
+      "JUN",
+      "ARAVIND",
+      "MICHAELP"
+     ],
+     "team": [
+      "CLIFF",
+      "ARAVIND",
+      "MICHAELP",
+      "JUN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MICHAELP"
+    }
+   ],
+   "team": [
+    "CLIFF",
+    "ARAVIND",
+    "MICHAELP",
+    "JUN"
+   ],
+   "state": "SUCCESS"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JEDIAH": true,
+    "JAKE": true
+   },
+   {
+    "JAKE": true,
+    "JEDIAH": true,
+    "JUN": true
+   },
+   {
+    "JUN": true,
+    "JEDIAH": false,
+    "JAKE": true
+   },
+   {
+    "JEDIAH": false,
+    "JAKE": false,
+    "CHEVIN": false,
+    "JUN": true
+   },
+   {
+    "ARAVIND": true,
+    "JUN": true,
+    "CLIFF": true,
+    "MICHAELP": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CLIFF",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "name": "CHEVIN",
+    "assassin": false
+   },
+   {
+    "name": "ARAVIND",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "JEDIAH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MICHAELP",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JUN"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "JAKE"
+   }
+  ],
+  "assassinated": "MICHAELP"
+ }
+}

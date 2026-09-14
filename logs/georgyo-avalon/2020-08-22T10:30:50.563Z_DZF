@@ -1,0 +1,206 @@
+{
+ "timeFinished": {
+  "_seconds": 1598092580,
+  "_nanoseconds": 2000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ED": true,
+    "MINGAI": true
+   },
+   {
+    "SOPHIA": true,
+    "SYLVIA": false,
+    "MINGAI": true
+   },
+   {
+    "LH": false,
+    "MINGAI": true
+   },
+   {
+    "SYLVIA": false,
+    "LH": false,
+    "ED": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "SYLVIA",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SOPHIA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ED",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "LH"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MINGAI",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1598092250,
+  "_nanoseconds": 563000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "9j3ueVNSnOQ1DTw3N3PwzNZzfqx2",
+   "name": "LH"
+  },
+  {
+   "name": "SOPHIA",
+   "uid": "jOtM0DY1b4gaeyQvTO93Um1XtrJ2"
+  },
+  {
+   "uid": "PYwYtidetkbR2AmAvtSWa6kjkc43",
+   "name": "MINGAI"
+  },
+  {
+   "uid": "mUBUyyLlX9djGzO7P5n8rU2uQlz1",
+   "name": "ED"
+  },
+  {
+   "name": "SYLVIA",
+   "uid": "ST6TEOnmRXXmeJ6sfIc5i5tBKHH3"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ED",
+    "MINGAI"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "MINGAI",
+      "SYLVIA",
+      "ED",
+      "LH",
+      "SOPHIA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ED",
+      "MINGAI"
+     ],
+     "proposer": "SOPHIA"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "LH",
+      "MINGAI",
+      "SYLVIA",
+      "ED",
+      "SOPHIA"
+     ],
+     "proposer": "MINGAI",
+     "team": [
+      "MINGAI",
+      "SYLVIA",
+      "SOPHIA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MINGAI",
+    "SYLVIA",
+    "SOPHIA"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "MINGAI",
+    "LH"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SOPHIA",
+      "LH",
+      "SYLVIA",
+      "ED"
+     ],
+     "team": [
+      "MINGAI",
+      "LH"
+     ],
+     "proposer": "ED",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ED",
+      "LH",
+      "SYLVIA"
+     ],
+     "proposer": "SYLVIA",
+     "votes": [
+      "LH",
+      "ED",
+      "SYLVIA",
+      "SOPHIA"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ED",
+    "LH",
+    "SYLVIA"
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": []
+  }
+ ]
+}

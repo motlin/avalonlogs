@@ -1,0 +1,236 @@
+{
+ "players": [
+  {
+   "name": "BETH",
+   "uid": "cxdzITPUiuXWUkdNQRsYXaWNh263"
+  },
+  {
+   "name": "GIL",
+   "uid": "40p5tOqzfBUNmd4lAYm7TFIrouR2"
+  },
+  {
+   "uid": "EQBHPN3Xf9hiRXRUfkOkBXqxNzj1",
+   "name": "XAVI"
+  },
+  {
+   "name": "SERGI",
+   "uid": "jRIsF29xtdb215K6WeBjOAIosry1"
+  },
+  {
+   "uid": "EEj9fai05wcCxP81iAJLxc3etBT2",
+   "name": "S"
+  },
+  {
+   "name": "MI",
+   "uid": "e97v5hduz8by2x3n7neGszlNiNi1"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "XAVI",
+    "GIL"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SERGI",
+      "GIL",
+      "S",
+      "BETH",
+      "MI",
+      "XAVI"
+     ],
+     "team": [
+      "XAVI",
+      "GIL"
+     ],
+     "proposer": "XAVI",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "SERGI",
+    "XAVI",
+    "GIL"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "SERGI",
+     "state": "APPROVED",
+     "votes": [
+      "GIL",
+      "SERGI",
+      "BETH",
+      "MI",
+      "XAVI",
+      "S"
+     ],
+     "team": [
+      "SERGI",
+      "XAVI",
+      "GIL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "S",
+      "BETH",
+      "XAVI",
+      "GIL"
+     ],
+     "proposer": "S",
+     "team": [
+      "S",
+      "BETH",
+      "XAVI",
+      "GIL"
+     ]
+    }
+   ],
+   "team": [
+    "S",
+    "BETH",
+    "XAVI",
+    "GIL"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "XAVI",
+      "BETH",
+      "MI"
+     ],
+     "state": "REJECTED",
+     "proposer": "MI",
+     "votes": [
+      "MI",
+      "SERGI"
+     ]
+    },
+    {
+     "team": [
+      "BETH",
+      "GIL",
+      "XAVI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GIL",
+      "XAVI",
+      "S",
+      "BETH"
+     ],
+     "proposer": "BETH"
+    }
+   ],
+   "team": [
+    "BETH",
+    "GIL",
+    "XAVI"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609113844,
+  "_nanoseconds": 261000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609112928,
+  "_nanoseconds": 723000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "GIL": true,
+    "XAVI": true
+   },
+   {
+    "SERGI": false,
+    "XAVI": true,
+    "GIL": true
+   },
+   {
+    "S": true,
+    "GIL": true,
+    "BETH": true,
+    "XAVI": true
+   },
+   {
+    "GIL": true,
+    "XAVI": true,
+    "BETH": true
+   }
+  ],
+  "assassinated": "XAVI",
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "GIL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BETH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "S"
+   },
+   {
+    "assassin": false,
+    "name": "SERGI",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "MI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "XAVI"
+   }
+  ]
+ }
+}

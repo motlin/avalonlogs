@@ -1,0 +1,266 @@
+{
+ "timeFinished": {
+  "_seconds": 1606378007,
+  "_nanoseconds": 194000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "NOBODY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KAUSHAL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "DIKSINGH",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "AMEYA",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "BRYANT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KLAY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SHRAVAN"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "NOBODY",
+  "votes": [
+   {
+    "SHRAVAN": true,
+    "DIKSINGH": true
+   },
+   {
+    "DIKSINGH": false,
+    "KLAY": true,
+    "SHRAVAN": false
+   },
+   {
+    "AMEYA": false,
+    "KAUSHAL": true,
+    "BRYANT": true
+   },
+   {
+    "AMEYA": true,
+    "NOBODY": true,
+    "KAUSHAL": true,
+    "BRYANT": true
+   },
+   {
+    "KAUSHAL": true,
+    "BRYANT": true,
+    "KLAY": true,
+    "NOBODY": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1606376838,
+  "_nanoseconds": 898000000
+ },
+ "players": [
+  {
+   "name": "SHRAVAN",
+   "uid": "JbCckK6FAEQcLuHKAvN69wqbOS73"
+  },
+  {
+   "name": "KLAY",
+   "uid": "V4SAGCzS9KMfXt2eiWuWhKXSMm12"
+  },
+  {
+   "uid": "U6scF13Z1JREsmyEZfa2cjw35qB3",
+   "name": "BRYANT"
+  },
+  {
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13",
+   "name": "AMEYA"
+  },
+  {
+   "name": "KAUSHAL",
+   "uid": "lHvH2Q0Vc1UbF40N06Zr6svg26i1"
+  },
+  {
+   "name": "NOBODY",
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03"
+  },
+  {
+   "uid": "4GfCahioxqeJie6psB9eYJTCG793",
+   "name": "DIKSINGH"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "SHRAVAN",
+      "DIKSINGH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHRAVAN",
+      "DIKSINGH",
+      "AMEYA",
+      "KLAY",
+      "NOBODY",
+      "BRYANT",
+      "KAUSHAL"
+     ],
+     "proposer": "SHRAVAN"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "SHRAVAN",
+    "DIKSINGH"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "KLAY",
+    "SHRAVAN",
+    "DIKSINGH"
+   ],
+   "numFails": 2,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "KLAY",
+      "SHRAVAN",
+      "DIKSINGH"
+     ],
+     "votes": [
+      "DIKSINGH",
+      "KAUSHAL",
+      "BRYANT",
+      "NOBODY",
+      "KLAY",
+      "AMEYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "KLAY"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "BRYANT",
+    "AMEYA",
+    "KAUSHAL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KAUSHAL",
+      "SHRAVAN",
+      "AMEYA",
+      "BRYANT",
+      "DIKSINGH"
+     ],
+     "team": [
+      "BRYANT",
+      "AMEYA",
+      "KAUSHAL"
+     ],
+     "proposer": "BRYANT",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AMEYA",
+     "votes": [
+      "DIKSINGH",
+      "KLAY",
+      "BRYANT",
+      "KAUSHAL",
+      "SHRAVAN",
+      "AMEYA",
+      "NOBODY"
+     ],
+     "team": [
+      "NOBODY",
+      "AMEYA",
+      "KAUSHAL",
+      "BRYANT"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "NOBODY",
+    "AMEYA",
+    "KAUSHAL",
+    "BRYANT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "KAUSHAL",
+    "BRYANT",
+    "KLAY",
+    "NOBODY"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "KAUSHAL",
+     "votes": [
+      "KLAY",
+      "DIKSINGH",
+      "KAUSHAL",
+      "BRYANT"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KAUSHAL",
+      "BRYANT",
+      "KLAY",
+      "NOBODY"
+     ]
+    }
+   ]
+  }
+ ]
+}

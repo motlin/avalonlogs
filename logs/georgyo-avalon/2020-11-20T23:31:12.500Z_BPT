@@ -1,0 +1,226 @@
+{
+ "players": [
+  {
+   "name": "JET",
+   "uid": "7z1d7UkBhLNuope6VRg8Ghr2pmC3"
+  },
+  {
+   "uid": "ekB9z2g5m1g4EI4ltUs7k3BbrFG2",
+   "name": "GEORGE"
+  },
+  {
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2",
+   "name": "ANINDYA"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "name": "ERIC",
+   "uid": "ZvAiKsGn1sZFOg51EDIWrEIUYYF2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ERIC",
+     "state": "APPROVED",
+     "team": [
+      "KLAUDIA",
+      "ERIC"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "ERIC",
+      "JET"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "KLAUDIA",
+    "ERIC"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "GEORGE",
+    "ANINDYA",
+    "ERIC"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JET",
+     "team": [
+      "JET",
+      "GEORGE",
+      "ANINDYA"
+     ],
+     "votes": [
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "JET"
+     ],
+     "proposer": "GEORGE",
+     "team": [
+      "GEORGE",
+      "JET",
+      "ERIC"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ANINDYA",
+      "GEORGE",
+      "ERIC"
+     ],
+     "proposer": "ANINDYA",
+     "votes": [
+      "ANINDYA",
+      "GEORGE"
+     ]
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "ERIC",
+      "GEORGE"
+     ],
+     "votes": [
+      "KLAUDIA"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ERIC",
+     "votes": [
+      "KLAUDIA",
+      "JET",
+      "ANINDYA",
+      "ERIC",
+      "GEORGE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GEORGE",
+      "ANINDYA",
+      "ERIC"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ERIC",
+      "ANINDYA",
+      "GEORGE"
+     ],
+     "team": [
+      "GEORGE",
+      "ANINDYA"
+     ],
+     "proposer": "JET",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "GEORGE",
+    "ANINDYA"
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605915330,
+  "_nanoseconds": 439000000
+ },
+ "timeCreated": {
+  "_seconds": 1605915072,
+  "_nanoseconds": 500000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "KLAUDIA": true,
+    "ERIC": true
+   },
+   {
+    "ANINDYA": true,
+    "ERIC": true,
+    "GEORGE": true
+   },
+   {
+    "ANINDYA": true,
+    "GEORGE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ANINDYA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "KLAUDIA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ERIC",
+    "assassin": false
+   },
+   {
+    "name": "GEORGE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "JET",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": "ANINDYA",
+  "message": "Three successful missions"
+ }
+}

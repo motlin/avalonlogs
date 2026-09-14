@@ -1,0 +1,240 @@
+{
+ "timeCreated": {
+  "_seconds": 1586489948,
+  "_nanoseconds": 849000000
+ },
+ "timeFinished": {
+  "_seconds": 1586491642,
+  "_nanoseconds": 520767000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "FRANK": true,
+    "LEO": true
+   },
+   {
+    "LEO": true,
+    "FIFI": true,
+    "FRANK": false
+   },
+   {
+    "FURNITURE": true,
+    "FRANK": true
+   },
+   {
+    "FIFI": true,
+    "SHANNON": false,
+    "FURNITURE": true
+   },
+   {
+    "LEO": true,
+    "FIFI": true,
+    "FURNITURE": true
+   }
+  ],
+  "assassinated": "LEO",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "FURNITURE"
+   },
+   {
+    "name": "SHANNON",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "FIFI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "FRANK",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "LEO"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "FURNITURE",
+   "uid": "2iLS2EXvRSZzYKSkNYpuvtRac533"
+  },
+  {
+   "name": "SHANNON",
+   "uid": "CONHtm6vCzQYlzENQQCBb7QBVN03"
+  },
+  {
+   "uid": "zQuhjnSi06NwxjA58fquDuheAcC2",
+   "name": "FRANK"
+  },
+  {
+   "name": "LEO",
+   "uid": "orVA7lXLmkhSZIpvAn58U4EZhNJ3"
+  },
+  {
+   "name": "FIFI",
+   "uid": "IYv2mj7KkFhn1cJTD0f73zeEPw92"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LEO",
+     "team": [
+      "FRANK",
+      "LEO"
+     ],
+     "votes": [
+      "FURNITURE",
+      "SHANNON",
+      "FIFI",
+      "FRANK",
+      "LEO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FRANK",
+    "LEO"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LEO",
+      "FRANK",
+      "FIFI"
+     ],
+     "proposer": "FIFI",
+     "votes": [
+      "SHANNON",
+      "FIFI",
+      "FRANK",
+      "LEO",
+      "FURNITURE"
+     ]
+    }
+   ],
+   "team": [
+    "LEO",
+    "FRANK",
+    "FIFI"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "FRANK",
+      "LEO",
+      "FURNITURE",
+      "SHANNON"
+     ],
+     "team": [
+      "FURNITURE",
+      "FRANK"
+     ],
+     "state": "APPROVED",
+     "proposer": "FURNITURE"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "FURNITURE",
+    "FRANK"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SHANNON",
+     "votes": [
+      "FIFI",
+      "FURNITURE",
+      "SHANNON"
+     ],
+     "team": [
+      "SHANNON",
+      "FURNITURE",
+      "FIFI"
+     ]
+    }
+   ],
+   "team": [
+    "SHANNON",
+    "FURNITURE",
+    "FIFI"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "FURNITURE",
+    "LEO",
+    "FIFI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "FRANK",
+     "team": [
+      "FURNITURE",
+      "FRANK",
+      "LEO"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "FRANK"
+     ]
+    },
+    {
+     "votes": [
+      "FURNITURE",
+      "SHANNON",
+      "FIFI",
+      "LEO"
+     ],
+     "proposer": "LEO",
+     "team": [
+      "FURNITURE",
+      "LEO",
+      "FIFI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  }
+ ]
+}

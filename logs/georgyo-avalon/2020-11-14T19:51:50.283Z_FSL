@@ -1,0 +1,301 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "THIERRY",
+   "uid": "WVzYmb9yuJa8pVhJ7ejeK8F9XnC2"
+  },
+  {
+   "name": "YOANN",
+   "uid": "uUKRU93E8tdqmgxDZGpOMTn0Dfz2"
+  },
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "name": "JULIENH",
+   "uid": "VxpXkeh0UBVAFxW8ww0i5RBlagj2"
+  },
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  },
+  {
+   "uid": "ASDKVcFeXKZkO0eVxwAGwYf1yhF2",
+   "name": "FRED"
+  },
+  {
+   "name": "CECILOUVE",
+   "uid": "mrBWU8UQMDRnK01vjUfL8DxG6yj1"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JULIENH",
+      "YOANN",
+      "FRED",
+      "THIERRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "THIERRY",
+     "team": [
+      "THIERRY",
+      "YOANN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "THIERRY",
+    "YOANN"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "YOANN",
+      "THIERRY",
+      "CECILOUVE"
+     ],
+     "proposer": "YOANN",
+     "votes": [
+      "CECILOUVE",
+      "THIERRY",
+      "YOANN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LAURA",
+      "YOANN",
+      "THIERRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "LAURA",
+     "votes": [
+      "LAURA",
+      "FRED",
+      "THIERRY",
+      "YOANN"
+     ]
+    }
+   ],
+   "team": [
+    "LAURA",
+    "YOANN",
+    "THIERRY"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "REGIS",
+      "FRED",
+      "JULIENH",
+      "YOANN"
+     ],
+     "proposer": "JULIENH",
+     "team": [
+      "JULIENH",
+      "REGIS",
+      "THIERRY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "JULIENH",
+    "REGIS",
+    "THIERRY"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "CECILOUVE",
+    "THIERRY",
+    "LAURA",
+    "REGIS"
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "REGIS"
+     ],
+     "team": [
+      "REGIS",
+      "THIERRY",
+      "LAURA",
+      "CECILOUVE"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "votes": [
+      "FRED",
+      "YOANN"
+     ],
+     "proposer": "FRED",
+     "state": "REJECTED",
+     "team": [
+      "LAURA",
+      "CECILOUVE",
+      "FRED",
+      "YOANN"
+     ]
+    },
+    {
+     "votes": [
+      "CECILOUVE",
+      "LAURA",
+      "FRED",
+      "THIERRY",
+      "REGIS",
+      "JULIENH"
+     ],
+     "team": [
+      "CECILOUVE",
+      "THIERRY",
+      "LAURA",
+      "REGIS"
+     ],
+     "state": "APPROVED",
+     "proposer": "CECILOUVE"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "THIERRY",
+      "LAURA",
+      "REGIS",
+      "CECILOUVE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "REGIS",
+      "THIERRY",
+      "CECILOUVE",
+      "JULIENH",
+      "YOANN"
+     ],
+     "proposer": "THIERRY"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "THIERRY",
+    "LAURA",
+    "REGIS",
+    "CECILOUVE"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605385783,
+  "_nanoseconds": 682000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "YOANN": true,
+    "THIERRY": true
+   },
+   {
+    "LAURA": true,
+    "YOANN": false,
+    "THIERRY": true
+   },
+   {
+    "REGIS": false,
+    "THIERRY": true,
+    "JULIENH": true
+   },
+   {
+    "REGIS": true,
+    "THIERRY": true,
+    "CECILOUVE": true,
+    "LAURA": true
+   },
+   {
+    "REGIS": false,
+    "THIERRY": true,
+    "CECILOUVE": true,
+    "LAURA": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LAURA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "YOANN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "THIERRY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "FRED",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "REGIS",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JULIENH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CECILOUVE"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1605383510,
+  "_nanoseconds": 283000000
+ }
+}

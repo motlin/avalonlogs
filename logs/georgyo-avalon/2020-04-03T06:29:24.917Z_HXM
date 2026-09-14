@@ -1,0 +1,233 @@
+{
+ "timeFinished": {
+  "_seconds": 1585895744,
+  "_nanoseconds": 852514000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ANTOINE": true,
+    "BURRITO": true
+   },
+   {
+    "ANTOINE": false,
+    "BURRITO": true,
+    "CHI": true
+   },
+   {
+    "JON": true,
+    "CHI": true,
+    "BURRITO": true
+   },
+   {
+    "JON": true,
+    "DANIELAWES": true,
+    "LEO": true,
+    "CHI": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "ANTOINE"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "THERAPTURE",
+    "assassin": true
+   },
+   {
+    "name": "LEO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DANIELAWES",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JON"
+   },
+   {
+    "assassin": false,
+    "name": "CHI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "BURRITO",
+    "role": "MORGANA"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "JON"
+ },
+ "missions": [
+  {
+   "team": [
+    "ANTOINE",
+    "BURRITO"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ANTOINE",
+     "votes": [
+      "ANTOINE",
+      "THERAPTURE",
+      "LEO",
+      "JON",
+      "CHI",
+      "BURRITO"
+     ],
+     "team": [
+      "ANTOINE",
+      "BURRITO"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ANTOINE",
+      "BURRITO",
+      "CHI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "THERAPTURE",
+      "LEO",
+      "DANIELAWES",
+      "CHI",
+      "BURRITO"
+     ],
+     "proposer": "BURRITO"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ANTOINE",
+    "BURRITO",
+    "CHI"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHI",
+     "team": [
+      "CHI",
+      "BURRITO",
+      "JON"
+     ],
+     "votes": [
+      "JON",
+      "CHI",
+      "BURRITO",
+      "ANTOINE",
+      "THERAPTURE",
+      "LEO",
+      "DANIELAWES"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CHI",
+    "BURRITO",
+    "JON"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "LEO",
+    "CHI",
+    "DANIELAWES",
+    "JON"
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "DANIELAWES",
+     "state": "APPROVED",
+     "votes": [
+      "THERAPTURE",
+      "LEO",
+      "DANIELAWES",
+      "JON",
+      "CHI",
+      "BURRITO"
+     ],
+     "team": [
+      "LEO",
+      "CHI",
+      "DANIELAWES",
+      "JON"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "players": [
+  {
+   "name": "ANTOINE",
+   "uid": "FX8EdqZPhvXZFqZJNGqZmoc44Yh1"
+  },
+  {
+   "uid": "u3cky95zaAP5talg2lNsxpxbPiv1",
+   "name": "BURRITO"
+  },
+  {
+   "uid": "7kV9GQM0q1SvA3R27T5KcU2HhEh1",
+   "name": "CHI"
+  },
+  {
+   "name": "DANIELAWES",
+   "uid": "LaamvDTXvYPRLVd6wxvmmfdnP0x2"
+  },
+  {
+   "name": "JON",
+   "uid": "4QHYQYzAkpT51JPA9YOBkkegT862"
+  },
+  {
+   "uid": "W13XklcJrIZkbfiOgg4VUiaUybp1",
+   "name": "LEO"
+  },
+  {
+   "uid": "6ACH43BUWAfOtvYEfdRkzZR8uLo1",
+   "name": "THERAPTURE"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585895364,
+  "_nanoseconds": 917000000
+ }
+}

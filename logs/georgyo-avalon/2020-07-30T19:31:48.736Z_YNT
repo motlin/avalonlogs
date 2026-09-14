@@ -1,0 +1,205 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "OAK": true,
+    "ARTH": true
+   },
+   {
+    "OAK": true,
+    "TASHKA": false,
+    "ARTH": true
+   },
+   {
+    "TASHKA": false,
+    "TOM": true
+   },
+   {
+    "ARTH": true,
+    "OAK": false,
+    "TOM": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "ARTH",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TOM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BATHKNIGHT",
+    "role": "MERLIN"
+   },
+   {
+    "name": "OAK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "TASHKA"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "OAK",
+     "votes": [
+      "ARTH",
+      "OAK",
+      "BATHKNIGHT",
+      "TASHKA",
+      "TOM"
+     ],
+     "team": [
+      "ARTH",
+      "OAK"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "ARTH",
+    "OAK"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "ARTH",
+    "OAK",
+    "TASHKA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ARTH",
+     "votes": [
+      "ARTH",
+      "OAK",
+      "TASHKA",
+      "TOM",
+      "BATHKNIGHT"
+     ],
+     "team": [
+      "ARTH",
+      "OAK",
+      "TASHKA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "TASHKA",
+     "votes": [
+      "OAK",
+      "TASHKA",
+      "TOM",
+      "BATHKNIGHT"
+     ],
+     "team": [
+      "TASHKA",
+      "TOM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "TASHKA",
+    "TOM"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "TOM",
+     "state": "APPROVED",
+     "votes": [
+      "OAK",
+      "ARTH",
+      "TOM"
+     ],
+     "team": [
+      "TOM",
+      "ARTH",
+      "OAK"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "TOM",
+    "ARTH",
+    "OAK"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596137722,
+  "_nanoseconds": 507000000
+ },
+ "timeCreated": {
+  "_seconds": 1596137508,
+  "_nanoseconds": 736000000
+ },
+ "players": [
+  {
+   "name": "ARTH",
+   "uid": "cORmGt7PxMTwGU0YNt09fmYNXK63"
+  },
+  {
+   "name": "TASHKA",
+   "uid": "6wIXVaYsfJOMTm2GpEnV8pH4ir72"
+  },
+  {
+   "uid": "BwoGVcFMKZWBF9ZSfGGkP11TH4X2",
+   "name": "TOM"
+  },
+  {
+   "name": "BATHKNIGHT",
+   "uid": "Pd0kTFlcQoRc4jbXmLDUmdNQHRY2"
+  },
+  {
+   "name": "OAK",
+   "uid": "ddNcLgIySeW8keFlllQ8HPABgop2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

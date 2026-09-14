@@ -1,0 +1,327 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LAURA"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "LOLL"
+   },
+   {
+    "name": "CPTSLOW",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "MIR",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "WILSON"
+   },
+   {
+    "name": "JESS",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JOLYN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "MIR": true,
+    "JOLYN": true
+   },
+   {
+    "LOLL": true,
+    "MIR": true,
+    "JOLYN": true
+   },
+   {
+    "JOLYN": true,
+    "LOLL": false,
+    "MIR": true
+   },
+   {
+    "JESS": true,
+    "JOLYN": true,
+    "LAURA": true,
+    "MIR": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "MIR"
+ },
+ "players": [
+  {
+   "uid": "TrZTixbbj2feaUryf8HVAG6YmnM2",
+   "name": "WILSON"
+  },
+  {
+   "name": "LAURA",
+   "uid": "iI9az8GhulSVvazNxOsUzROy6cn1"
+  },
+  {
+   "uid": "R3zX3eFjDNcpkZT1Rhx31Ak1gdj1",
+   "name": "JOLYN"
+  },
+  {
+   "uid": "RbN53lSRexZWYxDeggtJdy0QrHi2",
+   "name": "MIR"
+  },
+  {
+   "name": "LOLL",
+   "uid": "JRU1ijQhlPa35vlKQ2nhvek9bM83"
+  },
+  {
+   "name": "JESS",
+   "uid": "G60qMM27a8O9PANPxha8XAOHrL43"
+  },
+  {
+   "name": "CPTSLOW",
+   "uid": "DKByxEwBj6g0uyUyWZfItfPneqB2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585969634,
+  "_nanoseconds": 945824000
+ },
+ "timeCreated": {
+  "_seconds": 1585968275,
+  "_nanoseconds": 224000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "JOLYN",
+    "MIR"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MIR",
+      "LOLL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JESS",
+      "LAURA",
+      "LOLL"
+     ],
+     "proposer": "JESS"
+    },
+    {
+     "team": [
+      "CPTSLOW",
+      "LAURA"
+     ],
+     "votes": [
+      "CPTSLOW",
+      "JESS",
+      "LAURA"
+     ],
+     "proposer": "CPTSLOW",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JOLYN",
+      "LOLL",
+      "WILSON"
+     ],
+     "team": [
+      "WILSON",
+      "JOLYN"
+     ],
+     "proposer": "WILSON"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JESS",
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "JOLYN"
+     ],
+     "proposer": "LAURA"
+    },
+    {
+     "team": [
+      "JOLYN",
+      "MIR"
+     ],
+     "proposer": "JOLYN",
+     "state": "APPROVED",
+     "votes": [
+      "JESS",
+      "JOLYN",
+      "LOLL",
+      "CPTSLOW",
+      "MIR",
+      "WILSON"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "JOLYN",
+    "MIR",
+    "LOLL"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MIR",
+     "state": "REJECTED",
+     "votes": [
+      "JESS",
+      "LAURA",
+      "MIR"
+     ],
+     "team": [
+      "JOLYN",
+      "LAURA",
+      "MIR"
+     ]
+    },
+    {
+     "proposer": "LOLL",
+     "votes": [
+      "JOLYN",
+      "LOLL",
+      "CPTSLOW",
+      "MIR",
+      "WILSON"
+     ],
+     "team": [
+      "JOLYN",
+      "MIR",
+      "LOLL"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "JOLYN",
+    "MIR",
+    "LOLL"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "JOLYN",
+      "MIR",
+      "LOLL"
+     ],
+     "votes": [
+      "MIR",
+      "WILSON",
+      "JESS",
+      "JOLYN",
+      "LAURA",
+      "LOLL",
+      "CPTSLOW"
+     ],
+     "proposer": "JESS",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "LAURA",
+    "JOLYN",
+    "MIR",
+    "JESS"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "WILSON",
+      "LAURA",
+      "CPTSLOW"
+     ],
+     "team": [
+      "CPTSLOW",
+      "JESS",
+      "LAURA",
+      "WILSON"
+     ],
+     "state": "REJECTED",
+     "proposer": "CPTSLOW"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "WILSON",
+     "team": [
+      "LOLL",
+      "JOLYN",
+      "MIR",
+      "WILSON"
+     ],
+     "votes": [
+      "WILSON",
+      "LOLL",
+      "CPTSLOW"
+     ]
+    },
+    {
+     "votes": [
+      "JESS",
+      "JOLYN",
+      "LAURA",
+      "CPTSLOW",
+      "MIR"
+     ],
+     "proposer": "LAURA",
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "JOLYN",
+      "MIR",
+      "JESS"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ]
+}

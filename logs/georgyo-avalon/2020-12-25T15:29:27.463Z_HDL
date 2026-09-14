@@ -1,0 +1,296 @@
+{
+ "timeCreated": {
+  "_seconds": 1608910167,
+  "_nanoseconds": 463000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "DALANDANI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "YANABANANA",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SANABER"
+   },
+   {
+    "assassin": false,
+    "name": "LANCE",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "REIN"
+   },
+   {
+    "name": "EUAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "AYS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "SANABER",
+  "votes": [
+   {
+    "SANABER": true,
+    "EUAN": true
+   },
+   {
+    "EUAN": true,
+    "SANABER": true,
+    "AYS": true
+   },
+   {
+    "EUAN": true,
+    "SANABER": false,
+    "AYS": true
+   },
+   {
+    "YANABANANA": true,
+    "LANCE": false,
+    "REIN": true,
+    "DALANDANI": false
+   },
+   {
+    "DALANDANI": true,
+    "YANABANANA": true,
+    "EUAN": true,
+    "AYS": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1608911206,
+  "_nanoseconds": 898000000
+ },
+ "players": [
+  {
+   "name": "REIN",
+   "uid": "BWPWWzCjB7MvzFYqpLXDT0xnVvB2"
+  },
+  {
+   "uid": "yPhxSbpoeNbDtmgaeR4Wv1GdBNP2",
+   "name": "AYS"
+  },
+  {
+   "name": "EUAN",
+   "uid": "gyCbWLhKNxcGmBmQ9Txo34Y2jFB3"
+  },
+  {
+   "name": "DALANDANI",
+   "uid": "rw2PdrUHA6cW5j7BwNqWhTmEnmy1"
+  },
+  {
+   "uid": "lyYt7WQwDCZDnVKOBBIa48YaVX43",
+   "name": "SANABER"
+  },
+  {
+   "name": "YANABANANA",
+   "uid": "zAGfNGcfJvV51v36iN22oc6jiBR2"
+  },
+  {
+   "name": "LANCE",
+   "uid": "GdHYqBtU3CfhA3HRH4ednNYKt2c2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SANABER",
+      "EUAN"
+     ],
+     "proposer": "DALANDANI",
+     "votes": [
+      "EUAN",
+      "AYS",
+      "LANCE",
+      "SANABER",
+      "REIN",
+      "YANABANANA",
+      "DALANDANI"
+     ]
+    }
+   ],
+   "team": [
+    "SANABER",
+    "EUAN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "SANABER",
+     "state": "APPROVED",
+     "votes": [
+      "LANCE",
+      "SANABER",
+      "AYS",
+      "REIN",
+      "EUAN",
+      "YANABANANA",
+      "DALANDANI"
+     ],
+     "team": [
+      "EUAN",
+      "SANABER",
+      "AYS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "EUAN",
+    "SANABER",
+    "AYS"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "AYS",
+    "SANABER",
+    "EUAN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "YANABANANA",
+     "votes": [
+      "DALANDANI",
+      "YANABANANA",
+      "EUAN",
+      "AYS",
+      "REIN",
+      "LANCE",
+      "SANABER"
+     ],
+     "team": [
+      "AYS",
+      "SANABER",
+      "EUAN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "LANCE",
+    "YANABANANA",
+    "DALANDANI",
+    "REIN"
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "LANCE",
+     "votes": [
+      "DALANDANI",
+      "YANABANANA",
+      "LANCE",
+      "AYS",
+      "REIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LANCE",
+      "YANABANANA",
+      "DALANDANI",
+      "REIN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "REIN",
+     "votes": [
+      "REIN",
+      "DALANDANI"
+     ],
+     "team": [
+      "SANABER",
+      "EUAN",
+      "REIN",
+      "AYS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DALANDANI",
+      "SANABER"
+     ],
+     "proposer": "AYS",
+     "team": [
+      "LANCE",
+      "EUAN",
+      "AYS",
+      "REIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "EUAN",
+      "AYS",
+      "YANABANANA",
+      "DALANDANI"
+     ],
+     "votes": [
+      "YANABANANA",
+      "LANCE",
+      "DALANDANI",
+      "SANABER",
+      "AYS"
+     ],
+     "proposer": "EUAN"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "EUAN",
+    "AYS",
+    "YANABANANA",
+    "DALANDANI"
+   ],
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

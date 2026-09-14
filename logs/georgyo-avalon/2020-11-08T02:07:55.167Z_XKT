@@ -1,0 +1,334 @@
+{
+ "missions": [
+  {
+   "teamSize": 3,
+   "team": [
+    "VALERIE",
+    "CLZZZ",
+    "HP"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HP",
+      "HAN",
+      "VALERIE",
+      "LAN",
+      "CLZZZ",
+      "TAMMY",
+      "BLACKMAMBA"
+     ],
+     "team": [
+      "VALERIE",
+      "CLZZZ",
+      "HP"
+     ],
+     "proposer": "VALERIE"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "TAMMY"
+     ],
+     "team": [
+      "VALERIE",
+      "CLZZZ",
+      "HP",
+      "HAN"
+     ],
+     "proposer": "CLZZZ",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "HP",
+     "votes": [
+      "KINGJEFF",
+      "VALERIE",
+      "LAN",
+      "SHAOPAUL",
+      "HAN",
+      "BLACKMAMBA",
+      "HP",
+      "CLZZZ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "HP",
+      "HAN",
+      "SHAOPAUL",
+      "BLACKMAMBA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "HP",
+    "HAN",
+    "SHAOPAUL",
+    "BLACKMAMBA"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HAN",
+     "votes": [
+      "BLACKMAMBA",
+      "LAN",
+      "VALERIE",
+      "CLZZZ",
+      "HP",
+      "KINGJEFF",
+      "SHAOPAUL",
+      "HAN"
+     ],
+     "team": [
+      "HAN",
+      "HP",
+      "SHAOPAUL",
+      "BLACKMAMBA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "HAN",
+    "HP",
+    "SHAOPAUL",
+    "BLACKMAMBA"
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "HP",
+    "LAN",
+    "KINGJEFF",
+    "VALERIE",
+    "TAMMY"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "HP",
+      "LAN",
+      "KINGJEFF",
+      "VALERIE",
+      "TAMMY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TAMMY",
+      "VALERIE",
+      "HAN",
+      "CLZZZ",
+      "BLACKMAMBA",
+      "LAN",
+      "KINGJEFF"
+     ],
+     "proposer": "TAMMY"
+    }
+   ],
+   "numFails": 3,
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "KINGJEFF",
+     "state": "REJECTED",
+     "votes": [
+      "KINGJEFF"
+     ],
+     "team": [
+      "BLACKMAMBA",
+      "HAN",
+      "SHAOPAUL",
+      "HP",
+      "KINGJEFF"
+     ]
+    },
+    {
+     "votes": [
+      "BLACKMAMBA",
+      "KINGJEFF",
+      "HP",
+      "TAMMY",
+      "SHAOPAUL",
+      "HAN",
+      "LAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SHAOPAUL",
+      "HP",
+      "CLZZZ",
+      "BLACKMAMBA",
+      "HAN"
+     ],
+     "proposer": "SHAOPAUL"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "SHAOPAUL",
+    "HP",
+    "CLZZZ",
+    "BLACKMAMBA",
+    "HAN"
+   ],
+   "state": "FAIL",
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604801275,
+  "_nanoseconds": 167000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BLACKMAMBA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KINGJEFF",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "CLZZZ",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "VALERIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HP",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "TAMMY"
+   },
+   {
+    "assassin": false,
+    "name": "SHAOPAUL",
+    "role": "PERCIVAL"
+   }
+  ],
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "HP": true,
+    "VALERIE": true,
+    "CLZZZ": true
+   },
+   {
+    "HP": true,
+    "HAN": true,
+    "BLACKMAMBA": true,
+    "SHAOPAUL": true
+   },
+   {
+    "BLACKMAMBA": true,
+    "HP": false,
+    "HAN": true,
+    "SHAOPAUL": true
+   },
+   {
+    "LAN": true,
+    "HP": false,
+    "TAMMY": false,
+    "VALERIE": true,
+    "KINGJEFF": false
+   },
+   {
+    "HAN": true,
+    "CLZZZ": true,
+    "BLACKMAMBA": true,
+    "SHAOPAUL": true,
+    "HP": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1604802579,
+  "_nanoseconds": 935000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "HAN",
+   "uid": "MFZQLxl4e5PuWtkthMLEMU2SDSg2"
+  },
+  {
+   "name": "TAMMY",
+   "uid": "s1cJdmjPczNhvjN1z48nfjk6MJ72"
+  },
+  {
+   "name": "KINGJEFF",
+   "uid": "S99Z2pKmwAegFTF1KlLpAuHeAVM2"
+  },
+  {
+   "name": "SHAOPAUL",
+   "uid": "CmlfNiUOQ0WBkKkHTAPpccsnUHD2"
+  },
+  {
+   "name": "LAN",
+   "uid": "h6asdKNm2KYwtMDsijGwQFsSqWE3"
+  },
+  {
+   "uid": "OrPqHl1PdIM768Jq7CgEjR4KxtY2",
+   "name": "BLACKMAMBA"
+  },
+  {
+   "uid": "R2MBx3GaFKZAtXjWMkTBkR2lBlt1",
+   "name": "VALERIE"
+  },
+  {
+   "uid": "b5bLTFRDUJWrSPLXcLhhkSZfTNu2",
+   "name": "CLZZZ"
+  },
+  {
+   "name": "HP",
+   "uid": "qjDeDxtpggSF9WWbIBj8hkrx8Oe2"
+  }
+ ]
+}

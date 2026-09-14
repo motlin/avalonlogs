@@ -1,0 +1,241 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "DEVI",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "VCS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JESSE",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "DHIVYA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TERENCE",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "B"
+   },
+   {
+    "assassin": false,
+    "name": "SREEHARI",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ANDY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BILAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JACOB",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DEVI": false,
+    "B": true,
+    "JESSE": true
+   },
+   {
+    "DHIVYA": true,
+    "JACOB": true,
+    "JESSE": false,
+    "VCS": true
+   },
+   {
+    "DHIVYA": true,
+    "TERENCE": true,
+    "B": false,
+    "SREEHARI": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "JESSE",
+      "B",
+      "DEVI"
+     ],
+     "votes": [
+      "JACOB",
+      "DEVI",
+      "JESSE",
+      "TERENCE",
+      "B",
+      "SREEHARI"
+     ],
+     "proposer": "DEVI",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "JESSE",
+    "B",
+    "DEVI"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "VCS",
+      "JESSE",
+      "DHIVYA",
+      "JACOB"
+     ],
+     "proposer": "VCS",
+     "votes": [
+      "JACOB",
+      "VCS",
+      "JESSE",
+      "DHIVYA",
+      "TERENCE",
+      "B"
+     ]
+    }
+   ],
+   "team": [
+    "VCS",
+    "JESSE",
+    "DHIVYA",
+    "JACOB"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "B",
+    "DHIVYA",
+    "SREEHARI",
+    "TERENCE"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BILAL",
+      "DEVI",
+      "JESSE",
+      "TERENCE",
+      "B",
+      "SREEHARI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "B",
+      "DHIVYA",
+      "SREEHARI",
+      "TERENCE"
+     ],
+     "proposer": "B"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "failsRequired": 2,
+   "proposals": [],
+   "teamSize": 5,
+   "state": "PENDING"
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5,
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589499662,
+  "_nanoseconds": 489000000
+ },
+ "players": [
+  {
+   "name": "DHIVYA",
+   "uid": "MK1EX0VtLOhvaJXm0iWgfsZi05T2"
+  },
+  {
+   "name": "SREEHARI",
+   "uid": "QStxrKf8k4TmFganvwZS3BFnHF23"
+  },
+  {
+   "uid": "87J09pEeSgQSlT2jj0fyo84ZtAM2",
+   "name": "JACOB"
+  },
+  {
+   "name": "ANDY",
+   "uid": "dU3IF056yVMadKkgZNwmAMHgylx1"
+  },
+  {
+   "name": "DEVI",
+   "uid": "AJe0hX3gTAUMv8y5QPdyxcnizqm2"
+  },
+  {
+   "name": "VCS",
+   "uid": "AUfP56R3jwYgs9uZvTF9eWczvJz1"
+  },
+  {
+   "name": "B",
+   "uid": "aSBrg6GCXsXovTjJbAADetz3GW53"
+  },
+  {
+   "name": "JESSE",
+   "uid": "5bH1UUmmL4S8Ee2rY4MBynHJVDP2"
+  },
+  {
+   "uid": "XCBRvTqy2ZSNANiRhXAofdbDfkw2",
+   "name": "BILAL"
+  },
+  {
+   "name": "TERENCE",
+   "uid": "upjAkjtVmcQ37qkfkfKkIxMJDjA3"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589500060,
+  "_nanoseconds": 999000000
+ }
+}

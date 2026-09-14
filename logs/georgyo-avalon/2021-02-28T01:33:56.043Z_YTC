@@ -1,0 +1,243 @@
+{
+ "players": [
+  {
+   "uid": "GF0BaVfxNBZFk9LHgQCRSbZg5g93",
+   "name": "JAMES"
+  },
+  {
+   "uid": "Cz3L5keyzrOXsD1Vw3ywRib6jJT2",
+   "name": "YELIN"
+  },
+  {
+   "uid": "bK1HXAD4LIacKEHkPdwMDltf3383",
+   "name": "DAVID"
+  },
+  {
+   "uid": "hcesd5h7Cva4nlygkn3EgPJOSgT2",
+   "name": "ERIN"
+  },
+  {
+   "name": "ABBY",
+   "uid": "I50CceZAw6bFprIbaF43GNXJZio2"
+  },
+  {
+   "name": "AARON",
+   "uid": "wQXOXeat5SOhT2nHWp1SrqzBU292"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "5nVsxGYo0Fchb7LJkwhJ77XQcKh2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1614476707,
+  "_nanoseconds": 91000000
+ },
+ "missions": [
+  {
+   "team": [
+    "YELIN",
+    "ERIN"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JAMES",
+     "team": [
+      "JAMES",
+      "YELIN"
+     ],
+     "votes": [
+      "ABBY",
+      "JAMES",
+      "YELIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAMES",
+      "AARON",
+      "ABBY",
+      "CONNOR",
+      "ERIN",
+      "YELIN"
+     ],
+     "proposer": "YELIN",
+     "team": [
+      "YELIN",
+      "ERIN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "YELIN",
+    "ERIN",
+    "ABBY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ERIN"
+     ],
+     "team": [
+      "ERIN",
+      "AARON",
+      "ABBY"
+     ],
+     "proposer": "DAVID"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ERIN",
+      "CONNOR",
+      "YELIN"
+     ],
+     "team": [
+      "ERIN",
+      "YELIN",
+      "CONNOR"
+     ],
+     "proposer": "ERIN"
+    },
+    {
+     "team": [
+      "YELIN",
+      "ERIN",
+      "ABBY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CONNOR",
+      "YELIN",
+      "ABBY",
+      "ERIN",
+      "AARON",
+      "JAMES"
+     ],
+     "proposer": "ABBY"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "YELIN",
+    "ERIN",
+    "ABBY"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "AARON",
+     "state": "APPROVED",
+     "team": [
+      "YELIN",
+      "ERIN",
+      "ABBY"
+     ],
+     "votes": [
+      "AARON",
+      "YELIN",
+      "CONNOR",
+      "ERIN",
+      "ABBY"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 2,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "YELIN": true,
+    "ERIN": true
+   },
+   {
+    "ERIN": true,
+    "YELIN": true,
+    "ABBY": true
+   },
+   {
+    "ERIN": true,
+    "ABBY": true,
+    "YELIN": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "ABBY",
+    "role": "MORDRED"
+   },
+   {
+    "name": "DAVID",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "OBERON",
+    "name": "JAMES",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ERIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AARON"
+   },
+   {
+    "name": "YELIN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CONNOR",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "CONNOR"
+ },
+ "timeCreated": {
+  "_seconds": 1614476036,
+  "_nanoseconds": 43000000
+ }
+}

@@ -1,0 +1,278 @@
+{
+ "timeFinished": {
+  "_seconds": 1585885801,
+  "_nanoseconds": 436400000
+ },
+ "timeCreated": {
+  "_seconds": 1585885249,
+  "_nanoseconds": 25000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "NINA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SLUGHORN",
+    "assassin": false
+   },
+   {
+    "name": "MINTY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ARUN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "CHIPS"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JUSHJEN"
+   }
+  ],
+  "votes": [
+   {
+    "SLUGHORN": true,
+    "CHIPS": true
+   },
+   {
+    "JUSHJEN": false,
+    "CHIPS": true,
+    "SLUGHORN": true
+   },
+   {
+    "ARUN": true,
+    "NINA": false,
+    "CHIPS": true,
+    "MINTY": true
+   },
+   {
+    "ARUN": true,
+    "CHIPS": true,
+    "MINTY": true
+   },
+   {
+    "CHIPS": true,
+    "ARUN": true,
+    "NINA": false,
+    "MINTY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "CHIPS",
+    "SLUGHORN"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHIPS",
+     "state": "APPROVED",
+     "votes": [
+      "NINA",
+      "SLUGHORN",
+      "MINTY",
+      "ARUN",
+      "CHIPS",
+      "JUSHJEN"
+     ],
+     "team": [
+      "CHIPS",
+      "SLUGHORN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NINA",
+      "SLUGHORN",
+      "MINTY",
+      "CHIPS",
+      "JUSHJEN"
+     ],
+     "team": [
+      "JUSHJEN",
+      "CHIPS",
+      "SLUGHORN"
+     ],
+     "proposer": "JUSHJEN"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "JUSHJEN",
+    "CHIPS",
+    "SLUGHORN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ARUN",
+    "MINTY",
+    "CHIPS",
+    "NINA"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "ARUN",
+      "CHIPS",
+      "NINA",
+      "MINTY"
+     ],
+     "team": [
+      "ARUN",
+      "MINTY",
+      "CHIPS",
+      "NINA"
+     ],
+     "proposer": "ARUN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ARUN",
+      "CHIPS",
+      "NINA",
+      "MINTY"
+     ],
+     "state": "APPROVED",
+     "proposer": "MINTY",
+     "team": [
+      "MINTY",
+      "CHIPS",
+      "ARUN"
+     ]
+    }
+   ],
+   "team": [
+    "MINTY",
+    "CHIPS",
+    "ARUN"
+   ]
+  },
+  {
+   "team": [
+    "CHIPS",
+    "NINA",
+    "MINTY",
+    "ARUN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHIPS",
+      "NINA",
+      "MINTY"
+     ],
+     "team": [
+      "NINA",
+      "MINTY",
+      "ARUN",
+      "CHIPS"
+     ],
+     "proposer": "NINA"
+    },
+    {
+     "team": [
+      "JUSHJEN",
+      "SLUGHORN",
+      "NINA",
+      "MINTY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SLUGHORN",
+      "JUSHJEN"
+     ],
+     "proposer": "SLUGHORN"
+    },
+    {
+     "votes": [
+      "ARUN",
+      "CHIPS",
+      "JUSHJEN",
+      "NINA",
+      "MINTY"
+     ],
+     "team": [
+      "CHIPS",
+      "NINA",
+      "MINTY",
+      "ARUN"
+     ],
+     "proposer": "CHIPS",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "ARUN",
+   "uid": "YWPt61g9PKcsEfXSPVGlUwG3gI02"
+  },
+  {
+   "uid": "Uiea1JwCfqeqUYYtVoiy24W0TS32",
+   "name": "MINTY"
+  },
+  {
+   "name": "NINA",
+   "uid": "wBCDs6JBeNOU947Gh9jwrGGg6uf1"
+  },
+  {
+   "name": "SLUGHORN",
+   "uid": "EAo3DC2OYQYzOpQ01qyQmLBYVc93"
+  },
+  {
+   "name": "CHIPS",
+   "uid": "qBsI9bUIrjaFWWUrQEeh0g0X5VL2"
+  },
+  {
+   "name": "JUSHJEN",
+   "uid": "5K7RLYhzvsbWPsAXYsYqnpiKadS2"
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "timeCreated": {
+  "_seconds": 1588340879,
+  "_nanoseconds": 64000000
+ },
+ "timeFinished": {
+  "_seconds": 1588341504,
+  "_nanoseconds": 798000000
+ },
+ "missions": [
+  {
+   "team": [
+    "BRYAN",
+    "JENSON"
+   ],
+   "proposals": [
+    {
+     "proposer": "JENSON",
+     "votes": [
+      "AMBER",
+      "JENSON",
+      "MELON",
+      "BRYAN",
+      "HUIQII"
+     ],
+     "team": [
+      "BRYAN",
+      "JENSON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MELON",
+      "BRYAN",
+      "AMBER"
+     ],
+     "proposer": "MELON",
+     "state": "APPROVED",
+     "team": [
+      "JENSON",
+      "MELON",
+      "BRYAN"
+     ]
+    }
+   ],
+   "team": [
+    "JENSON",
+    "MELON",
+    "BRYAN"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "BRYAN",
+    "JENSON"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "AMBER",
+     "team": [
+      "AMBER",
+      "HUIQII"
+     ],
+     "votes": [
+      "MELON",
+      "AMBER"
+     ]
+    },
+    {
+     "votes": [
+      "JENSON",
+      "BRYAN",
+      "AMBER"
+     ],
+     "proposer": "BRYAN",
+     "state": "APPROVED",
+     "team": [
+      "BRYAN",
+      "JENSON"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MELON",
+      "HUIQII"
+     ],
+     "team": [
+      "HUIQII",
+      "MELON",
+      "BRYAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "HUIQII"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JENSON",
+     "team": [
+      "JENSON",
+      "BRYAN",
+      "HUIQII"
+     ],
+     "votes": [
+      "BRYAN",
+      "AMBER",
+      "JENSON"
+     ]
+    }
+   ],
+   "team": [
+    "JENSON",
+    "BRYAN",
+    "HUIQII"
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "HUIQII",
+    "MELON",
+    "BRYAN"
+   ],
+   "proposals": [
+    {
+     "proposer": "MELON",
+     "votes": [
+      "BRYAN",
+      "HUIQII",
+      "MELON"
+     ],
+     "team": [
+      "HUIQII",
+      "MELON",
+      "BRYAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "HUIQII",
+   "uid": "kvlhosiVT2XZrYVdBAb5PSCzRvO2"
+  },
+  {
+   "uid": "FRORnPVqnvhER8KtYOq5RmFzbL13",
+   "name": "JENSON"
+  },
+  {
+   "name": "MELON",
+   "uid": "tmQrVpRPypewJ48c4C3AvOXWBpk2"
+  },
+  {
+   "uid": "hZjW1k8vaFTGWoKvwyUVmptoNu22",
+   "name": "AMBER"
+  },
+  {
+   "uid": "FjnYp1dBtTYjqGfXXfKxBzLLK8D2",
+   "name": "BRYAN"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JENSON": true,
+    "BRYAN": true
+   },
+   {
+    "MELON": true,
+    "JENSON": false,
+    "BRYAN": true
+   },
+   {
+    "JENSON": true,
+    "BRYAN": true
+   },
+   {
+    "JENSON": false,
+    "BRYAN": true,
+    "HUIQII": true
+   },
+   {
+    "HUIQII": true,
+    "BRYAN": true,
+    "MELON": true
+   }
+  ],
+  "assassinated": "HUIQII",
+  "roles": [
+   {
+    "name": "MELON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "BRYAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HUIQII",
+    "role": "MERLIN"
+   },
+   {
+    "name": "AMBER",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JENSON"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ }
+}

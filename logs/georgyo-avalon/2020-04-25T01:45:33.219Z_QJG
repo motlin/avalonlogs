@@ -1,0 +1,253 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "TARA",
+      "TOM"
+     ],
+     "votes": [
+      "TARA",
+      "LUKE",
+      "IMBENJAMMI",
+      "TOM"
+     ],
+     "proposer": "TOM",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "TARA",
+    "TOM"
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "TARA",
+    "TOM",
+    "LUKE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TARA",
+      "TOM",
+      "LUKE"
+     ],
+     "proposer": "TARA",
+     "state": "APPROVED",
+     "votes": [
+      "ALI",
+      "LUKE",
+      "TOM"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ALI",
+    "LUKE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALI",
+      "LUKE",
+      "IMBENJAMMI"
+     ],
+     "team": [
+      "ALI",
+      "LUKE"
+     ],
+     "proposer": "LUKE"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ALI"
+     ],
+     "proposer": "ALI",
+     "state": "REJECTED",
+     "team": [
+      "ALI",
+      "IMBENJAMMI",
+      "LUKE"
+     ]
+    },
+    {
+     "proposer": "IMBENJAMMI",
+     "state": "APPROVED",
+     "team": [
+      "IMBENJAMMI",
+      "LUKE",
+      "TARA"
+     ],
+     "votes": [
+      "IMBENJAMMI",
+      "TARA",
+      "ALI",
+      "LUKE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "IMBENJAMMI",
+    "LUKE",
+    "TARA"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "TARA",
+    "LUKE",
+    "IMBENJAMMI"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "TOM",
+      "TARA",
+      "IMBENJAMMI"
+     ],
+     "votes": [
+      "ALI",
+      "TOM"
+     ],
+     "proposer": "TOM",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TARA",
+      "LUKE",
+      "IMBENJAMMI"
+     ],
+     "state": "APPROVED",
+     "proposer": "TARA",
+     "votes": [
+      "IMBENJAMMI",
+      "TARA",
+      "ALI",
+      "LUKE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "TARA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ALI"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "LUKE",
+    "assassin": false
+   },
+   {
+    "name": "IMBENJAMMI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "TOM"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "IMBENJAMMI",
+  "votes": [
+   {
+    "TOM": true,
+    "TARA": true
+   },
+   {
+    "TARA": true,
+    "TOM": false,
+    "LUKE": true
+   },
+   {
+    "ALI": false,
+    "LUKE": true
+   },
+   {
+    "IMBENJAMMI": true,
+    "LUKE": true,
+    "TARA": true
+   },
+   {
+    "IMBENJAMMI": true,
+    "LUKE": true,
+    "TARA": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587779420,
+  "_nanoseconds": 562000000
+ },
+ "players": [
+  {
+   "name": "TOM",
+   "uid": "DBmJbVJuI3gk5sq6JN0gM9aMNUX2"
+  },
+  {
+   "uid": "PtnYZP937Yaj3BRoOoEibJKvmNq1",
+   "name": "TARA"
+  },
+  {
+   "name": "LUKE",
+   "uid": "bwGw2zkFfeOH24CRKuunkNjFpOn1"
+  },
+  {
+   "name": "ALI",
+   "uid": "V4YW5XjlPFg1Pj87mv5zDhwWJEO2"
+  },
+  {
+   "uid": "iRszaW7C7kVSlrmOUY3k9MyqssA2",
+   "name": "IMBENJAMMI"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587779133,
+  "_nanoseconds": 219000000
+ }
+}

@@ -1,0 +1,378 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "SHUAI",
+   "uid": "AOONmHCEvJRjIfsqFB8kE0T5bbT2"
+  },
+  {
+   "name": "RENPENG",
+   "uid": "1Qex8qvnV0RnUuCFb3cOfLrMcIj1"
+  },
+  {
+   "name": "XYS",
+   "uid": "oItf6V8YBhZR5ov7LYzQQDqXpuv2"
+  },
+  {
+   "uid": "gJ2trTZRFXReF6XlzwrP13yEI1m1",
+   "name": "EVELLYN"
+  },
+  {
+   "uid": "3VGVPM2WTIYKR8EXw4Sce0v4FDu2",
+   "name": "JESSIE"
+  },
+  {
+   "name": "SUKH",
+   "uid": "PYYyRAA4RJVJuCBT0SthQwlxVW93"
+  },
+  {
+   "name": "APRILV",
+   "uid": "dxqQYm22r2aMqi4C7beGIDTZZXQ2"
+  },
+  {
+   "name": "JASON",
+   "uid": "jNGww0k2kURsaNAFFxxgvZa0UT12"
+  },
+  {
+   "name": "VIOLA",
+   "uid": "8AVaJ0WZ1JaXCtvNKziEuD0KNcY2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1597864543,
+  "_nanoseconds": 701000000
+ },
+ "timeCreated": {
+  "_seconds": 1597862204,
+  "_nanoseconds": 696000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "RENPENG": true,
+    "XYS": false,
+    "SHUAI": true
+   },
+   {
+    "VIOLA": true,
+    "JESSIE": true,
+    "APRILV": true,
+    "JASON": true
+   },
+   {
+    "JESSIE": true,
+    "SHUAI": false,
+    "JASON": true,
+    "SUKH": true
+   },
+   {
+    "VIOLA": true,
+    "SHUAI": true,
+    "JESSIE": true,
+    "JASON": true,
+    "APRILV": true
+   },
+   {
+    "SUKH": false,
+    "VIOLA": true,
+    "JASON": true,
+    "SHUAI": false,
+    "APRILV": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SHUAI"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JESSIE"
+   },
+   {
+    "name": "VIOLA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SUKH",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "RENPENG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JASON",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "EVELLYN",
+    "assassin": false
+   },
+   {
+    "name": "XYS",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "APRILV",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SHUAI",
+      "APRILV",
+      "RENPENG",
+      "EVELLYN"
+     ],
+     "team": [
+      "SHUAI",
+      "RENPENG",
+      "APRILV"
+     ],
+     "proposer": "SHUAI"
+    },
+    {
+     "votes": [
+      "JASON",
+      "APRILV",
+      "XYS",
+      "RENPENG",
+      "SUKH"
+     ],
+     "proposer": "RENPENG",
+     "state": "APPROVED",
+     "team": [
+      "RENPENG",
+      "SHUAI",
+      "XYS"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "RENPENG",
+    "SHUAI",
+    "XYS"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "XYS",
+      "JESSIE",
+      "JASON",
+      "EVELLYN"
+     ],
+     "team": [
+      "JESSIE",
+      "JASON",
+      "SUKH",
+      "VIOLA"
+     ],
+     "proposer": "XYS"
+    },
+    {
+     "votes": [
+      "EVELLYN",
+      "VIOLA",
+      "XYS",
+      "JASON"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RENPENG",
+      "XYS",
+      "JASON",
+      "EVELLYN"
+     ],
+     "proposer": "EVELLYN"
+    },
+    {
+     "proposer": "JESSIE",
+     "votes": [
+      "JASON",
+      "EVELLYN",
+      "XYS",
+      "JESSIE",
+      "VIOLA",
+      "RENPENG"
+     ],
+     "team": [
+      "JESSIE",
+      "JASON",
+      "VIOLA",
+      "APRILV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JESSIE",
+    "JASON",
+    "VIOLA",
+    "APRILV"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JESSIE",
+      "EVELLYN",
+      "XYS",
+      "SUKH",
+      "JASON",
+      "RENPENG",
+      "APRILV"
+     ],
+     "team": [
+      "JESSIE",
+      "SHUAI",
+      "JASON",
+      "SUKH"
+     ],
+     "proposer": "SUKH"
+    }
+   ],
+   "team": [
+    "JESSIE",
+    "SHUAI",
+    "JASON",
+    "SUKH"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "APRILV",
+    "SHUAI",
+    "JESSIE",
+    "VIOLA",
+    "JASON"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JASON",
+      "RENPENG",
+      "APRILV",
+      "VIOLA",
+      "JESSIE"
+     ],
+     "team": [
+      "APRILV",
+      "SHUAI",
+      "JESSIE",
+      "VIOLA",
+      "JASON"
+     ],
+     "proposer": "APRILV",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "APRILV",
+      "SUKH",
+      "JASON"
+     ],
+     "team": [
+      "APRILV",
+      "JESSIE",
+      "VIOLA",
+      "RENPENG",
+      "EVELLYN"
+     ],
+     "proposer": "JASON",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "VIOLA",
+     "state": "REJECTED",
+     "votes": [
+      "VIOLA",
+      "APRILV",
+      "SUKH",
+      "JASON"
+     ],
+     "team": [
+      "VIOLA",
+      "RENPENG",
+      "JESSIE",
+      "APRILV",
+      "EVELLYN"
+     ]
+    },
+    {
+     "proposer": "SHUAI",
+     "state": "APPROVED",
+     "team": [
+      "SHUAI",
+      "APRILV",
+      "VIOLA",
+      "JASON",
+      "SUKH"
+     ],
+     "votes": [
+      "XYS",
+      "SHUAI",
+      "APRILV",
+      "EVELLYN",
+      "SUKH"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "team": [
+    "SHUAI",
+    "APRILV",
+    "VIOLA",
+    "JASON",
+    "SUKH"
+   ],
+   "numFails": 2
+  }
+ ]
+}

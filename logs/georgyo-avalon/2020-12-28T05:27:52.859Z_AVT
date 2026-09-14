@@ -1,0 +1,336 @@
+{
+ "timeFinished": {
+  "_seconds": 1609134841,
+  "_nanoseconds": 799000000
+ },
+ "timeCreated": {
+  "_seconds": 1609133272,
+  "_nanoseconds": 859000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "KARMAN": true,
+    "DAVID": true,
+    "DARTHLILY": false
+   },
+   {
+    "JUSTIN": true,
+    "JEDI": true,
+    "AUSTIN": true,
+    "AMY": true
+   },
+   {
+    "AUSTIN": true,
+    "JEDI": false,
+    "AMY": true,
+    "JUSTIN": true
+   },
+   {
+    "DAVID": true,
+    "AUSTIN": true,
+    "SARAHYAO": true,
+    "DARTHLILY": true,
+    "JEDI": false
+   },
+   {
+    "SARAHYAO": true,
+    "AMY": true,
+    "JUSTIN": true,
+    "AUSTIN": true,
+    "ANTHONY": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "JUSTIN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "SARAHYAO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DARTHLILY",
+    "role": "OBERON"
+   },
+   {
+    "name": "AMY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "AUSTIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JEDI"
+   },
+   {
+    "name": "KARMAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ANTHONY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "BABYYODA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DAVID",
+    "role": "MORDRED",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "DAVID",
+     "votes": [
+      "DARTHLILY",
+      "ANTHONY",
+      "BABYYODA",
+      "SARAHYAO",
+      "DAVID",
+      "JEDI",
+      "AMY"
+     ],
+     "team": [
+      "DAVID",
+      "KARMAN",
+      "DARTHLILY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "DAVID",
+    "KARMAN",
+    "DARTHLILY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JUSTIN",
+    "JEDI",
+    "AMY",
+    "AUSTIN"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "AMY",
+      "KARMAN",
+      "SARAHYAO",
+      "DAVID",
+      "ANTHONY",
+      "DARTHLILY",
+      "BABYYODA",
+      "AUSTIN",
+      "JEDI"
+     ],
+     "proposer": "JUSTIN",
+     "team": [
+      "JUSTIN",
+      "JEDI",
+      "AMY",
+      "AUSTIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "AUSTIN",
+    "AMY",
+    "JEDI",
+    "JUSTIN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "AUSTIN",
+      "AMY",
+      "JEDI",
+      "JUSTIN"
+     ],
+     "proposer": "DARTHLILY",
+     "votes": [
+      "JUSTIN",
+      "SARAHYAO",
+      "BABYYODA",
+      "JEDI",
+      "AMY",
+      "KARMAN",
+      "DARTHLILY",
+      "AUSTIN",
+      "ANTHONY",
+      "DAVID"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "AUSTIN",
+      "DARTHLILY",
+      "DAVID",
+      "SARAHYAO",
+      "JEDI"
+     ],
+     "proposer": "AUSTIN",
+     "state": "APPROVED",
+     "votes": [
+      "JEDI",
+      "KARMAN",
+      "AMY",
+      "DARTHLILY",
+      "ANTHONY",
+      "DAVID"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "team": [
+    "AUSTIN",
+    "DARTHLILY",
+    "DAVID",
+    "SARAHYAO",
+    "JEDI"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 5,
+   "team": [
+    "AMY",
+    "JUSTIN",
+    "SARAHYAO",
+    "ANTHONY",
+    "AUSTIN"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JEDI",
+      "AMY",
+      "JUSTIN",
+      "SARAHYAO",
+      "ANTHONY"
+     ],
+     "proposer": "ANTHONY",
+     "state": "REJECTED",
+     "team": [
+      "ANTHONY",
+      "AUSTIN",
+      "SARAHYAO",
+      "AMY",
+      "JUSTIN"
+     ]
+    },
+    {
+     "votes": [
+      "KARMAN",
+      "SARAHYAO",
+      "AMY",
+      "JUSTIN",
+      "DAVID",
+      "ANTHONY",
+      "JEDI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AMY",
+      "JUSTIN",
+      "SARAHYAO",
+      "ANTHONY",
+      "AUSTIN"
+     ],
+     "proposer": "AMY"
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "AUSTIN",
+   "uid": "kc9pvzVeosaC2NVpOgqmiptHVTy1"
+  },
+  {
+   "uid": "3C5tnwM3qzVN8bUIe5YABCmNzpS2",
+   "name": "ANTHONY"
+  },
+  {
+   "name": "AMY",
+   "uid": "Egltnx2wlhYpzCSkTFUdfICvNGP2"
+  },
+  {
+   "name": "BABYYODA",
+   "uid": "DOyoTKEu1tUAt53p9sZgcXDGLi93"
+  },
+  {
+   "uid": "WSHhDhDDAKfTNqHNqB7IFEpNLLF3",
+   "name": "SARAHYAO"
+  },
+  {
+   "name": "JEDI",
+   "uid": "SCowOeajKtVSQWGyrisLzbMxLo42"
+  },
+  {
+   "name": "KARMAN",
+   "uid": "QoAxk1ed99MKEslKBV193OVutI43"
+  },
+  {
+   "uid": "Dp5R7ddu8kXTtRl1mzdmPFOQ97h2",
+   "name": "DAVID"
+  },
+  {
+   "name": "JUSTIN",
+   "uid": "C08PkvH6LjapJKxP35ufyS2F5ru1"
+  },
+  {
+   "uid": "3aLUIAIE0ETQj8LQlfISO22rHf92",
+   "name": "DARTHLILY"
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "DYLAN",
+    "EMERSON"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "EMERSON",
+      "JACOB",
+      "ETHAN",
+      "MILLERTIME",
+      "DYLAN",
+      "KEON"
+     ],
+     "team": [
+      "DYLAN",
+      "EMERSON"
+     ],
+     "proposer": "DYLAN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "EMERSON",
+    "JACOB",
+    "ETHAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "EMERSON",
+     "state": "APPROVED",
+     "votes": [
+      "KEON",
+      "EMERSON",
+      "DYLAN",
+      "JACOB",
+      "ETHAN"
+     ],
+     "team": [
+      "EMERSON",
+      "JACOB",
+      "ETHAN"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "KEON",
+      "DYLAN",
+      "EMERSON",
+      "JACOB",
+      "ETHAN",
+      "MILLERTIME"
+     ],
+     "team": [
+      "KEON",
+      "ETHAN",
+      "MILLERTIME",
+      "JACOB"
+     ],
+     "state": "APPROVED",
+     "proposer": "KEON"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "KEON",
+    "ETHAN",
+    "MILLERTIME",
+    "JACOB"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ETHAN",
+    "MILLERTIME",
+    "EMERSON"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ETHAN",
+      "MILLERTIME",
+      "EMERSON"
+     ],
+     "votes": [
+      "KEON",
+      "DYLAN",
+      "MILLERTIME",
+      "ETHAN"
+     ],
+     "proposer": "MILLERTIME"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "uid": "CRAo4cjSqXM6sZ3vr9VK2YLji003",
+   "name": "KEON"
+  },
+  {
+   "name": "MILLERTIME",
+   "uid": "l8JzD6xjccgDr0LeRniyX7zhlPP2"
+  },
+  {
+   "name": "ETHAN",
+   "uid": "uiEtJzl3kMcca36Gn2XBcpH9PwJ2"
+  },
+  {
+   "uid": "2kkT3FL8EsOPKj3k1U3nv1g07Ou1",
+   "name": "JACOB"
+  },
+  {
+   "name": "DYLAN",
+   "uid": "pTCUWIjzlkU0QSilgWIS9F1Kucm1"
+  },
+  {
+   "name": "EMERSON",
+   "uid": "KgEg5NvTY6OkEOFw5RNqb6eEAVD3"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "DYLAN": true,
+    "EMERSON": true
+   },
+   {
+    "ETHAN": true,
+    "EMERSON": true,
+    "JACOB": false
+   },
+   {
+    "MILLERTIME": true,
+    "KEON": true,
+    "ETHAN": true,
+    "JACOB": false
+   },
+   {
+    "EMERSON": true,
+    "MILLERTIME": true,
+    "ETHAN": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KEON",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JACOB"
+   },
+   {
+    "name": "ETHAN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "MILLERTIME",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "DYLAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EMERSON"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1596337217,
+  "_nanoseconds": 827000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1596336364,
+  "_nanoseconds": 501000000
+ }
+}

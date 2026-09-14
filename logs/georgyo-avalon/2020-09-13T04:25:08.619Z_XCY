@@ -1,0 +1,293 @@
+{
+ "players": [
+  {
+   "uid": "oUbh0cbD3dS4GAEzbDoU6qfEEO73",
+   "name": "ASHLEY"
+  },
+  {
+   "uid": "9lEDnYZldlPbAqymqmKdhmK0KLH2",
+   "name": "CATHY"
+  },
+  {
+   "uid": "BSV8PXzydYaXtBuMWGVGx0eYPL02",
+   "name": "ALAN"
+  },
+  {
+   "uid": "lckLRrCDaSeHjYoj6wuNDLDq7uu1",
+   "name": "KEVIN"
+  },
+  {
+   "name": "JANET",
+   "uid": "c8AL0Gy5vPUsFpW1yXNE04LiMJB2"
+  },
+  {
+   "uid": "r42ghwvuAXYXp5woGW8JjK86C0C3",
+   "name": "CINDY"
+  },
+  {
+   "name": "RM",
+   "uid": "5ROZzXe2h0QLOYLTi2uNvytkqPp2"
+  },
+  {
+   "name": "NINA",
+   "uid": "o0J4MjCZwlbJ7YDGCkZ7UERLSN83"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "NINA": true,
+    "ALAN": false,
+    "CATHY": true
+   },
+   {
+    "JANET": true,
+    "CINDY": true,
+    "ASHLEY": true,
+    "CATHY": true
+   },
+   {
+    "CINDY": true,
+    "JANET": true,
+    "ASHLEY": true,
+    "CATHY": false
+   },
+   {
+    "ALAN": false,
+    "CINDY": true,
+    "NINA": true,
+    "ASHLEY": true,
+    "KEVIN": true
+   },
+   {
+    "JANET": true,
+    "CINDY": true,
+    "KEVIN": false,
+    "RM": true,
+    "ASHLEY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ALAN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "RM",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "JANET",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CATHY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NINA"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "CINDY"
+   },
+   {
+    "name": "ASHLEY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "KEVIN",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1599973602,
+  "_nanoseconds": 811000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "NINA",
+      "CATHY",
+      "ALAN"
+     ],
+     "proposer": "NINA",
+     "state": "APPROVED",
+     "votes": [
+      "ASHLEY",
+      "NINA",
+      "CINDY",
+      "JANET",
+      "CATHY",
+      "RM",
+      "ALAN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "NINA",
+    "CATHY",
+    "ALAN"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "ASHLEY",
+    "CINDY",
+    "JANET",
+    "CATHY"
+   ],
+   "proposals": [
+    {
+     "proposer": "ASHLEY",
+     "team": [
+      "ASHLEY",
+      "CINDY",
+      "JANET",
+      "CATHY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RM",
+      "NINA",
+      "CINDY",
+      "JANET",
+      "ALAN",
+      "CATHY",
+      "ASHLEY"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ASHLEY",
+    "CATHY",
+    "JANET",
+    "CINDY"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "RM",
+      "ASHLEY",
+      "CATHY",
+      "CINDY",
+      "JANET",
+      "ALAN",
+      "NINA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ASHLEY",
+      "CATHY",
+      "JANET",
+      "CINDY"
+     ],
+     "proposer": "CATHY"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "KEVIN",
+    "NINA",
+    "ASHLEY",
+    "CINDY",
+    "ALAN"
+   ],
+   "numFails": 1,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KEVIN",
+      "NINA",
+      "ASHLEY",
+      "CINDY",
+      "ALAN"
+     ],
+     "votes": [
+      "CINDY",
+      "ASHLEY",
+      "ALAN",
+      "CATHY",
+      "NINA"
+     ],
+     "proposer": "ALAN"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 5,
+   "team": [
+    "ASHLEY",
+    "KEVIN",
+    "CINDY",
+    "JANET",
+    "RM"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "votes": [
+      "CINDY",
+      "ASHLEY",
+      "ALAN",
+      "RM",
+      "JANET",
+      "KEVIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ASHLEY",
+      "KEVIN",
+      "CINDY",
+      "JANET",
+      "RM"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1599971108,
+  "_nanoseconds": 619000000
+ }
+}

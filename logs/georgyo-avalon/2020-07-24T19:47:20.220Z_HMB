@@ -1,0 +1,350 @@
+{
+ "timeFinished": {
+  "_seconds": 1595622888,
+  "_nanoseconds": 824000000
+ },
+ "timeCreated": {
+  "_seconds": 1595620040,
+  "_nanoseconds": 220000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "ROBBIE": true,
+    "JASMINE": true,
+    "YABIN": true
+   },
+   {
+    "ALYSHA": true,
+    "ROBBIE": false,
+    "YABIN": true,
+    "JASMINE": true
+   },
+   {
+    "ALYSHA": true,
+    "DAVID": true,
+    "ASH": false,
+    "JA": false
+   },
+   {
+    "DAVID": true,
+    "KATE": true,
+    "ALYSHA": true,
+    "YABIN": true,
+    "JASMINE": true
+   },
+   {
+    "YABIN": true,
+    "JASMINE": true,
+    "ALYSHA": true,
+    "KATE": true,
+    "DAVID": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KATE"
+   },
+   {
+    "assassin": false,
+    "name": "DAVID",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "YABIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JASMINE"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "ASH"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ROBBIE",
+    "assassin": false
+   },
+   {
+    "name": "JA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ALYSHA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "DAVID",
+   "uid": "UGfEziow5BbMpbJ47cPF1kitOma2"
+  },
+  {
+   "name": "ASH",
+   "uid": "QuIlP0pln6adHo4tgHpMCzIOebi1"
+  },
+  {
+   "name": "JA",
+   "uid": "cA7saclPV6QKkIhewvt9u6uY6fI2"
+  },
+  {
+   "name": "JASMINE",
+   "uid": "1giTjUc7nOOnGa3E5mE5q2SylqF2"
+  },
+  {
+   "uid": "bQ1cr6osMQQK9bhO3zlTeqzU6fE3",
+   "name": "ROBBIE"
+  },
+  {
+   "name": "YABIN",
+   "uid": "rOfXxAmOLKhMvCVabKJ3bFFqDtb2"
+  },
+  {
+   "name": "KATE",
+   "uid": "VTqQvOxZ7xRQuFWSmWiwYZnBfkf2"
+  },
+  {
+   "name": "ALYSHA",
+   "uid": "8K78IH8QsKNeZ0AvKC8Wf9p9As62"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "JASMINE",
+    "YABIN",
+    "ROBBIE"
+   ],
+   "proposals": [
+    {
+     "proposer": "JASMINE",
+     "team": [
+      "JASMINE",
+      "YABIN",
+      "ROBBIE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JA",
+      "KATE",
+      "DAVID",
+      "YABIN",
+      "JASMINE",
+      "ASH",
+      "ROBBIE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ROBBIE",
+     "state": "APPROVED",
+     "team": [
+      "JASMINE",
+      "ROBBIE",
+      "YABIN",
+      "ALYSHA"
+     ],
+     "votes": [
+      "ASH",
+      "ROBBIE",
+      "JA",
+      "ALYSHA",
+      "KATE",
+      "YABIN",
+      "JASMINE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "JASMINE",
+    "ROBBIE",
+    "YABIN",
+    "ALYSHA"
+   ]
+  },
+  {
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "ALYSHA",
+    "ASH",
+    "DAVID",
+    "JA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JA",
+      "DAVID",
+      "YABIN",
+      "ASH"
+     ],
+     "proposer": "YABIN",
+     "state": "REJECTED",
+     "team": [
+      "ROBBIE",
+      "YABIN",
+      "ASH",
+      "DAVID"
+     ]
+    },
+    {
+     "votes": [
+      "YABIN",
+      "ROBBIE",
+      "JA",
+      "KATE"
+     ],
+     "team": [
+      "JASMINE",
+      "ROBBIE",
+      "YABIN",
+      "KATE"
+     ],
+     "proposer": "KATE",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "DAVID",
+      "JASMINE",
+      "ASH",
+      "JA",
+      "ALYSHA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ALYSHA",
+      "ASH",
+      "DAVID",
+      "JA"
+     ],
+     "proposer": "ALYSHA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 2,
+   "team": [
+    "DAVID",
+    "JASMINE",
+    "KATE",
+    "ALYSHA",
+    "YABIN"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "ASH",
+      "ALYSHA",
+      "KATE",
+      "DAVID",
+      "YABIN",
+      "JASMINE"
+     ],
+     "state": "APPROVED",
+     "proposer": "DAVID",
+     "team": [
+      "DAVID",
+      "JASMINE",
+      "KATE",
+      "ALYSHA",
+      "YABIN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": [
+    "JASMINE",
+    "YABIN",
+    "ALYSHA",
+    "DAVID",
+    "KATE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "DAVID",
+      "ASH",
+      "JASMINE",
+      "ALYSHA",
+      "KATE"
+     ],
+     "proposer": "ASH",
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KATE",
+      "JA"
+     ],
+     "team": [
+      "JA",
+      "DAVID",
+      "KATE",
+      "JASMINE",
+      "YABIN"
+     ],
+     "proposer": "JA"
+    },
+    {
+     "votes": [
+      "DAVID",
+      "YABIN",
+      "JASMINE",
+      "ALYSHA",
+      "KATE"
+     ],
+     "team": [
+      "JASMINE",
+      "YABIN",
+      "ALYSHA",
+      "DAVID",
+      "KATE"
+     ],
+     "state": "APPROVED",
+     "proposer": "JASMINE"
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

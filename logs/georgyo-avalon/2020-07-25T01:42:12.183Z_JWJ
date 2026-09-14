@@ -1,0 +1,284 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BIGSEAN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DINGLEDERP",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CAT",
+    "role": "MORDRED"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ANDREW"
+   },
+   {
+    "role": "MORGANA",
+    "name": "JAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MARG",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MACDADDY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AL"
+   }
+  ],
+  "votes": [
+   {
+    "BIGSEAN": true,
+    "DINGLEDERP": true,
+    "AL": true
+   },
+   {
+    "ANDREW": false,
+    "BIGSEAN": true,
+    "DINGLEDERP": true,
+    "AL": true
+   },
+   {
+    "JAN": false,
+    "BIGSEAN": true,
+    "AL": true,
+    "DINGLEDERP": true
+   },
+   {
+    "MACDADDY": true,
+    "AL": true,
+    "JAN": false,
+    "CAT": false,
+    "DINGLEDERP": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1595641332,
+  "_nanoseconds": 183000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "BIGSEAN",
+      "CAT",
+      "ANDREW"
+     ],
+     "team": [
+      "AL",
+      "BIGSEAN",
+      "CAT"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANDREW"
+    },
+    {
+     "votes": [
+      "MARG",
+      "AL",
+      "BIGSEAN",
+      "DINGLEDERP",
+      "ANDREW"
+     ],
+     "team": [
+      "DINGLEDERP",
+      "AL",
+      "BIGSEAN"
+     ],
+     "proposer": "MARG",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "DINGLEDERP",
+    "AL",
+    "BIGSEAN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "AL",
+      "BIGSEAN",
+      "DINGLEDERP",
+      "CAT",
+      "ANDREW"
+     ],
+     "team": [
+      "AL",
+      "DINGLEDERP",
+      "BIGSEAN",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "AL"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "AL",
+    "DINGLEDERP",
+    "BIGSEAN",
+    "ANDREW"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "BIGSEAN",
+    "DINGLEDERP",
+    "JAN",
+    "AL"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "BIGSEAN",
+      "DINGLEDERP",
+      "CAT",
+      "JAN",
+      "MARG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BIGSEAN",
+      "DINGLEDERP",
+      "JAN",
+      "AL"
+     ],
+     "proposer": "BIGSEAN"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "MACDADDY",
+      "DINGLEDERP",
+      "CAT",
+      "ANDREW"
+     ],
+     "team": [
+      "CAT",
+      "JAN",
+      "DINGLEDERP",
+      "AL",
+      "MACDADDY"
+     ],
+     "state": "REJECTED",
+     "proposer": "CAT"
+    },
+    {
+     "proposer": "JAN",
+     "votes": [
+      "JAN",
+      "MACDADDY",
+      "DINGLEDERP",
+      "CAT",
+      "ANDREW"
+     ],
+     "team": [
+      "JAN",
+      "AL",
+      "MACDADDY",
+      "CAT",
+      "DINGLEDERP"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "team": [
+    "JAN",
+    "AL",
+    "MACDADDY",
+    "CAT",
+    "DINGLEDERP"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "players": [
+  {
+   "uid": "KKL6MlYXJxfMl975ZNwPlg2s0Nw1",
+   "name": "AL"
+  },
+  {
+   "name": "BIGSEAN",
+   "uid": "uU9NcraRO7XFdadCM4amln4SJp22"
+  },
+  {
+   "uid": "q9EeBexCuKTYhAsoarEEErhnc0r1",
+   "name": "CAT"
+  },
+  {
+   "uid": "MtnGT8ND0TRjT558c6GGYQXZmxF3",
+   "name": "JAN"
+  },
+  {
+   "uid": "1eDHC8CxeuWidWIUmyeTJNuHZcz2",
+   "name": "MACDADDY"
+  },
+  {
+   "name": "DINGLEDERP",
+   "uid": "edKFSW9wVFXeRxAfXpUBkSzvFAI2"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "VJstCI2rzdP6JSGky7tENBuk9Hg2"
+  },
+  {
+   "uid": "IwrraDhI68dKV0tA8MHszupa7QN2",
+   "name": "MARG"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1595641973,
+  "_nanoseconds": 212000000
+ }
+}

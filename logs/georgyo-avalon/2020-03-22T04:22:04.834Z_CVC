@@ -1,0 +1,265 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "COVIDEB",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LAP",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "URANUS",
+    "assassin": true
+   },
+   {
+    "name": "TAY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "GAL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "SCOTT",
+    "assassin": false
+   },
+   {
+    "name": "PAT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "KATIE",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "COVIDKEV",
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "TAY": true,
+    "KATIE": true,
+    "LAP": true
+   },
+   {
+    "TAY": true,
+    "LAP": true,
+    "COVIDEB": true,
+    "KATIE": false
+   },
+   {
+    "GAL": false,
+    "COVIDEB": true,
+    "PAT": true,
+    "COVIDKEV": true
+   },
+   {
+    "LAP": true,
+    "GAL": false,
+    "SCOTT": true,
+    "URANUS": false,
+    "KATIE": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1584850924,
+  "_nanoseconds": 834000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "TAY",
+    "KATIE",
+    "LAP"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TAY",
+      "KATIE",
+      "LAP"
+     ],
+     "proposer": "TAY",
+     "votes": [
+      "LAP",
+      "TAY",
+      "GAL",
+      "SCOTT",
+      "KATIE",
+      "COVIDKEV",
+      "COVIDEB"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "LAP",
+    "TAY",
+    "COVIDEB",
+    "KATIE"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "LAP",
+      "TAY",
+      "COVIDEB",
+      "KATIE"
+     ],
+     "votes": [
+      "LAP",
+      "URANUS",
+      "TAY",
+      "GAL",
+      "KATIE",
+      "COVIDKEV",
+      "COVIDEB"
+     ],
+     "state": "APPROVED",
+     "proposer": "COVIDEB"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "PAT",
+    "COVIDEB",
+    "GAL",
+    "COVIDKEV"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "PAT",
+      "COVIDEB",
+      "GAL",
+      "COVIDKEV"
+     ],
+     "proposer": "PAT",
+     "state": "APPROVED",
+     "votes": [
+      "URANUS",
+      "TAY",
+      "GAL",
+      "PAT",
+      "KATIE",
+      "COVIDKEV",
+      "COVIDEB"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 5,
+   "team": [
+    "KATIE",
+    "GAL",
+    "LAP",
+    "SCOTT",
+    "URANUS"
+   ],
+   "numFails": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KATIE",
+     "votes": [
+      "LAP",
+      "URANUS",
+      "GAL",
+      "PAT",
+      "KATIE"
+     ],
+     "team": [
+      "KATIE",
+      "GAL",
+      "LAP",
+      "SCOTT",
+      "URANUS"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 5,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1584851467,
+  "_nanoseconds": 300514000
+ },
+ "players": [
+  {
+   "name": "URANUS",
+   "uid": "d80FwEMK77MbKLxtd6lR4f0hpXM2"
+  },
+  {
+   "name": "SCOTT",
+   "uid": "JO7TYLymc2coTzZcNg0yyd3wBsv1"
+  },
+  {
+   "uid": "jsyujs54qQSWy4ShLUlIl3zbi8z2",
+   "name": "LAP"
+  },
+  {
+   "name": "TAY",
+   "uid": "XdH1hEVEdGYtfX9QlFWf2DNL3lf2"
+  },
+  {
+   "name": "COVIDEB",
+   "uid": "p7XTBEasBwQfXBOdDe1zQtbIEZB3"
+  },
+  {
+   "uid": "l70WRgA7tecPe7nFQekS5SLMidk1",
+   "name": "PAT"
+  },
+  {
+   "name": "KATIE",
+   "uid": "djU4cKMFHAgd8MwCyGcUSJzD0AI2"
+  },
+  {
+   "uid": "SxXIfDeqCBQ0Q7IVXXau9RmcmaK2",
+   "name": "COVIDKEV"
+  },
+  {
+   "uid": "u5JBRkEcYjS04ZZQ7vvXTVAaQWb2",
+   "name": "GAL"
+  }
+ ]
+}

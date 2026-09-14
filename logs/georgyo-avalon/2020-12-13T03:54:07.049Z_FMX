@@ -1,0 +1,335 @@
+{
+ "players": [
+  {
+   "name": "BRADY",
+   "uid": "tlkvGyim9zRvizV7peiFC4N4Y8F3"
+  },
+  {
+   "name": "SAMH",
+   "uid": "gEJD5g1638NkywZGgMqB5bdWM2g2"
+  },
+  {
+   "name": "JEREMY",
+   "uid": "xIuTTDEoriWwwvsEhfvf7iLj1wO2"
+  },
+  {
+   "name": "YOSH",
+   "uid": "gfL8dKjsmlTKZdG1PktG5B3tJuq2"
+  },
+  {
+   "name": "TEDLY",
+   "uid": "D5BsL8l6wRWgaCvAIQ7PUmoWvKx1"
+  },
+  {
+   "uid": "D7U9hTcc8yMdv4FukiZNQsqHUjl2",
+   "name": "MICHAEL"
+  },
+  {
+   "name": "SHELBY",
+   "uid": "agzcjzHYzcWStFU8McKORValVeJ2"
+  },
+  {
+   "uid": "ceYdR2MU3mNur0XIFldeagTGIex2",
+   "name": "CHRISTIAN"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "TEDLY": true,
+    "CHRISTIAN": true,
+    "SAMH": true
+   },
+   {
+    "CHRISTIAN": true,
+    "SAMH": true,
+    "MICHAEL": true,
+    "YOSH": false
+   },
+   {
+    "SAMH": true,
+    "CHRISTIAN": true,
+    "BRADY": true,
+    "TEDLY": false
+   },
+   {
+    "BRADY": true,
+    "SAMH": true,
+    "JEREMY": true,
+    "SHELBY": true,
+    "TEDLY": true
+   },
+   {
+    "TEDLY": false,
+    "SAMH": true,
+    "BRADY": true,
+    "SHELBY": true,
+    "JEREMY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SAMH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "YOSH"
+   },
+   {
+    "name": "MICHAEL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "JEREMY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CHRISTIAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "TEDLY"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BRADY",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "SHELBY",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1607833513,
+  "_nanoseconds": 551000000
+ },
+ "timeCreated": {
+  "_seconds": 1607831647,
+  "_nanoseconds": 49000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SAMH",
+    "CHRISTIAN",
+    "TEDLY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "CHRISTIAN",
+      "MICHAEL",
+      "TEDLY",
+      "SAMH",
+      "SHELBY",
+      "JEREMY",
+      "YOSH"
+     ],
+     "proposer": "SAMH",
+     "state": "APPROVED",
+     "team": [
+      "SAMH",
+      "CHRISTIAN",
+      "TEDLY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "SAMH",
+    "CHRISTIAN",
+    "YOSH",
+    "MICHAEL"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JEREMY",
+     "votes": [
+      "MICHAEL",
+      "JEREMY"
+     ],
+     "team": [
+      "SHELBY",
+      "MICHAEL",
+      "JEREMY",
+      "YOSH"
+     ]
+    },
+    {
+     "proposer": "YOSH",
+     "team": [
+      "SAMH",
+      "CHRISTIAN",
+      "YOSH",
+      "MICHAEL"
+     ],
+     "votes": [
+      "YOSH",
+      "MICHAEL",
+      "TEDLY",
+      "SHELBY",
+      "SAMH"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "TEDLY",
+    "SAMH",
+    "BRADY",
+    "CHRISTIAN"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TEDLY",
+     "team": [
+      "TEDLY",
+      "SAMH",
+      "BRADY",
+      "CHRISTIAN"
+     ],
+     "votes": [
+      "CHRISTIAN",
+      "SAMH",
+      "YOSH",
+      "TEDLY",
+      "SHELBY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "YOSH",
+      "JEREMY",
+      "TEDLY",
+      "MICHAEL"
+     ],
+     "team": [
+      "MICHAEL",
+      "TEDLY",
+      "YOSH",
+      "BRADY",
+      "JEREMY"
+     ],
+     "proposer": "MICHAEL"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MICHAEL",
+      "SAMH",
+      "TEDLY",
+      "YOSH",
+      "BRADY",
+      "SHELBY",
+      "JEREMY"
+     ],
+     "team": [
+      "SHELBY",
+      "TEDLY",
+      "JEREMY",
+      "SAMH",
+      "BRADY"
+     ],
+     "proposer": "SHELBY"
+    }
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "SHELBY",
+    "TEDLY",
+    "JEREMY",
+    "SAMH",
+    "BRADY"
+   ],
+   "teamSize": 5
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "BRADY",
+    "SHELBY",
+    "TEDLY",
+    "SAMH",
+    "JEREMY"
+   ],
+   "proposals": [
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "BRADY",
+      "JEREMY",
+      "SAMH",
+      "YOSH",
+      "CHRISTIAN"
+     ],
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BRADY",
+      "YOSH",
+      "TEDLY",
+      "CHRISTIAN",
+      "SHELBY",
+      "SAMH",
+      "MICHAEL"
+     ],
+     "proposer": "BRADY",
+     "team": [
+      "BRADY",
+      "SHELBY",
+      "TEDLY",
+      "SAMH",
+      "JEREMY"
+     ]
+    }
+   ],
+   "teamSize": 5
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

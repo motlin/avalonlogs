@@ -1,0 +1,234 @@
+{
+ "players": [
+  {
+   "name": "EMILY",
+   "uid": "jzpZGHVfjbS3p6VsfpGY53wN27T2"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "qzE9MBPUiQftGC5QBsAfarSiBEM2"
+  },
+  {
+   "uid": "mkHd7EYg7eW9EZHfpEyjVPsAmkm1",
+   "name": "MEGAN"
+  },
+  {
+   "name": "CHONGZ",
+   "uid": "64McfzW9cJPIOzSj8rfmYGhScLg1"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "T3KiFaDEOEY8wSMnNf76VjKor313"
+  },
+  {
+   "name": "ALBERT",
+   "uid": "a9zinWFXOuRCFGdnneS5bJQPuRF2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589698986,
+  "_nanoseconds": 307000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "MEGAN",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MEGAN",
+      "KEVIN",
+      "EMILY"
+     ],
+     "proposer": "KEVIN"
+    },
+    {
+     "votes": [
+      "EMILY",
+      "ALBERT",
+      "MEGAN",
+      "CHONGZ",
+      "KEVIN",
+      "PATRICK"
+     ],
+     "team": [
+      "MEGAN",
+      "PATRICK"
+     ],
+     "proposer": "ALBERT",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MEGAN",
+    "PATRICK"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "EMILY",
+      "MEGAN",
+      "PATRICK"
+     ],
+     "votes": [
+      "PATRICK",
+      "EMILY",
+      "ALBERT",
+      "MEGAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "EMILY"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "EMILY",
+    "MEGAN",
+    "PATRICK"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PATRICK",
+      "EMILY",
+      "KEVIN",
+      "CHONGZ"
+     ],
+     "proposer": "PATRICK",
+     "votes": [
+      "EMILY",
+      "CHONGZ",
+      "KEVIN",
+      "PATRICK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "PATRICK",
+    "EMILY",
+    "KEVIN",
+    "CHONGZ"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "KEVIN",
+    "MEGAN",
+    "ALBERT"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ALBERT",
+      "MEGAN",
+      "CHONGZ",
+      "KEVIN"
+     ],
+     "team": [
+      "KEVIN",
+      "MEGAN",
+      "ALBERT"
+     ],
+     "proposer": "MEGAN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589699946,
+  "_nanoseconds": 539000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "ALBERT",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "MEGAN",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "CHONGZ",
+    "assassin": false
+   },
+   {
+    "name": "KEVIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "PATRICK"
+   },
+   {
+    "name": "EMILY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "MEGAN": true,
+    "PATRICK": true
+   },
+   {
+    "EMILY": true,
+    "MEGAN": false,
+    "PATRICK": true
+   },
+   {
+    "PATRICK": true,
+    "EMILY": true,
+    "CHONGZ": false,
+    "KEVIN": true
+   },
+   {
+    "MEGAN": false,
+    "KEVIN": true,
+    "ALBERT": true
+   }
+  ],
+  "assassinated": null
+ }
+}

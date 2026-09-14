@@ -1,0 +1,253 @@
+{
+ "timeCreated": {
+  "_seconds": 1586567948,
+  "_nanoseconds": 649000000
+ },
+ "timeFinished": {
+  "_seconds": 1586569343,
+  "_nanoseconds": 854127000
+ },
+ "players": [
+  {
+   "uid": "F84KuVqZiaSKUlkKtfIL4gISkfO2",
+   "name": "JUSTIN"
+  },
+  {
+   "uid": "fuUBwCMBwxW9wHQrpvOSd4cRPdt2",
+   "name": "MELANIE"
+  },
+  {
+   "name": "BRIDGET",
+   "uid": "63X0O4PSUJhlkZJLTU7tyvXUvmK2"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "qnhvfjOjDlPGObZF7ZO5MCxndB03"
+  },
+  {
+   "uid": "xec4kAxXfxaWrTmM1zA1LZdvQCi1",
+   "name": "ISABELLE"
+  },
+  {
+   "name": "GRETL",
+   "uid": "Iyg1MQ7tbRY3g5fJgVDeGklfzws1"
+  },
+  {
+   "name": "COLE",
+   "uid": "Td5DAg0S2ARnrnOJRV051Z5OtRw2"
+  }
+ ],
+ "outcome": {
+  "assassinated": "GRETL",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ANDREW": true,
+    "BRIDGET": true
+   },
+   {
+    "BRIDGET": false,
+    "GRETL": true,
+    "ANDREW": true
+   },
+   {
+    "MELANIE": true,
+    "ANDREW": true,
+    "COLE": true
+   },
+   {
+    "ANDREW": true,
+    "COLE": true,
+    "MELANIE": true,
+    "JUSTIN": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "COLE"
+   },
+   {
+    "name": "ANDREW",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MELANIE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BRIDGET"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "JUSTIN"
+   },
+   {
+    "name": "GRETL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "ISABELLE",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "BRIDGET",
+      "ANDREW"
+     ],
+     "votes": [
+      "GRETL",
+      "ISABELLE",
+      "COLE",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRIDGET"
+    }
+   ],
+   "team": [
+    "BRIDGET",
+    "ANDREW"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ANDREW",
+    "BRIDGET",
+    "GRETL"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANDREW",
+      "BRIDGET",
+      "GRETL"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANDREW",
+     "votes": [
+      "GRETL",
+      "COLE",
+      "ANDREW",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GRETL",
+      "ISABELLE"
+     ],
+     "team": [
+      "JUSTIN",
+      "ANDREW",
+      "COLE"
+     ],
+     "proposer": "ISABELLE"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "GRETL",
+      "MELANIE",
+      "ANDREW"
+     ],
+     "votes": [
+      "COLE",
+      "MELANIE",
+      "GRETL"
+     ],
+     "proposer": "GRETL"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "COLE",
+     "team": [
+      "MELANIE",
+      "ANDREW",
+      "COLE"
+     ],
+     "votes": [
+      "MELANIE",
+      "BRIDGET",
+      "GRETL",
+      "COLE"
+     ]
+    }
+   ],
+   "team": [
+    "MELANIE",
+    "ANDREW",
+    "COLE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "JUSTIN",
+    "MELANIE",
+    "ANDREW",
+    "COLE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JUSTIN",
+      "MELANIE",
+      "ANDREW",
+      "COLE"
+     ],
+     "votes": [
+      "COLE",
+      "MELANIE",
+      "JUSTIN",
+      "GRETL",
+      "ISABELLE"
+     ],
+     "proposer": "JUSTIN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 1,
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

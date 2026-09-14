@@ -1,0 +1,270 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "ANGELA",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ARCHIT",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ARNAV",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "AKASH"
+   },
+   {
+    "name": "ANUJ",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANGELA"
+   }
+  ],
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "ANGELA": true,
+    "ARCHIT": true
+   },
+   {
+    "ARCHIT": true,
+    "ANUJ": false,
+    "ANGELA": true
+   },
+   {
+    "ANGELA": true,
+    "ARCHIT": true
+   },
+   {
+    "ANGELA": true,
+    "ARCHIT": true,
+    "ARNAV": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1585198416,
+  "_nanoseconds": 762780000
+ },
+ "timeCreated": {
+  "_seconds": 1585197690,
+  "_nanoseconds": 226000000
+ },
+ "players": [
+  {
+   "uid": "UYfe5G3DIfQlJAVA4IRUhQpEBK72",
+   "name": "ANGELA"
+  },
+  {
+   "name": "ANUJ",
+   "uid": "5tH6ccVA9ZeuK313wkz7sG7bxXq1"
+  },
+  {
+   "uid": "Q1VcmH3AXaaIK5jsu3OvYdKK0eJ2",
+   "name": "ARCHIT"
+  },
+  {
+   "name": "ARNAV",
+   "uid": "WHWpTLwxu7XS9FjgxEp1ZjFdSci1"
+  },
+  {
+   "uid": "NZJD5aMZGiVcNRuAEtySgaHpCOS2",
+   "name": "AKASH"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ARCHIT",
+    "ANGELA"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ARCHIT",
+      "ANUJ"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANUJ",
+      "ARCHIT"
+     ],
+     "proposer": "ANUJ"
+    },
+    {
+     "team": [
+      "ARCHIT",
+      "ANGELA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AKASH",
+      "ANGELA",
+      "ARCHIT"
+     ],
+     "proposer": "ARCHIT"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ANGELA",
+    "ARCHIT",
+    "ANUJ"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ARNAV",
+      "ANGELA",
+      "AKASH"
+     ],
+     "proposer": "ARNAV",
+     "votes": [
+      "ANGELA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AKASH",
+      "ANGELA"
+     ],
+     "team": [
+      "AKASH",
+      "ANGELA",
+      "ARCHIT"
+     ],
+     "proposer": "AKASH"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ANGELA",
+     "votes": [
+      "ANUJ",
+      "ANGELA",
+      "ARCHIT"
+     ],
+     "team": [
+      "ANGELA",
+      "ARCHIT",
+      "ANUJ"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ANUJ",
+     "state": "REJECTED",
+     "votes": [
+      "ANUJ"
+     ],
+     "team": [
+      "ARCHIT",
+      "ANUJ"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANGELA",
+      "ARCHIT",
+      "AKASH"
+     ],
+     "team": [
+      "ARCHIT",
+      "ANGELA"
+     ],
+     "proposer": "ARCHIT"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ARCHIT",
+    "ANGELA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "ANGELA",
+    "ARCHIT",
+    "ARNAV"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ARNAV",
+      "ARCHIT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ARNAV",
+      "ANGELA",
+      "ARCHIT"
+     ],
+     "proposer": "ARNAV"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "AKASH",
+      "ARNAV",
+      "ANUJ"
+     ],
+     "votes": [
+      "AKASH"
+     ],
+     "proposer": "AKASH"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ANGELA",
+     "votes": [
+      "ANGELA",
+      "ARCHIT",
+      "ARNAV"
+     ],
+     "team": [
+      "ANGELA",
+      "ARCHIT",
+      "ARNAV"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

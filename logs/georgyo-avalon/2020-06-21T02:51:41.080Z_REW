@@ -1,0 +1,409 @@
+{
+ "players": [
+  {
+   "uid": "b25KDZonqXVnJg1BnaKXhGQCFUt1",
+   "name": "URWAH"
+  },
+  {
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073",
+   "name": "SANJY"
+  },
+  {
+   "name": "CHEZMASTA",
+   "uid": "1pALZ8GpFfaGpwypxX6CDZvFFJ22"
+  },
+  {
+   "uid": "rOq5JznW2SYIIXenRGGcXlv9ln72",
+   "name": "DAKU"
+  },
+  {
+   "name": "MK",
+   "uid": "Nl3X1bQKg2UiLz2f9LXhdaymPOj2"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "uid": "Wjr8vxPJ1vSS6XIGwr3tNLLTWBC2",
+   "name": "SAAAD"
+  },
+  {
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2",
+   "name": "ZAIN"
+  }
+ ],
+ "outcome": {
+  "assassinated": "MAFAZLA",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "SANJY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "URWAH"
+   },
+   {
+    "name": "MK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "MAFAZLA",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORDRED",
+    "name": "CHEZMASTA",
+    "assassin": false
+   },
+   {
+    "name": "ZAIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SAAAD"
+   },
+   {
+    "assassin": false,
+    "name": "DAKU",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DAKU": true,
+    "SAAAD": true,
+    "MAFAZLA": true
+   },
+   {
+    "SAAAD": true,
+    "MAFAZLA": true,
+    "CHEZMASTA": true,
+    "DAKU": true
+   },
+   {
+    "SAAAD": true,
+    "CHEZMASTA": false,
+    "MAFAZLA": true,
+    "DAKU": true
+   },
+   {
+    "MK": true,
+    "CHEZMASTA": false,
+    "SAAAD": true,
+    "DAKU": true,
+    "MAFAZLA": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SANJY",
+     "state": "REJECTED",
+     "team": [
+      "SANJY",
+      "CHEZMASTA",
+      "DAKU"
+     ],
+     "votes": [
+      "SANJY",
+      "CHEZMASTA",
+      "ZAIN",
+      "DAKU"
+     ]
+    },
+    {
+     "votes": [
+      "CHEZMASTA"
+     ],
+     "proposer": "CHEZMASTA",
+     "state": "REJECTED",
+     "team": [
+      "MAFAZLA",
+      "SAAAD",
+      "URWAH"
+     ]
+    },
+    {
+     "votes": [
+      "ZAIN",
+      "DAKU",
+      "MK"
+     ],
+     "team": [
+      "DAKU",
+      "MK",
+      "ZAIN"
+     ],
+     "proposer": "DAKU",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "URWAH",
+      "MK",
+      "ZAIN",
+      "DAKU"
+     ],
+     "team": [
+      "DAKU",
+      "MK",
+      "ZAIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "MK"
+    },
+    {
+     "proposer": "MAFAZLA",
+     "state": "APPROVED",
+     "votes": [
+      "SANJY",
+      "URWAH",
+      "MK",
+      "MAFAZLA",
+      "CHEZMASTA",
+      "ZAIN",
+      "SAAAD",
+      "DAKU"
+     ],
+     "team": [
+      "MAFAZLA",
+      "SAAAD",
+      "DAKU"
+     ]
+    }
+   ],
+   "team": [
+    "MAFAZLA",
+    "SAAAD",
+    "DAKU"
+   ]
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "DAKU",
+      "MK"
+     ],
+     "team": [
+      "SAAAD",
+      "MAFAZLA",
+      "DAKU",
+      "MK"
+     ],
+     "proposer": "SAAAD",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DAKU",
+      "SANJY",
+      "ZAIN"
+     ],
+     "proposer": "ZAIN",
+     "team": [
+      "ZAIN",
+      "MK",
+      "DAKU",
+      "SANJY"
+     ]
+    },
+    {
+     "votes": [
+      "DAKU",
+      "URWAH",
+      "MAFAZLA",
+      "SAAAD"
+     ],
+     "team": [
+      "URWAH",
+      "MAFAZLA",
+      "SAAAD",
+      "DAKU"
+     ],
+     "state": "REJECTED",
+     "proposer": "URWAH"
+    },
+    {
+     "votes": [
+      "DAKU",
+      "SANJY",
+      "URWAH"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SANJY",
+      "MAFAZLA",
+      "SAAAD",
+      "DAKU"
+     ],
+     "proposer": "SANJY"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SANJY",
+      "URWAH",
+      "MK",
+      "MAFAZLA",
+      "CHEZMASTA",
+      "ZAIN",
+      "SAAAD",
+      "DAKU"
+     ],
+     "team": [
+      "CHEZMASTA",
+      "SAAAD",
+      "MAFAZLA",
+      "DAKU"
+     ],
+     "proposer": "CHEZMASTA"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "CHEZMASTA",
+    "SAAAD",
+    "MAFAZLA",
+    "DAKU"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DAKU",
+     "team": [
+      "DAKU",
+      "CHEZMASTA",
+      "MAFAZLA",
+      "SAAAD"
+     ],
+     "votes": [
+      "DAKU",
+      "MK",
+      "MAFAZLA",
+      "CHEZMASTA",
+      "SAAAD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "DAKU",
+    "CHEZMASTA",
+    "MAFAZLA",
+    "SAAAD"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MK",
+      "MAFAZLA",
+      "SAAAD",
+      "DAKU"
+     ],
+     "proposer": "MK",
+     "state": "REJECTED",
+     "team": [
+      "MK",
+      "DAKU",
+      "MAFAZLA",
+      "SAAAD",
+      "CHEZMASTA"
+     ]
+    },
+    {
+     "votes": [
+      "MK",
+      "MAFAZLA",
+      "SAAAD",
+      "DAKU"
+     ],
+     "team": [
+      "MAFAZLA",
+      "SAAAD",
+      "MK",
+      "DAKU",
+      "CHEZMASTA"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAFAZLA"
+    },
+    {
+     "proposer": "SAAAD",
+     "team": [
+      "DAKU",
+      "MK",
+      "MAFAZLA",
+      "SAAAD",
+      "CHEZMASTA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MK",
+      "MAFAZLA",
+      "ZAIN",
+      "SAAAD",
+      "DAKU"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "DAKU",
+    "MK",
+    "MAFAZLA",
+    "SAAAD",
+    "CHEZMASTA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 5,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592707901,
+  "_nanoseconds": 80000000
+ },
+ "timeFinished": {
+  "_seconds": 1592709037,
+  "_nanoseconds": 971000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

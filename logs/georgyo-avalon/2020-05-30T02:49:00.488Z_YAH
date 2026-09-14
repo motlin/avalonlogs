@@ -1,0 +1,435 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "URWAH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MK",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "MAFAZLA"
+   },
+   {
+    "name": "SAAD",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ZAIN"
+   },
+   {
+    "name": "DAKU",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RAAS"
+   }
+  ],
+  "votes": [
+   {
+    "ZAIN": true,
+    "RAAS": true
+   },
+   {
+    "DAKU": true,
+    "RAAS": true,
+    "ZAIN": false
+   },
+   {
+    "MAFAZLA": true,
+    "RAAS": true,
+    "ZAIN": false
+   },
+   {
+    "RAAS": true,
+    "DAKU": true,
+    "MK": true,
+    "MAFAZLA": true
+   },
+   {
+    "RAAS": true,
+    "URWAH": true,
+    "MAFAZLA": true,
+    "DAKU": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "DAKU",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1590807891,
+  "_nanoseconds": 650000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "RAAS",
+    "ZAIN"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "RAAS",
+      "ZAIN"
+     ],
+     "votes": [
+      "SAAD",
+      "ZAIN",
+      "RAAS"
+     ],
+     "proposer": "RAAS",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "RAAS",
+      "ZAIN"
+     ],
+     "proposer": "ZAIN",
+     "state": "REJECTED",
+     "votes": [
+      "SAAD",
+      "ZAIN",
+      "RAAS"
+     ]
+    },
+    {
+     "team": [
+      "RAAS",
+      "ZAIN"
+     ],
+     "proposer": "SAAD",
+     "state": "REJECTED",
+     "votes": [
+      "ZAIN",
+      "RAAS",
+      "SAAD"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "DAKU",
+      "RAAS"
+     ],
+     "proposer": "DAKU",
+     "votes": [
+      "MAFAZLA",
+      "DAKU",
+      "RAAS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "RAAS",
+      "ZAIN"
+     ],
+     "votes": [
+      "URWAH",
+      "MK",
+      "MAFAZLA",
+      "SAAD",
+      "ZAIN",
+      "DAKU",
+      "RAAS"
+     ],
+     "proposer": "MK"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RAAS",
+      "URWAH"
+     ],
+     "proposer": "MAFAZLA",
+     "team": [
+      "MAFAZLA",
+      "RAAS",
+      "URWAH"
+     ]
+    },
+    {
+     "team": [
+      "URWAH",
+      "MAFAZLA",
+      "MK"
+     ],
+     "proposer": "URWAH",
+     "state": "REJECTED",
+     "votes": [
+      "URWAH"
+     ]
+    },
+    {
+     "team": [
+      "RAAS",
+      "DAKU",
+      "ZAIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "RAAS",
+     "votes": [
+      "URWAH",
+      "ZAIN",
+      "DAKU",
+      "RAAS"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "RAAS",
+    "DAKU",
+    "ZAIN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "URWAH",
+      "DAKU"
+     ],
+     "team": [
+      "DAKU",
+      "MAFAZLA",
+      "URWAH"
+     ],
+     "proposer": "ZAIN"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "URWAH",
+      "SAAD",
+      "ZAIN"
+     ],
+     "proposer": "SAAD",
+     "team": [
+      "RAAS",
+      "ZAIN",
+      "SAAD"
+     ]
+    },
+    {
+     "team": [
+      "DAKU",
+      "URWAH",
+      "MAFAZLA"
+     ],
+     "proposer": "DAKU",
+     "state": "REJECTED",
+     "votes": [
+      "URWAH",
+      "DAKU"
+     ]
+    },
+    {
+     "votes": [
+      "URWAH",
+      "DAKU"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MK",
+      "MAFAZLA",
+      "URWAH"
+     ],
+     "proposer": "MK"
+    },
+    {
+     "team": [
+      "MAFAZLA",
+      "ZAIN",
+      "RAAS"
+     ],
+     "proposer": "MAFAZLA",
+     "state": "APPROVED",
+     "votes": [
+      "URWAH",
+      "MK",
+      "MAFAZLA",
+      "SAAD",
+      "ZAIN",
+      "RAAS"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MAFAZLA",
+    "ZAIN",
+    "RAAS"
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "URWAH",
+      "MK"
+     ],
+     "team": [
+      "MAFAZLA",
+      "URWAH",
+      "DAKU",
+      "MK"
+     ],
+     "proposer": "URWAH"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "RAAS",
+      "DAKU",
+      "MK",
+      "MAFAZLA"
+     ],
+     "proposer": "RAAS",
+     "votes": [
+      "DAKU",
+      "RAAS",
+      "URWAH",
+      "MK",
+      "MAFAZLA"
+     ]
+    }
+   ],
+   "team": [
+    "RAAS",
+    "DAKU",
+    "MK",
+    "MAFAZLA"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MAFAZLA",
+      "RAAS",
+      "DAKU",
+      "URWAH"
+     ],
+     "votes": [
+      "DAKU",
+      "MAFAZLA"
+     ],
+     "proposer": "ZAIN"
+    },
+    {
+     "team": [
+      "ZAIN",
+      "SAAD",
+      "DAKU",
+      "MAFAZLA"
+     ],
+     "votes": [
+      "SAAD",
+      "ZAIN"
+     ],
+     "proposer": "SAAD",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAKU",
+      "RAAS",
+      "MAFAZLA",
+      "URWAH"
+     ],
+     "votes": [
+      "MAFAZLA",
+      "DAKU",
+      "RAAS",
+      "URWAH"
+     ],
+     "proposer": "DAKU"
+    }
+   ],
+   "team": [
+    "DAKU",
+    "RAAS",
+    "MAFAZLA",
+    "URWAH"
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "RAAS",
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2"
+  },
+  {
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2",
+   "name": "ZAIN"
+  },
+  {
+   "name": "SAAD",
+   "uid": "X2mcyKLMPMQhWx17AwSBOdLjAr63"
+  },
+  {
+   "uid": "rOq5JznW2SYIIXenRGGcXlv9ln72",
+   "name": "DAKU"
+  },
+  {
+   "name": "MK",
+   "uid": "Nl3X1bQKg2UiLz2f9LXhdaymPOj2"
+  },
+  {
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23",
+   "name": "MAFAZLA"
+  },
+  {
+   "uid": "b25KDZonqXVnJg1BnaKXhGQCFUt1",
+   "name": "URWAH"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590806940,
+  "_nanoseconds": 488000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

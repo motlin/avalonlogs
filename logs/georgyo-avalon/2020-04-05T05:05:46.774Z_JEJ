@@ -1,0 +1,204 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "TEQUILAGOB"
+   },
+   {
+    "role": "MORGANA",
+    "name": "AVES",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "POWERWASHE",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "HARP"
+   },
+   {
+    "name": "JEJ",
+    "role": "OBERON",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "POWERWASHE",
+  "votes": [
+   {
+    "POWERWASHE": true,
+    "JEJ": true
+   },
+   {
+    "HARP": true,
+    "AVES": true,
+    "POWERWASHE": true
+   },
+   {
+    "POWERWASHE": true,
+    "AVES": false
+   },
+   {
+    "TEQUILAGOB": true,
+    "HARP": true,
+    "JEJ": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "POWERWASHE",
+    "JEJ"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "POWERWASHE",
+      "JEJ"
+     ],
+     "proposer": "JEJ",
+     "votes": [
+      "TEQUILAGOB",
+      "AVES",
+      "POWERWASHE",
+      "HARP",
+      "JEJ"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "AVES",
+    "HARP",
+    "POWERWASHE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AVES",
+      "HARP",
+      "POWERWASHE"
+     ],
+     "proposer": "POWERWASHE",
+     "votes": [
+      "HARP",
+      "JEJ",
+      "TEQUILAGOB",
+      "AVES",
+      "POWERWASHE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AVES",
+      "POWERWASHE"
+     ],
+     "proposer": "AVES",
+     "votes": [
+      "TEQUILAGOB",
+      "AVES",
+      "POWERWASHE",
+      "JEJ"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "AVES",
+    "POWERWASHE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "HARP",
+    "TEQUILAGOB",
+    "JEJ"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "HARP",
+      "TEQUILAGOB",
+      "JEJ"
+     ],
+     "votes": [
+      "HARP",
+      "JEJ",
+      "TEQUILAGOB",
+      "AVES",
+      "POWERWASHE"
+     ],
+     "state": "APPROVED",
+     "proposer": "HARP"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "AVES",
+   "uid": "sEfbDNlAqxZxeNVCcWegDSrdn9g2"
+  },
+  {
+   "name": "HARP",
+   "uid": "JxKybjZLYaU8gHC3y7zI8dajUmT2"
+  },
+  {
+   "name": "TEQUILAGOB",
+   "uid": "4zHUwT2aUQO38u0Ap8E6MfeB5hy2"
+  },
+  {
+   "uid": "tCzV8uU5NmUfCVWuk56E1dkcgEE3",
+   "name": "JEJ"
+  },
+  {
+   "name": "POWERWASHE",
+   "uid": "XEsKcU9EjSfmfy3YEYLbWoJeugr1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586063146,
+  "_nanoseconds": 774000000
+ },
+ "timeFinished": {
+  "_seconds": 1586063763,
+  "_nanoseconds": 3082000
+ }
+}

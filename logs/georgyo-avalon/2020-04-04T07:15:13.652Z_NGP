@@ -1,0 +1,265 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "RAHUL",
+    "ADITHYA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RAHUL",
+      "ADITHYA"
+     ],
+     "votes": [
+      "CHANDAN",
+      "RAHUL",
+      "PUCKHOE",
+      "ADITHYA",
+      "NGP",
+      "GAUTIST"
+     ],
+     "proposer": "RAHUL"
+    }
+   ]
+  },
+  {
+   "team": [
+    "NGP",
+    "RAHUL",
+    "GAUTIST"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NGP",
+     "votes": [
+      "GAUTIST",
+      "CHANDAN",
+      "RAHUL",
+      "PUCKHOE",
+      "ADITHYA",
+      "NGP"
+     ],
+     "team": [
+      "NGP",
+      "RAHUL",
+      "GAUTIST"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ADITHYA",
+    "RAHUL",
+    "GAUTIST",
+    "CHANDAN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ADITHYA",
+     "state": "APPROVED",
+     "team": [
+      "ADITHYA",
+      "RAHUL",
+      "GAUTIST",
+      "CHANDAN"
+     ],
+     "votes": [
+      "NGP",
+      "GAUTIST",
+      "RAHUL",
+      "ADITHYA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "CHANDAN",
+    "PUCKHOE",
+    "NGP"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CHANDAN",
+      "PUCKHOE",
+      "NGP"
+     ],
+     "votes": [
+      "CHANDAN",
+      "RAHUL",
+      "PUCKHOE",
+      "ADITHYA",
+      "NGP"
+     ],
+     "proposer": "CHANDAN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ADITHYA",
+      "GAUTIST",
+      "PUCKHOE",
+      "RAHUL"
+     ],
+     "votes": [
+      "GAUTIST",
+      "RAHUL"
+     ],
+     "proposer": "GAUTIST",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RAHUL",
+      "PUCKHOE",
+      "ADITHYA",
+      "NGP",
+      "GAUTIST"
+     ],
+     "state": "APPROVED",
+     "proposer": "PUCKHOE",
+     "team": [
+      "PUCKHOE",
+      "CHANDAN",
+      "ADITHYA",
+      "NGP"
+     ]
+    }
+   ],
+   "team": [
+    "PUCKHOE",
+    "CHANDAN",
+    "ADITHYA",
+    "NGP"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585984880,
+  "_nanoseconds": 862133000
+ },
+ "players": [
+  {
+   "name": "ADITHYA",
+   "uid": "zPBITAoA8mUfSa0lFBJTz9FPat02"
+  },
+  {
+   "name": "CHANDAN",
+   "uid": "c0nahfL5laM56X72EMpxST5yEcA2"
+  },
+  {
+   "name": "GAUTIST",
+   "uid": "HmQ2lErT1sQwh7KK6ll3iiQVkgx2"
+  },
+  {
+   "uid": "l2WfetfYI1hqg5MzQyeUKIpuZ2F3",
+   "name": "PUCKHOE"
+  },
+  {
+   "name": "RAHUL",
+   "uid": "tx0kcEK6OLReXSxfyfrW6pENoTC3"
+  },
+  {
+   "uid": "qFZUTCUGNiNNymej1aS1gQnPjKS2",
+   "name": "NGP"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585984513,
+  "_nanoseconds": 652000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ADITHYA": true,
+    "RAHUL": true
+   },
+   {
+    "RAHUL": false,
+    "GAUTIST": true,
+    "NGP": true
+   },
+   {
+    "CHANDAN": true,
+    "GAUTIST": true,
+    "ADITHYA": true,
+    "RAHUL": false
+   },
+   {
+    "NGP": true,
+    "PUCKHOE": true,
+    "CHANDAN": true
+   },
+   {
+    "ADITHYA": true,
+    "NGP": true,
+    "PUCKHOE": true,
+    "CHANDAN": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "CHANDAN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CHANDAN",
+    "role": "MERLIN"
+   },
+   {
+    "name": "RAHUL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "PUCKHOE",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ADITHYA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NGP"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GAUTIST",
+    "assassin": false
+   }
+  ]
+ }
+}

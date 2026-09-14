@@ -1,0 +1,237 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "NOIMDADDY"
+   },
+   {
+    "name": "MRMERLIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NICOLE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "YUM",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "LUCI",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SOKYL",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "SOKYL",
+  "votes": [
+   {
+    "LUCI": true,
+    "MRMERLIN": true
+   },
+   {
+    "SOKYL": true,
+    "MRMERLIN": true,
+    "LUCI": true
+   },
+   {
+    "YUM": false,
+    "MRMERLIN": true,
+    "LUCI": true,
+    "SOKYL": true
+   },
+   {
+    "YUM": true,
+    "NOIMDADDY": true,
+    "LUCI": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "NOIMDADDY",
+   "uid": "8O45DLZzhNQ4lfy91WCOkC263cz1"
+  },
+  {
+   "uid": "4G097ZhEA3MqHxqmO2SZBny3fJz1",
+   "name": "LUCI"
+  },
+  {
+   "name": "MRMERLIN",
+   "uid": "NVf8XY7sYocVzqdAS3QO5Fj1heN2"
+  },
+  {
+   "name": "SOKYL",
+   "uid": "bjp8FYUtd1XzoZUr5ZuFsh1QPVi1"
+  },
+  {
+   "name": "NICOLE",
+   "uid": "cONE4xYZYRbHCDQoqr6wZXhN3lw1"
+  },
+  {
+   "uid": "gO9XWOGvzkO9z2cAkRxxPqdc4se2",
+   "name": "YUM"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "LUCI",
+    "MRMERLIN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "NOIMDADDY",
+      "MRMERLIN",
+      "NICOLE",
+      "YUM",
+      "LUCI",
+      "SOKYL"
+     ],
+     "team": [
+      "LUCI",
+      "MRMERLIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MRMERLIN"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "SOKYL",
+    "MRMERLIN",
+    "LUCI"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "LUCI",
+      "SOKYL",
+      "NOIMDADDY",
+      "MRMERLIN",
+      "YUM"
+     ],
+     "team": [
+      "SOKYL",
+      "MRMERLIN",
+      "LUCI"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOKYL"
+    }
+   ]
+  },
+  {
+   "team": [
+    "YUM",
+    "SOKYL",
+    "LUCI",
+    "MRMERLIN"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "NICOLE",
+      "MRMERLIN",
+      "NOIMDADDY",
+      "YUM"
+     ],
+     "proposer": "NICOLE",
+     "state": "REJECTED",
+     "votes": [
+      "NICOLE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "YUM",
+      "SOKYL",
+      "LUCI",
+      "MRMERLIN"
+     ],
+     "votes": [
+      "MRMERLIN",
+      "YUM",
+      "LUCI",
+      "SOKYL",
+      "NOIMDADDY"
+     ],
+     "proposer": "YUM"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LUCI",
+      "SOKYL",
+      "NOIMDADDY",
+      "MRMERLIN",
+      "YUM"
+     ],
+     "team": [
+      "NOIMDADDY",
+      "YUM",
+      "LUCI"
+     ],
+     "proposer": "NOIMDADDY"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "NOIMDADDY",
+    "YUM",
+    "LUCI"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587702753,
+  "_nanoseconds": 243000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587702326,
+  "_nanoseconds": 411000000
+ }
+}

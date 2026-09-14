@@ -1,0 +1,252 @@
+{
+ "players": [
+  {
+   "uid": "hqIVim3DRYW43rpGDmx3hfFdivB2",
+   "name": "BECHASS"
+  },
+  {
+   "name": "CJ",
+   "uid": "DKSwh8wGqhfHWSZq4MCABkLU19z2"
+  },
+  {
+   "uid": "Jrn5SOEoTpQUjp2aMf24njhg2pg1",
+   "name": "SHOOLTALA"
+  },
+  {
+   "uid": "VTuyFcjanBWQBv1YVZLE6UNDfhn2",
+   "name": "SAMAN"
+  },
+  {
+   "name": "YASI",
+   "uid": "eoxx13cGrkc33ZRPWa71ad0Qsz03"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "YASI",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SHOOLTALA": true,
+    "SAMAN": true
+   },
+   {
+    "YASI": true,
+    "SAMAN": true,
+    "SHOOLTALA": false
+   },
+   {
+    "SHOOLTALA": true,
+    "CJ": true
+   },
+   {
+    "SAMAN": true,
+    "SHOOLTALA": false,
+    "CJ": true
+   },
+   {
+    "SAMAN": true,
+    "BECHASS": true,
+    "YASI": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SAMAN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "CJ",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BECHASS"
+   },
+   {
+    "role": "MORDRED",
+    "name": "SHOOLTALA",
+    "assassin": false
+   },
+   {
+    "name": "YASI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1589605951,
+  "_nanoseconds": 871000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "SHOOLTALA",
+    "SAMAN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SHOOLTALA",
+     "team": [
+      "SHOOLTALA",
+      "SAMAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BECHASS",
+      "SHOOLTALA",
+      "YASI",
+      "SAMAN",
+      "CJ"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "YASI",
+    "SAMAN",
+    "SHOOLTALA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SAMAN",
+      "YASI",
+      "BECHASS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BECHASS",
+      "SAMAN"
+     ],
+     "proposer": "SAMAN"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "YASI",
+      "SAMAN",
+      "SHOOLTALA"
+     ],
+     "votes": [
+      "YASI",
+      "SAMAN",
+      "SHOOLTALA"
+     ],
+     "proposer": "YASI"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 2,
+   "team": [
+    "CJ",
+    "SHOOLTALA"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "BECHASS",
+      "SAMAN"
+     ],
+     "proposer": "BECHASS",
+     "state": "REJECTED",
+     "votes": [
+      "BECHASS",
+      "SAMAN"
+     ]
+    },
+    {
+     "votes": [
+      "SAMAN",
+      "CJ",
+      "SHOOLTALA"
+     ],
+     "proposer": "CJ",
+     "team": [
+      "CJ",
+      "SHOOLTALA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SAMAN",
+      "CJ",
+      "SHOOLTALA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CJ",
+      "SHOOLTALA",
+      "SAMAN"
+     ],
+     "proposer": "SHOOLTALA"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "CJ",
+    "SHOOLTALA",
+    "SAMAN"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SAMAN",
+      "BECHASS",
+      "YASI"
+     ],
+     "team": [
+      "SAMAN",
+      "YASI",
+      "BECHASS"
+     ],
+     "proposer": "SAMAN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "SAMAN",
+    "YASI",
+    "BECHASS"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589605390,
+  "_nanoseconds": 211000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "timeCreated": {
+  "_seconds": 1609121800,
+  "_nanoseconds": 144000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "PINEAPPLE": true,
+    "M": true
+   },
+   {
+    "PINEAPPLE": true,
+    "M": true,
+    "BEIGUETTE": true
+   },
+   {
+    "BEIGUETTE": true,
+    "PINEAPPLE": false,
+    "AKANKSHA": true
+   },
+   {
+    "BEIGUETTE": true,
+    "PINEAPPLE": true,
+    "M": true,
+    "HENRI": true
+   }
+  ],
+  "assassinated": "AKANKSHA",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "BEIGUETTE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SARAH",
+    "assassin": false
+   },
+   {
+    "name": "AKANKSHA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "PINEAPPLE",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "HENRI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "M",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "PAUL",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "M",
+    "PINEAPPLE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "M",
+      "PINEAPPLE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PAUL",
+      "AKANKSHA",
+      "PINEAPPLE",
+      "BEIGUETTE",
+      "M",
+      "SARAH"
+     ],
+     "proposer": "M"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "BEIGUETTE",
+    "PINEAPPLE",
+    "M"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "AKANKSHA",
+      "PINEAPPLE",
+      "BEIGUETTE",
+      "PAUL",
+      "SARAH",
+      "M"
+     ],
+     "state": "APPROVED",
+     "proposer": "SARAH",
+     "team": [
+      "BEIGUETTE",
+      "PINEAPPLE",
+      "M"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "M",
+      "PAUL",
+      "SARAH",
+      "BEIGUETTE",
+      "PINEAPPLE",
+      "AKANKSHA"
+     ],
+     "team": [
+      "AKANKSHA",
+      "BEIGUETTE",
+      "PINEAPPLE"
+     ],
+     "proposer": "PINEAPPLE"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "AKANKSHA",
+    "BEIGUETTE",
+    "PINEAPPLE"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "M",
+      "AKANKSHA",
+      "PINEAPPLE"
+     ],
+     "team": [
+      "M",
+      "BEIGUETTE",
+      "SARAH",
+      "AKANKSHA"
+     ],
+     "proposer": "AKANKSHA"
+    },
+    {
+     "proposer": "HENRI",
+     "team": [
+      "HENRI",
+      "BEIGUETTE",
+      "M",
+      "PINEAPPLE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "HENRI",
+      "M",
+      "AKANKSHA",
+      "BEIGUETTE",
+      "SARAH"
+     ]
+    }
+   ],
+   "team": [
+    "HENRI",
+    "BEIGUETTE",
+    "M",
+    "PINEAPPLE"
+   ],
+   "teamSize": 4,
+   "failsRequired": 2
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609123740,
+  "_nanoseconds": 448000000
+ },
+ "players": [
+  {
+   "uid": "mxxZHB7C1bNs0anhIdORLRk8ur83",
+   "name": "AKANKSHA"
+  },
+  {
+   "name": "HENRI",
+   "uid": "KOpwfqS0nmS1vqrjYY9sfyyHxKk1"
+  },
+  {
+   "uid": "jftX8PwEEYVbADEOX4Vytx3dlJv2",
+   "name": "PAUL"
+  },
+  {
+   "uid": "U3YIRn3lD6WESDtDsmfSibtLu7I3",
+   "name": "BEIGUETTE"
+  },
+  {
+   "uid": "DZwiaQhhSRVmnTuPJT7TnTdY0053",
+   "name": "M"
+  },
+  {
+   "uid": "5mmnnWgBK9QaP4hFjESFyCYTKly2",
+   "name": "SARAH"
+  },
+  {
+   "uid": "EzJ9TivbnmfRzG0z61uJHuHGXyA3",
+   "name": "PINEAPPLE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

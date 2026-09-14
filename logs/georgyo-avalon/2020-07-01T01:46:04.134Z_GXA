@@ -1,0 +1,242 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "TONY": true,
+    "KIESS": true
+   },
+   {
+    "KIESS": true,
+    "TONY": true,
+    "TON": false
+   },
+   {
+    "KIESS": true,
+    "TON": false
+   },
+   {
+    "KIESS": true,
+    "DANDAWG": true,
+    "TONY": true
+   },
+   {
+    "TONY": true,
+    "DANDAWG": true,
+    "KIESS": true
+   }
+  ],
+  "assassinated": "TONY",
+  "roles": [
+   {
+    "name": "DANDAWG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KIESS",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "MATHEW",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "TONY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "TON"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MATHEW",
+      "TONY",
+      "TON",
+      "DANDAWG",
+      "KIESS"
+     ],
+     "proposer": "TONY",
+     "team": [
+      "TONY",
+      "KIESS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "TONY",
+    "KIESS"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "KIESS",
+     "state": "APPROVED",
+     "votes": [
+      "DANDAWG",
+      "KIESS",
+      "MATHEW",
+      "TONY",
+      "TON"
+     ],
+     "team": [
+      "TONY",
+      "KIESS",
+      "TON"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "TONY",
+    "KIESS",
+    "TON"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "TON",
+     "votes": [
+      "TONY",
+      "TON",
+      "DANDAWG",
+      "KIESS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "TON",
+      "KIESS"
+     ]
+    }
+   ],
+   "team": [
+    "TON",
+    "KIESS"
+   ]
+  },
+  {
+   "team": [
+    "TONY",
+    "KIESS",
+    "DANDAWG"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MATHEW",
+     "team": [
+      "TONY",
+      "KIESS",
+      "MATHEW"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MATHEW"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "TONY",
+      "KIESS",
+      "DANDAWG"
+     ],
+     "proposer": "DANDAWG",
+     "votes": [
+      "TONY",
+      "DANDAWG",
+      "KIESS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "TONY",
+     "state": "APPROVED",
+     "team": [
+      "DANDAWG",
+      "TONY",
+      "KIESS"
+     ],
+     "votes": [
+      "DANDAWG",
+      "KIESS",
+      "TONY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "DANDAWG",
+    "TONY",
+    "KIESS"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593567964,
+  "_nanoseconds": 134000000
+ },
+ "players": [
+  {
+   "uid": "vvM8XiJITMRSziHHTMM5os8LJ0h1",
+   "name": "MATHEW"
+  },
+  {
+   "name": "DANDAWG",
+   "uid": "HiAjnGHgZegKBurjvulcDGILe9A3"
+  },
+  {
+   "uid": "IHph4KHYXxTGmYJ7NEk7QJHHoQP2",
+   "name": "TONY"
+  },
+  {
+   "uid": "0F2BJExQ0yPucTXpaYbsdtYstVo2",
+   "name": "KIESS"
+  },
+  {
+   "name": "TON",
+   "uid": "y5pqGvUU6KgQaIFZr3BF4VPsBUB2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593569024,
+  "_nanoseconds": 39000000
+ }
+}

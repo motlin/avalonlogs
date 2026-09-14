@@ -1,0 +1,266 @@
+{
+ "players": [
+  {
+   "uid": "9bil9f8goyXQlyez6yvq2mt69ov2",
+   "name": "OOOF"
+  },
+  {
+   "uid": "yj0R1EC3BoP5dS2vkBZ3XT4yJdI2",
+   "name": "DICKBALLS"
+  },
+  {
+   "uid": "SgteBYSAINRrbQuh018pSqFTJI23",
+   "name": "KEL"
+  },
+  {
+   "name": "RUCKSAR",
+   "uid": "dvEBxO9FOsaYNA0DFSiAK5WByj73"
+  },
+  {
+   "name": "DAVID",
+   "uid": "TcZhob1D1of3LLb6sU8Hd44R0Ly2"
+  },
+  {
+   "name": "WEIHAO",
+   "uid": "RiHbTe9nPZOZrgvUfDGR2BqBNlC2"
+  },
+  {
+   "name": "AJ",
+   "uid": "jO0c7QtK9UeT94wyDMTZFnJqtdj2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592616765,
+  "_nanoseconds": 654000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "WEIHAO": true,
+    "AJ": true
+   },
+   {
+    "KEL": true,
+    "OOOF": true,
+    "DICKBALLS": true
+   },
+   {
+    "DICKBALLS": true,
+    "OOOF": false,
+    "AJ": true
+   },
+   {
+    "WEIHAO": true,
+    "DICKBALLS": false,
+    "DAVID": true,
+    "KEL": false
+   },
+   {
+    "KEL": true,
+    "AJ": true,
+    "DAVID": true,
+    "WEIHAO": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "DICKBALLS"
+   },
+   {
+    "name": "WEIHAO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "OOOF",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "RUCKSAR",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KEL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DAVID"
+   },
+   {
+    "name": "AJ",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": "AJ",
+  "message": "Three successful missions"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "WEIHAO",
+    "AJ"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DICKBALLS",
+      "WEIHAO",
+      "RUCKSAR",
+      "DAVID",
+      "AJ"
+     ],
+     "team": [
+      "WEIHAO",
+      "AJ"
+     ],
+     "proposer": "WEIHAO"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "OOOF",
+    "DICKBALLS",
+    "KEL"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "AJ",
+     "votes": [
+      "DICKBALLS",
+      "WEIHAO",
+      "OOOF",
+      "KEL",
+      "DAVID",
+      "AJ"
+     ],
+     "team": [
+      "OOOF",
+      "DICKBALLS",
+      "KEL"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "OOOF",
+     "votes": [
+      "DICKBALLS",
+      "OOOF",
+      "RUCKSAR",
+      "KEL",
+      "AJ"
+     ],
+     "team": [
+      "AJ",
+      "OOOF",
+      "DICKBALLS"
+     ]
+    }
+   ],
+   "team": [
+    "AJ",
+    "OOOF",
+    "DICKBALLS"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "DICKBALLS",
+     "state": "APPROVED",
+     "votes": [
+      "WEIHAO",
+      "OOOF",
+      "KEL",
+      "DAVID",
+      "AJ",
+      "DICKBALLS"
+     ],
+     "team": [
+      "DAVID",
+      "WEIHAO",
+      "KEL",
+      "DICKBALLS"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "DAVID",
+    "WEIHAO",
+    "KEL",
+    "DICKBALLS"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "KEL",
+    "WEIHAO",
+    "DAVID",
+    "AJ"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "WEIHAO",
+      "OOOF",
+      "RUCKSAR",
+      "KEL",
+      "DAVID",
+      "AJ",
+      "DICKBALLS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KEL",
+      "WEIHAO",
+      "DAVID",
+      "AJ"
+     ],
+     "proposer": "KEL"
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592615665,
+  "_nanoseconds": 993000000
+ }
+}

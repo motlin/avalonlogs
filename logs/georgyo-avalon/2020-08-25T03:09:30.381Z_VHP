@@ -1,0 +1,258 @@
+{
+ "timeFinished": {
+  "_seconds": 1598325961,
+  "_nanoseconds": 564000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1598324970,
+  "_nanoseconds": 381000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": null,
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SARA"
+   },
+   {
+    "assassin": false,
+    "name": "SHAY",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ELANA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MAX",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALTER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "SARA": true,
+    "ELANA": true
+   },
+   {
+    "SHAY": false,
+    "SARA": true,
+    "ELANA": true
+   },
+   {
+    "ELANA": true,
+    "ALTER": true
+   },
+   {
+    "SARA": true,
+    "ELANA": true,
+    "ALTER": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "SHAY",
+   "uid": "7ivpqtbunnMgU5fnS9LaOVD3BOn2"
+  },
+  {
+   "name": "ELANA",
+   "uid": "RyL8sNttglQ1RrRbNNNTRulR7Xz2"
+  },
+  {
+   "name": "ALTER",
+   "uid": "LkabRXP6RaQLcR4OoIGyL6V7mOv2"
+  },
+  {
+   "uid": "oqn17O9xl6dHx3Qz81k4RvNUSzY2",
+   "name": "MAX"
+  },
+  {
+   "uid": "HyAH7SGjVxYEyW5VtqFr8cRYXxu1",
+   "name": "SARA"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "ELANA",
+     "team": [
+      "ELANA",
+      "SARA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SARA",
+      "ELANA",
+      "SHAY"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ELANA",
+    "SARA"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ALTER",
+      "ELANA",
+      "SARA"
+     ],
+     "votes": [
+      "SARA",
+      "ELANA"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALTER"
+    },
+    {
+     "team": [
+      "MAX",
+      "ELANA",
+      "SARA"
+     ],
+     "votes": [],
+     "proposer": "MAX",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "SARA",
+      "ELANA",
+      "SHAY"
+     ],
+     "proposer": "SARA",
+     "state": "APPROVED",
+     "votes": [
+      "ELANA",
+      "SARA",
+      "SHAY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SARA",
+    "ELANA",
+    "SHAY"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "ALTER",
+      "MAX"
+     ],
+     "proposer": "SHAY"
+    },
+    {
+     "votes": [
+      "MAX",
+      "ELANA",
+      "SHAY",
+      "ALTER",
+      "SARA"
+     ],
+     "team": [
+      "ELANA",
+      "ALTER"
+     ],
+     "proposer": "ELANA",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ELANA",
+    "ALTER"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "SARA",
+    "ALTER",
+    "ELANA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ALTER",
+      "MAX",
+      "SHAY"
+     ],
+     "proposer": "ALTER",
+     "votes": []
+    },
+    {
+     "proposer": "MAX",
+     "state": "REJECTED",
+     "votes": [
+      "SHAY",
+      "MAX"
+     ],
+     "team": [
+      "MAX",
+      "ELANA",
+      "SARA"
+     ]
+    },
+    {
+     "proposer": "SARA",
+     "votes": [
+      "SHAY",
+      "ALTER",
+      "SARA",
+      "ELANA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SARA",
+      "ALTER",
+      "ELANA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 3,
+   "proposals": []
+  }
+ ]
+}

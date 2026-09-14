@@ -1,0 +1,257 @@
+{
+ "timeCreated": {
+  "_seconds": 1585980721,
+  "_nanoseconds": 64000000
+ },
+ "players": [
+  {
+   "name": "DELZ",
+   "uid": "h8HkNQqBFQdSKoPqC3JfqO1bptE2"
+  },
+  {
+   "uid": "5BrQewCuQaUbfWIzD0SS70Hky352",
+   "name": "RYAN"
+  },
+  {
+   "uid": "oTvMuO8b2WTNeZfG5uZ06kOMNCt2",
+   "name": "NESSA"
+  },
+  {
+   "name": "SILAS",
+   "uid": "oxXS9ESvtVUL3fqxRZPUQwLM4IK2"
+  },
+  {
+   "uid": "XxAcY7MA88g8CWNUK29bShUnysp1",
+   "name": "NAT"
+  },
+  {
+   "uid": "Cu625G3FY2ge1dgAYLEKFpw58IQ2",
+   "name": "S"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "DELZ"
+     ],
+     "proposer": "DELZ",
+     "votes": [
+      "S",
+      "RYAN",
+      "DELZ",
+      "NAT"
+     ]
+    }
+   ],
+   "team": [
+    "RYAN",
+    "DELZ"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "RYAN",
+      "NAT",
+      "NESSA",
+      "SILAS"
+     ],
+     "proposer": "RYAN",
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "DELZ",
+      "NAT"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "RYAN",
+    "DELZ",
+    "NAT"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "NAT",
+    "S",
+    "DELZ",
+    "SILAS"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [],
+     "proposer": "NESSA",
+     "team": [
+      "S",
+      "NESSA",
+      "RYAN",
+      "NAT"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "NAT",
+      "S",
+      "DELZ",
+      "SILAS"
+     ],
+     "votes": [
+      "SILAS",
+      "S",
+      "DELZ",
+      "NAT"
+     ],
+     "proposer": "SILAS",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "NAT",
+    "NESSA",
+    "DELZ"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SILAS",
+      "DELZ",
+      "NAT",
+      "NESSA"
+     ],
+     "proposer": "NAT",
+     "state": "APPROVED",
+     "team": [
+      "NAT",
+      "NESSA",
+      "DELZ"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "S",
+    "NAT",
+    "RYAN",
+    "DELZ"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "S",
+      "RYAN",
+      "DELZ",
+      "NAT",
+      "NESSA"
+     ],
+     "team": [
+      "S",
+      "NAT",
+      "RYAN",
+      "DELZ"
+     ],
+     "proposer": "S",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585982486,
+  "_nanoseconds": 580016000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "SILAS"
+   },
+   {
+    "name": "S",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "RYAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DELZ",
+    "assassin": false
+   },
+   {
+    "name": "NAT",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NESSA",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": "RYAN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "DELZ": true,
+    "RYAN": true
+   },
+   {
+    "RYAN": true,
+    "NAT": true,
+    "DELZ": true
+   },
+   {
+    "SILAS": false,
+    "S": true,
+    "DELZ": true,
+    "NAT": true
+   },
+   {
+    "NESSA": false,
+    "NAT": true,
+    "DELZ": true
+   },
+   {
+    "NAT": true,
+    "RYAN": true,
+    "DELZ": true,
+    "S": true
+   }
+  ]
+ }
+}

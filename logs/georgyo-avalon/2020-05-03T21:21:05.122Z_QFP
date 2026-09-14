@@ -1,0 +1,263 @@
+{
+ "players": [
+  {
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2",
+   "name": "ZAIN"
+  },
+  {
+   "uid": "iLYv4w77RGR5BpVaKwL7rxgri7r1",
+   "name": "MIRMINHAL"
+  },
+  {
+   "uid": "981FucZjJJcfoGGu1ohtXNbozK03",
+   "name": "KULSUM"
+  },
+  {
+   "name": "ZAINAB",
+   "uid": "oWHYrN10POQM4yOGDuQSyhOb4Qq2"
+  },
+  {
+   "uid": "v0tW2ilchUZtREsg59TtFtMgRBM2",
+   "name": "SARAH"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588540865,
+  "_nanoseconds": 122000000
+ },
+ "timeFinished": {
+  "_seconds": 1588541261,
+  "_nanoseconds": 916000000
+ },
+ "missions": [
+  {
+   "team": [
+    "ZAIN",
+    "SARAH"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ZAIN",
+     "state": "APPROVED",
+     "team": [
+      "ZAIN",
+      "SARAH"
+     ],
+     "votes": [
+      "SARAH",
+      "ZAIN",
+      "KULSUM"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "MIRMINHAL",
+    "KULSUM",
+    "ZAINAB"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MIRMINHAL",
+      "KULSUM",
+      "ZAINAB"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MIRMINHAL",
+      "KULSUM",
+      "ZAINAB"
+     ],
+     "proposer": "MIRMINHAL"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "KULSUM",
+      "ZAINAB"
+     ],
+     "votes": [
+      "ZAINAB",
+      "KULSUM"
+     ],
+     "state": "REJECTED",
+     "proposer": "KULSUM"
+    },
+    {
+     "votes": [
+      "ZAINAB",
+      "SARAH"
+     ],
+     "proposer": "ZAINAB",
+     "state": "REJECTED",
+     "team": [
+      "ZAINAB",
+      "SARAH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "SARAH",
+     "votes": [
+      "SARAH",
+      "KULSUM"
+     ],
+     "team": [
+      "KULSUM",
+      "SARAH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "SARAH",
+      "ZAIN"
+     ],
+     "proposer": "ZAIN",
+     "votes": [
+      "SARAH",
+      "ZAIN"
+     ]
+    },
+    {
+     "team": [
+      "MIRMINHAL",
+      "ZAIN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SARAH",
+      "ZAIN",
+      "MIRMINHAL",
+      "KULSUM",
+      "ZAINAB"
+     ],
+     "proposer": "MIRMINHAL"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "MIRMINHAL",
+    "ZAIN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ZAINAB",
+      "KULSUM"
+     ],
+     "proposer": "KULSUM",
+     "team": [
+      "KULSUM",
+      "SARAH",
+      "ZAINAB"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KULSUM",
+      "ZAINAB",
+      "SARAH"
+     ],
+     "team": [
+      "KULSUM",
+      "ZAINAB",
+      "SARAH"
+     ],
+     "proposer": "ZAINAB"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "KULSUM",
+    "ZAINAB",
+    "SARAH"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MIRMINHAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "KULSUM"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ZAINAB"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SARAH"
+   },
+   {
+    "name": "ZAIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "SARAH": true,
+    "ZAIN": true
+   },
+   {
+    "MIRMINHAL": true,
+    "KULSUM": true,
+    "ZAINAB": true
+   },
+   {
+    "ZAIN": false,
+    "MIRMINHAL": true
+   },
+   {
+    "SARAH": true,
+    "ZAINAB": true,
+    "KULSUM": true
+   }
+  ],
+  "assassinated": "KULSUM"
+ }
+}

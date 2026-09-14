@@ -1,0 +1,281 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "BEAWERDAM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HQD",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JISKA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JJ"
+   },
+   {
+    "name": "KARST",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SJON",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "JJ": true,
+    "KARST": true
+   },
+   {
+    "JJ": false,
+    "BEAWERDAM": true,
+    "KARST": true
+   },
+   {
+    "SJON": true,
+    "BEAWERDAM": true,
+    "HQD": false,
+    "JISKA": true
+   },
+   {
+    "JISKA": true,
+    "KARST": true,
+    "SJON": true
+   },
+   {
+    "JISKA": true,
+    "KARST": true,
+    "SJON": true,
+    "BEAWERDAM": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1586806663,
+  "_nanoseconds": 686000000
+ },
+ "players": [
+  {
+   "name": "BEAWERDAM",
+   "uid": "GBroD3GLPiZLKbGbWVLAiB873hS2"
+  },
+  {
+   "name": "JJ",
+   "uid": "TBi8EKCtFTda2OOWwvdcefTw81D2"
+  },
+  {
+   "uid": "4M4b1HU5PWUcxCOj3kq3uGbQRxE3",
+   "name": "SJON"
+  },
+  {
+   "uid": "336vf0wKgVNfrx4gSaUJUaktiSx1",
+   "name": "JISKA"
+  },
+  {
+   "uid": "JWzzdnoI6sW4mgqzqaWfB1rKlVD3",
+   "name": "HQD"
+  },
+  {
+   "uid": "mYOh9cWoYkN5RfOWpMAlFDXZmnp2",
+   "name": "KARST"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586807218,
+  "_nanoseconds": 976751000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KARST",
+      "SJON",
+      "BEAWERDAM",
+      "HQD",
+      "JISKA"
+     ],
+     "proposer": "KARST",
+     "team": [
+      "JJ",
+      "KARST"
+     ]
+    }
+   ],
+   "team": [
+    "JJ",
+    "KARST"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "JJ",
+    "KARST",
+    "BEAWERDAM"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "JJ",
+      "KARST",
+      "BEAWERDAM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JISKA",
+      "JJ",
+      "KARST",
+      "SJON",
+      "BEAWERDAM",
+      "HQD"
+     ],
+     "proposer": "BEAWERDAM"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "BEAWERDAM",
+    "JISKA",
+    "SJON",
+    "HQD"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JJ",
+     "votes": [
+      "JJ"
+     ],
+     "team": [
+      "HQD",
+      "JJ",
+      "JISKA",
+      "SJON"
+     ]
+    },
+    {
+     "team": [
+      "BEAWERDAM",
+      "JISKA",
+      "SJON",
+      "HQD"
+     ],
+     "votes": [
+      "JJ",
+      "SJON",
+      "BEAWERDAM",
+      "HQD",
+      "JISKA"
+     ],
+     "proposer": "SJON",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "HQD",
+      "JISKA",
+      "JJ",
+      "KARST",
+      "SJON",
+      "BEAWERDAM"
+     ],
+     "team": [
+      "KARST",
+      "JISKA",
+      "SJON"
+     ],
+     "proposer": "JISKA",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KARST",
+    "JISKA",
+    "SJON"
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SJON",
+      "JISKA",
+      "HQD",
+      "KARST"
+     ],
+     "proposer": "HQD",
+     "votes": [
+      "SJON",
+      "HQD"
+     ]
+    },
+    {
+     "proposer": "KARST",
+     "votes": [
+      "SJON",
+      "BEAWERDAM",
+      "JISKA",
+      "KARST"
+     ],
+     "team": [
+      "BEAWERDAM",
+      "JISKA",
+      "SJON",
+      "KARST"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BEAWERDAM",
+    "JISKA",
+    "SJON",
+    "KARST"
+   ]
+  }
+ ]
+}

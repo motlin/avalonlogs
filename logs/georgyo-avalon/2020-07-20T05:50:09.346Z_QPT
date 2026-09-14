@@ -1,0 +1,229 @@
+{
+ "timeFinished": {
+  "_seconds": 1595224534,
+  "_nanoseconds": 471000000
+ },
+ "timeCreated": {
+  "_seconds": 1595224209,
+  "_nanoseconds": 346000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PHILIP": true,
+    "JAM": true
+   },
+   {
+    "IVAN": true,
+    "PHILIP": true,
+    "JAM": true
+   },
+   {
+    "CHANG": true,
+    "IVAN": false
+   },
+   {
+    "MARVEN": true,
+    "JAM": false,
+    "PHILIP": true
+   },
+   {
+    "MARVEN": true,
+    "JAM": false,
+    "CHANG": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "PHILIP",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "IVAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "name": "JAM",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHANG",
+    "assassin": false
+   },
+   {
+    "name": "MARVEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "PHILIP",
+    "JAM"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "PHILIP",
+      "JAM"
+     ],
+     "proposer": "IVAN",
+     "votes": [
+      "JAM",
+      "CHANG",
+      "PHILIP",
+      "IVAN",
+      "MARVEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "PHILIP",
+    "JAM",
+    "IVAN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JAM",
+      "MARVEN",
+      "IVAN",
+      "CHANG"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHANG",
+     "team": [
+      "PHILIP",
+      "JAM",
+      "IVAN"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "IVAN",
+    "CHANG"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARVEN",
+      "PHILIP",
+      "JAM"
+     ],
+     "team": [
+      "IVAN",
+      "CHANG"
+     ],
+     "proposer": "PHILIP"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "JAM",
+    "MARVEN",
+    "PHILIP"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JAM",
+      "MARVEN",
+      "PHILIP"
+     ],
+     "proposer": "JAM",
+     "votes": [
+      "CHANG",
+      "MARVEN",
+      "JAM",
+      "IVAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MARVEN",
+    "CHANG",
+    "JAM"
+   ],
+   "proposals": [
+    {
+     "proposer": "MARVEN",
+     "votes": [
+      "JAM",
+      "IVAN",
+      "MARVEN"
+     ],
+     "team": [
+      "MARVEN",
+      "CHANG",
+      "JAM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "MARVEN",
+   "uid": "BYENFPwWWTZRRWxImf6w65HrTJ32"
+  },
+  {
+   "name": "IVAN",
+   "uid": "Aa1crt3YdLNyqiVgiLZXwIulgKF2"
+  },
+  {
+   "uid": "qLTdGWTdQedLxjW2fEl7ziPkLtx1",
+   "name": "CHANG"
+  },
+  {
+   "uid": "mgWtLbAgwrgfQTsqVebvy8JRSFl1",
+   "name": "PHILIP"
+  },
+  {
+   "name": "JAM",
+   "uid": "REPaMMTrw3U1npyTv4pBsEItrnC3"
+  }
+ ]
+}

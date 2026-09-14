@@ -1,0 +1,349 @@
+{
+ "timeFinished": {
+  "_seconds": 1605374055,
+  "_nanoseconds": 20000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1605372672,
+  "_nanoseconds": 545000000
+ },
+ "players": [
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "name": "ELISA",
+   "uid": "dbKmvKJ5dAT9y974xQ1v6mXVRdw2"
+  },
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  },
+  {
+   "name": "FABIENNE",
+   "uid": "V8ryY793JBQm57d7B7ljEdKdiQ72"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "FABIENNE": true,
+    "ELISA": true
+   },
+   {
+    "CHRISTIAN": true,
+    "FABIENNE": false,
+    "ELISA": true
+   },
+   {
+    "LAURA": true,
+    "ELISA": true
+   },
+   {
+    "LAURA": true,
+    "ELISA": true,
+    "FABIENNE": false
+   },
+   {
+    "LAURA": true,
+    "ELISA": true,
+    "REGIS": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELISA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRISTIAN",
+    "assassin": false
+   },
+   {
+    "name": "FABIENNE",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "LAURA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "REGIS"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "FABIENNE",
+    "ELISA"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "FABIENNE",
+      "ELISA"
+     ],
+     "votes": [
+      "ELISA",
+      "FABIENNE",
+      "REGIS"
+     ],
+     "proposer": "ELISA"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "CHRISTIAN",
+    "FABIENNE",
+    "ELISA"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "CHRISTIAN",
+     "team": [
+      "CHRISTIAN",
+      "FABIENNE",
+      "LAURA"
+     ],
+     "votes": [
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "FABIENNE",
+      "ELISA",
+      "CHRISTIAN"
+     ],
+     "proposer": "FABIENNE",
+     "votes": [
+      "REGIS",
+      "ELISA"
+     ]
+    },
+    {
+     "proposer": "REGIS",
+     "state": "REJECTED",
+     "votes": [
+      "REGIS"
+     ],
+     "team": [
+      "FABIENNE",
+      "CHRISTIAN",
+      "ELISA"
+     ]
+    },
+    {
+     "votes": [
+      "REGIS",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LAURA",
+      "FABIENNE",
+      "REGIS"
+     ],
+     "proposer": "LAURA"
+    },
+    {
+     "team": [
+      "CHRISTIAN",
+      "FABIENNE",
+      "ELISA"
+     ],
+     "proposer": "ELISA",
+     "state": "APPROVED",
+     "votes": [
+      "REGIS",
+      "LAURA",
+      "ELISA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED",
+     "votes": [
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "FABIENNE"
+     ]
+    },
+    {
+     "votes": [
+      "ELISA",
+      "FABIENNE"
+     ],
+     "team": [
+      "FABIENNE",
+      "ELISA"
+     ],
+     "state": "REJECTED",
+     "proposer": "FABIENNE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "REGIS",
+     "votes": [
+      "LAURA",
+      "REGIS"
+     ],
+     "team": [
+      "REGIS",
+      "LAURA"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ELISA",
+      "LAURA",
+      "FABIENNE"
+     ],
+     "team": [
+      "LAURA",
+      "ELISA"
+     ],
+     "proposer": "LAURA"
+    }
+   ],
+   "team": [
+    "LAURA",
+    "ELISA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "FABIENNE",
+      "LAURA",
+      "ELISA"
+     ],
+     "proposer": "ELISA",
+     "state": "APPROVED",
+     "votes": [
+      "FABIENNE",
+      "ELISA",
+      "LAURA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "FABIENNE",
+    "LAURA",
+    "ELISA"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ELISA",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "LAURA",
+      "CHRISTIAN",
+      "ELISA"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "FABIENNE"
+     ],
+     "state": "REJECTED",
+     "proposer": "FABIENNE",
+     "team": [
+      "FABIENNE",
+      "LAURA",
+      "REGIS"
+     ]
+    },
+    {
+     "team": [
+      "REGIS",
+      "LAURA",
+      "ELISA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "REGIS",
+      "LAURA"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LAURA",
+     "votes": [
+      "LAURA",
+      "REGIS",
+      "ELISA",
+      "FABIENNE"
+     ],
+     "team": [
+      "REGIS",
+      "LAURA",
+      "ELISA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "REGIS",
+    "LAURA",
+    "ELISA"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "players": [
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  },
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "uid": "V8ryY793JBQm57d7B7ljEdKdiQ72",
+   "name": "FABIENNE"
+  },
+  {
+   "uid": "dbKmvKJ5dAT9y974xQ1v6mXVRdw2",
+   "name": "ELISA"
+  },
+  {
+   "name": "SAUVAGE",
+   "uid": "SjAwNkIjANUBqwHVK3f5szy8HZp1"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SAUVAGE"
+   },
+   {
+    "name": "FABIENNE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LAURA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRISTIAN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "REGIS"
+   },
+   {
+    "name": "ELISA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Five team proposals in a row rejected",
+  "votes": [
+   {
+    "SAUVAGE": true,
+    "ELISA": true
+   },
+   {
+    "ELISA": false,
+    "FABIENNE": true,
+    "SAUVAGE": true
+   },
+   {
+    "FABIENNE": true,
+    "CHRISTIAN": true,
+    "ELISA": true,
+    "SAUVAGE": true
+   },
+   {
+    "LAURA": true,
+    "REGIS": false,
+    "FABIENNE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "ELISA",
+     "state": "APPROVED",
+     "votes": [
+      "SAUVAGE",
+      "FABIENNE",
+      "CHRISTIAN",
+      "ELISA"
+     ],
+     "team": [
+      "ELISA",
+      "SAUVAGE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ELISA",
+    "SAUVAGE"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "SAUVAGE",
+     "state": "REJECTED",
+     "team": [
+      "ELISA",
+      "FABIENNE",
+      "CHRISTIAN"
+     ],
+     "votes": [
+      "SAUVAGE",
+      "ELISA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ELISA",
+      "CHRISTIAN",
+      "SAUVAGE"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "ELISA",
+      "SAUVAGE"
+     ],
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LAURA",
+      "ELISA",
+      "SAUVAGE"
+     ],
+     "votes": [
+      "SAUVAGE",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "proposer": "LAURA"
+    },
+    {
+     "team": [
+      "CHRISTIAN",
+      "LAURA",
+      "FABIENNE"
+     ],
+     "state": "REJECTED",
+     "proposer": "REGIS",
+     "votes": [
+      "CHRISTIAN",
+      "ELISA",
+      "REGIS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SAUVAGE",
+      "LAURA",
+      "FABIENNE",
+      "ELISA",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "proposer": "FABIENNE",
+     "team": [
+      "FABIENNE",
+      "ELISA",
+      "SAUVAGE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "FABIENNE",
+    "ELISA",
+    "SAUVAGE"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ELISA",
+     "team": [
+      "ELISA",
+      "CHRISTIAN",
+      "REGIS",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ELISA",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "votes": [
+      "ELISA",
+      "SAUVAGE"
+     ],
+     "proposer": "SAUVAGE",
+     "team": [
+      "SAUVAGE",
+      "FABIENNE",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHRISTIAN",
+      "FABIENNE",
+      "REGIS",
+      "SAUVAGE"
+     ],
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "votes": [
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "proposer": "LAURA",
+     "team": [
+      "LAURA",
+      "FABIENNE",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ELISA",
+      "SAUVAGE",
+      "FABIENNE",
+      "CHRISTIAN"
+     ],
+     "proposer": "REGIS",
+     "votes": [
+      "SAUVAGE",
+      "LAURA",
+      "FABIENNE",
+      "ELISA",
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "ELISA",
+    "SAUVAGE",
+    "FABIENNE",
+    "CHRISTIAN"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "FABIENNE",
+     "votes": [
+      "REGIS",
+      "FABIENNE",
+      "ELISA",
+      "LAURA"
+     ],
+     "team": [
+      "FABIENNE",
+      "REGIS",
+      "LAURA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FABIENNE",
+    "REGIS",
+    "LAURA"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ELISA",
+     "state": "REJECTED",
+     "team": [
+      "ELISA",
+      "REGIS",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "votes": [
+      "ELISA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHRISTIAN",
+      "FABIENNE",
+      "SAUVAGE",
+      "REGIS"
+     ],
+     "proposer": "SAUVAGE",
+     "votes": [
+      "FABIENNE",
+      "CHRISTIAN",
+      "SAUVAGE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CHRISTIAN",
+     "team": [
+      "CHRISTIAN",
+      "REGIS",
+      "FABIENNE",
+      "SAUVAGE"
+     ],
+     "votes": [
+      "CHRISTIAN",
+      "FABIENNE",
+      "SAUVAGE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LAURA"
+     ],
+     "proposer": "LAURA",
+     "team": [
+      "LAURA",
+      "REGIS",
+      "SAUVAGE",
+      "ELISA"
+     ]
+    },
+    {
+     "team": [
+      "REGIS",
+      "FABIENNE",
+      "ELISA",
+      "SAUVAGE"
+     ],
+     "votes": [
+      "ELISA",
+      "REGIS"
+     ],
+     "proposer": "REGIS",
+     "state": "REJECTED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604840687,
+  "_nanoseconds": 691000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1604844518,
+  "_nanoseconds": 696000000
+ }
+}

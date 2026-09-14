@@ -1,0 +1,307 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "LASER": true,
+    "TINA": false
+   },
+   {
+    "JENNA": true,
+    "LASER": true,
+    "KIMBERLY": true
+   },
+   {
+    "KIMBERLY": true,
+    "LASER": true,
+    "JENNA": true
+   },
+   {
+    "LASER": true,
+    "JENNA": true,
+    "TOBY": true,
+    "KIMBERLY": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "TOBY"
+   },
+   {
+    "assassin": false,
+    "name": "LASER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "TINA"
+   },
+   {
+    "assassin": false,
+    "name": "BRIAN",
+    "role": "OBERON"
+   },
+   {
+    "name": "TYLER",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KIMBERLY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JENNA",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "assassinated": "JENNA",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1590717476,
+  "_nanoseconds": 918000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "LASER",
+    "TINA"
+   ],
+   "proposals": [
+    {
+     "proposer": "KIMBERLY",
+     "state": "REJECTED",
+     "votes": [
+      "LASER",
+      "KIMBERLY"
+     ],
+     "team": [
+      "KIMBERLY",
+      "BRIAN"
+     ]
+    },
+    {
+     "proposer": "TYLER",
+     "team": [
+      "TYLER",
+      "JENNA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "TYLER",
+      "LASER"
+     ]
+    },
+    {
+     "proposer": "JENNA",
+     "state": "REJECTED",
+     "votes": [
+      "TOBY",
+      "KIMBERLY",
+      "JENNA"
+     ],
+     "team": [
+      "LASER",
+      "JENNA"
+     ]
+    },
+    {
+     "votes": [
+      "LASER",
+      "TOBY",
+      "TYLER",
+      "KIMBERLY"
+     ],
+     "team": [
+      "LASER",
+      "TINA"
+     ],
+     "state": "APPROVED",
+     "proposer": "LASER"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "BRIAN",
+      "JENNA",
+      "TINA"
+     ],
+     "proposer": "BRIAN",
+     "votes": [
+      "BRIAN"
+     ]
+    },
+    {
+     "votes": [
+      "TOBY",
+      "LASER",
+      "JENNA"
+     ],
+     "team": [
+      "TOBY",
+      "LASER",
+      "JENNA"
+     ],
+     "proposer": "TOBY",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TINA",
+      "BRIAN",
+      "TYLER"
+     ],
+     "proposer": "TINA",
+     "state": "REJECTED",
+     "votes": [
+      "TINA"
+     ]
+    },
+    {
+     "votes": [
+      "KIMBERLY",
+      "JENNA",
+      "LASER",
+      "TOBY"
+     ],
+     "state": "APPROVED",
+     "proposer": "KIMBERLY",
+     "team": [
+      "KIMBERLY",
+      "JENNA",
+      "LASER"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "KIMBERLY",
+    "JENNA",
+    "LASER"
+   ]
+  },
+  {
+   "team": [
+    "KIMBERLY",
+    "JENNA",
+    "LASER"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "KIMBERLY",
+      "JENNA",
+      "LASER"
+     ],
+     "state": "APPROVED",
+     "proposer": "TYLER",
+     "votes": [
+      "JENNA",
+      "LASER",
+      "TOBY",
+      "TINA",
+      "BRIAN",
+      "TYLER",
+      "KIMBERLY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JENNA",
+     "team": [
+      "JENNA",
+      "KIMBERLY",
+      "LASER",
+      "TOBY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TYLER",
+      "KIMBERLY",
+      "JENNA",
+      "TOBY",
+      "LASER"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "JENNA",
+    "KIMBERLY",
+    "LASER",
+    "TOBY"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "TOBY",
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2"
+  },
+  {
+   "name": "TINA",
+   "uid": "HXoN5uYy10RFdjSv5xUP6IW2TCb2"
+  },
+  {
+   "name": "KIMBERLY",
+   "uid": "tVQNQuHDO8cihbBVOPRGTj0fm4I2"
+  },
+  {
+   "name": "TYLER",
+   "uid": "OffwbigM2SblJxpZUB0eHkoPheI2"
+  },
+  {
+   "uid": "GtnoqXEanyXtkUj99PorBMhxrlB2",
+   "name": "JENNA"
+  },
+  {
+   "name": "LASER",
+   "uid": "1BzGT5Pb9SR0DbGe7Xxp8UUky8T2"
+  },
+  {
+   "uid": "VK3pUVkXsCMFMxGEgEo0ckQuksm2",
+   "name": "BRIAN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590716412,
+  "_nanoseconds": 921000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

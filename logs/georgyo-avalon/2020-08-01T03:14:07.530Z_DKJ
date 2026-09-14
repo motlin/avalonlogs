@@ -1,0 +1,214 @@
+{
+ "players": [
+  {
+   "uid": "OIldn7FigsR49oZVeoqZCjPfGJt1",
+   "name": "KEVIN"
+  },
+  {
+   "name": "BOMBOO",
+   "uid": "ZnH82LLgyDTaD2ycyfIgZGGtAtZ2"
+  },
+  {
+   "name": "UNDDS",
+   "uid": "BsJqeuqgJZQKUwGyycOdEIvIJux1"
+  },
+  {
+   "name": "HARVARD",
+   "uid": "R3umaNObVySBRmtJOBHcauDGNt73"
+  },
+  {
+   "uid": "J0P90ZE10xdr26n6OXsQAzSCqHD3",
+   "name": "MARGARET"
+  },
+  {
+   "name": "JEREMY",
+   "uid": "dWVNwjENglQIHtbMQalHacoAx8w2"
+  }
+ ],
+ "outcome": {
+  "assassinated": "UNDDS",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "HARVARD",
+    "assassin": false
+   },
+   {
+    "name": "UNDDS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "BOMBOO",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "MARGARET"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "KEVIN"
+   },
+   {
+    "name": "JEREMY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "JEREMY": true,
+    "HARVARD": true
+   },
+   {
+    "KEVIN": true,
+    "JEREMY": true,
+    "HARVARD": true
+   },
+   {
+    "JEREMY": true,
+    "KEVIN": true,
+    "UNDDS": true,
+    "HARVARD": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BOMBOO",
+      "KEVIN",
+      "JEREMY",
+      "MARGARET",
+      "HARVARD",
+      "UNDDS"
+     ],
+     "proposer": "JEREMY",
+     "team": [
+      "JEREMY",
+      "HARVARD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "JEREMY",
+    "HARVARD"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "KEVIN",
+    "HARVARD",
+    "JEREMY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "HARVARD",
+      "UNDDS",
+      "JEREMY",
+      "KEVIN",
+      "BOMBOO",
+      "MARGARET"
+     ],
+     "proposer": "KEVIN",
+     "state": "APPROVED",
+     "team": [
+      "KEVIN",
+      "HARVARD",
+      "JEREMY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "KEVIN",
+    "UNDDS",
+    "HARVARD",
+    "JEREMY"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MARGARET",
+      "HARVARD",
+      "BOMBOO"
+     ],
+     "proposer": "BOMBOO",
+     "team": [
+      "KEVIN",
+      "BOMBOO",
+      "UNDDS",
+      "HARVARD"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEREMY",
+      "MARGARET",
+      "KEVIN",
+      "HARVARD",
+      "UNDDS",
+      "BOMBOO"
+     ],
+     "proposer": "UNDDS",
+     "team": [
+      "KEVIN",
+      "UNDDS",
+      "HARVARD",
+      "JEREMY"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596251815,
+  "_nanoseconds": 807000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1596251647,
+  "_nanoseconds": 530000000
+ }
+}

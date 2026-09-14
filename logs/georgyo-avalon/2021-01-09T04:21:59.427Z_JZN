@@ -1,0 +1,302 @@
+{
+ "timeFinished": {
+  "_seconds": 1610167585,
+  "_nanoseconds": 605000000
+ },
+ "timeCreated": {
+  "_seconds": 1610166119,
+  "_nanoseconds": 427000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "IAMBLUE": true,
+    "KGB": true
+   },
+   {
+    "TESSA": false,
+    "KGB": true,
+    "IAMBLUE": true
+   },
+   {
+    "TESSA": true,
+    "KGB": true,
+    "NOTASPY": true,
+    "TONYM": true
+   },
+   {
+    "KGB": true,
+    "NOTASPY": false,
+    "TONYM": true
+   },
+   {
+    "ANAGOOD": true,
+    "TONYM": true,
+    "IAMBLUE": true,
+    "TESSA": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "NOTASPY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TONYM",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "TESSA",
+    "role": "MORDRED"
+   },
+   {
+    "name": "KGB",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ANAGOOD",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "IAMBLUE"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "name": "KGB",
+   "uid": "M92ECvoiKJXwJnhmyUwN0ocjuk02"
+  },
+  {
+   "name": "ANAGOOD",
+   "uid": "cHaYhARMnLhHUtQ5U99ZC736aGe2"
+  },
+  {
+   "uid": "Hx6H5FzZwPXh8b1sES3hfuyNpV62",
+   "name": "IAMBLUE"
+  },
+  {
+   "name": "TONYM",
+   "uid": "1IlaaJlmorhUY16fgUodOky9gC13"
+  },
+  {
+   "name": "TESSA",
+   "uid": "yTbhBVnpZQP7I5jVvixxYUZ2A9T2"
+  },
+  {
+   "name": "NOTASPY",
+   "uid": "PK6dNMwvczQylSrED1RHBV7lbzQ2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "IAMBLUE",
+      "NOTASPY"
+     ],
+     "votes": [
+      "IAMBLUE",
+      "NOTASPY",
+      "TESSA"
+     ],
+     "proposer": "NOTASPY"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KGB",
+      "ANAGOOD"
+     ],
+     "proposer": "KGB",
+     "votes": [
+      "IAMBLUE",
+      "KGB",
+      "TESSA"
+     ]
+    },
+    {
+     "proposer": "ANAGOOD",
+     "state": "REJECTED",
+     "team": [
+      "IAMBLUE",
+      "ANAGOOD"
+     ],
+     "votes": [
+      "IAMBLUE",
+      "ANAGOOD"
+     ]
+    },
+    {
+     "team": [
+      "IAMBLUE",
+      "KGB"
+     ],
+     "votes": [
+      "ANAGOOD",
+      "KGB",
+      "IAMBLUE",
+      "TESSA"
+     ],
+     "state": "APPROVED",
+     "proposer": "IAMBLUE"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "IAMBLUE",
+    "KGB"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "TONYM",
+     "state": "REJECTED",
+     "votes": [
+      "KGB",
+      "TONYM",
+      "NOTASPY"
+     ],
+     "team": [
+      "TONYM",
+      "TESSA",
+      "NOTASPY"
+     ]
+    },
+    {
+     "votes": [
+      "TESSA",
+      "NOTASPY",
+      "IAMBLUE",
+      "KGB",
+      "ANAGOOD"
+     ],
+     "team": [
+      "KGB",
+      "IAMBLUE",
+      "TESSA"
+     ],
+     "proposer": "TESSA",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KGB",
+    "IAMBLUE",
+    "TESSA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TONYM",
+      "NOTASPY",
+      "TESSA",
+      "KGB"
+     ],
+     "proposer": "NOTASPY",
+     "state": "APPROVED",
+     "team": [
+      "KGB",
+      "NOTASPY",
+      "TESSA",
+      "TONYM"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "KGB",
+    "NOTASPY",
+    "TESSA",
+    "TONYM"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "TESSA",
+      "KGB",
+      "NOTASPY",
+      "TONYM"
+     ],
+     "team": [
+      "KGB",
+      "TONYM",
+      "NOTASPY"
+     ],
+     "proposer": "KGB",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KGB",
+    "TONYM",
+    "NOTASPY"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANAGOOD",
+      "IAMBLUE",
+      "TONYM",
+      "TESSA"
+     ],
+     "proposer": "ANAGOOD",
+     "votes": [
+      "ANAGOOD",
+      "IAMBLUE",
+      "TONYM",
+      "TESSA",
+      "NOTASPY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "ANAGOOD",
+    "IAMBLUE",
+    "TONYM",
+    "TESSA"
+   ],
+   "numFails": 1
+  }
+ ]
+}

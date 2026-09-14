@@ -1,0 +1,215 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JAYDEN",
+      "IAN",
+      "JUSTIN",
+      "SEAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARTIN",
+     "team": [
+      "SEAN",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "team": [
+    "SEAN",
+    "JUSTIN"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "SEAN",
+    "JAYDEN",
+    "JUSTIN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SEAN",
+      "JAYDEN",
+      "JUSTIN"
+     ],
+     "votes": [
+      "SEAN",
+      "MARTIN",
+      "JAYDEN",
+      "IAN"
+     ],
+     "proposer": "SEAN"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JAYDEN",
+      "JUSTIN"
+     ],
+     "votes": [
+      "JAYDEN",
+      "JUSTIN"
+     ],
+     "proposer": "JAYDEN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "IAN",
+      "MARTIN"
+     ],
+     "proposer": "IAN",
+     "votes": [
+      "IAN",
+      "JUSTIN",
+      "SEAN",
+      "MARTIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "IAN",
+    "MARTIN"
+   ]
+  },
+  {
+   "team": [
+    "JUSTIN",
+    "MARTIN",
+    "IAN"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JUSTIN",
+     "votes": [
+      "JAYDEN",
+      "JUSTIN",
+      "SEAN"
+     ],
+     "team": [
+      "JUSTIN",
+      "MARTIN",
+      "IAN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "MARTIN",
+   "uid": "L0Gx6Bis5pcXH1FfGkFIYNHXT9F3"
+  },
+  {
+   "uid": "fYg8XNyRKtdJZzgYBXjGLqmhMqy1",
+   "name": "SEAN"
+  },
+  {
+   "name": "JAYDEN",
+   "uid": "jIA8yP5fcETQMW3vdbdcdGFyGsv2"
+  },
+  {
+   "uid": "tBu4vgzOAscojPHI0baJZ11Wqgi1",
+   "name": "IAN"
+  },
+  {
+   "uid": "ZqPGAOWTg8ZpgdNzaMJWf49WkyY2",
+   "name": "JUSTIN"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SEAN": true,
+    "JUSTIN": true
+   },
+   {
+    "JAYDEN": true,
+    "SEAN": true,
+    "JUSTIN": false
+   },
+   {
+    "IAN": true,
+    "MARTIN": true
+   },
+   {
+    "JUSTIN": true,
+    "MARTIN": true,
+    "IAN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SEAN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MARTIN"
+   },
+   {
+    "name": "JAYDEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "IAN",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JUSTIN"
+   }
+  ],
+  "assassinated": "MARTIN"
+ },
+ "timeCreated": {
+  "_seconds": 1593984748,
+  "_nanoseconds": 445000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593985215,
+  "_nanoseconds": 575000000
+ }
+}

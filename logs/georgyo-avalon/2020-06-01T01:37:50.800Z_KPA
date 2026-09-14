@@ -1,0 +1,250 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "LUKE": true,
+    "ERYCK": true
+   },
+   {
+    "ADRIAN": true,
+    "MATT": true,
+    "ERYCK": true
+   },
+   {
+    "KELSEY": false,
+    "ERYCK": true,
+    "MATT": true,
+    "JACK": true
+   },
+   {
+    "ERYCK": true,
+    "JACK": true,
+    "ADRIAN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "ERYCK",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "JACK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "KELSEY"
+   },
+   {
+    "name": "LUKE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ADRIAN"
+   },
+   {
+    "assassin": true,
+    "name": "MATT",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ERYCK"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1590976826,
+  "_nanoseconds": 997000000
+ },
+ "timeCreated": {
+  "_seconds": 1590975470,
+  "_nanoseconds": 800000000
+ },
+ "missions": [
+  {
+   "team": [
+    "ERYCK",
+    "LUKE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ERYCK",
+      "LUKE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ERYCK",
+      "JACK",
+      "LUKE",
+      "ADRIAN",
+      "MATT"
+     ],
+     "proposer": "ERYCK"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "ERYCK",
+    "MATT",
+    "ADRIAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ADRIAN",
+     "state": "APPROVED",
+     "team": [
+      "ERYCK",
+      "MATT",
+      "ADRIAN"
+     ],
+     "votes": [
+      "ERYCK",
+      "JACK",
+      "ADRIAN",
+      "MATT"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "KELSEY",
+    "JACK",
+    "ERYCK",
+    "MATT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ERYCK",
+      "ADRIAN",
+      "MATT",
+      "JACK"
+     ],
+     "votes": [
+      "JACK",
+      "ADRIAN",
+      "MATT"
+     ],
+     "state": "REJECTED",
+     "proposer": "MATT"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KELSEY",
+     "votes": [
+      "LUKE",
+      "MATT",
+      "JACK",
+      "KELSEY"
+     ],
+     "team": [
+      "KELSEY",
+      "JACK",
+      "ERYCK",
+      "MATT"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "JACK",
+    "ERYCK",
+    "ADRIAN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LUKE",
+      "ERYCK",
+      "JACK"
+     ],
+     "proposer": "JACK",
+     "team": [
+      "ERYCK",
+      "LUKE",
+      "JACK"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JACK",
+      "ERYCK",
+      "ADRIAN"
+     ],
+     "proposer": "LUKE",
+     "state": "APPROVED",
+     "votes": [
+      "LUKE",
+      "ADRIAN",
+      "ERYCK",
+      "JACK",
+      "KELSEY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "MATT",
+   "uid": "jGdN7urETQfmo3ECxfellnLouGf2"
+  },
+  {
+   "name": "KELSEY",
+   "uid": "IzYLLk1P13PGnuQvs7xUOPVJh7n1"
+  },
+  {
+   "name": "JACK",
+   "uid": "4MgsumaQWYSgluqbP1RckSVym3b2"
+  },
+  {
+   "name": "LUKE",
+   "uid": "gVncdOzvyrc1fKiBsipaXEmGOjA2"
+  },
+  {
+   "uid": "2rYlwh0lykQj9o5DsYT73Lwv0li2",
+   "name": "ERYCK"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "cD9DYMjiePYJoV7aOdgrY320Xgh1"
+  }
+ ]
+}

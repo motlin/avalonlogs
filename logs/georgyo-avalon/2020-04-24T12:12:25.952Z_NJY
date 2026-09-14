@@ -1,0 +1,321 @@
+{
+ "players": [
+  {
+   "uid": "99PpedhYNlVM0hjYyuWFobPz2Vb2",
+   "name": "CHI"
+  },
+  {
+   "name": "ERIC",
+   "uid": "YGQeHy5xoLh8sxxETG4yGxN8aMs1"
+  },
+  {
+   "name": "MOJ",
+   "uid": "HvCzmJRUOGhYcCtUcY8MKV58q6s2"
+  },
+  {
+   "uid": "5Vx7nJWLzzcRKWdmU6X8P8e2CA03",
+   "name": "NICKGURH"
+  },
+  {
+   "name": "CEO",
+   "uid": "Ki2H2cqpbzfZyFKuClRWajSbTHK2"
+  },
+  {
+   "uid": "Wiuly776heVfLDLH2mVtxHsJREm2",
+   "name": "WILLYBUM"
+  },
+  {
+   "uid": "7vX80XeTDzPii0GGXa1Kq1byIrD2",
+   "name": "BIRB"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "NICKGURH": true,
+    "ERIC": true
+   },
+   {
+    "CEO": false,
+    "ERIC": true,
+    "MOJ": true
+   },
+   {
+    "NICKGURH": true,
+    "CEO": true,
+    "ERIC": true
+   },
+   {
+    "CHI": true,
+    "NICKGURH": true,
+    "CEO": false,
+    "BIRB": false
+   },
+   {
+    "CEO": false,
+    "ERIC": true,
+    "WILLYBUM": true,
+    "NICKGURH": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "CHI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CEO",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "BIRB",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "MOJ",
+    "role": "MORDRED"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "NICKGURH",
+    "assassin": false
+   },
+   {
+    "name": "WILLYBUM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1587730345,
+  "_nanoseconds": 952000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "NICKGURH",
+    "ERIC"
+   ],
+   "proposals": [
+    {
+     "proposer": "NICKGURH",
+     "state": "APPROVED",
+     "votes": [
+      "MOJ",
+      "NICKGURH",
+      "WILLYBUM",
+      "CHI",
+      "CEO",
+      "ERIC",
+      "BIRB"
+     ],
+     "team": [
+      "NICKGURH",
+      "ERIC"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "ERIC",
+    "MOJ",
+    "CEO"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CEO",
+      "ERIC",
+      "BIRB",
+      "MOJ",
+      "NICKGURH",
+      "WILLYBUM",
+      "CHI"
+     ],
+     "team": [
+      "ERIC",
+      "MOJ",
+      "CEO"
+     ],
+     "proposer": "CEO"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "ERIC",
+    "CEO",
+    "NICKGURH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CEO",
+      "BIRB",
+      "MOJ",
+      "NICKGURH",
+      "WILLYBUM"
+     ],
+     "proposer": "WILLYBUM",
+     "team": [
+      "ERIC",
+      "CEO",
+      "NICKGURH"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "BIRB",
+    "CHI",
+    "CEO",
+    "NICKGURH"
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "CHI",
+      "CEO",
+      "BIRB",
+      "MOJ"
+     ],
+     "team": [
+      "BIRB",
+      "CHI",
+      "CEO",
+      "NICKGURH"
+     ],
+     "state": "APPROVED",
+     "proposer": "BIRB"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CHI",
+     "state": "REJECTED",
+     "votes": [
+      "NICKGURH"
+     ],
+     "team": [
+      "CHI",
+      "ERIC",
+      "NICKGURH",
+      "CEO"
+     ]
+    },
+    {
+     "votes": [
+      "ERIC",
+      "BIRB",
+      "CHI"
+     ],
+     "team": [
+      "CHI",
+      "ERIC",
+      "WILLYBUM",
+      "NICKGURH"
+     ],
+     "state": "REJECTED",
+     "proposer": "ERIC"
+    },
+    {
+     "votes": [
+      "ERIC",
+      "BIRB"
+     ],
+     "proposer": "MOJ",
+     "state": "REJECTED",
+     "team": [
+      "MOJ",
+      "ERIC",
+      "CHI",
+      "WILLYBUM"
+     ]
+    },
+    {
+     "votes": [
+      "MOJ",
+      "NICKGURH"
+     ],
+     "team": [
+      "ERIC",
+      "NICKGURH",
+      "CEO",
+      "WILLYBUM"
+     ],
+     "proposer": "NICKGURH",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "CEO",
+     "votes": [
+      "MOJ",
+      "NICKGURH",
+      "WILLYBUM",
+      "CEO",
+      "BIRB"
+     ],
+     "team": [
+      "WILLYBUM",
+      "NICKGURH",
+      "ERIC",
+      "CEO"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "WILLYBUM",
+    "NICKGURH",
+    "ERIC",
+    "CEO"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587732678,
+  "_nanoseconds": 580000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

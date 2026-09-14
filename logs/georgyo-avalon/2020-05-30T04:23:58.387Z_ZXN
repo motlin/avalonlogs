@@ -1,0 +1,236 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "OBERON",
+    "name": "SUQI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ALEECE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "CLUR"
+   },
+   {
+    "role": "MORGANA",
+    "name": "AMIE",
+    "assassin": false
+   },
+   {
+    "name": "YASHAS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "RADDY"
+   },
+   {
+    "role": "MERLIN",
+    "name": "ALLISON",
+    "assassin": false
+   }
+  ],
+  "assassinated": "ALEECE",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ALLISON": true,
+    "ALEECE": true
+   },
+   {
+    "CLUR": true,
+    "RADDY": true,
+    "ALEECE": true
+   },
+   {
+    "SUQI": false,
+    "CLUR": false,
+    "YASHAS": true
+   },
+   {
+    "ALLISON": true,
+    "RADDY": true,
+    "ALEECE": true,
+    "AMIE": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "ALLISON",
+   "uid": "In4CObak2DRhJBld6f2fREsxaD53"
+  },
+  {
+   "name": "ALEECE",
+   "uid": "fDUydpj0tneQmyWXy1KKRhPEXf32"
+  },
+  {
+   "uid": "3pIEUP2bSpM93qFxTFtx7i7i1T13",
+   "name": "CLUR"
+  },
+  {
+   "uid": "MSfdfQcsPZXAwhMfDHgp5XnIQxu2",
+   "name": "RADDY"
+  },
+  {
+   "uid": "Guo5qMOR7nTG9JHmIbg8BEofOhD2",
+   "name": "YASHAS"
+  },
+  {
+   "uid": "ALJAX23dP8RQV7sId2zyMX6gju73",
+   "name": "AMIE"
+  },
+  {
+   "uid": "hoMNBUNdwuW1AxgC8AcKVih2OL63",
+   "name": "SUQI"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590812638,
+  "_nanoseconds": 387000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1590813190,
+  "_nanoseconds": 898000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ALLISON",
+    "ALEECE"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ALLISON",
+     "team": [
+      "ALLISON",
+      "ALEECE"
+     ],
+     "votes": [
+      "ALEECE",
+      "CLUR",
+      "AMIE",
+      "RADDY",
+      "ALLISON",
+      "SUQI"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ALEECE",
+     "state": "APPROVED",
+     "votes": [
+      "ALLISON",
+      "SUQI",
+      "ALEECE",
+      "CLUR",
+      "AMIE",
+      "RADDY"
+     ],
+     "team": [
+      "ALEECE",
+      "CLUR",
+      "RADDY"
+     ]
+    }
+   ],
+   "team": [
+    "ALEECE",
+    "CLUR",
+    "RADDY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "CLUR",
+     "state": "APPROVED",
+     "team": [
+      "CLUR",
+      "YASHAS",
+      "SUQI"
+     ],
+     "votes": [
+      "ALLISON",
+      "SUQI",
+      "ALEECE",
+      "CLUR",
+      "AMIE",
+      "RADDY"
+     ]
+    }
+   ],
+   "team": [
+    "CLUR",
+    "YASHAS",
+    "SUQI"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 2
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ALLISON",
+    "ALEECE",
+    "RADDY",
+    "AMIE"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALLISON",
+      "ALEECE",
+      "RADDY",
+      "AMIE"
+     ],
+     "proposer": "RADDY",
+     "votes": [
+      "RADDY",
+      "ALLISON",
+      "SUQI",
+      "ALEECE",
+      "CLUR",
+      "AMIE"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  }
+ ]
+}

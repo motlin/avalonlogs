@@ -1,0 +1,293 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "ROHAN",
+    "assassin": true
+   },
+   {
+    "name": "BROWNBEARD",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "PRIDHVI"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "BRYANT"
+   },
+   {
+    "name": "KLAY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SHRAVAN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NICK"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "SHRAVAN",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "NICK": true,
+    "PRIDHVI": true
+   },
+   {
+    "ROHAN": true,
+    "NICK": true,
+    "PRIDHVI": true
+   },
+   {
+    "BRYANT": true,
+    "ROHAN": false,
+    "NICK": true
+   },
+   {
+    "BROWNBEARD": false,
+    "PRIDHVI": true,
+    "NICK": true,
+    "ROHAN": false
+   },
+   {
+    "PRIDHVI": true,
+    "NICK": true,
+    "SHRAVAN": true,
+    "BRYANT": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "NICK",
+     "state": "APPROVED",
+     "votes": [
+      "NICK",
+      "KLAY",
+      "PRIDHVI",
+      "ROHAN",
+      "SHRAVAN",
+      "BRYANT"
+     ],
+     "team": [
+      "NICK",
+      "PRIDHVI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "NICK",
+    "PRIDHVI"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PRIDHVI",
+      "NICK",
+      "ROHAN"
+     ],
+     "votes": [
+      "NICK",
+      "PRIDHVI",
+      "KLAY",
+      "SHRAVAN",
+      "ROHAN",
+      "BRYANT"
+     ],
+     "proposer": "ROHAN"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "PRIDHVI",
+    "NICK",
+    "ROHAN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "NICK",
+      "ROHAN",
+      "BRYANT"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRYANT",
+     "votes": [
+      "ROHAN",
+      "PRIDHVI",
+      "KLAY",
+      "BRYANT",
+      "NICK"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "NICK",
+    "ROHAN",
+    "BRYANT"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ROHAN",
+      "KLAY",
+      "NICK",
+      "BROWNBEARD",
+      "PRIDHVI"
+     ],
+     "proposer": "BROWNBEARD",
+     "state": "APPROVED",
+     "team": [
+      "BROWNBEARD",
+      "ROHAN",
+      "NICK",
+      "PRIDHVI"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "BROWNBEARD",
+    "ROHAN",
+    "NICK",
+    "PRIDHVI"
+   ],
+   "numFails": 2,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "SHRAVAN",
+      "BRYANT",
+      "PRIDHVI",
+      "BROWNBEARD"
+     ],
+     "proposer": "SHRAVAN",
+     "state": "REJECTED",
+     "votes": [
+      "BRYANT",
+      "ROHAN",
+      "BROWNBEARD"
+     ]
+    },
+    {
+     "votes": [
+      "KLAY",
+      "NICK",
+      "ROHAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KLAY",
+      "NICK",
+      "BRYANT",
+      "SHRAVAN"
+     ],
+     "proposer": "KLAY"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "PRIDHVI",
+     "votes": [
+      "SHRAVAN",
+      "BRYANT",
+      "PRIDHVI",
+      "NICK"
+     ],
+     "team": [
+      "SHRAVAN",
+      "PRIDHVI",
+      "NICK",
+      "BRYANT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "SHRAVAN",
+    "PRIDHVI",
+    "NICK",
+    "BRYANT"
+   ],
+   "state": "SUCCESS"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595144741,
+  "_nanoseconds": 752000000
+ },
+ "timeFinished": {
+  "_seconds": 1595146448,
+  "_nanoseconds": 740000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "JbCckK6FAEQcLuHKAvN69wqbOS73",
+   "name": "SHRAVAN"
+  },
+  {
+   "name": "KLAY",
+   "uid": "V4SAGCzS9KMfXt2eiWuWhKXSMm12"
+  },
+  {
+   "name": "PRIDHVI",
+   "uid": "4GfCahioxqeJie6psB9eYJTCG793"
+  },
+  {
+   "name": "NICK",
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03"
+  },
+  {
+   "uid": "kxOTeulhGKcu2MOCO9lYm5giHP82",
+   "name": "ROHAN"
+  },
+  {
+   "name": "BRYANT",
+   "uid": "U6scF13Z1JREsmyEZfa2cjw35qB3"
+  },
+  {
+   "uid": "MtEIBFOtu7aeIxgJkb4oODo2qhp1",
+   "name": "BROWNBEARD"
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "SPLOOSH"
+     ],
+     "state": "APPROVED",
+     "proposer": "THEPEBBLE",
+     "team": [
+      "THEPEBBLE",
+      "DNAIK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "THEPEBBLE",
+    "DNAIK"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "DNAIK",
+    "THEPEBBLE",
+    "ISHYISH"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH",
+      "SOGGY"
+     ],
+     "proposer": "SOGGY",
+     "state": "APPROVED",
+     "team": [
+      "DNAIK",
+      "THEPEBBLE",
+      "ISHYISH"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ICE",
+      "DNAIK",
+      "SPLOOSH",
+      "THEPEBBLE"
+     ],
+     "proposer": "ICE",
+     "state": "APPROVED",
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH"
+     ]
+    }
+   ],
+   "team": [
+    "ICE",
+    "DNAIK",
+    "SPLOOSH",
+    "THEPEBBLE"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "ICE",
+      "SPLOOSH"
+     ],
+     "team": [
+      "SPLOOSH",
+      "SOGGY",
+      "ISHYISH"
+     ],
+     "proposer": "SPLOOSH"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "SPLOOSH",
+    "SOGGY",
+    "ISHYISH"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591243665,
+  "_nanoseconds": 396000000
+ },
+ "players": [
+  {
+   "name": "ISHYISH",
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62"
+  },
+  {
+   "name": "THEPEBBLE",
+   "uid": "BFYQOA17uOXmU9tXluHXb964U4C3"
+  },
+  {
+   "name": "SOGGY",
+   "uid": "2cqiTd5tlyOAZjk7XzGEH0pINPE2"
+  },
+  {
+   "uid": "IroQlyB05YPqQDIKP8xOZd2AFJE2",
+   "name": "ICE"
+  },
+  {
+   "name": "SPLOOSH",
+   "uid": "fS9mr21rGYQwBBMdESWSjZGuOsv2"
+  },
+  {
+   "name": "DNAIK",
+   "uid": "zBKMzPQp8uODk6urkBaihOcq9J53"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591243515,
+  "_nanoseconds": 766000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "name": "ISHYISH",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "DNAIK",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "THEPEBBLE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ICE"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SPLOOSH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SOGGY"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "THEPEBBLE": true,
+    "DNAIK": true
+   },
+   {
+    "DNAIK": true,
+    "ISHYISH": false,
+    "THEPEBBLE": true
+   },
+   {
+    "ICE": true,
+    "DNAIK": false,
+    "THEPEBBLE": true,
+    "SPLOOSH": true
+   },
+   {
+    "SPLOOSH": true,
+    "ISHYISH": false,
+    "SOGGY": true
+   }
+  ],
+  "message": "Three failed missions"
+ }
+}

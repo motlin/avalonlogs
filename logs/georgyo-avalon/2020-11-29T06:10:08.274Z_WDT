@@ -1,0 +1,331 @@
+{
+ "timeFinished": {
+  "_seconds": 1606631243,
+  "_nanoseconds": 871000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SKIMILK",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MAX",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "name": "SNOOZY",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "VDAWG",
+    "assassin": false
+   },
+   {
+    "name": "AND",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ALLEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "MAX": true,
+    "AND": true
+   },
+   {
+    "VDAWG": true,
+    "SNOOZY": false,
+    "MAX": true
+   },
+   {
+    "VDAWG": true,
+    "ALLEN": true,
+    "SKIMILK": true,
+    "MAX": true
+   },
+   {
+    "SKIMILK": true,
+    "MAX": true,
+    "VDAWG": true
+   }
+  ],
+  "assassinated": "SKIMILK",
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "MAX",
+    "AND"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAX",
+      "AND"
+     ],
+     "proposer": "MAX",
+     "votes": [
+      "AND",
+      "MAX",
+      "VDAWG",
+      "SKIMILK",
+      "SNOOZY"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ALLEN",
+      "MAX",
+      "AND"
+     ],
+     "proposer": "ALLEN",
+     "state": "REJECTED",
+     "votes": [
+      "MAX",
+      "AND"
+     ]
+    },
+    {
+     "team": [
+      "SKIMILK",
+      "SNOOZY",
+      "MAX"
+     ],
+     "votes": [
+      "SKIMILK",
+      "SNOOZY",
+      "MAX"
+     ],
+     "state": "REJECTED",
+     "proposer": "SKIMILK"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SNOOZY",
+     "team": [
+      "SNOOZY",
+      "MAX",
+      "VDAWG"
+     ],
+     "votes": [
+      "SNOOZY",
+      "SKIMILK",
+      "MAX",
+      "VDAWG"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SNOOZY",
+    "MAX",
+    "VDAWG"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "AND",
+     "votes": [
+      "AND"
+     ],
+     "team": [
+      "MAX",
+      "AND",
+      "ALLEN",
+      "SNOOZY"
+     ]
+    },
+    {
+     "team": [
+      "VDAWG",
+      "SKIMILK",
+      "ALLEN",
+      "SNOOZY"
+     ],
+     "votes": [
+      "SNOOZY",
+      "VDAWG"
+     ],
+     "proposer": "VDAWG",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "AND",
+      "MAX",
+      "VDAWG"
+     ],
+     "proposer": "MAX",
+     "state": "REJECTED",
+     "team": [
+      "MAX",
+      "ALLEN",
+      "VDAWG",
+      "AND"
+     ]
+    },
+    {
+     "team": [
+      "ALLEN",
+      "SNOOZY",
+      "AND",
+      "VDAWG"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "VDAWG",
+      "SNOOZY",
+      "ALLEN"
+     ],
+     "proposer": "ALLEN"
+    },
+    {
+     "votes": [
+      "SKIMILK",
+      "SNOOZY",
+      "AND",
+      "ALLEN",
+      "MAX",
+      "VDAWG"
+     ],
+     "team": [
+      "SKIMILK",
+      "MAX",
+      "ALLEN",
+      "VDAWG"
+     ],
+     "state": "APPROVED",
+     "proposer": "SKIMILK"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SKIMILK",
+    "MAX",
+    "ALLEN",
+    "VDAWG"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "SNOOZY",
+      "AND",
+      "MAX"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SNOOZY",
+      "AND"
+     ],
+     "proposer": "SNOOZY"
+    },
+    {
+     "team": [
+      "AND",
+      "SNOOZY",
+      "SKIMILK"
+     ],
+     "proposer": "AND",
+     "state": "REJECTED",
+     "votes": [
+      "SNOOZY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "VDAWG",
+     "team": [
+      "MAX",
+      "VDAWG",
+      "SKIMILK"
+     ],
+     "votes": [
+      "MAX",
+      "ALLEN",
+      "SKIMILK",
+      "VDAWG"
+     ]
+    }
+   ],
+   "team": [
+    "MAX",
+    "VDAWG",
+    "SKIMILK"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "ALLEN",
+   "uid": "Otyhww6DQZPfdwldw6MRDatkS5I3"
+  },
+  {
+   "uid": "ZQ1KYipQAdc5vavrWOzI5Mlz5Wk2",
+   "name": "SKIMILK"
+  },
+  {
+   "name": "SNOOZY",
+   "uid": "6FxoWQTRccRcdtpqpaXbxRoBMP52"
+  },
+  {
+   "uid": "zQNLjUvTDpVWY4lIMhxwoKBgYjf2",
+   "name": "AND"
+  },
+  {
+   "uid": "Dkrh5VMyondwmaDnlcdewt5y78r1",
+   "name": "VDAWG"
+  },
+  {
+   "uid": "oGCzA6emXjSBN5FkPEEEI5MDQ5p2",
+   "name": "MAX"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1606630208,
+  "_nanoseconds": 274000000
+ }
+}

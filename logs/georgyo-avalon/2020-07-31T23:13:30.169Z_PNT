@@ -1,0 +1,256 @@
+{
+ "outcome": {
+  "assassinated": "JUN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHEVIN"
+   },
+   {
+    "name": "BHASKAR",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "ARAVIND",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CLIFF",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JEDIAH"
+   },
+   {
+    "role": "MORDRED",
+    "name": "JAKE",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JUN",
+    "assassin": false
+   },
+   {
+    "name": "MICHAELP",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "CLIFF": true,
+    "JAKE": true,
+    "JUN": true
+   },
+   {
+    "JUN": true,
+    "MICHAELP": true,
+    "CLIFF": true,
+    "JAKE": true
+   },
+   {
+    "JAKE": false,
+    "CLIFF": true,
+    "MICHAELP": true,
+    "JUN": true
+   },
+   {
+    "JUN": true,
+    "CLIFF": true,
+    "MICHAELP": true,
+    "JAKE": false,
+    "ARAVIND": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "JUN",
+   "uid": "dC2rhnbihPgT8jDmLeQKSigns8Q2"
+  },
+  {
+   "name": "CLIFF",
+   "uid": "uc5wEQfmukh20e0tr99KgsQgXTC2"
+  },
+  {
+   "uid": "2sjc3XRTDFMvxy3fYcsDjtxGzSE2",
+   "name": "MICHAELP"
+  },
+  {
+   "name": "JEDIAH",
+   "uid": "0EwMN07DPLYjSQrNoWCOIyYmB8s1"
+  },
+  {
+   "name": "ARAVIND",
+   "uid": "OExp95tV1pXrAmUtUIi9naRsFOs2"
+  },
+  {
+   "name": "JAKE",
+   "uid": "bqlmyMYsaIdhDrL7NI4PZk7Cf6H2"
+  },
+  {
+   "name": "BHASKAR",
+   "uid": "ThoNY6sPDhSIqzzC3nrBcNmpfMH3"
+  },
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596237210,
+  "_nanoseconds": 169000000
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "JAKE",
+    "JUN",
+    "CLIFF"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEDIAH",
+      "JAKE",
+      "BHASKAR",
+      "CLIFF",
+      "MICHAELP",
+      "JUN"
+     ],
+     "team": [
+      "JAKE",
+      "JUN",
+      "CLIFF"
+     ],
+     "proposer": "CLIFF"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "JUN",
+    "CLIFF",
+    "MICHAELP",
+    "JAKE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MICHAELP",
+     "state": "APPROVED",
+     "team": [
+      "JUN",
+      "CLIFF",
+      "MICHAELP",
+      "JAKE"
+     ],
+     "votes": [
+      "CLIFF",
+      "JEDIAH",
+      "JAKE",
+      "JUN",
+      "MICHAELP"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "JUN",
+    "CLIFF",
+    "MICHAELP",
+    "JAKE"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JUN",
+      "CLIFF",
+      "MICHAELP",
+      "JAKE"
+     ],
+     "proposer": "JEDIAH",
+     "votes": [
+      "JEDIAH",
+      "JUN",
+      "JAKE",
+      "CHEVIN",
+      "MICHAELP",
+      "CLIFF",
+      "ARAVIND"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "JUN",
+    "CLIFF",
+    "MICHAELP",
+    "JAKE",
+    "ARAVIND"
+   ],
+   "teamSize": 5,
+   "numFails": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JUN",
+      "CLIFF",
+      "BHASKAR",
+      "ARAVIND",
+      "MICHAELP"
+     ],
+     "team": [
+      "JUN",
+      "CLIFF",
+      "MICHAELP",
+      "JAKE",
+      "ARAVIND"
+     ],
+     "state": "APPROVED",
+     "proposer": "ARAVIND"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596237754,
+  "_nanoseconds": 561000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

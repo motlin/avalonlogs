@@ -1,0 +1,286 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "MITCH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "COOPER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MACK",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JASON"
+   },
+   {
+    "name": "POOPA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ABS",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TESS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PINEAPPLE",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GRADY"
+   }
+  ],
+  "assassinated": "MITCH",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "MITCH": true,
+    "GRADY": true,
+    "COOPER": true
+   },
+   {
+    "MACK": false,
+    "POOPA": false,
+    "PINEAPPLE": true,
+    "ABS": true
+   },
+   {
+    "GRADY": true,
+    "PINEAPPLE": true,
+    "COOPER": true,
+    "MITCH": true
+   },
+   {
+    "TESS": true,
+    "GRADY": true,
+    "MITCH": true,
+    "JASON": true,
+    "COOPER": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "COOPER",
+   "uid": "PS1ny6F7dmT3QqGw9DhtjZcRUqI3"
+  },
+  {
+   "name": "MITCH",
+   "uid": "RkJp9AtzP0hcmcC17xoHfpkp2t53"
+  },
+  {
+   "name": "TESS",
+   "uid": "7bI9u7AjgqcIDAuFHHYtwh1s5Uj1"
+  },
+  {
+   "name": "GRADY",
+   "uid": "UNAwOHGTLXQSgM3dkVdMJE9k9y22"
+  },
+  {
+   "name": "POOPA",
+   "uid": "l3kqiUZiImNES181MqDpggoIw1I2"
+  },
+  {
+   "name": "PINEAPPLE",
+   "uid": "18mcnIvtDJfyRV6lDijsc89a4bz1"
+  },
+  {
+   "name": "MACK",
+   "uid": "tHJXIlmOwGSVwmWe8ZCzRwWu1cW2"
+  },
+  {
+   "name": "ABS",
+   "uid": "raOW2K0A0Jd93lVgGk2QHvh3GNv1"
+  },
+  {
+   "uid": "NSEPetV9qQhJIsaRxY8bb9LK7QS2",
+   "name": "JASON"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "GRADY",
+    "MITCH",
+    "COOPER"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PINEAPPLE",
+      "MACK",
+      "TESS",
+      "GRADY",
+      "JASON",
+      "COOPER",
+      "ABS",
+      "MITCH"
+     ],
+     "team": [
+      "GRADY",
+      "MITCH",
+      "COOPER"
+     ],
+     "proposer": "GRADY"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "POOPA",
+    "PINEAPPLE",
+    "MACK",
+    "ABS"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "MACK",
+      "PINEAPPLE",
+      "COOPER",
+      "GRADY",
+      "TESS",
+      "POOPA",
+      "ABS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "POOPA",
+      "PINEAPPLE",
+      "MACK",
+      "ABS"
+     ],
+     "proposer": "POOPA"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "PINEAPPLE",
+    "GRADY",
+    "MITCH",
+    "COOPER"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "PINEAPPLE",
+      "GRADY",
+      "MITCH",
+      "COOPER"
+     ],
+     "proposer": "PINEAPPLE",
+     "state": "APPROVED",
+     "votes": [
+      "MITCH",
+      "POOPA",
+      "MACK",
+      "PINEAPPLE",
+      "JASON"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "MACK",
+     "team": [
+      "MACK",
+      "TESS",
+      "PINEAPPLE",
+      "COOPER",
+      "GRADY"
+     ],
+     "votes": [
+      "PINEAPPLE",
+      "ABS",
+      "POOPA",
+      "MACK"
+     ]
+    },
+    {
+     "team": [
+      "MITCH",
+      "COOPER",
+      "TESS",
+      "JASON",
+      "GRADY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GRADY",
+      "MITCH",
+      "POOPA",
+      "ABS",
+      "JASON",
+      "TESS",
+      "COOPER"
+     ],
+     "proposer": "ABS"
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [
+    "MITCH",
+    "COOPER",
+    "TESS",
+    "JASON",
+    "GRADY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1606539803,
+  "_nanoseconds": 991000000
+ },
+ "timeCreated": {
+  "_seconds": 1606538767,
+  "_nanoseconds": 416000000
+ }
+}

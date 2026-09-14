@@ -1,0 +1,365 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "LUKE"
+   },
+   {
+    "name": "TYSON",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "NATE",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "TYLER",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NATHANIEL",
+    "assassin": false
+   },
+   {
+    "name": "RIPFLIP",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ISAAC",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "STOCKGOODG"
+   },
+   {
+    "name": "COOPER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "NATE": true,
+    "RIPFLIP": true,
+    "LUKE": true
+   },
+   {
+    "RIPFLIP": false,
+    "COOPER": true,
+    "LUKE": true,
+    "NATE": true
+   },
+   {
+    "TYSON": true,
+    "COOPER": true,
+    "LUKE": true,
+    "STOCKGOODG": true
+   },
+   {
+    "COOPER": true,
+    "NATE": false,
+    "LUKE": true,
+    "ISAAC": false,
+    "NATHANIEL": true
+   },
+   {
+    "RIPFLIP": false,
+    "COOPER": true,
+    "NATE": false,
+    "ISAAC": false,
+    "LUKE": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "RIPFLIP",
+   "uid": "9AGk5BDnEQU18g2H5Lb57im3icl2"
+  },
+  {
+   "uid": "PS1ny6F7dmT3QqGw9DhtjZcRUqI3",
+   "name": "COOPER"
+  },
+  {
+   "name": "TYSON",
+   "uid": "IOClB4U513Wve2APTDLuYAd489M2"
+  },
+  {
+   "name": "STOCKGOODG",
+   "uid": "O5m5UG8fj0XtjWH0pDiqXjkzrnB3"
+  },
+  {
+   "name": "NATHANIEL",
+   "uid": "maHSJvZscRQSH1IWIT3FMg8fk6W2"
+  },
+  {
+   "uid": "If1SbwJlBGT72wMEYqe1jsx65DG2",
+   "name": "TYLER"
+  },
+  {
+   "name": "ISAAC",
+   "uid": "bMgtn8dmYPbZ5yvo14vyZ9Lomxy2"
+  },
+  {
+   "uid": "LSZi414G65axtsbLxOlyWbq8NKG2",
+   "name": "NATE"
+  },
+  {
+   "uid": "T2817FwZvsSxPUTcCi0S0dUGOzA3",
+   "name": "LUKE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1607051266,
+  "_nanoseconds": 869000000
+ },
+ "timeFinished": {
+  "_seconds": 1607052799,
+  "_nanoseconds": 995000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "LUKE",
+    "RIPFLIP",
+    "NATE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "RIPFLIP",
+      "TYLER",
+      "ISAAC",
+      "LUKE",
+      "NATE"
+     ],
+     "proposer": "RIPFLIP",
+     "team": [
+      "LUKE",
+      "RIPFLIP",
+      "NATE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "COOPER",
+    "RIPFLIP",
+    "LUKE",
+    "NATE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "TYSON",
+      "COOPER",
+      "ISAAC",
+      "NATE",
+      "RIPFLIP",
+      "LUKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "COOPER",
+     "team": [
+      "COOPER",
+      "RIPFLIP",
+      "LUKE",
+      "NATE"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NATE",
+      "STOCKGOODG",
+      "LUKE",
+      "TYSON"
+     ],
+     "team": [
+      "TYSON",
+      "COOPER",
+      "LUKE",
+      "STOCKGOODG"
+     ],
+     "proposer": "TYSON"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NATE",
+      "LUKE",
+      "COOPER",
+      "TYSON",
+      "STOCKGOODG"
+     ],
+     "proposer": "STOCKGOODG",
+     "team": [
+      "COOPER",
+      "TYSON",
+      "STOCKGOODG",
+      "LUKE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "COOPER",
+    "TYSON",
+    "STOCKGOODG",
+    "LUKE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "NATE",
+    "ISAAC",
+    "COOPER",
+    "LUKE",
+    "NATHANIEL"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "NATHANIEL",
+     "votes": [
+      "TYSON",
+      "NATHANIEL",
+      "STOCKGOODG",
+      "LUKE"
+     ],
+     "team": [
+      "COOPER",
+      "TYSON",
+      "STOCKGOODG",
+      "LUKE",
+      "NATHANIEL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LUKE",
+      "TYLER",
+      "ISAAC",
+      "COOPER"
+     ],
+     "team": [
+      "ISAAC",
+      "TYLER",
+      "COOPER",
+      "NATHANIEL",
+      "LUKE"
+     ],
+     "state": "REJECTED",
+     "proposer": "TYLER"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ISAAC",
+     "votes": [
+      "NATHANIEL",
+      "TYLER",
+      "ISAAC"
+     ],
+     "team": [
+      "ISAAC",
+      "TYLER",
+      "NATHANIEL",
+      "COOPER",
+      "RIPFLIP"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NATE",
+      "ISAAC",
+      "COOPER",
+      "LUKE",
+      "NATHANIEL"
+     ],
+     "votes": [
+      "ISAAC",
+      "RIPFLIP",
+      "TYLER",
+      "NATHANIEL",
+      "NATE",
+      "COOPER"
+     ],
+     "proposer": "NATE"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 2
+  },
+  {
+   "numFails": 3,
+   "failsRequired": 1,
+   "team": [
+    "LUKE",
+    "COOPER",
+    "RIPFLIP",
+    "NATE",
+    "ISAAC"
+   ],
+   "teamSize": 5,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LUKE",
+     "votes": [
+      "STOCKGOODG",
+      "NATE",
+      "RIPFLIP",
+      "LUKE",
+      "NATHANIEL",
+      "COOPER",
+      "ISAAC"
+     ],
+     "team": [
+      "LUKE",
+      "COOPER",
+      "RIPFLIP",
+      "NATE",
+      "ISAAC"
+     ]
+    }
+   ]
+  }
+ ]
+}

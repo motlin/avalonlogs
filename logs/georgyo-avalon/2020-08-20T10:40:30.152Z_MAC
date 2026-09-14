@@ -1,0 +1,263 @@
+{
+ "players": [
+  {
+   "uid": "9f1x3TcOGgTD9wNsqYtQPcZ5otJ3",
+   "name": "ANDIE"
+  },
+  {
+   "name": "MICHI",
+   "uid": "9xvziqOuVSMznhIGczBkRjK1jO72"
+  },
+  {
+   "name": "JOHN",
+   "uid": "knIjAf6TZgVP1X0kBoDhrUAkwGz2"
+  },
+  {
+   "name": "PENTA",
+   "uid": "DbTSvzySq6QFkX7GCIXb7oOQ2CW2"
+  },
+  {
+   "uid": "8udocW0DdbZDlLxDHJuqdvSNR083",
+   "name": "SUS"
+  },
+  {
+   "name": "AZORO",
+   "uid": "ALiJtgqBYFQuCDZHbvutChcB53J2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1597920030,
+  "_nanoseconds": 152000000
+ },
+ "outcome": {
+  "message": "Five team proposals in a row rejected",
+  "votes": [
+   {
+    "PENTA": true,
+    "JOHN": true
+   },
+   {
+    "JOHN": true,
+    "AZORO": true,
+    "PENTA": true
+   },
+   {
+    "ANDIE": false,
+    "PENTA": true,
+    "JOHN": true,
+    "AZORO": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "AZORO",
+    "assassin": false
+   },
+   {
+    "name": "SUS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JOHN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "ANDIE"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MICHI"
+   },
+   {
+    "name": "PENTA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1597920808,
+  "_nanoseconds": 665000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "PENTA",
+      "JOHN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SUS",
+     "votes": [
+      "SUS",
+      "AZORO",
+      "MICHI",
+      "PENTA",
+      "JOHN"
+     ]
+    }
+   ],
+   "team": [
+    "PENTA",
+    "JOHN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "AZORO",
+      "PENTA",
+      "ANDIE",
+      "JOHN"
+     ],
+     "team": [
+      "PENTA",
+      "AZORO",
+      "JOHN"
+     ],
+     "proposer": "AZORO",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PENTA",
+    "AZORO",
+    "JOHN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "AZORO",
+    "JOHN",
+    "PENTA",
+    "ANDIE"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "PENTA",
+      "AZORO",
+      "SUS",
+      "JOHN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AZORO",
+      "JOHN",
+      "PENTA",
+      "ANDIE"
+     ],
+     "proposer": "ANDIE"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MICHI",
+      "JOHN",
+      "PENTA"
+     ],
+     "proposer": "MICHI",
+     "votes": [
+      "SUS",
+      "JOHN",
+      "AZORO"
+     ]
+    },
+    {
+     "votes": [
+      "PENTA",
+      "MICHI",
+      "AZORO"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JOHN",
+      "MICHI",
+      "AZORO"
+     ],
+     "proposer": "JOHN"
+    },
+    {
+     "team": [
+      "PENTA",
+      "AZORO",
+      "ANDIE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SUS"
+     ],
+     "proposer": "PENTA"
+    },
+    {
+     "proposer": "SUS",
+     "team": [
+      "ANDIE",
+      "AZORO",
+      "SUS"
+     ],
+     "votes": [
+      "SUS",
+      "MICHI",
+      "ANDIE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "AZORO",
+     "state": "REJECTED",
+     "votes": [
+      "PENTA",
+      "AZORO",
+      "SUS"
+     ],
+     "team": [
+      "PENTA",
+      "AZORO",
+      "JOHN"
+     ]
+    }
+   ],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

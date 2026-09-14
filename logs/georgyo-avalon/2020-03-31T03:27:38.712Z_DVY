@@ -1,0 +1,250 @@
+{
+ "timeCreated": {
+  "_seconds": 1585625258,
+  "_nanoseconds": 712000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "BIGDUMB",
+    "JEFFBEZOS"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BIGDUMB",
+      "JEFFBEZOS"
+     ],
+     "proposer": "BIGDUMB",
+     "votes": [
+      "MOMYA",
+      "JEFFBEZOS",
+      "BIGDUMB"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MATTY",
+      "BIGDUMB",
+      "MOMYA"
+     ],
+     "proposer": "MATTY",
+     "votes": [
+      "MOMYA",
+      "MATTY",
+      "BIGDUMB"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "MATTY",
+    "BIGDUMB",
+    "MOMYA"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JERRY",
+      "MOMYA",
+      "JEFFBEZOS",
+      "MATTY",
+      "BIGDUMB"
+     ],
+     "state": "APPROVED",
+     "proposer": "JEFFBEZOS",
+     "team": [
+      "MOMYA",
+      "JEFFBEZOS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "MOMYA",
+    "JEFFBEZOS"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JERRY",
+      "JEFFBEZOS",
+      "MOMYA"
+     ],
+     "proposer": "JERRY",
+     "state": "REJECTED",
+     "votes": [
+      "BIGDUMB",
+      "JERRY"
+     ]
+    },
+    {
+     "votes": [
+      "MATTY",
+      "BIGDUMB",
+      "MOMYA",
+      "JEFFBEZOS"
+     ],
+     "proposer": "MOMYA",
+     "state": "APPROVED",
+     "team": [
+      "MOMYA",
+      "JEFFBEZOS",
+      "MATTY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MOMYA",
+    "JEFFBEZOS",
+    "MATTY"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "BIGDUMB"
+     ],
+     "team": [
+      "MOMYA",
+      "BIGDUMB",
+      "MATTY"
+     ],
+     "state": "REJECTED",
+     "proposer": "BIGDUMB"
+    },
+    {
+     "team": [
+      "MATTY",
+      "JEFFBEZOS",
+      "MOMYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "MATTY",
+     "votes": [
+      "MATTY",
+      "MOMYA",
+      "JEFFBEZOS"
+     ]
+    }
+   ],
+   "team": [
+    "MATTY",
+    "JEFFBEZOS",
+    "MOMYA"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "MATTY",
+   "uid": "WZoZlTOGCKRi2v2lsulVyl1Vs673"
+  },
+  {
+   "name": "JEFFBEZOS",
+   "uid": "KEbIF9KqJKakLPe7Xuw5AsPcRYE3"
+  },
+  {
+   "name": "JERRY",
+   "uid": "nOMxwYDGXDO7kTQHrcMaGIkQz2d2"
+  },
+  {
+   "uid": "37icor1fdZOnsFRMDyXDO34D6gQ2",
+   "name": "MOMYA"
+  },
+  {
+   "name": "BIGDUMB",
+   "uid": "0lPie4PuNtTvLIOFYtv8TkmotaZ2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "BIGDUMB": false,
+    "JEFFBEZOS": true
+   },
+   {
+    "MATTY": true,
+    "MOMYA": true,
+    "BIGDUMB": false
+   },
+   {
+    "MOMYA": true,
+    "JEFFBEZOS": true
+   },
+   {
+    "MOMYA": true,
+    "JEFFBEZOS": true,
+    "MATTY": true
+   },
+   {
+    "JEFFBEZOS": true,
+    "MATTY": true,
+    "MOMYA": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MOMYA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "JEFFBEZOS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MATTY",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "BIGDUMB",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "JERRY",
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "JEFFBEZOS"
+ },
+ "timeFinished": {
+  "_seconds": 1585625728,
+  "_nanoseconds": 108580000
+ }
+}

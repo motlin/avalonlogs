@@ -1,0 +1,409 @@
+{
+ "timeFinished": {
+  "_seconds": 1585462046,
+  "_nanoseconds": 21406000
+ },
+ "players": [
+  {
+   "uid": "E1N7D9RLkxQH9AtqBRPvymtdwPv2",
+   "name": "SCOTT"
+  },
+  {
+   "uid": "4cJd5Mag2HV1U5XcWciEkXDDlae2",
+   "name": "ANNA"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "GqkRdXH8zDQsqJXRumZnsmsZvUn1"
+  },
+  {
+   "name": "RYANJIANG",
+   "uid": "PajOdSE56YYkVUu5hwFqkxbR2C72"
+  },
+  {
+   "uid": "x5gI57PR4OSrbIfZqt1j2o0Ic1k1",
+   "name": "JENNY"
+  },
+  {
+   "uid": "EQPT8m12KbYuImq2XRbJyH7hpnG3",
+   "name": "SHIVI"
+  },
+  {
+   "uid": "72yY2qLNHCSr0rVNT4NVgjAb8AA2",
+   "name": "ROSE"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SHIVI": true,
+    "JENNY": true
+   },
+   {
+    "SCOTT": true,
+    "RYANJIANG": true,
+    "ANDREW": true
+   },
+   {
+    "RYANJIANG": true,
+    "ANDREW": false,
+    "SCOTT": true
+   },
+   {
+    "ANNA": false,
+    "SCOTT": true,
+    "ANDREW": false,
+    "ROSE": true
+   },
+   {
+    "RYANJIANG": true,
+    "SCOTT": true,
+    "ROSE": true,
+    "SHIVI": true
+   }
+  ],
+  "assassinated": "ROSE",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ANDREW",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "JENNY"
+   },
+   {
+    "assassin": false,
+    "name": "ROSE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SHIVI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ANNA",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "SCOTT",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "RYANJIANG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JENNY",
+    "SHIVI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ROSE",
+      "ANNA",
+      "ANDREW"
+     ],
+     "proposer": "ANDREW",
+     "team": [
+      "ANDREW",
+      "ANNA"
+     ]
+    },
+    {
+     "proposer": "RYANJIANG",
+     "team": [
+      "RYANJIANG",
+      "SCOTT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SCOTT",
+      "RYANJIANG"
+     ]
+    },
+    {
+     "proposer": "JENNY",
+     "votes": [
+      "JENNY",
+      "ROSE",
+      "SHIVI",
+      "SCOTT"
+     ],
+     "team": [
+      "JENNY",
+      "SHIVI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ANDREW",
+    "SCOTT",
+    "RYANJIANG"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JENNY",
+      "ROSE",
+      "SHIVI"
+     ],
+     "proposer": "SHIVI",
+     "team": [
+      "JENNY",
+      "SHIVI",
+      "ROSE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ROSE",
+     "state": "REJECTED",
+     "team": [
+      "ROSE",
+      "SHIVI",
+      "SCOTT"
+     ],
+     "votes": [
+      "ROSE",
+      "SHIVI"
+     ]
+    },
+    {
+     "votes": [
+      "RYANJIANG",
+      "SCOTT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SCOTT",
+      "RYANJIANG",
+      "ANDREW"
+     ],
+     "proposer": "SCOTT"
+    },
+    {
+     "proposer": "ANNA",
+     "team": [
+      "ANNA",
+      "JENNY",
+      "SHIVI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JENNY",
+      "SHIVI",
+      "ANNA"
+     ]
+    },
+    {
+     "votes": [
+      "RYANJIANG",
+      "ANDREW",
+      "JENNY",
+      "SHIVI",
+      "ANNA",
+      "SCOTT"
+     ],
+     "team": [
+      "ANDREW",
+      "SCOTT",
+      "RYANJIANG"
+     ],
+     "proposer": "ANDREW",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "SCOTT",
+    "ANDREW",
+    "RYANJIANG"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SCOTT",
+      "ANDREW",
+      "RYANJIANG"
+     ],
+     "votes": [
+      "SHIVI",
+      "SCOTT",
+      "RYANJIANG",
+      "ANDREW"
+     ],
+     "proposer": "RYANJIANG"
+    }
+   ]
+  },
+  {
+   "team": [
+    "ANNA",
+    "ANDREW",
+    "ROSE",
+    "SCOTT"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "SCOTT",
+      "ANDREW",
+      "JENNY",
+      "SHIVI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JENNY",
+      "SHIVI"
+     ],
+     "proposer": "JENNY"
+    },
+    {
+     "votes": [
+      "JENNY",
+      "ROSE",
+      "SHIVI"
+     ],
+     "state": "REJECTED",
+     "proposer": "SHIVI",
+     "team": [
+      "SHIVI",
+      "JENNY",
+      "ROSE",
+      "SCOTT"
+     ]
+    },
+    {
+     "votes": [
+      "ROSE"
+     ],
+     "proposer": "ROSE",
+     "team": [
+      "ROSE",
+      "RYANJIANG",
+      "ANNA",
+      "JENNY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SCOTT",
+     "state": "REJECTED",
+     "votes": [
+      "JENNY",
+      "SHIVI",
+      "SCOTT"
+     ],
+     "team": [
+      "SHIVI",
+      "SCOTT",
+      "ANNA",
+      "ANDREW"
+     ]
+    },
+    {
+     "votes": [
+      "ROSE",
+      "SHIVI",
+      "ANNA",
+      "SCOTT",
+      "RYANJIANG",
+      "ANDREW",
+      "JENNY"
+     ],
+     "team": [
+      "ANNA",
+      "ANDREW",
+      "ROSE",
+      "SCOTT"
+     ],
+     "proposer": "ANNA",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 2
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "SCOTT",
+    "RYANJIANG",
+    "SHIVI",
+    "ROSE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "SCOTT",
+      "RYANJIANG",
+      "SHIVI",
+      "ROSE"
+     ],
+     "proposer": "ANDREW",
+     "votes": [
+      "SCOTT",
+      "SHIVI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "SCOTT",
+      "RYANJIANG",
+      "SHIVI",
+      "ROSE"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYANJIANG",
+     "votes": [
+      "ROSE",
+      "SHIVI",
+      "SCOTT",
+      "RYANJIANG"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585458653,
+  "_nanoseconds": 437000000
+ }
+}

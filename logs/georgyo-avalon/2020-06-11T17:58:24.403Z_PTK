@@ -1,0 +1,356 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "MARTICH",
+    "assassin": false
+   },
+   {
+    "name": "BASICMITCH",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DARKO"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BROOKE",
+    "assassin": false
+   },
+   {
+    "name": "GOODGUYKD",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RA"
+   },
+   {
+    "role": "MORDRED",
+    "name": "XIAO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DK",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JESSIE"
+   }
+  ],
+  "votes": [
+   {
+    "RA": true,
+    "JESSIE": true,
+    "BASICMITCH": true
+   },
+   {
+    "RA": true,
+    "DK": true,
+    "JESSIE": true,
+    "BASICMITCH": true
+   },
+   {
+    "JESSIE": true,
+    "BASICMITCH": false,
+    "DK": true,
+    "RA": true
+   },
+   {
+    "BROOKE": true,
+    "DK": true,
+    "GOODGUYKD": false,
+    "XIAO": false,
+    "JESSIE": true
+   },
+   {
+    "DK": true,
+    "XIAO": false,
+    "DARKO": true,
+    "RA": true,
+    "JESSIE": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "BROOKE",
+      "RA",
+      "JESSIE",
+      "MARTICH",
+      "BASICMITCH"
+     ],
+     "team": [
+      "BASICMITCH",
+      "JESSIE",
+      "RA"
+     ],
+     "state": "APPROVED",
+     "proposer": "BASICMITCH"
+    }
+   ],
+   "team": [
+    "BASICMITCH",
+    "JESSIE",
+    "RA"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "DK",
+     "votes": [
+      "BASICMITCH",
+      "BROOKE",
+      "RA",
+      "DK",
+      "JESSIE",
+      "MARTICH"
+     ],
+     "team": [
+      "BASICMITCH",
+      "JESSIE",
+      "DK",
+      "RA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "BASICMITCH",
+    "JESSIE",
+    "DK",
+    "RA"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "JESSIE",
+     "votes": [
+      "XIAO",
+      "DK",
+      "JESSIE",
+      "MARTICH",
+      "BASICMITCH",
+      "DARKO",
+      "BROOKE",
+      "GOODGUYKD",
+      "RA"
+     ],
+     "team": [
+      "JESSIE",
+      "DK",
+      "BASICMITCH",
+      "RA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "JESSIE",
+    "DK",
+    "BASICMITCH",
+    "RA"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "RA",
+     "votes": [
+      "XIAO",
+      "JESSIE",
+      "RA"
+     ],
+     "team": [
+      "BASICMITCH",
+      "GOODGUYKD",
+      "RA",
+      "BROOKE",
+      "JESSIE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BROOKE",
+      "DK",
+      "JESSIE",
+      "MARTICH"
+     ],
+     "proposer": "MARTICH",
+     "state": "REJECTED",
+     "team": [
+      "BASICMITCH",
+      "DK",
+      "JESSIE",
+      "RA",
+      "BROOKE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "GOODGUYKD",
+     "votes": [
+      "MARTICH",
+      "DARKO",
+      "BROOKE",
+      "GOODGUYKD"
+     ],
+     "team": [
+      "DK",
+      "JESSIE",
+      "MARTICH",
+      "GOODGUYKD",
+      "DARKO"
+     ]
+    },
+    {
+     "team": [
+      "BROOKE",
+      "DK",
+      "GOODGUYKD",
+      "XIAO",
+      "JESSIE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BROOKE",
+      "GOODGUYKD",
+      "XIAO",
+      "DK",
+      "JESSIE",
+      "MARTICH",
+      "DARKO"
+     ],
+     "proposer": "BROOKE"
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "team": [
+    "BROOKE",
+    "DK",
+    "GOODGUYKD",
+    "XIAO",
+    "JESSIE"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": [
+    "XIAO",
+    "DARKO",
+    "DK",
+    "JESSIE",
+    "RA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "XIAO",
+      "DARKO",
+      "DK",
+      "JESSIE",
+      "RA"
+     ],
+     "proposer": "XIAO",
+     "state": "APPROVED",
+     "votes": [
+      "XIAO",
+      "DK",
+      "JESSIE",
+      "MARTICH",
+      "BASICMITCH",
+      "DARKO",
+      "BROOKE",
+      "GOODGUYKD",
+      "RA"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "wguKKm8G8dVFMrObcuWAF49yzvJ3",
+   "name": "XIAO"
+  },
+  {
+   "name": "DARKO",
+   "uid": "obNdv3eKWUdpgKlVV1stjmmwK9e2"
+  },
+  {
+   "uid": "kEL38y2QMxOYmz1KfeBcHQj42YA3",
+   "name": "BASICMITCH"
+  },
+  {
+   "name": "DK",
+   "uid": "dIkFzzwAdigMNUx7SXNi0HZTU792"
+  },
+  {
+   "name": "JESSIE",
+   "uid": "1uszymOsgWfKtSnThqNaHEeHtUE2"
+  },
+  {
+   "uid": "RRZ47YSJJQNYV5TAoZ3v8VNnuBB2",
+   "name": "RA"
+  },
+  {
+   "name": "MARTICH",
+   "uid": "IoolRV7g9POaY9YZiusS7G2TPiF3"
+  },
+  {
+   "name": "GOODGUYKD",
+   "uid": "s0kteTelj0dXBJBLgg8kz5DQiQZ2"
+  },
+  {
+   "uid": "h3VkECmr7FQswPEXXLhFHaiBSxQ2",
+   "name": "BROOKE"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591899343,
+  "_nanoseconds": 277000000
+ },
+ "timeCreated": {
+  "_seconds": 1591898304,
+  "_nanoseconds": 403000000
+ }
+}

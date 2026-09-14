@@ -1,0 +1,253 @@
+{
+ "players": [
+  {
+   "uid": "MFfQSbhOPSc6OqxtQnV9N5iblYW2",
+   "name": "OLI"
+  },
+  {
+   "name": "PROWEI",
+   "uid": "qyjkSlauYvM9g7xZgOh0i7BlNCi1"
+  },
+  {
+   "uid": "A6JZLNa2xvYGg1fdPpFIhq8JB3x2",
+   "name": "HEXX"
+  },
+  {
+   "name": "RICHARD",
+   "uid": "wXo8AbRkEDSdaoBkQj51TR7ngH43"
+  },
+  {
+   "uid": "QxNU53vAIIW1zQoXzdgdoB5aS5J2",
+   "name": "LIEN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589207594,
+  "_nanoseconds": 206000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "OLI": true,
+    "RICHARD": true
+   },
+   {
+    "RICHARD": true,
+    "OLI": false,
+    "LIEN": true
+   },
+   {
+    "OLI": true,
+    "LIEN": true
+   },
+   {
+    "LIEN": true,
+    "HEXX": false,
+    "OLI": true
+   },
+   {
+    "OLI": false,
+    "LIEN": true,
+    "PROWEI": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "HEXX",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LIEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "OLI",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "RICHARD",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PROWEI",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589208685,
+  "_nanoseconds": 193000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "RICHARD",
+     "team": [
+      "RICHARD",
+      "OLI"
+     ],
+     "votes": [
+      "OLI",
+      "RICHARD",
+      "PROWEI",
+      "HEXX",
+      "LIEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "RICHARD",
+    "OLI"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "RICHARD",
+    "OLI",
+    "LIEN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LIEN",
+     "team": [
+      "RICHARD",
+      "OLI",
+      "LIEN"
+     ],
+     "votes": [
+      "RICHARD",
+      "LIEN",
+      "OLI"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "OLI",
+      "LIEN"
+     ],
+     "proposer": "OLI",
+     "votes": [
+      "LIEN",
+      "OLI",
+      "PROWEI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "OLI",
+    "LIEN"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PROWEI",
+      "LIEN"
+     ],
+     "team": [
+      "OLI",
+      "PROWEI",
+      "LIEN"
+     ],
+     "proposer": "PROWEI",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "HEXX"
+     ],
+     "proposer": "HEXX",
+     "state": "REJECTED",
+     "team": [
+      "HEXX",
+      "PROWEI",
+      "LIEN"
+     ]
+    },
+    {
+     "votes": [
+      "OLI",
+      "RICHARD",
+      "HEXX",
+      "LIEN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "OLI",
+      "HEXX",
+      "LIEN"
+     ],
+     "proposer": "RICHARD"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "OLI",
+    "HEXX",
+    "LIEN"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "LIEN",
+    "PROWEI",
+    "OLI"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HEXX",
+      "LIEN",
+      "OLI"
+     ],
+     "proposer": "LIEN",
+     "team": [
+      "LIEN",
+      "PROWEI",
+      "OLI"
+     ]
+    }
+   ],
+   "numFails": 1
+  }
+ ]
+}

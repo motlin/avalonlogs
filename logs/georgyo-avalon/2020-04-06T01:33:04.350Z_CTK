@@ -1,0 +1,283 @@
+{
+ "timeCreated": {
+  "_seconds": 1586136784,
+  "_nanoseconds": 350000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MARC",
+      "ED",
+      "AARON",
+      "LINDSAY"
+     ],
+     "proposer": "MARC",
+     "state": "APPROVED",
+     "team": [
+      "LINDSAY",
+      "AARON"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "LINDSAY",
+    "AARON"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ED",
+      "AARON",
+      "LINDSAY",
+      "MARC",
+      "CRAIG",
+      "ETHANN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CRAIG",
+      "LINDSAY",
+      "AARON"
+     ],
+     "proposer": "CRAIG"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "CRAIG",
+    "LINDSAY",
+    "AARON"
+   ]
+  },
+  {
+   "team": [
+    "LINDSAY",
+    "ED",
+    "CRAIG"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "POLLACK",
+      "LINDSAY",
+      "ETHANN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ETHANN",
+      "POLLACK"
+     ],
+     "proposer": "POLLACK"
+    },
+    {
+     "votes": [
+      "LINDSAY",
+      "CRAIG",
+      "MARC",
+      "ED"
+     ],
+     "team": [
+      "LINDSAY",
+      "ED",
+      "CRAIG"
+     ],
+     "proposer": "LINDSAY",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "ETHANN",
+    "ED",
+    "LINDSAY",
+    "CRAIG"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AARON",
+     "votes": [
+      "ETHANN",
+      "ED",
+      "AARON",
+      "LINDSAY"
+     ],
+     "team": [
+      "ETHANN",
+      "ED",
+      "LINDSAY",
+      "CRAIG"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ED",
+     "votes": [
+      "LINDSAY",
+      "ED"
+     ],
+     "team": [
+      "LINDSAY",
+      "ED",
+      "CRAIG",
+      "AARON"
+     ]
+    },
+    {
+     "proposer": "ETHANN",
+     "team": [
+      "AARON",
+      "ETHANN",
+      "MARC",
+      "LINDSAY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MARC",
+      "ETHANN",
+      "ED",
+      "AARON"
+     ]
+    }
+   ],
+   "team": [
+    "AARON",
+    "ETHANN",
+    "MARC",
+    "LINDSAY"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "3aWCzYi6a7RiezwgiNt96krtXoa2",
+   "name": "MARC"
+  },
+  {
+   "uid": "S0hyXdfkKiO8ldnjw1fkdDNfPYo1",
+   "name": "CRAIG"
+  },
+  {
+   "name": "POLLACK",
+   "uid": "SPUr44StJCatwplCxrRHFBs6BNC2"
+  },
+  {
+   "name": "LINDSAY",
+   "uid": "zOlHDUyNQ9T1QVeAI5ZwSdeqN9V2"
+  },
+  {
+   "uid": "toh2RWFdIXdrXa639JZ7PkTez7j1",
+   "name": "AARON"
+  },
+  {
+   "name": "ED",
+   "uid": "Qy7QWXGWbIMiF4Uy8DDvnwkIYHD3"
+  },
+  {
+   "uid": "W0Mf4cMpO2gj6IMG32Xy3efJDaS2",
+   "name": "ETHANN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586137656,
+  "_nanoseconds": 358906000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "MARC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CRAIG",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ETHANN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ED"
+   },
+   {
+    "name": "AARON",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "LINDSAY"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "POLLACK"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "AARON": true,
+    "LINDSAY": true
+   },
+   {
+    "CRAIG": false,
+    "AARON": true,
+    "LINDSAY": true
+   },
+   {
+    "ED": true,
+    "CRAIG": true,
+    "LINDSAY": true
+   },
+   {
+    "ED": false,
+    "ETHANN": true,
+    "LINDSAY": true,
+    "CRAIG": false
+   },
+   {
+    "LINDSAY": true,
+    "MARC": true,
+    "ETHANN": true,
+    "AARON": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "players": [
+  {
+   "uid": "vR8axQOM9bVBXnew4eW2eUcrT5u2",
+   "name": "CALEB"
+  },
+  {
+   "uid": "NtozS8dE8rVWh3E8s9Snsy2qxWJ3",
+   "name": "RONG"
+  },
+  {
+   "name": "GLEN",
+   "uid": "68FMpefMPcYPooRQbRDrqeaI4t83"
+  },
+  {
+   "name": "COVIDREUBS",
+   "uid": "By4nEWNqNsZjM1umsNNuaXsJGu83"
+  },
+  {
+   "uid": "hkvwEHhYOiVIFrScBXl1186HZ1r1",
+   "name": "TASTYMILK"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1602426797,
+  "_nanoseconds": 585000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "COVIDREUBS": true,
+    "TASTYMILK": true
+   },
+   {
+    "TASTYMILK": true,
+    "COVIDREUBS": true,
+    "CALEB": false
+   },
+   {
+    "GLEN": true,
+    "TASTYMILK": true
+   },
+   {
+    "TASTYMILK": true,
+    "COVIDREUBS": false,
+    "GLEN": true
+   },
+   {
+    "RONG": true,
+    "GLEN": true,
+    "COVIDREUBS": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "CALEB",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "GLEN",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "RONG"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "COVIDREUBS"
+   },
+   {
+    "assassin": false,
+    "name": "TASTYMILK",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1602426050,
+  "_nanoseconds": 263000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "COVIDREUBS",
+      "GLEN",
+      "TASTYMILK",
+      "CALEB"
+     ],
+     "state": "APPROVED",
+     "proposer": "TASTYMILK",
+     "team": [
+      "COVIDREUBS",
+      "TASTYMILK"
+     ]
+    }
+   ],
+   "team": [
+    "COVIDREUBS",
+    "TASTYMILK"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CALEB",
+      "COVIDREUBS",
+      "TASTYMILK",
+      "RONG"
+     ],
+     "team": [
+      "CALEB",
+      "COVIDREUBS",
+      "TASTYMILK"
+     ],
+     "proposer": "CALEB",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "CALEB",
+    "COVIDREUBS",
+    "TASTYMILK"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "RONG",
+     "votes": [
+      "COVIDREUBS",
+      "RONG"
+     ],
+     "team": [
+      "RONG",
+      "COVIDREUBS"
+     ]
+    },
+    {
+     "votes": [
+      "COVIDREUBS",
+      "RONG",
+      "GLEN",
+      "TASTYMILK"
+     ],
+     "state": "APPROVED",
+     "proposer": "GLEN",
+     "team": [
+      "GLEN",
+      "TASTYMILK"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "GLEN",
+    "TASTYMILK"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "TASTYMILK",
+    "GLEN",
+    "COVIDREUBS"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "COVIDREUBS",
+     "votes": [
+      "COVIDREUBS",
+      "GLEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "COVIDREUBS",
+      "GLEN",
+      "TASTYMILK"
+     ]
+    },
+    {
+     "votes": [
+      "COVIDREUBS",
+      "TASTYMILK",
+      "GLEN"
+     ],
+     "proposer": "TASTYMILK",
+     "team": [
+      "TASTYMILK",
+      "GLEN",
+      "COVIDREUBS"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CALEB"
+     ],
+     "team": [
+      "CALEB",
+      "RONG",
+      "GLEN"
+     ],
+     "proposer": "CALEB",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "RONG",
+     "team": [
+      "RONG",
+      "GLEN",
+      "COVIDREUBS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RONG",
+      "CALEB",
+      "COVIDREUBS",
+      "GLEN"
+     ]
+    }
+   ],
+   "team": [
+    "RONG",
+    "GLEN",
+    "COVIDREUBS"
+   ],
+   "teamSize": 3
+  }
+ ]
+}

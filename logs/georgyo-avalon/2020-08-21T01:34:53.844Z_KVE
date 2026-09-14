@@ -1,0 +1,287 @@
+{
+ "players": [
+  {
+   "uid": "UUujbzRbuPeYBBv9tIB7OrFdnXo2",
+   "name": "CORDER"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3"
+  },
+  {
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2",
+   "name": "KLAUDIA"
+  },
+  {
+   "name": "ANINDYA",
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2"
+  },
+  {
+   "uid": "52CTisrvmHRBMHj6JINVrznWOMG3",
+   "name": "JET"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CORDER",
+     "votes": [
+      "JET",
+      "CORDER",
+      "ANINDYA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JET",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JET",
+    "ANINDYA"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NIKHIL",
+     "votes": [
+      "JET",
+      "ANINDYA",
+      "CORDER"
+     ],
+     "team": [
+      "ANINDYA",
+      "JET",
+      "CORDER"
+     ]
+    }
+   ],
+   "team": [
+    "ANINDYA",
+    "JET",
+    "CORDER"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "KLAUDIA",
+      "ANINDYA"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "votes": [
+      "ANINDYA"
+     ]
+    },
+    {
+     "votes": [
+      "ANINDYA"
+     ],
+     "proposer": "ANINDYA",
+     "state": "REJECTED",
+     "team": [
+      "ANINDYA",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "votes": [
+      "KLAUDIA",
+      "JET",
+      "ANINDYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "JET",
+     "team": [
+      "ANINDYA",
+      "JET"
+     ]
+    }
+   ],
+   "team": [
+    "ANINDYA",
+    "JET"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "KLAUDIA",
+      "CORDER"
+     ],
+     "votes": [
+      "NIKHIL"
+     ],
+     "proposer": "CORDER"
+    },
+    {
+     "team": [
+      "NIKHIL",
+      "KLAUDIA",
+      "CORDER"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NIKHIL",
+      "CORDER"
+     ],
+     "proposer": "NIKHIL"
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "ANINDYA",
+      "JET"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "APPROVED",
+     "votes": [
+      "KLAUDIA",
+      "JET",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "team": [
+    "KLAUDIA",
+    "ANINDYA",
+    "JET"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "CORDER",
+    "NIKHIL",
+    "KLAUDIA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "votes": [
+      "ANINDYA",
+      "JET"
+     ],
+     "team": [
+      "ANINDYA",
+      "NIKHIL",
+      "CORDER"
+     ]
+    },
+    {
+     "votes": [
+      "KLAUDIA",
+      "NIKHIL",
+      "ANINDYA",
+      "JET",
+      "CORDER"
+     ],
+     "proposer": "JET",
+     "team": [
+      "CORDER",
+      "NIKHIL",
+      "KLAUDIA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1597974180,
+  "_nanoseconds": 463000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1597973693,
+  "_nanoseconds": 844000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JET": true,
+    "ANINDYA": true
+   },
+   {
+    "CORDER": true,
+    "JET": true,
+    "ANINDYA": false
+   },
+   {
+    "JET": true,
+    "ANINDYA": true
+   },
+   {
+    "ANINDYA": false,
+    "KLAUDIA": true,
+    "JET": false
+   },
+   {
+    "NIKHIL": true,
+    "CORDER": true,
+    "KLAUDIA": true
+   }
+  ],
+  "assassinated": "NIKHIL",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ANINDYA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KLAUDIA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NIKHIL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JET"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CORDER"
+   }
+  ]
+ }
+}

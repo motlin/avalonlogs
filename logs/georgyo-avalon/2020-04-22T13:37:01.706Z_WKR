@@ -1,0 +1,262 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "CAELUM",
+  "roles": [
+   {
+    "name": "VIN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "NIC",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "CAELUM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "SHIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "DUTCHALTER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "JAMES",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "DUTCHALTER": true,
+    "JAMES": true
+   },
+   {
+    "JAMES": true,
+    "CAELUM": true,
+    "SHIN": false
+   },
+   {
+    "DUTCHALTER": true,
+    "SHIN": true,
+    "VIN": true,
+    "JAMES": true
+   },
+   {
+    "CAELUM": true,
+    "NIC": true,
+    "DUTCHALTER": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587563416,
+  "_nanoseconds": 616000000
+ },
+ "timeCreated": {
+  "_seconds": 1587562621,
+  "_nanoseconds": 706000000
+ },
+ "players": [
+  {
+   "name": "CAELUM",
+   "uid": "7fRQh3YA01hPOu0d1eeLPehqJfI3"
+  },
+  {
+   "uid": "s2LJc4NixBaZr8a9wl4GXaIsG2h2",
+   "name": "SHIN"
+  },
+  {
+   "uid": "4HvgpEJ6Xycx3dw8AboiUchyrQh2",
+   "name": "JAMES"
+  },
+  {
+   "name": "VIN",
+   "uid": "UTV3Yx2MfbRFmWSnCEFbVcIPh1C3"
+  },
+  {
+   "uid": "QUWuUt1S2fQSXHRr4leLvTOExJK2",
+   "name": "NIC"
+  },
+  {
+   "name": "DUTCHALTER",
+   "uid": "mJ3TrC4EQlMXKRJAQFySlAb1OEI3"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "DUTCHALTER",
+    "JAMES"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "DUTCHALTER",
+      "JAMES",
+      "VIN",
+      "NIC",
+      "SHIN"
+     ],
+     "team": [
+      "DUTCHALTER",
+      "JAMES"
+     ],
+     "proposer": "DUTCHALTER",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CAELUM",
+      "JAMES",
+      "DUTCHALTER"
+     ],
+     "proposer": "CAELUM",
+     "votes": [
+      "DUTCHALTER",
+      "JAMES",
+      "CAELUM"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SHIN",
+      "JAMES",
+      "CAELUM"
+     ],
+     "votes": [
+      "SHIN",
+      "DUTCHALTER",
+      "JAMES",
+      "VIN"
+     ],
+     "proposer": "SHIN"
+    }
+   ],
+   "team": [
+    "SHIN",
+    "JAMES",
+    "CAELUM"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JAMES",
+     "state": "REJECTED",
+     "team": [
+      "NIC",
+      "CAELUM",
+      "DUTCHALTER",
+      "SHIN"
+     ],
+     "votes": [
+      "JAMES",
+      "VIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SHIN",
+      "DUTCHALTER",
+      "JAMES",
+      "VIN"
+     ],
+     "proposer": "VIN",
+     "team": [
+      "DUTCHALTER",
+      "VIN",
+      "SHIN",
+      "JAMES"
+     ]
+    }
+   ],
+   "team": [
+    "DUTCHALTER",
+    "VIN",
+    "SHIN",
+    "JAMES"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CAELUM",
+      "JAMES",
+      "NIC"
+     ],
+     "team": [
+      "NIC",
+      "CAELUM",
+      "DUTCHALTER"
+     ],
+     "proposer": "NIC"
+    },
+    {
+     "team": [
+      "DUTCHALTER",
+      "CAELUM",
+      "NIC"
+     ],
+     "proposer": "DUTCHALTER",
+     "state": "APPROVED",
+     "votes": [
+      "NIC",
+      "CAELUM",
+      "DUTCHALTER",
+      "JAMES"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "DUTCHALTER",
+    "CAELUM",
+    "NIC"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

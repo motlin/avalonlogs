@@ -1,0 +1,213 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "GRACEKATIE": true,
+    "LOLOTT": true
+   },
+   {
+    "HEBE": true,
+    "LOLOTT": true,
+    "BRIONY": false
+   },
+   {
+    "GRACEKATIE": true,
+    "BRIONY": false
+   },
+   {
+    "HEBE": true,
+    "EM": false,
+    "BRIONY": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "EM",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "LOLOTT",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "GRACEKATIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "HEBE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BRIONY",
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "BpoHfAQg55Pnkko9TepTXAjHdDk1",
+   "name": "BRIONY"
+  },
+  {
+   "name": "EM",
+   "uid": "CMp27uOduUME9BVoYpNHQj1p1xg1"
+  },
+  {
+   "name": "GRACEKATIE",
+   "uid": "TYkWb3Riu0RFS0Xw68dcect3oCy2"
+  },
+  {
+   "name": "HEBE",
+   "uid": "YVuxdHPbBXXzyz3FbB5L18Wi94L2"
+  },
+  {
+   "uid": "uTNGbU0tQoVKdeLdubnIn9rgn4p2",
+   "name": "LOLOTT"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "LOLOTT",
+      "GRACEKATIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "LOLOTT",
+     "votes": [
+      "LOLOTT",
+      "GRACEKATIE",
+      "BRIONY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "LOLOTT",
+    "GRACEKATIE"
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "BRIONY",
+     "state": "REJECTED",
+     "team": [
+      "EM",
+      "GRACEKATIE",
+      "HEBE"
+     ],
+     "votes": [
+      "HEBE",
+      "EM"
+     ]
+    },
+    {
+     "proposer": "EM",
+     "state": "APPROVED",
+     "votes": [
+      "LOLOTT",
+      "EM",
+      "HEBE"
+     ],
+     "team": [
+      "BRIONY",
+      "HEBE",
+      "LOLOTT"
+     ]
+    }
+   ],
+   "team": [
+    "BRIONY",
+    "HEBE",
+    "LOLOTT"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "GRACEKATIE",
+      "BRIONY"
+     ],
+     "proposer": "GRACEKATIE",
+     "votes": [
+      "EM",
+      "BRIONY",
+      "GRACEKATIE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "GRACEKATIE",
+    "BRIONY"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "HEBE",
+     "votes": [
+      "LOLOTT",
+      "HEBE",
+      "EM"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BRIONY",
+      "EM",
+      "HEBE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 2,
+   "team": [
+    "BRIONY",
+    "EM",
+    "HEBE"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1610821350,
+  "_nanoseconds": 478000000
+ },
+ "timeFinished": {
+  "_seconds": 1610822076,
+  "_nanoseconds": 556000000
+ }
+}

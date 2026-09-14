@@ -1,0 +1,268 @@
+{
+ "timeFinished": {
+  "_seconds": 1588208729,
+  "_nanoseconds": 2000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "KELVIN",
+   "uid": "tQpgKDFOxBgz3AqqpGqocau1S0a2"
+  },
+  {
+   "name": "SAM",
+   "uid": "PyFnZWgR6pYN1SgJ1k5nRikqbIq2"
+  },
+  {
+   "name": "ASTON",
+   "uid": "mzNKoIt7o2gmdzkxYu68nXIRrJi2"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "jYAPv4IuMHcFuPCIWvpnB8CS0Nw2"
+  },
+  {
+   "name": "THOMSON",
+   "uid": "O78yb4V9GnNff9YuBn8IRotwtf02"
+  },
+  {
+   "name": "NICHOLAS",
+   "uid": "65JVZ1IEnCU2lDZAad1taZnkbFb2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KELVIN",
+      "ASTON",
+      "NICHOLAS",
+      "ADRIAN",
+      "SAM",
+      "THOMSON"
+     ],
+     "team": [
+      "THOMSON",
+      "ADRIAN"
+     ],
+     "proposer": "THOMSON"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "THOMSON",
+    "ADRIAN"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "NICHOLAS",
+    "THOMSON",
+    "ADRIAN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KELVIN",
+      "ASTON",
+      "NICHOLAS",
+      "ADRIAN",
+      "SAM",
+      "THOMSON"
+     ],
+     "team": [
+      "NICHOLAS",
+      "THOMSON",
+      "ADRIAN"
+     ],
+     "proposer": "NICHOLAS"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "KELVIN",
+    "SAM",
+    "ADRIAN",
+    "THOMSON"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KELVIN",
+     "team": [
+      "KELVIN",
+      "SAM",
+      "ADRIAN",
+      "THOMSON"
+     ],
+     "votes": [
+      "ADRIAN",
+      "SAM",
+      "THOMSON",
+      "KELVIN",
+      "ASTON",
+      "NICHOLAS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "KELVIN",
+    "ASTON",
+    "ADRIAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "THOMSON",
+      "ASTON"
+     ],
+     "team": [
+      "SAM",
+      "KELVIN",
+      "ASTON"
+     ],
+     "proposer": "SAM"
+    },
+    {
+     "proposer": "ASTON",
+     "state": "APPROVED",
+     "votes": [
+      "THOMSON",
+      "KELVIN",
+      "ASTON",
+      "NICHOLAS",
+      "ADRIAN"
+     ],
+     "team": [
+      "KELVIN",
+      "ASTON",
+      "ADRIAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ASTON",
+      "ADRIAN",
+      "KELVIN",
+      "SAM"
+     ],
+     "votes": [
+      "SAM",
+      "KELVIN",
+      "ASTON",
+      "ADRIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ADRIAN"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ASTON",
+    "ADRIAN",
+    "KELVIN",
+    "SAM"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588207829,
+  "_nanoseconds": 514000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ADRIAN": true,
+    "THOMSON": true
+   },
+   {
+    "THOMSON": true,
+    "ADRIAN": true,
+    "NICHOLAS": false
+   },
+   {
+    "SAM": true,
+    "KELVIN": true,
+    "ADRIAN": true,
+    "THOMSON": false
+   },
+   {
+    "ASTON": true,
+    "ADRIAN": true,
+    "KELVIN": true
+   },
+   {
+    "ADRIAN": true,
+    "KELVIN": true,
+    "ASTON": true,
+    "SAM": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ASTON",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "NICHOLAS",
+    "assassin": false
+   },
+   {
+    "name": "ADRIAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SAM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "THOMSON",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "KELVIN",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "ADRIAN",
+  "state": "GOOD_WIN"
+ }
+}

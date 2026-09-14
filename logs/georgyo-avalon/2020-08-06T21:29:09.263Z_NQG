@@ -1,0 +1,408 @@
+{
+ "timeFinished": {
+  "_seconds": 1596751552,
+  "_nanoseconds": 611000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "BEN",
+   "uid": "Ley1q8PRq5aIZUrF0wptPf66HPn1"
+  },
+  {
+   "uid": "FxNVnPh3OQhH9a24DbpHwR8uJLU2",
+   "name": "LOUIS"
+  },
+  {
+   "uid": "r8gOHrrtdlbojdqbzaggtsuIAgY2",
+   "name": "JESSICA"
+  },
+  {
+   "name": "YANNY",
+   "uid": "5wT6hEk7h1OrespCYq34YPAwqdx2"
+  },
+  {
+   "name": "EVAN",
+   "uid": "dGxWpetP0XNBvHhWS0nICIXeK4Y2"
+  },
+  {
+   "name": "JH",
+   "uid": "exYQ7sgLxUeD8SsfgUXCWAza8df1"
+  },
+  {
+   "name": "GABE",
+   "uid": "7YTHrz9p6XXO8n12VKwkFAxBzWX2"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "Mn9LujdHh5bjvKudClmogpmmS2x1"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "GABE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LOUIS",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "BRIAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JH"
+   },
+   {
+    "role": "MERLIN",
+    "name": "EVAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "JESSICA"
+   },
+   {
+    "name": "YANNY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BEN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "EVAN": true,
+    "GABE": true,
+    "JH": true
+   },
+   {
+    "EVAN": true,
+    "LOUIS": false,
+    "GABE": true,
+    "BEN": true
+   },
+   {
+    "JESSICA": false,
+    "BRIAN": true,
+    "JH": true,
+    "BEN": true
+   },
+   {
+    "GABE": true,
+    "BEN": true,
+    "EVAN": true,
+    "YANNY": true,
+    "BRIAN": true
+   },
+   {
+    "JH": true,
+    "BEN": true,
+    "GABE": true,
+    "BRIAN": false,
+    "EVAN": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "EVAN",
+      "GABE",
+      "JH",
+      "BRIAN",
+      "JESSICA",
+      "YANNY"
+     ],
+     "team": [
+      "EVAN",
+      "JH",
+      "GABE"
+     ],
+     "proposer": "EVAN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "EVAN",
+    "JH",
+    "GABE"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "BEN",
+    "GABE",
+    "EVAN",
+    "LOUIS"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JH",
+     "votes": [
+      "JH",
+      "BRIAN",
+      "YANNY"
+     ],
+     "team": [
+      "JH",
+      "EVAN",
+      "BEN",
+      "YANNY"
+     ]
+    },
+    {
+     "proposer": "GABE",
+     "votes": [
+      "GABE",
+      "BRIAN",
+      "BEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "GABE",
+      "EVAN",
+      "BRIAN",
+      "BEN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JH",
+      "GABE",
+      "BRIAN",
+      "JESSICA"
+     ],
+     "team": [
+      "YANNY",
+      "BRIAN",
+      "BEN",
+      "JH"
+     ],
+     "proposer": "BRIAN"
+    },
+    {
+     "proposer": "BEN",
+     "votes": [
+      "GABE",
+      "BEN",
+      "BRIAN",
+      "YANNY",
+      "LOUIS",
+      "JESSICA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "GABE",
+      "EVAN",
+      "LOUIS"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "BEN",
+    "JESSICA",
+    "JH",
+    "BRIAN"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JH"
+     ],
+     "team": [
+      "LOUIS",
+      "BEN",
+      "GABE",
+      "JH"
+     ],
+     "proposer": "LOUIS"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JESSICA",
+      "GABE",
+      "BEN",
+      "BRIAN"
+     ],
+     "proposer": "JESSICA",
+     "votes": [
+      "JESSICA",
+      "GABE",
+      "BEN"
+     ]
+    },
+    {
+     "proposer": "YANNY",
+     "state": "REJECTED",
+     "team": [
+      "YANNY",
+      "JESSICA",
+      "BEN",
+      "JH"
+     ],
+     "votes": [
+      "EVAN",
+      "YANNY"
+     ]
+    },
+    {
+     "votes": [
+      "GABE",
+      "EVAN",
+      "BRIAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "GABE",
+      "JH",
+      "EVAN",
+      "BEN"
+     ],
+     "proposer": "EVAN"
+    },
+    {
+     "team": [
+      "BEN",
+      "JESSICA",
+      "JH",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JH",
+      "LOUIS",
+      "YANNY",
+      "EVAN",
+      "GABE",
+      "BEN",
+      "BRIAN",
+      "JESSICA"
+     ],
+     "proposer": "JH"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "BRIAN",
+    "BEN",
+    "EVAN",
+    "GABE",
+    "YANNY"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "EVAN",
+      "JH",
+      "GABE",
+      "BRIAN",
+      "JESSICA"
+     ],
+     "votes": [
+      "GABE"
+     ],
+     "state": "REJECTED",
+     "proposer": "GABE"
+    },
+    {
+     "team": [
+      "BRIAN",
+      "BEN",
+      "EVAN",
+      "GABE",
+      "YANNY"
+     ],
+     "proposer": "BRIAN",
+     "state": "APPROVED",
+     "votes": [
+      "JH",
+      "BRIAN",
+      "GABE",
+      "EVAN",
+      "BEN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "BRIAN",
+      "GABE",
+      "JH",
+      "EVAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BEN",
+     "votes": [
+      "JESSICA",
+      "GABE",
+      "BEN",
+      "LOUIS",
+      "BRIAN"
+     ]
+    }
+   ],
+   "team": [
+    "BEN",
+    "BRIAN",
+    "GABE",
+    "JH",
+    "EVAN"
+   ],
+   "teamSize": 5
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596749349,
+  "_nanoseconds": 263000000
+ }
+}

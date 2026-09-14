@@ -1,0 +1,294 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JASMINE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BRANDEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ALLY",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "role": "MORDRED",
+    "name": "ALBERT",
+    "assassin": true
+   },
+   {
+    "name": "RYAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "MICHELLLE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "GIMPOLE",
+    "assassin": false
+   }
+  ],
+  "assassinated": "BRANDEN",
+  "votes": [
+   {
+    "ALLY": true,
+    "GIMPOLE": true
+   },
+   {
+    "ALBERT": false,
+    "MICHELLLE": true,
+    "BRANDEN": true
+   },
+   {
+    "ALBERT": false,
+    "GIMPOLE": true,
+    "ALLY": false
+   },
+   {
+    "RYAN": true,
+    "ALLY": false,
+    "JASMINE": true,
+    "BRANDEN": true
+   },
+   {
+    "RYAN": true,
+    "JASMINE": true,
+    "MICHELLLE": true,
+    "BRANDEN": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1593499233,
+  "_nanoseconds": 503000000
+ },
+ "players": [
+  {
+   "name": "ALLY",
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52"
+  },
+  {
+   "uid": "Vx8DzbnEyrezzZk1KQFcmEgq2Op1",
+   "name": "BRANDEN"
+  },
+  {
+   "name": "ALBERT",
+   "uid": "157gZNSdqchRlWTQuHm0KzOOkJG3"
+  },
+  {
+   "name": "MICHELLLE",
+   "uid": "DpYRwJ0fVHRYMVose9vjdSs25Ww1"
+  },
+  {
+   "name": "GIMPOLE",
+   "uid": "9r2VLFyHDVadDdDRFSBbQVN5Yeh2"
+  },
+  {
+   "name": "RYAN",
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2"
+  },
+  {
+   "uid": "KAVm2nNtkoP0XFRiO5JSSqHLcAv1",
+   "name": "JASMINE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593497066,
+  "_nanoseconds": 374000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "ALLY",
+     "team": [
+      "ALLY",
+      "GIMPOLE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MICHELLLE",
+      "GIMPOLE",
+      "JASMINE",
+      "BRANDEN",
+      "ALLY",
+      "ALBERT",
+      "RYAN"
+     ]
+    }
+   ],
+   "team": [
+    "ALLY",
+    "GIMPOLE"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "BRANDEN",
+    "ALBERT",
+    "MICHELLLE"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JASMINE",
+      "BRANDEN",
+      "ALBERT",
+      "RYAN",
+      "MICHELLLE",
+      "GIMPOLE"
+     ],
+     "team": [
+      "BRANDEN",
+      "ALBERT",
+      "MICHELLLE"
+     ],
+     "proposer": "BRANDEN"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ALBERT",
+    "ALLY",
+    "GIMPOLE"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "ALBERT",
+     "votes": [
+      "GIMPOLE",
+      "JASMINE",
+      "ALLY",
+      "ALBERT",
+      "RYAN"
+     ],
+     "team": [
+      "ALBERT",
+      "ALLY",
+      "GIMPOLE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "JASMINE",
+    "BRANDEN",
+    "RYAN",
+    "ALLY"
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "JASMINE",
+      "BRANDEN",
+      "RYAN",
+      "ALLY"
+     ],
+     "proposer": "MICHELLLE",
+     "votes": [
+      "MICHELLLE",
+      "GIMPOLE",
+      "JASMINE",
+      "ALLY",
+      "RYAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "JASMINE",
+    "RYAN",
+    "BRANDEN",
+    "MICHELLLE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "GIMPOLE",
+      "MICHELLLE",
+      "RYAN",
+      "ALBERT"
+     ],
+     "proposer": "GIMPOLE",
+     "votes": [
+      "ALLY",
+      "ALBERT",
+      "GIMPOLE"
+     ]
+    },
+    {
+     "proposer": "RYAN",
+     "state": "REJECTED",
+     "votes": [
+      "JASMINE",
+      "BRANDEN",
+      "RYAN"
+     ],
+     "team": [
+      "BRANDEN",
+      "MICHELLLE",
+      "JASMINE",
+      "RYAN"
+     ]
+    },
+    {
+     "votes": [
+      "RYAN",
+      "MICHELLLE",
+      "JASMINE",
+      "BRANDEN"
+     ],
+     "team": [
+      "JASMINE",
+      "RYAN",
+      "BRANDEN",
+      "MICHELLLE"
+     ],
+     "state": "APPROVED",
+     "proposer": "JASMINE"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ]
+}

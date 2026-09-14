@@ -1,0 +1,237 @@
+{
+ "players": [
+  {
+   "uid": "nonUxwXYG2THQGwyvL7TFCfuwzJ2",
+   "name": "BRYANTO"
+  },
+  {
+   "name": "JAMES",
+   "uid": "A9I5LS482AeqlP2bBDyp65WCJAz1"
+  },
+  {
+   "uid": "rfROSU4LS5RI497x6boFBDoqYU73",
+   "name": "RONAN"
+  },
+  {
+   "name": "KEATON",
+   "uid": "rRjyghlrCzUoP7KyzPlepfNxRtW2"
+  },
+  {
+   "name": "ALEX",
+   "uid": "bv9VascWqVNtwmRjn3W6s0vEdYb2"
+  },
+  {
+   "name": "RALEY",
+   "uid": "T23k64DDKYPArt7X4Dp4GzsM3QQ2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1595709874,
+  "_nanoseconds": 715000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595709349,
+  "_nanoseconds": 638000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ALEX"
+   },
+   {
+    "role": "MORDRED",
+    "name": "KEATON",
+    "assassin": true
+   },
+   {
+    "name": "RONAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "RALEY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "BRYANTO",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "JAMES",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "RALEY",
+  "votes": [
+   {
+    "ALEX": true,
+    "KEATON": false
+   },
+   {
+    "JAMES": true,
+    "RALEY": true,
+    "RONAN": true
+   },
+   {
+    "ALEX": true,
+    "RALEY": true,
+    "RONAN": true,
+    "JAMES": true
+   },
+   {
+    "JAMES": true,
+    "RONAN": true,
+    "RALEY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "team": [
+    "KEATON",
+    "ALEX"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RALEY",
+      "JAMES",
+      "ALEX",
+      "KEATON",
+      "RONAN"
+     ],
+     "team": [
+      "KEATON",
+      "ALEX"
+     ],
+     "proposer": "KEATON"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "JAMES",
+    "RONAN",
+    "RALEY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "RONAN",
+      "JAMES"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JAMES",
+      "ALEX",
+      "BRYANTO"
+     ],
+     "proposer": "ALEX"
+    },
+    {
+     "votes": [
+      "RONAN",
+      "RALEY",
+      "JAMES",
+      "ALEX",
+      "KEATON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JAMES",
+      "RONAN",
+      "RALEY"
+     ],
+     "proposer": "RALEY"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BRYANTO",
+      "JAMES",
+      "ALEX",
+      "RALEY"
+     ],
+     "team": [
+      "JAMES",
+      "RONAN",
+      "ALEX",
+      "RALEY"
+     ],
+     "proposer": "BRYANTO",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JAMES",
+    "RONAN",
+    "ALEX",
+    "RALEY"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BRYANTO",
+      "JAMES",
+      "ALEX",
+      "KEATON",
+      "RONAN",
+      "RALEY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAMES",
+     "team": [
+      "JAMES",
+      "RONAN",
+      "RALEY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "JAMES",
+    "RONAN",
+    "RALEY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ]
+}

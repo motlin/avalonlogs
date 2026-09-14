@@ -1,0 +1,264 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "DAKSTUPGEN": true,
+    "LEO": true
+   },
+   {
+    "LULIN": true,
+    "JERRY": true,
+    "LEO": true
+   },
+   {
+    "DAKSTUPGEN": false,
+    "JENNY": false,
+    "MINA": true,
+    "JERRY": true
+   },
+   {
+    "MINA": true,
+    "LEO": true,
+    "LULIN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "LEO"
+   },
+   {
+    "name": "LULIN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "JENNY",
+    "assassin": false
+   },
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DAKSTUPGEN",
+    "assassin": true,
+    "role": "MORGANA"
+   },
+   {
+    "name": "MINA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "JERRY",
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1590443185,
+  "_nanoseconds": 886000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1590443987,
+  "_nanoseconds": 775000000
+ },
+ "players": [
+  {
+   "uid": "Kw9qyVkYXqQOlCaH746iPpRrEmi1",
+   "name": "JENNY"
+  },
+  {
+   "uid": "eGUjVrYYFueYLJhWwb7rMHBIIQ62",
+   "name": "JERRY"
+  },
+  {
+   "name": "LEO",
+   "uid": "F9wFFbRyUAMuxXh1aChOKnpkLdZ2"
+  },
+  {
+   "uid": "YAZ1Sv1gEWOnB5hCoddmjSKstI53",
+   "name": "DAKSTUPGEN"
+  },
+  {
+   "name": "LULIN",
+   "uid": "QxFiWwLy8uV25uC6IBmUstctMp52"
+  },
+  {
+   "uid": "tpx35IilkseydC0KtJXbkvthp8f1",
+   "name": "MINA"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "DAKSTUPGEN",
+    "LEO"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "DAKSTUPGEN",
+      "LEO"
+     ],
+     "state": "APPROVED",
+     "proposer": "LEO",
+     "votes": [
+      "LULIN",
+      "JENNY",
+      "JERRY",
+      "DAKSTUPGEN",
+      "MINA",
+      "LEO"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "DAKSTUPGEN",
+     "votes": [
+      "LEO",
+      "DAKSTUPGEN"
+     ],
+     "team": [
+      "DAKSTUPGEN",
+      "LEO",
+      "JERRY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "LULIN",
+      "LEO",
+      "JERRY"
+     ],
+     "proposer": "LULIN",
+     "votes": [
+      "DAKSTUPGEN",
+      "MINA",
+      "LEO",
+      "LULIN",
+      "JENNY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "LULIN",
+    "LEO",
+    "JERRY"
+   ]
+  },
+  {
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "LULIN",
+      "LEO",
+      "JERRY",
+      "MINA"
+     ],
+     "proposer": "MINA",
+     "votes": [
+      "MINA",
+      "LEO",
+      "LULIN"
+     ]
+    },
+    {
+     "votes": [
+      "LULIN",
+      "JENNY",
+      "JERRY",
+      "DAKSTUPGEN",
+      "MINA"
+     ],
+     "team": [
+      "JENNY",
+      "JERRY",
+      "DAKSTUPGEN",
+      "MINA"
+     ],
+     "state": "APPROVED",
+     "proposer": "JENNY"
+    }
+   ],
+   "team": [
+    "JENNY",
+    "JERRY",
+    "DAKSTUPGEN",
+    "MINA"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "LEO",
+    "LULIN",
+    "MINA"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "JERRY",
+     "state": "REJECTED",
+     "team": [
+      "LEO",
+      "LULIN",
+      "JERRY"
+     ],
+     "votes": [
+      "JERRY",
+      "LEO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JERRY",
+      "MINA",
+      "LEO",
+      "LULIN"
+     ],
+     "proposer": "LEO",
+     "team": [
+      "LEO",
+      "LULIN",
+      "MINA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ]
+}

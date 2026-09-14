@@ -1,0 +1,262 @@
+{
+ "timeFinished": {
+  "_seconds": 1595461476,
+  "_nanoseconds": 296000000
+ },
+ "players": [
+  {
+   "uid": "j2p0SdwRtnhxJVp27Z6eSkmrStx1",
+   "name": "AC"
+  },
+  {
+   "uid": "elKx2f06DZRCcJREe0MCy9TGrws2",
+   "name": "MOH"
+  },
+  {
+   "uid": "54yR8DBKtRQxehaYKadoVFARgTE3",
+   "name": "ANDREW"
+  },
+  {
+   "uid": "uoSEhTbRTmgYEi2wNorzSoRPwEA2",
+   "name": "TEGHVEER"
+  },
+  {
+   "name": "GEO",
+   "uid": "PjONdranUoS654GbFlHy1UiwsAg2"
+  },
+  {
+   "uid": "TK7LJEZfOBZc34klPX4x6EaNxM22",
+   "name": "SEAN"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "AC",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MOH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "TEGHVEER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "GEO"
+   },
+   {
+    "assassin": false,
+    "name": "SEAN",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANDREW",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "AC",
+  "votes": [
+   {
+    "ANDREW": true,
+    "TEGHVEER": false
+   },
+   {
+    "MOH": true,
+    "SEAN": true,
+    "AC": true
+   },
+   {
+    "AC": true,
+    "ANDREW": true,
+    "MOH": true,
+    "SEAN": true
+   },
+   {
+    "AC": true,
+    "SEAN": true,
+    "MOH": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "TEGHVEER",
+    "ANDREW"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "AC",
+      "MOH",
+      "GEO",
+      "SEAN",
+      "ANDREW"
+     ],
+     "team": [
+      "TEGHVEER",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "SEAN"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "MOH",
+    "AC",
+    "SEAN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "AC",
+      "MOH",
+      "ANDREW"
+     ],
+     "votes": [
+      "SEAN",
+      "ANDREW"
+     ],
+     "state": "REJECTED",
+     "proposer": "AC"
+    },
+    {
+     "team": [
+      "MOH",
+      "AC",
+      "SEAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANDREW",
+      "AC",
+      "MOH",
+      "TEGHVEER",
+      "GEO",
+      "SEAN"
+     ],
+     "proposer": "MOH"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ANDREW",
+    "MOH",
+    "AC",
+    "SEAN"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AC",
+      "GEO",
+      "SEAN",
+      "ANDREW"
+     ],
+     "team": [
+      "ANDREW",
+      "MOH",
+      "AC",
+      "SEAN"
+     ],
+     "proposer": "ANDREW"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MOH",
+    "AC",
+    "SEAN"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SEAN",
+      "MOH",
+      "GEO"
+     ],
+     "votes": [
+      "MOH",
+      "TEGHVEER"
+     ],
+     "proposer": "TEGHVEER",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MOH",
+      "TEGHVEER",
+      "GEO"
+     ],
+     "team": [
+      "GEO",
+      "SEAN",
+      "MOH"
+     ],
+     "state": "REJECTED",
+     "proposer": "GEO"
+    },
+    {
+     "team": [
+      "MOH",
+      "AC",
+      "SEAN"
+     ],
+     "votes": [
+      "AC",
+      "MOH",
+      "SEAN",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "SEAN"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595460568,
+  "_nanoseconds": 645000000
+ }
+}

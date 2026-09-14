@@ -1,0 +1,257 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KUSHAL"
+   },
+   {
+    "assassin": false,
+    "name": "BOB",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SUFY"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "KATTU"
+   },
+   {
+    "name": "JD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "BOB": true,
+    "KATTU": true
+   },
+   {
+    "JD": true,
+    "KATTU": true,
+    "BOB": false
+   },
+   {
+    "BOB": false,
+    "KATTU": true
+   },
+   {
+    "SUFY": true,
+    "KATTU": true,
+    "KUSHAL": true
+   },
+   {
+    "KATTU": false,
+    "KUSHAL": true,
+    "SUFY": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1597272628,
+  "_nanoseconds": 744000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1597272108,
+  "_nanoseconds": 562000000
+ },
+ "missions": [
+  {
+   "team": [
+    "BOB",
+    "KATTU"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KATTU",
+      "JD",
+      "SUFY",
+      "BOB",
+      "KUSHAL"
+     ],
+     "team": [
+      "BOB",
+      "KATTU"
+     ],
+     "proposer": "BOB"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "KATTU",
+      "BOB",
+      "SUFY"
+     ],
+     "votes": [
+      "KATTU",
+      "SUFY"
+     ],
+     "proposer": "SUFY"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SUFY",
+      "JD",
+      "KATTU",
+      "BOB"
+     ],
+     "proposer": "JD",
+     "team": [
+      "BOB",
+      "KATTU",
+      "JD"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "BOB",
+    "KATTU",
+    "JD"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "team": [
+    "BOB",
+    "KATTU"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BOB",
+      "KATTU",
+      "KUSHAL",
+      "SUFY"
+     ],
+     "team": [
+      "BOB",
+      "KATTU"
+     ],
+     "state": "APPROVED",
+     "proposer": "KATTU"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "KATTU",
+    "SUFY",
+    "KUSHAL"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KUSHAL",
+     "votes": [
+      "SUFY",
+      "BOB",
+      "KATTU",
+      "KUSHAL"
+     ],
+     "team": [
+      "KATTU",
+      "SUFY",
+      "KUSHAL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "KUSHAL",
+    "KATTU",
+    "SUFY"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BOB",
+      "KATTU"
+     ],
+     "team": [
+      "BOB",
+      "KATTU",
+      "SUFY"
+     ],
+     "proposer": "BOB"
+    },
+    {
+     "team": [
+      "KUSHAL",
+      "KATTU",
+      "SUFY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KUSHAL",
+      "KATTU",
+      "BOB",
+      "SUFY"
+     ],
+     "proposer": "SUFY"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "name": "KATTU",
+   "uid": "ubaQEGTO3eUWoQbX8wpjeFUTxIU2"
+  },
+  {
+   "name": "KUSHAL",
+   "uid": "E2T348gVmcZEId6ENFaNyV69sGm1"
+  },
+  {
+   "name": "BOB",
+   "uid": "WkOfXdrT8hOxx0q9DLMcDtNJLoB3"
+  },
+  {
+   "uid": "Ss0aKXARBRaavVg8E742vwdMJdA2",
+   "name": "SUFY"
+  },
+  {
+   "uid": "NhIbflgddyXgORQzt8Q0Lc0XpyV2",
+   "name": "JD"
+  }
+ ]
+}

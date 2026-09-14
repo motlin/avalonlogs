@@ -1,0 +1,233 @@
+{
+ "players": [
+  {
+   "name": "DICK",
+   "uid": "V04CoYy44BSCP1ZuWNXTeNfiUAc2"
+  },
+  {
+   "name": "NIGEL",
+   "uid": "400pdDI6QlXm5eK2uM2KlgPDziY2"
+  },
+  {
+   "name": "SUCCURDAD",
+   "uid": "BHtWImXLn7NaTtQsDqqn2H4Kai22"
+  },
+  {
+   "uid": "7yrVhrxcclSE4hIe3J2fMb5dS363",
+   "name": "SMEGMALORD"
+  },
+  {
+   "uid": "NsnQMwx4cLRZwS2uPhmQKYUf1zo2",
+   "name": "JAE"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "JAE",
+  "roles": [
+   {
+    "name": "SUCCURDAD",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "JAE"
+   },
+   {
+    "name": "DICK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "NIGEL",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SMEGMALORD"
+   }
+  ],
+  "votes": [
+   {
+    "DICK": true,
+    "SUCCURDAD": true
+   },
+   {
+    "SUCCURDAD": true,
+    "DICK": false,
+    "JAE": true
+   },
+   {
+    "SUCCURDAD": true,
+    "NIGEL": true
+   },
+   {
+    "SMEGMALORD": true,
+    "DICK": false,
+    "SUCCURDAD": true
+   },
+   {
+    "SMEGMALORD": true,
+    "JAE": true,
+    "SUCCURDAD": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SMEGMALORD",
+      "SUCCURDAD",
+      "JAE",
+      "DICK",
+      "NIGEL"
+     ],
+     "proposer": "JAE",
+     "team": [
+      "DICK",
+      "SUCCURDAD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "DICK",
+    "SUCCURDAD"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DICK",
+     "team": [
+      "DICK",
+      "SUCCURDAD",
+      "JAE"
+     ],
+     "votes": [
+      "SMEGMALORD",
+      "SUCCURDAD",
+      "JAE",
+      "DICK",
+      "NIGEL"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "DICK",
+    "SUCCURDAD",
+    "JAE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "NIGEL",
+    "SUCCURDAD"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "NIGEL",
+      "SMEGMALORD",
+      "SUCCURDAD",
+      "JAE",
+      "DICK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NIGEL",
+      "SUCCURDAD"
+     ],
+     "proposer": "NIGEL"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "DICK",
+    "SMEGMALORD",
+    "SUCCURDAD"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "DICK",
+      "SMEGMALORD",
+      "SUCCURDAD"
+     ],
+     "votes": [
+      "NIGEL",
+      "SMEGMALORD",
+      "SUCCURDAD",
+      "JAE",
+      "DICK"
+     ],
+     "proposer": "SUCCURDAD",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "SMEGMALORD",
+    "JAE",
+    "SUCCURDAD"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SUCCURDAD",
+      "JAE",
+      "SMEGMALORD"
+     ],
+     "team": [
+      "SMEGMALORD",
+      "JAE",
+      "SUCCURDAD"
+     ],
+     "proposer": "SMEGMALORD"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595688223,
+  "_nanoseconds": 508000000
+ },
+ "timeFinished": {
+  "_seconds": 1595689976,
+  "_nanoseconds": 61000000
+ }
+}

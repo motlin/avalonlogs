@@ -1,0 +1,310 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "LIXIN": true,
+    "OREO": true,
+    "KATE": true
+   },
+   {
+    "LIXIN": false,
+    "KATE": false,
+    "NICOLE": true,
+    "OREO": true
+   },
+   {
+    "GRACIA": true,
+    "BT": true,
+    "TBIT": true,
+    "KIM": true
+   },
+   {
+    "TBIT": true,
+    "BT": false,
+    "KATE": false,
+    "NICOLE": true,
+    "OREO": true
+   },
+   {
+    "LIXIN": false,
+    "NICOLE": true,
+    "KATE": false,
+    "TBIT": true,
+    "BT": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "GRACIA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KIM"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "BT"
+   },
+   {
+    "assassin": true,
+    "name": "LIXIN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "TBIT",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "KATE",
+    "role": "MORGANA"
+   },
+   {
+    "name": "OREO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "NICOLE",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "r6ybsSOy35SnovifNtiuvWeetBl1",
+   "name": "NICOLE"
+  },
+  {
+   "name": "KIM",
+   "uid": "pdzNXtOrkbWERza0SOIsEb4To1r2"
+  },
+  {
+   "name": "GRACIA",
+   "uid": "XhsRclP0SMSp47htRlCCf71G2Ls2"
+  },
+  {
+   "name": "KATE",
+   "uid": "DZyTrXjXfTUFsC0cWKOvpaKziZR2"
+  },
+  {
+   "uid": "Da4iCPJwTXOj421sHQQIwHqrbQE3",
+   "name": "TBIT"
+  },
+  {
+   "name": "OREO",
+   "uid": "lzfcFAlrJTM4ZKiheMBIdcV9g1o2"
+  },
+  {
+   "uid": "XeMtHdT358MwzCEuwtJUD4HvmLv1",
+   "name": "BT"
+  },
+  {
+   "name": "LIXIN",
+   "uid": "rN0k8CJwu5bdFKOprDwmrKkCr3A3"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "GRACIA",
+      "KIM",
+      "BT",
+      "LIXIN",
+      "KATE",
+      "OREO",
+      "NICOLE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LIXIN",
+      "OREO",
+      "KATE"
+     ],
+     "proposer": "LIXIN"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "LIXIN",
+    "OREO",
+    "KATE"
+   ]
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "LIXIN",
+      "OREO",
+      "NICOLE",
+      "KATE"
+     ],
+     "proposer": "NICOLE",
+     "votes": [
+      "OREO",
+      "NICOLE",
+      "KIM",
+      "BT",
+      "TBIT",
+      "KATE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "LIXIN",
+    "OREO",
+    "NICOLE",
+    "KATE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "TBIT",
+      "GRACIA",
+      "BT",
+      "KIM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NICOLE",
+      "GRACIA",
+      "KIM",
+      "BT",
+      "LIXIN",
+      "TBIT",
+      "KATE"
+     ],
+     "proposer": "KIM"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TBIT",
+    "GRACIA",
+    "BT",
+    "KIM"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "GRACIA",
+     "state": "APPROVED",
+     "votes": [
+      "NICOLE",
+      "BT",
+      "LIXIN",
+      "TBIT",
+      "KATE",
+      "OREO"
+     ],
+     "team": [
+      "OREO",
+      "BT",
+      "TBIT",
+      "NICOLE",
+      "KATE"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "state": "FAIL",
+   "team": [
+    "OREO",
+    "BT",
+    "TBIT",
+    "NICOLE",
+    "KATE"
+   ],
+   "numFails": 2,
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KIM",
+      "LIXIN",
+      "KATE",
+      "OREO"
+     ],
+     "proposer": "KATE",
+     "team": [
+      "NICOLE",
+      "KIM",
+      "KATE",
+      "TBIT",
+      "GRACIA"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "TBIT",
+     "votes": [
+      "BT",
+      "TBIT",
+      "KATE",
+      "OREO",
+      "NICOLE",
+      "GRACIA"
+     ],
+     "team": [
+      "KATE",
+      "TBIT",
+      "BT",
+      "LIXIN",
+      "NICOLE"
+     ]
+    }
+   ],
+   "numFails": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "KATE",
+    "TBIT",
+    "BT",
+    "LIXIN",
+    "NICOLE"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588955184,
+  "_nanoseconds": 713000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588955978,
+  "_nanoseconds": 136000000
+ }
+}

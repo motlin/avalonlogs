@@ -1,0 +1,228 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ALI": true,
+    "FINAN": true
+   },
+   {
+    "AMMAD": false,
+    "FINAN": true,
+    "ALI": true
+   },
+   {
+    "FINAN": true,
+    "ISHNA": true
+   },
+   {
+    "ALI": true,
+    "ISHNA": true,
+    "FINAN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "AMMAD"
+   },
+   {
+    "name": "ISHNA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ALFIYA",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "ALI",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "FINAN",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "assassinated": "ALI",
+  "message": "Three successful missions"
+ },
+ "players": [
+  {
+   "name": "AMMAD",
+   "uid": "NYf4TAprohetijt3R5tQ6Aula502"
+  },
+  {
+   "uid": "nJPVl1eeVnTHj604b4OdGdgnFF12",
+   "name": "ALFIYA"
+  },
+  {
+   "name": "FINAN",
+   "uid": "j8xX7GsBdmOqWrPa7T6WL7J6mMx1"
+  },
+  {
+   "uid": "ao9rD3nwTrb7tVVxDo9yJIDcwqQ2",
+   "name": "ALI"
+  },
+  {
+   "name": "ISHNA",
+   "uid": "aXDFbxhwLCWabJB3eicqNWu5vL72"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "FINAN",
+    "ALI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "FINAN",
+     "state": "APPROVED",
+     "votes": [
+      "ALI",
+      "AMMAD",
+      "ISHNA",
+      "FINAN"
+     ],
+     "team": [
+      "FINAN",
+      "ALI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ALI",
+    "FINAN",
+    "AMMAD"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ALFIYA",
+      "AMMAD",
+      "ISHNA",
+      "ALI",
+      "FINAN"
+     ],
+     "team": [
+      "ALI",
+      "FINAN",
+      "AMMAD"
+     ],
+     "proposer": "ALI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "ISHNA",
+     "votes": [
+      "FINAN",
+      "ISHNA",
+      "AMMAD",
+      "ALFIYA",
+      "ALI"
+     ],
+     "team": [
+      "ISHNA",
+      "FINAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ISHNA",
+    "FINAN"
+   ]
+  },
+  {
+   "team": [
+    "FINAN",
+    "ALI",
+    "ISHNA"
+   ],
+   "proposals": [
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "AMMAD",
+      "FINAN",
+      "ISHNA"
+     ],
+     "proposer": "AMMAD"
+    },
+    {
+     "votes": [
+      "AMMAD"
+     ],
+     "proposer": "ALFIYA",
+     "state": "REJECTED",
+     "team": [
+      "ALI",
+      "ISHNA",
+      "AMMAD"
+     ]
+    },
+    {
+     "proposer": "FINAN",
+     "team": [
+      "FINAN",
+      "ALI",
+      "ISHNA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FINAN",
+      "ISHNA",
+      "ALFIYA",
+      "ALI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1612936985,
+  "_nanoseconds": 642000000
+ },
+ "timeFinished": {
+  "_seconds": 1612937498,
+  "_nanoseconds": 860000000
+ }
+}

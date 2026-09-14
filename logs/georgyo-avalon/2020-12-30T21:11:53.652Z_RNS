@@ -1,0 +1,251 @@
+{
+ "players": [
+  {
+   "uid": "tPONeMAmqneWMarCscrGBO8Xuce2",
+   "name": "HEMAL"
+  },
+  {
+   "uid": "cyza35QKWBNPODvGjbaQFwUe2SC3",
+   "name": "LENA"
+  },
+  {
+   "name": "STEVE",
+   "uid": "xMdI4E5u7VSIiy6AJeacY15ZMxf1"
+  },
+  {
+   "name": "KALPA",
+   "uid": "sIdRynFlyWNrAzmdHcuHNzqXa232"
+  },
+  {
+   "name": "MEERA",
+   "uid": "4Jlz7InJ6zcAMa7WQK4kdOUWr6v1"
+  },
+  {
+   "uid": "0bpbQGNpviXk9ICeAyDulsSch8W2",
+   "name": "PARAAG"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "HEMAL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "STEVE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PARAAG"
+   },
+   {
+    "name": "MEERA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "KALPA"
+   },
+   {
+    "name": "LENA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "HEMAL": true,
+    "LENA": true
+   },
+   {
+    "HEMAL": true,
+    "STEVE": true,
+    "LENA": true
+   },
+   {
+    "STEVE": false,
+    "LENA": true,
+    "HEMAL": true,
+    "MEERA": true
+   },
+   {
+    "HEMAL": true,
+    "LENA": true,
+    "PARAAG": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "HEMAL",
+    "LENA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HEMAL",
+     "team": [
+      "HEMAL",
+      "LENA"
+     ],
+     "votes": [
+      "HEMAL",
+      "STEVE",
+      "KALPA",
+      "PARAAG",
+      "LENA",
+      "MEERA"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PARAAG",
+      "MEERA",
+      "LENA",
+      "STEVE",
+      "HEMAL",
+      "KALPA"
+     ],
+     "team": [
+      "HEMAL",
+      "LENA",
+      "STEVE"
+     ],
+     "proposer": "LENA"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "HEMAL",
+    "LENA",
+    "STEVE"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "STEVE",
+     "votes": [
+      "STEVE",
+      "PARAAG",
+      "MEERA"
+     ],
+     "team": [
+      "LENA",
+      "HEMAL",
+      "PARAAG",
+      "MEERA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [],
+     "team": [
+      "KALPA",
+      "LENA",
+      "HEMAL",
+      "MEERA"
+     ],
+     "proposer": "KALPA",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "MEERA",
+     "state": "APPROVED",
+     "votes": [
+      "KALPA",
+      "HEMAL",
+      "MEERA",
+      "STEVE",
+      "LENA"
+     ],
+     "team": [
+      "HEMAL",
+      "LENA",
+      "STEVE",
+      "MEERA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "HEMAL",
+    "LENA",
+    "STEVE",
+    "MEERA"
+   ]
+  },
+  {
+   "team": [
+    "PARAAG",
+    "HEMAL",
+    "LENA"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "PARAAG",
+     "team": [
+      "PARAAG",
+      "HEMAL",
+      "LENA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PARAAG",
+      "LENA",
+      "HEMAL",
+      "KALPA",
+      "MEERA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1609362713,
+  "_nanoseconds": 652000000
+ },
+ "timeFinished": {
+  "_seconds": 1609363429,
+  "_nanoseconds": 996000000
+ }
+}

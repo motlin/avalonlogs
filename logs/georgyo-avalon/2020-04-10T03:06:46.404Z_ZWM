@@ -1,0 +1,274 @@
+{
+ "timeFinished": {
+  "_seconds": 1586488502,
+  "_nanoseconds": 688687000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SITA",
+      "KIMMETH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHRUTI",
+      "NIMBU",
+      "SITA",
+      "KIMMETH",
+      "DHYEY"
+     ],
+     "proposer": "SITA"
+    }
+   ],
+   "team": [
+    "SITA",
+    "KIMMETH"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "SHRUTI",
+    "KIMMETH",
+    "SHARK"
+   ],
+   "teamSize": 3,
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "SHARK",
+     "state": "APPROVED",
+     "votes": [
+      "SHRUTI",
+      "SHARK",
+      "SITA",
+      "KIMMETH",
+      "DHYEY"
+     ],
+     "team": [
+      "SHRUTI",
+      "KIMMETH",
+      "SHARK"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "SITA",
+    "KIMMETH",
+    "DHYEY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SITA",
+      "KIMMETH",
+      "DHYEY"
+     ],
+     "proposer": "KIMMETH",
+     "state": "APPROVED",
+     "votes": [
+      "SITA",
+      "KIMMETH",
+      "DHYEY",
+      "SHRUTI",
+      "SHARK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "KIMMETH",
+    "SITA",
+    "TAN",
+    "NIMBU"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "DHYEY",
+     "votes": [
+      "SHARK",
+      "DHYEY"
+     ],
+     "team": [
+      "SITA",
+      "SHARK",
+      "TAN",
+      "SHRUTI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KIMMETH",
+      "SITA",
+      "TAN",
+      "NIMBU"
+     ],
+     "proposer": "NIMBU",
+     "votes": [
+      "TAN",
+      "NIMBU",
+      "SITA",
+      "KIMMETH",
+      "DHYEY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "NIMBU",
+    "TAN",
+    "SITA",
+    "KIMMETH"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NIMBU",
+      "TAN",
+      "SITA",
+      "KIMMETH"
+     ],
+     "votes": [
+      "SITA",
+      "KIMMETH",
+      "DHYEY",
+      "TAN",
+      "SHRUTI",
+      "NIMBU"
+     ],
+     "proposer": "SHRUTI"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "NIMBU",
+   "uid": "Vsbha2lnYLfXN7SmCZSY37mNnAp1"
+  },
+  {
+   "name": "SHRUTI",
+   "uid": "xkSvq3zbJsM6yzZ6KENM9xhkuqC2"
+  },
+  {
+   "name": "TAN",
+   "uid": "i2rLqHDdKMfpQypYS6D6oL0i0Hh2"
+  },
+  {
+   "uid": "32HWMZzND8fp1p7MVsOxqXokfhv2",
+   "name": "SITA"
+  },
+  {
+   "name": "SHARK",
+   "uid": "C9IE0ILpiaPe8P6BI8HS5iYtC493"
+  },
+  {
+   "uid": "rg0sQH36GmarkNbZ8RHY0EB8LI23",
+   "name": "KIMMETH"
+  },
+  {
+   "name": "DHYEY",
+   "uid": "GtighiaVV4UE4Gn6rWbzmnD2l982"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SITA": true,
+    "KIMMETH": true
+   },
+   {
+    "SHARK": false,
+    "SHRUTI": false,
+    "KIMMETH": true
+   },
+   {
+    "KIMMETH": true,
+    "DHYEY": false,
+    "SITA": true
+   },
+   {
+    "NIMBU": true,
+    "TAN": true,
+    "SITA": true,
+    "KIMMETH": true
+   },
+   {
+    "KIMMETH": true,
+    "TAN": true,
+    "SITA": true,
+    "NIMBU": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "DHYEY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SHRUTI",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "SHARK"
+   },
+   {
+    "assassin": false,
+    "name": "NIMBU",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SITA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KIMMETH"
+   }
+  ],
+  "assassinated": "KIMMETH"
+ },
+ "timeCreated": {
+  "_seconds": 1586488006,
+  "_nanoseconds": 404000000
+ }
+}

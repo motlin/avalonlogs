@@ -1,0 +1,381 @@
+{
+ "players": [
+  {
+   "uid": "dTk2QMwO9UV67nan91CHdGwSkz22",
+   "name": "ZIDA"
+  },
+  {
+   "uid": "aRRmRdicv9VnUCPGxBXVokC8VTs2",
+   "name": "JOSH"
+  },
+  {
+   "name": "WILL",
+   "uid": "Pauy4Wk9z7M8xPFDIWCZYshRXI73"
+  },
+  {
+   "name": "SIMON",
+   "uid": "ZIp49Ovt7VWcLpvyRPl4tEamrba2"
+  },
+  {
+   "name": "JEN",
+   "uid": "XjNRC3AOPVdXF64YbxI05ZAqKXU2"
+  },
+  {
+   "name": "CALEB",
+   "uid": "fjQZGtOmRHVfbUPJfemn6Z6rzFk2"
+  },
+  {
+   "uid": "IeXICrMA62QT4cmrASLOZr1z2d63",
+   "name": "MINI"
+  },
+  {
+   "name": "LONG",
+   "uid": "fkXAhd677lekXNAxDTRvyrb5V9c2"
+  },
+  {
+   "uid": "OFOtJ6c1oSQXO3tSybBsrxlE6HA2",
+   "name": "LES"
+  },
+  {
+   "name": "MAX",
+   "uid": "i0GuZ1hpdMWBzjp9zcingbLTX4E2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "JEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "WILL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MAX",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ZIDA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LES",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "CALEB",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MINI"
+   },
+   {
+    "name": "SIMON",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "JOSH",
+    "role": "OBERON"
+   },
+   {
+    "name": "LONG",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JEN": true,
+    "WILL": true,
+    "SIMON": true
+   },
+   {
+    "CALEB": false,
+    "SIMON": true,
+    "WILL": true,
+    "JEN": true
+   },
+   {
+    "MINI": true,
+    "CALEB": true,
+    "JEN": true,
+    "LES": true
+   },
+   {
+    "JEN": true,
+    "LES": false,
+    "MINI": true,
+    "CALEB": false,
+    "MAX": true
+   },
+   {
+    "WILL": true,
+    "CALEB": false,
+    "ZIDA": true,
+    "SIMON": true,
+    "MAX": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1596862498,
+  "_nanoseconds": 582000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "WILL",
+      "MAX",
+      "ZIDA",
+      "SIMON",
+      "JOSH",
+      "JEN"
+     ],
+     "team": [
+      "WILL",
+      "SIMON",
+      "JEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "WILL"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "WILL",
+    "SIMON",
+    "JEN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "WILL",
+    "SIMON",
+    "JEN",
+    "CALEB"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "WILL",
+      "SIMON",
+      "JEN",
+      "CALEB"
+     ],
+     "proposer": "SIMON",
+     "votes": [
+      "WILL",
+      "ZIDA",
+      "CALEB",
+      "MAX",
+      "LES",
+      "SIMON",
+      "JOSH",
+      "JEN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JEN",
+      "LES",
+      "WILL",
+      "LONG"
+     ],
+     "votes": [
+      "WILL",
+      "JEN",
+      "LES",
+      "MAX"
+     ],
+     "state": "REJECTED",
+     "proposer": "JEN"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CALEB",
+     "team": [
+      "CALEB",
+      "SIMON",
+      "MINI",
+      "ZIDA"
+     ],
+     "votes": [
+      "CALEB",
+      "MINI",
+      "SIMON",
+      "ZIDA",
+      "MAX"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "MINI",
+      "CALEB",
+      "LONG",
+      "MAX"
+     ],
+     "votes": [
+      "MAX",
+      "ZIDA",
+      "MINI"
+     ],
+     "proposer": "MINI"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MINI",
+      "LONG",
+      "MAX"
+     ],
+     "proposer": "LONG",
+     "team": [
+      "LONG",
+      "SIMON",
+      "JEN",
+      "MINI"
+     ]
+    },
+    {
+     "team": [
+      "LES",
+      "JEN",
+      "CALEB",
+      "MINI"
+     ],
+     "votes": [
+      "MINI",
+      "JEN",
+      "ZIDA",
+      "WILL",
+      "MAX",
+      "LES",
+      "LONG",
+      "JOSH",
+      "CALEB"
+     ],
+     "proposer": "LES",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "LES",
+    "JEN",
+    "CALEB",
+    "MINI"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 5,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "LONG",
+      "JOSH",
+      "CALEB",
+      "SIMON",
+      "MAX",
+      "MINI",
+      "LES",
+      "JEN"
+     ],
+     "proposer": "MAX",
+     "team": [
+      "JEN",
+      "CALEB",
+      "MINI",
+      "LES",
+      "MAX"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 2,
+   "team": [
+    "JEN",
+    "CALEB",
+    "MINI",
+    "LES",
+    "MAX"
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "WILL",
+    "SIMON",
+    "ZIDA",
+    "MAX",
+    "CALEB"
+   ],
+   "teamSize": 5,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ZIDA",
+     "state": "APPROVED",
+     "team": [
+      "WILL",
+      "SIMON",
+      "ZIDA",
+      "MAX",
+      "CALEB"
+     ],
+     "votes": [
+      "MINI",
+      "ZIDA",
+      "LONG",
+      "WILL",
+      "SIMON",
+      "MAX",
+      "CALEB",
+      "JOSH"
+     ]
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1596866227,
+  "_nanoseconds": 179000000
+ }
+}

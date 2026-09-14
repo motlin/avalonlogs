@@ -1,0 +1,243 @@
+{
+ "players": [
+  {
+   "name": "WAHEED",
+   "uid": "LdhIdlQMX8RMHpko11USpNvWIRM2"
+  },
+  {
+   "uid": "rOyUcrdaapWEJz5tHl60IT5KDJx1",
+   "name": "NAYEMA"
+  },
+  {
+   "name": "SHAH",
+   "uid": "wdhr6FpaeseF8dG3aL9AHTXOZAo2"
+  },
+  {
+   "name": "RAKA",
+   "uid": "kwmw8ZzOztPTEJ6X2dGEANMjhG73"
+  },
+  {
+   "uid": "b5Ru4NbMfaUFxpC51UklDaHjhRz1",
+   "name": "VICTOR"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "WAHEED",
+    "VICTOR"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "WAHEED",
+     "state": "APPROVED",
+     "team": [
+      "WAHEED",
+      "VICTOR"
+     ],
+     "votes": [
+      "SHAH",
+      "NAYEMA",
+      "WAHEED",
+      "VICTOR",
+      "RAKA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "NAYEMA",
+      "VICTOR",
+      "WAHEED"
+     ],
+     "proposer": "NAYEMA",
+     "votes": [
+      "WAHEED",
+      "VICTOR",
+      "RAKA",
+      "SHAH",
+      "NAYEMA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "NAYEMA",
+    "VICTOR",
+    "WAHEED"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "RAKA",
+    "NAYEMA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "VICTOR",
+      "SHAH"
+     ],
+     "proposer": "SHAH",
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SHAH",
+      "NAYEMA",
+      "WAHEED",
+      "VICTOR",
+      "RAKA"
+     ],
+     "proposer": "RAKA",
+     "team": [
+      "RAKA",
+      "NAYEMA"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "RAKA",
+    "NAYEMA",
+    "VICTOR"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "RAKA",
+      "NAYEMA",
+      "VICTOR"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WAHEED",
+      "VICTOR",
+      "RAKA",
+      "SHAH",
+      "NAYEMA"
+     ],
+     "proposer": "VICTOR"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "WAHEED",
+     "votes": [
+      "WAHEED",
+      "RAKA",
+      "SHAH",
+      "NAYEMA"
+     ],
+     "team": [
+      "RAKA",
+      "WAHEED",
+      "SHAH"
+     ]
+    }
+   ],
+   "team": [
+    "RAKA",
+    "WAHEED",
+    "SHAH"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587790112,
+  "_nanoseconds": 124000000
+ },
+ "timeCreated": {
+  "_seconds": 1587789426,
+  "_nanoseconds": 390000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SHAH",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MORDRED",
+    "name": "NAYEMA",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "WAHEED"
+   },
+   {
+    "name": "VICTOR",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "RAKA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "VICTOR": true,
+    "WAHEED": true
+   },
+   {
+    "NAYEMA": false,
+    "WAHEED": true,
+    "VICTOR": true
+   },
+   {
+    "NAYEMA": true,
+    "RAKA": true
+   },
+   {
+    "NAYEMA": false,
+    "VICTOR": true,
+    "RAKA": true
+   },
+   {
+    "SHAH": false,
+    "RAKA": true,
+    "WAHEED": true
+   }
+  ],
+  "assassinated": null
+ }
+}

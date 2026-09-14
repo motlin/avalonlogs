@@ -1,0 +1,238 @@
+{
+ "timeCreated": {
+  "_seconds": 1587254138,
+  "_nanoseconds": 767000000
+ },
+ "players": [
+  {
+   "uid": "OV1hs4nFpnSQRrBVGBDhW6HV9jx1",
+   "name": "JESSIE"
+  },
+  {
+   "name": "BH",
+   "uid": "dHt2UDKANBTkTCRHwudRO7vlzpy1"
+  },
+  {
+   "name": "GILLIAN",
+   "uid": "1nloMjUmBiYmtS8qf1kieY79v2J2"
+  },
+  {
+   "name": "CHARLES",
+   "uid": "duEwYazW8YVgn4pLx1XUeNjX4yW2"
+  },
+  {
+   "uid": "g8gZx83X7qdPzSUBAwh42oAipkB3",
+   "name": "SUSIE"
+  },
+  {
+   "name": "TONY",
+   "uid": "Z6hzRTHb7JZXhdVfTjmT2rw0Hor1"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JESSIE",
+    "BH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JESSIE",
+      "BH",
+      "GILLIAN",
+      "CHARLES",
+      "SUSIE",
+      "TONY"
+     ],
+     "team": [
+      "JESSIE",
+      "BH"
+     ],
+     "proposer": "JESSIE"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BH",
+     "votes": [
+      "BH",
+      "GILLIAN",
+      "SUSIE",
+      "TONY",
+      "JESSIE"
+     ],
+     "team": [
+      "BH",
+      "GILLIAN",
+      "CHARLES"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "BH",
+    "GILLIAN",
+    "CHARLES"
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "CHARLES",
+    "SUSIE",
+    "TONY",
+    "GILLIAN"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "GILLIAN",
+     "team": [
+      "GILLIAN",
+      "JESSIE",
+      "SUSIE",
+      "TONY"
+     ],
+     "votes": [
+      "BH",
+      "GILLIAN",
+      "JESSIE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "CHARLES",
+      "SUSIE",
+      "TONY",
+      "GILLIAN"
+     ],
+     "votes": [
+      "GILLIAN",
+      "CHARLES",
+      "SUSIE",
+      "TONY"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHARLES"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CHARLES",
+      "SUSIE",
+      "TONY"
+     ],
+     "proposer": "SUSIE",
+     "votes": [
+      "BH",
+      "GILLIAN",
+      "CHARLES",
+      "SUSIE",
+      "TONY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CHARLES",
+    "SUSIE",
+    "TONY"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "BH": true,
+    "JESSIE": true
+   },
+   {
+    "CHARLES": true,
+    "GILLIAN": false,
+    "BH": true
+   },
+   {
+    "CHARLES": true,
+    "GILLIAN": true,
+    "SUSIE": true,
+    "TONY": true
+   },
+   {
+    "CHARLES": true,
+    "SUSIE": true,
+    "TONY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "CHARLES",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SUSIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TONY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "JESSIE",
+    "role": "MORGANA"
+   },
+   {
+    "name": "BH",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "GILLIAN",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ],
+  "assassinated": "TONY",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587255108,
+  "_nanoseconds": 603000000
+ }
+}

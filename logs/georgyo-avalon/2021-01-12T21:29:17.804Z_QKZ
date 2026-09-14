@@ -1,0 +1,264 @@
+{
+ "players": [
+  {
+   "name": "ABBY",
+   "uid": "hchNElALnOQG5cjcP0pDy8belK62"
+  },
+  {
+   "uid": "zvcVHIYIDvfZonG3pAiHPOeHE282",
+   "name": "LUKE"
+  },
+  {
+   "uid": "uIbfoYpUZXZ5IF2IZGOMw8dJtRe2",
+   "name": "MATT"
+  },
+  {
+   "uid": "T3wHCGn1fNQu9BmQoOGWRQxBT1s2",
+   "name": "ANNIE"
+  },
+  {
+   "name": "HOLLY",
+   "uid": "PId7jBZXU0Xs76vmnDKQKKnw9Gg2"
+  },
+  {
+   "name": "ALI",
+   "uid": "2gHqMpDTN2Y0K9niwz3FtSsTeTx2"
+  },
+  {
+   "uid": "ws696x3ECDchHLYtqjGXmLyR7LF3",
+   "name": "RUBY"
+  },
+  {
+   "uid": "y4HABKKNHFN2VFlH8ezAlUxZr7Z2",
+   "name": "LILY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1610486957,
+  "_nanoseconds": 804000000
+ },
+ "timeFinished": {
+  "_seconds": 1610487395,
+  "_nanoseconds": 700000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "LUKE",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RUBY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HOLLY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALI",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LUKE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ANNIE",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "LILY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ABBY",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MATT",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "RUBY": true,
+    "MATT": false,
+    "HOLLY": true
+   },
+   {
+    "ABBY": true,
+    "RUBY": true,
+    "LUKE": true,
+    "ALI": true
+   },
+   {
+    "ABBY": true,
+    "LUKE": true,
+    "ALI": true,
+    "RUBY": true
+   },
+   {
+    "RUBY": true,
+    "ALI": true,
+    "MATT": false,
+    "ABBY": true,
+    "LUKE": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "LILY",
+     "votes": [
+      "HOLLY",
+      "LILY",
+      "ANNIE",
+      "ABBY",
+      "LUKE",
+      "MATT",
+      "RUBY",
+      "ALI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RUBY",
+      "HOLLY",
+      "MATT"
+     ]
+    }
+   ],
+   "team": [
+    "RUBY",
+    "HOLLY",
+    "MATT"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ABBY",
+     "votes": [
+      "LILY",
+      "LUKE",
+      "RUBY",
+      "ANNIE",
+      "HOLLY",
+      "ABBY",
+      "ALI",
+      "MATT"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ABBY",
+      "LUKE",
+      "ALI",
+      "RUBY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ABBY",
+    "LUKE",
+    "ALI",
+    "RUBY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "ABBY",
+    "LUKE",
+    "ALI",
+    "RUBY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ALI",
+      "RUBY",
+      "MATT",
+      "ABBY",
+      "HOLLY",
+      "LILY",
+      "LUKE"
+     ],
+     "proposer": "LUKE",
+     "state": "APPROVED",
+     "team": [
+      "ABBY",
+      "LUKE",
+      "ALI",
+      "RUBY"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MATT",
+     "votes": [
+      "MATT",
+      "RUBY",
+      "HOLLY",
+      "ALI",
+      "ANNIE",
+      "LUKE",
+      "ABBY",
+      "LILY"
+     ],
+     "team": [
+      "LUKE",
+      "ALI",
+      "ABBY",
+      "MATT",
+      "RUBY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "LUKE",
+    "ALI",
+    "ABBY",
+    "MATT",
+    "RUBY"
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 5,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

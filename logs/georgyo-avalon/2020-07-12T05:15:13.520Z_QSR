@@ -1,0 +1,252 @@
+{
+ "timeFinished": {
+  "_seconds": 1594531267,
+  "_nanoseconds": 848000000
+ },
+ "timeCreated": {
+  "_seconds": 1594530913,
+  "_nanoseconds": 520000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "FLO": true,
+    "HUIMIN": true
+   },
+   {
+    "CHANGCHUAN": true,
+    "HUIMIN": false,
+    "ASLAM": false
+   },
+   {
+    "FLO": true,
+    "HUIMIN": true
+   },
+   {
+    "FLO": true,
+    "ALICIA": true,
+    "HUIMIN": false
+   },
+   {
+    "HUIMIN": false,
+    "FLO": true,
+    "ALICIA": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "ASLAM",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "HUIMIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FLO",
+    "assassin": false
+   },
+   {
+    "name": "ALICIA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "CHANGCHUAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "HUIMIN",
+   "uid": "e5QrQiUlLcZrAhI6IqHKsvvJnnu1"
+  },
+  {
+   "uid": "zUBUJkKyf0cKxXrFMyNneE11VZO2",
+   "name": "ASLAM"
+  },
+  {
+   "name": "CHANGCHUAN",
+   "uid": "sn3JZcSXrqhThoLmpIbHNAU944U2"
+  },
+  {
+   "name": "ALICIA",
+   "uid": "BUYeJt4gfcdK0aAVTNdQn5QSh0s1"
+  },
+  {
+   "uid": "XGI8J9aZ2GYzD0Tv8Kbiae9JS572",
+   "name": "FLO"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HUIMIN",
+     "votes": [
+      "CHANGCHUAN",
+      "ASLAM",
+      "HUIMIN",
+      "FLO"
+     ],
+     "team": [
+      "HUIMIN",
+      "FLO"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "HUIMIN",
+    "FLO"
+   ]
+  },
+  {
+   "team": [
+    "HUIMIN",
+    "ASLAM",
+    "CHANGCHUAN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CHANGCHUAN",
+      "HUIMIN",
+      "FLO"
+     ],
+     "team": [
+      "HUIMIN",
+      "ASLAM",
+      "CHANGCHUAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ASLAM"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ALICIA",
+      "CHANGCHUAN"
+     ],
+     "team": [
+      "ALICIA",
+      "ASLAM"
+     ],
+     "proposer": "CHANGCHUAN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ALICIA",
+     "state": "REJECTED",
+     "team": [
+      "ALICIA",
+      "CHANGCHUAN"
+     ],
+     "votes": [
+      "CHANGCHUAN",
+      "ALICIA"
+     ]
+    },
+    {
+     "team": [
+      "FLO",
+      "HUIMIN"
+     ],
+     "proposer": "FLO",
+     "state": "APPROVED",
+     "votes": [
+      "CHANGCHUAN",
+      "ASLAM",
+      "HUIMIN",
+      "FLO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "FLO",
+    "HUIMIN"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "HUIMIN",
+      "FLO",
+      "ALICIA"
+     ],
+     "votes": [
+      "ALICIA",
+      "CHANGCHUAN",
+      "HUIMIN",
+      "FLO"
+     ],
+     "state": "APPROVED",
+     "proposer": "HUIMIN"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "HUIMIN",
+    "FLO",
+    "ALICIA"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ASLAM",
+      "HUIMIN",
+      "FLO"
+     ],
+     "team": [
+      "HUIMIN",
+      "ALICIA",
+      "FLO"
+     ],
+     "state": "APPROVED",
+     "proposer": "ASLAM"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "HUIMIN",
+    "ALICIA",
+    "FLO"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "NIRAL": true,
+    "JAMES": true
+   },
+   {
+    "MINHCHAU": true,
+    "HAHN": true,
+    "ARI": true
+   },
+   {
+    "HAHN": true,
+    "NIRAL": false
+   },
+   {
+    "ARI": true,
+    "NIRAL": true,
+    "MINHCHAU": true
+   }
+  ],
+  "assassinated": "HAHN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "HAHN",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MINHCHAU",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ARI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "name": "NIRAL",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JAMES"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1593136624,
+  "_nanoseconds": 782000000
+ },
+ "timeFinished": {
+  "_seconds": 1593137463,
+  "_nanoseconds": 672000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "MINHCHAU",
+   "uid": "NJ5s3UaRXdc8BkMlj1sI9R1wIuc2"
+  },
+  {
+   "uid": "liTXGBqdAWcXM98E01pTMJAL7h83",
+   "name": "JAMES"
+  },
+  {
+   "uid": "eITHkdsh5hSINAPjgoZcp4FXhkF2",
+   "name": "HAHN"
+  },
+  {
+   "uid": "s0HGk6EDBnUwWSwD6oAkCFhyGMr1",
+   "name": "ARI"
+  },
+  {
+   "name": "NIRAL",
+   "uid": "TtdgSYp8jUgAcmORHPuBGT28V553"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "JAMES",
+    "NIRAL"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JAMES",
+     "team": [
+      "JAMES",
+      "NIRAL"
+     ],
+     "votes": [
+      "MINHCHAU",
+      "NIRAL",
+      "JAMES"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "HAHN",
+      "MINHCHAU"
+     ],
+     "team": [
+      "MINHCHAU",
+      "HAHN",
+      "ARI"
+     ],
+     "proposer": "HAHN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MINHCHAU",
+      "ARI",
+      "NIRAL",
+      "JAMES",
+      "HAHN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ARI",
+      "HAHN",
+      "MINHCHAU"
+     ],
+     "proposer": "ARI"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ARI",
+    "HAHN",
+    "MINHCHAU"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "team": [
+    "NIRAL",
+    "HAHN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MINHCHAU",
+      "ARI",
+      "NIRAL",
+      "JAMES"
+     ],
+     "team": [
+      "NIRAL",
+      "HAHN"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIRAL"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "MINHCHAU",
+    "NIRAL",
+    "ARI"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MINHCHAU",
+      "ARI",
+      "NIRAL",
+      "HAHN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MINHCHAU",
+     "team": [
+      "MINHCHAU",
+      "NIRAL",
+      "ARI"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

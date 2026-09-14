@@ -1,0 +1,204 @@
+{
+ "players": [
+  {
+   "uid": "wguKKm8G8dVFMrObcuWAF49yzvJ3",
+   "name": "XIAO"
+  },
+  {
+   "uid": "obNdv3eKWUdpgKlVV1stjmmwK9e2",
+   "name": "DARKO"
+  },
+  {
+   "name": "KD",
+   "uid": "s0kteTelj0dXBJBLgg8kz5DQiQZ2"
+  },
+  {
+   "name": "JESSIE",
+   "uid": "lB6qC6bJFCcEvnThQijpOSfpkpo1"
+  },
+  {
+   "uid": "kEL38y2QMxOYmz1KfeBcHQj42YA3",
+   "name": "MITCH"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "XIAO",
+    "MITCH"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "XIAO",
+      "MITCH"
+     ],
+     "votes": [
+      "JESSIE",
+      "DARKO",
+      "MITCH",
+      "XIAO"
+     ],
+     "proposer": "JESSIE",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "XIAO",
+    "MITCH",
+    "KD"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JESSIE",
+      "DARKO",
+      "MITCH",
+      "KD",
+      "XIAO"
+     ],
+     "team": [
+      "XIAO",
+      "MITCH",
+      "KD"
+     ],
+     "proposer": "MITCH",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "XIAO",
+      "MITCH"
+     ],
+     "proposer": "XIAO",
+     "votes": [
+      "JESSIE",
+      "DARKO",
+      "MITCH",
+      "XIAO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "XIAO",
+    "MITCH"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DARKO",
+      "MITCH",
+      "XIAO"
+     ],
+     "team": [
+      "XIAO",
+      "MITCH",
+      "DARKO"
+     ],
+     "proposer": "DARKO"
+    }
+   ],
+   "team": [
+    "XIAO",
+    "MITCH",
+    "DARKO"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587155728,
+  "_nanoseconds": 748000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "MITCH",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "XIAO": true,
+    "MITCH": true
+   },
+   {
+    "MITCH": true,
+    "KD": false,
+    "XIAO": true
+   },
+   {
+    "MITCH": true,
+    "XIAO": true
+   },
+   {
+    "MITCH": true,
+    "XIAO": true,
+    "DARKO": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "name": "JESSIE",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "DARKO",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MITCH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KD",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "XIAO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1587155410,
+  "_nanoseconds": 630000000
+ }
+}

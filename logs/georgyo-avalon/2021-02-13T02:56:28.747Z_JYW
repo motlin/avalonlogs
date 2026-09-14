@@ -1,0 +1,225 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "XOKLUTrO6WQ0VlLjCrkICM5uIW63",
+   "name": "FELIX"
+  },
+  {
+   "name": "VANESSA",
+   "uid": "7M2B2ZxKlZfr3thueRg4DqRGtY03"
+  },
+  {
+   "uid": "eNDqG9rkf6WmOgprkxQAYEdqDWF2",
+   "name": "LESLIE"
+  },
+  {
+   "uid": "uvXLtWFXNqXGhbnJ9m1s3uqgQsE2",
+   "name": "AARON"
+  },
+  {
+   "name": "ERIK",
+   "uid": "n1IOFex8eTPePBIr6m2hZ2HZgeL2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "LESLIE",
+     "state": "APPROVED",
+     "votes": [
+      "AARON",
+      "LESLIE",
+      "VANESSA",
+      "ERIK"
+     ],
+     "team": [
+      "LESLIE",
+      "FELIX"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "LESLIE",
+    "FELIX"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "LESLIE",
+      "AARON",
+      "ERIK"
+     ],
+     "proposer": "AARON",
+     "state": "APPROVED",
+     "team": [
+      "AARON",
+      "LESLIE",
+      "ERIK"
+     ]
+    }
+   ],
+   "team": [
+    "AARON",
+    "LESLIE",
+    "ERIK"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "VANESSA",
+      "ERIK"
+     ],
+     "state": "REJECTED",
+     "proposer": "ERIK",
+     "votes": [
+      "VANESSA",
+      "ERIK"
+     ]
+    },
+    {
+     "votes": [
+      "LESLIE",
+      "FELIX"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "FELIX",
+      "LESLIE"
+     ],
+     "proposer": "FELIX"
+    },
+    {
+     "votes": [
+      "ERIK",
+      "AARON",
+      "VANESSA"
+     ],
+     "team": [
+      "VANESSA",
+      "ERIK"
+     ],
+     "proposer": "VANESSA",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "VANESSA",
+    "ERIK"
+   ],
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "FELIX",
+    "LESLIE",
+    "ERIK"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "FELIX",
+      "LESLIE",
+      "ERIK"
+     ],
+     "votes": [
+      "ERIK",
+      "FELIX",
+      "LESLIE"
+     ],
+     "proposer": "LESLIE"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1613185678,
+  "_nanoseconds": 325000000
+ },
+ "timeCreated": {
+  "_seconds": 1613184988,
+  "_nanoseconds": 747000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "FELIX": true,
+    "LESLIE": true
+   },
+   {
+    "AARON": true,
+    "LESLIE": true,
+    "ERIK": false
+   },
+   {
+    "ERIK": false,
+    "VANESSA": true
+   },
+   {
+    "FELIX": true,
+    "ERIK": false,
+    "LESLIE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ERIK"
+   },
+   {
+    "assassin": false,
+    "name": "VANESSA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LESLIE",
+    "assassin": false
+   },
+   {
+    "name": "AARON",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "FELIX",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null
+ }
+}

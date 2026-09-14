@@ -1,0 +1,179 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MATT",
+    "FRANK"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "FRANK",
+      "PETER",
+      "MATT",
+      "EMILY",
+      "JILLIAN"
+     ],
+     "proposer": "PETER",
+     "team": [
+      "MATT",
+      "FRANK"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "EMILY",
+     "team": [
+      "EMILY",
+      "MATT",
+      "JILLIAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EMILY",
+      "MATT",
+      "PETER",
+      "JILLIAN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "EMILY",
+    "MATT",
+    "JILLIAN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "MATT",
+    "EMILY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MATT",
+      "EMILY"
+     ],
+     "proposer": "FRANK",
+     "votes": [
+      "EMILY",
+      "FRANK",
+      "JILLIAN",
+      "MATT"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1611976724,
+  "_nanoseconds": 258000000
+ },
+ "timeFinished": {
+  "_seconds": 1611976963,
+  "_nanoseconds": 754000000
+ },
+ "players": [
+  {
+   "name": "MATT",
+   "uid": "scJaAVSmpnN9i6QQPllZrRhFjHS2"
+  },
+  {
+   "uid": "buxSsWUY2MWEditSgDqH2RAMget1",
+   "name": "PETER"
+  },
+  {
+   "uid": "sYtDQCG1IPQX8fvsIjfF3RBGEyW2",
+   "name": "EMILY"
+  },
+  {
+   "name": "FRANK",
+   "uid": "lLbHpNOQTMSTNBas1PGl6U2smwL2"
+  },
+  {
+   "name": "JILLIAN",
+   "uid": "xw5mzzMB5Pbrf59hwt2cSEjvWsz2"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "JILLIAN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "FRANK",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MATT",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "EMILY",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PETER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "MATT": true,
+    "FRANK": true
+   },
+   {
+    "EMILY": true,
+    "JILLIAN": true,
+    "MATT": true
+   },
+   {
+    "EMILY": true,
+    "MATT": true
+   }
+  ],
+  "assassinated": "FRANK",
+  "state": "GOOD_WIN"
+ }
+}

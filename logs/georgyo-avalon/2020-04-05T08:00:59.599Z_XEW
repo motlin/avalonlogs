@@ -1,0 +1,259 @@
+{
+ "timeFinished": {
+  "_seconds": 1586074493,
+  "_nanoseconds": 1926000
+ },
+ "players": [
+  {
+   "uid": "7UFC5AyhQnMheIdo6dPr6NKIoDw1",
+   "name": "BILLY"
+  },
+  {
+   "uid": "dmUJTavrpIW0n9Itisnl9oWC83J2",
+   "name": "DAVID"
+  },
+  {
+   "name": "JEFF",
+   "uid": "yBZCTu2NSOcIhZ5ripOOPVy8IbM2"
+  },
+  {
+   "name": "ANIMELOVER",
+   "uid": "qFOiXAQUj5Y4eMY8byGyGt3joyu2"
+  },
+  {
+   "uid": "LWu6F9gtCwgizCWHq1GGD9g4iln2",
+   "name": "XEW"
+  },
+  {
+   "name": "SOBY",
+   "uid": "xuv4pYAXe7XllcNvgUuEV62weMH2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586073659,
+  "_nanoseconds": 599000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "JEFF": false,
+    "BILLY": true
+   },
+   {
+    "DAVID": true,
+    "XEW": true,
+    "ANIMELOVER": true
+   },
+   {
+    "ANIMELOVER": true,
+    "DAVID": false,
+    "SOBY": true,
+    "XEW": true
+   },
+   {
+    "SOBY": true,
+    "XEW": true,
+    "JEFF": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "JEFF",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "ANIMELOVER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "DAVID",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "XEW",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SOBY"
+   },
+   {
+    "name": "BILLY",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SOBY",
+     "state": "APPROVED",
+     "votes": [
+      "DAVID",
+      "XEW",
+      "SOBY",
+      "BILLY",
+      "ANIMELOVER"
+     ],
+     "team": [
+      "BILLY",
+      "JEFF"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 2,
+   "team": [
+    "BILLY",
+    "JEFF"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "DAVID",
+    "ANIMELOVER",
+    "XEW"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DAVID",
+      "XEW",
+      "SOBY",
+      "BILLY",
+      "JEFF",
+      "ANIMELOVER"
+     ],
+     "team": [
+      "DAVID",
+      "ANIMELOVER",
+      "XEW"
+     ],
+     "proposer": "BILLY"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DAVID",
+    "ANIMELOVER",
+    "XEW",
+    "SOBY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SOBY",
+      "BILLY",
+      "DAVID",
+      "XEW"
+     ],
+     "team": [
+      "DAVID",
+      "ANIMELOVER",
+      "XEW",
+      "SOBY"
+     ],
+     "state": "APPROVED",
+     "proposer": "DAVID"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JEFF",
+      "ANIMELOVER",
+      "XEW"
+     ],
+     "state": "REJECTED",
+     "proposer": "JEFF",
+     "votes": [
+      "SOBY",
+      "JEFF"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ANIMELOVER",
+      "XEW",
+      "DAVID"
+     ],
+     "proposer": "ANIMELOVER",
+     "votes": [
+      "DAVID",
+      "ANIMELOVER"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "XEW",
+      "SOBY",
+      "JEFF"
+     ],
+     "proposer": "XEW",
+     "team": [
+      "SOBY",
+      "XEW",
+      "JEFF"
+     ]
+    },
+    {
+     "proposer": "SOBY",
+     "state": "APPROVED",
+     "team": [
+      "SOBY",
+      "JEFF",
+      "XEW"
+     ],
+     "votes": [
+      "DAVID",
+      "XEW",
+      "SOBY",
+      "JEFF"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "SOBY",
+    "JEFF",
+    "XEW"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "missions": [
+  {
+   "team": [
+    "CHRISTIAN",
+    "ELISA"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LAURA",
+      "CHRISTIAN",
+      "AMANDINE",
+      "ELISA"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "ELISA"
+     ],
+     "proposer": "CHRISTIAN"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ELISA",
+     "state": "APPROVED",
+     "votes": [
+      "CHRISTIAN",
+      "ELISA",
+      "LAURA",
+      "AMANDINE"
+     ],
+     "team": [
+      "ELISA",
+      "CHRISTIAN",
+      "LAURA"
+     ]
+    }
+   ],
+   "team": [
+    "ELISA",
+    "CHRISTIAN",
+    "LAURA"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "AMANDINE",
+    "ELISA",
+    "LEO"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "CECILOUVE",
+     "team": [
+      "CECILOUVE",
+      "CHRISTIAN",
+      "LEO"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CECILOUVE",
+      "ELISA"
+     ]
+    },
+    {
+     "votes": [
+      "LAURA"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "LAURA",
+      "REGIS"
+     ],
+     "proposer": "LAURA",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LAURA",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "LEO",
+      "LAURA"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "proposer": "LEO",
+     "state": "REJECTED",
+     "votes": [
+      "LAURA",
+      "LEO",
+      "REGIS"
+     ],
+     "team": [
+      "LEO",
+      "LAURA",
+      "REGIS"
+     ]
+    },
+    {
+     "votes": [
+      "REGIS",
+      "CHRISTIAN",
+      "ELISA",
+      "LAURA",
+      "CECILOUVE",
+      "LEO",
+      "AMANDINE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AMANDINE",
+      "ELISA",
+      "LEO"
+     ],
+     "proposer": "AMANDINE"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ELISA",
+      "AMANDINE",
+      "CECILOUVE",
+      "CHRISTIAN"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "APPROVED",
+     "team": [
+      "CHRISTIAN",
+      "CECILOUVE",
+      "LAURA",
+      "REGIS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "CHRISTIAN",
+    "CECILOUVE",
+    "LAURA",
+    "REGIS"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "ELISA",
+     "votes": [
+      "ELISA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "REGIS",
+      "ELISA",
+      "CECILOUVE",
+      "LAURA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CECILOUVE",
+      "LEO"
+     ],
+     "proposer": "CECILOUVE",
+     "team": [
+      "CECILOUVE",
+      "LAURA",
+      "REGIS",
+      "LEO"
+     ]
+    },
+    {
+     "team": [
+      "LAURA",
+      "REGIS",
+      "LEO",
+      "CECILOUVE"
+     ],
+     "proposer": "LAURA",
+     "votes": [
+      "LEO",
+      "LAURA",
+      "CECILOUVE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "REGIS",
+      "CECILOUVE",
+      "LAURA",
+      "LEO"
+     ],
+     "state": "APPROVED",
+     "proposer": "REGIS",
+     "team": [
+      "LAURA",
+      "REGIS",
+      "LEO",
+      "CECILOUVE"
+     ]
+    }
+   ],
+   "team": [
+    "LAURA",
+    "REGIS",
+    "LEO",
+    "CECILOUVE"
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1611433365,
+  "_nanoseconds": 673000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ELISA": true,
+    "CHRISTIAN": true
+   },
+   {
+    "CHRISTIAN": false,
+    "LAURA": true,
+    "ELISA": true
+   },
+   {
+    "ELISA": true,
+    "LEO": false,
+    "AMANDINE": false
+   },
+   {
+    "CECILOUVE": true,
+    "REGIS": true,
+    "LAURA": true,
+    "CHRISTIAN": true
+   },
+   {
+    "REGIS": true,
+    "LEO": false,
+    "LAURA": true,
+    "CECILOUVE": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "REGIS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CECILOUVE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "AMANDINE",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "LEO",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ELISA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "CHRISTIAN"
+   },
+   {
+    "assassin": false,
+    "name": "LAURA",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1611429616,
+  "_nanoseconds": 639000000
+ },
+ "players": [
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  },
+  {
+   "name": "LEO",
+   "uid": "T0Y1Ud9ZYVctLMkv8A0SPJ0revh2"
+  },
+  {
+   "name": "AMANDINE",
+   "uid": "OhC8XQoMkYhYs1ImSJomxoAUsFF3"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1"
+  },
+  {
+   "name": "ELISA",
+   "uid": "BTutGuKZrLVDghq13uIpKVtjs7J3"
+  },
+  {
+   "uid": "mrBWU8UQMDRnK01vjUfL8DxG6yj1",
+   "name": "CECILOUVE"
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "timeCreated": {
+  "_seconds": 1604118144,
+  "_nanoseconds": 744000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KARAN",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "MARLIN"
+   },
+   {
+    "name": "ANIKETH",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BANANA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "METH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHAI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "PK",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AVI"
+   },
+   {
+    "name": "AVISINGH",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "MARLIN": true,
+    "AVI": true,
+    "BANANA": true
+   },
+   {
+    "MARLIN": true,
+    "BANANA": true,
+    "PK": false,
+    "AVI": true
+   },
+   {
+    "ANIKETH": false,
+    "METH": true,
+    "PK": false,
+    "AVI": true
+   },
+   {
+    "AVISINGH": true,
+    "CHAI": true,
+    "MARLIN": true,
+    "BANANA": true,
+    "KARAN": true
+   },
+   {
+    "CHAI": true,
+    "BANANA": true,
+    "KARAN": true,
+    "METH": true,
+    "MARLIN": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MARLIN",
+    "AVI",
+    "BANANA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "AVISINGH",
+     "team": [
+      "MARLIN",
+      "AVI",
+      "BANANA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MARLIN",
+      "AVISINGH",
+      "METH",
+      "KARAN",
+      "ANIKETH",
+      "BANANA",
+      "AVI"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "KARAN",
+     "team": [
+      "MARLIN",
+      "AVI",
+      "BANANA",
+      "PK"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "METH",
+      "AVI",
+      "ANIKETH",
+      "BANANA",
+      "KARAN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "MARLIN",
+    "AVI",
+    "BANANA",
+    "PK"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "AVI",
+      "MARLIN",
+      "ANIKETH",
+      "METH"
+     ],
+     "proposer": "ANIKETH",
+     "team": [
+      "PK",
+      "ANIKETH",
+      "AVI",
+      "MARLIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "METH",
+     "team": [
+      "METH",
+      "AVI",
+      "PK",
+      "ANIKETH"
+     ],
+     "votes": [
+      "BANANA",
+      "ANIKETH",
+      "KARAN",
+      "MARLIN",
+      "PK",
+      "METH",
+      "AVI"
+     ]
+    }
+   ],
+   "team": [
+    "METH",
+    "AVI",
+    "PK",
+    "ANIKETH"
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 0,
+   "teamSize": 5,
+   "team": [
+    "MARLIN",
+    "CHAI",
+    "AVISINGH",
+    "KARAN",
+    "BANANA"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MARLIN",
+      "CHAI",
+      "AVISINGH",
+      "KARAN",
+      "BANANA"
+     ],
+     "proposer": "MARLIN",
+     "votes": [
+      "BANANA",
+      "AVISINGH",
+      "PK",
+      "CHAI",
+      "METH",
+      "ANIKETH",
+      "KARAN",
+      "MARLIN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "BANANA",
+    "METH",
+    "KARAN",
+    "MARLIN",
+    "CHAI"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AVISINGH",
+      "AVI",
+      "CHAI"
+     ],
+     "proposer": "AVI",
+     "team": [
+      "MARLIN",
+      "CHAI",
+      "BANANA",
+      "AVI",
+      "AVISINGH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "BANANA",
+      "METH",
+      "KARAN",
+      "MARLIN",
+      "CHAI"
+     ],
+     "proposer": "BANANA",
+     "votes": [
+      "CHAI",
+      "BANANA",
+      "PK",
+      "MARLIN",
+      "KARAN"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3",
+   "name": "MARLIN"
+  },
+  {
+   "uid": "bFTTuhvrzTWkpx2y2tA2VEo4OHx2",
+   "name": "AVI"
+  },
+  {
+   "name": "BANANA",
+   "uid": "weox9NOyNDZiyKTtPDAXxvazdFV2"
+  },
+  {
+   "name": "PK",
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652"
+  },
+  {
+   "name": "CHAI",
+   "uid": "kSuFqj5ueWZYlfFBbfhTiidBQZd2"
+  },
+  {
+   "name": "AVISINGH",
+   "uid": "gx0GNqbfVCTGyTSfSzc6XELipsf1"
+  },
+  {
+   "uid": "1yawy0IzcvTwYGbNSNefkUZnxej1",
+   "name": "KARAN"
+  },
+  {
+   "name": "ANIKETH",
+   "uid": "mhGqERYygScqJ0S29jQ3yK7o2ku2"
+  },
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "METH"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604119262,
+  "_nanoseconds": 377000000
+ }
+}

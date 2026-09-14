@@ -1,0 +1,305 @@
+{
+ "players": [
+  {
+   "name": "ARIANE",
+   "uid": "vMh9CfiEKUS6khUdh8kUSo5SL3c2"
+  },
+  {
+   "name": "CONOR",
+   "uid": "hTv4X162SmUYwylZvab4Ddz2NMX2"
+  },
+  {
+   "name": "KATE",
+   "uid": "h38Gd0ACYddHCD2BBzOngni9Hj23"
+  },
+  {
+   "uid": "RFRPsOFYaeXexViSnJHfHfICb092",
+   "name": "JESSICA"
+  },
+  {
+   "name": "ROG",
+   "uid": "NTphEPVqMnOYSDNPFPITAflk8vo2"
+  },
+  {
+   "uid": "G9FNzXQeQ2TIoLBxGec5BgJ2aMU2",
+   "name": "ELENA"
+  },
+  {
+   "uid": "2HTwvjaixbRfm2H1Q7OCREU1If13",
+   "name": "LILIA"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595467725,
+  "_nanoseconds": 534000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": "KATE",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "JESSICA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORDRED",
+    "name": "LILIA",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ARIANE"
+   },
+   {
+    "name": "ROG",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "CONOR",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ELENA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KATE"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ELENA": true,
+    "ARIANE": true
+   },
+   {
+    "ELENA": true,
+    "ARIANE": false,
+    "KATE": true
+   },
+   {
+    "CONOR": true,
+    "LILIA": true,
+    "ELENA": true
+   },
+   {
+    "LILIA": false,
+    "ELENA": true,
+    "ROG": false,
+    "KATE": true
+   },
+   {
+    "CONOR": true,
+    "KATE": true,
+    "ELENA": true,
+    "JESSICA": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1595469331,
+  "_nanoseconds": 727000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ELENA",
+    "ARIANE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LILIA",
+      "ARIANE",
+      "ROG",
+      "ELENA",
+      "KATE"
+     ],
+     "team": [
+      "ELENA",
+      "ARIANE"
+     ],
+     "proposer": "ELENA"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ROG",
+      "ELENA",
+      "KATE",
+      "LILIA",
+      "ARIANE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ELENA",
+      "ARIANE",
+      "KATE"
+     ],
+     "proposer": "LILIA"
+    }
+   ],
+   "team": [
+    "ELENA",
+    "ARIANE",
+    "KATE"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ELENA",
+    "CONOR",
+    "LILIA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ARIANE",
+     "team": [
+      "ELENA",
+      "CONOR",
+      "LILIA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ROG",
+      "CONOR",
+      "ELENA",
+      "KATE",
+      "JESSICA",
+      "ARIANE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "KATE",
+    "LILIA",
+    "ELENA",
+    "ROG"
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "CONOR",
+     "team": [
+      "CONOR",
+      "ELENA",
+      "LILIA",
+      "JESSICA"
+     ],
+     "votes": [
+      "JESSICA",
+      "ROG",
+      "ELENA"
+     ]
+    },
+    {
+     "proposer": "KATE",
+     "team": [
+      "KATE",
+      "LILIA",
+      "ELENA",
+      "ROG"
+     ],
+     "votes": [
+      "LILIA",
+      "ARIANE",
+      "ROG",
+      "ELENA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "KATE",
+      "JESSICA",
+      "ELENA"
+     ],
+     "state": "REJECTED",
+     "proposer": "JESSICA",
+     "team": [
+      "KATE",
+      "CONOR",
+      "ELENA",
+      "JESSICA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ROG",
+     "team": [
+      "LILIA",
+      "CONOR",
+      "ELENA",
+      "KATE"
+     ],
+     "votes": [
+      "ROG"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ELENA",
+      "KATE",
+      "JESSICA",
+      "CONOR"
+     ],
+     "votes": [
+      "CONOR",
+      "ELENA",
+      "KATE",
+      "JESSICA",
+      "LILIA"
+     ],
+     "proposer": "ELENA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "ELENA",
+    "KATE",
+    "JESSICA",
+    "CONOR"
+   ],
+   "numFails": 0
+  }
+ ]
+}

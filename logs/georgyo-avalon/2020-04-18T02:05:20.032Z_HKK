@@ -1,0 +1,231 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ELPADRINO",
+    "SPIDER"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ELPADRINO",
+      "SPIDER"
+     ],
+     "proposer": "KEVINC",
+     "state": "APPROVED",
+     "votes": [
+      "AMY",
+      "HKK",
+      "KEVINC",
+      "SPIDER"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "ELPADRINO",
+    "HKK",
+    "AMY"
+   ],
+   "proposals": [
+    {
+     "proposer": "AMY",
+     "state": "APPROVED",
+     "votes": [
+      "AMY",
+      "HKK",
+      "KEVINC",
+      "SPIDER",
+      "ELPADRINO"
+     ],
+     "team": [
+      "ELPADRINO",
+      "HKK",
+      "AMY"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "ELPADRINO",
+     "votes": [
+      "ELPADRINO",
+      "HKK",
+      "KEVINC",
+      "SPIDER"
+     ],
+     "team": [
+      "KEVINC",
+      "HKK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KEVINC",
+    "HKK"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "HKK",
+      "KEVINC",
+      "SPIDER",
+      "ELPADRINO",
+      "AMY"
+     ],
+     "team": [
+      "ELPADRINO",
+      "SPIDER",
+      "HKK"
+     ],
+     "state": "APPROVED",
+     "proposer": "HKK"
+    }
+   ],
+   "team": [
+    "ELPADRINO",
+    "SPIDER",
+    "HKK"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SPIDER",
+     "state": "APPROVED",
+     "votes": [
+      "KEVINC",
+      "SPIDER",
+      "HKK"
+     ],
+     "team": [
+      "AMY",
+      "SPIDER",
+      "HKK"
+     ]
+    }
+   ],
+   "team": [
+    "AMY",
+    "SPIDER",
+    "HKK"
+   ],
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "name": "KEVINC",
+   "uid": "edJS7UalxDavtcnU1Hc8Y2LVpdM2"
+  },
+  {
+   "uid": "BbK5ugt702QP19YLwDG2T2CcmI03",
+   "name": "AMY"
+  },
+  {
+   "uid": "RhQURRTY2CT9QeG2zbCoHDiOthq2",
+   "name": "ELPADRINO"
+  },
+  {
+   "name": "HKK",
+   "uid": "cSvekGVDqoTrKgA5YCjsv3gsPLI2"
+  },
+  {
+   "uid": "xJdBInqvw5V3joFRde0sjq24I4n2",
+   "name": "SPIDER"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587175520,
+  "_nanoseconds": 32000000
+ },
+ "timeFinished": {
+  "_seconds": 1587176432,
+  "_nanoseconds": 574000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "HKK",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "KEVINC",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SPIDER",
+    "assassin": false
+   },
+   {
+    "name": "ELPADRINO",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "AMY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "ELPADRINO": true,
+    "SPIDER": true
+   },
+   {
+    "AMY": true,
+    "HKK": true,
+    "ELPADRINO": true
+   },
+   {
+    "KEVINC": false,
+    "HKK": false
+   },
+   {
+    "HKK": false,
+    "SPIDER": true,
+    "ELPADRINO": true
+   },
+   {
+    "HKK": false,
+    "SPIDER": true,
+    "AMY": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ }
+}

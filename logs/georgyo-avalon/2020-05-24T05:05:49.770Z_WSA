@@ -1,0 +1,373 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "T": true,
+    "BIYONKA": true,
+    "SUNEEL": true
+   },
+   {
+    "BIYONKA": false,
+    "SUNEEL": true,
+    "KEVIN": true,
+    "T": true
+   },
+   {
+    "T": true,
+    "ALEX": true,
+    "GRACE": false,
+    "KEVIN": true
+   },
+   {
+    "ALEX": true,
+    "KEVIN": true,
+    "BIYONKA": false,
+    "PATRICK": true,
+    "T": true
+   },
+   {
+    "KEVIN": true,
+    "KATIE": true,
+    "PATRICK": true,
+    "T": true,
+    "ALEX": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "KEVIN",
+  "roles": [
+   {
+    "name": "KEVIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "PATRICK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "DANIEL",
+    "role": "MORGANA"
+   },
+   {
+    "name": "KATIE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "GRACE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SUNEEL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BIYONKA",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "T",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "SUNEEL",
+     "votes": [
+      "DANIEL",
+      "GRACE",
+      "SUNEEL",
+      "ALEX",
+      "BIYONKA",
+      "T",
+      "KEVIN"
+     ],
+     "team": [
+      "T",
+      "SUNEEL",
+      "BIYONKA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "T",
+    "SUNEEL",
+    "BIYONKA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "KEVIN",
+    "SUNEEL",
+    "BIYONKA",
+    "T"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "KATIE",
+     "votes": [
+      "GRACE",
+      "KATIE"
+     ],
+     "team": [
+      "KATIE",
+      "T",
+      "ALEX",
+      "GRACE"
+     ]
+    },
+    {
+     "votes": [
+      "KEVIN",
+      "PATRICK",
+      "DANIEL",
+      "GRACE",
+      "SUNEEL",
+      "ALEX",
+      "BIYONKA",
+      "T"
+     ],
+     "proposer": "KEVIN",
+     "state": "APPROVED",
+     "team": [
+      "KEVIN",
+      "SUNEEL",
+      "BIYONKA",
+      "T"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "T",
+    "GRACE",
+    "ALEX",
+    "KEVIN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "T",
+      "PATRICK",
+      "DANIEL",
+      "GRACE"
+     ],
+     "proposer": "GRACE",
+     "state": "REJECTED",
+     "votes": [
+      "GRACE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ALEX",
+     "team": [
+      "ALEX",
+      "T",
+      "SUNEEL",
+      "KEVIN"
+     ],
+     "votes": [
+      "ALEX",
+      "T"
+     ]
+    },
+    {
+     "votes": [
+      "PATRICK",
+      "GRACE",
+      "SUNEEL",
+      "ALEX",
+      "BIYONKA",
+      "KEVIN"
+     ],
+     "proposer": "T",
+     "team": [
+      "T",
+      "GRACE",
+      "ALEX",
+      "KEVIN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "T",
+    "PATRICK",
+    "BIYONKA",
+    "ALEX",
+    "KEVIN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "T",
+      "PATRICK",
+      "BIYONKA",
+      "ALEX",
+      "KEVIN"
+     ],
+     "votes": [
+      "KEVIN",
+      "PATRICK",
+      "DANIEL",
+      "KATIE",
+      "GRACE",
+      "SUNEEL",
+      "ALEX",
+      "BIYONKA",
+      "T"
+     ],
+     "proposer": "PATRICK"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 1,
+   "teamSize": 5,
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 5,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DANIEL"
+     ],
+     "team": [
+      "GRACE",
+      "BIYONKA",
+      "PATRICK",
+      "DANIEL",
+      "KATIE"
+     ],
+     "proposer": "DANIEL"
+    },
+    {
+     "votes": [],
+     "proposer": "BIYONKA",
+     "team": [
+      "BIYONKA",
+      "ALEX",
+      "T",
+      "PATRICK",
+      "KATIE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SUNEEL",
+      "ALEX",
+      "T",
+      "KEVIN",
+      "PATRICK",
+      "KATIE"
+     ],
+     "proposer": "SUNEEL",
+     "team": [
+      "ALEX",
+      "T",
+      "PATRICK",
+      "KATIE",
+      "KEVIN"
+     ]
+    }
+   ],
+   "team": [
+    "ALEX",
+    "T",
+    "PATRICK",
+    "KATIE",
+    "KEVIN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590298085,
+  "_nanoseconds": 605000000
+ },
+ "players": [
+  {
+   "name": "GRACE",
+   "uid": "gUBq6lNi6rhHHTK1qh8LhhRHwTn1"
+  },
+  {
+   "name": "ALEX",
+   "uid": "hJq1uFywA9cp8D4P5hs0bFeiTkg2"
+  },
+  {
+   "name": "T",
+   "uid": "v1wMl2YUEHONVUPx9h4FIVwD1493"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "cYwsZba6qnVyMQ5vASCnQHdvm733"
+  },
+  {
+   "uid": "mS3fzJnIRpRDg81bmARsYmw4qsw1",
+   "name": "DANIEL"
+  },
+  {
+   "uid": "O4xBBwsGKPg8BYG9nWsf6xvSUpJ3",
+   "name": "BIYONKA"
+  },
+  {
+   "uid": "owXroTeoCfezT6bCagFr8UmT3oI2",
+   "name": "SUNEEL"
+  },
+  {
+   "name": "KATIE",
+   "uid": "nD0Ys7M1JddSxWpaXO8Hw6yl9L62"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "O8jUhlmgbpgBmPxAq3f1H54citT2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590296749,
+  "_nanoseconds": 770000000
+ }
+}

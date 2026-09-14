@@ -1,0 +1,506 @@
+{
+ "timeFinished": {
+  "_seconds": 1614456548,
+  "_nanoseconds": 80000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "REGIS": true,
+    "AMANDINE": true
+   },
+   {
+    "LEO": true,
+    "REGIS": true,
+    "FARID": true
+   },
+   {
+    "LAURA": false,
+    "REGIS": true,
+    "FARID": true,
+    "LEO": true
+   },
+   {
+    "REGIS": true,
+    "LEO": false,
+    "FARID": true
+   },
+   {
+    "FARID": true,
+    "AMANDINE": true,
+    "CHRISTIAN": true,
+    "LAURA": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CHRISTIAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LAURA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "AMANDINE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LEO",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FARID",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "REGIS",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1614453117,
+  "_nanoseconds": 587000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "LEO",
+   "uid": "T0Y1Ud9ZYVctLMkv8A0SPJ0revh2"
+  },
+  {
+   "name": "AMANDINE",
+   "uid": "OhC8XQoMkYhYs1ImSJomxoAUsFF3"
+  },
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  },
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  },
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "name": "FARID",
+   "uid": "gOxLJaoqrvPnwE8TrF9eMsgIkr53"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "REGIS",
+      "AMANDINE"
+     ],
+     "state": "REJECTED",
+     "proposer": "REGIS",
+     "team": [
+      "REGIS",
+      "AMANDINE"
+     ]
+    },
+    {
+     "votes": [
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "proposer": "LAURA",
+     "team": [
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "FARID",
+      "LAURA"
+     ],
+     "proposer": "FARID",
+     "votes": [
+      "LAURA",
+      "FARID"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "REGIS",
+      "FARID"
+     ],
+     "votes": [
+      "LEO",
+      "FARID"
+     ],
+     "proposer": "LEO"
+    },
+    {
+     "team": [
+      "AMANDINE",
+      "REGIS"
+     ],
+     "state": "APPROVED",
+     "proposer": "AMANDINE",
+     "votes": [
+      "CHRISTIAN",
+      "LEO",
+      "REGIS",
+      "LAURA",
+      "FARID",
+      "AMANDINE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "AMANDINE",
+    "REGIS"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "AMANDINE",
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "votes": [
+      "REGIS",
+      "CHRISTIAN",
+      "AMANDINE"
+     ],
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "votes": [
+      "REGIS",
+      "AMANDINE"
+     ],
+     "team": [
+      "AMANDINE",
+      "FARID",
+      "REGIS"
+     ],
+     "proposer": "REGIS",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LAURA",
+      "AMANDINE",
+      "CHRISTIAN"
+     ],
+     "proposer": "LAURA",
+     "state": "REJECTED",
+     "team": [
+      "LAURA",
+      "REGIS",
+      "AMANDINE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "FARID",
+      "LEO",
+      "REGIS"
+     ],
+     "proposer": "FARID",
+     "votes": [
+      "FARID",
+      "REGIS",
+      "LEO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "LEO",
+      "REGIS",
+      "FARID"
+     ],
+     "votes": [
+      "LAURA",
+      "AMANDINE",
+      "REGIS",
+      "FARID",
+      "LEO"
+     ],
+     "proposer": "LEO"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "LEO",
+    "REGIS",
+    "FARID"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "LAURA",
+    "FARID",
+    "LEO",
+    "REGIS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "AMANDINE"
+     ],
+     "proposer": "AMANDINE",
+     "team": [
+      "REGIS",
+      "AMANDINE",
+      "LAURA",
+      "LEO"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CHRISTIAN",
+     "team": [
+      "LEO",
+      "CHRISTIAN",
+      "REGIS",
+      "FARID"
+     ],
+     "votes": [
+      "LEO",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "FARID",
+      "REGIS",
+      "LAURA"
+     ],
+     "team": [
+      "REGIS",
+      "LAURA",
+      "FARID",
+      "LEO"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "votes": [
+      "FARID",
+      "LEO",
+      "REGIS",
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "FARID",
+      "LEO",
+      "REGIS"
+     ],
+     "proposer": "LAURA",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "FARID",
+      "REGIS",
+      "LEO"
+     ],
+     "votes": [
+      "LEO",
+      "FARID"
+     ],
+     "proposer": "FARID"
+    },
+    {
+     "team": [
+      "REGIS",
+      "LEO",
+      "FARID"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "LEO",
+      "FARID"
+     ],
+     "proposer": "LEO"
+    },
+    {
+     "votes": [
+      "AMANDINE",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "AMANDINE",
+     "team": [
+      "AMANDINE",
+      "REGIS",
+      "LAURA"
+     ]
+    },
+    {
+     "votes": [
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CHRISTIAN",
+      "REGIS",
+      "AMANDINE"
+     ],
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "REGIS",
+      "LAURA",
+      "FARID",
+      "AMANDINE",
+      "LEO",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "REGIS",
+      "LEO",
+      "FARID"
+     ],
+     "proposer": "REGIS"
+    }
+   ],
+   "team": [
+    "REGIS",
+    "LEO",
+    "FARID"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "LAURA",
+     "votes": [
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LAURA",
+      "FARID",
+      "REGIS",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "FARID",
+      "LAURA",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "proposer": "FARID",
+     "votes": [
+      "FARID",
+      "CHRISTIAN",
+      "LAURA"
+     ]
+    },
+    {
+     "team": [
+      "AMANDINE",
+      "REGIS",
+      "LEO",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "LEO"
+     ],
+     "proposer": "LEO"
+    },
+    {
+     "proposer": "AMANDINE",
+     "votes": [
+      "AMANDINE",
+      "LEO"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AMANDINE",
+      "CHRISTIAN",
+      "REGIS",
+      "LEO"
+     ]
+    },
+    {
+     "team": [
+      "CHRISTIAN",
+      "FARID",
+      "LAURA",
+      "AMANDINE"
+     ],
+     "votes": [
+      "AMANDINE",
+      "CHRISTIAN",
+      "LEO",
+      "FARID",
+      "LAURA"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "CHRISTIAN",
+    "FARID",
+    "LAURA",
+    "AMANDINE"
+   ],
+   "failsRequired": 1
+  }
+ ]
+}

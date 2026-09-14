@@ -1,0 +1,274 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JAYDEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "IAN",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JUSTIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SEAN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "MARTIN",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JUSTIN": false,
+    "SEAN": true
+   },
+   {
+    "MARTIN": true,
+    "JAYDEN": true,
+    "JUSTIN": false
+   },
+   {
+    "IAN": true,
+    "SEAN": true
+   },
+   {
+    "JAYDEN": true,
+    "SEAN": true,
+    "MARTIN": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1593983602,
+  "_nanoseconds": 546000000
+ },
+ "timeFinished": {
+  "_seconds": 1593984506,
+  "_nanoseconds": 197000000
+ },
+ "players": [
+  {
+   "uid": "L0Gx6Bis5pcXH1FfGkFIYNHXT9F3",
+   "name": "MARTIN"
+  },
+  {
+   "name": "SEAN",
+   "uid": "fYg8XNyRKtdJZzgYBXjGLqmhMqy1"
+  },
+  {
+   "name": "JAYDEN",
+   "uid": "jIA8yP5fcETQMW3vdbdcdGFyGsv2"
+  },
+  {
+   "uid": "tBu4vgzOAscojPHI0baJZ11Wqgi1",
+   "name": "IAN"
+  },
+  {
+   "name": "JUSTIN",
+   "uid": "ZqPGAOWTg8ZpgdNzaMJWf49WkyY2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "SEAN",
+    "JUSTIN"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "IAN",
+      "JUSTIN",
+      "SEAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SEAN",
+     "team": [
+      "SEAN",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "JAYDEN",
+    "JUSTIN",
+    "MARTIN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JAYDEN",
+      "IAN",
+      "JUSTIN"
+     ],
+     "proposer": "JAYDEN",
+     "state": "REJECTED",
+     "votes": [
+      "JAYDEN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JAYDEN",
+      "JUSTIN",
+      "MARTIN"
+     ],
+     "proposer": "IAN",
+     "votes": [
+      "JAYDEN",
+      "IAN",
+      "JUSTIN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "IAN",
+      "JUSTIN"
+     ],
+     "proposer": "JUSTIN",
+     "votes": [
+      "JAYDEN",
+      "JUSTIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JUSTIN",
+      "MARTIN"
+     ],
+     "team": [
+      "MARTIN",
+      "SEAN"
+     ],
+     "proposer": "MARTIN"
+    },
+    {
+     "team": [
+      "SEAN",
+      "IAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SEAN",
+     "votes": [
+      "IAN",
+      "SEAN",
+      "MARTIN"
+     ]
+    }
+   ],
+   "team": [
+    "SEAN",
+    "IAN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAYDEN",
+      "JUSTIN"
+     ],
+     "proposer": "JAYDEN",
+     "team": [
+      "JAYDEN",
+      "IAN",
+      "JUSTIN"
+     ]
+    },
+    {
+     "votes": [
+      "JAYDEN",
+      "IAN"
+     ],
+     "proposer": "IAN",
+     "state": "REJECTED",
+     "team": [
+      "IAN",
+      "JAYDEN",
+      "SEAN"
+     ]
+    },
+    {
+     "proposer": "JUSTIN",
+     "votes": [
+      "JUSTIN"
+     ],
+     "team": [
+      "JUSTIN",
+      "JAYDEN",
+      "MARTIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "MARTIN",
+     "team": [
+      "MARTIN",
+      "SEAN",
+      "JAYDEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SEAN",
+      "MARTIN",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "MARTIN",
+    "SEAN",
+    "JAYDEN"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

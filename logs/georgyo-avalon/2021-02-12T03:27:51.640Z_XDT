@@ -1,0 +1,259 @@
+{
+ "players": [
+  {
+   "name": "SHAKED",
+   "uid": "r06OrMbMZqeRa379eftDNj39lBe2"
+  },
+  {
+   "name": "PATRICIA",
+   "uid": "CyvPSEPy9PbKYKutf1TrcDO557f2"
+  },
+  {
+   "uid": "C5PdkhPjfLM0mkgbWpdv5nEuNdw2",
+   "name": "FRANCES"
+  },
+  {
+   "name": "YILIN",
+   "uid": "LCVIAfiiSdcb5feAuWd1wYQzgRj2"
+  },
+  {
+   "uid": "ASQAAnQPiWX7LKhUzObmAwnjyAh2",
+   "name": "JUNEVUONG"
+  },
+  {
+   "uid": "2zk8Vb8Jl6a2QtH89cbAKgRLIwx1",
+   "name": "CHETANYA"
+  },
+  {
+   "uid": "5fPsBnPwAvUi91KRwwsMU3wL4mY2",
+   "name": "JOAO"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1613100471,
+  "_nanoseconds": 640000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SHAKED"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "FRANCES"
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHETANYA",
+    "assassin": false
+   },
+   {
+    "name": "JOAO",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JUNEVUONG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "YILIN"
+   },
+   {
+    "name": "PATRICIA",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "FRANCES": false,
+    "PATRICIA": true
+   },
+   {
+    "SHAKED": true,
+    "CHETANYA": true,
+    "JUNEVUONG": true
+   },
+   {
+    "JUNEVUONG": true,
+    "SHAKED": true,
+    "CHETANYA": true
+   },
+   {
+    "SHAKED": true,
+    "JOAO": true,
+    "JUNEVUONG": true,
+    "CHETANYA": true
+   }
+  ],
+  "assassinated": "JUNEVUONG"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1613101405,
+  "_nanoseconds": 898000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "PATRICIA",
+    "FRANCES"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JOAO",
+      "YILIN",
+      "PATRICIA",
+      "FRANCES"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PATRICIA",
+      "FRANCES"
+     ],
+     "proposer": "PATRICIA"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "FRANCES",
+     "votes": [
+      "FRANCES",
+      "YILIN"
+     ],
+     "team": [
+      "FRANCES",
+      "YILIN",
+      "JUNEVUONG"
+     ]
+    },
+    {
+     "team": [
+      "JUNEVUONG",
+      "JOAO",
+      "CHETANYA"
+     ],
+     "proposer": "YILIN",
+     "state": "REJECTED",
+     "votes": [
+      "YILIN",
+      "JOAO"
+     ]
+    },
+    {
+     "proposer": "JUNEVUONG",
+     "state": "APPROVED",
+     "team": [
+      "JUNEVUONG",
+      "CHETANYA",
+      "SHAKED"
+     ],
+     "votes": [
+      "PATRICIA",
+      "SHAKED",
+      "JUNEVUONG",
+      "CHETANYA"
+     ]
+    }
+   ],
+   "team": [
+    "JUNEVUONG",
+    "CHETANYA",
+    "SHAKED"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "FRANCES",
+      "JUNEVUONG",
+      "SHAKED",
+      "PATRICIA",
+      "CHETANYA",
+      "JOAO"
+     ],
+     "team": [
+      "CHETANYA",
+      "JUNEVUONG",
+      "SHAKED"
+     ],
+     "proposer": "CHETANYA"
+    }
+   ],
+   "team": [
+    "CHETANYA",
+    "JUNEVUONG",
+    "SHAKED"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JOAO",
+     "state": "APPROVED",
+     "team": [
+      "JOAO",
+      "CHETANYA",
+      "JUNEVUONG",
+      "SHAKED"
+     ],
+     "votes": [
+      "SHAKED",
+      "FRANCES",
+      "JUNEVUONG",
+      "JOAO",
+      "CHETANYA",
+      "YILIN",
+      "PATRICIA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "JOAO",
+    "CHETANYA",
+    "JUNEVUONG",
+    "SHAKED"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": []
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "MIKE",
+    "FRANZ"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MIKE",
+     "votes": [
+      "ALEXUS",
+      "PAT",
+      "MARK",
+      "FRANZ",
+      "MIKE"
+     ],
+     "team": [
+      "MIKE",
+      "FRANZ"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ALEXUS",
+      "PAT",
+      "MARK",
+      "FRANZ",
+      "MIKE"
+     ],
+     "team": [
+      "MIKE",
+      "FRANZ",
+      "MARK"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARK"
+    }
+   ],
+   "team": [
+    "MIKE",
+    "FRANZ",
+    "MARK"
+   ]
+  },
+  {
+   "team": [
+    "PAT",
+    "MIKE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARK",
+      "PAT",
+      "ALEXUS",
+      "FRANZ",
+      "MIKE"
+     ],
+     "proposer": "PAT",
+     "team": [
+      "PAT",
+      "MIKE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "PAT",
+    "MIKE",
+    "FRANZ"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "FRANZ",
+     "votes": [
+      "MIKE",
+      "FRANZ",
+      "ALEXUS",
+      "PAT"
+     ],
+     "team": [
+      "PAT",
+      "MIKE",
+      "FRANZ"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ALEXUS",
+    "FRANZ",
+    "PAT"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ALEXUS",
+     "team": [
+      "ALEXUS",
+      "FRANZ",
+      "PAT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MIKE",
+      "FRANZ",
+      "ALEXUS",
+      "PAT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1598766430,
+  "_nanoseconds": 441000000
+ },
+ "timeCreated": {
+  "_seconds": 1598766112,
+  "_nanoseconds": 113000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "FRANZ",
+   "uid": "czk7DouHDIQrinVAVAU04BzxBB72"
+  },
+  {
+   "uid": "oBOvhqfewHemUZ3uNAPl1SV6lIK2",
+   "name": "ALEXUS"
+  },
+  {
+   "name": "MIKE",
+   "uid": "fNr6Z8DIOVRMFJUDeKZ5hAIXPdr1"
+  },
+  {
+   "uid": "V0qRiQ8xQeg0lKHsn2w63xVdfUy2",
+   "name": "MARK"
+  },
+  {
+   "uid": "0RdX843TBre5mp9AHmIkJoieJmC2",
+   "name": "PAT"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "MIKE": true,
+    "FRANZ": true
+   },
+   {
+    "FRANZ": true,
+    "MIKE": true,
+    "MARK": false
+   },
+   {
+    "MIKE": true,
+    "PAT": true
+   },
+   {
+    "PAT": true,
+    "MIKE": false,
+    "FRANZ": true
+   },
+   {
+    "ALEXUS": true,
+    "PAT": true,
+    "FRANZ": true
+   }
+  ],
+  "assassinated": "PAT",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ALEXUS"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MARK"
+   },
+   {
+    "role": "MORGANA",
+    "name": "MIKE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "FRANZ"
+   },
+   {
+    "name": "PAT",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ]
+ }
+}

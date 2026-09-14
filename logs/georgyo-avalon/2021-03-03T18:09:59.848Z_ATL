@@ -1,0 +1,239 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "DASHA": true,
+    "JONATHAN": true
+   },
+   {
+    "ALEXEY": true,
+    "JONATHAN": true,
+    "SINDURAN": false
+   },
+   {
+    "JONATHAN": true,
+    "ALEXEY": true
+   },
+   {
+    "ALEXEY": true,
+    "JONATHAN": true,
+    "AMY": false
+   },
+   {
+    "DASHA": true,
+    "JONATHAN": true,
+    "ALEXEY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "AMY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DASHA",
+    "assassin": false
+   },
+   {
+    "name": "SINDURAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "JONATHAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ALEXEY"
+   }
+  ],
+  "assassinated": "DASHA",
+  "state": "GOOD_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1614796436,
+  "_nanoseconds": 219000000
+ },
+ "players": [
+  {
+   "name": "DASHA",
+   "uid": "0JTuwonGynRYwqjQjZcmasGVgyh2"
+  },
+  {
+   "uid": "pT8yTE552cSXOpwAHqeTAKU2REw1",
+   "name": "SINDURAN"
+  },
+  {
+   "name": "AMY",
+   "uid": "fLAZ2qgOnNUUhqQVaGEufZGAo7w1"
+  },
+  {
+   "name": "ALEXEY",
+   "uid": "TIbNrJg6WZQbzQxafCGNkflwx9K2"
+  },
+  {
+   "name": "JONATHAN",
+   "uid": "apU0ad6zuMTksQjJymDnIwkZNWg1"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "DASHA",
+    "JONATHAN"
+   ],
+   "proposals": [
+    {
+     "proposer": "DASHA",
+     "team": [
+      "DASHA",
+      "JONATHAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DASHA",
+      "ALEXEY",
+      "AMY",
+      "JONATHAN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JONATHAN",
+      "ALEXEY",
+      "SINDURAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SINDURAN",
+     "votes": [
+      "SINDURAN",
+      "ALEXEY",
+      "JONATHAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JONATHAN",
+    "ALEXEY",
+    "SINDURAN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "AMY",
+      "JONATHAN"
+     ],
+     "proposer": "AMY",
+     "votes": [
+      "AMY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEXEY",
+      "JONATHAN"
+     ],
+     "votes": [
+      "JONATHAN",
+      "DASHA",
+      "SINDURAN",
+      "ALEXEY"
+     ],
+     "proposer": "ALEXEY"
+    }
+   ],
+   "team": [
+    "ALEXEY",
+    "JONATHAN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ALEXEY",
+    "JONATHAN",
+    "AMY"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JONATHAN",
+      "ALEXEY",
+      "SINDURAN",
+      "AMY"
+     ],
+     "team": [
+      "ALEXEY",
+      "JONATHAN",
+      "AMY"
+     ],
+     "proposer": "JONATHAN"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ALEXEY",
+    "JONATHAN",
+    "DASHA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ALEXEY",
+      "JONATHAN",
+      "DASHA"
+     ],
+     "proposer": "DASHA",
+     "state": "APPROVED",
+     "team": [
+      "ALEXEY",
+      "JONATHAN",
+      "DASHA"
+     ]
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1614794999,
+  "_nanoseconds": 848000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

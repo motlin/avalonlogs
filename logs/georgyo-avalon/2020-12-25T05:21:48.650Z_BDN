@@ -1,0 +1,326 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "PRAVEEN": true,
+    "LL": false
+   },
+   {
+    "SEAN": true,
+    "AN": true,
+    "KZHU": true
+   },
+   {
+    "LL": false,
+    "SEAN": true,
+    "KZHU": true
+   },
+   {
+    "PRAVEEN": true,
+    "AN": true,
+    "SEAN": true,
+    "KZHU": true
+   },
+   {
+    "PRAVEEN": true,
+    "SEAN": true,
+    "KZHU": true,
+    "AN": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "KZHU"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JIMMY"
+   },
+   {
+    "assassin": true,
+    "name": "CHEVIN",
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SEAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PRAVEEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "AN"
+   },
+   {
+    "name": "LL",
+    "assassin": false,
+    "role": "OBERON"
+   }
+  ],
+  "assassinated": "AN"
+ },
+ "missions": [
+  {
+   "team": [
+    "PRAVEEN",
+    "LL"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "AN",
+      "SEAN",
+      "JIMMY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LL",
+      "SEAN"
+     ],
+     "proposer": "LL"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "SEAN",
+     "team": [
+      "SEAN",
+      "JIMMY"
+     ],
+     "votes": [
+      "JIMMY"
+     ]
+    },
+    {
+     "team": [
+      "JIMMY",
+      "AN"
+     ],
+     "votes": [
+      "JIMMY",
+      "CHEVIN"
+     ],
+     "proposer": "JIMMY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SEAN",
+      "AN",
+      "JIMMY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LL",
+      "AN"
+     ],
+     "proposer": "AN"
+    },
+    {
+     "votes": [
+      "SEAN",
+      "LL",
+      "PRAVEEN",
+      "JIMMY",
+      "AN",
+      "CHEVIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "PRAVEEN",
+     "team": [
+      "PRAVEEN",
+      "LL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHEVIN",
+      "LL",
+      "KZHU"
+     ],
+     "proposer": "CHEVIN",
+     "votes": [
+      "CHEVIN",
+      "KZHU"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KZHU",
+      "AN",
+      "SEAN",
+      "PRAVEEN",
+      "CHEVIN"
+     ],
+     "proposer": "KZHU",
+     "team": [
+      "KZHU",
+      "AN",
+      "SEAN"
+     ]
+    }
+   ],
+   "team": [
+    "KZHU",
+    "AN",
+    "SEAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "LL",
+     "team": [
+      "KZHU",
+      "LL",
+      "SEAN"
+     ],
+     "votes": [
+      "AN",
+      "KZHU",
+      "CHEVIN",
+      "JIMMY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KZHU",
+    "LL",
+    "SEAN"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "SEAN",
+    "PRAVEEN",
+    "KZHU",
+    "AN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHEVIN",
+      "JIMMY",
+      "SEAN",
+      "PRAVEEN",
+      "KZHU",
+      "AN"
+     ],
+     "team": [
+      "SEAN",
+      "PRAVEEN",
+      "KZHU",
+      "AN"
+     ],
+     "proposer": "SEAN"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PRAVEEN",
+      "SEAN",
+      "KZHU",
+      "AN"
+     ],
+     "proposer": "JIMMY",
+     "votes": [
+      "JIMMY",
+      "KZHU",
+      "PRAVEEN",
+      "AN",
+      "SEAN",
+      "CHEVIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "PRAVEEN",
+    "SEAN",
+    "KZHU",
+    "AN"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2",
+   "name": "PRAVEEN"
+  },
+  {
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1",
+   "name": "CHEVIN"
+  },
+  {
+   "uid": "09iwCUAVE5bu4SsdsOz3S6trYTl2",
+   "name": "KZHU"
+  },
+  {
+   "uid": "1bkbk09boMYSV5pWJPdUEBUELvf2",
+   "name": "LL"
+  },
+  {
+   "name": "SEAN",
+   "uid": "WQADefDBh7Prh3zmvSwKuztnx6k1"
+  },
+  {
+   "name": "JIMMY",
+   "uid": "C2w26VfH4Vao7lRgDWoMkTHFTwE3"
+  },
+  {
+   "name": "AN",
+   "uid": "fkS5ZYpOT3N3cgqn0bzao5y0aaY2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1608873708,
+  "_nanoseconds": 650000000
+ },
+ "timeFinished": {
+  "_seconds": 1608874925,
+  "_nanoseconds": 439000000
+ }
+}

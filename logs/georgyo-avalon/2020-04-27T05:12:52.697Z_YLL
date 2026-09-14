@@ -1,0 +1,279 @@
+{
+ "players": [
+  {
+   "name": "BEN",
+   "uid": "ThdIVouIYXSExHJuJ4KyrXiJN992"
+  },
+  {
+   "name": "RAUL",
+   "uid": "JTmWSt8JwGNIE3Uu13VmPuXB4bJ2"
+  },
+  {
+   "uid": "m2DacKeT5HhaYvnxyQPNOSdaybi2",
+   "name": "CHRIS"
+  },
+  {
+   "name": "YLL",
+   "uid": "4MS5Aa7cnoNqayTJZoagfsnPReU2"
+  },
+  {
+   "uid": "9rQfS5KFTGNEHRGWqDvkSQ8txlN2",
+   "name": "NOAH"
+  },
+  {
+   "name": "KAYLA",
+   "uid": "oybwby6DsTST1iVIoWmxHjtIer72"
+  },
+  {
+   "name": "VLADIMIR",
+   "uid": "P0rxhWN8m9R946J2dp7tAdLxKwH3"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NOAH",
+      "YLL",
+      "VLADIMIR",
+      "RAUL",
+      "BEN"
+     ],
+     "proposer": "YLL",
+     "team": [
+      "CHRIS",
+      "NOAH"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "CHRIS",
+    "NOAH"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "NOAH",
+    "CHRIS",
+    "RAUL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NOAH",
+      "CHRIS",
+      "RAUL"
+     ],
+     "proposer": "NOAH",
+     "votes": [
+      "CHRIS",
+      "KAYLA",
+      "VLADIMIR",
+      "RAUL",
+      "NOAH",
+      "YLL"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "KAYLA",
+    "NOAH",
+    "CHRIS"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "KAYLA",
+      "NOAH",
+      "CHRIS"
+     ],
+     "state": "APPROVED",
+     "proposer": "KAYLA",
+     "votes": [
+      "CHRIS",
+      "KAYLA",
+      "VLADIMIR",
+      "RAUL",
+      "BEN",
+      "NOAH",
+      "YLL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 2,
+   "failsRequired": 2,
+   "teamSize": 4,
+   "team": [
+    "BEN",
+    "VLADIMIR",
+    "RAUL",
+    "KAYLA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHRIS",
+      "VLADIMIR",
+      "NOAH"
+     ],
+     "team": [
+      "VLADIMIR",
+      "CHRIS",
+      "NOAH",
+      "RAUL"
+     ],
+     "proposer": "VLADIMIR"
+    },
+    {
+     "votes": [
+      "KAYLA",
+      "BEN",
+      "NOAH",
+      "YLL"
+     ],
+     "proposer": "BEN",
+     "team": [
+      "BEN",
+      "VLADIMIR",
+      "RAUL",
+      "KAYLA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "RAUL",
+     "votes": [
+      "KAYLA",
+      "VLADIMIR",
+      "RAUL",
+      "NOAH",
+      "YLL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RAUL",
+      "YLL",
+      "VLADIMIR",
+      "NOAH"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "RAUL",
+    "YLL",
+    "VLADIMIR",
+    "NOAH"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "NOAH": true,
+    "CHRIS": true
+   },
+   {
+    "NOAH": true,
+    "CHRIS": true,
+    "RAUL": true
+   },
+   {
+    "NOAH": false,
+    "CHRIS": true,
+    "KAYLA": true
+   },
+   {
+    "RAUL": true,
+    "BEN": true,
+    "KAYLA": false,
+    "VLADIMIR": false
+   },
+   {
+    "YLL": true,
+    "VLADIMIR": false,
+    "NOAH": false,
+    "RAUL": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRIS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "KAYLA"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "VLADIMIR"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "RAUL"
+   },
+   {
+    "name": "BEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NOAH",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "YLL"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587965287,
+  "_nanoseconds": 381000000
+ },
+ "timeCreated": {
+  "_seconds": 1587964372,
+  "_nanoseconds": 697000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

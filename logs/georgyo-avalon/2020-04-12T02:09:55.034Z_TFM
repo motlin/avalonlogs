@@ -1,0 +1,248 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "SHANNEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "RIANA",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ABBY",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "LUFTHANSA",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "GIDEON",
+    "role": "MERLIN"
+   },
+   {
+    "name": "BIGDADDY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "ABBY": false,
+    "BIGDADDY": true
+   },
+   {
+    "GIDEON": true,
+    "LUFTHANSA": true,
+    "BIGDADDY": true
+   },
+   {
+    "SHANNEN": true,
+    "GIDEON": true,
+    "LUFTHANSA": true,
+    "BIGDADDY": true
+   },
+   {
+    "LUFTHANSA": true,
+    "BIGDADDY": true,
+    "GIDEON": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "LUFTHANSA",
+  "message": "Three successful missions"
+ },
+ "players": [
+  {
+   "name": "SHANNEN",
+   "uid": "Bmj1lOEXSDf17rkHYwYxIWmaFtj2"
+  },
+  {
+   "name": "RIANA",
+   "uid": "2VChPZaqxkVoZmf588Q7jYhm4mG2"
+  },
+  {
+   "uid": "sLuY7Uv3hlSHmTKzJ8QlAGM4rE73",
+   "name": "LUFTHANSA"
+  },
+  {
+   "name": "GIDEON",
+   "uid": "MgTbjImf5aYT60dpMhaICzisqOa2"
+  },
+  {
+   "uid": "ZwgmebDJL5Ta5i5CeWiWzLuEFCz2",
+   "name": "ABBY"
+  },
+  {
+   "uid": "6l82vcN9A5UiR87uXILxNG3w3s42",
+   "name": "BIGDADDY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586657395,
+  "_nanoseconds": 34000000
+ },
+ "timeFinished": {
+  "_seconds": 1586657795,
+  "_nanoseconds": 226975000
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LUFTHANSA",
+      "GIDEON",
+      "RIANA"
+     ],
+     "team": [
+      "LUFTHANSA",
+      "GIDEON"
+     ],
+     "proposer": "GIDEON",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ABBY",
+     "state": "APPROVED",
+     "votes": [
+      "LUFTHANSA",
+      "BIGDADDY",
+      "SHANNEN",
+      "RIANA",
+      "ABBY"
+     ],
+     "team": [
+      "ABBY",
+      "BIGDADDY"
+     ]
+    }
+   ],
+   "team": [
+    "ABBY",
+    "BIGDADDY"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BIGDADDY",
+     "team": [
+      "BIGDADDY",
+      "LUFTHANSA",
+      "GIDEON"
+     ],
+     "votes": [
+      "LUFTHANSA",
+      "GIDEON",
+      "BIGDADDY",
+      "ABBY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "BIGDADDY",
+    "LUFTHANSA",
+    "GIDEON"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "SHANNEN",
+    "LUFTHANSA",
+    "BIGDADDY",
+    "GIDEON"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SHANNEN",
+      "LUFTHANSA",
+      "BIGDADDY",
+      "GIDEON"
+     ],
+     "proposer": "SHANNEN",
+     "votes": [
+      "BIGDADDY",
+      "SHANNEN",
+      "RIANA",
+      "ABBY",
+      "LUFTHANSA",
+      "GIDEON"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "RIANA",
+     "votes": [
+      "SHANNEN",
+      "RIANA",
+      "ABBY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SHANNEN",
+      "RIANA",
+      "BIGDADDY"
+     ]
+    },
+    {
+     "team": [
+      "LUFTHANSA",
+      "GIDEON",
+      "BIGDADDY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BIGDADDY",
+      "SHANNEN",
+      "RIANA",
+      "ABBY",
+      "LUFTHANSA",
+      "GIDEON"
+     ],
+     "proposer": "LUFTHANSA"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "LUFTHANSA",
+    "GIDEON",
+    "BIGDADDY"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ]
+}

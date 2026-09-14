@@ -1,0 +1,339 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "RYANOPP",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RYANALLEN"
+   },
+   {
+    "name": "DAN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "HAILARTHUR"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ANDREA"
+   },
+   {
+    "name": "MELCORE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JASON",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "RYANOPP": false,
+    "MELCORE": true
+   },
+   {
+    "RYANALLEN": true,
+    "ANDREA": false,
+    "HAILARTHUR": true
+   },
+   {
+    "HAILARTHUR": true,
+    "RYANALLEN": true,
+    "JASON": true
+   },
+   {
+    "HAILARTHUR": true,
+    "RYANALLEN": true,
+    "JASON": true,
+    "MELCORE": true
+   },
+   {
+    "MELCORE": true,
+    "HAILARTHUR": true,
+    "JASON": true,
+    "RYANALLEN": true
+   }
+  ],
+  "assassinated": "MELCORE",
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1596598250,
+  "_nanoseconds": 638000000
+ },
+ "timeCreated": {
+  "_seconds": 1596596838,
+  "_nanoseconds": 119000000
+ },
+ "players": [
+  {
+   "name": "RYANOPP",
+   "uid": "C3SrOEHsUeNhxPIJIpoYySoEWPr1"
+  },
+  {
+   "uid": "ufeFRW09jgflKEMlFPOYXC68Shb2",
+   "name": "RYANALLEN"
+  },
+  {
+   "uid": "NhTZ4JdpY6h7wXnOkvIy5eBphSA3",
+   "name": "DAN"
+  },
+  {
+   "uid": "0vHDTeVzMDNlBO9xwS6ErvOd9rv2",
+   "name": "JASON"
+  },
+  {
+   "name": "ANDREA",
+   "uid": "ypYI3jCHJ9NnaccxXLEzwVbAhmF3"
+  },
+  {
+   "uid": "ub7FeJR9iyU1ydo53A0jcYITb3R2",
+   "name": "MELCORE"
+  },
+  {
+   "uid": "TFfo0BPojhVV1WfIWRI20nhESBG3",
+   "name": "HAILARTHUR"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "RYANOPP",
+    "MELCORE"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "MELCORE",
+     "team": [
+      "MELCORE",
+      "JASON"
+     ],
+     "votes": [
+      "DAN",
+      "JASON",
+      "MELCORE"
+     ]
+    },
+    {
+     "team": [
+      "HAILARTHUR",
+      "RYANOPP"
+     ],
+     "votes": [
+      "RYANOPP",
+      "RYANALLEN",
+      "HAILARTHUR"
+     ],
+     "state": "REJECTED",
+     "proposer": "HAILARTHUR"
+    },
+    {
+     "proposer": "RYANOPP",
+     "team": [
+      "RYANOPP",
+      "MELCORE"
+     ],
+     "votes": [
+      "DAN",
+      "JASON",
+      "MELCORE",
+      "RYANOPP"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "RYANALLEN",
+    "ANDREA",
+    "HAILARTHUR"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DAN",
+      "JASON",
+      "RYANALLEN",
+      "HAILARTHUR"
+     ],
+     "team": [
+      "RYANALLEN",
+      "ANDREA",
+      "HAILARTHUR"
+     ],
+     "proposer": "RYANALLEN"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DAN",
+     "votes": [
+      "DAN",
+      "HAILARTHUR",
+      "RYANALLEN"
+     ],
+     "team": [
+      "DAN",
+      "JASON",
+      "HAILARTHUR"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RYANOPP",
+      "JASON",
+      "ANDREA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JASON",
+      "ANDREA",
+      "HAILARTHUR"
+     ],
+     "proposer": "JASON"
+    },
+    {
+     "proposer": "ANDREA",
+     "votes": [
+      "DAN",
+      "ANDREA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANDREA",
+      "DAN",
+      "RYANALLEN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "HAILARTHUR",
+      "RYANALLEN",
+      "JASON"
+     ],
+     "proposer": "MELCORE",
+     "votes": [
+      "JASON",
+      "MELCORE",
+      "DAN",
+      "RYANALLEN"
+     ]
+    }
+   ],
+   "team": [
+    "HAILARTHUR",
+    "RYANALLEN",
+    "JASON"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "HAILARTHUR",
+    "JASON",
+    "RYANALLEN",
+    "MELCORE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HAILARTHUR",
+     "votes": [
+      "HAILARTHUR",
+      "MELCORE",
+      "ANDREA",
+      "RYANALLEN",
+      "JASON"
+     ],
+     "team": [
+      "HAILARTHUR",
+      "JASON",
+      "RYANALLEN",
+      "MELCORE"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "RYANALLEN",
+    "JASON",
+    "MELCORE",
+    "HAILARTHUR"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "RYANOPP",
+      "DAN",
+      "ANDREA",
+      "MELCORE"
+     ],
+     "votes": [
+      "DAN",
+      "MELCORE"
+     ],
+     "proposer": "RYANOPP"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "RYANALLEN",
+     "votes": [
+      "HAILARTHUR",
+      "RYANALLEN",
+      "JASON",
+      "MELCORE"
+     ],
+     "team": [
+      "RYANALLEN",
+      "JASON",
+      "MELCORE",
+      "HAILARTHUR"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "players": [
+  {
+   "name": "EMILY",
+   "uid": "4SsapSIAITbFrsTjAU9pBmanqqa2"
+  },
+  {
+   "uid": "xen6o0h2wrcP30KrH9X4K1PfQYw2",
+   "name": "CHARLOTTE"
+  },
+  {
+   "name": "ABOB",
+   "uid": "FoFNcgOeelVV5JvFO7kdPgZOm4W2"
+  },
+  {
+   "name": "JL",
+   "uid": "CKUfVGORC8ZxiGeQz768PUZb8X23"
+  },
+  {
+   "name": "ABBY",
+   "uid": "2t77tYFfdMYB9btTusZk5SB8DX32"
+  },
+  {
+   "uid": "Nh1F1AaEpoMb0qS2mGPCjETMJyi2",
+   "name": "JAMES"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593355938,
+  "_nanoseconds": 365000000
+ },
+ "missions": [
+  {
+   "team": [
+    "ABOB",
+    "JAMES"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ABOB",
+      "JAMES"
+     ],
+     "proposer": "ABOB",
+     "votes": [
+      "ABBY",
+      "ABOB",
+      "JAMES",
+      "EMILY",
+      "CHARLOTTE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ABBY",
+    "CHARLOTTE",
+    "ABOB"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JL",
+      "JAMES"
+     ],
+     "proposer": "JL",
+     "state": "REJECTED",
+     "team": [
+      "ABOB",
+      "JL",
+      "JAMES"
+     ]
+    },
+    {
+     "proposer": "ABBY",
+     "state": "APPROVED",
+     "team": [
+      "ABBY",
+      "CHARLOTTE",
+      "ABOB"
+     ],
+     "votes": [
+      "CHARLOTTE",
+      "ABBY",
+      "JL",
+      "ABOB"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "JAMES",
+    "EMILY",
+    "ABBY",
+    "CHARLOTTE"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JAMES",
+     "votes": [
+      "EMILY",
+      "CHARLOTTE",
+      "ABBY",
+      "JL",
+      "ABOB",
+      "JAMES"
+     ],
+     "team": [
+      "JAMES",
+      "EMILY",
+      "ABBY",
+      "CHARLOTTE"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "EMILY",
+    "ABOB",
+    "JAMES"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMILY",
+      "CHARLOTTE",
+      "JL",
+      "ABOB",
+      "JAMES"
+     ],
+     "proposer": "EMILY",
+     "team": [
+      "EMILY",
+      "ABOB",
+      "JAMES"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "CHARLOTTE",
+     "votes": [
+      "EMILY",
+      "CHARLOTTE",
+      "JL"
+     ],
+     "team": [
+      "EMILY",
+      "ABOB",
+      "JAMES",
+      "CHARLOTTE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMILY",
+      "ABBY",
+      "ABOB",
+      "JAMES"
+     ],
+     "proposer": "ABOB",
+     "team": [
+      "ABOB",
+      "EMILY",
+      "JAMES",
+      "ABBY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "ABOB",
+    "EMILY",
+    "JAMES",
+    "ABBY"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593356761,
+  "_nanoseconds": 285000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JAMES": true,
+    "ABOB": true
+   },
+   {
+    "ABOB": true,
+    "CHARLOTTE": false,
+    "ABBY": true
+   },
+   {
+    "JAMES": true,
+    "CHARLOTTE": false,
+    "ABBY": true,
+    "EMILY": true
+   },
+   {
+    "JAMES": true,
+    "EMILY": true,
+    "ABOB": true
+   },
+   {
+    "JAMES": true,
+    "ABBY": true,
+    "EMILY": true,
+    "ABOB": true
+   }
+  ],
+  "assassinated": "ABOB",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "CHARLOTTE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ABBY"
+   },
+   {
+    "assassin": true,
+    "name": "JL",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "name": "ABOB",
+    "assassin": false
+   },
+   {
+    "name": "JAMES",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "EMILY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ }
+}

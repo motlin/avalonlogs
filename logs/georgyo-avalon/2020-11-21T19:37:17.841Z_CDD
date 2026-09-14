@@ -1,0 +1,201 @@
+{
+ "players": [
+  {
+   "name": "ARIANA",
+   "uid": "U7kuWt9knnUjUxfTXFz59bD5BA43"
+  },
+  {
+   "uid": "RvQE1B9HQ3fiHYZuYeeu0TMJh8e2",
+   "name": "FERGUS"
+  },
+  {
+   "name": "GRAEME",
+   "uid": "R1eqFjkSFcfdw9idmVyJ6ciEZI02"
+  },
+  {
+   "name": "GEE",
+   "uid": "0w73hKMMAyXXbROfKABLgQJIeDH2"
+  },
+  {
+   "uid": "tveAD0zpE7Wgm97ndF3RImDORfV2",
+   "name": "RYAN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1605987437,
+  "_nanoseconds": 841000000
+ },
+ "outcome": {
+  "assassinated": "GEE",
+  "votes": [
+   {
+    "GEE": true,
+    "GRAEME": true
+   },
+   {
+    "GRAEME": true,
+    "ARIANA": true,
+    "GEE": true
+   },
+   {
+    "GRAEME": true,
+    "GEE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "RYAN",
+    "assassin": true
+   },
+   {
+    "name": "ARIANA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "GEE"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "FERGUS"
+   },
+   {
+    "name": "GRAEME",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "FERGUS",
+     "votes": [
+      "FERGUS"
+     ],
+     "team": [
+      "GEE",
+      "FERGUS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "GRAEME",
+     "votes": [
+      "GRAEME",
+      "GEE",
+      "RYAN",
+      "FERGUS",
+      "ARIANA"
+     ],
+     "team": [
+      "GEE",
+      "GRAEME"
+     ]
+    }
+   ],
+   "team": [
+    "GEE",
+    "GRAEME"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "GEE",
+    "ARIANA",
+    "GRAEME"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "GEE",
+     "team": [
+      "GEE",
+      "ARIANA",
+      "GRAEME"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ARIANA",
+      "RYAN",
+      "GRAEME",
+      "GEE",
+      "FERGUS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "GEE",
+    "GRAEME"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "RYAN",
+      "FERGUS"
+     ],
+     "proposer": "RYAN"
+    },
+    {
+     "team": [
+      "GEE",
+      "GRAEME"
+     ],
+     "votes": [
+      "GRAEME",
+      "ARIANA",
+      "GEE",
+      "FERGUS",
+      "RYAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ARIANA"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [],
+   "state": "PENDING"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605987743,
+  "_nanoseconds": 645000000
+ }
+}

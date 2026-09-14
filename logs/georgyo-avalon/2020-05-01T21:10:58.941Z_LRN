@@ -1,0 +1,278 @@
+{
+ "timeFinished": {
+  "_seconds": 1588369280,
+  "_nanoseconds": 493000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "dT5WiDOLczdm1WcZ8ynCIp41g413",
+   "name": "JASON"
+  },
+  {
+   "uid": "Mm7IZ8fdaFPDOdLrKyffL1o0dhI3",
+   "name": "COLLEEN"
+  },
+  {
+   "uid": "ZjcdhA6yrwa4LWVcsjnnW7LGdeY2",
+   "name": "EMMA"
+  },
+  {
+   "uid": "YZkf5Y8SK7ZCRouunkSGm57MpSO2",
+   "name": "PETERMAN"
+  },
+  {
+   "uid": "5H1fKCBZ7gN3437vFo8nT20vujt2",
+   "name": "KYLE"
+  },
+  {
+   "name": "CUB",
+   "uid": "V5Hx8FAwVANP1rkm1irrKiErg3h1"
+  }
+ ],
+ "missions": [
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "COLLEEN",
+     "votes": [
+      "COLLEEN",
+      "PETERMAN",
+      "CUB",
+      "EMMA"
+     ],
+     "team": [
+      "CUB",
+      "PETERMAN"
+     ]
+    }
+   ],
+   "team": [
+    "CUB",
+    "PETERMAN"
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "EMMA",
+    "KYLE",
+    "JASON"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KYLE",
+      "CUB",
+      "JASON",
+      "PETERMAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "EMMA",
+      "KYLE",
+      "JASON"
+     ],
+     "proposer": "EMMA"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "CUB",
+    "COLLEEN",
+    "EMMA",
+    "JASON"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "COLLEEN",
+      "KYLE",
+      "CUB",
+      "JASON"
+     ],
+     "proposer": "PETERMAN",
+     "state": "REJECTED",
+     "votes": [
+      "JASON",
+      "PETERMAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KYLE",
+      "JASON",
+      "COLLEEN"
+     ],
+     "team": [
+      "COLLEEN",
+      "JASON",
+      "CUB",
+      "KYLE"
+     ],
+     "proposer": "KYLE"
+    },
+    {
+     "proposer": "CUB",
+     "votes": [
+      "CUB",
+      "EMMA",
+      "JASON",
+      "PETERMAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CUB",
+      "COLLEEN",
+      "EMMA",
+      "JASON"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "JASON",
+    "COLLEEN",
+    "CUB"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JASON",
+     "votes": [
+      "JASON",
+      "COLLEEN",
+      "KYLE",
+      "CUB"
+     ],
+     "team": [
+      "JASON",
+      "COLLEEN",
+      "CUB"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "COLLEEN",
+     "state": "APPROVED",
+     "team": [
+      "COLLEEN",
+      "CUB",
+      "JASON",
+      "EMMA"
+     ],
+     "votes": [
+      "CUB",
+      "EMMA",
+      "JASON",
+      "COLLEEN",
+      "PETERMAN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "COLLEEN",
+    "CUB",
+    "JASON",
+    "EMMA"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588367458,
+  "_nanoseconds": 941000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "CUB": true,
+    "PETERMAN": false
+   },
+   {
+    "EMMA": false,
+    "KYLE": true,
+    "JASON": true
+   },
+   {
+    "EMMA": true,
+    "CUB": true,
+    "COLLEEN": true,
+    "JASON": true
+   },
+   {
+    "JASON": true,
+    "CUB": true,
+    "COLLEEN": true
+   },
+   {
+    "CUB": true,
+    "EMMA": false,
+    "JASON": true,
+    "COLLEEN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JASON"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "COLLEEN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "PETERMAN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KYLE"
+   },
+   {
+    "assassin": false,
+    "name": "CUB",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "EMMA",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ }
+}

@@ -1,0 +1,223 @@
+{
+ "players": [
+  {
+   "uid": "zPBITAoA8mUfSa0lFBJTz9FPat02",
+   "name": "ADITHYA"
+  },
+  {
+   "uid": "c0nahfL5laM56X72EMpxST5yEcA2",
+   "name": "CHANDAN"
+  },
+  {
+   "name": "GAUTIST",
+   "uid": "HmQ2lErT1sQwh7KK6ll3iiQVkgx2"
+  },
+  {
+   "uid": "l2WfetfYI1hqg5MzQyeUKIpuZ2F3",
+   "name": "PUCKHOE"
+  },
+  {
+   "name": "RAHUL",
+   "uid": "tx0kcEK6OLReXSxfyfrW6pENoTC3"
+  },
+  {
+   "name": "WUK",
+   "uid": "Bf9S1n7I3tWDXk49SY5BmjNJ8Y02"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "GAUTIST",
+      "CHANDAN",
+      "WUK",
+      "RAHUL",
+      "PUCKHOE",
+      "ADITHYA"
+     ],
+     "team": [
+      "PUCKHOE",
+      "CHANDAN"
+     ],
+     "proposer": "PUCKHOE",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PUCKHOE",
+    "CHANDAN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "RAHUL",
+     "state": "APPROVED",
+     "team": [
+      "RAHUL",
+      "CHANDAN",
+      "PUCKHOE"
+     ],
+     "votes": [
+      "PUCKHOE",
+      "ADITHYA",
+      "CHANDAN",
+      "WUK",
+      "RAHUL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "RAHUL",
+    "CHANDAN",
+    "PUCKHOE"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "RAHUL",
+    "WUK",
+    "CHANDAN",
+    "PUCKHOE"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CHANDAN",
+      "WUK",
+      "RAHUL",
+      "PUCKHOE",
+      "ADITHYA",
+      "GAUTIST"
+     ],
+     "team": [
+      "RAHUL",
+      "WUK",
+      "CHANDAN",
+      "PUCKHOE"
+     ],
+     "state": "APPROVED",
+     "proposer": "WUK"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ADITHYA",
+     "votes": [
+      "PUCKHOE",
+      "ADITHYA",
+      "GAUTIST",
+      "CHANDAN",
+      "WUK",
+      "RAHUL"
+     ],
+     "team": [
+      "ADITHYA",
+      "CHANDAN",
+      "PUCKHOE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ADITHYA",
+    "CHANDAN",
+    "PUCKHOE"
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "RAHUL",
+  "votes": [
+   {
+    "PUCKHOE": true,
+    "CHANDAN": true
+   },
+   {
+    "CHANDAN": true,
+    "PUCKHOE": true,
+    "RAHUL": true
+   },
+   {
+    "PUCKHOE": true,
+    "RAHUL": true,
+    "CHANDAN": true,
+    "WUK": false
+   },
+   {
+    "CHANDAN": true,
+    "ADITHYA": true,
+    "PUCKHOE": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "GAUTIST",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CHANDAN"
+   },
+   {
+    "name": "WUK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "RAHUL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "PUCKHOE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ADITHYA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585980004,
+  "_nanoseconds": 113000000
+ },
+ "timeFinished": {
+  "_seconds": 1585980232,
+  "_nanoseconds": 663426000
+ }
+}

@@ -1,0 +1,238 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ANINDYA",
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2"
+  },
+  {
+   "uid": "7z1d7UkBhLNuope6VRg8Ghr2pmC3",
+   "name": "JET"
+  },
+  {
+   "name": "ERIC",
+   "uid": "ZvAiKsGn1sZFOg51EDIWrEIUYYF2"
+  },
+  {
+   "name": "GEORGE",
+   "uid": "ekB9z2g5m1g4EI4ltUs7k3BbrFG2"
+  },
+  {
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2",
+   "name": "KLAUDIA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605915042,
+  "_nanoseconds": 961000000
+ },
+ "timeCreated": {
+  "_seconds": 1605914714,
+  "_nanoseconds": 745000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GEORGE"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JET"
+   },
+   {
+    "name": "KLAUDIA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ERIC",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ANINDYA"
+   }
+  ],
+  "assassinated": "ERIC",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ANINDYA": true,
+    "ERIC": true
+   },
+   {
+    "GEORGE": true,
+    "ANINDYA": true,
+    "ERIC": true
+   },
+   {
+    "ERIC": true,
+    "ANINDYA": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "GEORGE",
+      "JET"
+     ],
+     "proposer": "GEORGE",
+     "state": "REJECTED",
+     "votes": [
+      "JET",
+      "GEORGE"
+     ]
+    },
+    {
+     "proposer": "KLAUDIA",
+     "votes": [
+      "KLAUDIA",
+      "GEORGE"
+     ],
+     "team": [
+      "KLAUDIA",
+      "GEORGE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ERIC",
+      "ANINDYA"
+     ],
+     "proposer": "ANINDYA",
+     "team": [
+      "ANINDYA",
+      "ERIC"
+     ]
+    },
+    {
+     "votes": [
+      "JET",
+      "KLAUDIA"
+     ],
+     "proposer": "JET",
+     "state": "REJECTED",
+     "team": [
+      "JET",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "proposer": "ERIC",
+     "votes": [
+      "JET",
+      "ANINDYA",
+      "KLAUDIA",
+      "ERIC",
+      "GEORGE"
+     ],
+     "team": [
+      "ERIC",
+      "ANINDYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ERIC",
+    "ANINDYA"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANINDYA",
+      "ERIC",
+      "GEORGE"
+     ],
+     "proposer": "GEORGE",
+     "votes": [
+      "GEORGE",
+      "ANINDYA",
+      "ERIC"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ANINDYA",
+    "ERIC",
+    "GEORGE"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "KLAUDIA",
+     "votes": [
+      "ANINDYA",
+      "KLAUDIA"
+     ],
+     "team": [
+      "KLAUDIA",
+      "ANINDYA"
+     ]
+    },
+    {
+     "proposer": "ANINDYA",
+     "team": [
+      "ANINDYA",
+      "ERIC"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JET",
+      "ANINDYA",
+      "ERIC",
+      "GEORGE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ANINDYA",
+    "ERIC"
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

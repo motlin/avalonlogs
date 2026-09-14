@@ -1,0 +1,335 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "REGIS": true,
+    "CHRISTIAN": false
+   },
+   {
+    "FREDERIC": true,
+    "FABIENNE": true,
+    "LAURA": false
+   },
+   {
+    "FREDERIC": true,
+    "CECILOUVE": true,
+    "REGIS": true,
+    "LAURA": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "LAURA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "REGIS"
+   },
+   {
+    "name": "FREDERIC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "FABIENNE"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "CHRISTIAN"
+   },
+   {
+    "name": "CECILOUVE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "team": [
+    "CHRISTIAN",
+    "REGIS"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "FREDERIC",
+      "CECILOUVE"
+     ],
+     "votes": [
+      "CECILOUVE",
+      "CHRISTIAN",
+      "FREDERIC"
+     ],
+     "proposer": "FREDERIC",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "CECILOUVE",
+     "votes": [
+      "FREDERIC",
+      "CECILOUVE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CECILOUVE",
+      "FREDERIC"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "LAURA",
+     "team": [
+      "LAURA",
+      "FABIENNE"
+     ],
+     "votes": [
+      "CHRISTIAN",
+      "FABIENNE",
+      "LAURA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "FABIENNE",
+     "votes": [
+      "FABIENNE",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "FABIENNE",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "LAURA",
+      "CECILOUVE",
+      "FREDERIC",
+      "CHRISTIAN",
+      "REGIS",
+      "FABIENNE"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "LAURA",
+    "FABIENNE",
+    "FREDERIC"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CECILOUVE",
+      "FABIENNE",
+      "FREDERIC"
+     ],
+     "votes": [
+      "FREDERIC",
+      "CECILOUVE"
+     ],
+     "state": "REJECTED",
+     "proposer": "REGIS"
+    },
+    {
+     "votes": [
+      "CHRISTIAN",
+      "FREDERIC"
+     ],
+     "proposer": "FREDERIC",
+     "team": [
+      "FREDERIC",
+      "LAURA",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CECILOUVE",
+     "team": [
+      "CECILOUVE",
+      "FREDERIC",
+      "FABIENNE"
+     ],
+     "votes": [
+      "FREDERIC",
+      "CECILOUVE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "FABIENNE",
+      "FREDERIC"
+     ],
+     "votes": [
+      "REGIS",
+      "FREDERIC",
+      "FABIENNE",
+      "LAURA"
+     ],
+     "proposer": "LAURA"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "FABIENNE"
+     ],
+     "state": "REJECTED",
+     "proposer": "FABIENNE",
+     "team": [
+      "FABIENNE",
+      "CECILOUVE",
+      "CHRISTIAN",
+      "FREDERIC"
+     ]
+    },
+    {
+     "votes": [
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "CECILOUVE",
+      "FABIENNE",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "FREDERIC",
+      "CECILOUVE",
+      "LAURA",
+      "REGIS"
+     ],
+     "proposer": "REGIS",
+     "votes": []
+    },
+    {
+     "team": [
+      "CECILOUVE",
+      "FREDERIC",
+      "FABIENNE",
+      "REGIS"
+     ],
+     "proposer": "FREDERIC",
+     "state": "REJECTED",
+     "votes": [
+      "CECILOUVE",
+      "FREDERIC"
+     ]
+    },
+    {
+     "team": [
+      "CECILOUVE",
+      "REGIS",
+      "FREDERIC",
+      "LAURA"
+     ],
+     "votes": [
+      "LAURA",
+      "FREDERIC",
+      "REGIS",
+      "CECILOUVE"
+     ],
+     "proposer": "CECILOUVE",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "CECILOUVE",
+    "REGIS",
+    "FREDERIC",
+    "LAURA"
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING"
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "FREDERIC",
+   "uid": "SjAwNkIjANUBqwHVK3f5szy8HZp1"
+  },
+  {
+   "uid": "mrBWU8UQMDRnK01vjUfL8DxG6yj1",
+   "name": "CECILOUVE"
+  },
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "name": "FABIENNE",
+   "uid": "V8ryY793JBQm57d7B7ljEdKdiQ72"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1"
+  },
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1606054011,
+  "_nanoseconds": 420000000
+ },
+ "timeFinished": {
+  "_seconds": 1606056983,
+  "_nanoseconds": 934000000
+ }
+}

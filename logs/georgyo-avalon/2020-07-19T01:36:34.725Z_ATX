@@ -1,0 +1,248 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "DAVE": true,
+    "ANDREA": true
+   },
+   {
+    "DAVE": true,
+    "ANDREA": false,
+    "GRANT": true
+   },
+   {
+    "RYAN": true,
+    "GRANT": true,
+    "RYANOPP": true,
+    "DAVE": true
+   },
+   {
+    "RYANOPP": true,
+    "GRANT": true,
+    "DAVE": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "GRANT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ANDREA"
+   },
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "DAVE"
+   },
+   {
+    "name": "CHAD",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RYANOPP"
+   }
+  ],
+  "assassinated": "GRANT"
+ },
+ "missions": [
+  {
+   "team": [
+    "DAVE",
+    "ANDREA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "DAVE",
+      "ANDREA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RYAN",
+      "CHAD",
+      "DAVE",
+      "ANDREA"
+     ],
+     "proposer": "DAVE"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DAVE",
+      "GRANT",
+      "CHAD",
+      "ANDREA"
+     ],
+     "team": [
+      "GRANT",
+      "DAVE",
+      "ANDREA"
+     ],
+     "proposer": "GRANT"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "GRANT",
+    "DAVE",
+    "ANDREA"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "RYANOPP",
+    "DAVE",
+    "GRANT",
+    "RYAN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CHAD",
+     "team": [
+      "CHAD",
+      "RYANOPP",
+      "RYAN",
+      "DAVE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ANDREA",
+      "CHAD"
+     ]
+    },
+    {
+     "proposer": "ANDREA",
+     "team": [
+      "ANDREA",
+      "RYANOPP",
+      "RYAN",
+      "CHAD"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ANDREA",
+      "CHAD",
+      "GRANT"
+     ]
+    },
+    {
+     "votes": [
+      "RYANOPP",
+      "RYAN",
+      "GRANT",
+      "CHAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYAN",
+     "team": [
+      "RYANOPP",
+      "DAVE",
+      "GRANT",
+      "RYAN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "RYANOPP",
+    "DAVE",
+    "GRANT"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RYANOPP",
+      "DAVE",
+      "GRANT"
+     ],
+     "proposer": "RYANOPP",
+     "votes": [
+      "DAVE",
+      "RYANOPP",
+      "GRANT",
+      "RYAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "RYANOPP",
+   "uid": "C3SrOEHsUeNhxPIJIpoYySoEWPr1"
+  },
+  {
+   "uid": "iOUa7Cu531MGVSEzUPXac5uWT0H3",
+   "name": "DAVE"
+  },
+  {
+   "uid": "8U4y76QlV0YLLwtFsPSMCw8z9Zk2",
+   "name": "GRANT"
+  },
+  {
+   "name": "CHAD",
+   "uid": "rays4zkrV8PI04ODBUqnPjxQI443"
+  },
+  {
+   "uid": "ypYI3jCHJ9NnaccxXLEzwVbAhmF3",
+   "name": "ANDREA"
+  },
+  {
+   "name": "RYAN",
+   "uid": "ufeFRW09jgflKEMlFPOYXC68Shb2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1595123019,
+  "_nanoseconds": 626000000
+ },
+ "timeCreated": {
+  "_seconds": 1595122594,
+  "_nanoseconds": 725000000
+ }
+}

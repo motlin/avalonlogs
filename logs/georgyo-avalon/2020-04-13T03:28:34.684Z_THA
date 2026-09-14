@@ -1,0 +1,294 @@
+{
+ "players": [
+  {
+   "uid": "JrRcfBaqQObmwV6S4nABrotY92V2",
+   "name": "JUSTIN"
+  },
+  {
+   "uid": "mFyxua3yLnfQkrLaEMh5cqQ4DgX2",
+   "name": "JAC"
+  },
+  {
+   "uid": "14SZosBUQnOo3bSLCx1YqzWOlEG3",
+   "name": "LEO"
+  },
+  {
+   "name": "TIFF",
+   "uid": "fIdDViTM1QZz7WRxa4Q8TQ5HZL22"
+  },
+  {
+   "name": "PAUL",
+   "uid": "CeRLpinBZJPdnYyFxuovL18uahD3"
+  },
+  {
+   "name": "BC",
+   "uid": "fsnVaIOi0ZNvfyPuvbrzHbEe6P43"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "TIFF": true,
+    "BC": true
+   },
+   {
+    "TIFF": true,
+    "LEO": true,
+    "PAUL": true
+   },
+   {
+    "BC": true,
+    "TIFF": false,
+    "LEO": true,
+    "PAUL": true
+   },
+   {
+    "LEO": true,
+    "TIFF": false,
+    "JUSTIN": true
+   },
+   {
+    "JAC": true,
+    "LEO": true,
+    "PAUL": true,
+    "JUSTIN": true
+   }
+  ],
+  "assassinated": "JAC",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "TIFF",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "JAC",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JUSTIN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "BC"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "LEO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PAUL",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1586751137,
+  "_nanoseconds": 864207000
+ },
+ "timeCreated": {
+  "_seconds": 1586748514,
+  "_nanoseconds": 684000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BC",
+      "LEO",
+      "PAUL",
+      "TIFF",
+      "JAC",
+      "JUSTIN"
+     ],
+     "team": [
+      "BC",
+      "TIFF"
+     ],
+     "proposer": "TIFF"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "BC",
+    "TIFF"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "PAUL",
+    "LEO",
+    "TIFF"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PAUL",
+      "LEO",
+      "TIFF"
+     ],
+     "votes": [
+      "PAUL",
+      "TIFF",
+      "JAC",
+      "BC",
+      "LEO"
+     ],
+     "proposer": "PAUL"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "LEO",
+    "TIFF",
+    "PAUL",
+    "BC"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "BC",
+     "votes": [
+      "BC",
+      "JAC"
+     ],
+     "team": [
+      "TIFF",
+      "JAC",
+      "PAUL",
+      "LEO"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JUSTIN",
+      "LEO",
+      "TIFF",
+      "PAUL"
+     ],
+     "proposer": "JUSTIN",
+     "votes": [
+      "PAUL",
+      "JAC",
+      "JUSTIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JAC",
+     "votes": [
+      "BC",
+      "JAC"
+     ],
+     "team": [
+      "JAC",
+      "LEO",
+      "TIFF",
+      "PAUL"
+     ]
+    },
+    {
+     "votes": [
+      "BC",
+      "LEO",
+      "PAUL",
+      "JAC"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LEO",
+      "TIFF",
+      "PAUL",
+      "BC"
+     ],
+     "proposer": "LEO"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "BC",
+      "PAUL",
+      "TIFF",
+      "JUSTIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "TIFF",
+     "team": [
+      "TIFF",
+      "LEO",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "team": [
+    "TIFF",
+    "LEO",
+    "JUSTIN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PAUL",
+     "votes": [
+      "JAC",
+      "JUSTIN",
+      "LEO",
+      "PAUL"
+     ],
+     "team": [
+      "PAUL",
+      "JUSTIN",
+      "JAC",
+      "LEO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "PAUL",
+    "JUSTIN",
+    "JAC",
+    "LEO"
+   ],
+   "teamSize": 4,
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

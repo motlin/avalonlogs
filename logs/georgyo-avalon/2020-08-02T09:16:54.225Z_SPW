@@ -1,0 +1,385 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "LEENA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CARO",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "BREADMUND"
+   },
+   {
+    "assassin": false,
+    "name": "JASMINE",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "DARREN",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "WILLIAM"
+   },
+   {
+    "name": "MICHAEL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "MICHAEL",
+  "votes": [
+   {
+    "WILLIAM": true,
+    "DARREN": true
+   },
+   {
+    "BREADMUND": true,
+    "WILLIAM": false,
+    "DARREN": true
+   },
+   {
+    "JASMINE": true,
+    "DARREN": true,
+    "CARO": true
+   },
+   {
+    "CARO": true,
+    "BREADMUND": false,
+    "LEENA": true,
+    "WILLIAM": false
+   },
+   {
+    "DARREN": true,
+    "LEENA": true,
+    "CARO": true,
+    "MICHAEL": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1596362268,
+  "_nanoseconds": 8000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "DARREN",
+     "team": [
+      "DARREN",
+      "WILLIAM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DARREN",
+      "LEENA",
+      "MICHAEL",
+      "CARO",
+      "BREADMUND"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "DARREN",
+    "WILLIAM"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LEENA",
+      "MICHAEL",
+      "CARO",
+      "DARREN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BREADMUND",
+     "team": [
+      "DARREN",
+      "BREADMUND",
+      "WILLIAM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "DARREN",
+    "BREADMUND",
+    "WILLIAM"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JASMINE"
+     ],
+     "team": [
+      "MICHAEL",
+      "BREADMUND",
+      "WILLIAM"
+     ],
+     "proposer": "MICHAEL"
+    },
+    {
+     "team": [
+      "LEENA",
+      "DARREN",
+      "CARO"
+     ],
+     "proposer": "LEENA",
+     "state": "REJECTED",
+     "votes": [
+      "CARO",
+      "LEENA",
+      "DARREN"
+     ]
+    },
+    {
+     "votes": [
+      "MICHAEL",
+      "CARO",
+      "JASMINE"
+     ],
+     "team": [
+      "WILLIAM",
+      "JASMINE",
+      "MICHAEL"
+     ],
+     "proposer": "WILLIAM",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JASMINE",
+      "WILLIAM",
+      "DARREN"
+     ],
+     "proposer": "JASMINE",
+     "state": "REJECTED",
+     "votes": [
+      "JASMINE",
+      "WILLIAM",
+      "CARO"
+     ]
+    },
+    {
+     "votes": [
+      "BREADMUND",
+      "JASMINE",
+      "CARO",
+      "MICHAEL",
+      "LEENA",
+      "WILLIAM",
+      "DARREN"
+     ],
+     "team": [
+      "CARO",
+      "JASMINE",
+      "DARREN"
+     ],
+     "state": "APPROVED",
+     "proposer": "CARO"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "CARO",
+    "JASMINE",
+    "DARREN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "team": [
+    "BREADMUND",
+    "LEENA",
+    "CARO",
+    "WILLIAM"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "JASMINE",
+      "DARREN",
+      "CARO",
+      "BREADMUND"
+     ],
+     "votes": [
+      "MICHAEL"
+     ],
+     "proposer": "DARREN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BREADMUND",
+     "team": [
+      "BREADMUND",
+      "LEENA",
+      "CARO",
+      "WILLIAM"
+     ],
+     "votes": [
+      "LEENA",
+      "DARREN",
+      "BREADMUND",
+      "CARO"
+     ]
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MICHAEL",
+     "state": "REJECTED",
+     "team": [
+      "MICHAEL",
+      "JASMINE",
+      "WILLIAM",
+      "CARO"
+     ],
+     "votes": [
+      "MICHAEL"
+     ]
+    },
+    {
+     "votes": [
+      "LEENA"
+     ],
+     "team": [
+      "LEENA",
+      "JASMINE",
+      "CARO",
+      "MICHAEL"
+     ],
+     "proposer": "LEENA",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "WILLIAM",
+     "votes": [
+      "JASMINE",
+      "WILLIAM",
+      "LEENA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CARO",
+      "WILLIAM",
+      "JASMINE",
+      "DARREN"
+     ]
+    },
+    {
+     "proposer": "JASMINE",
+     "state": "REJECTED",
+     "votes": [
+      "JASMINE",
+      "CARO"
+     ],
+     "team": [
+      "DARREN",
+      "LEENA",
+      "JASMINE",
+      "CARO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CARO",
+      "DARREN",
+      "LEENA",
+      "MICHAEL"
+     ],
+     "votes": [
+      "BREADMUND",
+      "MICHAEL",
+      "CARO",
+      "JASMINE",
+      "DARREN",
+      "LEENA"
+     ],
+     "proposer": "CARO"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "CARO",
+    "DARREN",
+    "LEENA",
+    "MICHAEL"
+   ],
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "uid": "BxJb0DIQGxcyqPgk7W0EgHfAvqI2",
+   "name": "JASMINE"
+  },
+  {
+   "uid": "Pgr7sqzoAuOFD8C0PKVh59wzKcz2",
+   "name": "CARO"
+  },
+  {
+   "name": "DARREN",
+   "uid": "ylxfxhjqJWfb4ZvcIj26uYP8qd43"
+  },
+  {
+   "uid": "ZleV8VS0rdNaMHEtwUCmOZRzPc23",
+   "name": "BREADMUND"
+  },
+  {
+   "uid": "S3M5oqQIgyQCHmVTPXnmJDA0RnI2",
+   "name": "MICHAEL"
+  },
+  {
+   "uid": "SeIfUVyJvtUT0rF5IC3U2FJFSNl2",
+   "name": "LEENA"
+  },
+  {
+   "name": "WILLIAM",
+   "uid": "6JEt1bjRxeZiO8Uo08lKXQTKe8i1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596359814,
+  "_nanoseconds": 225000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

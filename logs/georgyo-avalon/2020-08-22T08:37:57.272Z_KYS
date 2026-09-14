@@ -1,0 +1,280 @@
+{
+ "missions": [
+  {
+   "team": [
+    "KLAY",
+    "AMEYA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KLAY",
+      "AMEYA"
+     ],
+     "proposer": "AMEYA",
+     "votes": [
+      "BRYANT",
+      "MEMO",
+      "NICK",
+      "ROHAN",
+      "SHRAVAN",
+      "KLAY",
+      "AMEYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "AMEYA",
+    "KLAY",
+    "MEMO"
+   ],
+   "proposals": [
+    {
+     "proposer": "MEMO",
+     "votes": [
+      "ROHAN",
+      "MEMO",
+      "SHRAVAN",
+      "KLAY",
+      "NICK",
+      "BRYANT"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AMEYA",
+      "KLAY",
+      "MEMO"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "NICK",
+    "AMEYA",
+    "BRYANT"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SHRAVAN",
+      "KLAY",
+      "BRYANT"
+     ],
+     "team": [
+      "SHRAVAN",
+      "KLAY",
+      "NICK"
+     ],
+     "proposer": "SHRAVAN"
+    },
+    {
+     "votes": [
+      "BRYANT",
+      "AMEYA",
+      "ROHAN",
+      "KLAY",
+      "MEMO",
+      "NICK"
+     ],
+     "proposer": "NICK",
+     "state": "APPROVED",
+     "team": [
+      "NICK",
+      "AMEYA",
+      "BRYANT"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ROHAN",
+      "KLAY",
+      "SHRAVAN",
+      "NICK"
+     ],
+     "votes": [
+      "MEMO",
+      "NICK",
+      "KLAY",
+      "SHRAVAN",
+      "ROHAN",
+      "BRYANT"
+     ],
+     "state": "APPROVED",
+     "proposer": "ROHAN"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "ROHAN",
+    "KLAY",
+    "SHRAVAN",
+    "NICK"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "BRYANT",
+    "ROHAN",
+    "SHRAVAN",
+    "MEMO"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BRYANT",
+      "ROHAN",
+      "SHRAVAN",
+      "MEMO"
+     ],
+     "proposer": "BRYANT",
+     "votes": [
+      "SHRAVAN",
+      "ROHAN",
+      "BRYANT",
+      "MEMO"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1598086651,
+  "_nanoseconds": 352000000
+ },
+ "players": [
+  {
+   "name": "SHRAVAN",
+   "uid": "JbCckK6FAEQcLuHKAvN69wqbOS73"
+  },
+  {
+   "name": "NICK",
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03"
+  },
+  {
+   "uid": "kxOTeulhGKcu2MOCO9lYm5giHP82",
+   "name": "ROHAN"
+  },
+  {
+   "name": "BRYANT",
+   "uid": "U6scF13Z1JREsmyEZfa2cjw35qB3"
+  },
+  {
+   "name": "KLAY",
+   "uid": "V4SAGCzS9KMfXt2eiWuWhKXSMm12"
+  },
+  {
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13",
+   "name": "AMEYA"
+  },
+  {
+   "name": "MEMO",
+   "uid": "1FdWUDx8sCeb6EZoZXIQJlZsnTJ3"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "BRYANT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "KLAY"
+   },
+   {
+    "assassin": true,
+    "name": "ROHAN",
+    "role": "MORDRED"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "NICK"
+   },
+   {
+    "role": "MORGANA",
+    "name": "MEMO",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SHRAVAN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AMEYA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KLAY": true,
+    "AMEYA": true
+   },
+   {
+    "MEMO": false,
+    "KLAY": true,
+    "AMEYA": true
+   },
+   {
+    "NICK": false,
+    "BRYANT": true,
+    "AMEYA": true
+   },
+   {
+    "SHRAVAN": true,
+    "ROHAN": true,
+    "NICK": true,
+    "KLAY": true
+   },
+   {
+    "SHRAVAN": true,
+    "ROHAN": false,
+    "BRYANT": true,
+    "MEMO": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1598085477,
+  "_nanoseconds": 272000000
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "AND"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALLEN",
+    "assassin": false
+   },
+   {
+    "name": "SNOOZY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MASTERDIZ",
+    "assassin": false
+   },
+   {
+    "name": "MAX",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MAX": false,
+    "AND": true
+   },
+   {
+    "SNOOZY": false,
+    "MASTERDIZ": true,
+    "AND": true
+   },
+   {
+    "MAX": false,
+    "SNOOZY": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "AND",
+    "MAX"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "AND",
+      "MAX"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AND",
+      "MAX",
+      "ALLEN"
+     ],
+     "proposer": "AND"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MAX",
+      "ALLEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ALLEN",
+      "MASTERDIZ",
+      "MAX"
+     ],
+     "proposer": "ALLEN"
+    },
+    {
+     "proposer": "MASTERDIZ",
+     "state": "APPROVED",
+     "votes": [
+      "MASTERDIZ",
+      "AND",
+      "SNOOZY"
+     ],
+     "team": [
+      "MASTERDIZ",
+      "AND",
+      "SNOOZY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MASTERDIZ",
+    "AND",
+    "SNOOZY"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "MAX",
+    "SNOOZY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MAX",
+      "MASTERDIZ",
+      "ALLEN",
+      "SNOOZY"
+     ],
+     "proposer": "MAX",
+     "state": "APPROVED",
+     "team": [
+      "MAX",
+      "SNOOZY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1600577581,
+  "_nanoseconds": 861000000
+ },
+ "players": [
+  {
+   "name": "ALLEN",
+   "uid": "Otyhww6DQZPfdwldw6MRDatkS5I3"
+  },
+  {
+   "name": "MASTERDIZ",
+   "uid": "asYRGAHN8da7cFG4KyWpG3zDLt13"
+  },
+  {
+   "uid": "oGCzA6emXjSBN5FkPEEEI5MDQ5p2",
+   "name": "MAX"
+  },
+  {
+   "name": "SNOOZY",
+   "uid": "6FxoWQTRccRcdtpqpaXbxRoBMP52"
+  },
+  {
+   "uid": "zQNLjUvTDpVWY4lIMhxwoKBgYjf2",
+   "name": "AND"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1600577277,
+  "_nanoseconds": 563000000
+ }
+}

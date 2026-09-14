@@ -1,0 +1,214 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "OLIVER",
+  "votes": [
+   {
+    "ARTHUR": false,
+    "PIR": true
+   },
+   {
+    "PIR": true,
+    "YAP": true,
+    "OLIVER": true
+   },
+   {
+    "PIR": true,
+    "OLIVER": true
+   },
+   {
+    "YAP": true,
+    "OLIVER": true,
+    "PIR": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "OLIVER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "YAP",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "PIR"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MERLOT"
+   },
+   {
+    "name": "ARTHUR",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "PIR",
+      "MERLOT",
+      "ARTHUR",
+      "OLIVER",
+      "YAP"
+     ],
+     "proposer": "ARTHUR",
+     "team": [
+      "ARTHUR",
+      "PIR"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ARTHUR",
+    "PIR"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PIR",
+      "OLIVER",
+      "YAP"
+     ],
+     "votes": [
+      "PIR",
+      "OLIVER",
+      "YAP"
+     ],
+     "proposer": "PIR"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "PIR",
+    "OLIVER",
+    "YAP"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "PIR",
+    "OLIVER"
+   ],
+   "proposals": [
+    {
+     "proposer": "OLIVER",
+     "team": [
+      "OLIVER",
+      "YAP"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "OLIVER",
+      "YAP"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "PIR",
+      "OLIVER"
+     ],
+     "votes": [
+      "OLIVER",
+      "PIR",
+      "MERLOT"
+     ],
+     "proposer": "MERLOT"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "PIR",
+    "OLIVER",
+    "YAP"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "YAP",
+     "votes": [
+      "PIR",
+      "OLIVER",
+      "YAP"
+     ],
+     "team": [
+      "PIR",
+      "OLIVER",
+      "YAP"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1595728716,
+  "_nanoseconds": 837000000
+ },
+ "players": [
+  {
+   "name": "ARTHUR",
+   "uid": "BsTDBnCYKtTWrK25R25k0gAP7Oy1"
+  },
+  {
+   "name": "PIR",
+   "uid": "6s7BIgnhgLf2G0ugJCrfgOXR7Jt2"
+  },
+  {
+   "uid": "BgUpMd2mM9OsJ2kM6d1w5XruWzQ2",
+   "name": "OLIVER"
+  },
+  {
+   "uid": "kGEvWOQJzQaBzcbtTlGxs4AOx6B3",
+   "name": "MERLOT"
+  },
+  {
+   "name": "YAP",
+   "uid": "1DiDnVS5IeRwgSRAwvGsuQ4SWTt2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595728238,
+  "_nanoseconds": 731000000
+ }
+}

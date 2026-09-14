@@ -1,0 +1,303 @@
+{
+ "players": [
+  {
+   "name": "SHERRON",
+   "uid": "iI8TllPrcOcmBW2hiXpf85AvkaT2"
+  },
+  {
+   "uid": "nOMxwYDGXDO7kTQHrcMaGIkQz2d2",
+   "name": "JERRY"
+  },
+  {
+   "name": "JEFFBEZOS",
+   "uid": "KEbIF9KqJKakLPe7Xuw5AsPcRYE3"
+  },
+  {
+   "uid": "WZoZlTOGCKRi2v2lsulVyl1Vs673",
+   "name": "TONY"
+  },
+  {
+   "uid": "68SY1muqLkNFAIbtZeAgJhRCiha2",
+   "name": "IGLOO"
+  },
+  {
+   "uid": "0lPie4PuNtTvLIOFYtv8TkmotaZ2",
+   "name": "BITCH"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JERRY",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "JEFFBEZOS",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "BITCH",
+    "assassin": false
+   },
+   {
+    "name": "TONY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SHERRON"
+   },
+   {
+    "assassin": true,
+    "name": "IGLOO",
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JEFFBEZOS": false,
+    "BITCH": true
+   },
+   {
+    "SHERRON": true,
+    "TONY": true,
+    "JERRY": true
+   },
+   {
+    "IGLOO": true,
+    "TONY": true,
+    "JEFFBEZOS": false,
+    "SHERRON": true
+   },
+   {
+    "TONY": true,
+    "JEFFBEZOS": false,
+    "JERRY": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "BITCH",
+    "JEFFBEZOS"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "SHERRON",
+      "IGLOO",
+      "JEFFBEZOS",
+      "BITCH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BITCH",
+      "JEFFBEZOS"
+     ],
+     "proposer": "IGLOO"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BITCH"
+     ],
+     "team": [
+      "BITCH",
+      "TONY",
+      "JERRY"
+     ],
+     "proposer": "BITCH"
+    },
+    {
+     "votes": [
+      "SHERRON",
+      "IGLOO",
+      "JERRY",
+      "JEFFBEZOS",
+      "BITCH",
+      "TONY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SHERRON",
+      "TONY",
+      "JERRY"
+     ],
+     "proposer": "SHERRON"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "SHERRON",
+    "TONY",
+    "JERRY"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "SHERRON",
+    "IGLOO",
+    "JEFFBEZOS",
+    "TONY"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SHERRON",
+      "JERRY",
+      "IGLOO",
+      "JEFFBEZOS"
+     ],
+     "proposer": "JERRY",
+     "votes": [
+      "SHERRON",
+      "JERRY",
+      "JEFFBEZOS"
+     ]
+    },
+    {
+     "proposer": "JEFFBEZOS",
+     "votes": [
+      "SHERRON",
+      "IGLOO",
+      "JEFFBEZOS"
+     ],
+     "team": [
+      "JEFFBEZOS",
+      "IGLOO",
+      "SHERRON",
+      "TONY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TONY",
+      "IGLOO",
+      "BITCH",
+      "SHERRON"
+     ],
+     "state": "REJECTED",
+     "proposer": "TONY",
+     "votes": [
+      "TONY",
+      "SHERRON"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SHERRON",
+      "IGLOO",
+      "JEFFBEZOS",
+      "TONY"
+     ],
+     "proposer": "IGLOO",
+     "votes": [
+      "SHERRON",
+      "IGLOO",
+      "JERRY",
+      "JEFFBEZOS",
+      "TONY"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "JERRY",
+    "TONY",
+    "JEFFBEZOS"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "BITCH",
+     "state": "REJECTED",
+     "votes": [
+      "IGLOO",
+      "BITCH"
+     ],
+     "team": [
+      "JERRY",
+      "BITCH",
+      "TONY"
+     ]
+    },
+    {
+     "votes": [
+      "BITCH",
+      "TONY",
+      "SHERRON"
+     ],
+     "proposer": "SHERRON",
+     "state": "REJECTED",
+     "team": [
+      "SHERRON",
+      "JERRY",
+      "TONY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JERRY",
+     "votes": [
+      "IGLOO",
+      "JERRY",
+      "JEFFBEZOS",
+      "TONY",
+      "SHERRON"
+     ],
+     "team": [
+      "JERRY",
+      "TONY",
+      "JEFFBEZOS"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585618308,
+  "_nanoseconds": 718000000
+ },
+ "timeFinished": {
+  "_seconds": 1585619452,
+  "_nanoseconds": 193645000
+ }
+}

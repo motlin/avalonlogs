@@ -1,0 +1,256 @@
+{
+ "timeFinished": {
+  "_seconds": 1613841664,
+  "_nanoseconds": 834000000
+ },
+ "timeCreated": {
+  "_seconds": 1613840532,
+  "_nanoseconds": 448000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ELISHA": true,
+    "VT": true
+   },
+   {
+    "VT": true,
+    "EK": true,
+    "ELISHA": false
+   },
+   {
+    "VT": true,
+    "BRI": true,
+    "WH": true,
+    "ELISHA": false
+   },
+   {
+    "EK": true,
+    "BRI": true,
+    "VT": true
+   },
+   {
+    "VT": true,
+    "WH": true,
+    "EK": true,
+    "BRI": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "WH",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ELISHA"
+   },
+   {
+    "name": "WH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "MINS",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "EK",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "VT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BRI",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "DPVMJ31HWUV3pXv0WfCzka3qwtJ3",
+   "name": "VT"
+  },
+  {
+   "name": "WH",
+   "uid": "8Ib5MlVwaLUcXxaftA55Hn98BSh1"
+  },
+  {
+   "name": "BRI",
+   "uid": "NZbptDZ2p4MNxS0pIAboiezWjw52"
+  },
+  {
+   "uid": "YdYUD6L2tbTVRMU81ddxRxmLwSI3",
+   "name": "MINS"
+  },
+  {
+   "name": "EK",
+   "uid": "qDw6ZC8XfdPjbjxnXSbYEAq1Aw13"
+  },
+  {
+   "uid": "VFBT7hmY8eNzUU9XOgnQzr59d3N2",
+   "name": "ELISHA"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ELISHA",
+      "MINS",
+      "WH",
+      "EK",
+      "VT",
+      "BRI"
+     ],
+     "proposer": "MINS",
+     "team": [
+      "VT",
+      "ELISHA"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "VT",
+    "ELISHA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "VT",
+    "EK",
+    "ELISHA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "VT",
+      "EK",
+      "ELISHA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WH",
+      "VT",
+      "MINS",
+      "EK",
+      "ELISHA"
+     ],
+     "proposer": "EK"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "VT",
+      "MINS",
+      "ELISHA",
+      "BRI",
+      "WH",
+      "EK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "VT",
+      "BRI",
+      "WH",
+      "ELISHA"
+     ],
+     "proposer": "ELISHA"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "VT",
+    "BRI",
+    "WH",
+    "ELISHA"
+   ]
+  },
+  {
+   "team": [
+    "VT",
+    "EK",
+    "BRI"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "VT",
+      "EK",
+      "BRI"
+     ],
+     "proposer": "VT",
+     "votes": [
+      "VT",
+      "BRI",
+      "MINS",
+      "EK",
+      "WH"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "VT",
+    "WH",
+    "EK",
+    "BRI"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ELISHA",
+      "BRI",
+      "VT",
+      "EK",
+      "MINS",
+      "WH"
+     ],
+     "team": [
+      "VT",
+      "WH",
+      "EK",
+      "BRI"
+     ],
+     "proposer": "WH"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  }
+ ]
+}

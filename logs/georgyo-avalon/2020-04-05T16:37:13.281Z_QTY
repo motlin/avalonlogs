@@ -1,0 +1,236 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "BOW",
+    "BABYSHARK"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BOW",
+      "BABYSHARK"
+     ],
+     "votes": [
+      "BABYSHARK",
+      "BOW",
+      "ARNAU",
+      "LAURA"
+     ],
+     "proposer": "BOW"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "EDUBOA",
+    "LAURA",
+    "ARNAU"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ARNAU",
+      "EDUBOA",
+      "LAURA"
+     ],
+     "team": [
+      "EDUBOA",
+      "LAURA",
+      "ARNAU"
+     ],
+     "state": "APPROVED",
+     "proposer": "EDUBOA"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "LAURA",
+     "votes": [
+      "EDUBOA",
+      "LAURA",
+      "BOW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "BOW"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "LAURA",
+    "BOW"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ARNAU",
+      "LAURA"
+     ],
+     "proposer": "ARNAU",
+     "state": "REJECTED",
+     "team": [
+      "BABYSHARK",
+      "LAURA",
+      "ARNAU"
+     ]
+    },
+    {
+     "team": [
+      "BABYSHARK",
+      "BOW",
+      "LAURA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LAURA",
+      "BABYSHARK",
+      "BOW"
+     ],
+     "proposer": "BABYSHARK"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "BABYSHARK",
+    "BOW",
+    "LAURA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ARNAU",
+      "LAURA",
+      "BOW"
+     ],
+     "proposer": "BOW",
+     "state": "APPROVED",
+     "team": [
+      "BOW",
+      "ARNAU",
+      "LAURA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "team": [
+    "BOW",
+    "ARNAU",
+    "LAURA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586105059,
+  "_nanoseconds": 110269000
+ },
+ "timeCreated": {
+  "_seconds": 1586104633,
+  "_nanoseconds": 281000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "EDUBOA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "LAURA"
+   },
+   {
+    "name": "BABYSHARK",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BOW",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ARNAU",
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "BABYSHARK": true,
+    "BOW": true
+   },
+   {
+    "ARNAU": true,
+    "EDUBOA": true,
+    "LAURA": false
+   },
+   {
+    "BOW": true,
+    "LAURA": true
+   },
+   {
+    "LAURA": false,
+    "BOW": true,
+    "BABYSHARK": true
+   },
+   {
+    "BOW": true,
+    "LAURA": false,
+    "ARNAU": false
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "Y7zrRnBe3gXYPlrQibB7dLNgVjJ2",
+   "name": "ARNAU"
+  },
+  {
+   "name": "BABYSHARK",
+   "uid": "zxZMfDIw4ZReV5he9KNT4xmPG0k1"
+  },
+  {
+   "uid": "8msGxRfJfpbejMPBeQZ9vD0lG0G3",
+   "name": "BOW"
+  },
+  {
+   "name": "EDUBOA",
+   "uid": "b36hCSuoZcRWq749Lf9dVaNVr1w1"
+  },
+  {
+   "name": "LAURA",
+   "uid": "k6JBF5FubXgPGj2c2FEipVp2R4z1"
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "timeFinished": {
+  "_seconds": 1589058467,
+  "_nanoseconds": 857000000
+ },
+ "players": [
+  {
+   "name": "TIJ",
+   "uid": "3iAiXN0yfRaXNIq2VUwTqJTaLKg1"
+  },
+  {
+   "name": "PANU",
+   "uid": "3g6ZWmzSRNdMOprXB6tDmlJuQAh1"
+  },
+  {
+   "uid": "9P0V9tviEyUpsiZWdDrhYax0QcX2",
+   "name": "ZO"
+  },
+  {
+   "name": "ANDREA",
+   "uid": "Kwj19x8UtKgoXRjs91NSDKueODf2"
+  },
+  {
+   "name": "JOAN",
+   "uid": "uJqmz2r5XjR3CPMx5nbY3pVUdDv2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589058225,
+  "_nanoseconds": 878000000
+ },
+ "outcome": {
+  "assassinated": "TIJ",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ANDREA": true,
+    "PANU": true
+   },
+   {
+    "TIJ": true,
+    "PANU": true,
+    "ANDREA": true
+   },
+   {
+    "PANU": true,
+    "ANDREA": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ANDREA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "PANU",
+    "assassin": false
+   },
+   {
+    "name": "ZO",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "TIJ",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "JOAN",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "PANU",
+    "ANDREA"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "PANU",
+      "ANDREA"
+     ],
+     "proposer": "PANU",
+     "state": "APPROVED",
+     "votes": [
+      "ZO",
+      "TIJ",
+      "JOAN",
+      "ANDREA",
+      "PANU"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ZO"
+     ],
+     "proposer": "ZO",
+     "state": "REJECTED",
+     "team": [
+      "ZO",
+      "ANDREA",
+      "JOAN"
+     ]
+    },
+    {
+     "votes": [
+      "ANDREA",
+      "PANU",
+      "TIJ"
+     ],
+     "team": [
+      "ANDREA",
+      "PANU",
+      "TIJ"
+     ],
+     "proposer": "ANDREA",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ANDREA",
+    "PANU",
+    "TIJ"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PANU",
+      "ZO",
+      "TIJ",
+      "JOAN",
+      "ANDREA"
+     ],
+     "team": [
+      "PANU",
+      "ANDREA"
+     ],
+     "proposer": "JOAN"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "PANU",
+    "ANDREA"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  }
+ ]
+}

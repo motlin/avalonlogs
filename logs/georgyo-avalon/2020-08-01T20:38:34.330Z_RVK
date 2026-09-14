@@ -1,0 +1,316 @@
+{
+ "timeCreated": {
+  "_seconds": 1596314314,
+  "_nanoseconds": 330000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "BIGSEAN",
+   "uid": "uU9NcraRO7XFdadCM4amln4SJp22"
+  },
+  {
+   "name": "ALICIA",
+   "uid": "H1Q4ZTRfD0Suh1SdvaGBwgmwQmv2"
+  },
+  {
+   "uid": "YuRp7TbeoNcvrkaRif1yMVU32c73",
+   "name": "KEVIN"
+  },
+  {
+   "name": "JENNIFER",
+   "uid": "aDKyTC5bKSa41aLePhHkGUKJBV02"
+  },
+  {
+   "name": "BHUANG",
+   "uid": "gIb6RTcM5xdmEfK4RfVh785Pf963"
+  },
+  {
+   "name": "CHUN",
+   "uid": "2UjwykEbuASrqm7FKa4L5fRpp7A3"
+  },
+  {
+   "name": "CAM",
+   "uid": "ewXF5bvfp2RzbrsauUnglYNhiuB2"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "CAM": true,
+    "CHUN": true
+   },
+   {
+    "CAM": true,
+    "CHUN": false,
+    "BIGSEAN": true
+   },
+   {
+    "CAM": true,
+    "KEVIN": true,
+    "CHUN": false
+   },
+   {
+    "BHUANG": true,
+    "BIGSEAN": true,
+    "KEVIN": true,
+    "CAM": true
+   },
+   {
+    "BHUANG": true,
+    "CAM": true,
+    "ALICIA": false,
+    "KEVIN": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "CAM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ALICIA",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "BIGSEAN"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BHUANG",
+    "assassin": false
+   },
+   {
+    "name": "JENNIFER",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "CHUN",
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "JENNIFER",
+      "KEVIN",
+      "ALICIA",
+      "CAM",
+      "BIGSEAN",
+      "CHUN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHUN",
+      "CAM"
+     ],
+     "proposer": "CHUN"
+    }
+   ],
+   "team": [
+    "CHUN",
+    "CAM"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CHUN",
+      "ALICIA",
+      "BIGSEAN",
+      "CAM",
+      "JENNIFER"
+     ],
+     "proposer": "CAM",
+     "team": [
+      "CHUN",
+      "CAM",
+      "BIGSEAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "CHUN",
+    "CAM",
+    "BIGSEAN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "CAM",
+    "KEVIN",
+    "CHUN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CAM",
+      "BIGSEAN",
+      "BHUANG"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CAM",
+      "BIGSEAN",
+      "BHUANG"
+     ],
+     "proposer": "BIGSEAN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ALICIA",
+      "KEVIN",
+      "BIGSEAN"
+     ],
+     "proposer": "ALICIA",
+     "votes": [
+      "ALICIA",
+      "CHUN"
+     ]
+    },
+    {
+     "votes": [
+      "KEVIN",
+      "CHUN",
+      "CAM",
+      "JENNIFER"
+     ],
+     "proposer": "KEVIN",
+     "state": "APPROVED",
+     "team": [
+      "CAM",
+      "KEVIN",
+      "CHUN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "BHUANG",
+    "KEVIN",
+    "BIGSEAN",
+    "CAM"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "BHUANG",
+      "JENNIFER"
+     ],
+     "proposer": "JENNIFER",
+     "state": "REJECTED",
+     "team": [
+      "BIGSEAN",
+      "CHUN",
+      "JENNIFER",
+      "BHUANG"
+     ]
+    },
+    {
+     "team": [
+      "BHUANG",
+      "KEVIN",
+      "BIGSEAN",
+      "CAM"
+     ],
+     "proposer": "BHUANG",
+     "votes": [
+      "CAM",
+      "BHUANG",
+      "BIGSEAN",
+      "KEVIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "CAM",
+    "KEVIN",
+    "BHUANG",
+    "ALICIA"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHUN",
+     "team": [
+      "CHUN",
+      "BIGSEAN",
+      "CAM",
+      "BHUANG"
+     ],
+     "votes": [
+      "BHUANG",
+      "JENNIFER",
+      "CHUN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CAM",
+      "ALICIA",
+      "BHUANG",
+      "CHUN"
+     ],
+     "proposer": "CAM",
+     "team": [
+      "CAM",
+      "KEVIN",
+      "BHUANG",
+      "ALICIA"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596315546,
+  "_nanoseconds": 480000000
+ }
+}

@@ -1,0 +1,533 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "CHRISTIAN": true,
+    "OCEANE": false,
+    "NATACHA": true
+   },
+   {
+    "REGIS": true,
+    "NATACHA": true,
+    "FARID": false,
+    "AURELIA": true
+   },
+   {
+    "REGIS": true,
+    "NATACHA": true,
+    "CHRISTIAN": true,
+    "CEDRIC": true
+   },
+   {
+    "REGIS": true,
+    "LAURA": true,
+    "CHRISTIAN": true,
+    "CEDRIC": true,
+    "NATACHA": true
+   },
+   {
+    "REGIS": true,
+    "CEDRIC": true,
+    "NATACHA": true,
+    "CHRISTIAN": true,
+    "LAURA": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LAURA"
+   },
+   {
+    "name": "CEDRIC",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "REGIS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "AURELIA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NATACHA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "CECILE"
+   },
+   {
+    "assassin": false,
+    "name": "OCEANE",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "FARID",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "CHRISTIAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three missions succeeded"
+ },
+ "players": [
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "uid": "t3hmiC7r8wW7e7CCSa3XJ8KkIAc2",
+   "name": "AURELIA"
+  },
+  {
+   "name": "CECILE",
+   "uid": "Xybo3Pw6qbdtbBJF3Hn2pCnT2Rr1"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1"
+  },
+  {
+   "uid": "dWhKtNjRmzaDgW5SxDRLYyDaryF2",
+   "name": "OCEANE"
+  },
+  {
+   "name": "NATACHA",
+   "uid": "gc5PzWKNXOMxvBTQFEzte6qVRNr2"
+  },
+  {
+   "name": "CEDRIC",
+   "uid": "e6SFzKVMZdbZtFKNryUsTye9UOw2"
+  },
+  {
+   "uid": "gOxLJaoqrvPnwE8TrF9eMsgIkr53",
+   "name": "FARID"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589049839,
+  "_nanoseconds": 466000000
+ },
+ "missions": [
+  {
+   "team": [
+    "CHRISTIAN",
+    "NATACHA",
+    "OCEANE"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "AURELIA",
+     "state": "REJECTED",
+     "votes": [
+      "CHRISTIAN",
+      "AURELIA",
+      "FARID"
+     ],
+     "team": [
+      "AURELIA",
+      "FARID",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "votes": [
+      "CECILE",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CECILE",
+      "LAURA",
+      "NATACHA"
+     ],
+     "proposer": "CECILE"
+    },
+    {
+     "team": [
+      "AURELIA",
+      "CHRISTIAN",
+      "FARID"
+     ],
+     "votes": [
+      "FARID",
+      "CHRISTIAN"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "CHRISTIAN",
+      "NATACHA",
+      "OCEANE"
+     ],
+     "proposer": "OCEANE",
+     "votes": [
+      "NATACHA",
+      "CECILE",
+      "OCEANE",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "REGIS",
+    "NATACHA",
+    "AURELIA",
+    "FARID"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "NATACHA",
+      "OCEANE"
+     ],
+     "team": [
+      "REGIS",
+      "NATACHA",
+      "CEDRIC",
+      "OCEANE"
+     ],
+     "state": "REJECTED",
+     "proposer": "NATACHA"
+    },
+    {
+     "votes": [
+      "CEDRIC",
+      "NATACHA",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "CEDRIC",
+     "team": [
+      "CEDRIC",
+      "REGIS",
+      "FARID",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NATACHA",
+      "FARID",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "FARID",
+      "NATACHA",
+      "CEDRIC",
+      "REGIS"
+     ],
+     "proposer": "FARID"
+    },
+    {
+     "votes": [
+      "LAURA",
+      "OCEANE"
+     ],
+     "team": [
+      "LAURA",
+      "REGIS",
+      "OCEANE",
+      "CEDRIC"
+     ],
+     "state": "REJECTED",
+     "proposer": "LAURA"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "REGIS",
+      "NATACHA",
+      "AURELIA",
+      "FARID"
+     ],
+     "proposer": "REGIS",
+     "votes": [
+      "REGIS",
+      "AURELIA",
+      "NATACHA",
+      "CECILE",
+      "FARID",
+      "CHRISTIAN",
+      "CEDRIC"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CEDRIC"
+     ],
+     "team": [
+      "AURELIA",
+      "REGIS",
+      "CEDRIC",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "AURELIA"
+    },
+    {
+     "proposer": "CECILE",
+     "votes": [
+      "AURELIA",
+      "NATACHA",
+      "CECILE",
+      "OCEANE"
+     ],
+     "team": [
+      "CECILE",
+      "NATACHA",
+      "CHRISTIAN",
+      "CEDRIC"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "AURELIA",
+      "OCEANE",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "AURELIA",
+      "FARID",
+      "CECILE"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "OCEANE",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CEDRIC",
+      "FARID",
+      "AURELIA",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "proposer": "OCEANE"
+    },
+    {
+     "votes": [
+      "FARID",
+      "LAURA",
+      "CEDRIC",
+      "REGIS",
+      "AURELIA",
+      "NATACHA",
+      "CECILE",
+      "OCEANE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NATACHA",
+      "CEDRIC",
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "proposer": "NATACHA"
+    }
+   ],
+   "team": [
+    "NATACHA",
+    "CEDRIC",
+    "CHRISTIAN",
+    "REGIS"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "REGIS",
+    "CEDRIC",
+    "NATACHA",
+    "CHRISTIAN",
+    "LAURA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CEDRIC",
+      "NATACHA",
+      "CHRISTIAN",
+      "REGIS",
+      "LAURA"
+     ],
+     "proposer": "CEDRIC",
+     "votes": [
+      "CEDRIC",
+      "NATACHA",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "proposer": "FARID",
+     "team": [
+      "FARID",
+      "CEDRIC",
+      "NATACHA",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "LAURA",
+     "votes": [
+      "CHRISTIAN",
+      "LAURA",
+      "REGIS",
+      "NATACHA"
+     ],
+     "team": [
+      "NATACHA",
+      "CEDRIC",
+      "CHRISTIAN",
+      "REGIS",
+      "LAURA"
+     ]
+    },
+    {
+     "proposer": "REGIS",
+     "state": "APPROVED",
+     "team": [
+      "REGIS",
+      "CEDRIC",
+      "NATACHA",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "votes": [
+      "REGIS",
+      "NATACHA",
+      "CECILE",
+      "FARID",
+      "CHRISTIAN",
+      "LAURA",
+      "CEDRIC"
+     ]
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "AURELIA",
+     "team": [
+      "AURELIA",
+      "REGIS",
+      "CEDRIC",
+      "NATACHA",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AURELIA",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "team": [
+      "CECILE",
+      "CEDRIC",
+      "CHRISTIAN",
+      "NATACHA",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CECILE",
+      "OCEANE"
+     ],
+     "proposer": "CECILE"
+    },
+    {
+     "team": [
+      "REGIS",
+      "CHRISTIAN",
+      "NATACHA",
+      "CEDRIC",
+      "LAURA"
+     ],
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "REGIS",
+      "NATACHA",
+      "CHRISTIAN",
+      "LAURA",
+      "CEDRIC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "REGIS",
+    "CHRISTIAN",
+    "NATACHA",
+    "CEDRIC",
+    "LAURA"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589055344,
+  "_nanoseconds": 718000000
+ }
+}

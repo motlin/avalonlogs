@@ -1,0 +1,254 @@
+{
+ "timeFinished": {
+  "_seconds": 1590216303,
+  "_nanoseconds": 504000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590216049,
+  "_nanoseconds": 756000000
+ },
+ "players": [
+  {
+   "name": "NGP",
+   "uid": "Eno0tibIuPPcnKjz4xDjP8xd5b33"
+  },
+  {
+   "uid": "Pp7MrNe3aSgGNsXsXLsq43IUXC12",
+   "name": "ROL"
+  },
+  {
+   "name": "WOKSH",
+   "uid": "Ht6pOUzsSgeFigHLnsVPdjNaRpW2"
+  },
+  {
+   "name": "GAUTIST",
+   "uid": "y6AfOhozN3PUZPVubgONVxp8DUb2"
+  },
+  {
+   "name": "TAMLNIG",
+   "uid": "d7tEhZgNE1ckPhNqWyWtfSDOoeq1"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "NGP",
+    "ROL"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "NGP",
+      "ROL",
+      "GAUTIST",
+      "WOKSH",
+      "TAMLNIG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NGP",
+      "ROL"
+     ],
+     "proposer": "NGP"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ROL",
+      "GAUTIST",
+      "WOKSH",
+      "TAMLNIG"
+     ],
+     "team": [
+      "ROL",
+      "NGP",
+      "WOKSH"
+     ],
+     "proposer": "ROL"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 2,
+   "team": [
+    "ROL",
+    "NGP",
+    "WOKSH"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "GAUTIST",
+    "TAMLNIG"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "GAUTIST",
+      "NGP"
+     ],
+     "proposer": "WOKSH",
+     "votes": [
+      "GAUTIST",
+      "WOKSH"
+     ]
+    },
+    {
+     "team": [
+      "GAUTIST",
+      "TAMLNIG"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GAUTIST",
+      "WOKSH",
+      "TAMLNIG"
+     ],
+     "proposer": "GAUTIST"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "GAUTIST",
+    "TAMLNIG",
+    "ROL"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "GAUTIST",
+      "TAMLNIG",
+      "ROL"
+     ],
+     "proposer": "TAMLNIG",
+     "state": "APPROVED",
+     "votes": [
+      "ROL",
+      "GAUTIST",
+      "WOKSH",
+      "TAMLNIG"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NGP",
+      "GAUTIST"
+     ],
+     "team": [
+      "NGP",
+      "GAUTIST",
+      "TAMLNIG"
+     ],
+     "proposer": "NGP"
+    },
+    {
+     "team": [
+      "WOKSH",
+      "GAUTIST",
+      "TAMLNIG"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ROL",
+      "WOKSH",
+      "TAMLNIG"
+     ],
+     "proposer": "ROL"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "WOKSH",
+    "GAUTIST",
+    "TAMLNIG"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ROL": true,
+    "NGP": true
+   },
+   {
+    "WOKSH": false,
+    "ROL": false,
+    "NGP": true
+   },
+   {
+    "TAMLNIG": true,
+    "GAUTIST": true
+   },
+   {
+    "ROL": false,
+    "TAMLNIG": true,
+    "GAUTIST": true
+   },
+   {
+    "TAMLNIG": true,
+    "GAUTIST": true,
+    "WOKSH": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "NGP"
+   },
+   {
+    "name": "ROL",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "GAUTIST",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "WOKSH",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TAMLNIG",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions"
+ }
+}

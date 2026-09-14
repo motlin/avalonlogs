@@ -1,0 +1,279 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "PRIDHVI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KIRBY"
+   },
+   {
+    "assassin": false,
+    "name": "TOM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "KAMYA"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SRAMAMU"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ARCHIE"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "AVALON"
+   }
+  ],
+  "votes": [
+   {
+    "KAMYA": true,
+    "KIRBY": true
+   },
+   {
+    "PRIDHVI": true,
+    "KIRBY": false,
+    "ARCHIE": true
+   },
+   {
+    "PRIDHVI": true,
+    "KIRBY": false,
+    "SRAMAMU": true
+   },
+   {
+    "SRAMAMU": false,
+    "TOM": true,
+    "ARCHIE": true,
+    "KAMYA": true
+   },
+   {
+    "ARCHIE": true,
+    "SRAMAMU": false,
+    "TOM": true,
+    "KAMYA": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "KIRBY",
+    "KAMYA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KIRBY",
+      "KAMYA"
+     ],
+     "proposer": "KAMYA",
+     "votes": [
+      "SRAMAMU",
+      "ARCHIE",
+      "AVALON",
+      "PRIDHVI",
+      "KIRBY",
+      "TOM",
+      "KAMYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ARCHIE",
+    "KIRBY",
+    "PRIDHVI"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ARCHIE",
+      "KIRBY",
+      "PRIDHVI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PRIDHVI",
+      "KIRBY",
+      "TOM",
+      "KAMYA",
+      "SRAMAMU",
+      "ARCHIE",
+      "AVALON"
+     ],
+     "proposer": "AVALON"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "SRAMAMU",
+      "KIRBY",
+      "PRIDHVI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KAMYA",
+      "SRAMAMU",
+      "ARCHIE",
+      "AVALON",
+      "PRIDHVI",
+      "KIRBY"
+     ],
+     "proposer": "SRAMAMU"
+    }
+   ],
+   "team": [
+    "SRAMAMU",
+    "KIRBY",
+    "PRIDHVI"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "TOM",
+    "KAMYA",
+    "ARCHIE",
+    "SRAMAMU"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "AVALON",
+      "KIRBY"
+     ],
+     "team": [
+      "SRAMAMU",
+      "KIRBY",
+      "TOM",
+      "KAMYA"
+     ],
+     "state": "REJECTED",
+     "proposer": "KIRBY"
+    },
+    {
+     "proposer": "TOM",
+     "state": "APPROVED",
+     "votes": [
+      "KIRBY",
+      "TOM",
+      "KAMYA",
+      "SRAMAMU",
+      "AVALON"
+     ],
+     "team": [
+      "TOM",
+      "KAMYA",
+      "ARCHIE",
+      "SRAMAMU"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KAMYA",
+      "TOM",
+      "ARCHIE",
+      "SRAMAMU"
+     ],
+     "votes": [
+      "KAMYA",
+      "SRAMAMU",
+      "AVALON",
+      "PRIDHVI",
+      "KIRBY",
+      "TOM"
+     ],
+     "proposer": "PRIDHVI"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "KAMYA",
+    "TOM",
+    "ARCHIE",
+    "SRAMAMU"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585891733,
+  "_nanoseconds": 450574000
+ },
+ "players": [
+  {
+   "name": "KAMYA",
+   "uid": "Y9qhPSJrGIhkChdNbIi12f5hvTZ2"
+  },
+  {
+   "uid": "F6unslwv09NDoUvKhVTiQZccQxy1",
+   "name": "AVALON"
+  },
+  {
+   "name": "SRAMAMU",
+   "uid": "R9f2SKlYaDVIclh13YJR9zotckj2"
+  },
+  {
+   "uid": "rwkan6Pxo1gxy0L4h1ymiMMsiqL2",
+   "name": "KIRBY"
+  },
+  {
+   "uid": "8hrrQzIPvaPrrH8DJK2cJB5IPwB2",
+   "name": "TOM"
+  },
+  {
+   "uid": "Vors2zRcNAgS3DPGWvBkp8q0D563",
+   "name": "PRIDHVI"
+  },
+  {
+   "name": "ARCHIE",
+   "uid": "j8h1sDgMTcXuPqum8iHbGKJB8uC3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585891159,
+  "_nanoseconds": 857000000
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "timeFinished": {
+  "_seconds": 1597286047,
+  "_nanoseconds": 687000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "YOSHI",
+    "JOSH"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SYD",
+      "JOSH",
+      "TIM",
+      "YOSHI",
+      "GLO"
+     ],
+     "proposer": "YOSHI",
+     "state": "APPROVED",
+     "team": [
+      "YOSHI",
+      "JOSH"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "YOSHI",
+    "JOSH",
+    "TIM"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "YOSHI",
+      "JOSH",
+      "TIM"
+     ],
+     "proposer": "JOSH",
+     "state": "APPROVED",
+     "votes": [
+      "JOSH",
+      "SYD",
+      "YOSHI",
+      "TIM"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "CLUR",
+    "GLO",
+    "SYD",
+    "YOSHI"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GLO",
+      "CLUR",
+      "SYD",
+      "JOSH"
+     ],
+     "team": [
+      "CLUR",
+      "GLO",
+      "SYD",
+      "YOSHI"
+     ],
+     "proposer": "TIM"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "JOSH",
+    "YOSHI",
+    "CLUR"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CLUR",
+     "state": "APPROVED",
+     "team": [
+      "JOSH",
+      "YOSHI",
+      "CLUR"
+     ],
+     "votes": [
+      "SYD",
+      "YOSHI",
+      "CLUR",
+      "GLO"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "GLO",
+      "SYD",
+      "JOSH",
+      "YOSHI"
+     ],
+     "proposer": "GLO",
+     "state": "REJECTED",
+     "votes": [
+      "SYD"
+     ]
+    },
+    {
+     "votes": [
+      "YOSHI",
+      "GLO",
+      "JOSH",
+      "SYD"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JOSH",
+      "SYD",
+      "GLO",
+      "YOSHI"
+     ],
+     "proposer": "SYD"
+    }
+   ],
+   "team": [
+    "JOSH",
+    "SYD",
+    "GLO",
+    "YOSHI"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "kbfFsaFj4Lc0eYEZQxkJ6WYyoY72",
+   "name": "YOSHI"
+  },
+  {
+   "name": "JOSH",
+   "uid": "oWXTbCNq25hjSQ0kD3mBYSMdixL2"
+  },
+  {
+   "name": "TIM",
+   "uid": "oKytzDarsXgCSJZT6ekEccdbFSa2"
+  },
+  {
+   "name": "CLUR",
+   "uid": "MXta9LJc7lO2bA9DBE1tllcNXfw1"
+  },
+  {
+   "uid": "8Fc3RbVzUrNfB00PzbFZ2nngpKz1",
+   "name": "GLO"
+  },
+  {
+   "uid": "QUGgFP7hgDV4scgrQoPVMNPaskB2",
+   "name": "SYD"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "JOSH": true,
+    "YOSHI": true
+   },
+   {
+    "JOSH": true,
+    "YOSHI": true,
+    "TIM": true
+   },
+   {
+    "SYD": true,
+    "YOSHI": false,
+    "GLO": true,
+    "CLUR": true
+   },
+   {
+    "CLUR": true,
+    "JOSH": true,
+    "YOSHI": false
+   },
+   {
+    "JOSH": true,
+    "YOSHI": false,
+    "GLO": true,
+    "SYD": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "GLO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "CLUR",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "JOSH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SYD"
+   },
+   {
+    "assassin": false,
+    "name": "YOSHI",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MORDRED",
+    "name": "TIM",
+    "assassin": true
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1597283595,
+  "_nanoseconds": 110000000
+ }
+}

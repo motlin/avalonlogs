@@ -1,0 +1,324 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ALLI": true,
+    "JERRY": true,
+    "AND": true
+   },
+   {
+    "AND": false,
+    "ALLI": true,
+    "MAL": true,
+    "JERRY": true
+   },
+   {
+    "JERRY": true,
+    "NIKKI": true,
+    "AND": false,
+    "WILL": true
+   },
+   {
+    "MAL": true,
+    "JERRY": true,
+    "NIKKI": true,
+    "AND": false,
+    "LEA": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ALLI",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NIKKI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "AND"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "WILL",
+    "assassin": false
+   },
+   {
+    "name": "MAL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "LEA"
+   },
+   {
+    "assassin": false,
+    "name": "JERRY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "AMANDA",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JERRY",
+     "team": [
+      "JERRY",
+      "ALLI",
+      "AND"
+     ],
+     "votes": [
+      "MAL",
+      "LEA",
+      "JERRY",
+      "ALLI",
+      "AND"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JERRY",
+    "ALLI",
+    "AND"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MAL",
+    "JERRY",
+    "ALLI",
+    "AND"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JERRY",
+      "AMANDA",
+      "AND"
+     ],
+     "proposer": "WILL",
+     "state": "REJECTED",
+     "team": [
+      "WILL",
+      "JERRY",
+      "ALLI",
+      "AND"
+     ]
+    },
+    {
+     "team": [
+      "MAL",
+      "JERRY",
+      "ALLI",
+      "AND"
+     ],
+     "votes": [
+      "ALLI",
+      "AND",
+      "MAL",
+      "JERRY",
+      "AMANDA"
+     ],
+     "state": "APPROVED",
+     "proposer": "MAL"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "AMANDA",
+      "AND",
+      "ALLI",
+      "MAL"
+     ],
+     "proposer": "AMANDA",
+     "votes": [
+      "MAL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LEA",
+      "AND",
+      "ALLI",
+      "WILL"
+     ],
+     "proposer": "LEA",
+     "votes": [
+      "WILL",
+      "LEA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKKI",
+      "WILL",
+      "AND",
+      "MAL"
+     ],
+     "proposer": "NIKKI",
+     "votes": [
+      "MAL",
+      "NIKKI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "AND",
+     "votes": [
+      "ALLI",
+      "NIKKI",
+      "AND",
+      "WILL",
+      "JERRY"
+     ],
+     "team": [
+      "AND",
+      "JERRY",
+      "NIKKI",
+      "WILL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "AND",
+    "JERRY",
+    "NIKKI",
+    "WILL"
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "ALLI",
+     "votes": [
+      "ALLI",
+      "MAL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AMANDA",
+      "LEA",
+      "NIKKI",
+      "MAL",
+      "ALLI"
+     ]
+    },
+    {
+     "votes": [
+      "NIKKI",
+      "AND",
+      "MAL",
+      "LEA",
+      "JERRY"
+     ],
+     "team": [
+      "JERRY",
+      "AND",
+      "MAL",
+      "NIKKI",
+      "LEA"
+     ],
+     "proposer": "JERRY",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JERRY",
+    "AND",
+    "MAL",
+    "NIKKI",
+    "LEA"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 5
+  }
+ ],
+ "players": [
+  {
+   "name": "AMANDA",
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1"
+  },
+  {
+   "name": "LEA",
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2"
+  },
+  {
+   "name": "NIKKI",
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743"
+  },
+  {
+   "name": "AND",
+   "uid": "YjHTtFigZxME7Fwl1YSaplKCv3M2"
+  },
+  {
+   "name": "ALLI",
+   "uid": "JF2WCvWSMTNetOHOv8ihxL1PGB93"
+  },
+  {
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2",
+   "name": "JERRY"
+  },
+  {
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83",
+   "name": "WILL"
+  },
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591335869,
+  "_nanoseconds": 506000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591338549,
+  "_nanoseconds": 718000000
+ }
+}

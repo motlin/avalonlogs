@@ -1,0 +1,281 @@
+{
+ "timeCreated": {
+  "_seconds": 1585179450,
+  "_nanoseconds": 523000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "DAN",
+      "NOTFRF"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DAN",
+      "NOTFRF",
+      "JET"
+     ],
+     "proposer": "DAN"
+    }
+   ],
+   "team": [
+    "DAN",
+    "NOTFRF"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "KEN",
+    "NOTFRF",
+    "JET"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KEN",
+      "NOTFRF",
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "proposer": "JET",
+     "votes": []
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ALEX",
+      "NOTFRF",
+      "KEN"
+     ],
+     "proposer": "ALEX",
+     "votes": [
+      "ALEX"
+     ]
+    },
+    {
+     "team": [
+      "KEN",
+      "NOTFRF",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NOTFRF",
+      "JET",
+      "KEN"
+     ],
+     "proposer": "KEN"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "JET",
+    "ALEX"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "JET",
+      "ALEX"
+     ],
+     "proposer": "NOTFRF",
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "NOTFRF",
+      "JET"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "ALEX",
+    "JET",
+    "NOTFRF"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "DAN",
+      "JET",
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DAN"
+     ],
+     "proposer": "DAN"
+    },
+    {
+     "proposer": "JET",
+     "team": [
+      "ALEX",
+      "JET",
+      "NOTFRF"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KEN",
+      "ALEX",
+      "NOTFRF"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "NOTFRF",
+    "JET",
+    "ALEX"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ALEX",
+      "NOTFRF"
+     ],
+     "proposer": "ALEX",
+     "team": [
+      "ALEX",
+      "NOTFRF",
+      "JET"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "KEN",
+     "votes": [
+      "KEN"
+     ],
+     "team": [
+      "JET",
+      "NOTFRF",
+      "KEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "NOTFRF",
+     "votes": [
+      "KEN",
+      "ALEX",
+      "NOTFRF"
+     ],
+     "team": [
+      "NOTFRF",
+      "JET",
+      "ALEX"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ],
+ "players": [
+  {
+   "name": "KEN",
+   "uid": "qHZf7NHEVia8tmuVEVXQNgIFvFr2"
+  },
+  {
+   "name": "NOTFRF",
+   "uid": "Lz8eeZidlbN3vvvxPLmbTRBW7TF2"
+  },
+  {
+   "uid": "cJtj9t3BMWhqXlSBklZPkT209KR2",
+   "name": "DAN"
+  },
+  {
+   "name": "JET",
+   "uid": "gyiwwU0P58ahYttcfegeM0n4fi33"
+  },
+  {
+   "name": "ALEX",
+   "uid": "GnwQ0bTmgmh1EQyNUkmhNymEjDQ2"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "ALEX",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "KEN"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ALEX"
+   },
+   {
+    "name": "DAN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "NOTFRF",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "JET",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "NOTFRF": true,
+    "DAN": false
+   },
+   {
+    "NOTFRF": true,
+    "JET": true,
+    "KEN": false
+   },
+   {
+    "JET": true,
+    "ALEX": true
+   },
+   {
+    "NOTFRF": true,
+    "JET": true,
+    "ALEX": true
+   },
+   {
+    "JET": true,
+    "ALEX": true,
+    "NOTFRF": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1585180190,
+  "_nanoseconds": 981022000
+ }
+}

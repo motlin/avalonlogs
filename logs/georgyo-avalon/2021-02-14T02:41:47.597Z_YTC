@@ -1,0 +1,346 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "JOSEPH": true,
+    "KARLIN": true
+   },
+   {
+    "AARON": true,
+    "KARLIN": true,
+    "JOSEPH": true
+   },
+   {
+    "JAMES": true,
+    "ERIN": false,
+    "KARLIN": true
+   },
+   {
+    "AARON": false,
+    "ERIN": false,
+    "JOSEPH": true,
+    "YELIN": false
+   },
+   {
+    "JAMES": true,
+    "KARLIN": true,
+    "STEPH": true,
+    "JOSEPH": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "JAMES",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "KARLIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "ERIN",
+    "role": "MORDRED"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "AARON"
+   },
+   {
+    "name": "JOSEPH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "STEPH",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "YELIN",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": "KARLIN",
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "team": [
+    "JOSEPH",
+    "KARLIN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KARLIN",
+      "AARON",
+      "JOSEPH",
+      "ERIN",
+      "STEPH",
+      "JAMES"
+     ],
+     "proposer": "JOSEPH",
+     "team": [
+      "JOSEPH",
+      "KARLIN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KARLIN",
+      "JOSEPH",
+      "AARON"
+     ],
+     "votes": [
+      "STEPH",
+      "JAMES",
+      "JOSEPH",
+      "ERIN",
+      "AARON"
+     ],
+     "proposer": "AARON"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "KARLIN",
+    "JOSEPH",
+    "AARON"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "KARLIN",
+    "JAMES",
+    "ERIN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "AARON",
+      "ERIN",
+      "JAMES"
+     ],
+     "team": [
+      "KARLIN",
+      "JOSEPH",
+      "AARON"
+     ],
+     "state": "REJECTED",
+     "proposer": "JAMES"
+    },
+    {
+     "team": [
+      "STEPH",
+      "JAMES",
+      "KARLIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "STEPH",
+      "AARON",
+      "ERIN"
+     ],
+     "proposer": "STEPH"
+    },
+    {
+     "team": [
+      "KARLIN",
+      "JAMES",
+      "ERIN"
+     ],
+     "proposer": "KARLIN",
+     "votes": [
+      "YELIN",
+      "AARON",
+      "JAMES",
+      "ERIN",
+      "KARLIN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ERIN",
+     "votes": [
+      "ERIN",
+      "YELIN",
+      "JOSEPH",
+      "AARON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JOSEPH",
+      "ERIN",
+      "AARON",
+      "YELIN"
+     ]
+    }
+   ],
+   "team": [
+    "JOSEPH",
+    "ERIN",
+    "AARON",
+    "YELIN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JAMES",
+      "STEPH",
+      "KARLIN",
+      "YELIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "YELIN",
+      "AARON"
+     ],
+     "proposer": "YELIN"
+    },
+    {
+     "proposer": "JOSEPH",
+     "state": "REJECTED",
+     "team": [
+      "JOSEPH",
+      "KARLIN",
+      "STEPH",
+      "JAMES"
+     ],
+     "votes": [
+      "AARON",
+      "JOSEPH"
+     ]
+    },
+    {
+     "team": [
+      "ERIN",
+      "YELIN",
+      "JOSEPH",
+      "AARON"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AARON",
+      "JOSEPH"
+     ],
+     "proposer": "AARON"
+    },
+    {
+     "team": [
+      "JAMES",
+      "STEPH",
+      "KARLIN",
+      "JOSEPH"
+     ],
+     "proposer": "JAMES",
+     "state": "REJECTED",
+     "votes": [
+      "JAMES",
+      "KARLIN",
+      "JOSEPH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "STEPH",
+     "team": [
+      "JOSEPH",
+      "JAMES",
+      "STEPH",
+      "KARLIN"
+     ],
+     "votes": [
+      "KARLIN",
+      "JAMES",
+      "JOSEPH",
+      "STEPH"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "JOSEPH",
+    "JAMES",
+    "STEPH",
+    "KARLIN"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1613270507,
+  "_nanoseconds": 597000000
+ },
+ "timeFinished": {
+  "_seconds": 1613271742,
+  "_nanoseconds": 893000000
+ },
+ "players": [
+  {
+   "name": "JAMES",
+   "uid": "GF0BaVfxNBZFk9LHgQCRSbZg5g93"
+  },
+  {
+   "uid": "xCFl0uymKST34YgMGeenqnArkJy1",
+   "name": "STEPH"
+  },
+  {
+   "name": "KARLIN",
+   "uid": "v9qEYBLTH6anIt55z2vb3kTm08W2"
+  },
+  {
+   "name": "ERIN",
+   "uid": "hcesd5h7Cva4nlygkn3EgPJOSgT2"
+  },
+  {
+   "name": "YELIN",
+   "uid": "Cz3L5keyzrOXsD1Vw3ywRib6jJT2"
+  },
+  {
+   "name": "JOSEPH",
+   "uid": "hjPtBmdbPmeujJo24AO3UBAlA5o1"
+  },
+  {
+   "uid": "wQXOXeat5SOhT2nHWp1SrqzBU292",
+   "name": "AARON"
+  }
+ ]
+}

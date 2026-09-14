@@ -1,0 +1,273 @@
+{
+ "players": [
+  {
+   "uid": "zGbaJi6VDkNiNU6GJj5yNKLedBr2",
+   "name": "IMMERLIN"
+  },
+  {
+   "uid": "v9Gh0iBdAYY8FnPOk6QU9mv0JIQ2",
+   "name": "JACKASS"
+  },
+  {
+   "name": "JENSEN",
+   "uid": "Eu4a5j79TMWWqQteW5LTu4p8knF2"
+  },
+  {
+   "uid": "fq0gqbsD6Jdgwez2gS8VwEV1b2x2",
+   "name": "MERYL"
+  },
+  {
+   "name": "PERLOJR",
+   "uid": "XNFmc2W9XeU9XDRIjYjmHsJ5Axg1"
+  },
+  {
+   "uid": "yOZiyJnkz0NmNNUXz5H9d32beZk1",
+   "name": "RICHARD"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "JENSEN",
+    "JACKASS"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "IMMERLIN",
+      "JACKASS",
+      "JENSEN",
+      "RICHARD"
+     ],
+     "team": [
+      "JENSEN",
+      "JACKASS"
+     ],
+     "proposer": "JENSEN"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "JENSEN",
+    "PERLOJR",
+    "IMMERLIN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JENSEN",
+      "PERLOJR",
+      "IMMERLIN"
+     ],
+     "proposer": "MERYL",
+     "votes": [
+      "IMMERLIN",
+      "JENSEN",
+      "RICHARD",
+      "MERYL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "PERLOJR",
+    "JENSEN",
+    "IMMERLIN",
+    "RICHARD"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PERLOJR",
+     "votes": [
+      "PERLOJR",
+      "RICHARD",
+      "MERYL",
+      "JENSEN"
+     ],
+     "team": [
+      "PERLOJR",
+      "JENSEN",
+      "IMMERLIN",
+      "RICHARD"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "RICHARD",
+     "votes": [
+      "RICHARD",
+      "MERYL",
+      "IMMERLIN"
+     ],
+     "team": [
+      "IMMERLIN",
+      "RICHARD",
+      "PERLOJR"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "IMMERLIN",
+      "PERLOJR",
+      "RICHARD",
+      "MERYL"
+     ],
+     "proposer": "IMMERLIN",
+     "team": [
+      "IMMERLIN",
+      "MERYL",
+      "PERLOJR"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "IMMERLIN",
+    "MERYL",
+    "PERLOJR"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "JENSEN",
+    "IMMERLIN",
+    "PERLOJR",
+    "JACKASS"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MERYL",
+      "JACKASS"
+     ],
+     "team": [
+      "JENSEN",
+      "JACKASS",
+      "PERLOJR",
+      "IMMERLIN"
+     ],
+     "proposer": "JACKASS"
+    },
+    {
+     "team": [
+      "JENSEN",
+      "IMMERLIN",
+      "PERLOJR",
+      "JACKASS"
+     ],
+     "state": "APPROVED",
+     "proposer": "JENSEN",
+     "votes": [
+      "PERLOJR",
+      "MERYL",
+      "JACKASS",
+      "JENSEN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585362833,
+  "_nanoseconds": 535515000
+ },
+ "timeCreated": {
+  "_seconds": 1585362033,
+  "_nanoseconds": 299000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "MERYL",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "IMMERLIN"
+   },
+   {
+    "name": "JACKASS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JENSEN",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "PERLOJR",
+    "assassin": false
+   },
+   {
+    "name": "RICHARD",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JACKASS": true,
+    "JENSEN": true
+   },
+   {
+    "JENSEN": true,
+    "IMMERLIN": true,
+    "PERLOJR": true
+   },
+   {
+    "PERLOJR": false,
+    "JENSEN": true,
+    "IMMERLIN": true,
+    "RICHARD": true
+   },
+   {
+    "MERYL": false,
+    "IMMERLIN": true,
+    "PERLOJR": true
+   },
+   {
+    "IMMERLIN": true,
+    "JACKASS": true,
+    "JENSEN": true,
+    "PERLOJR": false
+   }
+  ],
+  "message": "Three failed missions"
+ }
+}

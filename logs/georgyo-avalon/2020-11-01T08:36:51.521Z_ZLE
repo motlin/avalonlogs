@@ -1,0 +1,288 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1604219811,
+  "_nanoseconds": 521000000
+ },
+ "players": [
+  {
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52",
+   "name": "ALLY"
+  },
+  {
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2",
+   "name": "RYAN"
+  },
+  {
+   "name": "PLANTDIRT",
+   "uid": "157gZNSdqchRlWTQuHm0KzOOkJG3"
+  },
+  {
+   "name": "MICHELLLE",
+   "uid": "DpYRwJ0fVHRYMVose9vjdSs25Ww1"
+  },
+  {
+   "uid": "KAVm2nNtkoP0XFRiO5JSSqHLcAv1",
+   "name": "JEJMIN"
+  },
+  {
+   "name": "JAY",
+   "uid": "gwix1oO6aIT8R7vtBfwGdZEPFKG2"
+  },
+  {
+   "name": "SINWOO",
+   "uid": "t7sMFpsD9QVfCyTntVjfi5arQ8H3"
+  },
+  {
+   "uid": "Vx8DzbnEyrezzZk1KQFcmEgq2Op1",
+   "name": "BRANDEN"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "BRANDEN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ALLY",
+    "assassin": false
+   },
+   {
+    "name": "SINWOO",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RYAN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JAY",
+    "assassin": false
+   },
+   {
+    "name": "MICHELLLE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JEJMIN"
+   },
+   {
+    "name": "PLANTDIRT",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "MICHELLLE",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SINWOO": false,
+    "BRANDEN": true,
+    "ALLY": true
+   },
+   {
+    "ALLY": true,
+    "JEJMIN": true,
+    "RYAN": true,
+    "JAY": true
+   },
+   {
+    "BRANDEN": true,
+    "PLANTDIRT": false,
+    "SINWOO": false,
+    "JAY": true
+   },
+   {
+    "JEJMIN": true,
+    "RYAN": true,
+    "ALLY": true,
+    "MICHELLLE": true,
+    "JAY": true
+   },
+   {
+    "RYAN": true,
+    "ALLY": true,
+    "MICHELLLE": true,
+    "JEJMIN": true,
+    "JAY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "ALLY",
+    "SINWOO",
+    "BRANDEN"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "MICHELLLE",
+      "ALLY",
+      "BRANDEN",
+      "RYAN",
+      "JAY"
+     ],
+     "team": [
+      "ALLY",
+      "SINWOO",
+      "BRANDEN"
+     ],
+     "proposer": "ALLY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "RYAN",
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "ALLY",
+      "JEJMIN",
+      "JAY"
+     ],
+     "votes": [
+      "SINWOO",
+      "JEJMIN",
+      "JAY",
+      "ALLY",
+      "RYAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "RYAN",
+    "ALLY",
+    "JEJMIN",
+    "JAY"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 2,
+   "team": [
+    "PLANTDIRT",
+    "SINWOO",
+    "BRANDEN",
+    "JAY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "PLANTDIRT",
+      "SINWOO",
+      "BRANDEN",
+      "JAY"
+     ],
+     "proposer": "PLANTDIRT",
+     "state": "APPROVED",
+     "votes": [
+      "PLANTDIRT",
+      "ALLY",
+      "SINWOO",
+      "RYAN",
+      "JAY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "RYAN",
+    "ALLY",
+    "JEJMIN",
+    "MICHELLLE",
+    "JAY"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "MICHELLLE",
+      "JAY",
+      "RYAN",
+      "JEJMIN",
+      "ALLY"
+     ],
+     "proposer": "MICHELLLE",
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "ALLY",
+      "JEJMIN",
+      "MICHELLLE",
+      "JAY"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "JEJMIN",
+    "RYAN",
+    "ALLY",
+    "MICHELLLE",
+    "JAY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEJMIN",
+      "MICHELLLE",
+      "RYAN",
+      "ALLY",
+      "PLANTDIRT",
+      "SINWOO",
+      "JAY"
+     ],
+     "proposer": "JEJMIN",
+     "team": [
+      "JEJMIN",
+      "RYAN",
+      "ALLY",
+      "MICHELLLE",
+      "JAY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604220808,
+  "_nanoseconds": 271000000
+ }
+}

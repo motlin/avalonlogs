@@ -1,0 +1,309 @@
+{
+ "timeFinished": {
+  "_seconds": 1610415238,
+  "_nanoseconds": 952000000
+ },
+ "timeCreated": {
+  "_seconds": 1610414652,
+  "_nanoseconds": 159000000
+ },
+ "players": [
+  {
+   "name": "SUJAL",
+   "uid": "RbCu9Whk2VMwQVSlcGBPkS8xzph1"
+  },
+  {
+   "uid": "RIW1if26dlZPt9ZVOS2wXXWRSlm1",
+   "name": "AYUSH"
+  },
+  {
+   "name": "VRAJ",
+   "uid": "KY93YQUGQUdbKyYQNYIAPIHoZtI3"
+  },
+  {
+   "uid": "QKUfyfVpxfYKvzEIeHRbsmWp6aJ3",
+   "name": "CHINTAN"
+  },
+  {
+   "uid": "9J1T6P455hgVTO3GEoi12RGEC8p1",
+   "name": "REALMANAV"
+  },
+  {
+   "uid": "MFqO65LidGg7mYYHWrbyCzpIuWf2",
+   "name": "VARDAAN"
+  },
+  {
+   "uid": "vFJhl2yYhYNBSltV6LaDRh84TME3",
+   "name": "VEDANT"
+  },
+  {
+   "uid": "6kljynxlojYmiRAwAx90LFJvl7r1",
+   "name": "DEV"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "VEDANT": true,
+    "VARDAAN": true,
+    "SUJAL": true
+   },
+   {
+    "VEDANT": true,
+    "DEV": true,
+    "SUJAL": false,
+    "VARDAAN": true
+   },
+   {
+    "SUJAL": false,
+    "AYUSH": true,
+    "VEDANT": true,
+    "VARDAAN": false
+   },
+   {
+    "CHINTAN": true,
+    "AYUSH": true,
+    "VRAJ": false,
+    "DEV": true,
+    "REALMANAV": true
+   },
+   {
+    "VEDANT": true,
+    "AYUSH": true,
+    "CHINTAN": true,
+    "VARDAAN": false,
+    "REALMANAV": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "VEDANT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "VRAJ"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DEV",
+    "assassin": false
+   },
+   {
+    "name": "AYUSH",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "VARDAAN",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "REALMANAV",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SUJAL",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "CHINTAN",
+    "role": "MERLIN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "VARDAAN",
+    "VEDANT",
+    "SUJAL"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "VEDANT",
+     "team": [
+      "VARDAAN",
+      "VEDANT",
+      "SUJAL"
+     ],
+     "votes": [
+      "AYUSH",
+      "SUJAL",
+      "VARDAAN",
+      "DEV",
+      "VEDANT",
+      "REALMANAV",
+      "VRAJ"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "VARDAAN",
+    "VEDANT",
+    "SUJAL",
+    "DEV"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "DEV",
+     "state": "APPROVED",
+     "votes": [
+      "VEDANT",
+      "VRAJ",
+      "AYUSH",
+      "REALMANAV",
+      "SUJAL",
+      "DEV",
+      "CHINTAN"
+     ],
+     "team": [
+      "VARDAAN",
+      "VEDANT",
+      "SUJAL",
+      "DEV"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "SUJAL",
+    "AYUSH",
+    "VEDANT",
+    "VARDAAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DEV",
+      "CHINTAN",
+      "VRAJ",
+      "REALMANAV",
+      "AYUSH",
+      "SUJAL",
+      "VEDANT",
+      "VARDAAN"
+     ],
+     "team": [
+      "SUJAL",
+      "AYUSH",
+      "VEDANT",
+      "VARDAAN"
+     ],
+     "proposer": "SUJAL"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 2,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "AYUSH",
+    "CHINTAN",
+    "VRAJ",
+    "REALMANAV",
+    "DEV"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AYUSH",
+      "CHINTAN",
+      "VRAJ",
+      "REALMANAV",
+      "DEV"
+     ],
+     "votes": [
+      "REALMANAV",
+      "VRAJ",
+      "VARDAAN",
+      "AYUSH",
+      "DEV",
+      "CHINTAN"
+     ],
+     "proposer": "AYUSH"
+    }
+   ],
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "VEDANT",
+      "VRAJ"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SUJAL",
+      "DEV",
+      "VARDAAN",
+      "VEDANT",
+      "VRAJ"
+     ],
+     "proposer": "VRAJ"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VRAJ",
+      "VEDANT",
+      "VARDAAN",
+      "REALMANAV",
+      "SUJAL"
+     ],
+     "proposer": "CHINTAN",
+     "team": [
+      "AYUSH",
+      "REALMANAV",
+      "VARDAAN",
+      "VEDANT",
+      "CHINTAN"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "team": [
+    "AYUSH",
+    "REALMANAV",
+    "VARDAAN",
+    "VEDANT",
+    "CHINTAN"
+   ]
+  }
+ ]
+}

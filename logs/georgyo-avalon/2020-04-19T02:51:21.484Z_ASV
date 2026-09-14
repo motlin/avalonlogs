@@ -1,0 +1,308 @@
+{
+ "timeFinished": {
+  "_seconds": 1587267269,
+  "_nanoseconds": 662000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "MAFAZLA",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "RAHUL"
+   },
+   {
+    "role": "MORDRED",
+    "name": "SAAD",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ASIM",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SANJY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RAAS"
+   },
+   {
+    "assassin": false,
+    "name": "URWAH",
+    "role": "MERLIN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "MAFAZLA": true,
+    "RAAS": true
+   },
+   {
+    "MAFAZLA": true,
+    "SAAD": true,
+    "RAAS": true
+   },
+   {
+    "MAFAZLA": true,
+    "SAAD": false,
+    "RAAS": true
+   },
+   {
+    "RAAS": true,
+    "SAAD": false,
+    "MAFAZLA": true,
+    "RAHUL": false
+   },
+   {
+    "URWAH": true,
+    "RAHUL": true,
+    "SANJY": true,
+    "RAAS": true
+   }
+  ],
+  "assassinated": "URWAH"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "RAAS",
+      "URWAH",
+      "MAFAZLA",
+      "ASIM",
+      "SANJY"
+     ],
+     "proposer": "RAAS",
+     "state": "APPROVED",
+     "team": [
+      "RAAS",
+      "MAFAZLA"
+     ]
+    }
+   ],
+   "team": [
+    "RAAS",
+    "MAFAZLA"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "RAAS",
+    "MAFAZLA",
+    "SAAD"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RAAS",
+      "MAFAZLA",
+      "SAAD"
+     ],
+     "votes": [
+      "RAAS",
+      "URWAH",
+      "MAFAZLA",
+      "SAAD"
+     ],
+     "proposer": "MAFAZLA"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "MAFAZLA",
+    "SAAD",
+    "RAAS"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "URWAH",
+     "votes": [
+      "ASIM",
+      "SANJY",
+      "RAAS",
+      "URWAH",
+      "MAFAZLA",
+      "RAHUL",
+      "SAAD"
+     ],
+     "team": [
+      "MAFAZLA",
+      "SAAD",
+      "RAAS"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "RAAS",
+    "MAFAZLA",
+    "SAAD",
+    "RAHUL"
+   ],
+   "numFails": 2,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "SAAD",
+      "ASIM"
+     ],
+     "proposer": "ASIM",
+     "state": "REJECTED",
+     "team": [
+      "SAAD",
+      "MAFAZLA",
+      "RAAS",
+      "ASIM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAFAZLA",
+      "SANJY",
+      "URWAH"
+     ],
+     "team": [
+      "RAAS",
+      "SANJY",
+      "RAHUL",
+      "MAFAZLA"
+     ],
+     "proposer": "SANJY"
+    },
+    {
+     "votes": [
+      "SAAD",
+      "ASIM"
+     ],
+     "proposer": "SAAD",
+     "state": "REJECTED",
+     "team": [
+      "SAAD",
+      "ASIM",
+      "MAFAZLA",
+      "RAAS"
+     ]
+    },
+    {
+     "proposer": "RAHUL",
+     "team": [
+      "RAAS",
+      "MAFAZLA",
+      "SAAD",
+      "RAHUL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RAAS",
+      "MAFAZLA",
+      "RAHUL",
+      "SAAD",
+      "ASIM",
+      "SANJY"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "RAHUL",
+    "RAAS",
+    "SANJY",
+    "URWAH"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RAHUL",
+      "RAAS",
+      "SANJY",
+      "URWAH"
+     ],
+     "proposer": "RAAS",
+     "votes": [
+      "RAHUL",
+      "SAAD",
+      "ASIM",
+      "SANJY",
+      "RAAS",
+      "URWAH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587264681,
+  "_nanoseconds": 484000000
+ },
+ "players": [
+  {
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1",
+   "name": "RAHUL"
+  },
+  {
+   "name": "RAAS",
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "uid": "b25KDZonqXVnJg1BnaKXhGQCFUt1",
+   "name": "URWAH"
+  },
+  {
+   "name": "ASIM",
+   "uid": "Q9QyQdvthvf35Nfsq1nAHi9cUJv2"
+  },
+  {
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073",
+   "name": "SANJY"
+  },
+  {
+   "name": "SAAD",
+   "uid": "CNDU2KmpIlMMrwYJZzd4YJbOh223"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

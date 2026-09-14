@@ -1,0 +1,173 @@
+{
+ "players": [
+  {
+   "uid": "FUEV3N8PFlXJ4urTVH0pG5iHMcs2",
+   "name": "BRETT"
+  },
+  {
+   "name": "LOOSHIN",
+   "uid": "f5xWgMf1EOVo56SnuacCLng65UZ2"
+  },
+  {
+   "uid": "wXAsnUFNLkPRK7OTNCkLGnLDUPv1",
+   "name": "DAN"
+  },
+  {
+   "name": "TOPHER",
+   "uid": "chYoAcT9j5cyoD6EU8poEueZd7f1"
+  },
+  {
+   "name": "KATE",
+   "uid": "UvrTyjG68uUUixjYaqOoorSEhTr1"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "LOOSHIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "BRETT"
+   },
+   {
+    "name": "KATE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "TOPHER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "DAN",
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "DAN": true,
+    "KATE": true
+   },
+   {
+    "TOPHER": true,
+    "LOOSHIN": true,
+    "KATE": true
+   },
+   {
+    "TOPHER": true,
+    "LOOSHIN": true
+   }
+  ],
+  "assassinated": "LOOSHIN"
+ },
+ "timeFinished": {
+  "_seconds": 1586481450,
+  "_nanoseconds": 660751000
+ },
+ "missions": [
+  {
+   "team": [
+    "DAN",
+    "KATE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "DAN",
+      "KATE"
+     ],
+     "proposer": "DAN",
+     "state": "APPROVED",
+     "votes": [
+      "BRETT",
+      "KATE",
+      "DAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "TOPHER",
+    "LOOSHIN",
+    "KATE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KATE",
+      "TOPHER",
+      "LOOSHIN"
+     ],
+     "proposer": "TOPHER",
+     "state": "APPROVED",
+     "team": [
+      "TOPHER",
+      "LOOSHIN",
+      "KATE"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "team": [
+    "TOPHER",
+    "LOOSHIN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KATE",
+     "team": [
+      "TOPHER",
+      "LOOSHIN"
+     ],
+     "votes": [
+      "TOPHER",
+      "DAN",
+      "LOOSHIN",
+      "KATE"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586480947,
+  "_nanoseconds": 518000000
+ }
+}

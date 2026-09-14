@@ -1,0 +1,267 @@
+{
+ "players": [
+  {
+   "name": "ANDY",
+   "uid": "KnQTI8aNqrMMX82gkXFjwm9OqyI3"
+  },
+  {
+   "name": "HANA",
+   "uid": "rucAGTZAd0aWOpbNnNtUiAk2ZnN2"
+  },
+  {
+   "name": "JENNY",
+   "uid": "LuIskfbI32g2OClOtU4VgMhiVcC3"
+  },
+  {
+   "name": "JO",
+   "uid": "eRw0uHs4TDQOF7yMRPtqEZhGlMu2"
+  },
+  {
+   "name": "JUN",
+   "uid": "B1fFxIsQN5NPjrSOKM6spRTzMwY2"
+  },
+  {
+   "uid": "oDIZlK9maudDg1jfm0rFDsPCuTr2",
+   "name": "PETER"
+  },
+  {
+   "name": "TAYA",
+   "uid": "LycXfEUbqzRCvghy2qpwQV3GOMF2"
+  },
+  {
+   "uid": "FI0dBpoL1KgeoB5tFVxSh8UtlAv2",
+   "name": "YAN"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JO",
+      "JENNY",
+      "YAN",
+      "TAYA",
+      "HANA"
+     ],
+     "team": [
+      "ANDY",
+      "HANA",
+      "JENNY"
+     ],
+     "proposer": "JENNY"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "ANDY",
+    "HANA",
+    "JENNY"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "TAYA",
+      "YAN",
+      "JO",
+      "ANDY"
+     ],
+     "proposer": "JO",
+     "votes": [
+      "YAN",
+      "TAYA",
+      "JUN",
+      "JO"
+     ]
+    },
+    {
+     "team": [
+      "JENNY",
+      "TAYA",
+      "PETER",
+      "JUN"
+     ],
+     "votes": [
+      "JUN",
+      "JO",
+      "PETER",
+      "JENNY",
+      "TAYA"
+     ],
+     "proposer": "JUN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JENNY",
+    "TAYA",
+    "PETER",
+    "JUN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "JENNY",
+    "TAYA",
+    "JUN",
+    "PETER"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JENNY",
+      "TAYA",
+      "JUN",
+      "PETER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JENNY",
+      "TAYA",
+      "JUN",
+      "JO",
+      "PETER"
+     ],
+     "proposer": "PETER"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TAYA",
+      "PETER",
+      "JUN",
+      "JO",
+      "JENNY"
+     ],
+     "votes": [
+      "JO",
+      "PETER",
+      "JENNY",
+      "YAN",
+      "TAYA",
+      "JUN"
+     ],
+     "proposer": "TAYA"
+    }
+   ],
+   "team": [
+    "TAYA",
+    "PETER",
+    "JUN",
+    "JO",
+    "JENNY"
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586099578,
+  "_nanoseconds": 699110000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "JENNY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "YAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TAYA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ANDY"
+   },
+   {
+    "assassin": true,
+    "name": "HANA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JUN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "JO",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "PETER",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "PETER",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "JENNY": true,
+    "ANDY": true,
+    "HANA": false
+   },
+   {
+    "PETER": true,
+    "JENNY": true,
+    "JUN": true,
+    "TAYA": true
+   },
+   {
+    "JUN": true,
+    "PETER": true,
+    "TAYA": true,
+    "JENNY": true
+   },
+   {
+    "TAYA": true,
+    "PETER": true,
+    "JO": true,
+    "JUN": true,
+    "JENNY": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586098749,
+  "_nanoseconds": 829000000
+ }
+}

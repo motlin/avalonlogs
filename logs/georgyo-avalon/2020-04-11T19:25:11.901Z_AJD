@@ -1,0 +1,234 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MATT"
+   },
+   {
+    "name": "MANNY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "EVAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CRAIG",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "SABRINA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MAGGIE"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "EVAN",
+  "votes": [
+   {
+    "MANNY": true,
+    "MAGGIE": true
+   },
+   {
+    "MAGGIE": true,
+    "MANNY": true,
+    "MATT": true
+   },
+   {
+    "MAGGIE": true,
+    "MANNY": true,
+    "MATT": true,
+    "CRAIG": false
+   },
+   {
+    "MAGGIE": true,
+    "EVAN": true,
+    "MATT": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586633111,
+  "_nanoseconds": 901000000
+ },
+ "players": [
+  {
+   "name": "CRAIG",
+   "uid": "WQE3TcMyu7cnVSeXwYCVCPKGDw93"
+  },
+  {
+   "name": "SABRINA",
+   "uid": "XqDnd2zEU4c7lrkXddCAcyd6gH32"
+  },
+  {
+   "name": "MAGGIE",
+   "uid": "Ts2mkjw63sZCpeozrMd6PlQCl6y1"
+  },
+  {
+   "uid": "FtkPiqL2UxQ3r6ulFE9R8mlXr2B3",
+   "name": "MATT"
+  },
+  {
+   "name": "MANNY",
+   "uid": "3ifCRVTHnQbRjssUsACCXryap4y1"
+  },
+  {
+   "name": "EVAN",
+   "uid": "HqUfV8NE6fR6t5fQEqL9kpgLZpN2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586633461,
+  "_nanoseconds": 626191000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MAGGIE",
+    "MANNY"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MAGGIE",
+     "votes": [
+      "CRAIG",
+      "SABRINA",
+      "MAGGIE",
+      "MATT",
+      "MANNY"
+     ],
+     "team": [
+      "MAGGIE",
+      "MANNY"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MATT",
+    "MANNY",
+    "MAGGIE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "MATT",
+      "MANNY",
+      "MAGGIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "MATT",
+     "votes": [
+      "CRAIG",
+      "SABRINA",
+      "MAGGIE",
+      "MATT",
+      "MANNY",
+      "EVAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "MATT",
+      "MANNY",
+      "CRAIG",
+      "SABRINA",
+      "MAGGIE"
+     ],
+     "proposer": "MANNY",
+     "state": "APPROVED",
+     "team": [
+      "MANNY",
+      "MAGGIE",
+      "MATT",
+      "CRAIG"
+     ]
+    }
+   ],
+   "team": [
+    "MANNY",
+    "MAGGIE",
+    "MATT",
+    "CRAIG"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "MAGGIE",
+    "MATT",
+    "EVAN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "EVAN",
+      "CRAIG",
+      "MAGGIE"
+     ],
+     "team": [
+      "EVAN",
+      "MATT",
+      "MAGGIE"
+     ],
+     "proposer": "EVAN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAGGIE",
+      "MATT",
+      "EVAN"
+     ],
+     "votes": [
+      "CRAIG",
+      "MAGGIE",
+      "MATT",
+      "EVAN"
+     ],
+     "proposer": "CRAIG"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

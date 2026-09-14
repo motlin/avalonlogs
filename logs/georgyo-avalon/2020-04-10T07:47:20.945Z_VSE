@@ -1,0 +1,251 @@
+{
+ "timeFinished": {
+  "_seconds": 1586505443,
+  "_nanoseconds": 478223000
+ },
+ "timeCreated": {
+  "_seconds": 1586504840,
+  "_nanoseconds": 945000000
+ },
+ "players": [
+  {
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2",
+   "name": "DADI"
+  },
+  {
+   "uid": "DhUsOXH1LhSIgj7hiLECw5H0pc23",
+   "name": "MARWIE"
+  },
+  {
+   "uid": "VC6osNuueXYBnlenQGGO543wgFX2",
+   "name": "SANG"
+  },
+  {
+   "uid": "VCKDlXqBm8VPlQUs4Cp8VnrzA1F3",
+   "name": "NEEHAW"
+  },
+  {
+   "uid": "lLbnA05okrbSr3qNJsd0AKcpQPN2",
+   "name": "SAAK"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "SAAK",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "DADI"
+   },
+   {
+    "name": "SANG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NEEHAW",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MARWIE",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SANG": true,
+    "NEEHAW": true
+   },
+   {
+    "DADI": false,
+    "NEEHAW": true,
+    "SAAK": true
+   },
+   {
+    "MARWIE": true,
+    "SAAK": true
+   },
+   {
+    "NEEHAW": true,
+    "MARWIE": true,
+    "SAAK": false
+   },
+   {
+    "SANG": true,
+    "SAAK": false,
+    "MARWIE": true
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "NEEHAW",
+    "SANG"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "NEEHAW",
+      "SANG"
+     ],
+     "state": "APPROVED",
+     "proposer": "NEEHAW",
+     "votes": [
+      "SANG",
+      "NEEHAW",
+      "MARWIE",
+      "SAAK",
+      "DADI"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "SAAK",
+    "DADI",
+    "NEEHAW"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SAAK",
+      "DADI",
+      "SANG",
+      "NEEHAW",
+      "MARWIE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SAAK",
+      "DADI",
+      "NEEHAW"
+     ],
+     "proposer": "SAAK"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "SAAK",
+    "MARWIE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "DADI",
+     "votes": [
+      "NEEHAW"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NEEHAW",
+      "DADI"
+     ]
+    },
+    {
+     "proposer": "MARWIE",
+     "state": "APPROVED",
+     "votes": [
+      "SAAK",
+      "DADI",
+      "SANG",
+      "MARWIE"
+     ],
+     "team": [
+      "SAAK",
+      "MARWIE"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "NEEHAW",
+    "SAAK",
+    "MARWIE"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SAAK"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SAAK",
+      "MARWIE",
+      "SANG"
+     ],
+     "proposer": "SANG"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NEEHAW",
+      "SAAK",
+      "MARWIE"
+     ],
+     "votes": [
+      "DADI",
+      "NEEHAW",
+      "MARWIE"
+     ],
+     "proposer": "NEEHAW"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "SAAK",
+    "SANG",
+    "MARWIE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "SAAK",
+     "team": [
+      "SAAK",
+      "SANG",
+      "MARWIE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SAAK",
+      "DADI",
+      "SANG",
+      "MARWIE"
+     ]
+    }
+   ],
+   "numFails": 1
+  }
+ ]
+}

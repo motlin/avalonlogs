@@ -1,0 +1,281 @@
+{
+ "players": [
+  {
+   "name": "SOO",
+   "uid": "knEMSBbLCIe0rTwsYyFGnZZTmVt1"
+  },
+  {
+   "name": "ANDREA",
+   "uid": "qR6zXMGZDkREtEKPVmedgu7oe682"
+  },
+  {
+   "name": "ASHLEY",
+   "uid": "dWLCp2JD2RhJD6nePirAya7BbJ53"
+  },
+  {
+   "uid": "3QEKbSOmfoYgZMAbLc6Dfn0SfwT2",
+   "name": "JAEIN"
+  },
+  {
+   "name": "BAGOR",
+   "uid": "rNuUzhj1pEfhdEjl2jfprM0BSMt1"
+  },
+  {
+   "name": "DUNCAN",
+   "uid": "dwmghtOHcpajLxC1YWn54HiioSe2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "name": "ASHLEY",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "BAGOR"
+   },
+   {
+    "name": "ANDREA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "JAEIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DUNCAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SOO"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "ANDREA": true,
+    "DUNCAN": true
+   },
+   {
+    "BAGOR": true,
+    "ASHLEY": false,
+    "JAEIN": true
+   },
+   {
+    "SOO": true,
+    "BAGOR": true,
+    "DUNCAN": true,
+    "ANDREA": true
+   },
+   {
+    "ANDREA": false,
+    "SOO": true,
+    "DUNCAN": true
+   },
+   {
+    "BAGOR": true,
+    "DUNCAN": true,
+    "SOO": true,
+    "ANDREA": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "DUNCAN",
+    "ANDREA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ASHLEY",
+      "BAGOR",
+      "ANDREA",
+      "JAEIN",
+      "DUNCAN",
+      "SOO"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DUNCAN",
+      "ANDREA"
+     ],
+     "proposer": "SOO"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ASHLEY",
+    "JAEIN",
+    "BAGOR"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ANDREA",
+     "votes": [
+      "ASHLEY",
+      "BAGOR",
+      "ANDREA",
+      "JAEIN",
+      "DUNCAN",
+      "SOO"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ASHLEY",
+      "JAEIN",
+      "BAGOR"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "SOO",
+    "ANDREA",
+    "DUNCAN",
+    "BAGOR"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "DUNCAN",
+      "SOO",
+      "ASHLEY",
+      "BAGOR",
+      "ANDREA"
+     ],
+     "team": [
+      "SOO",
+      "ANDREA",
+      "DUNCAN",
+      "BAGOR"
+     ],
+     "proposer": "ASHLEY",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SOO",
+      "ASHLEY",
+      "JAEIN"
+     ],
+     "votes": [
+      "JAEIN",
+      "ASHLEY"
+     ],
+     "state": "REJECTED",
+     "proposer": "JAEIN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ASHLEY",
+      "BAGOR",
+      "ANDREA",
+      "JAEIN",
+      "DUNCAN",
+      "SOO"
+     ],
+     "proposer": "BAGOR",
+     "team": [
+      "DUNCAN",
+      "SOO",
+      "ANDREA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "DUNCAN",
+    "SOO",
+    "ANDREA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "DUNCAN",
+      "ASHLEY",
+      "JAEIN",
+      "SOO"
+     ],
+     "proposer": "DUNCAN",
+     "state": "REJECTED",
+     "votes": [
+      "JAEIN",
+      "DUNCAN",
+      "ANDREA"
+     ]
+    },
+    {
+     "votes": [
+      "ASHLEY",
+      "ANDREA",
+      "JAEIN",
+      "DUNCAN",
+      "SOO"
+     ],
+     "team": [
+      "ANDREA",
+      "DUNCAN",
+      "SOO",
+      "BAGOR"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOO"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ANDREA",
+    "DUNCAN",
+    "SOO",
+    "BAGOR"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585443690,
+  "_nanoseconds": 408000000
+ },
+ "timeFinished": {
+  "_seconds": 1585444227,
+  "_nanoseconds": 872510000
+ }
+}

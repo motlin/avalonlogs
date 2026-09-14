@@ -1,0 +1,257 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "KAREN",
+  "roles": [
+   {
+    "name": "LASER",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "TOBY",
+    "role": "MORGANA"
+   },
+   {
+    "name": "RYAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "BRIAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "TYLER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KAREN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "GOODWIN",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "RYAN": false,
+    "TYLER": true
+   },
+   {
+    "KAREN": true,
+    "LASER": true,
+    "GOODWIN": true
+   },
+   {
+    "GOODWIN": true,
+    "LASER": true,
+    "KAREN": true
+   },
+   {
+    "BRIAN": true,
+    "KAREN": true,
+    "LASER": true,
+    "GOODWIN": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1590377312,
+  "_nanoseconds": 372000000
+ },
+ "players": [
+  {
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2",
+   "name": "TOBY"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "VK3pUVkXsCMFMxGEgEo0ckQuksm2"
+  },
+  {
+   "uid": "OffwbigM2SblJxpZUB0eHkoPheI2",
+   "name": "TYLER"
+  },
+  {
+   "name": "RYAN",
+   "uid": "FP5bENHJa0btJuQ704ASF8ekuwL2"
+  },
+  {
+   "name": "GOODWIN",
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2"
+  },
+  {
+   "name": "LASER",
+   "uid": "1BzGT5Pb9SR0DbGe7Xxp8UUky8T2"
+  },
+  {
+   "name": "KAREN",
+   "uid": "kYmaig4V9qPVwzFNPynJHaGGk8P2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "TYLER",
+    "RYAN"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RYAN",
+      "BRIAN",
+      "TYLER",
+      "KAREN"
+     ],
+     "proposer": "RYAN",
+     "team": [
+      "TYLER",
+      "RYAN"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "LASER",
+      "GOODWIN",
+      "KAREN"
+     ],
+     "proposer": "GOODWIN",
+     "votes": [
+      "KAREN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "GOODWIN",
+      "LASER",
+      "KAREN"
+     ],
+     "votes": [
+      "KAREN",
+      "LASER"
+     ],
+     "proposer": "LASER"
+    },
+    {
+     "team": [
+      "KAREN",
+      "LASER",
+      "GOODWIN"
+     ],
+     "proposer": "KAREN",
+     "votes": [
+      "LASER",
+      "TYLER",
+      "KAREN",
+      "GOODWIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "KAREN",
+    "LASER",
+    "GOODWIN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "GOODWIN",
+    "LASER",
+    "KAREN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "GOODWIN",
+      "LASER",
+      "KAREN"
+     ],
+     "votes": [
+      "RYAN",
+      "BRIAN",
+      "TYLER",
+      "KAREN",
+      "GOODWIN",
+      "LASER"
+     ],
+     "proposer": "TOBY"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "BRIAN",
+    "KAREN",
+    "GOODWIN",
+    "LASER"
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "BRIAN",
+     "state": "APPROVED",
+     "team": [
+      "BRIAN",
+      "KAREN",
+      "GOODWIN",
+      "LASER"
+     ],
+     "votes": [
+      "RYAN",
+      "BRIAN",
+      "KAREN",
+      "GOODWIN",
+      "LASER",
+      "TOBY"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590376543,
+  "_nanoseconds": 586000000
+ }
+}

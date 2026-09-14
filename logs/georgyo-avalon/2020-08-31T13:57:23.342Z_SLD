@@ -1,0 +1,337 @@
+{
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RJ",
+     "votes": [
+      "KKKKK",
+      "MIKE",
+      "ALEXUS",
+      "RJ",
+      "MARK",
+      "FRANZ",
+      "DAVEPOGI",
+      "EXPUNGE"
+     ],
+     "team": [
+      "MARK",
+      "DAVEPOGI",
+      "ALEXUS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "MARK",
+    "DAVEPOGI",
+    "ALEXUS"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "DAVEPOGI",
+    "MARK",
+    "ALEXUS",
+    "RJ"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "KKKKK",
+      "FRANZ",
+      "SIRHC",
+      "RJ",
+      "MIKE",
+      "MARK",
+      "ALEXUS",
+      "EXPUNGE",
+      "DAVEPOGI"
+     ],
+     "proposer": "DAVEPOGI",
+     "team": [
+      "DAVEPOGI",
+      "MARK",
+      "ALEXUS",
+      "RJ"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "FRANZ",
+      "SIRHC",
+      "PATRICCI",
+      "MIKE"
+     ],
+     "votes": [
+      "SIRHC",
+      "ALEXUS",
+      "PATRICCI",
+      "EXPUNGE",
+      "KKKKK",
+      "FRANZ",
+      "DAVEPOGI",
+      "MIKE"
+     ],
+     "proposer": "FRANZ"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "FRANZ",
+    "SIRHC",
+    "PATRICCI",
+    "MIKE"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "FRANZ",
+    "MIKE",
+    "SIRHC",
+    "PATRICCI",
+    "KKKKK"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "FRANZ",
+      "MIKE",
+      "SIRHC",
+      "PATRICCI",
+      "KKKKK"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DAVEPOGI",
+      "MIKE",
+      "SIRHC",
+      "ALEXUS",
+      "EXPUNGE",
+      "MARK",
+      "KKKKK",
+      "FRANZ"
+     ],
+     "proposer": "MIKE"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "FRANZ",
+    "SIRHC",
+    "PATRICCI",
+    "MIKE",
+    "DAVEPOGI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ALEXUS",
+      "MARK",
+      "DAVEPOGI",
+      "SIRHC",
+      "PATRICCI"
+     ],
+     "proposer": "ALEXUS",
+     "state": "REJECTED",
+     "votes": [
+      "KKKKK",
+      "SIRHC",
+      "ALEXUS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARK",
+      "FRANZ",
+      "SIRHC",
+      "DAVEPOGI",
+      "EXPUNGE",
+      "KKKKK",
+      "PATRICCI",
+      "ALEXUS",
+      "MIKE"
+     ],
+     "proposer": "EXPUNGE",
+     "team": [
+      "FRANZ",
+      "SIRHC",
+      "PATRICCI",
+      "MIKE",
+      "DAVEPOGI"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "DAVEPOGI": true,
+    "MARK": true,
+    "ALEXUS": true
+   },
+   {
+    "MARK": true,
+    "ALEXUS": false,
+    "DAVEPOGI": true,
+    "RJ": true
+   },
+   {
+    "MIKE": true,
+    "SIRHC": true,
+    "PATRICCI": true,
+    "FRANZ": true
+   },
+   {
+    "FRANZ": true,
+    "MIKE": true,
+    "KKKKK": false,
+    "SIRHC": true,
+    "PATRICCI": false
+   },
+   {
+    "MIKE": true,
+    "SIRHC": true,
+    "DAVEPOGI": true,
+    "PATRICCI": false,
+    "FRANZ": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SIRHC"
+   },
+   {
+    "name": "MARK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RJ"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "PATRICCI"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ALEXUS"
+   },
+   {
+    "name": "EXPUNGE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MIKE"
+   },
+   {
+    "name": "DAVEPOGI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "FRANZ"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "KKKKK"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1598882243,
+  "_nanoseconds": 342000000
+ },
+ "players": [
+  {
+   "name": "FRANZ",
+   "uid": "czk7DouHDIQrinVAVAU04BzxBB72"
+  },
+  {
+   "uid": "fNr6Z8DIOVRMFJUDeKZ5hAIXPdr1",
+   "name": "MIKE"
+  },
+  {
+   "name": "ALEXUS",
+   "uid": "oBOvhqfewHemUZ3uNAPl1SV6lIK2"
+  },
+  {
+   "name": "EXPUNGE",
+   "uid": "ei8pXvZxUsf4MJnP0jaAg8iFs0w1"
+  },
+  {
+   "uid": "lICzzaaHhXe3LximR9xHGUKiEAY2",
+   "name": "KKKKK"
+  },
+  {
+   "uid": "Ui66nQ0obdXoepDLBPNrYfUK48g2",
+   "name": "SIRHC"
+  },
+  {
+   "name": "PATRICCI",
+   "uid": "0RdX843TBre5mp9AHmIkJoieJmC2"
+  },
+  {
+   "name": "MARK",
+   "uid": "V0qRiQ8xQeg0lKHsn2w63xVdfUy2"
+  },
+  {
+   "uid": "N56qKHdt5RVAHrmCRQJUEl6nmog2",
+   "name": "RJ"
+  },
+  {
+   "name": "DAVEPOGI",
+   "uid": "8TR934faVzQU8PPe7cTnUZ6miQH3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1598883126,
+  "_nanoseconds": 143000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

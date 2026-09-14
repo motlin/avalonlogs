@@ -1,0 +1,311 @@
+{
+ "players": [
+  {
+   "name": "SID",
+   "uid": "h5jhPWcjFIYJptS9cTqRYRgwUSn1"
+  },
+  {
+   "uid": "kaJgq4Y9figTIhIA6jkVO06nkel2",
+   "name": "TIRTH"
+  },
+  {
+   "uid": "2Mw5fgQFy5ay0vI7lfJS81BvLfH2",
+   "name": "ARCHIT"
+  },
+  {
+   "name": "RAJAT",
+   "uid": "OAakBX0ELRbfWNJPX5fYOsVwXZc2"
+  },
+  {
+   "uid": "0phzpnQHJAdEkr95CrNfZPZbcBC3",
+   "name": "ABHI"
+  },
+  {
+   "name": "VINAY",
+   "uid": "MbPYJoWuAoQleQu6T9NDY5Z7qyg2"
+  },
+  {
+   "name": "KRISHNA",
+   "uid": "PtxBovwVzGSEHMvnTCO7PZsTIIu2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1598621275,
+  "_nanoseconds": 805000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "SID",
+    "ARCHIT"
+   ],
+   "proposals": [
+    {
+     "proposer": "TIRTH",
+     "state": "REJECTED",
+     "votes": [
+      "VINAY",
+      "TIRTH",
+      "RAJAT"
+     ],
+     "team": [
+      "ARCHIT",
+      "TIRTH"
+     ]
+    },
+    {
+     "proposer": "ARCHIT",
+     "team": [
+      "RAJAT",
+      "ARCHIT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ARCHIT",
+      "RAJAT"
+     ]
+    },
+    {
+     "votes": [
+      "VINAY",
+      "RAJAT",
+      "ARCHIT",
+      "SID"
+     ],
+     "team": [
+      "SID",
+      "ARCHIT"
+     ],
+     "state": "APPROVED",
+     "proposer": "RAJAT"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "TIRTH",
+      "RAJAT",
+      "ABHI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KRISHNA",
+      "ABHI",
+      "VINAY"
+     ],
+     "proposer": "ABHI"
+    },
+    {
+     "team": [
+      "ABHI",
+      "VINAY",
+      "SID"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ARCHIT",
+      "RAJAT",
+      "ABHI",
+      "TIRTH",
+      "VINAY"
+     ],
+     "proposer": "VINAY"
+    }
+   ],
+   "team": [
+    "ABHI",
+    "VINAY",
+    "SID"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ABHI",
+      "KRISHNA",
+      "VINAY"
+     ],
+     "proposer": "KRISHNA",
+     "team": [
+      "SID",
+      "KRISHNA",
+      "VINAY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SID",
+     "votes": [
+      "TIRTH",
+      "ARCHIT",
+      "SID",
+      "RAJAT"
+     ],
+     "team": [
+      "SID",
+      "RAJAT",
+      "ARCHIT"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "SID",
+    "RAJAT",
+    "ARCHIT"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 4,
+   "team": [
+    "ARCHIT",
+    "TIRTH",
+    "SID",
+    "ABHI"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ARCHIT",
+      "TIRTH",
+      "SID",
+      "ABHI"
+     ],
+     "state": "APPROVED",
+     "proposer": "TIRTH",
+     "votes": [
+      "ARCHIT",
+      "ABHI",
+      "TIRTH",
+      "VINAY"
+     ]
+    }
+   ],
+   "numFails": 2
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ARCHIT",
+      "SID",
+      "RAJAT",
+      "KRISHNA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RAJAT",
+      "SID",
+      "ARCHIT",
+      "VINAY"
+     ],
+     "proposer": "ARCHIT"
+    }
+   ],
+   "team": [
+    "ARCHIT",
+    "SID",
+    "RAJAT",
+    "KRISHNA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598619984,
+  "_nanoseconds": 441000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "VINAY",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "TIRTH",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "RAJAT"
+   },
+   {
+    "assassin": false,
+    "name": "SID",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ARCHIT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "KRISHNA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ABHI",
+    "assassin": false
+   }
+  ],
+  "assassinated": "RAJAT",
+  "votes": [
+   {
+    "SID": true,
+    "ARCHIT": true
+   },
+   {
+    "SID": true,
+    "VINAY": true,
+    "ABHI": false
+   },
+   {
+    "RAJAT": true,
+    "SID": true,
+    "ARCHIT": true
+   },
+   {
+    "TIRTH": false,
+    "ABHI": false,
+    "ARCHIT": true,
+    "SID": true
+   },
+   {
+    "ARCHIT": true,
+    "SID": true,
+    "RAJAT": true,
+    "KRISHNA": true
+   }
+  ]
+ }
+}

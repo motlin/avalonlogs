@@ -1,0 +1,201 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "OLIV",
+    "SARAH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "OLIV",
+      "SARAH"
+     ],
+     "votes": [
+      "SARAH",
+      "OLIV",
+      "MEGAN",
+      "BONKA"
+     ],
+     "proposer": "SARAH"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "BONKA",
+    "SARAH",
+    "OLIV"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "BONKA",
+      "SARAH",
+      "OLIV"
+     ],
+     "proposer": "BONKA",
+     "state": "APPROVED",
+     "votes": [
+      "KIMMY",
+      "SARAH",
+      "OLIV",
+      "MEGAN"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "KIMMY",
+    "OLIV"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KIMMY",
+      "SARAH",
+      "OLIV",
+      "MEGAN",
+      "BONKA"
+     ],
+     "team": [
+      "KIMMY",
+      "OLIV"
+     ],
+     "proposer": "KIMMY"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "MEGAN",
+    "OLIV",
+    "KIMMY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KIMMY",
+      "MEGAN",
+      "BONKA"
+     ],
+     "team": [
+      "MEGAN",
+      "OLIV",
+      "KIMMY"
+     ],
+     "state": "APPROVED",
+     "proposer": "MEGAN"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585450145,
+  "_nanoseconds": 794741000
+ },
+ "players": [
+  {
+   "name": "BONKA",
+   "uid": "MFFjMfUx7uhcRmNUJVcY5TYloBt1"
+  },
+  {
+   "uid": "Q2eexRLYOON5BQxFL5v8fqKC1Wb2",
+   "name": "KIMMY"
+  },
+  {
+   "uid": "NYHvUgrdEwSufp9ohu8XLGQCm822",
+   "name": "MEGAN"
+  },
+  {
+   "name": "OLIV",
+   "uid": "aDYcz61tQLgU9lZrNciYisqQSOY2"
+  },
+  {
+   "name": "SARAH",
+   "uid": "eK9Px4sSP5MeEYadkLpCbovRmoB3"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "SARAH",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "OLIV"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MEGAN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "BONKA"
+   },
+   {
+    "name": "KIMMY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "OLIV",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SARAH": true,
+    "OLIV": true
+   },
+   {
+    "SARAH": false,
+    "BONKA": false,
+    "OLIV": true
+   },
+   {
+    "KIMMY": true,
+    "OLIV": true
+   },
+   {
+    "MEGAN": true,
+    "OLIV": true,
+    "KIMMY": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585449841,
+  "_nanoseconds": 392000000
+ }
+}

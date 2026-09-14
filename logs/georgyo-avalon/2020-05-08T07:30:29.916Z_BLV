@@ -1,0 +1,376 @@
+{
+ "timeFinished": {
+  "_seconds": 1588924993,
+  "_nanoseconds": 963000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "EDMUND",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "JEREMIAH"
+   },
+   {
+    "assassin": false,
+    "name": "DENNIS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LOONG",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DALLAS",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "GKL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "RAY"
+   },
+   {
+    "assassin": false,
+    "name": "DAVE",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "DAVID",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "EDMUND": true,
+    "DALLAS": true,
+    "JEREMIAH": true
+   },
+   {
+    "EDMUND": true,
+    "JEREMIAH": true,
+    "DALLAS": false,
+    "DAVID": true
+   },
+   {
+    "RAY": false,
+    "DENNIS": true,
+    "LOONG": true,
+    "GKL": true
+   },
+   {
+    "LOONG": true,
+    "JEREMIAH": true,
+    "DENNIS": true,
+    "EDMUND": true,
+    "GKL": true
+   },
+   {
+    "DENNIS": true,
+    "DAVE": false,
+    "GKL": true,
+    "LOONG": true,
+    "DALLAS": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1588923029,
+  "_nanoseconds": 916000000
+ },
+ "missions": [
+  {
+   "team": [
+    "DALLAS",
+    "EDMUND",
+    "JEREMIAH"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "DENNIS",
+     "votes": [
+      "DAVE",
+      "EDMUND",
+      "JEREMIAH",
+      "DALLAS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RAY",
+      "GKL",
+      "DAVE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "DAVE",
+     "team": [
+      "DALLAS",
+      "EDMUND",
+      "JEREMIAH"
+     ],
+     "votes": [
+      "RAY",
+      "DAVID",
+      "EDMUND",
+      "JEREMIAH",
+      "DALLAS",
+      "GKL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DAVID",
+     "state": "APPROVED",
+     "votes": [
+      "GKL",
+      "RAY",
+      "DAVID",
+      "DENNIS",
+      "DALLAS"
+     ],
+     "team": [
+      "DAVID",
+      "DALLAS",
+      "EDMUND",
+      "JEREMIAH"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DAVID",
+    "DALLAS",
+    "EDMUND",
+    "JEREMIAH"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "RAY",
+      "GKL",
+      "DENNIS",
+      "LOONG"
+     ],
+     "proposer": "RAY",
+     "state": "APPROVED",
+     "votes": [
+      "RAY",
+      "DAVE",
+      "DAVID",
+      "EDMUND",
+      "DENNIS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "RAY",
+    "GKL",
+    "DENNIS",
+    "LOONG"
+   ],
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "DALLAS",
+     "state": "REJECTED",
+     "team": [
+      "DALLAS",
+      "LOONG",
+      "DENNIS",
+      "EDMUND",
+      "DAVE"
+     ],
+     "votes": [
+      "DALLAS",
+      "DAVE",
+      "EDMUND"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DALLAS",
+      "EDMUND",
+      "JEREMIAH",
+      "LOONG"
+     ],
+     "team": [
+      "EDMUND",
+      "DALLAS",
+      "JEREMIAH",
+      "DENNIS",
+      "LOONG"
+     ],
+     "proposer": "EDMUND"
+    },
+    {
+     "votes": [
+      "RAY",
+      "DAVE",
+      "EDMUND",
+      "JEREMIAH",
+      "LOONG"
+     ],
+     "proposer": "JEREMIAH",
+     "team": [
+      "EDMUND",
+      "JEREMIAH",
+      "GKL",
+      "LOONG",
+      "DENNIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "EDMUND",
+    "JEREMIAH",
+    "GKL",
+    "LOONG",
+    "DENNIS"
+   ],
+   "teamSize": 5
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "GKL",
+      "RAY",
+      "DALLAS",
+      "DENNIS",
+      "LOONG"
+     ],
+     "votes": [
+      "DAVE",
+      "DALLAS"
+     ],
+     "proposer": "GKL"
+    },
+    {
+     "proposer": "LOONG",
+     "votes": [
+      "DALLAS",
+      "GKL",
+      "DENNIS",
+      "LOONG"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LOONG",
+      "DENNIS",
+      "DALLAS",
+      "JEREMIAH",
+      "GKL"
+     ]
+    },
+    {
+     "votes": [
+      "DAVE",
+      "EDMUND",
+      "DENNIS",
+      "DALLAS",
+      "GKL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DENNIS",
+      "DALLAS",
+      "GKL",
+      "LOONG",
+      "DAVE"
+     ],
+     "proposer": "DENNIS"
+    }
+   ],
+   "teamSize": 5,
+   "team": [
+    "DENNIS",
+    "DALLAS",
+    "GKL",
+    "LOONG",
+    "DAVE"
+   ],
+   "numFails": 2,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "LOONG",
+   "uid": "dQpthNEPbnTYw2usfP0UqD3CYpz2"
+  },
+  {
+   "name": "DENNIS",
+   "uid": "XSSNdr8pbnfvWnvYCuvpS1BIoIe2"
+  },
+  {
+   "uid": "Qhge8kcoqhbhubpp2rtQSM95AqU2",
+   "name": "DAVE"
+  },
+  {
+   "uid": "QKvQ8xjx3tfP9qi7tWnluzcyvjY2",
+   "name": "DAVID"
+  },
+  {
+   "name": "RAY",
+   "uid": "cVP48rDOzyY0YtVeXRdkai1INr53"
+  },
+  {
+   "name": "DALLAS",
+   "uid": "X7dT0n36pUPdYDq7bCsQAQCtJvi2"
+  },
+  {
+   "uid": "9iw4o2ZsaMWonHyjYnk1QPCBN1G2",
+   "name": "EDMUND"
+  },
+  {
+   "name": "JEREMIAH",
+   "uid": "FaeG6OwWQSYu1rbMfm9bPkhiMrl1"
+  },
+  {
+   "name": "GKL",
+   "uid": "mVlNKXlNtZacjpM6nTBTjW9n9Hi2"
+  }
+ ]
+}

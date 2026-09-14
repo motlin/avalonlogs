@@ -1,0 +1,319 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SAFAN",
+      "MAHIN",
+      "MUBS",
+      "INARRA",
+      "SALMAN"
+     ],
+     "team": [
+      "SALMAN",
+      "MAHIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SALMAN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "SALMAN",
+    "MAHIN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "SALMAN",
+      "MAHIN",
+      "MUBS"
+     ],
+     "proposer": "MAHIN",
+     "state": "REJECTED",
+     "votes": [
+      "MAHIN",
+      "MUBS",
+      "SALMAN"
+     ]
+    },
+    {
+     "votes": [
+      "INARRA",
+      "MUBS"
+     ],
+     "proposer": "SAFAN",
+     "team": [
+      "MUBS",
+      "AMMAD",
+      "INARRA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SALMAN",
+      "MAHIN",
+      "AMMAD"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AMMAD",
+      "MAHIN",
+      "SAFAN"
+     ],
+     "proposer": "AMMAD"
+    },
+    {
+     "votes": [
+      "MUBS",
+      "INARRA",
+      "SAFAN",
+      "AMMAD"
+     ],
+     "team": [
+      "MUBS",
+      "AMMAD",
+      "INARRA"
+     ],
+     "state": "APPROVED",
+     "proposer": "MUBS"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MUBS",
+    "AMMAD",
+    "INARRA"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MUBS",
+      "SAFAN",
+      "SALMAN",
+      "AMMAD",
+      "INARRA"
+     ],
+     "proposer": "INARRA",
+     "team": [
+      "AMMAD",
+      "MUBS",
+      "SAFAN",
+      "INARRA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "AMMAD",
+    "MUBS",
+    "SAFAN",
+    "INARRA"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "SALMAN",
+    "MAHIN",
+    "INARRA"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "INARRA",
+      "MAHIN",
+      "SAFAN",
+      "SALMAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SALMAN",
+      "MAHIN",
+      "INARRA"
+     ],
+     "proposer": "SALMAN"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "AMMAD",
+    "SAFAN",
+    "MUBS",
+    "MAHIN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MUBS",
+      "SAFAN"
+     ],
+     "proposer": "MAHIN",
+     "state": "REJECTED",
+     "team": [
+      "SAFAN",
+      "INARRA",
+      "MAHIN",
+      "MUBS"
+     ]
+    },
+    {
+     "votes": [
+      "SAFAN",
+      "MUBS"
+     ],
+     "team": [
+      "MUBS",
+      "SAFAN",
+      "MAHIN",
+      "INARRA"
+     ],
+     "state": "REJECTED",
+     "proposer": "SAFAN"
+    },
+    {
+     "team": [
+      "AMMAD",
+      "SAFAN",
+      "MUBS",
+      "MAHIN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MAHIN",
+      "SAFAN",
+      "SALMAN",
+      "AMMAD"
+     ],
+     "proposer": "AMMAD"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "SALMAN": true,
+    "MAHIN": true
+   },
+   {
+    "INARRA": true,
+    "MUBS": true,
+    "AMMAD": true
+   },
+   {
+    "MUBS": true,
+    "AMMAD": true,
+    "SAFAN": false,
+    "INARRA": true
+   },
+   {
+    "INARRA": true,
+    "SALMAN": false,
+    "MAHIN": true
+   },
+   {
+    "SAFAN": false,
+    "MUBS": true,
+    "MAHIN": true,
+    "AMMAD": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "INARRA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "MUBS",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MAHIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "SAFAN"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SALMAN"
+   },
+   {
+    "name": "AMMAD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1613642386,
+  "_nanoseconds": 99000000
+ },
+ "players": [
+  {
+   "name": "AMMAD",
+   "uid": "NYf4TAprohetijt3R5tQ6Aula502"
+  },
+  {
+   "name": "MUBS",
+   "uid": "eD3z7D1FevdhSeH4hqQXOUNLKsf2"
+  },
+  {
+   "uid": "7FFmesVvk9WPatCONMnSo7hgvuC3",
+   "name": "INARRA"
+  },
+  {
+   "uid": "97zJ6RPMVOZAlp03HTtdxdR7bID3",
+   "name": "SALMAN"
+  },
+  {
+   "uid": "Q5IeHRPiaie0r6t0mUQAxrRsGJu2",
+   "name": "MAHIN"
+  },
+  {
+   "name": "SAFAN",
+   "uid": "GEyVFBdcQlO0IJzeTL948ZebUE63"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1613644290,
+  "_nanoseconds": 41000000
+ }
+}

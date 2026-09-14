@@ -1,0 +1,215 @@
+{
+ "missions": [
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "EM",
+    "RICKY"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "KAREN",
+     "state": "APPROVED",
+     "votes": [
+      "KAREN",
+      "RICKY",
+      "GURDAVE",
+      "EM",
+      "JACKIE"
+     ],
+     "team": [
+      "EM",
+      "RICKY"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "GURDAVE",
+    "JACKIE",
+    "RICKY"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "GURDAVE",
+      "JACKIE",
+      "RICKY"
+     ],
+     "votes": [
+      "RICKY",
+      "GURDAVE",
+      "EM",
+      "JACKIE",
+      "KAREN"
+     ],
+     "proposer": "GURDAVE"
+    }
+   ]
+  },
+  {
+   "team": [
+    "RICKY",
+    "JACKIE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "EM",
+     "votes": [
+      "EM",
+      "KAREN"
+     ],
+     "team": [
+      "EM",
+      "JACKIE"
+     ]
+    },
+    {
+     "proposer": "RICKY",
+     "votes": [
+      "RICKY",
+      "GURDAVE",
+      "EM",
+      "JACKIE"
+     ],
+     "team": [
+      "RICKY",
+      "JACKIE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JACKIE",
+    "RICKY",
+    "GURDAVE"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JACKIE",
+      "RICKY",
+      "GURDAVE"
+     ],
+     "votes": [
+      "RICKY",
+      "GURDAVE",
+      "EM",
+      "JACKIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "JACKIE"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "ZklElVtlvJVNrLvNFUGl8ZUkuj43",
+   "name": "GURDAVE"
+  },
+  {
+   "uid": "5FeaUPPrAIeMI0qDNnEZvvcexby1",
+   "name": "EM"
+  },
+  {
+   "uid": "d2xhLyifotgLalGKYtAgrpJ01Xp1",
+   "name": "RICKY"
+  },
+  {
+   "uid": "Jea4FHIQPadkRzbmWeribrDOui53",
+   "name": "JACKIE"
+  },
+  {
+   "name": "KAREN",
+   "uid": "ZtcMhjMTrUbceon2qnamYgPquck1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585965939,
+  "_nanoseconds": 642425000
+ },
+ "timeCreated": {
+  "_seconds": 1585965636,
+  "_nanoseconds": 624000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "EM": false,
+    "RICKY": true
+   },
+   {
+    "GURDAVE": true,
+    "JACKIE": true,
+    "RICKY": true
+   },
+   {
+    "JACKIE": true,
+    "RICKY": true
+   },
+   {
+    "GURDAVE": true,
+    "JACKIE": true,
+    "RICKY": true
+   }
+  ],
+  "assassinated": "RICKY",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "RICKY",
+    "assassin": false
+   },
+   {
+    "name": "GURDAVE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "EM"
+   },
+   {
+    "assassin": false,
+    "name": "JACKIE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "KAREN",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ }
+}

@@ -1,0 +1,370 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "FRANZMARU": true,
+    "ERICKA": true,
+    "EOUIE": true
+   },
+   {
+    "EOUIE": true,
+    "ERICKA": true,
+    "ELLA": true,
+    "FRANZMARU": false
+   },
+   {
+    "ALDEN": false,
+    "ERICKA": true,
+    "CLA": true,
+    "UMBEK": true
+   },
+   {
+    "ERICKA": true,
+    "EOUIE": true,
+    "UMBEK": true,
+    "CLA": true,
+    "FRANZMARU": true
+   },
+   {
+    "ERICKA": true,
+    "UMBEK": true,
+    "CLA": true,
+    "ALDEN": false,
+    "EOUIE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "JE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CLA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "DANICA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "EOUIE"
+   },
+   {
+    "name": "UMBEK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ALDEN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ELLA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "FRANZMARU",
+    "assassin": false
+   },
+   {
+    "name": "ERICKA",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ALDEN",
+   "uid": "X2NMBPyiWRSTXZXUGSK2YHMDnrI2"
+  },
+  {
+   "uid": "4R2cBCVhRyQh1Hq8VAb5f6SzXtE3",
+   "name": "EOUIE"
+  },
+  {
+   "name": "DANICA",
+   "uid": "yvh8a7oiWVgBtQD84SZBG5xTajd2"
+  },
+  {
+   "name": "ELLA",
+   "uid": "Sm7N0c5NVkeR6AtTzLJEjLRvaoI3"
+  },
+  {
+   "name": "ERICKA",
+   "uid": "qSimPtQKADgEk00wXW9lrLvpxBV2"
+  },
+  {
+   "name": "UMBEK",
+   "uid": "bmfrZmnMoUMQ5TbbDqZVTsInYRh1"
+  },
+  {
+   "name": "CLA",
+   "uid": "XUpd9fgOyFeJhe9ewPUUFFDqyrz1"
+  },
+  {
+   "name": "FRANZMARU",
+   "uid": "x7PesYjiIIZTTLy2p0U4C2GjMgJ2"
+  },
+  {
+   "name": "JE",
+   "uid": "7JafDzkMBqO71zScujUZvTA6tBb2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "EOUIE",
+      "FRANZMARU",
+      "ERICKA"
+     ],
+     "proposer": "EOUIE",
+     "votes": [
+      "FRANZMARU",
+      "ERICKA",
+      "CLA",
+      "DANICA",
+      "EOUIE",
+      "UMBEK",
+      "ALDEN",
+      "ELLA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "EOUIE",
+    "FRANZMARU",
+    "ERICKA"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "EOUIE",
+    "FRANZMARU",
+    "ELLA",
+    "ERICKA"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "DANICA",
+     "votes": [
+      "JE",
+      "DANICA",
+      "ELLA"
+     ],
+     "team": [
+      "DANICA",
+      "ERICKA",
+      "FRANZMARU",
+      "JE"
+     ]
+    },
+    {
+     "team": [
+      "EOUIE",
+      "FRANZMARU",
+      "ELLA",
+      "ERICKA"
+     ],
+     "proposer": "ELLA",
+     "state": "APPROVED",
+     "votes": [
+      "FRANZMARU",
+      "ERICKA",
+      "CLA",
+      "DANICA",
+      "EOUIE",
+      "UMBEK",
+      "ALDEN",
+      "ELLA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ERICKA",
+      "CLA",
+      "UMBEK",
+      "ALDEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ERICKA",
+      "CLA",
+      "DANICA",
+      "EOUIE",
+      "UMBEK",
+      "ALDEN",
+      "ELLA",
+      "FRANZMARU"
+     ],
+     "proposer": "ERICKA"
+    }
+   ],
+   "team": [
+    "ERICKA",
+    "CLA",
+    "UMBEK",
+    "ALDEN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "UMBEK",
+      "ELLA"
+     ],
+     "proposer": "UMBEK",
+     "team": [
+      "UMBEK",
+      "CLA",
+      "JE",
+      "ELLA",
+      "ALDEN"
+     ]
+    },
+    {
+     "votes": [
+      "CLA",
+      "EOUIE",
+      "UMBEK",
+      "ALDEN",
+      "ELLA",
+      "ERICKA"
+     ],
+     "team": [
+      "CLA",
+      "ERICKA",
+      "UMBEK",
+      "EOUIE",
+      "FRANZMARU"
+     ],
+     "state": "APPROVED",
+     "proposer": "CLA"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "CLA",
+    "ERICKA",
+    "UMBEK",
+    "EOUIE",
+    "FRANZMARU"
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ERICKA",
+      "CLA",
+      "FRANZMARU",
+      "ALDEN",
+      "EOUIE"
+     ],
+     "proposer": "FRANZMARU",
+     "votes": [
+      "DANICA",
+      "EOUIE",
+      "ELLA",
+      "FRANZMARU"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JE",
+     "votes": [
+      "ALDEN",
+      "FRANZMARU",
+      "JE"
+     ],
+     "team": [
+      "JE",
+      "DANICA",
+      "ALDEN",
+      "EOUIE",
+      "ERICKA"
+     ]
+    },
+    {
+     "team": [
+      "ALDEN",
+      "ERICKA",
+      "UMBEK",
+      "EOUIE",
+      "CLA"
+     ],
+     "proposer": "ALDEN",
+     "votes": [
+      "DANICA",
+      "EOUIE",
+      "UMBEK",
+      "ALDEN",
+      "ELLA",
+      "FRANZMARU",
+      "CLA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": [
+    "ALDEN",
+    "ERICKA",
+    "UMBEK",
+    "EOUIE",
+    "CLA"
+   ],
+   "numFails": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589030359,
+  "_nanoseconds": 3000000
+ },
+ "timeCreated": {
+  "_seconds": 1589029267,
+  "_nanoseconds": 805000000
+ }
+}

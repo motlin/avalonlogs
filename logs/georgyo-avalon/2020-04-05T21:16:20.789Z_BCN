@@ -1,0 +1,367 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "ELLIE": true,
+    "SANDRA": true,
+    "DEKU": false
+   },
+   {
+    "DEKU": false,
+    "DOM": true,
+    "ZACK": true,
+    "RONA": true
+   },
+   {
+    "SANDRA": true,
+    "TERRY": false,
+    "ZACK": false,
+    "DOM": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "RONA",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SANDRA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "DEKU",
+    "assassin": true
+   },
+   {
+    "name": "DOM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELLIE"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ZACK"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BEN",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "TERRY",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1586123950,
+  "_nanoseconds": 905358000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "ELLIE",
+    "DEKU",
+    "SANDRA"
+   ],
+   "proposals": [
+    {
+     "proposer": "BEN",
+     "team": [
+      "BEN",
+      "RONA",
+      "DEKU"
+     ],
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "votes": [],
+     "team": [
+      "RONA",
+      "ELLIE",
+      "DEKU"
+     ],
+     "proposer": "DEKU",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BEN"
+     ],
+     "proposer": "DOM",
+     "team": [
+      "DOM",
+      "SANDRA",
+      "ELLIE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SANDRA",
+     "state": "REJECTED",
+     "team": [
+      "SANDRA",
+      "RONA",
+      "DEKU"
+     ],
+     "votes": [
+      "DEKU"
+     ]
+    },
+    {
+     "proposer": "ELLIE",
+     "votes": [
+      "RONA",
+      "SANDRA",
+      "DOM",
+      "ELLIE",
+      "ZACK",
+      "BEN",
+      "TERRY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ELLIE",
+      "DEKU",
+      "SANDRA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ZACK",
+     "team": [
+      "ZACK",
+      "DEKU",
+      "BEN",
+      "RONA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "RONA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "TERRY",
+      "SANDRA",
+      "DOM",
+      "RONA"
+     ],
+     "votes": [
+      "SANDRA",
+      "TERRY"
+     ],
+     "proposer": "TERRY"
+    },
+    {
+     "votes": [
+      "RONA",
+      "ZACK"
+     ],
+     "team": [
+      "RONA",
+      "ZACK",
+      "BEN",
+      "ELLIE"
+     ],
+     "state": "REJECTED",
+     "proposer": "RONA"
+    },
+    {
+     "proposer": "BEN",
+     "votes": [
+      "BEN"
+     ],
+     "team": [
+      "BEN",
+      "DEKU",
+      "DOM",
+      "TERRY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "DEKU",
+     "votes": [
+      "DOM",
+      "ELLIE",
+      "ZACK",
+      "BEN",
+      "TERRY",
+      "RONA",
+      "SANDRA",
+      "DEKU"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ZACK",
+      "RONA",
+      "DEKU",
+      "DOM"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ZACK",
+    "RONA",
+    "DEKU",
+    "DOM"
+   ]
+  },
+  {
+   "team": [
+    "ZACK",
+    "TERRY",
+    "DOM",
+    "SANDRA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "RONA",
+      "DOM",
+      "SANDRA",
+      "TERRY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DOM",
+      "RONA",
+      "SANDRA"
+     ],
+     "proposer": "DOM"
+    },
+    {
+     "proposer": "SANDRA",
+     "votes": [
+      "BEN",
+      "RONA",
+      "SANDRA",
+      "DOM"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SANDRA",
+      "DOM",
+      "RONA",
+      "TERRY"
+     ]
+    },
+    {
+     "votes": [
+      "SANDRA",
+      "ELLIE",
+      "BEN",
+      "TERRY"
+     ],
+     "proposer": "ELLIE",
+     "state": "REJECTED",
+     "team": [
+      "ELLIE",
+      "DOM",
+      "TERRY",
+      "RONA"
+     ]
+    },
+    {
+     "proposer": "ZACK",
+     "state": "APPROVED",
+     "votes": [
+      "DOM",
+      "ZACK",
+      "BEN",
+      "TERRY",
+      "DEKU"
+     ],
+     "team": [
+      "ZACK",
+      "TERRY",
+      "DOM",
+      "SANDRA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 2,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586121380,
+  "_nanoseconds": 789000000
+ },
+ "players": [
+  {
+   "uid": "rHMwsTEdpaXX4MwNrypOJ4kr1RF2",
+   "name": "ZACK"
+  },
+  {
+   "name": "TERRY",
+   "uid": "TBtAKF7u7NXJWloZRJCbRCthwwr2"
+  },
+  {
+   "uid": "hPd4GDOHCqS4xmX2E41U4YZFATz1",
+   "name": "RONA"
+  },
+  {
+   "uid": "2ZdzPZdcH6fzPR6RZZPh3fryDv53",
+   "name": "BEN"
+  },
+  {
+   "name": "DEKU",
+   "uid": "GT90qLUf04MuoIH50h8qJyV6oDo2"
+  },
+  {
+   "name": "DOM",
+   "uid": "JKg4DbiqHpgOHIOnUajtfriBpr93"
+  },
+  {
+   "uid": "WOAKgE2l4aPlzev6gzxgE718Aya2",
+   "name": "SANDRA"
+  },
+  {
+   "uid": "9T6JCVc5qMO0BBopZZgmpoMgzWq1",
+   "name": "ELLIE"
+  }
+ ]
+}

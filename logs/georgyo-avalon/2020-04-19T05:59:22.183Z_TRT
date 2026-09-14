@@ -1,0 +1,372 @@
+{
+ "timeFinished": {
+  "_seconds": 1587279383,
+  "_nanoseconds": 228000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KIMMIE": true,
+    "JENNA": true,
+    "MT": true
+   },
+   {
+    "MT": true,
+    "JENNA": true,
+    "HONG": true,
+    "HIEN": true
+   },
+   {
+    "KIMMIE": false,
+    "HIEN": true,
+    "HONG": true,
+    "TAN": true
+   },
+   {
+    "MT": true,
+    "KIMMIE": false,
+    "HONG": true,
+    "TAI": false,
+    "TAN": true
+   },
+   {
+    "NUTELLA": false,
+    "TRUNGDEPTR": true,
+    "HIEN": true,
+    "JENNA": true,
+    "MT": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "TRUNGDEPTR",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "KIMMIE"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "TAI",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "NUTELLA"
+   },
+   {
+    "name": "HIEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JENNA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "HONG"
+   },
+   {
+    "name": "MT",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "KIMMIE",
+    "MT",
+    "JENNA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "TRUNGDEPTR",
+     "votes": [
+      "TRUNGDEPTR",
+      "NUTELLA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TRUNGDEPTR",
+      "TAI",
+      "NUTELLA"
+     ]
+    },
+    {
+     "votes": [
+      "MT",
+      "TRUNGDEPTR",
+      "NUTELLA",
+      "JENNA"
+     ],
+     "proposer": "NUTELLA",
+     "state": "REJECTED",
+     "team": [
+      "NUTELLA",
+      "KIMMIE",
+      "MT"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KIMMIE",
+      "MT",
+      "JENNA"
+     ],
+     "proposer": "KIMMIE",
+     "votes": [
+      "JENNA",
+      "TAN",
+      "HONG",
+      "MT",
+      "TRUNGDEPTR",
+      "KIMMIE",
+      "HIEN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "MT",
+     "team": [
+      "KIMMIE",
+      "MT",
+      "JENNA",
+      "HONG"
+     ],
+     "votes": [
+      "TAN",
+      "MT",
+      "TRUNGDEPTR",
+      "KIMMIE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JENNA",
+     "team": [
+      "MT",
+      "KIMMIE",
+      "JENNA",
+      "NUTELLA"
+     ],
+     "votes": [
+      "JENNA",
+      "MT",
+      "KIMMIE"
+     ]
+    },
+    {
+     "votes": [
+      "TRUNGDEPTR",
+      "NUTELLA",
+      "HIEN",
+      "JENNA",
+      "MT"
+     ],
+     "team": [
+      "HIEN",
+      "HONG",
+      "MT",
+      "JENNA"
+     ],
+     "proposer": "HIEN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "HIEN",
+    "HONG",
+    "MT",
+    "JENNA"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "TAN",
+     "team": [
+      "MT",
+      "JENNA",
+      "HONG",
+      "TAN"
+     ],
+     "votes": [
+      "HONG"
+     ]
+    },
+    {
+     "votes": [
+      "TRUNGDEPTR",
+      "KIMMIE",
+      "TAI",
+      "NUTELLA",
+      "HIEN",
+      "TAN",
+      "HONG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "HONG",
+      "KIMMIE",
+      "HIEN",
+      "TAN"
+     ],
+     "proposer": "HONG"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "HONG",
+    "KIMMIE",
+    "HIEN",
+    "TAN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TAI",
+      "JENNA",
+      "HONG",
+      "MT",
+      "KIMMIE"
+     ],
+     "team": [
+      "HONG",
+      "MT",
+      "KIMMIE",
+      "TAI",
+      "TAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "TAI"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "HONG",
+    "MT",
+    "KIMMIE",
+    "TAI",
+    "TAN"
+   ],
+   "teamSize": 5,
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "HIEN",
+    "NUTELLA",
+    "MT",
+    "TRUNGDEPTR",
+    "JENNA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "TRUNGDEPTR",
+     "state": "APPROVED",
+     "votes": [
+      "TRUNGDEPTR",
+      "KIMMIE",
+      "TAI",
+      "NUTELLA",
+      "JENNA",
+      "TAN"
+     ],
+     "team": [
+      "HIEN",
+      "NUTELLA",
+      "MT",
+      "TRUNGDEPTR",
+      "JENNA"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "numFails": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587275962,
+  "_nanoseconds": 183000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "FWWSWQIBMTYxgn06wq9GNtTidub2",
+   "name": "NUTELLA"
+  },
+  {
+   "uid": "l4yVerknGjPRAT4MPR2KQgvg5oL2",
+   "name": "KIMMIE"
+  },
+  {
+   "uid": "2nrW47dpEudHT84QXlatCBP6lUL2",
+   "name": "MT"
+  },
+  {
+   "name": "JENNA",
+   "uid": "hpKYs2HU9Bgb0yolyeETKxJ82fo2"
+  },
+  {
+   "name": "HIEN",
+   "uid": "qqzsqBM1VoVyHyD6jsBN9WmzYzq1"
+  },
+  {
+   "name": "TAN",
+   "uid": "pyRyj22AAufMy4sQQwZ5WBefZg53"
+  },
+  {
+   "name": "HONG",
+   "uid": "93jNIHZDRUdECmAUaQHfzWPnxbH3"
+  },
+  {
+   "name": "TAI",
+   "uid": "KdiJw9KPTUa6pkS8kde0AQhJEL13"
+  },
+  {
+   "name": "TRUNGDEPTR",
+   "uid": "kiHFdlxMFseR6Pc71SK6sLSGFWe2"
+  }
+ ]
+}

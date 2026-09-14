@@ -1,0 +1,363 @@
+{
+ "players": [
+  {
+   "uid": "180b41QPIfWdUzQ3nXS5ifHK6ri2",
+   "name": "STEPHANIE"
+  },
+  {
+   "uid": "wUebECQqsFbJvnvqTGj09cFUKk12",
+   "name": "AVI"
+  },
+  {
+   "uid": "nsSoLdqds0NLNsS2hxpJjQyhI0W2",
+   "name": "VARUN"
+  },
+  {
+   "name": "STACEY",
+   "uid": "vdQbBftv5nbQrwNUZC7UV44BMlz2"
+  },
+  {
+   "uid": "ZiFZUKiYnqMcfh25rGUd9hP14ms1",
+   "name": "VOET"
+  },
+  {
+   "name": "BOON",
+   "uid": "GEOIQQh5RVQA0CQGv6hALjy3rY53"
+  },
+  {
+   "name": "PETER",
+   "uid": "gOVtvCmEnZTUIzb74m2yxLV6MIR2"
+  },
+  {
+   "uid": "ym7S3X8lnUPawOUh7fvHtsbWYzI3",
+   "name": "PAIGE"
+  },
+  {
+   "uid": "HBegbsnUn1OovRq8QQUaCYpAePC2",
+   "name": "ISHA"
+  },
+  {
+   "uid": "s1flItWz3ZWG7Yhg5gja8n4rMyd2",
+   "name": "NIKHIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598821386,
+  "_nanoseconds": 142000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "VARUN": true,
+    "STACEY": true,
+    "VOET": false
+   },
+   {
+    "STACEY": true,
+    "AVI": true,
+    "VARUN": true,
+    "PETER": true
+   },
+   {
+    "AVI": true,
+    "PETER": true,
+    "VARUN": true,
+    "STACEY": true
+   },
+   {
+    "AVI": true,
+    "STACEY": true,
+    "VARUN": true,
+    "STEPHANIE": true,
+    "PETER": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "PAIGE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NIKHIL"
+   },
+   {
+    "name": "PETER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BOON",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "VOET"
+   },
+   {
+    "assassin": false,
+    "name": "ISHA",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "STEPHANIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "STACEY"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "VARUN"
+   },
+   {
+    "name": "AVI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "VARUN",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1598823128,
+  "_nanoseconds": 87000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "AVI",
+      "STACEY"
+     ],
+     "proposer": "VARUN",
+     "votes": [
+      "NIKHIL",
+      "VARUN",
+      "BOON",
+      "PETER",
+      "STACEY"
+     ]
+    },
+    {
+     "votes": [
+      "ISHA",
+      "BOON",
+      "STACEY",
+      "PAIGE",
+      "NIKHIL",
+      "STEPHANIE",
+      "VOET"
+     ],
+     "proposer": "STACEY",
+     "team": [
+      "STACEY",
+      "VARUN",
+      "VOET"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "STACEY",
+    "VARUN",
+    "VOET"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "VARUN",
+      "AVI",
+      "PETER",
+      "ISHA"
+     ],
+     "state": "REJECTED",
+     "proposer": "VOET",
+     "votes": [
+      "NIKHIL",
+      "VARUN",
+      "BOON",
+      "VOET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "BOON",
+     "team": [
+      "AVI",
+      "STACEY",
+      "VARUN",
+      "BOON"
+     ],
+     "votes": [
+      "ISHA",
+      "BOON",
+      "PAIGE"
+     ]
+    },
+    {
+     "votes": [
+      "STEPHANIE",
+      "VARUN",
+      "AVI",
+      "PETER",
+      "STACEY",
+      "PAIGE",
+      "BOON",
+      "ISHA",
+      "VOET",
+      "NIKHIL"
+     ],
+     "proposer": "PETER",
+     "state": "APPROVED",
+     "team": [
+      "STACEY",
+      "VARUN",
+      "AVI",
+      "PETER"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "STACEY",
+    "VARUN",
+    "AVI",
+    "PETER"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "PAIGE",
+      "BOON",
+      "STEPHANIE"
+     ],
+     "team": [
+      "PAIGE",
+      "PETER",
+      "VARUN",
+      "STACEY"
+     ],
+     "proposer": "PAIGE"
+    },
+    {
+     "proposer": "ISHA",
+     "votes": [
+      "BOON",
+      "PAIGE",
+      "ISHA",
+      "VOET"
+     ],
+     "team": [
+      "VARUN",
+      "AVI",
+      "STEPHANIE",
+      "ISHA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "STEPHANIE",
+      "VARUN",
+      "BOON",
+      "AVI",
+      "VOET",
+      "PETER",
+      "NIKHIL",
+      "STACEY",
+      "PAIGE"
+     ],
+     "proposer": "NIKHIL",
+     "state": "APPROVED",
+     "team": [
+      "AVI",
+      "VARUN",
+      "STACEY",
+      "PETER"
+     ]
+    }
+   ],
+   "team": [
+    "AVI",
+    "VARUN",
+    "STACEY",
+    "PETER"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "STEPHANIE",
+    "AVI",
+    "VARUN",
+    "STACEY",
+    "PETER"
+   ],
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "STEPHANIE",
+     "state": "APPROVED",
+     "team": [
+      "STEPHANIE",
+      "AVI",
+      "VARUN",
+      "STACEY",
+      "PETER"
+     ],
+     "votes": [
+      "STEPHANIE",
+      "NIKHIL",
+      "VOET",
+      "STACEY",
+      "AVI",
+      "BOON",
+      "PETER",
+      "VARUN"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 5,
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

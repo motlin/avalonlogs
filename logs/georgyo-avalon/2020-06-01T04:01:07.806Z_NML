@@ -1,0 +1,233 @@
+{
+ "players": [
+  {
+   "name": "LUCI",
+   "uid": "0WHqB20fcCcUocHfDgOmkq4ejeG3"
+  },
+  {
+   "uid": "lDyVa9FbDAWTsFfxx9YvEGIxw7L2",
+   "name": "ISAIAS"
+  },
+  {
+   "name": "SYLVIA",
+   "uid": "Oh8bNprxI3QnrZ4dfkJjTlOi94k1"
+  },
+  {
+   "uid": "s4ZnyHqFb0Zum29OOZWBIVFhT2v1",
+   "name": "ELLIE"
+  },
+  {
+   "uid": "FwadgGT5I4ODuSbd8Q91CQtOveX2",
+   "name": "ELLENYAAAA"
+  },
+  {
+   "uid": "bRs8sO7fXrQYWXrCWsyrBsRxvVn1",
+   "name": "FRANNY"
+  },
+  {
+   "name": "CHARLIE",
+   "uid": "wpHz7lRZ22MZlrGoFnlSYma9cBG3"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "FRANNY": true,
+    "SYLVIA": true
+   },
+   {
+    "FRANNY": false,
+    "ISAIAS": true,
+    "ELLIE": true
+   },
+   {
+    "SYLVIA": false,
+    "LUCI": true,
+    "FRANNY": true
+   },
+   {
+    "LUCI": true,
+    "FRANNY": false,
+    "ELLENYAAAA": true,
+    "SYLVIA": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": true,
+    "name": "CHARLIE",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ELLENYAAAA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "ISAIAS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ELLIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SYLVIA",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "FRANNY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "LUCI",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1590984385,
+  "_nanoseconds": 326000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "FRANNY",
+    "SYLVIA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ELLIE",
+      "SYLVIA",
+      "FRANNY",
+      "LUCI",
+      "CHARLIE",
+      "ELLENYAAAA",
+      "ISAIAS"
+     ],
+     "proposer": "FRANNY",
+     "team": [
+      "FRANNY",
+      "SYLVIA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "FRANNY",
+    "ISAIAS",
+    "ELLIE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "FRANNY",
+      "ISAIAS",
+      "ELLIE"
+     ],
+     "proposer": "CHARLIE",
+     "votes": [
+      "ELLIE",
+      "SYLVIA",
+      "FRANNY",
+      "CHARLIE",
+      "ELLENYAAAA",
+      "ISAIAS"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "FRANNY",
+      "SYLVIA",
+      "LUCI"
+     ],
+     "proposer": "LUCI",
+     "votes": [
+      "SYLVIA",
+      "FRANNY",
+      "LUCI",
+      "CHARLIE"
+     ]
+    }
+   ],
+   "team": [
+    "FRANNY",
+    "SYLVIA",
+    "LUCI"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 2,
+   "team": [
+    "ELLENYAAAA",
+    "SYLVIA",
+    "LUCI",
+    "FRANNY"
+   ],
+   "proposals": [
+    {
+     "proposer": "ISAIAS",
+     "votes": [
+      "SYLVIA",
+      "FRANNY",
+      "CHARLIE",
+      "ISAIAS"
+     ],
+     "team": [
+      "ELLENYAAAA",
+      "SYLVIA",
+      "LUCI",
+      "FRANNY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590984067,
+  "_nanoseconds": 806000000
+ }
+}

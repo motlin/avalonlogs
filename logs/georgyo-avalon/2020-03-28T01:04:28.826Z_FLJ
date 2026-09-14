@@ -1,0 +1,346 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "KATIEG": false,
+    "PPPAAATTT": true,
+    "KATE": true
+   },
+   {
+    "KATE": true,
+    "SCOTT": true,
+    "RICARDOE": true,
+    "COVIDEB": false
+   },
+   {
+    "GREENE": true,
+    "TAY": true,
+    "LAP": true,
+    "SCOTT": true
+   },
+   {
+    "GREENE": true,
+    "SCOTT": true,
+    "TAY": true,
+    "RICARDOE": true,
+    "LAP": true
+   },
+   {
+    "TAY": true,
+    "GREENE": true,
+    "LAP": true,
+    "SCOTT": true,
+    "RICARDOE": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "LAP",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "KATE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RICARDOE",
+    "assassin": false
+   },
+   {
+    "name": "TAY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "PPPAAATTT",
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SCOTT",
+    "assassin": false
+   },
+   {
+    "name": "GREENE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KATIEG",
+    "role": "OBERON"
+   },
+   {
+    "role": "MORDRED",
+    "name": "COVIDEB",
+    "assassin": true
+   }
+  ],
+  "assassinated": "LAP",
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1585357468,
+  "_nanoseconds": 826000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "KATE",
+      "KATIEG",
+      "PPPAAATTT"
+     ],
+     "votes": [
+      "KATIEG",
+      "COVIDEB",
+      "LAP",
+      "KATE",
+      "TAY",
+      "PPPAAATTT",
+      "SCOTT"
+     ],
+     "state": "APPROVED",
+     "proposer": "KATE"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "KATE",
+    "KATIEG",
+    "PPPAAATTT"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "PPPAAATTT",
+     "votes": [
+      "COVIDEB",
+      "KATE",
+      "PPPAAATTT"
+     ],
+     "team": [
+      "PPPAAATTT",
+      "COVIDEB",
+      "KATE",
+      "RICARDOE"
+     ]
+    },
+    {
+     "proposer": "COVIDEB",
+     "team": [
+      "COVIDEB",
+      "KATE",
+      "RICARDOE",
+      "SCOTT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KATIEG",
+      "COVIDEB",
+      "KATE",
+      "RICARDOE",
+      "TAY",
+      "PPPAAATTT",
+      "SCOTT"
+     ]
+    }
+   ],
+   "team": [
+    "COVIDEB",
+    "KATE",
+    "RICARDOE",
+    "SCOTT"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "COVIDEB",
+      "LAP",
+      "RICARDOE",
+      "TAY",
+      "GREENE",
+      "SCOTT"
+     ],
+     "team": [
+      "LAP",
+      "TAY",
+      "GREENE",
+      "SCOTT"
+     ],
+     "proposer": "LAP",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "LAP",
+    "TAY",
+    "GREENE",
+    "SCOTT"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "team": [
+    "LAP",
+    "TAY",
+    "GREENE",
+    "SCOTT",
+    "RICARDOE"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "TAY",
+     "state": "APPROVED",
+     "votes": [
+      "LAP",
+      "RICARDOE",
+      "TAY",
+      "PPPAAATTT",
+      "SCOTT",
+      "GREENE",
+      "KATIEG",
+      "COVIDEB"
+     ],
+     "team": [
+      "LAP",
+      "TAY",
+      "GREENE",
+      "SCOTT",
+      "RICARDOE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "LAP",
+    "TAY",
+    "GREENE",
+    "RICARDOE",
+    "SCOTT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "KATIEG",
+     "team": [
+      "KATIEG",
+      "LAP",
+      "TAY",
+      "SCOTT",
+      "GREENE"
+     ],
+     "votes": [
+      "KATIEG"
+     ]
+    },
+    {
+     "votes": [
+      "PPPAAATTT"
+     ],
+     "proposer": "RICARDOE",
+     "state": "REJECTED",
+     "team": [
+      "RICARDOE",
+      "PPPAAATTT",
+      "GREENE",
+      "TAY",
+      "LAP"
+     ]
+    },
+    {
+     "proposer": "GREENE",
+     "votes": [
+      "LAP",
+      "RICARDOE",
+      "TAY",
+      "PPPAAATTT",
+      "SCOTT",
+      "GREENE",
+      "KATIEG",
+      "COVIDEB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LAP",
+      "TAY",
+      "GREENE",
+      "RICARDOE",
+      "SCOTT"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585358468,
+  "_nanoseconds": 49050000
+ },
+ "players": [
+  {
+   "name": "COVIDEB",
+   "uid": "p7XTBEasBwQfXBOdDe1zQtbIEZB3"
+  },
+  {
+   "uid": "jsyujs54qQSWy4ShLUlIl3zbi8z2",
+   "name": "LAP"
+  },
+  {
+   "uid": "CziywKR8pAUK5pPTIq5Xiu8LzXq2",
+   "name": "TAY"
+  },
+  {
+   "uid": "u5JBRkEcYjS04ZZQ7vvXTVAaQWb2",
+   "name": "KATIEG"
+  },
+  {
+   "uid": "d80FwEMK77MbKLxtd6lR4f0hpXM2",
+   "name": "RICARDOE"
+  },
+  {
+   "name": "GREENE",
+   "uid": "djU4cKMFHAgd8MwCyGcUSJzD0AI2"
+  },
+  {
+   "name": "SCOTT",
+   "uid": "yZxMiR4pYDTj0KdhIyzIE9yYtVE3"
+  },
+  {
+   "uid": "zP3unMEXl9Oy3VLRggwleXDGE2l2",
+   "name": "KATE"
+  },
+  {
+   "name": "PPPAAATTT",
+   "uid": "NyP6Ad9HUoZyrF5ALlaeXAQsDM62"
+  }
+ ]
+}

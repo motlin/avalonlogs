@@ -1,0 +1,217 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589057881,
+  "_nanoseconds": 607000000
+ },
+ "players": [
+  {
+   "name": "TIJ",
+   "uid": "3iAiXN0yfRaXNIq2VUwTqJTaLKg1"
+  },
+  {
+   "name": "PANU",
+   "uid": "3g6ZWmzSRNdMOprXB6tDmlJuQAh1"
+  },
+  {
+   "name": "ZO",
+   "uid": "9P0V9tviEyUpsiZWdDrhYax0QcX2"
+  },
+  {
+   "uid": "Kwj19x8UtKgoXRjs91NSDKueODf2",
+   "name": "ANDREA"
+  },
+  {
+   "name": "JOAN",
+   "uid": "uJqmz2r5XjR3CPMx5nbY3pVUdDv2"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZO",
+      "TIJ",
+      "JOAN",
+      "ANDREA",
+      "PANU"
+     ],
+     "proposer": "TIJ",
+     "team": [
+      "TIJ",
+      "ZO"
+     ]
+    }
+   ],
+   "team": [
+    "TIJ",
+    "ZO"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PANU",
+      "ANDREA",
+      "JOAN"
+     ],
+     "proposer": "PANU",
+     "votes": [
+      "PANU",
+      "TIJ"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ZO",
+     "votes": [
+      "PANU",
+      "ZO",
+      "TIJ",
+      "JOAN",
+      "ANDREA"
+     ],
+     "team": [
+      "ZO",
+      "TIJ",
+      "PANU"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "ZO",
+    "TIJ",
+    "PANU"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ANDREA",
+      "ZO",
+      "JOAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANDREA",
+      "ZO"
+     ],
+     "proposer": "ANDREA"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ANDREA",
+    "ZO"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "ZO",
+    "ANDREA",
+    "JOAN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ZO",
+      "JOAN",
+      "ANDREA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ZO",
+      "ANDREA",
+      "JOAN"
+     ],
+     "proposer": "JOAN"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "JOAN",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "TIJ": true,
+    "ZO": true
+   },
+   {
+    "ZO": true,
+    "PANU": false,
+    "TIJ": true
+   },
+   {
+    "ZO": true,
+    "ANDREA": true
+   },
+   {
+    "JOAN": true,
+    "ANDREA": true,
+    "ZO": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ZO",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "TIJ",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JOAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "ANDREA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "PANU",
+    "assassin": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1589058127,
+  "_nanoseconds": 858000000
+ }
+}

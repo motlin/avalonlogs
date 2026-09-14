@@ -1,0 +1,232 @@
+{
+ "timeFinished": {
+  "_seconds": 1588342765,
+  "_nanoseconds": 758000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "DENG": true,
+    "YINGXUAN": true
+   },
+   {
+    "NICKOSTEIN": false,
+    "BOX": false,
+    "MEIHANG": true
+   },
+   {
+    "MEIHANG": true,
+    "MAK": true,
+    "BOX": true
+   },
+   {
+    "MAK": false,
+    "YINGXUAN": true,
+    "MEIHANG": true,
+    "DENG": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "MEIHANG",
+  "roles": [
+   {
+    "name": "DENG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MEIHANG",
+    "assassin": false
+   },
+   {
+    "name": "NICKOSTEIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "NIKI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BOX",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MAK",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "YINGXUAN",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "DENG",
+   "uid": "ORcimsZK7UMUeANxpd6I8s9uaY72"
+  },
+  {
+   "uid": "n49fkRfmyGQbV81x3tttQZPDVlC2",
+   "name": "MAK"
+  },
+  {
+   "name": "MEIHANG",
+   "uid": "R6fMuGFuYWXk52aPdXjh6uLwJ1u1"
+  },
+  {
+   "name": "NIKI",
+   "uid": "88sA6NfvImZnhCLvj1IyqlKvCP62"
+  },
+  {
+   "name": "NICKOSTEIN",
+   "uid": "QeP6YyTDNKaAv4ioV2MqjoXORWi2"
+  },
+  {
+   "uid": "a2LpG7WQqoOPxigdOg41prbJXwi1",
+   "name": "BOX"
+  },
+  {
+   "name": "YINGXUAN",
+   "uid": "posxzYN5mJWmtwJmAdW0O1BQ8y63"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "YINGXUAN",
+     "state": "APPROVED",
+     "team": [
+      "DENG",
+      "YINGXUAN"
+     ],
+     "votes": [
+      "MEIHANG",
+      "NICKOSTEIN",
+      "NIKI",
+      "YINGXUAN",
+      "DENG"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "DENG",
+    "YINGXUAN"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "DENG",
+     "state": "APPROVED",
+     "votes": [
+      "DENG",
+      "MEIHANG",
+      "NICKOSTEIN",
+      "NIKI"
+     ],
+     "team": [
+      "MEIHANG",
+      "NICKOSTEIN",
+      "BOX"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "MEIHANG",
+    "NICKOSTEIN",
+    "BOX"
+   ]
+  },
+  {
+   "team": [
+    "MEIHANG",
+    "MAK",
+    "BOX"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NICKOSTEIN",
+      "NIKI",
+      "BOX",
+      "MAK",
+      "YINGXUAN"
+     ],
+     "team": [
+      "MEIHANG",
+      "MAK",
+      "BOX"
+     ],
+     "proposer": "MAK"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "MEIHANG",
+    "YINGXUAN",
+    "DENG",
+    "MAK"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DENG",
+      "MEIHANG",
+      "NICKOSTEIN",
+      "NIKI",
+      "BOX",
+      "YINGXUAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MEIHANG",
+      "YINGXUAN",
+      "DENG",
+      "MAK"
+     ],
+     "proposer": "MEIHANG"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588342271,
+  "_nanoseconds": 279000000
+ }
+}

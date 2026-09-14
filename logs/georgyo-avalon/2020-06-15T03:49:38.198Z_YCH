@@ -1,0 +1,212 @@
+{
+ "timeFinished": {
+  "_seconds": 1592193319,
+  "_nanoseconds": 993000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "DREW",
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1"
+  },
+  {
+   "uid": "dBbDTVYBVOX3bdMaEHBbhW01IIB3",
+   "name": "YB"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83"
+  },
+  {
+   "name": "MARC",
+   "uid": "Kd9gvaBxtCO5a0I4MmewNknH2lZ2"
+  },
+  {
+   "name": "MATT",
+   "uid": "CYfGT7p15xRFRJjUZ4oBAgrpLrP2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "CONNOR",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MARC"
+   },
+   {
+    "name": "MATT",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "YB"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "DREW"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "DREW": true,
+    "MATT": false
+   },
+   {
+    "DREW": true,
+    "YB": true,
+    "CONNOR": false
+   },
+   {
+    "CONNOR": false,
+    "YB": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1592192978,
+  "_nanoseconds": 198000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "DREW",
+    "MATT"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "CONNOR",
+     "state": "REJECTED",
+     "votes": [
+      "CONNOR",
+      "YB"
+     ],
+     "team": [
+      "CONNOR",
+      "YB"
+     ]
+    },
+    {
+     "votes": [
+      "CONNOR",
+      "MARC"
+     ],
+     "team": [
+      "MARC",
+      "DREW"
+     ],
+     "state": "REJECTED",
+     "proposer": "MARC"
+    },
+    {
+     "team": [
+      "MATT",
+      "CONNOR"
+     ],
+     "state": "REJECTED",
+     "proposer": "MATT",
+     "votes": [
+      "MATT",
+      "CONNOR"
+     ]
+    },
+    {
+     "team": [
+      "DREW",
+      "MATT"
+     ],
+     "proposer": "DREW",
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "DREW",
+      "CONNOR",
+      "MARC"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "YB",
+     "team": [
+      "DREW",
+      "YB",
+      "CONNOR"
+     ],
+     "votes": [
+      "CONNOR",
+      "YB",
+      "DREW"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "DREW",
+    "YB",
+    "CONNOR"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "teamSize": 2,
+   "team": [
+    "CONNOR",
+    "YB"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CONNOR",
+      "YB"
+     ],
+     "votes": [
+      "CONNOR",
+      "MATT",
+      "YB"
+     ],
+     "proposer": "CONNOR"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING"
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 3,
+   "proposals": []
+  }
+ ]
+}

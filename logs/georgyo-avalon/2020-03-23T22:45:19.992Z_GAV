@@ -1,0 +1,214 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "BAO": true,
+    "KEV": true
+   },
+   {
+    "GUMBO": false,
+    "CHRIS": true,
+    "KEV": true
+   },
+   {
+    "CHRIS": true,
+    "PETER": true
+   },
+   {
+    "PETER": true,
+    "KEV": true,
+    "CHRIS": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "PETER",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "KEV"
+   },
+   {
+    "name": "CHRIS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "PETER",
+    "assassin": false
+   },
+   {
+    "name": "BAO",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "GUMBO",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585003519,
+  "_nanoseconds": 992000000
+ },
+ "players": [
+  {
+   "name": "PETER",
+   "uid": "SAjopa6Me4YOygdPA28iHCP9VuT2"
+  },
+  {
+   "uid": "k8Z5H9u1e5PCzXEQh7RooZrSo3C2",
+   "name": "BAO"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "3qJZe9pCz2WEVo5lznSLptsP5Yz1"
+  },
+  {
+   "name": "KEV",
+   "uid": "NpguMZQYmROSzUuLNAdFznzFljQ2"
+  },
+  {
+   "uid": "iYfiOGf3itgnp3PEeQ5BlRCB5Ah2",
+   "name": "GUMBO"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585003703,
+  "_nanoseconds": 183374000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "BAO",
+      "GUMBO",
+      "KEV",
+      "PETER"
+     ],
+     "proposer": "KEV",
+     "state": "APPROVED",
+     "team": [
+      "KEV",
+      "BAO"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "KEV",
+    "BAO"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "GUMBO",
+      "KEV",
+      "CHRIS"
+     ],
+     "votes": [
+      "CHRIS",
+      "PETER",
+      "BAO",
+      "GUMBO"
+     ],
+     "state": "APPROVED",
+     "proposer": "GUMBO"
+    }
+   ],
+   "team": [
+    "GUMBO",
+    "KEV",
+    "CHRIS"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "KEV",
+      "CHRIS",
+      "PETER"
+     ],
+     "state": "APPROVED",
+     "proposer": "PETER",
+     "team": [
+      "PETER",
+      "CHRIS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "PETER",
+    "CHRIS"
+   ]
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "BAO",
+     "state": "REJECTED",
+     "votes": [
+      "BAO",
+      "GUMBO"
+     ],
+     "team": [
+      "BAO",
+      "PETER",
+      "CHRIS"
+     ]
+    },
+    {
+     "votes": [
+      "BAO",
+      "GUMBO",
+      "KEV",
+      "CHRIS",
+      "PETER"
+     ],
+     "team": [
+      "CHRIS",
+      "KEV",
+      "PETER"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHRIS"
+    }
+   ],
+   "team": [
+    "CHRIS",
+    "KEV",
+    "PETER"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ]
+}

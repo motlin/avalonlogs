@@ -1,0 +1,281 @@
+{
+ "timeFinished": {
+  "_seconds": 1587300497,
+  "_nanoseconds": 435000000
+ },
+ "timeCreated": {
+  "_seconds": 1587299553,
+  "_nanoseconds": 105000000
+ },
+ "players": [
+  {
+   "name": "ERIYO",
+   "uid": "YyITToKmHdO7NDxYImi1tyiImDo1"
+  },
+  {
+   "name": "SAC",
+   "uid": "VZOdIZRhT6gIEsGXPjlYzAf0JKM2"
+  },
+  {
+   "uid": "Nmebc6oQTENTqre5r5CoIjiJRGP2",
+   "name": "AXEL"
+  },
+  {
+   "uid": "VDA0OocZkpOtIh30LGwa7n8s06T2",
+   "name": "RACHEL"
+  },
+  {
+   "uid": "RdEYyRJ2y0Z9ZJeP6cfVi6xPoBg1",
+   "name": "TIM"
+  },
+  {
+   "uid": "oJ5lAKSH5lcg6ZTpuFvxeX0xUCr2",
+   "name": "DONNUT"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "RACHEL",
+      "TIM",
+      "AXEL",
+      "SAC",
+      "ERIYO",
+      "DONNUT"
+     ],
+     "team": [
+      "DONNUT",
+      "RACHEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "DONNUT"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DONNUT",
+    "RACHEL"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "RACHEL",
+      "ERIYO",
+      "DONNUT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SAC",
+      "ERIYO",
+      "DONNUT",
+      "RACHEL",
+      "TIM",
+      "AXEL"
+     ],
+     "proposer": "ERIYO"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "RACHEL",
+    "ERIYO",
+    "DONNUT"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "ERIYO",
+    "SAC",
+    "RACHEL",
+    "DONNUT"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "SAC",
+     "state": "APPROVED",
+     "team": [
+      "ERIYO",
+      "SAC",
+      "RACHEL",
+      "DONNUT"
+     ],
+     "votes": [
+      "SAC",
+      "ERIYO",
+      "DONNUT",
+      "RACHEL",
+      "TIM",
+      "AXEL"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "AXEL",
+    "RACHEL",
+    "ERIYO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "RACHEL",
+      "TIM",
+      "AXEL",
+      "ERIYO",
+      "DONNUT"
+     ],
+     "team": [
+      "AXEL",
+      "RACHEL",
+      "ERIYO"
+     ],
+     "proposer": "AXEL",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "DONNUT",
+    "RACHEL",
+    "AXEL",
+    "SAC"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "RACHEL",
+      "ERIYO"
+     ],
+     "proposer": "RACHEL",
+     "state": "REJECTED",
+     "team": [
+      "RACHEL",
+      "DONNUT",
+      "TIM",
+      "ERIYO"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "TIM",
+     "team": [
+      "TIM",
+      "SAC",
+      "ERIYO",
+      "AXEL"
+     ]
+    },
+    {
+     "votes": [
+      "RACHEL",
+      "TIM",
+      "AXEL",
+      "SAC",
+      "DONNUT"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DONNUT",
+      "RACHEL",
+      "AXEL",
+      "SAC"
+     ],
+     "proposer": "DONNUT"
+    }
+   ],
+   "numFails": 2
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "DONNUT": true,
+    "RACHEL": true
+   },
+   {
+    "DONNUT": true,
+    "RACHEL": true,
+    "ERIYO": true
+   },
+   {
+    "DONNUT": false,
+    "SAC": true,
+    "RACHEL": true,
+    "ERIYO": true
+   },
+   {
+    "ERIYO": true,
+    "RACHEL": true,
+    "AXEL": false
+   },
+   {
+    "SAC": true,
+    "DONNUT": false,
+    "AXEL": false,
+    "RACHEL": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ERIYO"
+   },
+   {
+    "assassin": true,
+    "name": "DONNUT",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "RACHEL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TIM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "AXEL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SAC",
+    "assassin": false
+   }
+  ]
+ }
+}

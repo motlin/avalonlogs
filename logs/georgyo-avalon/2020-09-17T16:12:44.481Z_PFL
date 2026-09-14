@@ -1,0 +1,393 @@
+{
+ "timeCreated": {
+  "_seconds": 1600359164,
+  "_nanoseconds": 481000000
+ },
+ "timeFinished": {
+  "_seconds": 1600362062,
+  "_nanoseconds": 581000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JESSICA": true,
+    "JOHN": true,
+    "GABE": true
+   },
+   {
+    "JESSICA": true,
+    "GABE": true,
+    "JOHN": true,
+    "ERIC": true
+   },
+   {
+    "JESSICA": false,
+    "GABE": true,
+    "JOHN": false,
+    "ERIC": true
+   },
+   {
+    "LOUIS": true,
+    "GORD": true,
+    "YANNY": false,
+    "BRIAN": false,
+    "DAVIDHAYES": true
+   },
+   {
+    "MARK": true,
+    "LOUIS": true,
+    "ERIC": true,
+    "BRIAN": false,
+    "DAVIDHAYES": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "DAVIDHAYES",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JOHN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JESSICA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GORD",
+    "assassin": false
+   },
+   {
+    "name": "YANNY",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LOUIS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MARK"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "BRIAN"
+   },
+   {
+    "assassin": false,
+    "name": "GABE",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "Mn9LujdHh5bjvKudClmogpmmS2x1",
+   "name": "BRIAN"
+  },
+  {
+   "name": "YANNY",
+   "uid": "5wT6hEk7h1OrespCYq34YPAwqdx2"
+  },
+  {
+   "name": "LOUIS",
+   "uid": "FxNVnPh3OQhH9a24DbpHwR8uJLU2"
+  },
+  {
+   "name": "GORD",
+   "uid": "LkST3AyXeJNaUDsAdLExhKLJ5Xo1"
+  },
+  {
+   "name": "MARK",
+   "uid": "o8RlNNfQuCVVK7HxH0OjsagSEOo2"
+  },
+  {
+   "name": "JOHN",
+   "uid": "sbo25FQlZGTCEaJOSBGl3evpqCn1"
+  },
+  {
+   "name": "DAVIDHAYES",
+   "uid": "P4bQinn0dQR6pnBt7P69hSO2i0x1"
+  },
+  {
+   "uid": "r8gOHrrtdlbojdqbzaggtsuIAgY2",
+   "name": "JESSICA"
+  },
+  {
+   "name": "ERIC",
+   "uid": "XD4pfa6DR9RBzp2OSNWyohxhakj1"
+  },
+  {
+   "name": "GABE",
+   "uid": "7YTHrz9p6XXO8n12VKwkFAxBzWX2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "GABE",
+    "JESSICA",
+    "JOHN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "GABE",
+      "JESSICA",
+      "JOHN"
+     ],
+     "proposer": "JESSICA",
+     "state": "APPROVED",
+     "votes": [
+      "GORD",
+      "ERIC",
+      "BRIAN",
+      "GABE",
+      "JESSICA",
+      "YANNY",
+      "JOHN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ERIC",
+    "JOHN",
+    "GABE",
+    "JESSICA"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "ERIC",
+     "votes": [
+      "GABE",
+      "JOHN",
+      "GORD",
+      "ERIC",
+      "BRIAN",
+      "DAVIDHAYES",
+      "YANNY",
+      "JESSICA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ERIC",
+      "JOHN",
+      "GABE",
+      "JESSICA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JOHN",
+      "JESSICA",
+      "GABE",
+      "YANNY",
+      "BRIAN",
+      "GORD",
+      "ERIC",
+      "DAVIDHAYES",
+      "LOUIS"
+     ],
+     "team": [
+      "GABE",
+      "ERIC",
+      "JESSICA",
+      "JOHN"
+     ],
+     "state": "APPROVED",
+     "proposer": "GABE"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "GABE",
+    "ERIC",
+    "JESSICA",
+    "JOHN"
+   ],
+   "numFails": 2
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MARK",
+      "BRIAN"
+     ],
+     "proposer": "BRIAN",
+     "team": [
+      "MARK",
+      "BRIAN",
+      "YANNY",
+      "LOUIS",
+      "GORD"
+     ]
+    },
+    {
+     "proposer": "YANNY",
+     "team": [
+      "YANNY",
+      "LOUIS",
+      "BRIAN",
+      "GORD",
+      "DAVIDHAYES"
+     ],
+     "votes": [
+      "JOHN",
+      "JESSICA",
+      "GORD",
+      "DAVIDHAYES",
+      "ERIC",
+      "BRIAN",
+      "YANNY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "YANNY",
+    "LOUIS",
+    "BRIAN",
+    "GORD",
+    "DAVIDHAYES"
+   ],
+   "state": "FAIL",
+   "failsRequired": 2,
+   "numFails": 2
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LOUIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LOUIS",
+      "MARK",
+      "GABE",
+      "DAVIDHAYES",
+      "JESSICA"
+     ],
+     "proposer": "LOUIS"
+    },
+    {
+     "proposer": "GORD",
+     "votes": [
+      "GORD",
+      "MARK"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "GORD",
+      "MARK",
+      "LOUIS",
+      "DAVIDHAYES",
+      "ERIC"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MARK",
+     "team": [
+      "MARK",
+      "DAVIDHAYES",
+      "LOUIS",
+      "GORD",
+      "GABE"
+     ],
+     "votes": [
+      "MARK",
+      "GORD"
+     ]
+    },
+    {
+     "votes": [
+      "JOHN"
+     ],
+     "proposer": "JOHN",
+     "team": [
+      "MARK",
+      "GABE",
+      "ERIC",
+      "DAVIDHAYES",
+      "LOUIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "DAVIDHAYES",
+     "state": "APPROVED",
+     "team": [
+      "DAVIDHAYES",
+      "ERIC",
+      "MARK",
+      "LOUIS",
+      "BRIAN"
+     ],
+     "votes": [
+      "ERIC",
+      "YANNY",
+      "BRIAN",
+      "MARK",
+      "DAVIDHAYES",
+      "JOHN",
+      "JESSICA",
+      "GORD",
+      "GABE",
+      "LOUIS"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "DAVIDHAYES",
+    "ERIC",
+    "MARK",
+    "LOUIS",
+    "BRIAN"
+   ],
+   "teamSize": 5
+  }
+ ]
+}

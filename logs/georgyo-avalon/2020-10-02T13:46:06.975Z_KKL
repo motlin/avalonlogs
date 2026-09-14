@@ -1,0 +1,218 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "ALEX": true,
+    "JONATHAN": true
+   },
+   {
+    "ALEX": true,
+    "ANTOAN": true,
+    "JONATHAN": false
+   },
+   {
+    "ERIC": true,
+    "ANTOAN": true
+   },
+   {
+    "ANTOAN": true,
+    "ERIC": true,
+    "ALEX": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANTOAN"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ALEX"
+   },
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "AMY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JONATHAN",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "ALEX"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JONATHAN",
+   "uid": "apU0ad6zuMTksQjJymDnIwkZNWg1"
+  },
+  {
+   "name": "ALEX",
+   "uid": "FNW955DaFGawd0ibXIEd6g6ytXp1"
+  },
+  {
+   "uid": "7esIch7aMTUcgqhKdWWPKtjKxdE2",
+   "name": "ANTOAN"
+  },
+  {
+   "name": "AMY",
+   "uid": "fLAZ2qgOnNUUhqQVaGEufZGAo7w1"
+  },
+  {
+   "name": "ERIC",
+   "uid": "qGWjdo4QqUMP3Znxn31dSQ6mY3f2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1601646366,
+  "_nanoseconds": 975000000
+ },
+ "timeFinished": {
+  "_seconds": 1601647346,
+  "_nanoseconds": 59000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JONATHAN",
+      "ALEX"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AMY",
+      "ALEX",
+      "ERIC",
+      "ANTOAN",
+      "JONATHAN"
+     ],
+     "proposer": "AMY"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "JONATHAN",
+    "ALEX"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANTOAN",
+      "ERIC"
+     ],
+     "team": [
+      "ALEX",
+      "ANTOAN",
+      "AMY"
+     ],
+     "proposer": "ERIC"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "JONATHAN",
+      "ANTOAN",
+      "AMY",
+      "ERIC"
+     ],
+     "team": [
+      "JONATHAN",
+      "ALEX",
+      "ANTOAN"
+     ],
+     "proposer": "JONATHAN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "JONATHAN",
+    "ALEX",
+    "ANTOAN"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "team": [
+    "ERIC",
+    "ANTOAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ERIC",
+      "ANTOAN"
+     ],
+     "votes": [
+      "ANTOAN",
+      "ALEX",
+      "JONATHAN",
+      "ERIC"
+     ],
+     "proposer": "ALEX"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "ALEX",
+    "ANTOAN",
+    "ERIC"
+   ],
+   "proposals": [
+    {
+     "proposer": "ANTOAN",
+     "team": [
+      "ALEX",
+      "ANTOAN",
+      "ERIC"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ERIC",
+      "ALEX",
+      "ANTOAN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "proposals": []
+  }
+ ]
+}

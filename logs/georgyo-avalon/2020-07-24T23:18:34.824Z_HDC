@@ -1,0 +1,263 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ANDREW",
+   "uid": "6wBUhhlZQjPFbF1JYSuM4Inmiur1"
+  },
+  {
+   "uid": "q1F6SD58uhT6GmR97lVjtiUAX4s2",
+   "name": "GRANT"
+  },
+  {
+   "uid": "a95ZrJZme8QKq1fGVku6Epb2Y1H3",
+   "name": "BEKAH"
+  },
+  {
+   "uid": "iYP7i84PmpMZ8i8MTIoMY8IzlbG2",
+   "name": "FRANKY"
+  },
+  {
+   "uid": "5yNgLErHCIXCcqZWYgAbaIpK6aj1",
+   "name": "JJ"
+  },
+  {
+   "uid": "k5C6Gy8312dCPjYz5LXbMtwemj13",
+   "name": "ETHAN"
+  },
+  {
+   "uid": "11rZd85dM6O53ourLEgexCK37Tn2",
+   "name": "MEGAN"
+  },
+  {
+   "uid": "DqxUUlW7puW3czqsCW1dYTg5Lsj2",
+   "name": "MARE"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ETHAN": true,
+    "MARE": true,
+    "MEGAN": true
+   },
+   {
+    "ETHAN": true,
+    "MEGAN": true,
+    "MARE": true,
+    "ANDREW": true
+   },
+   {
+    "MARE": true,
+    "ETHAN": true,
+    "MEGAN": false,
+    "ANDREW": true
+   },
+   {
+    "MARE": true,
+    "MEGAN": true,
+    "ANDREW": true,
+    "JJ": true,
+    "ETHAN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "MEGAN",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANDREW"
+   },
+   {
+    "assassin": false,
+    "name": "BEKAH",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "GRANT"
+   },
+   {
+    "name": "FRANKY",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "JJ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ETHAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MARE"
+   }
+  ],
+  "assassinated": "MARE"
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "MEGAN",
+    "ETHAN",
+    "MARE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MEGAN",
+      "ANDREW",
+      "BEKAH",
+      "GRANT",
+      "FRANKY",
+      "JJ",
+      "ETHAN",
+      "MARE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MEGAN",
+      "ETHAN",
+      "MARE"
+     ],
+     "proposer": "ETHAN"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "ANDREW",
+    "ETHAN",
+    "MEGAN",
+    "MARE"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANDREW",
+      "ETHAN",
+      "MEGAN",
+      "MARE"
+     ],
+     "votes": [
+      "MEGAN",
+      "ANDREW",
+      "BEKAH",
+      "GRANT",
+      "FRANKY",
+      "JJ",
+      "ETHAN",
+      "MARE"
+     ],
+     "proposer": "MEGAN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ETHAN",
+      "MEGAN",
+      "MARE",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MEGAN",
+      "ANDREW",
+      "BEKAH",
+      "GRANT",
+      "FRANKY",
+      "JJ",
+      "ETHAN",
+      "MARE"
+     ],
+     "proposer": "MARE"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "ETHAN",
+    "MEGAN",
+    "MARE",
+    "ANDREW"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "FRANKY",
+      "JJ",
+      "ETHAN",
+      "MEGAN",
+      "ANDREW",
+      "BEKAH"
+     ],
+     "team": [
+      "ANDREW",
+      "ETHAN",
+      "MEGAN",
+      "MARE",
+      "JJ"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANDREW"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "numFails": 0,
+   "team": [
+    "ANDREW",
+    "ETHAN",
+    "MEGAN",
+    "MARE",
+    "JJ"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1595633378,
+  "_nanoseconds": 629000000
+ },
+ "timeCreated": {
+  "_seconds": 1595632714,
+  "_nanoseconds": 824000000
+ }
+}

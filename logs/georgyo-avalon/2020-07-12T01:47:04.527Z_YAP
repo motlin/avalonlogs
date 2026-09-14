@@ -1,0 +1,256 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "BsTDBnCYKtTWrK25R25k0gAP7Oy1",
+   "name": "ARTHUR"
+  },
+  {
+   "name": "PIR",
+   "uid": "6s7BIgnhgLf2G0ugJCrfgOXR7Jt2"
+  },
+  {
+   "name": "ANGRYSMORE",
+   "uid": "kGEvWOQJzQaBzcbtTlGxs4AOx6B3"
+  },
+  {
+   "name": "YAP",
+   "uid": "1DiDnVS5IeRwgSRAwvGsuQ4SWTt2"
+  },
+  {
+   "uid": "BgUpMd2mM9OsJ2kM6d1w5XruWzQ2",
+   "name": "OLIVER"
+  }
+ ],
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PIR",
+      "ARTHUR",
+      "ANGRYSMORE",
+      "OLIVER",
+      "YAP"
+     ],
+     "team": [
+      "ARTHUR",
+      "PIR"
+     ],
+     "proposer": "PIR"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "ARTHUR",
+    "PIR"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ANGRYSMORE",
+     "team": [
+      "ANGRYSMORE",
+      "YAP",
+      "OLIVER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANGRYSMORE",
+      "OLIVER",
+      "YAP",
+      "ARTHUR"
+     ]
+    }
+   ],
+   "team": [
+    "ANGRYSMORE",
+    "YAP",
+    "OLIVER"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "ANGRYSMORE",
+    "YAP"
+   ],
+   "proposals": [
+    {
+     "proposer": "YAP",
+     "state": "APPROVED",
+     "votes": [
+      "ARTHUR",
+      "ANGRYSMORE",
+      "OLIVER",
+      "YAP"
+     ],
+     "team": [
+      "ANGRYSMORE",
+      "YAP"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "PIR",
+    "ANGRYSMORE",
+    "YAP"
+   ],
+   "proposals": [
+    {
+     "proposer": "OLIVER",
+     "team": [
+      "ANGRYSMORE",
+      "YAP",
+      "OLIVER"
+     ],
+     "votes": [
+      "OLIVER",
+      "YAP"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "OLIVER",
+      "ARTHUR"
+     ],
+     "team": [
+      "ARTHUR",
+      "ANGRYSMORE",
+      "YAP"
+     ],
+     "proposer": "ARTHUR"
+    },
+    {
+     "proposer": "PIR",
+     "state": "APPROVED",
+     "votes": [
+      "PIR",
+      "ANGRYSMORE",
+      "YAP"
+     ],
+     "team": [
+      "PIR",
+      "ANGRYSMORE",
+      "YAP"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PIR",
+      "ANGRYSMORE",
+      "YAP"
+     ],
+     "proposer": "ANGRYSMORE",
+     "votes": [
+      "PIR",
+      "ANGRYSMORE",
+      "OLIVER",
+      "YAP"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PIR",
+    "ANGRYSMORE",
+    "YAP"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "OLIVER",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "YAP"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "PIR"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ARTHUR"
+   },
+   {
+    "role": "MERLIN",
+    "name": "ANGRYSMORE",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "ANGRYSMORE",
+  "votes": [
+   {
+    "ARTHUR": false,
+    "PIR": true
+   },
+   {
+    "OLIVER": false,
+    "YAP": true,
+    "ANGRYSMORE": true
+   },
+   {
+    "YAP": true,
+    "ANGRYSMORE": true
+   },
+   {
+    "PIR": true,
+    "ANGRYSMORE": true,
+    "YAP": true
+   },
+   {
+    "YAP": true,
+    "PIR": true,
+    "ANGRYSMORE": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeCreated": {
+  "_seconds": 1594518424,
+  "_nanoseconds": 527000000
+ },
+ "timeFinished": {
+  "_seconds": 1594519139,
+  "_nanoseconds": 285000000
+ }
+}

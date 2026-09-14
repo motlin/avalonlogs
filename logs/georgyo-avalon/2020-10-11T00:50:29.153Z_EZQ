@@ -1,0 +1,216 @@
+{
+ "timeFinished": {
+  "_seconds": 1602377848,
+  "_nanoseconds": 741000000
+ },
+ "timeCreated": {
+  "_seconds": 1602377429,
+  "_nanoseconds": 153000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JENNA": true,
+    "MERLINI": true
+   },
+   {
+    "JENNA": true,
+    "SAN": false,
+    "MERLINI": true
+   },
+   {
+    "JENNA": false,
+    "MERLINI": true
+   },
+   {
+    "JASON": true,
+    "JENNA": false,
+    "SAN": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MERLINI",
+    "assassin": false
+   },
+   {
+    "name": "CAMPBELL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "SAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "JASON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JENNA"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "mr0L1XTEtbQIWipE6hf7zbUKkfF2",
+   "name": "JASON"
+  },
+  {
+   "name": "MERLINI",
+   "uid": "AuB8urDRMYTUz9AM0pmTZVVdQIt2"
+  },
+  {
+   "uid": "ikKdmTV4MbgyUM1l2BnsxnahU4u1",
+   "name": "SAN"
+  },
+  {
+   "name": "JENNA",
+   "uid": "oEwhs0oVgSXJVOAlcXHBPfl2VZU2"
+  },
+  {
+   "name": "CAMPBELL",
+   "uid": "mb10gzdDvpdVMbnNo9lyIMK6B3B3"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JENNA",
+      "CAMPBELL",
+      "JASON",
+      "MERLINI",
+      "SAN"
+     ],
+     "proposer": "MERLINI",
+     "team": [
+      "MERLINI",
+      "JENNA"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "MERLINI",
+    "JENNA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "SAN",
+    "JENNA",
+    "MERLINI"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SAN",
+      "JENNA",
+      "MERLINI"
+     ],
+     "proposer": "SAN",
+     "state": "APPROVED",
+     "votes": [
+      "MERLINI",
+      "JENNA",
+      "CAMPBELL",
+      "SAN"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JENNA",
+     "votes": [
+      "CAMPBELL",
+      "MERLINI",
+      "JENNA",
+      "JASON"
+     ],
+     "team": [
+      "MERLINI",
+      "JENNA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MERLINI",
+    "JENNA"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CAMPBELL"
+     ],
+     "team": [
+      "JASON",
+      "CAMPBELL",
+      "MERLINI"
+     ],
+     "proposer": "CAMPBELL",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JENNA",
+      "SAN",
+      "JASON"
+     ],
+     "team": [
+      "JASON",
+      "JENNA",
+      "SAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JASON"
+    }
+   ],
+   "team": [
+    "JASON",
+    "JENNA",
+    "SAN"
+   ],
+   "teamSize": 3,
+   "numFails": 2
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "players": [
+  {
+   "uid": "ztZfC6zDjNfefGIyySD4ScR3GtB3",
+   "name": "NOBBY"
+  },
+  {
+   "name": "XEYEANN",
+   "uid": "hSCYcyKL5iUv1y05jD6f9RmJYiO2"
+  },
+  {
+   "name": "SHELL",
+   "uid": "m4WD1yy8V8cvQWaq7AARZSUYkEf1"
+  },
+  {
+   "name": "DENISE",
+   "uid": "TFFPr0fkF5QSXZBbYkwKV6O8vnv2"
+  },
+  {
+   "uid": "qSUNPbf5YNQFtWn0niDOY55Na862",
+   "name": "XAVIER"
+  },
+  {
+   "name": "SHE",
+   "uid": "NC2E867LCScrT3p1JE4pNjNAql13"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "XEYEANN",
+    "SHELL"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "XEYEANN",
+     "votes": [
+      "NOBBY",
+      "XEYEANN",
+      "XAVIER",
+      "SHE",
+      "DENISE",
+      "SHELL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "XEYEANN",
+      "SHELL"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "DENISE",
+    "XAVIER",
+    "SHELL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DENISE",
+      "XAVIER",
+      "SHELL"
+     ],
+     "votes": [
+      "DENISE",
+      "SHELL",
+      "NOBBY",
+      "XEYEANN",
+      "XAVIER",
+      "SHE"
+     ],
+     "proposer": "SHELL"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "XAVIER",
+      "SHE",
+      "DENISE",
+      "SHELL",
+      "XEYEANN"
+     ],
+     "team": [
+      "SHELL",
+      "XAVIER",
+      "DENISE",
+      "SHE"
+     ],
+     "proposer": "DENISE",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "team": [
+    "SHELL",
+    "XAVIER",
+    "DENISE",
+    "SHE"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "XAVIER",
+    "DENISE",
+    "XEYEANN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DENISE",
+      "NOBBY",
+      "XEYEANN",
+      "XAVIER"
+     ],
+     "team": [
+      "XAVIER",
+      "DENISE",
+      "XEYEANN"
+     ],
+     "proposer": "XAVIER",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589287442,
+  "_nanoseconds": 444000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589287174,
+  "_nanoseconds": 965000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "DENISE",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "SHELL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "NOBBY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "XEYEANN",
+    "assassin": false
+   },
+   {
+    "name": "XAVIER",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SHE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "XEYEANN": true,
+    "SHELL": false
+   },
+   {
+    "SHELL": true,
+    "DENISE": true,
+    "XAVIER": true
+   },
+   {
+    "SHE": true,
+    "SHELL": false,
+    "DENISE": false,
+    "XAVIER": true
+   },
+   {
+    "XAVIER": true,
+    "DENISE": false,
+    "XEYEANN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null
+ }
+}

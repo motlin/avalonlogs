@@ -1,0 +1,263 @@
+{
+ "timeFinished": {
+  "_seconds": 1587275472,
+  "_nanoseconds": 761000000
+ },
+ "players": [
+  {
+   "uid": "2W5PloFlpVPt0bBSs7hh9MLeT2n2",
+   "name": "NATALIE"
+  },
+  {
+   "uid": "JlCDeWRuuUUiIdbwMrXEe3k2qWw1",
+   "name": "MAL"
+  },
+  {
+   "uid": "21MnCJHXxuUEYgKA9drovgHA0ZY2",
+   "name": "NIKKI"
+  },
+  {
+   "name": "KRISTEN",
+   "uid": "rR4ekS3lLvMZwyFhMQLyHBXoHAQ2"
+  },
+  {
+   "uid": "38UxEqcoV5MKx1bG2YAmKNyTAH13",
+   "name": "YOUKNOW"
+  },
+  {
+   "name": "DEEZNUTS",
+   "uid": "zyrMJoq9RLYTV0WWwpiSXrlUfn93"
+  },
+  {
+   "name": "BELINDA",
+   "uid": "GCFTS4Uxf5fbgKtpOHBl9pJEiLT2"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DEEZNUTS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BELINDA",
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "NATALIE",
+    "assassin": false
+   },
+   {
+    "name": "KRISTEN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "NIKKI",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "YOUKNOW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "MAL"
+   }
+  ],
+  "votes": [
+   {
+    "MAL": true,
+    "DEEZNUTS": true
+   },
+   {
+    "MAL": true,
+    "NIKKI": true,
+    "DEEZNUTS": true
+   },
+   {
+    "MAL": false,
+    "DEEZNUTS": true,
+    "NIKKI": true
+   },
+   {
+    "KRISTEN": false,
+    "DEEZNUTS": true,
+    "MAL": false,
+    "YOUKNOW": true
+   },
+   {
+    "BELINDA": true,
+    "NATALIE": true,
+    "KRISTEN": false,
+    "DEEZNUTS": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1587274227,
+  "_nanoseconds": 532000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "DEEZNUTS",
+      "BELINDA",
+      "NATALIE",
+      "KRISTEN",
+      "NIKKI",
+      "MAL"
+     ],
+     "proposer": "MAL",
+     "team": [
+      "MAL",
+      "DEEZNUTS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "MAL",
+    "DEEZNUTS"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "MAL",
+    "DEEZNUTS",
+    "NIKKI"
+   ],
+   "proposals": [
+    {
+     "proposer": "NIKKI",
+     "votes": [
+      "BELINDA",
+      "NATALIE",
+      "KRISTEN",
+      "NIKKI",
+      "MAL",
+      "DEEZNUTS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MAL",
+      "DEEZNUTS",
+      "NIKKI"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BELINDA",
+      "NATALIE",
+      "KRISTEN",
+      "NIKKI",
+      "DEEZNUTS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MAL",
+      "NIKKI",
+      "DEEZNUTS"
+     ],
+     "proposer": "KRISTEN"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "MAL",
+    "NIKKI",
+    "DEEZNUTS"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "YOUKNOW",
+    "MAL",
+    "KRISTEN",
+    "DEEZNUTS"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KRISTEN",
+      "NIKKI",
+      "YOUKNOW",
+      "MAL",
+      "DEEZNUTS"
+     ],
+     "team": [
+      "YOUKNOW",
+      "MAL",
+      "KRISTEN",
+      "DEEZNUTS"
+     ],
+     "proposer": "YOUKNOW"
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 2
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "DEEZNUTS",
+      "NATALIE",
+      "BELINDA",
+      "KRISTEN"
+     ],
+     "proposer": "DEEZNUTS",
+     "votes": [
+      "KRISTEN",
+      "NIKKI",
+      "DEEZNUTS",
+      "BELINDA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "DEEZNUTS",
+    "NATALIE",
+    "BELINDA",
+    "KRISTEN"
+   ],
+   "numFails": 1
+  }
+ ]
+}

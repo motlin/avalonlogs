@@ -1,0 +1,305 @@
+{
+ "timeFinished": {
+  "_seconds": 1594983275,
+  "_nanoseconds": 774000000
+ },
+ "players": [
+  {
+   "name": "RAY",
+   "uid": "vCgfTDmgmJcSPZMThKCn5Wnq2Mu1"
+  },
+  {
+   "name": "NGOC",
+   "uid": "9DoVOwaoW0TPpG2wH1nmG1VlGx52"
+  },
+  {
+   "uid": "Xuqy4N6BAqgJtQ36IUHriiKDvQK2",
+   "name": "HUNG"
+  },
+  {
+   "name": "MARCUS",
+   "uid": "pF914aflfNXofcJzKnGiraoy0xF2"
+  },
+  {
+   "uid": "sQQkC4qMkMUvuiwj87SfStRCLZr2",
+   "name": "DUC"
+  },
+  {
+   "name": "CHI",
+   "uid": "b8NbnHMBjJS06RQKryjuVqqvWKt1"
+  },
+  {
+   "uid": "Yxbqtyoln2PugNiNwKkopoUERql2",
+   "name": "HLEU"
+  },
+  {
+   "uid": "3Ty1FxgWxzN0h0MLNDMHspX9V4a2",
+   "name": "THY"
+  },
+  {
+   "name": "TRANG",
+   "uid": "75ynDRchJNh6dRItS0RrMoemYiB2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "MARCUS",
+    "NGOC",
+    "TRANG"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MARCUS",
+     "state": "APPROVED",
+     "votes": [
+      "CHI",
+      "THY",
+      "HUNG",
+      "MARCUS",
+      "TRANG",
+      "HLEU",
+      "NGOC"
+     ],
+     "team": [
+      "MARCUS",
+      "NGOC",
+      "TRANG"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "NGOC",
+    "MARCUS",
+    "DUC",
+    "TRANG"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DUC",
+     "team": [
+      "NGOC",
+      "MARCUS",
+      "DUC",
+      "TRANG"
+     ],
+     "votes": [
+      "NGOC",
+      "HLEU",
+      "CHI",
+      "HUNG",
+      "THY",
+      "MARCUS"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "numFails": 3,
+   "team": [
+    "CHI",
+    "MARCUS",
+    "TRANG",
+    "NGOC"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CHI",
+     "state": "APPROVED",
+     "votes": [
+      "TRANG",
+      "THY",
+      "CHI",
+      "HUNG",
+      "RAY",
+      "MARCUS",
+      "NGOC"
+     ],
+     "team": [
+      "CHI",
+      "MARCUS",
+      "TRANG",
+      "NGOC"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "HLEU",
+      "THY",
+      "DUC",
+      "HUNG",
+      "RAY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DUC",
+      "HLEU",
+      "THY",
+      "RAY",
+      "NGOC",
+      "MARCUS",
+      "TRANG",
+      "HUNG"
+     ],
+     "proposer": "HLEU"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "HLEU",
+    "THY",
+    "DUC",
+    "HUNG",
+    "RAY"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "THY",
+    "HLEU",
+    "DUC",
+    "HUNG",
+    "RAY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "THY",
+      "HLEU",
+      "DUC",
+      "HUNG",
+      "RAY"
+     ],
+     "proposer": "THY",
+     "votes": [
+      "TRANG",
+      "RAY",
+      "HLEU",
+      "THY",
+      "DUC",
+      "HUNG",
+      "NGOC"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "MARCUS": true,
+    "TRANG": true,
+    "NGOC": true
+   },
+   {
+    "NGOC": false,
+    "DUC": true,
+    "TRANG": true,
+    "MARCUS": true
+   },
+   {
+    "NGOC": false,
+    "CHI": false,
+    "MARCUS": false,
+    "TRANG": true
+   },
+   {
+    "HLEU": true,
+    "HUNG": true,
+    "THY": true,
+    "RAY": true,
+    "DUC": true
+   },
+   {
+    "DUC": true,
+    "RAY": true,
+    "HLEU": true,
+    "THY": true,
+    "HUNG": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "CHI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORDRED",
+    "name": "NGOC",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "THY"
+   },
+   {
+    "name": "RAY",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "HLEU",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "MARCUS",
+    "role": "MORGANA"
+   },
+   {
+    "name": "DUC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HUNG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TRANG"
+   }
+  ],
+  "assassinated": "DUC"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1594982796,
+  "_nanoseconds": 554000000
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "players": [
+  {
+   "name": "VISHAL",
+   "uid": "ZdflgOGzTZevi5Qva6nIjAOXNDp2"
+  },
+  {
+   "name": "ADITYA",
+   "uid": "lHyjSpG6P9YETEnz3d9ue0rUjoM2"
+  },
+  {
+   "name": "NAV",
+   "uid": "s9k4LWq8LBafd430jAbs5wefW1b2"
+  },
+  {
+   "name": "MICHELLE",
+   "uid": "XEQZT3flpXVOlNZg86uWVWv2rQ53"
+  },
+  {
+   "name": "CHUNNING",
+   "uid": "v1iQGrWcuwY9SZ6sy9MGQG9zNk33"
+  },
+  {
+   "name": "HUNG",
+   "uid": "fNnVjJa4Y4fcpdcZQTGRktqO3RD3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1613178518,
+  "_nanoseconds": 920000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ADITYA",
+    "NAV"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CHUNNING",
+      "ADITYA",
+      "VISHAL",
+      "NAV",
+      "MICHELLE"
+     ],
+     "team": [
+      "ADITYA",
+      "NAV"
+     ],
+     "proposer": "ADITYA",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MICHELLE",
+    "ADITYA",
+    "VISHAL"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "NAV",
+     "votes": [
+      "VISHAL",
+      "HUNG",
+      "NAV"
+     ],
+     "team": [
+      "MICHELLE",
+      "CHUNNING",
+      "HUNG"
+     ]
+    },
+    {
+     "team": [
+      "MICHELLE",
+      "ADITYA",
+      "VISHAL"
+     ],
+     "proposer": "MICHELLE",
+     "votes": [
+      "ADITYA",
+      "VISHAL",
+      "CHUNNING",
+      "MICHELLE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 2,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHUNNING",
+      "MICHELLE",
+      "ADITYA",
+      "VISHAL"
+     ],
+     "proposer": "CHUNNING",
+     "votes": [
+      "MICHELLE",
+      "ADITYA",
+      "VISHAL",
+      "HUNG",
+      "CHUNNING"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "CHUNNING",
+    "MICHELLE",
+    "ADITYA",
+    "VISHAL"
+   ]
+  },
+  {
+   "team": [
+    "NAV",
+    "HUNG",
+    "MICHELLE"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "HUNG",
+     "state": "APPROVED",
+     "team": [
+      "NAV",
+      "HUNG",
+      "MICHELLE"
+     ],
+     "votes": [
+      "ADITYA",
+      "MICHELLE",
+      "NAV",
+      "HUNG",
+      "CHUNNING"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1613177720,
+  "_nanoseconds": 666000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ADITYA": true,
+    "NAV": true
+   },
+   {
+    "MICHELLE": true,
+    "VISHAL": true,
+    "ADITYA": true
+   },
+   {
+    "ADITYA": false,
+    "VISHAL": false,
+    "CHUNNING": true,
+    "MICHELLE": true
+   },
+   {
+    "NAV": true,
+    "MICHELLE": true,
+    "HUNG": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "VISHAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NAV",
+    "assassin": false
+   },
+   {
+    "name": "HUNG",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHUNNING",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ADITYA"
+   },
+   {
+    "name": "MICHELLE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "CHUNNING"
+ }
+}

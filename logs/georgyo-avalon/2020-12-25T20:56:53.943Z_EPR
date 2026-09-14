@@ -1,0 +1,262 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1608929813,
+  "_nanoseconds": 943000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KLAAS",
+     "votes": [
+      "KLAAS",
+      "LISELOTTE",
+      "JOHAN",
+      "FLO",
+      "CASPER",
+      "JEROEN"
+     ],
+     "team": [
+      "KLAAS",
+      "FLO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "KLAAS",
+    "FLO"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEROEN",
+      "CASPER",
+      "LISELOTTE",
+      "FLO",
+      "JOHAN"
+     ],
+     "proposer": "FLO",
+     "team": [
+      "FLO",
+      "CASPER",
+      "JOHAN"
+     ]
+    }
+   ],
+   "team": [
+    "FLO",
+    "CASPER",
+    "JOHAN"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CASPER",
+    "LISELOTTE",
+    "KLAAS"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ANOUK",
+     "state": "REJECTED",
+     "team": [
+      "CASPER",
+      "ANOUK",
+      "JOHAN"
+     ],
+     "votes": [
+      "JOHAN",
+      "KLAAS",
+      "ANOUK"
+     ]
+    },
+    {
+     "votes": [
+      "LISELOTTE",
+      "CASPER",
+      "JOHAN",
+      "JEROEN",
+      "FLO",
+      "KLAAS"
+     ],
+     "team": [
+      "CASPER",
+      "LISELOTTE",
+      "KLAAS"
+     ],
+     "state": "APPROVED",
+     "proposer": "LISELOTTE"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "JEROEN",
+    "LISELOTTE",
+    "CASPER",
+    "ANOUK"
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "JOHAN"
+     ],
+     "team": [
+      "JOHAN",
+      "ANOUK",
+      "LISELOTTE",
+      "CASPER"
+     ],
+     "proposer": "JOHAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "FLO",
+      "KLAAS",
+      "JOHAN",
+      "JEROEN",
+      "CASPER",
+      "LISELOTTE"
+     ],
+     "proposer": "JEROEN",
+     "team": [
+      "JEROEN",
+      "LISELOTTE",
+      "CASPER",
+      "ANOUK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "players": [
+  {
+   "name": "JEROEN",
+   "uid": "hIP0QQnFFWWoZwdpQmKaGnkaAd13"
+  },
+  {
+   "name": "CASPER",
+   "uid": "Y1GwrxpBz3eLOE29lKVtkAQhNcI3"
+  },
+  {
+   "name": "KLAAS",
+   "uid": "YhoWnGN8lMfck6gqOt0W9NLaJTj2"
+  },
+  {
+   "uid": "EiGQsuIGIRap5uBBVaIGi8369TM2",
+   "name": "FLO"
+  },
+  {
+   "name": "ANOUK",
+   "uid": "PJ7OWpCbceXYbn8RrxQ7yGvxpu13"
+  },
+  {
+   "name": "LISELOTTE",
+   "uid": "rrGX5fCBicPqTaAv0GAdu8XMD9v1"
+  },
+  {
+   "uid": "yu0ei4RCLsgIeXW0f6zbatHOrJW2",
+   "name": "JOHAN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1608930890,
+  "_nanoseconds": 89000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "KLAAS": true,
+    "FLO": true
+   },
+   {
+    "CASPER": true,
+    "FLO": false,
+    "JOHAN": true
+   },
+   {
+    "CASPER": true,
+    "KLAAS": true,
+    "LISELOTTE": false
+   },
+   {
+    "CASPER": true,
+    "JEROEN": false,
+    "ANOUK": true,
+    "LISELOTTE": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "name": "LISELOTTE",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "FLO",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JEROEN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KLAAS",
+    "assassin": false
+   },
+   {
+    "name": "ANOUK",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "JOHAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CASPER"
+   }
+  ],
+  "assassinated": null
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "RkVaHz0KZXc7EiBuqwVkBrO3Nld2",
+   "name": "PRIYANK"
+  },
+  {
+   "name": "AH",
+   "uid": "kOA90JXHwohMuxgDOtCKlOh8v052"
+  },
+  {
+   "name": "AYUSHI",
+   "uid": "mekgOiodJ5caTowemGQNgeb1nlU2"
+  },
+  {
+   "name": "HETVI",
+   "uid": "9cEz4ZBUteXzzHUQT0IWE366LGv1"
+  },
+  {
+   "uid": "u3nbi2ODgZXlrVaHYI1d7mlsZXg2",
+   "name": "APPURVAK"
+  },
+  {
+   "name": "SAKSHI",
+   "uid": "SMBjFoBW92eoPlUfxdho5aUHjEQ2"
+  },
+  {
+   "name": "VIDHI",
+   "uid": "HE21O9YrlPWuSEhpDk3TGnL5PnY2"
+  },
+  {
+   "name": "AMISH",
+   "uid": "G7Punk1IvhTZtNUqISvnJocSYpe2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "APPURVAK",
+      "AYUSHI",
+      "SAKSHI",
+      "HETVI",
+      "VIDHI"
+     ],
+     "proposer": "VIDHI",
+     "team": [
+      "HETVI",
+      "VIDHI",
+      "SAKSHI"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "HETVI",
+    "VIDHI",
+    "SAKSHI"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "AMISH",
+    "VIDHI",
+    "SAKSHI",
+    "HETVI"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "AMISH",
+     "state": "APPROVED",
+     "team": [
+      "AMISH",
+      "VIDHI",
+      "SAKSHI",
+      "HETVI"
+     ],
+     "votes": [
+      "SAKSHI",
+      "HETVI",
+      "AH",
+      "AMISH",
+      "VIDHI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "PRIYANK",
+     "votes": [
+      "AYUSHI",
+      "PRIYANK",
+      "APPURVAK"
+     ],
+     "team": [
+      "PRIYANK",
+      "AH",
+      "HETVI",
+      "AMISH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "AH",
+     "votes": [
+      "SAKSHI",
+      "HETVI",
+      "AH",
+      "AMISH",
+      "VIDHI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "VIDHI",
+      "SAKSHI",
+      "HETVI",
+      "AH"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "VIDHI",
+    "SAKSHI",
+    "HETVI",
+    "AH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "AMISH",
+    "VIDHI",
+    "SAKSHI",
+    "HETVI",
+    "AH"
+   ],
+   "numFails": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "AYUSHI",
+     "state": "REJECTED",
+     "votes": [
+      "AYUSHI",
+      "SAKSHI",
+      "APPURVAK"
+     ],
+     "team": [
+      "APPURVAK",
+      "PRIYANK",
+      "AYUSHI",
+      "AH",
+      "SAKSHI"
+     ]
+    },
+    {
+     "votes": [
+      "SAKSHI",
+      "HETVI",
+      "AMISH",
+      "VIDHI",
+      "PRIYANK"
+     ],
+     "team": [
+      "AMISH",
+      "VIDHI",
+      "SAKSHI",
+      "HETVI",
+      "AH"
+     ],
+     "proposer": "HETVI",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590255653,
+  "_nanoseconds": 407000000
+ },
+ "outcome": {
+  "assassinated": "PRIYANK",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "HETVI": true,
+    "VIDHI": true,
+    "SAKSHI": true
+   },
+   {
+    "AMISH": true,
+    "SAKSHI": true,
+    "HETVI": true,
+    "VIDHI": true
+   },
+   {
+    "HETVI": true,
+    "SAKSHI": false,
+    "VIDHI": true,
+    "AH": true
+   },
+   {
+    "VIDHI": true,
+    "AH": true,
+    "SAKSHI": false,
+    "HETVI": true,
+    "AMISH": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "AYUSHI",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SAKSHI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "HETVI"
+   },
+   {
+    "name": "AH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AMISH"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "VIDHI"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "PRIYANK"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "APPURVAK"
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeCreated": {
+  "_seconds": 1590254527,
+  "_nanoseconds": 489000000
+ }
+}

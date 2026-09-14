@@ -1,0 +1,228 @@
+{
+ "outcome": {
+  "assassinated": "GRON",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "YENEEGOO",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "GRON"
+   },
+   {
+    "assassin": true,
+    "name": "PETER",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "IMVERYSAD"
+   },
+   {
+    "name": "FUG",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PETER": true,
+    "GRON": true
+   },
+   {
+    "GRON": true,
+    "PETER": false,
+    "IMVERYSAD": false
+   },
+   {
+    "FUG": true,
+    "YENEEGOO": true
+   },
+   {
+    "IMVERYSAD": false,
+    "FUG": true,
+    "YENEEGOO": true
+   },
+   {
+    "FUG": true,
+    "YENEEGOO": true,
+    "GRON": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "YENEEGOO",
+      "GRON",
+      "PETER",
+      "IMVERYSAD"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GRON",
+      "PETER"
+     ],
+     "proposer": "GRON"
+    }
+   ],
+   "team": [
+    "GRON",
+    "PETER"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "GRON",
+    "PETER",
+    "IMVERYSAD"
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PETER",
+     "team": [
+      "GRON",
+      "PETER",
+      "IMVERYSAD"
+     ],
+     "votes": [
+      "GRON",
+      "PETER",
+      "IMVERYSAD"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "GRON",
+      "IMVERYSAD",
+      "FUG",
+      "YENEEGOO"
+     ],
+     "state": "APPROVED",
+     "proposer": "IMVERYSAD",
+     "team": [
+      "YENEEGOO",
+      "FUG"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "YENEEGOO",
+    "FUG"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "IMVERYSAD",
+    "YENEEGOO",
+    "FUG"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "FUG",
+      "YENEEGOO",
+      "PETER",
+      "IMVERYSAD"
+     ],
+     "team": [
+      "IMVERYSAD",
+      "YENEEGOO",
+      "FUG"
+     ],
+     "proposer": "YENEEGOO"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "FUG",
+    "YENEEGOO",
+    "GRON"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "FUG",
+     "state": "APPROVED",
+     "votes": [
+      "FUG",
+      "YENEEGOO",
+      "GRON"
+     ],
+     "team": [
+      "FUG",
+      "YENEEGOO",
+      "GRON"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "GRON",
+   "uid": "eyY3DEcBcwh6VTpOpHAzlCBZHKh2"
+  },
+  {
+   "uid": "qheIIhW8cmVUqMymVIKtXpuV64B3",
+   "name": "PETER"
+  },
+  {
+   "name": "IMVERYSAD",
+   "uid": "iJqRXsAVRWUnDhBYYNtOGcIrqgr1"
+  },
+  {
+   "name": "YENEEGOO",
+   "uid": "7JJdf1z8NfOcLVk2Z1ZtOtMOk6j1"
+  },
+  {
+   "name": "FUG",
+   "uid": "J0wCPNOkdsN4BtpZ0n8aSKlZrNm1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592885741,
+  "_nanoseconds": 967000000
+ },
+ "timeFinished": {
+  "_seconds": 1592886006,
+  "_nanoseconds": 388000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": "AAK",
+  "votes": [
+   {
+    "RAKA": true,
+    "WAHEED": true,
+    "AAK": true
+   },
+   {
+    "WAHEED": true,
+    "AAK": true,
+    "RAKA": false,
+    "MAHJABIN": true
+   },
+   {
+    "INEEN": false,
+    "HRIDI": false,
+    "NAYEMA": true,
+    "RAKA": false
+   },
+   {
+    "AAK": true,
+    "VICTOR": true,
+    "SHAH": true,
+    "WAHEED": true,
+    "MAHJABIN": true
+   },
+   {
+    "AAK": true,
+    "MAHJABIN": true,
+    "WAHEED": true,
+    "VICTOR": true,
+    "SHAH": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "AAK",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MAHJABIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "RAKA",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "INEEN"
+   },
+   {
+    "name": "SHAH",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "HRIDI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "NAYEMA"
+   },
+   {
+    "name": "WAHEED",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "VICTOR",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "AAK",
+    "RAKA",
+    "WAHEED"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "INEEN",
+      "SHAH",
+      "HRIDI",
+      "NAYEMA",
+      "WAHEED",
+      "VICTOR",
+      "AAK",
+      "MAHJABIN",
+      "RAKA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AAK",
+      "RAKA",
+      "WAHEED"
+     ],
+     "proposer": "AAK"
+    }
+   ]
+  },
+  {
+   "team": [
+    "RAKA",
+    "AAK",
+    "WAHEED",
+    "MAHJABIN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "RAKA",
+      "AAK",
+      "WAHEED",
+      "MAHJABIN"
+     ],
+     "proposer": "MAHJABIN",
+     "state": "APPROVED",
+     "votes": [
+      "MAHJABIN",
+      "RAKA",
+      "INEEN",
+      "SHAH",
+      "HRIDI",
+      "NAYEMA",
+      "WAHEED",
+      "VICTOR",
+      "AAK"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "INEEN",
+      "HRIDI",
+      "RAKA",
+      "NAYEMA"
+     ],
+     "votes": [
+      "INEEN",
+      "HRIDI",
+      "NAYEMA",
+      "WAHEED",
+      "VICTOR",
+      "AAK",
+      "RAKA"
+     ],
+     "state": "APPROVED",
+     "proposer": "RAKA"
+    }
+   ],
+   "team": [
+    "INEEN",
+    "HRIDI",
+    "RAKA",
+    "NAYEMA"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 3
+  },
+  {
+   "team": [
+    "VICTOR",
+    "AAK",
+    "MAHJABIN",
+    "WAHEED",
+    "SHAH"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "numFails": 0,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "MAHJABIN",
+      "INEEN",
+      "SHAH",
+      "HRIDI",
+      "NAYEMA",
+      "WAHEED",
+      "VICTOR",
+      "AAK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "VICTOR",
+      "AAK",
+      "MAHJABIN",
+      "WAHEED",
+      "SHAH"
+     ],
+     "proposer": "INEEN"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": [
+    "AAK",
+    "MAHJABIN",
+    "SHAH",
+    "WAHEED",
+    "VICTOR"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "AAK",
+      "MAHJABIN",
+      "SHAH",
+      "WAHEED",
+      "VICTOR"
+     ],
+     "proposer": "NAYEMA",
+     "votes": [
+      "AAK",
+      "MAHJABIN",
+      "SHAH",
+      "HRIDI",
+      "NAYEMA",
+      "WAHEED",
+      "VICTOR"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587873473,
+  "_nanoseconds": 898000000
+ },
+ "players": [
+  {
+   "name": "AAK",
+   "uid": "apngm6EJl2XfrwE8fC8AsLRpo853"
+  },
+  {
+   "name": "MAHJABIN",
+   "uid": "t3EWHhU8LJM2uWw9jd545etTjNR2"
+  },
+  {
+   "name": "RAKA",
+   "uid": "kwmw8ZzOztPTEJ6X2dGEANMjhG73"
+  },
+  {
+   "name": "INEEN",
+   "uid": "oUuVx0unYDYJPIWvy6eWyvUIJLr2"
+  },
+  {
+   "name": "NAYEMA",
+   "uid": "rOyUcrdaapWEJz5tHl60IT5KDJx1"
+  },
+  {
+   "name": "HRIDI",
+   "uid": "GpBMQNA4BAMd5T17Zq0Kt2mnFNM2"
+  },
+  {
+   "uid": "wdhr6FpaeseF8dG3aL9AHTXOZAo2",
+   "name": "SHAH"
+  },
+  {
+   "name": "WAHEED",
+   "uid": "LdhIdlQMX8RMHpko11USpNvWIRM2"
+  },
+  {
+   "uid": "b5Ru4NbMfaUFxpC51UklDaHjhRz1",
+   "name": "VICTOR"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587874236,
+  "_nanoseconds": 491000000
+ }
+}

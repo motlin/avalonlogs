@@ -1,0 +1,274 @@
+{
+ "players": [
+  {
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83",
+   "name": "CONNOR"
+  },
+  {
+   "name": "YB",
+   "uid": "dBbDTVYBVOX3bdMaEHBbhW01IIB3"
+  },
+  {
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1",
+   "name": "DREW"
+  },
+  {
+   "uid": "A9xlw7YLwbXqfmEdFQA6XhlUMN92",
+   "name": "MATT"
+  },
+  {
+   "name": "HIHO",
+   "uid": "hNDXXlCKDHQa8UTBhJk0OtIP7Dq2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DREW",
+      "MATT"
+     ],
+     "votes": [
+      "HIHO",
+      "YB",
+      "MATT",
+      "DREW"
+     ],
+     "proposer": "DREW"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DREW",
+    "MATT"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "MATT",
+    "DREW",
+    "HIHO"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "MATT",
+     "team": [
+      "MATT",
+      "DREW",
+      "HIHO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "YB",
+      "MATT",
+      "HIHO",
+      "DREW"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "HIHO",
+      "CONNOR"
+     ],
+     "proposer": "HIHO",
+     "state": "REJECTED",
+     "votes": [
+      "CONNOR",
+      "HIHO"
+     ]
+    },
+    {
+     "votes": [
+      "CONNOR",
+      "MATT",
+      "HIHO"
+     ],
+     "state": "APPROVED",
+     "proposer": "CONNOR",
+     "team": [
+      "CONNOR",
+      "HIHO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "CONNOR",
+    "HIHO"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "YB",
+    "DREW",
+    "HIHO"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "HIHO",
+      "DREW",
+      "YB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YB",
+      "DREW",
+      "HIHO"
+     ],
+     "proposer": "YB"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DREW",
+      "YB"
+     ],
+     "proposer": "DREW",
+     "team": [
+      "DREW",
+      "YB",
+      "CONNOR"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MATT"
+     ],
+     "team": [
+      "MATT",
+      "HIHO",
+      "CONNOR"
+     ],
+     "proposer": "MATT"
+    },
+    {
+     "team": [
+      "CONNOR",
+      "DREW",
+      "HIHO"
+     ],
+     "proposer": "HIHO",
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CONNOR",
+      "MATT",
+      "HIHO"
+     ],
+     "proposer": "CONNOR",
+     "votes": [
+      "MATT",
+      "CONNOR",
+      "HIHO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CONNOR",
+    "MATT",
+    "HIHO"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604296941,
+  "_nanoseconds": 812000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1604297850,
+  "_nanoseconds": 832000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "DREW": true,
+    "MATT": true
+   },
+   {
+    "DREW": true,
+    "MATT": false,
+    "HIHO": true
+   },
+   {
+    "CONNOR": true,
+    "HIHO": true
+   },
+   {
+    "YB": true,
+    "DREW": true,
+    "HIHO": false
+   },
+   {
+    "CONNOR": true,
+    "MATT": false,
+    "HIHO": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "name": "HIHO",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MATT"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "YB"
+   },
+   {
+    "name": "CONNOR",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "DREW",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ }
+}

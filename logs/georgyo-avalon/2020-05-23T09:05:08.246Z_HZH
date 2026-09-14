@@ -1,0 +1,254 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "QTPIE",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "GABES",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "YIFEI"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "WANZHEN"
+   },
+   {
+    "name": "VAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "D",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "YIFEI": true,
+    "QTPIE": true
+   },
+   {
+    "VAN": true,
+    "D": true,
+    "YIFEI": false
+   },
+   {
+    "GABES": true,
+    "D": true,
+    "WANZHEN": true,
+    "VAN": true
+   },
+   {
+    "D": true,
+    "VAN": true,
+    "GABES": true
+   }
+  ],
+  "assassinated": "WANZHEN"
+ },
+ "players": [
+  {
+   "name": "QTPIE",
+   "uid": "i0YHiQU5EMeLVin5gWeFeiATYsZ2"
+  },
+  {
+   "uid": "DCnK3by8LFNYn7UE0nIhq2Vf0If1",
+   "name": "WANZHEN"
+  },
+  {
+   "name": "GABES",
+   "uid": "lvmLontMF2duIvO1ufcQJH3Ft3M2"
+  },
+  {
+   "name": "D",
+   "uid": "oi8vTcVnaMUdoHZs0KlVTIYWdOJ2"
+  },
+  {
+   "uid": "7e0GrVPW4Td4ZU7R1nzJfVfvwzq1",
+   "name": "VAN"
+  },
+  {
+   "name": "YIFEI",
+   "uid": "aYTBMmSIgZfLEOXrklwhD3CVHfD3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590224708,
+  "_nanoseconds": 246000000
+ },
+ "timeFinished": {
+  "_seconds": 1590225195,
+  "_nanoseconds": 241000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "YIFEI",
+    "QTPIE"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "YIFEI",
+      "VAN",
+      "D",
+      "QTPIE",
+      "GABES"
+     ],
+     "team": [
+      "YIFEI",
+      "QTPIE"
+     ],
+     "proposer": "D"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "VAN",
+    "D",
+    "YIFEI"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "D",
+      "QTPIE",
+      "GABES",
+      "YIFEI",
+      "WANZHEN",
+      "VAN"
+     ],
+     "proposer": "VAN",
+     "team": [
+      "VAN",
+      "D",
+      "YIFEI"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "WANZHEN",
+    "GABES",
+    "D",
+    "VAN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "YIFEI",
+      "QTPIE",
+      "WANZHEN",
+      "GABES"
+     ],
+     "state": "REJECTED",
+     "proposer": "YIFEI",
+     "votes": [
+      "YIFEI",
+      "D",
+      "GABES"
+     ]
+    },
+    {
+     "proposer": "QTPIE",
+     "votes": [
+      "YIFEI",
+      "D",
+      "QTPIE"
+     ],
+     "team": [
+      "QTPIE",
+      "VAN",
+      "D",
+      "WANZHEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "GABES",
+      "YIFEI",
+      "WANZHEN",
+      "VAN",
+      "D"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "WANZHEN",
+      "GABES",
+      "D",
+      "VAN"
+     ],
+     "proposer": "WANZHEN"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "GABES",
+      "VAN",
+      "D"
+     ],
+     "votes": [
+      "QTPIE",
+      "GABES",
+      "WANZHEN",
+      "VAN",
+      "D"
+     ],
+     "proposer": "GABES",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "GABES",
+    "VAN",
+    "D"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ]
+}

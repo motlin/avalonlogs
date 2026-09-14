@@ -1,0 +1,308 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588386965,
+  "_nanoseconds": 344000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ROB",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MEAGAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "LWQ"
+   },
+   {
+    "name": "BENDER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ERICA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "GEOFF",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": true,
+    "name": "NADIA",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ADAM",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "MEAGAN": true,
+    "BENDER": true,
+    "LWQ": true
+   },
+   {
+    "MEAGAN": true,
+    "LWQ": false,
+    "BENDER": true,
+    "ROB": true
+   },
+   {
+    "LWQ": false,
+    "MEAGAN": true,
+    "BENDER": true,
+    "GEOFF": true
+   },
+   {
+    "ADAM": true,
+    "ERICA": true,
+    "MEAGAN": true,
+    "ROB": true,
+    "BENDER": true
+   },
+   {
+    "ERICA": true,
+    "BENDER": true,
+    "ADAM": true,
+    "MEAGAN": true,
+    "ROB": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "ERICA"
+ },
+ "players": [
+  {
+   "name": "ERICA",
+   "uid": "gtjIJ0dRz4b3oUa23wstS9rqFQM2"
+  },
+  {
+   "uid": "Ce2moiyxPBYEkBzxg3fCnkReoO23",
+   "name": "ROB"
+  },
+  {
+   "name": "ADAM",
+   "uid": "FMHC2ClT2OSWHK6J8OZ7zwCF7W93"
+  },
+  {
+   "name": "NADIA",
+   "uid": "CTqTswQnRSfG3nQ5QFhLplKyK4H3"
+  },
+  {
+   "name": "BENDER",
+   "uid": "vdsKV1aN50cBXB67UdufyU0e4zv2"
+  },
+  {
+   "name": "MEAGAN",
+   "uid": "0x4ueSvCJfNciwIxRvoirpWFJJl2"
+  },
+  {
+   "name": "LWQ",
+   "uid": "FrmDFBLnCzeH7Qbed7lsO5NWtih1"
+  },
+  {
+   "name": "GEOFF",
+   "uid": "MRBzFnxclsMGfFd74EpNZAjAGWj2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "BENDER",
+      "MEAGAN",
+      "LWQ"
+     ],
+     "proposer": "BENDER",
+     "votes": [
+      "GEOFF",
+      "NADIA",
+      "ROB",
+      "MEAGAN",
+      "LWQ",
+      "BENDER",
+      "ERICA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "BENDER",
+    "MEAGAN",
+    "LWQ"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "BENDER",
+    "MEAGAN",
+    "LWQ",
+    "ROB"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BENDER",
+      "MEAGAN",
+      "LWQ",
+      "ROB"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BENDER",
+      "GEOFF",
+      "NADIA",
+      "ADAM",
+      "ROB",
+      "MEAGAN",
+      "LWQ"
+     ],
+     "proposer": "MEAGAN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "LWQ",
+    "MEAGAN",
+    "BENDER",
+    "GEOFF"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BENDER",
+      "GEOFF",
+      "NADIA",
+      "ROB",
+      "MEAGAN",
+      "LWQ"
+     ],
+     "team": [
+      "LWQ",
+      "MEAGAN",
+      "BENDER",
+      "GEOFF"
+     ],
+     "state": "APPROVED",
+     "proposer": "LWQ"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "LWQ",
+      "MEAGAN",
+      "BENDER",
+      "NADIA",
+      "GEOFF"
+     ],
+     "votes": [
+      "GEOFF",
+      "NADIA",
+      "LWQ"
+     ],
+     "proposer": "GEOFF",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BENDER",
+      "ERICA",
+      "GEOFF",
+      "ADAM",
+      "ROB",
+      "MEAGAN"
+     ],
+     "proposer": "ERICA",
+     "state": "APPROVED",
+     "team": [
+      "ERICA",
+      "ROB",
+      "ADAM",
+      "BENDER",
+      "MEAGAN"
+     ]
+    }
+   ],
+   "team": [
+    "ERICA",
+    "ROB",
+    "ADAM",
+    "BENDER",
+    "MEAGAN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ROB",
+     "state": "APPROVED",
+     "team": [
+      "ERICA",
+      "ROB",
+      "ADAM",
+      "BENDER",
+      "MEAGAN"
+     ],
+     "votes": [
+      "ROB",
+      "MEAGAN",
+      "BENDER",
+      "ERICA",
+      "ADAM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ERICA",
+    "ROB",
+    "ADAM",
+    "BENDER",
+    "MEAGAN"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588386384,
+  "_nanoseconds": 246000000
+ }
+}

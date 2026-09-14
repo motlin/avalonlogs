@@ -1,0 +1,294 @@
+{
+ "timeCreated": {
+  "_seconds": 1599879624,
+  "_nanoseconds": 129000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "MEGAN",
+  "votes": [
+   {
+    "MARE": true,
+    "BLITZ": true
+   },
+   {
+    "CCPDELENDA": true,
+    "MARE": true,
+    "BLITZ": false
+   },
+   {
+    "MEGAN": true,
+    "ANDREW": true,
+    "MARE": true,
+    "CCPDELENDA": true
+   },
+   {
+    "ANDREW": true,
+    "MARE": true,
+    "MEGAN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "BLITZ",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "MEGAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CCPDELENDA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "MARE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ANDREW",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ELLIE"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1599881634,
+  "_nanoseconds": 680000000
+ },
+ "players": [
+  {
+   "name": "ANDREW",
+   "uid": "6wBUhhlZQjPFbF1JYSuM4Inmiur1"
+  },
+  {
+   "uid": "11rZd85dM6O53ourLEgexCK37Tn2",
+   "name": "MEGAN"
+  },
+  {
+   "name": "BLITZ",
+   "uid": "pIjSItKivKMn77h7ZckVCClmZIx2"
+  },
+  {
+   "uid": "DqxUUlW7puW3czqsCW1dYTg5Lsj2",
+   "name": "MARE"
+  },
+  {
+   "uid": "C3vcoe5NzNdrsBuJnZatM3PTnsh2",
+   "name": "ELLIE"
+  },
+  {
+   "uid": "mWb67RhaEthSTUVHvjfrh20HYDw1",
+   "name": "CCPDELENDA"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "BLITZ",
+    "MARE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CCPDELENDA",
+      "MARE",
+      "BLITZ",
+      "MEGAN",
+      "ELLIE",
+      "ANDREW"
+     ],
+     "team": [
+      "BLITZ",
+      "MARE"
+     ],
+     "proposer": "BLITZ"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "MARE",
+    "CCPDELENDA",
+    "BLITZ"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CCPDELENDA",
+      "ANDREW",
+      "MEGAN"
+     ],
+     "team": [
+      "MARE",
+      "BLITZ",
+      "ELLIE"
+     ],
+     "proposer": "MARE"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "MARE",
+      "ELLIE",
+      "CCPDELENDA"
+     ],
+     "proposer": "ELLIE",
+     "votes": [
+      "ELLIE",
+      "MEGAN",
+      "CCPDELENDA"
+     ]
+    },
+    {
+     "team": [
+      "MARE",
+      "CCPDELENDA",
+      "BLITZ"
+     ],
+     "votes": [
+      "MEGAN",
+      "CCPDELENDA",
+      "BLITZ",
+      "MARE"
+     ],
+     "state": "APPROVED",
+     "proposer": "CCPDELENDA"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ANDREW",
+      "MEGAN",
+      "MARE",
+      "BLITZ"
+     ],
+     "votes": [
+      "MARE",
+      "BLITZ"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANDREW"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ANDREW",
+      "MEGAN",
+      "ELLIE",
+      "CCPDELENDA"
+     ],
+     "votes": [
+      "MEGAN",
+      "CCPDELENDA"
+     ],
+     "proposer": "MEGAN"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ELLIE",
+      "BLITZ",
+      "MARE"
+     ],
+     "team": [
+      "BLITZ",
+      "MARE",
+      "ANDREW",
+      "MEGAN"
+     ],
+     "proposer": "BLITZ"
+    },
+    {
+     "votes": [
+      "MARE",
+      "MEGAN",
+      "ANDREW",
+      "CCPDELENDA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANDREW",
+      "MEGAN",
+      "MARE",
+      "CCPDELENDA"
+     ],
+     "proposer": "MARE"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ANDREW",
+    "MEGAN",
+    "MARE",
+    "CCPDELENDA"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ANDREW",
+    "MEGAN",
+    "MARE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANDREW",
+      "MEGAN",
+      "MARE"
+     ],
+     "votes": [
+      "CCPDELENDA",
+      "BLITZ",
+      "MARE",
+      "ELLIE",
+      "ANDREW",
+      "MEGAN"
+     ],
+     "proposer": "ELLIE"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

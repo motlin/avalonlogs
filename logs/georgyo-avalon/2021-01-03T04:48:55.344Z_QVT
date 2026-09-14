@@ -1,0 +1,251 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "DPX",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "VALERIE",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "BLACKMAMBA"
+   },
+   {
+    "name": "PAUL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KINGJEFF"
+   },
+   {
+    "assassin": false,
+    "name": "SISSI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "CLZ"
+   }
+  ],
+  "assassinated": "BLACKMAMBA",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "KINGJEFF": true,
+    "SISSI": true
+   },
+   {
+    "KINGJEFF": true,
+    "BLACKMAMBA": true,
+    "SISSI": true
+   },
+   {
+    "PAUL": false,
+    "KINGJEFF": true,
+    "BLACKMAMBA": true
+   },
+   {
+    "BLACKMAMBA": true,
+    "SISSI": true,
+    "PAUL": false,
+    "KINGJEFF": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "KINGJEFF",
+    "SISSI"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SISSI",
+     "votes": [
+      "VALERIE",
+      "CLZ",
+      "SISSI",
+      "BLACKMAMBA",
+      "KINGJEFF",
+      "PAUL",
+      "DPX"
+     ],
+     "team": [
+      "KINGJEFF",
+      "SISSI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "KINGJEFF",
+    "BLACKMAMBA",
+    "SISSI"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KINGJEFF",
+     "votes": [
+      "DPX",
+      "SISSI",
+      "BLACKMAMBA",
+      "CLZ",
+      "KINGJEFF"
+     ],
+     "team": [
+      "KINGJEFF",
+      "BLACKMAMBA",
+      "SISSI"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "BLACKMAMBA",
+      "CLZ",
+      "KINGJEFF"
+     ],
+     "proposer": "BLACKMAMBA",
+     "team": [
+      "BLACKMAMBA",
+      "KINGJEFF",
+      "SISSI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KINGJEFF",
+      "BLACKMAMBA",
+      "PAUL"
+     ],
+     "proposer": "PAUL",
+     "votes": [
+      "VALERIE",
+      "DPX",
+      "KINGJEFF",
+      "CLZ",
+      "BLACKMAMBA",
+      "SISSI",
+      "PAUL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KINGJEFF",
+    "BLACKMAMBA",
+    "PAUL"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "KINGJEFF",
+    "SISSI",
+    "PAUL",
+    "BLACKMAMBA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DPX",
+      "SISSI",
+      "CLZ",
+      "KINGJEFF",
+      "BLACKMAMBA",
+      "PAUL"
+     ],
+     "state": "APPROVED",
+     "proposer": "CLZ",
+     "team": [
+      "KINGJEFF",
+      "SISSI",
+      "PAUL",
+      "BLACKMAMBA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1609649335,
+  "_nanoseconds": 344000000
+ },
+ "timeFinished": {
+  "_seconds": 1609650938,
+  "_nanoseconds": 534000000
+ },
+ "players": [
+  {
+   "name": "BLACKMAMBA",
+   "uid": "gUWZz7JhkkPhDUkW2SpH65d9sBs1"
+  },
+  {
+   "uid": "qjDeDxtpggSF9WWbIBj8hkrx8Oe2",
+   "name": "PAUL"
+  },
+  {
+   "uid": "6Sw8lyr5yOZfUd3RYX26HBy2I9s1",
+   "name": "CLZ"
+  },
+  {
+   "name": "VALERIE",
+   "uid": "R2MBx3GaFKZAtXjWMkTBkR2lBlt1"
+  },
+  {
+   "name": "DPX",
+   "uid": "6GekTmD7brYSu7Iao8yhhN1IIXr1"
+  },
+  {
+   "uid": "MbDMrIPX7cgxnB3lM9s9ebvvyjA2",
+   "name": "SISSI"
+  },
+  {
+   "name": "KINGJEFF",
+   "uid": "S99Z2pKmwAegFTF1KlLpAuHeAVM2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

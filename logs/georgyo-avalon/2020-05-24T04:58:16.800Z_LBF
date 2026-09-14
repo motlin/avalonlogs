@@ -1,0 +1,241 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANDY",
+      "ALEXANDERY",
+      "RONALDINHO",
+      "PRAVEEN",
+      "DEREK"
+     ],
+     "team": [
+      "PRAVEEN",
+      "DEREK"
+     ],
+     "proposer": "DEREK"
+    }
+   ],
+   "team": [
+    "PRAVEEN",
+    "DEREK"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "ANDY",
+    "PRAVEEN",
+    "DEREK"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "ALEXANDERY",
+      "DEREK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANDY",
+      "PRAVEEN",
+      "DEREK"
+     ],
+     "proposer": "ANDY"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "RONALDINHO",
+    "DEREK"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ANDY",
+      "PRAVEEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALEXANDERY",
+     "votes": [
+      "ANDY",
+      "ALEXANDERY"
+     ]
+    },
+    {
+     "team": [
+      "RONALDINHO",
+      "DEREK"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANDY",
+      "RONALDINHO",
+      "DEREK"
+     ],
+     "proposer": "RONALDINHO"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ALEXANDERY",
+      "RONALDINHO",
+      "PRAVEEN",
+      "DEREK"
+     ],
+     "proposer": "PRAVEEN",
+     "state": "APPROVED",
+     "team": [
+      "RONALDINHO",
+      "PRAVEEN",
+      "DEREK"
+     ]
+    }
+   ],
+   "team": [
+    "RONALDINHO",
+    "PRAVEEN",
+    "DEREK"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "RONALDINHO",
+      "PRAVEEN",
+      "DEREK"
+     ],
+     "proposer": "DEREK",
+     "state": "APPROVED",
+     "team": [
+      "DEREK",
+      "RONALDINHO",
+      "ANDY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "DEREK",
+    "RONALDINHO",
+    "ANDY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "DEREK": true,
+    "PRAVEEN": true
+   },
+   {
+    "ANDY": true,
+    "PRAVEEN": false,
+    "DEREK": true
+   },
+   {
+    "RONALDINHO": true,
+    "DEREK": true
+   },
+   {
+    "DEREK": true,
+    "RONALDINHO": true,
+    "PRAVEEN": false
+   },
+   {
+    "ANDY": true,
+    "DEREK": true,
+    "RONALDINHO": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "name": "ANDY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "ALEXANDERY"
+   },
+   {
+    "name": "RONALDINHO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "PRAVEEN"
+   },
+   {
+    "name": "DEREK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1590296296,
+  "_nanoseconds": 800000000
+ },
+ "players": [
+  {
+   "name": "ALEXANDERY",
+   "uid": "EFHE3bRUzESNzd3HyW5Za8RFxJm1"
+  },
+  {
+   "name": "RONALDINHO",
+   "uid": "AocpW6kq3lUsYm5BooVBULRgxY43"
+  },
+  {
+   "name": "PRAVEEN",
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2"
+  },
+  {
+   "name": "DEREK",
+   "uid": "UiaSPkW6l4UKFybXHGwlbD4h9qs1"
+  },
+  {
+   "name": "ANDY",
+   "uid": "XuhC1qjbSOTZrxpmyxHFQB0t17B2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590296941,
+  "_nanoseconds": 637000000
+ }
+}

@@ -1,0 +1,349 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RIPFLIP",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TYLER"
+   },
+   {
+    "name": "GRADY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "NATHANIEL",
+    "role": "MERLIN"
+   },
+   {
+    "name": "PEP",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "COOPER",
+    "assassin": false
+   },
+   {
+    "name": "ISAC",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "TISON",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "NATE"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "GRADY": true,
+    "TISON": true,
+    "COOPER": true
+   },
+   {
+    "GRADY": true,
+    "COOPER": false,
+    "TISON": true,
+    "RIPFLIP": true
+   },
+   {
+    "ISAC": false,
+    "PEP": true,
+    "TYLER": true,
+    "RIPFLIP": true
+   },
+   {
+    "NATE": true,
+    "TYLER": true,
+    "TISON": true,
+    "GRADY": true,
+    "NATHANIEL": true
+   },
+   {
+    "NATHANIEL": true,
+    "TISON": true,
+    "TYLER": true,
+    "GRADY": true,
+    "NATE": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1607566637,
+  "_nanoseconds": 538000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "GRADY",
+    "COOPER",
+    "TISON"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "TYLER",
+      "ISAC",
+      "TISON"
+     ],
+     "proposer": "ISAC",
+     "votes": [
+      "TISON",
+      "ISAC",
+      "TYLER"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "COOPER",
+     "votes": [
+      "GRADY",
+      "RIPFLIP",
+      "TISON",
+      "COOPER",
+      "NATE",
+      "TYLER"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GRADY",
+      "COOPER",
+      "TISON"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "COOPER",
+    "GRADY",
+    "TISON",
+    "RIPFLIP"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "GRADY",
+      "RIPFLIP",
+      "ISAC",
+      "TYLER"
+     ],
+     "votes": [
+      "RIPFLIP",
+      "ISAC",
+      "GRADY",
+      "COOPER"
+     ],
+     "proposer": "GRADY",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "TISON",
+     "team": [
+      "COOPER",
+      "GRADY",
+      "TISON",
+      "RIPFLIP"
+     ],
+     "votes": [
+      "PEP",
+      "TYLER",
+      "RIPFLIP",
+      "TISON",
+      "COOPER",
+      "ISAC",
+      "GRADY"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ISAC",
+      "RIPFLIP",
+      "PEP",
+      "TYLER"
+     ],
+     "votes": [
+      "TYLER",
+      "NATE",
+      "PEP",
+      "TISON",
+      "COOPER",
+      "ISAC",
+      "RIPFLIP",
+      "GRADY"
+     ],
+     "proposer": "PEP",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ISAC",
+    "RIPFLIP",
+    "PEP",
+    "TYLER"
+   ]
+  },
+  {
+   "team": [
+    "NATE",
+    "TYLER",
+    "NATHANIEL",
+    "GRADY",
+    "TISON"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "RIPFLIP",
+      "ISAC",
+      "COOPER"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NATHANIEL",
+      "TYLER",
+      "COOPER",
+      "NATE",
+      "RIPFLIP"
+     ],
+     "proposer": "RIPFLIP"
+    },
+    {
+     "votes": [
+      "NATHANIEL",
+      "TYLER",
+      "GRADY",
+      "NATE",
+      "ISAC",
+      "TISON"
+     ],
+     "state": "APPROVED",
+     "proposer": "NATE",
+     "team": [
+      "NATE",
+      "TYLER",
+      "NATHANIEL",
+      "GRADY",
+      "TISON"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "numFails": 0,
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "TYLER",
+      "ISAC",
+      "NATHANIEL",
+      "NATE",
+      "TISON",
+      "GRADY"
+     ],
+     "state": "APPROVED",
+     "proposer": "TYLER",
+     "team": [
+      "NATHANIEL",
+      "GRADY",
+      "TYLER",
+      "NATE",
+      "TISON"
+     ]
+    }
+   ],
+   "team": [
+    "NATHANIEL",
+    "GRADY",
+    "TYLER",
+    "NATE",
+    "TISON"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1607569188,
+  "_nanoseconds": 748000000
+ },
+ "players": [
+  {
+   "uid": "PS1ny6F7dmT3QqGw9DhtjZcRUqI3",
+   "name": "COOPER"
+  },
+  {
+   "uid": "UNAwOHGTLXQSgM3dkVdMJE9k9y22",
+   "name": "GRADY"
+  },
+  {
+   "name": "TISON",
+   "uid": "IOClB4U513Wve2APTDLuYAd489M2"
+  },
+  {
+   "name": "PEP",
+   "uid": "HroIUawHwYUXSsFQGbZL6WfKd8k2"
+  },
+  {
+   "name": "RIPFLIP",
+   "uid": "9AGk5BDnEQU18g2H5Lb57im3icl2"
+  },
+  {
+   "uid": "LSZi414G65axtsbLxOlyWbq8NKG2",
+   "name": "NATE"
+  },
+  {
+   "name": "TYLER",
+   "uid": "If1SbwJlBGT72wMEYqe1jsx65DG2"
+  },
+  {
+   "name": "NATHANIEL",
+   "uid": "maHSJvZscRQSH1IWIT3FMg8fk6W2"
+  },
+  {
+   "name": "ISAC",
+   "uid": "bMgtn8dmYPbZ5yvo14vyZ9Lomxy2"
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "timeCreated": {
+  "_seconds": 1585869378,
+  "_nanoseconds": 230000000
+ },
+ "timeFinished": {
+  "_seconds": 1585871150,
+  "_nanoseconds": 922896000
+ },
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "DAN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TRAVIS",
+    "assassin": false
+   },
+   {
+    "name": "NOELLE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DEVIN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELLEE"
+   },
+   {
+    "assassin": false,
+    "name": "EXCELCIUR",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "EMMA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "NIKKI",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "EMMA": true,
+    "NIKKI": true,
+    "NOELLE": true
+   },
+   {
+    "EMMA": true,
+    "EXCELCIUR": true,
+    "NIKKI": false,
+    "NOELLE": true
+   },
+   {
+    "NIKKI": true,
+    "NOELLE": true,
+    "DAN": true,
+    "EXCELCIUR": true
+   },
+   {
+    "EXCELCIUR": true,
+    "TRAVIS": true,
+    "NOELLE": true,
+    "NIKKI": false,
+    "DAN": false
+   },
+   {
+    "ELLEE": true,
+    "EXCELCIUR": true,
+    "NOELLE": true,
+    "DAN": false,
+    "NIKKI": false
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NOELLE",
+      "NIKKI",
+      "EMMA"
+     ],
+     "votes": [
+      "NOELLE",
+      "DEVIN",
+      "ELLEE",
+      "EXCELCIUR",
+      "EMMA",
+      "NIKKI",
+      "DAN",
+      "TRAVIS"
+     ],
+     "proposer": "NOELLE"
+    }
+   ],
+   "team": [
+    "NOELLE",
+    "NIKKI",
+    "EMMA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "EXCELCIUR",
+    "NOELLE",
+    "NIKKI",
+    "EMMA"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "EXCELCIUR",
+      "NOELLE",
+      "NIKKI",
+      "EMMA"
+     ],
+     "votes": [
+      "TRAVIS",
+      "DEVIN",
+      "EXCELCIUR",
+      "EMMA",
+      "NIKKI",
+      "DAN"
+     ],
+     "proposer": "EXCELCIUR"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "DAN",
+    "EXCELCIUR",
+    "NIKKI",
+    "NOELLE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAN",
+      "EXCELCIUR",
+      "NIKKI",
+      "NOELLE"
+     ],
+     "votes": [
+      "TRAVIS",
+      "NOELLE",
+      "DEVIN",
+      "ELLEE",
+      "NIKKI",
+      "DAN"
+     ],
+     "proposer": "DAN"
+    }
+   ]
+  },
+  {
+   "team": [
+    "TRAVIS",
+    "DAN",
+    "NIKKI",
+    "NOELLE",
+    "EXCELCIUR"
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TRAVIS",
+      "DAN",
+      "NIKKI",
+      "NOELLE",
+      "EXCELCIUR"
+     ],
+     "votes": [
+      "NOELLE",
+      "DEVIN",
+      "NIKKI",
+      "DAN",
+      "TRAVIS"
+     ],
+     "proposer": "TRAVIS"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "DAN",
+      "EXCELCIUR",
+      "NOELLE",
+      "ELLEE",
+      "NIKKI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NOELLE",
+      "DEVIN",
+      "ELLEE",
+      "NIKKI",
+      "DAN",
+      "TRAVIS"
+     ],
+     "proposer": "ELLEE"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DAN",
+    "EXCELCIUR",
+    "NOELLE",
+    "ELLEE",
+    "NIKKI"
+   ],
+   "numFails": 2,
+   "teamSize": 5
+  }
+ ],
+ "players": [
+  {
+   "uid": "OCypTTTRUrMI0AsRtVujFqHTCpI3",
+   "name": "DAN"
+  },
+  {
+   "name": "TRAVIS",
+   "uid": "XmxSXlgEdmMtu2KjrxH06exwdKO2"
+  },
+  {
+   "uid": "7W9gv8AyAEa1z5o0ncRE98bbGSQ2",
+   "name": "ELLEE"
+  },
+  {
+   "name": "EMMA",
+   "uid": "qIQVrIuhsJc5Wz1m7frwlEBFxvK2"
+  },
+  {
+   "uid": "FhtNzUyzxuhqm5VyQSUjz9JOzbJ3",
+   "name": "DEVIN"
+  },
+  {
+   "uid": "U07mqNLv51N7CaQO6LNPpk3Mv0x1",
+   "name": "NIKKI"
+  },
+  {
+   "uid": "VrdDZPfytdOb4rdIqYReAhwkOdj1",
+   "name": "NOELLE"
+  },
+  {
+   "uid": "X62C93H6nRWGv3s4cDyjC29hzck2",
+   "name": "EXCELCIUR"
+  }
+ ]
+}

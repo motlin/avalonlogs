@@ -1,0 +1,218 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "KATTU": false,
+    "BOB": true
+   },
+   {
+    "JD": true,
+    "KUSHAL": true,
+    "BOB": true
+   },
+   {
+    "JD": true,
+    "BOB": true
+   },
+   {
+    "JD": true,
+    "BOB": true,
+    "KUSHAL": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "JD",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "SUFY",
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KUSHAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BOB",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "KATTU",
+    "assassin": false
+   }
+  ],
+  "assassinated": "KUSHAL"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1597278630,
+  "_nanoseconds": 443000000
+ },
+ "players": [
+  {
+   "uid": "E2T348gVmcZEId6ENFaNyV69sGm1",
+   "name": "KUSHAL"
+  },
+  {
+   "name": "JD",
+   "uid": "NhIbflgddyXgORQzt8Q0Lc0XpyV2"
+  },
+  {
+   "name": "BOB",
+   "uid": "WkOfXdrT8hOxx0q9DLMcDtNJLoB3"
+  },
+  {
+   "name": "KATTU",
+   "uid": "ubaQEGTO3eUWoQbX8wpjeFUTxIU2"
+  },
+  {
+   "uid": "Ss0aKXARBRaavVg8E742vwdMJdA2",
+   "name": "SUFY"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "KATTU",
+      "BOB"
+     ],
+     "proposer": "JD",
+     "state": "APPROVED",
+     "votes": [
+      "KUSHAL",
+      "SUFY",
+      "KATTU",
+      "BOB",
+      "JD"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "KATTU",
+    "BOB"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "BOB",
+     "state": "APPROVED",
+     "team": [
+      "BOB",
+      "JD",
+      "KUSHAL"
+     ],
+     "votes": [
+      "SUFY",
+      "KUSHAL",
+      "JD",
+      "BOB",
+      "KATTU"
+     ]
+    }
+   ],
+   "team": [
+    "BOB",
+    "JD",
+    "KUSHAL"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "BOB",
+    "JD"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "KATTU",
+      "JD"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KATTU"
+     ],
+     "proposer": "KATTU"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SUFY",
+     "team": [
+      "BOB",
+      "JD"
+     ],
+     "votes": [
+      "KUSHAL",
+      "BOB",
+      "SUFY",
+      "KATTU"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "JD",
+    "BOB",
+    "KUSHAL"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "KUSHAL",
+     "votes": [
+      "SUFY",
+      "KUSHAL",
+      "BOB",
+      "JD",
+      "KATTU"
+     ],
+     "team": [
+      "JD",
+      "BOB",
+      "KUSHAL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1597278160,
+  "_nanoseconds": 308000000
+ }
+}

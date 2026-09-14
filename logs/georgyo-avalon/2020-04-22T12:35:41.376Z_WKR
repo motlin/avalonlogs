@@ -1,0 +1,207 @@
+{
+ "timeCreated": {
+  "_seconds": 1587558941,
+  "_nanoseconds": 376000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "VIN"
+   },
+   {
+    "name": "SHIN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "CAELUM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KOZUE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JAMES",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ],
+  "assassinated": "VIN",
+  "votes": [
+   {
+    "VIN": true,
+    "SHIN": false
+   },
+   {
+    "VIN": true,
+    "KOZUE": true,
+    "CAELUM": true
+   },
+   {
+    "CAELUM": true,
+    "VIN": true
+   },
+   {
+    "KOZUE": true,
+    "VIN": true,
+    "CAELUM": true
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "players": [
+  {
+   "uid": "7fRQh3YA01hPOu0d1eeLPehqJfI3",
+   "name": "CAELUM"
+  },
+  {
+   "uid": "NsLJUJcpzEf5C31paI5deVF8QUj1",
+   "name": "KOZUE"
+  },
+  {
+   "uid": "s2LJc4NixBaZr8a9wl4GXaIsG2h2",
+   "name": "SHIN"
+  },
+  {
+   "uid": "4HvgpEJ6Xycx3dw8AboiUchyrQh2",
+   "name": "JAMES"
+  },
+  {
+   "uid": "UTV3Yx2MfbRFmWSnCEFbVcIPh1C3",
+   "name": "VIN"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "team": [
+    "SHIN",
+    "VIN"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "VIN",
+      "SHIN",
+      "CAELUM",
+      "KOZUE",
+      "JAMES"
+     ],
+     "proposer": "JAMES",
+     "state": "APPROVED",
+     "team": [
+      "SHIN",
+      "VIN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "VIN",
+    "CAELUM",
+    "KOZUE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "KOZUE",
+      "JAMES",
+      "VIN",
+      "SHIN",
+      "CAELUM"
+     ],
+     "state": "APPROVED",
+     "proposer": "VIN",
+     "team": [
+      "VIN",
+      "CAELUM",
+      "KOZUE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "CAELUM",
+    "VIN"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CAELUM",
+     "state": "APPROVED",
+     "votes": [
+      "JAMES",
+      "VIN",
+      "SHIN",
+      "CAELUM",
+      "KOZUE"
+     ],
+     "team": [
+      "CAELUM",
+      "VIN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "KOZUE",
+     "state": "APPROVED",
+     "votes": [
+      "KOZUE",
+      "JAMES",
+      "VIN",
+      "CAELUM"
+     ],
+     "team": [
+      "CAELUM",
+      "KOZUE",
+      "VIN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "CAELUM",
+    "KOZUE",
+    "VIN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587559156,
+  "_nanoseconds": 94000000
+ }
+}

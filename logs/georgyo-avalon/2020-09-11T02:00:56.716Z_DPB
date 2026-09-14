@@ -1,0 +1,252 @@
+{
+ "timeFinished": {
+  "_seconds": 1599790488,
+  "_nanoseconds": 666000000
+ },
+ "players": [
+  {
+   "name": "MUSA",
+   "uid": "mShfSw4mwEf0tbbOf0BmbUDdRq23"
+  },
+  {
+   "uid": "bHO5ztumnYYHujetywseOekRxFF3",
+   "name": "EMILY"
+  },
+  {
+   "uid": "nN5RMHXR8DQYMLua7FiVU6A3r762",
+   "name": "JAMIE"
+  },
+  {
+   "name": "MEW",
+   "uid": "VBa2966FaybVFfPPWvXIy5XBA3S2"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "wkMg0TkXecbqWBZi0g08p9hmhjm1"
+  },
+  {
+   "name": "DPB",
+   "uid": "PFQ0OMcoNOOLVFYAKKegLxrvj0L2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1599789656,
+  "_nanoseconds": 716000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "MUSA": true,
+    "JAMIE": true
+   },
+   {
+    "JAMIE": true,
+    "MEW": true,
+    "MUSA": false
+   },
+   {
+    "EMILY": true,
+    "CHRIS": true,
+    "MUSA": false,
+    "DPB": true
+   },
+   {
+    "EMILY": true,
+    "CHRIS": true,
+    "DPB": true
+   },
+   {
+    "CHRIS": true,
+    "MUSA": false,
+    "EMILY": true,
+    "DPB": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "DPB"
+   },
+   {
+    "name": "MEW",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "EMILY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JAMIE"
+   },
+   {
+    "name": "MUSA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CHRIS"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JAMIE",
+     "team": [
+      "JAMIE",
+      "MUSA"
+     ],
+     "votes": [
+      "EMILY",
+      "CHRIS",
+      "MEW",
+      "DPB",
+      "MUSA",
+      "JAMIE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JAMIE",
+    "MUSA"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MEW",
+      "JAMIE",
+      "MUSA"
+     ],
+     "votes": [
+      "MEW",
+      "CHRIS",
+      "JAMIE",
+      "EMILY",
+      "MUSA",
+      "DPB"
+     ],
+     "proposer": "MEW",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "MEW",
+    "JAMIE",
+    "MUSA"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "DPB",
+      "CHRIS",
+      "MEW",
+      "EMILY"
+     ],
+     "proposer": "CHRIS",
+     "state": "APPROVED",
+     "team": [
+      "CHRIS",
+      "MUSA",
+      "EMILY",
+      "DPB"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "CHRIS",
+    "MUSA",
+    "EMILY",
+    "DPB"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DPB",
+     "team": [
+      "DPB",
+      "CHRIS",
+      "EMILY"
+     ],
+     "votes": [
+      "JAMIE",
+      "MEW",
+      "DPB",
+      "MUSA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "DPB",
+    "CHRIS",
+    "EMILY"
+   ]
+  },
+  {
+   "team": [
+    "MUSA",
+    "EMILY",
+    "CHRIS",
+    "DPB"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MUSA",
+      "DPB",
+      "CHRIS",
+      "MEW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MUSA",
+      "EMILY",
+      "CHRIS",
+      "DPB"
+     ],
+     "proposer": "MUSA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

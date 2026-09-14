@@ -1,0 +1,354 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ANGELA",
+    "ARCHIT"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ROSHAN",
+      "ANUJ",
+      "ANGELA",
+      "ARCHIT"
+     ],
+     "team": [
+      "ANGELA",
+      "ARCHIT"
+     ],
+     "proposer": "ANGELA",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANUJ",
+      "ARCHIT",
+      "ANGELA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ARCHIT"
+     ],
+     "proposer": "ANUJ"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ARCHIT",
+      "ANGELA",
+      "ARNAV"
+     ],
+     "proposer": "ARCHIT",
+     "votes": [
+      "ARCHIT"
+     ]
+    },
+    {
+     "votes": [
+      "ARNAV",
+      "ANUJ"
+     ],
+     "proposer": "ARNAV",
+     "team": [
+      "ARNAV",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ROSHAN",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "proposer": "ROSHAN",
+     "team": [
+      "ROSHAN",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ROSHAN",
+    "ANUJ",
+    "ANGELA"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ANUJ",
+    "ARNAV"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ROSHAN",
+      "ANGELA"
+     ],
+     "team": [
+      "ANGELA",
+      "ROSHAN"
+     ],
+     "proposer": "ANGELA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANUJ",
+      "ARNAV"
+     ],
+     "votes": [
+      "ARNAV",
+      "ROSHAN",
+      "ANUJ"
+     ],
+     "proposer": "ANUJ"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ANGELA",
+    "ANUJ",
+    "ARNAV"
+   ],
+   "proposals": [
+    {
+     "votes": [],
+     "proposer": "ARCHIT",
+     "team": [
+      "ARCHIT",
+      "ROSHAN",
+      "ANGELA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ARNAV",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "proposer": "ARNAV",
+     "state": "REJECTED",
+     "votes": [
+      "ARNAV",
+      "ANUJ"
+     ]
+    },
+    {
+     "votes": [],
+     "proposer": "ROSHAN",
+     "state": "REJECTED",
+     "team": [
+      "ROSHAN",
+      "ARNAV",
+      "ANGELA"
+     ]
+    },
+    {
+     "team": [
+      "ANGELA",
+      "ANUJ",
+      "ARNAV"
+     ],
+     "proposer": "ANGELA",
+     "votes": [
+      "ARNAV",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANUJ"
+     ],
+     "team": [
+      "ANUJ",
+      "ARCHIT",
+      "ARNAV"
+     ],
+     "proposer": "ANUJ"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ARCHIT",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "proposer": "ARCHIT",
+     "votes": [
+      "ARCHIT"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ARNAV",
+     "votes": [
+      "ARNAV"
+     ],
+     "team": [
+      "ARNAV",
+      "ROSHAN",
+      "ARCHIT"
+     ]
+    },
+    {
+     "votes": [
+      "ROSHAN",
+      "ARNAV"
+     ],
+     "team": [
+      "ROSHAN",
+      "ARNAV",
+      "ANUJ"
+     ],
+     "proposer": "ROSHAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ANGELA",
+      "ANUJ",
+      "ARCHIT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ROSHAN",
+      "ANGELA",
+      "ARCHIT"
+     ],
+     "proposer": "ANGELA"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ANGELA",
+    "ANUJ",
+    "ARCHIT"
+   ],
+   "teamSize": 3,
+   "numFails": 2,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585370660,
+  "_nanoseconds": 620579000
+ },
+ "timeCreated": {
+  "_seconds": 1585368657,
+  "_nanoseconds": 288000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "ANGELA": true,
+    "ARCHIT": true
+   },
+   {
+    "ANUJ": true,
+    "ANGELA": false,
+    "ROSHAN": true
+   },
+   {
+    "ARNAV": true,
+    "ANUJ": true
+   },
+   {
+    "ANUJ": true,
+    "ARNAV": true,
+    "ANGELA": false
+   },
+   {
+    "ANUJ": true,
+    "ANGELA": false,
+    "ARCHIT": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "ARNAV",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ROSHAN"
+   },
+   {
+    "assassin": false,
+    "name": "ANUJ",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ANGELA"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ARCHIT"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "ANGELA",
+   "uid": "UYfe5G3DIfQlJAVA4IRUhQpEBK72"
+  },
+  {
+   "name": "ANUJ",
+   "uid": "5tH6ccVA9ZeuK313wkz7sG7bxXq1"
+  },
+  {
+   "uid": "Q1VcmH3AXaaIK5jsu3OvYdKK0eJ2",
+   "name": "ARCHIT"
+  },
+  {
+   "name": "ARNAV",
+   "uid": "WHWpTLwxu7XS9FjgxEp1ZjFdSci1"
+  },
+  {
+   "name": "ROSHAN",
+   "uid": "0TslBw4c1ldSK5HxvBQawh1v9ya2"
+  }
+ ]
+}

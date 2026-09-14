@@ -1,0 +1,361 @@
+{
+ "players": [
+  {
+   "name": "PLEE",
+   "uid": "Bx2bdYkKmwZPmZ8eDZ9vnWUByon2"
+  },
+  {
+   "uid": "fKODVyqpegNgxfVGI4MRsEl1Y8v1",
+   "name": "ALVIN"
+  },
+  {
+   "name": "CAROL",
+   "uid": "HXPQEhFDhVWmHhZAHENWLvz3S2R2"
+  },
+  {
+   "uid": "00Jhs9xNePYm7Ifmd1U624nQVZL2",
+   "name": "MEG"
+  },
+  {
+   "name": "MIKE",
+   "uid": "I2VJpXDJoGQK0Ln5YGxa5bAFPSb2"
+  },
+  {
+   "uid": "Kc36t0APpneg2jLX9yJ5N5K0ULx2",
+   "name": "MARCUS"
+  },
+  {
+   "name": "ELIOT",
+   "uid": "90g2Q0d6rYhqusSQ8I6iLSNV5qE2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CAROL",
+      "MEG"
+     ],
+     "state": "REJECTED",
+     "proposer": "CAROL",
+     "team": [
+      "ALVIN",
+      "CAROL"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "MEG",
+      "MARCUS"
+     ],
+     "proposer": "MEG",
+     "votes": [
+      "MEG",
+      "MARCUS"
+     ]
+    },
+    {
+     "votes": [
+      "ALVIN",
+      "MIKE",
+      "CAROL"
+     ],
+     "team": [
+      "ELIOT",
+      "MIKE"
+     ],
+     "proposer": "MIKE",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MARCUS",
+      "MEG"
+     ],
+     "proposer": "MARCUS",
+     "state": "REJECTED",
+     "team": [
+      "ALVIN",
+      "MARCUS"
+     ]
+    },
+    {
+     "votes": [
+      "ALVIN",
+      "MEG",
+      "MIKE",
+      "MARCUS",
+      "CAROL",
+      "ELIOT",
+      "PLEE"
+     ],
+     "team": [
+      "ELIOT",
+      "MEG"
+     ],
+     "state": "APPROVED",
+     "proposer": "ELIOT"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ELIOT",
+    "MEG"
+   ],
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "PLEE",
+     "team": [
+      "MARCUS",
+      "CAROL",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CAROL",
+      "PLEE",
+      "ALVIN",
+      "MEG",
+      "MIKE",
+      "MARCUS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "MARCUS",
+    "CAROL",
+    "MIKE"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "MARCUS",
+    "CAROL",
+    "MIKE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ALVIN",
+     "votes": [
+      "PLEE",
+      "ALVIN",
+      "MEG",
+      "MIKE",
+      "MARCUS",
+      "CAROL",
+      "ELIOT"
+     ],
+     "team": [
+      "MARCUS",
+      "CAROL",
+      "MIKE"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "CAROL",
+    "MIKE",
+    "MARCUS",
+    "PLEE"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CAROL",
+     "votes": [
+      "MEG",
+      "MIKE",
+      "MARCUS",
+      "CAROL",
+      "ELIOT",
+      "PLEE",
+      "ALVIN"
+     ],
+     "team": [
+      "CAROL",
+      "MIKE",
+      "MARCUS",
+      "PLEE"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MEG",
+      "MIKE"
+     ],
+     "proposer": "MEG",
+     "state": "REJECTED",
+     "team": [
+      "MEG",
+      "CAROL",
+      "MIKE",
+      "MARCUS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "PLEE",
+      "MEG",
+      "MIKE"
+     ],
+     "team": [
+      "MEG",
+      "MIKE",
+      "ALVIN",
+      "MARCUS"
+     ],
+     "proposer": "MIKE"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "MARCUS",
+      "CAROL",
+      "MEG",
+      "ALVIN"
+     ],
+     "proposer": "MARCUS",
+     "votes": [
+      "MEG",
+      "MARCUS",
+      "CAROL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PLEE",
+      "ALVIN",
+      "MIKE",
+      "ELIOT"
+     ],
+     "team": [
+      "PLEE",
+      "MIKE",
+      "ELIOT",
+      "MARCUS"
+     ],
+     "proposer": "ELIOT"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PLEE",
+    "MIKE",
+    "ELIOT",
+    "MARCUS"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586826887,
+  "_nanoseconds": 123000000
+ },
+ "timeFinished": {
+  "_seconds": 1586828294,
+  "_nanoseconds": 619935000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ELIOT": false,
+    "MEG": true
+   },
+   {
+    "CAROL": true,
+    "MARCUS": true,
+    "MIKE": true
+   },
+   {
+    "CAROL": true,
+    "MARCUS": true,
+    "MIKE": true
+   },
+   {
+    "MIKE": false,
+    "CAROL": true,
+    "MARCUS": true,
+    "PLEE": false
+   },
+   {
+    "PLEE": false,
+    "MIKE": false,
+    "ELIOT": false,
+    "MARCUS": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "ALVIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MEG"
+   },
+   {
+    "name": "MIKE",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MARCUS"
+   },
+   {
+    "name": "CAROL",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ELIOT",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "PLEE"
+   }
+  ],
+  "assassinated": null
+ }
+}

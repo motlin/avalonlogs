@@ -1,0 +1,277 @@
+{
+ "players": [
+  {
+   "uid": "0j3FLQBabBNGAwqVpprnzZqyuJV2",
+   "name": "TIPHAINE"
+  },
+  {
+   "name": "MADY",
+   "uid": "EjmJHwTQO6aod1jZjKgpQYIpwHx2"
+  },
+  {
+   "name": "MARK",
+   "uid": "1MivkHCnAuWD9DlqroBVqWiaKXn1"
+  },
+  {
+   "name": "GABRIELLE",
+   "uid": "pOmyHNYKyIMTiGLFwcNKbZ2SAtq2"
+  },
+  {
+   "uid": "EEqmCLcI4hgYoScokVFSVheTWU43",
+   "name": "BOB"
+  },
+  {
+   "name": "ISABEL",
+   "uid": "Bp7bgecTZOblllmS7tpPyJSxCVx2"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ISABEL": true,
+    "MADY": true
+   },
+   {
+    "MADY": false,
+    "ISABEL": true,
+    "BOB": true
+   },
+   {
+    "TIPHAINE": true,
+    "MARK": true,
+    "MADY": true,
+    "GABRIELLE": false
+   },
+   {
+    "MARK": true,
+    "BOB": true,
+    "GABRIELLE": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BOB",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TIPHAINE"
+   },
+   {
+    "name": "GABRIELLE",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "MADY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "ISABEL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MARK",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1607824064,
+  "_nanoseconds": 812000000
+ },
+ "timeCreated": {
+  "_seconds": 1607823324,
+  "_nanoseconds": 894000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "MADY",
+    "ISABEL"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "GABRIELLE",
+     "team": [
+      "TIPHAINE",
+      "MADY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "GABRIELLE",
+      "TIPHAINE",
+      "MADY"
+     ]
+    },
+    {
+     "proposer": "BOB",
+     "team": [
+      "MADY",
+      "ISABEL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BOB",
+      "MARK",
+      "ISABEL",
+      "MADY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ISABEL",
+     "votes": [
+      "ISABEL",
+      "MADY",
+      "MARK",
+      "BOB"
+     ],
+     "team": [
+      "MADY",
+      "BOB",
+      "ISABEL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MADY",
+    "BOB",
+    "ISABEL"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "TIPHAINE",
+      "BOB",
+      "GABRIELLE",
+      "ISABEL"
+     ],
+     "proposer": "TIPHAINE",
+     "votes": [
+      "TIPHAINE",
+      "ISABEL",
+      "MADY"
+     ]
+    },
+    {
+     "votes": [
+      "ISABEL",
+      "MADY"
+     ],
+     "team": [
+      "MADY",
+      "MARK",
+      "BOB",
+      "ISABEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "MADY"
+    },
+    {
+     "votes": [
+      "MADY",
+      "MARK",
+      "GABRIELLE"
+     ],
+     "team": [
+      "MADY",
+      "MARK",
+      "GABRIELLE",
+      "BOB"
+     ],
+     "state": "REJECTED",
+     "proposer": "MARK"
+    },
+    {
+     "team": [
+      "TIPHAINE",
+      "MARK",
+      "GABRIELLE",
+      "MADY"
+     ],
+     "votes": [
+      "MARK",
+      "TIPHAINE",
+      "MADY",
+      "GABRIELLE"
+     ],
+     "proposer": "GABRIELLE",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "TIPHAINE",
+    "MARK",
+    "GABRIELLE",
+    "MADY"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BOB",
+      "MADY",
+      "MARK",
+      "GABRIELLE",
+      "TIPHAINE"
+     ],
+     "proposer": "BOB",
+     "team": [
+      "BOB",
+      "GABRIELLE",
+      "MARK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BOB",
+    "GABRIELLE",
+    "MARK"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": []
+  }
+ ]
+}

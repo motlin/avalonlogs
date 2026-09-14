@@ -1,0 +1,282 @@
+{
+ "timeFinished": {
+  "_seconds": 1589665154,
+  "_nanoseconds": 67000000
+ },
+ "players": [
+  {
+   "name": "ALISHA",
+   "uid": "SL1SWGfGKgbFR5j9EY8ACpZJ0pK2"
+  },
+  {
+   "name": "SOPHEY",
+   "uid": "OewWMpsmUNftybNbKze8SBZ37Q23"
+  },
+  {
+   "uid": "GI3sRgKFRINiMosJ2UoqcE9kFZo2",
+   "name": "CHRISTINE"
+  },
+  {
+   "uid": "LZmGnmKn30hbnSSR9fjqUCPHX4k2",
+   "name": "SARAH"
+  },
+  {
+   "name": "JESSE",
+   "uid": "aVCa22i9y2ZPbQMLszCe0qkjSXf1"
+  },
+  {
+   "name": "ANGELL",
+   "uid": "WRDiYfqIoLZLeBm3wOolbmfpFQj1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589663596,
+  "_nanoseconds": 361000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "CHRISTINE": true,
+    "SOPHEY": true
+   },
+   {
+    "SARAH": true,
+    "ALISHA": true,
+    "SOPHEY": true
+   },
+   {
+    "ANGELL": true,
+    "ALISHA": true,
+    "SOPHEY": true,
+    "SARAH": false
+   },
+   {
+    "ALISHA": true,
+    "SARAH": false,
+    "SOPHEY": true
+   },
+   {
+    "ALISHA": true,
+    "CHRISTINE": true,
+    "SARAH": false,
+    "JESSE": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "JESSE",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "SOPHEY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CHRISTINE"
+   },
+   {
+    "name": "ANGELL",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALISHA",
+    "assassin": false
+   },
+   {
+    "name": "SARAH",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "CHRISTINE",
+    "SOPHEY"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CHRISTINE",
+      "SOPHEY"
+     ],
+     "votes": [
+      "CHRISTINE",
+      "ANGELL",
+      "ALISHA",
+      "SARAH",
+      "JESSE",
+      "SOPHEY"
+     ],
+     "proposer": "CHRISTINE",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "ALISHA",
+    "SOPHEY",
+    "SARAH"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SARAH",
+     "team": [
+      "ALISHA",
+      "SOPHEY",
+      "SARAH"
+     ],
+     "votes": [
+      "JESSE",
+      "SOPHEY",
+      "CHRISTINE",
+      "ANGELL",
+      "ALISHA",
+      "SARAH"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ANGELL",
+    "SOPHEY",
+    "SARAH",
+    "ALISHA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [],
+     "team": [
+      "JESSE",
+      "SOPHEY",
+      "SARAH",
+      "ANGELL"
+     ],
+     "proposer": "JESSE",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ANGELL",
+     "votes": [
+      "CHRISTINE",
+      "ANGELL",
+      "ALISHA",
+      "SARAH",
+      "JESSE",
+      "SOPHEY"
+     ],
+     "team": [
+      "ANGELL",
+      "SOPHEY",
+      "SARAH",
+      "ALISHA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ALISHA",
+     "team": [
+      "ALISHA",
+      "SOPHEY",
+      "SARAH"
+     ],
+     "votes": [
+      "JESSE",
+      "SOPHEY",
+      "CHRISTINE",
+      "ALISHA",
+      "SARAH"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "ALISHA",
+    "SOPHEY",
+    "SARAH"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "JESSE",
+    "SARAH",
+    "CHRISTINE",
+    "ALISHA"
+   ],
+   "proposals": [
+    {
+     "proposer": "SOPHEY",
+     "state": "REJECTED",
+     "votes": [
+      "JESSE",
+      "SOPHEY",
+      "ALISHA"
+     ],
+     "team": [
+      "SOPHEY",
+      "ALISHA",
+      "CHRISTINE",
+      "JESSE"
+     ]
+    },
+    {
+     "votes": [
+      "JESSE",
+      "SOPHEY",
+      "CHRISTINE",
+      "ALISHA",
+      "SARAH"
+     ],
+     "proposer": "CHRISTINE",
+     "state": "APPROVED",
+     "team": [
+      "JESSE",
+      "SARAH",
+      "CHRISTINE",
+      "ALISHA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 2
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

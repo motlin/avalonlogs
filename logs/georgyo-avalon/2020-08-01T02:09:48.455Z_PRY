@@ -1,0 +1,289 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "6wBUhhlZQjPFbF1JYSuM4Inmiur1",
+   "name": "ANDREW"
+  },
+  {
+   "name": "MARE",
+   "uid": "DqxUUlW7puW3czqsCW1dYTg5Lsj2"
+  },
+  {
+   "name": "JAKE",
+   "uid": "psIE5bLTxQgp0y6dGSapbiYE80S2"
+  },
+  {
+   "uid": "5yNgLErHCIXCcqZWYgAbaIpK6aj1",
+   "name": "JJ"
+  },
+  {
+   "uid": "a95ZrJZme8QKq1fGVku6Epb2Y1H3",
+   "name": "BEKAH"
+  },
+  {
+   "uid": "U6SjLFkLznbOE5sCTOCHi95oQdh1",
+   "name": "ASHER"
+  },
+  {
+   "name": "FRANKY",
+   "uid": "iYP7i84PmpMZ8i8MTIoMY8IzlbG2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596247788,
+  "_nanoseconds": 455000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JJ": true,
+    "JAKE": false
+   },
+   {
+    "BEKAH": true,
+    "ASHER": true,
+    "FRANKY": true
+   },
+   {
+    "FRANKY": true,
+    "BEKAH": true,
+    "ASHER": false
+   },
+   {
+    "ANDREW": true,
+    "MARE": true,
+    "BEKAH": true,
+    "JJ": true
+   },
+   {
+    "MARE": true,
+    "BEKAH": true,
+    "ANDREW": true,
+    "JJ": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JAKE"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JJ"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MARE",
+    "assassin": false
+   },
+   {
+    "name": "BEKAH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ASHER",
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANDREW"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "FRANKY"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "JJ",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JAKE",
+     "team": [
+      "JAKE",
+      "JJ"
+     ],
+     "votes": [
+      "ASHER",
+      "FRANKY",
+      "BEKAH",
+      "JJ",
+      "JAKE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "JAKE",
+    "JJ"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "BEKAH",
+    "ASHER",
+    "FRANKY"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JJ",
+      "BEKAH",
+      "ASHER"
+     ],
+     "votes": [
+      "BEKAH",
+      "JJ",
+      "FRANKY"
+     ],
+     "proposer": "JJ"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ASHER",
+      "BEKAH",
+      "MARE",
+      "FRANKY"
+     ],
+     "team": [
+      "BEKAH",
+      "ASHER",
+      "FRANKY"
+     ],
+     "proposer": "BEKAH"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BEKAH",
+      "FRANKY",
+      "ASHER",
+      "ANDREW"
+     ],
+     "team": [
+      "BEKAH",
+      "ASHER",
+      "FRANKY"
+     ],
+     "proposer": "ASHER"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "BEKAH",
+    "ASHER",
+    "FRANKY"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JAKE",
+      "FRANKY"
+     ],
+     "state": "REJECTED",
+     "proposer": "FRANKY",
+     "team": [
+      "FRANKY",
+      "ANDREW",
+      "JAKE",
+      "MARE"
+     ]
+    },
+    {
+     "votes": [
+      "JAKE",
+      "BEKAH",
+      "ASHER",
+      "ANDREW",
+      "MARE"
+     ],
+     "proposer": "ANDREW",
+     "team": [
+      "ANDREW",
+      "MARE",
+      "JJ",
+      "BEKAH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ANDREW",
+    "MARE",
+    "JJ",
+    "BEKAH"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "ANDREW",
+    "MARE",
+    "JJ",
+    "BEKAH"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANDREW",
+      "ASHER",
+      "JJ",
+      "MARE",
+      "BEKAH",
+      "JAKE"
+     ],
+     "proposer": "MARE",
+     "team": [
+      "ANDREW",
+      "MARE",
+      "JJ",
+      "BEKAH"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596250404,
+  "_nanoseconds": 19000000
+ }
+}

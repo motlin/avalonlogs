@@ -1,0 +1,234 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DADI",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PETER"
+   },
+   {
+    "assassin": false,
+    "name": "SRAV",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "ANNIKA"
+   },
+   {
+    "name": "JAHNVI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "DHWANI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SANG",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "PETER": true,
+    "JAHNVI": true
+   },
+   {
+    "SANG": true,
+    "PETER": true,
+    "SRAV": false
+   },
+   {
+    "JAHNVI": true,
+    "ANNIKA": false,
+    "DADI": true
+   },
+   {
+    "PETER": true,
+    "SRAV": false,
+    "DHWANI": true,
+    "JAHNVI": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1587791023,
+  "_nanoseconds": 148000000
+ },
+ "timeCreated": {
+  "_seconds": 1587790214,
+  "_nanoseconds": 514000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2",
+   "name": "DADI"
+  },
+  {
+   "uid": "5sWF4iW51oP1v5Flyrv0iJYwDEL2",
+   "name": "ANNIKA"
+  },
+  {
+   "name": "SRAV",
+   "uid": "fjTIpXaJIse0zFZvxV4xXvprK973"
+  },
+  {
+   "uid": "SDDQpdIlBEcchIhwUwnXO7Rkdu02",
+   "name": "PETER"
+  },
+  {
+   "uid": "VC6osNuueXYBnlenQGGO543wgFX2",
+   "name": "SANG"
+  },
+  {
+   "uid": "EFCcLmHOJQT4yPn3F1CY3vfJlpQ2",
+   "name": "JAHNVI"
+  },
+  {
+   "uid": "tiAUgQQpMYQmlH6pU1SSq30RUyE3",
+   "name": "DHWANI"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "PETER",
+    "JAHNVI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SANG",
+      "DHWANI",
+      "DADI",
+      "PETER",
+      "SRAV",
+      "ANNIKA",
+      "JAHNVI"
+     ],
+     "proposer": "PETER",
+     "state": "APPROVED",
+     "team": [
+      "PETER",
+      "JAHNVI"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SANG",
+      "SRAV",
+      "PETER"
+     ],
+     "state": "APPROVED",
+     "proposer": "SANG",
+     "votes": [
+      "DADI",
+      "PETER",
+      "SRAV",
+      "ANNIKA",
+      "JAHNVI",
+      "DHWANI",
+      "SANG"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "SANG",
+    "SRAV",
+    "PETER"
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "DADI",
+    "ANNIKA",
+    "JAHNVI"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "DADI",
+      "ANNIKA",
+      "JAHNVI"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAHNVI",
+     "votes": [
+      "SANG",
+      "DADI",
+      "SRAV",
+      "JAHNVI"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 2,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "DHWANI",
+     "team": [
+      "JAHNVI",
+      "PETER",
+      "DHWANI",
+      "SRAV"
+     ],
+     "votes": [
+      "SRAV",
+      "ANNIKA",
+      "JAHNVI",
+      "DHWANI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JAHNVI",
+    "PETER",
+    "DHWANI",
+    "SRAV"
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  }
+ ]
+}

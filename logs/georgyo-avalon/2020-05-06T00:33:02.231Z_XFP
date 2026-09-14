@@ -1,0 +1,378 @@
+{
+ "timeCreated": {
+  "_seconds": 1588725182,
+  "_nanoseconds": 231000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ERIC"
+   },
+   {
+    "assassin": false,
+    "name": "BLAYDE",
+    "role": "MORGANA"
+   },
+   {
+    "name": "DOUGLAS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JORDAN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KEVIN"
+   },
+   {
+    "name": "TIM",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "EMILY"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "JORDAN": true,
+    "ERIC": true
+   },
+   {
+    "TIM": true,
+    "JORDAN": false,
+    "DOUGLAS": true
+   },
+   {
+    "BLAYDE": true,
+    "DOUGLAS": true,
+    "KEVIN": true
+   },
+   {
+    "KEVIN": true,
+    "EMILY": false,
+    "DOUGLAS": true,
+    "JORDAN": false
+   },
+   {
+    "ERIC": true,
+    "KEVIN": true,
+    "DOUGLAS": true,
+    "EMILY": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1588727626,
+  "_nanoseconds": 20000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "ERIC",
+    "JORDAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ERIC",
+     "team": [
+      "ERIC",
+      "JORDAN"
+     ],
+     "votes": [
+      "ERIC",
+      "DOUGLAS",
+      "JORDAN",
+      "KEVIN",
+      "TIM",
+      "EMILY"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JORDAN",
+     "team": [
+      "JORDAN",
+      "TIM",
+      "DOUGLAS"
+     ],
+     "votes": [
+      "JORDAN",
+      "TIM",
+      "EMILY",
+      "DOUGLAS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "JORDAN",
+    "TIM",
+    "DOUGLAS"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "KEVIN",
+    "BLAYDE",
+    "DOUGLAS"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "EMILY",
+      "ERIC",
+      "KEVIN"
+     ],
+     "proposer": "KEVIN",
+     "team": [
+      "KEVIN",
+      "ERIC",
+      "EMILY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DOUGLAS",
+      "JORDAN",
+      "EMILY",
+      "BLAYDE"
+     ],
+     "team": [
+      "KEVIN",
+      "BLAYDE",
+      "DOUGLAS"
+     ],
+     "proposer": "BLAYDE"
+    }
+   ]
+  },
+  {
+   "team": [
+    "JORDAN",
+    "KEVIN",
+    "DOUGLAS",
+    "EMILY"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "BLAYDE",
+      "KEVIN",
+      "DOUGLAS",
+      "TIM"
+     ],
+     "proposer": "TIM",
+     "votes": [
+      "KEVIN",
+      "TIM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "EMILY",
+      "BLAYDE",
+      "DOUGLAS",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "EMILY",
+     "votes": [
+      "BLAYDE",
+      "JORDAN",
+      "EMILY"
+     ]
+    },
+    {
+     "votes": [
+      "DOUGLAS",
+      "TIM"
+     ],
+     "proposer": "DOUGLAS",
+     "team": [
+      "DOUGLAS",
+      "EMILY",
+      "KEVIN",
+      "TIM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ERIC",
+      "KEVIN",
+      "TIM"
+     ],
+     "proposer": "ERIC",
+     "state": "REJECTED",
+     "team": [
+      "KEVIN",
+      "BLAYDE",
+      "TIM",
+      "DOUGLAS"
+     ]
+    },
+    {
+     "proposer": "JORDAN",
+     "team": [
+      "JORDAN",
+      "KEVIN",
+      "DOUGLAS",
+      "EMILY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ERIC",
+      "BLAYDE",
+      "DOUGLAS",
+      "JORDAN",
+      "KEVIN",
+      "TIM",
+      "EMILY"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 2
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ERIC",
+      "TIM",
+      "KEVIN",
+      "BLAYDE"
+     ],
+     "votes": [
+      "BLAYDE",
+      "JORDAN",
+      "EMILY"
+     ],
+     "state": "REJECTED",
+     "proposer": "KEVIN"
+    },
+    {
+     "team": [
+      "KEVIN",
+      "BLAYDE",
+      "TIM",
+      "DOUGLAS"
+     ],
+     "votes": [
+      "BLAYDE",
+      "JORDAN"
+     ],
+     "proposer": "BLAYDE",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "TIM",
+     "votes": [
+      "TIM",
+      "ERIC",
+      "DOUGLAS"
+     ],
+     "team": [
+      "TIM",
+      "KEVIN",
+      "DOUGLAS",
+      "ERIC"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DOUGLAS",
+      "JORDAN",
+      "KEVIN",
+      "EMILY"
+     ],
+     "team": [
+      "ERIC",
+      "DOUGLAS",
+      "EMILY",
+      "KEVIN"
+     ],
+     "proposer": "EMILY"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ERIC",
+    "DOUGLAS",
+    "EMILY",
+    "KEVIN"
+   ],
+   "numFails": 1,
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "uid": "0S7nTqwNXDdjUhYzVDy6hfhJBSP2",
+   "name": "JORDAN"
+  },
+  {
+   "uid": "aMBrPx68jube972KXHvlYKbj0ys1",
+   "name": "KEVIN"
+  },
+  {
+   "name": "BLAYDE",
+   "uid": "Cum75UR5knaJxoLKdjiU6GS3Jxh2"
+  },
+  {
+   "name": "TIM",
+   "uid": "oq2SOz3Nr4e8pEdu793UIinIHmG2"
+  },
+  {
+   "name": "EMILY",
+   "uid": "oTmk2ZkWMvPSYFXEv8Nuir8HrtM2"
+  },
+  {
+   "uid": "p3TuHHNmP6N8LwHtsViCR5fm3D72",
+   "name": "DOUGLAS"
+  },
+  {
+   "uid": "CuDkBmBqsHPzneqm9fpP77b1dvW2",
+   "name": "ERIC"
+  }
+ ]
+}

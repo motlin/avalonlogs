@@ -1,0 +1,217 @@
+{
+ "players": [
+  {
+   "name": "BILLY",
+   "uid": "7UFC5AyhQnMheIdo6dPr6NKIoDw1"
+  },
+  {
+   "uid": "dmUJTavrpIW0n9Itisnl9oWC83J2",
+   "name": "DAVID"
+  },
+  {
+   "name": "JEFF",
+   "uid": "yBZCTu2NSOcIhZ5ripOOPVy8IbM2"
+  },
+  {
+   "uid": "qFOiXAQUj5Y4eMY8byGyGt3joyu2",
+   "name": "ANIMELOVER"
+  },
+  {
+   "name": "XEW",
+   "uid": "LWu6F9gtCwgizCWHq1GGD9g4iln2"
+  },
+  {
+   "uid": "xuv4pYAXe7XllcNvgUuEV62weMH2",
+   "name": "SOBY"
+  }
+ ],
+ "outcome": {
+  "assassinated": "ANIMELOVER",
+  "votes": [
+   {
+    "DAVID": true,
+    "BILLY": true
+   },
+   {
+    "BILLY": true,
+    "DAVID": true,
+    "SOBY": true
+   },
+   {
+    "BILLY": true,
+    "DAVID": true,
+    "JEFF": true,
+    "SOBY": false
+   },
+   {
+    "ANIMELOVER": true,
+    "JEFF": true,
+    "DAVID": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "DAVID",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "XEW",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "SOBY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "BILLY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JEFF",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ANIMELOVER",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "timeCreated": {
+  "_seconds": 1586064541,
+  "_nanoseconds": 536000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "BILLY",
+      "JEFF",
+      "ANIMELOVER",
+      "DAVID",
+      "XEW"
+     ],
+     "team": [
+      "BILLY",
+      "DAVID"
+     ],
+     "proposer": "BILLY",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BILLY",
+    "DAVID"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "DAVID",
+    "BILLY",
+    "SOBY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DAVID",
+     "votes": [
+      "SOBY",
+      "BILLY",
+      "JEFF",
+      "DAVID"
+     ],
+     "team": [
+      "DAVID",
+      "BILLY",
+      "SOBY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "BILLY",
+    "DAVID",
+    "JEFF",
+    "SOBY"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "JEFF",
+     "state": "APPROVED",
+     "votes": [
+      "BILLY",
+      "JEFF",
+      "DAVID",
+      "SOBY"
+     ],
+     "team": [
+      "BILLY",
+      "DAVID",
+      "JEFF",
+      "SOBY"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JEFF",
+      "ANIMELOVER",
+      "DAVID",
+      "SOBY"
+     ],
+     "team": [
+      "DAVID",
+      "ANIMELOVER",
+      "JEFF"
+     ],
+     "proposer": "ANIMELOVER",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "DAVID",
+    "ANIMELOVER",
+    "JEFF"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586065063,
+  "_nanoseconds": 713281000
+ }
+}

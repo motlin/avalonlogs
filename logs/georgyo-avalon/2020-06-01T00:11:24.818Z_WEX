@@ -1,0 +1,235 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "PATRICK": true,
+    "LOGEY": true
+   },
+   {
+    "LOGEY": true,
+    "PATRICK": true,
+    "TRAVIS": false
+   },
+   {
+    "JACK": true,
+    "LOGEY": true,
+    "PATRICK": true
+   },
+   {
+    "LOGEY": true,
+    "PATRICK": true,
+    "WILL": true,
+    "MARY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "WILL",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": true,
+    "name": "SLIMMYJIMM",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "LOGEY",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JACK"
+   },
+   {
+    "name": "TRAVIS",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "PATRICK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MARY"
+   }
+  ],
+  "assassinated": "JACK",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1590970284,
+  "_nanoseconds": 818000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1590970757,
+  "_nanoseconds": 344000000
+ },
+ "players": [
+  {
+   "name": "JACK",
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2"
+  },
+  {
+   "uid": "youXzvEGd7V3v9Qb5DOMbr7NZv83",
+   "name": "LOGEY"
+  },
+  {
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1",
+   "name": "WILL"
+  },
+  {
+   "uid": "dcFBxUuyhuSdi1Hfh5ENbe8DemI2",
+   "name": "MARY"
+  },
+  {
+   "name": "SLIMMYJIMM",
+   "uid": "rlYsN9yWvjY50whmk7OijNcUXHy2"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "IYJsCh44gxO4DSnfNlnO6Quz4pu2"
+  },
+  {
+   "uid": "zgtpsh8Okvc6dJ0cP3AMDpLx3va2",
+   "name": "TRAVIS"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "LOGEY",
+      "PATRICK"
+     ],
+     "proposer": "PATRICK",
+     "state": "APPROVED",
+     "votes": [
+      "MARY",
+      "WILL",
+      "SLIMMYJIMM",
+      "LOGEY",
+      "TRAVIS",
+      "PATRICK"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "LOGEY",
+    "PATRICK"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "LOGEY",
+    "PATRICK",
+    "TRAVIS"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "LOGEY",
+      "PATRICK",
+      "TRAVIS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TRAVIS",
+      "PATRICK",
+      "MARY",
+      "WILL",
+      "SLIMMYJIMM",
+      "LOGEY"
+     ],
+     "proposer": "TRAVIS"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "JACK",
+    "PATRICK",
+    "LOGEY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "PATRICK",
+      "MARY",
+      "WILL",
+      "SLIMMYJIMM",
+      "LOGEY",
+      "JACK"
+     ],
+     "state": "APPROVED",
+     "proposer": "JACK",
+     "team": [
+      "JACK",
+      "PATRICK",
+      "LOGEY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "LOGEY",
+    "PATRICK",
+    "MARY",
+    "WILL"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "LOGEY",
+      "PATRICK",
+      "MARY",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MARY",
+      "WILL",
+      "SLIMMYJIMM",
+      "LOGEY",
+      "TRAVIS"
+     ],
+     "proposer": "LOGEY"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

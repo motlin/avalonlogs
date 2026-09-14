@@ -1,0 +1,352 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "EMILY": true,
+    "MEGAN": true,
+    "WILLA": true
+   },
+   {
+    "WILLA": true,
+    "MIKE": false,
+    "MEGAN": false,
+    "ALBERT": true
+   },
+   {
+    "CHANCHAN": true,
+    "ANDRY": true,
+    "MEGAN": false,
+    "EMILY": true
+   },
+   {
+    "ANDREW": false,
+    "MEGAN": true,
+    "CHANCHAN": true,
+    "EMILY": true,
+    "WILLA": true
+   },
+   {
+    "EMILY": true,
+    "WILLA": true,
+    "ANDREW": false,
+    "MEGAN": false,
+    "ANDRY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ALBERT",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MIKE"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "CHANCHAN"
+   },
+   {
+    "name": "EMILY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANDREW",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "role": "MORDRED",
+    "name": "MEGAN",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "WILLA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANDRY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "jzpZGHVfjbS3p6VsfpGY53wN27T2",
+   "name": "EMILY"
+  },
+  {
+   "name": "ALBERT",
+   "uid": "a9zinWFXOuRCFGdnneS5bJQPuRF2"
+  },
+  {
+   "uid": "L6cFKHEED6YMGL2rnCfSlDbDPxr2",
+   "name": "ANDREW"
+  },
+  {
+   "name": "ANDRY",
+   "uid": "kjWhpHOyOdXBDAeRChYElLQhYJL2"
+  },
+  {
+   "uid": "Vf7fDfAEQcgXJPWb4qVyr5IsPth2",
+   "name": "WILLA"
+  },
+  {
+   "uid": "o2le7m7rXvQDAWZ9hTXakkMVOZ53",
+   "name": "MIKE"
+  },
+  {
+   "name": "CHANCHAN",
+   "uid": "DXv2CTdidiP8u6rROMT6ToGAsjc2"
+  },
+  {
+   "uid": "mkHd7EYg7eW9EZHfpEyjVPsAmkm1",
+   "name": "MEGAN"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "WILLA",
+    "MEGAN",
+    "EMILY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CHANCHAN",
+      "WILLA",
+      "ANDREW",
+      "MEGAN",
+      "EMILY"
+     ],
+     "team": [
+      "WILLA",
+      "MEGAN",
+      "EMILY"
+     ],
+     "proposer": "WILLA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "MIKE",
+    "WILLA",
+    "MEGAN",
+    "ALBERT"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHANCHAN",
+      "MEGAN",
+      "WILLA",
+      "ALBERT",
+      "MIKE"
+     ],
+     "team": [
+      "MIKE",
+      "WILLA",
+      "MEGAN",
+      "ALBERT"
+     ],
+     "proposer": "MIKE"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHANCHAN",
+     "votes": [
+      "EMILY",
+      "MIKE",
+      "ANDRY",
+      "CHANCHAN",
+      "ANDREW",
+      "ALBERT",
+      "WILLA",
+      "MEGAN"
+     ],
+     "team": [
+      "CHANCHAN",
+      "MEGAN",
+      "ANDRY",
+      "EMILY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "CHANCHAN",
+    "MEGAN",
+    "ANDRY",
+    "EMILY"
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "EMILY",
+    "WILLA",
+    "MEGAN",
+    "CHANCHAN",
+    "ANDREW"
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MEGAN",
+     "team": [
+      "MEGAN",
+      "WILLA",
+      "EMILY",
+      "ANDRY",
+      "MIKE"
+     ],
+     "votes": [
+      "WILLA",
+      "MEGAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "EMILY",
+     "votes": [
+      "ANDREW",
+      "ALBERT",
+      "WILLA",
+      "EMILY",
+      "MEGAN"
+     ],
+     "team": [
+      "EMILY",
+      "WILLA",
+      "MEGAN",
+      "CHANCHAN",
+      "ANDREW"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ALBERT"
+     ],
+     "proposer": "ALBERT",
+     "team": [
+      "EMILY",
+      "ALBERT",
+      "MEGAN",
+      "CHANCHAN",
+      "WILLA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHANCHAN",
+      "MIKE",
+      "ANDREW",
+      "MEGAN"
+     ],
+     "team": [
+      "ANDREW",
+      "MEGAN",
+      "CHANCHAN",
+      "MIKE",
+      "ANDRY"
+     ],
+     "proposer": "ANDREW"
+    },
+    {
+     "votes": [
+      "WILLA",
+      "EMILY",
+      "ANDRY",
+      "ANDREW"
+     ],
+     "team": [
+      "EMILY",
+      "ANDREW",
+      "ANDRY",
+      "WILLA",
+      "MEGAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANDRY"
+    },
+    {
+     "team": [
+      "WILLA",
+      "EMILY",
+      "MEGAN",
+      "ANDRY",
+      "ANDREW"
+     ],
+     "proposer": "WILLA",
+     "state": "APPROVED",
+     "votes": [
+      "ANDRY",
+      "WILLA",
+      "ANDREW",
+      "MEGAN",
+      "EMILY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "WILLA",
+    "EMILY",
+    "MEGAN",
+    "ANDRY",
+    "ANDREW"
+   ],
+   "numFails": 2,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1600589655,
+  "_nanoseconds": 636000000
+ },
+ "timeCreated": {
+  "_seconds": 1600586371,
+  "_nanoseconds": 853000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

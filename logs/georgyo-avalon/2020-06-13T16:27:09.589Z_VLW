@@ -1,0 +1,240 @@
+{
+ "timeFinished": {
+  "_seconds": 1592066165,
+  "_nanoseconds": 807000000
+ },
+ "timeCreated": {
+  "_seconds": 1592065629,
+  "_nanoseconds": 589000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "JAMIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ARTH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "VLW"
+   },
+   {
+    "name": "DHIVAN",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "BEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "MATEO",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SHINTOWA"
+   },
+   {
+    "assassin": false,
+    "name": "THOMAS",
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "VLW": false,
+    "DHIVAN": true,
+    "BEN": true
+   },
+   {
+    "VLW": false,
+    "SHINTOWA": false,
+    "THOMAS": true,
+    "JAMIE": true
+   },
+   {
+    "BEN": true,
+    "DHIVAN": false,
+    "THOMAS": true,
+    "JAMIE": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "ARTH",
+   "uid": "cORmGt7PxMTwGU0YNt09fmYNXK63"
+  },
+  {
+   "name": "MATEO",
+   "uid": "QL5Ovpspn9SC3LFXtxXAleAGNjk2"
+  },
+  {
+   "uid": "UVzjJn8xErgtLz0n8tnfg57xqDw2",
+   "name": "JAMIE"
+  },
+  {
+   "uid": "pULSvqTtAdh1W9Gn8klw4KzFufB2",
+   "name": "THOMAS"
+  },
+  {
+   "uid": "JfL1lB1zYOc09vEapFfCfkRkF232",
+   "name": "BEN"
+  },
+  {
+   "name": "DHIVAN",
+   "uid": "sIyZAPeUL1a51o68i8GZ3Et9Ryn1"
+  },
+  {
+   "name": "SHINTOWA",
+   "uid": "EgAGHRRxcEf5WMfnex3cCVsxnlz1"
+  },
+  {
+   "name": "VLW",
+   "uid": "PPLjsLcnuaTp3xTfBptlSQaEOGz2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "VLW",
+      "DHIVAN"
+     ],
+     "proposer": "BEN",
+     "votes": [
+      "DHIVAN",
+      "BEN",
+      "MATEO",
+      "SHINTOWA",
+      "JAMIE",
+      "ARTH",
+      "VLW"
+     ]
+    }
+   ],
+   "team": [
+    "BEN",
+    "VLW",
+    "DHIVAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ARTH",
+      "DHIVAN",
+      "BEN",
+      "JAMIE"
+     ],
+     "team": [
+      "DHIVAN",
+      "JAMIE",
+      "THOMAS",
+      "ARTH"
+     ],
+     "proposer": "DHIVAN"
+    },
+    {
+     "votes": [
+      "ARTH",
+      "VLW",
+      "DHIVAN",
+      "SHINTOWA",
+      "JAMIE"
+     ],
+     "team": [
+      "SHINTOWA",
+      "VLW",
+      "JAMIE",
+      "THOMAS"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHINTOWA"
+    }
+   ],
+   "team": [
+    "SHINTOWA",
+    "VLW",
+    "JAMIE",
+    "THOMAS"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "BEN",
+    "THOMAS",
+    "JAMIE",
+    "DHIVAN"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "SHINTOWA",
+      "THOMAS",
+      "JAMIE",
+      "ARTH",
+      "VLW",
+      "DHIVAN",
+      "BEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "VLW",
+     "team": [
+      "BEN",
+      "THOMAS",
+      "JAMIE",
+      "DHIVAN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 5
+  }
+ ]
+}

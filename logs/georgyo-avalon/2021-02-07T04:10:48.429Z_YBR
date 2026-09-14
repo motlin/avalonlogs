@@ -1,0 +1,267 @@
+{
+ "timeCreated": {
+  "_seconds": 1612671048,
+  "_nanoseconds": 429000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JAYSANCH"
+   },
+   {
+    "name": "BRIAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "SOPHIA"
+   },
+   {
+    "name": "DADDYHINGE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "HINGEPRIME"
+   },
+   {
+    "name": "SARAH",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "SARAH": true,
+    "HINGEPRIME": true
+   },
+   {
+    "DADDYHINGE": true,
+    "SARAH": true,
+    "HINGEPRIME": false
+   },
+   {
+    "BRIAN": true,
+    "JAYSANCH": true,
+    "HINGEPRIME": true,
+    "SOPHIA": true
+   },
+   {
+    "HINGEPRIME": false,
+    "SOPHIA": true,
+    "BRIAN": true
+   },
+   {
+    "JAYSANCH": true,
+    "SARAH": false,
+    "HINGEPRIME": false,
+    "BRIAN": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "BRIAN",
+   "uid": "YNuslEESHqOp6USUpGWPnkEbzIt1"
+  },
+  {
+   "name": "HINGEPRIME",
+   "uid": "JTLmcSWTO5U4QVIrbNnsDDfE8FR2"
+  },
+  {
+   "uid": "A26nL64fpsbnGUuNlMOedTUtdS72",
+   "name": "SOPHIA"
+  },
+  {
+   "uid": "QIpUXWKiAla7ComP0LEplFDc8Zy2",
+   "name": "DADDYHINGE"
+  },
+  {
+   "name": "JAYSANCH",
+   "uid": "Wi7xCYLQO9TaARUcw5AQ4U3CRSD2"
+  },
+  {
+   "name": "SARAH",
+   "uid": "QE8lSDvgTtQw9sbm9cll5q1zY1H3"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JAYSANCH",
+      "BRIAN",
+      "SARAH",
+      "DADDYHINGE",
+      "SOPHIA",
+      "HINGEPRIME"
+     ],
+     "team": [
+      "SARAH",
+      "HINGEPRIME"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOPHIA"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SARAH",
+    "HINGEPRIME"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "HINGEPRIME",
+      "SARAH",
+      "DADDYHINGE"
+     ],
+     "proposer": "DADDYHINGE",
+     "votes": [
+      "SOPHIA",
+      "JAYSANCH",
+      "BRIAN",
+      "SARAH",
+      "DADDYHINGE",
+      "HINGEPRIME"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "HINGEPRIME",
+    "SARAH",
+    "DADDYHINGE"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "SOPHIA",
+      "BRIAN",
+      "JAYSANCH",
+      "HINGEPRIME"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JAYSANCH",
+      "HINGEPRIME",
+      "SARAH",
+      "SOPHIA"
+     ],
+     "proposer": "JAYSANCH"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "SOPHIA",
+    "BRIAN",
+    "JAYSANCH",
+    "HINGEPRIME"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "SOPHIA",
+    "BRIAN",
+    "HINGEPRIME"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SOPHIA",
+      "BRIAN",
+      "SARAH",
+      "HINGEPRIME"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SOPHIA",
+      "BRIAN",
+      "HINGEPRIME"
+     ],
+     "proposer": "SARAH"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "HINGEPRIME",
+    "SARAH",
+    "JAYSANCH",
+    "BRIAN"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "DADDYHINGE",
+      "HINGEPRIME"
+     ],
+     "team": [
+      "BRIAN",
+      "JAYSANCH",
+      "HINGEPRIME",
+      "DADDYHINGE"
+     ],
+     "proposer": "BRIAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "HINGEPRIME",
+      "SARAH",
+      "JAYSANCH",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "SARAH",
+      "JAYSANCH",
+      "SOPHIA",
+      "HINGEPRIME"
+     ],
+     "proposer": "HINGEPRIME"
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1612672258,
+  "_nanoseconds": 122000000
+ }
+}

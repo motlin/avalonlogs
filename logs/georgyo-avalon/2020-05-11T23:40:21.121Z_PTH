@@ -1,0 +1,291 @@
+{
+ "players": [
+  {
+   "uid": "Nl3X1bQKg2UiLz2f9LXhdaymPOj2",
+   "name": "MK"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1",
+   "name": "RAHUL"
+  },
+  {
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2",
+   "name": "RAAS"
+  },
+  {
+   "name": "SAAAD",
+   "uid": "Wjr8vxPJ1vSS6XIGwr3tNLLTWBC2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589240421,
+  "_nanoseconds": 121000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "RAAS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SAAAD"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MK",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MAFAZLA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "RAHUL",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "votes": [
+   {
+    "SAAAD": true,
+    "RAAS": true
+   },
+   {
+    "RAHUL": false,
+    "MAFAZLA": true,
+    "RAAS": true
+   },
+   {
+    "RAAS": true,
+    "SAAAD": true
+   },
+   {
+    "SAAAD": true,
+    "RAAS": true,
+    "MAFAZLA": true
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RAAS",
+     "votes": [
+      "RAAS",
+      "SAAAD",
+      "MK",
+      "RAHUL"
+     ],
+     "team": [
+      "RAAS",
+      "SAAAD"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "RAAS",
+    "SAAAD"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "RAHUL",
+    "MAFAZLA",
+    "RAAS"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SAAAD",
+     "state": "REJECTED",
+     "votes": [
+      "RAAS",
+      "SAAAD"
+     ],
+     "team": [
+      "RAAS",
+      "SAAAD",
+      "MAFAZLA"
+     ]
+    },
+    {
+     "team": [
+      "MK",
+      "RAAS",
+      "SAAAD"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MK",
+      "SAAAD"
+     ],
+     "proposer": "MK"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MAFAZLA",
+     "votes": [
+      "MAFAZLA"
+     ],
+     "team": [
+      "MAFAZLA",
+      "RAAS",
+      "MK"
+     ]
+    },
+    {
+     "team": [
+      "RAHUL",
+      "MAFAZLA",
+      "RAAS"
+     ],
+     "proposer": "RAHUL",
+     "state": "APPROVED",
+     "votes": [
+      "MAFAZLA",
+      "RAHUL",
+      "RAAS"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "RAAS",
+      "SAAAD",
+      "MK"
+     ],
+     "team": [
+      "RAAS",
+      "SAAAD"
+     ],
+     "proposer": "RAAS",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "RAAS",
+    "SAAAD"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SAAAD",
+    "MAFAZLA",
+    "RAAS"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SAAAD",
+      "MK",
+      "RAAS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "RAAS",
+      "MK"
+     ],
+     "proposer": "SAAAD"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MK",
+      "RAAS"
+     ],
+     "team": [
+      "RAAS",
+      "SAAAD",
+      "MK"
+     ],
+     "proposer": "MK"
+    },
+    {
+     "votes": [
+      "MAFAZLA",
+      "RAHUL"
+     ],
+     "team": [
+      "MK",
+      "MAFAZLA",
+      "RAHUL"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAFAZLA"
+    },
+    {
+     "votes": [
+      "RAHUL"
+     ],
+     "proposer": "RAHUL",
+     "team": [
+      "MAFAZLA",
+      "RAHUL",
+      "SAAAD"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RAAS",
+      "SAAAD",
+      "MK",
+      "MAFAZLA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SAAAD",
+      "MAFAZLA",
+      "RAAS"
+     ],
+     "proposer": "RAAS"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589241259,
+  "_nanoseconds": 441000000
+ }
+}

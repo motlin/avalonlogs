@@ -1,0 +1,261 @@
+{
+ "timeFinished": {
+  "_seconds": 1589774245,
+  "_nanoseconds": 661000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MATT": true,
+    "ZACH": false
+   },
+   {
+    "MATT": true,
+    "MARC": true,
+    "DREW": true
+   },
+   {
+    "MATT": true,
+    "MARC": true
+   },
+   {
+    "MATT": true,
+    "MARC": true,
+    "DREW": false
+   },
+   {
+    "MATT": true,
+    "DREW": false,
+    "CNN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "MATT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "DREW"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MARC"
+   },
+   {
+    "name": "CNN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "ZACH",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ZACH",
+    "MATT"
+   ],
+   "proposals": [
+    {
+     "proposer": "DREW",
+     "votes": [
+      "DREW"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ZACH",
+      "CNN"
+     ]
+    },
+    {
+     "proposer": "ZACH",
+     "votes": [
+      "ZACH",
+      "MATT",
+      "DREW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ZACH",
+      "MATT"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MARC",
+      "MATT",
+      "DREW"
+     ],
+     "team": [
+      "MATT",
+      "DREW",
+      "MARC"
+     ],
+     "proposer": "MATT",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MATT",
+    "DREW",
+    "MARC"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ZACH",
+      "DREW"
+     ],
+     "team": [
+      "CNN",
+      "ZACH"
+     ],
+     "proposer": "CNN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MARC",
+      "MATT"
+     ],
+     "votes": [
+      "MATT",
+      "DREW",
+      "MARC"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARC"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "MARC",
+    "MATT"
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "MATT",
+    "MARC",
+    "DREW"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MATT",
+      "DREW",
+      "MARC"
+     ],
+     "team": [
+      "MATT",
+      "MARC",
+      "DREW"
+     ],
+     "proposer": "DREW",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ZACH",
+     "state": "REJECTED",
+     "votes": [
+      "ZACH",
+      "CNN"
+     ],
+     "team": [
+      "ZACH",
+      "CNN",
+      "MARC"
+     ]
+    },
+    {
+     "proposer": "MATT",
+     "state": "APPROVED",
+     "votes": [
+      "ZACH",
+      "MATT",
+      "DREW"
+     ],
+     "team": [
+      "DREW",
+      "MATT",
+      "CNN"
+     ]
+    }
+   ],
+   "team": [
+    "DREW",
+    "MATT",
+    "CNN"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589773353,
+  "_nanoseconds": 802000000
+ },
+ "players": [
+  {
+   "name": "DREW",
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1"
+  },
+  {
+   "name": "ZACH",
+   "uid": "bH4tIAsGmEO9QIrWbxqrS211mdW2"
+  },
+  {
+   "uid": "CYfGT7p15xRFRJjUZ4oBAgrpLrP2",
+   "name": "MATT"
+  },
+  {
+   "name": "CNN",
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83"
+  },
+  {
+   "uid": "Kd9gvaBxtCO5a0I4MmewNknH2lZ2",
+   "name": "MARC"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

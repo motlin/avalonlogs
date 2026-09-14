@@ -1,0 +1,230 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KHUSHBOO"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DEEPAK"
+   },
+   {
+    "name": "ROHIT",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "STAR",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "HAMZA",
+    "assassin": true,
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "HARISH"
+   },
+   {
+    "assassin": false,
+    "name": "MEENAXI",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "HARISH",
+  "votes": [
+   {
+    "HAMZA": true,
+    "MEENAXI": true
+   },
+   {
+    "MEENAXI": true,
+    "HARISH": true,
+    "STAR": true
+   },
+   {
+    "MEENAXI": true,
+    "STAR": true,
+    "KHUSHBOO": false
+   },
+   {
+    "HARISH": true,
+    "KHUSHBOO": true,
+    "DEEPAK": true,
+    "STAR": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1584846414,
+  "_nanoseconds": 995618000
+ },
+ "players": [
+  {
+   "name": "MEENAXI",
+   "uid": "Erto05CNOna2UbmDo5MXnZZAbcp2"
+  },
+  {
+   "name": "HARISH",
+   "uid": "yO2zRoAl4oMPU4LgwDDUuaUFeI33"
+  },
+  {
+   "uid": "VCTBMhMzFSbW7Zrs8PGMGjlpBmV2",
+   "name": "HAMZA"
+  },
+  {
+   "name": "STAR",
+   "uid": "HxbGQtmKwffucjQX5MHkt3XORN43"
+  },
+  {
+   "uid": "NGeVg2m9traiMUSQqOzEiROTwcI3",
+   "name": "KHUSHBOO"
+  },
+  {
+   "uid": "kgtoJZHXvfN5eG1xkxBUWnjOxwn2",
+   "name": "ROHIT"
+  },
+  {
+   "name": "DEEPAK",
+   "uid": "0pLcKU7UfAYKoYWpLDC3gTEtVYB2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "MEENAXI",
+      "HAMZA"
+     ],
+     "proposer": "MEENAXI",
+     "votes": [
+      "ROHIT",
+      "STAR",
+      "HAMZA",
+      "HARISH",
+      "MEENAXI",
+      "KHUSHBOO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "MEENAXI",
+    "HAMZA"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HARISH",
+     "team": [
+      "HARISH",
+      "MEENAXI",
+      "STAR"
+     ],
+     "votes": [
+      "KHUSHBOO",
+      "DEEPAK",
+      "STAR",
+      "HARISH"
+     ]
+    }
+   ],
+   "team": [
+    "HARISH",
+    "MEENAXI",
+    "STAR"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MEENAXI",
+    "STAR",
+    "KHUSHBOO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "HARISH",
+      "MEENAXI",
+      "KHUSHBOO",
+      "DEEPAK",
+      "ROHIT",
+      "STAR",
+      "HAMZA"
+     ],
+     "proposer": "HAMZA",
+     "state": "APPROVED",
+     "team": [
+      "MEENAXI",
+      "STAR",
+      "KHUSHBOO"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "STAR",
+      "HARISH",
+      "DEEPAK",
+      "KHUSHBOO"
+     ],
+     "proposer": "STAR",
+     "votes": [
+      "HARISH",
+      "KHUSHBOO",
+      "DEEPAK",
+      "STAR"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "STAR",
+    "HARISH",
+    "DEEPAK",
+    "KHUSHBOO"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1584843133,
+  "_nanoseconds": 699000000
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "players": [
+  {
+   "name": "RAAS",
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2"
+  },
+  {
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1",
+   "name": "RAHUL"
+  },
+  {
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073",
+   "name": "SANJY"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "name": "SAAAD",
+   "uid": "Wjr8vxPJ1vSS6XIGwr3tNLLTWBC2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "SANJY",
+    "RAAS"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "RAHUL",
+     "team": [
+      "RAHUL",
+      "RAAS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "RAAS",
+      "RAHUL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SANJY",
+     "votes": [
+      "RAAS",
+      "SANJY",
+      "SAAAD"
+     ],
+     "team": [
+      "SANJY",
+      "RAAS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "SANJY",
+    "RAAS",
+    "MAFAZLA"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "MAFAZLA",
+     "votes": [
+      "RAAS",
+      "SANJY",
+      "MAFAZLA"
+     ],
+     "team": [
+      "SANJY",
+      "RAAS",
+      "MAFAZLA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "SANJY",
+    "RAAS"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "SANJY",
+      "RAAS"
+     ],
+     "votes": [
+      "RAAS",
+      "SANJY",
+      "SAAAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "SAAAD"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAAS",
+      "SANJY",
+      "SAAAD"
+     ],
+     "proposer": "RAAS",
+     "team": [
+      "RAAS",
+      "SANJY",
+      "SAAAD"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "RAAS",
+    "SANJY",
+    "SAAAD"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588386859,
+  "_nanoseconds": 702000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "SANJY": true,
+    "RAAS": true
+   },
+   {
+    "SANJY": true,
+    "MAFAZLA": false,
+    "RAAS": true
+   },
+   {
+    "RAAS": true,
+    "SANJY": true
+   },
+   {
+    "SANJY": true,
+    "SAAAD": true,
+    "RAAS": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MAFAZLA"
+   },
+   {
+    "name": "RAHUL",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "RAAS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SANJY"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SAAAD"
+   }
+  ],
+  "assassinated": "SANJY"
+ },
+ "timeCreated": {
+  "_seconds": 1588386584,
+  "_nanoseconds": 142000000
+ }
+}

@@ -1,0 +1,265 @@
+{
+ "players": [
+  {
+   "name": "NATHAN",
+   "uid": "eM9Ltl7b52O1f1oH4iegamCVSoE2"
+  },
+  {
+   "name": "RHIBARB",
+   "uid": "d2qaR1wtLMf6eD0fe27SXJ85kkA3"
+  },
+  {
+   "name": "ALEX",
+   "uid": "rtvrnDmT1lMNdSICJKOcT0Lyx7g1"
+  },
+  {
+   "uid": "fVErk18gatRj5L06IUTGVSgPwNx2",
+   "name": "JALLEN"
+  },
+  {
+   "name": "BENNO",
+   "uid": "4sTXF8FpXXcusQcAG7ghZmLLZoA2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1586896426,
+  "_nanoseconds": 435000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "JALLEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALEX",
+     "votes": [
+      "JALLEN",
+      "ALEX"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ALEX",
+      "RHIBARB"
+     ],
+     "proposer": "JALLEN",
+     "votes": [
+      "ALEX",
+      "RHIBARB"
+     ]
+    },
+    {
+     "votes": [
+      "BENNO",
+      "JALLEN"
+     ],
+     "proposer": "BENNO",
+     "state": "REJECTED",
+     "team": [
+      "BENNO",
+      "JALLEN"
+     ]
+    },
+    {
+     "team": [
+      "NATHAN",
+      "JALLEN"
+     ],
+     "votes": [
+      "JALLEN",
+      "BENNO"
+     ],
+     "proposer": "NATHAN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "RHIBARB",
+     "state": "APPROVED",
+     "team": [
+      "RHIBARB",
+      "ALEX"
+     ],
+     "votes": [
+      "BENNO",
+      "NATHAN",
+      "ALEX",
+      "RHIBARB",
+      "JALLEN"
+     ]
+    }
+   ],
+   "team": [
+    "RHIBARB",
+    "ALEX"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "RHIBARB",
+    "ALEX",
+    "JALLEN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "RHIBARB",
+      "ALEX",
+      "JALLEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "JALLEN",
+      "BENNO"
+     ],
+     "proposer": "ALEX"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "JALLEN",
+    "RHIBARB"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JALLEN",
+      "BENNO",
+      "NATHAN",
+      "ALEX"
+     ],
+     "team": [
+      "JALLEN",
+      "RHIBARB"
+     ],
+     "state": "APPROVED",
+     "proposer": "JALLEN"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BENNO",
+      "RHIBARB"
+     ],
+     "team": [
+      "ALEX",
+      "BENNO",
+      "RHIBARB"
+     ],
+     "proposer": "BENNO"
+    },
+    {
+     "votes": [
+      "RHIBARB",
+      "JALLEN",
+      "NATHAN",
+      "ALEX"
+     ],
+     "team": [
+      "ALEX",
+      "RHIBARB",
+      "NATHAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "NATHAN"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "ALEX",
+    "RHIBARB",
+    "NATHAN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586897287,
+  "_nanoseconds": 622543000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "BENNO"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NATHAN"
+   },
+   {
+    "name": "ALEX",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "RHIBARB",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "JALLEN",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "NATHAN",
+  "votes": [
+   {
+    "ALEX": true,
+    "RHIBARB": true
+   },
+   {
+    "ALEX": true,
+    "JALLEN": true,
+    "RHIBARB": true
+   },
+   {
+    "RHIBARB": true,
+    "JALLEN": false
+   },
+   {
+    "ALEX": true,
+    "RHIBARB": true,
+    "NATHAN": true
+   }
+  ]
+ }
+}

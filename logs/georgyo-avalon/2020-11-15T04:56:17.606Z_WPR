@@ -1,0 +1,244 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "CHAI",
+   "uid": "kSuFqj5ueWZYlfFBbfhTiidBQZd2"
+  },
+  {
+   "uid": "weox9NOyNDZiyKTtPDAXxvazdFV2",
+   "name": "BANANA"
+  },
+  {
+   "uid": "bFTTuhvrzTWkpx2y2tA2VEo4OHx2",
+   "name": "AVI"
+  },
+  {
+   "name": "PK",
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652"
+  },
+  {
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3",
+   "name": "MARLIN"
+  },
+  {
+   "uid": "RMh8asPf7khAo3YWIMNdy1EDHDp2",
+   "name": "HWSNBN"
+  },
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "SASUKE"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "BANANA",
+      "AVI",
+      "PK",
+      "CHAI",
+      "SASUKE"
+     ],
+     "proposer": "CHAI",
+     "state": "APPROVED",
+     "team": [
+      "CHAI",
+      "BANANA"
+     ]
+    }
+   ],
+   "team": [
+    "CHAI",
+    "BANANA"
+   ]
+  },
+  {
+   "team": [
+    "CHAI",
+    "BANANA",
+    "AVI"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHAI",
+      "BANANA",
+      "AVI"
+     ],
+     "votes": [
+      "SASUKE",
+      "BANANA",
+      "MARLIN",
+      "PK"
+     ],
+     "proposer": "BANANA"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SASUKE",
+      "HWSNBN",
+      "AVI",
+      "PK"
+     ],
+     "proposer": "AVI",
+     "team": [
+      "AVI",
+      "PK",
+      "SASUKE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "AVI",
+    "PK",
+    "SASUKE"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "PK",
+     "votes": [
+      "SASUKE",
+      "BANANA",
+      "PK"
+     ],
+     "team": [
+      "PK",
+      "AVI",
+      "SASUKE",
+      "BANANA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MARLIN",
+      "PK",
+      "AVI",
+      "SASUKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARLIN",
+     "votes": [
+      "CHAI",
+      "MARLIN",
+      "SASUKE",
+      "AVI"
+     ]
+    }
+   ],
+   "team": [
+    "MARLIN",
+    "PK",
+    "AVI",
+    "SASUKE"
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 1
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605416756,
+  "_nanoseconds": 45000000
+ },
+ "timeCreated": {
+  "_seconds": 1605416177,
+  "_nanoseconds": 606000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "BANANA": true,
+    "CHAI": true
+   },
+   {
+    "AVI": true,
+    "BANANA": true,
+    "CHAI": false
+   },
+   {
+    "SASUKE": true,
+    "AVI": true,
+    "PK": true
+   },
+   {
+    "SASUKE": true,
+    "AVI": true,
+    "MARLIN": false,
+    "PK": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "AVI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HWSNBN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "BANANA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "CHAI",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "PK",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MARLIN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SASUKE"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "BANANA"
+ }
+}

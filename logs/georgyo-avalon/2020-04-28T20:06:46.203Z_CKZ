@@ -1,0 +1,236 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ALEX": true,
+    "STEWIE": true
+   },
+   {
+    "BENNO": false,
+    "STEWIE": true,
+    "ALEX": true
+   },
+   {
+    "STEWIE": true,
+    "NATHAN": true
+   },
+   {
+    "IZZY": true,
+    "STEWIE": true,
+    "NATHAN": false
+   },
+   {
+    "ALEX": true,
+    "NATHAN": false,
+    "STEWIE": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "BENNO"
+   },
+   {
+    "name": "NATHAN",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "STEWIE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "IZZY"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "NATHAN",
+   "uid": "eM9Ltl7b52O1f1oH4iegamCVSoE2"
+  },
+  {
+   "uid": "cmDXdXNJasNkbFm7atxMsLYZB022",
+   "name": "STEWIE"
+  },
+  {
+   "uid": "InTfyaKQ0uYhDlmCtROic0Gh0c02",
+   "name": "IZZY"
+  },
+  {
+   "uid": "rtvrnDmT1lMNdSICJKOcT0Lyx7g1",
+   "name": "ALEX"
+  },
+  {
+   "name": "BENNO",
+   "uid": "4sTXF8FpXXcusQcAG7ghZmLLZoA2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ALEX",
+    "STEWIE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "STEWIE"
+     ],
+     "votes": [
+      "IZZY",
+      "STEWIE",
+      "ALEX"
+     ],
+     "proposer": "ALEX",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "BENNO",
+      "STEWIE",
+      "ALEX"
+     ],
+     "state": "APPROVED",
+     "proposer": "BENNO",
+     "votes": [
+      "STEWIE",
+      "ALEX",
+      "BENNO"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "BENNO",
+    "STEWIE",
+    "ALEX"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "STEWIE",
+      "IZZY",
+      "NATHAN"
+     ],
+     "proposer": "NATHAN",
+     "state": "APPROVED",
+     "team": [
+      "STEWIE",
+      "NATHAN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "STEWIE",
+    "NATHAN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BENNO",
+      "STEWIE",
+      "IZZY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "IZZY",
+      "STEWIE",
+      "NATHAN"
+     ],
+     "proposer": "STEWIE"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "IZZY",
+    "STEWIE",
+    "NATHAN"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "IZZY",
+     "votes": [],
+     "team": [
+      "IZZY",
+      "NATHAN",
+      "ALEX"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BENNO",
+      "NATHAN",
+      "STEWIE",
+      "ALEX"
+     ],
+     "team": [
+      "ALEX",
+      "NATHAN",
+      "STEWIE"
+     ],
+     "proposer": "ALEX"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "ALEX",
+    "NATHAN",
+    "STEWIE"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588105085,
+  "_nanoseconds": 965000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588104406,
+  "_nanoseconds": 203000000
+ }
+}

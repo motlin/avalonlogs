@@ -1,0 +1,356 @@
+{
+ "timeCreated": {
+  "_seconds": 1596175034,
+  "_nanoseconds": 676000000
+ },
+ "timeFinished": {
+  "_seconds": 1596176492,
+  "_nanoseconds": 81000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "YUL": true,
+    "SOON": true,
+    "POTATO": true
+   },
+   {
+    "NASTY": true,
+    "NUJNOW": true,
+    "DDDD": true,
+    "DOCTORKANG": true
+   },
+   {
+    "NASTY": true,
+    "DOCTORKANG": false,
+    "NUJNOW": true,
+    "DDDD": true
+   },
+   {
+    "DDDD": true,
+    "DOCTORKANG": false,
+    "NUJNOW": false,
+    "YUL": true,
+    "NASTY": true
+   },
+   {
+    "DDDD": true,
+    "DOCTORKANG": false,
+    "JUYEONI": true,
+    "POTATO": true,
+    "SOON": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "NASTY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "DDDD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JUYEONI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "DOCTORKANG"
+   },
+   {
+    "assassin": false,
+    "name": "POTATO",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "NUJNOW"
+   },
+   {
+    "name": "SOON",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "YUL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "9Htsa9leN3f5glVEuO2876Cv1ci2",
+   "name": "DOCTORKANG"
+  },
+  {
+   "name": "NUJNOW",
+   "uid": "02wyBYZKx7YqMVvFjukM78VVdtc2"
+  },
+  {
+   "uid": "XePRcW3nqrRl0XeL3QwaWD2CjDA3",
+   "name": "DDDD"
+  },
+  {
+   "name": "YUL",
+   "uid": "YQqi8jMZ2ORvDbjAS0Lp4AxHOt92"
+  },
+  {
+   "name": "JUYEONI",
+   "uid": "jU9OONE4T8SRqntvHhdmFr8Jznp1"
+  },
+  {
+   "name": "NASTY",
+   "uid": "HlVcnl0kEhc3QQXt9d1tV9my6852"
+  },
+  {
+   "uid": "edi1OD1378cTGcAkJRqghVeLwZu1",
+   "name": "SOON"
+  },
+  {
+   "name": "POTATO",
+   "uid": "1FwARpaQA1d1SjKnetNyTT4wD0g1"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "YUL",
+    "SOON",
+    "POTATO"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SOON",
+      "NUJNOW",
+      "POTATO",
+      "NASTY",
+      "DOCTORKANG",
+      "JUYEONI",
+      "YUL",
+      "DDDD"
+     ],
+     "team": [
+      "YUL",
+      "SOON",
+      "POTATO"
+     ],
+     "proposer": "SOON",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "NASTY",
+    "NUJNOW",
+    "DDDD",
+    "DOCTORKANG"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NASTY",
+      "NUJNOW",
+      "DDDD",
+      "DOCTORKANG"
+     ],
+     "votes": [
+      "DOCTORKANG",
+      "NUJNOW",
+      "JUYEONI",
+      "SOON",
+      "YUL",
+      "NASTY",
+      "DDDD",
+      "POTATO"
+     ],
+     "proposer": "POTATO"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "NUJNOW",
+    "DOCTORKANG",
+    "NASTY",
+    "DDDD"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "DOCTORKANG",
+     "team": [
+      "DOCTORKANG",
+      "NASTY",
+      "DDDD",
+      "POTATO"
+     ],
+     "votes": [
+      "SOON",
+      "NASTY"
+     ]
+    },
+    {
+     "team": [
+      "NUJNOW",
+      "DOCTORKANG",
+      "NASTY",
+      "DDDD"
+     ],
+     "votes": [
+      "JUYEONI",
+      "POTATO",
+      "YUL",
+      "DDDD",
+      "NUJNOW",
+      "SOON",
+      "DOCTORKANG",
+      "NASTY"
+     ],
+     "state": "APPROVED",
+     "proposer": "NUJNOW"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "DOCTORKANG",
+      "NUJNOW",
+      "DDDD",
+      "NASTY",
+      "YUL"
+     ],
+     "state": "APPROVED",
+     "proposer": "DDDD",
+     "votes": [
+      "DOCTORKANG",
+      "NUJNOW",
+      "DDDD",
+      "NASTY",
+      "SOON",
+      "YUL"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "DOCTORKANG",
+    "NUJNOW",
+    "DDDD",
+    "NASTY",
+    "YUL"
+   ]
+  },
+  {
+   "team": [
+    "POTATO",
+    "SOON",
+    "JUYEONI",
+    "DDDD",
+    "DOCTORKANG"
+   ],
+   "state": "FAIL",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "NASTY",
+      "YUL"
+     ],
+     "team": [
+      "NASTY",
+      "POTATO",
+      "JUYEONI",
+      "DDDD",
+      "YUL"
+     ],
+     "state": "REJECTED",
+     "proposer": "YUL"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NUJNOW",
+      "YUL"
+     ],
+     "team": [
+      "JUYEONI",
+      "POTATO",
+      "DDDD",
+      "YUL",
+      "DOCTORKANG"
+     ],
+     "proposer": "JUYEONI"
+    },
+    {
+     "votes": [
+      "YUL",
+      "NASTY"
+     ],
+     "team": [
+      "DDDD",
+      "YUL",
+      "JUYEONI",
+      "NASTY",
+      "POTATO"
+     ],
+     "proposer": "NASTY",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "POTATO",
+      "SOON",
+      "JUYEONI",
+      "DDDD",
+      "DOCTORKANG"
+     ],
+     "proposer": "SOON",
+     "state": "APPROVED",
+     "votes": [
+      "SOON",
+      "JUYEONI",
+      "DDDD",
+      "NUJNOW",
+      "DOCTORKANG",
+      "POTATO"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

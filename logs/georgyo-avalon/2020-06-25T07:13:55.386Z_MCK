@@ -1,0 +1,303 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "MAL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "LEA"
+   },
+   {
+    "name": "JERRY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SIDDHANT"
+   },
+   {
+    "name": "NIKKI",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "LEA": true,
+    "SIDDHANT": true
+   },
+   {
+    "MAL": true,
+    "NIKKI": false,
+    "LEA": true
+   },
+   {
+    "JERRY": true,
+    "SIDDHANT": true
+   },
+   {
+    "SIDDHANT": true,
+    "JERRY": false,
+    "MAL": true
+   },
+   {
+    "NIKKI": false,
+    "LEA": true,
+    "SIDDHANT": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1593070638,
+  "_nanoseconds": 693000000
+ },
+ "players": [
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  },
+  {
+   "name": "NIKKI",
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743"
+  },
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2",
+   "name": "LEA"
+  },
+  {
+   "name": "SIDDHANT",
+   "uid": "BOfgQoFuXVcasobc5ELL1WmBERS2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "LEA",
+    "SIDDHANT"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "LEA",
+      "SIDDHANT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "SIDDHANT"
+     ],
+     "proposer": "LEA"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "NIKKI",
+    "LEA",
+    "MAL"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "SIDDHANT"
+     ],
+     "proposer": "SIDDHANT",
+     "team": [
+      "SIDDHANT",
+      "LEA",
+      "JERRY"
+     ]
+    },
+    {
+     "proposer": "MAL",
+     "state": "REJECTED",
+     "team": [
+      "MAL",
+      "SIDDHANT",
+      "NIKKI"
+     ],
+     "votes": [
+      "SIDDHANT",
+      "MAL"
+     ]
+    },
+    {
+     "team": [
+      "NIKKI",
+      "LEA",
+      "MAL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "LEA"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "votes": [
+      "JERRY"
+     ],
+     "proposer": "JERRY",
+     "state": "REJECTED",
+     "team": [
+      "NIKKI",
+      "JERRY",
+      "LEA"
+     ]
+    },
+    {
+     "proposer": "LEA",
+     "state": "APPROVED",
+     "team": [
+      "NIKKI",
+      "LEA",
+      "MAL"
+     ],
+     "votes": [
+      "MAL",
+      "LEA",
+      "JERRY",
+      "NIKKI"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SIDDHANT",
+      "JERRY"
+     ],
+     "proposer": "SIDDHANT",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "SIDDHANT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SIDDHANT",
+    "JERRY"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MAL",
+    "JERRY",
+    "SIDDHANT"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MAL",
+     "team": [
+      "MAL",
+      "JERRY",
+      "SIDDHANT"
+     ],
+     "votes": [
+      "SIDDHANT",
+      "MAL",
+      "JERRY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "NIKKI",
+    "LEA",
+    "SIDDHANT"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SIDDHANT",
+      "NIKKI"
+     ],
+     "team": [
+      "NIKKI",
+      "LEA",
+      "SIDDHANT"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "team": [
+      "JERRY",
+      "SIDDHANT",
+      "NIKKI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SIDDHANT",
+      "JERRY"
+     ],
+     "proposer": "JERRY"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LEA",
+     "votes": [
+      "LEA",
+      "SIDDHANT",
+      "NIKKI"
+     ],
+     "team": [
+      "NIKKI",
+      "LEA",
+      "SIDDHANT"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593069235,
+  "_nanoseconds": 386000000
+ }
+}

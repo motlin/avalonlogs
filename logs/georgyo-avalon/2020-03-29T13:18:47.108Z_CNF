@@ -1,0 +1,204 @@
+{
+ "timeFinished": {
+  "_seconds": 1585488193,
+  "_nanoseconds": 714596000
+ },
+ "outcome": {
+  "assassinated": "PAT",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PAT"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "PASTA"
+   },
+   {
+    "name": "ARENSAMA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "COLLINS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AIDS"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ARENSAMA": true,
+    "COLLINS": true
+   },
+   {
+    "AIDS": true,
+    "PAT": true,
+    "PASTA": false
+   },
+   {
+    "ARENSAMA": true,
+    "COLLINS": true
+   },
+   {
+    "COLLINS": true,
+    "ARENSAMA": true,
+    "PAT": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585487927,
+  "_nanoseconds": 108000000
+ },
+ "players": [
+  {
+   "name": "AIDS",
+   "uid": "yy6Y5z5mAecNKJPtjPZiS83d7oC3"
+  },
+  {
+   "name": "PAT",
+   "uid": "um0sC7K3YBRkKpyYBaslGpnTOlD3"
+  },
+  {
+   "name": "PASTA",
+   "uid": "shA3aDvxHxY38AIOdXIRUt5LC642"
+  },
+  {
+   "name": "COLLINS",
+   "uid": "U277ftPZANdTa82qKCJliXqpTuv1"
+  },
+  {
+   "name": "ARENSAMA",
+   "uid": "o0zITp2QyQZi5MuZdg3BuXaSuKp1"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "COLLINS",
+    "ARENSAMA"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "COLLINS",
+     "state": "APPROVED",
+     "votes": [
+      "PAT",
+      "PASTA",
+      "ARENSAMA",
+      "COLLINS",
+      "AIDS"
+     ],
+     "team": [
+      "COLLINS",
+      "ARENSAMA"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "AIDS",
+    "PASTA",
+    "PAT"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AIDS",
+      "PASTA",
+      "PAT"
+     ],
+     "proposer": "ARENSAMA",
+     "votes": [
+      "PASTA",
+      "ARENSAMA",
+      "COLLINS",
+      "AIDS",
+      "PAT"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "COLLINS",
+      "ARENSAMA"
+     ],
+     "proposer": "AIDS",
+     "votes": [
+      "PAT",
+      "PASTA",
+      "ARENSAMA",
+      "COLLINS",
+      "AIDS"
+     ]
+    }
+   ],
+   "team": [
+    "COLLINS",
+    "ARENSAMA"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "PAT",
+    "COLLINS",
+    "ARENSAMA"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PAT",
+      "PASTA",
+      "ARENSAMA",
+      "COLLINS"
+     ],
+     "team": [
+      "PAT",
+      "COLLINS",
+      "ARENSAMA"
+     ],
+     "proposer": "PAT"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

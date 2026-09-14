@@ -1,0 +1,315 @@
+{
+ "players": [
+  {
+   "name": "UMI",
+   "uid": "SjR9AFcmnph8l83yMldWF9jwXkv1"
+  },
+  {
+   "uid": "PmYoNs4083XPbknt6sNOhYVoPpz1",
+   "name": "CHARLOTTAY"
+  },
+  {
+   "name": "MATEUSZ",
+   "uid": "v1VFqfvTxThmWDdo5CRZHeeFW743"
+  },
+  {
+   "uid": "GOmYsPsM9WMzUKhrxci5ET841vQ2",
+   "name": "JOJO"
+  },
+  {
+   "name": "FLINDA",
+   "uid": "4hOTUPKrYpgeriWdQLDRzWGc5go1"
+  },
+  {
+   "uid": "YI02LEud3EPgzhivxLzeWoVcLTy1",
+   "name": "TONYYY"
+  },
+  {
+   "name": "YOSHI",
+   "uid": "1ljROKf57BQXQHLCBMoqCGQFNKA3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591318567,
+  "_nanoseconds": 899000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591321336,
+  "_nanoseconds": 617000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JOJO"
+   },
+   {
+    "assassin": false,
+    "name": "YOSHI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "UMI",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MATEUSZ"
+   },
+   {
+    "name": "TONYYY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "CHARLOTTAY",
+    "assassin": true
+   },
+   {
+    "name": "FLINDA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "UMI": true,
+    "YOSHI": true
+   },
+   {
+    "YOSHI": true,
+    "UMI": true,
+    "TONYYY": true
+   },
+   {
+    "UMI": true,
+    "YOSHI": true,
+    "TONYYY": false
+   },
+   {
+    "TONYYY": false,
+    "UMI": true,
+    "JOJO": false,
+    "CHARLOTTAY": true
+   },
+   {
+    "FLINDA": true,
+    "MATEUSZ": true,
+    "YOSHI": true,
+    "UMI": true
+   }
+  ],
+  "assassinated": "MATEUSZ"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "CHARLOTTAY",
+     "team": [
+      "CHARLOTTAY",
+      "FLINDA"
+     ],
+     "votes": [
+      "FLINDA",
+      "JOJO"
+     ]
+    },
+    {
+     "votes": [
+      "CHARLOTTAY",
+      "FLINDA",
+      "JOJO",
+      "UMI",
+      "MATEUSZ"
+     ],
+     "team": [
+      "UMI",
+      "YOSHI"
+     ],
+     "state": "APPROVED",
+     "proposer": "MATEUSZ"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "UMI",
+    "YOSHI"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "UMI",
+      "CHARLOTTAY",
+      "MATEUSZ"
+     ],
+     "proposer": "JOJO",
+     "votes": [
+      "JOJO",
+      "UMI"
+     ]
+    },
+    {
+     "votes": [
+      "TONYYY",
+      "FLINDA",
+      "JOJO"
+     ],
+     "proposer": "FLINDA",
+     "state": "REJECTED",
+     "team": [
+      "UMI",
+      "FLINDA",
+      "TONYYY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "TONYYY",
+     "votes": [
+      "UMI",
+      "MATEUSZ",
+      "TONYYY",
+      "CHARLOTTAY",
+      "FLINDA",
+      "JOJO"
+     ],
+     "team": [
+      "TONYYY",
+      "YOSHI",
+      "UMI"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "TONYYY",
+    "YOSHI",
+    "UMI"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "YOSHI",
+    "TONYYY",
+    "UMI"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TONYYY",
+      "CHARLOTTAY",
+      "FLINDA",
+      "JOJO",
+      "YOSHI",
+      "UMI"
+     ],
+     "proposer": "YOSHI",
+     "team": [
+      "YOSHI",
+      "TONYYY",
+      "UMI"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "TONYYY",
+      "UMI",
+      "JOJO",
+      "CHARLOTTAY"
+     ],
+     "votes": [
+      "FLINDA",
+      "JOJO",
+      "UMI",
+      "CHARLOTTAY"
+     ],
+     "state": "APPROVED",
+     "proposer": "UMI"
+    }
+   ],
+   "team": [
+    "TONYYY",
+    "UMI",
+    "JOJO",
+    "CHARLOTTAY"
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 2
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "UMI",
+      "CHARLOTTAY",
+      "JOJO",
+      "YOSHI"
+     ],
+     "votes": [
+      "CHARLOTTAY"
+     ],
+     "proposer": "CHARLOTTAY",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "MATEUSZ",
+     "votes": [
+      "MATEUSZ",
+      "CHARLOTTAY",
+      "FLINDA",
+      "YOSHI",
+      "UMI"
+     ],
+     "team": [
+      "UMI",
+      "FLINDA",
+      "YOSHI",
+      "MATEUSZ"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "UMI",
+    "FLINDA",
+    "YOSHI",
+    "MATEUSZ"
+   ]
+  }
+ ]
+}

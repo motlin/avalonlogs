@@ -1,0 +1,346 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1609385906,
+  "_nanoseconds": 332000000
+ },
+ "players": [
+  {
+   "uid": "QqQJ4IHcv1MtUDQvaRE3HGDWqql2",
+   "name": "RYAN"
+  },
+  {
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2",
+   "name": "JERRY"
+  },
+  {
+   "name": "ZEBY",
+   "uid": "GebW7guRJ4e6HjKe5CKl0SFn9M53"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "uid": "BOfgQoFuXVcasobc5ELL1WmBERS2",
+   "name": "SIDDHANT"
+  },
+  {
+   "name": "KENNY",
+   "uid": "V2KfteaM2obh7vvdP96tqZfsKFY2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "ZEBY",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "MAL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SIDDHANT"
+   },
+   {
+    "name": "KENNY",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ],
+  "votes": [
+   {
+    "RYAN": true,
+    "SIDDHANT": true
+   },
+   {
+    "JERRY": true,
+    "SIDDHANT": true,
+    "KENNY": true
+   },
+   {
+    "KENNY": true,
+    "JERRY": false,
+    "RYAN": true,
+    "ZEBY": true
+   },
+   {
+    "JERRY": false,
+    "SIDDHANT": true,
+    "KENNY": true
+   },
+   {
+    "KENNY": false,
+    "RYAN": true,
+    "ZEBY": true,
+    "MAL": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "ZEBY",
+      "KENNY",
+      "SIDDHANT",
+      "RYAN",
+      "JERRY"
+     ],
+     "team": [
+      "RYAN",
+      "SIDDHANT"
+     ],
+     "proposer": "RYAN"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "RYAN",
+    "SIDDHANT"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "JERRY",
+    "SIDDHANT",
+    "KENNY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "MAL",
+      "RYAN",
+      "SIDDHANT",
+      "ZEBY",
+      "JERRY",
+      "KENNY"
+     ],
+     "team": [
+      "JERRY",
+      "SIDDHANT",
+      "KENNY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JERRY"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "RYAN",
+    "KENNY",
+    "ZEBY",
+    "JERRY"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ZEBY",
+     "votes": [
+      "ZEBY",
+      "SIDDHANT"
+     ],
+     "team": [
+      "JERRY",
+      "SIDDHANT",
+      "KENNY",
+      "ZEBY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RYAN",
+      "KENNY"
+     ],
+     "team": [
+      "MAL",
+      "SIDDHANT",
+      "KENNY",
+      "RYAN"
+     ],
+     "proposer": "MAL"
+    },
+    {
+     "proposer": "SIDDHANT",
+     "votes": [
+      "RYAN"
+     ],
+     "team": [
+      "SIDDHANT",
+      "RYAN",
+      "KENNY",
+      "JERRY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KENNY",
+     "team": [
+      "KENNY",
+      "SIDDHANT",
+      "MAL",
+      "RYAN"
+     ],
+     "votes": [
+      "MAL"
+     ]
+    },
+    {
+     "team": [
+      "RYAN",
+      "KENNY",
+      "ZEBY",
+      "JERRY"
+     ],
+     "votes": [
+      "SIDDHANT",
+      "ZEBY",
+      "KENNY",
+      "JERRY",
+      "RYAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYAN"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JERRY",
+     "state": "APPROVED",
+     "team": [
+      "JERRY",
+      "SIDDHANT",
+      "KENNY"
+     ],
+     "votes": [
+      "KENNY",
+      "SIDDHANT",
+      "ZEBY",
+      "JERRY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "JERRY",
+    "SIDDHANT",
+    "KENNY"
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "KENNY",
+    "MAL",
+    "ZEBY",
+    "RYAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ZEBY",
+      "RYAN",
+      "JERRY",
+      "KENNY"
+     ],
+     "votes": [],
+     "proposer": "ZEBY"
+    },
+    {
+     "proposer": "MAL",
+     "votes": [
+      "RYAN",
+      "KENNY",
+      "MAL"
+     ],
+     "team": [
+      "MAL",
+      "KENNY",
+      "RYAN",
+      "ZEBY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "SIDDHANT",
+      "MAL",
+      "RYAN",
+      "KENNY"
+     ],
+     "votes": [
+      "SIDDHANT"
+     ],
+     "state": "REJECTED",
+     "proposer": "SIDDHANT"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KENNY",
+      "MAL",
+      "ZEBY",
+      "RYAN"
+     ],
+     "proposer": "KENNY",
+     "votes": [
+      "RYAN",
+      "MAL",
+      "ZEBY",
+      "KENNY"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1609383476,
+  "_nanoseconds": 47000000
+ }
+}

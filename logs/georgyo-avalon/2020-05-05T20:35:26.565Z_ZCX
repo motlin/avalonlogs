@@ -1,0 +1,401 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588716102,
+  "_nanoseconds": 374000000
+ },
+ "timeCreated": {
+  "_seconds": 1588710926,
+  "_nanoseconds": 565000000
+ },
+ "players": [
+  {
+   "name": "TMOER",
+   "uid": "9Q0u0dGqsXQ6GZ8WdeGyVAIB1jI2"
+  },
+  {
+   "name": "OEFSHAKALA",
+   "uid": "owCrJgrlZ3YA6HYxGWdQFiEx7Xj1"
+  },
+  {
+   "name": "HIERONYMUS",
+   "uid": "lZPPiV0Qf0bEErEd5jmldK42brv1"
+  },
+  {
+   "name": "FEDEREK",
+   "uid": "C8fTALCJ1Th9ZcCkPx7UBJxh7eN2"
+  },
+  {
+   "uid": "YGJVRWuCEoe0EmyIjNqITEb2dTv1",
+   "name": "TIMSEN"
+  },
+  {
+   "name": "JASPER",
+   "uid": "AY74ODK0CZOboixnwQ78wtVIybm1"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "FEDEREK": true,
+    "TIMSEN": true
+   },
+   {
+    "OEFSHAKALA": true,
+    "FEDEREK": true,
+    "JASPER": true
+   },
+   {
+    "JASPER": false,
+    "OEFSHAKALA": true,
+    "TMOER": true,
+    "FEDEREK": true
+   },
+   {
+    "TIMSEN": true,
+    "FEDEREK": true,
+    "TMOER": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "HIERONYMUS"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TMOER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "OEFSHAKALA"
+   },
+   {
+    "name": "JASPER",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "FEDEREK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "TIMSEN"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "TIMSEN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TMOER"
+     ],
+     "team": [
+      "TMOER",
+      "OEFSHAKALA"
+     ],
+     "proposer": "TMOER",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "OEFSHAKALA",
+     "state": "REJECTED",
+     "votes": [
+      "TMOER",
+      "OEFSHAKALA"
+     ],
+     "team": [
+      "OEFSHAKALA",
+      "TMOER"
+     ]
+    },
+    {
+     "votes": [
+      "HIERONYMUS",
+      "TIMSEN"
+     ],
+     "team": [
+      "HIERONYMUS",
+      "TIMSEN"
+     ],
+     "proposer": "HIERONYMUS",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "FEDEREK"
+     ],
+     "team": [
+      "HIERONYMUS",
+      "FEDEREK"
+     ],
+     "proposer": "FEDEREK",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TIMSEN",
+      "FEDEREK"
+     ],
+     "proposer": "TIMSEN",
+     "votes": [
+      "TMOER",
+      "JASPER",
+      "FEDEREK",
+      "TIMSEN",
+      "HIERONYMUS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "TIMSEN",
+    "FEDEREK"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "OEFSHAKALA",
+    "FEDEREK",
+    "JASPER"
+   ],
+   "proposals": [
+    {
+     "proposer": "JASPER",
+     "votes": [
+      "JASPER"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "FEDEREK",
+      "TIMSEN",
+      "JASPER"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "TMOER",
+      "OEFSHAKALA",
+      "TIMSEN"
+     ],
+     "proposer": "TMOER"
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "OEFSHAKALA",
+      "FEDEREK",
+      "TIMSEN"
+     ],
+     "proposer": "OEFSHAKALA"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TMOER",
+      "TIMSEN",
+      "HIERONYMUS"
+     ],
+     "team": [
+      "HIERONYMUS",
+      "TMOER",
+      "TIMSEN"
+     ],
+     "proposer": "HIERONYMUS"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "OEFSHAKALA",
+      "FEDEREK",
+      "JASPER"
+     ],
+     "votes": [
+      "FEDEREK",
+      "TIMSEN",
+      "HIERONYMUS",
+      "TMOER",
+      "OEFSHAKALA",
+      "JASPER"
+     ],
+     "proposer": "FEDEREK"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "OEFSHAKALA",
+    "FEDEREK",
+    "JASPER",
+    "TMOER"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JASPER"
+     ],
+     "team": [
+      "TIMSEN",
+      "JASPER",
+      "OEFSHAKALA",
+      "FEDEREK"
+     ],
+     "proposer": "TIMSEN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JASPER",
+     "state": "REJECTED",
+     "team": [
+      "JASPER",
+      "TIMSEN",
+      "FEDEREK",
+      "OEFSHAKALA"
+     ],
+     "votes": [
+      "JASPER"
+     ]
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "TMOER",
+     "team": [
+      "TMOER",
+      "TIMSEN",
+      "FEDEREK",
+      "JASPER"
+     ]
+    },
+    {
+     "proposer": "OEFSHAKALA",
+     "state": "APPROVED",
+     "team": [
+      "OEFSHAKALA",
+      "FEDEREK",
+      "JASPER",
+      "TMOER"
+     ],
+     "votes": [
+      "FEDEREK",
+      "TMOER",
+      "OEFSHAKALA",
+      "JASPER"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "HIERONYMUS",
+      "TMOER",
+      "TIMSEN"
+     ],
+     "proposer": "HIERONYMUS",
+     "state": "REJECTED",
+     "votes": [
+      "TIMSEN"
+     ]
+    },
+    {
+     "votes": [
+      "FEDEREK"
+     ],
+     "team": [
+      "OEFSHAKALA",
+      "FEDEREK",
+      "TIMSEN"
+     ],
+     "proposer": "FEDEREK",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "TIMSEN",
+     "state": "REJECTED",
+     "team": [
+      "HIERONYMUS",
+      "FEDEREK",
+      "TIMSEN"
+     ],
+     "votes": [
+      "TIMSEN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JASPER"
+     ],
+     "proposer": "JASPER",
+     "team": [
+      "OEFSHAKALA",
+      "FEDEREK",
+      "JASPER"
+     ]
+    },
+    {
+     "votes": [
+      "FEDEREK",
+      "TIMSEN",
+      "HIERONYMUS",
+      "TMOER",
+      "OEFSHAKALA",
+      "JASPER"
+     ],
+     "team": [
+      "TMOER",
+      "TIMSEN",
+      "FEDEREK"
+     ],
+     "state": "APPROVED",
+     "proposer": "TMOER"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "TMOER",
+    "TIMSEN",
+    "FEDEREK"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "LOUIS": true,
+    "YANNY": true
+   },
+   {
+    "KORITKO": true,
+    "LOUIS": true,
+    "YANNY": true
+   },
+   {
+    "YANNY": true,
+    "KORITKO": true,
+    "LOUIS": false
+   },
+   {
+    "JESSICA": false,
+    "YANNY": true,
+    "KORITKO": true,
+    "EVAN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JAY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KORITKO"
+   },
+   {
+    "name": "EVAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "JESSICA"
+   },
+   {
+    "name": "JOHN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "YANNY",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "LOUIS"
+   }
+  ],
+  "message": "Three missions succeeded",
+  "state": "GOOD_WIN",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "LOUIS",
+    "YANNY"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KORITKO",
+      "EVAN",
+      "JESSICA",
+      "YANNY",
+      "LOUIS",
+      "JAY"
+     ],
+     "team": [
+      "LOUIS",
+      "YANNY"
+     ],
+     "proposer": "YANNY"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "YANNY",
+    "LOUIS",
+    "KORITKO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "YANNY",
+      "LOUIS",
+      "KORITKO"
+     ],
+     "votes": [
+      "LOUIS",
+      "JAY",
+      "KORITKO",
+      "EVAN",
+      "JESSICA",
+      "YANNY"
+     ],
+     "proposer": "LOUIS",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "YANNY",
+    "LOUIS",
+    "KORITKO"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "YANNY",
+      "LOUIS",
+      "KORITKO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JOHN",
+      "YANNY",
+      "LOUIS",
+      "JAY",
+      "KORITKO",
+      "EVAN",
+      "JESSICA"
+     ],
+     "proposer": "JOHN"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "KORITKO",
+      "YANNY",
+      "EVAN",
+      "JESSICA"
+     ],
+     "proposer": "KORITKO",
+     "votes": [
+      "KORITKO",
+      "EVAN",
+      "JESSICA",
+      "YANNY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 1,
+   "team": [
+    "KORITKO",
+    "YANNY",
+    "EVAN",
+    "JESSICA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "dGxWpetP0XNBvHhWS0nICIXeK4Y2",
+   "name": "EVAN"
+  },
+  {
+   "name": "JESSICA",
+   "uid": "r8gOHrrtdlbojdqbzaggtsuIAgY2"
+  },
+  {
+   "uid": "5wT6hEk7h1OrespCYq34YPAwqdx2",
+   "name": "YANNY"
+  },
+  {
+   "uid": "FxNVnPh3OQhH9a24DbpHwR8uJLU2",
+   "name": "LOUIS"
+  },
+  {
+   "name": "JOHN",
+   "uid": "sbo25FQlZGTCEaJOSBGl3evpqCn1"
+  },
+  {
+   "uid": "gDWnsaaToTO3W2wuBJnyv2xC70k1",
+   "name": "KORITKO"
+  },
+  {
+   "uid": "SdWHqhHFvOgsxfNEoMR5CadQJHH2",
+   "name": "JAY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593209016,
+  "_nanoseconds": 281000000
+ },
+ "timeFinished": {
+  "_seconds": 1593209439,
+  "_nanoseconds": 634000000
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "players": [
+  {
+   "uid": "OAu5c063bzUQoFjB81mw0jTwwu53",
+   "name": "ANOOP"
+  },
+  {
+   "name": "BIGCAT",
+   "uid": "bwYRJWHfmTfJbkEXKTuv4MlXivG2"
+  },
+  {
+   "name": "ESHAN",
+   "uid": "onxQ9AedDyWrfzksqdDBtdAr0552"
+  },
+  {
+   "name": "JANANI",
+   "uid": "o0jh6aCeZ0UFvfKpvnucp7V67mj1"
+  },
+  {
+   "name": "KRISHU",
+   "uid": "pit2Txtfu4ONuuSfCEY0Xxb5dPm1"
+  },
+  {
+   "name": "RHIDAM",
+   "uid": "DVCrwgLYsaM2znFEJiHcGRQAXfa2"
+  },
+  {
+   "name": "KRITHI",
+   "uid": "Sga239RtEITi13MaPMCvHvz44tg1"
+  }
+ ],
+ "outcome": {
+  "assassinated": "ESHAN",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "RHIDAM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ESHAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "JANANI",
+    "assassin": false
+   },
+   {
+    "name": "KRISHU",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KRITHI",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "BIGCAT",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ANOOP",
+    "assassin": true
+   }
+  ],
+  "votes": [
+   {
+    "ESHAN": true,
+    "JANANI": true
+   },
+   {
+    "ANOOP": true,
+    "KRISHU": true,
+    "JANANI": true
+   },
+   {
+    "ESHAN": true,
+    "KRISHU": false,
+    "JANANI": true
+   },
+   {
+    "KRITHI": false,
+    "RHIDAM": true,
+    "JANANI": true,
+    "ANOOP": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "BIGCAT",
+      "ANOOP",
+      "ESHAN",
+      "JANANI",
+      "KRISHU"
+     ],
+     "proposer": "ESHAN",
+     "team": [
+      "ESHAN",
+      "JANANI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ESHAN",
+    "JANANI"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "JANANI",
+    "ANOOP",
+    "KRISHU"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JANANI",
+      "ANOOP",
+      "KRISHU"
+     ],
+     "proposer": "JANANI",
+     "state": "APPROVED",
+     "votes": [
+      "RHIDAM",
+      "JANANI",
+      "KRISHU",
+      "KRITHI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "KRISHU",
+    "JANANI",
+    "ESHAN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KRISHU",
+     "votes": [
+      "RHIDAM",
+      "ESHAN",
+      "JANANI",
+      "KRISHU",
+      "KRITHI"
+     ],
+     "team": [
+      "KRISHU",
+      "JANANI",
+      "ESHAN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BIGCAT",
+      "RHIDAM",
+      "ESHAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RHIDAM",
+      "JANANI",
+      "ESHAN",
+      "KRITHI"
+     ],
+     "proposer": "RHIDAM"
+    },
+    {
+     "team": [
+      "JANANI",
+      "ANOOP",
+      "RHIDAM",
+      "KRITHI"
+     ],
+     "votes": [
+      "KRITHI",
+      "ANOOP",
+      "ESHAN",
+      "JANANI"
+     ],
+     "state": "APPROVED",
+     "proposer": "KRITHI"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "JANANI",
+    "ANOOP",
+    "RHIDAM",
+    "KRITHI"
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "numFails": 1
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586234213,
+  "_nanoseconds": 597283000
+ },
+ "timeCreated": {
+  "_seconds": 1586233593,
+  "_nanoseconds": 890000000
+ }
+}

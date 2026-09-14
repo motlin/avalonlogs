@@ -1,0 +1,266 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591242372,
+  "_nanoseconds": 97000000
+ },
+ "players": [
+  {
+   "name": "ISHYISH",
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62"
+  },
+  {
+   "name": "THEPEBBLE",
+   "uid": "BFYQOA17uOXmU9tXluHXb964U4C3"
+  },
+  {
+   "uid": "2cqiTd5tlyOAZjk7XzGEH0pINPE2",
+   "name": "SOGGY"
+  },
+  {
+   "uid": "IroQlyB05YPqQDIKP8xOZd2AFJE2",
+   "name": "ICE"
+  },
+  {
+   "name": "SPLOOSH",
+   "uid": "fS9mr21rGYQwBBMdESWSjZGuOsv2"
+  },
+  {
+   "name": "DNAIK",
+   "uid": "zBKMzPQp8uODk6urkBaihOcq9J53"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591242770,
+  "_nanoseconds": 31000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "DNAIK": true,
+    "ISHYISH": true
+   },
+   {
+    "SOGGY": false,
+    "DNAIK": true,
+    "THEPEBBLE": true
+   },
+   {
+    "THEPEBBLE": true,
+    "DNAIK": true,
+    "ICE": true,
+    "ISHYISH": true
+   },
+   {
+    "ICE": true,
+    "DNAIK": true,
+    "ISHYISH": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SOGGY",
+    "role": "MORGANA"
+   },
+   {
+    "name": "ISHYISH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "DNAIK",
+    "assassin": false
+   },
+   {
+    "name": "THEPEBBLE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ICE",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORDRED",
+    "name": "SPLOOSH",
+    "assassin": true
+   }
+  ],
+  "assassinated": "ICE"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "ISHYISH",
+    "DNAIK"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH"
+     ],
+     "state": "APPROVED",
+     "proposer": "ISHYISH",
+     "team": [
+      "ISHYISH",
+      "DNAIK"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "THEPEBBLE",
+    "SOGGY",
+    "DNAIK"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH",
+      "SOGGY",
+      "ISHYISH"
+     ],
+     "team": [
+      "THEPEBBLE",
+      "SOGGY",
+      "DNAIK"
+     ],
+     "proposer": "THEPEBBLE",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "ICE",
+    "DNAIK",
+    "ISHYISH",
+    "THEPEBBLE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SOGGY",
+     "votes": [
+      "SOGGY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DNAIK",
+      "SPLOOSH",
+      "THEPEBBLE",
+      "ICE"
+     ]
+    },
+    {
+     "proposer": "ICE",
+     "team": [
+      "ICE",
+      "DNAIK",
+      "ISHYISH",
+      "THEPEBBLE"
+     ],
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH",
+      "SOGGY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SOGGY",
+      "THEPEBBLE",
+      "SPLOOSH"
+     ],
+     "team": [
+      "THEPEBBLE",
+      "SOGGY",
+      "SPLOOSH"
+     ],
+     "state": "REJECTED",
+     "proposer": "SPLOOSH"
+    },
+    {
+     "team": [
+      "DNAIK",
+      "ICE",
+      "ISHYISH"
+     ],
+     "proposer": "DNAIK",
+     "state": "REJECTED",
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "ICE"
+     ]
+    },
+    {
+     "proposer": "ISHYISH",
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE"
+     ],
+     "team": [
+      "ISHYISH",
+      "ICE",
+      "DNAIK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ISHYISH",
+    "ICE",
+    "DNAIK"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

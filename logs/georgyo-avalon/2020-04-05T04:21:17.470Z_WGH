@@ -1,0 +1,414 @@
+{
+ "timeCreated": {
+  "_seconds": 1586060477,
+  "_nanoseconds": 470000000
+ },
+ "players": [
+  {
+   "uid": "NZJD5aMZGiVcNRuAEtySgaHpCOS2",
+   "name": "AKASH"
+  },
+  {
+   "name": "ANGELA",
+   "uid": "UYfe5G3DIfQlJAVA4IRUhQpEBK72"
+  },
+  {
+   "name": "ANUJ",
+   "uid": "5tH6ccVA9ZeuK313wkz7sG7bxXq1"
+  },
+  {
+   "name": "ARCHIT",
+   "uid": "Q1VcmH3AXaaIK5jsu3OvYdKK0eJ2"
+  },
+  {
+   "name": "ARNAV",
+   "uid": "WHWpTLwxu7XS9FjgxEp1ZjFdSci1"
+  },
+  {
+   "uid": "0TslBw4c1ldSK5HxvBQawh1v9ya2",
+   "name": "ROSHAN"
+  }
+ ],
+ "outcome": {
+  "assassinated": "ARCHIT",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "ROSHAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "ARCHIT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ARNAV"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AKASH",
+    "assassin": false
+   },
+   {
+    "name": "ANUJ",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ANGELA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "ARNAV": true,
+    "AKASH": true
+   },
+   {
+    "ARNAV": true,
+    "ROSHAN": true,
+    "ARCHIT": true
+   },
+   {
+    "ANUJ": false,
+    "ARNAV": true,
+    "ARCHIT": true,
+    "ROSHAN": true
+   },
+   {
+    "ANGELA": false,
+    "ARCHIT": true,
+    "ARNAV": true
+   },
+   {
+    "AKASH": true,
+    "ROSHAN": true,
+    "ARCHIT": true,
+    "ARNAV": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1586064878,
+  "_nanoseconds": 483675000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ARNAV",
+      "AKASH"
+     ],
+     "proposer": "ARNAV",
+     "votes": [
+      "ARCHIT",
+      "ARNAV",
+      "AKASH",
+      "ROSHAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "ARNAV",
+    "AKASH"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ROSHAN",
+     "team": [
+      "ROSHAN",
+      "ARNAV",
+      "ARCHIT"
+     ],
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "AKASH",
+     "team": [
+      "AKASH",
+      "ANGELA",
+      "ANUJ"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AKASH"
+     ]
+    },
+    {
+     "votes": [
+      "ANGELA",
+      "ARNAV"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANGELA",
+      "ARNAV",
+      "ROSHAN"
+     ],
+     "proposer": "ANGELA"
+    },
+    {
+     "votes": [
+      "AKASH",
+      "ANUJ"
+     ],
+     "team": [
+      "ANUJ",
+      "ROSHAN",
+      "AKASH"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANUJ"
+    },
+    {
+     "votes": [
+      "ROSHAN",
+      "ARCHIT",
+      "ARNAV",
+      "AKASH",
+      "ANGELA"
+     ],
+     "team": [
+      "ARCHIT",
+      "ROSHAN",
+      "ARNAV"
+     ],
+     "state": "APPROVED",
+     "proposer": "ARCHIT"
+    }
+   ],
+   "team": [
+    "ARCHIT",
+    "ROSHAN",
+    "ARNAV"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ANUJ",
+    "ARCHIT",
+    "ARNAV",
+    "ROSHAN"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ARNAV",
+      "ARCHIT",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "proposer": "ARNAV",
+     "votes": []
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ROSHAN",
+      "ARCHIT",
+      "ARNAV",
+      "ANUJ"
+     ],
+     "votes": [
+      "ROSHAN"
+     ],
+     "proposer": "ROSHAN"
+    },
+    {
+     "proposer": "AKASH",
+     "team": [
+      "AKASH",
+      "ARCHIT",
+      "ARNAV",
+      "ROSHAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AKASH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ANGELA",
+      "ARCHIT",
+      "ARNAV",
+      "ROSHAN"
+     ],
+     "votes": [
+      "ARNAV",
+      "ANGELA"
+     ],
+     "proposer": "ANGELA"
+    },
+    {
+     "votes": [
+      "ARCHIT",
+      "ARNAV",
+      "AKASH",
+      "ANUJ",
+      "ANGELA",
+      "ROSHAN"
+     ],
+     "proposer": "ANUJ",
+     "state": "APPROVED",
+     "team": [
+      "ANUJ",
+      "ARCHIT",
+      "ARNAV",
+      "ROSHAN"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ANGELA",
+    "ARCHIT",
+    "ARNAV"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ARCHIT",
+      "ARNAV",
+      "AKASH"
+     ],
+     "votes": [
+      "ARCHIT",
+      "AKASH"
+     ],
+     "proposer": "ARCHIT"
+    },
+    {
+     "votes": [
+      "ARNAV"
+     ],
+     "team": [
+      "ARNAV",
+      "ARCHIT",
+      "ANUJ"
+     ],
+     "state": "REJECTED",
+     "proposer": "ARNAV"
+    },
+    {
+     "proposer": "ROSHAN",
+     "state": "REJECTED",
+     "votes": [
+      "AKASH",
+      "ROSHAN"
+     ],
+     "team": [
+      "ROSHAN",
+      "ARCHIT",
+      "AKASH"
+     ]
+    },
+    {
+     "proposer": "AKASH",
+     "state": "REJECTED",
+     "votes": [
+      "ROSHAN",
+      "ARCHIT",
+      "AKASH"
+     ],
+     "team": [
+      "AKASH",
+      "ARCHIT",
+      "ROSHAN"
+     ]
+    },
+    {
+     "votes": [
+      "ROSHAN",
+      "ARCHIT",
+      "ARNAV",
+      "AKASH",
+      "ANUJ",
+      "ANGELA"
+     ],
+     "proposer": "ANGELA",
+     "team": [
+      "ANGELA",
+      "ARCHIT",
+      "ARNAV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "ARCHIT",
+    "AKASH",
+    "ARNAV",
+    "ROSHAN"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ANUJ",
+     "votes": [
+      "ANUJ"
+     ],
+     "team": [
+      "ANUJ",
+      "ARNAV",
+      "ANGELA",
+      "ROSHAN"
+     ]
+    },
+    {
+     "votes": [
+      "ROSHAN",
+      "ARCHIT",
+      "ARNAV",
+      "AKASH"
+     ],
+     "team": [
+      "ARCHIT",
+      "AKASH",
+      "ARNAV",
+      "ROSHAN"
+     ],
+     "proposer": "ARCHIT",
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ]
+}

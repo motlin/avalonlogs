@@ -1,0 +1,235 @@
+{
+ "players": [
+  {
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2",
+   "name": "ROBIN"
+  },
+  {
+   "name": "WEI",
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2"
+  },
+  {
+   "name": "SKYX",
+   "uid": "YjIwyhCncYUiYPvf2PZcnmxX2Ou1"
+  },
+  {
+   "name": "KENT",
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3"
+  },
+  {
+   "name": "WEILUN",
+   "uid": "w6eoxVI6I5NrapBHh3I4tf1Igvr1"
+  },
+  {
+   "name": "PROVIDENCE",
+   "uid": "w2ngiDASElTWBTMXd9fdYpBlSNx1"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ROBIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "WEI",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "PROVIDENCE",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "SKYX",
+    "role": "MERLIN"
+   },
+   {
+    "name": "KENT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "WEILUN"
+   }
+  ],
+  "votes": [
+   {
+    "KENT": true,
+    "WEILUN": true
+   },
+   {
+    "KENT": true,
+    "WEI": true,
+    "WEILUN": true
+   },
+   {
+    "WEILUN": false,
+    "SKYX": true,
+    "WEI": true,
+    "KENT": true
+   },
+   {
+    "WEI": true,
+    "ROBIN": true,
+    "KENT": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "ROBIN"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "KENT",
+      "WEILUN"
+     ],
+     "proposer": "KENT",
+     "votes": [
+      "ROBIN",
+      "WEI",
+      "SKYX",
+      "KENT",
+      "WEILUN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KENT",
+    "WEILUN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "WEILUN",
+      "KENT",
+      "WEI"
+     ],
+     "proposer": "WEILUN",
+     "votes": [
+      "SKYX",
+      "KENT",
+      "WEILUN",
+      "ROBIN",
+      "WEI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "WEILUN",
+    "KENT",
+    "WEI"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "KENT",
+    "WEI",
+    "WEILUN",
+    "SKYX"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KENT",
+      "WEI",
+      "WEILUN",
+      "SKYX"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SKYX",
+      "WEILUN",
+      "WEI",
+      "PROVIDENCE"
+     ],
+     "proposer": "PROVIDENCE"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ROBIN",
+    "WEI",
+    "KENT"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "WEI",
+      "ROBIN",
+      "PROVIDENCE"
+     ],
+     "state": "REJECTED",
+     "proposer": "ROBIN",
+     "votes": [
+      "ROBIN",
+      "WEI",
+      "WEILUN"
+     ]
+    },
+    {
+     "proposer": "WEI",
+     "votes": [
+      "ROBIN",
+      "WEI",
+      "SKYX",
+      "WEILUN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ROBIN",
+      "WEI",
+      "KENT"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589300141,
+  "_nanoseconds": 791000000
+ },
+ "timeFinished": {
+  "_seconds": 1589300482,
+  "_nanoseconds": 21000000
+ }
+}

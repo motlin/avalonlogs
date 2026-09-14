@@ -1,0 +1,297 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "WILL",
+    "JERRY"
+   ],
+   "proposals": [
+    {
+     "proposer": "WILL",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "NIKKI",
+      "WILL"
+     ],
+     "team": [
+      "WILL",
+      "JERRY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "MAL",
+     "state": "REJECTED",
+     "votes": [
+      "NIKKI",
+      "MAL"
+     ],
+     "team": [
+      "WILL",
+      "NIKKI",
+      "MAL"
+     ]
+    },
+    {
+     "team": [
+      "AMANDA",
+      "WILL",
+      "NIKKI"
+     ],
+     "votes": [
+      "NIKKI",
+      "AMANDA"
+     ],
+     "proposer": "AMANDA",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "LEA",
+     "state": "APPROVED",
+     "votes": [
+      "NIKKI",
+      "WILL",
+      "LEA",
+      "JERRY"
+     ],
+     "team": [
+      "LEA",
+      "WILL",
+      "JERRY"
+     ]
+    }
+   ],
+   "team": [
+    "LEA",
+    "WILL",
+    "JERRY"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "JERRY",
+    "AMANDA",
+    "MAL",
+    "WILL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NIKKI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKKI",
+      "AMANDA",
+      "JERRY",
+      "LEA"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "team": [
+      "JERRY",
+      "AMANDA",
+      "MAL",
+      "WILL"
+     ],
+     "votes": [
+      "WILL",
+      "MAL",
+      "JERRY",
+      "AMANDA"
+     ],
+     "state": "APPROVED",
+     "proposer": "JERRY"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LEA",
+    "MAL",
+    "NIKKI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "AMANDA",
+      "WILL",
+      "MAL"
+     ],
+     "proposer": "WILL",
+     "state": "REJECTED",
+     "votes": [
+      "WILL",
+      "MAL"
+     ]
+    },
+    {
+     "votes": [
+      "MAL"
+     ],
+     "team": [
+      "MAL",
+      "LEA",
+      "JERRY"
+     ],
+     "proposer": "MAL",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "AMANDA",
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "AMANDA"
+     ],
+     "team": [
+      "AMANDA",
+      "MAL",
+      "LEA"
+     ]
+    },
+    {
+     "team": [
+      "LEA",
+      "MAL",
+      "NIKKI"
+     ],
+     "state": "APPROVED",
+     "proposer": "LEA",
+     "votes": [
+      "LEA",
+      "MAL",
+      "JERRY",
+      "AMANDA",
+      "NIKKI"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591738098,
+  "_nanoseconds": 501000000
+ },
+ "players": [
+  {
+   "name": "NIKKI",
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743"
+  },
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "name": "WILL",
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1",
+   "name": "AMANDA"
+  },
+  {
+   "name": "LEA",
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "NIKKI",
+    "assassin": false
+   },
+   {
+    "name": "WILL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LEA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MAL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "JERRY",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "AMANDA",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "JERRY": true,
+    "WILL": true
+   },
+   {
+    "JERRY": false,
+    "WILL": true,
+    "LEA": true
+   },
+   {
+    "WILL": true,
+    "MAL": true,
+    "JERRY": false,
+    "AMANDA": true
+   },
+   {
+    "MAL": true,
+    "NIKKI": false,
+    "LEA": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591739045,
+  "_nanoseconds": 28000000
+ }
+}

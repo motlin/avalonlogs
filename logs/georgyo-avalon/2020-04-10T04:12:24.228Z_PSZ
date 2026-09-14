@@ -1,0 +1,226 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "FRANKLIN": true,
+    "ADRIEN": true
+   },
+   {
+    "ADRIEN": true,
+    "CAT": false,
+    "ANDREA": true
+   },
+   {
+    "JASON": false,
+    "IVY": true,
+    "ADRIEN": true
+   },
+   {
+    "GURMAN": false,
+    "ADRIEN": true,
+    "ANDREA": true,
+    "JASON": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CAT",
+    "role": "MORDRED"
+   },
+   {
+    "name": "FRANKLIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "ADRIEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ANDREA",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "JASON",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "GURMAN"
+   },
+   {
+    "name": "IVY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "IVY",
+      "CAT",
+      "FRANKLIN",
+      "ADRIEN"
+     ],
+     "team": [
+      "ADRIEN",
+      "FRANKLIN"
+     ],
+     "proposer": "FRANKLIN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ADRIEN",
+    "FRANKLIN"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "IVY",
+      "ADRIEN",
+      "ANDREA",
+      "GURMAN",
+      "JASON"
+     ],
+     "team": [
+      "ADRIEN",
+      "CAT",
+      "ANDREA"
+     ],
+     "proposer": "GURMAN"
+    }
+   ],
+   "team": [
+    "ADRIEN",
+    "CAT",
+    "ANDREA"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "IVY",
+    "JASON",
+    "ADRIEN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "IVY",
+      "JASON",
+      "ADRIEN"
+     ],
+     "proposer": "IVY",
+     "votes": [
+      "JASON",
+      "GURMAN",
+      "IVY",
+      "ADRIEN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "ADRIEN",
+    "GURMAN",
+    "JASON",
+    "ANDREA"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "ADRIEN",
+      "GURMAN",
+      "JASON",
+      "ANDREA"
+     ],
+     "proposer": "JASON",
+     "state": "APPROVED",
+     "votes": [
+      "JASON",
+      "GURMAN",
+      "CAT",
+      "ADRIEN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "OVutUpjGF6PNlqLaxoWU8mwR9vx1",
+   "name": "ADRIEN"
+  },
+  {
+   "name": "ANDREA",
+   "uid": "0yagN6Zwhvgsu82FcKFgpCRpnSA3"
+  },
+  {
+   "uid": "q5Uta53BFXYKCFqUcs0bP2CNxqa2",
+   "name": "CAT"
+  },
+  {
+   "name": "FRANKLIN",
+   "uid": "oquLmxHjGpfdOdoOqOCfQhHNjJi2"
+  },
+  {
+   "uid": "P1d4LFrUbjciFKjVX4lKJZ5E7az2",
+   "name": "GURMAN"
+  },
+  {
+   "name": "IVY",
+   "uid": "VYgFIVdb5NNcYDOvVBqBF5RGoqm1"
+  },
+  {
+   "name": "JASON",
+   "uid": "sMZy4adZ9FVfjpqXH991owzRSEx2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586492592,
+  "_nanoseconds": 966831000
+ },
+ "timeCreated": {
+  "_seconds": 1586491944,
+  "_nanoseconds": 228000000
+ }
+}

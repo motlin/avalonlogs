@@ -1,0 +1,249 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "Tsr9t3uP37UAQA25qesMxXBzpP43",
+   "name": "ISAAC"
+  },
+  {
+   "name": "KILMENY",
+   "uid": "SePW3nab0ga1SWNYRCr36pqVJRd2"
+  },
+  {
+   "uid": "9L04brg6lsPZK6I0zhea8hJEtcy1",
+   "name": "ZACH"
+  },
+  {
+   "name": "KATIE",
+   "uid": "Z9ax7J8ITvMrqfGPDZkvUYzesgL2"
+  },
+  {
+   "name": "GRANT",
+   "uid": "6AsXjctprjSz9zycFkfN6frBkds2"
+  },
+  {
+   "name": "LACY",
+   "uid": "EPDi4j5DaBO2q3DhEwVC7LT1pzf2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589684452,
+  "_nanoseconds": 975000000
+ },
+ "timeFinished": {
+  "_seconds": 1589684902,
+  "_nanoseconds": 896000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ZACH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KATIE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "ISAAC",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GRANT"
+   },
+   {
+    "name": "LACY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "KILMENY",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ],
+  "assassinated": "ISAAC",
+  "votes": [
+   {
+    "ZACH": true,
+    "KATIE": true
+   },
+   {
+    "KATIE": true,
+    "ISAAC": true,
+    "ZACH": true
+   },
+   {
+    "ZACH": true,
+    "LACY": false,
+    "ISAAC": true,
+    "KATIE": true
+   },
+   {
+    "ISAAC": true,
+    "ZACH": true,
+    "KATIE": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "KATIE",
+    "ZACH"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "KILMENY",
+     "votes": [
+      "ISAAC",
+      "LACY",
+      "KILMENY",
+      "KATIE",
+      "ZACH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KATIE",
+      "ZACH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ZACH",
+    "KATIE",
+    "ISAAC"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ISAAC",
+      "LACY",
+      "KILMENY",
+      "KATIE",
+      "ZACH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ZACH",
+      "KATIE",
+      "ISAAC"
+     ],
+     "proposer": "ZACH"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ISAAC",
+      "KATIE",
+      "ZACH",
+      "LACY"
+     ],
+     "proposer": "KATIE",
+     "votes": [
+      "KATIE",
+      "ZACH",
+      "ISAAC",
+      "GRANT",
+      "LACY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ISAAC",
+    "KATIE",
+    "ZACH",
+    "LACY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ZACH",
+    "KATIE",
+    "ISAAC"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "GRANT",
+     "votes": [
+      "GRANT",
+      "LACY"
+     ],
+     "team": [
+      "KILMENY",
+      "LACY",
+      "ISAAC"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "GRANT",
+      "LACY",
+      "KATIE"
+     ],
+     "votes": [
+      "LACY",
+      "KILMENY"
+     ],
+     "proposer": "LACY",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ISAAC",
+     "votes": [
+      "ISAAC",
+      "GRANT",
+      "LACY",
+      "ZACH",
+      "KATIE"
+     ],
+     "team": [
+      "ZACH",
+      "KATIE",
+      "ISAAC"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ]
+}

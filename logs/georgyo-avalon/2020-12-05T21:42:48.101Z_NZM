@@ -1,0 +1,250 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "votes": [
+   {
+    "DOF": true,
+    "SIROJ": true
+   },
+   {
+    "ANTOINE": true,
+    "DOF": true,
+    "SIROJ": true
+   },
+   {
+    "DOF": true,
+    "SIROJ": true,
+    "ANTOINE": true,
+    "ROMAIN": false
+   },
+   {
+    "SIROJ": true,
+    "DOF": true,
+    "ANTOINE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SIROJ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "RHEVE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DOF",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NZM"
+   },
+   {
+    "assassin": false,
+    "name": "ROMAIN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ANTOINE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ANTOINE",
+   "uid": "xlFldH3u2vSyHdP0JXXHRfTceko1"
+  },
+  {
+   "name": "ROMAIN",
+   "uid": "3UU8HxjclAaU2U7xzCBKHVr5oFL2"
+  },
+  {
+   "uid": "U69qcGQ79ZM7dAf9sRnmaAcl9h83",
+   "name": "RHEVE"
+  },
+  {
+   "uid": "jHKkkXkxCUaCia4kP3kVOOQEqLX2",
+   "name": "DOF"
+  },
+  {
+   "name": "SIROJ",
+   "uid": "wlHWIUqnfeNmBZzoP6qw5VqsDgX2"
+  },
+  {
+   "name": "NZM",
+   "uid": "xGw9oCc6EaZwv1eZ8CmvOhexF2j2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1607205243,
+  "_nanoseconds": 391000000
+ },
+ "timeCreated": {
+  "_seconds": 1607204568,
+  "_nanoseconds": 101000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "DOF",
+      "SIROJ"
+     ],
+     "votes": [
+      "SIROJ",
+      "ROMAIN",
+      "DOF",
+      "RHEVE",
+      "ANTOINE",
+      "NZM"
+     ],
+     "state": "APPROVED",
+     "proposer": "SIROJ"
+    }
+   ],
+   "team": [
+    "DOF",
+    "SIROJ"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "NZM",
+     "team": [
+      "NZM",
+      "ANTOINE",
+      "ROMAIN"
+     ],
+     "votes": [
+      "ROMAIN",
+      "NZM",
+      "RHEVE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANTOINE",
+      "DOF",
+      "SIROJ"
+     ],
+     "proposer": "ANTOINE",
+     "votes": [
+      "DOF",
+      "ANTOINE",
+      "SIROJ",
+      "ROMAIN",
+      "RHEVE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ANTOINE",
+    "DOF",
+    "SIROJ"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ROMAIN",
+      "ANTOINE",
+      "DOF",
+      "SIROJ"
+     ],
+     "votes": [
+      "SIROJ",
+      "ROMAIN",
+      "RHEVE",
+      "DOF"
+     ],
+     "state": "APPROVED",
+     "proposer": "ROMAIN"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ROMAIN",
+    "ANTOINE",
+    "DOF",
+    "SIROJ"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "SIROJ",
+    "DOF",
+    "ANTOINE"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NZM",
+      "RHEVE",
+      "SIROJ"
+     ],
+     "team": [
+      "NZM",
+      "SIROJ",
+      "RHEVE"
+     ],
+     "proposer": "RHEVE"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "DOF",
+     "votes": [
+      "ANTOINE",
+      "RHEVE",
+      "DOF",
+      "SIROJ"
+     ],
+     "team": [
+      "SIROJ",
+      "DOF",
+      "ANTOINE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "players": [
+  {
+   "name": "JACOB",
+   "uid": "2kkT3FL8EsOPKj3k1U3nv1g07Ou1"
+  },
+  {
+   "uid": "nXt2To4t83Uy4w4OmbDdE2EjRWD3",
+   "name": "AREEJ"
+  },
+  {
+   "uid": "KgEg5NvTY6OkEOFw5RNqb6eEAVD3",
+   "name": "EMERSON"
+  },
+  {
+   "name": "KEON",
+   "uid": "CRAo4cjSqXM6sZ3vr9VK2YLji003"
+  },
+  {
+   "name": "MILLERTIME",
+   "uid": "l8JzD6xjccgDr0LeRniyX7zhlPP2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MILLERTIME": true,
+    "KEON": true
+   },
+   {
+    "JACOB": true,
+    "AREEJ": false,
+    "EMERSON": true
+   },
+   {
+    "EMERSON": true,
+    "JACOB": true
+   },
+   {
+    "MILLERTIME": true,
+    "JACOB": true,
+    "EMERSON": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "name": "MILLERTIME",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "AREEJ"
+   },
+   {
+    "assassin": false,
+    "name": "JACOB",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KEON",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "EMERSON",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1598060578,
+  "_nanoseconds": 142000000
+ },
+ "timeFinished": {
+  "_seconds": 1598061640,
+  "_nanoseconds": 268000000
+ },
+ "missions": [
+  {
+   "team": [
+    "MILLERTIME",
+    "KEON"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MILLERTIME",
+      "AREEJ",
+      "KEON",
+      "EMERSON"
+     ],
+     "state": "APPROVED",
+     "proposer": "MILLERTIME",
+     "team": [
+      "MILLERTIME",
+      "KEON"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JACOB",
+      "AREEJ",
+      "EMERSON"
+     ],
+     "proposer": "JACOB",
+     "votes": [
+      "JACOB",
+      "KEON",
+      "AREEJ"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "JACOB",
+    "AREEJ",
+    "EMERSON"
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AREEJ",
+      "KEON"
+     ],
+     "team": [
+      "AREEJ",
+      "KEON"
+     ],
+     "proposer": "AREEJ"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KEON",
+      "EMERSON",
+      "JACOB",
+      "AREEJ",
+      "MILLERTIME"
+     ],
+     "team": [
+      "EMERSON",
+      "JACOB"
+     ],
+     "proposer": "EMERSON"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "EMERSON",
+    "JACOB"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "MILLERTIME",
+    "EMERSON",
+    "JACOB"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "AREEJ",
+      "KEON"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KEON",
+      "EMERSON",
+      "MILLERTIME"
+     ],
+     "proposer": "KEON"
+    },
+    {
+     "proposer": "MILLERTIME",
+     "state": "APPROVED",
+     "votes": [
+      "AREEJ",
+      "JACOB",
+      "MILLERTIME"
+     ],
+     "team": [
+      "MILLERTIME",
+      "EMERSON",
+      "JACOB"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "proposals": []
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SHRUTHIKA": true,
+    "KADEN": true
+   },
+   {
+    "COLLIN": false,
+    "ELLIANA": true,
+    "KADEN": true
+   },
+   {
+    "CHOLANVK": true,
+    "COLLIN": false,
+    "ELLIANA": true,
+    "SHRUTHIKA": true
+   },
+   {
+    "JEFFERSONV": false,
+    "CHOLANVK": true,
+    "SHRUTHIKA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ELLIANA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KADEN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "COLLIN"
+   },
+   {
+    "name": "JEFFERSONV",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SHRUTHIKA"
+   },
+   {
+    "name": "CHOLANVK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "KADEN",
+    "SHRUTHIKA"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KADEN",
+      "SHRUTHIKA"
+     ],
+     "proposer": "KADEN",
+     "votes": [
+      "COLLIN",
+      "SHRUTHIKA",
+      "ELLIANA",
+      "KADEN",
+      "CHOLANVK"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "COLLIN",
+    "ELLIANA",
+    "KADEN"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ELLIANA",
+      "COLLIN",
+      "SHRUTHIKA",
+      "KADEN",
+      "CHOLANVK"
+     ],
+     "proposer": "COLLIN",
+     "state": "APPROVED",
+     "team": [
+      "COLLIN",
+      "ELLIANA",
+      "KADEN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ELLIANA",
+     "votes": [
+      "CHOLANVK",
+      "COLLIN",
+      "ELLIANA",
+      "JEFFERSONV",
+      "SHRUTHIKA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ELLIANA",
+      "COLLIN",
+      "CHOLANVK",
+      "SHRUTHIKA"
+     ]
+    }
+   ],
+   "team": [
+    "ELLIANA",
+    "COLLIN",
+    "CHOLANVK",
+    "SHRUTHIKA"
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "CHOLANVK",
+    "SHRUTHIKA",
+    "JEFFERSONV"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KADEN",
+      "SHRUTHIKA",
+      "CHOLANVK",
+      "COLLIN",
+      "JEFFERSONV"
+     ],
+     "team": [
+      "CHOLANVK",
+      "SHRUTHIKA",
+      "JEFFERSONV"
+     ],
+     "proposer": "JEFFERSONV",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "uid": "d7tEhZgNE1ckPhNqWyWtfSDOoeq1",
+   "name": "CHOLANVK"
+  },
+  {
+   "name": "SHRUTHIKA",
+   "uid": "yA6NCDVOGcSBQkLImke4YYkCALC2"
+  },
+  {
+   "name": "KADEN",
+   "uid": "Y2eDw7DpzZgrQqLPB5hg4YEYD9J3"
+  },
+  {
+   "uid": "fNHS51BybwSfkpY4wbIw8a2vouY2",
+   "name": "COLLIN"
+  },
+  {
+   "uid": "ao0f0hybPhWL3qaR90rplXZhicS2",
+   "name": "ELLIANA"
+  },
+  {
+   "name": "JEFFERSONV",
+   "uid": "YtHbXJggDTX4ZzN7odlMPZwzrWl1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1604023168,
+  "_nanoseconds": 477000000
+ },
+ "timeCreated": {
+  "_seconds": 1604022937,
+  "_nanoseconds": 916000000
+ }
+}

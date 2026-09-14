@@ -1,0 +1,198 @@
+{
+ "missions": [
+  {
+   "team": [
+    "GRAWG",
+    "INYOURBASE"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "GRAWG",
+      "INYOURBASE"
+     ],
+     "votes": [
+      "ANDY",
+      "GRAWG",
+      "ERIC",
+      "INYOURBASE"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANDY"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "KEVINSGOOD",
+    "ANDY",
+    "GRAWG"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ERIC",
+      "KEVINSGOOD",
+      "GRAWG"
+     ],
+     "team": [
+      "KEVINSGOOD",
+      "ANDY",
+      "GRAWG"
+     ],
+     "proposer": "KEVINSGOOD",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "ERIC",
+     "state": "APPROVED",
+     "votes": [
+      "GRAWG",
+      "ERIC",
+      "KEVINSGOOD"
+     ],
+     "team": [
+      "ERIC",
+      "KEVINSGOOD"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "ERIC",
+    "KEVINSGOOD"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "GRAWG",
+      "ERIC",
+      "INYOURBASE"
+     ],
+     "proposer": "GRAWG",
+     "state": "APPROVED",
+     "team": [
+      "GRAWG",
+      "INYOURBASE",
+      "ANDY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "GRAWG",
+    "INYOURBASE",
+    "ANDY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "INYOURBASE"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "KEVINSGOOD"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ANDY"
+   },
+   {
+    "name": "GRAWG",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "INYOURBASE": true,
+    "GRAWG": true
+   },
+   {
+    "ANDY": true,
+    "GRAWG": false,
+    "KEVINSGOOD": true
+   },
+   {
+    "ERIC": false,
+    "KEVINSGOOD": true
+   },
+   {
+    "ANDY": true,
+    "GRAWG": false,
+    "INYOURBASE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1586230047,
+  "_nanoseconds": 289000000
+ },
+ "players": [
+  {
+   "name": "ERIC",
+   "uid": "CuDkBmBqsHPzneqm9fpP77b1dvW2"
+  },
+  {
+   "name": "GRAWG",
+   "uid": "8dX7v1ok1PReo4v9rmXQTT0k4Ku1"
+  },
+  {
+   "name": "INYOURBASE",
+   "uid": "zugJ7ZPlQTN26bqiabKM94JNDzm1"
+  },
+  {
+   "uid": "f2KIo09nXaPXxKBE9WB0Ur1VbyY2",
+   "name": "ANDY"
+  },
+  {
+   "uid": "aMBrPx68jube972KXHvlYKbj0ys1",
+   "name": "KEVINSGOOD"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586230413,
+  "_nanoseconds": 932304000
+ }
+}

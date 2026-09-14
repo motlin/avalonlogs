@@ -1,0 +1,229 @@
+{
+ "timeFinished": {
+  "_seconds": 1595314904,
+  "_nanoseconds": 708000000
+ },
+ "timeCreated": {
+  "_seconds": 1595313841,
+  "_nanoseconds": 247000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JZ": true,
+    "CRYSTAL": true
+   },
+   {
+    "RYAN": true,
+    "JZ": true,
+    "CRYSTAL": true
+   },
+   {
+    "JS": false,
+    "JZ": true
+   },
+   {
+    "NOTASPY": false,
+    "JZ": true,
+    "RYAN": true
+   },
+   {
+    "RYAN": true,
+    "CRYSTAL": true,
+    "JZ": true
+   }
+  ],
+  "assassinated": "JZ",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JZ",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JS"
+   },
+   {
+    "name": "CRYSTAL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "NOTASPY"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "JZ",
+   "uid": "C3QhuaUFlxRKlMtiBXvYcOHCNlB3"
+  },
+  {
+   "name": "RYAN",
+   "uid": "ctPh7ZtM3LelQmtmlmOBL23UN4L2"
+  },
+  {
+   "name": "JS",
+   "uid": "x8T38qlJIlg4WDAhtuG1lVN7Jr82"
+  },
+  {
+   "name": "NOTASPY",
+   "uid": "OERVRAdJSphTc865hWnTddVtJoB2"
+  },
+  {
+   "name": "CRYSTAL",
+   "uid": "Uk28Gnae6rZrOGtocu1lLIn4fAO2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "JZ",
+    "CRYSTAL"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JZ",
+      "CRYSTAL"
+     ],
+     "votes": [
+      "RYAN",
+      "CRYSTAL",
+      "JZ",
+      "NOTASPY",
+      "JS"
+     ],
+     "proposer": "JZ"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RYAN",
+     "votes": [
+      "NOTASPY",
+      "JS",
+      "JZ",
+      "RYAN",
+      "CRYSTAL"
+     ],
+     "team": [
+      "JZ",
+      "CRYSTAL",
+      "RYAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "JZ",
+    "CRYSTAL",
+    "RYAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "JS",
+    "JZ"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NOTASPY",
+      "CRYSTAL",
+      "JS"
+     ],
+     "team": [
+      "JS",
+      "JZ"
+     ],
+     "proposer": "JS"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JZ",
+    "RYAN",
+    "NOTASPY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NOTASPY",
+     "team": [
+      "JZ",
+      "RYAN",
+      "NOTASPY"
+     ],
+     "votes": [
+      "JZ",
+      "JS",
+      "NOTASPY"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "CRYSTAL",
+    "RYAN",
+    "JZ"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CRYSTAL",
+      "RYAN",
+      "JZ"
+     ],
+     "votes": [
+      "CRYSTAL",
+      "JZ",
+      "RYAN"
+     ],
+     "proposer": "CRYSTAL"
+    }
+   ]
+  }
+ ]
+}

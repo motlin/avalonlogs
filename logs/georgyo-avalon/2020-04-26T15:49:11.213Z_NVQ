@@ -1,0 +1,227 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "RAQUEL",
+    "BG"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RAQUEL",
+      "BG"
+     ],
+     "proposer": "INGRID",
+     "state": "APPROVED",
+     "votes": [
+      "RAQUEL",
+      "BG",
+      "INGRID"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "RAQUEL",
+    "BG",
+    "ERIC"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "RAQUEL",
+     "team": [
+      "RAQUEL",
+      "BG",
+      "ERIC"
+     ],
+     "votes": [
+      "RAQUEL",
+      "BG",
+      "ERIC",
+      "INGRID"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "BG",
+    "RAQUEL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BG",
+      "RAQUEL"
+     ],
+     "votes": [
+      "INGRID",
+      "RAQUEL",
+      "BG"
+     ],
+     "proposer": "BG"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "INGRID",
+      "RAQUEL",
+      "CRISTOBAL",
+      "BG"
+     ],
+     "team": [
+      "CRISTOBAL",
+      "BG",
+      "RAQUEL"
+     ],
+     "proposer": "CRISTOBAL",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "CRISTOBAL",
+    "BG",
+    "RAQUEL"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ERIC",
+      "INGRID",
+      "BG"
+     ],
+     "votes": [
+      "RAQUEL",
+      "ERIC",
+      "INGRID"
+     ],
+     "proposer": "ERIC",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "ERIC",
+    "INGRID",
+    "BG"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587916151,
+  "_nanoseconds": 213000000
+ },
+ "timeFinished": {
+  "_seconds": 1587916608,
+  "_nanoseconds": 56000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "l0XA87itdTOKPpftZYT4Rj90uI12",
+   "name": "BG"
+  },
+  {
+   "name": "CRISTOBAL",
+   "uid": "peAQeku3K7fFc5evIpzZFzNKqXK2"
+  },
+  {
+   "uid": "zPsFAfipp4TBc7uKaVQ3sclhb242",
+   "name": "ERIC"
+  },
+  {
+   "uid": "sgfS6fQlesNhO1pkz8oLzb2fwXv1",
+   "name": "INGRID"
+  },
+  {
+   "name": "RAQUEL",
+   "uid": "WIJ3fToPISRn4GKSyntIdjD6chf1"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "RAQUEL": true,
+    "BG": true
+   },
+   {
+    "RAQUEL": false,
+    "BG": true,
+    "ERIC": true
+   },
+   {
+    "RAQUEL": true,
+    "BG": true
+   },
+   {
+    "CRISTOBAL": true,
+    "BG": true,
+    "RAQUEL": false
+   },
+   {
+    "INGRID": false,
+    "ERIC": true,
+    "BG": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "INGRID",
+    "assassin": false
+   },
+   {
+    "name": "RAQUEL",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "CRISTOBAL"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BG",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ERIC",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ }
+}

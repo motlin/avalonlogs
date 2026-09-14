@@ -1,0 +1,237 @@
+{
+ "timeFinished": {
+  "_seconds": 1604380119,
+  "_nanoseconds": 723000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": "PAIGE",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "JOYCE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "KEVIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PAIGE",
+    "assassin": false
+   },
+   {
+    "name": "SCREELAI",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "HAMNCHEESE",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ],
+  "votes": [
+   {
+    "JOYCE": true,
+    "PAIGE": true
+   },
+   {
+    "HAMNCHEESE": false,
+    "JOYCE": true,
+    "KEVIN": true
+   },
+   {
+    "JOYCE": true,
+    "PAIGE": true
+   },
+   {
+    "PAIGE": true,
+    "KEVIN": true,
+    "HAMNCHEESE": false
+   },
+   {
+    "KEVIN": true,
+    "PAIGE": true,
+    "JOYCE": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1604379090,
+  "_nanoseconds": 901000000
+ },
+ "players": [
+  {
+   "name": "KEVIN",
+   "uid": "yGLYyTMOo7a9dJHNw909plAV5Su1"
+  },
+  {
+   "name": "SCREELAI",
+   "uid": "66ZCCWrr76Nq80SVMtLyE8CLiUO2"
+  },
+  {
+   "uid": "pkXuouORjROQ2cjMktsm3V0mbIh1",
+   "name": "PAIGE"
+  },
+  {
+   "uid": "MZ7xXwGxhRTpeljrgCIsBsz29fs2",
+   "name": "HAMNCHEESE"
+  },
+  {
+   "name": "JOYCE",
+   "uid": "2K4D6IUAdHaN3GfZMeRHYN2Dc2c2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "JOYCE",
+    "PAIGE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "JOYCE",
+      "PAIGE"
+     ],
+     "state": "APPROVED",
+     "proposer": "JOYCE",
+     "votes": [
+      "PAIGE",
+      "JOYCE",
+      "SCREELAI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "KEVIN",
+    "HAMNCHEESE",
+    "JOYCE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KEVIN",
+      "HAMNCHEESE",
+      "JOYCE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KEVIN",
+      "SCREELAI",
+      "HAMNCHEESE"
+     ],
+     "proposer": "KEVIN"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "SCREELAI",
+     "team": [
+      "PAIGE",
+      "SCREELAI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "PAIGE",
+      "SCREELAI"
+     ]
+    },
+    {
+     "votes": [
+      "JOYCE",
+      "HAMNCHEESE",
+      "PAIGE"
+     ],
+     "state": "APPROVED",
+     "proposer": "PAIGE",
+     "team": [
+      "PAIGE",
+      "JOYCE"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "PAIGE",
+    "JOYCE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "PAIGE",
+      "HAMNCHEESE",
+      "KEVIN"
+     ],
+     "votes": [
+      "HAMNCHEESE",
+      "PAIGE",
+      "SCREELAI"
+     ],
+     "state": "APPROVED",
+     "proposer": "HAMNCHEESE"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "PAIGE",
+    "HAMNCHEESE",
+    "KEVIN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PAIGE",
+      "JOYCE",
+      "KEVIN"
+     ],
+     "proposer": "JOYCE",
+     "team": [
+      "PAIGE",
+      "JOYCE",
+      "KEVIN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "PAIGE",
+    "JOYCE",
+    "KEVIN"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  }
+ ]
+}

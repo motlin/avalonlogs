@@ -1,0 +1,207 @@
+{
+ "players": [
+  {
+   "name": "ADAM",
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2"
+  },
+  {
+   "name": "KENNETH",
+   "uid": "Pami2ZJ0YHSMhHLII5RVzgcX2MI2"
+  },
+  {
+   "uid": "dkBAA5oRvaXAxG2kDgD1XiNWcOo1",
+   "name": "JET"
+  },
+  {
+   "uid": "4sNqa4aD3MWk2zEPWcJKx4sKBXf1",
+   "name": "CRAIG"
+  },
+  {
+   "uid": "kdnDzJ8nJnRmhaqgbpylpgp1KHk1",
+   "name": "OWEN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586483927,
+  "_nanoseconds": 685599000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "JET",
+      "KENNETH",
+      "OWEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "KENNETH",
+     "team": [
+      "KENNETH",
+      "OWEN"
+     ]
+    }
+   ],
+   "team": [
+    "KENNETH",
+    "OWEN"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "KENNETH",
+    "JET",
+    "OWEN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JET",
+     "team": [
+      "KENNETH",
+      "JET",
+      "OWEN"
+     ],
+     "votes": [
+      "JET",
+      "KENNETH",
+      "OWEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "KENNETH",
+      "OWEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "CRAIG",
+     "votes": [
+      "CRAIG",
+      "KENNETH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JET",
+      "OWEN"
+     ],
+     "proposer": "OWEN",
+     "votes": [
+      "JET",
+      "OWEN"
+     ]
+    },
+    {
+     "proposer": "ADAM",
+     "state": "REJECTED",
+     "votes": [
+      "ADAM"
+     ],
+     "team": [
+      "ADAM",
+      "KENNETH"
+     ]
+    },
+    {
+     "team": [
+      "KENNETH",
+      "OWEN"
+     ],
+     "proposer": "KENNETH",
+     "votes": [
+      "CRAIG",
+      "KENNETH",
+      "OWEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "KENNETH",
+    "OWEN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "OWEN": true,
+    "KENNETH": true
+   },
+   {
+    "JET": true,
+    "KENNETH": true,
+    "OWEN": true
+   },
+   {
+    "KENNETH": true,
+    "OWEN": true
+   }
+  ],
+  "assassinated": "KENNETH",
+  "roles": [
+   {
+    "name": "JET",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ADAM"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CRAIG"
+   },
+   {
+    "name": "KENNETH",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "OWEN"
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1586483624,
+  "_nanoseconds": 382000000
+ }
+}

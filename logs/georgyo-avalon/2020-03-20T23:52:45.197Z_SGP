@@ -1,0 +1,188 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "RANDY",
+    "YEN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RANDY",
+      "YEN"
+     ],
+     "votes": [
+      "RANDY",
+      "TEST",
+      "LULU",
+      "YEN"
+     ],
+     "proposer": "RANDY"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "TEST",
+      "RYANN",
+      "LULU"
+     ],
+     "votes": [
+      "TEST",
+      "RYANN",
+      "LULU",
+      "YEN",
+      "RANDY"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYANN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "TEST",
+    "RYANN",
+    "LULU"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "RYANN",
+    "TEST"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "TEST",
+     "state": "REJECTED",
+     "votes": [
+      "TEST"
+     ],
+     "team": [
+      "LULU",
+      "YEN"
+     ]
+    },
+    {
+     "team": [
+      "RYANN",
+      "TEST"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RANDY",
+      "TEST",
+      "RYANN",
+      "LULU",
+      "YEN"
+     ],
+     "proposer": "YEN"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1584748709,
+  "_nanoseconds": 483538000
+ },
+ "players": [
+  {
+   "uid": "5QvbVtfqqRTIzD2lL2K5FoJYTLr1",
+   "name": "RANDY"
+  },
+  {
+   "name": "RYANN",
+   "uid": "YkDgcFsjQieRDLf3nhI7H5wlSNy2"
+  },
+  {
+   "name": "TEST",
+   "uid": "DLxqHjZPegU0vkfTY8CeLcSlJK32"
+  },
+  {
+   "uid": "4HXZ0dHN8wZCSi0NTiVW0u35xU73",
+   "name": "YEN"
+  },
+  {
+   "uid": "iwnVYxLFeFRHGebhF9MSKG8CEQu1",
+   "name": "LULU"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1584748365,
+  "_nanoseconds": 197000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "RANDY",
+  "votes": [
+   {
+    "YEN": true,
+    "RANDY": true
+   },
+   {
+    "LULU": true,
+    "RYANN": true,
+    "TEST": true
+   },
+   {
+    "TEST": true,
+    "RYANN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "RANDY",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "TEST",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "RYANN",
+    "assassin": false
+   },
+   {
+    "name": "LULU",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "YEN",
+    "assassin": true
+   }
+  ]
+ }
+}

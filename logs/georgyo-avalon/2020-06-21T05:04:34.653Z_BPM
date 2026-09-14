@@ -1,0 +1,241 @@
+{
+ "players": [
+  {
+   "uid": "GHN9VQNiWmTnaktpPzw9WbLK3pn1",
+   "name": "ERIN"
+  },
+  {
+   "name": "ELLEN",
+   "uid": "sE2BaVbn1DXM89cSgKio35zM5ID2"
+  },
+  {
+   "name": "JOBO",
+   "uid": "iWEQFaF2I8YybWmkWgysfKX8RGF3"
+  },
+  {
+   "uid": "dUpcYJXbonNxcv8oirNmIDZ9otl1",
+   "name": "MEI"
+  },
+  {
+   "uid": "KkOpLA2KRGYlF6oFKRyib4npJfr1",
+   "name": "ALEX"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592715874,
+  "_nanoseconds": 653000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ALEX": true,
+    "MEI": true
+   },
+   {
+    "ALEX": true,
+    "ELLEN": false,
+    "MEI": true
+   },
+   {
+    "ALEX": true,
+    "ELLEN": true
+   },
+   {
+    "ERIN": true,
+    "ALEX": true,
+    "ELLEN": false
+   },
+   {
+    "MEI": true,
+    "JOBO": true,
+    "ERIN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "JOBO",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "MEI"
+   },
+   {
+    "name": "ELLEN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ERIN"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "ERIN",
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1592716406,
+  "_nanoseconds": 371000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "ALEX",
+    "MEI"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MEI",
+      "ELLEN",
+      "ALEX",
+      "ERIN"
+     ],
+     "proposer": "JOBO",
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "MEI"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ALEX",
+    "MEI",
+    "ELLEN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MEI",
+      "ELLEN",
+      "ALEX"
+     ],
+     "state": "APPROVED",
+     "proposer": "MEI",
+     "team": [
+      "ALEX",
+      "MEI",
+      "ELLEN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ALEX",
+    "ELLEN"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ALEX",
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "ELLEN"
+     ],
+     "votes": [
+      "MEI",
+      "ELLEN",
+      "ALEX",
+      "ERIN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MEI",
+      "ELLEN",
+      "ALEX",
+      "ERIN"
+     ],
+     "team": [
+      "ERIN",
+      "ELLEN",
+      "ALEX"
+     ],
+     "state": "APPROVED",
+     "proposer": "ERIN"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "ERIN",
+    "ELLEN",
+    "ALEX"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ERIN",
+    "JOBO",
+    "MEI"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ELLEN",
+      "MEI"
+     ],
+     "proposer": "ELLEN",
+     "team": [
+      "MEI",
+      "ERIN",
+      "JOBO"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JOBO",
+     "votes": [
+      "JOBO",
+      "MEI",
+      "ERIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ERIN",
+      "JOBO",
+      "MEI"
+     ]
+    }
+   ],
+   "teamSize": 3
+  }
+ ]
+}

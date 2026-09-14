@@ -1,0 +1,305 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "KINGJEFF": true,
+    "CLZ": true
+   },
+   {
+    "KINGJEFF": true,
+    "SISSI": true,
+    "CLZ": true
+   },
+   {
+    "VALERIE": false,
+    "DPX": true,
+    "MA": true
+   },
+   {
+    "SISSI": true,
+    "BLACKMAMBA": false,
+    "VALERIE": true,
+    "KINGJEFF": false
+   },
+   {
+    "DPX": true,
+    "SISSI": true,
+    "KINGJEFF": false,
+    "MA": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "MA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "VALERIE",
+    "assassin": false
+   },
+   {
+    "name": "DPX",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KINGJEFF",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SISSI"
+   },
+   {
+    "name": "CLZ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "BLACKMAMBA",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1609645043,
+  "_nanoseconds": 856000000
+ },
+ "players": [
+  {
+   "uid": "S99Z2pKmwAegFTF1KlLpAuHeAVM2",
+   "name": "KINGJEFF"
+  },
+  {
+   "name": "CLZ",
+   "uid": "6Sw8lyr5yOZfUd3RYX26HBy2I9s1"
+  },
+  {
+   "name": "VALERIE",
+   "uid": "R2MBx3GaFKZAtXjWMkTBkR2lBlt1"
+  },
+  {
+   "name": "DPX",
+   "uid": "6GekTmD7brYSu7Iao8yhhN1IIXr1"
+  },
+  {
+   "name": "MA",
+   "uid": "PZtoioxKzYRF31b3DL8bngamIT62"
+  },
+  {
+   "name": "SISSI",
+   "uid": "MbDMrIPX7cgxnB3lM9s9ebvvyjA2"
+  },
+  {
+   "name": "BLACKMAMBA",
+   "uid": "gUWZz7JhkkPhDUkW2SpH65d9sBs1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609648024,
+  "_nanoseconds": 649000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KINGJEFF",
+     "team": [
+      "KINGJEFF",
+      "CLZ"
+     ],
+     "votes": [
+      "KINGJEFF",
+      "CLZ",
+      "MA",
+      "BLACKMAMBA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "KINGJEFF",
+    "CLZ"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "CLZ",
+    "KINGJEFF",
+    "SISSI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CLZ",
+     "votes": [
+      "CLZ",
+      "VALERIE",
+      "KINGJEFF",
+      "DPX",
+      "SISSI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CLZ",
+      "KINGJEFF",
+      "SISSI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "VALERIE",
+    "DPX",
+    "MA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "VALERIE",
+      "DPX",
+      "MA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MA",
+      "DPX",
+      "BLACKMAMBA",
+      "VALERIE",
+      "KINGJEFF",
+      "CLZ"
+     ],
+     "proposer": "VALERIE"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "KINGJEFF",
+    "VALERIE",
+    "SISSI",
+    "BLACKMAMBA"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "DPX",
+      "SISSI",
+      "CLZ",
+      "BLACKMAMBA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CLZ",
+      "SISSI",
+      "DPX"
+     ],
+     "proposer": "DPX"
+    },
+    {
+     "team": [
+      "SISSI",
+      "DPX",
+      "CLZ",
+      "MA"
+     ],
+     "proposer": "MA",
+     "state": "REJECTED",
+     "votes": [
+      "DPX",
+      "MA",
+      "CLZ"
+     ]
+    },
+    {
+     "team": [
+      "KINGJEFF",
+      "VALERIE",
+      "SISSI",
+      "BLACKMAMBA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "VALERIE",
+      "KINGJEFF",
+      "CLZ",
+      "BLACKMAMBA",
+      "SISSI",
+      "DPX"
+     ],
+     "proposer": "SISSI"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "SISSI",
+    "DPX",
+    "MA",
+    "KINGJEFF"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BLACKMAMBA"
+     ],
+     "team": [
+      "CLZ",
+      "DPX",
+      "BLACKMAMBA",
+      "SISSI"
+     ],
+     "proposer": "BLACKMAMBA"
+    },
+    {
+     "votes": [
+      "BLACKMAMBA",
+      "SISSI",
+      "KINGJEFF",
+      "VALERIE"
+     ],
+     "team": [
+      "SISSI",
+      "DPX",
+      "MA",
+      "KINGJEFF"
+     ],
+     "state": "APPROVED",
+     "proposer": "KINGJEFF"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ]
+}

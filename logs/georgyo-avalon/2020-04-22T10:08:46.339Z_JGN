@@ -1,0 +1,320 @@
+{
+ "players": [
+  {
+   "name": "PATTYWAP",
+   "uid": "chKjep3PXPVuXV2CNQHgkGJySZ33"
+  },
+  {
+   "uid": "XNxGKI06NeeZkxBLk5ZDYb90Rwa2",
+   "name": "CHI"
+  },
+  {
+   "uid": "6j8x1t74EPT5HlGjlw6UlrH9vlD3",
+   "name": "JEFFREY"
+  },
+  {
+   "uid": "VuXwMC4Tg9ep9AAakEkxOHNFq2Z2",
+   "name": "JOYCE"
+  },
+  {
+   "uid": "go21W2md6kQ7I61bTByxqlRiaQF2",
+   "name": "MICHISUX"
+  },
+  {
+   "name": "MICHI",
+   "uid": "9xvziqOuVSMznhIGczBkRjK1jO72"
+  },
+  {
+   "name": "ANDIE",
+   "uid": "9f1x3TcOGgTD9wNsqYtQPcZ5otJ3"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587550126,
+  "_nanoseconds": 339000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "JEFFREY",
+  "roles": [
+   {
+    "name": "CHI",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "JEFFREY",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JOYCE"
+   },
+   {
+    "name": "MICHISUX",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MICHI"
+   },
+   {
+    "assassin": false,
+    "name": "ANDIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "PATTYWAP"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ANDIE": true,
+    "PATTYWAP": true
+   },
+   {
+    "JEFFREY": true,
+    "PATTYWAP": false,
+    "MICHISUX": true
+   },
+   {
+    "JEFFREY": true,
+    "ANDIE": true,
+    "MICHISUX": true
+   },
+   {
+    "ANDIE": true,
+    "MICHISUX": true,
+    "JOYCE": true,
+    "JEFFREY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "PATTYWAP",
+    "ANDIE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JEFFREY",
+      "MICHI",
+      "ANDIE",
+      "PATTYWAP"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PATTYWAP",
+      "ANDIE"
+     ],
+     "proposer": "PATTYWAP"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "PATTYWAP",
+    "JEFFREY",
+    "MICHISUX"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHI",
+     "team": [
+      "CHI",
+      "PATTYWAP",
+      "ANDIE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JOYCE",
+      "ANDIE",
+      "PATTYWAP"
+     ]
+    },
+    {
+     "votes": [
+      "PATTYWAP",
+      "JEFFREY",
+      "MICHISUX"
+     ],
+     "state": "REJECTED",
+     "proposer": "JEFFREY",
+     "team": [
+      "JEFFREY",
+      "CHI",
+      "PATTYWAP"
+     ]
+    },
+    {
+     "votes": [
+      "ANDIE",
+      "JEFFREY",
+      "JOYCE"
+     ],
+     "team": [
+      "JOYCE",
+      "ANDIE",
+      "PATTYWAP"
+     ],
+     "proposer": "JOYCE",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEFFREY",
+      "JOYCE",
+      "MICHISUX",
+      "PATTYWAP"
+     ],
+     "team": [
+      "PATTYWAP",
+      "JEFFREY",
+      "MICHISUX"
+     ],
+     "proposer": "MICHISUX"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "JEFFREY",
+    "MICHISUX",
+    "ANDIE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MICHI",
+     "votes": [
+      "ANDIE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MICHI",
+      "ANDIE",
+      "MICHISUX"
+     ]
+    },
+    {
+     "proposer": "ANDIE",
+     "votes": [
+      "ANDIE"
+     ],
+     "team": [
+      "ANDIE",
+      "MICHI",
+      "MICHISUX"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "PATTYWAP",
+     "votes": [
+      "JOYCE",
+      "ANDIE",
+      "PATTYWAP"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "PATTYWAP",
+      "JOYCE",
+      "ANDIE"
+     ]
+    },
+    {
+     "votes": [],
+     "team": [
+      "CHI",
+      "ANDIE",
+      "JOYCE"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHI"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JEFFREY",
+      "MICHISUX",
+      "ANDIE"
+     ],
+     "votes": [
+      "CHI",
+      "JEFFREY",
+      "JOYCE",
+      "MICHISUX",
+      "MICHI"
+     ],
+     "proposer": "JEFFREY"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JOYCE",
+     "state": "APPROVED",
+     "votes": [
+      "JEFFREY",
+      "JOYCE",
+      "MICHISUX",
+      "ANDIE",
+      "CHI"
+     ],
+     "team": [
+      "ANDIE",
+      "JOYCE",
+      "JEFFREY",
+      "MICHISUX"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ANDIE",
+    "JOYCE",
+    "JEFFREY",
+    "MICHISUX"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587551473,
+  "_nanoseconds": 775000000
+ }
+}

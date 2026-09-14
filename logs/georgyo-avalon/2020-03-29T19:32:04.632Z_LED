@@ -1,0 +1,269 @@
+{
+ "players": [
+  {
+   "uid": "HgkS0c4Lclfpr8jfJYx73mpdUYj1",
+   "name": "JOEL"
+  },
+  {
+   "name": "KIRA",
+   "uid": "5MvH4GwBSDchbt3VFtEiwg0EyEi1"
+  },
+  {
+   "name": "NOTALEX",
+   "uid": "XRxdLtPPEbY2r4cjpxU39a8EzBl2"
+  },
+  {
+   "name": "ROBIN",
+   "uid": "u3SHNtstu4Q4tztKZAjd7K6Epzp2"
+  },
+  {
+   "uid": "d0AA7FsrqROvC9D92U6ZSFB8LuN2",
+   "name": "SABRINA"
+  },
+  {
+   "uid": "PS1Z0ypyl2TXarqM3STUJ5YwQYA3",
+   "name": "DUDE"
+  },
+  {
+   "uid": "GMursse298gl2oPeqsVeaFPN4d83",
+   "name": "TRUSTWORTH"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585510959,
+  "_nanoseconds": 190848000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "ROBIN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "TRUSTWORTH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KIRA"
+   },
+   {
+    "name": "DUDE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "SABRINA",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "NOTALEX",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JOEL"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "JOEL",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JOEL": true,
+    "NOTALEX": true
+   },
+   {
+    "NOTALEX": false,
+    "ROBIN": true,
+    "KIRA": true
+   },
+   {
+    "TRUSTWORTH": true,
+    "SABRINA": false,
+    "DUDE": true
+   },
+   {
+    "DUDE": true,
+    "JOEL": true,
+    "KIRA": true,
+    "TRUSTWORTH": true
+   },
+   {
+    "JOEL": true,
+    "KIRA": true,
+    "DUDE": true,
+    "TRUSTWORTH": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585510324,
+  "_nanoseconds": 632000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NOTALEX",
+      "JOEL"
+     ],
+     "proposer": "ROBIN",
+     "votes": [
+      "JOEL",
+      "ROBIN",
+      "TRUSTWORTH",
+      "KIRA",
+      "DUDE",
+      "SABRINA",
+      "NOTALEX"
+     ]
+    }
+   ],
+   "team": [
+    "NOTALEX",
+    "JOEL"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ROBIN",
+    "NOTALEX",
+    "KIRA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SABRINA",
+     "votes": [
+      "ROBIN",
+      "TRUSTWORTH",
+      "KIRA",
+      "DUDE",
+      "SABRINA",
+      "NOTALEX",
+      "JOEL"
+     ],
+     "team": [
+      "ROBIN",
+      "NOTALEX",
+      "KIRA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ROBIN",
+      "TRUSTWORTH",
+      "KIRA",
+      "DUDE",
+      "SABRINA",
+      "NOTALEX",
+      "JOEL"
+     ],
+     "team": [
+      "SABRINA",
+      "TRUSTWORTH",
+      "DUDE"
+     ],
+     "proposer": "DUDE",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "SABRINA",
+    "TRUSTWORTH",
+    "DUDE"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ROBIN",
+      "TRUSTWORTH",
+      "KIRA",
+      "DUDE",
+      "SABRINA",
+      "NOTALEX",
+      "JOEL"
+     ],
+     "team": [
+      "TRUSTWORTH",
+      "DUDE",
+      "KIRA",
+      "JOEL"
+     ],
+     "proposer": "TRUSTWORTH"
+    }
+   ],
+   "team": [
+    "TRUSTWORTH",
+    "DUDE",
+    "KIRA",
+    "JOEL"
+   ],
+   "failsRequired": 2,
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "JOEL",
+    "KIRA",
+    "DUDE",
+    "TRUSTWORTH"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JOEL",
+     "votes": [
+      "KIRA",
+      "DUDE",
+      "SABRINA",
+      "NOTALEX",
+      "JOEL",
+      "ROBIN",
+      "TRUSTWORTH"
+     ],
+     "team": [
+      "JOEL",
+      "KIRA",
+      "DUDE",
+      "TRUSTWORTH"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  }
+ ]
+}

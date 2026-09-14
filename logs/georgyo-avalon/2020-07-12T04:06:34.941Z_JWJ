@@ -1,0 +1,334 @@
+{
+ "players": [
+  {
+   "uid": "KKL6MlYXJxfMl975ZNwPlg2s0Nw1",
+   "name": "AL"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "VJstCI2rzdP6JSGky7tENBuk9Hg2"
+  },
+  {
+   "uid": "MtnGT8ND0TRjT558c6GGYQXZmxF3",
+   "name": "JAN"
+  },
+  {
+   "uid": "1eDHC8CxeuWidWIUmyeTJNuHZcz2",
+   "name": "MACDADDY"
+  },
+  {
+   "name": "DINGLEDERP",
+   "uid": "edKFSW9wVFXeRxAfXpUBkSzvFAI2"
+  },
+  {
+   "uid": "IwrraDhI68dKV0tA8MHszupa7QN2",
+   "name": "MARG"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1594526794,
+  "_nanoseconds": 941000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JAN": true,
+    "AL": true
+   },
+   {
+    "AL": true,
+    "MACDADDY": true,
+    "MARG": false
+   },
+   {
+    "JAN": true,
+    "MACDADDY": true,
+    "MARG": false,
+    "ANDREW": true
+   },
+   {
+    "ANDREW": true,
+    "JAN": false,
+    "AL": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "MARG",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "MACDADDY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "AL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DINGLEDERP",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANDREW"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JAN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1594528100,
+  "_nanoseconds": 256000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "JAN",
+    "AL"
+   ],
+   "proposals": [
+    {
+     "proposer": "ANDREW",
+     "team": [
+      "ANDREW",
+      "DINGLEDERP"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DINGLEDERP"
+     ]
+    },
+    {
+     "team": [
+      "JAN",
+      "AL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANDREW",
+      "JAN",
+      "MARG",
+      "AL"
+     ],
+     "proposer": "JAN"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "MARG",
+    "AL",
+    "MACDADDY"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MACDADDY",
+      "MARG",
+      "AL"
+     ],
+     "proposer": "MACDADDY",
+     "votes": [
+      "MARG",
+      "MACDADDY",
+      "ANDREW"
+     ]
+    },
+    {
+     "proposer": "DINGLEDERP",
+     "votes": [
+      "MARG",
+      "MACDADDY",
+      "DINGLEDERP"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MACDADDY",
+      "MARG",
+      "JAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MARG",
+     "votes": [
+      "JAN",
+      "MARG",
+      "DINGLEDERP"
+     ],
+     "team": [
+      "MARG",
+      "ANDREW",
+      "DINGLEDERP"
+     ]
+    },
+    {
+     "votes": [
+      "ANDREW",
+      "MARG",
+      "MACDADDY",
+      "AL",
+      "DINGLEDERP"
+     ],
+     "team": [
+      "MARG",
+      "AL",
+      "MACDADDY"
+     ],
+     "proposer": "AL",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "JAN",
+    "MARG",
+    "ANDREW",
+    "MACDADDY"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "MARG",
+      "MACDADDY",
+      "DINGLEDERP"
+     ],
+     "team": [
+      "ANDREW",
+      "MARG",
+      "MACDADDY",
+      "JAN"
+     ],
+     "proposer": "ANDREW",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MARG",
+      "DINGLEDERP"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AL",
+      "ANDREW",
+      "JAN",
+      "DINGLEDERP"
+     ],
+     "proposer": "JAN"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MACDADDY",
+     "votes": [
+      "JAN",
+      "MARG",
+      "MACDADDY"
+     ],
+     "team": [
+      "MARG",
+      "JAN",
+      "MACDADDY",
+      "ANDREW"
+     ]
+    },
+    {
+     "team": [
+      "DINGLEDERP",
+      "JAN",
+      "ANDREW",
+      "AL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DINGLEDERP"
+     ],
+     "proposer": "DINGLEDERP"
+    },
+    {
+     "team": [
+      "JAN",
+      "MARG",
+      "ANDREW",
+      "MACDADDY"
+     ],
+     "votes": [
+      "ANDREW",
+      "JAN",
+      "MARG",
+      "MACDADDY",
+      "AL",
+      "DINGLEDERP"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARG"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "AL",
+    "JAN",
+    "ANDREW"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "AL",
+     "state": "APPROVED",
+     "team": [
+      "AL",
+      "JAN",
+      "ANDREW"
+     ],
+     "votes": [
+      "JAN",
+      "MARG",
+      "MACDADDY",
+      "AL",
+      "DINGLEDERP",
+      "ANDREW"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

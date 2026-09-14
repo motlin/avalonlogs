@@ -1,0 +1,231 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "NAGS",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "JERRY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MATCHAGOD",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JOHNNY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MLE",
+    "assassin": false
+   },
+   {
+    "name": "BERLIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "MLE": true,
+    "JOHNNY": true
+   },
+   {
+    "JERRY": true,
+    "JOHNNY": false,
+    "MLE": true
+   },
+   {
+    "MLE": true,
+    "MATCHAGOD": true,
+    "JERRY": true,
+    "NAGS": true
+   },
+   {
+    "NAGS": true,
+    "JOHNNY": true,
+    "JERRY": true
+   }
+  ],
+  "assassinated": "JERRY",
+  "message": "Merlin assassinated"
+ },
+ "timeCreated": {
+  "_seconds": 1586132950,
+  "_nanoseconds": 494000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MATCHAGOD",
+     "team": [
+      "MLE",
+      "JOHNNY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JOHNNY",
+      "MLE",
+      "BERLIN",
+      "NAGS",
+      "JERRY",
+      "MATCHAGOD"
+     ]
+    }
+   ],
+   "team": [
+    "MLE",
+    "JOHNNY"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "JOHNNY",
+    "MLE",
+    "JERRY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JERRY",
+     "team": [
+      "JOHNNY",
+      "MLE",
+      "JERRY"
+     ],
+     "votes": [
+      "NAGS",
+      "JERRY",
+      "JOHNNY",
+      "MLE"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JOHNNY",
+     "votes": [
+      "JOHNNY"
+     ],
+     "team": [
+      "JERRY",
+      "MATCHAGOD",
+      "BERLIN",
+      "NAGS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "NAGS",
+      "MATCHAGOD",
+      "JOHNNY",
+      "MLE"
+     ],
+     "team": [
+      "MLE",
+      "JERRY",
+      "NAGS",
+      "MATCHAGOD"
+     ],
+     "state": "APPROVED",
+     "proposer": "MLE"
+    }
+   ],
+   "team": [
+    "MLE",
+    "JERRY",
+    "NAGS",
+    "MATCHAGOD"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "JOHNNY",
+    "JERRY",
+    "NAGS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NAGS",
+     "votes": [
+      "NAGS",
+      "JERRY",
+      "JOHNNY",
+      "MLE"
+     ],
+     "team": [
+      "JOHNNY",
+      "JERRY",
+      "NAGS"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "players": [
+  {
+   "name": "JOHNNY",
+   "uid": "9Efo19L8akXKUM8vW9ig2Dd7ojF2"
+  },
+  {
+   "name": "MLE",
+   "uid": "F4p9o5egOpTcR52rHdWa7YqnWw23"
+  },
+  {
+   "name": "NAGS",
+   "uid": "iIJKntzI0hMWmBidAuFSpNoTt753"
+  },
+  {
+   "name": "BERLIN",
+   "uid": "3FM4BluuwgSjlTGV5kd785Gyw1U2"
+  },
+  {
+   "name": "MATCHAGOD",
+   "uid": "mYJAEbV8CEUmP8bAutUiuNqkUt52"
+  },
+  {
+   "name": "JERRY",
+   "uid": "MnzSGhLTGuWOSxznAND2ZSKzFxB2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586133585,
+  "_nanoseconds": 752688000
+ }
+}

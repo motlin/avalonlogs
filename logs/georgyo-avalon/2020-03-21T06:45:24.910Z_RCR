@@ -1,0 +1,318 @@
+{
+ "timeFinished": {
+  "_seconds": 1584773992,
+  "_nanoseconds": 124056000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JESS": false,
+    "JUSTIN": true,
+    "JOJO": true
+   },
+   {
+    "JENN": true,
+    "JESS": false,
+    "JUSTIN": true,
+    "MICHI": true
+   },
+   {
+    "JOJO": true,
+    "ZYREL": true,
+    "MICHI": true,
+    "BRAN": true
+   },
+   {
+    "JENN": true,
+    "LEEBRYAN": true,
+    "BRAN": true,
+    "ZYREL": true,
+    "JOJO": true
+   },
+   {
+    "BRAN": true,
+    "ZYREL": true,
+    "LEEBRYAN": false,
+    "JENN": true,
+    "JOJO": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "MICHAE",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "MICHI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ZYREL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JENN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JUSTIN",
+    "assassin": false
+   },
+   {
+    "name": "JESS",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "BRAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "LEEBRYAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "JOJO",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JUSTIN",
+      "JESS",
+      "BRAN",
+      "LEEBRYAN",
+      "JOJO",
+      "MICHAE",
+      "MICHI",
+      "ZYREL",
+      "JENN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JESS",
+      "JUSTIN",
+      "JOJO"
+     ],
+     "proposer": "JESS"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "JESS",
+    "JUSTIN",
+    "JOJO"
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "JUSTIN",
+    "JENN",
+    "MICHI",
+    "JESS"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JUSTIN",
+      "MICHAE",
+      "JOJO",
+      "ZYREL"
+     ],
+     "proposer": "BRAN",
+     "votes": [
+      "JESS",
+      "BRAN",
+      "LEEBRYAN",
+      "ZYREL"
+     ]
+    },
+    {
+     "votes": [
+      "JENN",
+      "JUSTIN",
+      "JESS",
+      "LEEBRYAN",
+      "MICHAE"
+     ],
+     "team": [
+      "JUSTIN",
+      "JENN",
+      "MICHI",
+      "JESS"
+     ],
+     "state": "APPROVED",
+     "proposer": "MICHI"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "JOJO",
+    "ZYREL",
+    "MICHI",
+    "BRAN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "JOJO",
+      "ZYREL",
+      "MICHI",
+      "BRAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JOJO",
+     "votes": [
+      "MICHI",
+      "ZYREL",
+      "JENN",
+      "JUSTIN",
+      "JESS",
+      "BRAN",
+      "JOJO"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ZYREL",
+      "BRAN",
+      "JOJO",
+      "JENN",
+      "LEEBRYAN"
+     ],
+     "votes": [
+      "JENN",
+      "JUSTIN",
+      "JESS",
+      "JOJO",
+      "MICHAE",
+      "MICHI",
+      "ZYREL"
+     ],
+     "state": "APPROVED",
+     "proposer": "MICHAE"
+    }
+   ],
+   "team": [
+    "ZYREL",
+    "BRAN",
+    "JOJO",
+    "JENN",
+    "LEEBRYAN"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JENN",
+      "JESS",
+      "LEEBRYAN",
+      "JOJO",
+      "MICHAE",
+      "MICHI",
+      "ZYREL"
+     ],
+     "proposer": "LEEBRYAN",
+     "team": [
+      "JOJO",
+      "BRAN",
+      "ZYREL",
+      "LEEBRYAN",
+      "JENN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": [
+    "JOJO",
+    "BRAN",
+    "ZYREL",
+    "LEEBRYAN",
+    "JENN"
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "players": [
+  {
+   "name": "MICHAE",
+   "uid": "gLLjpKCydvWcWZ2vgRhvlichNyt2"
+  },
+  {
+   "name": "LEEBRYAN",
+   "uid": "CnT5Rwq9XUR8tAZvmUmXVxnUpji1"
+  },
+  {
+   "uid": "6bAd5iCRtSZUOaXnN2OFG1iLH123",
+   "name": "JUSTIN"
+  },
+  {
+   "name": "ZYREL",
+   "uid": "EGjax29jfdNw9nPIGISnljEYqIL2"
+  },
+  {
+   "uid": "bj87i02LTrhtPPKH5J4QdOFHsM42",
+   "name": "JENN"
+  },
+  {
+   "uid": "9R5HeFIYLvgLJEV2S97J7NwNdf02",
+   "name": "JESS"
+  },
+  {
+   "uid": "QlZ8d6y4tkTojjPuxrMA8xX4gZO2",
+   "name": "BRAN"
+  },
+  {
+   "name": "MICHI",
+   "uid": "uA5nPsUjz1WdQ4scvFbXNMntCEr1"
+  },
+  {
+   "name": "JOJO",
+   "uid": "Vbywt8tHaKdYQ7qH0ldGZrKIthH2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1584773124,
+  "_nanoseconds": 910000000
+ }
+}

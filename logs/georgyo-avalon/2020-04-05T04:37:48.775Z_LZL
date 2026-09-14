@@ -1,0 +1,268 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "BENJAMIN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BARKO",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "LUCA"
+   },
+   {
+    "assassin": false,
+    "name": "JACOB",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ROSHJOSENB",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "HUNTER",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ROSHJOSENB": true,
+    "BENJAMIN": true
+   },
+   {
+    "ROSHJOSENB": true,
+    "LUCA": true,
+    "BENJAMIN": true
+   },
+   {
+    "BENJAMIN": false,
+    "LUCA": true,
+    "JACOB": true,
+    "ROSHJOSENB": false
+   },
+   {
+    "BARKO": true,
+    "HUNTER": true,
+    "JACOB": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "ROSHJOSENB",
+   "uid": "HLprdVWPnYYdTcOrwJcSxaUms1p1"
+  },
+  {
+   "name": "HUNTER",
+   "uid": "HUc6LUPUGFPOcio3dqeK73C7c4J2"
+  },
+  {
+   "uid": "rb3CVyMdd9byj4uoOR0SmOH6AAv2",
+   "name": "JACOB"
+  },
+  {
+   "uid": "wIrmmfqhGMXG0ZyKQCooFZ3YAfz1",
+   "name": "BARKO"
+  },
+  {
+   "uid": "vlgi7xYI2Tg2VATExBGAxBMm60A3",
+   "name": "BENJAMIN"
+  },
+  {
+   "uid": "DpU5fJiVrlUojiMmLfc7aKK9DGm2",
+   "name": "LUCA"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JACOB",
+      "ROSHJOSENB"
+     ],
+     "proposer": "JACOB",
+     "votes": [
+      "JACOB",
+      "ROSHJOSENB",
+      "HUNTER"
+     ]
+    },
+    {
+     "team": [
+      "BARKO",
+      "JACOB"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "HUNTER",
+      "BARKO",
+      "JACOB"
+     ],
+     "proposer": "BARKO"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "BENJAMIN",
+      "ROSHJOSENB"
+     ],
+     "proposer": "BENJAMIN",
+     "votes": [
+      "ROSHJOSENB",
+      "HUNTER",
+      "BENJAMIN",
+      "JACOB"
+     ]
+    }
+   ],
+   "team": [
+    "BENJAMIN",
+    "ROSHJOSENB"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "LUCA",
+    "BENJAMIN",
+    "ROSHJOSENB"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "LUCA",
+      "BENJAMIN",
+      "ROSHJOSENB"
+     ],
+     "votes": [
+      "HUNTER",
+      "LUCA",
+      "JACOB",
+      "ROSHJOSENB"
+     ],
+     "proposer": "LUCA",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ROSHJOSENB",
+     "state": "REJECTED",
+     "votes": [
+      "JACOB"
+     ],
+     "team": [
+      "LUCA",
+      "JACOB",
+      "BENJAMIN",
+      "ROSHJOSENB"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "HUNTER",
+      "BENJAMIN",
+      "JACOB",
+      "ROSHJOSENB"
+     ],
+     "proposer": "HUNTER",
+     "votes": [
+      "HUNTER"
+     ]
+    },
+    {
+     "proposer": "JACOB",
+     "state": "APPROVED",
+     "team": [
+      "JACOB",
+      "ROSHJOSENB",
+      "BENJAMIN",
+      "LUCA"
+     ],
+     "votes": [
+      "BENJAMIN",
+      "LUCA",
+      "JACOB",
+      "ROSHJOSENB"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 2,
+   "team": [
+    "JACOB",
+    "ROSHJOSENB",
+    "BENJAMIN",
+    "LUCA"
+   ],
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BARKO",
+     "team": [
+      "BARKO",
+      "HUNTER",
+      "JACOB"
+     ],
+     "votes": [
+      "ROSHJOSENB",
+      "HUNTER",
+      "JACOB",
+      "BARKO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "BARKO",
+    "HUNTER",
+    "JACOB"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586062309,
+  "_nanoseconds": 588670000
+ },
+ "timeCreated": {
+  "_seconds": 1586061468,
+  "_nanoseconds": 775000000
+ }
+}

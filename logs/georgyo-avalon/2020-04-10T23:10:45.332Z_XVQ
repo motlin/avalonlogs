@@ -1,0 +1,202 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ZARA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "CAMRYNVIBE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ARSHAD",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ANOOP"
+   },
+   {
+    "name": "LIV",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "votes": [
+   {
+    "LIV": true,
+    "CAMRYNVIBE": false
+   },
+   {
+    "ARSHAD": true,
+    "ZARA": true,
+    "ANOOP": true
+   },
+   {
+    "ARSHAD": true,
+    "ANOOP": false
+   },
+   {
+    "ZARA": true,
+    "ANOOP": false,
+    "LIV": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1586560245,
+  "_nanoseconds": 332000000
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "team": [
+    "CAMRYNVIBE",
+    "LIV"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ARSHAD",
+     "votes": [
+      "CAMRYNVIBE",
+      "ARSHAD",
+      "ANOOP",
+      "LIV"
+     ],
+     "team": [
+      "CAMRYNVIBE",
+      "LIV"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ARSHAD",
+      "ZARA",
+      "ANOOP"
+     ],
+     "proposer": "LIV",
+     "votes": [
+      "ZARA",
+      "CAMRYNVIBE",
+      "ARSHAD",
+      "ANOOP",
+      "LIV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ARSHAD",
+    "ZARA",
+    "ANOOP"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ANOOP",
+    "ARSHAD"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ANOOP",
+     "team": [
+      "ANOOP",
+      "ARSHAD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LIV",
+      "ZARA",
+      "CAMRYNVIBE",
+      "ARSHAD",
+      "ANOOP"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ZARA",
+    "LIV",
+    "ANOOP"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ZARA",
+      "LIV",
+      "ANOOP"
+     ],
+     "proposer": "ZARA",
+     "state": "APPROVED",
+     "votes": [
+      "ZARA",
+      "ANOOP",
+      "LIV"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586560619,
+  "_nanoseconds": 599967000
+ },
+ "players": [
+  {
+   "name": "ANOOP",
+   "uid": "jjIBNeoMcfMoiwfvAVqqm4cYzoS2"
+  },
+  {
+   "uid": "Jzzc8DA5MtTfUqf9AUvdmN7x5tw2",
+   "name": "ZARA"
+  },
+  {
+   "name": "CAMRYNVIBE",
+   "uid": "uXl0VpkPjLfTnLiJ6UR6HILD9ti1"
+  },
+  {
+   "name": "ARSHAD",
+   "uid": "OOeyJDD8QeWSoH4sKPSRmAjxU0v2"
+  },
+  {
+   "uid": "IzAo7MKInrd9x9tIpF2uPietT2S2",
+   "name": "LIV"
+  }
+ ]
+}

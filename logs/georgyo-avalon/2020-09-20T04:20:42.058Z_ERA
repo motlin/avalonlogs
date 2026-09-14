@@ -1,0 +1,337 @@
+{
+ "timeFinished": {
+  "_seconds": 1600577203,
+  "_nanoseconds": 276000000
+ },
+ "outcome": {
+  "assassinated": "AND",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ALLEN"
+   },
+   {
+    "name": "AND",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SNOOZY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MAX",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "MASTERDIZ",
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "MASTERDIZ": false,
+    "SNOOZY": true
+   },
+   {
+    "ALLEN": true,
+    "SNOOZY": true,
+    "MAX": false
+   },
+   {
+    "AND": true,
+    "ALLEN": true
+   },
+   {
+    "ALLEN": true,
+    "AND": true,
+    "SNOOZY": true
+   },
+   {
+    "ALLEN": true,
+    "SNOOZY": true,
+    "AND": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "Otyhww6DQZPfdwldw6MRDatkS5I3",
+   "name": "ALLEN"
+  },
+  {
+   "name": "MASTERDIZ",
+   "uid": "asYRGAHN8da7cFG4KyWpG3zDLt13"
+  },
+  {
+   "uid": "oGCzA6emXjSBN5FkPEEEI5MDQ5p2",
+   "name": "MAX"
+  },
+  {
+   "uid": "6FxoWQTRccRcdtpqpaXbxRoBMP52",
+   "name": "SNOOZY"
+  },
+  {
+   "uid": "zQNLjUvTDpVWY4lIMhxwoKBgYjf2",
+   "name": "AND"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1600575642,
+  "_nanoseconds": 58000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "MASTERDIZ",
+      "SNOOZY"
+     ],
+     "state": "REJECTED",
+     "proposer": "MASTERDIZ",
+     "votes": [
+      "SNOOZY",
+      "MASTERDIZ"
+     ]
+    },
+    {
+     "proposer": "MAX",
+     "state": "REJECTED",
+     "team": [
+      "MAX",
+      "ALLEN"
+     ],
+     "votes": [
+      "AND",
+      "MAX"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SNOOZY",
+      "MASTERDIZ",
+      "AND"
+     ],
+     "proposer": "SNOOZY",
+     "team": [
+      "MASTERDIZ",
+      "SNOOZY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MASTERDIZ",
+    "SNOOZY"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "AND",
+     "state": "REJECTED",
+     "team": [
+      "AND",
+      "SNOOZY",
+      "ALLEN"
+     ],
+     "votes": [
+      "AND",
+      "SNOOZY"
+     ]
+    },
+    {
+     "team": [
+      "ALLEN",
+      "MAX",
+      "SNOOZY"
+     ],
+     "votes": [
+      "ALLEN",
+      "AND",
+      "SNOOZY"
+     ],
+     "proposer": "ALLEN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ALLEN",
+    "MAX",
+    "SNOOZY"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MASTERDIZ"
+     ],
+     "team": [
+      "MASTERDIZ",
+      "ALLEN"
+     ],
+     "proposer": "MASTERDIZ"
+    },
+    {
+     "team": [
+      "MAX",
+      "ALLEN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MASTERDIZ",
+      "MAX"
+     ],
+     "proposer": "MAX"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AND",
+      "SNOOZY"
+     ],
+     "team": [
+      "SNOOZY",
+      "AND"
+     ],
+     "proposer": "SNOOZY"
+    },
+    {
+     "proposer": "AND",
+     "state": "REJECTED",
+     "team": [
+      "AND",
+      "ALLEN"
+     ],
+     "votes": [
+      "AND",
+      "SNOOZY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALLEN",
+      "AND"
+     ],
+     "votes": [
+      "ALLEN",
+      "SNOOZY",
+      "MASTERDIZ",
+      "MAX",
+      "AND"
+     ],
+     "proposer": "ALLEN"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "ALLEN",
+    "AND"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MAX",
+      "MASTERDIZ"
+     ],
+     "team": [
+      "ALLEN",
+      "MASTERDIZ",
+      "AND"
+     ],
+     "proposer": "MASTERDIZ",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "MAX",
+     "state": "REJECTED",
+     "team": [
+      "MAX",
+      "AND",
+      "ALLEN"
+     ],
+     "votes": [
+      "MAX"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SNOOZY",
+      "ALLEN",
+      "AND"
+     ],
+     "proposer": "SNOOZY",
+     "votes": [
+      "ALLEN",
+      "SNOOZY",
+      "AND"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "SNOOZY",
+    "ALLEN",
+    "AND"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "AND",
+    "SNOOZY",
+    "ALLEN"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AND",
+      "SNOOZY",
+      "ALLEN"
+     ],
+     "proposer": "AND",
+     "votes": [
+      "SNOOZY",
+      "ALLEN",
+      "AND",
+      "MASTERDIZ"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ]
+}

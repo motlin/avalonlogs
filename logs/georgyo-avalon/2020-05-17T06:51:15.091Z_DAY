@@ -1,0 +1,299 @@
+{
+ "players": [
+  {
+   "uid": "jzpZGHVfjbS3p6VsfpGY53wN27T2",
+   "name": "EMILY"
+  },
+  {
+   "uid": "qzE9MBPUiQftGC5QBsAfarSiBEM2",
+   "name": "PATRICK"
+  },
+  {
+   "name": "MEGAN",
+   "uid": "mkHd7EYg7eW9EZHfpEyjVPsAmkm1"
+  },
+  {
+   "name": "CHONGZ",
+   "uid": "64McfzW9cJPIOzSj8rfmYGhScLg1"
+  },
+  {
+   "uid": "T3KiFaDEOEY8wSMnNf76VjKor313",
+   "name": "KEVIN"
+  },
+  {
+   "uid": "a9zinWFXOuRCFGdnneS5bJQPuRF2",
+   "name": "ALBERT"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589698275,
+  "_nanoseconds": 91000000
+ },
+ "timeFinished": {
+  "_seconds": 1589698942,
+  "_nanoseconds": 896000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ALBERT": true,
+    "EMILY": true
+   },
+   {
+    "MEGAN": true,
+    "ALBERT": true,
+    "KEVIN": true
+   },
+   {
+    "MEGAN": true,
+    "KEVIN": true,
+    "ALBERT": true,
+    "CHONGZ": false
+   },
+   {
+    "ALBERT": true,
+    "MEGAN": true,
+    "KEVIN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "EMILY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ALBERT"
+   },
+   {
+    "name": "MEGAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "CHONGZ"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PATRICK"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "KEVIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "PATRICK",
+     "team": [
+      "PATRICK",
+      "KEVIN"
+     ],
+     "votes": [
+      "KEVIN",
+      "PATRICK"
+     ]
+    },
+    {
+     "proposer": "MEGAN",
+     "state": "REJECTED",
+     "votes": [
+      "MEGAN",
+      "KEVIN"
+     ],
+     "team": [
+      "MEGAN",
+      "KEVIN"
+     ]
+    },
+    {
+     "votes": [
+      "CHONGZ",
+      "KEVIN"
+     ],
+     "proposer": "CHONGZ",
+     "state": "REJECTED",
+     "team": [
+      "CHONGZ",
+      "KEVIN"
+     ]
+    },
+    {
+     "votes": [
+      "KEVIN",
+      "EMILY",
+      "ALBERT"
+     ],
+     "team": [
+      "KEVIN",
+      "ALBERT"
+     ],
+     "state": "REJECTED",
+     "proposer": "KEVIN"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ALBERT",
+     "votes": [
+      "MEGAN",
+      "CHONGZ",
+      "KEVIN",
+      "PATRICK",
+      "EMILY",
+      "ALBERT"
+     ],
+     "team": [
+      "ALBERT",
+      "EMILY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ALBERT",
+    "EMILY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "ALBERT",
+    "KEVIN",
+    "MEGAN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "EMILY",
+      "ALBERT",
+      "MEGAN"
+     ],
+     "proposer": "EMILY",
+     "state": "REJECTED",
+     "team": [
+      "EMILY",
+      "ALBERT",
+      "MEGAN"
+     ]
+    },
+    {
+     "votes": [
+      "PATRICK",
+      "EMILY",
+      "ALBERT"
+     ],
+     "proposer": "PATRICK",
+     "state": "REJECTED",
+     "team": [
+      "EMILY",
+      "PATRICK",
+      "ALBERT"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALBERT",
+      "MEGAN",
+      "KEVIN",
+      "EMILY"
+     ],
+     "team": [
+      "ALBERT",
+      "KEVIN",
+      "MEGAN"
+     ],
+     "proposer": "MEGAN"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MEGAN",
+    "CHONGZ",
+    "KEVIN",
+    "ALBERT"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "CHONGZ",
+     "team": [
+      "MEGAN",
+      "CHONGZ",
+      "KEVIN",
+      "ALBERT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ALBERT",
+      "MEGAN",
+      "CHONGZ",
+      "KEVIN",
+      "EMILY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "ALBERT",
+    "KEVIN",
+    "MEGAN"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "MEGAN",
+      "KEVIN",
+      "PATRICK",
+      "ALBERT"
+     ],
+     "proposer": "KEVIN",
+     "team": [
+      "ALBERT",
+      "KEVIN",
+      "MEGAN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "players": [
+  {
+   "uid": "tZc2P0GGgldQCNzNakI0vtfsgkA3",
+   "name": "NIKHIL"
+  },
+  {
+   "uid": "0bQyCVNmdVcadA1Gvw6icbtbN8g2",
+   "name": "LOYALFLLWR"
+  },
+  {
+   "uid": "8uBQXq7SRuS2ffHFM9XTwrb5hnm2",
+   "name": "STEVEN"
+  },
+  {
+   "uid": "FR6jEEP1uJOxgEtHe9nax6rFVnq2",
+   "name": "KS"
+  },
+  {
+   "name": "ANINDYA",
+   "uid": "upvDlEhIsbX40eK5WOR03nytwGw1"
+  },
+  {
+   "uid": "6DMRC05oo2OIe59rUjD79s4qc5m1",
+   "name": "BOOPS"
+  },
+  {
+   "uid": "H3OZXrtkMiU717V43bplMpn5oIL2",
+   "name": "ASHWIN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1562951870,
+  "_nanoseconds": 889930000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KS",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "name": "ANINDYA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "BOOPS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "NIKHIL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "STEVEN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ASHWIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LOYALFLLWR",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "ASHWIN": true,
+    "LOYALFLLWR": true
+   },
+   {
+    "KS": false,
+    "LOYALFLLWR": true,
+    "BOOPS": true
+   },
+   {
+    "NIKHIL": true,
+    "ASHWIN": true,
+    "LOYALFLLWR": true
+   },
+   {
+    "LOYALFLLWR": true,
+    "STEVEN": false,
+    "NIKHIL": true,
+    "ASHWIN": true
+   }
+  ],
+  "assassinated": "BOOPS",
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1562950918,
+  "_nanoseconds": 151000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "BOOPS",
+      "NIKHIL",
+      "LOYALFLLWR"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LOYALFLLWR",
+      "NIKHIL"
+     ],
+     "proposer": "LOYALFLLWR"
+    },
+    {
+     "votes": [
+      "KS",
+      "STEVEN",
+      "LOYALFLLWR"
+     ],
+     "team": [
+      "KS",
+      "LOYALFLLWR"
+     ],
+     "state": "REJECTED",
+     "proposer": "STEVEN"
+    },
+    {
+     "team": [
+      "LOYALFLLWR",
+      "STEVEN"
+     ],
+     "proposer": "KS",
+     "votes": [
+      "STEVEN",
+      "KS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "votes": [
+      "ANINDYA"
+     ],
+     "team": [
+      "ANINDYA",
+      "NIKHIL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ASHWIN",
+      "LOYALFLLWR"
+     ],
+     "votes": [
+      "KS",
+      "ANINDYA",
+      "BOOPS",
+      "NIKHIL",
+      "STEVEN",
+      "ASHWIN",
+      "LOYALFLLWR"
+     ],
+     "proposer": "BOOPS"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ASHWIN",
+    "LOYALFLLWR"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "KS",
+    "BOOPS",
+    "LOYALFLLWR"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ASHWIN",
+     "team": [
+      "BOOPS",
+      "ASHWIN",
+      "LOYALFLLWR"
+     ],
+     "votes": [
+      "ANINDYA",
+      "ASHWIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BOOPS",
+      "NIKHIL",
+      "ASHWIN"
+     ],
+     "proposer": "NIKHIL",
+     "team": [
+      "NIKHIL",
+      "LOYALFLLWR",
+      "BOOPS"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "ASHWIN",
+      "LOYALFLLWR"
+     ],
+     "proposer": "LOYALFLLWR",
+     "state": "REJECTED",
+     "team": [
+      "LOYALFLLWR",
+      "ASHWIN",
+      "NIKHIL"
+     ]
+    },
+    {
+     "votes": [
+      "STEVEN"
+     ],
+     "team": [
+      "STEVEN",
+      "ASHWIN",
+      "BOOPS"
+     ],
+     "proposer": "STEVEN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BOOPS",
+      "NIKHIL",
+      "ASHWIN",
+      "LOYALFLLWR",
+      "KS",
+      "ANINDYA"
+     ],
+     "team": [
+      "KS",
+      "BOOPS",
+      "LOYALFLLWR"
+     ],
+     "proposer": "KS"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ASHWIN",
+    "LOYALFLLWR",
+    "NIKHIL"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "team": [
+      "ANINDYA",
+      "BOOPS",
+      "ASHWIN"
+     ],
+     "votes": []
+    },
+    {
+     "team": [
+      "ASHWIN",
+      "BOOPS",
+      "LOYALFLLWR"
+     ],
+     "proposer": "BOOPS",
+     "state": "REJECTED",
+     "votes": [
+      "BOOPS",
+      "NIKHIL",
+      "ASHWIN"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "STEVEN",
+      "ASHWIN",
+      "LOYALFLLWR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ASHWIN",
+      "LOYALFLLWR",
+      "NIKHIL"
+     ],
+     "proposer": "ASHWIN"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "NIKHIL",
+     "votes": [
+      "NIKHIL",
+      "ASHWIN",
+      "BOOPS"
+     ],
+     "team": [
+      "NIKHIL",
+      "LOYALFLLWR",
+      "STEVEN",
+      "BOOPS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BOOPS",
+      "NIKHIL",
+      "ASHWIN",
+      "LOYALFLLWR"
+     ],
+     "state": "APPROVED",
+     "proposer": "LOYALFLLWR",
+     "team": [
+      "ASHWIN",
+      "STEVEN",
+      "LOYALFLLWR",
+      "NIKHIL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "ASHWIN",
+    "STEVEN",
+    "LOYALFLLWR",
+    "NIKHIL"
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ]
+}

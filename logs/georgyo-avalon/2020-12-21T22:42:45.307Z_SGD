@@ -1,0 +1,291 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1608591568,
+  "_nanoseconds": 217000000
+ },
+ "players": [
+  {
+   "uid": "p77jTIdrcKeIntD6HbDl0ZDpiQx2",
+   "name": "TOM"
+  },
+  {
+   "uid": "CHX9FOCKOtUOpzqXF52dk9LrPWH2",
+   "name": "EM"
+  },
+  {
+   "uid": "tXBBKP6oq9XNRyzIbFP09MEWFDQ2",
+   "name": "JORDAN"
+  },
+  {
+   "name": "RUZLE",
+   "uid": "Z1q6C8cqvZWRWmVSO7tjDZKsWFo2"
+  },
+  {
+   "uid": "nf9aTYv7OfOIk6AH0qrReylGmAm2",
+   "name": "ANGELA"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "RUZLE",
+  "roles": [
+   {
+    "name": "ANGELA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "TOM",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "EM",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JORDAN"
+   },
+   {
+    "role": "MERLIN",
+    "name": "RUZLE",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "RUZLE": true,
+    "TOM": true
+   },
+   {
+    "ANGELA": false,
+    "TOM": true,
+    "RUZLE": true
+   },
+   {
+    "ANGELA": true,
+    "JORDAN": true
+   },
+   {
+    "JORDAN": true,
+    "TOM": true,
+    "ANGELA": false
+   },
+   {
+    "RUZLE": true,
+    "TOM": true,
+    "JORDAN": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeCreated": {
+  "_seconds": 1608590565,
+  "_nanoseconds": 307000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "RUZLE",
+      "TOM",
+      "EM",
+      "JORDAN"
+     ],
+     "team": [
+      "TOM",
+      "RUZLE"
+     ],
+     "state": "APPROVED",
+     "proposer": "RUZLE"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "TOM",
+    "RUZLE"
+   ]
+  },
+  {
+   "team": [
+    "RUZLE",
+    "ANGELA",
+    "TOM"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "RUZLE",
+      "ANGELA",
+      "TOM"
+     ],
+     "votes": [
+      "ANGELA",
+      "TOM",
+      "EM",
+      "JORDAN",
+      "RUZLE"
+     ],
+     "proposer": "ANGELA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "TOM",
+      "RUZLE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "TOM",
+      "RUZLE"
+     ],
+     "proposer": "TOM"
+    },
+    {
+     "proposer": "EM",
+     "votes": [
+      "EM",
+      "RUZLE"
+     ],
+     "team": [
+      "EM",
+      "RUZLE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JORDAN",
+     "votes": [
+      "EM",
+      "JORDAN",
+      "ANGELA"
+     ],
+     "team": [
+      "ANGELA",
+      "JORDAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ANGELA",
+    "JORDAN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "ANGELA",
+    "JORDAN",
+    "TOM"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TOM",
+      "RUZLE"
+     ],
+     "team": [
+      "TOM",
+      "JORDAN",
+      "RUZLE"
+     ],
+     "proposer": "RUZLE"
+    },
+    {
+     "proposer": "ANGELA",
+     "state": "APPROVED",
+     "team": [
+      "ANGELA",
+      "JORDAN",
+      "TOM"
+     ],
+     "votes": [
+      "ANGELA",
+      "EM",
+      "JORDAN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TOM",
+      "RUZLE"
+     ],
+     "proposer": "TOM",
+     "state": "REJECTED",
+     "team": [
+      "TOM",
+      "JORDAN",
+      "RUZLE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JORDAN",
+      "EM",
+      "RUZLE"
+     ],
+     "proposer": "EM",
+     "votes": [
+      "JORDAN",
+      "EM"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RUZLE",
+      "TOM",
+      "JORDAN"
+     ],
+     "proposer": "JORDAN",
+     "team": [
+      "JORDAN",
+      "RUZLE",
+      "TOM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JORDAN",
+    "RUZLE",
+    "TOM"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  }
+ ]
+}

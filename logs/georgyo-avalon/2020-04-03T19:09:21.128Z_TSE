@@ -1,0 +1,247 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "PAVI",
+      "PETER"
+     ],
+     "state": "APPROVED",
+     "proposer": "PAVI",
+     "votes": [
+      "HRISTO",
+      "PAVI",
+      "PETER",
+      "VORTIGEN"
+     ]
+    }
+   ],
+   "team": [
+    "PAVI",
+    "PETER"
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "PETER",
+    "VORTIGEN",
+    "PAVI"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "HRISTO",
+      "PAVI",
+      "PETER",
+      "VORTIGEN"
+     ],
+     "proposer": "PETER",
+     "state": "APPROVED",
+     "team": [
+      "PETER",
+      "VORTIGEN",
+      "PAVI"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "HRISTO",
+    "RADO",
+    "ROSEN",
+    "VORTIGEN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "RADO",
+     "team": [
+      "RADO",
+      "ROSEN",
+      "PAVI",
+      "PETER"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ROSEN",
+      "PETER"
+     ]
+    },
+    {
+     "proposer": "ROSEN",
+     "team": [
+      "RADO",
+      "ROSEN",
+      "PAVI",
+      "HRISTO"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ROSEN",
+      "HRISTO",
+      "PETER"
+     ]
+    },
+    {
+     "proposer": "VORTIGEN",
+     "state": "APPROVED",
+     "team": [
+      "HRISTO",
+      "RADO",
+      "ROSEN",
+      "VORTIGEN"
+     ],
+     "votes": [
+      "RADO",
+      "ROSEN",
+      "HRISTO",
+      "PAVI",
+      "PETER",
+      "VORTIGEN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "HRISTO",
+     "team": [
+      "HRISTO",
+      "RADO",
+      "PAVI"
+     ],
+     "votes": [
+      "ROSEN",
+      "HRISTO",
+      "PAVI",
+      "PETER"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HRISTO",
+    "RADO",
+    "PAVI"
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585940961,
+  "_nanoseconds": 128000000
+ },
+ "players": [
+  {
+   "name": "HRISTO",
+   "uid": "kYEYMpBbnJapqjWpikK9HaU2G633"
+  },
+  {
+   "uid": "0ZujOZQKomNa5SzR586jybWCuxk2",
+   "name": "PAVI"
+  },
+  {
+   "uid": "4hIT4X2PpEhyzfnriL9eDsRmol83",
+   "name": "PETER"
+  },
+  {
+   "name": "RADO",
+   "uid": "Yd5UcLTMSuZm7fkp9vNa2ob6iek2"
+  },
+  {
+   "name": "ROSEN",
+   "uid": "39FfnO2UBGWjZ2gNYYYVCkkZ4sz1"
+  },
+  {
+   "name": "VORTIGEN",
+   "uid": "KLGRZnI4KLguDdpgK82zcaymxs93"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585941794,
+  "_nanoseconds": 712214000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "PETER": true,
+    "PAVI": true
+   },
+   {
+    "VORTIGEN": true,
+    "PAVI": true,
+    "PETER": false
+   },
+   {
+    "RADO": true,
+    "ROSEN": true,
+    "HRISTO": false,
+    "VORTIGEN": true
+   },
+   {
+    "HRISTO": false,
+    "PAVI": true,
+    "RADO": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "HRISTO",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PAVI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PETER",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "VORTIGEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "RADO"
+   },
+   {
+    "name": "ROSEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three failed missions"
+ }
+}

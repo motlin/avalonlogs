@@ -1,0 +1,261 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "DYAN",
+      "MOLLYA",
+      "LGT",
+      "KOBID",
+      "RANJ"
+     ],
+     "team": [
+      "RANJ",
+      "DYAN"
+     ],
+     "proposer": "LGT",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "RANJ",
+    "DYAN"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "RANJ",
+    "DYAN",
+    "MOLLYA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "RANJ",
+     "team": [
+      "RANJ",
+      "LGT",
+      "DYAN"
+     ],
+     "votes": [
+      "DYAN",
+      "LGT",
+      "RANJ"
+     ]
+    },
+    {
+     "team": [
+      "RANJ",
+      "DYAN",
+      "MOLLYA"
+     ],
+     "proposer": "DYAN",
+     "state": "APPROVED",
+     "votes": [
+      "RANJ",
+      "JOY",
+      "DYAN",
+      "MOLLYA"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "MOLLYA",
+    "JOY",
+    "KOBID",
+    "LGT"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JOY"
+     ],
+     "team": [
+      "JOY",
+      "KOBID",
+      "RANJ",
+      "DYAN"
+     ],
+     "proposer": "JOY"
+    },
+    {
+     "votes": [
+      "MOLLYA",
+      "KOBID",
+      "RANJ",
+      "JOY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MOLLYA",
+      "JOY",
+      "KOBID",
+      "LGT"
+     ],
+     "proposer": "MOLLYA"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "MOLLYA",
+      "DYAN",
+      "KOBID"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MOLLYA",
+      "KOBID"
+     ],
+     "proposer": "KOBID"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LGT",
+     "votes": [
+      "MOLLYA",
+      "LGT",
+      "KOBID",
+      "RANJ",
+      "JOY"
+     ],
+     "team": [
+      "LGT",
+      "RANJ",
+      "JOY"
+     ]
+    }
+   ],
+   "team": [
+    "LGT",
+    "RANJ",
+    "JOY"
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591434612,
+  "_nanoseconds": 699000000
+ },
+ "timeCreated": {
+  "_seconds": 1591433732,
+  "_nanoseconds": 488000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "RANJ": true,
+    "DYAN": true
+   },
+   {
+    "RANJ": false,
+    "MOLLYA": true,
+    "DYAN": true
+   },
+   {
+    "JOY": true,
+    "LGT": true,
+    "MOLLYA": false,
+    "KOBID": true
+   },
+   {
+    "LGT": true,
+    "RANJ": false,
+    "JOY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "RANJ",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JOY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "DYAN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "MOLLYA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "LGT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "KOBID",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "name": "RANJ",
+   "uid": "ddN4GGBSyjMxe2lpaA1ksjq2uq03"
+  },
+  {
+   "uid": "IBBFrH9I5wQQmw2HygZnAI8cnYW2",
+   "name": "DYAN"
+  },
+  {
+   "uid": "szWrGgLZmnhRtkCaBusb4sQlsq53",
+   "name": "JOY"
+  },
+  {
+   "uid": "YQwifetWzwV6rauQGuFFg7cEvPE2",
+   "name": "MOLLYA"
+  },
+  {
+   "name": "KOBID",
+   "uid": "zS4r1VtzaHM2Sz0ShBpIgeSjE9V2"
+  },
+  {
+   "name": "LGT",
+   "uid": "uT5J85d7gybH9gzy6I9ygLOHtfm2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

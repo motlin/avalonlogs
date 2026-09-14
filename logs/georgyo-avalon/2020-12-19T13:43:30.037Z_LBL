@@ -1,0 +1,235 @@
+{
+ "players": [
+  {
+   "name": "TIRTH",
+   "uid": "svOCaqvLGvaw3f3nTbiQ7gDhfeK2"
+  },
+  {
+   "uid": "eaIj3OOeMRbz5vuCquk8HL1dyhB3",
+   "name": "KENA"
+  },
+  {
+   "uid": "z7fA7o1jCyREUHg6IekkSlDdpfl1",
+   "name": "TARA"
+  },
+  {
+   "uid": "V7GONiI7AVYfUpgcTREpJ4wMbBi1",
+   "name": "ASH"
+  },
+  {
+   "name": "GRYK",
+   "uid": "0VZELFt65GSbVP5MsHk82VFaeYK2"
+  },
+  {
+   "uid": "SmEaVoEY71OCYuMEbba4M4HzNsb2",
+   "name": "ASHWIN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1608385410,
+  "_nanoseconds": 37000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "KENA",
+    "GRYK"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "TIRTH",
+      "ASH",
+      "GRYK",
+      "TARA",
+      "KENA"
+     ],
+     "team": [
+      "KENA",
+      "GRYK"
+     ],
+     "proposer": "KENA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "TARA",
+    "KENA",
+    "GRYK"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KENA",
+      "GRYK",
+      "ASH",
+      "TIRTH",
+      "TARA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "TARA",
+      "KENA",
+      "GRYK"
+     ],
+     "proposer": "TARA"
+    }
+   ],
+   "numFails": 2
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ASH",
+     "votes": [
+      "TIRTH",
+      "ASHWIN",
+      "ASH",
+      "TARA"
+     ],
+     "team": [
+      "ASH",
+      "TIRTH",
+      "ASHWIN",
+      "TARA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "ASH",
+    "TIRTH",
+    "ASHWIN",
+    "TARA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "GRYK",
+     "team": [
+      "GRYK",
+      "TIRTH",
+      "ASHWIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KENA",
+      "GRYK"
+     ]
+    },
+    {
+     "proposer": "ASHWIN",
+     "votes": [
+      "TIRTH",
+      "ASHWIN",
+      "ASH",
+      "GRYK",
+      "TARA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ASHWIN",
+      "ASH",
+      "TIRTH"
+     ]
+    }
+   ],
+   "team": [
+    "ASHWIN",
+    "ASH",
+    "TIRTH"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "ASH",
+  "votes": [
+   {
+    "KENA": true,
+    "GRYK": true
+   },
+   {
+    "TARA": true,
+    "KENA": false,
+    "GRYK": false
+   },
+   {
+    "TIRTH": true,
+    "ASH": true,
+    "TARA": true,
+    "ASHWIN": true
+   },
+   {
+    "ASH": true,
+    "TIRTH": true,
+    "ASHWIN": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "TIRTH"
+   },
+   {
+    "assassin": false,
+    "name": "GRYK",
+    "role": "MORGANA"
+   },
+   {
+    "name": "TARA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ASHWIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "KENA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ASH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1608385645,
+  "_nanoseconds": 965000000
+ }
+}

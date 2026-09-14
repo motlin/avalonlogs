@@ -1,0 +1,382 @@
+{
+ "timeFinished": {
+  "_seconds": 1603993518,
+  "_nanoseconds": 98000000
+ },
+ "timeCreated": {
+  "_seconds": 1603991726,
+  "_nanoseconds": 947000000
+ },
+ "players": [
+  {
+   "name": "PAIS",
+   "uid": "nWTZrfZ9zChuIsOwu76kNBmCZNr1"
+  },
+  {
+   "uid": "Rruh6j25tzbNhwLoaRnNc25Ng5s1",
+   "name": "M"
+  },
+  {
+   "name": "OBET",
+   "uid": "12ampu9xP3QZvRKNDdGEiMlmGFH2"
+  },
+  {
+   "name": "YGTERBAIK",
+   "uid": "nCIuoZdvenXVQcR9Pl42EnkfkO92"
+  },
+  {
+   "name": "ADP",
+   "uid": "cerZqFV3jIXGTuBL71ygi9AkasX2"
+  },
+  {
+   "uid": "ZFgUktJiuxZj6wOC4HX9xrcvZNv1",
+   "name": "RABIT"
+  },
+  {
+   "name": "ZAREENAH",
+   "uid": "ib1oo3Qyppb7cdWge0Z1IMGS6hQ2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "OBET"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "M",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ADP"
+   },
+   {
+    "assassin": false,
+    "name": "ZAREENAH",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "RABIT"
+   },
+   {
+    "role": "MORGANA",
+    "name": "PAIS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "YGTERBAIK"
+   }
+  ],
+  "assassinated": "M",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "ZAREENAH": true,
+    "PAIS": true
+   },
+   {
+    "RABIT": true,
+    "ZAREENAH": true,
+    "PAIS": true
+   },
+   {
+    "OBET": false,
+    "ADP": true,
+    "ZAREENAH": true
+   },
+   {
+    "RABIT": false,
+    "ADP": true,
+    "PAIS": false,
+    "OBET": false
+   },
+   {
+    "YGTERBAIK": true,
+    "M": true,
+    "ZAREENAH": true,
+    "ADP": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ADP",
+      "M"
+     ],
+     "votes": [
+      "ZAREENAH",
+      "YGTERBAIK",
+      "ADP"
+     ],
+     "proposer": "ADP"
+    },
+    {
+     "votes": [
+      "ZAREENAH",
+      "YGTERBAIK",
+      "RABIT"
+     ],
+     "proposer": "RABIT",
+     "state": "REJECTED",
+     "team": [
+      "YGTERBAIK",
+      "RABIT"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "YGTERBAIK",
+      "ZAREENAH",
+      "RABIT",
+      "PAIS"
+     ],
+     "team": [
+      "ZAREENAH",
+      "PAIS"
+     ],
+     "proposer": "ZAREENAH"
+    }
+   ],
+   "team": [
+    "ZAREENAH",
+    "PAIS"
+   ]
+  },
+  {
+   "team": [
+    "PAIS",
+    "ZAREENAH",
+    "RABIT"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ZAREENAH",
+      "ADP",
+      "M",
+      "RABIT"
+     ],
+     "proposer": "PAIS",
+     "team": [
+      "PAIS",
+      "ZAREENAH",
+      "RABIT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "OBET",
+    "ZAREENAH",
+    "ADP"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "OBET",
+      "M",
+      "RABIT"
+     ],
+     "team": [
+      "RABIT",
+      "M",
+      "OBET"
+     ],
+     "proposer": "M",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "OBET",
+      "YGTERBAIK",
+      "RABIT"
+     ],
+     "votes": [
+      "OBET",
+      "RABIT"
+     ],
+     "state": "REJECTED",
+     "proposer": "OBET"
+    },
+    {
+     "proposer": "YGTERBAIK",
+     "votes": [
+      "PAIS",
+      "YGTERBAIK",
+      "RABIT"
+     ],
+     "team": [
+      "PAIS",
+      "ZAREENAH",
+      "RABIT"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "OBET",
+      "ZAREENAH",
+      "ADP",
+      "RABIT"
+     ],
+     "team": [
+      "OBET",
+      "ZAREENAH",
+      "ADP"
+     ],
+     "proposer": "ADP",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "OBET",
+      "M",
+      "RABIT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RABIT",
+      "PAIS",
+      "OBET",
+      "ADP"
+     ],
+     "proposer": "RABIT"
+    },
+    {
+     "proposer": "ZAREENAH",
+     "votes": [
+      "ZAREENAH",
+      "YGTERBAIK",
+      "PAIS"
+     ],
+     "team": [
+      "YGTERBAIK",
+      "ZAREENAH",
+      "ADP",
+      "PAIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "YGTERBAIK",
+      "PAIS",
+      "OBET"
+     ],
+     "proposer": "PAIS",
+     "state": "REJECTED",
+     "team": [
+      "PAIS",
+      "OBET",
+      "YGTERBAIK",
+      "ZAREENAH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "M",
+     "team": [
+      "PAIS",
+      "OBET",
+      "ADP",
+      "RABIT"
+     ],
+     "votes": [
+      "ADP",
+      "OBET",
+      "M",
+      "RABIT"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 3,
+   "team": [
+    "PAIS",
+    "OBET",
+    "ADP",
+    "RABIT"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "YGTERBAIK",
+    "M",
+    "ZAREENAH",
+    "ADP"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "M",
+      "OBET",
+      "YGTERBAIK",
+      "ZAREENAH"
+     ],
+     "votes": [
+      "OBET"
+     ],
+     "proposer": "OBET"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "YGTERBAIK",
+      "M",
+      "ZAREENAH",
+      "ADP"
+     ],
+     "votes": [
+      "ADP",
+      "YGTERBAIK",
+      "M",
+      "ZAREENAH"
+     ],
+     "proposer": "YGTERBAIK"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

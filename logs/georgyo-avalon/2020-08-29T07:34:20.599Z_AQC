@@ -1,0 +1,281 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "OBERON",
+    "name": "KAUSHAL",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "PRIDHVI",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ROHAN"
+   },
+   {
+    "name": "AMEYA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "MEMO",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "NICK",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "KLAY"
+   }
+  ],
+  "assassinated": "AMEYA",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "NICK": true,
+    "ROHAN": true
+   },
+   {
+    "ROHAN": true,
+    "KAUSHAL": false,
+    "NICK": true
+   },
+   {
+    "PRIDHVI": false,
+    "ROHAN": true,
+    "AMEYA": true
+   },
+   {
+    "ROHAN": true,
+    "NICK": true,
+    "KLAY": false,
+    "AMEYA": true
+   },
+   {
+    "NICK": true,
+    "MEMO": true,
+    "AMEYA": true,
+    "ROHAN": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "players": [
+  {
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13",
+   "name": "AMEYA"
+  },
+  {
+   "uid": "kxOTeulhGKcu2MOCO9lYm5giHP82",
+   "name": "ROHAN"
+  },
+  {
+   "name": "NICK",
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03"
+  },
+  {
+   "uid": "lHvH2Q0Vc1UbF40N06Zr6svg26i1",
+   "name": "KAUSHAL"
+  },
+  {
+   "uid": "4GfCahioxqeJie6psB9eYJTCG793",
+   "name": "PRIDHVI"
+  },
+  {
+   "name": "KLAY",
+   "uid": "V4SAGCzS9KMfXt2eiWuWhKXSMm12"
+  },
+  {
+   "uid": "1FdWUDx8sCeb6EZoZXIQJlZsnTJ3",
+   "name": "MEMO"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "NICK",
+    "ROHAN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NICK",
+      "ROHAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "NICK",
+     "votes": [
+      "ROHAN",
+      "PRIDHVI",
+      "NICK",
+      "MEMO",
+      "KLAY",
+      "AMEYA",
+      "KAUSHAL"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "KAUSHAL",
+    "NICK",
+    "ROHAN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MEMO",
+      "KAUSHAL",
+      "ROHAN",
+      "NICK",
+      "PRIDHVI",
+      "KLAY",
+      "AMEYA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KAUSHAL",
+      "NICK",
+      "ROHAN"
+     ],
+     "proposer": "KAUSHAL"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PRIDHVI",
+      "ROHAN",
+      "AMEYA"
+     ],
+     "votes": [
+      "NICK",
+      "KAUSHAL",
+      "MEMO",
+      "ROHAN",
+      "KLAY",
+      "AMEYA",
+      "PRIDHVI"
+     ],
+     "proposer": "PRIDHVI"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "PRIDHVI",
+    "ROHAN",
+    "AMEYA"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ROHAN",
+      "AMEYA",
+      "NICK",
+      "KLAY"
+     ],
+     "team": [
+      "KLAY",
+      "NICK",
+      "AMEYA",
+      "ROHAN"
+     ],
+     "proposer": "KLAY"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "KLAY",
+    "NICK",
+    "AMEYA",
+    "ROHAN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "AMEYA",
+    "ROHAN",
+    "NICK",
+    "MEMO"
+   ],
+   "proposals": [
+    {
+     "proposer": "MEMO",
+     "state": "REJECTED",
+     "team": [
+      "MEMO",
+      "AMEYA",
+      "ROHAN",
+      "NICK"
+     ],
+     "votes": [
+      "AMEYA",
+      "MEMO",
+      "NICK"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MEMO",
+      "AMEYA",
+      "NICK",
+      "ROHAN"
+     ],
+     "proposer": "AMEYA",
+     "team": [
+      "AMEYA",
+      "ROHAN",
+      "NICK",
+      "MEMO"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1598688043,
+  "_nanoseconds": 887000000
+ },
+ "timeCreated": {
+  "_seconds": 1598686460,
+  "_nanoseconds": 599000000
+ }
+}

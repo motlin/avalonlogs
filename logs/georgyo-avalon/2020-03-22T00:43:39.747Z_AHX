@@ -1,0 +1,217 @@
+{
+ "players": [
+  {
+   "uid": "nWeOa9zvOOMlVQb6oJflRNpcFRB2",
+   "name": "DYLAN"
+  },
+  {
+   "uid": "OBW5VvybdCcFpphYr6Wngvx1HZ52",
+   "name": "KAY"
+  },
+  {
+   "uid": "KU8oaufqacVm4TYqVzQzsxnHoee2",
+   "name": "BARRETT"
+  },
+  {
+   "uid": "OGvZ2GuTcphVkNWlPHPTkYPUYex1",
+   "name": "DELANEY"
+  },
+  {
+   "uid": "lkxYgJKMw7dTCvo03Yi0N5eHoI72",
+   "name": "TRACE"
+  },
+  {
+   "uid": "8o4za1fwINaYq0gHAGzMDs5nMgC2",
+   "name": "LEEEEEE"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MORDRED",
+    "name": "LEEEEEE",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KAY",
+    "assassin": false
+   },
+   {
+    "name": "DELANEY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DYLAN"
+   },
+   {
+    "assassin": true,
+    "name": "BARRETT",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TRACE"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DELANEY": true,
+    "LEEEEEE": true
+   },
+   {
+    "LEEEEEE": false,
+    "DELANEY": true,
+    "TRACE": true
+   },
+   {
+    "LEEEEEE": false,
+    "KAY": true,
+    "DYLAN": true,
+    "DELANEY": true
+   },
+   {
+    "DYLAN": true,
+    "KAY": true,
+    "BARRETT": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1584837819,
+  "_nanoseconds": 747000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "DELANEY",
+    "LEEEEEE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DELANEY",
+     "team": [
+      "DELANEY",
+      "LEEEEEE"
+     ],
+     "votes": [
+      "KAY",
+      "DELANEY",
+      "DYLAN",
+      "LEEEEEE"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "LEEEEEE",
+    "DELANEY",
+    "TRACE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "DYLAN",
+      "TRACE",
+      "LEEEEEE",
+      "KAY",
+      "DELANEY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LEEEEEE",
+      "DELANEY",
+      "TRACE"
+     ],
+     "proposer": "TRACE"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "DELANEY",
+      "DYLAN",
+      "KAY",
+      "LEEEEEE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LEEEEEE",
+      "KAY",
+      "DELANEY",
+      "DYLAN"
+     ],
+     "proposer": "LEEEEEE"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "DELANEY",
+    "DYLAN",
+    "KAY",
+    "LEEEEEE"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "DYLAN",
+    "KAY",
+    "BARRETT"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "LEEEEEE",
+      "KAY",
+      "DYLAN",
+      "BARRETT"
+     ],
+     "team": [
+      "DYLAN",
+      "KAY",
+      "BARRETT"
+     ],
+     "proposer": "DYLAN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1584838208,
+  "_nanoseconds": 904823000
+ }
+}

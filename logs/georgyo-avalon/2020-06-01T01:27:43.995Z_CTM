@@ -1,0 +1,281 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590974863,
+  "_nanoseconds": 995000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "PAUL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JACKSON",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "RACHEL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "CHRIS"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ALLIE",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "DELANEY",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "RACHEL": true,
+    "JACKSON": true
+   },
+   {
+    "PAUL": true,
+    "JACKSON": true,
+    "RACHEL": false
+   },
+   {
+    "CHRIS": true,
+    "ALLIE": true,
+    "RACHEL": true,
+    "DELANEY": true
+   },
+   {
+    "ALLIE": false,
+    "RACHEL": false,
+    "CHRIS": true
+   },
+   {
+    "PAUL": true,
+    "DELANEY": true,
+    "RACHEL": false,
+    "JACKSON": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "0tHkE8DF0Pa3yENHun7suCQiVfg2"
+  },
+  {
+   "name": "RACHEL",
+   "uid": "RT4ujowS6YW9HvRMIirVZ6VWSgm1"
+  },
+  {
+   "name": "ALLIE",
+   "uid": "TxkaF4mV8KY1Y3wNEEum1MCbwdc2"
+  },
+  {
+   "name": "JACKSON",
+   "uid": "rKrXZPSnPFNo8U4tqZMXL90B8I22"
+  },
+  {
+   "uid": "MQW494wOmOdoDLbNPxtZK9F3wfa2",
+   "name": "DELANEY"
+  },
+  {
+   "name": "PAUL",
+   "uid": "USsfTrNmTwh5aPw3jqAH9FjLeNv1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590975535,
+  "_nanoseconds": 681000000
+ },
+ "missions": [
+  {
+   "team": [
+    "JACKSON",
+    "RACHEL"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "JACKSON",
+      "RACHEL"
+     ],
+     "proposer": "JACKSON",
+     "votes": [
+      "DELANEY",
+      "PAUL",
+      "JACKSON",
+      "RACHEL",
+      "CHRIS",
+      "ALLIE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "JACKSON",
+    "RACHEL",
+    "PAUL"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PAUL",
+      "JACKSON",
+      "RACHEL",
+      "CHRIS",
+      "ALLIE",
+      "DELANEY"
+     ],
+     "team": [
+      "JACKSON",
+      "RACHEL",
+      "PAUL"
+     ],
+     "proposer": "DELANEY",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "PAUL",
+     "state": "REJECTED",
+     "team": [
+      "ALLIE",
+      "DELANEY",
+      "PAUL",
+      "CHRIS"
+     ],
+     "votes": [
+      "PAUL",
+      "RACHEL",
+      "CHRIS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RACHEL",
+      "CHRIS",
+      "ALLIE",
+      "DELANEY"
+     ],
+     "proposer": "CHRIS",
+     "team": [
+      "CHRIS",
+      "ALLIE",
+      "DELANEY",
+      "RACHEL"
+     ]
+    }
+   ],
+   "team": [
+    "CHRIS",
+    "ALLIE",
+    "DELANEY",
+    "RACHEL"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "RACHEL",
+    "CHRIS",
+    "ALLIE"
+   ],
+   "numFails": 2,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "RACHEL",
+      "CHRIS",
+      "ALLIE"
+     ],
+     "proposer": "RACHEL",
+     "votes": [
+      "RACHEL",
+      "CHRIS",
+      "ALLIE",
+      "DELANEY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PAUL",
+      "DELANEY",
+      "JACKSON",
+      "ALLIE"
+     ],
+     "votes": [
+      "ALLIE",
+      "DELANEY"
+     ],
+     "proposer": "ALLIE"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JACKSON",
+     "votes": [
+      "DELANEY",
+      "PAUL",
+      "JACKSON",
+      "RACHEL"
+     ],
+     "team": [
+      "RACHEL",
+      "JACKSON",
+      "DELANEY",
+      "PAUL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "RACHEL",
+    "JACKSON",
+    "DELANEY",
+    "PAUL"
+   ],
+   "teamSize": 4,
+   "numFails": 1
+  }
+ ]
+}

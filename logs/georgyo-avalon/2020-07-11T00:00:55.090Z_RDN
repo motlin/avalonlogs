@@ -1,0 +1,419 @@
+{
+ "players": [
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  },
+  {
+   "uid": "dC2rhnbihPgT8jDmLeQKSigns8Q2",
+   "name": "JUN"
+  },
+  {
+   "uid": "0EwMN07DPLYjSQrNoWCOIyYmB8s1",
+   "name": "JEDIAH"
+  },
+  {
+   "name": "ARAVIND",
+   "uid": "OExp95tV1pXrAmUtUIi9naRsFOs2"
+  },
+  {
+   "name": "CLIFF",
+   "uid": "uc5wEQfmukh20e0tr99KgsQgXTC2"
+  },
+  {
+   "uid": "bqlmyMYsaIdhDrL7NI4PZk7Cf6H2",
+   "name": "JAKE"
+  },
+  {
+   "name": "MICHAELP",
+   "uid": "2sjc3XRTDFMvxy3fYcsDjtxGzSE2"
+  },
+  {
+   "name": "MICHAELW",
+   "uid": "KEtn73LrQZXtZG4uZiw6vm5n2sj2"
+  },
+  {
+   "name": "YOSSY",
+   "uid": "Mn1I0XLhXvULfNsXjoVQsgbT8Gy2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "JUN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "CLIFF"
+   },
+   {
+    "name": "JAKE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MICHAELW",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "YOSSY"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "CHEVIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MICHAELP"
+   },
+   {
+    "assassin": false,
+    "name": "ARAVIND",
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JEDIAH"
+   }
+  ],
+  "assassinated": "JAKE",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "JAKE": true,
+    "JEDIAH": true,
+    "CHEVIN": true
+   },
+   {
+    "JEDIAH": true,
+    "JAKE": true,
+    "CHEVIN": false,
+    "MICHAELP": true
+   },
+   {
+    "JUN": true,
+    "JEDIAH": true,
+    "JAKE": true,
+    "MICHAELW": true
+   },
+   {
+    "JEDIAH": true,
+    "MICHAELP": false,
+    "MICHAELW": true,
+    "ARAVIND": false,
+    "JAKE": true
+   },
+   {
+    "JAKE": true,
+    "JEDIAH": true,
+    "CLIFF": true,
+    "JUN": true,
+    "YOSSY": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1594427204,
+  "_nanoseconds": 221000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "JAKE",
+     "state": "APPROVED",
+     "votes": [
+      "CHEVIN",
+      "MICHAELP",
+      "JEDIAH",
+      "JAKE",
+      "MICHAELW",
+      "YOSSY"
+     ],
+     "team": [
+      "JAKE",
+      "JEDIAH",
+      "CHEVIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "JAKE",
+    "JEDIAH",
+    "CHEVIN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "MICHAELP",
+    "JAKE",
+    "JEDIAH",
+    "CHEVIN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MICHAELP",
+      "JAKE",
+      "JEDIAH",
+      "CHEVIN"
+     ],
+     "proposer": "MICHAELP",
+     "votes": [
+      "MICHAELW",
+      "YOSSY",
+      "CHEVIN",
+      "MICHAELP",
+      "CLIFF",
+      "JAKE"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "MICHAELW",
+      "CHEVIN",
+      "JAKE",
+      "JEDIAH"
+     ],
+     "votes": [
+      "CLIFF",
+      "MICHAELW",
+      "CHEVIN"
+     ],
+     "proposer": "MICHAELW",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "YOSSY",
+     "team": [
+      "YOSSY",
+      "JUN",
+      "MICHAELP",
+      "CHEVIN"
+     ],
+     "votes": [
+      "YOSSY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CLIFF",
+      "CHEVIN"
+     ],
+     "proposer": "CHEVIN",
+     "team": [
+      "CHEVIN",
+      "JEDIAH",
+      "JAKE",
+      "CLIFF"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MICHAELW",
+      "YOSSY",
+      "MICHAELP",
+      "JEDIAH",
+      "JUN"
+     ],
+     "team": [
+      "JUN",
+      "JEDIAH",
+      "JAKE",
+      "MICHAELW"
+     ],
+     "proposer": "JUN"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JUN",
+    "JEDIAH",
+    "JAKE",
+    "MICHAELW"
+   ]
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "JUN",
+      "JEDIAH",
+      "MICHAELW",
+      "MICHAELP",
+      "JAKE"
+     ],
+     "votes": [
+      "JEDIAH",
+      "JUN",
+      "JAKE",
+      "MICHAELW"
+     ],
+     "proposer": "JEDIAH",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JAKE",
+      "JEDIAH",
+      "MICHAELP",
+      "ARAVIND",
+      "MICHAELW"
+     ],
+     "proposer": "ARAVIND",
+     "votes": [
+      "JEDIAH",
+      "CLIFF",
+      "YOSSY",
+      "CHEVIN",
+      "ARAVIND"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "JAKE",
+    "JEDIAH",
+    "MICHAELP",
+    "ARAVIND",
+    "MICHAELW"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "YOSSY",
+    "JEDIAH",
+    "JUN",
+    "CLIFF",
+    "JAKE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JEDIAH",
+      "JUN",
+      "JAKE",
+      "CLIFF",
+      "YOSSY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JUN",
+      "CLIFF",
+      "YOSSY",
+      "JEDIAH"
+     ],
+     "proposer": "CLIFF"
+    },
+    {
+     "team": [
+      "JAKE",
+      "JEDIAH",
+      "JUN",
+      "CHEVIN",
+      "MICHAELW"
+     ],
+     "proposer": "JAKE",
+     "state": "REJECTED",
+     "votes": [
+      "CLIFF",
+      "JAKE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHEVIN",
+      "MICHAELP"
+     ],
+     "team": [
+      "MICHAELP",
+      "MICHAELW",
+      "JEDIAH",
+      "CLIFF",
+      "JUN"
+     ],
+     "proposer": "MICHAELP"
+    },
+    {
+     "votes": [
+      "MICHAELW"
+     ],
+     "team": [
+      "MICHAELW",
+      "CHEVIN",
+      "CLIFF",
+      "ARAVIND",
+      "JEDIAH"
+     ],
+     "proposer": "MICHAELW",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "YOSSY",
+     "votes": [
+      "JUN",
+      "CLIFF",
+      "JAKE",
+      "MICHAELW",
+      "YOSSY",
+      "CHEVIN",
+      "JEDIAH"
+     ],
+     "team": [
+      "YOSSY",
+      "JEDIAH",
+      "JUN",
+      "CLIFF",
+      "JAKE"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1594425655,
+  "_nanoseconds": 90000000
+ }
+}

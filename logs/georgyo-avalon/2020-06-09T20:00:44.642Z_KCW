@@ -1,0 +1,297 @@
+{
+ "timeCreated": {
+  "_seconds": 1591732844,
+  "_nanoseconds": 642000000
+ },
+ "players": [
+  {
+   "uid": "eM9Ltl7b52O1f1oH4iegamCVSoE2",
+   "name": "NATHAN"
+  },
+  {
+   "name": "JALLEN",
+   "uid": "fVErk18gatRj5L06IUTGVSgPwNx2"
+  },
+  {
+   "name": "RHIBARB",
+   "uid": "d2qaR1wtLMf6eD0fe27SXJ85kkA3"
+  },
+  {
+   "name": "ALEX",
+   "uid": "rtvrnDmT1lMNdSICJKOcT0Lyx7g1"
+  },
+  {
+   "name": "BENNO",
+   "uid": "2ofmEd6j6hVBA87Zw17NYIFaw762"
+  },
+  {
+   "name": "KMARSH",
+   "uid": "goQU84FRKBVJtftsPjqpPw8cNVy1"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BENNO"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "JALLEN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "KMARSH"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NATHAN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ALEX"
+   },
+   {
+    "assassin": true,
+    "name": "RHIBARB",
+    "role": "MORDRED"
+   }
+  ],
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "KMARSH": true,
+    "RHIBARB": false
+   },
+   {
+    "ALEX": true,
+    "NATHAN": true,
+    "JALLEN": true
+   },
+   {
+    "NATHAN": true,
+    "KMARSH": true,
+    "JALLEN": true,
+    "ALEX": true
+   },
+   {
+    "ALEX": true,
+    "NATHAN": true,
+    "JALLEN": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "KMARSH"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "RHIBARB",
+    "KMARSH"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "BENNO",
+     "team": [
+      "BENNO",
+      "KMARSH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KMARSH"
+     ]
+    },
+    {
+     "team": [
+      "NATHAN",
+      "RHIBARB"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JALLEN",
+      "KMARSH"
+     ],
+     "proposer": "KMARSH"
+    },
+    {
+     "team": [
+      "NATHAN",
+      "ALEX"
+     ],
+     "proposer": "NATHAN",
+     "votes": [
+      "JALLEN",
+      "KMARSH",
+      "ALEX"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ALEX",
+      "JALLEN",
+      "KMARSH"
+     ],
+     "proposer": "JALLEN",
+     "team": [
+      "ALEX",
+      "RHIBARB"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "RHIBARB",
+      "BENNO",
+      "JALLEN",
+      "KMARSH",
+      "NATHAN"
+     ],
+     "team": [
+      "RHIBARB",
+      "KMARSH"
+     ],
+     "proposer": "RHIBARB"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "NATHAN",
+    "JALLEN",
+    "ALEX"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BENNO",
+      "ALEX",
+      "RHIBARB"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALEX",
+     "team": [
+      "ALEX",
+      "NATHAN",
+      "BENNO"
+     ]
+    },
+    {
+     "team": [
+      "BENNO",
+      "JALLEN",
+      "NATHAN"
+     ],
+     "proposer": "BENNO",
+     "state": "REJECTED",
+     "votes": [
+      "RHIBARB",
+      "BENNO"
+     ]
+    },
+    {
+     "team": [
+      "NATHAN",
+      "JALLEN",
+      "ALEX"
+     ],
+     "proposer": "KMARSH",
+     "votes": [
+      "JALLEN",
+      "KMARSH",
+      "NATHAN",
+      "ALEX"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "NATHAN",
+     "state": "APPROVED",
+     "team": [
+      "NATHAN",
+      "KMARSH",
+      "ALEX",
+      "JALLEN"
+     ],
+     "votes": [
+      "KMARSH",
+      "NATHAN",
+      "ALEX",
+      "JALLEN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "NATHAN",
+    "KMARSH",
+    "ALEX",
+    "JALLEN"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ALEX",
+      "JALLEN",
+      "KMARSH",
+      "NATHAN"
+     ],
+     "team": [
+      "JALLEN",
+      "NATHAN",
+      "ALEX"
+     ],
+     "state": "APPROVED",
+     "proposer": "JALLEN"
+    }
+   ],
+   "team": [
+    "JALLEN",
+    "NATHAN",
+    "ALEX"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591734003,
+  "_nanoseconds": 76000000
+ }
+}

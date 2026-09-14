@@ -1,0 +1,258 @@
+{
+ "players": [
+  {
+   "uid": "PS1ny6F7dmT3QqGw9DhtjZcRUqI3",
+   "name": "COOPER"
+  },
+  {
+   "name": "TYSON",
+   "uid": "IOClB4U513Wve2APTDLuYAd489M2"
+  },
+  {
+   "name": "LUKE",
+   "uid": "T2817FwZvsSxPUTcCi0S0dUGOzA3"
+  },
+  {
+   "uid": "LSZi414G65axtsbLxOlyWbq8NKG2",
+   "name": "NATE"
+  },
+  {
+   "name": "KATHRYN",
+   "uid": "AleHpgXwpXVnKgoYrhnsoguTREw2"
+  },
+  {
+   "name": "JASON",
+   "uid": "NSEPetV9qQhJIsaRxY8bb9LK7QS2"
+  },
+  {
+   "name": "ELENA",
+   "uid": "76mB84CMGqWOdoALJR1CNt5CkT53"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "COOPER": true,
+    "ELENA": true
+   },
+   {
+    "COOPER": true,
+    "KATHRYN": true,
+    "TYSON": false
+   },
+   {
+    "COOPER": true,
+    "LUKE": false,
+    "ELENA": true
+   },
+   {
+    "LUKE": false,
+    "ELENA": true,
+    "TYSON": false,
+    "JASON": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "TYSON",
+    "assassin": false
+   },
+   {
+    "name": "ELENA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "NATE"
+   },
+   {
+    "assassin": false,
+    "name": "COOPER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KATHRYN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "JASON",
+    "assassin": false
+   },
+   {
+    "name": "LUKE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1606619956,
+  "_nanoseconds": 13000000
+ },
+ "timeCreated": {
+  "_seconds": 1606618541,
+  "_nanoseconds": 876000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "COOPER",
+     "state": "APPROVED",
+     "votes": [
+      "COOPER",
+      "LUKE",
+      "JASON",
+      "KATHRYN",
+      "ELENA"
+     ],
+     "team": [
+      "COOPER",
+      "ELENA"
+     ]
+    }
+   ],
+   "team": [
+    "COOPER",
+    "ELENA"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "COOPER",
+      "TYSON",
+      "KATHRYN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ELENA",
+      "COOPER",
+      "KATHRYN",
+      "TYSON"
+     ],
+     "proposer": "TYSON"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "COOPER",
+    "TYSON",
+    "KATHRYN"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "ELENA",
+    "LUKE",
+    "COOPER"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LUKE",
+     "votes": [
+      "ELENA",
+      "LUKE",
+      "COOPER",
+      "KATHRYN"
+     ],
+     "team": [
+      "ELENA",
+      "LUKE",
+      "COOPER"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "LUKE",
+      "ELENA",
+      "NATE",
+      "JASON"
+     ],
+     "state": "REJECTED",
+     "proposer": "NATE",
+     "votes": [
+      "LUKE",
+      "NATE"
+     ]
+    },
+    {
+     "team": [
+      "KATHRYN",
+      "ELENA",
+      "LUKE",
+      "JASON"
+     ],
+     "proposer": "KATHRYN",
+     "votes": [
+      "ELENA",
+      "KATHRYN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JASON",
+      "TYSON",
+      "LUKE",
+      "NATE",
+      "KATHRYN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JASON",
+      "LUKE",
+      "TYSON",
+      "ELENA"
+     ],
+     "proposer": "JASON"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "JASON",
+    "LUKE",
+    "TYSON",
+    "ELENA"
+   ],
+   "failsRequired": 2,
+   "numFails": 2
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

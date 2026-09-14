@@ -1,0 +1,279 @@
+{
+ "timeCreated": {
+  "_seconds": 1593832439,
+  "_nanoseconds": 932000000
+ },
+ "players": [
+  {
+   "name": "MARY",
+   "uid": "2iLS2EXvRSZzYKSkNYpuvtRac533"
+  },
+  {
+   "uid": "orVA7lXLmkhSZIpvAn58U4EZhNJ3",
+   "name": "LEO"
+  },
+  {
+   "uid": "KLTQFwGUZqfk9748sOHa9hX7OaE3",
+   "name": "YPX"
+  },
+  {
+   "uid": "jCYDnfLe7GYFoytP4V2q2WxnNzA2",
+   "name": "CYRUS"
+  },
+  {
+   "name": "TANYA",
+   "uid": "XB40Ps0EA9XnisO2hgi4yKJna153"
+  },
+  {
+   "name": "BILLY",
+   "uid": "kYKO6w7qEsPKaAvZOkBZfvyvL2z1"
+  },
+  {
+   "uid": "zQuhjnSi06NwxjA58fquDuheAcC2",
+   "name": "FRANK"
+  },
+  {
+   "uid": "5fsG51A3bETQ21eAwTMe7rzKPyj2",
+   "name": "LUCY"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CYRUS": true,
+    "YPX": false,
+    "TANYA": true
+   },
+   {
+    "FRANK": true,
+    "MARY": true,
+    "CYRUS": true,
+    "TANYA": true
+   },
+   {
+    "TANYA": true,
+    "MARY": true,
+    "CYRUS": true,
+    "FRANK": true
+   },
+   {
+    "MARY": true,
+    "LEO": true,
+    "TANYA": true,
+    "FRANK": true,
+    "CYRUS": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CYRUS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LEO",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "YPX"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "FRANK"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "TANYA"
+   },
+   {
+    "name": "LUCY",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MARY",
+    "assassin": false
+   },
+   {
+    "name": "BILLY",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": "TANYA",
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CYRUS",
+      "LEO",
+      "YPX",
+      "FRANK",
+      "TANYA",
+      "LUCY",
+      "MARY",
+      "BILLY"
+     ],
+     "proposer": "TANYA",
+     "state": "APPROVED",
+     "team": [
+      "TANYA",
+      "CYRUS",
+      "YPX"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "TANYA",
+    "CYRUS",
+    "YPX"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "MARY",
+    "FRANK",
+    "CYRUS",
+    "TANYA"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "BILLY",
+     "state": "REJECTED",
+     "votes": [
+      "LUCY",
+      "BILLY",
+      "YPX"
+     ],
+     "team": [
+      "BILLY",
+      "TANYA",
+      "LEO",
+      "MARY"
+     ]
+    },
+    {
+     "team": [
+      "MARY",
+      "FRANK",
+      "CYRUS",
+      "TANYA"
+     ],
+     "proposer": "FRANK",
+     "state": "APPROVED",
+     "votes": [
+      "TANYA",
+      "LUCY",
+      "MARY",
+      "BILLY",
+      "CYRUS",
+      "LEO",
+      "FRANK"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CYRUS",
+      "LEO",
+      "YPX",
+      "FRANK",
+      "TANYA",
+      "LUCY",
+      "MARY",
+      "BILLY"
+     ],
+     "state": "APPROVED",
+     "proposer": "LUCY",
+     "team": [
+      "MARY",
+      "CYRUS",
+      "TANYA",
+      "FRANK"
+     ]
+    }
+   ],
+   "team": [
+    "MARY",
+    "CYRUS",
+    "TANYA",
+    "FRANK"
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "MARY",
+    "CYRUS",
+    "TANYA",
+    "FRANK",
+    "LEO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MARY",
+      "CYRUS",
+      "TANYA",
+      "FRANK",
+      "LEO"
+     ],
+     "proposer": "MARY",
+     "votes": [
+      "CYRUS",
+      "LEO",
+      "YPX",
+      "FRANK",
+      "TANYA",
+      "LUCY",
+      "MARY",
+      "BILLY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593833813,
+  "_nanoseconds": 975000000
+ }
+}

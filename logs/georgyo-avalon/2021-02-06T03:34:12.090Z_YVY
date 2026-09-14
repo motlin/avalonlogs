@@ -1,0 +1,177 @@
+{
+ "players": [
+  {
+   "uid": "sFBtD4TgvehoZhD1px1cMaIEt2J3",
+   "name": "JET"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  },
+  {
+   "name": "KEN",
+   "uid": "nVHWfN2xwIg9KYTQtigTn5CZdgy2"
+  },
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "uid": "ekB9z2g5m1g4EI4ltUs7k3BbrFG2",
+   "name": "GEORGE"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "NIKOLAI",
+    "KEN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NIKOLAI",
+      "KEN"
+     ],
+     "votes": [
+      "KEN",
+      "GEORGE",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "KEN",
+     "state": "APPROVED",
+     "votes": [
+      "JET",
+      "KEN",
+      "NIKOLAI",
+      "GEORGE"
+     ],
+     "team": [
+      "NIKOLAI",
+      "KEN",
+      "GEORGE"
+     ]
+    }
+   ],
+   "team": [
+    "NIKOLAI",
+    "KEN",
+    "GEORGE"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "KEN",
+    "NIKOLAI"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "state": "APPROVED",
+     "team": [
+      "KEN",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "JET",
+      "ADAM",
+      "NIKOLAI",
+      "GEORGE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": []
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "assassinated": "GEORGE",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "KEN": true,
+    "NIKOLAI": true
+   },
+   {
+    "KEN": true,
+    "NIKOLAI": true,
+    "GEORGE": true
+   },
+   {
+    "KEN": true,
+    "NIKOLAI": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "GEORGE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JET"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ADAM"
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1612582452,
+  "_nanoseconds": 90000000
+ },
+ "timeFinished": {
+  "_seconds": 1612582516,
+  "_nanoseconds": 922000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

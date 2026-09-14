@@ -1,0 +1,335 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ALEX": true,
+    "XZM": true,
+    "RODDERS": true
+   },
+   {
+    "RHIANNON": true,
+    "RODDERS": false,
+    "POPPY": true,
+    "XZM": true
+   },
+   {
+    "ALEX": false,
+    "RODDERS": false,
+    "POPPY": true,
+    "RUSTYNIPS": true
+   },
+   {
+    "EMILY": true,
+    "XZM": false,
+    "RUSTYNIPS": true,
+    "ROBERT": true,
+    "FREYA": true
+   },
+   {
+    "POPPY": true,
+    "XZM": false,
+    "EMILY": true,
+    "ALEX": false,
+    "ROBERT": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "RHIANNON",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "ROBERT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "POPPY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "XZM",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ALEX",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FREYA",
+    "assassin": false
+   },
+   {
+    "name": "RUSTYNIPS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "RODDERS"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "EMILY"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "XZM",
+      "ALEX",
+      "RODDERS"
+     ],
+     "proposer": "XZM",
+     "state": "APPROVED",
+     "votes": [
+      "FREYA",
+      "RODDERS",
+      "EMILY",
+      "ROBERT",
+      "POPPY",
+      "XZM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "XZM",
+    "ALEX",
+    "RODDERS"
+   ]
+  },
+  {
+   "team": [
+    "XZM",
+    "RODDERS",
+    "POPPY",
+    "RHIANNON"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "POPPY",
+      "XZM",
+      "ALEX",
+      "FREYA",
+      "RUSTYNIPS",
+      "EMILY",
+      "ROBERT"
+     ],
+     "proposer": "EMILY",
+     "team": [
+      "XZM",
+      "RODDERS",
+      "POPPY",
+      "RHIANNON"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "POPPY",
+     "votes": [
+      "FREYA",
+      "RUSTYNIPS",
+      "EMILY",
+      "POPPY"
+     ],
+     "team": [
+      "ALEX",
+      "POPPY",
+      "RODDERS",
+      "RUSTYNIPS"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX",
+      "RUSTYNIPS",
+      "EMILY"
+     ],
+     "proposer": "ALEX",
+     "state": "REJECTED",
+     "team": [
+      "RHIANNON",
+      "XZM",
+      "ROBERT",
+      "EMILY"
+     ]
+    },
+    {
+     "proposer": "RUSTYNIPS",
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "RODDERS",
+      "POPPY",
+      "RUSTYNIPS"
+     ],
+     "votes": [
+      "ROBERT",
+      "POPPY",
+      "XZM",
+      "ALEX",
+      "RUSTYNIPS",
+      "EMILY"
+     ]
+    }
+   ],
+   "team": [
+    "ALEX",
+    "RODDERS",
+    "POPPY",
+    "RUSTYNIPS"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "EMILY",
+    "ROBERT",
+    "FREYA",
+    "RUSTYNIPS",
+    "XZM"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "EMILY",
+      "ROBERT",
+      "FREYA",
+      "RUSTYNIPS",
+      "XZM"
+     ],
+     "proposer": "RHIANNON",
+     "votes": [
+      "FREYA",
+      "RUSTYNIPS",
+      "EMILY",
+      "RHIANNON",
+      "ROBERT",
+      "POPPY",
+      "XZM",
+      "ALEX"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "team": [
+    "XZM",
+    "ALEX",
+    "POPPY",
+    "EMILY",
+    "ROBERT"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "XZM",
+      "ALEX",
+      "POPPY",
+      "EMILY",
+      "ROBERT"
+     ],
+     "votes": [
+      "ROBERT",
+      "POPPY",
+      "XZM",
+      "ALEX",
+      "RUSTYNIPS",
+      "RODDERS",
+      "EMILY"
+     ],
+     "proposer": "RODDERS",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "state": "FAIL"
+  }
+ ],
+ "players": [
+  {
+   "uid": "dpeH5pZPaEeMcwTqxZUTEa3O2713",
+   "name": "EMILY"
+  },
+  {
+   "uid": "G7i5bS2dwVWO0Q1T5QkFKHWyEED2",
+   "name": "POPPY"
+  },
+  {
+   "name": "ALEX",
+   "uid": "QxE4CmZjZDWv98mmaVBt2Kl2aJj1"
+  },
+  {
+   "name": "RUSTYNIPS",
+   "uid": "bH05JLoB17YQX6G9najKdzasdcE3"
+  },
+  {
+   "name": "RHIANNON",
+   "uid": "IuFsc5qB7fR9mZZfYphJUbm2KEs1"
+  },
+  {
+   "name": "RODDERS",
+   "uid": "uyH1kN2LywPPSyIXNzsHn5VsQZ43"
+  },
+  {
+   "name": "ROBERT",
+   "uid": "aV8aGDySZVTpbwxBRfwHNjC0B8r1"
+  },
+  {
+   "name": "FREYA",
+   "uid": "7EKxyNYcuTOAPeeyTeIBPzfeIID3"
+  },
+  {
+   "uid": "DWZILG77bpNiN0eup8sgXLyZYn82",
+   "name": "XZM"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593288856,
+  "_nanoseconds": 407000000
+ },
+ "timeCreated": {
+  "_seconds": 1593287953,
+  "_nanoseconds": 486000000
+ }
+}

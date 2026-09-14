@@ -1,0 +1,342 @@
+{
+ "timeCreated": {
+  "_seconds": 1590763728,
+  "_nanoseconds": 680000000
+ },
+ "timeFinished": {
+  "_seconds": 1590766025,
+  "_nanoseconds": 27000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "WHATISITBO",
+   "uid": "ej8gRzS43MWCaCLxoqwAyaYjZvM2"
+  },
+  {
+   "name": "SEAN",
+   "uid": "n3X3V0lJLMMigKpgOjQT02HUT7t2"
+  },
+  {
+   "uid": "s85g2HyFGqYwaa7As8EtnKABbz53",
+   "name": "JOHN"
+  },
+  {
+   "uid": "r4S8bUIb4pPlZy2yvAOEQYv6lkm1",
+   "name": "HOXY"
+  },
+  {
+   "uid": "XTsW8fUjnagaIjvDT9dxABR6XT03",
+   "name": "REITIAN"
+  },
+  {
+   "uid": "LcgHiwWPksgABmxgQsiV9hngFj43",
+   "name": "JAZ"
+  },
+  {
+   "name": "CALEB",
+   "uid": "a1R4ajhXgzTtwBcXxpSXP3jitY72"
+  },
+  {
+   "name": "YOHOE",
+   "uid": "FyyWroT2vUP1qs8ISL4k4ILR9Vr1"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "YOHOE": true,
+    "WHATISITBO": true,
+    "CALEB": true
+   },
+   {
+    "CALEB": true,
+    "JOHN": false,
+    "WHATISITBO": true,
+    "YOHOE": true
+   },
+   {
+    "JOHN": false,
+    "WHATISITBO": true,
+    "HOXY": true,
+    "CALEB": true
+   },
+   {
+    "HOXY": true,
+    "WHATISITBO": true,
+    "CALEB": true,
+    "SEAN": true,
+    "JOHN": true
+   },
+   {
+    "WHATISITBO": true,
+    "HOXY": true,
+    "JAZ": true,
+    "CALEB": true,
+    "SEAN": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "WHATISITBO",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SEAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "JOHN",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "HOXY"
+   },
+   {
+    "name": "REITIAN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "JAZ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "CALEB",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "YOHOE",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": "JAZ",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CALEB",
+     "votes": [
+      "JOHN",
+      "JAZ",
+      "CALEB",
+      "YOHOE",
+      "WHATISITBO",
+      "SEAN"
+     ],
+     "team": [
+      "CALEB",
+      "YOHOE",
+      "WHATISITBO"
+     ]
+    }
+   ],
+   "team": [
+    "CALEB",
+    "YOHOE",
+    "WHATISITBO"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "JOHN",
+    "YOHOE",
+    "CALEB",
+    "WHATISITBO"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "YOHOE",
+     "state": "APPROVED",
+     "team": [
+      "JOHN",
+      "YOHOE",
+      "CALEB",
+      "WHATISITBO"
+     ],
+     "votes": [
+      "YOHOE",
+      "WHATISITBO",
+      "SEAN",
+      "REITIAN",
+      "JAZ",
+      "CALEB"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "WHATISITBO",
+      "CALEB",
+      "JOHN",
+      "HOXY"
+     ],
+     "proposer": "WHATISITBO",
+     "state": "APPROVED",
+     "votes": [
+      "YOHOE",
+      "WHATISITBO",
+      "SEAN",
+      "JOHN",
+      "HOXY",
+      "REITIAN",
+      "JAZ"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "WHATISITBO",
+    "CALEB",
+    "JOHN",
+    "HOXY"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 2,
+   "numFails": 0,
+   "team": [
+    "JOHN",
+    "SEAN",
+    "HOXY",
+    "WHATISITBO",
+    "CALEB"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SEAN",
+     "team": [
+      "SEAN",
+      "CALEB",
+      "WHATISITBO",
+      "JOHN",
+      "HOXY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JOHN",
+      "HOXY",
+      "CALEB",
+      "WHATISITBO"
+     ]
+    },
+    {
+     "votes": [
+      "JOHN",
+      "HOXY",
+      "REITIAN",
+      "CALEB",
+      "WHATISITBO",
+      "SEAN"
+     ],
+     "team": [
+      "JOHN",
+      "SEAN",
+      "HOXY",
+      "WHATISITBO",
+      "CALEB"
+     ],
+     "state": "APPROVED",
+     "proposer": "JOHN"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "JAZ",
+    "HOXY",
+    "WHATISITBO",
+    "CALEB",
+    "SEAN"
+   ],
+   "proposals": [
+    {
+     "proposer": "HOXY",
+     "state": "REJECTED",
+     "votes": [
+      "WHATISITBO",
+      "SEAN",
+      "HOXY",
+      "JAZ"
+     ],
+     "team": [
+      "HOXY",
+      "CALEB",
+      "SEAN",
+      "WHATISITBO",
+      "JAZ"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "REITIAN",
+     "team": [
+      "REITIAN",
+      "YOHOE",
+      "JOHN",
+      "WHATISITBO",
+      "JAZ"
+     ],
+     "votes": [
+      "JOHN",
+      "REITIAN",
+      "YOHOE"
+     ]
+    },
+    {
+     "proposer": "JAZ",
+     "votes": [
+      "YOHOE",
+      "WHATISITBO",
+      "SEAN",
+      "HOXY",
+      "JAZ",
+      "CALEB"
+     ],
+     "team": [
+      "JAZ",
+      "HOXY",
+      "WHATISITBO",
+      "CALEB",
+      "SEAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 5
+  }
+ ]
+}

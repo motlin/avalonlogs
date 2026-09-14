@@ -1,0 +1,319 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1597721017,
+  "_nanoseconds": 891000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "MAL",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KENNY",
+      "SIDDHANT",
+      "WILL",
+      "MAL",
+      "JERRY"
+     ],
+     "proposer": "MAL"
+    }
+   ],
+   "team": [
+    "MAL",
+    "WILL"
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MAL",
+      "KENNY",
+      "WILL"
+     ],
+     "state": "REJECTED",
+     "proposer": "KENNY",
+     "votes": [
+      "MAL",
+      "KENNY",
+      "WILL"
+     ]
+    },
+    {
+     "proposer": "JERRY",
+     "state": "APPROVED",
+     "votes": [
+      "KENNY",
+      "WILL",
+      "MAL",
+      "JERRY"
+     ],
+     "team": [
+      "MAL",
+      "JERRY",
+      "WILL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "MAL",
+    "JERRY",
+    "WILL"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SIDDHANT",
+      "JERRY"
+     ],
+     "team": [
+      "SIDDHANT",
+      "MAL",
+      "JERRY",
+      "WILL"
+     ],
+     "proposer": "SIDDHANT"
+    },
+    {
+     "proposer": "NIKKI",
+     "state": "REJECTED",
+     "votes": [
+      "JERRY",
+      "MAL",
+      "NIKKI"
+     ],
+     "team": [
+      "NIKKI",
+      "WILL",
+      "MAL",
+      "JERRY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAL",
+      "JERRY",
+      "NIKKI",
+      "WILL"
+     ],
+     "proposer": "WILL",
+     "votes": [
+      "JERRY",
+      "MAL",
+      "WILL",
+      "NIKKI"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "MAL",
+    "JERRY",
+    "NIKKI",
+    "WILL"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "MAL"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAL",
+     "team": [
+      "MAL",
+      "JERRY",
+      "NIKKI"
+     ]
+    },
+    {
+     "team": [
+      "MAL",
+      "WILL",
+      "JERRY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "SIDDHANT",
+      "KENNY",
+      "JERRY"
+     ],
+     "proposer": "KENNY"
+    }
+   ],
+   "team": [
+    "MAL",
+    "WILL",
+    "JERRY"
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JERRY",
+      "NIKKI",
+      "SIDDHANT",
+      "MAL"
+     ],
+     "proposer": "JERRY",
+     "votes": [
+      "MAL",
+      "SIDDHANT",
+      "JERRY"
+     ]
+    },
+    {
+     "votes": [
+      "NIKKI",
+      "JERRY",
+      "MAL",
+      "SIDDHANT"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NIKKI",
+      "SIDDHANT",
+      "JERRY",
+      "MAL"
+     ],
+     "proposer": "SIDDHANT"
+    }
+   ],
+   "team": [
+    "NIKKI",
+    "SIDDHANT",
+    "JERRY",
+    "MAL"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "NIKKI",
+  "votes": [
+   {
+    "WILL": true,
+    "MAL": true
+   },
+   {
+    "WILL": true,
+    "JERRY": true,
+    "MAL": true
+   },
+   {
+    "NIKKI": true,
+    "WILL": false,
+    "JERRY": true,
+    "MAL": true
+   },
+   {
+    "WILL": false,
+    "JERRY": true,
+    "MAL": true
+   },
+   {
+    "MAL": true,
+    "NIKKI": true,
+    "JERRY": true,
+    "SIDDHANT": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORDRED",
+    "name": "WILL",
+    "assassin": true
+   },
+   {
+    "name": "NIKKI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MAL",
+    "assassin": false
+   },
+   {
+    "name": "KENNY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SIDDHANT",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1597719685,
+  "_nanoseconds": 755000000
+ },
+ "players": [
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  },
+  {
+   "name": "KENNY",
+   "uid": "V2KfteaM2obh7vvdP96tqZfsKFY2"
+  },
+  {
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2",
+   "name": "JERRY"
+  },
+  {
+   "name": "SIDDHANT",
+   "uid": "BOfgQoFuXVcasobc5ELL1WmBERS2"
+  },
+  {
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743",
+   "name": "NIKKI"
+  },
+  {
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83",
+   "name": "WILL"
+  }
+ ]
+}

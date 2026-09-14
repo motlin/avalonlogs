@@ -1,0 +1,250 @@
+{
+ "players": [
+  {
+   "uid": "NOpuZke3rmXq39d824rl8YyU0pY2",
+   "name": "AIJDAVID"
+  },
+  {
+   "name": "DEYU",
+   "uid": "qPb7wt8Wv1Pq6Y58JwZpJ17WnV72"
+  },
+  {
+   "name": "COLLINS",
+   "uid": "U277ftPZANdTa82qKCJliXqpTuv1"
+  },
+  {
+   "name": "ZO",
+   "uid": "vnObu0Quz9h6ZD88x4QVopVgZDI2"
+  },
+  {
+   "name": "SKINYPIPEN",
+   "uid": "ku30t9YrIabgkfjQdN38wy1y2VI3"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "AIJDAVID",
+      "DEYU",
+      "COLLINS",
+      "ZO",
+      "SKINYPIPEN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ZO",
+      "SKINYPIPEN"
+     ],
+     "proposer": "ZO"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ZO",
+    "SKINYPIPEN"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SKINYPIPEN",
+      "DEYU",
+      "ZO"
+     ],
+     "state": "APPROVED",
+     "proposer": "SKINYPIPEN",
+     "votes": [
+      "SKINYPIPEN",
+      "AIJDAVID",
+      "DEYU",
+      "COLLINS"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "SKINYPIPEN",
+    "DEYU",
+    "ZO"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "AIJDAVID",
+     "votes": [
+      "ZO",
+      "SKINYPIPEN",
+      "AIJDAVID",
+      "DEYU",
+      "COLLINS"
+     ],
+     "team": [
+      "AIJDAVID",
+      "SKINYPIPEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "AIJDAVID",
+    "SKINYPIPEN"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "AIJDAVID",
+    "DEYU",
+    "ZO"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ZO",
+      "SKINYPIPEN",
+      "DEYU"
+     ],
+     "proposer": "DEYU",
+     "state": "APPROVED",
+     "team": [
+      "AIJDAVID",
+      "DEYU",
+      "ZO"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "SKINYPIPEN",
+    "DEYU",
+    "AIJDAVID"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "COLLINS",
+     "votes": [
+      "ZO",
+      "COLLINS"
+     ],
+     "team": [
+      "COLLINS",
+      "AIJDAVID",
+      "DEYU"
+     ]
+    },
+    {
+     "team": [
+      "ZO",
+      "DEYU",
+      "AIJDAVID"
+     ],
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "ZO"
+    },
+    {
+     "votes": [
+      "SKINYPIPEN",
+      "AIJDAVID",
+      "DEYU"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SKINYPIPEN",
+      "DEYU",
+      "AIJDAVID"
+     ],
+     "proposer": "SKINYPIPEN"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585568642,
+  "_nanoseconds": 358086000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "SKINYPIPEN": true,
+    "ZO": true
+   },
+   {
+    "SKINYPIPEN": true,
+    "DEYU": true,
+    "ZO": false
+   },
+   {
+    "SKINYPIPEN": true,
+    "AIJDAVID": true
+   },
+   {
+    "DEYU": true,
+    "AIJDAVID": true,
+    "ZO": false
+   },
+   {
+    "AIJDAVID": true,
+    "DEYU": true,
+    "SKINYPIPEN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "AIJDAVID",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "DEYU",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "COLLINS",
+    "role": "MORGANA"
+   },
+   {
+    "name": "ZO",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SKINYPIPEN"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "AIJDAVID"
+ },
+ "timeCreated": {
+  "_seconds": 1585568275,
+  "_nanoseconds": 4000000
+ }
+}

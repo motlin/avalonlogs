@@ -1,0 +1,227 @@
+{
+ "timeCreated": {
+  "_seconds": 1586094266,
+  "_nanoseconds": 311000000
+ },
+ "players": [
+  {
+   "name": "JASMINE",
+   "uid": "BZKORFmJChYQBcbQ7OurjS2EZgf1"
+  },
+  {
+   "name": "ALEX",
+   "uid": "6QWJhy5FzQUatrrG6FmNT8esTyH3"
+  },
+  {
+   "uid": "fX1jyhd5WNckX11kURAHDMuPE2R2",
+   "name": "WENXI"
+  },
+  {
+   "name": "CC",
+   "uid": "t9hwjl6uGfcL7syYQh1Fils32Nm1"
+  },
+  {
+   "uid": "PZitJ7v3Zah87q4zEHsKRBnfAMB3",
+   "name": "LILHERNG"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "WENXI",
+  "votes": [
+   {
+    "JASMINE": true,
+    "LILHERNG": false
+   },
+   {
+    "WENXI": true,
+    "ALEX": false,
+    "JASMINE": true
+   },
+   {
+    "WENXI": true,
+    "CC": true
+   },
+   {
+    "WENXI": true,
+    "CC": true,
+    "JASMINE": true
+   },
+   {
+    "JASMINE": true,
+    "WENXI": true,
+    "CC": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "CC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LILHERNG",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "ALEX"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "WENXI"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "JASMINE",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1586095109,
+  "_nanoseconds": 924977000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LILHERNG",
+      "ALEX",
+      "JASMINE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LILHERNG",
+      "JASMINE"
+     ],
+     "proposer": "JASMINE"
+    }
+   ],
+   "team": [
+    "LILHERNG",
+    "JASMINE"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "JASMINE",
+      "WENXI"
+     ],
+     "proposer": "ALEX",
+     "state": "APPROVED",
+     "votes": [
+      "CC",
+      "ALEX",
+      "WENXI",
+      "JASMINE"
+     ]
+    }
+   ],
+   "team": [
+    "ALEX",
+    "JASMINE",
+    "WENXI"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "WENXI",
+    "CC"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "WENXI",
+      "CC"
+     ],
+     "proposer": "WENXI",
+     "state": "APPROVED",
+     "votes": [
+      "CC",
+      "WENXI",
+      "JASMINE"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "WENXI",
+    "JASMINE",
+    "CC"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "CC",
+      "LILHERNG",
+      "ALEX",
+      "WENXI",
+      "JASMINE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "WENXI",
+      "JASMINE",
+      "CC"
+     ],
+     "proposer": "CC"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JASMINE",
+      "CC",
+      "WENXI"
+     ],
+     "proposer": "LILHERNG",
+     "state": "APPROVED",
+     "votes": [
+      "CC",
+      "LILHERNG",
+      "ALEX",
+      "WENXI",
+      "JASMINE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JASMINE",
+    "CC",
+    "WENXI"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  }
+ ]
+}

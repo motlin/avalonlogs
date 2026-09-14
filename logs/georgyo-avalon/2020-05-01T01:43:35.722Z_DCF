@@ -1,0 +1,269 @@
+{
+ "timeCreated": {
+  "_seconds": 1588297415,
+  "_nanoseconds": 722000000
+ },
+ "players": [
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "uid": "qNPrtGdIpLerSfOckTxaznIIGy72",
+   "name": "JET"
+  },
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "uid": "LNbFQPCC7NhM56pyXzg2u76WE0g1",
+   "name": "BRYCE"
+  },
+  {
+   "name": "AFFINE",
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2"
+  },
+  {
+   "name": "SIRKEN",
+   "uid": "uBhiJSNCe6bVZRYJNVjXFTLYpd12"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "KLAUDIA": true,
+    "ADAM": true
+   },
+   {
+    "KLAUDIA": true,
+    "SIRKEN": true,
+    "ADAM": true
+   },
+   {
+    "KLAUDIA": true,
+    "JET": true,
+    "SIRKEN": true,
+    "ADAM": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "BRYCE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SIRKEN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "AFFINE",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KLAUDIA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ADAM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JET"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "SIRKEN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "ADAM",
+    "KLAUDIA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JET",
+     "team": [
+      "KLAUDIA",
+      "ADAM"
+     ],
+     "votes": [
+      "ADAM",
+      "JET",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA",
+      "ADAM",
+      "JET"
+     ],
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "BRYCE",
+     "votes": [
+      "ADAM",
+      "JET",
+      "BRYCE"
+     ],
+     "team": [
+      "ADAM",
+      "BRYCE"
+     ]
+    },
+    {
+     "votes": [
+      "AFFINE"
+     ],
+     "team": [
+      "AFFINE",
+      "SIRKEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "AFFINE"
+    },
+    {
+     "votes": [
+      "JET",
+      "BRYCE",
+      "SIRKEN",
+      "AFFINE",
+      "KLAUDIA"
+     ],
+     "team": [
+      "ADAM",
+      "KLAUDIA"
+     ],
+     "proposer": "SIRKEN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "KLAUDIA",
+      "JET",
+      "SIRKEN"
+     ],
+     "votes": [
+      "JET",
+      "SIRKEN"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JET",
+     "team": [
+      "ADAM",
+      "KLAUDIA",
+      "JET"
+     ],
+     "votes": [
+      "JET"
+     ]
+    },
+    {
+     "proposer": "ADAM",
+     "votes": [
+      "SIRKEN",
+      "KLAUDIA",
+      "ADAM",
+      "JET"
+     ],
+     "team": [
+      "KLAUDIA",
+      "ADAM",
+      "SIRKEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "KLAUDIA",
+    "ADAM",
+    "SIRKEN"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KLAUDIA",
+      "ADAM",
+      "JET",
+      "BRYCE"
+     ],
+     "team": [
+      "ADAM",
+      "JET",
+      "KLAUDIA",
+      "SIRKEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRYCE"
+    }
+   ],
+   "team": [
+    "ADAM",
+    "JET",
+    "KLAUDIA",
+    "SIRKEN"
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588297923,
+  "_nanoseconds": 622000000
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "players": [
+  {
+   "uid": "W6OGSlJyY8dnbqRWuHnIABOYN8K2",
+   "name": "SMARTBOI"
+  },
+  {
+   "uid": "f8Nwqw9mloRI5EcKTQgVXORVcDd2",
+   "name": "SHING"
+  },
+  {
+   "uid": "tv76hzk7aOZMjUbjwMxSdyEsat53",
+   "name": "PUDI"
+  },
+  {
+   "name": "DOGENY",
+   "uid": "JV4khGYtL8X3l8TEgfDjoO69NGO2"
+  },
+  {
+   "name": "JEEN",
+   "uid": "tgEroOCKxmV8dZ2BvJVknHns8mJ3"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "DOGENY",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SHING": true,
+    "SMARTBOI": true
+   },
+   {
+    "SHING": true,
+    "JEEN": false,
+    "SMARTBOI": true
+   },
+   {
+    "DOGENY": true,
+    "SMARTBOI": true
+   },
+   {
+    "SHING": true,
+    "SMARTBOI": true,
+    "DOGENY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SHING",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SMARTBOI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "PUDI",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "DOGENY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JEEN",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1586798758,
+  "_nanoseconds": 820447000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "SMARTBOI",
+    "SHING"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "SMARTBOI",
+     "team": [
+      "SMARTBOI",
+      "SHING"
+     ],
+     "votes": [
+      "PUDI",
+      "JEEN",
+      "SHING",
+      "SMARTBOI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JEEN",
+      "SHING",
+      "PUDI"
+     ],
+     "proposer": "SHING",
+     "state": "APPROVED",
+     "team": [
+      "SHING",
+      "SMARTBOI",
+      "JEEN"
+     ]
+    }
+   ],
+   "team": [
+    "SHING",
+    "SMARTBOI",
+    "JEEN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "PUDI",
+     "team": [
+      "SMARTBOI",
+      "JEEN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "PUDI",
+      "JEEN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SMARTBOI",
+      "DOGENY"
+     ],
+     "votes": [
+      "DOGENY",
+      "JEEN",
+      "SHING"
+     ],
+     "proposer": "DOGENY"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SMARTBOI",
+    "DOGENY"
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "SMARTBOI",
+    "DOGENY",
+    "SHING"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SMARTBOI",
+      "SHING",
+      "DOGENY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SHING",
+      "DOGENY"
+     ],
+     "proposer": "JEEN"
+    },
+    {
+     "proposer": "SMARTBOI",
+     "state": "APPROVED",
+     "votes": [
+      "DOGENY",
+      "JEEN",
+      "SHING",
+      "SMARTBOI"
+     ],
+     "team": [
+      "SMARTBOI",
+      "DOGENY",
+      "SHING"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586798426,
+  "_nanoseconds": 73000000
+ }
+}

@@ -1,0 +1,265 @@
+{
+ "missions": [
+  {
+   "team": [
+    "SAMAN",
+    "BECHARSE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "SAMAN",
+      "BECHARSE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHOOLTALA",
+      "BECHARSE",
+      "YASI",
+      "SAMAN",
+      "CJ"
+     ],
+     "proposer": "SAMAN"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SAMAN",
+      "SHOOLTALA",
+      "BECHARSE"
+     ],
+     "proposer": "SHOOLTALA",
+     "state": "REJECTED",
+     "votes": [
+      "SHOOLTALA"
+     ]
+    },
+    {
+     "votes": [
+      "BECHARSE",
+      "YASI",
+      "SAMAN",
+      "CJ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CJ",
+      "BECHARSE",
+      "SAMAN"
+     ],
+     "proposer": "CJ"
+    }
+   ],
+   "team": [
+    "CJ",
+    "BECHARSE",
+    "SAMAN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "BECHARSE",
+    "CJ",
+    "SAMAN",
+    "YASI"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SHOOLTALA",
+      "BECHARSE",
+      "YASI",
+      "SAMAN",
+      "CJ"
+     ],
+     "proposer": "BECHARSE",
+     "state": "APPROVED",
+     "team": [
+      "BECHARSE",
+      "CJ",
+      "SAMAN",
+      "YASI"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "JIZANTHEPU",
+    "SAMAN",
+    "BECHARSE"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SHOOLTALA",
+      "BECHARSE",
+      "YASI",
+      "SAMAN",
+      "CJ",
+      "JIZANTHEPU"
+     ],
+     "team": [
+      "JIZANTHEPU",
+      "SAMAN",
+      "BECHARSE"
+     ],
+     "proposer": "JIZANTHEPU",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "YASI",
+     "team": [
+      "YASI",
+      "JIZANTHEPU",
+      "SAMAN",
+      "CJ"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JIZANTHEPU",
+      "SHOOLTALA",
+      "YASI",
+      "SAMAN",
+      "CJ"
+     ]
+    }
+   ],
+   "team": [
+    "YASI",
+    "JIZANTHEPU",
+    "SAMAN",
+    "CJ"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "JIZANTHEPU",
+   "uid": "uFPnz97R3dbvqEG04esCyioXOSr2"
+  },
+  {
+   "uid": "eoxx13cGrkc33ZRPWa71ad0Qsz03",
+   "name": "YASI"
+  },
+  {
+   "uid": "VTuyFcjanBWQBv1YVZLE6UNDfhn2",
+   "name": "SAMAN"
+  },
+  {
+   "uid": "Jrn5SOEoTpQUjp2aMf24njhg2pg1",
+   "name": "SHOOLTALA"
+  },
+  {
+   "uid": "DKSwh8wGqhfHWSZq4MCABkLU19z2",
+   "name": "CJ"
+  },
+  {
+   "name": "BECHARSE",
+   "uid": "F5ZY1GyppaQrjL4SFkS67RUtuZp2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591855095,
+  "_nanoseconds": 429000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "BECHARSE": true,
+    "SAMAN": true
+   },
+   {
+    "SAMAN": true,
+    "BECHARSE": true,
+    "CJ": true
+   },
+   {
+    "SAMAN": false,
+    "CJ": true,
+    "BECHARSE": true,
+    "YASI": true
+   },
+   {
+    "JIZANTHEPU": true,
+    "SAMAN": false,
+    "BECHARSE": true
+   },
+   {
+    "YASI": true,
+    "CJ": true,
+    "SAMAN": false,
+    "JIZANTHEPU": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "SHOOLTALA",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BECHARSE"
+   },
+   {
+    "name": "YASI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "SAMAN",
+    "role": "MORDRED"
+   },
+   {
+    "name": "CJ",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JIZANTHEPU"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591852721,
+  "_nanoseconds": 790000000
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NQG",
+      "BRIAN",
+      "EVAN",
+      "BEN",
+      "YANNY",
+      "LOUIS"
+     ],
+     "proposer": "EVAN",
+     "team": [
+      "EVAN",
+      "NQG"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "EVAN",
+    "NQG"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LOUIS",
+      "NQG",
+      "EVAN",
+      "YANNY"
+     ],
+     "team": [
+      "NQG",
+      "LOUIS",
+      "BEN"
+     ],
+     "proposer": "NQG"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "NQG",
+    "LOUIS",
+    "BEN"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "NQG",
+    "YANNY",
+    "LOUIS",
+    "BEN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "LOUIS",
+     "team": [
+      "NQG",
+      "YANNY",
+      "LOUIS",
+      "BEN"
+     ],
+     "votes": [
+      "YANNY",
+      "LOUIS",
+      "NQG",
+      "BRIAN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "BRIAN",
+     "votes": [
+      "BRIAN",
+      "YANNY"
+     ],
+     "team": [
+      "BRIAN",
+      "YANNY",
+      "EVAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "YANNY",
+     "votes": [
+      "NQG",
+      "YANNY",
+      "LOUIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BEN",
+      "LOUIS",
+      "YANNY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "EVAN",
+      "BEN"
+     ],
+     "team": [
+      "BEN",
+      "BRIAN",
+      "EVAN"
+     ],
+     "proposer": "BEN"
+    },
+    {
+     "votes": [
+      "EVAN",
+      "BEN",
+      "YANNY",
+      "LOUIS"
+     ],
+     "team": [
+      "BEN",
+      "YANNY",
+      "EVAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "EVAN"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "BEN",
+    "YANNY",
+    "EVAN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "NQG": false,
+    "EVAN": true
+   },
+   {
+    "NQG": true,
+    "BEN": true,
+    "LOUIS": true
+   },
+   {
+    "YANNY": false,
+    "BEN": true,
+    "NQG": true,
+    "LOUIS": true
+   },
+   {
+    "YANNY": false,
+    "EVAN": true,
+    "BEN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "EVAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BEN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "YANNY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LOUIS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "NQG",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "BRIAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "players": [
+  {
+   "name": "LOUIS",
+   "uid": "FxNVnPh3OQhH9a24DbpHwR8uJLU2"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "gDWnsaaToTO3W2wuBJnyv2xC70k1"
+  },
+  {
+   "uid": "5wT6hEk7h1OrespCYq34YPAwqdx2",
+   "name": "YANNY"
+  },
+  {
+   "uid": "Ley1q8PRq5aIZUrF0wptPf66HPn1",
+   "name": "BEN"
+  },
+  {
+   "uid": "dGxWpetP0XNBvHhWS0nICIXeK4Y2",
+   "name": "EVAN"
+  },
+  {
+   "name": "NQG",
+   "uid": "sfiXryFW6XZOU9Ea2vAm58pqGrG2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593808708,
+  "_nanoseconds": 620000000
+ },
+ "timeCreated": {
+  "_seconds": 1593807753,
+  "_nanoseconds": 599000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

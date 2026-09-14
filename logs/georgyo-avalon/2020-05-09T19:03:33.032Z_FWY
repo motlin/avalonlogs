@@ -1,0 +1,303 @@
+{
+ "players": [
+  {
+   "uid": "8RM8ZeiswVTroTST2gWJSXOzbMP2",
+   "name": "ADNAAN"
+  },
+  {
+   "name": "VIRAL",
+   "uid": "1lTtJDSz1eZdOrfJMqn45PFETMH2"
+  },
+  {
+   "name": "MUSKITEER",
+   "uid": "VFJ0hFkgYXVA6KZCz5Xw3aUjweC2"
+  },
+  {
+   "uid": "0zbOqjICfJfO48I1P8yufYz3UXF3",
+   "name": "RAMU"
+  },
+  {
+   "uid": "0xouKF9mLBXI0XSQTG9F5QbwAUR2",
+   "name": "SAMARTH"
+  },
+  {
+   "uid": "ey8idj5HLGOtnvuypH2nqw6TGOA3",
+   "name": "SANJAY"
+  },
+  {
+   "name": "ANKITH",
+   "uid": "esxAz4vrx5TTgoPayrmpRx506F83"
+  },
+  {
+   "name": "FWY",
+   "uid": "qVZe8lMdIPdYS3P1H3m67XR8ZzE3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589051013,
+  "_nanoseconds": 32000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "VIRAL": true,
+    "MUSKITEER": true,
+    "ADNAAN": true
+   },
+   {
+    "RAMU": true,
+    "ADNAAN": true,
+    "MUSKITEER": true,
+    "VIRAL": false
+   },
+   {
+    "FWY": false,
+    "SANJAY": true,
+    "MUSKITEER": true,
+    "ANKITH": false
+   },
+   {
+    "ANKITH": false,
+    "ADNAAN": true,
+    "SANJAY": true,
+    "RAMU": true,
+    "VIRAL": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "VIRAL",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ADNAAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "FWY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MUSKITEER"
+   },
+   {
+    "name": "RAMU",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "ANKITH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SAMARTH"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SANJAY"
+   }
+  ],
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589052263,
+  "_nanoseconds": 834000000
+ },
+ "missions": [
+  {
+   "team": [
+    "MUSKITEER",
+    "ADNAAN",
+    "VIRAL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MUSKITEER",
+      "RAMU",
+      "ANKITH",
+      "SAMARTH",
+      "SANJAY",
+      "VIRAL",
+      "ADNAAN",
+      "FWY"
+     ],
+     "team": [
+      "MUSKITEER",
+      "ADNAAN",
+      "VIRAL"
+     ],
+     "proposer": "MUSKITEER"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "RAMU",
+    "MUSKITEER",
+    "VIRAL",
+    "ADNAAN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RAMU",
+      "MUSKITEER",
+      "VIRAL",
+      "ADNAAN"
+     ],
+     "proposer": "RAMU",
+     "state": "APPROVED",
+     "votes": [
+      "RAMU",
+      "ANKITH",
+      "VIRAL",
+      "ADNAAN",
+      "FWY",
+      "MUSKITEER"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MUSKITEER",
+      "SAMARTH"
+     ],
+     "proposer": "SAMARTH",
+     "team": [
+      "SANJAY",
+      "ADNAAN",
+      "MUSKITEER",
+      "SAMARTH"
+     ]
+    },
+    {
+     "proposer": "SANJAY",
+     "state": "APPROVED",
+     "team": [
+      "MUSKITEER",
+      "ANKITH",
+      "SANJAY",
+      "FWY"
+     ],
+     "votes": [
+      "ANKITH",
+      "SANJAY",
+      "ADNAAN",
+      "FWY",
+      "MUSKITEER",
+      "RAMU"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MUSKITEER",
+    "ANKITH",
+    "SANJAY",
+    "FWY"
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 2,
+   "failsRequired": 2,
+   "state": "FAIL",
+   "team": [
+    "ANKITH",
+    "SANJAY",
+    "VIRAL",
+    "ADNAAN",
+    "RAMU"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ANKITH",
+     "votes": [
+      "RAMU",
+      "ANKITH",
+      "SANJAY"
+     ],
+     "team": [
+      "SANJAY",
+      "VIRAL",
+      "ANKITH",
+      "RAMU",
+      "ADNAAN"
+     ]
+    },
+    {
+     "team": [
+      "ADNAAN",
+      "VIRAL",
+      "RAMU",
+      "FWY",
+      "ANKITH"
+     ],
+     "votes": [
+      "FWY"
+     ],
+     "proposer": "FWY",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "FWY",
+      "RAMU",
+      "ANKITH",
+      "SANJAY",
+      "VIRAL",
+      "ADNAAN"
+     ],
+     "team": [
+      "ANKITH",
+      "SANJAY",
+      "VIRAL",
+      "ADNAAN",
+      "RAMU"
+     ],
+     "proposer": "ADNAAN"
+    }
+   ]
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

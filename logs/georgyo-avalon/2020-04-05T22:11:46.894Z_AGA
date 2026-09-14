@@ -1,0 +1,339 @@
+{
+ "players": [
+  {
+   "name": "EMILY",
+   "uid": "L7mspsr0JIMoAL2AgJbqHMH2IKO2"
+  },
+  {
+   "uid": "Ebz9GWetVNPkxiqcO7TNKHr5QHE2",
+   "name": "DANNY"
+  },
+  {
+   "uid": "pkjMspoigMN1VuUKD3vomD4miV33",
+   "name": "JAMES"
+  },
+  {
+   "uid": "p8cbBSFaA7gYEKuo7XnxP3WYHvu2",
+   "name": "BRANDON"
+  },
+  {
+   "name": "K",
+   "uid": "xLGjuQ16zeP4KcEem4tcX04W7mG2"
+  },
+  {
+   "name": "DONUT",
+   "uid": "bw25X7S9DZVCDWPhNY0FQcLWgux1"
+  },
+  {
+   "uid": "K1VXFzcbGPdwVTzHlZ8RSizBlnj1",
+   "name": "AGA"
+  },
+  {
+   "name": "DAVID",
+   "uid": "Wl9HfE4BabPWtwWjtfhGJSdM79J2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586126474,
+  "_nanoseconds": 398259000
+ },
+ "timeCreated": {
+  "_seconds": 1586124706,
+  "_nanoseconds": 894000000
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DONUT",
+      "EMILY",
+      "DANNY",
+      "K",
+      "DAVID",
+      "AGA",
+      "BRANDON"
+     ],
+     "team": [
+      "EMILY",
+      "AGA",
+      "DAVID"
+     ],
+     "proposer": "DONUT"
+    }
+   ],
+   "team": [
+    "EMILY",
+    "AGA",
+    "DAVID"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "AGA",
+    "EMILY",
+    "DAVID",
+    "JAMES"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AGA",
+      "EMILY",
+      "DAVID",
+      "JAMES"
+     ],
+     "proposer": "AGA",
+     "votes": [
+      "EMILY",
+      "DANNY",
+      "K",
+      "DAVID",
+      "AGA",
+      "BRANDON"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "DAVID",
+    "EMILY",
+    "AGA",
+    "BRANDON"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "DAVID",
+      "EMILY",
+      "AGA",
+      "BRANDON"
+     ],
+     "proposer": "DAVID",
+     "state": "APPROVED",
+     "votes": [
+      "DANNY",
+      "K",
+      "DAVID",
+      "AGA",
+      "BRANDON",
+      "DONUT",
+      "EMILY"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "JAMES",
+    "BRANDON",
+    "K",
+    "DONUT",
+    "AGA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DAVID",
+      "AGA",
+      "BRANDON",
+      "EMILY"
+     ],
+     "proposer": "EMILY",
+     "team": [
+      "EMILY",
+      "AGA",
+      "DAVID",
+      "K",
+      "DONUT"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "EMILY",
+      "DANNY",
+      "DAVID",
+      "AGA",
+      "DONUT"
+     ],
+     "proposer": "DANNY",
+     "votes": [
+      "DANNY",
+      "DAVID",
+      "AGA",
+      "EMILY"
+     ]
+    },
+    {
+     "votes": [
+      "DONUT",
+      "JAMES",
+      "K",
+      "AGA",
+      "BRANDON"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAMES",
+     "team": [
+      "JAMES",
+      "BRANDON",
+      "K",
+      "DONUT",
+      "AGA"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "JAMES",
+    "K",
+    "DONUT",
+    "AGA",
+    "DAVID"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAMES",
+      "AGA",
+      "BRANDON",
+      "DONUT"
+     ],
+     "team": [
+      "BRANDON",
+      "JAMES",
+      "K",
+      "DONUT",
+      "AGA"
+     ],
+     "proposer": "BRANDON"
+    },
+    {
+     "team": [
+      "JAMES",
+      "K",
+      "DONUT",
+      "AGA",
+      "DAVID"
+     ],
+     "state": "APPROVED",
+     "proposer": "K",
+     "votes": [
+      "DONUT",
+      "JAMES",
+      "K",
+      "DAVID",
+      "BRANDON"
+     ]
+    }
+   ]
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "AGA": true,
+    "EMILY": true,
+    "DAVID": true
+   },
+   {
+    "EMILY": false,
+    "AGA": true,
+    "DAVID": true,
+    "JAMES": true
+   },
+   {
+    "AGA": true,
+    "BRANDON": true,
+    "DAVID": true,
+    "EMILY": false
+   },
+   {
+    "K": true,
+    "DONUT": true,
+    "JAMES": true,
+    "AGA": true,
+    "BRANDON": true
+   },
+   {
+    "DONUT": false,
+    "K": true,
+    "JAMES": true,
+    "AGA": true,
+    "DAVID": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "DONUT",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "EMILY"
+   },
+   {
+    "name": "JAMES",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DANNY"
+   },
+   {
+    "role": "MERLIN",
+    "name": "K",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DAVID"
+   },
+   {
+    "assassin": false,
+    "name": "AGA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRANDON",
+    "role": "OBERON",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ }
+}

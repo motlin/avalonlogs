@@ -1,0 +1,252 @@
+{
+ "players": [
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "uid": "4sNqa4aD3MWk2zEPWcJKx4sKBXf1",
+   "name": "CRAIG"
+  },
+  {
+   "name": "KYLE",
+   "uid": "pheaVL7D4jSixfT2uRrfh2uMT1j2"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2",
+   "name": "ANINDYA"
+  },
+  {
+   "uid": "BsKHDR2tcCTGSxFjjtq0oIkN0xf1",
+   "name": "OWEN"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KYLE",
+      "ADAM",
+      "CRAIG",
+      "NIKOLAI"
+     ],
+     "proposer": "KYLE",
+     "team": [
+      "KYLE",
+      "CRAIG"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "KYLE",
+    "CRAIG"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "NIKOLAI",
+      "KYLE",
+      "CRAIG"
+     ],
+     "votes": [
+      "ANINDYA",
+      "KYLE",
+      "NIKOLAI",
+      "CRAIG"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIKOLAI"
+    }
+   ],
+   "team": [
+    "NIKOLAI",
+    "KYLE",
+    "CRAIG"
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ANINDYA",
+      "NIKOLAI",
+      "KYLE"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "votes": [
+      "OWEN",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KYLE",
+      "NIKOLAI",
+      "CRAIG"
+     ],
+     "proposer": "OWEN",
+     "votes": [
+      "OWEN",
+      "CRAIG",
+      "KYLE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA"
+     ],
+     "proposer": "KLAUDIA",
+     "team": [
+      "NIKOLAI",
+      "KYLE",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ADAM",
+     "votes": [
+      "ADAM"
+     ],
+     "team": [
+      "ADAM",
+      "CRAIG",
+      "KYLE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CRAIG",
+      "KYLE",
+      "NIKOLAI"
+     ],
+     "proposer": "CRAIG",
+     "votes": [
+      "OWEN",
+      "CRAIG",
+      "KYLE",
+      "NIKOLAI",
+      "ANINDYA",
+      "KLAUDIA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "CRAIG",
+    "KYLE",
+    "NIKOLAI"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1594952422,
+  "_nanoseconds": 40000000
+ },
+ "timeCreated": {
+  "_seconds": 1594952107,
+  "_nanoseconds": 424000000
+ },
+ "outcome": {
+  "assassinated": "CRAIG",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NIKOLAI",
+    "assassin": false
+   },
+   {
+    "name": "OWEN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CRAIG"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KLAUDIA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ANINDYA",
+    "role": "MORGANA"
+   },
+   {
+    "name": "KYLE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ADAM",
+    "role": "OBERON",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KYLE": true,
+    "CRAIG": true
+   },
+   {
+    "CRAIG": true,
+    "KYLE": true,
+    "NIKOLAI": true
+   },
+   {
+    "NIKOLAI": true,
+    "CRAIG": true,
+    "KYLE": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "AKAHSHA": true,
+    "ADRIAN": true
+   },
+   {
+    "MARC": false,
+    "BEN": true,
+    "ANN": true
+   },
+   {
+    "ADRIAN": true,
+    "ANN": true
+   },
+   {
+    "ANN": true,
+    "ADRIAN": true,
+    "MARC": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "BEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MARC"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "AKAHSHA"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "ADRIAN"
+   },
+   {
+    "name": "ANN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "AKAHSHA"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ADRIAN",
+      "AKAHSHA",
+      "ANN"
+     ],
+     "proposer": "MARC",
+     "team": [
+      "AKAHSHA",
+      "ADRIAN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "AKAHSHA",
+    "ADRIAN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BEN",
+      "ANN",
+      "ADRIAN"
+     ],
+     "proposer": "BEN",
+     "team": [
+      "MARC",
+      "BEN",
+      "ANN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "MARC",
+    "BEN",
+    "ANN"
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ANN",
+    "ADRIAN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ANN",
+      "ADRIAN"
+     ],
+     "votes": [
+      "ADRIAN",
+      "BEN",
+      "ANN"
+     ],
+     "proposer": "ANN",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "MARC",
+    "ADRIAN",
+    "ANN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "MARC",
+      "ADRIAN",
+      "ANN"
+     ],
+     "proposer": "ADRIAN",
+     "votes": [
+      "ANN",
+      "ADRIAN",
+      "MARC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "players": [
+  {
+   "uid": "LxhSBtpmnOOFcNNBxdrCAZUAWBI3",
+   "name": "ANN"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "1se3RtNNFGPk7wqIdtMumVhxSc03"
+  },
+  {
+   "name": "AKAHSHA",
+   "uid": "ThxJsFX5VsYuRvdAIvPT8V3gk7A2"
+  },
+  {
+   "name": "MARC",
+   "uid": "KywRpSAJavMpmOhzOMsh7veubfk2"
+  },
+  {
+   "uid": "Q15ZyuSkzyf0fHmz6gNjes14odG3",
+   "name": "BEN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1600228285,
+  "_nanoseconds": 740000000
+ },
+ "timeCreated": {
+  "_seconds": 1600228057,
+  "_nanoseconds": 326000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

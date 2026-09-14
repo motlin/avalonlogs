@@ -1,0 +1,345 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KENT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SOVEREIGN",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LALALOLOLA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "PROVIDENCE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ROBIN",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "DAN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "JEREMY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KENT": true,
+    "LALALOLOLA": true,
+    "PROVIDENCE": true
+   },
+   {
+    "KENT": true,
+    "JEREMY": false,
+    "LALALOLOLA": true,
+    "PROVIDENCE": true
+   },
+   {
+    "KENT": true,
+    "DAN": false,
+    "LALALOLOLA": true,
+    "PROVIDENCE": true
+   },
+   {
+    "ROBIN": true,
+    "PROVIDENCE": true,
+    "KENT": true,
+    "JL": true,
+    "LALALOLOLA": true
+   },
+   {
+    "LALALOLOLA": true,
+    "KENT": true,
+    "ROBIN": true,
+    "JL": true,
+    "PROVIDENCE": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "JL"
+ },
+ "players": [
+  {
+   "name": "ROBIN",
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2"
+  },
+  {
+   "name": "LALALOLOLA",
+   "uid": "YjIwyhCncYUiYPvf2PZcnmxX2Ou1"
+  },
+  {
+   "uid": "JLqcJkN64Qg9SY4JKFahTOXy3On2",
+   "name": "JEREMY"
+  },
+  {
+   "name": "DAN",
+   "uid": "7JjF9PyanfdT52w3fzNckmSY8Dn1"
+  },
+  {
+   "name": "JL",
+   "uid": "bI2OVSenLLhu3HprJLUfksPK1Hm1"
+  },
+  {
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3",
+   "name": "KENT"
+  },
+  {
+   "uid": "w2ngiDASElTWBTMXd9fdYpBlSNx1",
+   "name": "PROVIDENCE"
+  },
+  {
+   "name": "SOVEREIGN",
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592044021,
+  "_nanoseconds": 424000000
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "LALALOLOLA",
+    "KENT",
+    "PROVIDENCE"
+   ],
+   "proposals": [
+    {
+     "proposer": "LALALOLOLA",
+     "votes": [
+      "JL",
+      "ROBIN",
+      "DAN",
+      "JEREMY",
+      "KENT",
+      "SOVEREIGN",
+      "LALALOLOLA",
+      "PROVIDENCE"
+     ],
+     "team": [
+      "LALALOLOLA",
+      "KENT",
+      "PROVIDENCE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "LALALOLOLA",
+    "KENT",
+    "PROVIDENCE",
+    "JEREMY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JEREMY",
+     "votes": [
+      "KENT",
+      "SOVEREIGN",
+      "LALALOLOLA",
+      "PROVIDENCE",
+      "ROBIN",
+      "JL",
+      "DAN",
+      "JEREMY"
+     ],
+     "team": [
+      "LALALOLOLA",
+      "KENT",
+      "PROVIDENCE",
+      "JEREMY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "KENT",
+      "SOVEREIGN",
+      "LALALOLOLA",
+      "PROVIDENCE",
+      "JL",
+      "ROBIN",
+      "DAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DAN",
+      "LALALOLOLA",
+      "PROVIDENCE",
+      "KENT"
+     ],
+     "proposer": "DAN"
+    }
+   ],
+   "team": [
+    "DAN",
+    "LALALOLOLA",
+    "PROVIDENCE",
+    "KENT"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "KENT",
+    "PROVIDENCE",
+    "LALALOLOLA",
+    "ROBIN",
+    "JL"
+   ],
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "JL",
+      "ROBIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "JL",
+     "team": [
+      "LALALOLOLA",
+      "KENT",
+      "PROVIDENCE",
+      "JL",
+      "ROBIN"
+     ]
+    },
+    {
+     "team": [
+      "KENT",
+      "LALALOLOLA",
+      "SOVEREIGN",
+      "JL",
+      "ROBIN"
+     ],
+     "votes": [
+      "LALALOLOLA",
+      "ROBIN",
+      "DAN",
+      "JEREMY"
+     ],
+     "state": "REJECTED",
+     "proposer": "KENT"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KENT",
+      "PROVIDENCE",
+      "LALALOLOLA",
+      "ROBIN",
+      "JL"
+     ],
+     "votes": [
+      "KENT",
+      "LALALOLOLA",
+      "PROVIDENCE",
+      "ROBIN",
+      "JL",
+      "DAN",
+      "JEREMY"
+     ],
+     "proposer": "PROVIDENCE"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ROBIN",
+    "KENT",
+    "PROVIDENCE",
+    "LALALOLOLA",
+    "JL"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "SOVEREIGN",
+     "team": [
+      "SOVEREIGN",
+      "ROBIN",
+      "JL",
+      "PROVIDENCE",
+      "KENT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JEREMY",
+      "SOVEREIGN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PROVIDENCE",
+      "JL",
+      "ROBIN",
+      "DAN",
+      "JEREMY",
+      "KENT",
+      "LALALOLOLA"
+     ],
+     "proposer": "ROBIN",
+     "team": [
+      "ROBIN",
+      "KENT",
+      "PROVIDENCE",
+      "LALALOLOLA",
+      "JL"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592044948,
+  "_nanoseconds": 697000000
+ }
+}

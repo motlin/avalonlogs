@@ -1,0 +1,266 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588846578,
+  "_nanoseconds": 629000000
+ },
+ "players": [
+  {
+   "uid": "Zsl0VKDhTkhWCE9LMPDyx5Exzub2",
+   "name": "YI"
+  },
+  {
+   "name": "BIGD",
+   "uid": "Pgm2XFEW6DQOLaem2LAs3CpOb5t2"
+  },
+  {
+   "uid": "LPby7EzNhAYvtTatwb2HROXe3UW2",
+   "name": "KUNA"
+  },
+  {
+   "name": "ERIC",
+   "uid": "59N6PqNDJQYL9Jx0hsylEsJvJon1"
+  },
+  {
+   "uid": "V8qupaINhWQfNTX7tbtEhsWIZNi1",
+   "name": "GLADYS"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ERIC": true,
+    "GLADYS": true
+   },
+   {
+    "KUNA": true,
+    "BIGD": true,
+    "YI": true
+   },
+   {
+    "ERIC": true,
+    "YI": false
+   },
+   {
+    "KUNA": true,
+    "BIGD": false,
+    "ERIC": true
+   },
+   {
+    "KUNA": true,
+    "BIGD": false,
+    "GLADYS": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KUNA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "GLADYS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "YI",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "BIGD"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "team": [
+    "GLADYS",
+    "ERIC"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "GLADYS",
+      "YI",
+      "BIGD",
+      "KUNA",
+      "ERIC"
+     ],
+     "proposer": "GLADYS",
+     "state": "APPROVED",
+     "team": [
+      "GLADYS",
+      "ERIC"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "BIGD",
+    "KUNA",
+    "YI"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "YI",
+      "KUNA",
+      "GLADYS"
+     ],
+     "team": [
+      "BIGD",
+      "KUNA",
+      "YI"
+     ],
+     "proposer": "YI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ERIC",
+      "YI",
+      "BIGD",
+      "KUNA"
+     ],
+     "team": [
+      "YI",
+      "ERIC"
+     ],
+     "proposer": "BIGD"
+    }
+   ],
+   "team": [
+    "YI",
+    "ERIC"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BIGD",
+      "KUNA",
+      "ERIC"
+     ],
+     "team": [
+      "KUNA",
+      "BIGD",
+      "ERIC"
+     ],
+     "proposer": "KUNA"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "KUNA",
+    "BIGD",
+    "ERIC"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ERIC",
+      "GLADYS",
+      "KUNA"
+     ],
+     "votes": [
+      "ERIC",
+      "GLADYS"
+     ],
+     "proposer": "ERIC"
+    },
+    {
+     "proposer": "GLADYS",
+     "team": [
+      "GLADYS",
+      "ERIC",
+      "BIGD"
+     ],
+     "votes": [
+      "GLADYS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "YI",
+     "votes": [
+      "KUNA",
+      "YI"
+     ],
+     "team": [
+      "YI",
+      "KUNA",
+      "BIGD"
+     ]
+    },
+    {
+     "team": [
+      "BIGD",
+      "KUNA",
+      "GLADYS"
+     ],
+     "state": "APPROVED",
+     "proposer": "BIGD",
+     "votes": [
+      "YI",
+      "BIGD",
+      "KUNA"
+     ]
+    }
+   ],
+   "team": [
+    "BIGD",
+    "KUNA",
+    "GLADYS"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588845812,
+  "_nanoseconds": 481000000
+ }
+}

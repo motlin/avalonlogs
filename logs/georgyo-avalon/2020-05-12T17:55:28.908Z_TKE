@@ -1,0 +1,261 @@
+{
+ "players": [
+  {
+   "name": "FAIZ",
+   "uid": "nWTZrfZ9zChuIsOwu76kNBmCZNr1"
+  },
+  {
+   "uid": "OjwSoNvGjPUJot0IMekk8mcuiu33",
+   "name": "MEIMEI"
+  },
+  {
+   "uid": "Rruh6j25tzbNhwLoaRnNc25Ng5s1",
+   "name": "MAYUYU"
+  },
+  {
+   "uid": "6NUteF5ycWURcyLgUaTifELSksI3",
+   "name": "TKD"
+  },
+  {
+   "uid": "nCIuoZdvenXVQcR9Pl42EnkfkO92",
+   "name": "PIKAUNCHH"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TKD",
+      "PIKAUNCHH"
+     ],
+     "team": [
+      "FAIZ",
+      "MAYUYU"
+     ],
+     "proposer": "MEIMEI"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MEIMEI",
+      "FAIZ"
+     ],
+     "proposer": "MAYUYU",
+     "votes": [
+      "PIKAUNCHH",
+      "MEIMEI",
+      "MAYUYU"
+     ]
+    }
+   ],
+   "team": [
+    "MEIMEI",
+    "FAIZ"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MEIMEI",
+      "TKD",
+      "MAYUYU"
+     ],
+     "proposer": "TKD",
+     "state": "APPROVED",
+     "team": [
+      "FAIZ",
+      "MEIMEI",
+      "TKD"
+     ]
+    }
+   ],
+   "team": [
+    "FAIZ",
+    "MEIMEI",
+    "TKD"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PIKAUNCHH",
+      "TKD"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "PIKAUNCHH"
+     ],
+     "proposer": "PIKAUNCHH"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "FAIZ",
+     "votes": [
+      "FAIZ",
+      "TKD",
+      "MEIMEI"
+     ],
+     "team": [
+      "FAIZ",
+      "MAYUYU"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "FAIZ",
+    "MAYUYU"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MEIMEI",
+      "FAIZ",
+      "MAYUYU"
+     ],
+     "team": [
+      "FAIZ",
+      "MEIMEI",
+      "MAYUYU"
+     ],
+     "proposer": "MEIMEI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FAIZ",
+    "MEIMEI",
+    "MAYUYU"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MEIMEI",
+      "FAIZ"
+     ],
+     "team": [
+      "MAYUYU",
+      "PIKAUNCHH",
+      "FAIZ"
+     ],
+     "proposer": "MAYUYU"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "TKD",
+     "team": [
+      "TKD",
+      "PIKAUNCHH",
+      "MAYUYU"
+     ],
+     "votes": [
+      "TKD",
+      "MAYUYU",
+      "PIKAUNCHH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "TKD",
+    "PIKAUNCHH",
+    "MAYUYU"
+   ]
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MEIMEI"
+   },
+   {
+    "name": "FAIZ",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TKD"
+   },
+   {
+    "name": "MAYUYU",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "PIKAUNCHH",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": "PIKAUNCHH",
+  "votes": [
+   {
+    "MEIMEI": true,
+    "FAIZ": true
+   },
+   {
+    "TKD": true,
+    "MEIMEI": false,
+    "FAIZ": true
+   },
+   {
+    "MAYUYU": true,
+    "FAIZ": true
+   },
+   {
+    "MEIMEI": false,
+    "FAIZ": true,
+    "MAYUYU": true
+   },
+   {
+    "MAYUYU": true,
+    "PIKAUNCHH": true,
+    "TKD": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1589306128,
+  "_nanoseconds": 908000000
+ },
+ "timeFinished": {
+  "_seconds": 1589306761,
+  "_nanoseconds": 913000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

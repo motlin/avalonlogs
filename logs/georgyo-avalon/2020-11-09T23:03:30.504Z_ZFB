@@ -1,0 +1,240 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "FERDINAS",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "NICO"
+   },
+   {
+    "role": "MERLIN",
+    "name": "FERDINAS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "DANI"
+   },
+   {
+    "name": "SOMELISSA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANNE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHEERS"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "FERDINAS": true,
+    "SOMELISSA": true
+   },
+   {
+    "FERDINAS": true,
+    "ANNE": true,
+    "DANI": true
+   },
+   {
+    "ANNE": true,
+    "DANI": true,
+    "NICO": false,
+    "FERDINAS": true
+   },
+   {
+    "CHEERS": true,
+    "ANNE": true,
+    "DANI": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "DANI",
+   "uid": "MbconwiSprdBngrKlpC9rs2Fcal1"
+  },
+  {
+   "uid": "bG5hs9n3NoSe9Cdx6mCPVHB7D4k2",
+   "name": "ANNE"
+  },
+  {
+   "uid": "6cR9iMssXfXDMOoDozqjjJuRGNY2",
+   "name": "FERDINAS"
+  },
+  {
+   "name": "SOMELISSA",
+   "uid": "BwASw66MLFbWpLWOy63SrzOQAq12"
+  },
+  {
+   "name": "NICO",
+   "uid": "7bcFVXGPF8dfJ8xeALePK7CnnuA3"
+  },
+  {
+   "name": "CHEERS",
+   "uid": "1XcL9t7HjMVonPCpVY3iFaE6sdf1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604963010,
+  "_nanoseconds": 504000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "SOMELISSA",
+    "FERDINAS"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ANNE",
+      "NICO",
+      "SOMELISSA",
+      "CHEERS",
+      "DANI",
+      "FERDINAS"
+     ],
+     "proposer": "SOMELISSA",
+     "state": "APPROVED",
+     "team": [
+      "SOMELISSA",
+      "FERDINAS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ANNE",
+    "DANI",
+    "FERDINAS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHEERS",
+      "SOMELISSA",
+      "ANNE",
+      "DANI",
+      "NICO",
+      "FERDINAS"
+     ],
+     "team": [
+      "ANNE",
+      "DANI",
+      "FERDINAS"
+     ],
+     "proposer": "NICO"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "DANI",
+    "ANNE",
+    "FERDINAS",
+    "NICO"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SOMELISSA",
+      "CHEERS",
+      "ANNE"
+     ],
+     "team": [
+      "CHEERS",
+      "SOMELISSA",
+      "DANI",
+      "ANNE"
+     ],
+     "proposer": "CHEERS",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "CHEERS",
+      "NICO",
+      "SOMELISSA",
+      "DANI",
+      "ANNE"
+     ],
+     "team": [
+      "DANI",
+      "ANNE",
+      "FERDINAS",
+      "NICO"
+     ],
+     "proposer": "DANI",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "DANI",
+    "ANNE",
+    "CHEERS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NICO",
+      "FERDINAS",
+      "CHEERS",
+      "ANNE",
+      "DANI"
+     ],
+     "proposer": "ANNE",
+     "state": "APPROVED",
+     "team": [
+      "DANI",
+      "ANNE",
+      "CHEERS"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604963383,
+  "_nanoseconds": 531000000
+ }
+}

@@ -1,0 +1,366 @@
+{
+ "timeCreated": {
+  "_seconds": 1605760891,
+  "_nanoseconds": 942000000
+ },
+ "players": [
+  {
+   "uid": "IRD4uE9wP3MnPxNzSlIdrJrkSIz2",
+   "name": "CRAIG"
+  },
+  {
+   "uid": "0Kq1Qn2ne9Xn3b5UocoTPwofYh93",
+   "name": "CRAISINED"
+  },
+  {
+   "name": "FRANKLIN",
+   "uid": "BsKHDR2tcCTGSxFjjtq0oIkN0xf1"
+  },
+  {
+   "name": "GEORGE",
+   "uid": "ekB9z2g5m1g4EI4ltUs7k3BbrFG2"
+  },
+  {
+   "name": "JET",
+   "uid": "sFBtD4TgvehoZhD1px1cMaIEt2J3"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": "GEORGE",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JET",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "CRAIG"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "FRANKLIN"
+   },
+   {
+    "assassin": false,
+    "name": "GEORGE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "CRAISINED",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "CRAISINED": true,
+    "JET": true
+   },
+   {
+    "JET": true,
+    "FRANKLIN": true,
+    "CRAISINED": false
+   },
+   {
+    "JET": true,
+    "GEORGE": true
+   },
+   {
+    "CRAISINED": false,
+    "GEORGE": true,
+    "JET": true
+   },
+   {
+    "GEORGE": true,
+    "JET": true,
+    "FRANKLIN": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1605761342,
+  "_nanoseconds": 674000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CRAISINED",
+      "FRANKLIN"
+     ],
+     "proposer": "FRANKLIN",
+     "team": [
+      "FRANKLIN",
+      "CRAISINED"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "GEORGE",
+      "JET"
+     ],
+     "proposer": "GEORGE",
+     "state": "REJECTED",
+     "votes": [
+      "GEORGE",
+      "JET"
+     ]
+    },
+    {
+     "team": [
+      "JET",
+      "GEORGE"
+     ],
+     "state": "REJECTED",
+     "proposer": "JET",
+     "votes": [
+      "GEORGE",
+      "JET"
+     ]
+    },
+    {
+     "team": [
+      "CRAIG",
+      "CRAISINED"
+     ],
+     "votes": [
+      "JET",
+      "CRAIG"
+     ],
+     "proposer": "CRAIG",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "CRAISINED",
+      "JET"
+     ],
+     "proposer": "CRAISINED",
+     "state": "APPROVED",
+     "votes": [
+      "GEORGE",
+      "CRAISINED",
+      "JET",
+      "CRAIG"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "CRAISINED",
+    "JET"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "FRANKLIN",
+      "JET"
+     ],
+     "team": [
+      "CRAISINED",
+      "FRANKLIN",
+      "JET"
+     ],
+     "proposer": "FRANKLIN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "FRANKLIN",
+      "GEORGE"
+     ],
+     "proposer": "GEORGE",
+     "state": "REJECTED",
+     "team": [
+      "FRANKLIN",
+      "GEORGE",
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "JET"
+     ],
+     "state": "REJECTED",
+     "proposer": "JET",
+     "team": [
+      "CRAISINED",
+      "JET",
+      "FRANKLIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GEORGE",
+      "CRAIG"
+     ],
+     "team": [
+      "CRAIG",
+      "CRAISINED",
+      "JET"
+     ],
+     "proposer": "CRAIG"
+    },
+    {
+     "votes": [
+      "GEORGE",
+      "JET",
+      "CRAISINED",
+      "FRANKLIN",
+      "CRAIG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CRAISINED",
+      "FRANKLIN",
+      "JET"
+     ],
+     "proposer": "CRAISINED"
+    }
+   ],
+   "team": [
+    "CRAISINED",
+    "FRANKLIN",
+    "JET"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "GEORGE",
+    "JET"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "FRANKLIN",
+      "GEORGE",
+      "JET"
+     ],
+     "team": [
+      "GEORGE",
+      "JET"
+     ],
+     "proposer": "FRANKLIN"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JET",
+      "GEORGE"
+     ],
+     "team": [
+      "GEORGE",
+      "JET",
+      "FRANKLIN"
+     ],
+     "proposer": "GEORGE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JET",
+     "votes": [
+      "GEORGE",
+      "JET"
+     ],
+     "team": [
+      "FRANKLIN",
+      "GEORGE",
+      "JET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GEORGE",
+      "CRAIG"
+     ],
+     "team": [
+      "CRAIG",
+      "GEORGE",
+      "JET"
+     ],
+     "proposer": "CRAIG"
+    },
+    {
+     "proposer": "CRAISINED",
+     "team": [
+      "CRAISINED",
+      "GEORGE",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FRANKLIN",
+      "CRAIG",
+      "CRAISINED"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "CRAISINED",
+    "GEORGE",
+    "JET"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "GEORGE",
+      "JET",
+      "FRANKLIN"
+     ],
+     "proposer": "FRANKLIN",
+     "state": "APPROVED",
+     "team": [
+      "FRANKLIN",
+      "GEORGE",
+      "JET"
+     ]
+    }
+   ],
+   "team": [
+    "FRANKLIN",
+    "GEORGE",
+    "JET"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "timeCreated": {
+  "_seconds": 1612539175,
+  "_nanoseconds": 953000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "REESE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "TIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RYAN",
+    "assassin": false
+   },
+   {
+    "name": "GOOD",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "CUTE"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "EY"
+   },
+   {
+    "assassin": false,
+    "name": "JOMAY",
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "TIN": true,
+    "REESE": true
+   },
+   {
+    "GOOD": true,
+    "CUTE": false,
+    "JOMAY": false
+   },
+   {
+    "EY": false,
+    "REESE": true,
+    "JOMAY": true
+   },
+   {
+    "TIN": true,
+    "RYAN": true,
+    "GOOD": true,
+    "EY": true
+   },
+   {
+    "TIN": true,
+    "EY": false,
+    "RYAN": true,
+    "REESE": true
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1612540492,
+  "_nanoseconds": 503000000
+ },
+ "players": [
+  {
+   "name": "EY",
+   "uid": "YvpNyCCjdMdeH8TchAt4Wt1W3bC3"
+  },
+  {
+   "name": "JOMAY",
+   "uid": "X0oTAFONh2VUd2aTfk4xHl1j3LH2"
+  },
+  {
+   "name": "TIN",
+   "uid": "uwM1bOC2sudIfoDegjH8j96xVOz1"
+  },
+  {
+   "uid": "bpESahvWbhXiXFNzgq811vBv8gv1",
+   "name": "RYAN"
+  },
+  {
+   "name": "REESE",
+   "uid": "nlSdzfzDUuejkcZge9EfNYQtd3K2"
+  },
+  {
+   "name": "GOOD",
+   "uid": "7O9tsnQO2ORjdwjJJx766sKbAr03"
+  },
+  {
+   "uid": "6BY9fdP5dFY8KT0wVk3ohCzp2El1",
+   "name": "CUTE"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "REESE",
+      "TIN"
+     ],
+     "votes": [
+      "CUTE",
+      "EY",
+      "RYAN",
+      "JOMAY"
+     ],
+     "proposer": "JOMAY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "REESE",
+    "TIN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 2,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CUTE",
+      "RYAN",
+      "GOOD",
+      "REESE",
+      "JOMAY",
+      "EY",
+      "TIN"
+     ],
+     "team": [
+      "JOMAY",
+      "GOOD",
+      "CUTE"
+     ],
+     "proposer": "TIN",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JOMAY",
+    "GOOD",
+    "CUTE"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "JOMAY",
+      "EY",
+      "REESE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EY",
+      "RYAN",
+      "TIN",
+      "JOMAY",
+      "REESE"
+     ],
+     "proposer": "RYAN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "JOMAY",
+    "EY",
+    "REESE"
+   ]
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "REESE",
+     "state": "APPROVED",
+     "votes": [
+      "GOOD",
+      "CUTE",
+      "TIN",
+      "REESE",
+      "EY",
+      "RYAN"
+     ],
+     "team": [
+      "GOOD",
+      "TIN",
+      "RYAN",
+      "EY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "GOOD",
+    "TIN",
+    "RYAN",
+    "EY"
+   ],
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TIN",
+      "RYAN",
+      "REESE",
+      "EY"
+     ],
+     "proposer": "GOOD",
+     "votes": [
+      "JOMAY",
+      "RYAN",
+      "TIN",
+      "REESE",
+      "GOOD"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "TIN",
+    "RYAN",
+    "REESE",
+    "EY"
+   ]
+  }
+ ]
+}

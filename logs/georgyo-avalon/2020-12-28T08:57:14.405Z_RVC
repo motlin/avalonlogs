@@ -1,0 +1,276 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "DIKSINGH",
+   "uid": "4GfCahioxqeJie6psB9eYJTCG793"
+  },
+  {
+   "uid": "JbCckK6FAEQcLuHKAvN69wqbOS73",
+   "name": "SHRAVAN"
+  },
+  {
+   "name": "AMEYA",
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13"
+  },
+  {
+   "uid": "U6scF13Z1JREsmyEZfa2cjw35qB3",
+   "name": "BRYANT"
+  },
+  {
+   "name": "KAUSHAL",
+   "uid": "lHvH2Q0Vc1UbF40N06Zr6svg26i1"
+  },
+  {
+   "name": "KLAY",
+   "uid": "V4SAGCzS9KMfXt2eiWuWhKXSMm12"
+  },
+  {
+   "name": "IGUODALA",
+   "uid": "1FdWUDx8sCeb6EZoZXIQJlZsnTJ3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609147416,
+  "_nanoseconds": 491000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "DIKSINGH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "IGUODALA",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "KAUSHAL"
+   },
+   {
+    "name": "BRYANT",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "AMEYA",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "SHRAVAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KLAY",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KLAY": true,
+    "AMEYA": true
+   },
+   {
+    "SHRAVAN": true,
+    "AMEYA": false,
+    "KLAY": true
+   },
+   {
+    "BRYANT": false,
+    "SHRAVAN": true,
+    "DIKSINGH": true
+   },
+   {
+    "DIKSINGH": true,
+    "KLAY": true,
+    "SHRAVAN": true,
+    "KAUSHAL": true
+   },
+   {
+    "KLAY": true,
+    "DIKSINGH": true,
+    "SHRAVAN": true,
+    "KAUSHAL": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "KAUSHAL"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "AMEYA",
+    "KLAY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "AMEYA",
+      "KLAY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AMEYA",
+      "KLAY",
+      "KAUSHAL",
+      "SHRAVAN",
+      "IGUODALA",
+      "DIKSINGH"
+     ],
+     "proposer": "DIKSINGH"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "AMEYA",
+    "KLAY",
+    "SHRAVAN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "AMEYA",
+      "KLAY",
+      "SHRAVAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KLAY",
+      "SHRAVAN",
+      "AMEYA",
+      "IGUODALA",
+      "DIKSINGH",
+      "KAUSHAL",
+      "BRYANT"
+     ],
+     "proposer": "SHRAVAN"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AMEYA"
+     ],
+     "team": [
+      "AMEYA",
+      "BRYANT",
+      "KAUSHAL"
+     ],
+     "proposer": "AMEYA"
+    },
+    {
+     "votes": [
+      "SHRAVAN",
+      "KAUSHAL",
+      "AMEYA",
+      "IGUODALA",
+      "BRYANT",
+      "DIKSINGH"
+     ],
+     "proposer": "BRYANT",
+     "team": [
+      "SHRAVAN",
+      "BRYANT",
+      "DIKSINGH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "SHRAVAN",
+    "BRYANT",
+    "DIKSINGH"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "DIKSINGH",
+      "KLAY",
+      "KAUSHAL",
+      "IGUODALA"
+     ],
+     "state": "APPROVED",
+     "proposer": "KAUSHAL",
+     "team": [
+      "KAUSHAL",
+      "KLAY",
+      "SHRAVAN",
+      "DIKSINGH"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "KAUSHAL",
+    "KLAY",
+    "SHRAVAN",
+    "DIKSINGH"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KAUSHAL",
+      "KLAY",
+      "SHRAVAN",
+      "DIKSINGH"
+     ],
+     "team": [
+      "KLAY",
+      "KAUSHAL",
+      "SHRAVAN",
+      "DIKSINGH"
+     ],
+     "proposer": "KLAY"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KLAY",
+    "KAUSHAL",
+    "SHRAVAN",
+    "DIKSINGH"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 0
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1609145834,
+  "_nanoseconds": 405000000
+ }
+}

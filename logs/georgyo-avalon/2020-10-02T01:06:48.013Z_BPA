@@ -1,0 +1,244 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "MITA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "LAUREN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "ADELIGENTO"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PREEYA"
+   },
+   {
+    "assassin": false,
+    "name": "RONAR",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PREEYA": true,
+    "RONAR": true
+   },
+   {
+    "RONAR": true,
+    "PREEYA": true,
+    "LAUREN": true
+   },
+   {
+    "RONAR": true,
+    "ADELIGENTO": false
+   },
+   {
+    "PREEYA": true,
+    "ADELIGENTO": true,
+    "MITA": false
+   },
+   {
+    "ADELIGENTO": false,
+    "PREEYA": true,
+    "LAUREN": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "PREEYA",
+    "RONAR"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "LAUREN",
+      "MITA",
+      "PREEYA",
+      "RONAR"
+     ],
+     "proposer": "PREEYA",
+     "state": "APPROVED",
+     "team": [
+      "PREEYA",
+      "RONAR"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LAUREN",
+     "team": [
+      "LAUREN",
+      "RONAR",
+      "PREEYA"
+     ],
+     "votes": [
+      "LAUREN",
+      "PREEYA",
+      "ADELIGENTO",
+      "MITA",
+      "RONAR"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "LAUREN",
+    "RONAR",
+    "PREEYA"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "RONAR",
+     "votes": [
+      "LAUREN",
+      "RONAR"
+     ],
+     "team": [
+      "PREEYA",
+      "RONAR"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ADELIGENTO",
+      "RONAR"
+     ],
+     "votes": [
+      "PREEYA",
+      "ADELIGENTO",
+      "RONAR",
+      "MITA",
+      "LAUREN"
+     ],
+     "proposer": "MITA"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ADELIGENTO",
+    "RONAR"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PREEYA",
+      "MITA",
+      "ADELIGENTO"
+     ],
+     "proposer": "ADELIGENTO",
+     "votes": [
+      "LAUREN",
+      "PREEYA",
+      "ADELIGENTO",
+      "MITA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "PREEYA",
+    "MITA",
+    "ADELIGENTO"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "PREEYA",
+    "ADELIGENTO",
+    "LAUREN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "PREEYA",
+      "ADELIGENTO",
+      "LAUREN"
+     ],
+     "proposer": "PREEYA",
+     "state": "APPROVED",
+     "votes": [
+      "ADELIGENTO",
+      "LAUREN",
+      "PREEYA",
+      "MITA"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1601601755,
+  "_nanoseconds": 437000000
+ },
+ "players": [
+  {
+   "name": "PREEYA",
+   "uid": "1mEASkaTfIUMrsDvFPj1kd65Plm2"
+  },
+  {
+   "name": "LAUREN",
+   "uid": "8MC7HRuJZfUcROPPuzOPvAr8ZnC3"
+  },
+  {
+   "name": "RONAR",
+   "uid": "Z69rsSkcoOYmYRAr3F646WWQzlx1"
+  },
+  {
+   "uid": "MN5FrqSZiLVGGXc2A4qIwiaIxpX2",
+   "name": "MITA"
+  },
+  {
+   "name": "ADELIGENTO",
+   "uid": "FGO6WC8LISdIEeEuUZ8xzza4mX82"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1601600808,
+  "_nanoseconds": 13000000
+ }
+}

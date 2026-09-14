@@ -1,0 +1,252 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1604757187,
+  "_nanoseconds": 404000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "CLAIRE": true,
+    "DJJOU": false
+   },
+   {
+    "DJJOU": true,
+    "CHRISTIAN": true,
+    "ANTOINE": true
+   },
+   {
+    "CLAIRE": true,
+    "ANTOINE": true
+   },
+   {
+    "REGIS": true,
+    "CLAIRE": true,
+    "ANTOINE": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "CHRISTIAN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "DJJOU"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANTOINE"
+   },
+   {
+    "name": "CLAIRE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "REGIS"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three missions succeeded",
+  "state": "GOOD_WIN"
+ },
+ "players": [
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "name": "CLAIRE",
+   "uid": "J6DN3aTJiAZBXj8w0yQgbagLfbS2"
+  },
+  {
+   "name": "DJJOU",
+   "uid": "vW4wNkSBNuZHfcUHLu5hClAsLBf2"
+  },
+  {
+   "name": "ANTOINE",
+   "uid": "xlFldH3u2vSyHdP0JXXHRfTceko1"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604756259,
+  "_nanoseconds": 280000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CLAIRE",
+     "votes": [
+      "DJJOU",
+      "ANTOINE",
+      "CLAIRE",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CLAIRE",
+      "DJJOU"
+     ]
+    }
+   ],
+   "team": [
+    "CLAIRE",
+    "DJJOU"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ANTOINE",
+    "DJJOU",
+    "CHRISTIAN"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CLAIRE",
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "proposer": "DJJOU",
+     "votes": [
+      "CHRISTIAN",
+      "DJJOU"
+     ]
+    },
+    {
+     "proposer": "ANTOINE",
+     "votes": [
+      "REGIS",
+      "DJJOU",
+      "CHRISTIAN",
+      "ANTOINE"
+     ],
+     "team": [
+      "ANTOINE",
+      "DJJOU",
+      "CHRISTIAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANTOINE",
+      "CHRISTIAN"
+     ],
+     "proposer": "CHRISTIAN",
+     "team": [
+      "CHRISTIAN",
+      "REGIS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "REGIS",
+     "team": [
+      "REGIS",
+      "CLAIRE"
+     ],
+     "votes": [
+      "REGIS",
+      "ANTOINE"
+     ]
+    },
+    {
+     "team": [
+      "CLAIRE",
+      "ANTOINE"
+     ],
+     "proposer": "CLAIRE",
+     "state": "APPROVED",
+     "votes": [
+      "CLAIRE",
+      "DJJOU",
+      "REGIS",
+      "ANTOINE"
+     ]
+    }
+   ],
+   "team": [
+    "CLAIRE",
+    "ANTOINE"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "CHRISTIAN",
+      "REGIS",
+      "ANTOINE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DJJOU"
+     ],
+     "proposer": "DJJOU"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "REGIS",
+      "CLAIRE",
+      "ANTOINE"
+     ],
+     "votes": [
+      "REGIS",
+      "CLAIRE",
+      "ANTOINE"
+     ],
+     "proposer": "ANTOINE"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "REGIS",
+    "CLAIRE",
+    "ANTOINE"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

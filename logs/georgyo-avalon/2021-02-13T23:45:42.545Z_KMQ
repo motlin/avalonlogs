@@ -1,0 +1,232 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "GUBES",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "BKA",
+    "assassin": false
+   },
+   {
+    "name": "PAULK",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "PAUL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "IGOR",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "FAKEMERLIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "BKA": false,
+    "IGOR": true
+   },
+   {
+    "PAUL": true,
+    "GUBES": true,
+    "PAULK": true
+   },
+   {
+    "PAUL": true,
+    "PAULK": true,
+    "IGOR": true,
+    "GUBES": true
+   },
+   {
+    "IGOR": true,
+    "GUBES": true,
+    "PAUL": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "GUBES"
+ },
+ "timeCreated": {
+  "_seconds": 1613259942,
+  "_nanoseconds": 545000000
+ },
+ "timeFinished": {
+  "_seconds": 1613261176,
+  "_nanoseconds": 134000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PAULK",
+      "PAUL",
+      "BKA",
+      "IGOR"
+     ],
+     "team": [
+      "BKA",
+      "IGOR"
+     ],
+     "proposer": "BKA"
+    }
+   ],
+   "team": [
+    "BKA",
+    "IGOR"
+   ],
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "FAKEMERLIN",
+      "GUBES",
+      "PAULK"
+     ],
+     "proposer": "FAKEMERLIN",
+     "votes": [
+      "FAKEMERLIN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "PAULK",
+      "PAUL",
+      "GUBES"
+     ],
+     "votes": [
+      "PAULK",
+      "GUBES",
+      "BKA",
+      "PAUL"
+     ],
+     "proposer": "GUBES"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "PAULK",
+    "PAUL",
+    "GUBES"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "PAULK",
+    "PAUL",
+    "GUBES",
+    "IGOR"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PAULK",
+     "team": [
+      "PAULK",
+      "PAUL",
+      "GUBES",
+      "IGOR"
+     ],
+     "votes": [
+      "IGOR",
+      "PAUL",
+      "GUBES",
+      "PAULK",
+      "BKA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PAUL",
+      "IGOR",
+      "GUBES"
+     ],
+     "votes": [
+      "IGOR",
+      "PAULK",
+      "GUBES",
+      "PAUL"
+     ],
+     "proposer": "PAUL"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "PAUL",
+    "IGOR",
+    "GUBES"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "players": [
+  {
+   "uid": "KP5LjFjKDWfvdceCcCR4pvzVTkk2",
+   "name": "PAULK"
+  },
+  {
+   "name": "PAUL",
+   "uid": "dZObdFjTA7UiNpEHKKdpAFVX4ev1"
+  },
+  {
+   "name": "IGOR",
+   "uid": "Ww2QVsdrdWT8iXHkQgn7NDyzeFM2"
+  },
+  {
+   "uid": "Tn7v3sFyIRSwLaMXUuckqbAKdly1",
+   "name": "BKA"
+  },
+  {
+   "uid": "wyHTOd7JYXTkjXFXa7WGHNEWPau1",
+   "name": "FAKEMERLIN"
+  },
+  {
+   "uid": "M3LcGcuwBQfNh9EOqSKr8RANAjE2",
+   "name": "GUBES"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

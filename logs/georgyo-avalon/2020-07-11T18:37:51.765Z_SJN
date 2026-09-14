@@ -1,0 +1,280 @@
+{
+ "players": [
+  {
+   "name": "MADDAX",
+   "uid": "Mq0pCqAuaUdk94yKVEZ9Nscv3SG2"
+  },
+  {
+   "uid": "cbGZGkUfA8bQn8GSLI0d6J5hujQ2",
+   "name": "ORANGE"
+  },
+  {
+   "name": "COURT",
+   "uid": "I1sVvW10PyaEOBvCn3mxKH10j4o1"
+  },
+  {
+   "uid": "M5bTuRcH9ahvgUVvoqo7U1KmxYG3",
+   "name": "BRENNA"
+  },
+  {
+   "uid": "uHib3AwgvrQP8SHzLE1haMZRqK43",
+   "name": "GREG"
+  },
+  {
+   "name": "SEB",
+   "uid": "wYdyiCHBdIUXkfDH1yZBWtojWU83"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "COURT",
+  "votes": [
+   {
+    "ORANGE": true,
+    "MADDAX": true
+   },
+   {
+    "COURT": true,
+    "BRENNA": false,
+    "ORANGE": true
+   },
+   {
+    "ORANGE": true,
+    "MADDAX": true,
+    "COURT": true,
+    "GREG": false
+   },
+   {
+    "MADDAX": true,
+    "ORANGE": true,
+    "SEB": true
+   },
+   {
+    "ORANGE": true,
+    "MADDAX": true,
+    "SEB": true,
+    "COURT": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SEB",
+    "assassin": false
+   },
+   {
+    "name": "ORANGE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MADDAX"
+   },
+   {
+    "name": "COURT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "GREG",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "BRENNA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ORANGE",
+    "MADDAX"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ORANGE",
+      "MADDAX"
+     ],
+     "proposer": "ORANGE",
+     "votes": [
+      "GREG",
+      "BRENNA",
+      "SEB",
+      "ORANGE",
+      "MADDAX",
+      "COURT"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GREG",
+      "BRENNA",
+      "SEB",
+      "ORANGE",
+      "MADDAX",
+      "COURT"
+     ],
+     "team": [
+      "BRENNA",
+      "COURT",
+      "ORANGE"
+     ],
+     "proposer": "COURT"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "BRENNA",
+    "COURT",
+    "ORANGE"
+   ]
+  },
+  {
+   "team": [
+    "GREG",
+    "MADDAX",
+    "COURT",
+    "ORANGE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BRENNA"
+     ],
+     "proposer": "BRENNA",
+     "team": [
+      "BRENNA",
+      "COURT",
+      "SEB",
+      "MADDAX"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ORANGE",
+      "MADDAX",
+      "COURT",
+      "GREG",
+      "BRENNA"
+     ],
+     "proposer": "GREG",
+     "team": [
+      "GREG",
+      "MADDAX",
+      "COURT",
+      "ORANGE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "SEB",
+    "MADDAX",
+    "ORANGE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SEB",
+      "ORANGE"
+     ],
+     "team": [
+      "SEB",
+      "COURT",
+      "ORANGE"
+     ],
+     "proposer": "SEB"
+    },
+    {
+     "votes": [
+      "GREG",
+      "BRENNA",
+      "SEB",
+      "ORANGE",
+      "MADDAX"
+     ],
+     "team": [
+      "SEB",
+      "MADDAX",
+      "ORANGE"
+     ],
+     "proposer": "MADDAX",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "MADDAX",
+      "ORANGE",
+      "COURT",
+      "SEB"
+     ],
+     "votes": [
+      "SEB",
+      "ORANGE",
+      "MADDAX",
+      "COURT"
+     ],
+     "state": "APPROVED",
+     "proposer": "ORANGE"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "MADDAX",
+    "ORANGE",
+    "COURT",
+    "SEB"
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1594493300,
+  "_nanoseconds": 721000000
+ },
+ "timeCreated": {
+  "_seconds": 1594492671,
+  "_nanoseconds": 765000000
+ }
+}

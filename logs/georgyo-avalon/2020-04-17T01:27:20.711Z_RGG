@@ -1,0 +1,290 @@
+{
+ "players": [
+  {
+   "name": "MAY",
+   "uid": "RwWZNKOgKrUOvfWnPrUIb0UrG4Y2"
+  },
+  {
+   "name": "WILL",
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1"
+  },
+  {
+   "name": "RYAN",
+   "uid": "gAiRUjpSMlbOzGpCzUNPHhcdscG3"
+  },
+  {
+   "name": "SLIMMYJIMM",
+   "uid": "rlYsN9yWvjY50whmk7OijNcUXHy2"
+  },
+  {
+   "name": "REID",
+   "uid": "JsV7G0CQiXg86UzXmJdBAU0xe4n1"
+  },
+  {
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2",
+   "name": "JACK"
+  },
+  {
+   "name": "JONESY",
+   "uid": "xi35CAgu1pQX6cz9w1TGaSxDB7u1"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "WILL",
+    "RYAN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "WILL",
+      "MAY",
+      "SLIMMYJIMM",
+      "REID",
+      "RYAN"
+     ],
+     "proposer": "WILL",
+     "state": "APPROVED",
+     "team": [
+      "WILL",
+      "RYAN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "WILL",
+      "RYAN",
+      "JONESY"
+     ],
+     "votes": [
+      "WILL",
+      "MAY",
+      "RYAN"
+     ],
+     "proposer": "RYAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "WILL",
+      "RYAN",
+      "SLIMMYJIMM"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "WILL",
+      "SLIMMYJIMM",
+      "REID"
+     ],
+     "proposer": "SLIMMYJIMM"
+    },
+    {
+     "proposer": "REID",
+     "team": [
+      "REID",
+      "SLIMMYJIMM",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "JONESY",
+      "MAY",
+      "REID"
+     ]
+    }
+   ],
+   "team": [
+    "REID",
+    "SLIMMYJIMM",
+    "WILL"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JACK",
+     "votes": [
+      "SLIMMYJIMM",
+      "REID",
+      "RYAN",
+      "WILL",
+      "JACK",
+      "JONESY",
+      "MAY"
+     ],
+     "team": [
+      "JACK",
+      "RYAN",
+      "JONESY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "JACK",
+    "RYAN",
+    "JONESY"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "MAY",
+    "JONESY",
+    "JACK",
+    "RYAN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SLIMMYJIMM",
+      "REID",
+      "WILL",
+      "JONESY",
+      "MAY"
+     ],
+     "proposer": "JONESY",
+     "state": "APPROVED",
+     "team": [
+      "MAY",
+      "JONESY",
+      "JACK",
+      "RYAN"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "MAY",
+    "WILL",
+    "RYAN",
+    "JACK"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MAY",
+     "votes": [
+      "WILL",
+      "MAY",
+      "SLIMMYJIMM",
+      "REID"
+     ],
+     "team": [
+      "MAY",
+      "WILL",
+      "RYAN",
+      "JACK"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587087406,
+  "_nanoseconds": 125679000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587086840,
+  "_nanoseconds": 711000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "WILL": true,
+    "RYAN": true
+   },
+   {
+    "REID": false,
+    "SLIMMYJIMM": false,
+    "WILL": true
+   },
+   {
+    "RYAN": true,
+    "JACK": false,
+    "JONESY": true
+   },
+   {
+    "MAY": true,
+    "JACK": true,
+    "RYAN": true,
+    "JONESY": true
+   },
+   {
+    "JACK": false,
+    "MAY": true,
+    "WILL": true,
+    "RYAN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JACK",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JONESY"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MAY"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SLIMMYJIMM"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "REID",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RYAN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "WILL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null
+ }
+}

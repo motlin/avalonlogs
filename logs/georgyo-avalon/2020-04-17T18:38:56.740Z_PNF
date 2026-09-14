@@ -1,0 +1,232 @@
+{
+ "players": [
+  {
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2",
+   "name": "AD"
+  },
+  {
+   "name": "HIHI",
+   "uid": "PEbvv1lPlkhbZz9FPWopOzRF6rF2"
+  },
+  {
+   "name": "HOTTIE",
+   "uid": "vrNkKKHYoBP3nmouJuLWamgK82i2"
+  },
+  {
+   "uid": "7HUOGrGuy9azjzxxu3u1X4D11KE2",
+   "name": "EREN"
+  },
+  {
+   "name": "YAMAHA",
+   "uid": "aRtexD045UaUsZTHepe4KghcKnv1"
+  },
+  {
+   "uid": "SQ7vNLeYkZaSA0974oZlEm9vL7H2",
+   "name": "KUNDIGRAB"
+  },
+  {
+   "uid": "QAFACwIi5iVCSR30oBMKpafm07f1",
+   "name": "FULLMETAL"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "HOTTIE": true,
+    "EREN": true
+   },
+   {
+    "EREN": true,
+    "HOTTIE": false,
+    "KUNDIGRAB": false
+   },
+   {
+    "HOTTIE": true,
+    "KUNDIGRAB": true,
+    "HIHI": true
+   },
+   {
+    "HOTTIE": false,
+    "AD": true,
+    "FULLMETAL": true,
+    "EREN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "EREN",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KUNDIGRAB",
+    "role": "MORGANA"
+   },
+   {
+    "name": "HIHI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "HOTTIE",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "FULLMETAL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EREN"
+   },
+   {
+    "name": "YAMAHA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "AD",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "AD",
+      "KUNDIGRAB",
+      "HIHI",
+      "FULLMETAL",
+      "EREN",
+      "YAMAHA"
+     ],
+     "team": [
+      "HOTTIE",
+      "EREN"
+     ],
+     "proposer": "EREN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HOTTIE",
+    "EREN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "HOTTIE",
+      "EREN",
+      "KUNDIGRAB"
+     ],
+     "votes": [
+      "YAMAHA",
+      "AD",
+      "HIHI",
+      "HOTTIE",
+      "FULLMETAL",
+      "EREN"
+     ],
+     "proposer": "YAMAHA",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HOTTIE",
+    "EREN",
+    "KUNDIGRAB"
+   ],
+   "teamSize": 3,
+   "numFails": 2
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "KUNDIGRAB",
+    "HOTTIE",
+    "HIHI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "KUNDIGRAB",
+      "HIHI",
+      "HOTTIE",
+      "YAMAHA"
+     ],
+     "proposer": "KUNDIGRAB",
+     "team": [
+      "KUNDIGRAB",
+      "HOTTIE",
+      "HIHI"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 2,
+   "team": [
+    "FULLMETAL",
+    "HOTTIE",
+    "AD",
+    "EREN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "FULLMETAL",
+     "team": [
+      "FULLMETAL",
+      "HOTTIE",
+      "AD",
+      "EREN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "YAMAHA",
+      "AD",
+      "KUNDIGRAB",
+      "FULLMETAL"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587148736,
+  "_nanoseconds": 740000000
+ },
+ "timeFinished": {
+  "_seconds": 1587149011,
+  "_nanoseconds": 147000000
+ }
+}

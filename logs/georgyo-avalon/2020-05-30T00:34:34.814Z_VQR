@@ -1,0 +1,216 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "YOUNESS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SCOTT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ALKHANSA",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "RAMYA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "IZZY",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "RAMYA": true,
+    "YOUNESS": true
+   },
+   {
+    "YOUNESS": true,
+    "SCOTT": true,
+    "ALKHANSA": false
+   },
+   {
+    "IZZY": false,
+    "SCOTT": true
+   },
+   {
+    "YOUNESS": true,
+    "IZZY": false,
+    "RAMYA": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1590799843,
+  "_nanoseconds": 102000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590798874,
+  "_nanoseconds": 814000000
+ },
+ "players": [
+  {
+   "name": "RAMYA",
+   "uid": "ouXMorBTweWuQnGMWpQIBjDXcIG2"
+  },
+  {
+   "name": "IZZY",
+   "uid": "aAxDtaMVOchGac1r0JqSAu9AIsg2"
+  },
+  {
+   "uid": "WXy8DSVQ0DcUno5ccAM4ifjW4jn2",
+   "name": "YOUNESS"
+  },
+  {
+   "uid": "v6wYFsp31RQ4T73zUw7UYJJsCaw1",
+   "name": "SCOTT"
+  },
+  {
+   "name": "ALKHANSA",
+   "uid": "QfWwliaTN3YURPy9X7iXBHFV67z1"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALKHANSA",
+      "RAMYA",
+      "IZZY",
+      "YOUNESS",
+      "SCOTT"
+     ],
+     "team": [
+      "RAMYA",
+      "YOUNESS"
+     ],
+     "proposer": "RAMYA"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "RAMYA",
+    "YOUNESS"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "YOUNESS",
+    "SCOTT",
+    "ALKHANSA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "YOUNESS",
+      "SCOTT",
+      "ALKHANSA"
+     ],
+     "proposer": "IZZY",
+     "votes": [
+      "IZZY",
+      "SCOTT",
+      "ALKHANSA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "IZZY",
+      "SCOTT",
+      "ALKHANSA"
+     ],
+     "state": "APPROVED",
+     "proposer": "YOUNESS",
+     "team": [
+      "SCOTT",
+      "IZZY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "SCOTT",
+    "IZZY"
+   ],
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "RAMYA",
+      "YOUNESS",
+      "SCOTT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ALKHANSA",
+      "SCOTT"
+     ],
+     "proposer": "SCOTT"
+    },
+    {
+     "proposer": "ALKHANSA",
+     "state": "APPROVED",
+     "votes": [
+      "IZZY",
+      "YOUNESS",
+      "ALKHANSA",
+      "RAMYA"
+     ],
+     "team": [
+      "YOUNESS",
+      "IZZY",
+      "RAMYA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "YOUNESS",
+    "IZZY",
+    "RAMYA"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

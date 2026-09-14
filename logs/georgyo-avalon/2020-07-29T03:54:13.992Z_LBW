@@ -1,0 +1,265 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "LES"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KAROLINE"
+   },
+   {
+    "name": "LONG",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "CALEB",
+    "assassin": false
+   },
+   {
+    "name": "MINI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "JP",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "JINA",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "LONG": true,
+    "JP": true
+   },
+   {
+    "LONG": true,
+    "LES": false,
+    "JP": true
+   },
+   {
+    "MINI": true,
+    "LONG": true,
+    "LES": true
+   },
+   {
+    "LES": false,
+    "MINI": true,
+    "LONG": true,
+    "JINA": false
+   },
+   {
+    "KAROLINE": true,
+    "MINI": true,
+    "CALEB": false,
+    "JP": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "LES",
+   "uid": "OFOtJ6c1oSQXO3tSybBsrxlE6HA2"
+  },
+  {
+   "uid": "7aUliTr46oepOOspk2OMPNXEOe23",
+   "name": "JINA"
+  },
+  {
+   "name": "CALEB",
+   "uid": "fjQZGtOmRHVfbUPJfemn6Z6rzFk2"
+  },
+  {
+   "uid": "IeXICrMA62QT4cmrASLOZr1z2d63",
+   "name": "MINI"
+  },
+  {
+   "uid": "bnDN3aL0EOcwoRA2zQzFV0xa7r33",
+   "name": "KAROLINE"
+  },
+  {
+   "uid": "fkXAhd677lekXNAxDTRvyrb5V9c2",
+   "name": "LONG"
+  },
+  {
+   "name": "JP",
+   "uid": "aRRmRdicv9VnUCPGxBXVokC8VTs2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1595995616,
+  "_nanoseconds": 601000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JP",
+      "LONG"
+     ],
+     "votes": [
+      "LONG",
+      "JP",
+      "JINA",
+      "LES",
+      "KAROLINE"
+     ],
+     "proposer": "LONG"
+    }
+   ],
+   "team": [
+    "JP",
+    "LONG"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JP",
+     "team": [
+      "JP",
+      "LONG",
+      "LES"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LES",
+      "KAROLINE",
+      "LONG",
+      "JP",
+      "JINA"
+     ]
+    }
+   ],
+   "team": [
+    "JP",
+    "LONG",
+    "LES"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "LES",
+    "LONG",
+    "MINI"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LONG",
+      "MINI",
+      "JP",
+      "JINA",
+      "LES",
+      "KAROLINE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LES",
+      "LONG",
+      "MINI"
+     ],
+     "proposer": "LES"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "JINA",
+     "state": "APPROVED",
+     "team": [
+      "JINA",
+      "LES",
+      "MINI",
+      "LONG"
+     ],
+     "votes": [
+      "JINA",
+      "LES",
+      "KAROLINE",
+      "LONG",
+      "CALEB",
+      "MINI",
+      "JP"
+     ]
+    }
+   ],
+   "team": [
+    "JINA",
+    "LES",
+    "MINI",
+    "LONG"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CALEB",
+    "KAROLINE",
+    "JP",
+    "MINI"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "CALEB",
+      "MINI",
+      "JP",
+      "JINA",
+      "KAROLINE"
+     ],
+     "team": [
+      "CALEB",
+      "KAROLINE",
+      "JP",
+      "MINI"
+     ],
+     "proposer": "CALEB",
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595994853,
+  "_nanoseconds": 992000000
+ }
+}

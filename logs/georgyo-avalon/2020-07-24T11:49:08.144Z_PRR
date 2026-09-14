@@ -1,0 +1,434 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595591348,
+  "_nanoseconds": 144000000
+ },
+ "timeFinished": {
+  "_seconds": 1595595305,
+  "_nanoseconds": 290000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ABHISHEK": true,
+    "AKSHAY": true
+   },
+   {
+    "AKSHAY": true,
+    "ABHISHEK": true,
+    "KASHISH": false
+   },
+   {
+    "AKSHAY": true,
+    "NIKHILESH": true,
+    "ABHISHEK": true,
+    "ANUPAM": false
+   },
+   {
+    "VASUDHA": true,
+    "ABHISHEK": true,
+    "NIKHILESH": true
+   },
+   {
+    "ABHISHEK": true,
+    "VASUDHA": true,
+    "AKSHAY": true,
+    "NIKHILESH": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "KASHISH",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "AKSHAY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ABHISHEK",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "VASUDHA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "NIKHILESH",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "ANUPAM",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "AKSHAY",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ABHISHEK"
+     ],
+     "team": [
+      "VASUDHA",
+      "ABHISHEK"
+     ],
+     "proposer": "VASUDHA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ABHISHEK"
+     ],
+     "team": [
+      "ABHISHEK",
+      "NIKHILESH"
+     ],
+     "proposer": "ABHISHEK",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "NIKHILESH",
+     "state": "REJECTED",
+     "votes": [
+      "ABHISHEK"
+     ],
+     "team": [
+      "NIKHILESH",
+      "AKSHAY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "AKSHAY",
+     "votes": [
+      "KASHISH",
+      "AKSHAY",
+      "ABHISHEK",
+      "NIKHILESH"
+     ],
+     "team": [
+      "ABHISHEK",
+      "AKSHAY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ABHISHEK",
+    "AKSHAY"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "KASHISH",
+    "AKSHAY",
+    "ABHISHEK"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ABHISHEK",
+      "AKSHAY",
+      "NIKHILESH"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANUPAM",
+     "votes": [
+      "AKSHAY",
+      "NIKHILESH"
+     ]
+    },
+    {
+     "proposer": "KASHISH",
+     "state": "APPROVED",
+     "team": [
+      "KASHISH",
+      "AKSHAY",
+      "ABHISHEK"
+     ],
+     "votes": [
+      "NIKHILESH",
+      "ANUPAM",
+      "KASHISH",
+      "AKSHAY",
+      "ABHISHEK"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "VASUDHA",
+      "ANUPAM",
+      "KASHISH",
+      "NIKHILESH"
+     ],
+     "proposer": "VASUDHA",
+     "votes": [
+      "NIKHILESH"
+     ]
+    },
+    {
+     "proposer": "ABHISHEK",
+     "votes": [
+      "ANUPAM",
+      "ABHISHEK",
+      "VASUDHA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ABHISHEK",
+      "KASHISH",
+      "NIKHILESH",
+      "VASUDHA"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHILESH",
+      "ANUPAM"
+     ],
+     "team": [
+      "NIKHILESH",
+      "ANUPAM",
+      "VASUDHA",
+      "ABHISHEK"
+     ],
+     "proposer": "NIKHILESH",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "VASUDHA"
+     ],
+     "team": [
+      "AKSHAY",
+      "NIKHILESH",
+      "VASUDHA",
+      "KASHISH"
+     ],
+     "proposer": "AKSHAY"
+    },
+    {
+     "votes": [
+      "ANUPAM",
+      "KASHISH",
+      "AKSHAY",
+      "ABHISHEK",
+      "VASUDHA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANUPAM",
+      "AKSHAY",
+      "NIKHILESH",
+      "ABHISHEK"
+     ],
+     "proposer": "ANUPAM"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "ANUPAM",
+    "AKSHAY",
+    "NIKHILESH",
+    "ABHISHEK"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "VASUDHA",
+    "ABHISHEK",
+    "NIKHILESH"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "KASHISH",
+     "votes": [
+      "KASHISH",
+      "AKSHAY"
+     ],
+     "team": [
+      "KASHISH",
+      "VASUDHA",
+      "NIKHILESH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "VASUDHA",
+     "team": [
+      "VASUDHA",
+      "ABHISHEK",
+      "NIKHILESH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ABHISHEK",
+      "VASUDHA",
+      "NIKHILESH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AKSHAY",
+      "ABHISHEK",
+      "VASUDHA",
+      "NIKHILESH"
+     ],
+     "team": [
+      "VASUDHA",
+      "ABHISHEK",
+      "NIKHILESH"
+     ],
+     "proposer": "ABHISHEK"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "NIKHILESH",
+     "state": "REJECTED",
+     "votes": [
+      "NIKHILESH",
+      "ANUPAM"
+     ],
+     "team": [
+      "NIKHILESH",
+      "VASUDHA",
+      "ABHISHEK",
+      "ANUPAM"
+     ]
+    },
+    {
+     "team": [
+      "AKSHAY",
+      "NIKHILESH",
+      "ABHISHEK",
+      "VASUDHA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AKSHAY",
+      "ABHISHEK",
+      "VASUDHA"
+     ],
+     "proposer": "AKSHAY"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ANUPAM",
+     "votes": [
+      "NIKHILESH",
+      "ANUPAM"
+     ],
+     "team": [
+      "VASUDHA",
+      "ABHISHEK",
+      "NIKHILESH",
+      "ANUPAM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KASHISH",
+     "team": [
+      "KASHISH",
+      "VASUDHA",
+      "ABHISHEK",
+      "NIKHILESH"
+     ],
+     "votes": [
+      "KASHISH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "VASUDHA",
+     "team": [
+      "VASUDHA",
+      "ABHISHEK",
+      "AKSHAY",
+      "NIKHILESH"
+     ],
+     "votes": [
+      "AKSHAY",
+      "ABHISHEK",
+      "VASUDHA",
+      "NIKHILESH"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "VASUDHA",
+    "ABHISHEK",
+    "AKSHAY",
+    "NIKHILESH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS"
+  }
+ ],
+ "players": [
+  {
+   "name": "KASHISH",
+   "uid": "ezkresCUOxcI0xT59Ki4GWcscbC2"
+  },
+  {
+   "uid": "78cpBEZMvtT9P0jDikbkKU0SMwE3",
+   "name": "VASUDHA"
+  },
+  {
+   "uid": "oRjHoAQmXrYznCrTst5hEd8aYZ53",
+   "name": "ABHISHEK"
+  },
+  {
+   "name": "NIKHILESH",
+   "uid": "WoPVSxmGfBgbZZtRcE4AekOxpY92"
+  },
+  {
+   "uid": "9pgFFEOqjobVxckE9L06IDDdofy1",
+   "name": "AKSHAY"
+  },
+  {
+   "name": "ANUPAM",
+   "uid": "UVIW3Xca6pNZiB76E7V9snzsCzB2"
+  }
+ ]
+}

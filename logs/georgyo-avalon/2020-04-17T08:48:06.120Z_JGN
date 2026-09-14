@@ -1,0 +1,247 @@
+{
+ "players": [
+  {
+   "name": "CHI",
+   "uid": "XNxGKI06NeeZkxBLk5ZDYb90Rwa2"
+  },
+  {
+   "uid": "6j8x1t74EPT5HlGjlw6UlrH9vlD3",
+   "name": "JEFFREY"
+  },
+  {
+   "name": "PATTYWAP",
+   "uid": "chKjep3PXPVuXV2CNQHgkGJySZ33"
+  },
+  {
+   "name": "KENNI",
+   "uid": "go21W2md6kQ7I61bTByxqlRiaQF2"
+  },
+  {
+   "uid": "A3sdrABIXlaqNi8ombciYksTYeH3",
+   "name": "NUGGIES"
+  },
+  {
+   "name": "JOYCE",
+   "uid": "VuXwMC4Tg9ep9AAakEkxOHNFq2Z2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "KENNI"
+   },
+   {
+    "name": "CHI",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JEFFREY"
+   },
+   {
+    "name": "JOYCE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NUGGIES"
+   },
+   {
+    "name": "PATTYWAP",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "PATTYWAP",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "PATTYWAP": true,
+    "KENNI": true
+   },
+   {
+    "JOYCE": true,
+    "PATTYWAP": true,
+    "NUGGIES": true
+   },
+   {
+    "JOYCE": true,
+    "NUGGIES": true,
+    "CHI": false,
+    "PATTYWAP": true
+   },
+   {
+    "PATTYWAP": true,
+    "NUGGIES": true,
+    "KENNI": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587113647,
+  "_nanoseconds": 180623000
+ },
+ "timeCreated": {
+  "_seconds": 1587113286,
+  "_nanoseconds": 120000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KENNI",
+     "team": [
+      "KENNI",
+      "PATTYWAP"
+     ],
+     "votes": [
+      "JEFFREY",
+      "NUGGIES",
+      "PATTYWAP",
+      "KENNI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "KENNI",
+    "PATTYWAP"
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "NUGGIES",
+    "PATTYWAP",
+    "JOYCE"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "NUGGIES",
+     "state": "APPROVED",
+     "team": [
+      "NUGGIES",
+      "PATTYWAP",
+      "JOYCE"
+     ],
+     "votes": [
+      "JOYCE",
+      "NUGGIES",
+      "PATTYWAP",
+      "KENNI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "CHI",
+      "JEFFREY",
+      "JOYCE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KENNI",
+      "CHI",
+      "JOYCE",
+      "JEFFREY"
+     ],
+     "proposer": "JOYCE"
+    },
+    {
+     "proposer": "CHI",
+     "state": "APPROVED",
+     "team": [
+      "CHI",
+      "PATTYWAP",
+      "NUGGIES",
+      "JOYCE"
+     ],
+     "votes": [
+      "CHI",
+      "JOYCE",
+      "NUGGIES",
+      "PATTYWAP"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "CHI",
+    "PATTYWAP",
+    "NUGGIES",
+    "JOYCE"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "PATTYWAP",
+    "KENNI",
+    "NUGGIES"
+   ],
+   "proposals": [
+    {
+     "proposer": "JEFFREY",
+     "state": "REJECTED",
+     "votes": [
+      "CHI",
+      "JEFFREY"
+     ],
+     "team": [
+      "JEFFREY",
+      "KENNI",
+      "NUGGIES"
+     ]
+    },
+    {
+     "team": [
+      "PATTYWAP",
+      "KENNI",
+      "NUGGIES"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KENNI",
+      "JOYCE",
+      "NUGGIES",
+      "PATTYWAP"
+     ],
+     "proposer": "PATTYWAP"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

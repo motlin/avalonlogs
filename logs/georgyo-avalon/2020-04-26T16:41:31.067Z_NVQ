@@ -1,0 +1,202 @@
+{
+ "timeFinished": {
+  "_seconds": 1587919696,
+  "_nanoseconds": 238000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587919291,
+  "_nanoseconds": 67000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "INGRID"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "RAQUEL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DAV"
+   },
+   {
+    "name": "CRISTOBAL",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "BG",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "CRISTOBAL": true,
+    "RAQUEL": true
+   },
+   {
+    "INGRID": false,
+    "RAQUEL": true,
+    "CRISTOBAL": true
+   },
+   {
+    "DAV": true,
+    "BG": false
+   },
+   {
+    "DAV": true,
+    "CRISTOBAL": true,
+    "INGRID": false
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "l0XA87itdTOKPpftZYT4Rj90uI12",
+   "name": "BG"
+  },
+  {
+   "name": "INGRID",
+   "uid": "sgfS6fQlesNhO1pkz8oLzb2fwXv1"
+  },
+  {
+   "name": "RAQUEL",
+   "uid": "WIJ3fToPISRn4GKSyntIdjD6chf1"
+  },
+  {
+   "uid": "BZh3GONoFrRKSKibuULgUxirfM93",
+   "name": "DAV"
+  },
+  {
+   "name": "CRISTOBAL",
+   "uid": "peAQeku3K7fFc5evIpzZFzNKqXK2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "RAQUEL",
+      "CRISTOBAL"
+     ],
+     "state": "APPROVED",
+     "proposer": "INGRID",
+     "votes": [
+      "INGRID",
+      "RAQUEL",
+      "CRISTOBAL",
+      "BG"
+     ]
+    }
+   ],
+   "team": [
+    "RAQUEL",
+    "CRISTOBAL"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "RAQUEL",
+    "CRISTOBAL",
+    "INGRID"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "INGRID",
+      "RAQUEL",
+      "BG"
+     ],
+     "proposer": "RAQUEL",
+     "state": "APPROVED",
+     "team": [
+      "RAQUEL",
+      "CRISTOBAL",
+      "INGRID"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "INGRID",
+      "DAV",
+      "CRISTOBAL",
+      "BG"
+     ],
+     "proposer": "DAV",
+     "state": "APPROVED",
+     "team": [
+      "BG",
+      "DAV"
+     ]
+    }
+   ],
+   "team": [
+    "BG",
+    "DAV"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "INGRID",
+      "CRISTOBAL",
+      "BG"
+     ],
+     "proposer": "CRISTOBAL",
+     "team": [
+      "DAV",
+      "INGRID",
+      "CRISTOBAL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "DAV",
+    "INGRID",
+    "CRISTOBAL"
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING"
+  }
+ ]
+}

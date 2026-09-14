@@ -1,0 +1,305 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "LUKE": true,
+    "YAMIN": false
+   },
+   {
+    "BLAKE": true,
+    "LUCAS": true,
+    "HAELIN": true
+   },
+   {
+    "LUCAS": true,
+    "HAELIN": true
+   },
+   {
+    "HAELIN": true,
+    "BLAKE": true,
+    "LUCAS": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "BLAKE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HAELIN",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "LUCAS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "YAMIN",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "name": "LUKE",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "HAELIN"
+ },
+ "players": [
+  {
+   "name": "YAMIN",
+   "uid": "ZfYkRxOjOueo9q2aiXdkO1Z47QI2"
+  },
+  {
+   "uid": "lv14MbnawpVMhMSTONQv4icOU4O2",
+   "name": "HAELIN"
+  },
+  {
+   "uid": "f46eNuDGPWZGJZmXEEouqQL5fP63",
+   "name": "LUKE"
+  },
+  {
+   "uid": "DAFFA27l52RNY3pnYCeHqx2Dnv33",
+   "name": "LUCAS"
+  },
+  {
+   "uid": "GGDUXKz8G5aRQbedwCH3K1p9uK62",
+   "name": "BLAKE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587941141,
+  "_nanoseconds": 279000000
+ },
+ "timeFinished": {
+  "_seconds": 1587942741,
+  "_nanoseconds": 500000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "LUKE",
+    "YAMIN"
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "HAELIN",
+      "BLAKE"
+     ],
+     "votes": [
+      "HAELIN"
+     ],
+     "proposer": "HAELIN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LUKE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LUKE",
+      "BLAKE"
+     ],
+     "proposer": "LUKE"
+    },
+    {
+     "proposer": "LUCAS",
+     "votes": [
+      "BLAKE",
+      "LUCAS"
+     ],
+     "team": [
+      "LUCAS",
+      "BLAKE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "BLAKE",
+     "votes": [
+      "BLAKE"
+     ],
+     "team": [
+      "BLAKE",
+      "HAELIN"
+     ]
+    },
+    {
+     "team": [
+      "LUKE",
+      "YAMIN"
+     ],
+     "proposer": "YAMIN",
+     "state": "APPROVED",
+     "votes": [
+      "YAMIN",
+      "LUKE",
+      "BLAKE",
+      "HAELIN"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "BLAKE",
+    "HAELIN",
+    "LUCAS"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "YAMIN",
+      "HAELIN"
+     ],
+     "proposer": "HAELIN",
+     "team": [
+      "HAELIN",
+      "BLAKE",
+      "YAMIN"
+     ]
+    },
+    {
+     "team": [
+      "BLAKE",
+      "HAELIN",
+      "LUKE"
+     ],
+     "votes": [
+      "LUKE"
+     ],
+     "state": "REJECTED",
+     "proposer": "LUKE"
+    },
+    {
+     "votes": [
+      "LUCAS",
+      "YAMIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LUCAS",
+      "YAMIN",
+      "BLAKE"
+     ],
+     "proposer": "LUCAS"
+    },
+    {
+     "votes": [
+      "BLAKE",
+      "HAELIN",
+      "LUCAS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BLAKE",
+      "HAELIN",
+      "LUCAS"
+     ],
+     "proposer": "BLAKE"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "HAELIN",
+    "LUCAS"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "YAMIN",
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "LUKE",
+      "YAMIN"
+     ]
+    },
+    {
+     "votes": [
+      "LUCAS",
+      "BLAKE",
+      "HAELIN"
+     ],
+     "proposer": "HAELIN",
+     "state": "APPROVED",
+     "team": [
+      "HAELIN",
+      "LUCAS"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "LUKE",
+      "LUCAS",
+      "BLAKE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "LUKE"
+     ],
+     "proposer": "LUKE"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LUCAS",
+     "team": [
+      "BLAKE",
+      "LUCAS",
+      "HAELIN"
+     ],
+     "votes": [
+      "BLAKE",
+      "HAELIN",
+      "LUCAS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "BLAKE",
+    "LUCAS",
+    "HAELIN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

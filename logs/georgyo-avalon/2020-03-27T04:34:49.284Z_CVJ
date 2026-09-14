@@ -1,0 +1,313 @@
+{
+ "players": [
+  {
+   "uid": "PlEBlfwxSKZ1x2YEpihFok7rMOm1",
+   "name": "JENNI"
+  },
+  {
+   "uid": "rwxrDYeDuiYjINNm3SCMZRUWpeU2",
+   "name": "JORHAY"
+  },
+  {
+   "uid": "7Zbw3Fyw26dNLwaNvtIBTe37HK02",
+   "name": "MARK"
+  },
+  {
+   "name": "MATTHEWK",
+   "uid": "lhECBNJH1WfvFPsb19Z41tWGiVo1"
+  },
+  {
+   "name": "NORA",
+   "uid": "avABFujPf8esZOYphSM8amuwR6I3"
+  },
+  {
+   "uid": "IydPaEw2PucsOaGXVQu6fJnsl3x2",
+   "name": "REB"
+  },
+  {
+   "uid": "xxVP4OUZHKfr013S3FC7uL4HXGg1",
+   "name": "RYAN"
+  },
+  {
+   "uid": "ous2PhtDa9M5frZN56me1GzAtTS2",
+   "name": "SHERRON"
+  },
+  {
+   "uid": "VPUVX212e6Y3jl7OJN86VhyWZZt1",
+   "name": "AWWSTIN"
+  },
+  {
+   "uid": "trXHFI9WSGbyXIIYDyGT9sVH7zD2",
+   "name": "ROHAN"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JENNI": true,
+    "JORHAY": true,
+    "ROHAN": true
+   },
+   {
+    "JENNI": true,
+    "MARK": true,
+    "JORHAY": true,
+    "ROHAN": true
+   },
+   {
+    "MATTHEWK": false,
+    "SHERRON": true,
+    "AWWSTIN": true,
+    "RYAN": true
+   },
+   {
+    "JENNI": false,
+    "NORA": false,
+    "JORHAY": true,
+    "AWWSTIN": true,
+    "ROHAN": true
+   },
+   {
+    "SHERRON": true,
+    "ROHAN": true,
+    "MATTHEWK": false,
+    "REB": true,
+    "MARK": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "REB"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RYAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ROHAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AWWSTIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "MATTHEWK"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JENNI",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SHERRON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "NORA"
+   },
+   {
+    "name": "MARK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JORHAY",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1585284494,
+  "_nanoseconds": 393139000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "JORHAY",
+    "JENNI",
+    "ROHAN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JORHAY",
+      "JENNI",
+      "ROHAN"
+     ],
+     "proposer": "JORHAY",
+     "votes": [
+      "MARK",
+      "JORHAY",
+      "REB",
+      "RYAN",
+      "ROHAN",
+      "AWWSTIN",
+      "JENNI",
+      "SHERRON",
+      "NORA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MARK",
+      "JORHAY",
+      "JENNI",
+      "ROHAN"
+     ],
+     "proposer": "MARK",
+     "votes": [
+      "JORHAY",
+      "REB",
+      "RYAN",
+      "ROHAN",
+      "AWWSTIN",
+      "JENNI",
+      "NORA",
+      "MARK"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MARK",
+    "JORHAY",
+    "JENNI",
+    "ROHAN"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "RYAN",
+    "AWWSTIN",
+    "MATTHEWK",
+    "SHERRON"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MATTHEWK",
+     "state": "APPROVED",
+     "votes": [
+      "MARK",
+      "JORHAY",
+      "REB",
+      "RYAN",
+      "AWWSTIN",
+      "MATTHEWK",
+      "NORA"
+     ],
+     "team": [
+      "RYAN",
+      "AWWSTIN",
+      "MATTHEWK",
+      "SHERRON"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "NORA",
+     "votes": [
+      "RYAN",
+      "ROHAN",
+      "AWWSTIN",
+      "JENNI",
+      "NORA",
+      "JORHAY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NORA",
+      "ROHAN",
+      "AWWSTIN",
+      "JENNI",
+      "JORHAY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 5,
+   "team": [
+    "NORA",
+    "ROHAN",
+    "AWWSTIN",
+    "JENNI",
+    "JORHAY"
+   ]
+  },
+  {
+   "team": [
+    "REB",
+    "SHERRON",
+    "ROHAN",
+    "MATTHEWK",
+    "MARK"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "REB",
+      "SHERRON",
+      "ROHAN",
+      "MATTHEWK",
+      "MARK"
+     ],
+     "state": "APPROVED",
+     "proposer": "REB",
+     "votes": [
+      "ROHAN",
+      "AWWSTIN",
+      "MATTHEWK",
+      "SHERRON",
+      "NORA",
+      "MARK",
+      "REB"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 5
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585283689,
+  "_nanoseconds": 284000000
+ }
+}

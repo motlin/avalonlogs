@@ -1,0 +1,290 @@
+{
+ "timeCreated": {
+  "_seconds": 1590788767,
+  "_nanoseconds": 203000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "LUKEY": true,
+    "JUSTIN": true
+   },
+   {
+    "THOMAS": false,
+    "LUKEY": true,
+    "JUSTIN": true
+   },
+   {
+    "THOMAS": false,
+    "DAN": true
+   },
+   {
+    "JUSTIN": true,
+    "DAN": true,
+    "LUKEY": true
+   },
+   {
+    "LUKEY": true,
+    "JUSTIN": true,
+    "DAN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "THOMAS",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "TOBTOBYLAN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "DAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JUSTIN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "LUKEY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "LUKEY",
+  "state": "GOOD_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1590789741,
+  "_nanoseconds": 190000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "VD2VTw5pHRWMr8KHYi0jHvMpHT32",
+   "name": "DAN"
+  },
+  {
+   "name": "THOMAS",
+   "uid": "FTJfpMSSplbSLFu0OFsvfLwHh7T2"
+  },
+  {
+   "name": "LUKEY",
+   "uid": "4mxTxDSNupbVvTGvDWy862wECTY2"
+  },
+  {
+   "uid": "T3Ga55XAbxW3vLIKBPnQpapHfe73",
+   "name": "JUSTIN"
+  },
+  {
+   "name": "TOBTOBYLAN",
+   "uid": "XGCiA3l2aWPzzp1yXyvyozObdxE3"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LUKEY",
+      "JUSTIN"
+     ],
+     "votes": [
+      "TOBTOBYLAN",
+      "JUSTIN",
+      "LUKEY"
+     ],
+     "proposer": "JUSTIN"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "LUKEY",
+    "JUSTIN"
+   ]
+  },
+  {
+   "team": [
+    "LUKEY",
+    "THOMAS",
+    "JUSTIN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "TOBTOBYLAN",
+     "votes": [
+      "THOMAS",
+      "TOBTOBYLAN",
+      "JUSTIN",
+      "LUKEY"
+     ],
+     "team": [
+      "LUKEY",
+      "THOMAS",
+      "JUSTIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DAN",
+     "votes": [
+      "TOBTOBYLAN",
+      "DAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DAN",
+      "THOMAS"
+     ]
+    },
+    {
+     "team": [
+      "JUSTIN",
+      "THOMAS"
+     ],
+     "proposer": "THOMAS",
+     "state": "REJECTED",
+     "votes": [
+      "THOMAS",
+      "TOBTOBYLAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "THOMAS",
+      "DAN"
+     ],
+     "proposer": "LUKEY",
+     "votes": [
+      "TOBTOBYLAN",
+      "DAN",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "THOMAS",
+    "DAN"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JUSTIN",
+    "LUKEY",
+    "DAN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JUSTIN",
+     "votes": [
+      "DAN",
+      "JUSTIN",
+      "LUKEY"
+     ],
+     "team": [
+      "JUSTIN",
+      "LUKEY",
+      "DAN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "DAN",
+    "LUKEY",
+    "JUSTIN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "THOMAS",
+      "TOBTOBYLAN"
+     ],
+     "team": [
+      "LUKEY",
+      "JUSTIN",
+      "TOBTOBYLAN"
+     ],
+     "proposer": "TOBTOBYLAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "DAN",
+      "JUSTIN"
+     ],
+     "proposer": "DAN",
+     "state": "REJECTED",
+     "team": [
+      "DAN",
+      "LUKEY",
+      "JUSTIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LUKEY",
+      "JUSTIN",
+      "TOBTOBYLAN"
+     ],
+     "proposer": "THOMAS",
+     "votes": [
+      "THOMAS",
+      "TOBTOBYLAN"
+     ]
+    },
+    {
+     "proposer": "LUKEY",
+     "team": [
+      "DAN",
+      "LUKEY",
+      "JUSTIN"
+     ],
+     "votes": [
+      "DAN",
+      "JUSTIN",
+      "LUKEY",
+      "THOMAS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  }
+ ]
+}

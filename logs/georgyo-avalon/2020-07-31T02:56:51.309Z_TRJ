@@ -1,0 +1,236 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NASTY",
+    "assassin": false
+   },
+   {
+    "name": "NUJNOW",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SOON",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "DDDD",
+    "assassin": false
+   },
+   {
+    "name": "YUL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "POTATO",
+    "role": "MORDRED"
+   }
+  ],
+  "assassinated": "DDDD",
+  "votes": [
+   {
+    "NASTY": true,
+    "NUJNOW": true
+   },
+   {
+    "NUJNOW": true,
+    "YUL": true,
+    "NASTY": true
+   },
+   {
+    "NUJNOW": true,
+    "YUL": true,
+    "POTATO": false,
+    "NASTY": true
+   },
+   {
+    "NUJNOW": true,
+    "YUL": true,
+    "NASTY": true
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "NUJNOW",
+    "NASTY"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NUJNOW",
+     "votes": [
+      "POTATO",
+      "YUL",
+      "NUJNOW",
+      "NASTY",
+      "SOON",
+      "DDDD"
+     ],
+     "team": [
+      "NUJNOW",
+      "NASTY"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "YUL",
+     "team": [
+      "YUL",
+      "NASTY",
+      "NUJNOW"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "POTATO",
+      "SOON",
+      "DDDD",
+      "NASTY",
+      "NUJNOW",
+      "YUL"
+     ]
+    }
+   ],
+   "team": [
+    "YUL",
+    "NASTY",
+    "NUJNOW"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "POTATO",
+    "NUJNOW",
+    "NASTY",
+    "YUL"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "POTATO",
+      "NUJNOW",
+      "NASTY",
+      "YUL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NASTY",
+      "DDDD",
+      "YUL",
+      "NUJNOW"
+     ],
+     "proposer": "POTATO"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "NASTY",
+    "NUJNOW",
+    "YUL"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "DDDD",
+      "NASTY",
+      "SOON"
+     ],
+     "votes": [
+      "POTATO"
+     ],
+     "state": "REJECTED",
+     "proposer": "DDDD"
+    },
+    {
+     "proposer": "SOON",
+     "team": [
+      "NASTY",
+      "NUJNOW",
+      "YUL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SOON",
+      "NASTY",
+      "NUJNOW",
+      "YUL",
+      "DDDD"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "YUL",
+   "uid": "YQqi8jMZ2ORvDbjAS0Lp4AxHOt92"
+  },
+  {
+   "uid": "1FwARpaQA1d1SjKnetNyTT4wD0g1",
+   "name": "POTATO"
+  },
+  {
+   "name": "DDDD",
+   "uid": "XePRcW3nqrRl0XeL3QwaWD2CjDA3"
+  },
+  {
+   "uid": "edi1OD1378cTGcAkJRqghVeLwZu1",
+   "name": "SOON"
+  },
+  {
+   "name": "NASTY",
+   "uid": "HlVcnl0kEhc3QQXt9d1tV9my6852"
+  },
+  {
+   "uid": "02wyBYZKx7YqMVvFjukM78VVdtc2",
+   "name": "NUJNOW"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596164211,
+  "_nanoseconds": 309000000
+ },
+ "timeFinished": {
+  "_seconds": 1596164679,
+  "_nanoseconds": 79000000
+ }
+}

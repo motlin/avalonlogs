@@ -1,0 +1,261 @@
+{
+ "timeFinished": {
+  "_seconds": 1585964931,
+  "_nanoseconds": 283036000
+ },
+ "players": [
+  {
+   "uid": "tnKWkdR2l9Ssv2SbB4Jl1jfvNRs2",
+   "name": "NICHOLAS"
+  },
+  {
+   "name": "SAM",
+   "uid": "IgHTN0zhTSdrSy8UQIShbS1qtFc2"
+  },
+  {
+   "uid": "PNxYt83wKtVYPSb6hzjb1fAv0O12",
+   "name": "THOMSON"
+  },
+  {
+   "name": "ASTON",
+   "uid": "thARYbsF0PeTuXlQmJvWTyMFTCv1"
+  },
+  {
+   "uid": "4PnUv7JxoPhtyYMLhxGnwWGUylB2",
+   "name": "EDISON"
+  },
+  {
+   "name": "ETHAN",
+   "uid": "NiPctZkYl4NfERf1jQREzCS9l6q2"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "3ag3hq2fJhcP47haVWoQJessYnd2"
+  },
+  {
+   "name": "ERIC",
+   "uid": "ytbxQNtBOBMNJP1sIXwVxnOuQlE2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585964522,
+  "_nanoseconds": 313000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "THOMSON",
+  "votes": [
+   {
+    "NICHOLAS": true,
+    "ETHAN": true,
+    "THOMSON": true
+   },
+   {
+    "NICHOLAS": false,
+    "THOMSON": true,
+    "ETHAN": true,
+    "ASTON": true
+   },
+   {
+    "SAM": true,
+    "EDISON": true,
+    "ETHAN": true,
+    "THOMSON": true
+   },
+   {
+    "SAM": true,
+    "ETHAN": true,
+    "EDISON": true,
+    "NICHOLAS": false,
+    "THOMSON": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ETHAN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "NICHOLAS"
+   },
+   {
+    "name": "ASTON",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "ERIC"
+   },
+   {
+    "assassin": false,
+    "name": "EDISON",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "ADRIAN",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SAM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "THOMSON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "THOMSON",
+    "NICHOLAS",
+    "ETHAN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "THOMSON",
+      "NICHOLAS",
+      "ETHAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "THOMSON",
+     "votes": [
+      "SAM",
+      "THOMSON",
+      "ETHAN",
+      "NICHOLAS",
+      "ASTON",
+      "ERIC",
+      "EDISON",
+      "ADRIAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "THOMSON",
+    "NICHOLAS",
+    "ETHAN",
+    "ASTON"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ETHAN",
+      "NICHOLAS",
+      "ASTON",
+      "ERIC",
+      "EDISON",
+      "ADRIAN",
+      "SAM",
+      "THOMSON"
+     ],
+     "proposer": "ASTON",
+     "state": "APPROVED",
+     "team": [
+      "THOMSON",
+      "NICHOLAS",
+      "ETHAN",
+      "ASTON"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ETHAN",
+      "NICHOLAS",
+      "ASTON",
+      "ERIC",
+      "EDISON",
+      "ADRIAN",
+      "SAM",
+      "THOMSON"
+     ],
+     "proposer": "EDISON",
+     "team": [
+      "SAM",
+      "EDISON",
+      "ETHAN",
+      "THOMSON"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "SAM",
+    "EDISON",
+    "ETHAN",
+    "THOMSON"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SAM",
+      "THOMSON",
+      "ETHAN",
+      "ASTON",
+      "ERIC",
+      "EDISON",
+      "ADRIAN"
+     ],
+     "proposer": "ETHAN",
+     "state": "APPROVED",
+     "team": [
+      "ETHAN",
+      "EDISON",
+      "THOMSON",
+      "SAM",
+      "NICHOLAS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ETHAN",
+    "EDISON",
+    "THOMSON",
+    "SAM",
+    "NICHOLAS"
+   ],
+   "teamSize": 5,
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": []
+  }
+ ]
+}

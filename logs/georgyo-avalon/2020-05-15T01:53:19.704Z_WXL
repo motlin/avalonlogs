@@ -1,0 +1,204 @@
+{
+ "players": [
+  {
+   "uid": "LVbpE4rgG6VpurSnLqo6X1Mb9cI3",
+   "name": "CHELSEA"
+  },
+  {
+   "name": "ELANA",
+   "uid": "jMLNaUGNSLSVE4ugqUkJdRAMhoq1"
+  },
+  {
+   "name": "KOURTNEY",
+   "uid": "23r6zvyNvXW3jMZdokENwS6ucOI2"
+  },
+  {
+   "name": "IAN",
+   "uid": "vhIlK1cXkPdTZkwkZUNII0sU8ro1"
+  },
+  {
+   "name": "DANNYG",
+   "uid": "iQusGVO56Xdpr6VN53244OYcYYw2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589507599,
+  "_nanoseconds": 704000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHELSEA",
+    "assassin": false
+   },
+   {
+    "name": "ELANA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "IAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KOURTNEY",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DANNYG",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "ELANA": true,
+    "KOURTNEY": false
+   },
+   {
+    "DANNYG": false,
+    "ELANA": true,
+    "IAN": true
+   },
+   {
+    "CHELSEA": true,
+    "ELANA": true
+   },
+   {
+    "DANNYG": false,
+    "IAN": true,
+    "CHELSEA": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1589508155,
+  "_nanoseconds": 955000000
+ },
+ "missions": [
+  {
+   "team": [
+    "KOURTNEY",
+    "ELANA"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "KOURTNEY",
+     "team": [
+      "KOURTNEY",
+      "ELANA"
+     ],
+     "votes": [
+      "CHELSEA",
+      "ELANA",
+      "KOURTNEY",
+      "DANNYG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DANNYG",
+      "IAN",
+      "ELANA"
+     ],
+     "votes": [
+      "CHELSEA",
+      "ELANA",
+      "IAN",
+      "KOURTNEY",
+      "DANNYG"
+     ],
+     "proposer": "IAN"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DANNYG",
+    "IAN",
+    "ELANA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ELANA",
+    "CHELSEA"
+   ],
+   "proposals": [
+    {
+     "proposer": "DANNYG",
+     "state": "APPROVED",
+     "votes": [
+      "ELANA",
+      "KOURTNEY",
+      "DANNYG"
+     ],
+     "team": [
+      "ELANA",
+      "CHELSEA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHELSEA",
+      "IAN",
+      "KOURTNEY",
+      "DANNYG"
+     ],
+     "proposer": "CHELSEA",
+     "team": [
+      "CHELSEA",
+      "IAN",
+      "DANNYG"
+     ]
+    }
+   ],
+   "team": [
+    "CHELSEA",
+    "IAN",
+    "DANNYG"
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "timeFinished": {
+  "_seconds": 1586546988,
+  "_nanoseconds": 638991000
+ },
+ "timeCreated": {
+  "_seconds": 1586545917,
+  "_nanoseconds": 311000000
+ },
+ "players": [
+  {
+   "uid": "3m1mQQqUU4S2xSIFI2ogTTku6ss1",
+   "name": "SARAH"
+  },
+  {
+   "uid": "OewWMpsmUNftybNbKze8SBZ37Q23",
+   "name": "SOPHEY"
+  },
+  {
+   "name": "ANGELL",
+   "uid": "WRDiYfqIoLZLeBm3wOolbmfpFQj1"
+  },
+  {
+   "uid": "SL1SWGfGKgbFR5j9EY8ACpZJ0pK2",
+   "name": "ALISHA"
+  },
+  {
+   "name": "CHRISTINE",
+   "uid": "GI3sRgKFRINiMosJ2UoqcE9kFZo2"
+  },
+  {
+   "uid": "J3hAZOqqamSBKfohMPcIXLSaQLj1",
+   "name": "JUN"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "SARAH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SOPHEY"
+   },
+   {
+    "name": "JUN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "CHRISTINE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "ANGELL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ALISHA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SOPHEY": true,
+    "JUN": true
+   },
+   {
+    "ANGELL": true,
+    "SARAH": false,
+    "ALISHA": true
+   },
+   {
+    "ALISHA": true,
+    "SOPHEY": true,
+    "SARAH": true,
+    "JUN": true
+   },
+   {
+    "SOPHEY": true,
+    "SARAH": false,
+    "ALISHA": true
+   },
+   {
+    "ALISHA": true,
+    "CHRISTINE": true,
+    "JUN": true,
+    "SOPHEY": true
+   }
+  ],
+  "assassinated": "CHRISTINE"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JUN",
+      "SOPHEY"
+     ],
+     "proposer": "JUN",
+     "votes": [
+      "SARAH",
+      "SOPHEY",
+      "JUN",
+      "CHRISTINE",
+      "ANGELL",
+      "ALISHA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JUN",
+    "SOPHEY"
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "SARAH",
+    "ANGELL",
+    "ALISHA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SARAH",
+      "SOPHEY",
+      "JUN",
+      "CHRISTINE",
+      "ANGELL",
+      "ALISHA"
+     ],
+     "team": [
+      "SARAH",
+      "ANGELL",
+      "ALISHA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SARAH"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SOPHEY",
+      "CHRISTINE",
+      "ALISHA",
+      "SARAH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SARAH",
+      "SOPHEY",
+      "ALISHA",
+      "JUN"
+     ],
+     "proposer": "SOPHEY"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "SARAH",
+    "SOPHEY",
+    "ALISHA",
+    "JUN"
+   ],
+   "teamSize": 4
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ANGELL",
+     "state": "REJECTED",
+     "votes": [
+      "ANGELL"
+     ],
+     "team": [
+      "ANGELL",
+      "SARAH",
+      "SOPHEY"
+     ]
+    },
+    {
+     "votes": [
+      "SARAH",
+      "SOPHEY",
+      "JUN",
+      "ALISHA"
+     ],
+     "proposer": "ALISHA",
+     "state": "APPROVED",
+     "team": [
+      "ALISHA",
+      "SOPHEY",
+      "SARAH"
+     ]
+    }
+   ],
+   "team": [
+    "ALISHA",
+    "SOPHEY",
+    "SARAH"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "CHRISTINE",
+    "JUN",
+    "SOPHEY",
+    "ALISHA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHRISTINE",
+      "JUN",
+      "SOPHEY",
+      "ALISHA"
+     ],
+     "proposer": "CHRISTINE",
+     "votes": [
+      "SOPHEY",
+      "JUN",
+      "CHRISTINE",
+      "ALISHA"
+     ]
+    }
+   ]
+  }
+ ]
+}

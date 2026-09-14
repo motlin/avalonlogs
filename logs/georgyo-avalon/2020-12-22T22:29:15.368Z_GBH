@@ -1,0 +1,248 @@
+{
+ "players": [
+  {
+   "uid": "1QHNmnCh5XWRBsZ8WC4eK1Yks8z2",
+   "name": "DAN"
+  },
+  {
+   "name": "CAIT",
+   "uid": "zFgbJkafhNPwxAMigXDkTlod2hq2"
+  },
+  {
+   "name": "ADAM",
+   "uid": "amDZEk7XcIcJNj7XNfuaiouxtZf2"
+  },
+  {
+   "name": "HARRY",
+   "uid": "pJNFF36TyieHcD1f3eaORFZzmZ13"
+  },
+  {
+   "name": "LUCYMAS",
+   "uid": "laUICzvlYYhxEXhKoUaxoov5Jzw1"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "CtkVRC1bksZ52XRUDENVitsv3in2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ADAM",
+      "CAIT",
+      "DAN",
+      "HARRY",
+      "LUCYMAS"
+     ],
+     "proposer": "CAIT",
+     "state": "APPROVED",
+     "team": [
+      "CAIT",
+      "LUCYMAS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "CAIT",
+    "LUCYMAS"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ADAM",
+      "HARRY",
+      "DAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "HARRY",
+      "ADAM",
+      "CAIT"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "proposer": "HARRY",
+     "state": "APPROVED",
+     "votes": [
+      "CAIT",
+      "LUCYMAS",
+      "ADAM",
+      "HARRY"
+     ],
+     "team": [
+      "HARRY",
+      "ADAM",
+      "CAIT"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "HARRY",
+    "ADAM",
+    "CAIT"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LUCYMAS",
+      "HARRY",
+      "ADAM",
+      "CAIT"
+     ],
+     "proposer": "LUCYMAS",
+     "team": [
+      "LUCYMAS",
+      "HARRY",
+      "ADAM",
+      "CAIT"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "LUCYMAS",
+    "HARRY",
+    "ADAM",
+    "CAIT"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "DAN",
+    "CAIT",
+    "ADAM"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DANIEL",
+     "votes": [
+      "DANIEL",
+      "LUCYMAS"
+     ],
+     "team": [
+      "ADAM",
+      "HARRY",
+      "LUCYMAS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ADAM",
+      "CAIT",
+      "LUCYMAS",
+      "DAN",
+      "HARRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "DAN",
+     "team": [
+      "DAN",
+      "CAIT",
+      "ADAM"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1608676155,
+  "_nanoseconds": 368000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "LUCYMAS": true,
+    "CAIT": true
+   },
+   {
+    "ADAM": true,
+    "CAIT": true,
+    "HARRY": true
+   },
+   {
+    "LUCYMAS": false,
+    "ADAM": true,
+    "HARRY": true,
+    "CAIT": true
+   },
+   {
+    "ADAM": true,
+    "DAN": true,
+    "CAIT": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ADAM"
+   },
+   {
+    "name": "DANIEL",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "LUCYMAS"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DAN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "HARRY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CAIT",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "DAN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1608676773,
+  "_nanoseconds": 456000000
+ }
+}

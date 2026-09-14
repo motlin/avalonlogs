@@ -1,0 +1,223 @@
+{
+ "timeFinished": {
+  "_seconds": 1590180073,
+  "_nanoseconds": 576000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "BURT",
+  "votes": [
+   {
+    "MARTHA": true,
+    "IMELDA": true
+   },
+   {
+    "EDWIN": true,
+    "FLOTOM": true,
+    "MARTHA": false
+   },
+   {
+    "EDWIN": true,
+    "FLOTOM": true,
+    "IMELDA": true,
+    "BURT": true
+   },
+   {
+    "FLOTOM": true,
+    "BURT": true,
+    "IMELDA": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "EDWIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MRSKENDALL"
+   },
+   {
+    "name": "IMELDA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BURT",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "name": "MARTHA",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "FLOTOM",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1590179287,
+  "_nanoseconds": 734000000
+ },
+ "players": [
+  {
+   "uid": "O5tG971UGMYriQKoqf66MII5S0k1",
+   "name": "BURT"
+  },
+  {
+   "name": "MARTHA",
+   "uid": "bqNTCPuwsnY6a4ZtYaoCaCvvFR22"
+  },
+  {
+   "uid": "tkS5ZRVKkAZtD56N3kKv5jWnmfL2",
+   "name": "FLOTOM"
+  },
+  {
+   "name": "EDWIN",
+   "uid": "IRqU1AU1BWRD3VYLdS9mQAl9Los2"
+  },
+  {
+   "name": "MRSKENDALL",
+   "uid": "8zeT2Kr9pHeehrSjpnZa5kWkJM32"
+  },
+  {
+   "name": "IMELDA",
+   "uid": "go7Ty4TWPGQ70BlL3fpZmSCT0t32"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "MARTHA",
+    "IMELDA"
+   ],
+   "proposals": [
+    {
+     "proposer": "MARTHA",
+     "state": "APPROVED",
+     "votes": [
+      "EDWIN",
+      "MRSKENDALL",
+      "IMELDA",
+      "BURT",
+      "MARTHA",
+      "FLOTOM"
+     ],
+     "team": [
+      "MARTHA",
+      "IMELDA"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "FLOTOM",
+    "MARTHA",
+    "EDWIN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EDWIN",
+      "MRSKENDALL",
+      "BURT",
+      "MARTHA",
+      "FLOTOM"
+     ],
+     "proposer": "FLOTOM",
+     "team": [
+      "FLOTOM",
+      "MARTHA",
+      "EDWIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "FLOTOM",
+      "BURT",
+      "EDWIN",
+      "IMELDA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "IMELDA",
+      "BURT",
+      "FLOTOM",
+      "EDWIN"
+     ],
+     "proposer": "EDWIN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "FLOTOM",
+    "BURT",
+    "EDWIN",
+    "IMELDA"
+   ],
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "IMELDA",
+    "FLOTOM",
+    "BURT"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MRSKENDALL",
+     "votes": [
+      "BURT",
+      "FLOTOM",
+      "EDWIN",
+      "MRSKENDALL",
+      "IMELDA"
+     ],
+     "team": [
+      "IMELDA",
+      "FLOTOM",
+      "BURT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ]
+}

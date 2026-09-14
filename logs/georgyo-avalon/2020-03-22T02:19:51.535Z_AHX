@@ -1,0 +1,342 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "LEEEEEE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JASON"
+   },
+   {
+    "name": "KAY",
+    "role": "MORGANA",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "DELANEY"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "BARRETT"
+   },
+   {
+    "name": "DYLAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "TRACE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LUKE",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "NOTJASON",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "DYLAN": true,
+    "BARRETT": true,
+    "KAY": true
+   },
+   {
+    "BARRETT": true,
+    "JASON": true,
+    "DYLAN": true,
+    "KAY": false
+   },
+   {
+    "LEEEEEE": true,
+    "NOTJASON": true,
+    "LUKE": true,
+    "BARRETT": true
+   },
+   {
+    "BARRETT": false,
+    "LEEEEEE": false,
+    "DELANEY": true,
+    "NOTJASON": true,
+    "LUKE": true
+   },
+   {
+    "DELANEY": true,
+    "DYLAN": true,
+    "TRACE": true,
+    "NOTJASON": true,
+    "LEEEEEE": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "DYLAN",
+    "KAY",
+    "BARRETT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "DYLAN",
+      "KAY",
+      "BARRETT"
+     ],
+     "proposer": "JASON",
+     "state": "APPROVED",
+     "votes": [
+      "LUKE",
+      "LEEEEEE",
+      "JASON",
+      "KAY",
+      "DELANEY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "DYLAN",
+    "KAY",
+    "BARRETT",
+    "JASON"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KAY",
+      "BARRETT",
+      "NOTJASON",
+      "LEEEEEE"
+     ],
+     "proposer": "NOTJASON",
+     "team": [
+      "NOTJASON",
+      "LUKE",
+      "LEEEEEE",
+      "BARRETT"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "DYLAN",
+      "KAY",
+      "BARRETT",
+      "JASON"
+     ],
+     "votes": [
+      "LEEEEEE",
+      "JASON",
+      "KAY",
+      "DYLAN",
+      "LUKE"
+     ],
+     "proposer": "DYLAN"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "KAY",
+     "team": [
+      "LEEEEEE",
+      "LUKE",
+      "NOTJASON",
+      "DELANEY"
+     ],
+     "votes": [
+      "LEEEEEE",
+      "KAY",
+      "DELANEY",
+      "DYLAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BARRETT",
+     "votes": [
+      "NOTJASON",
+      "LEEEEEE",
+      "KAY",
+      "DELANEY",
+      "BARRETT",
+      "DYLAN"
+     ],
+     "team": [
+      "BARRETT",
+      "LEEEEEE",
+      "LUKE",
+      "NOTJASON"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "BARRETT",
+    "LEEEEEE",
+    "LUKE",
+    "NOTJASON"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DELANEY",
+     "votes": [
+      "KAY",
+      "DELANEY",
+      "BARRETT",
+      "NOTJASON",
+      "LEEEEEE"
+     ],
+     "team": [
+      "BARRETT",
+      "DELANEY",
+      "LEEEEEE",
+      "LUKE",
+      "NOTJASON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "team": [
+    "BARRETT",
+    "DELANEY",
+    "LEEEEEE",
+    "LUKE",
+    "NOTJASON"
+   ],
+   "failsRequired": 2,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "NOTJASON",
+      "TRACE",
+      "KAY",
+      "DYLAN",
+      "LEEEEEE"
+     ],
+     "votes": [
+      "LEEEEEE",
+      "KAY",
+      "DYLAN",
+      "TRACE"
+     ],
+     "proposer": "TRACE"
+    },
+    {
+     "proposer": "LEEEEEE",
+     "team": [
+      "LEEEEEE",
+      "DYLAN",
+      "DELANEY",
+      "TRACE",
+      "NOTJASON"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LEEEEEE",
+      "KAY",
+      "DELANEY",
+      "BARRETT",
+      "TRACE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "LEEEEEE",
+    "DYLAN",
+    "DELANEY",
+    "TRACE",
+    "NOTJASON"
+   ],
+   "teamSize": 5,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1584843591,
+  "_nanoseconds": 535000000
+ },
+ "players": [
+  {
+   "uid": "nWeOa9zvOOMlVQb6oJflRNpcFRB2",
+   "name": "DYLAN"
+  },
+  {
+   "name": "KAY",
+   "uid": "OBW5VvybdCcFpphYr6Wngvx1HZ52"
+  },
+  {
+   "name": "BARRETT",
+   "uid": "KU8oaufqacVm4TYqVzQzsxnHoee2"
+  },
+  {
+   "name": "DELANEY",
+   "uid": "OGvZ2GuTcphVkNWlPHPTkYPUYex1"
+  },
+  {
+   "uid": "lkxYgJKMw7dTCvo03Yi0N5eHoI72",
+   "name": "TRACE"
+  },
+  {
+   "name": "LEEEEEE",
+   "uid": "8o4za1fwINaYq0gHAGzMDs5nMgC2"
+  },
+  {
+   "uid": "NKElT9ZHDrWhMKlsSbjX8m2muDF3",
+   "name": "LUKE"
+  },
+  {
+   "name": "JASON",
+   "uid": "5b8L5pe5EGfBF1CuJYd1Yksbyq62"
+  },
+  {
+   "uid": "iWerJ1HfBCaEx4Qe9WB2nTowY9s1",
+   "name": "NOTJASON"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1584844548,
+  "_nanoseconds": 931922000
+ }
+}

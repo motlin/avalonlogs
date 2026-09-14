@@ -1,0 +1,217 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "EMMA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ANNEKE",
+    "assassin": false
+   },
+   {
+    "name": "GABBI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ELLIE"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ROSE",
+    "assassin": true
+   }
+  ],
+  "votes": [
+   {
+    "ANNEKE": true,
+    "GABBI": true
+   },
+   {
+    "ROSE": false,
+    "ELLIE": false,
+    "EMMA": true
+   },
+   {
+    "GABBI": true,
+    "ANNEKE": true
+   },
+   {
+    "EMMA": true,
+    "ANNEKE": true,
+    "GABBI": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "EMMA"
+ },
+ "timeFinished": {
+  "_seconds": 1590957113,
+  "_nanoseconds": 244000000
+ },
+ "timeCreated": {
+  "_seconds": 1590956422,
+  "_nanoseconds": 277000000
+ },
+ "players": [
+  {
+   "uid": "LU6D80BOzrb2wqrxJAjxLXpolTz2",
+   "name": "ANNEKE"
+  },
+  {
+   "name": "EMMA",
+   "uid": "SJRRLK7HL2SFlTANUZg3jvNfd8w1"
+  },
+  {
+   "uid": "Wwi4X570GXc2Pj1VCrWLq1lcbTi1",
+   "name": "GABBI"
+  },
+  {
+   "uid": "R4Usv641GdRcgbuJtcnSFqgX9g73",
+   "name": "ELLIE"
+  },
+  {
+   "uid": "8GEIhDOTUFSRfX0miNofFoy08Gm2",
+   "name": "ROSE"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "GABBI",
+    "ANNEKE"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ROSE",
+      "EMMA",
+      "ANNEKE",
+      "GABBI",
+      "ELLIE"
+     ],
+     "team": [
+      "GABBI",
+      "ANNEKE"
+     ],
+     "proposer": "GABBI"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "ELLIE",
+    "EMMA",
+    "ROSE"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "GABBI",
+      "ELLIE",
+      "ROSE",
+      "EMMA",
+      "ANNEKE"
+     ],
+     "proposer": "ELLIE",
+     "state": "APPROVED",
+     "team": [
+      "ELLIE",
+      "EMMA",
+      "ROSE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "ANNEKE",
+    "GABBI"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "ROSE",
+     "state": "REJECTED",
+     "votes": [
+      "ELLIE"
+     ],
+     "team": [
+      "ROSE",
+      "EMMA"
+     ]
+    },
+    {
+     "votes": [
+      "ROSE",
+      "EMMA",
+      "ANNEKE",
+      "GABBI",
+      "ELLIE"
+     ],
+     "team": [
+      "ANNEKE",
+      "GABBI"
+     ],
+     "proposer": "ANNEKE",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "EMMA",
+    "ANNEKE",
+    "GABBI"
+   ],
+   "proposals": [
+    {
+     "proposer": "EMMA",
+     "state": "APPROVED",
+     "team": [
+      "EMMA",
+      "ANNEKE",
+      "GABBI"
+     ],
+     "votes": [
+      "ELLIE",
+      "EMMA",
+      "GABBI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

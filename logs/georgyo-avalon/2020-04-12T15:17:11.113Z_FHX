@@ -1,0 +1,272 @@
+{
+ "players": [
+  {
+   "uid": "zlGoUKZhhifCu3iJxyesc1pfw7E3",
+   "name": "LUCAS"
+  },
+  {
+   "name": "TOASTY",
+   "uid": "fq61uCllynNzH7pdq6pguPKysWX2"
+  },
+  {
+   "uid": "RA6tNbL15GOJPYNEW7JEdIExVtJ2",
+   "name": "ANGIE"
+  },
+  {
+   "uid": "YZNmnwuhDOWiEq8y2cPhFQHx2dZ2",
+   "name": "CHEWWEH"
+  },
+  {
+   "name": "MICHAECHEW",
+   "uid": "cd0iYr3MVGPZFvLHGfYLpX5ct2y2"
+  },
+  {
+   "uid": "Utr7y8ONK6QAF1RJ7wvEx2STsyv2",
+   "name": "CHRMAINE"
+  },
+  {
+   "name": "ZACK",
+   "uid": "a4SHKAUvDheSMtGq1OFyEQsYNJB2"
+  }
+ ],
+ "outcome": {
+  "assassinated": "CHRMAINE",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ANGIE": true,
+    "TOASTY": true
+   },
+   {
+    "CHEWWEH": true,
+    "TOASTY": true,
+    "CHRMAINE": true
+   },
+   {
+    "ZACK": false,
+    "CHRMAINE": true,
+    "TOASTY": true
+   },
+   {
+    "CHRMAINE": true,
+    "MICHAECHEW": true,
+    "CHEWWEH": true,
+    "TOASTY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "CHRMAINE",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "ANGIE",
+    "assassin": false
+   },
+   {
+    "name": "CHEWWEH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "MICHAECHEW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LUCAS",
+    "role": "OBERON"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "TOASTY"
+   },
+   {
+    "name": "ZACK",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586704631,
+  "_nanoseconds": 113000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TOASTY",
+      "ZACK",
+      "ANGIE",
+      "MICHAECHEW"
+     ],
+     "team": [
+      "ANGIE",
+      "TOASTY"
+     ],
+     "proposer": "ANGIE"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ANGIE",
+    "TOASTY"
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "CHEWWEH",
+    "CHRMAINE",
+    "TOASTY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHRMAINE",
+      "CHEWWEH",
+      "LUCAS"
+     ],
+     "votes": [
+      "LUCAS",
+      "CHRMAINE",
+      "CHEWWEH"
+     ],
+     "proposer": "CHEWWEH"
+    },
+    {
+     "proposer": "MICHAECHEW",
+     "state": "REJECTED",
+     "team": [
+      "MICHAECHEW",
+      "ANGIE",
+      "ZACK"
+     ],
+     "votes": [
+      "ANGIE",
+      "MICHAECHEW",
+      "ZACK"
+     ]
+    },
+    {
+     "proposer": "CHRMAINE",
+     "state": "APPROVED",
+     "team": [
+      "CHEWWEH",
+      "CHRMAINE",
+      "TOASTY"
+     ],
+     "votes": [
+      "ZACK",
+      "CHRMAINE",
+      "ANGIE",
+      "CHEWWEH",
+      "MICHAECHEW",
+      "LUCAS",
+      "TOASTY"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ANGIE",
+      "MICHAECHEW",
+      "TOASTY",
+      "ZACK"
+     ],
+     "proposer": "ZACK",
+     "state": "APPROVED",
+     "team": [
+      "ZACK",
+      "CHRMAINE",
+      "TOASTY"
+     ]
+    }
+   ],
+   "team": [
+    "ZACK",
+    "CHRMAINE",
+    "TOASTY"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "TOASTY",
+    "MICHAECHEW",
+    "CHRMAINE",
+    "CHEWWEH"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "LUCAS",
+     "votes": [
+      "MICHAECHEW",
+      "LUCAS",
+      "ANGIE"
+     ],
+     "team": [
+      "LUCAS",
+      "TOASTY",
+      "ANGIE",
+      "CHRMAINE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TOASTY",
+      "MICHAECHEW",
+      "CHRMAINE",
+      "CHEWWEH"
+     ],
+     "proposer": "TOASTY",
+     "state": "APPROVED",
+     "votes": [
+      "LUCAS",
+      "TOASTY",
+      "CHRMAINE",
+      "CHEWWEH",
+      "MICHAECHEW"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586705194,
+  "_nanoseconds": 932207000
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "timeFinished": {
+  "_seconds": 1591259946,
+  "_nanoseconds": 525000000
+ },
+ "players": [
+  {
+   "uid": "wzP4N9esVmXLOUl3jXXLmppoS1k2",
+   "name": "JC"
+  },
+  {
+   "name": "DANE",
+   "uid": "qKrfZJKGEqfsVy9O2HX7Y0Tkxml1"
+  },
+  {
+   "name": "JAMES",
+   "uid": "oWAiI9KBr5bURhOeYlmydqOSQjL2"
+  },
+  {
+   "uid": "J4vR18hXrOd8OZtEPagN9FHBApo2",
+   "name": "JI"
+  },
+  {
+   "uid": "f4bAevXFu4ar4oLLlihNKXPRAQU2",
+   "name": "OZI"
+  },
+  {
+   "uid": "gXlwhzHWTdesKUcdB0exXnaBH8s2",
+   "name": "CLARISSE"
+  },
+  {
+   "name": "IKS",
+   "uid": "SWANj1KMUQQ3OthohO7Ywmsi7m93"
+  },
+  {
+   "name": "JAPO",
+   "uid": "YdmGZFNWckToY5J66P5Zh0ikdjq1"
+  },
+  {
+   "uid": "uGjb6EGl15UYtu3wuRIarYs3SbB2",
+   "name": "SHEILA"
+  },
+  {
+   "uid": "pvbupIENKyZBP7g1LqT4cU1CSJD3",
+   "name": "KJ"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591259151,
+  "_nanoseconds": 371000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "JAMES": true,
+    "KJ": true,
+    "SHEILA": true
+   },
+   {
+    "KJ": true,
+    "SHEILA": true,
+    "JAPO": true,
+    "JAMES": true
+   },
+   {
+    "DANE": true,
+    "OZI": false,
+    "JC": true,
+    "CLARISSE": true
+   },
+   {
+    "JI": true,
+    "IKS": false,
+    "JAPO": true,
+    "SHEILA": true,
+    "JAMES": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SHEILA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "IKS",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "JI",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JAPO"
+   },
+   {
+    "assassin": true,
+    "name": "OZI",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JC"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DANE"
+   },
+   {
+    "assassin": false,
+    "name": "JAMES",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "KJ",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CLARISSE",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": "DANE",
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JAMES",
+     "state": "APPROVED",
+     "team": [
+      "JAMES",
+      "KJ",
+      "SHEILA"
+     ],
+     "votes": [
+      "IKS",
+      "JI",
+      "JAPO",
+      "OZI",
+      "JC",
+      "DANE",
+      "JAMES",
+      "KJ",
+      "CLARISSE",
+      "SHEILA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "JAMES",
+    "KJ",
+    "SHEILA"
+   ]
+  },
+  {
+   "team": [
+    "JAMES",
+    "JAPO",
+    "SHEILA",
+    "KJ"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JC",
+      "DANE",
+      "JAMES",
+      "KJ",
+      "CLARISSE",
+      "SHEILA",
+      "IKS",
+      "JI",
+      "JAPO",
+      "OZI"
+     ],
+     "team": [
+      "JAMES",
+      "JAPO",
+      "SHEILA",
+      "KJ"
+     ],
+     "proposer": "JI"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "DANE",
+    "OZI",
+    "CLARISSE",
+    "JC"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CLARISSE",
+      "SHEILA",
+      "IKS",
+      "JAPO",
+      "OZI",
+      "JC",
+      "DANE"
+     ],
+     "team": [
+      "DANE",
+      "OZI",
+      "CLARISSE",
+      "JC"
+     ],
+     "state": "APPROVED",
+     "proposer": "OZI"
+    }
+   ]
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "JAMES",
+    "IKS",
+    "JAPO",
+    "JI",
+    "SHEILA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 1,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "IKS",
+      "JI",
+      "JAPO",
+      "OZI",
+      "JC",
+      "DANE",
+      "JAMES",
+      "KJ",
+      "CLARISSE",
+      "SHEILA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JAMES",
+      "IKS",
+      "JAPO",
+      "JI",
+      "SHEILA"
+     ],
+     "proposer": "CLARISSE"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

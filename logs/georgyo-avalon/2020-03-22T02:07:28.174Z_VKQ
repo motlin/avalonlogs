@@ -1,0 +1,322 @@
+{
+ "timeFinished": {
+  "_seconds": 1584843770,
+  "_nanoseconds": 185333000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "BUDLITE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SSEJ",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SID",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "FNU",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MAMMOTHMAN",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "VILGIRL"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "FNU": true,
+    "MAMMOTHMAN": true
+   },
+   {
+    "SSEJ": true,
+    "BUDLITE": true,
+    "SID": true
+   },
+   {
+    "SSEJ": true,
+    "FNU": true,
+    "BUDLITE": true,
+    "SID": false
+   },
+   {
+    "MAMMOTHMAN": false,
+    "SID": false,
+    "SSEJ": true
+   },
+   {
+    "BUDLITE": true,
+    "VILGIRL": true,
+    "FNU": true,
+    "SSEJ": true
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1584842848,
+  "_nanoseconds": 174000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MAMMOTHMAN",
+    "FNU"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "BUDLITE",
+      "FNU",
+      "MAMMOTHMAN",
+      "VILGIRL"
+     ],
+     "proposer": "VILGIRL",
+     "state": "APPROVED",
+     "team": [
+      "MAMMOTHMAN",
+      "FNU"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MAMMOTHMAN",
+      "BUDLITE",
+      "SID"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SID",
+      "VILGIRL",
+      "BUDLITE"
+     ],
+     "proposer": "SID"
+    },
+    {
+     "votes": [
+      "BUDLITE",
+      "SSEJ",
+      "SID",
+      "FNU",
+      "MAMMOTHMAN",
+      "VILGIRL"
+     ],
+     "team": [
+      "SSEJ",
+      "BUDLITE",
+      "SID"
+     ],
+     "state": "APPROVED",
+     "proposer": "MAMMOTHMAN"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "SSEJ",
+    "BUDLITE",
+    "SID"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "FNU",
+      "SSEJ",
+      "BUDLITE",
+      "SID"
+     ],
+     "proposer": "FNU",
+     "votes": [
+      "SSEJ",
+      "FNU",
+      "MAMMOTHMAN",
+      "VILGIRL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "FNU",
+    "SSEJ",
+    "BUDLITE",
+    "SID"
+   ],
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "SSEJ",
+    "MAMMOTHMAN",
+    "SID"
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SSEJ",
+      "MAMMOTHMAN",
+      "SID"
+     ],
+     "proposer": "SSEJ",
+     "votes": [
+      "MAMMOTHMAN",
+      "VILGIRL",
+      "BUDLITE",
+      "SSEJ",
+      "SID"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "FNU",
+      "SID",
+      "BUDLITE",
+      "VILGIRL"
+     ],
+     "proposer": "BUDLITE",
+     "state": "REJECTED",
+     "votes": [
+      "VILGIRL",
+      "BUDLITE",
+      "SID"
+     ]
+    },
+    {
+     "proposer": "VILGIRL",
+     "state": "REJECTED",
+     "votes": [
+      "VILGIRL",
+      "BUDLITE",
+      "SID"
+     ],
+     "team": [
+      "VILGIRL",
+      "SID",
+      "FNU",
+      "BUDLITE"
+     ]
+    },
+    {
+     "proposer": "SID",
+     "votes": [
+      "VILGIRL",
+      "BUDLITE",
+      "SID"
+     ],
+     "team": [
+      "SID",
+      "BUDLITE",
+      "FNU",
+      "VILGIRL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MAMMOTHMAN",
+      "VILGIRL",
+      "BUDLITE"
+     ],
+     "proposer": "MAMMOTHMAN",
+     "team": [
+      "MAMMOTHMAN",
+      "FNU",
+      "BUDLITE",
+      "VILGIRL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "FNU",
+      "VILGIRL",
+      "BUDLITE",
+      "SSEJ"
+     ],
+     "team": [
+      "FNU",
+      "VILGIRL",
+      "BUDLITE",
+      "SSEJ"
+     ],
+     "proposer": "FNU"
+    }
+   ],
+   "team": [
+    "FNU",
+    "VILGIRL",
+    "BUDLITE",
+    "SSEJ"
+   ],
+   "numFails": 0
+  }
+ ],
+ "players": [
+  {
+   "uid": "F8wiwvJYRBYsQwPN9QyhdteX3ip1",
+   "name": "MAMMOTHMAN"
+  },
+  {
+   "name": "FNU",
+   "uid": "22ylQ4iZH0NLlNNynT8CR6TfbFn1"
+  },
+  {
+   "name": "SSEJ",
+   "uid": "tUfEtieUStZlLrqfO8C95QRXX2y2"
+  },
+  {
+   "uid": "e7ljsJSWRCXaRq58zpZFjgGc30m2",
+   "name": "BUDLITE"
+  },
+  {
+   "uid": "pf94okvGK8chpe95ZZwaVkXRwVJ2",
+   "name": "VILGIRL"
+  },
+  {
+   "uid": "jU8vwMyeqENIXydrKD3vz6zwP132",
+   "name": "SID"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "BELLA": true,
+    "ROZIE": true
+   },
+   {
+    "ROZIE": true,
+    "BELLA": true,
+    "EM": true
+   },
+   {
+    "BELLA": true,
+    "EM": true
+   }
+  ],
+  "assassinated": "ROZIE",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "AUGUST",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "ROZIE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "EM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "BELLA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "ANDREW",
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1599003624,
+  "_nanoseconds": 147000000
+ },
+ "players": [
+  {
+   "name": "ROZIE",
+   "uid": "CNvKvaNzgcX8g2ESAbXtq8Lrp8Q2"
+  },
+  {
+   "uid": "xhGwEUSwjThPjNkZpdMldH5ivCy1",
+   "name": "ANDREW"
+  },
+  {
+   "uid": "J2Wn5hWqffQQyeZGYHlGRwJVdWC2",
+   "name": "AUGUST"
+  },
+  {
+   "uid": "rVFAHQGFmTcnGrPGLfB95BwVZ7C3",
+   "name": "BELLA"
+  },
+  {
+   "name": "EM",
+   "uid": "P42wcckOZEeJ4cpcBIzPKKFo9Kl1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1599003100,
+  "_nanoseconds": 653000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ROZIE",
+    "BELLA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ROZIE",
+      "BELLA"
+     ],
+     "votes": [
+      "AUGUST",
+      "ANDREW",
+      "ROZIE",
+      "BELLA"
+     ],
+     "proposer": "AUGUST",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "BELLA",
+    "ROZIE",
+    "EM"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BELLA",
+      "ROZIE",
+      "EM"
+     ],
+     "proposer": "BELLA",
+     "votes": [
+      "ROZIE",
+      "BELLA",
+      "EM"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "team": [
+    "EM",
+    "BELLA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "EM",
+     "team": [
+      "EM",
+      "BELLA"
+     ],
+     "votes": [
+      "BELLA",
+      "EM",
+      "ROZIE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

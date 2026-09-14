@@ -1,0 +1,278 @@
+{
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "SISSI",
+     "state": "REJECTED",
+     "votes": [
+      "BOLUN",
+      "DANQING",
+      "SISSI"
+     ],
+     "team": [
+      "SISSI",
+      "BOLUN"
+     ]
+    },
+    {
+     "votes": [
+      "BOLUN",
+      "DANQING",
+      "SISSI"
+     ],
+     "team": [
+      "BOLUN",
+      "SISSI"
+     ],
+     "state": "REJECTED",
+     "proposer": "BOLUN"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "DANQING",
+      "SISSI"
+     ],
+     "votes": [
+      "YOUNG",
+      "GABYWU",
+      "DANQING",
+      "SISSI"
+     ],
+     "proposer": "DANQING"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "DANQING",
+    "SISSI"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "DANQING",
+    "GABYWU",
+    "YOUNG"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "DANQING",
+      "GABYWU",
+      "YOUNG"
+     ],
+     "proposer": "GABYWU",
+     "state": "APPROVED",
+     "votes": [
+      "JUANYU",
+      "DANQING",
+      "GABYWU",
+      "SISSI",
+      "BOLUN",
+      "YOUNG"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "SISSI",
+    "JUANYU",
+    "YOUNG",
+    "GABYWU"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SISSI",
+      "DANQING",
+      "GABYWU",
+      "JUANYU"
+     ],
+     "votes": [
+      "DANQING",
+      "SISSI",
+      "JUANYU"
+     ],
+     "state": "REJECTED",
+     "proposer": "JUANYU"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SISSI",
+      "JUANYU",
+      "YOUNG",
+      "GABYWU"
+     ],
+     "votes": [
+      "DANQING",
+      "GABYWU",
+      "YOUNG",
+      "BOLUN",
+      "JUANYU",
+      "SISSI"
+     ],
+     "proposer": "YOUNG"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "GABYWU",
+    "JUANYU",
+    "YOUNG"
+   ],
+   "proposals": [
+    {
+     "proposer": "SISSI",
+     "votes": [
+      "DANQING",
+      "YOUNG",
+      "SISSI"
+     ],
+     "team": [
+      "SISSI",
+      "YOUNG",
+      "GABYWU"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "GABYWU",
+      "JUANYU",
+      "YOUNG"
+     ],
+     "votes": [
+      "DANQING",
+      "JUANYU",
+      "BOLUN",
+      "GABYWU"
+     ],
+     "proposer": "BOLUN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1610055288,
+  "_nanoseconds": 290000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "SISSI": true,
+    "DANQING": true
+   },
+   {
+    "YOUNG": true,
+    "DANQING": false,
+    "GABYWU": true
+   },
+   {
+    "GABYWU": true,
+    "JUANYU": true,
+    "YOUNG": true,
+    "SISSI": true
+   },
+   {
+    "JUANYU": true,
+    "YOUNG": true,
+    "GABYWU": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GABYWU",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "BOLUN",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "YOUNG",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JUANYU",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SISSI",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "DANQING",
+    "assassin": true
+   }
+  ],
+  "assassinated": "BOLUN"
+ },
+ "timeFinished": {
+  "_seconds": 1610058240,
+  "_nanoseconds": 296000000
+ },
+ "players": [
+  {
+   "name": "BOLUN",
+   "uid": "aYh0S33snDXm72c6fMJW1xVevtf1"
+  },
+  {
+   "uid": "3FcLar3AUEWHITDLIm6e0SWQdo72",
+   "name": "DANQING"
+  },
+  {
+   "name": "GABYWU",
+   "uid": "0LB8TTW4aXYEMHjBmb4wvW8Cmo22"
+  },
+  {
+   "name": "JUANYU",
+   "uid": "DZo7mpmp74aYQXWuLuh6YpAjMsw2"
+  },
+  {
+   "uid": "dYVG4rbtmYOCrTjNsJQP85PZ0ed2",
+   "name": "YOUNG"
+  },
+  {
+   "name": "SISSI",
+   "uid": "MbDMrIPX7cgxnB3lM9s9ebvvyjA2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

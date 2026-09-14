@@ -1,0 +1,319 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DANDAN",
+    "assassin": false
+   },
+   {
+    "name": "BOY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "BNKRS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JOSHUA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "LAU",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "NEILZEN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "GIL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MNH",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RICO"
+   },
+   {
+    "name": "JORDAN",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "RICO": true,
+    "JOSHUA": false,
+    "MNH": true
+   },
+   {
+    "BNKRS": true,
+    "MNH": true,
+    "LAU": true,
+    "RICO": true
+   },
+   {
+    "JORDAN": false,
+    "DANDAN": true,
+    "BOY": true,
+    "BNKRS": true
+   },
+   {
+    "MNH": true,
+    "JORDAN": false,
+    "LAU": true,
+    "BNKRS": true,
+    "RICO": true
+   },
+   {
+    "JORDAN": false,
+    "BOY": true,
+    "BNKRS": true,
+    "JOSHUA": false,
+    "MNH": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "MNH",
+    "RICO",
+    "JOSHUA"
+   ],
+   "proposals": [
+    {
+     "proposer": "RICO",
+     "state": "APPROVED",
+     "votes": [
+      "GIL",
+      "MNH",
+      "BOY",
+      "BNKRS",
+      "RICO",
+      "LAU",
+      "NEILZEN",
+      "JOSHUA",
+      "DANDAN",
+      "JORDAN"
+     ],
+     "team": [
+      "MNH",
+      "RICO",
+      "JOSHUA"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "RICO",
+    "LAU",
+    "BNKRS",
+    "MNH"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "RICO",
+      "LAU",
+      "BNKRS",
+      "MNH"
+     ],
+     "proposer": "GIL",
+     "state": "APPROVED",
+     "votes": [
+      "BOY",
+      "MNH",
+      "GIL",
+      "BNKRS",
+      "RICO",
+      "JOSHUA",
+      "DANDAN",
+      "JORDAN",
+      "LAU"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "NEILZEN",
+      "BNKRS",
+      "DANDAN",
+      "BOY",
+      "JOSHUA",
+      "JORDAN"
+     ],
+     "proposer": "JORDAN",
+     "team": [
+      "BOY",
+      "DANDAN",
+      "BNKRS",
+      "JORDAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BOY",
+    "DANDAN",
+    "BNKRS",
+    "JORDAN"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MNH",
+      "LAU",
+      "RICO",
+      "JORDAN",
+      "BNKRS"
+     ],
+     "votes": [
+      "JORDAN",
+      "BOY",
+      "JOSHUA",
+      "RICO",
+      "NEILZEN",
+      "LAU",
+      "BNKRS",
+      "MNH"
+     ],
+     "proposer": "BNKRS"
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [
+    "MNH",
+    "LAU",
+    "RICO",
+    "JORDAN",
+    "BNKRS"
+   ]
+  },
+  {
+   "team": [
+    "MNH",
+    "BNKRS",
+    "JORDAN",
+    "JOSHUA",
+    "BOY"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "DANDAN",
+      "NEILZEN",
+      "JORDAN",
+      "BNKRS",
+      "LAU",
+      "JOSHUA",
+      "GIL"
+     ],
+     "state": "APPROVED",
+     "proposer": "DANDAN",
+     "team": [
+      "MNH",
+      "BNKRS",
+      "JORDAN",
+      "JOSHUA",
+      "BOY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1608276406,
+  "_nanoseconds": 971000000
+ },
+ "timeCreated": {
+  "_seconds": 1608275648,
+  "_nanoseconds": 685000000
+ },
+ "players": [
+  {
+   "uid": "Es0TDOUFY3ZrZbHJGHPWxQmDUD13",
+   "name": "JOSHUA"
+  },
+  {
+   "name": "NEILZEN",
+   "uid": "FWneEdoFlzggbCDTgJFwTmwXQCV2"
+  },
+  {
+   "name": "MNH",
+   "uid": "POupdwnPb4aoHLjb3s37xgF8ent1"
+  },
+  {
+   "name": "LAU",
+   "uid": "t03DnkuOXBVT0fG2wELRhbK9LNv2"
+  },
+  {
+   "uid": "6RHZWAQLcpPx1ObG79zn9d0d7mJ3",
+   "name": "RICO"
+  },
+  {
+   "name": "GIL",
+   "uid": "vAbDKpfsAJgGnnrGQ73C4fqdGKf2"
+  },
+  {
+   "name": "JORDAN",
+   "uid": "sDMMTRPs3BRctIH4LnWXKUn8k0I2"
+  },
+  {
+   "uid": "uawxJF7WTVUePp6MyOExnUoSTTz1",
+   "name": "BNKRS"
+  },
+  {
+   "name": "DANDAN",
+   "uid": "dssAM3K6E9SRFtLQsTXrr0VLSJz2"
+  },
+  {
+   "name": "BOY",
+   "uid": "kC0ypFlKRBQeO5jmvH7TtgV58233"
+  }
+ ]
+}

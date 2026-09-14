@@ -1,0 +1,316 @@
+{
+ "players": [
+  {
+   "name": "FABIENNE",
+   "uid": "V8ryY793JBQm57d7B7ljEdKdiQ72"
+  },
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "name": "SAUVAGE",
+   "uid": "SjAwNkIjANUBqwHVK3f5szy8HZp1"
+  },
+  {
+   "uid": "KJCAgwIF3whllbkkwSOdSOGXpsR2",
+   "name": "SEVERINE"
+  },
+  {
+   "name": "ELISA",
+   "uid": "dbKmvKJ5dAT9y974xQ1v6mXVRdw2"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "SEVERINE",
+    "ELISA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SAUVAGE",
+      "ELISA",
+      "SEVERINE"
+     ],
+     "state": "REJECTED",
+     "proposer": "SEVERINE",
+     "team": [
+      "SEVERINE",
+      "ELISA"
+     ]
+    },
+    {
+     "team": [
+      "ELISA",
+      "FABIENNE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SAUVAGE",
+      "ELISA",
+      "SEVERINE"
+     ],
+     "proposer": "ELISA"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "FABIENNE",
+      "REGIS"
+     ],
+     "proposer": "FABIENNE",
+     "votes": [
+      "ELISA",
+      "REGIS",
+      "FABIENNE"
+     ]
+    },
+    {
+     "votes": [
+      "SAUVAGE",
+      "REGIS",
+      "ELISA",
+      "SEVERINE"
+     ],
+     "proposer": "REGIS",
+     "state": "APPROVED",
+     "team": [
+      "SEVERINE",
+      "ELISA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LAURA",
+     "team": [
+      "LAURA",
+      "REGIS",
+      "FABIENNE"
+     ],
+     "votes": [
+      "ELISA",
+      "SEVERINE",
+      "REGIS",
+      "FABIENNE",
+      "LAURA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "LAURA",
+    "REGIS",
+    "FABIENNE"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "REGIS",
+    "FABIENNE",
+    "LAURA",
+    "SEVERINE"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "SAUVAGE"
+     ],
+     "team": [
+      "FABIENNE",
+      "REGIS",
+      "LAURA",
+      "SAUVAGE"
+     ],
+     "proposer": "SAUVAGE",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SEVERINE",
+     "votes": [
+      "SEVERINE"
+     ],
+     "team": [
+      "FABIENNE",
+      "REGIS",
+      "LAURA",
+      "SEVERINE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ELISA",
+      "SAUVAGE",
+      "FABIENNE"
+     ],
+     "proposer": "ELISA",
+     "team": [
+      "ELISA",
+      "REGIS",
+      "FABIENNE",
+      "LAURA"
+     ]
+    },
+    {
+     "team": [
+      "FABIENNE",
+      "SEVERINE",
+      "LAURA",
+      "REGIS"
+     ],
+     "votes": [
+      "SEVERINE",
+      "REGIS"
+     ],
+     "proposer": "FABIENNE",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "REGIS",
+     "votes": [
+      "FABIENNE",
+      "LAURA",
+      "SEVERINE",
+      "REGIS"
+     ],
+     "team": [
+      "REGIS",
+      "FABIENNE",
+      "LAURA",
+      "SEVERINE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "LAURA",
+    "FABIENNE",
+    "REGIS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "FABIENNE",
+      "REGIS"
+     ],
+     "votes": [
+      "ELISA",
+      "SEVERINE",
+      "SAUVAGE",
+      "REGIS",
+      "FABIENNE",
+      "LAURA"
+     ],
+     "proposer": "LAURA"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604855551,
+  "_nanoseconds": 453000000
+ },
+ "timeCreated": {
+  "_seconds": 1604853725,
+  "_nanoseconds": 815000000
+ },
+ "outcome": {
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "ELISA": false,
+    "SEVERINE": true
+   },
+   {
+    "REGIS": true,
+    "LAURA": true,
+    "FABIENNE": true
+   },
+   {
+    "SEVERINE": true,
+    "LAURA": true,
+    "REGIS": true,
+    "FABIENNE": true
+   },
+   {
+    "REGIS": true,
+    "FABIENNE": true,
+    "LAURA": true
+   }
+  ],
+  "assassinated": null,
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "SAUVAGE"
+   },
+   {
+    "name": "ELISA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "LAURA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SEVERINE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "REGIS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "FABIENNE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

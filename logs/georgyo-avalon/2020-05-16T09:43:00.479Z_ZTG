@@ -1,0 +1,225 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "CHERYL",
+    "CALEB"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TIM",
+     "votes": [
+      "JAZ",
+      "TIM",
+      "EME",
+      "HANNAH",
+      "CALEB",
+      "CHERYL"
+     ],
+     "team": [
+      "CHERYL",
+      "CALEB"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JAZ",
+    "CALEB",
+    "CHERYL"
+   ],
+   "proposals": [
+    {
+     "proposer": "JAZ",
+     "state": "APPROVED",
+     "votes": [
+      "CALEB",
+      "CHERYL",
+      "JAZ",
+      "TIM",
+      "EME"
+     ],
+     "team": [
+      "JAZ",
+      "CALEB",
+      "CHERYL"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "HANNAH",
+      "TIM",
+      "CALEB",
+      "EME"
+     ],
+     "state": "APPROVED",
+     "proposer": "HANNAH",
+     "votes": [
+      "CALEB",
+      "CHERYL",
+      "JAZ",
+      "TIM",
+      "EME",
+      "HANNAH"
+     ]
+    }
+   ],
+   "team": [
+    "HANNAH",
+    "TIM",
+    "CALEB",
+    "EME"
+   ]
+  },
+  {
+   "team": [
+    "TIM",
+    "EME",
+    "HANNAH"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "TIM",
+      "EME",
+      "HANNAH",
+      "CALEB",
+      "CHERYL"
+     ],
+     "state": "APPROVED",
+     "proposer": "CALEB",
+     "team": [
+      "TIM",
+      "EME",
+      "HANNAH"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "SHeNhkc9WyWPHlB3dMHsiObUW5B2",
+   "name": "CHERYL"
+  },
+  {
+   "name": "EME",
+   "uid": "0a3qo3qu0lRir4oAlZ6nKylSiuf1"
+  },
+  {
+   "name": "TIM",
+   "uid": "noup2UhfhPZ5CpTVkPwCtzWlw8k2"
+  },
+  {
+   "uid": "LcgHiwWPksgABmxgQsiV9hngFj43",
+   "name": "JAZ"
+  },
+  {
+   "name": "HANNAH",
+   "uid": "fdASXrn96dexZYfAsQL56YdvTX03"
+  },
+  {
+   "name": "CALEB",
+   "uid": "a1R4ajhXgzTtwBcXxpSXP3jitY72"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "CHERYL": true,
+    "CALEB": true
+   },
+   {
+    "JAZ": false,
+    "CHERYL": false,
+    "CALEB": true
+   },
+   {
+    "HANNAH": true,
+    "CALEB": true,
+    "EME": true,
+    "TIM": true
+   },
+   {
+    "EME": true,
+    "HANNAH": true,
+    "TIM": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "EME"
+   },
+   {
+    "assassin": false,
+    "name": "HANNAH",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CALEB"
+   },
+   {
+    "assassin": true,
+    "name": "CHERYL",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "JAZ",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TIM"
+   }
+  ],
+  "assassinated": "HANNAH",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1589622640,
+  "_nanoseconds": 63000000
+ },
+ "timeCreated": {
+  "_seconds": 1589622180,
+  "_nanoseconds": 479000000
+ }
+}

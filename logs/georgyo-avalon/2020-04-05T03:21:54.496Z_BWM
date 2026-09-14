@@ -1,0 +1,278 @@
+{
+ "timeFinished": {
+  "_seconds": 1586058077,
+  "_nanoseconds": 586813000
+ },
+ "players": [
+  {
+   "name": "MICHAEL",
+   "uid": "UFATxmxHZkPQwB4VbjgvQQkvEhz2"
+  },
+  {
+   "uid": "NKxxBz42BJReKqgjSEChEOlBEf22",
+   "name": "JENN"
+  },
+  {
+   "name": "LYNSEY",
+   "uid": "ixCjh3z4OggMf0nqdAK39lEHslr2"
+  },
+  {
+   "uid": "GVLNMcHGEnhQ2SD6EEj7A44dt2k2",
+   "name": "MONICA"
+  },
+  {
+   "uid": "8gzYM9OvAZfjqqlW5UJjza2lUZo1",
+   "name": "MIKE"
+  },
+  {
+   "name": "MIKEHUNT",
+   "uid": "BBUyoOpCrZbooYCj1yrNCzyYzqU2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "MONICA": true,
+    "JENN": true
+   },
+   {
+    "MONICA": true,
+    "MIKEHUNT": true,
+    "LYNSEY": true
+   },
+   {
+    "MIKEHUNT": true,
+    "JENN": true,
+    "LYNSEY": true,
+    "MIKE": false
+   },
+   {
+    "MONICA": false,
+    "JENN": true,
+    "MICHAEL": true
+   },
+   {
+    "MONICA": false,
+    "MIKEHUNT": true,
+    "LYNSEY": true,
+    "MICHAEL": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "MICHAEL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "MONICA",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LYNSEY"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MIKEHUNT"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MIKE",
+    "assassin": false
+   },
+   {
+    "name": "JENN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MIKEHUNT",
+      "MIKE",
+      "JENN",
+      "MONICA",
+      "LYNSEY"
+     ],
+     "proposer": "LYNSEY",
+     "state": "APPROVED",
+     "team": [
+      "JENN",
+      "MONICA"
+     ]
+    }
+   ],
+   "team": [
+    "JENN",
+    "MONICA"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MONICA",
+    "LYNSEY",
+    "MIKEHUNT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MONICA",
+     "state": "APPROVED",
+     "votes": [
+      "LYNSEY",
+      "MIKEHUNT",
+      "MIKE",
+      "JENN",
+      "MONICA"
+     ],
+     "team": [
+      "MONICA",
+      "LYNSEY",
+      "MIKEHUNT"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MIKE",
+      "JENN"
+     ],
+     "team": [
+      "MICHAEL",
+      "JENN",
+      "MONICA",
+      "MIKE"
+     ],
+     "state": "REJECTED",
+     "proposer": "MIKE"
+    },
+    {
+     "team": [
+      "MIKE",
+      "MIKEHUNT",
+      "LYNSEY",
+      "JENN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MIKEHUNT",
+     "votes": [
+      "MIKEHUNT",
+      "MIKE",
+      "JENN",
+      "MONICA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "MIKE",
+    "MIKEHUNT",
+    "LYNSEY",
+    "JENN"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "MICHAEL",
+    "JENN",
+    "MONICA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "MICHAEL",
+      "JENN",
+      "MONICA"
+     ],
+     "proposer": "MICHAEL",
+     "state": "APPROVED",
+     "votes": [
+      "LYNSEY",
+      "MIKEHUNT",
+      "MIKE",
+      "JENN",
+      "MICHAEL",
+      "MONICA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "MIKEHUNT",
+      "JENN"
+     ],
+     "proposer": "JENN",
+     "team": [
+      "JENN",
+      "MIKE",
+      "MIKEHUNT",
+      "MICHAEL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MIKEHUNT",
+      "MONICA",
+      "LYNSEY",
+      "MICHAEL"
+     ],
+     "proposer": "LYNSEY",
+     "votes": [
+      "MIKEHUNT",
+      "MIKE",
+      "JENN",
+      "MONICA",
+      "LYNSEY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MIKEHUNT",
+    "MONICA",
+    "LYNSEY",
+    "MICHAEL"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586056914,
+  "_nanoseconds": 496000000
+ }
+}

@@ -1,0 +1,418 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593299592,
+  "_nanoseconds": 836000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GOODWIN"
+   },
+   {
+    "name": "TOBY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "TINA"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "RAFMAN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RYAN"
+   },
+   {
+    "assassin": true,
+    "name": "JAMES",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "BRIAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "KIMBERLY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ROCIO",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "DAISY"
+   }
+  ],
+  "votes": [
+   {
+    "TOBY": true,
+    "RAFMAN": false,
+    "ROCIO": true
+   },
+   {
+    "DAISY": true,
+    "BRIAN": true,
+    "TINA": false,
+    "GOODWIN": true
+   },
+   {
+    "RAFMAN": false,
+    "JAMES": false,
+    "GOODWIN": true,
+    "TINA": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "tVQNQuHDO8cihbBVOPRGTj0fm4I2",
+   "name": "KIMBERLY"
+  },
+  {
+   "name": "DAISY",
+   "uid": "dbm93qFqiIcexgBMYw3pyDdjwOF2"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "VK3pUVkXsCMFMxGEgEo0ckQuksm2"
+  },
+  {
+   "name": "TINA",
+   "uid": "HXoN5uYy10RFdjSv5xUP6IW2TCb2"
+  },
+  {
+   "name": "ROCIO",
+   "uid": "VbUDJdM4SNRVWhkElP1RFmbhRyo2"
+  },
+  {
+   "name": "RYAN",
+   "uid": "FP5bENHJa0btJuQ704ASF8ekuwL2"
+  },
+  {
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2",
+   "name": "TOBY"
+  },
+  {
+   "name": "JAMES",
+   "uid": "g21ycsypBoVjCAwdiYkPgudQhM23"
+  },
+  {
+   "uid": "iEzhrQLgEOXe7L05QEtqhr2uXDW2",
+   "name": "RAFMAN"
+  },
+  {
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2",
+   "name": "GOODWIN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593301786,
+  "_nanoseconds": 682000000
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "RYAN",
+      "KIMBERLY"
+     ],
+     "proposer": "KIMBERLY",
+     "team": [
+      "KIMBERLY",
+      "ROCIO",
+      "RYAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "DAISY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TINA",
+      "BRIAN",
+      "DAISY"
+     ],
+     "proposer": "DAISY"
+    },
+    {
+     "votes": [
+      "TOBY",
+      "DAISY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TINA",
+      "DAISY",
+      "BRIAN"
+     ],
+     "proposer": "BRIAN"
+    },
+    {
+     "votes": [
+      "DAISY",
+      "GOODWIN",
+      "TOBY",
+      "TINA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TINA",
+      "DAISY",
+      "TOBY"
+     ],
+     "proposer": "TINA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ROCIO",
+     "votes": [
+      "TOBY",
+      "TINA",
+      "RAFMAN",
+      "RYAN",
+      "JAMES",
+      "BRIAN",
+      "ROCIO",
+      "DAISY",
+      "GOODWIN"
+     ],
+     "team": [
+      "ROCIO",
+      "TOBY",
+      "RAFMAN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "ROCIO",
+    "TOBY",
+    "RAFMAN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "GOODWIN",
+    "DAISY",
+    "TINA",
+    "BRIAN"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "RYAN",
+     "team": [
+      "RYAN",
+      "JAMES",
+      "KIMBERLY",
+      "ROCIO"
+     ],
+     "votes": [
+      "RAFMAN",
+      "RYAN"
+     ]
+    },
+    {
+     "votes": [
+      "TOBY",
+      "DAISY"
+     ],
+     "proposer": "TOBY",
+     "team": [
+      "TOBY",
+      "DAISY",
+      "TINA",
+      "BRIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JAMES",
+      "ROCIO",
+      "TOBY",
+      "KIMBERLY"
+     ],
+     "proposer": "JAMES",
+     "state": "REJECTED",
+     "votes": [
+      "RAFMAN",
+      "RYAN",
+      "JAMES"
+     ]
+    },
+    {
+     "votes": [
+      "TOBY",
+      "RAFMAN"
+     ],
+     "team": [
+      "RAFMAN",
+      "TOBY",
+      "ROCIO",
+      "DAISY"
+     ],
+     "proposer": "RAFMAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "GOODWIN",
+      "DAISY",
+      "TINA",
+      "BRIAN"
+     ],
+     "proposer": "GOODWIN",
+     "votes": [
+      "RYAN",
+      "JAMES",
+      "BRIAN",
+      "ROCIO",
+      "DAISY",
+      "GOODWIN",
+      "TOBY",
+      "TINA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "RAFMAN",
+      "KIMBERLY"
+     ],
+     "team": [
+      "KIMBERLY",
+      "ROCIO",
+      "BRIAN",
+      "RYAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "KIMBERLY"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "TOBY",
+      "DAISY",
+      "TINA",
+      "KIMBERLY"
+     ],
+     "votes": [
+      "DAISY"
+     ],
+     "proposer": "DAISY"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DAISY",
+      "JAMES",
+      "BRIAN"
+     ],
+     "team": [
+      "BRIAN",
+      "DAISY",
+      "TINA",
+      "TOBY"
+     ],
+     "proposer": "BRIAN"
+    },
+    {
+     "team": [
+      "TINA",
+      "ROCIO",
+      "RAFMAN",
+      "JAMES"
+     ],
+     "state": "REJECTED",
+     "proposer": "TINA",
+     "votes": [
+      "TINA",
+      "RAFMAN",
+      "JAMES",
+      "ROCIO",
+      "DAISY"
+     ]
+    },
+    {
+     "votes": [
+      "RYAN",
+      "JAMES",
+      "BRIAN",
+      "KIMBERLY",
+      "ROCIO",
+      "DAISY",
+      "TOBY",
+      "TINA",
+      "RAFMAN"
+     ],
+     "team": [
+      "TINA",
+      "JAMES",
+      "RAFMAN",
+      "GOODWIN"
+     ],
+     "proposer": "ROCIO",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 3,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "TINA",
+    "JAMES",
+    "RAFMAN",
+    "GOODWIN"
+   ]
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ]
+}

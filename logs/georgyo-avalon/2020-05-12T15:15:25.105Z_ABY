@@ -1,0 +1,293 @@
+{
+ "players": [
+  {
+   "name": "SOVEREIGN",
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22"
+  },
+  {
+   "uid": "YjIwyhCncYUiYPvf2PZcnmxX2Ou1",
+   "name": "SKYX"
+  },
+  {
+   "name": "ROBIN",
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2"
+  },
+  {
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3",
+   "name": "KENT"
+  },
+  {
+   "name": "WEI",
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2"
+  },
+  {
+   "uid": "w2ngiDASElTWBTMXd9fdYpBlSNx1",
+   "name": "PROVIDENCE"
+  },
+  {
+   "name": "JL",
+   "uid": "bI2OVSenLLhu3HprJLUfksPK1Hm1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589296525,
+  "_nanoseconds": 105000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SOVEREIGN",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "ROBIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "WEI"
+   },
+   {
+    "assassin": false,
+    "name": "JL",
+    "role": "MERLIN"
+   },
+   {
+    "name": "PROVIDENCE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "SKYX"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KENT"
+   }
+  ],
+  "assassinated": "JL",
+  "votes": [
+   {
+    "PROVIDENCE": true,
+    "JL": true
+   },
+   {
+    "JL": true,
+    "PROVIDENCE": true,
+    "SOVEREIGN": false
+   },
+   {
+    "SKYX": false,
+    "KENT": true,
+    "JL": true
+   },
+   {
+    "KENT": true,
+    "JL": true,
+    "WEI": false,
+    "PROVIDENCE": true
+   },
+   {
+    "ROBIN": true,
+    "KENT": true,
+    "JL": true,
+    "PROVIDENCE": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1589297445,
+  "_nanoseconds": 867000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "JL",
+     "team": [
+      "JL",
+      "PROVIDENCE"
+     ],
+     "votes": [
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI",
+      "JL",
+      "PROVIDENCE",
+      "SKYX",
+      "KENT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JL",
+    "PROVIDENCE"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI",
+      "JL",
+      "KENT"
+     ],
+     "team": [
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "JL"
+     ],
+     "proposer": "SOVEREIGN"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "SOVEREIGN",
+    "PROVIDENCE",
+    "JL"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "SKYX",
+    "KENT",
+    "JL"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SKYX",
+      "KENT",
+      "JL"
+     ],
+     "proposer": "SKYX",
+     "votes": [
+      "SKYX",
+      "KENT",
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "WEI",
+    "JL",
+    "PROVIDENCE",
+    "KENT"
+   ],
+   "proposals": [
+    {
+     "proposer": "ROBIN",
+     "team": [
+      "PROVIDENCE",
+      "JL",
+      "ROBIN",
+      "WEI"
+     ],
+     "votes": [
+      "ROBIN",
+      "WEI",
+      "JL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "WEI",
+      "KENT",
+      "SOVEREIGN"
+     ],
+     "team": [
+      "KENT",
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI"
+     ],
+     "state": "REJECTED",
+     "proposer": "KENT"
+    },
+    {
+     "team": [
+      "WEI",
+      "JL",
+      "PROVIDENCE",
+      "KENT"
+     ],
+     "votes": [
+      "SOVEREIGN",
+      "WEI",
+      "SKYX",
+      "KENT"
+     ],
+     "proposer": "WEI",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JL",
+      "PROVIDENCE",
+      "KENT",
+      "ROBIN",
+      "WEI"
+     ],
+     "state": "APPROVED",
+     "proposer": "PROVIDENCE",
+     "team": [
+      "PROVIDENCE",
+      "JL",
+      "ROBIN",
+      "KENT"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "PROVIDENCE",
+    "JL",
+    "ROBIN",
+    "KENT"
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  }
+ ]
+}

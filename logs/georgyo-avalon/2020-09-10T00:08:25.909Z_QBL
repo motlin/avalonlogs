@@ -1,0 +1,277 @@
+{
+ "timeCreated": {
+  "_seconds": 1599696505,
+  "_nanoseconds": 909000000
+ },
+ "timeFinished": {
+  "_seconds": 1599698280,
+  "_nanoseconds": 162000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "YAMIN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "DOR",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MIA",
+    "assassin": false
+   },
+   {
+    "name": "HAELIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LUKE",
+    "assassin": false
+   }
+  ],
+  "assassinated": "HAELIN",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "MIA": true,
+    "LUKE": true
+   },
+   {
+    "MIA": true,
+    "LUKE": true,
+    "YAMIN": false
+   },
+   {
+    "DOR": true,
+    "LUKE": true
+   },
+   {
+    "DOR": false,
+    "MIA": true,
+    "LUKE": true
+   },
+   {
+    "LUKE": true,
+    "MIA": true,
+    "HAELIN": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "YAMIN",
+   "uid": "ZfYkRxOjOueo9q2aiXdkO1Z47QI2"
+  },
+  {
+   "uid": "f46eNuDGPWZGJZmXEEouqQL5fP63",
+   "name": "LUKE"
+  },
+  {
+   "uid": "7UBOBC3ahycOg95iCNLBs5LbyX93",
+   "name": "DOR"
+  },
+  {
+   "name": "HAELIN",
+   "uid": "lv14MbnawpVMhMSTONQv4icOU4O2"
+  },
+  {
+   "uid": "Io6SU6dQRMX71krO7nK49n54tOA2",
+   "name": "MIA"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "YAMIN",
+     "votes": [
+      "HAELIN",
+      "MIA",
+      "LUKE"
+     ],
+     "team": [
+      "LUKE",
+      "MIA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "LUKE",
+    "MIA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LUKE",
+    "MIA",
+    "YAMIN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LUKE",
+      "MIA",
+      "YAMIN"
+     ],
+     "proposer": "LUKE",
+     "votes": [
+      "YAMIN",
+      "LUKE",
+      "HAELIN"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "DOR",
+    "LUKE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "DOR",
+      "LUKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "DOR",
+     "votes": [
+      "MIA",
+      "LUKE",
+      "DOR"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "LUKE",
+      "MIA",
+      "HAELIN"
+     ],
+     "votes": [
+      "HAELIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "HAELIN"
+    },
+    {
+     "team": [
+      "LUKE",
+      "DOR",
+      "MIA"
+     ],
+     "proposer": "MIA",
+     "state": "APPROVED",
+     "votes": [
+      "DOR",
+      "LUKE",
+      "MIA"
+     ]
+    }
+   ],
+   "team": [
+    "LUKE",
+    "DOR",
+    "MIA"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "YAMIN"
+     ],
+     "proposer": "YAMIN",
+     "team": [
+      "LUKE",
+      "DOR",
+      "YAMIN"
+     ]
+    },
+    {
+     "proposer": "LUKE",
+     "state": "REJECTED",
+     "votes": [
+      "MIA",
+      "HAELIN"
+     ],
+     "team": [
+      "MIA",
+      "HAELIN",
+      "LUKE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LUKE",
+      "HAELIN",
+      "DOR"
+     ],
+     "proposer": "DOR",
+     "votes": [
+      "DOR",
+      "YAMIN"
+     ]
+    },
+    {
+     "proposer": "HAELIN",
+     "state": "APPROVED",
+     "votes": [
+      "YAMIN",
+      "DOR",
+      "MIA",
+      "LUKE",
+      "HAELIN"
+     ],
+     "team": [
+      "HAELIN",
+      "LUKE",
+      "MIA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "HAELIN",
+    "LUKE",
+    "MIA"
+   ]
+  }
+ ]
+}

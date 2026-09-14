@@ -1,0 +1,282 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "name": "PRISCILLA",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "JEDDYBEAR",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "OFB",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DAN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "AKEY"
+   },
+   {
+    "name": "ANI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "PRIS"
+   }
+  ],
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "ANI": true,
+    "JEDDYBEAR": true
+   },
+   {
+    "PRISCILLA": false,
+    "DAN": true,
+    "JEDDYBEAR": true
+   },
+   {
+    "AKEY": false,
+    "ANI": true,
+    "DAN": true
+   },
+   {
+    "JEDDYBEAR": true,
+    "DAN": true,
+    "OFB": true,
+    "ANI": true
+   },
+   {
+    "JEDDYBEAR": true,
+    "ANI": true,
+    "OFB": true,
+    "DAN": true
+   }
+  ],
+  "assassinated": "DAN",
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1587087611,
+  "_nanoseconds": 397000000
+ },
+ "players": [
+  {
+   "uid": "YZzntj23SuUnA4c6LRshAfSAT7w2",
+   "name": "OFB"
+  },
+  {
+   "uid": "PRGBVRgDiFPcGJcWrotW0SU66DD2",
+   "name": "DAN"
+  },
+  {
+   "name": "AKEY",
+   "uid": "vMscgm6L3fae2v6Xtic8cQM8kaj2"
+  },
+  {
+   "uid": "D6D4S8rWBGMTklNivnLwh91pCSy2",
+   "name": "JEDDYBEAR"
+  },
+  {
+   "name": "ANI",
+   "uid": "bjFKLQNitZPNMOUqcx7v2KSWoae2"
+  },
+  {
+   "name": "PRISCILLA",
+   "uid": "uoC3pElQmNYvZY8hiusdsczF3bD2"
+  },
+  {
+   "uid": "UtKzteFc8ATCfGJzxsbmyAYEclq1",
+   "name": "PRIS"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ANI",
+    "JEDDYBEAR"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ANI",
+      "JEDDYBEAR"
+     ],
+     "proposer": "PRIS",
+     "votes": [
+      "JEDDYBEAR",
+      "OFB",
+      "DAN",
+      "AKEY",
+      "ANI",
+      "PRIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JEDDYBEAR",
+      "OFB",
+      "DAN",
+      "AKEY",
+      "ANI",
+      "PRIS",
+      "PRISCILLA"
+     ],
+     "state": "APPROVED",
+     "proposer": "OFB",
+     "team": [
+      "PRISCILLA",
+      "DAN",
+      "JEDDYBEAR"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "PRISCILLA",
+    "DAN",
+    "JEDDYBEAR"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "DAN",
+    "ANI",
+    "AKEY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DAN",
+     "votes": [
+      "DAN",
+      "AKEY",
+      "ANI",
+      "PRIS",
+      "PRISCILLA",
+      "JEDDYBEAR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DAN",
+      "ANI",
+      "AKEY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "JEDDYBEAR",
+    "OFB",
+    "ANI",
+    "DAN"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "numFails": 0,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "PRISCILLA",
+      "PRIS",
+      "AKEY",
+      "ANI"
+     ],
+     "state": "REJECTED",
+     "proposer": "AKEY",
+     "votes": [
+      "PRISCILLA",
+      "JEDDYBEAR"
+     ]
+    },
+    {
+     "proposer": "JEDDYBEAR",
+     "votes": [
+      "PRISCILLA",
+      "JEDDYBEAR",
+      "OFB",
+      "DAN",
+      "AKEY",
+      "ANI",
+      "PRIS"
+     ],
+     "team": [
+      "JEDDYBEAR",
+      "OFB",
+      "ANI",
+      "DAN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "DAN",
+      "ANI",
+      "PRIS",
+      "JEDDYBEAR",
+      "OFB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "OFB",
+      "DAN",
+      "JEDDYBEAR",
+      "ANI"
+     ],
+     "proposer": "ANI"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "OFB",
+    "DAN",
+    "JEDDYBEAR",
+    "ANI"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587088262,
+  "_nanoseconds": 659231000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

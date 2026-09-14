@@ -1,0 +1,202 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MATT",
+      "DREW"
+     ],
+     "votes": [
+      "MATT",
+      "DREW",
+      "YB",
+      "HIHO"
+     ],
+     "proposer": "MATT"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MATT",
+    "DREW"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "HIHO",
+     "votes": [
+      "MATT",
+      "HIHO",
+      "DREW"
+     ],
+     "team": [
+      "HIHO",
+      "MATT",
+      "DREW"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HIHO",
+    "MATT",
+    "DREW"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "MATT",
+      "YB",
+      "DREW",
+      "CONNOR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CONNOR",
+      "DREW"
+     ],
+     "proposer": "CONNOR"
+    }
+   ],
+   "team": [
+    "CONNOR",
+    "DREW"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DREW",
+      "CONNOR",
+      "YB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YB",
+      "HIHO",
+      "DREW"
+     ],
+     "proposer": "YB"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "YB",
+    "HIHO",
+    "DREW"
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "MATT": true,
+    "DREW": true
+   },
+   {
+    "HIHO": false,
+    "DREW": true,
+    "MATT": true
+   },
+   {
+    "DREW": true,
+    "CONNOR": false
+   },
+   {
+    "YB": true,
+    "DREW": true,
+    "HIHO": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "MATT",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "CONNOR",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "HIHO",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "DREW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "YB",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1604295416,
+  "_nanoseconds": 722000000
+ },
+ "timeFinished": {
+  "_seconds": 1604295724,
+  "_nanoseconds": 217000000
+ },
+ "players": [
+  {
+   "name": "CONNOR",
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83"
+  },
+  {
+   "uid": "dBbDTVYBVOX3bdMaEHBbhW01IIB3",
+   "name": "YB"
+  },
+  {
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1",
+   "name": "DREW"
+  },
+  {
+   "uid": "A9xlw7YLwbXqfmEdFQA6XhlUMN92",
+   "name": "MATT"
+  },
+  {
+   "uid": "hNDXXlCKDHQa8UTBhJk0OtIP7Dq2",
+   "name": "HIHO"
+  }
+ ]
+}

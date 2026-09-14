@@ -1,0 +1,306 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANITA",
+    "assassin": false
+   },
+   {
+    "name": "ELLIOT",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHARLIE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "STEVEN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SGTNUTBUTT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JUAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "STEVE",
+    "role": "EVIL MINION",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "STEVEN": true,
+    "SGTNUTBUTT": true
+   },
+   {
+    "SGTNUTBUTT": true,
+    "ELLIOT": true,
+    "STEVEN": false
+   },
+   {
+    "ANITA": true,
+    "ELLIOT": false,
+    "CHARLIE": true
+   },
+   {
+    "SGTNUTBUTT": true,
+    "CHARLIE": true,
+    "JUAN": true,
+    "STEVE": false
+   },
+   {
+    "STEVEN": false,
+    "CHARLIE": true,
+    "SGTNUTBUTT": true,
+    "JUAN": true
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "STEVEN",
+    "SGTNUTBUTT"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "STEVEN",
+     "votes": [
+      "CHARLIE",
+      "ANITA",
+      "ELLIOT",
+      "STEVE",
+      "JUAN",
+      "STEVEN"
+     ],
+     "team": [
+      "STEVEN",
+      "SGTNUTBUTT"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "STEVEN",
+    "ELLIOT",
+    "SGTNUTBUTT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "STEVEN",
+      "ELLIOT",
+      "SGTNUTBUTT"
+     ],
+     "proposer": "ELLIOT",
+     "votes": [
+      "STEVE",
+      "ANITA",
+      "ELLIOT",
+      "STEVEN",
+      "CHARLIE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "STEVE",
+     "team": [
+      "ANITA",
+      "STEVE",
+      "STEVEN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "STEVEN",
+      "ANITA",
+      "STEVE"
+     ]
+    },
+    {
+     "proposer": "ANITA",
+     "state": "APPROVED",
+     "team": [
+      "ANITA",
+      "ELLIOT",
+      "CHARLIE"
+     ],
+     "votes": [
+      "ELLIOT",
+      "STEVE",
+      "CHARLIE",
+      "ANITA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "ANITA",
+    "ELLIOT",
+    "CHARLIE"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JUAN",
+      "SGTNUTBUTT",
+      "CHARLIE",
+      "STEVE"
+     ],
+     "proposer": "SGTNUTBUTT",
+     "votes": [
+      "ANITA",
+      "SGTNUTBUTT",
+      "JUAN",
+      "CHARLIE",
+      "STEVE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JUAN",
+    "SGTNUTBUTT",
+    "CHARLIE",
+    "STEVE"
+   ],
+   "numFails": 1,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JUAN",
+     "votes": [
+      "ELLIOT",
+      "JUAN",
+      "STEVE"
+     ],
+     "team": [
+      "CHARLIE",
+      "SGTNUTBUTT",
+      "STEVE",
+      "JUAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHARLIE",
+      "STEVE",
+      "ELLIOT"
+     ],
+     "team": [
+      "JUAN",
+      "CHARLIE",
+      "ELLIOT",
+      "SGTNUTBUTT"
+     ],
+     "proposer": "CHARLIE"
+    },
+    {
+     "proposer": "STEVEN",
+     "state": "APPROVED",
+     "votes": [
+      "ANITA",
+      "SGTNUTBUTT",
+      "STEVEN",
+      "CHARLIE",
+      "JUAN"
+     ],
+     "team": [
+      "STEVEN",
+      "CHARLIE",
+      "SGTNUTBUTT",
+      "JUAN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "STEVEN",
+    "CHARLIE",
+    "SGTNUTBUTT",
+    "JUAN"
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "JUAN",
+   "uid": "wXx4DMlFSlYx5hOl8huaU6elO5V2"
+  },
+  {
+   "uid": "CWZvYZ848AMvHmHahztQJfQXkjn1",
+   "name": "CHARLIE"
+  },
+  {
+   "uid": "PEJpthLNhheVoFZFk0lrZuZ4x4m1",
+   "name": "STEVEN"
+  },
+  {
+   "name": "ELLIOT",
+   "uid": "zET7OYDt8cUzNbhrumGmlLiRnIw1"
+  },
+  {
+   "name": "STEVE",
+   "uid": "TLhKC1ALKzfbU5xjBdoMgtp3itl1"
+  },
+  {
+   "uid": "joO2whPLeXhmnYUdCz1bwz95xKt2",
+   "name": "ANITA"
+  },
+  {
+   "name": "SGTNUTBUTT",
+   "uid": "BWez4J8VXddI7Ig1kQjsIPlx9qh1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1608669548,
+  "_nanoseconds": 25000000
+ },
+ "timeCreated": {
+  "_seconds": 1608668498,
+  "_nanoseconds": 323000000
+ }
+}

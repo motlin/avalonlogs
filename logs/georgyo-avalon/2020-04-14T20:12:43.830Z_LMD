@@ -1,0 +1,206 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "UWUWUWU",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "FULLMETAL",
+    "assassin": false
+   },
+   {
+    "name": "EREN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "YAMAHA"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "AD"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "UWUWUWU": true,
+    "AD": true
+   },
+   {
+    "YAMAHA": true,
+    "AD": false,
+    "UWUWUWU": true
+   },
+   {
+    "EREN": false,
+    "YAMAHA": true
+   },
+   {
+    "AD": false,
+    "UWUWUWU": true,
+    "YAMAHA": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "UWUWUWU",
+   "uid": "PEbvv1lPlkhbZz9FPWopOzRF6rF2"
+  },
+  {
+   "uid": "QAFACwIi5iVCSR30oBMKpafm07f1",
+   "name": "FULLMETAL"
+  },
+  {
+   "uid": "7HUOGrGuy9azjzxxu3u1X4D11KE2",
+   "name": "EREN"
+  },
+  {
+   "uid": "aRtexD045UaUsZTHepe4KghcKnv1",
+   "name": "YAMAHA"
+  },
+  {
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2",
+   "name": "AD"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586895163,
+  "_nanoseconds": 830000000
+ },
+ "timeFinished": {
+  "_seconds": 1586895434,
+  "_nanoseconds": 958719000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "AD",
+    "UWUWUWU"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "AD",
+     "votes": [
+      "AD",
+      "UWUWUWU",
+      "FULLMETAL",
+      "EREN",
+      "YAMAHA"
+     ],
+     "team": [
+      "AD",
+      "UWUWUWU"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "UWUWUWU",
+     "team": [
+      "AD",
+      "UWUWUWU",
+      "YAMAHA"
+     ],
+     "votes": [
+      "YAMAHA",
+      "AD",
+      "UWUWUWU",
+      "EREN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "AD",
+    "UWUWUWU",
+    "YAMAHA"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "YAMAHA",
+    "EREN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "YAMAHA",
+      "EREN"
+     ],
+     "proposer": "FULLMETAL",
+     "votes": [
+      "AD",
+      "UWUWUWU",
+      "FULLMETAL",
+      "EREN",
+      "YAMAHA"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "EREN",
+     "votes": [
+      "AD",
+      "FULLMETAL",
+      "EREN",
+      "YAMAHA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AD",
+      "YAMAHA",
+      "UWUWUWU"
+     ]
+    }
+   ],
+   "team": [
+    "AD",
+    "YAMAHA",
+    "UWUWUWU"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

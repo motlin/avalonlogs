@@ -1,0 +1,507 @@
+{
+ "timeCreated": {
+  "_seconds": 1586398388,
+  "_nanoseconds": 188000000
+ },
+ "players": [
+  {
+   "name": "ALEX",
+   "uid": "QODvuT833JNtPCbTsGwjTMGP9Sp1"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3"
+  },
+  {
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2",
+   "name": "ADAM"
+  },
+  {
+   "uid": "Ds3YQyl9z9Q2lRjNZFT21kj2s063",
+   "name": "DAN"
+  },
+  {
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2",
+   "name": "ANINDYA"
+  },
+  {
+   "uid": "B9Jzq7DdiKOFlir4hgkZOFsoVTx1",
+   "name": "YOURNAME"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "NIKHIL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "YOURNAME",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ADAM",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ALEX",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ANINDYA"
+   },
+   {
+    "assassin": false,
+    "name": "NIKOLAI",
+    "role": "OBERON"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "DAN": true,
+    "NIKHIL": true
+   },
+   {
+    "NIKOLAI": true,
+    "DAN": true,
+    "NIKHIL": true
+   },
+   {
+    "NIKHIL": true,
+    "ANINDYA": false,
+    "DAN": true
+   },
+   {
+    "NIKHIL": true,
+    "DAN": true,
+    "YOURNAME": false,
+    "NIKOLAI": false
+   },
+   {
+    "ALEX": true,
+    "YOURNAME": false,
+    "ADAM": true,
+    "NIKOLAI": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "NIKHIL",
+    "DAN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DAN",
+      "ANINDYA"
+     ],
+     "team": [
+      "ANINDYA",
+      "DAN"
+     ],
+     "proposer": "ANINDYA",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "YOURNAME",
+      "NIKHIL"
+     ],
+     "proposer": "YOURNAME",
+     "votes": [
+      "YOURNAME"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ADAM"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX"
+     ],
+     "team": [
+      "ALEX",
+      "NIKHIL"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALEX"
+    },
+    {
+     "proposer": "NIKHIL",
+     "votes": [
+      "NIKHIL",
+      "YOURNAME",
+      "ADAM",
+      "ALEX",
+      "DAN",
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKHIL",
+      "DAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ADAM"
+     ],
+     "proposer": "ADAM",
+     "team": [
+      "NIKHIL",
+      "ADAM",
+      "DAN"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "YOURNAME"
+     ],
+     "proposer": "DAN",
+     "team": [
+      "DAN",
+      "NIKHIL",
+      "YOURNAME"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ANINDYA",
+      "DAN",
+      "NIKHIL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DAN",
+      "ANINDYA"
+     ],
+     "proposer": "ANINDYA"
+    },
+    {
+     "votes": [
+      "YOURNAME"
+     ],
+     "team": [
+      "YOURNAME",
+      "NIKOLAI",
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "proposer": "YOURNAME"
+    },
+    {
+     "team": [
+      "NIKHIL",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKHIL",
+      "YOURNAME",
+      "ADAM",
+      "ALEX",
+      "DAN",
+      "ANINDYA",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "NIKHIL",
+    "DAN",
+    "NIKOLAI"
+   ]
+  },
+  {
+   "team": [
+    "ANINDYA",
+    "DAN",
+    "NIKHIL"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "ALEX",
+      "DAN"
+     ],
+     "proposer": "ALEX",
+     "votes": [
+      "ALEX"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "NIKHIL",
+     "votes": [
+      "YOURNAME",
+      "DAN"
+     ],
+     "team": [
+      "ALEX",
+      "ADAM",
+      "YOURNAME"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ADAM"
+     ],
+     "team": [
+      "ADAM",
+      "DAN",
+      "NIKHIL"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIKHIL",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKHIL",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "proposer": "DAN"
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "YOURNAME",
+      "ADAM",
+      "ALEX",
+      "DAN",
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANINDYA",
+     "team": [
+      "ANINDYA",
+      "DAN",
+      "NIKHIL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "NIKHIL",
+      "YOURNAME",
+      "NIKOLAI"
+     ],
+     "team": [
+      "YOURNAME",
+      "NIKOLAI",
+      "NIKHIL",
+      "DAN"
+     ],
+     "proposer": "YOURNAME",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "DAN",
+      "NIKOLAI",
+      "YOURNAME"
+     ],
+     "team": [
+      "NIKOLAI",
+      "NIKHIL",
+      "DAN",
+      "YOURNAME"
+     ]
+    },
+    {
+     "proposer": "ALEX",
+     "team": [
+      "ALEX",
+      "NIKHIL",
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ALEX",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "YOURNAME",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKHIL",
+     "state": "APPROVED",
+     "team": [
+      "NIKHIL",
+      "DAN",
+      "YOURNAME",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "team": [
+    "NIKHIL",
+    "DAN",
+    "YOURNAME",
+    "NIKOLAI"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 2
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ADAM"
+     ],
+     "proposer": "ADAM",
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "DAN",
+      "ALEX",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "DAN",
+     "votes": [],
+     "team": [
+      "ALEX",
+      "ADAM",
+      "DAN",
+      "ANINDYA"
+     ]
+    },
+    {
+     "votes": [
+      "YOURNAME",
+      "ALEX",
+      "ANINDYA"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "team": [
+      "ANINDYA",
+      "YOURNAME",
+      "ADAM",
+      "NIKHIL"
+     ]
+    },
+    {
+     "proposer": "YOURNAME",
+     "state": "REJECTED",
+     "votes": [
+      "ALEX",
+      "NIKHIL",
+      "YOURNAME"
+     ],
+     "team": [
+      "YOURNAME",
+      "NIKHIL",
+      "ALEX",
+      "ADAM"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "YOURNAME",
+      "ALEX",
+      "ADAM"
+     ],
+     "votes": [
+      "ANINDYA",
+      "NIKOLAI",
+      "YOURNAME",
+      "ADAM"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIKOLAI"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "NIKOLAI",
+    "YOURNAME",
+    "ALEX",
+    "ADAM"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586399712,
+  "_nanoseconds": 305471000
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "ISHITA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "GRUP",
+    "assassin": false
+   },
+   {
+    "name": "SHRUST",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "VRAJESH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "NEERJA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "RAHUL",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "VRAJESH": true,
+    "ISHITA": true
+   },
+   {
+    "NEERJA": true,
+    "RAHUL": true,
+    "VRAJESH": true
+   },
+   {
+    "NEERJA": true,
+    "GRUP": false,
+    "SHRUST": true,
+    "ISHITA": true
+   },
+   {
+    "GRUP": false,
+    "NEERJA": true,
+    "SHRUST": true
+   },
+   {
+    "VRAJESH": true,
+    "SHRUST": true,
+    "ISHITA": true,
+    "RAHUL": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "GRUP",
+      "SHRUST",
+      "VRAJESH",
+      "NEERJA",
+      "ISHITA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "VRAJESH",
+      "ISHITA"
+     ],
+     "proposer": "ISHITA"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "VRAJESH",
+    "ISHITA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "RAHUL",
+    "VRAJESH",
+    "NEERJA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ISHITA",
+      "VRAJESH",
+      "SHRUST"
+     ],
+     "votes": [
+      "VRAJESH",
+      "RAHUL",
+      "ISHITA"
+     ],
+     "proposer": "VRAJESH"
+    },
+    {
+     "team": [
+      "RAHUL",
+      "VRAJESH",
+      "NEERJA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHRUST",
+      "VRAJESH",
+      "RAHUL",
+      "ISHITA",
+      "GRUP"
+     ],
+     "proposer": "SHRUST"
+    }
+   ]
+  },
+  {
+   "team": [
+    "GRUP",
+    "SHRUST",
+    "NEERJA",
+    "ISHITA"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "GRUP",
+     "votes": [
+      "GRUP",
+      "SHRUST",
+      "VRAJESH",
+      "NEERJA",
+      "ISHITA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GRUP",
+      "SHRUST",
+      "NEERJA",
+      "ISHITA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "NEERJA",
+    "SHRUST",
+    "GRUP"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ISHITA"
+     ],
+     "team": [
+      "ISHITA",
+      "NEERJA",
+      "GRUP"
+     ],
+     "proposer": "RAHUL",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "NEERJA",
+      "SHRUST",
+      "GRUP"
+     ],
+     "state": "APPROVED",
+     "proposer": "NEERJA",
+     "votes": [
+      "ISHITA",
+      "GRUP",
+      "VRAJESH",
+      "NEERJA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "RAHUL",
+    "SHRUST",
+    "VRAJESH",
+    "ISHITA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "RAHUL",
+      "ISHITA",
+      "VRAJESH"
+     ],
+     "team": [
+      "VRAJESH",
+      "SHRUST",
+      "NEERJA",
+      "RAHUL"
+     ],
+     "proposer": "ISHITA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "VRAJESH",
+      "RAHUL",
+      "ISHITA",
+      "GRUP"
+     ],
+     "proposer": "VRAJESH",
+     "state": "APPROVED",
+     "team": [
+      "RAHUL",
+      "SHRUST",
+      "VRAJESH",
+      "ISHITA"
+     ]
+    }
+   ],
+   "numFails": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587239673,
+  "_nanoseconds": 855000000
+ },
+ "players": [
+  {
+   "name": "GRUP",
+   "uid": "jNdgxUh2PrYkIKw6jpZCG34HHCS2"
+  },
+  {
+   "name": "RAHUL",
+   "uid": "bZfzW8ZkAJZKOFoDZbEjagkjG0A3"
+  },
+  {
+   "uid": "sotSJXCUgQffyi9X30W6wK7xrRA2",
+   "name": "NEERJA"
+  },
+  {
+   "name": "ISHITA",
+   "uid": "OkVuCpjxkaNI5EFx8qvRce8HdQy2"
+  },
+  {
+   "name": "VRAJESH",
+   "uid": "HaygdxaELpUxVHxgwYtNzqqWRaa2"
+  },
+  {
+   "name": "SHRUST",
+   "uid": "lshDAcszXAXpbJ9vwBSC4F8hgdp1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587240272,
+  "_nanoseconds": 914000000
+ }
+}

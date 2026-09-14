@@ -1,0 +1,240 @@
+{
+ "players": [
+  {
+   "uid": "L61w7jnlQdVFxG9MhRjXrzpxomq1",
+   "name": "GRAMMALAMB"
+  },
+  {
+   "name": "TIM",
+   "uid": "LFhha6pI3PUI6Mv1pRL8ZfLSITn2"
+  },
+  {
+   "uid": "JiqRkjUvm5c5bGd4UXWVmXq7AOJ3",
+   "name": "KIMBERLY"
+  },
+  {
+   "name": "JERBEAR",
+   "uid": "RWDqp3zQNIRQBKSXkeXZB2DU7Eq1"
+  },
+  {
+   "uid": "5RXeJkvibWZyZl4pAnxFbqTAhIq2",
+   "name": "EMILY"
+  },
+  {
+   "name": "ZACH",
+   "uid": "wJdLJOchsOeukEqBSC8hAWR7THj2"
+  },
+  {
+   "name": "KELSWELS",
+   "uid": "NflCBCnEBWcheZNVEDuoEj4exdu2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585188340,
+  "_nanoseconds": 557491000
+ },
+ "outcome": {
+  "assassinated": "EMILY",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "EMILY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GRAMMALAMB"
+   },
+   {
+    "assassin": true,
+    "name": "ZACH",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JERBEAR",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "KIMBERLY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KELSWELS",
+    "role": "OBERON"
+   },
+   {
+    "name": "TIM",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "EMILY": true,
+    "TIM": true
+   },
+   {
+    "GRAMMALAMB": true,
+    "KIMBERLY": true,
+    "EMILY": true
+   },
+   {
+    "TIM": true,
+    "EMILY": true,
+    "KIMBERLY": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585187810,
+  "_nanoseconds": 603000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "EMILY",
+    "TIM"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "EMILY",
+      "TIM"
+     ],
+     "state": "APPROVED",
+     "proposer": "EMILY",
+     "votes": [
+      "KIMBERLY",
+      "KELSWELS",
+      "TIM",
+      "EMILY",
+      "GRAMMALAMB",
+      "JERBEAR"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "KIMBERLY",
+    "EMILY",
+    "GRAMMALAMB"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ZACH",
+      "KELSWELS",
+      "GRAMMALAMB"
+     ],
+     "proposer": "ZACH",
+     "votes": [
+      "KELSWELS",
+      "ZACH"
+     ]
+    },
+    {
+     "votes": [
+      "KELSWELS",
+      "ZACH"
+     ],
+     "proposer": "KELSWELS",
+     "state": "REJECTED",
+     "team": [
+      "KELSWELS",
+      "ZACH",
+      "EMILY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "GRAMMALAMB",
+      "TIM",
+      "JERBEAR"
+     ],
+     "votes": [
+      "GRAMMALAMB",
+      "ZACH",
+      "JERBEAR"
+     ],
+     "proposer": "GRAMMALAMB"
+    },
+    {
+     "votes": [
+      "KIMBERLY",
+      "TIM",
+      "EMILY",
+      "GRAMMALAMB"
+     ],
+     "state": "APPROVED",
+     "proposer": "TIM",
+     "team": [
+      "KIMBERLY",
+      "EMILY",
+      "GRAMMALAMB"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "TIM",
+    "KIMBERLY",
+    "EMILY"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "KIMBERLY",
+     "state": "APPROVED",
+     "votes": [
+      "JERBEAR",
+      "KIMBERLY",
+      "TIM",
+      "EMILY",
+      "GRAMMALAMB",
+      "ZACH"
+     ],
+     "team": [
+      "TIM",
+      "KIMBERLY",
+      "EMILY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "timeCreated": {
+  "_seconds": 1593279697,
+  "_nanoseconds": 54000000
+ },
+ "timeFinished": {
+  "_seconds": 1593281487,
+  "_nanoseconds": 72000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MATT": true,
+    "CALEB": true
+   },
+   {
+    "RONG": false,
+    "GLEN": true,
+    "GEORGE": true
+   },
+   {
+    "MATT": true,
+    "RONG": true
+   },
+   {
+    "CALEB": true,
+    "RONG": false,
+    "MATT": true
+   },
+   {
+    "RONG": false,
+    "MATT": true,
+    "GEORGE": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "GLEN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CALEB",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "name": "GEORGE",
+    "assassin": true
+   },
+   {
+    "name": "RONG",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "MATT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "Ef6cX3pNPRQb5NvGRtj08e7haip1",
+   "name": "RONG"
+  },
+  {
+   "uid": "68FMpefMPcYPooRQbRDrqeaI4t83",
+   "name": "GLEN"
+  },
+  {
+   "name": "GEORGE",
+   "uid": "gGmDTxLq3fdtYYJCJz0GhZ03Mli2"
+  },
+  {
+   "name": "MATT",
+   "uid": "RikkUOlzDAcNnP9fgpVIppyFVzj1"
+  },
+  {
+   "name": "CALEB",
+   "uid": "vR8axQOM9bVBXnew4eW2eUcrT5u2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "GLEN",
+      "CALEB",
+      "GEORGE"
+     ],
+     "team": [
+      "MATT",
+      "CALEB"
+     ],
+     "proposer": "MATT"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "MATT",
+    "CALEB"
+   ]
+  },
+  {
+   "team": [
+    "RONG",
+    "GLEN",
+    "GEORGE"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CALEB",
+     "votes": [
+      "GLEN",
+      "CALEB",
+      "RONG"
+     ],
+     "team": [
+      "RONG",
+      "GLEN",
+      "GEORGE"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RONG",
+      "MATT",
+      "GLEN",
+      "CALEB",
+      "GEORGE"
+     ],
+     "team": [
+      "RONG",
+      "MATT"
+     ],
+     "proposer": "RONG"
+    }
+   ],
+   "team": [
+    "RONG",
+    "MATT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "GLEN",
+      "CALEB",
+      "RONG"
+     ],
+     "proposer": "GLEN",
+     "votes": [
+      "GLEN",
+      "RONG"
+     ]
+    },
+    {
+     "team": [
+      "GEORGE",
+      "MATT",
+      "CALEB"
+     ],
+     "proposer": "GEORGE",
+     "votes": [
+      "MATT",
+      "GEORGE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MATT",
+      "RONG"
+     ],
+     "team": [
+      "MATT",
+      "GEORGE",
+      "RONG"
+     ],
+     "proposer": "MATT"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CALEB",
+      "RONG"
+     ],
+     "proposer": "CALEB",
+     "team": [
+      "CALEB",
+      "GEORGE",
+      "RONG"
+     ]
+    },
+    {
+     "team": [
+      "RONG",
+      "CALEB",
+      "MATT"
+     ],
+     "state": "APPROVED",
+     "proposer": "RONG",
+     "votes": [
+      "MATT",
+      "CALEB",
+      "GEORGE",
+      "RONG"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "RONG",
+    "CALEB",
+    "MATT"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "RONG",
+    "GEORGE",
+    "MATT"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "GLEN",
+      "CALEB",
+      "GEORGE"
+     ],
+     "proposer": "GLEN",
+     "state": "REJECTED",
+     "votes": [
+      "GLEN",
+      "RONG"
+     ]
+    },
+    {
+     "team": [
+      "GEORGE",
+      "MATT",
+      "CALEB"
+     ],
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "GEORGE"
+    },
+    {
+     "team": [
+      "MATT",
+      "GLEN",
+      "GEORGE"
+     ],
+     "state": "REJECTED",
+     "proposer": "MATT",
+     "votes": [
+      "MATT"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CALEB",
+     "votes": [
+      "RONG"
+     ],
+     "team": [
+      "CALEB",
+      "GEORGE",
+      "RONG"
+     ]
+    },
+    {
+     "votes": [
+      "MATT",
+      "CALEB",
+      "RONG"
+     ],
+     "team": [
+      "RONG",
+      "GEORGE",
+      "MATT"
+     ],
+     "proposer": "RONG",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "outcome": {
+  "assassinated": "GARWAY",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "GARWAY": true,
+    "TW": true
+   },
+   {
+    "JANE": true,
+    "GARWAY": true,
+    "DEN": true
+   },
+   {
+    "GARWAY": true,
+    "TW": true,
+    "DEN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LEMONDE",
+    "assassin": false
+   },
+   {
+    "name": "DEN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "GARWAY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "WPK",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "KAREN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JANE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "TW"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "TW",
+   "uid": "nx7aEm995Ce4D5ArXboCi9jaspe2"
+  },
+  {
+   "name": "GARWAY",
+   "uid": "PPuz8R0IaOhNlECPOTr0ly3BBuH2"
+  },
+  {
+   "name": "DEN",
+   "uid": "v7eo6La1gVNjpQjkJhxy3TyruM83"
+  },
+  {
+   "name": "JANE",
+   "uid": "MFfhDyixB7StsvNBrsi0JVhFdGF3"
+  },
+  {
+   "name": "LEMONDE",
+   "uid": "bNvqK8rbvcPmnH4v4tSWeVXdqpa2"
+  },
+  {
+   "uid": "T2vZw9hhF3gBEOU9NPFNApTMmDn1",
+   "name": "WPK"
+  },
+  {
+   "uid": "XQRfeUjPAcMUK9yONH5DUxWKNYI2",
+   "name": "KAREN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1608603761,
+  "_nanoseconds": 514000000
+ },
+ "timeFinished": {
+  "_seconds": 1608604566,
+  "_nanoseconds": 263000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TW",
+      "GARWAY"
+     ],
+     "proposer": "TW",
+     "votes": [
+      "WPK",
+      "GARWAY",
+      "TW",
+      "JANE",
+      "LEMONDE",
+      "DEN",
+      "KAREN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "TW",
+    "GARWAY"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "GARWAY",
+    "DEN",
+    "JANE"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "GARWAY",
+      "DEN",
+      "JANE"
+     ],
+     "state": "APPROVED",
+     "proposer": "GARWAY",
+     "votes": [
+      "LEMONDE",
+      "KAREN",
+      "GARWAY",
+      "DEN"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DEN",
+      "JANE",
+      "KAREN",
+      "LEMONDE",
+      "GARWAY",
+      "TW"
+     ],
+     "team": [
+      "DEN",
+      "TW",
+      "GARWAY"
+     ],
+     "proposer": "DEN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "DEN",
+    "TW",
+    "GARWAY"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

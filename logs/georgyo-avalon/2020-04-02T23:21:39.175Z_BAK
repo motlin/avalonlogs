@@ -1,0 +1,266 @@
+{
+ "outcome": {
+  "assassinated": "JOHN",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JOHN",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "JONO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ISABEL",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "KAREN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JIMMY"
+   },
+   {
+    "name": "KIM",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ELLEN",
+    "assassin": false
+   },
+   {
+    "name": "ALEX",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KEVIN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "KAREN": false,
+    "ALEX": true,
+    "ISABEL": true
+   },
+   {
+    "ALEX": true,
+    "ELLEN": true,
+    "JOHN": true,
+    "JIMMY": true
+   },
+   {
+    "JIMMY": true,
+    "JOHN": true,
+    "KIM": true,
+    "ALEX": true
+   },
+   {
+    "JOHN": true,
+    "ELLEN": true,
+    "ALEX": true,
+    "JIMMY": true,
+    "KIM": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585869699,
+  "_nanoseconds": 175000000
+ },
+ "missions": [
+  {
+   "team": [
+    "KAREN",
+    "ALEX",
+    "ISABEL"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "KAREN",
+      "ALEX",
+      "ISABEL"
+     ],
+     "proposer": "KAREN",
+     "votes": [
+      "ELLEN",
+      "ALEX",
+      "KEVIN",
+      "JONO",
+      "ISABEL",
+      "KAREN",
+      "KIM"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ALEX",
+    "ELLEN",
+    "JOHN",
+    "JIMMY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "ELLEN",
+      "JOHN",
+      "JIMMY"
+     ],
+     "proposer": "JIMMY",
+     "votes": [
+      "ALEX",
+      "JOHN",
+      "JONO",
+      "ISABEL",
+      "KAREN",
+      "JIMMY",
+      "KIM"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "JIMMY",
+    "JOHN",
+    "ALEX",
+    "KIM"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JIMMY",
+      "JOHN",
+      "ALEX",
+      "KIM"
+     ],
+     "proposer": "JOHN",
+     "votes": [
+      "KIM",
+      "ELLEN",
+      "ALEX",
+      "JOHN",
+      "JONO",
+      "KAREN",
+      "JIMMY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "JOHN",
+      "JIMMY",
+      "KIM",
+      "ELLEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KIM",
+      "ELLEN",
+      "ALEX",
+      "JOHN",
+      "KAREN",
+      "JIMMY"
+     ],
+     "proposer": "ALEX"
+    }
+   ],
+   "team": [
+    "ALEX",
+    "JOHN",
+    "JIMMY",
+    "KIM",
+    "ELLEN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "players": [
+  {
+   "name": "KAREN",
+   "uid": "lgFShAkDmheF0VFLHKSq4VuS5LA3"
+  },
+  {
+   "name": "JIMMY",
+   "uid": "mKRHSdAI67aMae7RUWeiCfKMSvc2"
+  },
+  {
+   "name": "JOHN",
+   "uid": "TIuhZf7MDVfSXA3sCwLZqVEbFkR2"
+  },
+  {
+   "uid": "OfSnvCcZe5anEUWFdUqNf9PvnUK2",
+   "name": "ALEX"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "A4b62HJDANYXomWcxHAGBDw4Fs13"
+  },
+  {
+   "uid": "ohDZ9CKryxQGcPY3PIDpMdFsjs52",
+   "name": "ISABEL"
+  },
+  {
+   "name": "ELLEN",
+   "uid": "tbMyQmKrTRMhdTVPWhyPZYzW4h02"
+  },
+  {
+   "uid": "TvxOE5lWKGQpVdOH4O740rTzabT2",
+   "name": "JONO"
+  },
+  {
+   "name": "KIM",
+   "uid": "a0Z2gAqTsNXCCXuC0YDLh48PhJ63"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585870925,
+  "_nanoseconds": 92665000
+ }
+}

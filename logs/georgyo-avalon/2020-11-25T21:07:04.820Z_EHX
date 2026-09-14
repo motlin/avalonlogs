@@ -1,0 +1,302 @@
+{
+ "players": [
+  {
+   "name": "JULIE",
+   "uid": "vW4wNkSBNuZHfcUHLu5hClAsLBf2"
+  },
+  {
+   "name": "KOUNE",
+   "uid": "LlEcgvmonLOZp784lTzUXXtE9C42"
+  },
+  {
+   "name": "HERVE",
+   "uid": "ElJry4npFwhffpPwTVVr1lNYXS22"
+  },
+  {
+   "uid": "d3DqQ44PkAX267PqdAHM1ymmXmw2",
+   "name": "STEPHANE"
+  },
+  {
+   "name": "ANTOINE",
+   "uid": "xlFldH3u2vSyHdP0JXXHRfTceko1"
+  },
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "name": "SEBD",
+   "uid": "0itA0REX23RNFXJlO0s5xslUoLr1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "KOUNE": true,
+    "SEBD": true
+   },
+   {
+    "HERVE": false,
+    "JULIE": true,
+    "SEBD": true
+   },
+   {
+    "HERVE": false,
+    "ANTOINE": true,
+    "REGIS": false
+   },
+   {
+    "SEBD": true,
+    "JULIE": true,
+    "STEPHANE": false,
+    "KOUNE": true
+   },
+   {
+    "KOUNE": true,
+    "REGIS": false,
+    "SEBD": true,
+    "JULIE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "HERVE"
+   },
+   {
+    "name": "REGIS",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SEBD",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "STEPHANE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KOUNE",
+    "assassin": false
+   },
+   {
+    "name": "JULIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANTOINE"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "KOUNE",
+    "SEBD"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JULIE",
+      "KOUNE",
+      "HERVE",
+      "SEBD"
+     ],
+     "proposer": "KOUNE",
+     "state": "APPROVED",
+     "team": [
+      "KOUNE",
+      "SEBD"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HERVE",
+      "SEBD",
+      "JULIE",
+      "STEPHANE"
+     ],
+     "team": [
+      "HERVE",
+      "SEBD",
+      "JULIE"
+     ],
+     "proposer": "HERVE"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "HERVE",
+    "SEBD",
+    "JULIE"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "REGIS",
+    "ANTOINE",
+    "HERVE"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "ANTOINE",
+      "KOUNE",
+      "SEBD"
+     ],
+     "proposer": "STEPHANE",
+     "state": "REJECTED",
+     "votes": [
+      "KOUNE",
+      "HERVE",
+      "SEBD"
+     ]
+    },
+    {
+     "team": [
+      "ANTOINE",
+      "REGIS",
+      "JULIE"
+     ],
+     "proposer": "ANTOINE",
+     "state": "REJECTED",
+     "votes": [
+      "STEPHANE",
+      "ANTOINE",
+      "JULIE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "REGIS",
+      "ANTOINE",
+      "HERVE"
+     ],
+     "proposer": "REGIS",
+     "votes": [
+      "HERVE",
+      "ANTOINE",
+      "REGIS",
+      "STEPHANE",
+      "JULIE"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 1,
+   "team": [
+    "SEBD",
+    "KOUNE",
+    "STEPHANE",
+    "JULIE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KOUNE",
+      "STEPHANE",
+      "HERVE",
+      "SEBD",
+      "ANTOINE",
+      "JULIE"
+     ],
+     "state": "APPROVED",
+     "proposer": "SEBD",
+     "team": [
+      "SEBD",
+      "KOUNE",
+      "STEPHANE",
+      "JULIE"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "KOUNE",
+    "SEBD",
+    "JULIE",
+    "REGIS"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JULIE",
+     "votes": [
+      "REGIS",
+      "JULIE"
+     ],
+     "team": [
+      "JULIE",
+      "SEBD",
+      "KOUNE",
+      "REGIS"
+     ]
+    },
+    {
+     "votes": [
+      "REGIS",
+      "JULIE",
+      "KOUNE",
+      "SEBD"
+     ],
+     "proposer": "KOUNE",
+     "team": [
+      "KOUNE",
+      "SEBD",
+      "JULIE",
+      "REGIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1606338424,
+  "_nanoseconds": 820000000
+ },
+ "timeFinished": {
+  "_seconds": 1606340355,
+  "_nanoseconds": 443000000
+ }
+}

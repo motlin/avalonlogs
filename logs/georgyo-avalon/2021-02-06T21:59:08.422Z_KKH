@@ -1,0 +1,507 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "XOFF": true,
+    "LAURA": false,
+    "AMANDINE": false
+   },
+   {
+    "CHRISTIAN": true,
+    "FREDDY": false,
+    "XOFF": true,
+    "REGIS": true
+   },
+   {
+    "THIERRY": true,
+    "REGIS": true,
+    "XOFF": true,
+    "LEO": true
+   },
+   {
+    "XOFF": true,
+    "REGIS": true,
+    "LEO": true,
+    "FREDDY": false,
+    "THIERRY": true
+   },
+   {
+    "LEO": true,
+    "THIERRY": true,
+    "XOFF": true,
+    "REGIS": true,
+    "CHRISTIAN": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "name": "THIERRY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "AMANDINE"
+   },
+   {
+    "name": "LAURA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "REGIS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "XOFF",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHRISTIAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "FREDDY",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LEO",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "uid": "OhC8XQoMkYhYs1ImSJomxoAUsFF3",
+   "name": "AMANDINE"
+  },
+  {
+   "name": "LEO",
+   "uid": "T0Y1Ud9ZYVctLMkv8A0SPJ0revh2"
+  },
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "uid": "7c9cOvwPFJOcVYUQpJRXcFoBqon1",
+   "name": "XOFF"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1"
+  },
+  {
+   "name": "THIERRY",
+   "uid": "WVzYmb9yuJa8pVhJ7ejeK8F9XnC2"
+  },
+  {
+   "uid": "ASDKVcFeXKZkO0eVxwAGwYf1yhF2",
+   "name": "FREDDY"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "REGIS",
+      "THIERRY"
+     ],
+     "team": [
+      "XOFF",
+      "THIERRY",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "proposer": "XOFF"
+    },
+    {
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "THIERRY",
+      "CHRISTIAN",
+      "FREDDY"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "THIERRY",
+      "FREDDY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "REGIS",
+      "LEO",
+      "THIERRY"
+     ],
+     "team": [
+      "THIERRY",
+      "LEO",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "proposer": "THIERRY"
+    },
+    {
+     "team": [
+      "FREDDY",
+      "LAURA",
+      "AMANDINE"
+     ],
+     "state": "REJECTED",
+     "proposer": "FREDDY",
+     "votes": [
+      "THIERRY",
+      "FREDDY",
+      "AMANDINE"
+     ]
+    },
+    {
+     "proposer": "LAURA",
+     "votes": [
+      "LEO",
+      "CHRISTIAN",
+      "AMANDINE",
+      "REGIS",
+      "THIERRY",
+      "LAURA",
+      "FREDDY",
+      "XOFF"
+     ],
+     "team": [
+      "LAURA",
+      "AMANDINE",
+      "XOFF"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "team": [
+    "LAURA",
+    "AMANDINE",
+    "XOFF"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHRISTIAN",
+    "REGIS",
+    "XOFF",
+    "FREDDY"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AMANDINE"
+     ],
+     "proposer": "AMANDINE",
+     "team": [
+      "AMANDINE",
+      "LEO",
+      "REGIS",
+      "FREDDY"
+     ]
+    },
+    {
+     "team": [
+      "LEO",
+      "REGIS",
+      "THIERRY",
+      "FREDDY"
+     ],
+     "votes": [
+      "FREDDY",
+      "REGIS",
+      "THIERRY"
+     ],
+     "proposer": "LEO",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LEO",
+      "THIERRY",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LEO",
+      "THIERRY",
+      "FREDDY",
+      "XOFF"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LEO",
+      "REGIS",
+      "FREDDY",
+      "THIERRY"
+     ],
+     "votes": [
+      "THIERRY",
+      "XOFF",
+      "REGIS",
+      "LEO"
+     ],
+     "proposer": "XOFF"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LEO",
+      "CHRISTIAN",
+      "AMANDINE",
+      "FREDDY",
+      "THIERRY",
+      "XOFF",
+      "REGIS",
+      "LAURA"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "REGIS",
+      "XOFF",
+      "FREDDY"
+     ],
+     "proposer": "CHRISTIAN"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "THIERRY",
+     "state": "REJECTED",
+     "votes": [
+      "THIERRY"
+     ],
+     "team": [
+      "THIERRY",
+      "CHRISTIAN",
+      "LEO",
+      "FREDDY"
+     ]
+    },
+    {
+     "proposer": "FREDDY",
+     "votes": [
+      "REGIS",
+      "THIERRY",
+      "FREDDY"
+     ],
+     "team": [
+      "FREDDY",
+      "LEO",
+      "THIERRY",
+      "REGIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "FREDDY",
+      "REGIS",
+      "THIERRY"
+     ],
+     "proposer": "LAURA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LEO",
+      "REGIS",
+      "THIERRY",
+      "FREDDY"
+     ],
+     "votes": [
+      "REGIS"
+     ],
+     "proposer": "AMANDINE"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "THIERRY",
+      "LAURA",
+      "AMANDINE",
+      "XOFF",
+      "REGIS",
+      "LEO",
+      "FREDDY",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "LEO",
+      "REGIS",
+      "XOFF",
+      "THIERRY"
+     ],
+     "proposer": "LEO"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "LEO",
+    "REGIS",
+    "XOFF",
+    "THIERRY"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "REGIS",
+      "XOFF",
+      "LEO",
+      "THIERRY",
+      "FREDDY"
+     ],
+     "votes": [
+      "AMANDINE"
+     ],
+     "proposer": "REGIS",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LEO",
+      "REGIS",
+      "XOFF",
+      "THIERRY",
+      "FREDDY"
+     ],
+     "votes": [
+      "AMANDINE"
+     ],
+     "proposer": "XOFF"
+    },
+    {
+     "votes": [
+      "AMANDINE"
+     ],
+     "team": [
+      "LEO",
+      "REGIS",
+      "XOFF",
+      "CHRISTIAN",
+      "THIERRY"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "THIERRY",
+     "votes": [
+      "THIERRY",
+      "REGIS",
+      "CHRISTIAN",
+      "FREDDY",
+      "XOFF",
+      "LEO"
+     ],
+     "team": [
+      "THIERRY",
+      "REGIS",
+      "LEO",
+      "XOFF",
+      "FREDDY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "team": [
+    "THIERRY",
+    "REGIS",
+    "LEO",
+    "XOFF",
+    "FREDDY"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "LEO",
+      "REGIS",
+      "CHRISTIAN",
+      "XOFF",
+      "THIERRY"
+     ],
+     "votes": [
+      "REGIS",
+      "THIERRY",
+      "CHRISTIAN",
+      "FREDDY",
+      "XOFF",
+      "LEO"
+     ],
+     "state": "APPROVED",
+     "proposer": "FREDDY"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": [
+    "LEO",
+    "REGIS",
+    "CHRISTIAN",
+    "XOFF",
+    "THIERRY"
+   ],
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1612652982,
+  "_nanoseconds": 606000000
+ },
+ "timeCreated": {
+  "_seconds": 1612648748,
+  "_nanoseconds": 422000000
+ }
+}

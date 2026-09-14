@@ -1,0 +1,538 @@
+{
+ "timeFinished": {
+  "_seconds": 1585102345,
+  "_nanoseconds": 624827000
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "LEOPOLD": true,
+    "ROCKY": true,
+    "TYLER": true
+   },
+   {
+    "TYLER": true,
+    "ROCKY": true,
+    "JASON": false,
+    "JENNA": true
+   },
+   {
+    "JENNA": true,
+    "TINA": false,
+    "KAR": true,
+    "LEOPOLD": true
+   },
+   {
+    "TYLER": true,
+    "TINA": true,
+    "JENNA": true,
+    "ROCKY": true,
+    "LEOPOLD": true
+   },
+   {
+    "TINA": false,
+    "TYLER": true,
+    "ROCKY": true,
+    "LEOPOLD": true,
+    "JENNA": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "TINA",
+    "assassin": true
+   },
+   {
+    "name": "ROCKY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KIMBERLY",
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "JENNA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRIAN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "TOBY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "TYLER"
+   },
+   {
+    "assassin": false,
+    "name": "LEOPOLD",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KAR",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "JASON"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "LEOPOLD",
+    "ROCKY",
+    "TYLER"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JENNA",
+      "LEOPOLD"
+     ],
+     "proposer": "JENNA",
+     "state": "REJECTED",
+     "team": [
+      "JENNA",
+      "LEOPOLD",
+      "TYLER"
+     ]
+    },
+    {
+     "votes": [
+      "KAR"
+     ],
+     "state": "REJECTED",
+     "proposer": "KAR",
+     "team": [
+      "KAR",
+      "TINA",
+      "TOBY"
+     ]
+    },
+    {
+     "team": [
+      "KIMBERLY",
+      "TYLER",
+      "ROCKY"
+     ],
+     "proposer": "KIMBERLY",
+     "state": "REJECTED",
+     "votes": [
+      "TYLER"
+     ]
+    },
+    {
+     "votes": [
+      "TOBY",
+      "TYLER",
+      "LEOPOLD",
+      "KAR",
+      "JASON",
+      "ROCKY",
+      "KIMBERLY"
+     ],
+     "team": [
+      "LEOPOLD",
+      "ROCKY",
+      "TYLER"
+     ],
+     "proposer": "LEOPOLD",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LEOPOLD"
+     ],
+     "proposer": "TINA",
+     "state": "REJECTED",
+     "team": [
+      "TINA",
+      "LEOPOLD",
+      "TYLER",
+      "BRIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "TOBY",
+      "LEOPOLD",
+      "BRIAN",
+      "TYLER"
+     ],
+     "votes": [
+      "LEOPOLD",
+      "JENNA",
+      "TOBY"
+     ],
+     "proposer": "TOBY"
+    },
+    {
+     "votes": [
+      "JENNA",
+      "BRIAN",
+      "TOBY",
+      "LEOPOLD"
+     ],
+     "proposer": "BRIAN",
+     "team": [
+      "BRIAN",
+      "TYLER",
+      "LEOPOLD",
+      "JENNA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "TYLER",
+      "LEOPOLD",
+      "KAR"
+     ],
+     "team": [
+      "TYLER",
+      "ROCKY",
+      "LEOPOLD",
+      "KAR"
+     ],
+     "state": "REJECTED",
+     "proposer": "TYLER"
+    },
+    {
+     "proposer": "JASON",
+     "state": "APPROVED",
+     "team": [
+      "JASON",
+      "ROCKY",
+      "JENNA",
+      "TYLER"
+     ],
+     "votes": [
+      "TYLER",
+      "JASON",
+      "TINA",
+      "ROCKY",
+      "JENNA",
+      "BRIAN",
+      "TOBY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "JASON",
+    "ROCKY",
+    "JENNA",
+    "TYLER"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "KAR"
+     ],
+     "proposer": "ROCKY",
+     "state": "REJECTED",
+     "team": [
+      "ROCKY",
+      "TYLER",
+      "KIMBERLY",
+      "KAR"
+     ]
+    },
+    {
+     "team": [
+      "JENNA",
+      "TINA",
+      "LEOPOLD",
+      "KAR"
+     ],
+     "state": "REJECTED",
+     "proposer": "JENNA",
+     "votes": [
+      "LEOPOLD",
+      "KAR",
+      "TINA",
+      "JENNA"
+     ]
+    },
+    {
+     "votes": [
+      "JENNA",
+      "LEOPOLD",
+      "KAR",
+      "TINA"
+     ],
+     "proposer": "KAR",
+     "team": [
+      "JENNA",
+      "KAR",
+      "LEOPOLD",
+      "TINA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KIMBERLY",
+      "JENNA",
+      "KAR",
+      "TINA"
+     ],
+     "proposer": "KIMBERLY",
+     "votes": [
+      "KIMBERLY"
+     ]
+    },
+    {
+     "proposer": "LEOPOLD",
+     "team": [
+      "LEOPOLD",
+      "TINA",
+      "JENNA",
+      "KAR"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ROCKY",
+      "JENNA",
+      "BRIAN",
+      "TOBY",
+      "TYLER",
+      "LEOPOLD",
+      "KAR",
+      "TINA"
+     ]
+    }
+   ],
+   "team": [
+    "LEOPOLD",
+    "TINA",
+    "JENNA",
+    "KAR"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "TYLER",
+    "TINA",
+    "LEOPOLD",
+    "JENNA",
+    "ROCKY"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "TINA",
+     "team": [
+      "LEOPOLD",
+      "TYLER",
+      "TINA",
+      "JENNA",
+      "KIMBERLY"
+     ],
+     "votes": [
+      "KAR"
+     ]
+    },
+    {
+     "team": [
+      "TOBY",
+      "TYLER",
+      "BRIAN",
+      "TINA",
+      "JENNA"
+     ],
+     "proposer": "TOBY",
+     "state": "REJECTED",
+     "votes": [
+      "LEOPOLD",
+      "TOBY"
+     ]
+    },
+    {
+     "votes": [
+      "BRIAN",
+      "KAR"
+     ],
+     "proposer": "BRIAN",
+     "team": [
+      "TINA",
+      "TYLER",
+      "LEOPOLD",
+      "JENNA",
+      "BRIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "TYLER",
+     "votes": [
+      "JENNA",
+      "TOBY",
+      "TYLER",
+      "LEOPOLD",
+      "TINA",
+      "ROCKY"
+     ],
+     "team": [
+      "TYLER",
+      "TINA",
+      "LEOPOLD",
+      "JENNA",
+      "ROCKY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 5
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JENNA",
+    "LEOPOLD",
+    "TINA",
+    "ROCKY",
+    "TYLER"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LEOPOLD"
+     ],
+     "proposer": "JASON",
+     "state": "REJECTED",
+     "team": [
+      "JASON",
+      "ROCKY",
+      "TINA",
+      "LEOPOLD",
+      "TYLER"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ROCKY",
+     "votes": [
+      "LEOPOLD",
+      "ROCKY",
+      "JENNA"
+     ],
+     "team": [
+      "ROCKY",
+      "TYLER",
+      "LEOPOLD",
+      "JENNA",
+      "TOBY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JENNA",
+      "LEOPOLD",
+      "TINA",
+      "ROCKY",
+      "TYLER"
+     ],
+     "proposer": "JENNA",
+     "votes": [
+      "JENNA",
+      "BRIAN",
+      "TOBY",
+      "LEOPOLD",
+      "TINA",
+      "ROCKY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585097943,
+  "_nanoseconds": 14000000
+ },
+ "players": [
+  {
+   "name": "JENNA",
+   "uid": "u9QPwqYkeJVZntf6PRp8OqJjkqj2"
+  },
+  {
+   "uid": "6cDvbZKFzKVCvR42hEGS8rx4B2D3",
+   "name": "KAR"
+  },
+  {
+   "name": "KIMBERLY",
+   "uid": "qj69Px4BbMO6uDkSS4qq8gIytVz1"
+  },
+  {
+   "name": "LEOPOLD",
+   "uid": "Zxr4WxBzfgbVhW8NjCKA73I9qe92"
+  },
+  {
+   "name": "TINA",
+   "uid": "w6SIgBFvBDNOEcgaLpkccA4CC3K3"
+  },
+  {
+   "uid": "boU490NnWVST9a98HR680j33UV23",
+   "name": "TOBY"
+  },
+  {
+   "uid": "YckS9udxtgcpWUfqj3t66QdVZmi1",
+   "name": "BRIAN"
+  },
+  {
+   "name": "TYLER",
+   "uid": "JGCLVetGepXx4rLnxA33ErZRAXB2"
+  },
+  {
+   "name": "JASON",
+   "uid": "dnhhDSsxDogRwqTW6udcJLLMHLJ2"
+  },
+  {
+   "uid": "yo8EKQ8mcASrypfVLVBlTkttRcA3",
+   "name": "ROCKY"
+  }
+ ]
+}

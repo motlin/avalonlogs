@@ -1,0 +1,214 @@
+{
+ "timeCreated": {
+  "_seconds": 1590119218,
+  "_nanoseconds": 558000000
+ },
+ "players": [
+  {
+   "uid": "ZyyzxhBD9eOQHwl4qqvk1eNMn4H2",
+   "name": "D"
+  },
+  {
+   "uid": "BYcr6J1oxrPio777HmmpY61t7hj2",
+   "name": "SHAWN"
+  },
+  {
+   "name": "DIGGA",
+   "uid": "GImFVPTFd2UOHXtQHdyJanrzeEm2"
+  },
+  {
+   "name": "SERVER",
+   "uid": "5mxKBeYvSnfrblfV7Ht5KpidKqk1"
+  },
+  {
+   "uid": "18i2KrPjChcZtXGTaWZgS4DUItv1",
+   "name": "TREVOR"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "DIGGA",
+    "assassin": true
+   },
+   {
+    "name": "SERVER",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "SHAWN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "D",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "TREVOR",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "votes": [
+   {
+    "SHAWN": true,
+    "SERVER": false
+   },
+   {
+    "TREVOR": true,
+    "SHAWN": true,
+    "D": true
+   },
+   {
+    "SHAWN": true,
+    "D": true
+   },
+   {
+    "TREVOR": true,
+    "SHAWN": true,
+    "D": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "D"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "SERVER",
+    "SHAWN"
+   ],
+   "proposals": [
+    {
+     "proposer": "SERVER",
+     "team": [
+      "SERVER",
+      "SHAWN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TREVOR",
+      "DIGGA",
+      "SERVER",
+      "SHAWN",
+      "D"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "D",
+    "SHAWN",
+    "TREVOR"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "TREVOR",
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "DIGGA",
+      "D",
+      "TREVOR"
+     ]
+    },
+    {
+     "votes": [
+      "DIGGA",
+      "SERVER",
+      "SHAWN",
+      "D",
+      "TREVOR"
+     ],
+     "team": [
+      "D",
+      "SHAWN",
+      "TREVOR"
+     ],
+     "proposer": "D",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "SHAWN",
+    "D"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SHAWN",
+      "D"
+     ],
+     "votes": [
+      "SHAWN",
+      "D",
+      "TREVOR"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHAWN"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "TREVOR",
+      "SHAWN",
+      "D"
+     ],
+     "votes": [
+      "TREVOR",
+      "SHAWN",
+      "D"
+     ],
+     "proposer": "DIGGA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "TREVOR",
+    "SHAWN",
+    "D"
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590119706,
+  "_nanoseconds": 844000000
+ }
+}

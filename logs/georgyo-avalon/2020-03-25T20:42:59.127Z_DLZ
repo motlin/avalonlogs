@@ -1,0 +1,259 @@
+{
+ "players": [
+  {
+   "name": "IMAFF",
+   "uid": "Kav5POcSPEMFqkZUgpDywEngmEJ3"
+  },
+  {
+   "uid": "64uVBhIuJhfLXYDXMMAY22Rcgz72",
+   "name": "IVAN"
+  },
+  {
+   "name": "DIMASTOS",
+   "uid": "8LwSa6fvOWbJzhcCIQ9pAC4P5kn2"
+  },
+  {
+   "name": "OLESIA",
+   "uid": "XrUT4lVIgqSkkCQHIUw9RaTSym52"
+  },
+  {
+   "name": "ELENA",
+   "uid": "ckCyTMxJFyP7XhEFTwyXUDzhd5A3"
+  },
+  {
+   "uid": "n4H49WIoFnRMy6ZrrFLSyzwT1Dz2",
+   "name": "ALENKO"
+  },
+  {
+   "name": "SERGEYM",
+   "uid": "RrNSRFiVbdSbAHNmrG2dVOjpw953"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585169307,
+  "_nanoseconds": 339364000
+ },
+ "outcome": {
+  "assassinated": "IVAN",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "MORDRED",
+    "name": "DIMASTOS",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SERGEYM",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "IVAN",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "OLESIA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ELENA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ALENKO",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "IMAFF",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "ELENA": true,
+    "IMAFF": true
+   },
+   {
+    "ELENA": true,
+    "SERGEYM": true,
+    "IVAN": true
+   },
+   {
+    "DIMASTOS": false,
+    "IVAN": true,
+    "ELENA": true
+   },
+   {
+    "DIMASTOS": false,
+    "OLESIA": true,
+    "ALENKO": false,
+    "SERGEYM": true
+   },
+   {
+    "IVAN": true,
+    "SERGEYM": true,
+    "ELENA": true,
+    "IMAFF": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "IMAFF",
+    "ELENA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "IMAFF",
+     "team": [
+      "IMAFF",
+      "ELENA"
+     ],
+     "votes": [
+      "IVAN",
+      "OLESIA",
+      "ELENA",
+      "ALENKO",
+      "IMAFF",
+      "SERGEYM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "IVAN",
+    "SERGEYM",
+    "ELENA"
+   ],
+   "proposals": [
+    {
+     "proposer": "IVAN",
+     "state": "APPROVED",
+     "votes": [
+      "SERGEYM",
+      "IVAN",
+      "OLESIA",
+      "ELENA",
+      "ALENKO",
+      "IMAFF"
+     ],
+     "team": [
+      "IVAN",
+      "SERGEYM",
+      "ELENA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DIMASTOS",
+      "IVAN",
+      "ELENA"
+     ],
+     "proposer": "DIMASTOS",
+     "votes": [
+      "DIMASTOS",
+      "SERGEYM",
+      "IVAN",
+      "ELENA",
+      "IMAFF"
+     ]
+    }
+   ],
+   "team": [
+    "DIMASTOS",
+    "IVAN",
+    "ELENA"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 2,
+   "team": [
+    "ALENKO",
+    "OLESIA",
+    "DIMASTOS",
+    "SERGEYM"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALENKO",
+      "OLESIA",
+      "DIMASTOS",
+      "SERGEYM"
+     ],
+     "votes": [
+      "OLESIA",
+      "ALENKO",
+      "DIMASTOS",
+      "SERGEYM"
+     ],
+     "proposer": "OLESIA"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "IVAN",
+      "ELENA",
+      "SERGEYM",
+      "IMAFF"
+     ],
+     "proposer": "ELENA",
+     "state": "APPROVED",
+     "votes": [
+      "IMAFF",
+      "SERGEYM",
+      "IVAN",
+      "ELENA"
+     ]
+    }
+   ],
+   "team": [
+    "IVAN",
+    "ELENA",
+    "SERGEYM",
+    "IMAFF"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585168979,
+  "_nanoseconds": 127000000
+ }
+}

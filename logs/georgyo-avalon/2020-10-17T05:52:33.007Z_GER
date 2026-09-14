@@ -1,0 +1,239 @@
+{
+ "timeCreated": {
+  "_seconds": 1602913953,
+  "_nanoseconds": 7000000
+ },
+ "players": [
+  {
+   "name": "RYAN",
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2"
+  },
+  {
+   "name": "DRSUES",
+   "uid": "aoQvgG3wE6c0b1xmTJthRZs5E433"
+  },
+  {
+   "name": "JEJMIN",
+   "uid": "KAVm2nNtkoP0XFRiO5JSSqHLcAv1"
+  },
+  {
+   "name": "ALLY",
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52"
+  },
+  {
+   "name": "JAY",
+   "uid": "gwix1oO6aIT8R7vtBfwGdZEPFKG2"
+  },
+  {
+   "uid": "t7sMFpsD9QVfCyTntVjfi5arQ8H3",
+   "name": "POLE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "RYAN",
+    "JAY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "RYAN",
+      "JAY"
+     ],
+     "proposer": "RYAN",
+     "votes": [
+      "JEJMIN",
+      "ALLY",
+      "JAY",
+      "RYAN",
+      "POLE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "DRSUES",
+     "votes": [
+      "RYAN",
+      "DRSUES",
+      "ALLY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DRSUES",
+      "POLE",
+      "ALLY"
+     ]
+    },
+    {
+     "votes": [
+      "JAY",
+      "RYAN",
+      "JEJMIN"
+     ],
+     "team": [
+      "JEJMIN",
+      "RYAN",
+      "JAY"
+     ],
+     "state": "REJECTED",
+     "proposer": "JEJMIN"
+    },
+    {
+     "team": [
+      "ALLY",
+      "JAY",
+      "RYAN"
+     ],
+     "proposer": "ALLY",
+     "votes": [
+      "RYAN",
+      "JAY",
+      "JEJMIN",
+      "ALLY",
+      "DRSUES"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ALLY",
+    "JAY",
+    "RYAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "POLE",
+    "JAY",
+    "RYAN",
+    "DRSUES"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JAY",
+      "DRSUES",
+      "RYAN"
+     ],
+     "team": [
+      "JAY",
+      "ALLY",
+      "RYAN",
+      "POLE"
+     ],
+     "proposer": "JAY",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "POLE",
+      "JAY",
+      "RYAN",
+      "DRSUES"
+     ],
+     "proposer": "POLE",
+     "state": "APPROVED",
+     "votes": [
+      "POLE",
+      "DRSUES",
+      "JAY",
+      "JEJMIN",
+      "RYAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1602914382,
+  "_nanoseconds": 957000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "JAY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ALLY"
+   },
+   {
+    "name": "POLE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JEJMIN",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "DRSUES",
+    "assassin": false
+   }
+  ],
+  "assassinated": "POLE",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "RYAN": true,
+    "JAY": true
+   },
+   {
+    "RYAN": true,
+    "ALLY": true,
+    "JAY": true
+   },
+   {
+    "POLE": true,
+    "JAY": true,
+    "DRSUES": true,
+    "RYAN": true
+   }
+  ],
+  "message": "Three successful missions"
+ }
+}

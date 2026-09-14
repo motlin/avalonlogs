@@ -1,0 +1,334 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "SANDEEP",
+     "state": "REJECTED",
+     "votes": [
+      "SANDEEP"
+     ],
+     "team": [
+      "SANDEEP",
+      "ANUPAM"
+     ]
+    },
+    {
+     "votes": [
+      "KASHISH",
+      "ANUPAM"
+     ],
+     "state": "REJECTED",
+     "proposer": "KASHISH",
+     "team": [
+      "KASHISH",
+      "ANUPAM"
+     ]
+    },
+    {
+     "votes": [
+      "VASUDHA"
+     ],
+     "team": [
+      "ANUPAM",
+      "VASUDHA"
+     ],
+     "proposer": "ANUPAM",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "NIKHILESH",
+      "KASHISH",
+      "VASUDHA"
+     ],
+     "team": [
+      "VASUDHA",
+      "NIKHILESH"
+     ],
+     "state": "APPROVED",
+     "proposer": "VASUDHA"
+    }
+   ],
+   "team": [
+    "VASUDHA",
+    "NIKHILESH"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "KASHISH",
+    "VASUDHA",
+    "NIKHILESH"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "NIKHILESH",
+     "team": [
+      "NIKHILESH",
+      "SANDEEP",
+      "VASUDHA"
+     ],
+     "votes": [
+      "NIKHILESH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "SANDEEP",
+      "NIKHILESH",
+      "VASUDHA"
+     ],
+     "state": "REJECTED",
+     "proposer": "SANDEEP",
+     "votes": [
+      "SANDEEP",
+      "NIKHILESH"
+     ]
+    },
+    {
+     "proposer": "KASHISH",
+     "votes": [
+      "NIKHILESH",
+      "SANDEEP",
+      "VASUDHA"
+     ],
+     "team": [
+      "KASHISH",
+      "VASUDHA",
+      "NIKHILESH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "NIKHILESH",
+    "VASUDHA"
+   ],
+   "proposals": [
+    {
+     "proposer": "ANUPAM",
+     "team": [
+      "NIKHILESH",
+      "VASUDHA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANUPAM",
+      "SANDEEP",
+      "VASUDHA",
+      "NIKHILESH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "VASUDHA",
+      "KASHISH",
+      "SANDEEP"
+     ],
+     "proposer": "VASUDHA",
+     "votes": [
+      "SANDEEP",
+      "VASUDHA"
+     ]
+    },
+    {
+     "team": [
+      "SANDEEP",
+      "KASHISH",
+      "ANUPAM"
+     ],
+     "votes": [
+      "NIKHILESH"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKHILESH"
+    },
+    {
+     "team": [
+      "SANDEEP",
+      "KASHISH",
+      "ANUPAM"
+     ],
+     "proposer": "SANDEEP",
+     "state": "REJECTED",
+     "votes": [
+      "SANDEEP"
+     ]
+    },
+    {
+     "proposer": "KASHISH",
+     "state": "REJECTED",
+     "votes": [
+      "SANDEEP"
+     ],
+     "team": [
+      "KASHISH",
+      "VASUDHA",
+      "SANDEEP"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANUPAM",
+      "NIKHILESH",
+      "SANDEEP"
+     ],
+     "proposer": "ANUPAM",
+     "votes": [
+      "KASHISH",
+      "ANUPAM",
+      "SANDEEP"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "ANUPAM",
+    "NIKHILESH",
+    "SANDEEP"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "VASUDHA",
+    "ANUPAM",
+    "KASHISH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KASHISH",
+      "ANUPAM",
+      "VASUDHA"
+     ],
+     "proposer": "VASUDHA",
+     "team": [
+      "VASUDHA",
+      "ANUPAM",
+      "KASHISH"
+     ]
+    }
+   ],
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589893882,
+  "_nanoseconds": 532000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "NIKHILESH": true,
+    "VASUDHA": true
+   },
+   {
+    "NIKHILESH": true,
+    "VASUDHA": true,
+    "KASHISH": true
+   },
+   {
+    "NIKHILESH": false,
+    "VASUDHA": true
+   },
+   {
+    "NIKHILESH": false,
+    "ANUPAM": true,
+    "SANDEEP": true
+   },
+   {
+    "VASUDHA": true,
+    "ANUPAM": true,
+    "KASHISH": true
+   }
+  ],
+  "assassinated": "ANUPAM",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "NIKHILESH",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "KASHISH"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ANUPAM"
+   },
+   {
+    "assassin": true,
+    "name": "SANDEEP",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "VASUDHA"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "KASHISH",
+   "uid": "ezkresCUOxcI0xT59Ki4GWcscbC2"
+  },
+  {
+   "name": "ANUPAM",
+   "uid": "e45TcBJMw8bEiqcl0oM7PRJJbR52"
+  },
+  {
+   "uid": "78cpBEZMvtT9P0jDikbkKU0SMwE3",
+   "name": "VASUDHA"
+  },
+  {
+   "name": "NIKHILESH",
+   "uid": "WoPVSxmGfBgbZZtRcE4AekOxpY92"
+  },
+  {
+   "uid": "1it9iQbg67QvrmG0mtfxdh1JN433",
+   "name": "SANDEEP"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589892204,
+  "_nanoseconds": 342000000
+ }
+}

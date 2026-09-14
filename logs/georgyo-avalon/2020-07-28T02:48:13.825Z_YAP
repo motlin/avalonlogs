@@ -1,0 +1,285 @@
+{
+ "players": [
+  {
+   "uid": "r06OrMbMZqeRa379eftDNj39lBe2",
+   "name": "SHAKED"
+  },
+  {
+   "name": "CHETANYA",
+   "uid": "2zk8Vb8Jl6a2QtH89cbAKgRLIwx1"
+  },
+  {
+   "name": "RANJAY",
+   "uid": "au7THkhHxxSlWNBlujfhOu1Dotg2"
+  },
+  {
+   "name": "ADVAY",
+   "uid": "HkDpqmutjYY2zddH57wKavCnRWV2"
+  },
+  {
+   "name": "BGP",
+   "uid": "m527nLSCGpO9nlHvRotWyNJ2hJh2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "RANJAY",
+      "BGP"
+     ],
+     "proposer": "RANJAY",
+     "votes": [
+      "ADVAY",
+      "BGP"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ADVAY"
+     ],
+     "team": [
+      "ADVAY",
+      "RANJAY"
+     ],
+     "proposer": "ADVAY"
+    },
+    {
+     "votes": [
+      "ADVAY",
+      "BGP",
+      "RANJAY"
+     ],
+     "state": "APPROVED",
+     "proposer": "BGP",
+     "team": [
+      "BGP",
+      "ADVAY"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "BGP",
+    "ADVAY"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SHAKED",
+     "team": [
+      "SHAKED",
+      "ADVAY",
+      "BGP"
+     ],
+     "votes": [
+      "BGP",
+      "SHAKED",
+      "ADVAY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SHAKED",
+    "ADVAY",
+    "BGP"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "CHETANYA",
+      "BGP"
+     ],
+     "proposer": "CHETANYA",
+     "state": "APPROVED",
+     "votes": [
+      "CHETANYA",
+      "BGP",
+      "RANJAY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "CHETANYA",
+    "BGP"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ADVAY",
+    "BGP",
+    "CHETANYA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "RANJAY",
+      "BGP",
+      "CHETANYA"
+     ],
+     "proposer": "RANJAY",
+     "votes": [
+      "BGP"
+     ]
+    },
+    {
+     "proposer": "ADVAY",
+     "votes": [
+      "ADVAY",
+      "CHETANYA",
+      "BGP"
+     ],
+     "team": [
+      "ADVAY",
+      "BGP",
+      "CHETANYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "BGP",
+      "CHETANYA",
+      "RANJAY"
+     ],
+     "proposer": "BGP",
+     "votes": [
+      "RANJAY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "SHAKED",
+     "votes": [
+      "SHAKED",
+      "CHETANYA"
+     ],
+     "team": [
+      "SHAKED",
+      "CHETANYA",
+      "BGP"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SHAKED",
+      "CHETANYA",
+      "BGP"
+     ],
+     "votes": [
+      "SHAKED",
+      "CHETANYA",
+      "BGP"
+     ],
+     "proposer": "CHETANYA"
+    }
+   ],
+   "team": [
+    "SHAKED",
+    "CHETANYA",
+    "BGP"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595904493,
+  "_nanoseconds": 825000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "BGP": true,
+    "ADVAY": true
+   },
+   {
+    "BGP": true,
+    "ADVAY": false,
+    "SHAKED": true
+   },
+   {
+    "BGP": true,
+    "CHETANYA": true
+   },
+   {
+    "CHETANYA": true,
+    "ADVAY": false,
+    "BGP": true
+   },
+   {
+    "BGP": true,
+    "CHETANYA": true,
+    "SHAKED": true
+   }
+  ],
+  "assassinated": "BGP",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "BGP",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SHAKED",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "RANJAY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ADVAY"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CHETANYA"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1595906336,
+  "_nanoseconds": 925000000
+ }
+}

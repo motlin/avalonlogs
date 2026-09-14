@@ -1,0 +1,318 @@
+{
+ "players": [
+  {
+   "uid": "jsuQcwkAh8hZufXyOKFSAxdlIZo1",
+   "name": "HRICCHAI"
+  },
+  {
+   "name": "M",
+   "uid": "1uqw1GrUz1OPVk8uZZBc8ao1XFJ2"
+  },
+  {
+   "name": "PRANAV",
+   "uid": "38unDnZjmGbcg7omgAXzEEtzgNn2"
+  },
+  {
+   "name": "KILLER",
+   "uid": "dJk0zm45lpdRwzfgFhRzf21GThN2"
+  },
+  {
+   "name": "HRUDHAI",
+   "uid": "U0nkFO6IHkRUEddg0dwFiLK11xP2"
+  },
+  {
+   "uid": "tPOBnWGNdlMlLkELrLAQBWgejUp2",
+   "name": "ROBOROBO"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "HRICCHAI",
+    "assassin": false
+   },
+   {
+    "name": "M",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PRANAV",
+    "assassin": false
+   },
+   {
+    "name": "KILLER",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "name": "HRUDHAI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ROBOROBO"
+   }
+  ],
+  "votes": [
+   {
+    "PRANAV": true,
+    "ROBOROBO": true
+   },
+   {
+    "HRUDHAI": false,
+    "PRANAV": true,
+    "ROBOROBO": true
+   },
+   {
+    "M": true,
+    "KILLER": false,
+    "PRANAV": true,
+    "ROBOROBO": true
+   },
+   {
+    "HRICCHAI": true,
+    "ROBOROBO": true,
+    "M": true
+   },
+   {
+    "KILLER": false,
+    "HRICCHAI": true,
+    "M": true,
+    "ROBOROBO": true
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1590678787,
+  "_nanoseconds": 522000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "PRANAV",
+    "ROBOROBO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "HRUDHAI",
+      "PRANAV"
+     ],
+     "votes": [
+      "PRANAV",
+      "KILLER",
+      "HRICCHAI"
+     ],
+     "state": "REJECTED",
+     "proposer": "HRICCHAI"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "PRANAV",
+      "ROBOROBO"
+     ],
+     "votes": [
+      "PRANAV",
+      "ROBOROBO",
+      "HRICCHAI",
+      "M"
+     ],
+     "proposer": "M"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PRANAV",
+      "ROBOROBO",
+      "HRICCHAI"
+     ],
+     "proposer": "PRANAV",
+     "votes": [
+      "HRICCHAI",
+      "M",
+      "PRANAV"
+     ]
+    },
+    {
+     "votes": [
+      "M",
+      "PRANAV",
+      "KILLER",
+      "HRUDHAI",
+      "ROBOROBO"
+     ],
+     "proposer": "KILLER",
+     "team": [
+      "HRUDHAI",
+      "ROBOROBO",
+      "PRANAV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "HRUDHAI",
+    "ROBOROBO",
+    "PRANAV"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "KILLER",
+    "M",
+    "PRANAV",
+    "ROBOROBO"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "HRUDHAI",
+     "state": "APPROVED",
+     "votes": [
+      "HRICCHAI",
+      "M",
+      "KILLER",
+      "HRUDHAI"
+     ],
+     "team": [
+      "KILLER",
+      "M",
+      "PRANAV",
+      "ROBOROBO"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ROBOROBO",
+     "team": [
+      "ROBOROBO",
+      "HRICCHAI",
+      "M"
+     ],
+     "votes": [
+      "M",
+      "PRANAV",
+      "ROBOROBO",
+      "HRICCHAI"
+     ]
+    }
+   ],
+   "team": [
+    "ROBOROBO",
+    "HRICCHAI",
+    "M"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "M",
+    "HRICCHAI",
+    "KILLER",
+    "ROBOROBO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KILLER",
+      "HRUDHAI",
+      "HRICCHAI"
+     ],
+     "team": [
+      "HRICCHAI",
+      "KILLER",
+      "ROBOROBO",
+      "M"
+     ],
+     "state": "REJECTED",
+     "proposer": "HRICCHAI"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "M",
+      "KILLER",
+      "ROBOROBO",
+      "PRANAV"
+     ],
+     "votes": [
+      "PRANAV"
+     ],
+     "proposer": "M"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "PRANAV",
+     "team": [
+      "PRANAV",
+      "ROBOROBO",
+      "HRICCHAI",
+      "M"
+     ],
+     "votes": [
+      "PRANAV"
+     ]
+    },
+    {
+     "proposer": "KILLER",
+     "votes": [
+      "HRICCHAI",
+      "M",
+      "KILLER",
+      "HRUDHAI",
+      "ROBOROBO"
+     ],
+     "team": [
+      "M",
+      "HRICCHAI",
+      "KILLER",
+      "ROBOROBO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590678244,
+  "_nanoseconds": 992000000
+ }
+}

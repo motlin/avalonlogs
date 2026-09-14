@@ -1,0 +1,176 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JASMINE",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "RYAN"
+   },
+   {
+    "name": "ALLY",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "POLE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SHINWANNAB",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "ALLY": true,
+    "JASMINE": true
+   },
+   {
+    "POLE": true,
+    "SHINWANNAB": true,
+    "RYAN": true
+   },
+   {
+    "POLE": true,
+    "SHINWANNAB": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "SHINWANNAB"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1594963056,
+  "_nanoseconds": 620000000
+ },
+ "players": [
+  {
+   "name": "ALLY",
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52"
+  },
+  {
+   "name": "JASMINE",
+   "uid": "KAVm2nNtkoP0XFRiO5JSSqHLcAv1"
+  },
+  {
+   "name": "RYAN",
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2"
+  },
+  {
+   "name": "SHINWANNAB",
+   "uid": "VaYYMQCO43dh5ZsXCoPGeTKHhWa2"
+  },
+  {
+   "name": "POLE",
+   "uid": "t7sMFpsD9QVfCyTntVjfi5arQ8H3"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "JASMINE",
+    "ALLY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "RYAN",
+      "SHINWANNAB",
+      "ALLY",
+      "JASMINE"
+     ],
+     "team": [
+      "JASMINE",
+      "ALLY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JASMINE"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "SHINWANNAB",
+      "POLE"
+     ],
+     "proposer": "RYAN",
+     "votes": [
+      "SHINWANNAB",
+      "RYAN",
+      "POLE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "RYAN",
+    "SHINWANNAB",
+    "POLE"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "SHINWANNAB",
+    "POLE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SHINWANNAB",
+      "POLE"
+     ],
+     "proposer": "SHINWANNAB",
+     "state": "APPROVED",
+     "votes": [
+      "POLE",
+      "RYAN",
+      "SHINWANNAB"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1594963326,
+  "_nanoseconds": 520000000
+ }
+}

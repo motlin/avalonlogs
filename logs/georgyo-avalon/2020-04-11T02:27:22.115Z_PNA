@@ -1,0 +1,327 @@
+{
+ "timeFinished": {
+  "_seconds": 1586573393,
+  "_nanoseconds": 459567000
+ },
+ "timeCreated": {
+  "_seconds": 1586572042,
+  "_nanoseconds": 115000000
+ },
+ "players": [
+  {
+   "name": "COLE",
+   "uid": "Td5DAg0S2ARnrnOJRV051Z5OtRw2"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "qnhvfjOjDlPGObZF7ZO5MCxndB03"
+  },
+  {
+   "name": "JUSTIN",
+   "uid": "F84KuVqZiaSKUlkKtfIL4gISkfO2"
+  },
+  {
+   "name": "MELANIE",
+   "uid": "fuUBwCMBwxW9wHQrpvOSd4cRPdt2"
+  },
+  {
+   "uid": "Iyg1MQ7tbRY3g5fJgVDeGklfzws1",
+   "name": "GRETL"
+  },
+  {
+   "uid": "5G7IiR2KVzgHkcPqE6IDj1VOTyj2",
+   "name": "JACOB"
+  },
+  {
+   "uid": "bd9KJZmSnmNaUGoQOjtVzhAZjJb2",
+   "name": "JESSICA"
+  },
+  {
+   "name": "BRIDGET",
+   "uid": "63X0O4PSUJhlkZJLTU7tyvXUvmK2"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "BRIDGET": true,
+    "JACOB": true,
+    "MELANIE": true
+   },
+   {
+    "JACOB": true,
+    "ANDREW": false,
+    "MELANIE": true,
+    "BRIDGET": false
+   },
+   {
+    "JESSICA": true,
+    "JACOB": true,
+    "COLE": true,
+    "JUSTIN": true
+   },
+   {
+    "COLE": true,
+    "GRETL": true,
+    "JESSICA": true,
+    "JUSTIN": true,
+    "JACOB": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JESSICA",
+    "assassin": false
+   },
+   {
+    "name": "MELANIE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "BRIDGET",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "JUSTIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "GRETL",
+    "assassin": false
+   },
+   {
+    "name": "JACOB",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "COLE"
+   },
+   {
+    "name": "ANDREW",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "JUSTIN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ANDREW",
+      "JUSTIN",
+      "MELANIE"
+     ],
+     "votes": [
+      "MELANIE",
+      "JUSTIN",
+      "ANDREW"
+     ],
+     "proposer": "ANDREW"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JUSTIN",
+      "MELANIE",
+      "GRETL"
+     ],
+     "votes": [
+      "JUSTIN"
+     ],
+     "proposer": "JUSTIN"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MELANIE",
+     "votes": [
+      "MELANIE",
+      "JACOB",
+      "ANDREW",
+      "JESSICA"
+     ],
+     "team": [
+      "MELANIE",
+      "ANDREW",
+      "JACOB"
+     ]
+    },
+    {
+     "proposer": "GRETL",
+     "state": "REJECTED",
+     "votes": [
+      "GRETL",
+      "ANDREW"
+     ],
+     "team": [
+      "COLE",
+      "ANDREW",
+      "JUSTIN"
+     ]
+    },
+    {
+     "votes": [
+      "JESSICA",
+      "MELANIE",
+      "BRIDGET",
+      "JUSTIN",
+      "GRETL",
+      "JACOB",
+      "COLE",
+      "ANDREW"
+     ],
+     "team": [
+      "JACOB",
+      "MELANIE",
+      "BRIDGET"
+     ],
+     "proposer": "JACOB",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JACOB",
+    "MELANIE",
+    "BRIDGET"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "BRIDGET",
+      "JACOB",
+      "MELANIE",
+      "JUSTIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JUSTIN",
+      "GRETL",
+      "COLE"
+     ],
+     "proposer": "JESSICA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BRIDGET",
+     "team": [
+      "BRIDGET",
+      "JACOB",
+      "MELANIE",
+      "ANDREW"
+     ],
+     "votes": [
+      "COLE",
+      "ANDREW",
+      "MELANIE",
+      "BRIDGET",
+      "GRETL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "BRIDGET",
+    "JACOB",
+    "MELANIE",
+    "ANDREW"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JESSICA",
+      "JACOB",
+      "COLE",
+      "JUSTIN"
+     ],
+     "proposer": "COLE",
+     "votes": [
+      "JESSICA",
+      "MELANIE",
+      "BRIDGET",
+      "JUSTIN",
+      "GRETL",
+      "JACOB",
+      "COLE"
+     ]
+    }
+   ],
+   "team": [
+    "JESSICA",
+    "JACOB",
+    "COLE",
+    "JUSTIN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [
+    "COLE",
+    "JUSTIN",
+    "JACOB",
+    "JESSICA",
+    "GRETL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "COLE",
+      "JUSTIN",
+      "JACOB",
+      "JESSICA",
+      "GRETL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "COLE",
+      "ANDREW",
+      "JESSICA",
+      "MELANIE",
+      "BRIDGET",
+      "JUSTIN",
+      "GRETL",
+      "JACOB"
+     ],
+     "proposer": "ANDREW"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

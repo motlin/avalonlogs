@@ -1,0 +1,342 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JARED",
+      "MATTH",
+      "RYAN",
+      "MIKE",
+      "THADD",
+      "CHRISLIN",
+      "SANS"
+     ],
+     "team": [
+      "MATTH",
+      "RYAN",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "MIKE"
+    }
+   ],
+   "team": [
+    "MATTH",
+    "RYAN",
+    "MIKE"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "THADD",
+     "votes": [
+      "SANS",
+      "JOCHA",
+      "JARED",
+      "MATTH",
+      "RYAN",
+      "MIKE",
+      "THADD"
+     ],
+     "team": [
+      "THADD",
+      "RYAN",
+      "MATTH",
+      "MIKE"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "THADD",
+    "RYAN",
+    "MATTH",
+    "MIKE"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SANS",
+      "JOCHA",
+      "JARED",
+      "RYAN",
+      "THADD"
+     ],
+     "team": [
+      "JOCHA",
+      "SANS",
+      "CHRISLIN",
+      "JARED"
+     ],
+     "proposer": "CHRISLIN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "JOCHA",
+    "SANS",
+    "CHRISLIN",
+    "JARED"
+   ],
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "JOCHA",
+     "team": [
+      "MIKE",
+      "MATTH",
+      "JOCHA",
+      "SANS",
+      "THADD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MIKE",
+      "THADD",
+      "CHRISLIN",
+      "SANS",
+      "JOCHA",
+      "JARED",
+      "MATTH",
+      "RYAN"
+     ]
+    }
+   ],
+   "team": [
+    "MIKE",
+    "MATTH",
+    "JOCHA",
+    "SANS",
+    "THADD"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JARED",
+      "SANS",
+      "MIKE",
+      "THADD",
+      "JOCHA"
+     ],
+     "votes": [
+      "CHRISLIN",
+      "SANS",
+      "JOCHA",
+      "JARED"
+     ],
+     "state": "REJECTED",
+     "proposer": "JARED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RYAN"
+     ],
+     "proposer": "RYAN",
+     "team": [
+      "CHRISLIN",
+      "RYAN",
+      "SANS",
+      "JOCHA",
+      "MIKE"
+     ]
+    },
+    {
+     "proposer": "MATTH",
+     "team": [
+      "MATTH",
+      "RYAN",
+      "JARED",
+      "THADD",
+      "SANS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JARED",
+      "MATTH",
+      "RYAN",
+      "CHRISLIN"
+     ]
+    },
+    {
+     "proposer": "SANS",
+     "team": [
+      "SANS",
+      "MIKE",
+      "THADD",
+      "JOCHA",
+      "JARED"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "THADD",
+      "CHRISLIN",
+      "SANS",
+      "JOCHA",
+      "JARED",
+      "MIKE"
+     ]
+    }
+   ],
+   "team": [
+    "SANS",
+    "MIKE",
+    "THADD",
+    "JOCHA",
+    "JARED"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593318145,
+  "_nanoseconds": 964000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "MIKE": true,
+    "RYAN": true,
+    "MATTH": true
+   },
+   {
+    "RYAN": false,
+    "MATTH": true,
+    "MIKE": true,
+    "THADD": true
+   },
+   {
+    "SANS": true,
+    "JOCHA": true,
+    "JARED": false,
+    "CHRISLIN": true
+   },
+   {
+    "SANS": true,
+    "JOCHA": true,
+    "MATTH": true,
+    "THADD": true,
+    "MIKE": true
+   },
+   {
+    "SANS": true,
+    "THADD": true,
+    "MIKE": true,
+    "JARED": false,
+    "JOCHA": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "SANS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JOCHA"
+   },
+   {
+    "name": "JARED",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "MATTH",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "RYAN"
+   },
+   {
+    "name": "MIKE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "THADD"
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHRISLIN",
+    "assassin": false
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593317168,
+  "_nanoseconds": 202000000
+ },
+ "players": [
+  {
+   "uid": "HzCOaM6h5db7GHsPWCgCy5pjB6j2",
+   "name": "CHRISLIN"
+  },
+  {
+   "name": "JOCHA",
+   "uid": "VRXuJrv1GlOZGOP7NrFFHN10QMg1"
+  },
+  {
+   "uid": "29dXXCXlWDXtgOmrTWfZGHg919n1",
+   "name": "JARED"
+  },
+  {
+   "name": "RYAN",
+   "uid": "ZaKCsTHYSsRyZ8H4MMM9Xq0YB4M2"
+  },
+  {
+   "uid": "iHSp0kL8jZOpUAP6P8imsKSfHDn2",
+   "name": "MATTH"
+  },
+  {
+   "uid": "QbNwXX12RDTUZtPvEZ18wWInNAy2",
+   "name": "SANS"
+  },
+  {
+   "name": "MIKE",
+   "uid": "4S9CR50cLbNB3p2QekPYexNJtME2"
+  },
+  {
+   "name": "THADD",
+   "uid": "vUDkgF94uWZKNKo05NCNeHuOdpn1"
+  }
+ ]
+}

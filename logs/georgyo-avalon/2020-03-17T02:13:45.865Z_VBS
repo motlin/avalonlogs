@@ -1,0 +1,440 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Five team proposals in a row rejected",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "GOODWIN",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NIKHIL"
+   },
+   {
+    "name": "JET",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ADAM",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "CRAIG",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "OWEN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KEVIN",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SAMM"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "GOODWIN": false,
+    "OWEN": true,
+    "NIKHIL": true
+   },
+   {
+    "ADAM": false,
+    "JET": true,
+    "OWEN": false,
+    "CRAIG": true
+   },
+   {
+    "SAMM": true,
+    "NIKHIL": true,
+    "JET": true,
+    "KEVIN": true
+   },
+   {
+    "NIKHIL": true,
+    "JET": true,
+    "CRAIG": true,
+    "SAMM": true,
+    "KEVIN": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1584411225,
+  "_nanoseconds": 865000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ADAM",
+      "SAMM",
+      "NIKHIL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ADAM"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "votes": [
+      "GOODWIN",
+      "JET"
+     ],
+     "proposer": "OWEN",
+     "state": "REJECTED",
+     "team": [
+      "OWEN",
+      "JET",
+      "GOODWIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JET",
+     "votes": [
+      "KEVIN",
+      "JET",
+      "CRAIG"
+     ],
+     "team": [
+      "OWEN",
+      "GOODWIN",
+      "CRAIG"
+     ]
+    },
+    {
+     "votes": [
+      "JET",
+      "ADAM",
+      "CRAIG",
+      "OWEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CRAIG",
+      "OWEN",
+      "JET"
+     ],
+     "proposer": "CRAIG"
+    },
+    {
+     "team": [
+      "GOODWIN",
+      "NIKHIL",
+      "OWEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GOODWIN",
+      "NIKHIL",
+      "JET",
+      "OWEN",
+      "KEVIN"
+     ],
+     "proposer": "GOODWIN"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "GOODWIN",
+    "NIKHIL",
+    "OWEN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "CRAIG",
+    "JET",
+    "OWEN",
+    "ADAM"
+   ],
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "state": "REJECTED",
+     "team": [
+      "KEVIN",
+      "SAMM",
+      "CRAIG",
+      "JET"
+     ],
+     "votes": [
+      "ADAM",
+      "KEVIN"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "KEVIN",
+      "CRAIG",
+      "JET"
+     ],
+     "proposer": "NIKHIL"
+    },
+    {
+     "team": [
+      "GOODWIN",
+      "NIKHIL",
+      "OWEN",
+      "SAMM"
+     ],
+     "proposer": "SAMM",
+     "state": "REJECTED",
+     "votes": [
+      "JET",
+      "KEVIN"
+     ]
+    },
+    {
+     "proposer": "ADAM",
+     "team": [
+      "CRAIG",
+      "JET",
+      "ADAM",
+      "SAMM"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "CRAIG"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KEVIN",
+      "GOODWIN",
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "CRAIG",
+      "OWEN"
+     ],
+     "proposer": "OWEN",
+     "team": [
+      "CRAIG",
+      "JET",
+      "OWEN",
+      "ADAM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "SAMM",
+    "KEVIN",
+    "JET",
+    "NIKHIL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "OWEN",
+      "KEVIN"
+     ],
+     "proposer": "JET",
+     "state": "APPROVED",
+     "team": [
+      "SAMM",
+      "KEVIN",
+      "JET",
+      "NIKHIL"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "CRAIG",
+      "JET",
+      "KEVIN",
+      "NIKHIL",
+      "SAMM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NIKHIL",
+      "ADAM",
+      "CRAIG",
+      "OWEN",
+      "KEVIN"
+     ],
+     "proposer": "CRAIG"
+    }
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "team": [
+    "CRAIG",
+    "JET",
+    "KEVIN",
+    "NIKHIL",
+    "SAMM"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "GOODWIN",
+     "votes": [
+      "GOODWIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "GOODWIN",
+      "KEVIN",
+      "NIKHIL",
+      "SAMM",
+      "JET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CRAIG",
+      "KEVIN"
+     ],
+     "team": [
+      "CRAIG",
+      "KEVIN",
+      "NIKHIL",
+      "SAMM",
+      "JET"
+     ],
+     "proposer": "KEVIN"
+    },
+    {
+     "team": [
+      "KEVIN",
+      "NIKHIL",
+      "SAMM",
+      "CRAIG",
+      "JET"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "CRAIG",
+      "KEVIN"
+     ],
+     "proposer": "NIKHIL"
+    },
+    {
+     "votes": [
+      "ADAM",
+      "OWEN"
+     ],
+     "team": [
+      "CRAIG",
+      "JET",
+      "OWEN",
+      "ADAM",
+      "SAMM"
+     ],
+     "state": "REJECTED",
+     "proposer": "SAMM"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "OWEN",
+      "JET",
+      "CRAIG",
+      "SAMM"
+     ],
+     "votes": [
+      "ADAM"
+     ],
+     "proposer": "ADAM"
+    }
+   ],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ],
+ "players": [
+  {
+   "uid": "TxVW1cPZ3qReHUD4I50wtpVBLw23",
+   "name": "ADAM"
+  },
+  {
+   "name": "OWEN",
+   "uid": "PhWtBH7VXpQDuJFbp0nmMCfzBtv1"
+  },
+  {
+   "uid": "ZAh0T8iIiMbwuujOUZBi45OJ6QJ2",
+   "name": "JET"
+  },
+  {
+   "name": "CRAIG",
+   "uid": "mVFFad03qlYiUkjeycqlBpzrIeH3"
+  },
+  {
+   "name": "GOODWIN",
+   "uid": "cHNOoQaxdcToOGCOjVbXrDRiiRs2"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "VhlhcxHkr9eyXtPNWslmjclR2N82"
+  },
+  {
+   "uid": "bfpgDVHVdNWg5C80tUH5WGwRxbA3",
+   "name": "NIKHIL"
+  },
+  {
+   "uid": "UneAL8nMKNPtQzrjsp12gUhzjCN2",
+   "name": "SAMM"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1584412733,
+  "_nanoseconds": 533376000
+ }
+}

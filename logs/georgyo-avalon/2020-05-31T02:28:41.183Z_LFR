@@ -1,0 +1,248 @@
+{
+ "timeFinished": {
+  "_seconds": 1590894108,
+  "_nanoseconds": 899000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "CHOW": true,
+    "MASON": true
+   },
+   {
+    "NGO": false,
+    "CHOW": true,
+    "MASON": true
+   },
+   {
+    "CHOW": true,
+    "HARRISON": true,
+    "MASON": true
+   },
+   {
+    "MASON": true,
+    "HARRISON": true,
+    "SHAAN": false,
+    "CHOW": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "JOE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HARRISON",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MASON",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHOW",
+    "assassin": false
+   },
+   {
+    "name": "SHAAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "NGO",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "KARLMARX",
+    "role": "MORDRED"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "JOE"
+ },
+ "timeCreated": {
+  "_seconds": 1590892121,
+  "_nanoseconds": 183000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CHOW",
+     "state": "APPROVED",
+     "team": [
+      "CHOW",
+      "MASON"
+     ],
+     "votes": [
+      "JOE",
+      "HARRISON",
+      "MASON",
+      "SHAAN",
+      "KARLMARX"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "CHOW",
+    "MASON"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHOW",
+      "NGO",
+      "KARLMARX",
+      "JOE",
+      "HARRISON",
+      "MASON"
+     ],
+     "proposer": "KARLMARX",
+     "team": [
+      "CHOW",
+      "MASON",
+      "NGO"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "CHOW",
+    "MASON",
+    "NGO"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "HARRISON",
+    "CHOW",
+    "MASON"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "KARLMARX",
+      "JOE",
+      "HARRISON",
+      "MASON",
+      "CHOW",
+      "SHAAN"
+     ],
+     "team": [
+      "HARRISON",
+      "CHOW",
+      "MASON"
+     ],
+     "proposer": "HARRISON",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "HARRISON",
+      "JOE",
+      "SHAAN",
+      "KARLMARX"
+     ],
+     "votes": [
+      "NGO"
+     ],
+     "state": "REJECTED",
+     "proposer": "NGO"
+    },
+    {
+     "team": [
+      "MASON",
+      "HARRISON",
+      "CHOW",
+      "SHAAN"
+     ],
+     "votes": [
+      "KARLMARX",
+      "JOE",
+      "HARRISON",
+      "MASON",
+      "CHOW",
+      "SHAAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MASON"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "MASON",
+    "HARRISON",
+    "CHOW",
+    "SHAAN"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "ee6eyUB14aNrfwxfgS3EpXKkJ4r1",
+   "name": "CHOW"
+  },
+  {
+   "name": "KARLMARX",
+   "uid": "KTeFn2as4uQa31ytPy1pDJ8IUkB2"
+  },
+  {
+   "uid": "sJM8vjv19qYdDqxf8plzkLYkXLq2",
+   "name": "HARRISON"
+  },
+  {
+   "name": "NGO",
+   "uid": "ecqGjz7tzhMr8GPdHmP95YsJ9Cd2"
+  },
+  {
+   "name": "MASON",
+   "uid": "STYYW1bvydOViACtN0rY8luDtp93"
+  },
+  {
+   "uid": "ODlRpf7bJ6bRYHqjxNrRIEBrtPl2",
+   "name": "JOE"
+  },
+  {
+   "uid": "amRYItsOKBYSmkMLrXd9VewVUzn2",
+   "name": "SHAAN"
+  }
+ ]
+}

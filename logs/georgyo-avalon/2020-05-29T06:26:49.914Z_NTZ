@@ -1,0 +1,277 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "QNWqunR9JBQRP09UChJjsLZOyol2",
+   "name": "SHARON"
+  },
+  {
+   "uid": "S7z8EEjepUVBwuJtbPrp8Sq3w873",
+   "name": "AMEYA"
+  },
+  {
+   "uid": "5l5yOtQYLJQd8yN9RB1REy6KeBo2",
+   "name": "DRISHTANT"
+  },
+  {
+   "name": "NETORARE",
+   "uid": "MNNO1fRUjSTZcSj9tpZXcZxssmw1"
+  },
+  {
+   "uid": "U8nDO26qg9WDIP4SpYP6MsOieHH3",
+   "name": "EQIU"
+  },
+  {
+   "name": "SHAWN",
+   "uid": "N7un5nj5FQaBYtUkaYQMyYAAUfv2"
+  },
+  {
+   "name": "TARUN",
+   "uid": "hJvhBX1TWLd6rds8e2E3fN7FQCh2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590733954,
+  "_nanoseconds": 239000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "SHAWN": true,
+    "TARUN": true
+   },
+   {
+    "AMEYA": true,
+    "SHAWN": true,
+    "SHARON": false
+   },
+   {
+    "AMEYA": true,
+    "SHARON": false,
+    "NETORARE": true
+   },
+   {
+    "SHAWN": true,
+    "AMEYA": true,
+    "NETORARE": true,
+    "EQIU": true
+   },
+   {
+    "DRISHTANT": true,
+    "NETORARE": true,
+    "AMEYA": true,
+    "SHAWN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "SHAWN",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "SHARON"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "TARUN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "EQIU",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SHAWN",
+    "assassin": false
+   },
+   {
+    "name": "NETORARE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "DRISHTANT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "AMEYA"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "SHAWN",
+    "TARUN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DRISHTANT",
+      "AMEYA",
+      "SHARON",
+      "TARUN",
+      "SHAWN"
+     ],
+     "team": [
+      "SHAWN",
+      "TARUN"
+     ],
+     "proposer": "SHAWN"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "AMEYA",
+      "SHARON",
+      "TARUN",
+      "EQIU",
+      "SHAWN",
+      "DRISHTANT"
+     ],
+     "proposer": "TARUN",
+     "state": "APPROVED",
+     "team": [
+      "SHAWN",
+      "AMEYA",
+      "SHARON"
+     ]
+    }
+   ],
+   "team": [
+    "SHAWN",
+    "AMEYA",
+    "SHARON"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DRISHTANT",
+      "AMEYA",
+      "SHARON",
+      "SHAWN"
+     ],
+     "team": [
+      "SHARON",
+      "AMEYA",
+      "NETORARE"
+     ],
+     "proposer": "SHARON",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "SHARON",
+    "AMEYA",
+    "NETORARE"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "AMEYA",
+      "SHAWN",
+      "EQIU",
+      "NETORARE"
+     ],
+     "state": "APPROVED",
+     "proposer": "AMEYA",
+     "votes": [
+      "NETORARE",
+      "DRISHTANT",
+      "AMEYA",
+      "SHARON",
+      "TARUN",
+      "SHAWN"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "AMEYA",
+    "SHAWN",
+    "EQIU",
+    "NETORARE"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DRISHTANT",
+      "SHARON",
+      "EQIU"
+     ],
+     "proposer": "DRISHTANT",
+     "team": [
+      "AMEYA",
+      "SHAWN",
+      "EQIU",
+      "NETORARE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "NETORARE",
+     "votes": [
+      "SHAWN",
+      "NETORARE",
+      "DRISHTANT",
+      "AMEYA"
+     ],
+     "team": [
+      "AMEYA",
+      "DRISHTANT",
+      "NETORARE",
+      "SHAWN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "AMEYA",
+    "DRISHTANT",
+    "NETORARE",
+    "SHAWN"
+   ],
+   "state": "SUCCESS"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590733609,
+  "_nanoseconds": 914000000
+ }
+}

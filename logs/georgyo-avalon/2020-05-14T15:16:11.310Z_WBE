@@ -1,0 +1,236 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "CHEESE",
+    "WEI"
+   ],
+   "proposals": [
+    {
+     "proposer": "EDISON",
+     "votes": [
+      "JORDAN",
+      "WEI",
+      "JARED",
+      "CHEESE",
+      "EDISON",
+      "HENRRYY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHEESE",
+      "WEI"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JARED",
+      "HENRRYY",
+      "JORDAN"
+     ],
+     "proposer": "HENRRYY",
+     "team": [
+      "JARED",
+      "JORDAN",
+      "HENRRYY"
+     ]
+    },
+    {
+     "votes": [
+      "WEI",
+      "JARED",
+      "EDISON",
+      "JORDAN"
+     ],
+     "proposer": "WEI",
+     "team": [
+      "WEI",
+      "EDISON",
+      "JORDAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "WEI",
+    "EDISON",
+    "JORDAN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "CHEESE",
+    "HENRRYY",
+    "JORDAN",
+    "EDISON"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "JARED",
+      "CHEESE",
+      "EDISON",
+      "HENRRYY",
+      "JORDAN"
+     ],
+     "team": [
+      "CHEESE",
+      "HENRRYY",
+      "JORDAN",
+      "EDISON"
+     ],
+     "state": "APPROVED",
+     "proposer": "JORDAN"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "EDISON",
+    "HENRRYY",
+    "JARED"
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "EDISON",
+      "HENRRYY",
+      "WEI",
+      "JARED"
+     ],
+     "team": [
+      "EDISON",
+      "HENRRYY",
+      "JARED"
+     ],
+     "proposer": "JARED",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "WEI": true,
+    "CHEESE": true
+   },
+   {
+    "WEI": true,
+    "EDISON": false,
+    "JORDAN": true
+   },
+   {
+    "EDISON": false,
+    "JORDAN": true,
+    "HENRRYY": true,
+    "CHEESE": true
+   },
+   {
+    "HENRRYY": true,
+    "EDISON": false,
+    "JARED": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "WEI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JARED",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CHEESE"
+   },
+   {
+    "name": "EDISON",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "HENRRYY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JORDAN",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "CHEESE",
+   "uid": "yD0Arogk0PNpBhI0FTxD7oPL5kt1"
+  },
+  {
+   "name": "EDISON",
+   "uid": "CThGkla4FYPzujJw4NnXkEPwAgh1"
+  },
+  {
+   "name": "HENRRYY",
+   "uid": "jnqOOWjUn8e3T0oT9HY1T20aN103"
+  },
+  {
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2",
+   "name": "WEI"
+  },
+  {
+   "uid": "xw44GXXK63RVTZCE0PfHv4wZjP82",
+   "name": "JORDAN"
+  },
+  {
+   "uid": "GsCTDSqcFhRN2itrarcstBdO5L82",
+   "name": "JARED"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589469371,
+  "_nanoseconds": 310000000
+ },
+ "timeFinished": {
+  "_seconds": 1589469720,
+  "_nanoseconds": 97000000
+ }
+}

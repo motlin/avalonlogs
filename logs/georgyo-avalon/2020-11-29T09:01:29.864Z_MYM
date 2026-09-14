@@ -1,0 +1,264 @@
+{
+ "players": [
+  {
+   "uid": "157gZNSdqchRlWTQuHm0KzOOkJG3",
+   "name": "ALBERT"
+  },
+  {
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52",
+   "name": "ALLY"
+  },
+  {
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2",
+   "name": "RYAN"
+  },
+  {
+   "name": "MICHELLLE",
+   "uid": "DpYRwJ0fVHRYMVose9vjdSs25Ww1"
+  },
+  {
+   "name": "SINU",
+   "uid": "t7sMFpsD9QVfCyTntVjfi5arQ8H3"
+  },
+  {
+   "name": "BRANDEN",
+   "uid": "Vx8DzbnEyrezzZk1KQFcmEgq2Op1"
+  }
+ ],
+ "outcome": {
+  "assassinated": "MICHELLLE",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "SINU",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ALBERT"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MICHELLLE",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ALLY"
+   },
+   {
+    "role": "MORDRED",
+    "name": "RYAN",
+    "assassin": true
+   },
+   {
+    "name": "BRANDEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ALBERT": true,
+    "SINU": true
+   },
+   {
+    "ALLY": true,
+    "RYAN": false,
+    "MICHELLLE": true
+   },
+   {
+    "ALBERT": true,
+    "SINU": true,
+    "BRANDEN": true,
+    "RYAN": true
+   },
+   {
+    "BRANDEN": true,
+    "RYAN": true,
+    "ALBERT": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ALLY",
+      "RYAN",
+      "BRANDEN"
+     ],
+     "team": [
+      "BRANDEN",
+      "SINU"
+     ],
+     "state": "REJECTED",
+     "proposer": "BRANDEN"
+    },
+    {
+     "votes": [
+      "ALBERT",
+      "RYAN",
+      "ALLY",
+      "BRANDEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALBERT",
+     "team": [
+      "SINU",
+      "ALBERT"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "SINU",
+    "ALBERT"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "RYAN",
+    "ALLY",
+    "MICHELLLE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ALLY",
+     "team": [
+      "ALLY",
+      "SINU",
+      "ALBERT"
+     ],
+     "votes": [
+      "ALLY",
+      "RYAN",
+      "BRANDEN"
+     ]
+    },
+    {
+     "votes": [
+      "RYAN",
+      "BRANDEN",
+      "MICHELLLE",
+      "ALBERT",
+      "ALLY"
+     ],
+     "team": [
+      "RYAN",
+      "ALLY",
+      "MICHELLLE"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYAN"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "SINU",
+    "ALBERT",
+    "RYAN",
+    "BRANDEN"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MICHELLLE",
+     "state": "REJECTED",
+     "team": [
+      "MICHELLLE",
+      "ALLY",
+      "SINU",
+      "ALBERT"
+     ],
+     "votes": [
+      "ALLY",
+      "MICHELLLE"
+     ]
+    },
+    {
+     "team": [
+      "SINU",
+      "ALBERT",
+      "RYAN",
+      "BRANDEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SINU",
+      "ALBERT",
+      "RYAN",
+      "BRANDEN",
+      "ALLY"
+     ],
+     "proposer": "SINU"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SINU",
+      "ALLY",
+      "MICHELLLE",
+      "ALBERT",
+      "RYAN",
+      "BRANDEN"
+     ],
+     "team": [
+      "BRANDEN",
+      "RYAN",
+      "ALBERT"
+     ],
+     "proposer": "BRANDEN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BRANDEN",
+    "RYAN",
+    "ALBERT"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1606640489,
+  "_nanoseconds": 864000000
+ },
+ "timeFinished": {
+  "_seconds": 1606641166,
+  "_nanoseconds": 36000000
+ }
+}

@@ -1,0 +1,345 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TMOER"
+     ],
+     "team": [
+      "TIMSEN",
+      "TMOER"
+     ],
+     "proposer": "TIMSEN"
+    },
+    {
+     "votes": [
+      "JASPER"
+     ],
+     "proposer": "JASPER",
+     "state": "REJECTED",
+     "team": [
+      "JASPER",
+      "OEFSHAKALA"
+     ]
+    },
+    {
+     "team": [
+      "TMOER",
+      "HIERONYMUS"
+     ],
+     "votes": [
+      "TMOER"
+     ],
+     "state": "REJECTED",
+     "proposer": "TMOER"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "HIERONYMUS",
+      "FEDEREK"
+     ],
+     "votes": [
+      "FEDEREK",
+      "OEFSHAKALA"
+     ],
+     "proposer": "OEFSHAKALA"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JASPER",
+      "TIMSEN",
+      "HIERONYMUS",
+      "TMOER",
+      "OEFSHAKALA"
+     ],
+     "proposer": "HIERONYMUS",
+     "team": [
+      "HIERONYMUS",
+      "TIMSEN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "HIERONYMUS",
+    "TIMSEN"
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "TIMSEN",
+    "HIERONYMUS",
+    "OEFSHAKALA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "FEDEREK",
+      "TIMSEN"
+     ],
+     "proposer": "FEDEREK",
+     "state": "REJECTED",
+     "team": [
+      "HIERONYMUS",
+      "FEDEREK",
+      "TIMSEN"
+     ]
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "TIMSEN",
+     "team": [
+      "TIMSEN",
+      "FEDEREK",
+      "JASPER"
+     ]
+    },
+    {
+     "votes": [
+      "HIERONYMUS",
+      "JASPER"
+     ],
+     "team": [
+      "JASPER",
+      "TIMSEN",
+      "HIERONYMUS"
+     ],
+     "proposer": "JASPER",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TIMSEN",
+      "TMOER"
+     ],
+     "team": [
+      "TMOER",
+      "TIMSEN",
+      "OEFSHAKALA"
+     ],
+     "proposer": "TMOER"
+    },
+    {
+     "proposer": "OEFSHAKALA",
+     "state": "APPROVED",
+     "team": [
+      "TIMSEN",
+      "HIERONYMUS",
+      "OEFSHAKALA"
+     ],
+     "votes": [
+      "FEDEREK",
+      "TIMSEN",
+      "HIERONYMUS",
+      "TMOER",
+      "OEFSHAKALA",
+      "JASPER"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 2
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TIMSEN",
+      "HIERONYMUS"
+     ],
+     "proposer": "HIERONYMUS",
+     "state": "REJECTED",
+     "team": [
+      "TIMSEN",
+      "FEDEREK",
+      "HIERONYMUS",
+      "JASPER"
+     ]
+    },
+    {
+     "votes": [
+      "TMOER",
+      "OEFSHAKALA",
+      "JASPER",
+      "FEDEREK",
+      "HIERONYMUS"
+     ],
+     "team": [
+      "TMOER",
+      "OEFSHAKALA",
+      "FEDEREK",
+      "JASPER"
+     ],
+     "state": "APPROVED",
+     "proposer": "FEDEREK"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "TMOER",
+    "OEFSHAKALA",
+    "FEDEREK",
+    "JASPER"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TIMSEN",
+      "HIERONYMUS"
+     ],
+     "proposer": "TIMSEN",
+     "team": [
+      "OEFSHAKALA",
+      "HIERONYMUS",
+      "TIMSEN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JASPER",
+      "FEDEREK",
+      "TMOER"
+     ],
+     "proposer": "JASPER",
+     "votes": [
+      "TMOER",
+      "OEFSHAKALA",
+      "JASPER",
+      "FEDEREK",
+      "HIERONYMUS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JASPER",
+    "FEDEREK",
+    "TMOER"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "OEFSHAKALA",
+  "votes": [
+   {
+    "TIMSEN": true,
+    "HIERONYMUS": true
+   },
+   {
+    "TIMSEN": false,
+    "HIERONYMUS": false,
+    "OEFSHAKALA": true
+   },
+   {
+    "FEDEREK": true,
+    "OEFSHAKALA": true,
+    "TMOER": true,
+    "JASPER": true
+   },
+   {
+    "FEDEREK": true,
+    "TMOER": true,
+    "JASPER": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "FEDEREK",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "TIMSEN",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "HIERONYMUS",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TMOER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "OEFSHAKALA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "JASPER",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "TMOER",
+   "uid": "9Q0u0dGqsXQ6GZ8WdeGyVAIB1jI2"
+  },
+  {
+   "name": "OEFSHAKALA",
+   "uid": "owCrJgrlZ3YA6HYxGWdQFiEx7Xj1"
+  },
+  {
+   "uid": "lZPPiV0Qf0bEErEd5jmldK42brv1",
+   "name": "HIERONYMUS"
+  },
+  {
+   "uid": "C8fTALCJ1Th9ZcCkPx7UBJxh7eN2",
+   "name": "FEDEREK"
+  },
+  {
+   "name": "TIMSEN",
+   "uid": "YGJVRWuCEoe0EmyIjNqITEb2dTv1"
+  },
+  {
+   "uid": "AY74ODK0CZOboixnwQ78wtVIybm1",
+   "name": "JASPER"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588707927,
+  "_nanoseconds": 670000000
+ },
+ "timeFinished": {
+  "_seconds": 1588710394,
+  "_nanoseconds": 5000000
+ }
+}

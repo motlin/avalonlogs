@@ -1,0 +1,337 @@
+{
+ "timeFinished": {
+  "_seconds": 1597543992,
+  "_nanoseconds": 866000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JESSICA",
+   "uid": "mPN3PIMVeVMvtD3YddGLDs9T6AX2"
+  },
+  {
+   "uid": "ugnKNhZPRZbqhZ9wVoBGmuiQDhx1",
+   "name": "GLEN"
+  },
+  {
+   "uid": "AzTgDwYlkDRsC5bpZ4k7lAMh28J2",
+   "name": "HOLLY"
+  },
+  {
+   "name": "PAUL",
+   "uid": "3H2UhJ1Cllfazu1TZ13e5SBrQOy1"
+  },
+  {
+   "name": "SAMANTHA",
+   "uid": "UwSUHshg1KPDngx3YUSi1pUTIjL2"
+  },
+  {
+   "name": "GALAHAD",
+   "uid": "MUkHhrDx39WTzDXqq3cEgrmO4wb2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GALAHAD"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "HOLLY"
+   },
+   {
+    "name": "GLEN",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "PAUL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "SAMANTHA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "JESSICA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "GALAHAD": true,
+    "GLEN": false
+   },
+   {
+    "GLEN": true,
+    "JESSICA": true,
+    "PAUL": true
+   },
+   {
+    "GLEN": false,
+    "PAUL": true,
+    "SAMANTHA": true,
+    "JESSICA": true
+   },
+   {
+    "JESSICA": true,
+    "PAUL": true,
+    "SAMANTHA": true
+   },
+   {
+    "GALAHAD": true,
+    "SAMANTHA": true,
+    "PAUL": true,
+    "HOLLY": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1597542899,
+  "_nanoseconds": 249000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "GALAHAD",
+     "votes": [
+      "GALAHAD",
+      "SAMANTHA",
+      "HOLLY",
+      "JESSICA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GALAHAD",
+      "GLEN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "GALAHAD",
+    "GLEN"
+   ],
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "GALAHAD",
+      "GLEN",
+      "JESSICA",
+      "SAMANTHA",
+      "HOLLY",
+      "PAUL"
+     ],
+     "team": [
+      "PAUL",
+      "GLEN",
+      "JESSICA"
+     ],
+     "proposer": "JESSICA",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "PAUL",
+    "GLEN",
+    "JESSICA"
+   ]
+  },
+  {
+   "team": [
+    "PAUL",
+    "GLEN",
+    "JESSICA",
+    "SAMANTHA"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "GLEN",
+     "team": [
+      "SAMANTHA",
+      "PAUL",
+      "JESSICA",
+      "HOLLY"
+     ],
+     "votes": [
+      "GALAHAD",
+      "PAUL"
+     ]
+    },
+    {
+     "votes": [
+      "HOLLY",
+      "GALAHAD"
+     ],
+     "proposer": "HOLLY",
+     "state": "REJECTED",
+     "team": [
+      "GALAHAD",
+      "HOLLY",
+      "SAMANTHA",
+      "JESSICA"
+     ]
+    },
+    {
+     "votes": [
+      "PAUL",
+      "JESSICA",
+      "SAMANTHA",
+      "GLEN",
+      "HOLLY",
+      "GALAHAD"
+     ],
+     "team": [
+      "PAUL",
+      "GLEN",
+      "JESSICA",
+      "SAMANTHA"
+     ],
+     "proposer": "PAUL",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "SAMANTHA",
+    "PAUL",
+    "JESSICA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HOLLY",
+      "GALAHAD",
+      "GLEN",
+      "PAUL",
+      "SAMANTHA"
+     ],
+     "proposer": "SAMANTHA",
+     "team": [
+      "SAMANTHA",
+      "PAUL",
+      "JESSICA"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PAUL",
+    "HOLLY",
+    "SAMANTHA",
+    "GALAHAD"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "GALAHAD",
+      "SAMANTHA",
+      "PAUL",
+      "HOLLY"
+     ],
+     "proposer": "GALAHAD",
+     "state": "REJECTED",
+     "votes": [
+      "GALAHAD"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JESSICA",
+     "votes": [
+      "GLEN",
+      "HOLLY",
+      "JESSICA"
+     ],
+     "team": [
+      "HOLLY",
+      "JESSICA",
+      "PAUL",
+      "GLEN"
+     ]
+    },
+    {
+     "votes": [
+      "JESSICA",
+      "HOLLY",
+      "GLEN"
+     ],
+     "proposer": "GLEN",
+     "state": "REJECTED",
+     "team": [
+      "JESSICA",
+      "HOLLY",
+      "PAUL",
+      "GLEN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "HOLLY",
+     "votes": [],
+     "team": [
+      "GALAHAD",
+      "JESSICA",
+      "SAMANTHA",
+      "HOLLY"
+     ]
+    },
+    {
+     "team": [
+      "PAUL",
+      "HOLLY",
+      "SAMANTHA",
+      "GALAHAD"
+     ],
+     "proposer": "PAUL",
+     "state": "APPROVED",
+     "votes": [
+      "PAUL",
+      "GALAHAD",
+      "JESSICA",
+      "SAMANTHA",
+      "HOLLY",
+      "GLEN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1
+  }
+ ]
+}

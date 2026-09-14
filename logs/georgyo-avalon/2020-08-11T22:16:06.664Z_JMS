@@ -1,0 +1,288 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "ERIC",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "TANAYA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "MENGDI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SAM"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "LIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CECELIA",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CECELIA": true,
+    "TANAYA": true
+   },
+   {
+    "CECELIA": true,
+    "SAM": true,
+    "TANAYA": false
+   },
+   {
+    "CECELIA": true,
+    "LIN": true,
+    "SAM": true,
+    "ERIC": false
+   },
+   {
+    "LIN": true,
+    "MENGDI": true,
+    "TANAYA": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1597185743,
+  "_nanoseconds": 547000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "TANAYA",
+    "CECELIA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "TANAYA",
+      "CECELIA",
+      "LIN",
+      "ERIC"
+     ],
+     "team": [
+      "TANAYA",
+      "CECELIA"
+     ],
+     "proposer": "LIN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "LIN",
+      "CECELIA",
+      "SAM"
+     ],
+     "proposer": "CECELIA",
+     "team": [
+      "MENGDI",
+      "LIN",
+      "CECELIA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "TANAYA",
+      "ERIC",
+      "LIN",
+      "SAM",
+      "CECELIA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "TANAYA",
+      "CECELIA",
+      "SAM"
+     ],
+     "proposer": "TANAYA"
+    }
+   ],
+   "team": [
+    "TANAYA",
+    "CECELIA",
+    "SAM"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "ERIC",
+     "team": [
+      "CECELIA",
+      "ERIC",
+      "SAM",
+      "LIN"
+     ],
+     "votes": [
+      "CECELIA",
+      "TANAYA",
+      "ERIC"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SAM",
+     "votes": [
+      "TANAYA",
+      "LIN",
+      "CECELIA",
+      "SAM",
+      "ERIC"
+     ],
+     "team": [
+      "SAM",
+      "LIN",
+      "CECELIA",
+      "ERIC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SAM",
+    "LIN",
+    "CECELIA",
+    "ERIC"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MENGDI",
+      "SAM"
+     ],
+     "proposer": "MENGDI",
+     "team": [
+      "SAM",
+      "MENGDI",
+      "LIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TANAYA",
+      "LIN"
+     ],
+     "team": [
+      "LIN",
+      "TANAYA",
+      "CECELIA"
+     ],
+     "proposer": "LIN"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CECELIA"
+     ],
+     "proposer": "CECELIA",
+     "team": [
+      "TANAYA",
+      "CECELIA",
+      "MENGDI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "TANAYA",
+      "LIN",
+      "MENGDI"
+     ],
+     "votes": [
+      "ERIC",
+      "TANAYA",
+      "LIN",
+      "MENGDI"
+     ],
+     "proposer": "TANAYA"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "TANAYA",
+    "LIN",
+    "MENGDI"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "WJqsPwhB9rhwRbBdy6hjzGZ8qKC2",
+   "name": "CECELIA"
+  },
+  {
+   "name": "TANAYA",
+   "uid": "AoZYszZwTZcAlYl0Cy0lf184sVP2"
+  },
+  {
+   "name": "ERIC",
+   "uid": "MRKtvqaq2RQwoBZ48YJOu6z8q4K3"
+  },
+  {
+   "uid": "Tv7cD1Q5QWgYeq1FhEL6aUNzoaw2",
+   "name": "SAM"
+  },
+  {
+   "uid": "OshsPZXHzuWqLirn9a220fFLcvz1",
+   "name": "MENGDI"
+  },
+  {
+   "name": "LIN",
+   "uid": "nLVWr0X79DUs40rPYQSCWXd8TCy1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1597184166,
+  "_nanoseconds": 664000000
+ }
+}

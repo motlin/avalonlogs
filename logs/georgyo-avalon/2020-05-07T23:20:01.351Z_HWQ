@@ -1,0 +1,372 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "TYLER",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "KAREN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "GOODWIN",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ROCIO"
+   },
+   {
+    "name": "KIMBERLY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "RAFMAN"
+   },
+   {
+    "name": "JENNA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LASER"
+   }
+  ],
+  "assassinated": "JENNA",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "GOODWIN": true,
+    "RAFMAN": false,
+    "TYLER": true
+   },
+   {
+    "TYLER": true,
+    "JENNA": true,
+    "KIMBERLY": true,
+    "ROCIO": true
+   },
+   {
+    "ROCIO": true,
+    "TYLER": true,
+    "KIMBERLY": true,
+    "JENNA": true
+   },
+   {
+    "JENNA": true,
+    "TYLER": true,
+    "ROCIO": true,
+    "KIMBERLY": true,
+    "LASER": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1588893601,
+  "_nanoseconds": 351000000
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "team": [
+    "TYLER",
+    "RAFMAN",
+    "GOODWIN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GOODWIN",
+      "ROCIO",
+      "KIMBERLY"
+     ],
+     "proposer": "GOODWIN",
+     "team": [
+      "GOODWIN",
+      "RAFMAN",
+      "KAREN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JENNA",
+     "votes": [
+      "ROCIO",
+      "KIMBERLY",
+      "JENNA"
+     ],
+     "team": [
+      "JENNA",
+      "KIMBERLY",
+      "LASER"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KIMBERLY",
+      "TYLER",
+      "LASER"
+     ],
+     "votes": [
+      "KIMBERLY"
+     ],
+     "proposer": "KIMBERLY"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LASER",
+      "KAREN",
+      "RAFMAN"
+     ],
+     "votes": [
+      "LASER",
+      "KAREN",
+      "ROCIO",
+      "KIMBERLY"
+     ],
+     "proposer": "LASER"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "TYLER",
+     "team": [
+      "TYLER",
+      "RAFMAN",
+      "GOODWIN"
+     ],
+     "votes": [
+      "LASER",
+      "TYLER",
+      "KAREN",
+      "GOODWIN",
+      "ROCIO",
+      "RAFMAN",
+      "JENNA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ROCIO",
+      "KIMBERLY",
+      "GOODWIN",
+      "LASER"
+     ],
+     "votes": [
+      "LASER",
+      "ROCIO"
+     ],
+     "proposer": "ROCIO",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JENNA"
+     ],
+     "proposer": "KAREN",
+     "team": [
+      "KAREN",
+      "GOODWIN",
+      "KIMBERLY",
+      "JENNA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ROCIO"
+     ],
+     "proposer": "RAFMAN",
+     "team": [
+      "RAFMAN",
+      "KIMBERLY",
+      "GOODWIN",
+      "ROCIO"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RAFMAN",
+      "LASER",
+      "TYLER",
+      "GOODWIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "GOODWIN",
+     "team": [
+      "GOODWIN",
+      "KIMBERLY",
+      "LASER",
+      "KAREN"
+     ]
+    },
+    {
+     "proposer": "JENNA",
+     "team": [
+      "JENNA",
+      "KIMBERLY",
+      "ROCIO",
+      "TYLER"
+     ],
+     "votes": [
+      "GOODWIN",
+      "ROCIO",
+      "KIMBERLY",
+      "RAFMAN",
+      "JENNA",
+      "LASER",
+      "TYLER",
+      "KAREN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "JENNA",
+    "KIMBERLY",
+    "ROCIO",
+    "TYLER"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "KIMBERLY",
+    "JENNA",
+    "ROCIO",
+    "TYLER"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ROCIO",
+      "RAFMAN",
+      "JENNA",
+      "LASER",
+      "TYLER"
+     ],
+     "proposer": "KIMBERLY",
+     "state": "APPROVED",
+     "team": [
+      "KIMBERLY",
+      "JENNA",
+      "ROCIO",
+      "TYLER"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "LASER",
+      "TYLER",
+      "KAREN",
+      "GOODWIN",
+      "ROCIO",
+      "KIMBERLY",
+      "RAFMAN",
+      "JENNA"
+     ],
+     "proposer": "LASER",
+     "team": [
+      "KIMBERLY",
+      "JENNA",
+      "TYLER",
+      "ROCIO",
+      "LASER"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "KIMBERLY",
+    "JENNA",
+    "TYLER",
+    "ROCIO",
+    "LASER"
+   ]
+  },
+  {
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588895165,
+  "_nanoseconds": 0
+ },
+ "players": [
+  {
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2",
+   "name": "GOODWIN"
+  },
+  {
+   "uid": "GtnoqXEanyXtkUj99PorBMhxrlB2",
+   "name": "JENNA"
+  },
+  {
+   "uid": "tVQNQuHDO8cihbBVOPRGTj0fm4I2",
+   "name": "KIMBERLY"
+  },
+  {
+   "name": "LASER",
+   "uid": "1BzGT5Pb9SR0DbGe7Xxp8UUky8T2"
+  },
+  {
+   "name": "TYLER",
+   "uid": "OffwbigM2SblJxpZUB0eHkoPheI2"
+  },
+  {
+   "uid": "VbUDJdM4SNRVWhkElP1RFmbhRyo2",
+   "name": "ROCIO"
+  },
+  {
+   "name": "KAREN",
+   "uid": "kYmaig4V9qPVwzFNPynJHaGGk8P2"
+  },
+  {
+   "name": "RAFMAN",
+   "uid": "iEzhrQLgEOXe7L05QEtqhr2uXDW2"
+  }
+ ]
+}

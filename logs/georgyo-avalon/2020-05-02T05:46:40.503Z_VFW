@@ -1,0 +1,247 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "ZAIN",
+    "RAHUL"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "RAAS",
+      "ZAIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "RAAS",
+      "ZAIN",
+      "URWAH"
+     ],
+     "proposer": "RAAS"
+    },
+    {
+     "team": [
+      "ZAIN",
+      "RAHUL"
+     ],
+     "proposer": "ZAIN",
+     "state": "APPROVED",
+     "votes": [
+      "RAAS",
+      "ZAIN",
+      "MAFAZLA",
+      "RAHUL"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "MAFAZLA",
+      "RAHUL",
+      "SANJY",
+      "ZAIN"
+     ],
+     "team": [
+      "RAHUL",
+      "ZAIN",
+      "SANJY"
+     ],
+     "state": "APPROVED",
+     "proposer": "SANJY"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "RAHUL",
+    "ZAIN",
+    "SANJY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "ZAIN",
+    "SANJY",
+    "RAHUL",
+    "URWAH"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SANJY",
+      "ZAIN",
+      "URWAH"
+     ],
+     "team": [
+      "RAHUL",
+      "URWAH",
+      "SANJY",
+      "ZAIN"
+     ],
+     "proposer": "URWAH",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ZAIN",
+      "MAFAZLA",
+      "RAHUL",
+      "SANJY"
+     ],
+     "proposer": "RAHUL",
+     "state": "APPROVED",
+     "team": [
+      "ZAIN",
+      "SANJY",
+      "RAHUL",
+      "URWAH"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZAIN",
+      "URWAH",
+      "MAFAZLA",
+      "RAHUL"
+     ],
+     "team": [
+      "MAFAZLA",
+      "RAHUL",
+      "URWAH"
+     ],
+     "proposer": "MAFAZLA"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MAFAZLA",
+    "RAHUL",
+    "URWAH"
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "assassinated": "ZAIN",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "RAHUL": true,
+    "ZAIN": true
+   },
+   {
+    "ZAIN": true,
+    "SANJY": true,
+    "RAHUL": true
+   },
+   {
+    "ZAIN": true,
+    "SANJY": false,
+    "URWAH": true,
+    "RAHUL": true
+   },
+   {
+    "URWAH": true,
+    "RAHUL": true,
+    "MAFAZLA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "SANJY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "RAAS",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ZAIN"
+   },
+   {
+    "name": "URWAH",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MAFAZLA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "RAHUL",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "players": [
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2",
+   "name": "RAAS"
+  },
+  {
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2",
+   "name": "ZAIN"
+  },
+  {
+   "name": "SANJY",
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073"
+  },
+  {
+   "name": "URWAH",
+   "uid": "b25KDZonqXVnJg1BnaKXhGQCFUt1"
+  },
+  {
+   "name": "RAHUL",
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588399299,
+  "_nanoseconds": 32000000
+ },
+ "timeCreated": {
+  "_seconds": 1588398400,
+  "_nanoseconds": 503000000
+ }
+}

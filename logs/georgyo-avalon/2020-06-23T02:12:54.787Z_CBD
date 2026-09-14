@@ -1,0 +1,258 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ETHAN",
+   "uid": "uiEtJzl3kMcca36Gn2XBcpH9PwJ2"
+  },
+  {
+   "name": "JACOB",
+   "uid": "2kkT3FL8EsOPKj3k1U3nv1g07Ou1"
+  },
+  {
+   "uid": "CRAo4cjSqXM6sZ3vr9VK2YLji003",
+   "name": "KEON"
+  },
+  {
+   "uid": "XI0NWp0BEuZ5IIczE3V0461AdCh1",
+   "name": "ALEXISBAE"
+  },
+  {
+   "name": "MILLERTIME",
+   "uid": "l8JzD6xjccgDr0LeRniyX7zhlPP2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592878924,
+  "_nanoseconds": 234000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KEON",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "ETHAN"
+   },
+   {
+    "name": "MILLERTIME",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JACOB",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ALEXISBAE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "ALEXISBAE": true,
+    "JACOB": true
+   },
+   {
+    "ALEXISBAE": false,
+    "JACOB": true,
+    "MILLERTIME": true
+   },
+   {
+    "ALEXISBAE": true,
+    "ETHAN": true
+   },
+   {
+    "MILLERTIME": true,
+    "KEON": true,
+    "ALEXISBAE": false
+   },
+   {
+    "ALEXISBAE": false,
+    "MILLERTIME": true,
+    "ETHAN": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1592878374,
+  "_nanoseconds": 787000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ALEXISBAE",
+      "KEON",
+      "ETHAN",
+      "MILLERTIME",
+      "JACOB"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALEXISBAE",
+     "team": [
+      "ALEXISBAE",
+      "JACOB"
+     ]
+    }
+   ],
+   "team": [
+    "ALEXISBAE",
+    "JACOB"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "MILLERTIME",
+    "JACOB",
+    "ALEXISBAE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ETHAN",
+      "MILLERTIME",
+      "JACOB",
+      "ALEXISBAE",
+      "KEON"
+     ],
+     "team": [
+      "MILLERTIME",
+      "JACOB",
+      "ALEXISBAE"
+     ],
+     "proposer": "MILLERTIME"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ETHAN",
+     "votes": [
+      "ETHAN",
+      "MILLERTIME",
+      "JACOB",
+      "ALEXISBAE",
+      "KEON"
+     ],
+     "team": [
+      "ALEXISBAE",
+      "ETHAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ALEXISBAE",
+    "ETHAN"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ETHAN",
+      "JACOB",
+      "ALEXISBAE"
+     ],
+     "votes": [
+      "KEON",
+      "JACOB"
+     ],
+     "proposer": "JACOB",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ALEXISBAE",
+      "KEON"
+     ],
+     "proposer": "KEON",
+     "team": [
+      "KEON",
+      "ALEXISBAE",
+      "MILLERTIME"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ETHAN",
+      "MILLERTIME",
+      "ALEXISBAE",
+      "KEON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ALEXISBAE",
+      "KEON",
+      "MILLERTIME"
+     ],
+     "proposer": "ALEXISBAE"
+    }
+   ],
+   "team": [
+    "ALEXISBAE",
+    "KEON",
+    "MILLERTIME"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MILLERTIME",
+    "ALEXISBAE",
+    "ETHAN"
+   ],
+   "teamSize": 3,
+   "numFails": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MILLERTIME",
+     "state": "APPROVED",
+     "team": [
+      "MILLERTIME",
+      "ALEXISBAE",
+      "ETHAN"
+     ],
+     "votes": [
+      "ALEXISBAE",
+      "ETHAN",
+      "MILLERTIME"
+     ]
+    }
+   ]
+  }
+ ]
+}

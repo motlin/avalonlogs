@@ -1,0 +1,485 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1599706405,
+  "_nanoseconds": 550000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ALYSSA"
+   },
+   {
+    "name": "ANINDYA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "GEORGE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "AFFINE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "NIKHIL"
+   },
+   {
+    "name": "NIKOLAI",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ALYSSA": true,
+    "GEORGE": true
+   },
+   {
+    "GEORGE": true,
+    "NIKHIL": false,
+    "NIKOLAI": true
+   },
+   {
+    "ANINDYA": true,
+    "NIKHIL": false,
+    "AFFINE": true,
+    "GEORGE": true
+   },
+   {
+    "GEORGE": true,
+    "ALYSSA": true,
+    "NIKOLAI": true
+   },
+   {
+    "NIKOLAI": true,
+    "GEORGE": true,
+    "ANINDYA": false,
+    "ALYSSA": true
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1599707434,
+  "_nanoseconds": 161000000
+ },
+ "players": [
+  {
+   "name": "AFFINE",
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "GEORGE",
+   "uid": "z9DTvNKA9mcMQLPbV0oBvWllyd32"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3"
+  },
+  {
+   "name": "ANINDYA",
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2"
+  },
+  {
+   "name": "ALYSSA",
+   "uid": "BsKHDR2tcCTGSxFjjtq0oIkN0xf1"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "GEORGE",
+    "ALYSSA"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "team": [
+      "AFFINE",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "AFFINE",
+      "ALYSSA",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "GEORGE",
+      "ALYSSA"
+     ],
+     "votes": [
+      "GEORGE",
+      "ALYSSA"
+     ],
+     "proposer": "GEORGE"
+    },
+    {
+     "proposer": "NIKHIL",
+     "state": "REJECTED",
+     "votes": [
+      "GEORGE",
+      "NIKHIL"
+     ],
+     "team": [
+      "NIKHIL",
+      "GEORGE"
+     ]
+    },
+    {
+     "team": [
+      "ANINDYA",
+      "ALYSSA"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "ANINDYA"
+    },
+    {
+     "team": [
+      "GEORGE",
+      "ALYSSA"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALYSSA",
+     "votes": [
+      "ANINDYA",
+      "GEORGE",
+      "AFFINE",
+      "ALYSSA",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GEORGE"
+     ],
+     "team": [
+      "GEORGE",
+      "ALYSSA",
+      "AFFINE"
+     ],
+     "proposer": "AFFINE"
+    },
+    {
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "GEORGE",
+      "ALYSSA"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "GEORGE"
+     ],
+     "proposer": "GEORGE",
+     "team": [
+      "GEORGE",
+      "ALYSSA",
+      "NIKHIL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "NIKHIL",
+      "GEORGE",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKHIL",
+     "votes": [
+      "ALYSSA",
+      "GEORGE",
+      "NIKOLAI",
+      "NIKHIL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "NIKHIL",
+    "GEORGE",
+    "NIKOLAI"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "GEORGE",
+      "AFFINE",
+      "ANINDYA"
+     ],
+     "proposer": "ANINDYA",
+     "state": "REJECTED",
+     "team": [
+      "ANINDYA",
+      "AFFINE",
+      "GEORGE",
+      "NIKHIL"
+     ]
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "ALYSSA",
+     "team": [
+      "ALYSSA",
+      "NIKHIL",
+      "GEORGE",
+      "AFFINE"
+     ]
+    },
+    {
+     "team": [
+      "AFFINE",
+      "ANINDYA",
+      "NIKHIL",
+      "GEORGE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ANINDYA",
+      "AFFINE",
+      "GEORGE"
+     ],
+     "proposer": "AFFINE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "NIKOLAI",
+     "votes": [
+      "ALYSSA"
+     ],
+     "team": [
+      "GEORGE",
+      "NIKOLAI",
+      "ALYSSA",
+      "ANINDYA"
+     ]
+    },
+    {
+     "team": [
+      "AFFINE",
+      "GEORGE",
+      "NIKHIL",
+      "ANINDYA"
+     ],
+     "proposer": "GEORGE",
+     "state": "APPROVED",
+     "votes": [
+      "AFFINE",
+      "GEORGE",
+      "NIKOLAI",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "team": [
+    "AFFINE",
+    "GEORGE",
+    "NIKHIL",
+    "ANINDYA"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "GEORGE",
+    "NIKOLAI",
+    "ALYSSA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ALYSSA",
+      "GEORGE",
+      "NIKHIL"
+     ],
+     "proposer": "NIKHIL",
+     "team": [
+      "NIKHIL",
+      "GEORGE",
+      "ALYSSA"
+     ]
+    },
+    {
+     "team": [
+      "ANINDYA",
+      "AFFINE",
+      "GEORGE"
+     ],
+     "proposer": "ANINDYA",
+     "state": "REJECTED",
+     "votes": [
+      "GEORGE",
+      "ANINDYA"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "GEORGE",
+      "ALYSSA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "GEORGE",
+      "NIKHIL",
+      "ALYSSA"
+     ],
+     "proposer": "ALYSSA"
+    },
+    {
+     "votes": [
+      "AFFINE",
+      "GEORGE",
+      "ALYSSA"
+     ],
+     "state": "REJECTED",
+     "proposer": "AFFINE",
+     "team": [
+      "AFFINE",
+      "ALYSSA",
+      "GEORGE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NIKOLAI",
+      "ALYSSA",
+      "GEORGE",
+      "ANINDYA",
+      "NIKHIL",
+      "AFFINE"
+     ],
+     "proposer": "NIKOLAI",
+     "team": [
+      "GEORGE",
+      "NIKOLAI",
+      "ALYSSA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ANINDYA",
+    "ALYSSA",
+    "NIKOLAI",
+    "GEORGE"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "GEORGE",
+     "state": "REJECTED",
+     "votes": [
+      "GEORGE",
+      "ANINDYA"
+     ],
+     "team": [
+      "NIKOLAI",
+      "GEORGE",
+      "ANINDYA",
+      "ALYSSA"
+     ]
+    },
+    {
+     "team": [
+      "NIKHIL",
+      "NIKOLAI",
+      "ALYSSA",
+      "ANINDYA"
+     ],
+     "proposer": "NIKHIL",
+     "state": "REJECTED",
+     "votes": [
+      "NIKHIL"
+     ]
+    },
+    {
+     "team": [
+      "ANINDYA",
+      "GEORGE",
+      "NIKOLAI",
+      "ALYSSA"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "votes": [
+      "NIKHIL",
+      "ANINDYA",
+      "ALYSSA"
+     ]
+    },
+    {
+     "proposer": "ALYSSA",
+     "state": "APPROVED",
+     "team": [
+      "ANINDYA",
+      "ALYSSA",
+      "NIKOLAI",
+      "GEORGE"
+     ],
+     "votes": [
+      "ALYSSA",
+      "GEORGE",
+      "NIKHIL",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ]
+}

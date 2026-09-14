@@ -1,0 +1,239 @@
+{
+ "players": [
+  {
+   "uid": "ah4hYZ3SutQhVfsC7jlmxTiE9DH2",
+   "name": "BRANDO"
+  },
+  {
+   "name": "KURRY",
+   "uid": "grQraCgxCFNHjeYMbIg3rTtbSbA3"
+  },
+  {
+   "uid": "NXNEsrWQJDdaaGyg3rTwZLkIO2m2",
+   "name": "HEHEHE"
+  },
+  {
+   "uid": "vDTArF2wEYUq6cqs5wXqbkKiGwV2",
+   "name": "BIGJONAS"
+  },
+  {
+   "name": "YOURNAME",
+   "uid": "7op4gdwXZCVEoasg2ATXGOw1BEx1"
+  },
+  {
+   "name": "PALMA",
+   "uid": "KVJ5FRzf4SQMjdHMN92PpWgseOe2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1597465846,
+  "_nanoseconds": 50000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BRANDO",
+     "votes": [
+      "PALMA",
+      "BIGJONAS",
+      "HEHEHE",
+      "YOURNAME",
+      "KURRY",
+      "BRANDO"
+     ],
+     "team": [
+      "BRANDO",
+      "PALMA"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "BRANDO",
+    "PALMA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PALMA",
+      "HEHEHE",
+      "BRANDO",
+      "BIGJONAS",
+      "KURRY"
+     ],
+     "team": [
+      "KURRY",
+      "BRANDO",
+      "PALMA"
+     ],
+     "proposer": "KURRY"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "KURRY",
+    "BRANDO",
+    "PALMA"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "BRANDO",
+    "BIGJONAS",
+    "YOURNAME",
+    "KURRY"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "HEHEHE",
+     "votes": [
+      "PALMA",
+      "HEHEHE",
+      "YOURNAME"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "HEHEHE",
+      "BIGJONAS",
+      "YOURNAME",
+      "PALMA"
+     ]
+    },
+    {
+     "team": [
+      "BRANDO",
+      "BIGJONAS",
+      "YOURNAME",
+      "KURRY"
+     ],
+     "votes": [
+      "PALMA",
+      "BIGJONAS",
+      "HEHEHE",
+      "KURRY",
+      "YOURNAME"
+     ],
+     "state": "APPROVED",
+     "proposer": "BIGJONAS"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "BIGJONAS",
+      "YOURNAME",
+      "BRANDO"
+     ],
+     "state": "APPROVED",
+     "proposer": "YOURNAME",
+     "votes": [
+      "YOURNAME",
+      "BRANDO",
+      "KURRY",
+      "HEHEHE",
+      "BIGJONAS"
+     ]
+    }
+   ],
+   "team": [
+    "BIGJONAS",
+    "YOURNAME",
+    "BRANDO"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1597465477,
+  "_nanoseconds": 969000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "HEHEHE",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": true,
+    "name": "PALMA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "YOURNAME",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KURRY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRANDO",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "BIGJONAS",
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": "BIGJONAS",
+  "votes": [
+   {
+    "PALMA": true,
+    "BRANDO": true
+   },
+   {
+    "BRANDO": true,
+    "PALMA": false,
+    "KURRY": true
+   },
+   {
+    "BIGJONAS": true,
+    "BRANDO": true,
+    "YOURNAME": true,
+    "KURRY": true
+   },
+   {
+    "BRANDO": true,
+    "BIGJONAS": true,
+    "YOURNAME": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

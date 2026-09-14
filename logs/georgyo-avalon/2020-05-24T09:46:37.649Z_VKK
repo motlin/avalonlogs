@@ -1,0 +1,204 @@
+{
+ "players": [
+  {
+   "uid": "jgYbaXnbFPWYKm1r7aFFvQEgyOA3",
+   "name": "ARUNDHATHY"
+  },
+  {
+   "uid": "0zbOqjICfJfO48I1P8yufYz3UXF3",
+   "name": "RAMU"
+  },
+  {
+   "name": "NIHOR",
+   "uid": "sqPmR7mfuaevr9RMSVxqG3ueY472"
+  },
+  {
+   "uid": "ijqEuz7xAIXXSOJ3W3EeJejY4yl2",
+   "name": "ANI"
+  },
+  {
+   "uid": "T6UkJSofBnXK4RnJUdPBL97KFpw1",
+   "name": "NEYMAR"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ARUNDHATHY",
+    "NEYMAR"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NIHOR",
+      "RAMU",
+      "ANI",
+      "NEYMAR",
+      "ARUNDHATHY"
+     ],
+     "proposer": "ARUNDHATHY",
+     "team": [
+      "ARUNDHATHY",
+      "NEYMAR"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "NEYMAR",
+    "ARUNDHATHY",
+    "RAMU"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "RAMU"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "RAMU"
+     ],
+     "proposer": "RAMU"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "NEYMAR",
+    "ANI"
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NIHOR",
+     "votes": [
+      "NIHOR",
+      "RAMU",
+      "ANI",
+      "NEYMAR"
+     ],
+     "team": [
+      "NEYMAR",
+      "ANI"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ANI",
+     "team": [
+      "ANI",
+      "ARUNDHATHY",
+      "RAMU"
+     ],
+     "votes": [
+      "NEYMAR",
+      "ARUNDHATHY",
+      "RAMU",
+      "ANI"
+     ]
+    }
+   ],
+   "team": [
+    "ANI",
+    "ARUNDHATHY",
+    "RAMU"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590313794,
+  "_nanoseconds": 368000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590313597,
+  "_nanoseconds": 649000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "NEYMAR": true,
+    "ARUNDHATHY": true
+   },
+   {
+    "RAMU": true,
+    "ARUNDHATHY": true,
+    "NEYMAR": false
+   },
+   {
+    "NEYMAR": false,
+    "ANI": true
+   },
+   {
+    "RAMU": false,
+    "ANI": true,
+    "ARUNDHATHY": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "NIHOR",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "RAMU",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANI"
+   },
+   {
+    "role": "MORDRED",
+    "name": "NEYMAR",
+    "assassin": true
+   },
+   {
+    "name": "ARUNDHATHY",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

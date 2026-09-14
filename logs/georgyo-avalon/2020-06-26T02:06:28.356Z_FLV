@@ -1,0 +1,237 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "DLMR",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "STEVEN",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANDREW"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MICHAEL",
+    "assassin": false
+   },
+   {
+    "name": "MAX",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "STICKYRICE",
+    "assassin": false
+   }
+  ],
+  "assassinated": "DLMR",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "STEVEN": false,
+    "DLMR": true
+   },
+   {
+    "MICHAEL": true,
+    "MAX": true,
+    "ANDREW": true
+   },
+   {
+    "MAX": true,
+    "MICHAEL": true,
+    "DLMR": true,
+    "ANDREW": true
+   },
+   {
+    "ANDREW": true,
+    "MAX": true,
+    "MICHAEL": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1593137810,
+  "_nanoseconds": 262000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "STEVEN",
+      "DLMR"
+     ],
+     "votes": [
+      "STEVEN",
+      "ANDREW",
+      "STICKYRICE",
+      "DLMR"
+     ],
+     "state": "APPROVED",
+     "proposer": "STICKYRICE"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "STEVEN",
+    "DLMR"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MICHAEL",
+    "ANDREW",
+    "MAX"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "MICHAEL",
+      "MAX",
+      "STICKYRICE",
+      "DLMR",
+      "STEVEN",
+      "ANDREW"
+     ],
+     "proposer": "MICHAEL",
+     "state": "APPROVED",
+     "team": [
+      "MICHAEL",
+      "ANDREW",
+      "MAX"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "DLMR",
+    "ANDREW",
+    "MICHAEL",
+    "MAX"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "STEVEN",
+      "MICHAEL",
+      "STICKYRICE"
+     ],
+     "proposer": "STEVEN",
+     "state": "REJECTED",
+     "team": [
+      "ANDREW",
+      "MAX",
+      "MICHAEL",
+      "STEVEN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANDREW",
+      "MICHAEL",
+      "STICKYRICE",
+      "DLMR"
+     ],
+     "team": [
+      "DLMR",
+      "ANDREW",
+      "MICHAEL",
+      "MAX"
+     ],
+     "proposer": "DLMR"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "ANDREW",
+     "state": "APPROVED",
+     "team": [
+      "ANDREW",
+      "MAX",
+      "MICHAEL"
+     ],
+     "votes": [
+      "MICHAEL",
+      "MAX",
+      "DLMR",
+      "STEVEN",
+      "ANDREW"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ANDREW",
+    "MAX",
+    "MICHAEL"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593137188,
+  "_nanoseconds": 356000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "STEVEN",
+   "uid": "BiQVzdqt6lbabbptS4yKyS9VnSI3"
+  },
+  {
+   "name": "DLMR",
+   "uid": "OmV0gtg6nXOBOGR61OYhqCnMUY23"
+  },
+  {
+   "uid": "RJiblNd1EUfUY65jKxsIErlBIFG3",
+   "name": "ANDREW"
+  },
+  {
+   "uid": "Wl8Et4qUR3RSJ9zEHifKPbqcGxf2",
+   "name": "MAX"
+  },
+  {
+   "uid": "eW9zCCA9yXg6T38yKxsYT3vP1a42",
+   "name": "STICKYRICE"
+  },
+  {
+   "name": "MICHAEL",
+   "uid": "w9DYg0kqnFZP33eG1mgLxOavf4e2"
+  }
+ ]
+}

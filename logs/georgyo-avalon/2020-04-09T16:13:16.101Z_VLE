@@ -1,0 +1,259 @@
+{
+ "timeFinished": {
+  "_seconds": 1586449357,
+  "_nanoseconds": 970895000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VANDANA",
+      "TOM",
+      "ANT",
+      "ALEX"
+     ],
+     "proposer": "ANT",
+     "team": [
+      "ANT",
+      "ALEX"
+     ]
+    }
+   ],
+   "team": [
+    "ANT",
+    "ALEX"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "TOM",
+      "ANT",
+      "CHRIS",
+      "ALEX",
+      "KATHRYN",
+      "VANDANA"
+     ],
+     "team": [
+      "CHRIS",
+      "KATHRYN",
+      "VANDANA"
+     ],
+     "proposer": "CHRIS",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "CHRIS",
+    "KATHRYN",
+    "VANDANA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ALAN",
+    "ANT",
+    "ALEX"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "KATHRYN",
+      "ALAN",
+      "TOM"
+     ],
+     "proposer": "KATHRYN",
+     "state": "REJECTED",
+     "votes": [
+      "ANT",
+      "KATHRYN"
+     ]
+    },
+    {
+     "votes": [
+      "ANT",
+      "CHRIS",
+      "ALEX",
+      "KATHRYN",
+      "VANDANA",
+      "ALAN",
+      "TOM"
+     ],
+     "proposer": "ALAN",
+     "team": [
+      "ALAN",
+      "ANT",
+      "ALEX"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "TOM",
+    "CHRIS",
+    "ANT",
+    "ALEX"
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "numFails": 2,
+   "proposals": [
+    {
+     "team": [
+      "VANDANA",
+      "TOM",
+      "ANT",
+      "ALEX"
+     ],
+     "proposer": "VANDANA",
+     "votes": [
+      "ANT",
+      "ALEX",
+      "VANDANA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "TOM",
+      "CHRIS",
+      "ANT",
+      "ALEX"
+     ],
+     "proposer": "TOM",
+     "votes": [
+      "ANT",
+      "CHRIS",
+      "ALEX",
+      "ALAN",
+      "TOM"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "1vu4imj9OPYMK24Ju4CU0LIoCNW2"
+  },
+  {
+   "name": "KATHRYN",
+   "uid": "Wk5svHrLsseye7UIiJEbm5OkJz32"
+  },
+  {
+   "uid": "u5Jc4B8XbxOX0oacVNIBhwNmbbJ3",
+   "name": "ALAN"
+  },
+  {
+   "uid": "AaO7MyBUyCfUVV0C4m35LeRSkGz1",
+   "name": "VANDANA"
+  },
+  {
+   "uid": "tUuknRuBSmT1iG68ln3S41VbPSm1",
+   "name": "TOM"
+  },
+  {
+   "uid": "3UWgvx4zfIQjjmyh9S35wZBeNwj2",
+   "name": "ALEX"
+  },
+  {
+   "uid": "p6Lu59IRGHfJXobAA7aiY3RAZFt1",
+   "name": "ANT"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586448796,
+  "_nanoseconds": 101000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "ANT": true,
+    "ALEX": true
+   },
+   {
+    "KATHRYN": true,
+    "CHRIS": false,
+    "VANDANA": true
+   },
+   {
+    "ALAN": false,
+    "ALEX": true,
+    "ANT": true
+   },
+   {
+    "ALEX": true,
+    "CHRIS": false,
+    "TOM": false,
+    "ANT": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "CHRIS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ALEX",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "KATHRYN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "VANDANA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ALAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "TOM",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ANT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

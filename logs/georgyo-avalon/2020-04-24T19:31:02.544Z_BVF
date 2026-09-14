@@ -1,0 +1,222 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAMES",
+      "SCOTT",
+      "JACOB",
+      "ASH",
+      "JACK"
+     ],
+     "team": [
+      "JACOB",
+      "ASH"
+     ],
+     "proposer": "JACK"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "JACOB",
+    "ASH"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SCOTT",
+     "state": "APPROVED",
+     "team": [
+      "JACOB",
+      "SCOTT",
+      "ASH"
+     ],
+     "votes": [
+      "SCOTT",
+      "JACOB",
+      "ASH",
+      "JACK",
+      "JAMES"
+     ]
+    }
+   ],
+   "team": [
+    "JACOB",
+    "SCOTT",
+    "ASH"
+   ]
+  },
+  {
+   "team": [
+    "ASH",
+    "JACOB",
+    "JAMES",
+    "MOOMIN"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ASH",
+     "votes": [
+      "ASH",
+      "JAMES",
+      "SCOTT",
+      "JACOB",
+      "MOOMIN"
+     ],
+     "team": [
+      "ASH",
+      "JACOB",
+      "JAMES",
+      "MOOMIN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JACOB",
+      "JACK",
+      "ASH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SCOTT",
+      "JACOB",
+      "ASH",
+      "JACK"
+     ],
+     "proposer": "JACOB"
+    }
+   ],
+   "team": [
+    "JACOB",
+    "JACK",
+    "ASH"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JACOB": true,
+    "ASH": true
+   },
+   {
+    "JACOB": true,
+    "ASH": true,
+    "SCOTT": false
+   },
+   {
+    "JACOB": false,
+    "JAMES": true,
+    "ASH": true,
+    "MOOMIN": true
+   },
+   {
+    "ASH": true,
+    "JACOB": false,
+    "JACK": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "SCOTT",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "JACOB"
+   },
+   {
+    "name": "MOOMIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ASH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "JACK",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JAMES",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1587757057,
+  "_nanoseconds": 418000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "JwaYxzA0rtRzzrOdAXjJaxOEdGf1",
+   "name": "JACOB"
+  },
+  {
+   "name": "JAMES",
+   "uid": "sdmkmI5kJib8ddqI6k49z3h6knq2"
+  },
+  {
+   "uid": "plWnS1pM9MaAbKbAQwkel8Me29r1",
+   "name": "MOOMIN"
+  },
+  {
+   "uid": "MAZtvwMwaINUbpcROkAdF6VvumB3",
+   "name": "JACK"
+  },
+  {
+   "name": "SCOTT",
+   "uid": "expBDVV9ZYgQEIYolY5lsZys19X2"
+  },
+  {
+   "name": "ASH",
+   "uid": "5H6oxE3V49QTlnvsFruYeA3xpER2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587756662,
+  "_nanoseconds": 544000000
+ }
+}

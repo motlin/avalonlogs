@@ -1,0 +1,508 @@
+{
+ "outcome": {
+  "assassinated": "AFFINE",
+  "votes": [
+   {
+    "OWEN": true,
+    "AFFINE": true
+   },
+   {
+    "OWEN": false,
+    "NIKOLAI": true,
+    "CRAIG": true
+   },
+   {
+    "OWEN": false,
+    "NIKOLAI": true,
+    "GOODWIN": true
+   },
+   {
+    "NIKOLAI": true,
+    "CRAIG": true,
+    "AFFINE": true,
+    "GOODWIN": true
+   },
+   {
+    "NIKOLAI": true,
+    "GOODWIN": true,
+    "AFFINE": true,
+    "CRAIG": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "OWEN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "NIKOLAI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "AFFINE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "KLAUDIA",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "GOODWIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ADAM"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CRAIG",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "KLAUDIA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "OWEN",
+      "KLAUDIA"
+     ],
+     "proposer": "KLAUDIA"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA",
+      "NIKOLAI"
+     ],
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "proposer": "CRAIG",
+     "state": "REJECTED",
+     "votes": [
+      "GOODWIN",
+      "CRAIG"
+     ],
+     "team": [
+      "CRAIG",
+      "GOODWIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "ADAM",
+     "votes": [
+      "GOODWIN",
+      "ADAM"
+     ],
+     "team": [
+      "ADAM",
+      "OWEN"
+     ]
+    },
+    {
+     "votes": [
+      "NIKOLAI",
+      "AFFINE",
+      "KLAUDIA",
+      "GOODWIN",
+      "ADAM",
+      "CRAIG",
+      "OWEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "AFFINE",
+     "team": [
+      "OWEN",
+      "AFFINE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "OWEN",
+    "AFFINE"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "NIKOLAI",
+    "CRAIG",
+    "OWEN"
+   ],
+   "proposals": [
+    {
+     "proposer": "OWEN",
+     "team": [
+      "OWEN",
+      "AFFINE",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "NIKOLAI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "AFFINE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CRAIG",
+      "GOODWIN",
+      "NIKOLAI"
+     ],
+     "proposer": "GOODWIN"
+    },
+    {
+     "votes": [
+      "KLAUDIA",
+      "ADAM"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "OWEN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "AFFINE"
+     ],
+     "team": [
+      "NIKOLAI",
+      "GOODWIN",
+      "CRAIG"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NIKOLAI",
+      "CRAIG",
+      "OWEN"
+     ],
+     "proposer": "CRAIG",
+     "votes": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "GOODWIN",
+      "ADAM",
+      "CRAIG"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "GOODWIN",
+    "NIKOLAI",
+    "OWEN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ADAM",
+     "votes": [
+      "ADAM"
+     ],
+     "team": [
+      "NIKOLAI",
+      "GOODWIN",
+      "ADAM"
+     ]
+    },
+    {
+     "votes": [
+      "AFFINE"
+     ],
+     "proposer": "AFFINE",
+     "state": "REJECTED",
+     "team": [
+      "AFFINE",
+      "GOODWIN",
+      "CRAIG"
+     ]
+    },
+    {
+     "proposer": "OWEN",
+     "state": "REJECTED",
+     "votes": [
+      "OWEN"
+     ],
+     "team": [
+      "OWEN",
+      "GOODWIN",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GOODWIN",
+      "ADAM",
+      "OWEN",
+      "NIKOLAI"
+     ],
+     "team": [
+      "GOODWIN",
+      "NIKOLAI",
+      "OWEN"
+     ],
+     "proposer": "GOODWIN"
+    }
+   ]
+  },
+  {
+   "team": [
+    "CRAIG",
+    "AFFINE",
+    "GOODWIN",
+    "NIKOLAI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KLAUDIA",
+      "GOODWIN",
+      "AFFINE",
+      "CRAIG"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA",
+      "CRAIG"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "GOODWIN",
+      "AFFINE",
+      "CRAIG"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "AFFINE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "CRAIG",
+      "GOODWIN",
+      "AFFINE"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "CRAIG",
+      "OWEN"
+     ],
+     "proposer": "CRAIG"
+    },
+    {
+     "team": [
+      "CRAIG",
+      "ADAM",
+      "NIKOLAI",
+      "GOODWIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ADAM",
+     "votes": [
+      "OWEN"
+     ]
+    },
+    {
+     "votes": [
+      "AFFINE",
+      "KLAUDIA",
+      "GOODWIN",
+      "ADAM",
+      "CRAIG",
+      "NIKOLAI"
+     ],
+     "proposer": "AFFINE",
+     "state": "APPROVED",
+     "team": [
+      "CRAIG",
+      "AFFINE",
+      "GOODWIN",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "NIKOLAI",
+    "GOODWIN",
+    "AFFINE",
+    "CRAIG"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CRAIG",
+      "AFFINE",
+      "GOODWIN",
+      "NIKOLAI"
+     ],
+     "proposer": "OWEN",
+     "votes": [
+      "AFFINE",
+      "OWEN",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "GOODWIN",
+     "team": [
+      "GOODWIN",
+      "AFFINE",
+      "NIKOLAI",
+      "CRAIG"
+     ],
+     "votes": [
+      "OWEN",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA"
+     ],
+     "proposer": "KLAUDIA",
+     "team": [
+      "KLAUDIA",
+      "GOODWIN",
+      "AFFINE",
+      "CRAIG"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "GOODWIN",
+      "AFFINE",
+      "CRAIG",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKOLAI",
+      "AFFINE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NIKOLAI",
+      "GOODWIN",
+      "AFFINE",
+      "CRAIG"
+     ],
+     "votes": [
+      "CRAIG",
+      "NIKOLAI",
+      "AFFINE",
+      "GOODWIN"
+     ],
+     "proposer": "CRAIG"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587697000,
+  "_nanoseconds": 913000000
+ },
+ "players": [
+  {
+   "uid": "IRD4uE9wP3MnPxNzSlIdrJrkSIz2",
+   "name": "CRAIG"
+  },
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "name": "AFFINE",
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2"
+  },
+  {
+   "uid": "kdnDzJ8nJnRmhaqgbpylpgp1KHk1",
+   "name": "OWEN"
+  },
+  {
+   "name": "GOODWIN",
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2"
+  },
+  {
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2",
+   "name": "KLAUDIA"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587695043,
+  "_nanoseconds": 26000000
+ }
+}

@@ -1,0 +1,295 @@
+{
+ "timeFinished": {
+  "_seconds": 1592711220,
+  "_nanoseconds": 955000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ZAIN": true,
+    "RAHUL": true
+   },
+   {
+    "RAHUL": true,
+    "ZAIN": false,
+    "DAKU": true
+   },
+   {
+    "URWAH": true,
+    "SAAAD": true,
+    "ZAIN": false
+   },
+   {
+    "MAFAZLA": true,
+    "URWAH": true,
+    "ZAIN": false,
+    "RAHUL": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "SANJY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "URWAH",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MAFAZLA"
+   },
+   {
+    "name": "ZAIN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SAAAD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DAKU",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "RAHUL",
+    "role": "EVIL MINION",
+    "assassin": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1592710677,
+  "_nanoseconds": 461000000
+ },
+ "players": [
+  {
+   "name": "RAHUL",
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1"
+  },
+  {
+   "uid": "b25KDZonqXVnJg1BnaKXhGQCFUt1",
+   "name": "URWAH"
+  },
+  {
+   "name": "SAAAD",
+   "uid": "Wjr8vxPJ1vSS6XIGwr3tNLLTWBC2"
+  },
+  {
+   "name": "SANJY",
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073"
+  },
+  {
+   "name": "DAKU",
+   "uid": "rOq5JznW2SYIIXenRGGcXlv9ln72"
+  },
+  {
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23",
+   "name": "MAFAZLA"
+  },
+  {
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2",
+   "name": "ZAIN"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "RAHUL",
+    "ZAIN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ZAIN",
+      "DAKU"
+     ],
+     "team": [
+      "ZAIN",
+      "RAHUL"
+     ],
+     "proposer": "ZAIN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SAAAD",
+      "SANJY",
+      "URWAH"
+     ],
+     "proposer": "RAHUL",
+     "team": [
+      "URWAH",
+      "SAAAD"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "RAHUL",
+      "ZAIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "URWAH",
+     "votes": [
+      "ZAIN",
+      "SAAAD",
+      "DAKU",
+      "URWAH"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "DAKU",
+    "ZAIN",
+    "RAHUL"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DAKU",
+      "ZAIN",
+      "SAAAD"
+     ],
+     "team": [
+      "SAAAD",
+      "ZAIN",
+      "RAHUL"
+     ],
+     "proposer": "SAAAD",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SANJY",
+     "votes": [
+      "MAFAZLA",
+      "SAAAD",
+      "SANJY"
+     ],
+     "team": [
+      "SANJY",
+      "MAFAZLA",
+      "SAAAD"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAKU",
+      "ZAIN",
+      "RAHUL"
+     ],
+     "votes": [
+      "SANJY",
+      "ZAIN",
+      "DAKU",
+      "RAHUL"
+     ],
+     "proposer": "DAKU"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "MAFAZLA",
+     "team": [
+      "SAAAD",
+      "SANJY",
+      "MAFAZLA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MAFAZLA",
+      "SAAAD",
+      "SANJY"
+     ]
+    },
+    {
+     "team": [
+      "ZAIN",
+      "URWAH",
+      "SAAAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "ZAIN",
+     "votes": [
+      "DAKU",
+      "SANJY",
+      "URWAH",
+      "SAAAD"
+     ]
+    }
+   ],
+   "team": [
+    "ZAIN",
+    "URWAH",
+    "SAAAD"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "RAHUL",
+     "state": "APPROVED",
+     "votes": [
+      "URWAH",
+      "ZAIN",
+      "DAKU",
+      "RAHUL"
+     ],
+     "team": [
+      "RAHUL",
+      "URWAH",
+      "MAFAZLA",
+      "ZAIN"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "FAIL",
+   "team": [
+    "RAHUL",
+    "URWAH",
+    "MAFAZLA",
+    "ZAIN"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

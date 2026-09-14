@@ -1,0 +1,228 @@
+{
+ "timeFinished": {
+  "_seconds": 1585273259,
+  "_nanoseconds": 682190000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANDREW",
+      "DORR"
+     ],
+     "proposer": "ANDREW",
+     "votes": [
+      "ANDREW",
+      "RICH",
+      "DORR",
+      "MEAGHAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ANDREW",
+    "DORR"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "DORR",
+     "state": "APPROVED",
+     "votes": [
+      "DORR",
+      "MEAGHAN",
+      "ANDREW",
+      "RICH",
+      "CLAIRE"
+     ],
+     "team": [
+      "MEAGHAN",
+      "DORR",
+      "CLAIRE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MEAGHAN",
+    "DORR",
+    "CLAIRE"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "DORR",
+    "MEAGHAN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "DORR",
+      "MEAGHAN",
+      "ANDREW",
+      "RICH",
+      "CLAIRE"
+     ],
+     "team": [
+      "DORR",
+      "MEAGHAN"
+     ],
+     "proposer": "CLAIRE",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MEAGHAN",
+     "votes": [
+      "MEAGHAN",
+      "ANDREW",
+      "RICH",
+      "CLAIRE"
+     ],
+     "team": [
+      "RICH",
+      "ANDREW",
+      "MEAGHAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "RICH",
+    "ANDREW",
+    "MEAGHAN"
+   ]
+  },
+  {
+   "team": [
+    "RICH",
+    "CLAIRE",
+    "ANDREW"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "RICH",
+     "votes": [
+      "ANDREW",
+      "RICH",
+      "CLAIRE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RICH",
+      "CLAIRE",
+      "ANDREW"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "uid": "cauPgutiXkZq2BuIaDD6HCROzlu2",
+   "name": "DORR"
+  },
+  {
+   "name": "CLAIRE",
+   "uid": "AcKDJr0EHGfl3alp1V6FayMctpu1"
+  },
+  {
+   "name": "MEAGHAN",
+   "uid": "88WIrBU6nIgKNBU0dePbonmNB0l2"
+  },
+  {
+   "uid": "c9sY30sLwUbSC6OnuuhVR1s3Zji2",
+   "name": "RICH"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "SNX54thj5aVx8QKiwwur2Rby8293"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "ANDREW",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RICH"
+   },
+   {
+    "name": "CLAIRE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "DORR",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MEAGHAN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "DORR": true,
+    "ANDREW": true
+   },
+   {
+    "MEAGHAN": true,
+    "DORR": true,
+    "CLAIRE": true
+   },
+   {
+    "MEAGHAN": true,
+    "DORR": false
+   },
+   {
+    "ANDREW": false,
+    "RICH": true,
+    "MEAGHAN": true
+   },
+   {
+    "ANDREW": false,
+    "RICH": true,
+    "CLAIRE": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1585272779,
+  "_nanoseconds": 14000000
+ }
+}

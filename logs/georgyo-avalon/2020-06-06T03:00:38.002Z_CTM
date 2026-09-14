@@ -1,0 +1,214 @@
+{
+ "players": [
+  {
+   "uid": "MQW494wOmOdoDLbNPxtZK9F3wfa2",
+   "name": "DELANEY"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "0tHkE8DF0Pa3yENHun7suCQiVfg2"
+  },
+  {
+   "uid": "TxkaF4mV8KY1Y3wNEEum1MCbwdc2",
+   "name": "ALLIE"
+  },
+  {
+   "name": "BIANCA",
+   "uid": "YXKXUhmBNCXG3BwDJl4oJ33rGWL2"
+  },
+  {
+   "uid": "USsfTrNmTwh5aPw3jqAH9FjLeNv1",
+   "name": "PAUL"
+  },
+  {
+   "name": "RACHEL",
+   "uid": "RT4ujowS6YW9HvRMIirVZ6VWSgm1"
+  },
+  {
+   "name": "JACKSON",
+   "uid": "rKrXZPSnPFNo8U4tqZMXL90B8I22"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591412438,
+  "_nanoseconds": 2000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "RACHEL": true,
+    "CHRIS": false
+   },
+   {
+    "BIANCA": true,
+    "DELANEY": false,
+    "RACHEL": true
+   },
+   {
+    "ALLIE": true,
+    "JACKSON": true,
+    "PAUL": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "BIANCA",
+    "assassin": false
+   },
+   {
+    "name": "DELANEY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "PAUL",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "RACHEL",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "JACKSON",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CHRIS",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ALLIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHRIS",
+     "team": [
+      "CHRIS",
+      "RACHEL"
+     ],
+     "votes": [
+      "DELANEY",
+      "RACHEL",
+      "JACKSON",
+      "CHRIS",
+      "BIANCA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "CHRIS",
+    "RACHEL"
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BIANCA",
+      "DELANEY",
+      "RACHEL"
+     ],
+     "proposer": "ALLIE",
+     "votes": [
+      "DELANEY",
+      "RACHEL",
+      "ALLIE",
+      "BIANCA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "BIANCA",
+    "DELANEY",
+    "RACHEL"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BIANCA",
+      "RACHEL",
+      "JACKSON"
+     ],
+     "team": [
+      "BIANCA",
+      "ALLIE",
+      "JACKSON"
+     ],
+     "proposer": "BIANCA"
+    },
+    {
+     "proposer": "PAUL",
+     "team": [
+      "PAUL",
+      "JACKSON",
+      "ALLIE"
+     ],
+     "votes": [
+      "BIANCA",
+      "DELANEY",
+      "PAUL",
+      "CHRIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PAUL",
+    "JACKSON",
+    "ALLIE"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591412831,
+  "_nanoseconds": 422000000
+ }
+}

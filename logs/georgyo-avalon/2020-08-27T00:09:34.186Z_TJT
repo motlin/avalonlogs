@@ -1,0 +1,236 @@
+{
+ "timeCreated": {
+  "_seconds": 1598486974,
+  "_nanoseconds": 186000000
+ },
+ "timeFinished": {
+  "_seconds": 1598487607,
+  "_nanoseconds": 407000000
+ },
+ "players": [
+  {
+   "uid": "RyFq6c9zaVboszhoIbHvqy1cYmC2",
+   "name": "SUGA"
+  },
+  {
+   "name": "JANNY",
+   "uid": "g4lDuEEnpIdSvQVLaNG4K5aZgfS2"
+  },
+  {
+   "name": "BILLY",
+   "uid": "jqZOuUki3Jdn9c23JQE5Xw1ZMHP2"
+  },
+  {
+   "name": "ENERSTINE",
+   "uid": "oXYMWdGfqTUdh0obOlr1jDy4myE2"
+  },
+  {
+   "name": "MARY",
+   "uid": "fJnxSm9k8ugDNsQ4l3Y2hFEFEf62"
+  },
+  {
+   "uid": "pNXOvgTEFlQfuEsHFes3977VAmo2",
+   "name": "JOYCE"
+  },
+  {
+   "uid": "aqGo6oOqUFZW8Vxk89Zq6URuYzp1",
+   "name": "JHOPE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "JHOPE",
+    "BILLY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JHOPE",
+     "team": [
+      "JHOPE",
+      "BILLY"
+     ],
+     "votes": [
+      "JHOPE",
+      "JOYCE",
+      "JANNY",
+      "BILLY",
+      "SUGA",
+      "MARY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SUGA",
+     "team": [
+      "SUGA",
+      "JHOPE",
+      "BILLY"
+     ],
+     "votes": [
+      "MARY",
+      "JHOPE",
+      "SUGA",
+      "JOYCE",
+      "ENERSTINE",
+      "JANNY"
+     ]
+    }
+   ],
+   "team": [
+    "SUGA",
+    "JHOPE",
+    "BILLY"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "JANNY",
+    "JHOPE",
+    "SUGA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JANNY",
+      "JHOPE",
+      "SUGA"
+     ],
+     "votes": [
+      "BILLY",
+      "JHOPE",
+      "ENERSTINE",
+      "MARY",
+      "JOYCE",
+      "SUGA",
+      "JANNY"
+     ],
+     "proposer": "JANNY"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ENERSTINE",
+      "JANNY",
+      "JOYCE",
+      "MARY",
+      "BILLY"
+     ],
+     "team": [
+      "SUGA",
+      "JHOPE",
+      "JANNY",
+      "ENERSTINE"
+     ],
+     "proposer": "BILLY",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "SUGA",
+    "JHOPE",
+    "JANNY",
+    "ENERSTINE"
+   ],
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "assassinated": "BILLY",
+  "roles": [
+   {
+    "name": "SUGA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JOYCE",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ENERSTINE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "MARY",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JANNY",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "BILLY",
+    "assassin": false
+   },
+   {
+    "name": "JHOPE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "BILLY": true,
+    "JHOPE": true
+   },
+   {
+    "SUGA": false,
+    "JHOPE": true,
+    "BILLY": true
+   },
+   {
+    "SUGA": true,
+    "JANNY": true,
+    "JHOPE": true
+   },
+   {
+    "ENERSTINE": true,
+    "JHOPE": true,
+    "JANNY": true,
+    "SUGA": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

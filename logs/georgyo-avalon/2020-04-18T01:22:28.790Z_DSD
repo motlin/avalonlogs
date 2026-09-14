@@ -1,0 +1,268 @@
+{
+ "timeFinished": {
+  "_seconds": 1587173597,
+  "_nanoseconds": 517000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "KRISH",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "NICK"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KENG"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "SMH"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SABRINA",
+    "assassin": true
+   },
+   {
+    "name": "KRISH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "SMH": false,
+    "KENG": true
+   },
+   {
+    "KRISH": true,
+    "KENG": true,
+    "NICK": true
+   },
+   {
+    "KRISH": true,
+    "SABRINA": false
+   },
+   {
+    "KENG": true,
+    "NICK": true,
+    "KRISH": true
+   },
+   {
+    "KRISH": true,
+    "NICK": true,
+    "KENG": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587172948,
+  "_nanoseconds": 790000000
+ },
+ "players": [
+  {
+   "name": "KRISH",
+   "uid": "pit2Txtfu4ONuuSfCEY0Xxb5dPm1"
+  },
+  {
+   "uid": "Q3e6h1z6wUWG2pSUvt5BL9u6vwE3",
+   "name": "KENG"
+  },
+  {
+   "name": "SMH",
+   "uid": "YXm1SuRYNaQUlCHAfyXwMbInPrs1"
+  },
+  {
+   "uid": "cfcytZoZcQVdSecHQl8xwZoG2LQ2",
+   "name": "NICK"
+  },
+  {
+   "uid": "95mM3vuGqvhgZCDT69iTxPzmdS03",
+   "name": "SABRINA"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "KENG",
+    "SMH"
+   ],
+   "proposals": [
+    {
+     "proposer": "KENG",
+     "team": [
+      "KENG",
+      "SMH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SMH",
+      "SABRINA",
+      "KRISH",
+      "NICK",
+      "KENG"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "NICK",
+    "KENG",
+    "KRISH"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KENG",
+      "SMH"
+     ],
+     "proposer": "SMH",
+     "state": "REJECTED",
+     "team": [
+      "KENG",
+      "SABRINA",
+      "NICK"
+     ]
+    },
+    {
+     "votes": [
+      "SMH",
+      "KRISH",
+      "NICK",
+      "KENG"
+     ],
+     "proposer": "NICK",
+     "state": "APPROVED",
+     "team": [
+      "NICK",
+      "KENG",
+      "KRISH"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SMH",
+      "SABRINA",
+      "KRISH"
+     ],
+     "proposer": "SABRINA",
+     "team": [
+      "SABRINA",
+      "KRISH"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "SABRINA",
+    "KRISH"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "KRISH",
+      "KENG",
+      "NICK"
+     ],
+     "proposer": "KRISH",
+     "votes": [
+      "NICK",
+      "KRISH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "KENG",
+      "KRISH",
+      "NICK"
+     ],
+     "proposer": "KENG",
+     "team": [
+      "NICK",
+      "KENG",
+      "KRISH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "NICK",
+    "KENG",
+    "KRISH"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SABRINA",
+      "NICK",
+      "KRISH"
+     ],
+     "state": "REJECTED",
+     "proposer": "SMH",
+     "votes": [
+      "SMH",
+      "SABRINA"
+     ]
+    },
+    {
+     "team": [
+      "NICK",
+      "KENG",
+      "KRISH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KENG",
+      "SMH",
+      "KRISH",
+      "NICK"
+     ],
+     "proposer": "NICK"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "NICK",
+    "KENG",
+    "KRISH"
+   ]
+  }
+ ]
+}

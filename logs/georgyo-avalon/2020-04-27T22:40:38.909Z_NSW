@@ -1,0 +1,239 @@
+{
+ "timeFinished": {
+  "_seconds": 1588027740,
+  "_nanoseconds": 656000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588027238,
+  "_nanoseconds": 909000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "SRKIT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MAFS"
+   },
+   {
+    "name": "INYV",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JPLINHARES",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "DYAL",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JPLINHARES": true,
+    "DYAL": true
+   },
+   {
+    "DYAL": false,
+    "MAFS": true,
+    "SRKIT": true
+   },
+   {
+    "SRKIT": true,
+    "INYV": true
+   },
+   {
+    "SRKIT": true,
+    "MAFS": true,
+    "INYV": false
+   },
+   {
+    "JPLINHARES": true,
+    "DYAL": false,
+    "INYV": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "JfCOxy5BGZYQy4ZDk8VKQPveASC2",
+   "name": "SRKIT"
+  },
+  {
+   "name": "JPLINHARES",
+   "uid": "GP6Hh7AyTIMxE4CVPP7kvZv7Qum1"
+  },
+  {
+   "name": "MAFS",
+   "uid": "pwGofe9i3YgkXjeapSDrUNCvH9Z2"
+  },
+  {
+   "uid": "6wOORk5ULIT0TdxEfizH8nBMurB3",
+   "name": "DYAL"
+  },
+  {
+   "uid": "7Xm1c0IQ1iO7OoE3lbqe2NFpLkl2",
+   "name": "INYV"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JPLINHARES",
+     "state": "APPROVED",
+     "votes": [
+      "JPLINHARES",
+      "DYAL",
+      "MAFS"
+     ],
+     "team": [
+      "JPLINHARES",
+      "DYAL"
+     ]
+    }
+   ],
+   "team": [
+    "JPLINHARES",
+    "DYAL"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "DYAL",
+    "MAFS",
+    "SRKIT"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "MAFS",
+     "team": [
+      "SRKIT",
+      "DYAL",
+      "INYV"
+     ],
+     "votes": [
+      "DYAL",
+      "MAFS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "DYAL",
+      "MAFS",
+      "SRKIT"
+     ],
+     "proposer": "DYAL",
+     "votes": [
+      "JPLINHARES",
+      "DYAL",
+      "MAFS"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "INYV",
+    "SRKIT"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "INYV",
+      "SRKIT"
+     ],
+     "votes": [
+      "INYV",
+      "SRKIT",
+      "MAFS"
+     ],
+     "proposer": "INYV",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "INYV",
+    "MAFS",
+    "SRKIT"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "INYV",
+      "MAFS",
+      "SRKIT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DYAL",
+      "SRKIT",
+      "MAFS",
+      "INYV"
+     ],
+     "proposer": "SRKIT"
+    }
+   ]
+  },
+  {
+   "numFails": 2,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "JPLINHARES",
+    "DYAL",
+    "INYV"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JPLINHARES",
+      "DYAL",
+      "MAFS"
+     ],
+     "team": [
+      "JPLINHARES",
+      "DYAL",
+      "INYV"
+     ],
+     "proposer": "JPLINHARES"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "timeCreated": {
+  "_seconds": 1587237448,
+  "_nanoseconds": 103000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "SWEETCOFFE": true,
+    "ALPHA": true
+   },
+   {
+    "ARTHELEON": false,
+    "SWEETCOFFE": true,
+    "ALPHA": true
+   },
+   {
+    "SWEETCOFFE": true,
+    "GENQE": false
+   },
+   {
+    "GWAPA": true,
+    "SWEETCOFFE": true,
+    "ALPHA": true
+   },
+   {
+    "GWAPA": true,
+    "ALPHA": true,
+    "SWEETCOFFE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "GENQE",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "ARTHELEON",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "GWAPA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SWEETCOFFE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALPHA",
+    "assassin": false
+   }
+  ],
+  "message": "Three missions succeeded",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "gHl3iOwoK5SZowN0Y4H03NKsgO82",
+   "name": "ARTHELEON"
+  },
+  {
+   "uid": "r2pfRYBwwielilDXW1t0FUHRwl72",
+   "name": "GWAPA"
+  },
+  {
+   "uid": "QjpCdHUkskM06ADVGzJ3xui7Uin1",
+   "name": "ALPHA"
+  },
+  {
+   "name": "GENQE",
+   "uid": "wtqKxj0yVnh7ktEC8T2a4wT2Ry63"
+  },
+  {
+   "uid": "LrsTn18eGvc3NiKm4G12modQNdc2",
+   "name": "SWEETCOFFE"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "ALPHA",
+     "votes": [
+      "SWEETCOFFE",
+      "ALPHA",
+      "ARTHELEON",
+      "GWAPA"
+     ],
+     "team": [
+      "ALPHA",
+      "SWEETCOFFE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "ALPHA",
+    "SWEETCOFFE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "SWEETCOFFE",
+    "ALPHA",
+    "ARTHELEON"
+   ],
+   "proposals": [
+    {
+     "proposer": "GENQE",
+     "votes": [],
+     "team": [
+      "ARTHELEON",
+      "SWEETCOFFE",
+      "ALPHA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SWEETCOFFE",
+     "votes": [
+      "ARTHELEON",
+      "SWEETCOFFE",
+      "ALPHA"
+     ],
+     "team": [
+      "SWEETCOFFE",
+      "ALPHA",
+      "ARTHELEON"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "GENQE",
+    "SWEETCOFFE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ARTHELEON"
+     ],
+     "team": [
+      "ARTHELEON",
+      "SWEETCOFFE"
+     ],
+     "proposer": "ARTHELEON"
+    },
+    {
+     "votes": [
+      "GENQE",
+      "GWAPA",
+      "SWEETCOFFE"
+     ],
+     "team": [
+      "GENQE",
+      "SWEETCOFFE"
+     ],
+     "state": "APPROVED",
+     "proposer": "GWAPA"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SWEETCOFFE",
+      "ALPHA",
+      "GWAPA"
+     ],
+     "proposer": "ALPHA",
+     "team": [
+      "ALPHA",
+      "GWAPA",
+      "SWEETCOFFE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "ALPHA",
+    "GWAPA",
+    "SWEETCOFFE"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "GENQE",
+     "team": [
+      "SWEETCOFFE",
+      "ARTHELEON",
+      "GWAPA"
+     ],
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ARTHELEON",
+      "GWAPA",
+      "SWEETCOFFE",
+      "ALPHA",
+      "GENQE"
+     ],
+     "team": [
+      "ALPHA",
+      "GWAPA",
+      "SWEETCOFFE"
+     ],
+     "proposer": "SWEETCOFFE"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ALPHA",
+    "GWAPA",
+    "SWEETCOFFE"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587237831,
+  "_nanoseconds": 761000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "players": [
+  {
+   "uid": "gCnFCtzcdBdniiCAyIaTY9Yietm2",
+   "name": "ONION"
+  },
+  {
+   "uid": "r7BMQFT2hCgQMujw9QgXkmq6rpu1",
+   "name": "VIV"
+  },
+  {
+   "name": "LAV",
+   "uid": "kHBzju3dX1SVEp8pnY9eMqx0llG3"
+  },
+  {
+   "name": "CATHY",
+   "uid": "dONNhoWvGHffiWXQl8JUoncPpSU2"
+  },
+  {
+   "name": "MEANIE",
+   "uid": "yQXE2haRMJSPr12jBnUxFJ70XLu1"
+  },
+  {
+   "name": "TRISHA",
+   "uid": "P0YLAHSbS0PB6arESLr9vsFkY772"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "LAV",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "CATHY",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "MEANIE"
+   },
+   {
+    "name": "ONION",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TRISHA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "VIV"
+   }
+  ],
+  "assassinated": "VIV",
+  "votes": [
+   {
+    "MEANIE": true,
+    "VIV": true
+   },
+   {
+    "MEANIE": false,
+    "CATHY": true,
+    "VIV": true
+   },
+   {
+    "VIV": true,
+    "ONION": true,
+    "TRISHA": true,
+    "MEANIE": false
+   },
+   {
+    "VIV": true,
+    "ONION": true,
+    "TRISHA": true
+   },
+   {
+    "ONION": true,
+    "CATHY": true,
+    "TRISHA": true,
+    "VIV": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1590127023,
+  "_nanoseconds": 917000000
+ },
+ "timeCreated": {
+  "_seconds": 1590125704,
+  "_nanoseconds": 54000000
+ },
+ "missions": [
+  {
+   "team": [
+    "MEANIE",
+    "VIV"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MEANIE",
+      "VIV"
+     ],
+     "proposer": "MEANIE",
+     "votes": [
+      "CATHY",
+      "MEANIE",
+      "ONION",
+      "TRISHA",
+      "VIV",
+      "LAV"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CATHY",
+      "TRISHA",
+      "VIV",
+      "LAV"
+     ],
+     "state": "APPROVED",
+     "proposer": "TRISHA",
+     "team": [
+      "MEANIE",
+      "VIV",
+      "CATHY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "MEANIE",
+    "VIV",
+    "CATHY"
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ONION",
+    "VIV",
+    "MEANIE",
+    "TRISHA"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "MEANIE",
+      "ONION",
+      "TRISHA",
+      "VIV",
+      "LAV",
+      "CATHY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ONION",
+      "VIV",
+      "MEANIE",
+      "TRISHA"
+     ],
+     "proposer": "ONION"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "VIV",
+    "TRISHA",
+    "ONION"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CATHY",
+      "MEANIE",
+      "ONION",
+      "TRISHA",
+      "VIV",
+      "LAV"
+     ],
+     "proposer": "VIV",
+     "state": "APPROVED",
+     "team": [
+      "VIV",
+      "TRISHA",
+      "ONION"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "LAV",
+     "team": [
+      "CATHY",
+      "TRISHA",
+      "ONION",
+      "VIV"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "VIV",
+      "LAV",
+      "CATHY",
+      "MEANIE",
+      "ONION",
+      "TRISHA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "CATHY",
+    "TRISHA",
+    "ONION",
+    "VIV"
+   ],
+   "teamSize": 4,
+   "numFails": 0
+  }
+ ]
+}

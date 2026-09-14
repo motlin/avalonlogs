@@ -1,0 +1,278 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "PKBOOLEAN": false,
+    "MERLINE": true
+   },
+   {
+    "ABHIJIT": true,
+    "CHAITHANYA": true,
+    "SUSHHI": false
+   },
+   {
+    "CHAITHANYA": true,
+    "ABHIJIT": true,
+    "BANANA": true
+   },
+   {
+    "CHAITHANYA": true,
+    "ABHIJIT": true,
+    "PKBOOLEAN": true,
+    "BANANA": true
+   },
+   {
+    "BANANA": true,
+    "MERLINE": true,
+    "CHAITHANYA": true,
+    "ABHIJIT": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "CHAITHANYA",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CHAITHANYA"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ANIKETH"
+   },
+   {
+    "name": "MERLINE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "ABHIJIT",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "BANANA"
+   },
+   {
+    "name": "SUSHHI",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PKBOOLEAN",
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MERLINE",
+    "PKBOOLEAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MERLINE",
+     "votes": [
+      "CHAITHANYA",
+      "ANIKETH",
+      "MERLINE",
+      "ABHIJIT",
+      "BANANA",
+      "SUSHHI",
+      "PKBOOLEAN"
+     ],
+     "team": [
+      "MERLINE",
+      "PKBOOLEAN"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANIKETH"
+     ],
+     "team": [
+      "ANIKETH",
+      "PKBOOLEAN",
+      "MERLINE"
+     ],
+     "proposer": "ANIKETH"
+    },
+    {
+     "team": [
+      "SUSHHI",
+      "CHAITHANYA",
+      "ABHIJIT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MERLINE",
+      "ABHIJIT",
+      "BANANA",
+      "SUSHHI",
+      "PKBOOLEAN",
+      "CHAITHANYA",
+      "ANIKETH"
+     ],
+     "proposer": "SUSHHI"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "SUSHHI",
+    "CHAITHANYA",
+    "ABHIJIT"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "ABHIJIT",
+    "CHAITHANYA",
+    "BANANA"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CHAITHANYA",
+      "MERLINE",
+      "ABHIJIT",
+      "BANANA",
+      "SUSHHI",
+      "PKBOOLEAN"
+     ],
+     "team": [
+      "ABHIJIT",
+      "CHAITHANYA",
+      "BANANA"
+     ],
+     "state": "APPROVED",
+     "proposer": "ABHIJIT"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CHAITHANYA",
+      "BANANA",
+      "ABHIJIT",
+      "PKBOOLEAN"
+     ],
+     "votes": [
+      "MERLINE",
+      "ABHIJIT",
+      "BANANA",
+      "PKBOOLEAN",
+      "CHAITHANYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "PKBOOLEAN"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "CHAITHANYA",
+    "BANANA",
+    "ABHIJIT",
+    "PKBOOLEAN"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "CHAITHANYA",
+    "ABHIJIT",
+    "MERLINE",
+    "BANANA"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CHAITHANYA",
+      "ABHIJIT",
+      "MERLINE",
+      "BANANA"
+     ],
+     "votes": [
+      "MERLINE",
+      "ABHIJIT",
+      "BANANA",
+      "CHAITHANYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHAITHANYA"
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "players": [
+  {
+   "name": "ABHIJIT",
+   "uid": "EccvBFC0axSC6fAdNR0WC6sNsB33"
+  },
+  {
+   "name": "PKBOOLEAN",
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652"
+  },
+  {
+   "name": "CHAITHANYA",
+   "uid": "cAjDOV1WbPRqRjv28SDq7BYb6Up2"
+  },
+  {
+   "uid": "weox9NOyNDZiyKTtPDAXxvazdFV2",
+   "name": "BANANA"
+  },
+  {
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3",
+   "name": "MERLINE"
+  },
+  {
+   "name": "ANIKETH",
+   "uid": "mhGqERYygScqJ0S29jQ3yK7o2ku2"
+  },
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "SUSHHI"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587013567,
+  "_nanoseconds": 245000000
+ },
+ "timeFinished": {
+  "_seconds": 1587014168,
+  "_nanoseconds": 924447000
+ }
+}

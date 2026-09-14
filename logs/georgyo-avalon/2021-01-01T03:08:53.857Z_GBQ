@@ -1,0 +1,352 @@
+{
+ "timeCreated": {
+  "_seconds": 1609470533,
+  "_nanoseconds": 857000000
+ },
+ "missions": [
+  {
+   "team": [
+    "MURSECHAU",
+    "ARNELLO"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MURSECHAU",
+      "ARNELLO"
+     ],
+     "votes": [
+      "LE",
+      "KEN",
+      "ARNELLO",
+      "MURSECHAU"
+     ],
+     "proposer": "MURSECHAU"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "MURSECHAU",
+    "ARNELLO",
+    "KEN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MURSECHAU",
+      "ARNELLO",
+      "SHESAN"
+     ],
+     "proposer": "ARNELLO",
+     "votes": [
+      "SHESAN",
+      "ARNELLO"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LAM",
+      "ARNELLO",
+      "MICHAEL"
+     ],
+     "proposer": "LAM",
+     "votes": [
+      "LAM",
+      "MICHAEL"
+     ]
+    },
+    {
+     "proposer": "SHESAN",
+     "votes": [
+      "SHESAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SHESAN",
+      "MURSECHAU",
+      "ARNELLO"
+     ]
+    },
+    {
+     "votes": [
+      "LE",
+      "ARNELLO"
+     ],
+     "proposer": "LE",
+     "team": [
+      "MURSECHAU",
+      "ARNELLO",
+      "LE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "KEN",
+     "state": "APPROVED",
+     "votes": [
+      "ARNELLO",
+      "MURSECHAU",
+      "KEN",
+      "LE",
+      "LAM",
+      "SHESAN",
+      "MICHAEL"
+     ],
+     "team": [
+      "MURSECHAU",
+      "ARNELLO",
+      "KEN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "SHESAN",
+    "ARNELLO",
+    "LAM"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MICHAEL",
+     "state": "REJECTED",
+     "team": [
+      "LAM",
+      "MICHAEL",
+      "ARNELLO"
+     ],
+     "votes": [
+      "ARNELLO",
+      "LAM",
+      "MICHAEL"
+     ]
+    },
+    {
+     "proposer": "MURSECHAU",
+     "votes": [
+      "MURSECHAU"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KEN",
+      "SHESAN",
+      "ARNELLO"
+     ]
+    },
+    {
+     "votes": [
+      "MURSECHAU"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ARNELLO",
+      "MURSECHAU",
+      "LAM"
+     ],
+     "proposer": "ARNELLO"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LAM",
+      "MICHAEL",
+      "ARNELLO"
+     ],
+     "proposer": "LAM",
+     "votes": [
+      "ARNELLO",
+      "LAM"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SHESAN",
+     "votes": [
+      "MICHAEL",
+      "LAM",
+      "KEN",
+      "ARNELLO",
+      "MURSECHAU",
+      "LE",
+      "SHESAN"
+     ],
+     "team": [
+      "SHESAN",
+      "ARNELLO",
+      "LAM"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "LAM",
+      "LE",
+      "MURSECHAU"
+     ],
+     "proposer": "LE",
+     "state": "REJECTED",
+     "team": [
+      "ARNELLO",
+      "LAM",
+      "SHESAN",
+      "LE"
+     ]
+    },
+    {
+     "proposer": "KEN",
+     "votes": [
+      "MURSECHAU",
+      "KEN",
+      "LE",
+      "LAM",
+      "SHESAN"
+     ],
+     "team": [
+      "ARNELLO",
+      "LAM",
+      "SHESAN",
+      "KEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ARNELLO",
+    "LAM",
+    "SHESAN",
+    "KEN"
+   ],
+   "failsRequired": 2,
+   "numFails": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "ARNELLO": true,
+    "MURSECHAU": true
+   },
+   {
+    "MURSECHAU": false,
+    "KEN": true,
+    "ARNELLO": true
+   },
+   {
+    "LAM": true,
+    "SHESAN": true,
+    "ARNELLO": true
+   },
+   {
+    "LAM": true,
+    "KEN": true,
+    "ARNELLO": true,
+    "SHESAN": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "MICHAEL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KEN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "SHESAN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MURSECHAU",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "LAM"
+   },
+   {
+    "name": "ARNELLO",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "LE"
+   }
+  ],
+  "assassinated": "LAM"
+ },
+ "players": [
+  {
+   "name": "MICHAEL",
+   "uid": "OaNPtj1HJlYTbtPTV5H39quwOVh1"
+  },
+  {
+   "name": "MURSECHAU",
+   "uid": "YXuRT3VCQJZxvUI1PTZNU4ngC9y1"
+  },
+  {
+   "name": "ARNELLO",
+   "uid": "BxS6m68yCpVf4pheQO2vCHEvGOc2"
+  },
+  {
+   "name": "LAM",
+   "uid": "Ov7Rw72jM7ZecMopgtlm9gxUjUM2"
+  },
+  {
+   "name": "SHESAN",
+   "uid": "0MgymOqLbOPF8LQhXIYTmX28lhW2"
+  },
+  {
+   "uid": "Q8vWfRv2RlYoKXngvK3yw8jVmUC3",
+   "name": "LE"
+  },
+  {
+   "name": "KEN",
+   "uid": "iG5IWhRUATVk90zZd7kjTRZCZWC2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1609472067,
+  "_nanoseconds": 117000000
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609365891,
+  "_nanoseconds": 47000000
+ },
+ "timeFinished": {
+  "_seconds": 1609366429,
+  "_nanoseconds": 52000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "KARESHOU": true,
+    "BIGBUBBA": false,
+    "JOSH": true
+   },
+   {
+    "JANIEL": true,
+    "GABBLIT": true,
+    "DERPYPIKA": true,
+    "LUCYMAS": true
+   },
+   {
+    "GABBLIT": true,
+    "JANIEL": true,
+    "DERPYPIKA": true,
+    "LUCYMAS": true
+   },
+   {
+    "JANIEL": true,
+    "LUCYMAS": false,
+    "GABBLIT": true,
+    "CAIT": true,
+    "DERPYPIKA": false
+   },
+   {
+    "DERPYPIKA": false,
+    "JOSH": true,
+    "JANIEL": true,
+    "HARRY": true,
+    "GABBLIT": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DERPYPIKA",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "JOSH",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GABBLIT",
+    "assassin": false
+   },
+   {
+    "name": "BIGBUBBA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "JANIEL",
+    "assassin": false
+   },
+   {
+    "name": "HARRY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LUCYMAS",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CAIT",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KARESHOU",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "JOSH",
+    "BIGBUBBA",
+    "KARESHOU"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KARESHOU",
+      "CAIT",
+      "HARRY",
+      "GABBLIT",
+      "BIGBUBBA",
+      "LUCYMAS",
+      "JANIEL",
+      "DERPYPIKA"
+     ],
+     "team": [
+      "JOSH",
+      "BIGBUBBA",
+      "KARESHOU"
+     ],
+     "proposer": "BIGBUBBA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "DERPYPIKA",
+    "JANIEL",
+    "LUCYMAS",
+    "GABBLIT"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "HARRY",
+      "KARESHOU",
+      "LUCYMAS",
+      "CAIT",
+      "GABBLIT",
+      "DERPYPIKA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DERPYPIKA",
+      "JANIEL",
+      "LUCYMAS",
+      "GABBLIT"
+     ],
+     "proposer": "DERPYPIKA"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JANIEL",
+     "state": "APPROVED",
+     "votes": [
+      "KARESHOU",
+      "JANIEL",
+      "DERPYPIKA",
+      "GABBLIT",
+      "HARRY",
+      "BIGBUBBA"
+     ],
+     "team": [
+      "JANIEL",
+      "DERPYPIKA",
+      "LUCYMAS",
+      "GABBLIT"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "JANIEL",
+    "DERPYPIKA",
+    "LUCYMAS",
+    "GABBLIT"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "LUCYMAS",
+    "GABBLIT",
+    "DERPYPIKA",
+    "JANIEL",
+    "CAIT"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DERPYPIKA",
+      "HARRY",
+      "GABBLIT",
+      "LUCYMAS",
+      "JANIEL",
+      "CAIT",
+      "BIGBUBBA"
+     ],
+     "team": [
+      "LUCYMAS",
+      "GABBLIT",
+      "DERPYPIKA",
+      "JANIEL",
+      "CAIT"
+     ],
+     "proposer": "LUCYMAS"
+    }
+   ],
+   "teamSize": 5
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "GABBLIT",
+    "HARRY",
+    "DERPYPIKA",
+    "JANIEL",
+    "JOSH"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "GABBLIT",
+      "HARRY",
+      "DERPYPIKA",
+      "JANIEL",
+      "JOSH"
+     ],
+     "votes": [
+      "JOSH",
+      "LUCYMAS",
+      "GABBLIT",
+      "HARRY",
+      "DERPYPIKA",
+      "BIGBUBBA"
+     ],
+     "proposer": "GABBLIT"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 5
+  }
+ ],
+ "players": [
+  {
+   "name": "LUCYMAS",
+   "uid": "laUICzvlYYhxEXhKoUaxoov5Jzw1"
+  },
+  {
+   "uid": "2AgwSd8bJHZpzgfeviQclbTd18k1",
+   "name": "GABBLIT"
+  },
+  {
+   "name": "JOSH",
+   "uid": "f3maJqsA2FRKy5G3Se1L3vnEvXZ2"
+  },
+  {
+   "uid": "zFgbJkafhNPwxAMigXDkTlod2hq2",
+   "name": "CAIT"
+  },
+  {
+   "name": "KARESHOU",
+   "uid": "aiMJ19bpM4W99PGPTPqbeyPu8vK2"
+  },
+  {
+   "name": "HARRY",
+   "uid": "pJNFF36TyieHcD1f3eaORFZzmZ13"
+  },
+  {
+   "uid": "i6XbcSztDHekxktvhP2DJ3531rr1",
+   "name": "BIGBUBBA"
+  },
+  {
+   "name": "DERPYPIKA",
+   "uid": "WwOpdLrRafUjFbQJSWnq8OvKbvu2"
+  },
+  {
+   "name": "JANIEL",
+   "uid": "CtkVRC1bksZ52XRUDENVitsv3in2"
+  }
+ ]
+}

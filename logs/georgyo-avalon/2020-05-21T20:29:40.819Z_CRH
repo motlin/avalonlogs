@@ -1,0 +1,230 @@
+{
+ "timeCreated": {
+  "_seconds": 1590092980,
+  "_nanoseconds": 819000000
+ },
+ "timeFinished": {
+  "_seconds": 1590093389,
+  "_nanoseconds": 818000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "EMMA",
+    "ANDY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "EMMA",
+      "CLAIRE",
+      "SARAH",
+      "MOONEY"
+     ],
+     "proposer": "ANDY",
+     "state": "APPROVED",
+     "team": [
+      "EMMA",
+      "ANDY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "EMMA",
+     "team": [
+      "EMMA",
+      "MOONEY",
+      "CLAIRE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SARAH",
+      "MOONEY",
+      "ANDY",
+      "EMMA",
+      "CLAIRE"
+     ]
+    }
+   ],
+   "team": [
+    "EMMA",
+    "MOONEY",
+    "CLAIRE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "CLAIRE",
+    "SARAH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EMMA",
+      "CLAIRE",
+      "SARAH",
+      "MOONEY"
+     ],
+     "team": [
+      "CLAIRE",
+      "SARAH"
+     ],
+     "proposer": "CLAIRE"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SARAH",
+      "MOONEY",
+      "CLAIRE"
+     ],
+     "proposer": "MOONEY",
+     "team": [
+      "CLAIRE",
+      "MOONEY",
+      "SARAH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "CLAIRE",
+    "MOONEY",
+    "SARAH"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SARAH",
+      "MOONEY",
+      "CLAIRE"
+     ],
+     "proposer": "SARAH",
+     "state": "APPROVED",
+     "team": [
+      "SARAH",
+      "ANDY",
+      "CLAIRE"
+     ]
+    }
+   ],
+   "team": [
+    "SARAH",
+    "ANDY",
+    "CLAIRE"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "oNcAFYhJ1TZ7v93ksYEwoXXKsBm1",
+   "name": "EMMA"
+  },
+  {
+   "name": "CLAIRE",
+   "uid": "Nl81CW1RNoNA6fPh2yDWYLL51Nz2"
+  },
+  {
+   "name": "MOONEY",
+   "uid": "cvH5LmYEivap1PepPFzpdzlXa8I2"
+  },
+  {
+   "name": "SARAH",
+   "uid": "sOVkqSL7aAND0psIS1fEDSSS1Mh1"
+  },
+  {
+   "name": "ANDY",
+   "uid": "Dyy6mCIWmcUQp1N6gzGmV1lAvxn1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "EMMA": true,
+    "ANDY": true
+   },
+   {
+    "CLAIRE": true,
+    "MOONEY": false,
+    "EMMA": true
+   },
+   {
+    "CLAIRE": true,
+    "SARAH": true
+   },
+   {
+    "SARAH": true,
+    "MOONEY": false,
+    "CLAIRE": true
+   },
+   {
+    "CLAIRE": true,
+    "ANDY": false,
+    "SARAH": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "EMMA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CLAIRE",
+    "assassin": false
+   },
+   {
+    "name": "SARAH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "MOONEY",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ANDY"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ }
+}

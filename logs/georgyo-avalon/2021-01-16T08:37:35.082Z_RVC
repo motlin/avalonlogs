@@ -1,0 +1,360 @@
+{
+ "timeCreated": {
+  "_seconds": 1610786255,
+  "_nanoseconds": 82000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "KAUSHAL",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "NOBODY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "BRYANT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "AMEYA",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "ROHAN",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "SHRAVAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "DIKSINGH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "AMEYA": true,
+    "NOBODY": true
+   },
+   {
+    "AMEYA": false,
+    "BRYANT": true,
+    "NOBODY": false
+   },
+   {
+    "DIKSINGH": true,
+    "ROHAN": false,
+    "SHRAVAN": true
+   },
+   {
+    "ROHAN": true,
+    "SHRAVAN": true,
+    "KAUSHAL": true,
+    "DIKSINGH": true
+   },
+   {
+    "ROHAN": false,
+    "KAUSHAL": true,
+    "SHRAVAN": true,
+    "BRYANT": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "AMEYA",
+    "NOBODY"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AMEYA",
+      "NOBODY"
+     ],
+     "proposer": "AMEYA",
+     "votes": [
+      "KAUSHAL",
+      "NOBODY",
+      "AMEYA",
+      "BRYANT",
+      "SHRAVAN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "BRYANT",
+     "state": "APPROVED",
+     "votes": [
+      "AMEYA",
+      "SHRAVAN",
+      "NOBODY",
+      "KAUSHAL",
+      "BRYANT"
+     ],
+     "team": [
+      "BRYANT",
+      "AMEYA",
+      "NOBODY"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "BRYANT",
+    "AMEYA",
+    "NOBODY"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ROHAN",
+      "SHRAVAN",
+      "DIKSINGH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHRAVAN",
+      "KAUSHAL",
+      "NOBODY",
+      "BRYANT",
+      "ROHAN"
+     ],
+     "proposer": "ROHAN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ROHAN",
+    "SHRAVAN",
+    "DIKSINGH"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ROHAN",
+    "KAUSHAL",
+    "DIKSINGH",
+    "SHRAVAN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BRYANT",
+      "ROHAN",
+      "SHRAVAN",
+      "KAUSHAL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BRYANT",
+      "DIKSINGH",
+      "SHRAVAN"
+     ],
+     "proposer": "SHRAVAN"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KAUSHAL",
+     "votes": [
+      "KAUSHAL",
+      "AMEYA"
+     ],
+     "team": [
+      "KAUSHAL",
+      "SHRAVAN",
+      "AMEYA",
+      "DIKSINGH"
+     ]
+    },
+    {
+     "votes": [
+      "AMEYA",
+      "KAUSHAL",
+      "DIKSINGH"
+     ],
+     "team": [
+      "DIKSINGH",
+      "AMEYA",
+      "SHRAVAN",
+      "KAUSHAL"
+     ],
+     "proposer": "DIKSINGH",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "NOBODY",
+     "state": "APPROVED",
+     "votes": [
+      "KAUSHAL",
+      "DIKSINGH",
+      "SHRAVAN",
+      "ROHAN",
+      "NOBODY",
+      "BRYANT"
+     ],
+     "team": [
+      "ROHAN",
+      "KAUSHAL",
+      "DIKSINGH",
+      "SHRAVAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "SHRAVAN",
+    "KAUSHAL",
+    "BRYANT",
+    "ROHAN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "AMEYA",
+      "KAUSHAL",
+      "DIKSINGH",
+      "SHRAVAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AMEYA"
+     ],
+     "proposer": "AMEYA"
+    },
+    {
+     "votes": [
+      "SHRAVAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BRYANT",
+      "ROHAN",
+      "SHRAVAN",
+      "KAUSHAL"
+     ],
+     "proposer": "BRYANT"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ROHAN",
+      "KAUSHAL",
+      "DIKSINGH",
+      "BRYANT"
+     ],
+     "proposer": "ROHAN",
+     "votes": [
+      "ROHAN",
+      "BRYANT"
+     ]
+    },
+    {
+     "votes": [
+      "ROHAN"
+     ],
+     "team": [
+      "KAUSHAL",
+      "BRYANT",
+      "SHRAVAN",
+      "ROHAN"
+     ],
+     "proposer": "SHRAVAN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "KAUSHAL",
+     "state": "APPROVED",
+     "votes": [
+      "KAUSHAL",
+      "BRYANT",
+      "ROHAN",
+      "SHRAVAN",
+      "NOBODY"
+     ],
+     "team": [
+      "SHRAVAN",
+      "KAUSHAL",
+      "BRYANT",
+      "ROHAN"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "ROHAN",
+   "uid": "kxOTeulhGKcu2MOCO9lYm5giHP82"
+  },
+  {
+   "uid": "JbCckK6FAEQcLuHKAvN69wqbOS73",
+   "name": "SHRAVAN"
+  },
+  {
+   "name": "KAUSHAL",
+   "uid": "lHvH2Q0Vc1UbF40N06Zr6svg26i1"
+  },
+  {
+   "name": "DIKSINGH",
+   "uid": "4GfCahioxqeJie6psB9eYJTCG793"
+  },
+  {
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03",
+   "name": "NOBODY"
+  },
+  {
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13",
+   "name": "AMEYA"
+  },
+  {
+   "uid": "U6scF13Z1JREsmyEZfa2cjw35qB3",
+   "name": "BRYANT"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1610788997,
+  "_nanoseconds": 766000000
+ }
+}

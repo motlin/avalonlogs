@@ -1,0 +1,327 @@
+{
+ "players": [
+  {
+   "uid": "vqE0w9LGvkdAjV6gzyE9aUephJi1",
+   "name": "KEVIN"
+  },
+  {
+   "name": "BEN",
+   "uid": "mJ5bj2GVVIUFzvLifdoOvrHp4ju2"
+  },
+  {
+   "name": "UMUJO",
+   "uid": "0qn6rDocu6NLTLkrgFuCCT78wB02"
+  },
+  {
+   "uid": "uEjjIKRhMhbeMOJIZ0NyorYwGe02",
+   "name": "SREENATH"
+  },
+  {
+   "name": "KEITH",
+   "uid": "aa9wYo7eRYRaBXEYSmWAD3B22OD2"
+  },
+  {
+   "name": "GEOFF",
+   "uid": "4Tsfa1gDL3ZZ4ZMe4Y274BL2TgX2"
+  },
+  {
+   "name": "NOTPAUL",
+   "uid": "BIlybFZd6DMNPPaJ3KehdbscrMq1"
+  },
+  {
+   "uid": "xinJLVCqSQUHSzbV49SCiTaTmpw2",
+   "name": "BARIS"
+  },
+  {
+   "name": "ELAN",
+   "uid": "hvD1OXMUrhcuCd1H9Ov6erw4O132"
+  },
+  {
+   "name": "MIKE",
+   "uid": "3Su5V2EvwCRJIcOKzPirgVkkRfF2"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SREENATH": true,
+    "KEITH": true,
+    "MIKE": true
+   },
+   {
+    "UMUJO": true,
+    "SREENATH": true,
+    "KEITH": true,
+    "MIKE": true
+   },
+   {
+    "UMUJO": false,
+    "MIKE": true,
+    "KEITH": true,
+    "SREENATH": true
+   },
+   {
+    "SREENATH": true,
+    "NOTPAUL": true,
+    "MIKE": true,
+    "KEITH": true,
+    "UMUJO": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "NOTPAUL",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELAN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "UMUJO"
+   },
+   {
+    "name": "SREENATH",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "BARIS",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GEOFF"
+   },
+   {
+    "name": "MIKE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BEN",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "KEITH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "MIKE"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "KEVIN",
+      "MIKE",
+      "ELAN"
+     ],
+     "votes": [
+      "BARIS",
+      "KEVIN",
+      "KEITH",
+      "UMUJO"
+     ],
+     "state": "REJECTED",
+     "proposer": "KEVIN"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BARIS",
+      "UMUJO",
+      "GEOFF",
+      "BEN"
+     ],
+     "team": [
+      "BARIS",
+      "NOTPAUL",
+      "BEN"
+     ],
+     "proposer": "BEN"
+    },
+    {
+     "team": [
+      "UMUJO",
+      "KEVIN",
+      "KEITH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BARIS",
+      "ELAN",
+      "KEITH",
+      "GEOFF",
+      "UMUJO"
+     ],
+     "proposer": "UMUJO"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SREENATH",
+      "KEITH",
+      "MIKE"
+     ],
+     "votes": [
+      "GEOFF",
+      "KEITH",
+      "BARIS",
+      "NOTPAUL",
+      "ELAN",
+      "KEVIN",
+      "UMUJO",
+      "SREENATH",
+      "MIKE"
+     ],
+     "proposer": "SREENATH"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "SREENATH",
+    "KEITH",
+    "MIKE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "KEITH",
+      "SREENATH",
+      "MIKE",
+      "UMUJO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BARIS",
+      "MIKE",
+      "UMUJO",
+      "KEITH",
+      "BEN",
+      "SREENATH",
+      "KEVIN"
+     ],
+     "proposer": "KEITH"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "KEITH",
+    "SREENATH",
+    "MIKE",
+    "UMUJO"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "NOTPAUL",
+      "KEITH",
+      "ELAN",
+      "MIKE",
+      "KEVIN",
+      "SREENATH",
+      "BARIS",
+      "GEOFF"
+     ],
+     "team": [
+      "UMUJO",
+      "SREENATH",
+      "KEITH",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "GEOFF"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "UMUJO",
+    "SREENATH",
+    "KEITH",
+    "MIKE"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "numFails": 1,
+   "team": [
+    "NOTPAUL",
+    "KEITH",
+    "SREENATH",
+    "UMUJO",
+    "MIKE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NOTPAUL",
+      "KEITH",
+      "SREENATH",
+      "UMUJO",
+      "MIKE"
+     ],
+     "votes": [
+      "KEITH",
+      "ELAN",
+      "BARIS",
+      "NOTPAUL",
+      "SREENATH",
+      "UMUJO"
+     ],
+     "proposer": "NOTPAUL"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1597369232,
+  "_nanoseconds": 393000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1597368356,
+  "_nanoseconds": 752000000
+ }
+}

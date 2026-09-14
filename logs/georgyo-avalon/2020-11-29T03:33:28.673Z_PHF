@@ -1,0 +1,267 @@
+{
+ "timeFinished": {
+  "_seconds": 1606622569,
+  "_nanoseconds": 498000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "KATHRYN",
+     "team": [
+      "KATHRYN",
+      "ELENA"
+     ],
+     "votes": [
+      "JASON",
+      "KATHRYN",
+      "ELENA",
+      "NATE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "KATHRYN",
+    "ELENA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "JASON",
+    "ELENA",
+    "TYSON"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JASON",
+     "state": "APPROVED",
+     "votes": [
+      "TYSON",
+      "ELENA",
+      "COOPER",
+      "JASON"
+     ],
+     "team": [
+      "JASON",
+      "ELENA",
+      "TYSON"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "TYSON",
+    "COOPER",
+    "ELENA"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ELENA",
+      "JASON",
+      "TYSON"
+     ],
+     "proposer": "ELENA",
+     "votes": []
+    },
+    {
+     "proposer": "COOPER",
+     "state": "REJECTED",
+     "team": [
+      "COOPER",
+      "JASON",
+      "LUKE"
+     ],
+     "votes": [
+      "COOPER",
+      "KATHRYN",
+      "LUKE"
+     ]
+    },
+    {
+     "team": [
+      "TYSON",
+      "COOPER",
+      "ELENA"
+     ],
+     "votes": [
+      "TYSON",
+      "ELENA",
+      "KATHRYN",
+      "NATE"
+     ],
+     "proposer": "TYSON",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "JASON",
+    "COOPER",
+    "NATE",
+    "ELENA"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "LUKE",
+      "KATHRYN"
+     ],
+     "proposer": "LUKE",
+     "team": [
+      "KATHRYN",
+      "ELENA",
+      "NATE",
+      "LUKE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KATHRYN",
+      "COOPER",
+      "ELENA",
+      "NATE",
+      "JASON"
+     ],
+     "team": [
+      "JASON",
+      "COOPER",
+      "NATE",
+      "ELENA"
+     ],
+     "proposer": "NATE"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "COOPER",
+   "uid": "PS1ny6F7dmT3QqGw9DhtjZcRUqI3"
+  },
+  {
+   "name": "TYSON",
+   "uid": "IOClB4U513Wve2APTDLuYAd489M2"
+  },
+  {
+   "name": "LUKE",
+   "uid": "T2817FwZvsSxPUTcCi0S0dUGOzA3"
+  },
+  {
+   "name": "NATE",
+   "uid": "LSZi414G65axtsbLxOlyWbq8NKG2"
+  },
+  {
+   "name": "KATHRYN",
+   "uid": "AleHpgXwpXVnKgoYrhnsoguTREw2"
+  },
+  {
+   "name": "JASON",
+   "uid": "NSEPetV9qQhJIsaRxY8bb9LK7QS2"
+  },
+  {
+   "name": "ELENA",
+   "uid": "76mB84CMGqWOdoALJR1CNt5CkT53"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "NATE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JASON",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "TYSON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELENA"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "LUKE"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "COOPER"
+   },
+   {
+    "name": "KATHRYN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "JASON",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "ELENA": true,
+    "KATHRYN": true
+   },
+   {
+    "JASON": true,
+    "ELENA": true,
+    "TYSON": true
+   },
+   {
+    "COOPER": true,
+    "TYSON": false,
+    "ELENA": true
+   },
+   {
+    "ELENA": true,
+    "NATE": true,
+    "JASON": true,
+    "COOPER": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1606620808,
+  "_nanoseconds": 673000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

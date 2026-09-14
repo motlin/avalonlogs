@@ -1,0 +1,299 @@
+{
+ "timeCreated": {
+  "_seconds": 1598313809,
+  "_nanoseconds": 81000000
+ },
+ "players": [
+  {
+   "name": "WILLSTRONG",
+   "uid": "o0JQ4vCV5PSyazkPD0lGEVyxAzr1"
+  },
+  {
+   "name": "MICHAEL",
+   "uid": "z55yqFNUBHZW8DnVQZiPu9j57ah1"
+  },
+  {
+   "name": "ANDY",
+   "uid": "S7FZ01pz93Tb8zSB4R2N0U2wHDT2"
+  },
+  {
+   "name": "LUKE",
+   "uid": "XNRDydY20OQ6Td3fkgSV0sBc4923"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "UNkpuTvvr2ZwxnIFOgJ6PL8lwP52"
+  },
+  {
+   "name": "TONYSUN",
+   "uid": "vqiK8LB6oJYBIt8kslHOL6e4wXt2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ANDY",
+    "LUKE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "WILLSTRONG",
+      "MICHAEL"
+     ],
+     "votes": [
+      "WILLSTRONG",
+      "LUKE",
+      "TONYSUN"
+     ],
+     "proposer": "WILLSTRONG"
+    },
+    {
+     "votes": [
+      "WILLSTRONG"
+     ],
+     "team": [
+      "MICHAEL",
+      "WILLSTRONG"
+     ],
+     "state": "REJECTED",
+     "proposer": "MICHAEL"
+    },
+    {
+     "proposer": "ANDY",
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "MICHAEL",
+      "WILLSTRONG",
+      "LUKE",
+      "ANDY"
+     ],
+     "team": [
+      "ANDY",
+      "LUKE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LUKE",
+     "votes": [
+      "WILLSTRONG",
+      "MICHAEL",
+      "TONYSUN",
+      "LUKE",
+      "BRIAN"
+     ],
+     "team": [
+      "LUKE",
+      "ANDY",
+      "BRIAN"
+     ]
+    }
+   ],
+   "team": [
+    "LUKE",
+    "ANDY",
+    "BRIAN"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "LUKE",
+    "ANDY",
+    "TONYSUN",
+    "WILLSTRONG"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BRIAN"
+     ],
+     "team": [
+      "BRIAN",
+      "TONYSUN",
+      "MICHAEL",
+      "WILLSTRONG"
+     ],
+     "state": "REJECTED",
+     "proposer": "BRIAN"
+    },
+    {
+     "team": [
+      "LUKE",
+      "ANDY",
+      "TONYSUN",
+      "WILLSTRONG"
+     ],
+     "proposer": "TONYSUN",
+     "state": "APPROVED",
+     "votes": [
+      "TONYSUN",
+      "WILLSTRONG",
+      "ANDY",
+      "LUKE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "MICHAEL",
+    "ANDY",
+    "LUKE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "LUKE",
+      "WILLSTRONG",
+      "MICHAEL"
+     ],
+     "votes": [],
+     "proposer": "WILLSTRONG"
+    },
+    {
+     "votes": [
+      "WILLSTRONG",
+      "LUKE",
+      "ANDY",
+      "BRIAN",
+      "MICHAEL",
+      "TONYSUN"
+     ],
+     "team": [
+      "MICHAEL",
+      "ANDY",
+      "LUKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "MICHAEL"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "LUKE",
+      "ANDY",
+      "WILLSTRONG",
+      "MICHAEL"
+     ],
+     "team": [
+      "LUKE",
+      "ANDY",
+      "MICHAEL",
+      "WILLSTRONG"
+     ],
+     "proposer": "ANDY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "LUKE",
+    "ANDY",
+    "MICHAEL",
+    "WILLSTRONG"
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "ANDY",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ANDY": true,
+    "LUKE": true
+   },
+   {
+    "ANDY": true,
+    "LUKE": true,
+    "BRIAN": false
+   },
+   {
+    "ANDY": true,
+    "LUKE": true,
+    "WILLSTRONG": true,
+    "TONYSUN": false
+   },
+   {
+    "LUKE": true,
+    "ANDY": true,
+    "MICHAEL": true
+   },
+   {
+    "WILLSTRONG": true,
+    "MICHAEL": true,
+    "LUKE": true,
+    "ANDY": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LUKE"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "BRIAN"
+   },
+   {
+    "role": "MERLIN",
+    "name": "WILLSTRONG",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ANDY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MICHAEL"
+   },
+   {
+    "name": "TONYSUN",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1598314612,
+  "_nanoseconds": 150000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

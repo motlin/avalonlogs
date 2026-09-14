@@ -1,0 +1,200 @@
+{
+ "outcome": {
+  "assassinated": "RUPAL",
+  "votes": [
+   {
+    "AHMEDEMBAB": true,
+    "APALM": true
+   },
+   {
+    "AHMEDEMBAB": true,
+    "APALM": true,
+    "SAMMAY": true
+   },
+   {
+    "SAMMAY": false,
+    "APALM": true
+   },
+   {
+    "KAVS": true,
+    "APALM": true,
+    "RUPAL": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "RUPAL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KAVS",
+    "assassin": false
+   },
+   {
+    "name": "SAMMAY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "AHMEDEMBAB",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "APALM",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "players": [
+  {
+   "name": "AHMEDEMBAB",
+   "uid": "FBlryppWsQY7FusRaowo4qMDeld2"
+  },
+  {
+   "name": "SAMMAY",
+   "uid": "pBP0eLdHHsP9wSz3lP4lNBxtNyB2"
+  },
+  {
+   "uid": "O9fUsmk8Q9g8aJ7gNoLP5MRbMqz2",
+   "name": "RUPAL"
+  },
+  {
+   "name": "KAVS",
+   "uid": "4jTJ8bBhwNc4bDpjsubS0yaROtj2"
+  },
+  {
+   "name": "APALM",
+   "uid": "sxt4rYSLSkWmOn56tmXBOF5kUmy1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585956220,
+  "_nanoseconds": 714000000
+ },
+ "timeFinished": {
+  "_seconds": 1585956904,
+  "_nanoseconds": 33607000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "KAVS",
+      "SAMMAY",
+      "AHMEDEMBAB",
+      "APALM"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AHMEDEMBAB",
+      "APALM"
+     ],
+     "proposer": "APALM"
+    }
+   ],
+   "team": [
+    "AHMEDEMBAB",
+    "APALM"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "APALM",
+    "AHMEDEMBAB",
+    "SAMMAY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "APALM",
+      "AHMEDEMBAB",
+      "SAMMAY"
+     ],
+     "votes": [
+      "KAVS",
+      "SAMMAY",
+      "AHMEDEMBAB",
+      "APALM"
+     ],
+     "proposer": "AHMEDEMBAB"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "SAMMAY",
+      "APALM"
+     ],
+     "proposer": "SAMMAY",
+     "votes": [
+      "RUPAL",
+      "KAVS",
+      "SAMMAY",
+      "APALM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "SAMMAY",
+    "APALM"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "APALM",
+      "RUPAL",
+      "KAVS"
+     ],
+     "proposer": "RUPAL",
+     "team": [
+      "APALM",
+      "KAVS",
+      "RUPAL"
+     ]
+    }
+   ],
+   "team": [
+    "APALM",
+    "KAVS",
+    "RUPAL"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

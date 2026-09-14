@@ -1,0 +1,246 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "DIB": true,
+    "HENRY": true
+   },
+   {
+    "HENRY": true,
+    "DIB": true,
+    "JORDAN": false
+   },
+   {
+    "DIB": true,
+    "HENRY": true,
+    "DYLAN": true
+   },
+   {
+    "JOMO": false,
+    "HENRY": true,
+    "DYLAN": true,
+    "DIB": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "DIB",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "HENRY"
+   },
+   {
+    "assassin": false,
+    "name": "JAI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DYLAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "JOMO",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "JORDAN"
+   },
+   {
+    "name": "LAELAE",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "DIB",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1592638522,
+  "_nanoseconds": 743000000
+ },
+ "players": [
+  {
+   "name": "JORDAN",
+   "uid": "lEJCjoPjhrSN49fHQbwenfQMn4q2"
+  },
+  {
+   "uid": "RkU6fdwZuJVfOWLpArxaXKdeoB33",
+   "name": "DYLAN"
+  },
+  {
+   "name": "JOMO",
+   "uid": "IZISDWbci5dOvAkpgMWw8b65pyA3"
+  },
+  {
+   "name": "LAELAE",
+   "uid": "JjZUCs0SlrNwThMEZGjV0ElpV9j2"
+  },
+  {
+   "name": "JAI",
+   "uid": "B28nq3vagJazThdP9HJmjPOfhwZ2"
+  },
+  {
+   "name": "DIB",
+   "uid": "HVDfWm0jMHdaEyRJSgWNcwNRIL72"
+  },
+  {
+   "uid": "JueYlUGm4wNAtpvC1oOg5IKF9vB2",
+   "name": "HENRY"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "DIB",
+      "HENRY",
+      "JAI",
+      "DYLAN"
+     ],
+     "proposer": "DIB",
+     "state": "APPROVED",
+     "team": [
+      "DIB",
+      "HENRY"
+     ]
+    }
+   ],
+   "team": [
+    "DIB",
+    "HENRY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "HENRY",
+     "state": "APPROVED",
+     "team": [
+      "DIB",
+      "HENRY",
+      "JORDAN"
+     ],
+     "votes": [
+      "DYLAN",
+      "JORDAN",
+      "LAELAE",
+      "HENRY",
+      "JAI"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "DIB",
+    "HENRY",
+    "JORDAN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JORDAN",
+     "votes": [
+      "JAI",
+      "JORDAN"
+     ],
+     "team": [
+      "DIB",
+      "JORDAN",
+      "JOMO"
+     ]
+    },
+    {
+     "team": [
+      "DIB",
+      "HENRY",
+      "DYLAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "DYLAN",
+     "votes": [
+      "LAELAE",
+      "DIB",
+      "HENRY",
+      "JAI",
+      "DYLAN",
+      "JOMO"
+     ]
+    }
+   ],
+   "team": [
+    "DIB",
+    "HENRY",
+    "DYLAN"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "JOMO",
+     "votes": [
+      "JAI",
+      "DYLAN",
+      "JOMO",
+      "JORDAN",
+      "DIB",
+      "HENRY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JOMO",
+      "DYLAN",
+      "DIB",
+      "HENRY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "JOMO",
+    "DYLAN",
+    "DIB",
+    "HENRY"
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592636047,
+  "_nanoseconds": 408000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "LEX",
+      "CHAD",
+      "GREENZY",
+      "JAM",
+      "GREANZY"
+     ],
+     "proposer": "JAM",
+     "team": [
+      "LEX",
+      "JAM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "LEX",
+    "JAM"
+   ]
+  },
+  {
+   "team": [
+    "GREANZY",
+    "JAM",
+    "LEX"
+   ],
+   "numFails": 2,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "GREANZY",
+     "votes": [
+      "LEX",
+      "GREANZY",
+      "JAM",
+      "CHAD",
+      "GREENZY"
+     ],
+     "team": [
+      "GREANZY",
+      "JAM",
+      "LEX"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "CHAD",
+    "GREENZY"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CHAD",
+     "votes": [
+      "GREANZY",
+      "LEX",
+      "GREENZY",
+      "JAM",
+      "CHAD"
+     ],
+     "team": [
+      "CHAD",
+      "GREENZY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHAD",
+    "GREENZY",
+    "JAM"
+   ],
+   "proposals": [
+    {
+     "proposer": "LEX",
+     "state": "REJECTED",
+     "votes": [
+      "LEX"
+     ],
+     "team": [
+      "GREENZY",
+      "JAM",
+      "GREANZY"
+     ]
+    },
+    {
+     "proposer": "GREENZY",
+     "state": "APPROVED",
+     "votes": [
+      "GREENZY",
+      "CHAD",
+      "LEX",
+      "JAM"
+     ],
+     "team": [
+      "CHAD",
+      "GREENZY",
+      "JAM"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "LEX",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JAM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "GREENZY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CHAD",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "GREANZY",
+    "assassin": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "LEX": true,
+    "JAM": true
+   },
+   {
+    "GREANZY": false,
+    "JAM": true,
+    "LEX": false
+   },
+   {
+    "GREENZY": true,
+    "CHAD": true
+   },
+   {
+    "JAM": true,
+    "CHAD": true,
+    "GREENZY": true
+   }
+  ],
+  "assassinated": "CHAD"
+ },
+ "timeFinished": {
+  "_seconds": 1610767863,
+  "_nanoseconds": 789000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "CHAD",
+   "uid": "2kk7qO85fEdAwgb7cUdvGJQMXv33"
+  },
+  {
+   "name": "LEX",
+   "uid": "jpVTtLLXOMcd9pRaRStjkomvKan1"
+  },
+  {
+   "name": "GREENZY",
+   "uid": "AyyX4d3z7sUVcFstwAxFRT4MpjP2"
+  },
+  {
+   "uid": "mHk7xUXcZWRy6ZgqZdSG0ugptsc2",
+   "name": "JAM"
+  },
+  {
+   "uid": "0ENgBnQ6EgY12Nw4AWY9VwWsLlt2",
+   "name": "GREANZY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1610767375,
+  "_nanoseconds": 951000000
+ }
+}

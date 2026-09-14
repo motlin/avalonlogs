@@ -1,0 +1,224 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587843834,
+  "_nanoseconds": 885000000
+ },
+ "missions": [
+  {
+   "team": [
+    "CHRISTOPH",
+    "MALTE"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "CHRISTOPH",
+      "MALTE"
+     ],
+     "proposer": "NICK",
+     "state": "APPROVED",
+     "votes": [
+      "PATRICK",
+      "MALTE",
+      "NICK",
+      "FLAMY",
+      "CHRISTOPH",
+      "KOLAR"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "CHRISTOPH",
+    "MALTE",
+    "FLAMY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "CHRISTOPH",
+      "MALTE",
+      "FLAMY"
+     ],
+     "votes": [
+      "PATRICK",
+      "MALTE",
+      "NICK",
+      "FLAMY",
+      "CHRISTOPH"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHRISTOPH"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "FLAMY",
+    "MALTE",
+    "NICK",
+    "KOLAR"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PATRICK",
+      "MALTE",
+      "NICK",
+      "FLAMY",
+      "KOLAR"
+     ],
+     "team": [
+      "FLAMY",
+      "MALTE",
+      "NICK",
+      "KOLAR"
+     ],
+     "proposer": "KOLAR"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "MALTE",
+    "NICK",
+    "KOLAR"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MALTE",
+     "votes": [
+      "KOLAR",
+      "MALTE",
+      "NICK",
+      "FLAMY",
+      "CHRISTOPH"
+     ],
+     "team": [
+      "MALTE",
+      "NICK",
+      "KOLAR"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "MALTE",
+   "uid": "1CdXWvea3SgisHfcWq2mpkOhQwE3"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "PYYzqvbAyGeFXfpEIFus8sRMaWP2"
+  },
+  {
+   "name": "FLAMY",
+   "uid": "rLlw5o67cwZVDwpeTLxyGWKXS1H3"
+  },
+  {
+   "uid": "3BZDbZZUidhTK3mWnTiu3F3bNXI3",
+   "name": "NICK"
+  },
+  {
+   "name": "CHRISTOPH",
+   "uid": "Tzfj8KypC2NvafKDnRgrbYdDtk42"
+  },
+  {
+   "name": "KOLAR",
+   "uid": "2BQcjWuUIxfKHkgKCRDeqBYLbcg2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587843122,
+  "_nanoseconds": 281000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "PATRICK",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MALTE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NICK"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "FLAMY"
+   },
+   {
+    "name": "CHRISTOPH",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "KOLAR",
+    "role": "MERLIN"
+   }
+  ],
+  "votes": [
+   {
+    "CHRISTOPH": true,
+    "MALTE": true
+   },
+   {
+    "MALTE": true,
+    "FLAMY": true,
+    "CHRISTOPH": false
+   },
+   {
+    "NICK": true,
+    "FLAMY": true,
+    "MALTE": true,
+    "KOLAR": true
+   },
+   {
+    "NICK": true,
+    "MALTE": true,
+    "KOLAR": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "KOLAR"
+ }
+}

@@ -1,0 +1,285 @@
+{
+ "timeCreated": {
+  "_seconds": 1587002040,
+  "_nanoseconds": 131000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "KELVIN": true,
+    "SAM": true
+   },
+   {
+    "KELVIN": true,
+    "SAM": true,
+    "ASTON": true
+   },
+   {
+    "THOMSON": false,
+    "SAM": true,
+    "ASTON": true,
+    "KELVIN": true
+   },
+   {
+    "ETHAN": true,
+    "THOMSON": false,
+    "KELVIN": true
+   },
+   {
+    "ASTON": true,
+    "KELVIN": true,
+    "THOMSON": false,
+    "SAM": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "SAM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "THOMSON",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "KELVIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ETHAN"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ASTON"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ADRIAN"
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "ETHAN",
+   "uid": "Y77Unrq5prgSaHEAzueTO5x9pAF3"
+  },
+  {
+   "name": "SAM",
+   "uid": "PyFnZWgR6pYN1SgJ1k5nRikqbIq2"
+  },
+  {
+   "name": "KELVIN",
+   "uid": "tQpgKDFOxBgz3AqqpGqocau1S0a2"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "jYAPv4IuMHcFuPCIWvpnB8CS0Nw2"
+  },
+  {
+   "uid": "O78yb4V9GnNff9YuBn8IRotwtf02",
+   "name": "THOMSON"
+  },
+  {
+   "uid": "mzNKoIt7o2gmdzkxYu68nXIRrJi2",
+   "name": "ASTON"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "KELVIN",
+    "SAM"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ETHAN",
+      "ASTON",
+      "ADRIAN",
+      "SAM",
+      "THOMSON",
+      "KELVIN"
+     ],
+     "team": [
+      "KELVIN",
+      "SAM"
+     ],
+     "state": "APPROVED",
+     "proposer": "KELVIN"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "KELVIN",
+    "SAM",
+    "ASTON"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SAM",
+      "THOMSON",
+      "KELVIN",
+      "ETHAN",
+      "ASTON",
+      "ADRIAN"
+     ],
+     "team": [
+      "KELVIN",
+      "SAM",
+      "ASTON"
+     ],
+     "proposer": "ADRIAN"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "SAM",
+      "KELVIN",
+      "ASTON",
+      "THOMSON"
+     ],
+     "votes": [
+      "ADRIAN",
+      "SAM",
+      "THOMSON",
+      "KELVIN",
+      "ETHAN",
+      "ASTON"
+     ],
+     "state": "APPROVED",
+     "proposer": "THOMSON"
+    }
+   ],
+   "team": [
+    "SAM",
+    "KELVIN",
+    "ASTON",
+    "THOMSON"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ETHAN",
+    "KELVIN",
+    "THOMSON"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ASTON",
+      "ADRIAN",
+      "KELVIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ETHAN"
+     ],
+     "proposer": "ASTON"
+    },
+    {
+     "team": [
+      "ETHAN",
+      "KELVIN",
+      "THOMSON"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ETHAN",
+      "ASTON",
+      "ADRIAN",
+      "SAM",
+      "THOMSON",
+      "KELVIN"
+     ],
+     "proposer": "ETHAN"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "KELVIN",
+    "SAM",
+    "ASTON",
+    "THOMSON"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "SAM",
+      "KELVIN",
+      "ASTON",
+      "ETHAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KELVIN",
+      "ETHAN",
+      "SAM"
+     ],
+     "proposer": "SAM"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KELVIN",
+      "ETHAN",
+      "ASTON",
+      "ADRIAN",
+      "SAM",
+      "THOMSON"
+     ],
+     "team": [
+      "KELVIN",
+      "SAM",
+      "ASTON",
+      "THOMSON"
+     ],
+     "proposer": "KELVIN"
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587002991,
+  "_nanoseconds": 208431000
+ }
+}

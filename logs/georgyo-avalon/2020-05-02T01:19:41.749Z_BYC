@@ -1,0 +1,268 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "DANIEL",
+    "assassin": false
+   },
+   {
+    "name": "Y",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SUSHHI",
+    "assassin": false
+   },
+   {
+    "name": "ALEKHYA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "FRANCES"
+   }
+  ],
+  "assassinated": "FRANCES",
+  "votes": [
+   {
+    "FRANCES": true,
+    "ALEKHYA": false
+   },
+   {
+    "FRANCES": true,
+    "DANIEL": true,
+    "SUSHHI": true
+   },
+   {
+    "DANIEL": false,
+    "FRANCES": true
+   },
+   {
+    "SUSHHI": true,
+    "Y": true,
+    "FRANCES": true
+   },
+   {
+    "Y": true,
+    "FRANCES": true,
+    "SUSHHI": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1588382381,
+  "_nanoseconds": 749000000
+ },
+ "timeFinished": {
+  "_seconds": 1588382814,
+  "_nanoseconds": 491000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "team": [
+    "ALEKHYA",
+    "FRANCES"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SUSHHI",
+      "ALEKHYA",
+      "FRANCES",
+      "DANIEL",
+      "Y"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ALEKHYA",
+      "FRANCES"
+     ],
+     "proposer": "SUSHHI"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "FRANCES",
+    "SUSHHI",
+    "DANIEL"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ALEKHYA",
+      "DANIEL"
+     ],
+     "team": [
+      "DANIEL",
+      "Y",
+      "ALEKHYA"
+     ],
+     "proposer": "ALEKHYA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "FRANCES",
+      "SUSHHI",
+      "DANIEL"
+     ],
+     "proposer": "FRANCES",
+     "votes": [
+      "SUSHHI",
+      "ALEKHYA",
+      "FRANCES",
+      "DANIEL",
+      "Y"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SUSHHI",
+      "FRANCES",
+      "DANIEL"
+     ],
+     "team": [
+      "DANIEL",
+      "FRANCES"
+     ],
+     "proposer": "DANIEL",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "DANIEL",
+    "FRANCES"
+   ],
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "SUSHHI",
+    "FRANCES",
+    "Y"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "SUSHHI",
+      "FRANCES",
+      "Y"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "Y",
+      "ALEKHYA"
+     ],
+     "proposer": "Y"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SUSHHI",
+     "votes": [
+      "SUSHHI",
+      "FRANCES",
+      "Y"
+     ],
+     "team": [
+      "SUSHHI",
+      "FRANCES",
+      "Y"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ALEKHYA",
+      "DANIEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALEKHYA",
+     "team": [
+      "ALEKHYA",
+      "DANIEL",
+      "Y"
+     ]
+    },
+    {
+     "votes": [
+      "Y",
+      "SUSHHI",
+      "FRANCES"
+     ],
+     "team": [
+      "FRANCES",
+      "SUSHHI",
+      "Y"
+     ],
+     "proposer": "FRANCES",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "FRANCES",
+    "SUSHHI",
+    "Y"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "name": "SUSHHI",
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2"
+  },
+  {
+   "uid": "2lVp7J5XFwRMujDCMX14pAjpngw1",
+   "name": "ALEKHYA"
+  },
+  {
+   "name": "FRANCES",
+   "uid": "ntbgrJvvcGgV6V1AucspMbUFtCu2"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "dV76TjEWX5bnuzySUJl4dihuyR22"
+  },
+  {
+   "name": "Y",
+   "uid": "jWfTggUXPVM7E9KUdk1MtRVY2lB2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

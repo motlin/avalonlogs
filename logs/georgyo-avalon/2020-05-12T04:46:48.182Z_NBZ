@@ -1,0 +1,349 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "SARAH",
+  "votes": [
+   {
+    "SARAH": true,
+    "ALANA": false,
+    "LILY": true
+   },
+   {
+    "SARAH": true,
+    "FRUITNAY": true,
+    "MICHAEL": true,
+    "JACOB": true
+   },
+   {
+    "FRUITNAY": true,
+    "MICHAEL": true,
+    "SARAH": true,
+    "JACOB": true
+   },
+   {
+    "FRUITNAY": true,
+    "MICHAEL": true,
+    "SARAH": true,
+    "JACOB": true,
+    "THEO": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "THEO",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "FRUITNAY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LILY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "LI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ALANA",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "MICHAEL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JACOB",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SARAH"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "FRUITNAY",
+   "uid": "6bV9oo6Q6SZBtpNtLwMivO1Kw3V2"
+  },
+  {
+   "name": "MICHAEL",
+   "uid": "1x78QMsSA5dEIPjazgO1xInP1Ye2"
+  },
+  {
+   "name": "THEO",
+   "uid": "PJGnW9Xx2gRwMyqXPL1V4PqmqnM2"
+  },
+  {
+   "name": "ALANA",
+   "uid": "f3S7W8JeKDffJ4vuRoMqSvpmhEG3"
+  },
+  {
+   "uid": "SUy1hlNySjYvVlRz5n07TlaGBt23",
+   "name": "LILY"
+  },
+  {
+   "name": "SARAH",
+   "uid": "mgUkBzSPnFcMJDPUA12OVyPbIru2"
+  },
+  {
+   "uid": "Adom2elgJaVBrg44A9iweniEljm1",
+   "name": "LI"
+  },
+  {
+   "uid": "QTKljU3sY3avuoFQhcJDC71FouR2",
+   "name": "JACOB"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589260559,
+  "_nanoseconds": 656000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "FRUITNAY",
+     "state": "REJECTED",
+     "votes": [
+      "MICHAEL",
+      "JACOB"
+     ],
+     "team": [
+      "FRUITNAY",
+      "MICHAEL",
+      "THEO"
+     ]
+    },
+    {
+     "votes": [
+      "LI",
+      "ALANA",
+      "MICHAEL",
+      "THEO"
+     ],
+     "proposer": "MICHAEL",
+     "state": "REJECTED",
+     "team": [
+      "MICHAEL",
+      "THEO",
+      "ALANA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "THEO",
+     "team": [
+      "THEO",
+      "ALANA",
+      "LILY"
+     ],
+     "votes": [
+      "THEO",
+      "LILY",
+      "LI",
+      "ALANA"
+     ]
+    },
+    {
+     "votes": [
+      "ALANA",
+      "JACOB",
+      "SARAH",
+      "THEO",
+      "FRUITNAY",
+      "LILY"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALANA",
+     "team": [
+      "LILY",
+      "ALANA",
+      "SARAH"
+     ]
+    }
+   ],
+   "team": [
+    "LILY",
+    "ALANA",
+    "SARAH"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "JACOB",
+    "MICHAEL",
+    "SARAH",
+    "FRUITNAY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "LILY",
+      "ALANA",
+      "THEO",
+      "MICHAEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "LILY",
+     "votes": [
+      "THEO",
+      "LILY",
+      "ALANA",
+      "MICHAEL"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "SARAH",
+      "LILY",
+      "MICHAEL",
+      "JACOB"
+     ],
+     "proposer": "SARAH",
+     "votes": [
+      "LI",
+      "MICHAEL",
+      "JACOB",
+      "SARAH"
+     ]
+    },
+    {
+     "team": [
+      "LI",
+      "THEO",
+      "MICHAEL",
+      "SARAH"
+     ],
+     "votes": [
+      "LI",
+      "MICHAEL"
+     ],
+     "proposer": "LI",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JACOB",
+     "state": "APPROVED",
+     "votes": [
+      "JACOB",
+      "SARAH",
+      "THEO",
+      "LI",
+      "MICHAEL"
+     ],
+     "team": [
+      "JACOB",
+      "MICHAEL",
+      "SARAH",
+      "FRUITNAY"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "FRUITNAY",
+    "JACOB",
+    "MICHAEL",
+    "SARAH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "JACOB",
+      "SARAH",
+      "THEO",
+      "FRUITNAY",
+      "LILY",
+      "LI",
+      "ALANA",
+      "MICHAEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "FRUITNAY",
+     "team": [
+      "FRUITNAY",
+      "JACOB",
+      "MICHAEL",
+      "SARAH"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MICHAEL",
+    "FRUITNAY",
+    "SARAH",
+    "JACOB",
+    "THEO"
+   ],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "LI",
+      "ALANA",
+      "MICHAEL",
+      "JACOB",
+      "SARAH",
+      "THEO",
+      "FRUITNAY",
+      "LILY"
+     ],
+     "team": [
+      "MICHAEL",
+      "FRUITNAY",
+      "SARAH",
+      "JACOB",
+      "THEO"
+     ],
+     "state": "APPROVED",
+     "proposer": "MICHAEL"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "teamSize": 5,
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589258808,
+  "_nanoseconds": 182000000
+ }
+}

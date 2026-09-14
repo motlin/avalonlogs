@@ -1,0 +1,237 @@
+{
+ "timeFinished": {
+  "_seconds": 1600746541,
+  "_nanoseconds": 315000000
+ },
+ "timeCreated": {
+  "_seconds": 1600744680,
+  "_nanoseconds": 386000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "JOANNE": true,
+    "SAB": true
+   },
+   {
+    "TRASHLEY": true,
+    "JOJO": false,
+    "KEVIN": true
+   },
+   {
+    "HANNAH": true,
+    "SAB": true,
+    "NIC": false
+   },
+   {
+    "HANNAH": true,
+    "KEVIN": true,
+    "NIC": false,
+    "JOJO": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "SAB",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "JOANNE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "JOJO"
+   },
+   {
+    "name": "HANNAH",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "KEVIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TRASHLEY"
+   },
+   {
+    "name": "NIC",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "JOANNE",
+   "uid": "0vUemk06yJZx4OiLv3OXCvkKTOH2"
+  },
+  {
+   "name": "SAB",
+   "uid": "knYmeZctt7Q998PSXA824I8o6Qz1"
+  },
+  {
+   "name": "NIC",
+   "uid": "E7IPPgD0pMgV23EQMf7MEV0zpAj1"
+  },
+  {
+   "uid": "zXFYbWo0ufPRsCPeHJv8FIIVs2q1",
+   "name": "HANNAH"
+  },
+  {
+   "uid": "VUNHKOPkhxNMkeWvcS1OJva6nwp1",
+   "name": "KEVIN"
+  },
+  {
+   "name": "JOJO",
+   "uid": "hgBOOMlMhWNsjVQRnsmsUSBdXRh2"
+  },
+  {
+   "uid": "y2uNLfbLD4ZtWiTRh6wiiN3Ndx23",
+   "name": "TRASHLEY"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "JOANNE",
+    "SAB"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JOANNE",
+      "SAB"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "HANNAH",
+      "TRASHLEY",
+      "JOJO",
+      "JOANNE",
+      "KEVIN",
+      "SAB",
+      "NIC"
+     ],
+     "proposer": "JOANNE"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "KEVIN",
+    "JOJO",
+    "TRASHLEY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SAB",
+      "TRASHLEY",
+      "KEVIN",
+      "HANNAH",
+      "JOANNE",
+      "JOJO",
+      "NIC"
+     ],
+     "team": [
+      "KEVIN",
+      "JOJO",
+      "TRASHLEY"
+     ],
+     "state": "APPROVED",
+     "proposer": "SAB"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "SAB",
+    "HANNAH",
+    "NIC"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SAB",
+      "HANNAH",
+      "NIC"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TRASHLEY",
+      "JOANNE",
+      "SAB",
+      "JOJO",
+      "HANNAH",
+      "NIC",
+      "KEVIN"
+     ],
+     "proposer": "NIC"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "HANNAH",
+     "votes": [
+      "NIC",
+      "JOJO",
+      "HANNAH",
+      "JOANNE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JOJO",
+      "HANNAH",
+      "NIC",
+      "KEVIN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 2,
+   "team": [
+    "JOJO",
+    "HANNAH",
+    "NIC",
+    "KEVIN"
+   ],
+   "numFails": 2
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

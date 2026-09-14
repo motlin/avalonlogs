@@ -1,0 +1,264 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PW": true,
+    "SHUMIN": true
+   },
+   {
+    "JEM": true,
+    "SHUMIN": true,
+    "PW": true
+   },
+   {
+    "ADELINA": true,
+    "SHUMIN": true,
+    "JEM": false,
+    "PW": true
+   },
+   {
+    "RJ": false,
+    "SHUMIN": true,
+    "PW": true
+   },
+   {
+    "PW": true,
+    "JOHNATHON": true,
+    "SHUMIN": true,
+    "JEM": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PW"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SHUMIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JEM"
+   },
+   {
+    "name": "ADELINA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JOHNATHON"
+   },
+   {
+    "name": "RJ",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1588350766,
+  "_nanoseconds": 741000000
+ },
+ "players": [
+  {
+   "name": "JEM",
+   "uid": "Xume27Qq25S0LOPqmsnNRy1QVvu1"
+  },
+  {
+   "name": "ADELINA",
+   "uid": "iz9PnBjmHMZzZ1NPfyhR3iy23C92"
+  },
+  {
+   "name": "JOHNATHON",
+   "uid": "5X1tk2lKB7OY8Lc7db4JZJDWCUJ2"
+  },
+  {
+   "name": "RJ",
+   "uid": "c3opzRxoXNXdQhpWLclzcmDT7pk1"
+  },
+  {
+   "uid": "IwPP7Yg3UFSzEqQ0pIzsy9X04z62",
+   "name": "PW"
+  },
+  {
+   "name": "SHUMIN",
+   "uid": "T9K2cJu4GigKGCPmxhUAyITqNNJ2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588351455,
+  "_nanoseconds": 852000000
+ },
+ "missions": [
+  {
+   "team": [
+    "SHUMIN",
+    "PW"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "SHUMIN",
+      "PW"
+     ],
+     "votes": [
+      "SHUMIN",
+      "JEM",
+      "ADELINA",
+      "PW"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHUMIN"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "PW",
+    "SHUMIN",
+    "JEM"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PW",
+      "SHUMIN",
+      "JEM"
+     ],
+     "proposer": "JEM",
+     "votes": [
+      "PW",
+      "SHUMIN",
+      "JEM",
+      "ADELINA"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "ADELINA",
+    "PW",
+    "SHUMIN",
+    "JEM"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "JEM",
+      "ADELINA",
+      "PW",
+      "SHUMIN"
+     ],
+     "team": [
+      "ADELINA",
+      "PW",
+      "SHUMIN",
+      "JEM"
+     ],
+     "state": "APPROVED",
+     "proposer": "ADELINA"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "RJ",
+    "SHUMIN",
+    "PW"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JOHNATHON",
+      "SHUMIN",
+      "PW"
+     ],
+     "proposer": "JOHNATHON",
+     "state": "REJECTED",
+     "votes": [
+      "JOHNATHON",
+      "PW",
+      "SHUMIN"
+     ]
+    },
+    {
+     "votes": [
+      "ADELINA",
+      "JOHNATHON",
+      "RJ",
+      "PW"
+     ],
+     "proposer": "RJ",
+     "state": "APPROVED",
+     "team": [
+      "RJ",
+      "SHUMIN",
+      "PW"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PW",
+      "SHUMIN",
+      "JEM",
+      "ADELINA",
+      "JOHNATHON",
+      "RJ"
+     ],
+     "team": [
+      "PW",
+      "JEM",
+      "SHUMIN",
+      "JOHNATHON"
+     ],
+     "proposer": "PW"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PW",
+    "JEM",
+    "SHUMIN",
+    "JOHNATHON"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,268 @@
+{
+ "outcome": {
+  "assassinated": "RUM",
+  "votes": [
+   {
+    "GEG": true,
+    "HANNAH": true
+   },
+   {
+    "HANNAH": true,
+    "GEG": false,
+    "CHRIS": false
+   },
+   {
+    "GEG": false,
+    "BEN": true,
+    "SRINATH": true,
+    "RUM": true
+   },
+   {
+    "SRINATH": true,
+    "BEN": true,
+    "RUM": true
+   },
+   {
+    "RUM": true,
+    "BEN": true,
+    "HANNAH": true,
+    "SRINATH": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "HANNAH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SRINATH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHRIS",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "GEG",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "RUM"
+   },
+   {
+    "role": "MERLIN",
+    "name": "BEN",
+    "assassin": false
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "team": [
+    "HANNAH",
+    "GEG"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "HANNAH",
+     "state": "APPROVED",
+     "team": [
+      "HANNAH",
+      "GEG"
+     ],
+     "votes": [
+      "HANNAH",
+      "SRINATH",
+      "CHRIS",
+      "GEG",
+      "RUM",
+      "BEN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "GEG",
+     "team": [
+      "HANNAH",
+      "GEG",
+      "CHRIS"
+     ],
+     "votes": [
+      "RUM",
+      "BEN",
+      "HANNAH",
+      "SRINATH",
+      "CHRIS",
+      "GEG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "HANNAH",
+    "GEG",
+    "CHRIS"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "CHRIS",
+     "team": [
+      "CHRIS",
+      "BEN",
+      "SRINATH",
+      "RUM"
+     ],
+     "votes": [
+      "CHRIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "SRINATH",
+      "RUM",
+      "GEG"
+     ],
+     "proposer": "BEN",
+     "votes": [
+      "RUM",
+      "BEN",
+      "SRINATH",
+      "CHRIS",
+      "GEG"
+     ]
+    }
+   ],
+   "team": [
+    "BEN",
+    "SRINATH",
+    "RUM",
+    "GEG"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "SRINATH",
+    "BEN",
+    "RUM"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "RUM",
+      "BEN",
+      "HANNAH",
+      "SRINATH",
+      "CHRIS",
+      "GEG"
+     ],
+     "state": "APPROVED",
+     "proposer": "SRINATH",
+     "team": [
+      "SRINATH",
+      "BEN",
+      "RUM"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "SRINATH",
+      "RUM",
+      "HANNAH"
+     ],
+     "proposer": "RUM",
+     "state": "APPROVED",
+     "votes": [
+      "BEN",
+      "HANNAH",
+      "SRINATH",
+      "RUM"
+     ]
+    }
+   ],
+   "team": [
+    "BEN",
+    "SRINATH",
+    "RUM",
+    "HANNAH"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593311820,
+  "_nanoseconds": 532000000
+ },
+ "players": [
+  {
+   "name": "GEG",
+   "uid": "bI0etkIxAERLBvyxWPxbJY5hVuz2"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "Mlj1qcrbbPh3rdp4IXOSSGUH1it1"
+  },
+  {
+   "uid": "kLcA2vNNH7N9dUmvlsAaRIoryUO2",
+   "name": "BEN"
+  },
+  {
+   "uid": "KzT00XSSEjdTKXa0SSMsagAlPqt1",
+   "name": "SRINATH"
+  },
+  {
+   "uid": "Wr2kCw2bEhd65IHciJObz5WIOK53",
+   "name": "RUM"
+  },
+  {
+   "uid": "WlrLgI2Jl9bMP9VI1d3XnPKDMdj2",
+   "name": "HANNAH"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593312359,
+  "_nanoseconds": 907000000
+ }
+}

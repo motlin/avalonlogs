@@ -1,0 +1,230 @@
+{
+ "timeFinished": {
+  "_seconds": 1587295019,
+  "_nanoseconds": 227000000
+ },
+ "timeCreated": {
+  "_seconds": 1587294401,
+  "_nanoseconds": 894000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JONO": true,
+    "AXEL": true
+   },
+   {
+    "SAC": true,
+    "JONO": false,
+    "ERIYO": true
+   },
+   {
+    "SAC": true,
+    "ERIYO": true
+   },
+   {
+    "ERIYO": true,
+    "SAC": true,
+    "AXEL": false
+   },
+   {
+    "JONO": false,
+    "AXEL": false,
+    "SAC": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JONO"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "AXEL"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SAC",
+    "assassin": false
+   },
+   {
+    "name": "RACHEL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ERIYO",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "players": [
+  {
+   "uid": "YyITToKmHdO7NDxYImi1tyiImDo1",
+   "name": "ERIYO"
+  },
+  {
+   "name": "SAC",
+   "uid": "VZOdIZRhT6gIEsGXPjlYzAf0JKM2"
+  },
+  {
+   "name": "AXEL",
+   "uid": "Nmebc6oQTENTqre5r5CoIjiJRGP2"
+  },
+  {
+   "name": "JONO",
+   "uid": "r0QYNbpMvbgU9YqTupf3hXgmOKg1"
+  },
+  {
+   "name": "RACHEL",
+   "uid": "VDA0OocZkpOtIh30LGwa7n8s06T2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SAC",
+      "RACHEL",
+      "ERIYO",
+      "AXEL"
+     ],
+     "proposer": "JONO",
+     "team": [
+      "AXEL",
+      "JONO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "AXEL",
+    "JONO"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JONO",
+    "ERIYO",
+    "SAC"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JONO",
+      "ERIYO",
+      "SAC"
+     ],
+     "proposer": "RACHEL",
+     "votes": [
+      "RACHEL",
+      "ERIYO",
+      "JONO",
+      "AXEL"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ERIYO",
+      "SAC"
+     ],
+     "proposer": "ERIYO",
+     "state": "APPROVED",
+     "votes": [
+      "AXEL",
+      "SAC",
+      "RACHEL",
+      "ERIYO"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ERIYO",
+    "SAC"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "SAC",
+      "AXEL",
+      "ERIYO"
+     ],
+     "proposer": "SAC",
+     "state": "APPROVED",
+     "votes": [
+      "RACHEL",
+      "ERIYO",
+      "AXEL",
+      "SAC"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "SAC",
+    "AXEL",
+    "ERIYO"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "JONO",
+      "AXEL",
+      "SAC"
+     ],
+     "votes": [
+      "SAC",
+      "RACHEL",
+      "JONO",
+      "AXEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "AXEL"
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "JONO",
+    "AXEL",
+    "SAC"
+   ],
+   "teamSize": 3
+  }
+ ]
+}

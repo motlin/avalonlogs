@@ -1,0 +1,233 @@
+{
+ "timeFinished": {
+  "_seconds": 1610225477,
+  "_nanoseconds": 940000000
+ },
+ "players": [
+  {
+   "uid": "tPONeMAmqneWMarCscrGBO8Xuce2",
+   "name": "HEMAL"
+  },
+  {
+   "uid": "4Jlz7InJ6zcAMa7WQK4kdOUWr6v1",
+   "name": "MEERA"
+  },
+  {
+   "uid": "cyza35QKWBNPODvGjbaQFwUe2SC3",
+   "name": "LENA"
+  },
+  {
+   "uid": "jzHwnx1UQBUdEpb7ySAHwLVQKcw2",
+   "name": "SUCHIT"
+  },
+  {
+   "name": "TINA",
+   "uid": "LcgSuwhsDiZtX3qhHxyqb8gZBro2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "HEMAL": true,
+    "TINA": true
+   },
+   {
+    "HEMAL": false,
+    "TINA": true,
+    "SUCHIT": true
+   },
+   {
+    "MEERA": true,
+    "HEMAL": true
+   },
+   {
+    "LENA": false,
+    "TINA": true,
+    "HEMAL": false
+   },
+   {
+    "SUCHIT": true,
+    "MEERA": true,
+    "HEMAL": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "MEERA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SUCHIT",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "LENA"
+   },
+   {
+    "name": "TINA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HEMAL",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1610224775,
+  "_nanoseconds": 652000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "TINA",
+    "HEMAL"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "TINA",
+     "state": "APPROVED",
+     "votes": [
+      "TINA",
+      "LENA",
+      "SUCHIT",
+      "HEMAL",
+      "MEERA"
+     ],
+     "team": [
+      "TINA",
+      "HEMAL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "TINA",
+    "HEMAL",
+    "SUCHIT"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "TINA",
+      "HEMAL",
+      "SUCHIT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TINA",
+      "MEERA",
+      "SUCHIT",
+      "HEMAL",
+      "LENA"
+     ],
+     "proposer": "HEMAL"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MEERA",
+    "HEMAL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MEERA",
+      "HEMAL"
+     ],
+     "proposer": "MEERA",
+     "votes": [
+      "HEMAL",
+      "MEERA",
+      "LENA",
+      "TINA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "HEMAL",
+    "LENA",
+    "TINA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "TINA",
+      "SUCHIT",
+      "LENA",
+      "MEERA",
+      "HEMAL"
+     ],
+     "proposer": "LENA",
+     "team": [
+      "HEMAL",
+      "LENA",
+      "TINA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LENA",
+      "SUCHIT",
+      "HEMAL",
+      "MEERA"
+     ],
+     "team": [
+      "HEMAL",
+      "MEERA",
+      "SUCHIT"
+     ],
+     "proposer": "SUCHIT",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "HEMAL",
+    "MEERA",
+    "SUCHIT"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ]
+}

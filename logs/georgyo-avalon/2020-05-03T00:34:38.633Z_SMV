@@ -1,0 +1,268 @@
+{
+ "timeFinished": {
+  "_seconds": 1588466818,
+  "_nanoseconds": 170000000
+ },
+ "players": [
+  {
+   "name": "ERIN",
+   "uid": "CB5t0riI2EfEcYwilf7bNpy4sCK2"
+  },
+  {
+   "name": "SEENA",
+   "uid": "N4ieZSVrbURAAjbMSgjpE08Yn6V2"
+  },
+  {
+   "name": "MINTY",
+   "uid": "SypGnbvWZXXP3cFfu9O2AXFLRPr2"
+  },
+  {
+   "name": "AJSHAWTY",
+   "uid": "2VQ8uEuSl8UIQEP9wEr9unJ0OYG2"
+  },
+  {
+   "name": "RUTH",
+   "uid": "qN5ssd25m4gsGhecjjDtTBgb4p43"
+  },
+  {
+   "name": "REA",
+   "uid": "pgduRAgh5ValiBQRQWdwB999zF62"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588466078,
+  "_nanoseconds": 633000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "REA"
+   },
+   {
+    "name": "ERIN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "SEENA"
+   },
+   {
+    "name": "AJSHAWTY",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MINTY"
+   },
+   {
+    "name": "RUTH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "ERIN": true,
+    "AJSHAWTY": true
+   },
+   {
+    "RUTH": true,
+    "AJSHAWTY": false,
+    "MINTY": true
+   },
+   {
+    "ERIN": true,
+    "REA": true,
+    "SEENA": true,
+    "RUTH": true
+   },
+   {
+    "MINTY": true,
+    "SEENA": true,
+    "AJSHAWTY": false
+   },
+   {
+    "MINTY": true,
+    "REA": true,
+    "SEENA": true,
+    "ERIN": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ERIN",
+    "AJSHAWTY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ERIN",
+      "AJSHAWTY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "REA",
+      "ERIN",
+      "SEENA",
+      "AJSHAWTY",
+      "MINTY",
+      "RUTH"
+     ],
+     "proposer": "AJSHAWTY"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "AJSHAWTY",
+    "RUTH",
+    "MINTY"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "REA",
+      "ERIN",
+      "SEENA",
+      "AJSHAWTY",
+      "MINTY",
+      "RUTH"
+     ],
+     "team": [
+      "AJSHAWTY",
+      "RUTH",
+      "MINTY"
+     ],
+     "state": "APPROVED",
+     "proposer": "RUTH"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SEENA",
+    "ERIN",
+    "RUTH",
+    "REA"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "REA",
+      "ERIN"
+     ],
+     "team": [
+      "REA",
+      "ERIN",
+      "AJSHAWTY",
+      "RUTH"
+     ],
+     "proposer": "REA"
+    },
+    {
+     "team": [
+      "SEENA",
+      "ERIN",
+      "RUTH",
+      "REA"
+     ],
+     "state": "APPROVED",
+     "proposer": "ERIN",
+     "votes": [
+      "ERIN",
+      "SEENA",
+      "MINTY",
+      "AJSHAWTY"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "MINTY",
+      "AJSHAWTY",
+      "SEENA"
+     ],
+     "proposer": "SEENA",
+     "state": "APPROVED",
+     "votes": [
+      "RUTH",
+      "ERIN",
+      "SEENA",
+      "MINTY",
+      "AJSHAWTY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "MINTY",
+    "AJSHAWTY",
+    "SEENA"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MINTY",
+      "ERIN",
+      "SEENA",
+      "REA"
+     ],
+     "proposer": "MINTY",
+     "votes": [
+      "ERIN",
+      "SEENA",
+      "AJSHAWTY",
+      "MINTY",
+      "RUTH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MINTY",
+    "ERIN",
+    "SEENA",
+    "REA"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

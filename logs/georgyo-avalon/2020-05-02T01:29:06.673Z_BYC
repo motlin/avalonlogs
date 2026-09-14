@@ -1,0 +1,177 @@
+{
+ "timeCreated": {
+  "_seconds": 1588382946,
+  "_nanoseconds": 673000000
+ },
+ "players": [
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "SUSHHI"
+  },
+  {
+   "name": "ALEKHYA",
+   "uid": "2lVp7J5XFwRMujDCMX14pAjpngw1"
+  },
+  {
+   "name": "FRANCES",
+   "uid": "ntbgrJvvcGgV6V1AucspMbUFtCu2"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "dV76TjEWX5bnuzySUJl4dihuyR22"
+  },
+  {
+   "name": "Y",
+   "uid": "jWfTggUXPVM7E9KUdk1MtRVY2lB2"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "Y",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SUSHHI",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ALEKHYA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "FRANCES"
+   },
+   {
+    "name": "DANIEL",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "SUSHHI": false,
+    "ALEKHYA": true
+   },
+   {
+    "DANIEL": true,
+    "ALEKHYA": true,
+    "FRANCES": false
+   },
+   {
+    "FRANCES": false,
+    "SUSHHI": false
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SUSHHI",
+      "ALEKHYA",
+      "FRANCES",
+      "DANIEL",
+      "Y"
+     ],
+     "team": [
+      "SUSHHI",
+      "ALEKHYA"
+     ],
+     "proposer": "SUSHHI",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "SUSHHI",
+    "ALEKHYA"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ALEKHYA",
+     "state": "APPROVED",
+     "votes": [
+      "ALEKHYA",
+      "FRANCES",
+      "DANIEL"
+     ],
+     "team": [
+      "ALEKHYA",
+      "FRANCES",
+      "DANIEL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "ALEKHYA",
+    "FRANCES",
+    "DANIEL"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "FRANCES",
+     "votes": [
+      "SUSHHI",
+      "ALEKHYA",
+      "FRANCES"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FRANCES",
+      "SUSHHI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FRANCES",
+    "SUSHHI"
+   ],
+   "state": "FAIL",
+   "numFails": 2
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588383227,
+  "_nanoseconds": 353000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

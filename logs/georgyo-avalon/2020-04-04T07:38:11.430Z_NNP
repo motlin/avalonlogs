@@ -1,0 +1,256 @@
+{
+ "players": [
+  {
+   "uid": "ynshOH5FYdf4P7Io5jIkqsUbvkf1",
+   "name": "ITME"
+  },
+  {
+   "name": "POOOOOSH",
+   "uid": "WaEqIlGY04h6LWyQhOtLMKJMyX43"
+  },
+  {
+   "name": "NNP",
+   "uid": "NTSkchc18XYgMv4oYEXkHwpS2vC2"
+  },
+  {
+   "name": "ANISH",
+   "uid": "REdlHaEkhHNFF2uqjdi5qcGP3x52"
+  },
+  {
+   "uid": "m5PM0NXxIgNAcYwgnNBzKDGnZjG2",
+   "name": "BIN"
+  },
+  {
+   "uid": "w5Fcmn4JZhS9b5H43uc2rrcVOnI2",
+   "name": "ISH"
+  },
+  {
+   "uid": "biuja3awi7dFTLsfNvJnNgvpTGz1",
+   "name": "SHIV"
+  },
+  {
+   "uid": "2d9yPxz88YZ4BtgnlAsbieIFJtQ2",
+   "name": "MADHU"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "BIN": true,
+    "ITME": true,
+    "SHIV": false
+   },
+   {
+    "MADHU": true,
+    "POOOOOSH": true,
+    "ISH": true,
+    "NNP": true
+   },
+   {
+    "ISH": true,
+    "MADHU": true,
+    "POOOOOSH": true,
+    "SHIV": true
+   },
+   {
+    "ISH": true,
+    "NNP": true,
+    "POOOOOSH": true,
+    "MADHU": true,
+    "SHIV": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "ANISH"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "SHIV"
+   },
+   {
+    "name": "ITME",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "POOOOOSH"
+   },
+   {
+    "name": "ISH",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NNP",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BIN",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MADHU",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "POOOOOSH"
+ },
+ "timeFinished": {
+  "_seconds": 1585986422,
+  "_nanoseconds": 684183000
+ },
+ "timeCreated": {
+  "_seconds": 1585985891,
+  "_nanoseconds": 430000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "NNP",
+      "BIN",
+      "MADHU",
+      "ANISH",
+      "SHIV",
+      "ITME",
+      "ISH"
+     ],
+     "team": [
+      "ITME",
+      "BIN",
+      "SHIV"
+     ],
+     "state": "APPROVED",
+     "proposer": "BIN"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ITME",
+    "BIN",
+    "SHIV"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "POOOOOSH",
+    "MADHU",
+    "NNP",
+    "ISH"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "ISH",
+     "team": [
+      "POOOOOSH",
+      "MADHU",
+      "NNP",
+      "ISH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BIN",
+      "MADHU",
+      "SHIV",
+      "POOOOOSH",
+      "ISH",
+      "NNP"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "POOOOOSH",
+    "SHIV",
+    "MADHU",
+    "ISH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SHIV",
+     "team": [
+      "POOOOOSH",
+      "SHIV",
+      "MADHU",
+      "ISH"
+     ],
+     "votes": [
+      "SHIV",
+      "POOOOOSH",
+      "ISH",
+      "NNP",
+      "BIN",
+      "MADHU"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ISH",
+      "NNP",
+      "BIN",
+      "MADHU",
+      "ANISH",
+      "SHIV",
+      "POOOOOSH"
+     ],
+     "proposer": "MADHU",
+     "state": "APPROVED",
+     "team": [
+      "MADHU",
+      "POOOOOSH",
+      "ISH",
+      "SHIV",
+      "NNP"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 5,
+   "team": [
+    "MADHU",
+    "POOOOOSH",
+    "ISH",
+    "SHIV",
+    "NNP"
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "state": "PENDING"
+  }
+ ]
+}

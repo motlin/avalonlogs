@@ -1,0 +1,290 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "MACARONI",
+    "KEVIN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MACARONI",
+      "STEPH",
+      "BEV"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KEVIN",
+      "BEV"
+     ],
+     "proposer": "BEV"
+    },
+    {
+     "votes": [
+      "STEPH",
+      "DAVID",
+      "BEV",
+      "MACARONI"
+     ],
+     "state": "APPROVED",
+     "proposer": "DAVID",
+     "team": [
+      "MACARONI",
+      "KEVIN"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KEVIN",
+     "votes": [
+      "MACARONI",
+      "DAVID",
+      "BEV",
+      "KEVIN"
+     ],
+     "team": [
+      "KEVIN",
+      "MACARONI",
+      "DAVID"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "KEVIN",
+    "MACARONI",
+    "DAVID"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "RAY",
+     "votes": [
+      "RAY",
+      "DAVID"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RAY",
+      "STEPH",
+      "DAVID",
+      "KEVIN"
+     ]
+    },
+    {
+     "votes": [
+      "RAY",
+      "STEPH",
+      "DAVID"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KEVIN",
+      "STEPH",
+      "RAY",
+      "BEV"
+     ],
+     "proposer": "STEPH"
+    },
+    {
+     "team": [
+      "KEVIN",
+      "RAY",
+      "STEPH",
+      "MACARONI"
+     ],
+     "votes": [
+      "MACARONI",
+      "STEPH",
+      "KEVIN"
+     ],
+     "proposer": "MACARONI",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "BEV",
+     "state": "REJECTED",
+     "votes": [
+      "BEV"
+     ],
+     "team": [
+      "BEV",
+      "MACARONI",
+      "KEVIN",
+      "DAVID"
+     ]
+    },
+    {
+     "team": [
+      "DAVID",
+      "STEPH",
+      "BEV",
+      "KEVIN"
+     ],
+     "votes": [
+      "MACARONI",
+      "DAVID",
+      "BEV",
+      "KEVIN",
+      "RAY"
+     ],
+     "proposer": "DAVID",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "DAVID",
+    "STEPH",
+    "BEV",
+    "KEVIN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "KEVIN",
+      "MACARONI",
+      "BEV"
+     ],
+     "votes": [
+      "MACARONI",
+      "STEPH",
+      "BEV",
+      "KEVIN"
+     ],
+     "proposer": "KEVIN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "KEVIN",
+    "MACARONI",
+    "BEV"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "MACARONI",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "STEPH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "DAVID"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BEV",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KEVIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "RAY",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "KEVIN": true,
+    "MACARONI": true
+   },
+   {
+    "KEVIN": true,
+    "MACARONI": true,
+    "DAVID": false
+   },
+   {
+    "KEVIN": true,
+    "BEV": true,
+    "DAVID": false,
+    "STEPH": true
+   },
+   {
+    "MACARONI": false,
+    "BEV": true,
+    "KEVIN": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "ufflFphIMSdIYXOtFILMoS3nabD2",
+   "name": "DAVID"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "lYMqN6mQoJV5AHlv1axUTCIDBRx1"
+  },
+  {
+   "uid": "XioFhjScrRWp9ZHCmhUAwFXl5K73",
+   "name": "RAY"
+  },
+  {
+   "name": "STEPH",
+   "uid": "NUdOpKTS7lgfTGkvtvptHog5QfP2"
+  },
+  {
+   "uid": "VtiylSg4BoRBQzhlTTrgyDodSS83",
+   "name": "MACARONI"
+  },
+  {
+   "name": "BEV",
+   "uid": "QvdtGQ4RXkUPgTSrCu0sPfbnzjg2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590467292,
+  "_nanoseconds": 757000000
+ },
+ "timeFinished": {
+  "_seconds": 1590470026,
+  "_nanoseconds": 965000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

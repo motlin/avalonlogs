@@ -1,0 +1,384 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "GABBY": true,
+    "RAY": true,
+    "JEREMIAH": true
+   },
+   {
+    "DENNIS": true,
+    "GABBY": false,
+    "JEREMIAH": true,
+    "RAY": true
+   },
+   {
+    "KAT": true,
+    "LEANNE": true,
+    "EDMUND": true,
+    "DAVID": false
+   },
+   {
+    "KAT": true,
+    "JEREMIAH": true,
+    "DENNIS": true,
+    "RAY": true,
+    "DAVID": false
+   },
+   {
+    "DENNIS": true,
+    "LOONG": false,
+    "JEREMIAH": true,
+    "EDMUND": true,
+    "RAY": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "RAY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DAVID",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KAT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LEANNE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EDMUND"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JEREMIAH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DENNIS"
+   },
+   {
+    "assassin": false,
+    "name": "LOONG",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "GABBY"
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1586414994,
+  "_nanoseconds": 261119000
+ },
+ "timeCreated": {
+  "_seconds": 1586413542,
+  "_nanoseconds": 3000000
+ },
+ "players": [
+  {
+   "name": "LOONG",
+   "uid": "dQpthNEPbnTYw2usfP0UqD3CYpz2"
+  },
+  {
+   "uid": "XSSNdr8pbnfvWnvYCuvpS1BIoIe2",
+   "name": "DENNIS"
+  },
+  {
+   "name": "EDMUND",
+   "uid": "9iw4o2ZsaMWonHyjYnk1QPCBN1G2"
+  },
+  {
+   "name": "JEREMIAH",
+   "uid": "FaeG6OwWQSYu1rbMfm9bPkhiMrl1"
+  },
+  {
+   "uid": "QKvQ8xjx3tfP9qi7tWnluzcyvjY2",
+   "name": "DAVID"
+  },
+  {
+   "name": "GABBY",
+   "uid": "NrIbawSJWFchP84n6hZ5uVRGppI2"
+  },
+  {
+   "uid": "wjJdesaiMaRxbYtQFWjW8BUHNKr1",
+   "name": "LEANNE"
+  },
+  {
+   "uid": "cVP48rDOzyY0YtVeXRdkai1INr53",
+   "name": "RAY"
+  },
+  {
+   "uid": "YCbumTvMijNi3TUAtRifN0bIgK52",
+   "name": "KAT"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "RAY",
+    "GABBY",
+    "JEREMIAH"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "GABBY",
+      "RAY",
+      "DAVID",
+      "KAT",
+      "LEANNE",
+      "EDMUND",
+      "JEREMIAH",
+      "DENNIS"
+     ],
+     "team": [
+      "RAY",
+      "GABBY",
+      "JEREMIAH"
+     ],
+     "proposer": "RAY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EDMUND",
+      "JEREMIAH",
+      "DENNIS",
+      "GABBY",
+      "RAY",
+      "DAVID",
+      "KAT"
+     ],
+     "team": [
+      "DENNIS",
+      "RAY",
+      "GABBY",
+      "JEREMIAH"
+     ],
+     "proposer": "KAT"
+    }
+   ],
+   "team": [
+    "DENNIS",
+    "RAY",
+    "GABBY",
+    "JEREMIAH"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "LOONG",
+     "votes": [
+      "RAY",
+      "DAVID",
+      "KAT",
+      "LEANNE",
+      "EDMUND",
+      "DENNIS"
+     ],
+     "team": [
+      "EDMUND",
+      "DAVID",
+      "LEANNE",
+      "KAT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "EDMUND",
+    "DAVID",
+    "LEANNE",
+    "KAT"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "DAVID",
+    "DENNIS",
+    "JEREMIAH",
+    "KAT",
+    "RAY"
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "DENNIS",
+     "votes": [
+      "GABBY",
+      "RAY",
+      "EDMUND",
+      "DENNIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JEREMIAH",
+      "GABBY",
+      "RAY",
+      "LOONG",
+      "DENNIS"
+     ]
+    },
+    {
+     "team": [
+      "EDMUND",
+      "DAVID",
+      "RAY",
+      "KAT",
+      "LEANNE"
+     ],
+     "proposer": "EDMUND",
+     "votes": [
+      "DAVID",
+      "KAT",
+      "LEANNE",
+      "EDMUND"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JEREMIAH",
+      "KAT",
+      "LOONG",
+      "RAY",
+      "DENNIS"
+     ],
+     "votes": [
+      "JEREMIAH",
+      "DENNIS",
+      "RAY",
+      "EDMUND"
+     ],
+     "proposer": "JEREMIAH"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "DAVID",
+     "votes": [
+      "DAVID",
+      "KAT",
+      "LEANNE",
+      "EDMUND",
+      "JEREMIAH",
+      "DENNIS",
+      "GABBY",
+      "RAY"
+     ],
+     "team": [
+      "DAVID",
+      "DENNIS",
+      "JEREMIAH",
+      "KAT",
+      "RAY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "RAY",
+    "JEREMIAH",
+    "LOONG",
+    "EDMUND",
+    "DENNIS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DAVID",
+      "LEANNE"
+     ],
+     "team": [
+      "DENNIS",
+      "EDMUND",
+      "GABBY",
+      "LEANNE",
+      "RAY"
+     ],
+     "state": "REJECTED",
+     "proposer": "GABBY"
+    },
+    {
+     "votes": [
+      "LEANNE",
+      "KAT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LEANNE",
+      "GABBY",
+      "DAVID",
+      "RAY",
+      "JEREMIAH"
+     ],
+     "proposer": "LEANNE"
+    },
+    {
+     "team": [
+      "RAY",
+      "JEREMIAH",
+      "LOONG",
+      "EDMUND",
+      "DENNIS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DAVID",
+      "EDMUND",
+      "JEREMIAH",
+      "DENNIS",
+      "LOONG",
+      "GABBY",
+      "RAY"
+     ],
+     "proposer": "RAY"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ]
+}

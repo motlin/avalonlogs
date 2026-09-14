@@ -1,0 +1,343 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "JET",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "GEORGE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "KLAUDIA",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "NIKOLAI",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "NIKHIL"
+   },
+   {
+    "name": "WENO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JET": false,
+    "WENO": true
+   },
+   {
+    "KLAUDIA": true,
+    "NIKOLAI": true,
+    "GEORGE": true
+   },
+   {
+    "JET": false,
+    "NIKOLAI": true,
+    "KLAUDIA": true,
+    "GEORGE": true
+   },
+   {
+    "GEORGE": true,
+    "NIKHIL": false,
+    "JET": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "WENO",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GEORGE",
+      "WENO",
+      "NIKHIL",
+      "JET"
+     ],
+     "proposer": "NIKHIL"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "WENO",
+    "JET"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "NIKOLAI",
+    "KLAUDIA",
+    "GEORGE"
+   ],
+   "proposals": [
+    {
+     "proposer": "KLAUDIA",
+     "votes": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "GEORGE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "GEORGE"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "GEORGE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "GEORGE"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "WENO"
+     ],
+     "team": [
+      "KLAUDIA",
+      "WENO",
+      "GEORGE"
+     ],
+     "proposer": "WENO"
+    },
+    {
+     "votes": [
+      "JET"
+     ],
+     "proposer": "JET",
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "JET"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "GEORGE"
+     ],
+     "votes": [
+      "NIKOLAI",
+      "NIKHIL",
+      "GEORGE",
+      "KLAUDIA",
+      "WENO",
+      "JET"
+     ],
+     "proposer": "GEORGE",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "NIKHIL",
+     "team": [
+      "NIKHIL",
+      "JET",
+      "KLAUDIA",
+      "GEORGE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NIKHIL"
+     ]
+    },
+    {
+     "proposer": "KLAUDIA",
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "NIKHIL",
+      "GEORGE"
+     ],
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "GEORGE",
+      "NIKOLAI",
+      "KLAUDIA",
+      "JET"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "GEORGE",
+      "JET"
+     ]
+    },
+    {
+     "proposer": "WENO",
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "WENO"
+     ],
+     "team": [
+      "GEORGE",
+      "WENO",
+      "NIKOLAI",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "JET",
+      "GEORGE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "KLAUDIA",
+      "NIKOLAI",
+      "GEORGE",
+      "WENO"
+     ],
+     "proposer": "JET"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "KLAUDIA",
+    "NIKOLAI",
+    "JET",
+    "GEORGE"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "NIKHIL",
+    "GEORGE",
+    "JET"
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "GEORGE",
+     "team": [
+      "KLAUDIA",
+      "WENO",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "NIKOLAI",
+      "GEORGE",
+      "WENO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NIKHIL",
+      "GEORGE",
+      "JET"
+     ],
+     "proposer": "NIKHIL",
+     "votes": [
+      "WENO",
+      "GEORGE",
+      "KLAUDIA",
+      "NIKHIL"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1597375890,
+  "_nanoseconds": 983000000
+ },
+ "players": [
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "WENO",
+   "uid": "BsKHDR2tcCTGSxFjjtq0oIkN0xf1"
+  },
+  {
+   "name": "JET",
+   "uid": "Tu4LW0iPTNZ73skXjfRd3lx8UYq2"
+  },
+  {
+   "uid": "z9DTvNKA9mcMQLPbV0oBvWllyd32",
+   "name": "GEORGE"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1597375425,
+  "_nanoseconds": 771000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

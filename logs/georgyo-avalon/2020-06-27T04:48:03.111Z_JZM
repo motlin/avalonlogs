@@ -1,0 +1,281 @@
+{
+ "timeFinished": {
+  "_seconds": 1593234866,
+  "_nanoseconds": 308000000
+ },
+ "players": [
+  {
+   "name": "SHAAN",
+   "uid": "amRYItsOKBYSmkMLrXd9VewVUzn2"
+  },
+  {
+   "name": "ADVAY",
+   "uid": "GWEKkkqBdnWFKYP7BAdpIn6EjUj2"
+  },
+  {
+   "uid": "IvcSXXr544ZK52A1fru6UAcYMwl2",
+   "name": "AKKA"
+  },
+  {
+   "uid": "bgoHsbBn1VUOxUgvS114ZD97ZSy2",
+   "name": "MANGYA"
+  },
+  {
+   "uid": "ZdO9RWNjU6M9LAJAsoAo5dsQ3Hy2",
+   "name": "ADI"
+  },
+  {
+   "uid": "oAKoclwIhWPRVFLoV4XY8kdbzy53",
+   "name": "NAV"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "SHAAN",
+      "NAV"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHAAN",
+     "votes": [
+      "ADI",
+      "MANGYA",
+      "AKKA",
+      "NAV",
+      "SHAAN",
+      "ADVAY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "SHAAN",
+    "NAV"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "ADVAY",
+    "SHAAN",
+    "NAV"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "NAV",
+      "SHAAN",
+      "ADVAY",
+      "ADI",
+      "MANGYA",
+      "AKKA"
+     ],
+     "proposer": "ADVAY",
+     "team": [
+      "ADVAY",
+      "SHAAN",
+      "NAV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "SHAAN",
+      "ADI",
+      "AKKA",
+      "NAV"
+     ],
+     "state": "APPROVED",
+     "proposer": "AKKA",
+     "votes": [
+      "SHAAN",
+      "ADI",
+      "MANGYA",
+      "AKKA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 2,
+   "team": [
+    "SHAAN",
+    "ADI",
+    "AKKA",
+    "NAV"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MANGYA",
+    "ADVAY",
+    "NAV"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "MANGYA",
+     "state": "REJECTED",
+     "team": [
+      "MANGYA",
+      "NAV",
+      "ADVAY"
+     ],
+     "votes": [
+      "ADVAY",
+      "MANGYA",
+      "AKKA"
+     ]
+    },
+    {
+     "proposer": "ADI",
+     "votes": [
+      "ADI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ADVAY",
+      "MANGYA",
+      "ADI"
+     ]
+    },
+    {
+     "proposer": "NAV",
+     "state": "APPROVED",
+     "votes": [
+      "ADI",
+      "MANGYA",
+      "AKKA",
+      "NAV",
+      "SHAAN",
+      "ADVAY"
+     ],
+     "team": [
+      "MANGYA",
+      "ADVAY",
+      "NAV"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "AKKA",
+    "ADVAY",
+    "NAV",
+    "MANGYA"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SHAAN",
+     "votes": [
+      "ADVAY",
+      "MANGYA",
+      "AKKA",
+      "NAV",
+      "SHAAN"
+     ],
+     "team": [
+      "AKKA",
+      "ADVAY",
+      "NAV",
+      "MANGYA"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593233283,
+  "_nanoseconds": 111000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "MANGYA",
+  "votes": [
+   {
+    "SHAAN": true,
+    "NAV": true
+   },
+   {
+    "ADVAY": true,
+    "NAV": true,
+    "SHAAN": false
+   },
+   {
+    "NAV": true,
+    "AKKA": true,
+    "SHAAN": false,
+    "ADI": false
+   },
+   {
+    "MANGYA": true,
+    "NAV": true,
+    "ADVAY": true
+   },
+   {
+    "MANGYA": true,
+    "ADVAY": true,
+    "AKKA": true,
+    "NAV": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ADI"
+   },
+   {
+    "assassin": false,
+    "name": "MANGYA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "AKKA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NAV"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "SHAAN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ADVAY"
+   }
+  ]
+ }
+}

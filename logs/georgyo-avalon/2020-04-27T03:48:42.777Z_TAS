@@ -1,0 +1,306 @@
+{
+ "timeFinished": {
+  "_seconds": 1587960870,
+  "_nanoseconds": 157000000
+ },
+ "players": [
+  {
+   "uid": "JbqEudPhdNcAuLPV6lEABXCKIDv2",
+   "name": "STEVEN"
+  },
+  {
+   "uid": "l0t7M6uMAJPASLO7914KsNTTe3F2",
+   "name": "BARD"
+  },
+  {
+   "name": "MATTHEW",
+   "uid": "Egdy5w0im1Xkhm3B604LDjTAnu52"
+  },
+  {
+   "name": "ALINA",
+   "uid": "C7uWDYUzWrNZc7OS409xpxm8RSx1"
+  },
+  {
+   "name": "LIAN",
+   "uid": "xqp0nFJFxNfpNcj6UAKKLqB4lOD2"
+  },
+  {
+   "name": "LAURA",
+   "uid": "FVjisVGJfLNnIEksuBnPmwITcR72"
+  },
+  {
+   "name": "ALSTON",
+   "uid": "3cImEH5umzSeuAF84TUFuSawujr2"
+  },
+  {
+   "uid": "kQBQ6v2vbCUezPpp8Vw3n3hb10F3",
+   "name": "STTTEEEVE"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "STTTEEEVE": true,
+    "STEVEN": true,
+    "BARD": true
+   },
+   {
+    "STEVEN": true,
+    "MATTHEW": false,
+    "STTTEEEVE": true,
+    "BARD": true
+   },
+   {
+    "BARD": true,
+    "LIAN": true,
+    "ALSTON": true,
+    "STTTEEEVE": false
+   },
+   {
+    "ALSTON": true,
+    "ALINA": true,
+    "LIAN": true,
+    "MATTHEW": false,
+    "LAURA": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "STEVEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "STTTEEEVE"
+   },
+   {
+    "assassin": true,
+    "name": "LAURA",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "LIAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MATTHEW",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ALINA"
+   },
+   {
+    "assassin": false,
+    "name": "ALSTON",
+    "role": "MERLIN"
+   },
+   {
+    "name": "BARD",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "STEVEN",
+      "STTTEEEVE",
+      "LAURA",
+      "LIAN",
+      "MATTHEW",
+      "ALINA",
+      "ALSTON",
+      "BARD"
+     ],
+     "team": [
+      "STTTEEEVE",
+      "STEVEN",
+      "BARD"
+     ],
+     "proposer": "STTTEEEVE"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "STTTEEEVE",
+    "STEVEN",
+    "BARD"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BARD",
+      "STEVEN",
+      "STTTEEEVE",
+      "LAURA",
+      "LIAN",
+      "ALINA"
+     ],
+     "proposer": "STEVEN",
+     "state": "APPROVED",
+     "team": [
+      "STTTEEEVE",
+      "BARD",
+      "STEVEN",
+      "MATTHEW"
+     ]
+    }
+   ],
+   "team": [
+    "STTTEEEVE",
+    "BARD",
+    "STEVEN",
+    "MATTHEW"
+   ],
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LIAN",
+    "ALSTON",
+    "STTTEEEVE",
+    "BARD"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "BARD",
+     "votes": [
+      "ALINA",
+      "ALSTON",
+      "BARD",
+      "LIAN"
+     ],
+     "team": [
+      "BARD",
+      "ALINA",
+      "STEVEN",
+      "ALSTON"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "STEVEN",
+      "LIAN",
+      "MATTHEW"
+     ],
+     "team": [
+      "MATTHEW",
+      "STEVEN",
+      "STTTEEEVE",
+      "ALINA"
+     ],
+     "proposer": "MATTHEW"
+    },
+    {
+     "team": [
+      "ALINA",
+      "ALSTON",
+      "LAURA",
+      "BARD"
+     ],
+     "proposer": "ALINA",
+     "state": "REJECTED",
+     "votes": [
+      "BARD",
+      "LAURA",
+      "ALINA"
+     ]
+    },
+    {
+     "proposer": "LIAN",
+     "votes": [
+      "BARD",
+      "STEVEN",
+      "STTTEEEVE",
+      "LAURA",
+      "LIAN",
+      "ALINA",
+      "ALSTON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LIAN",
+      "ALSTON",
+      "STTTEEEVE",
+      "BARD"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "ALSTON",
+      "MATTHEW",
+      "ALINA",
+      "LIAN"
+     ],
+     "votes": [
+      "MATTHEW",
+      "ALINA",
+      "BARD",
+      "STTTEEEVE",
+      "LAURA",
+      "LIAN"
+     ],
+     "proposer": "LAURA"
+    }
+   ],
+   "team": [
+    "LAURA",
+    "ALSTON",
+    "MATTHEW",
+    "ALINA",
+    "LIAN"
+   ],
+   "teamSize": 5
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587959322,
+  "_nanoseconds": 777000000
+ }
+}

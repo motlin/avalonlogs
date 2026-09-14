@@ -1,0 +1,314 @@
+{
+ "timeFinished": {
+  "_seconds": 1588993642,
+  "_nanoseconds": 893000000
+ },
+ "players": [
+  {
+   "uid": "JLgsrfDcH5O5HmyHZxFg2Mfcdbb2",
+   "name": "KEVIN"
+  },
+  {
+   "name": "KATE",
+   "uid": "OchDP14NAqc8A2n8w01NWJIS9an1"
+  },
+  {
+   "name": "BRI",
+   "uid": "8BdcGdZEUbhhFWeNsRAPoC4HXc92"
+  },
+  {
+   "uid": "djtVkXC8ykbeffahcG3ZljjSyjv1",
+   "name": "TAY"
+  },
+  {
+   "name": "KGREENE",
+   "uid": "aEIvkKWl5xW9tHrfohAsJJw4cfN2"
+  },
+  {
+   "uid": "5FMdzyrTo7VSj0wRoMm5IgynvO93",
+   "name": "COVIDPAT"
+  },
+  {
+   "name": "SCOTT",
+   "uid": "sxWfdBjtxgPPYzamtOnUX395S8h1"
+  },
+  {
+   "name": "KYLE",
+   "uid": "6YV6V3vm4LVwedpfjnKWTyjm4x13"
+  },
+  {
+   "name": "DEB",
+   "uid": "lvu9IQ3h2IWz38TzsVTPsmbrC2h2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DEB": true,
+    "SCOTT": true,
+    "KYLE": true
+   },
+   {
+    "DEB": true,
+    "SCOTT": false,
+    "KATE": true,
+    "TAY": true
+   },
+   {
+    "KYLE": true,
+    "KEVIN": true,
+    "SCOTT": false,
+    "BRI": true
+   },
+   {
+    "TAY": true,
+    "KEVIN": true,
+    "KGREENE": false,
+    "COVIDPAT": false,
+    "KATE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "SCOTT"
+   },
+   {
+    "name": "KGREENE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "COVIDPAT",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "DEB",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KYLE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KEVIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KATE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BRI",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TAY"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KYLE",
+      "KEVIN",
+      "BRI",
+      "TAY",
+      "SCOTT",
+      "KGREENE",
+      "COVIDPAT",
+      "DEB"
+     ],
+     "team": [
+      "SCOTT",
+      "KYLE",
+      "DEB"
+     ],
+     "proposer": "SCOTT"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "SCOTT",
+    "KYLE",
+    "DEB"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "KATE",
+    "DEB",
+    "SCOTT",
+    "TAY"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KGREENE",
+      "COVIDPAT",
+      "DEB",
+      "KYLE"
+     ],
+     "state": "REJECTED",
+     "proposer": "KYLE",
+     "team": [
+      "SCOTT",
+      "KYLE",
+      "DEB",
+      "COVIDPAT"
+     ]
+    },
+    {
+     "proposer": "DEB",
+     "team": [
+      "KATE",
+      "DEB",
+      "SCOTT",
+      "TAY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KATE",
+      "TAY",
+      "SCOTT",
+      "KGREENE",
+      "DEB"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "votes": [
+      "KYLE",
+      "KEVIN",
+      "KATE",
+      "TAY",
+      "KGREENE",
+      "COVIDPAT",
+      "DEB"
+     ],
+     "team": [
+      "KEVIN",
+      "KYLE",
+      "SCOTT",
+      "BRI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KEVIN",
+    "KYLE",
+    "SCOTT",
+    "BRI"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "KATE",
+      "TAY"
+     ],
+     "proposer": "KATE",
+     "state": "REJECTED",
+     "team": [
+      "KATE",
+      "KYLE",
+      "BRI",
+      "KEVIN",
+      "KGREENE"
+     ]
+    },
+    {
+     "team": [
+      "BRI",
+      "KATE",
+      "KEVIN",
+      "KYLE",
+      "DEB"
+     ],
+     "votes": [
+      "DEB",
+      "KYLE",
+      "BRI"
+     ],
+     "proposer": "BRI",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KGREENE",
+      "COVIDPAT",
+      "KEVIN",
+      "KATE",
+      "TAY"
+     ],
+     "proposer": "TAY",
+     "team": [
+      "TAY",
+      "KATE",
+      "KEVIN",
+      "COVIDPAT",
+      "KGREENE"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "state": "FAIL",
+   "failsRequired": 2,
+   "team": [
+    "TAY",
+    "KATE",
+    "KEVIN",
+    "COVIDPAT",
+    "KGREENE"
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588992097,
+  "_nanoseconds": 785000000
+ }
+}

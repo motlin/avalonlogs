@@ -1,0 +1,213 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "YWF",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "YWF": true,
+    "PIR": true
+   },
+   {
+    "PIR": true,
+    "OLIVER": false,
+    "YWF": true
+   },
+   {
+    "PIR": true,
+    "ARTHUR": true
+   },
+   {
+    "ARTHUR": true,
+    "YWF": true,
+    "PIR": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "PIR",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "OLIVER",
+    "assassin": false
+   },
+   {
+    "name": "YWF",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "EDY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ARTHUR"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1598232132,
+  "_nanoseconds": 879000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1598232410,
+  "_nanoseconds": 101000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "PIR",
+    "YWF"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "PIR",
+      "YWF"
+     ],
+     "proposer": "PIR",
+     "state": "APPROVED",
+     "votes": [
+      "YWF",
+      "PIR",
+      "OLIVER",
+      "ARTHUR"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "OLIVER",
+     "team": [
+      "PIR",
+      "OLIVER",
+      "YWF"
+     ],
+     "votes": [
+      "PIR",
+      "YWF",
+      "OLIVER"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "PIR",
+    "OLIVER",
+    "YWF"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "team": [
+    "ARTHUR",
+    "PIR"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "EDY",
+      "ARTHUR"
+     ],
+     "state": "REJECTED",
+     "proposer": "EDY",
+     "votes": [
+      "EDY",
+      "OLIVER"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ARTHUR",
+     "votes": [
+      "PIR",
+      "YWF",
+      "ARTHUR"
+     ],
+     "team": [
+      "ARTHUR",
+      "PIR"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "YWF",
+    "ARTHUR",
+    "PIR"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "YWF",
+     "votes": [
+      "PIR",
+      "ARTHUR",
+      "YWF"
+     ],
+     "team": [
+      "YWF",
+      "ARTHUR",
+      "PIR"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "uid": "6s7BIgnhgLf2G0ugJCrfgOXR7Jt2",
+   "name": "PIR"
+  },
+  {
+   "uid": "BgUpMd2mM9OsJ2kM6d1w5XruWzQ2",
+   "name": "OLIVER"
+  },
+  {
+   "name": "EDY",
+   "uid": "IKPJoBKMPJPltAvBrxYmMjLqkyo2"
+  },
+  {
+   "name": "ARTHUR",
+   "uid": "BsTDBnCYKtTWrK25R25k0gAP7Oy1"
+  },
+  {
+   "uid": "1DiDnVS5IeRwgSRAwvGsuQ4SWTt2",
+   "name": "YWF"
+  }
+ ]
+}

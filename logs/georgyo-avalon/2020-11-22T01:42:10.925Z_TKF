@@ -1,0 +1,279 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "KARLIN": true,
+    "ABBY": true
+   },
+   {
+    "JAMES": true,
+    "ABBY": false,
+    "KARLIN": true
+   },
+   {
+    "CONNOR": false,
+    "SHEY": true,
+    "JAMES": true,
+    "KARLIN": true
+   },
+   {
+    "JAMES": true,
+    "SHEY": true,
+    "AARON": true
+   },
+   {
+    "SHEY": true,
+    "AARON": true,
+    "JAMES": true,
+    "ABBY": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "JAMES",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "AARON"
+   },
+   {
+    "role": "MORGANA",
+    "name": "CONNOR",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KARLIN"
+   },
+   {
+    "name": "SHEY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "name": "ABBY",
+    "role": "MORDRED"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ABBY",
+    "KARLIN"
+   ],
+   "proposals": [
+    {
+     "proposer": "ABBY",
+     "votes": [
+      "AARON",
+      "ABBY",
+      "CONNOR",
+      "JAMES",
+      "KARLIN"
+     ],
+     "team": [
+      "ABBY",
+      "KARLIN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CONNOR",
+      "JAMES",
+      "AARON",
+      "SHEY",
+      "ABBY"
+     ],
+     "team": [
+      "JAMES",
+      "KARLIN",
+      "ABBY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAMES"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "JAMES",
+    "KARLIN",
+    "ABBY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "KARLIN",
+    "JAMES",
+    "SHEY",
+    "CONNOR"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "AARON",
+      "KARLIN",
+      "JAMES",
+      "CONNOR",
+      "SHEY"
+     ],
+     "proposer": "KARLIN",
+     "state": "APPROVED",
+     "team": [
+      "KARLIN",
+      "JAMES",
+      "SHEY",
+      "CONNOR"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SHEY",
+     "state": "APPROVED",
+     "votes": [
+      "SHEY",
+      "ABBY",
+      "JAMES",
+      "AARON"
+     ],
+     "team": [
+      "SHEY",
+      "AARON",
+      "JAMES"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "SHEY",
+    "AARON",
+    "JAMES"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "JAMES",
+    "AARON",
+    "ABBY",
+    "SHEY"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "CONNOR",
+     "votes": [
+      "CONNOR"
+     ],
+     "team": [
+      "CONNOR",
+      "SHEY",
+      "AARON",
+      "JAMES"
+     ]
+    },
+    {
+     "votes": [
+      "AARON",
+      "SHEY",
+      "KARLIN"
+     ],
+     "team": [
+      "AARON",
+      "SHEY",
+      "JAMES",
+      "KARLIN"
+     ],
+     "proposer": "AARON",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "KARLIN",
+      "JAMES",
+      "ABBY",
+      "AARON"
+     ],
+     "team": [
+      "JAMES",
+      "AARON",
+      "ABBY",
+      "SHEY"
+     ],
+     "proposer": "ABBY",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1606010798,
+  "_nanoseconds": 276000000
+ },
+ "timeCreated": {
+  "_seconds": 1606009330,
+  "_nanoseconds": 925000000
+ },
+ "players": [
+  {
+   "name": "JAMES",
+   "uid": "GF0BaVfxNBZFk9LHgQCRSbZg5g93"
+  },
+  {
+   "name": "KARLIN",
+   "uid": "v9qEYBLTH6anIt55z2vb3kTm08W2"
+  },
+  {
+   "uid": "HU80N0QNAGNSrm1RFwtJeoJGChE2",
+   "name": "SHEY"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "5nVsxGYo0Fchb7LJkwhJ77XQcKh2"
+  },
+  {
+   "name": "AARON",
+   "uid": "wQXOXeat5SOhT2nHWp1SrqzBU292"
+  },
+  {
+   "name": "ABBY",
+   "uid": "evKDRoGMNibWHGjdXUJncUOvYL93"
+  }
+ ]
+}

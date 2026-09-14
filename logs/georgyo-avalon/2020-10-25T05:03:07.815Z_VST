@@ -1,0 +1,276 @@
+{
+ "players": [
+  {
+   "name": "ALLEN",
+   "uid": "Otyhww6DQZPfdwldw6MRDatkS5I3"
+  },
+  {
+   "uid": "oGCzA6emXjSBN5FkPEEEI5MDQ5p2",
+   "name": "MAX"
+  },
+  {
+   "name": "SKIMILK",
+   "uid": "ZQ1KYipQAdc5vavrWOzI5Mlz5Wk2"
+  },
+  {
+   "name": "AND",
+   "uid": "zQNLjUvTDpVWY4lIMhxwoKBgYjf2"
+  },
+  {
+   "name": "SNOOZY",
+   "uid": "6FxoWQTRccRcdtpqpaXbxRoBMP52"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ALLEN": true,
+    "MAX": true
+   },
+   {
+    "SKIMILK": false,
+    "MAX": true,
+    "AND": true
+   },
+   {
+    "ALLEN": true,
+    "AND": true
+   },
+   {
+    "AND": true,
+    "ALLEN": true,
+    "MAX": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "AND"
+   },
+   {
+    "name": "SKIMILK",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "SNOOZY",
+    "assassin": false
+   },
+   {
+    "name": "ALLEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MAX",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "ALLEN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "team": [
+    "MAX",
+    "ALLEN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AND",
+      "SKIMILK",
+      "ALLEN",
+      "MAX"
+     ],
+     "team": [
+      "MAX",
+      "ALLEN"
+     ],
+     "proposer": "MAX"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MAX",
+    "SKIMILK",
+    "AND"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SKIMILK",
+      "AND"
+     ],
+     "team": [
+      "MAX",
+      "SKIMILK",
+      "AND"
+     ],
+     "state": "REJECTED",
+     "proposer": "SKIMILK"
+    },
+    {
+     "proposer": "AND",
+     "votes": [
+      "AND"
+     ],
+     "team": [
+      "AND",
+      "MAX",
+      "ALLEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "SNOOZY",
+      "AND",
+      "ALLEN"
+     ],
+     "votes": [
+      "AND",
+      "SNOOZY"
+     ],
+     "proposer": "SNOOZY"
+    },
+    {
+     "team": [
+      "SKIMILK",
+      "AND",
+      "SNOOZY"
+     ],
+     "votes": [
+      "SKIMILK",
+      "SNOOZY"
+     ],
+     "proposer": "ALLEN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAX",
+      "SKIMILK",
+      "AND"
+     ],
+     "proposer": "MAX",
+     "votes": [
+      "ALLEN",
+      "AND",
+      "MAX"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "AND",
+    "ALLEN"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SKIMILK",
+      "MAX"
+     ],
+     "proposer": "SKIMILK",
+     "votes": [
+      "SKIMILK"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ALLEN",
+      "MAX",
+      "AND"
+     ],
+     "team": [
+      "AND",
+      "ALLEN"
+     ],
+     "proposer": "AND",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SNOOZY",
+      "AND"
+     ],
+     "team": [
+      "SNOOZY",
+      "MAX",
+      "AND"
+     ],
+     "proposer": "SNOOZY",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALLEN",
+      "MAX",
+      "AND"
+     ],
+     "votes": [
+      "ALLEN",
+      "AND",
+      "MAX"
+     ],
+     "proposer": "ALLEN"
+    }
+   ],
+   "team": [
+    "ALLEN",
+    "MAX",
+    "AND"
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1603602994,
+  "_nanoseconds": 34000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1603602187,
+  "_nanoseconds": 815000000
+ }
+}

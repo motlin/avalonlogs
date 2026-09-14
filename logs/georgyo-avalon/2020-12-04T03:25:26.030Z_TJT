@@ -1,0 +1,255 @@
+{
+ "timeCreated": {
+  "_seconds": 1607052326,
+  "_nanoseconds": 30000000
+ },
+ "timeFinished": {
+  "_seconds": 1607052745,
+  "_nanoseconds": 913000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "BILLY",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "ENERSTINE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "SARAH",
+    "role": "MORGANA"
+   },
+   {
+    "name": "MARY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "NATE",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CONNOR",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "BILLY": true,
+    "MARY": true
+   },
+   {
+    "BILLY": false,
+    "MARY": true,
+    "ENERSTINE": true
+   },
+   {
+    "CONNOR": true,
+    "NATE": true,
+    "BILLY": false,
+    "SARAH": false
+   },
+   {
+    "ENERSTINE": true,
+    "MARY": true,
+    "NATE": true
+   },
+   {
+    "MARY": true,
+    "NATE": true,
+    "CONNOR": true,
+    "ENERSTINE": true
+   }
+  ],
+  "assassinated": "ENERSTINE"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ENERSTINE",
+   "uid": "oXYMWdGfqTUdh0obOlr1jDy4myE2"
+  },
+  {
+   "name": "NATE",
+   "uid": "njE9lR462eaewWEceR23nr32CNx2"
+  },
+  {
+   "name": "SARAH",
+   "uid": "y7Z94s64vBegmWVCSdhJHwzOv5D3"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "1vkpZc0CupeI1Qigif8tWxMfZAf1"
+  },
+  {
+   "uid": "2iLS2EXvRSZzYKSkNYpuvtRac533",
+   "name": "MARY"
+  },
+  {
+   "name": "BILLY",
+   "uid": "jqZOuUki3Jdn9c23JQE5Xw1ZMHP2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SARAH",
+      "NATE",
+      "ENERSTINE",
+      "CONNOR",
+      "BILLY",
+      "MARY"
+     ],
+     "team": [
+      "BILLY",
+      "MARY"
+     ],
+     "state": "APPROVED",
+     "proposer": "BILLY"
+    }
+   ],
+   "team": [
+    "BILLY",
+    "MARY"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ENERSTINE",
+      "BILLY",
+      "MARY"
+     ],
+     "proposer": "ENERSTINE",
+     "votes": [
+      "MARY",
+      "ENERSTINE",
+      "CONNOR",
+      "SARAH",
+      "BILLY",
+      "NATE"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "ENERSTINE",
+    "BILLY",
+    "MARY"
+   ]
+  },
+  {
+   "numFails": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BILLY",
+      "SARAH",
+      "CONNOR",
+      "NATE",
+      "ENERSTINE"
+     ],
+     "team": [
+      "CONNOR",
+      "NATE",
+      "BILLY",
+      "SARAH"
+     ],
+     "proposer": "NATE"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "CONNOR",
+    "NATE",
+    "BILLY",
+    "SARAH"
+   ]
+  },
+  {
+   "team": [
+    "ENERSTINE",
+    "MARY",
+    "NATE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NATE",
+      "BILLY",
+      "MARY",
+      "CONNOR",
+      "SARAH",
+      "ENERSTINE"
+     ],
+     "team": [
+      "ENERSTINE",
+      "MARY",
+      "NATE"
+     ],
+     "state": "APPROVED",
+     "proposer": "SARAH"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "ENERSTINE",
+    "NATE",
+    "CONNOR",
+    "MARY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ENERSTINE",
+      "NATE",
+      "CONNOR",
+      "MARY"
+     ],
+     "proposer": "CONNOR",
+     "votes": [
+      "CONNOR",
+      "ENERSTINE",
+      "MARY",
+      "NATE"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  }
+ ]
+}

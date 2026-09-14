@@ -1,0 +1,294 @@
+{
+ "players": [
+  {
+   "uid": "dKjeFE6Z4LZBBN43T0sqZliH5P72",
+   "name": "YUZI"
+  },
+  {
+   "name": "WINESLUSHY",
+   "uid": "EKZJz7wAzZZYESEc7VfFoGmsx753"
+  },
+  {
+   "uid": "KXPkioqDGkWBsFze5qmIGOyPwLy1",
+   "name": "TIKTOKSTAR"
+  },
+  {
+   "name": "WITCH",
+   "uid": "FbPqvu7zbteaz0YXQhVhx0fXsEh1"
+  },
+  {
+   "name": "KAIXIN",
+   "uid": "5LqKUAMCn9MNJO4dbsZagCy1soT2"
+  },
+  {
+   "name": "RAYQUAZA",
+   "uid": "IM9ylFrvEdY8MD5HgrDwOqbynTJ3"
+  },
+  {
+   "name": "CORN",
+   "uid": "UKo5Ob02YWONGmTioRBfho46HjA2"
+  },
+  {
+   "uid": "bDIqTkOOJiaaYjlETDL6xCV6nHc2",
+   "name": "AMIEL"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "KAIXIN"
+   },
+   {
+    "assassin": false,
+    "name": "WITCH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "AMIEL"
+   },
+   {
+    "name": "RAYQUAZA",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "YUZI",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CORN"
+   },
+   {
+    "assassin": false,
+    "name": "WINESLUSHY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "TIKTOKSTAR"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "TIKTOKSTAR": true,
+    "AMIEL": true,
+    "WITCH": true
+   },
+   {
+    "WITCH": true,
+    "KAIXIN": true,
+    "TIKTOKSTAR": true,
+    "AMIEL": false
+   },
+   {
+    "YUZI": false,
+    "RAYQUAZA": false,
+    "WINESLUSHY": true,
+    "CORN": true
+   },
+   {
+    "TIKTOKSTAR": true,
+    "WITCH": true,
+    "WINESLUSHY": true,
+    "AMIEL": false,
+    "KAIXIN": true
+   },
+   {
+    "AMIEL": false,
+    "WITCH": true,
+    "TIKTOKSTAR": true,
+    "KAIXIN": true,
+    "WINESLUSHY": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1586052196,
+  "_nanoseconds": 870000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "WITCH",
+    "TIKTOKSTAR",
+    "AMIEL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CORN",
+     "votes": [
+      "WITCH",
+      "AMIEL",
+      "RAYQUAZA",
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "KAIXIN"
+     ],
+     "team": [
+      "WITCH",
+      "TIKTOKSTAR",
+      "AMIEL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "AMIEL",
+    "WITCH",
+    "TIKTOKSTAR",
+    "KAIXIN"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AMIEL",
+     "team": [
+      "AMIEL",
+      "WITCH",
+      "TIKTOKSTAR",
+      "KAIXIN"
+     ],
+     "votes": [
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "WITCH",
+      "AMIEL",
+      "RAYQUAZA"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAYQUAZA",
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "KAIXIN",
+      "WITCH",
+      "AMIEL"
+     ],
+     "team": [
+      "YUZI",
+      "RAYQUAZA",
+      "CORN",
+      "WINESLUSHY"
+     ],
+     "proposer": "YUZI"
+    }
+   ],
+   "team": [
+    "YUZI",
+    "RAYQUAZA",
+    "CORN",
+    "WINESLUSHY"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "KAIXIN",
+      "WITCH",
+      "AMIEL",
+      "WINESLUSHY",
+      "TIKTOKSTAR"
+     ],
+     "votes": [
+      "WITCH",
+      "AMIEL",
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "KAIXIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "WINESLUSHY"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "KAIXIN",
+    "WITCH",
+    "AMIEL",
+    "WINESLUSHY",
+    "TIKTOKSTAR"
+   ],
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "TIKTOKSTAR",
+    "KAIXIN",
+    "WINESLUSHY",
+    "WITCH",
+    "AMIEL"
+   ],
+   "numFails": 1,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "TIKTOKSTAR",
+      "KAIXIN",
+      "WINESLUSHY",
+      "WITCH",
+      "AMIEL"
+     ],
+     "proposer": "TIKTOKSTAR",
+     "votes": [
+      "WITCH",
+      "AMIEL",
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586052731,
+  "_nanoseconds": 408220000
+ }
+}

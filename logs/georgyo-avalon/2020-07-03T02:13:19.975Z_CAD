@@ -1,0 +1,322 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "ANINDYA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JET",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "MERLIN",
+    "name": "ADAM",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NIKOLAI",
+    "assassin": false
+   },
+   {
+    "name": "CHRIS",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CHRIS": true,
+    "ADAM": true
+   },
+   {
+    "CHRIS": true,
+    "ANINDYA": false,
+    "JET": true
+   },
+   {
+    "ADAM": true,
+    "NIKOLAI": true
+   },
+   {
+    "NIKOLAI": true,
+    "ADAM": true,
+    "CHRIS": true
+   }
+  ],
+  "assassinated": "ADAM",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1593742965,
+  "_nanoseconds": 176000000
+ },
+ "timeCreated": {
+  "_seconds": 1593742399,
+  "_nanoseconds": 975000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHRIS",
+      "JET"
+     ],
+     "proposer": "JET",
+     "team": [
+      "CHRIS",
+      "ANINDYA"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "JET"
+     ],
+     "votes": [
+      "JET",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKOLAI"
+    },
+    {
+     "votes": [
+      "JET",
+      "ADAM",
+      "CHRIS"
+     ],
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "CHRIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ADAM",
+    "CHRIS"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "JET",
+    "ANINDYA",
+    "CHRIS"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "JET",
+      "CHRIS"
+     ],
+     "votes": [
+      "ADAM",
+      "CHRIS"
+     ],
+     "proposer": "CHRIS"
+    },
+    {
+     "team": [
+      "JET",
+      "ANINDYA",
+      "CHRIS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JET",
+      "CHRIS",
+      "ANINDYA"
+     ],
+     "proposer": "ANINDYA"
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JET",
+      "CHRIS"
+     ],
+     "team": [
+      "CHRIS",
+      "JET"
+     ],
+     "proposer": "JET"
+    },
+    {
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI"
+     ],
+     "team": [
+      "JET",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "team": [
+      "ADAM",
+      "CHRIS"
+     ],
+     "proposer": "ADAM",
+     "state": "REJECTED",
+     "votes": [
+      "ADAM",
+      "CHRIS"
+     ]
+    },
+    {
+     "proposer": "CHRIS",
+     "votes": [
+      "ADAM",
+      "NIKOLAI",
+      "CHRIS"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "NIKOLAI",
+    "ADAM"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHRIS",
+    "NIKOLAI",
+    "ADAM"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ANINDYA",
+     "state": "REJECTED",
+     "votes": [
+      "ANINDYA"
+     ],
+     "team": [
+      "ANINDYA",
+      "JET",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JET"
+     ],
+     "proposer": "JET",
+     "team": [
+      "NIKOLAI",
+      "JET",
+      "ADAM"
+     ]
+    },
+    {
+     "votes": [
+      "NIKOLAI",
+      "CHRIS"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ADAM",
+      "CHRIS"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANINDYA",
+      "JET"
+     ],
+     "team": [
+      "ADAM",
+      "NIKOLAI",
+      "JET"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "proposer": "CHRIS",
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "NIKOLAI",
+      "CHRIS"
+     ],
+     "team": [
+      "CHRIS",
+      "NIKOLAI",
+      "ADAM"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "71Lnm5hJt4NYB6IMrg6vXvQOyTl1"
+  },
+  {
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2",
+   "name": "ANINDYA"
+  },
+  {
+   "uid": "G1IRPXw7ETgM4zBCIMjVvlqaywg1",
+   "name": "JET"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

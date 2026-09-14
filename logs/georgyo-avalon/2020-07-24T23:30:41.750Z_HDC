@@ -1,0 +1,338 @@
+{
+ "timeCreated": {
+  "_seconds": 1595633441,
+  "_nanoseconds": 750000000
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ETHAN",
+    "MEGAN",
+    "MARE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ETHAN",
+      "MEGAN",
+      "MARE"
+     ],
+     "proposer": "ETHAN",
+     "state": "APPROVED",
+     "votes": [
+      "ETHAN",
+      "MARE",
+      "MEGAN",
+      "ANDREW",
+      "BEKAH",
+      "GRANT",
+      "FRANKY",
+      "JJ"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ETHAN",
+      "MEGAN",
+      "MARE",
+      "ANDREW"
+     ],
+     "votes": [
+      "MEGAN",
+      "ANDREW",
+      "GRANT",
+      "FRANKY",
+      "JJ",
+      "ETHAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MEGAN"
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ETHAN",
+    "MEGAN",
+    "MARE",
+    "ANDREW"
+   ]
+  },
+  {
+   "team": [
+    "ANDREW",
+    "JJ",
+    "BEKAH",
+    "GRANT"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "MARE",
+      "ANDREW",
+      "GRANT",
+      "FRANKY"
+     ],
+     "state": "REJECTED",
+     "proposer": "MARE",
+     "votes": [
+      "MARE"
+     ]
+    },
+    {
+     "team": [
+      "ANDREW",
+      "JJ",
+      "BEKAH",
+      "GRANT"
+     ],
+     "proposer": "ANDREW",
+     "votes": [
+      "MEGAN",
+      "ANDREW",
+      "BEKAH",
+      "GRANT",
+      "JJ",
+      "ETHAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "BEKAH",
+      "GRANT",
+      "JJ"
+     ],
+     "team": [
+      "BEKAH",
+      "JJ",
+      "MARE",
+      "MEGAN",
+      "GRANT"
+     ],
+     "proposer": "GRANT",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MEGAN",
+      "ANDREW",
+      "BEKAH",
+      "GRANT",
+      "FRANKY",
+      "JJ",
+      "ETHAN",
+      "MARE"
+     ],
+     "proposer": "BEKAH",
+     "team": [
+      "GRANT",
+      "MEGAN",
+      "JJ",
+      "BEKAH",
+      "ANDREW"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "team": [
+    "GRANT",
+    "MEGAN",
+    "JJ",
+    "BEKAH",
+    "ANDREW"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "GRANT",
+    "ANDREW",
+    "BEKAH",
+    "JJ",
+    "ETHAN"
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "state": "FAIL",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "GRANT",
+      "ANDREW",
+      "MEGAN",
+      "FRANKY",
+      "BEKAH"
+     ],
+     "state": "REJECTED",
+     "proposer": "FRANKY",
+     "votes": [
+      "FRANKY",
+      "JJ"
+     ]
+    },
+    {
+     "votes": [
+      "MEGAN",
+      "ANDREW",
+      "GRANT",
+      "FRANKY",
+      "JJ"
+     ],
+     "team": [
+      "GRANT",
+      "ANDREW",
+      "BEKAH",
+      "JJ",
+      "ETHAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JJ"
+    }
+   ]
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ETHAN",
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "MARE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MEGAN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ANDREW",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "BEKAH",
+    "role": "MERLIN"
+   },
+   {
+    "name": "GRANT",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "FRANKY"
+   },
+   {
+    "name": "JJ",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "MEGAN": true,
+    "ETHAN": true,
+    "MARE": true
+   },
+   {
+    "MEGAN": true,
+    "MARE": true,
+    "ETHAN": false,
+    "ANDREW": false
+   },
+   {
+    "ANDREW": false,
+    "GRANT": true,
+    "JJ": true,
+    "BEKAH": true
+   },
+   {
+    "ANDREW": true,
+    "GRANT": true,
+    "BEKAH": true,
+    "MEGAN": true,
+    "JJ": true
+   },
+   {
+    "ANDREW": false,
+    "GRANT": true,
+    "BEKAH": true,
+    "JJ": true,
+    "ETHAN": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ANDREW",
+   "uid": "6wBUhhlZQjPFbF1JYSuM4Inmiur1"
+  },
+  {
+   "name": "GRANT",
+   "uid": "q1F6SD58uhT6GmR97lVjtiUAX4s2"
+  },
+  {
+   "name": "BEKAH",
+   "uid": "a95ZrJZme8QKq1fGVku6Epb2Y1H3"
+  },
+  {
+   "name": "FRANKY",
+   "uid": "iYP7i84PmpMZ8i8MTIoMY8IzlbG2"
+  },
+  {
+   "name": "JJ",
+   "uid": "5yNgLErHCIXCcqZWYgAbaIpK6aj1"
+  },
+  {
+   "name": "ETHAN",
+   "uid": "k5C6Gy8312dCPjYz5LXbMtwemj13"
+  },
+  {
+   "name": "MEGAN",
+   "uid": "11rZd85dM6O53ourLEgexCK37Tn2"
+  },
+  {
+   "uid": "DqxUUlW7puW3czqsCW1dYTg5Lsj2",
+   "name": "MARE"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1595635365,
+  "_nanoseconds": 48000000
+ }
+}

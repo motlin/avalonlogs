@@ -1,0 +1,226 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590288200,
+  "_nanoseconds": 190000000
+ },
+ "players": [
+  {
+   "name": "TOMMY",
+   "uid": "QOzpgOjFxyL9rWT0v5Vd6O6tAPf1"
+  },
+  {
+   "uid": "63bl9mOR62SH1kCyiYMj1TrLsnw1",
+   "name": "SMYLES"
+  },
+  {
+   "name": "ZIPZOOM",
+   "uid": "2au1QgMdhKbJXPLgU2l3Xs8OWgK2"
+  },
+  {
+   "name": "PAUL",
+   "uid": "topjLiK9CFO8MOKdg6dDcLlgEIG2"
+  },
+  {
+   "uid": "oFOu3svwzWXD2AfODoeI1yhqHeL2",
+   "name": "ME"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590288654,
+  "_nanoseconds": 382000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SMYLES",
+     "state": "APPROVED",
+     "team": [
+      "ME",
+      "PAUL"
+     ],
+     "votes": [
+      "TOMMY",
+      "ZIPZOOM",
+      "ME",
+      "PAUL",
+      "SMYLES"
+     ]
+    }
+   ],
+   "team": [
+    "ME",
+    "PAUL"
+   ]
+  },
+  {
+   "team": [
+    "ME",
+    "PAUL",
+    "SMYLES"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SMYLES",
+      "TOMMY",
+      "ZIPZOOM",
+      "PAUL"
+     ],
+     "proposer": "ZIPZOOM",
+     "team": [
+      "ME",
+      "PAUL",
+      "SMYLES"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "PAUL",
+     "team": [
+      "PAUL",
+      "ME"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ZIPZOOM",
+      "PAUL"
+     ]
+    },
+    {
+     "votes": [
+      "SMYLES"
+     ],
+     "proposer": "ME",
+     "team": [
+      "ME",
+      "SMYLES"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TOMMY",
+      "ZIPZOOM",
+      "ME"
+     ],
+     "proposer": "TOMMY",
+     "team": [
+      "ZIPZOOM",
+      "TOMMY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ZIPZOOM",
+    "TOMMY"
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZIPZOOM",
+      "PAUL",
+      "SMYLES"
+     ],
+     "team": [
+      "SMYLES",
+      "ME",
+      "PAUL"
+     ],
+     "proposer": "SMYLES"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "SMYLES",
+    "ME",
+    "PAUL"
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "SMYLES",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "TOMMY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ZIPZOOM",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ME",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "PAUL",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "PAUL": true,
+    "ME": true
+   },
+   {
+    "ME": true,
+    "SMYLES": true,
+    "PAUL": false
+   },
+   {
+    "ZIPZOOM": false,
+    "TOMMY": true
+   },
+   {
+    "ME": true,
+    "PAUL": false,
+    "SMYLES": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "players": [
+  {
+   "name": "MARTIN",
+   "uid": "L0Gx6Bis5pcXH1FfGkFIYNHXT9F3"
+  },
+  {
+   "name": "SEAN",
+   "uid": "fYg8XNyRKtdJZzgYBXjGLqmhMqy1"
+  },
+  {
+   "name": "JAYDEN",
+   "uid": "jIA8yP5fcETQMW3vdbdcdGFyGsv2"
+  },
+  {
+   "name": "IAN",
+   "uid": "tBu4vgzOAscojPHI0baJZ11Wqgi1"
+  },
+  {
+   "name": "JUSTIN",
+   "uid": "ZqPGAOWTg8ZpgdNzaMJWf49WkyY2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593985334,
+  "_nanoseconds": 990000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "SEAN",
+     "state": "APPROVED",
+     "votes": [
+      "JUSTIN",
+      "SEAN",
+      "JAYDEN",
+      "IAN"
+     ],
+     "team": [
+      "JAYDEN",
+      "SEAN"
+     ]
+    }
+   ],
+   "team": [
+    "JAYDEN",
+    "SEAN"
+   ]
+  },
+  {
+   "team": [
+    "SEAN",
+    "IAN",
+    "MARTIN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SEAN",
+      "MARTIN",
+      "IAN"
+     ],
+     "proposer": "JAYDEN",
+     "state": "APPROVED",
+     "team": [
+      "SEAN",
+      "IAN",
+      "MARTIN"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "IAN",
+    "MARTIN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JUSTIN",
+      "SEAN",
+      "MARTIN",
+      "IAN"
+     ],
+     "team": [
+      "IAN",
+      "MARTIN"
+     ],
+     "proposer": "IAN"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAYDEN",
+      "JUSTIN"
+     ],
+     "team": [
+      "IAN",
+      "JUSTIN",
+      "MARTIN"
+     ],
+     "proposer": "JUSTIN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "MARTIN",
+      "IAN",
+      "JAYDEN"
+     ],
+     "proposer": "MARTIN",
+     "votes": [
+      "JAYDEN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "SEAN",
+     "team": [
+      "SEAN",
+      "IAN",
+      "MARTIN"
+     ],
+     "votes": [
+      "IAN",
+      "SEAN",
+      "MARTIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "SEAN",
+    "IAN",
+    "MARTIN"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JAYDEN": false,
+    "SEAN": true
+   },
+   {
+    "MARTIN": true,
+    "SEAN": true,
+    "IAN": true
+   },
+   {
+    "MARTIN": true,
+    "IAN": true
+   },
+   {
+    "MARTIN": true,
+    "SEAN": true,
+    "IAN": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "JAYDEN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "IAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JUSTIN"
+   },
+   {
+    "assassin": false,
+    "name": "SEAN",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MARTIN",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "assassinated": "MARTIN",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1593985873,
+  "_nanoseconds": 875000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

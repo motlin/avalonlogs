@@ -1,0 +1,252 @@
+{
+ "timeCreated": {
+  "_seconds": 1594448104,
+  "_nanoseconds": 33000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "DRSUES",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "GIMPOLE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JASMINE",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "name": "ALLY",
+    "assassin": true
+   },
+   {
+    "name": "RYAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "DRSUES",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MICHELLLE",
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "MICHELLLE": true,
+    "ALLY": true
+   },
+   {
+    "MICHELLLE": true,
+    "JASMINE": true,
+    "ALLY": true
+   },
+   {
+    "MICHELLLE": true,
+    "GIMPOLE": true,
+    "ALLY": false,
+    "JASMINE": true
+   },
+   {
+    "GIMPOLE": true,
+    "DRSUES": true,
+    "RYAN": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MICHELLLE",
+     "state": "APPROVED",
+     "votes": [
+      "JASMINE",
+      "ALLY",
+      "RYAN",
+      "MICHELLLE",
+      "GIMPOLE"
+     ],
+     "team": [
+      "MICHELLLE",
+      "ALLY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "MICHELLLE",
+    "ALLY"
+   ]
+  },
+  {
+   "team": [
+    "JASMINE",
+    "MICHELLLE",
+    "ALLY"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MICHELLLE",
+      "JASMINE",
+      "ALLY",
+      "RYAN",
+      "DRSUES"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JASMINE",
+      "MICHELLLE",
+      "ALLY"
+     ],
+     "proposer": "JASMINE"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "RYAN",
+      "MICHELLLE",
+      "GIMPOLE",
+      "JASMINE",
+      "ALLY"
+     ],
+     "state": "APPROVED",
+     "proposer": "GIMPOLE",
+     "team": [
+      "ALLY",
+      "MICHELLLE",
+      "JASMINE",
+      "GIMPOLE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "ALLY",
+    "MICHELLLE",
+    "JASMINE",
+    "GIMPOLE"
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "RYAN",
+    "DRSUES",
+    "GIMPOLE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RYAN",
+      "DRSUES",
+      "GIMPOLE"
+     ],
+     "votes": [
+      "RYAN",
+      "DRSUES",
+      "GIMPOLE"
+     ],
+     "proposer": "RYAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ALLY",
+      "GIMPOLE",
+      "DRSUES"
+     ],
+     "votes": [
+      "RYAN",
+      "MICHELLLE",
+      "ALLY"
+     ],
+     "proposer": "ALLY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RYAN",
+      "DRSUES",
+      "MICHELLLE",
+      "GIMPOLE",
+      "JASMINE",
+      "ALLY"
+     ],
+     "proposer": "DRSUES",
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "DRSUES",
+      "GIMPOLE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2",
+   "name": "RYAN"
+  },
+  {
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52",
+   "name": "ALLY"
+  },
+  {
+   "uid": "VaYYMQCO43dh5ZsXCoPGeTKHhWa2",
+   "name": "DRSUES"
+  },
+  {
+   "uid": "DpYRwJ0fVHRYMVose9vjdSs25Ww1",
+   "name": "MICHELLLE"
+  },
+  {
+   "name": "JASMINE",
+   "uid": "KAVm2nNtkoP0XFRiO5JSSqHLcAv1"
+  },
+  {
+   "name": "GIMPOLE",
+   "uid": "t7sMFpsD9QVfCyTntVjfi5arQ8H3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1594448809,
+  "_nanoseconds": 444000000
+ }
+}

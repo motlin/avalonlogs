@@ -1,0 +1,250 @@
+{
+ "players": [
+  {
+   "name": "GERDO",
+   "uid": "QM3d0z4aDkaTMyC5NXtQMmq5vTE2"
+  },
+  {
+   "uid": "g9XCumSvRaWQ5JG0crvoNsmxpHp2",
+   "name": "TMAN"
+  },
+  {
+   "name": "KIELY",
+   "uid": "P9W8cYD62udoKhdrx5SjsFUzdeP2"
+  },
+  {
+   "uid": "bYkYqDgclkfxm49zYOY41F9YVKq1",
+   "name": "MIKENOM"
+  },
+  {
+   "name": "KD",
+   "uid": "sc9qQZEz2xcbJt4kJ2EsNqmEx8F2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586065812,
+  "_nanoseconds": 445588000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "MIKENOM": true,
+    "KIELY": true
+   },
+   {
+    "TMAN": false,
+    "MIKENOM": true,
+    "KIELY": true
+   },
+   {
+    "KD": true,
+    "TMAN": true
+   },
+   {
+    "GERDO": false,
+    "MIKENOM": true,
+    "TMAN": false
+   },
+   {
+    "KIELY": true,
+    "TMAN": false,
+    "MIKENOM": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "KD",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MIKENOM"
+   },
+   {
+    "name": "GERDO",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KIELY"
+   },
+   {
+    "role": "MORGANA",
+    "name": "TMAN",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586065232,
+  "_nanoseconds": 794000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "TMAN",
+     "team": [
+      "KIELY",
+      "MIKENOM"
+     ],
+     "votes": [
+      "MIKENOM",
+      "GERDO",
+      "KIELY",
+      "TMAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "KIELY",
+    "MIKENOM"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MIKENOM",
+    "KIELY",
+    "TMAN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KD",
+      "MIKENOM",
+      "GERDO",
+      "KIELY",
+      "TMAN"
+     ],
+     "team": [
+      "MIKENOM",
+      "KIELY",
+      "TMAN"
+     ],
+     "proposer": "KIELY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "KD",
+    "TMAN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "KIELY",
+      "MIKENOM"
+     ],
+     "proposer": "MIKENOM",
+     "state": "REJECTED",
+     "votes": [
+      "MIKENOM",
+      "KIELY"
+     ]
+    },
+    {
+     "proposer": "KD",
+     "team": [
+      "KD",
+      "TMAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GERDO",
+      "TMAN",
+      "KD"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "GERDO",
+     "votes": [
+      "GERDO",
+      "TMAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TMAN",
+      "MIKENOM",
+      "KD"
+     ]
+    },
+    {
+     "votes": [
+      "MIKENOM",
+      "GERDO",
+      "TMAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GERDO",
+      "TMAN",
+      "MIKENOM"
+     ],
+     "proposer": "TMAN"
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "GERDO",
+    "TMAN",
+    "MIKENOM"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "KIELY",
+      "MIKENOM",
+      "TMAN"
+     ],
+     "proposer": "KIELY",
+     "votes": [
+      "GERDO",
+      "KIELY",
+      "TMAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "KIELY",
+    "MIKENOM",
+    "TMAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ]
+}

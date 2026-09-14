@@ -1,0 +1,436 @@
+{
+ "timeFinished": {
+  "_seconds": 1586075724,
+  "_nanoseconds": 400941000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SILAS": true,
+    "NAT": true
+   },
+   {
+    "DELZ": true,
+    "NESSA": false,
+    "NAT": true
+   },
+   {
+    "S": false,
+    "SILAS": true,
+    "NAT": true,
+    "RYAN": true
+   },
+   {
+    "RYAN": true,
+    "NAT": true,
+    "DELZ": true
+   },
+   {
+    "SILAS": true,
+    "NAT": true,
+    "RYAN": true,
+    "DELZ": true
+   }
+  ],
+  "assassinated": "RYAN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RYAN"
+   },
+   {
+    "assassin": false,
+    "name": "DELZ",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "NAT",
+    "assassin": false
+   },
+   {
+    "name": "NESSA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "SILAS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "S",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "h8HkNQqBFQdSKoPqC3JfqO1bptE2",
+   "name": "DELZ"
+  },
+  {
+   "name": "NAT",
+   "uid": "XxAcY7MA88g8CWNUK29bShUnysp1"
+  },
+  {
+   "uid": "5BrQewCuQaUbfWIzD0SS70Hky352",
+   "name": "RYAN"
+  },
+  {
+   "uid": "oxXS9ESvtVUL3fqxRZPUQwLM4IK2",
+   "name": "SILAS"
+  },
+  {
+   "uid": "oTvMuO8b2WTNeZfG5uZ06kOMNCt2",
+   "name": "NESSA"
+  },
+  {
+   "name": "S",
+   "uid": "Cu625G3FY2ge1dgAYLEKFpw58IQ2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586072171,
+  "_nanoseconds": 201000000
+ },
+ "missions": [
+  {
+   "team": [
+    "NAT",
+    "SILAS"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "DELZ",
+      "SILAS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SILAS",
+      "DELZ"
+     ],
+     "proposer": "SILAS"
+    },
+    {
+     "team": [
+      "NESSA",
+      "S"
+     ],
+     "state": "REJECTED",
+     "proposer": "NESSA",
+     "votes": [
+      "NESSA",
+      "S",
+      "DELZ"
+     ]
+    },
+    {
+     "team": [
+      "S",
+      "RYAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DELZ",
+      "S",
+      "RYAN"
+     ],
+     "proposer": "S"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DELZ",
+      "NESSA"
+     ],
+     "proposer": "DELZ",
+     "team": [
+      "DELZ",
+      "NESSA"
+     ]
+    },
+    {
+     "team": [
+      "NAT",
+      "SILAS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RYAN",
+      "DELZ",
+      "NAT",
+      "NESSA",
+      "SILAS",
+      "S"
+     ],
+     "proposer": "NAT"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "RYAN",
+      "DELZ",
+      "NAT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RYAN",
+      "DELZ",
+      "NAT"
+     ],
+     "proposer": "RYAN"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SILAS",
+      "RYAN",
+      "NAT"
+     ],
+     "team": [
+      "NAT",
+      "RYAN",
+      "SILAS"
+     ],
+     "proposer": "SILAS"
+    },
+    {
+     "team": [
+      "DELZ",
+      "NESSA",
+      "NAT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NESSA",
+      "DELZ",
+      "NAT"
+     ],
+     "proposer": "NESSA"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "S",
+     "team": [
+      "S",
+      "SILAS",
+      "NESSA"
+     ],
+     "votes": [
+      "NESSA",
+      "SILAS",
+      "S"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "S",
+      "RYAN",
+      "DELZ",
+      "NAT",
+      "NESSA"
+     ],
+     "team": [
+      "DELZ",
+      "NAT",
+      "NESSA"
+     ],
+     "proposer": "DELZ"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "DELZ",
+    "NAT",
+    "NESSA"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "NAT",
+    "SILAS",
+    "S",
+    "RYAN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "NAT",
+      "SILAS",
+      "DELZ",
+      "S"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NAT",
+      "SILAS",
+      "S"
+     ],
+     "proposer": "NAT"
+    },
+    {
+     "votes": [
+      "S",
+      "RYAN"
+     ],
+     "proposer": "RYAN",
+     "team": [
+      "RYAN",
+      "NAT",
+      "DELZ",
+      "S"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "NAT",
+      "SILAS",
+      "S",
+      "RYAN"
+     ],
+     "votes": [
+      "SILAS",
+      "S",
+      "RYAN",
+      "NAT"
+     ],
+     "state": "APPROVED",
+     "proposer": "SILAS"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "RYAN",
+    "NAT",
+    "DELZ"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "NESSA",
+     "votes": [
+      "NESSA"
+     ],
+     "team": [
+      "NESSA",
+      "S",
+      "SILAS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "S",
+      "DELZ",
+      "NAT"
+     ],
+     "team": [
+      "S",
+      "DELZ",
+      "NAT"
+     ],
+     "proposer": "S"
+    },
+    {
+     "votes": [
+      "S",
+      "DELZ"
+     ],
+     "proposer": "DELZ",
+     "team": [
+      "DELZ",
+      "RYAN",
+      "S"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "NAT",
+      "SILAS"
+     ],
+     "team": [
+      "NAT",
+      "DELZ",
+      "SILAS"
+     ],
+     "proposer": "NAT",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "RYAN",
+     "state": "APPROVED",
+     "votes": [
+      "SILAS",
+      "S",
+      "RYAN",
+      "DELZ",
+      "NAT"
+     ],
+     "team": [
+      "RYAN",
+      "NAT",
+      "DELZ"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SILAS",
+      "RYAN",
+      "NAT",
+      "DELZ"
+     ],
+     "proposer": "SILAS",
+     "votes": [
+      "SILAS",
+      "RYAN",
+      "NAT",
+      "NESSA"
+     ]
+    }
+   ],
+   "team": [
+    "SILAS",
+    "RYAN",
+    "NAT",
+    "DELZ"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ]
+}

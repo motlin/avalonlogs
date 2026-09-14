@@ -1,0 +1,206 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "K",
+   "uid": "I54QixIkcDaz6Zui5VPz4sgiAr82"
+  },
+  {
+   "name": "GERALD",
+   "uid": "uWTYwsYowxUKruqY5FkYo6SUeiD3"
+  },
+  {
+   "uid": "xVTK6mhfzMStR4bPovODT4Ucsxv1",
+   "name": "KJ"
+  },
+  {
+   "uid": "mTV4tyEBMkVzef0fQJNyWhKUFPg1",
+   "name": "TAMAGO"
+  },
+  {
+   "name": "REB",
+   "uid": "iSgJjPd5iVQyYCzTQvnQhPSGzNQ2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592148821,
+  "_nanoseconds": 241000000
+ },
+ "timeFinished": {
+  "_seconds": 1592149194,
+  "_nanoseconds": 561000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "KJ",
+    "REB"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "TAMAGO",
+      "K",
+      "REB",
+      "KJ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KJ",
+      "REB"
+     ],
+     "proposer": "TAMAGO"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "REB",
+     "votes": [
+      "TAMAGO",
+      "K",
+      "REB",
+      "KJ"
+     ],
+     "team": [
+      "REB",
+      "GERALD",
+      "KJ"
+     ]
+    }
+   ],
+   "team": [
+    "REB",
+    "GERALD",
+    "KJ"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "K",
+     "team": [
+      "K",
+      "GERALD"
+     ],
+     "votes": [
+      "GERALD",
+      "TAMAGO",
+      "K",
+      "REB",
+      "KJ"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "K",
+    "GERALD"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "K",
+      "GERALD",
+      "REB"
+     ],
+     "proposer": "GERALD",
+     "state": "APPROVED",
+     "votes": [
+      "GERALD",
+      "TAMAGO",
+      "K",
+      "REB",
+      "KJ"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "K",
+    "GERALD",
+    "REB"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "KJ": true,
+    "REB": true
+   },
+   {
+    "KJ": false,
+    "REB": true,
+    "GERALD": true
+   },
+   {
+    "GERALD": true,
+    "K": true
+   },
+   {
+    "REB": true,
+    "K": true,
+    "GERALD": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "GERALD",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "TAMAGO"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "K"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "REB",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "KJ",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "GERALD",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ]
+ }
+}

@@ -1,0 +1,252 @@
+{
+ "players": [
+  {
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1",
+   "name": "RAHUL"
+  },
+  {
+   "name": "RAAS",
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2"
+  },
+  {
+   "name": "JOKER",
+   "uid": "yVz1lms3zeYHi65FwzOZjorvyKo1"
+  },
+  {
+   "uid": "Wjr8vxPJ1vSS6XIGwr3tNLLTWBC2",
+   "name": "SAAAD"
+  },
+  {
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23",
+   "name": "MAFAZLA"
+  }
+ ],
+ "missions": [
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "team": [
+    "RAHUL",
+    "RAAS"
+   ],
+   "proposals": [
+    {
+     "proposer": "SAAAD",
+     "team": [
+      "RAHUL",
+      "RAAS"
+     ],
+     "votes": [
+      "RAHUL",
+      "RAAS",
+      "JOKER",
+      "SAAAD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "RAAS",
+    "SAAAD",
+    "MAFAZLA"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAFAZLA"
+     ],
+     "team": [
+      "SAAAD",
+      "MAFAZLA",
+      "RAHUL"
+     ],
+     "proposer": "MAFAZLA"
+    },
+    {
+     "votes": [
+      "JOKER",
+      "RAHUL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RAHUL",
+      "JOKER",
+      "MAFAZLA"
+     ],
+     "proposer": "RAHUL"
+    },
+    {
+     "votes": [
+      "MAFAZLA",
+      "RAAS",
+      "SAAAD"
+     ],
+     "team": [
+      "RAAS",
+      "SAAAD",
+      "MAFAZLA"
+     ],
+     "state": "APPROVED",
+     "proposer": "RAAS"
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JOKER",
+     "team": [
+      "JOKER",
+      "SAAAD"
+     ],
+     "votes": [
+      "MAFAZLA",
+      "RAHUL",
+      "JOKER",
+      "SAAAD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JOKER",
+    "SAAAD"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "RAHUL",
+    "RAAS",
+    "JOKER"
+   ],
+   "proposals": [
+    {
+     "proposer": "SAAAD",
+     "team": [
+      "JOKER",
+      "SAAAD",
+      "MAFAZLA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SAAAD",
+      "MAFAZLA"
+     ]
+    },
+    {
+     "team": [
+      "JOKER",
+      "SAAAD",
+      "MAFAZLA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MAFAZLA"
+     ],
+     "proposer": "MAFAZLA"
+    },
+    {
+     "team": [
+      "RAHUL",
+      "RAAS",
+      "JOKER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RAHUL",
+      "RAAS",
+      "JOKER"
+     ],
+     "proposer": "RAHUL"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588385458,
+  "_nanoseconds": 46000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "SAAAD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MAFAZLA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "RAHUL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "RAAS",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JOKER"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "RAHUL": true,
+    "RAAS": false
+   },
+   {
+    "RAAS": false,
+    "MAFAZLA": true,
+    "SAAAD": true
+   },
+   {
+    "SAAAD": true,
+    "JOKER": true
+   },
+   {
+    "RAAS": false,
+    "RAHUL": false,
+    "JOKER": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588385837,
+  "_nanoseconds": 951000000
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "KEVIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "RICK",
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KENNY",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JIANPU",
+    "assassin": true
+   },
+   {
+    "name": "CYNTHIA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "RICK": true,
+    "KEVIN": true
+   },
+   {
+    "JIANPU": true,
+    "CYNTHIA": true,
+    "KEVIN": true
+   },
+   {
+    "KEVIN": true,
+    "JIANPU": false
+   },
+   {
+    "RICK": false,
+    "CYNTHIA": true,
+    "KEVIN": true
+   },
+   {
+    "KENNY": true,
+    "RICK": false,
+    "KEVIN": true
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1591919641,
+  "_nanoseconds": 202000000
+ },
+ "timeCreated": {
+  "_seconds": 1591919158,
+  "_nanoseconds": 467000000
+ },
+ "players": [
+  {
+   "uid": "Z3jwWvas1bVuQPPfeWDoekzSbGp1",
+   "name": "KEVIN"
+  },
+  {
+   "uid": "ywUYgaVsxqWtI54ngVq3MlUtshz1",
+   "name": "RICK"
+  },
+  {
+   "uid": "IsSJYY1D5UW1teQqg4qANzbz37w2",
+   "name": "CYNTHIA"
+  },
+  {
+   "uid": "lsxCBAj5wZYdW3uqNjrMtUZKeEj1",
+   "name": "KENNY"
+  },
+  {
+   "name": "JIANPU",
+   "uid": "LGxpdexBreQyF7VFTyn5MjDoYoo2"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "KEVIN",
+    "RICK"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "RICK",
+      "JIANPU",
+      "CYNTHIA"
+     ],
+     "proposer": "RICK",
+     "team": [
+      "KEVIN",
+      "RICK"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "CYNTHIA",
+    "KEVIN",
+    "JIANPU"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "RICK",
+      "JIANPU",
+      "CYNTHIA"
+     ],
+     "team": [
+      "CYNTHIA",
+      "KEVIN",
+      "JIANPU"
+     ],
+     "proposer": "CYNTHIA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "JIANPU",
+    "KEVIN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "KENNY",
+     "team": [
+      "KENNY",
+      "CYNTHIA"
+     ],
+     "votes": [
+      "KENNY",
+      "CYNTHIA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JIANPU",
+      "CYNTHIA",
+      "KEVIN",
+      "RICK"
+     ],
+     "team": [
+      "JIANPU",
+      "KEVIN"
+     ],
+     "proposer": "JIANPU"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "state": "APPROVED",
+     "votes": [
+      "JIANPU",
+      "CYNTHIA",
+      "KEVIN",
+      "RICK"
+     ],
+     "team": [
+      "CYNTHIA",
+      "KEVIN",
+      "RICK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CYNTHIA",
+    "KEVIN",
+    "RICK"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JIANPU",
+      "CYNTHIA",
+      "RICK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KEVIN",
+      "RICK",
+      "KENNY"
+     ],
+     "proposer": "RICK"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "KEVIN",
+    "RICK",
+    "KENNY"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ]
+}

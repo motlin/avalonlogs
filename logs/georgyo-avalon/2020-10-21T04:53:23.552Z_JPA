@@ -1,0 +1,308 @@
+{
+ "players": [
+  {
+   "uid": "sZDzVy0c6TUbAA3h4aqarWoWkJT2",
+   "name": "LOUIS"
+  },
+  {
+   "name": "YANTING",
+   "uid": "bhySSSFlxPdMUAfVF2B5P32ObY03"
+  },
+  {
+   "name": "VINCE",
+   "uid": "mpRgfLzu2vc5EFOYoNpFiiBK88i1"
+  },
+  {
+   "name": "NOTALFRED",
+   "uid": "MsQyDukOsFgSptWJoJzY51N4ODb2"
+  },
+  {
+   "name": "ALFREDL",
+   "uid": "y7EqX4NpSEanAOp91qlcjDS7M2C3"
+  },
+  {
+   "name": "SAYMIN",
+   "uid": "h7O4liboexeu4XCaGMNpIpH1OEE2"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SAYMIN",
+      "NOTALFRED",
+      "VINCE",
+      "ALFREDL",
+      "YANTING"
+     ],
+     "team": [
+      "YANTING",
+      "NOTALFRED"
+     ],
+     "proposer": "SAYMIN"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "YANTING",
+    "NOTALFRED"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "LOUIS",
+    "VINCE",
+    "ALFREDL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "LOUIS",
+      "VINCE",
+      "ALFREDL"
+     ],
+     "proposer": "LOUIS",
+     "state": "APPROVED",
+     "votes": [
+      "ALFREDL",
+      "SAYMIN",
+      "NOTALFRED",
+      "YANTING",
+      "VINCE",
+      "LOUIS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LOUIS",
+      "YANTING",
+      "SAYMIN"
+     ],
+     "team": [
+      "YANTING",
+      "LOUIS",
+      "NOTALFRED",
+      "SAYMIN"
+     ],
+     "proposer": "YANTING"
+    },
+    {
+     "team": [
+      "SAYMIN",
+      "ALFREDL",
+      "YANTING",
+      "VINCE"
+     ],
+     "proposer": "VINCE",
+     "votes": [
+      "ALFREDL",
+      "VINCE",
+      "NOTALFRED",
+      "SAYMIN",
+      "YANTING"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "SAYMIN",
+    "ALFREDL",
+    "YANTING",
+    "VINCE"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ALFREDL",
+      "YANTING",
+      "NOTALFRED"
+     ],
+     "state": "REJECTED",
+     "proposer": "NOTALFRED",
+     "votes": [
+      "NOTALFRED"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ALFREDL",
+      "YANTING",
+      "SAYMIN"
+     ],
+     "votes": [
+      "NOTALFRED",
+      "SAYMIN",
+      "ALFREDL"
+     ],
+     "proposer": "ALFREDL"
+    },
+    {
+     "votes": [
+      "YANTING",
+      "ALFREDL",
+      "NOTALFRED",
+      "SAYMIN"
+     ],
+     "team": [
+      "ALFREDL",
+      "SAYMIN",
+      "YANTING"
+     ],
+     "state": "APPROVED",
+     "proposer": "SAYMIN"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "ALFREDL",
+    "SAYMIN",
+    "YANTING"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "LOUIS",
+    "YANTING",
+    "VINCE",
+    "SAYMIN"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "LOUIS",
+      "YANTING",
+      "VINCE",
+      "NOTALFRED"
+     ],
+     "state": "REJECTED",
+     "proposer": "LOUIS",
+     "votes": [
+      "LOUIS",
+      "SAYMIN",
+      "YANTING"
+     ]
+    },
+    {
+     "votes": [
+      "LOUIS",
+      "SAYMIN",
+      "ALFREDL",
+      "YANTING"
+     ],
+     "proposer": "YANTING",
+     "state": "APPROVED",
+     "team": [
+      "LOUIS",
+      "YANTING",
+      "VINCE",
+      "SAYMIN"
+     ]
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "YANTING": true,
+    "NOTALFRED": true
+   },
+   {
+    "LOUIS": false,
+    "ALFREDL": true,
+    "VINCE": true
+   },
+   {
+    "YANTING": true,
+    "SAYMIN": true,
+    "ALFREDL": true,
+    "VINCE": true
+   },
+   {
+    "SAYMIN": true,
+    "ALFREDL": false,
+    "YANTING": true
+   },
+   {
+    "SAYMIN": true,
+    "LOUIS": false,
+    "YANTING": true,
+    "VINCE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "VINCE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NOTALFRED",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "LOUIS",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SAYMIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "YANTING"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ALFREDL",
+    "assassin": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1603256586,
+  "_nanoseconds": 602000000
+ },
+ "timeCreated": {
+  "_seconds": 1603256003,
+  "_nanoseconds": 552000000
+ }
+}

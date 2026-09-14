@@ -1,0 +1,270 @@
+{
+ "players": [
+  {
+   "name": "ZAIN",
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "name": "DAKU",
+   "uid": "rOq5JznW2SYIIXenRGGcXlv9ln72"
+  },
+  {
+   "name": "SAAAD",
+   "uid": "Wjr8vxPJ1vSS6XIGwr3tNLLTWBC2"
+  },
+  {
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2",
+   "name": "RAAS"
+  },
+  {
+   "name": "SANJY",
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073"
+  },
+  {
+   "name": "CHEZMASTA",
+   "uid": "1pALZ8GpFfaGpwypxX6CDZvFFJ22"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SAAAD": true,
+    "ZAIN": true
+   },
+   {
+    "ZAIN": true,
+    "SAAAD": true,
+    "MAFAZLA": true
+   },
+   {
+    "SAAAD": true,
+    "DAKU": true,
+    "ZAIN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DAKU"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RAAS"
+   },
+   {
+    "name": "SANJY",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "MAFAZLA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "CHEZMASTA"
+   },
+   {
+    "name": "ZAIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SAAAD",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "ZAIN",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1590724051,
+  "_nanoseconds": 619000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "SAAAD",
+    "ZAIN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SAAAD",
+      "ZAIN"
+     ],
+     "votes": [
+      "SANJY",
+      "CHEZMASTA",
+      "ZAIN",
+      "SAAAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "SAAAD"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ZAIN",
+      "SAAAD",
+      "RAAS"
+     ],
+     "proposer": "RAAS",
+     "state": "REJECTED",
+     "votes": [
+      "ZAIN",
+      "SAAAD",
+      "RAAS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SANJY",
+      "ZAIN",
+      "SAAAD"
+     ],
+     "proposer": "SANJY",
+     "team": [
+      "SAAAD",
+      "ZAIN",
+      "SANJY"
+     ]
+    },
+    {
+     "proposer": "CHEZMASTA",
+     "state": "REJECTED",
+     "votes": [
+      "CHEZMASTA"
+     ],
+     "team": [
+      "SAAAD",
+      "MAFAZLA",
+      "CHEZMASTA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ZAIN",
+      "SAAAD",
+      "DAKU"
+     ],
+     "proposer": "ZAIN",
+     "votes": [
+      "SAAAD",
+      "DAKU",
+      "RAAS"
+     ]
+    },
+    {
+     "team": [
+      "MAFAZLA",
+      "ZAIN",
+      "SAAAD"
+     ],
+     "proposer": "MAFAZLA",
+     "state": "APPROVED",
+     "votes": [
+      "SANJY",
+      "MAFAZLA",
+      "CHEZMASTA",
+      "ZAIN",
+      "SAAAD",
+      "DAKU",
+      "RAAS"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "MAFAZLA",
+    "ZAIN",
+    "SAAAD"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "DAKU",
+      "ZAIN",
+      "SAAAD"
+     ],
+     "proposer": "DAKU",
+     "state": "REJECTED",
+     "votes": [
+      "ZAIN",
+      "SAAAD",
+      "DAKU"
+     ]
+    },
+    {
+     "votes": [
+      "ZAIN",
+      "SAAAD",
+      "DAKU",
+      "RAAS"
+     ],
+     "team": [
+      "ZAIN",
+      "DAKU",
+      "SAAAD"
+     ],
+     "proposer": "SAAAD",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ZAIN",
+    "DAKU",
+    "SAAAD"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "failsRequired": 2,
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": []
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590723638,
+  "_nanoseconds": 533000000
+ }
+}

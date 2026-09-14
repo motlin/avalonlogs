@@ -1,0 +1,325 @@
+{
+ "timeFinished": {
+  "_seconds": 1613596947,
+  "_nanoseconds": 803000000
+ },
+ "players": [
+  {
+   "name": "BRIAN",
+   "uid": "AwXIOWpeehSLQzNXKakZijDwVjm2"
+  },
+  {
+   "name": "STU",
+   "uid": "yGfZGBg2psXnldhiDUBOGm7vQIh2"
+  },
+  {
+   "uid": "uicqjkU03XNTKcvtMPcfgQA5nUF3",
+   "name": "CANDICE"
+  },
+  {
+   "name": "RAYMOND",
+   "uid": "3m7HrSV4yBfsABSK0LADs48F7tl1"
+  },
+  {
+   "uid": "lkrxHsLoCuTBEP8JJz7exx7bhHp1",
+   "name": "JESSICA"
+  },
+  {
+   "uid": "6XjCPo7WF4O4XauvMClfXlBzNHX2",
+   "name": "MEENS"
+  },
+  {
+   "uid": "4eFRwHTTRPO56ns8SqdQTafOCbk2",
+   "name": "YUN"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "P2YCmzU7eaQQUTxNgzlWTwmI4s12"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "YUN": true,
+    "MEENS": false,
+    "JESSICA": true
+   },
+   {
+    "RAYMOND": true,
+    "BRIAN": true,
+    "STU": true,
+    "PATRICK": true
+   },
+   {
+    "JESSICA": true,
+    "YUN": true,
+    "BRIAN": false,
+    "PATRICK": true
+   },
+   {
+    "MEENS": true,
+    "PATRICK": true,
+    "JESSICA": true,
+    "STU": true,
+    "YUN": true
+   },
+   {
+    "STU": true,
+    "PATRICK": true,
+    "JESSICA": true,
+    "RAYMOND": true,
+    "YUN": true
+   }
+  ],
+  "assassinated": "YUN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RAYMOND",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "MEENS",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "CANDICE",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "BRIAN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "STU",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "PATRICK",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JESSICA"
+   },
+   {
+    "assassin": false,
+    "name": "YUN",
+    "role": "PERCIVAL"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1613594756,
+  "_nanoseconds": 352000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "JESSICA",
+      "MEENS",
+      "YUN"
+     ],
+     "proposer": "BRIAN",
+     "votes": [
+      "MEENS",
+      "RAYMOND",
+      "STU",
+      "BRIAN",
+      "YUN",
+      "PATRICK",
+      "CANDICE",
+      "JESSICA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JESSICA",
+    "MEENS",
+    "YUN"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "BRIAN",
+    "STU",
+    "RAYMOND",
+    "PATRICK"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAYMOND",
+      "CANDICE",
+      "YUN",
+      "MEENS",
+      "STU",
+      "BRIAN"
+     ],
+     "proposer": "STU",
+     "team": [
+      "BRIAN",
+      "STU",
+      "RAYMOND",
+      "PATRICK"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "JESSICA",
+    "BRIAN",
+    "PATRICK",
+    "YUN"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "STU",
+      "CANDICE",
+      "MEENS",
+      "PATRICK"
+     ],
+     "votes": [
+      "RAYMOND",
+      "CANDICE",
+      "STU"
+     ],
+     "proposer": "CANDICE"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CANDICE",
+      "JESSICA",
+      "BRIAN",
+      "MEENS"
+     ],
+     "proposer": "RAYMOND",
+     "votes": [
+      "STU",
+      "CANDICE",
+      "RAYMOND"
+     ]
+    },
+    {
+     "votes": [
+      "JESSICA",
+      "MEENS",
+      "PATRICK",
+      "BRIAN",
+      "STU",
+      "RAYMOND",
+      "CANDICE"
+     ],
+     "team": [
+      "JESSICA",
+      "BRIAN",
+      "PATRICK",
+      "YUN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JESSICA"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JESSICA",
+      "PATRICK",
+      "STU",
+      "YUN",
+      "MEENS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MEENS",
+      "JESSICA",
+      "YUN",
+      "STU",
+      "RAYMOND",
+      "PATRICK",
+      "CANDICE",
+      "BRIAN"
+     ],
+     "proposer": "MEENS"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "JESSICA",
+    "PATRICK",
+    "STU",
+    "YUN",
+    "MEENS"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CANDICE",
+      "RAYMOND",
+      "PATRICK",
+      "STU",
+      "YUN"
+     ],
+     "team": [
+      "JESSICA",
+      "PATRICK",
+      "YUN",
+      "STU",
+      "RAYMOND"
+     ],
+     "proposer": "YUN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JESSICA",
+    "PATRICK",
+    "YUN",
+    "STU",
+    "RAYMOND"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 5
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

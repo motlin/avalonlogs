@@ -1,0 +1,297 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "CHELSEA",
+   "uid": "LVbpE4rgG6VpurSnLqo6X1Mb9cI3"
+  },
+  {
+   "name": "LAURA",
+   "uid": "cW3HiFmdI0OmFr25PhYBo55cVKf1"
+  },
+  {
+   "uid": "etYLhRbYR0WFOnDFUvb3haNhm453",
+   "name": "CHRIS"
+  },
+  {
+   "uid": "RG4IEdzfKscQm6RngeHUNSYIDpD2",
+   "name": "NANCY"
+  },
+  {
+   "uid": "YzrqQHPnMJUHSC3dnDdrseflhrf2",
+   "name": "JULIE"
+  },
+  {
+   "name": "LC",
+   "uid": "XYM9bBeYXaXQmvX6YjaM03kvn682"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590369664,
+  "_nanoseconds": 872000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "CHELSEA",
+      "JULIE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CHELSEA",
+      "LC",
+      "NANCY",
+      "LAURA",
+      "JULIE"
+     ],
+     "proposer": "LC"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "CHELSEA",
+    "JULIE"
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CHELSEA",
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "LC",
+      "NANCY",
+      "LAURA",
+      "CHELSEA"
+     ],
+     "team": [
+      "CHELSEA",
+      "CHRIS",
+      "NANCY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "CHELSEA",
+    "CHRIS",
+    "NANCY"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "CHRIS",
+    "NANCY",
+    "LAURA",
+    "JULIE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "LAURA",
+     "votes": [
+      "LC",
+      "LAURA",
+      "JULIE"
+     ],
+     "team": [
+      "LAURA",
+      "JULIE",
+      "CHELSEA",
+      "LC"
+     ]
+    },
+    {
+     "proposer": "CHRIS",
+     "team": [
+      "CHRIS",
+      "LAURA",
+      "JULIE",
+      "LC"
+     ],
+     "votes": [
+      "LAURA",
+      "CHELSEA",
+      "CHRIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "CHRIS",
+      "NANCY",
+      "LAURA",
+      "JULIE"
+     ],
+     "proposer": "NANCY",
+     "state": "APPROVED",
+     "votes": [
+      "LAURA",
+      "JULIE",
+      "CHELSEA",
+      "CHRIS",
+      "LC",
+      "NANCY"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JULIE",
+     "team": [
+      "JULIE",
+      "CHELSEA",
+      "LAURA"
+     ],
+     "votes": [
+      "LC",
+      "LAURA",
+      "JULIE",
+      "CHELSEA",
+      "CHRIS"
+     ]
+    }
+   ],
+   "team": [
+    "JULIE",
+    "CHELSEA",
+    "LAURA"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "CHELSEA",
+      "CHRIS",
+      "JULIE",
+      "LC"
+     ],
+     "proposer": "LC",
+     "state": "REJECTED",
+     "votes": [
+      "LC"
+     ]
+    },
+    {
+     "votes": [
+      "LC",
+      "NANCY",
+      "LAURA",
+      "CHELSEA",
+      "CHRIS"
+     ],
+     "proposer": "CHELSEA",
+     "state": "APPROVED",
+     "team": [
+      "CHELSEA",
+      "JULIE",
+      "LAURA",
+      "CHRIS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "CHELSEA",
+    "JULIE",
+    "LAURA",
+    "CHRIS"
+   ]
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JULIE": true,
+    "CHELSEA": true
+   },
+   {
+    "CHELSEA": true,
+    "NANCY": true,
+    "CHRIS": false
+   },
+   {
+    "JULIE": true,
+    "NANCY": true,
+    "LAURA": true,
+    "CHRIS": false
+   },
+   {
+    "JULIE": true,
+    "CHELSEA": true,
+    "LAURA": true
+   },
+   {
+    "LAURA": true,
+    "CHELSEA": true,
+    "CHRIS": false,
+    "JULIE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "NANCY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LAURA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "JULIE"
+   },
+   {
+    "name": "CHELSEA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "CHRIS",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "LC"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1590368746,
+  "_nanoseconds": 60000000
+ }
+}

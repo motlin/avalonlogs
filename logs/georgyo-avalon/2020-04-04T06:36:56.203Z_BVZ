@@ -1,0 +1,267 @@
+{
+ "players": [
+  {
+   "uid": "XYVvYf1TWrN1eVtUf0sWCDhatFn1",
+   "name": "ALEX"
+  },
+  {
+   "name": "BRI",
+   "uid": "KSYFHIblLHb6bqjPVS2wauaI5MP2"
+  },
+  {
+   "uid": "LaAUR0CC4eWkPPDj7zETGdwfKEi1",
+   "name": "ELI"
+  },
+  {
+   "uid": "aCJo2XvmhCTT8fbP1y6bshGrtjY2",
+   "name": "STEEVOO"
+  },
+  {
+   "name": "REEBS",
+   "uid": "wcSsQhjBWJNMUnrVVxS5T5mVbcJ3"
+  },
+  {
+   "name": "NOAH",
+   "uid": "aCE54HjLlHdq13W0CwW797qe6yt2"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "BRI": true,
+    "ELI": true
+   },
+   {
+    "ELI": true,
+    "STEEVOO": true,
+    "BRI": false
+   },
+   {
+    "STEEVOO": true,
+    "ALEX": false,
+    "BRI": false,
+    "NOAH": true
+   },
+   {
+    "NOAH": true,
+    "ELI": true,
+    "REEBS": true
+   },
+   {
+    "ELI": true,
+    "NOAH": true,
+    "STEEVOO": true,
+    "REEBS": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "ALEX",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ELI"
+   },
+   {
+    "role": "MORDRED",
+    "name": "BRI",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "REEBS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NOAH",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "STEEVOO"
+   }
+  ],
+  "assassinated": "REEBS"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "BRI",
+    "ELI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BRI",
+      "ELI"
+     ],
+     "state": "APPROVED",
+     "proposer": "ELI",
+     "votes": [
+      "ALEX",
+      "ELI",
+      "BRI",
+      "REEBS",
+      "NOAH",
+      "STEEVOO"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "STEEVOO",
+     "votes": [
+      "ALEX",
+      "ELI",
+      "BRI",
+      "REEBS",
+      "NOAH",
+      "STEEVOO"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ELI",
+      "STEEVOO",
+      "BRI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "ELI",
+    "STEEVOO",
+    "BRI"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "ALEX",
+      "BRI",
+      "REEBS",
+      "NOAH",
+      "STEEVOO"
+     ],
+     "proposer": "REEBS",
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "BRI",
+      "NOAH",
+      "STEEVOO"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "ALEX",
+    "BRI",
+    "NOAH",
+    "STEEVOO"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NOAH",
+      "REEBS",
+      "ELI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BRI",
+      "REEBS",
+      "NOAH",
+      "STEEVOO",
+      "ALEX",
+      "ELI"
+     ],
+     "proposer": "NOAH"
+    }
+   ],
+   "team": [
+    "NOAH",
+    "REEBS",
+    "ELI"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "STEEVOO",
+    "REEBS",
+    "NOAH",
+    "ELI"
+   ],
+   "proposals": [
+    {
+     "proposer": "ALEX",
+     "votes": [
+      "BRI",
+      "REEBS",
+      "STEEVOO"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "STEEVOO",
+      "REEBS",
+      "BRI",
+      "ALEX"
+     ]
+    },
+    {
+     "team": [
+      "STEEVOO",
+      "REEBS",
+      "NOAH",
+      "ELI"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRI",
+     "votes": [
+      "ELI",
+      "BRI",
+      "REEBS",
+      "NOAH"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585982216,
+  "_nanoseconds": 203000000
+ },
+ "timeFinished": {
+  "_seconds": 1585983062,
+  "_nanoseconds": 528535000
+ }
+}

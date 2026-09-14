@@ -1,0 +1,217 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "MUNIRA",
+  "votes": [
+   {
+    "AKSHAT": true,
+    "AISHU": true
+   },
+   {
+    "MANGO": false,
+    "MUNIRA": true,
+    "SANJAY": true
+   },
+   {
+    "AKSHAT": true,
+    "SANJAY": true
+   },
+   {
+    "MUNIRA": true,
+    "AKSHAT": true,
+    "SANJAY": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "AKSHAT"
+   },
+   {
+    "name": "SANJAY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "AISHU",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "MANGO",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MUNIRA"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1586086321,
+  "_nanoseconds": 541125000
+ },
+ "timeCreated": {
+  "_seconds": 1586085676,
+  "_nanoseconds": 894000000
+ },
+ "players": [
+  {
+   "name": "MANGO",
+   "uid": "KN9NXcIDtfVHCxdSWZo9tE7aidf2"
+  },
+  {
+   "name": "SANJAY",
+   "uid": "vGciLqUsdMPtf8mPHGiNBw7eWVt1"
+  },
+  {
+   "uid": "rPLBDuU5uMO8b94nRQJK5MnwSpP2",
+   "name": "AISHU"
+  },
+  {
+   "uid": "8YYc3NDzh9bTZMDvY1plYrNSd2F3",
+   "name": "MUNIRA"
+  },
+  {
+   "uid": "d6Gfrh5g8NacyA0XOpoM70361Y43",
+   "name": "AKSHAT"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "AISHU",
+    "AKSHAT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MANGO",
+      "MUNIRA",
+      "AKSHAT",
+      "SANJAY",
+      "AISHU"
+     ],
+     "team": [
+      "AISHU",
+      "AKSHAT"
+     ],
+     "proposer": "AISHU"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "MUNIRA",
+    "SANJAY",
+    "MANGO"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MUNIRA",
+     "team": [
+      "MUNIRA",
+      "SANJAY",
+      "MANGO"
+     ],
+     "votes": [
+      "AKSHAT",
+      "SANJAY",
+      "AISHU",
+      "MANGO",
+      "MUNIRA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "SANJAY",
+    "AKSHAT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SANJAY",
+      "AKSHAT"
+     ],
+     "proposer": "AKSHAT",
+     "state": "APPROVED",
+     "votes": [
+      "MANGO",
+      "MUNIRA",
+      "AKSHAT",
+      "SANJAY",
+      "AISHU"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "SANJAY",
+    "AKSHAT",
+    "MUNIRA"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "MANGO",
+     "votes": [
+      "MANGO",
+      "AISHU"
+     ],
+     "team": [
+      "MANGO",
+      "SANJAY",
+      "AKSHAT"
+     ]
+    },
+    {
+     "team": [
+      "SANJAY",
+      "AKSHAT",
+      "MUNIRA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SANJAY",
+     "votes": [
+      "AKSHAT",
+      "SANJAY",
+      "AISHU",
+      "MUNIRA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ]
+}

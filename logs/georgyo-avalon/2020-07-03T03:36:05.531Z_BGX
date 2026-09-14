@@ -1,0 +1,243 @@
+{
+ "timeFinished": {
+  "_seconds": 1593748317,
+  "_nanoseconds": 264000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "aAikGINkVIWNuv0BDZ9dEeCR6sc2",
+   "name": "COLIN"
+  },
+  {
+   "uid": "ee6eyUB14aNrfwxfgS3EpXKkJ4r1",
+   "name": "SEYMOUR"
+  },
+  {
+   "uid": "amRYItsOKBYSmkMLrXd9VewVUzn2",
+   "name": "SHAAN"
+  },
+  {
+   "uid": "uE69a2I2iwNs9BRJunufBCvLoz22",
+   "name": "YOURNAME"
+  },
+  {
+   "uid": "vYmfMH8wMERnwcDVMbDmZt7cFu13",
+   "name": "STEVE"
+  },
+  {
+   "uid": "DPpf6SHZuPMBOpPqL7kGodAZW2E2",
+   "name": "CRAIGLAZER"
+  },
+  {
+   "uid": "m8h49IOcLTNcjYnSuL1aShmn7wu1",
+   "name": "ERICC"
+  },
+  {
+   "uid": "q6uWKml1ghaACq7cDrKUkppHZk22",
+   "name": "FMT"
+  },
+  {
+   "name": "NGO",
+   "uid": "ecqGjz7tzhMr8GPdHmP95YsJ9Cd2"
+  },
+  {
+   "name": "MACE",
+   "uid": "STYYW1bvydOViACtN0rY8luDtp93"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593747365,
+  "_nanoseconds": 531000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "NGO"
+   },
+   {
+    "name": "YOURNAME",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ERICC"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "FMT"
+   },
+   {
+    "assassin": false,
+    "name": "CRAIGLAZER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "COLIN",
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "SEYMOUR"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MACE"
+   },
+   {
+    "name": "STEVE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SHAAN",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "SEYMOUR": false,
+    "SHAAN": true,
+    "COLIN": false
+   },
+   {
+    "FMT": false,
+    "YOURNAME": true,
+    "MACE": true,
+    "NGO": true
+   },
+   {
+    "NGO": true,
+    "STEVE": true,
+    "CRAIGLAZER": true,
+    "SHAAN": false
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "SHAAN",
+     "state": "APPROVED",
+     "votes": [
+      "COLIN",
+      "MACE",
+      "STEVE",
+      "SHAAN",
+      "ERICC",
+      "FMT"
+     ],
+     "team": [
+      "SHAAN",
+      "SEYMOUR",
+      "COLIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 3,
+   "team": [
+    "SHAAN",
+    "SEYMOUR",
+    "COLIN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "YOURNAME",
+     "votes": [
+      "NGO",
+      "YOURNAME",
+      "ERICC",
+      "FMT",
+      "COLIN",
+      "MACE",
+      "SHAAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YOURNAME",
+      "MACE",
+      "NGO",
+      "FMT"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "YOURNAME",
+    "MACE",
+    "NGO",
+    "FMT"
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CRAIGLAZER",
+      "SEYMOUR",
+      "MACE",
+      "STEVE",
+      "SHAAN",
+      "NGO",
+      "FMT"
+     ],
+     "proposer": "STEVE",
+     "state": "APPROVED",
+     "team": [
+      "STEVE",
+      "SHAAN",
+      "NGO",
+      "CRAIGLAZER"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "STEVE",
+    "SHAAN",
+    "NGO",
+    "CRAIGLAZER"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [],
+   "state": "PENDING"
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5,
+   "proposals": []
+  }
+ ]
+}

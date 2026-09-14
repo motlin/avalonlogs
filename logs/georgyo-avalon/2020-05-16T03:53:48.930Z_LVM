@@ -1,0 +1,209 @@
+{
+ "timeFinished": {
+  "_seconds": 1589601605,
+  "_nanoseconds": 665000000
+ },
+ "timeCreated": {
+  "_seconds": 1589601228,
+  "_nanoseconds": 930000000
+ },
+ "players": [
+  {
+   "name": "JA",
+   "uid": "HaAEQV3gHUPlbnHSvlcEkniugiN2"
+  },
+  {
+   "uid": "l62rUJeCMFM83Mp8BozMPVfVWUM2",
+   "name": "GLEN"
+  },
+  {
+   "uid": "PDSq2Dj7hJRONHEhbSVbMGRUnvu1",
+   "name": "RACHELLE"
+  },
+  {
+   "uid": "EqvcQrucZWWXqUI232lMc8Uv4593",
+   "name": "LULU"
+  },
+  {
+   "uid": "tTWiCM2W3NbhmwBiPcG3P7YMOtH2",
+   "name": "SHIERA"
+  },
+  {
+   "name": "MASI",
+   "uid": "7kfmjiOBQHVTe5JQ0EE52Q9RF7q1"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "LULU",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "SHIERA",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MASI",
+    "assassin": false
+   },
+   {
+    "name": "GLEN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "RACHELLE",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "RACHELLE": false,
+    "GLEN": true
+   },
+   {
+    "MASI": true,
+    "JA": true,
+    "SHIERA": false
+   },
+   {
+    "SHIERA": false,
+    "GLEN": true,
+    "LULU": true,
+    "JA": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "GLEN",
+     "team": [
+      "RACHELLE",
+      "GLEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MASI",
+      "GLEN",
+      "RACHELLE",
+      "LULU",
+      "JA",
+      "SHIERA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "RACHELLE",
+    "GLEN"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JA",
+    "SHIERA",
+    "MASI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "RACHELLE",
+      "LULU",
+      "SHIERA"
+     ],
+     "votes": [
+      "RACHELLE"
+     ],
+     "proposer": "RACHELLE"
+    },
+    {
+     "proposer": "LULU",
+     "team": [
+      "JA",
+      "SHIERA",
+      "MASI"
+     ],
+     "votes": [
+      "MASI",
+      "GLEN",
+      "RACHELLE",
+      "LULU",
+      "JA",
+      "SHIERA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JA",
+      "SHIERA",
+      "GLEN",
+      "RACHELLE"
+     ],
+     "team": [
+      "LULU",
+      "SHIERA",
+      "GLEN",
+      "JA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHIERA"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "LULU",
+    "SHIERA",
+    "GLEN",
+    "JA"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

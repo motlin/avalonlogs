@@ -1,0 +1,278 @@
+{
+ "timeFinished": {
+  "_seconds": 1586051565,
+  "_nanoseconds": 71035000
+ },
+ "players": [
+  {
+   "name": "YUZI",
+   "uid": "dKjeFE6Z4LZBBN43T0sqZliH5P72"
+  },
+  {
+   "name": "WINESLUSHY",
+   "uid": "EKZJz7wAzZZYESEc7VfFoGmsx753"
+  },
+  {
+   "name": "TIKTOKSTAR",
+   "uid": "KXPkioqDGkWBsFze5qmIGOyPwLy1"
+  },
+  {
+   "name": "WITCH",
+   "uid": "FbPqvu7zbteaz0YXQhVhx0fXsEh1"
+  },
+  {
+   "name": "KAIXIN",
+   "uid": "5LqKUAMCn9MNJO4dbsZagCy1soT2"
+  },
+  {
+   "name": "RAYQUAZA",
+   "uid": "IM9ylFrvEdY8MD5HgrDwOqbynTJ3"
+  },
+  {
+   "uid": "UKo5Ob02YWONGmTioRBfho46HjA2",
+   "name": "CORN"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "RAYQUAZA"
+   },
+   {
+    "name": "YUZI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CORN",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "WINESLUSHY"
+   },
+   {
+    "name": "TIKTOKSTAR",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "KAIXIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "WITCH"
+   }
+  ],
+  "votes": [
+   {
+    "CORN": true,
+    "RAYQUAZA": true
+   },
+   {
+    "YUZI": true,
+    "TIKTOKSTAR": false,
+    "WINESLUSHY": true
+   },
+   {
+    "YUZI": true,
+    "WITCH": true,
+    "CORN": false
+   },
+   {
+    "KAIXIN": true,
+    "CORN": false,
+    "YUZI": true,
+    "WITCH": true
+   },
+   {
+    "CORN": false,
+    "TIKTOKSTAR": false,
+    "WITCH": true,
+    "WINESLUSHY": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1586050707,
+  "_nanoseconds": 8000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "CORN",
+      "RAYQUAZA"
+     ],
+     "state": "APPROVED",
+     "proposer": "WINESLUSHY",
+     "votes": [
+      "RAYQUAZA",
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "KAIXIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "CORN",
+    "RAYQUAZA"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "TIKTOKSTAR",
+    "WINESLUSHY",
+    "YUZI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TIKTOKSTAR",
+      "WINESLUSHY",
+      "YUZI"
+     ],
+     "votes": [
+      "RAYQUAZA",
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "KAIXIN",
+      "WITCH"
+     ],
+     "proposer": "TIKTOKSTAR",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "WITCH",
+    "CORN",
+    "YUZI"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WITCH",
+      "RAYQUAZA",
+      "YUZI",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "KAIXIN"
+     ],
+     "proposer": "WITCH",
+     "team": [
+      "WITCH",
+      "CORN",
+      "YUZI"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "KAIXIN",
+     "team": [
+      "KAIXIN",
+      "CORN",
+      "WITCH",
+      "YUZI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WITCH",
+      "RAYQUAZA",
+      "CORN",
+      "TIKTOKSTAR",
+      "KAIXIN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 1,
+   "state": "SUCCESS",
+   "team": [
+    "KAIXIN",
+    "CORN",
+    "WITCH",
+    "YUZI"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "WINESLUSHY",
+      "TIKTOKSTAR",
+      "RAYQUAZA"
+     ],
+     "state": "REJECTED",
+     "proposer": "RAYQUAZA",
+     "team": [
+      "RAYQUAZA",
+      "WITCH",
+      "TIKTOKSTAR",
+      "WINESLUSHY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAYQUAZA",
+      "CORN",
+      "WINESLUSHY",
+      "TIKTOKSTAR"
+     ],
+     "team": [
+      "CORN",
+      "TIKTOKSTAR",
+      "WITCH",
+      "WINESLUSHY"
+     ],
+     "proposer": "CORN"
+    }
+   ],
+   "team": [
+    "CORN",
+    "TIKTOKSTAR",
+    "WITCH",
+    "WINESLUSHY"
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL"
+  }
+ ]
+}

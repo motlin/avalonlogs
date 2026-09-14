@@ -1,0 +1,250 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "AUDREY",
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "JEWELL",
+      "FATHER",
+      "CLAIRE",
+      "AUDREY"
+     ],
+     "team": [
+      "JEWELL",
+      "CLAIRE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JEWELL",
+    "CLAIRE"
+   ],
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "BRIAN",
+      "JEWELL",
+      "FATHER",
+      "CLAIRE",
+      "AUDREY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JEWELL",
+     "team": [
+      "AUDREY",
+      "CLAIRE",
+      "FATHER"
+     ]
+    }
+   ],
+   "team": [
+    "AUDREY",
+    "CLAIRE",
+    "FATHER"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CLAIRE",
+    "JEWELL",
+    "FATHER",
+    "NIGEL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BRIAN",
+      "JEWELL",
+      "FATHER",
+      "CLAIRE",
+      "NIGEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "CLAIRE",
+     "team": [
+      "CLAIRE",
+      "JEWELL",
+      "FATHER",
+      "NIGEL"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BRIAN",
+      "FATHER",
+      "CLAIRE",
+      "AUDREY"
+     ],
+     "state": "APPROVED",
+     "proposer": "FATHER",
+     "team": [
+      "CLAIRE",
+      "BRIAN",
+      "FATHER"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "CLAIRE",
+    "BRIAN",
+    "FATHER"
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BRIAN",
+      "JEWELL",
+      "FATHER",
+      "CLAIRE",
+      "AUDREY",
+      "NIGEL"
+     ],
+     "team": [
+      "NIGEL",
+      "AUDREY",
+      "JEWELL",
+      "FATHER"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIGEL"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "NIGEL",
+    "AUDREY",
+    "JEWELL",
+    "FATHER"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585541115,
+  "_nanoseconds": 676410000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "JEWELL": true,
+    "CLAIRE": true
+   },
+   {
+    "FATHER": true,
+    "CLAIRE": true,
+    "AUDREY": true
+   },
+   {
+    "NIGEL": false,
+    "FATHER": true,
+    "JEWELL": true,
+    "CLAIRE": true
+   },
+   {
+    "BRIAN": false,
+    "CLAIRE": true,
+    "FATHER": true
+   },
+   {
+    "FATHER": true,
+    "NIGEL": false,
+    "JEWELL": true,
+    "AUDREY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "NIGEL",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "BRIAN"
+   },
+   {
+    "name": "JEWELL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "FATHER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CLAIRE"
+   },
+   {
+    "name": "AUDREY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "eg7UDaA2gMU7K7gcPabyg60I5Oo1",
+   "name": "NIGEL"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "WozXxaK6eXhfWb7J50efToJsJlh2"
+  },
+  {
+   "name": "AUDREY",
+   "uid": "UoslXRO7vaefHq19QAlBoIxYoAt1"
+  },
+  {
+   "name": "JEWELL",
+   "uid": "SVaemQCCsWdF4kkVSNzEgKolB1A3"
+  },
+  {
+   "uid": "mPJKxxZZShesmso8vKbhxvyIk6E3",
+   "name": "CLAIRE"
+  },
+  {
+   "name": "FATHER",
+   "uid": "w4QIdSJH8dYvsKADGOPLinQtmuk2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585540452,
+  "_nanoseconds": 433000000
+ }
+}

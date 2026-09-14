@@ -1,0 +1,248 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "AMANDA",
+     "votes": [
+      "MAL",
+      "AMANDA",
+      "RYRY"
+     ],
+     "team": [
+      "AMANDA",
+      "NIKKI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "AMANDA",
+    "NIKKI"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "AMANDA",
+      "JERRY",
+      "RYRY"
+     ],
+     "proposer": "JERRY",
+     "team": [
+      "NIKKI",
+      "AMANDA",
+      "JERRY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "NIKKI",
+    "AMANDA",
+    "JERRY"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "MAL",
+    "AMANDA"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAL",
+      "AMANDA"
+     ],
+     "votes": [
+      "MAL",
+      "JERRY",
+      "RYRY"
+     ],
+     "proposer": "MAL"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "AMANDA",
+      "RYRY"
+     ],
+     "team": [
+      "RYRY",
+      "NIKKI",
+      "AMANDA"
+     ],
+     "state": "REJECTED",
+     "proposer": "RYRY"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "NIKKI",
+      "AMANDA",
+      "RYRY"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "team": [
+      "NIKKI",
+      "AMANDA",
+      "RYRY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AMANDA",
+      "RYRY",
+      "NIKKI"
+     ],
+     "proposer": "AMANDA"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "NIKKI",
+    "AMANDA",
+    "RYRY"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "NIKKI",
+    "AMANDA",
+    "MAL"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "AMANDA",
+      "JERRY"
+     ],
+     "team": [
+      "NIKKI",
+      "AMANDA",
+      "MAL"
+     ],
+     "proposer": "JERRY"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743",
+   "name": "NIKKI"
+  },
+  {
+   "name": "AMANDA",
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1"
+  },
+  {
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2",
+   "name": "JERRY"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "uid": "B1k4heBoO4Q63pbRwLu7qBt9B8P2",
+   "name": "RYRY"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "AMANDA": true,
+    "NIKKI": true
+   },
+   {
+    "JERRY": false,
+    "AMANDA": true,
+    "NIKKI": true
+   },
+   {
+    "MAL": false,
+    "AMANDA": true
+   },
+   {
+    "RYRY": true,
+    "AMANDA": true,
+    "NIKKI": true
+   },
+   {
+    "MAL": false,
+    "NIKKI": true,
+    "AMANDA": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "MAL"
+   },
+   {
+    "name": "AMANDA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JERRY"
+   },
+   {
+    "name": "RYRY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "NIKKI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1594419816,
+  "_nanoseconds": 387000000
+ },
+ "timeCreated": {
+  "_seconds": 1594419125,
+  "_nanoseconds": 44000000
+ }
+}

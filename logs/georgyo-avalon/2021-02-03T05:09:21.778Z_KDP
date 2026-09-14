@@ -1,0 +1,365 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "BOBA",
+  "votes": [
+   {
+    "SKRUBFLOOR": true,
+    "BOBA": true
+   },
+   {
+    "BOBA": true,
+    "CUMBERBAE": true,
+    "SKRUBFLOOR": true
+   },
+   {
+    "DK": true,
+    "SKRUBFLOOR": true,
+    "BOBA": true,
+    "CUMBERBAE": false
+   },
+   {
+    "BOBA": true,
+    "CUMBERBAE": false,
+    "SKRUBFLOOR": true
+   },
+   {
+    "DK": true,
+    "BOBA": true,
+    "DORICE": true,
+    "SKRUBFLOOR": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JAY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "DORICE",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SKRUBFLOOR",
+    "assassin": false
+   },
+   {
+    "name": "CUMBERBAE",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DK"
+   },
+   {
+    "name": "BOBA",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1612331228,
+  "_nanoseconds": 505000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DORICE",
+      "SKRUBFLOOR",
+      "CUMBERBAE",
+      "BOBA",
+      "DK"
+     ],
+     "team": [
+      "BOBA",
+      "SKRUBFLOOR"
+     ],
+     "proposer": "SKRUBFLOOR",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "BOBA",
+    "SKRUBFLOOR"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "DORICE",
+     "team": [
+      "DORICE",
+      "BOBA",
+      "SKRUBFLOOR"
+     ],
+     "votes": [
+      "BOBA",
+      "DORICE",
+      "CUMBERBAE"
+     ]
+    },
+    {
+     "votes": [
+      "BOBA",
+      "DK",
+      "DORICE"
+     ],
+     "team": [
+      "DK",
+      "SKRUBFLOOR",
+      "BOBA"
+     ],
+     "state": "REJECTED",
+     "proposer": "DK"
+    },
+    {
+     "votes": [
+      "CUMBERBAE",
+      "DK",
+      "DORICE",
+      "BOBA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CUMBERBAE",
+      "BOBA",
+      "SKRUBFLOOR"
+     ],
+     "proposer": "CUMBERBAE"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "CUMBERBAE",
+    "BOBA",
+    "SKRUBFLOOR"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "BOBA",
+    "CUMBERBAE",
+    "SKRUBFLOOR",
+    "DK"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "BOBA",
+     "state": "APPROVED",
+     "team": [
+      "BOBA",
+      "CUMBERBAE",
+      "SKRUBFLOOR",
+      "DK"
+     ],
+     "votes": [
+      "JAY",
+      "DK",
+      "CUMBERBAE",
+      "BOBA",
+      "DORICE",
+      "SKRUBFLOOR"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "SKRUBFLOOR",
+    "CUMBERBAE",
+    "BOBA"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "JAY",
+     "state": "REJECTED",
+     "team": [
+      "CUMBERBAE",
+      "BOBA",
+      "SKRUBFLOOR"
+     ],
+     "votes": [
+      "CUMBERBAE",
+      "JAY",
+      "SKRUBFLOOR"
+     ]
+    },
+    {
+     "votes": [
+      "SKRUBFLOOR",
+      "CUMBERBAE",
+      "JAY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SKRUBFLOOR",
+      "BOBA",
+      "CUMBERBAE"
+     ],
+     "proposer": "SKRUBFLOOR"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "SKRUBFLOOR",
+      "CUMBERBAE",
+      "BOBA"
+     ],
+     "proposer": "DORICE",
+     "votes": [
+      "DK",
+      "DORICE",
+      "BOBA",
+      "SKRUBFLOOR",
+      "JAY",
+      "CUMBERBAE"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "DORICE",
+    "DK",
+    "SKRUBFLOOR",
+    "BOBA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JAY",
+      "BOBA"
+     ],
+     "proposer": "DK",
+     "team": [
+      "DK",
+      "DORICE",
+      "BOBA",
+      "JAY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DORICE",
+      "JAY",
+      "CUMBERBAE"
+     ],
+     "team": [
+      "SKRUBFLOOR",
+      "CUMBERBAE",
+      "DK",
+      "DORICE"
+     ],
+     "proposer": "CUMBERBAE"
+    },
+    {
+     "votes": [
+      "BOBA",
+      "DORICE"
+     ],
+     "proposer": "BOBA",
+     "state": "REJECTED",
+     "team": [
+      "BOBA",
+      "DORICE",
+      "DK",
+      "SKRUBFLOOR"
+     ]
+    },
+    {
+     "team": [
+      "DORICE",
+      "DK",
+      "JAY",
+      "CUMBERBAE"
+     ],
+     "votes": [
+      "JAY"
+     ],
+     "proposer": "JAY",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SKRUBFLOOR",
+     "votes": [
+      "BOBA",
+      "DK",
+      "DORICE",
+      "SKRUBFLOOR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DORICE",
+      "DK",
+      "SKRUBFLOOR",
+      "BOBA"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "DORICE",
+   "uid": "SJpry8iE2XUXULBPHg3hNzunphk1"
+  },
+  {
+   "name": "DK",
+   "uid": "KI3PiEivMyaNimyKHXISGlV99yc2"
+  },
+  {
+   "name": "CUMBERBAE",
+   "uid": "NXi2HRKn4eMBFW1xEXyPZqfidZy2"
+  },
+  {
+   "name": "BOBA",
+   "uid": "9na0lw5AyTbGCQiKhm2SkaXgENz1"
+  },
+  {
+   "uid": "pIjSItKivKMn77h7ZckVCClmZIx2",
+   "name": "JAY"
+  },
+  {
+   "name": "SKRUBFLOOR",
+   "uid": "c2G7YSolhJZSvjhu4L2kkGYFMGT2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1612328961,
+  "_nanoseconds": 778000000
+ }
+}

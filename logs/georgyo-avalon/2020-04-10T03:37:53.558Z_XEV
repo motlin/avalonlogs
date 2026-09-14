@@ -1,0 +1,350 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KEV",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "GEX",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MICHELLE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANSON"
+   },
+   {
+    "name": "FREDERICK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "RATS",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "CC"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "SRNA"
+   }
+  ],
+  "votes": [
+   {
+    "GEX": true,
+    "SRNA": true,
+    "RATS": true
+   },
+   {
+    "FREDERICK": true,
+    "GEX": true,
+    "SRNA": false,
+    "RATS": false
+   },
+   {
+    "MICHELLE": true,
+    "CC": true,
+    "KEV": true,
+    "GEX": true
+   },
+   {
+    "SRNA": false,
+    "ANSON": true,
+    "CC": false,
+    "MICHELLE": true,
+    "KEV": true
+   },
+   {
+    "KEV": true,
+    "RATS": false,
+    "CC": false,
+    "MICHELLE": true,
+    "SRNA": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1586489873,
+  "_nanoseconds": 558000000
+ },
+ "timeFinished": {
+  "_seconds": 1586491179,
+  "_nanoseconds": 614735000
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "team": [
+    "RATS",
+    "GEX",
+    "SRNA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SRNA",
+      "KEV",
+      "GEX",
+      "MICHELLE",
+      "ANSON",
+      "FREDERICK",
+      "RATS",
+      "CC"
+     ],
+     "team": [
+      "RATS",
+      "GEX",
+      "SRNA"
+     ],
+     "state": "APPROVED",
+     "proposer": "CC"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "FREDERICK",
+    "RATS",
+    "SRNA",
+    "GEX"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "GEX",
+      "ANSON",
+      "FREDERICK",
+      "CC",
+      "SRNA",
+      "KEV"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FREDERICK",
+      "RATS",
+      "SRNA",
+      "GEX"
+     ],
+     "proposer": "FREDERICK"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "MICHELLE",
+    "CC",
+    "KEV",
+    "GEX"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "CC",
+      "SRNA",
+      "KEV",
+      "GEX",
+      "MICHELLE"
+     ],
+     "team": [
+      "MICHELLE",
+      "CC",
+      "KEV",
+      "GEX"
+     ],
+     "proposer": "KEV",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "CC",
+    "MICHELLE",
+    "ANSON",
+    "KEV",
+    "SRNA"
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ANSON",
+      "FREDERICK",
+      "CC",
+      "SRNA",
+      "KEV",
+      "GEX",
+      "MICHELLE"
+     ],
+     "team": [
+      "CC",
+      "MICHELLE",
+      "ANSON",
+      "KEV",
+      "SRNA"
+     ],
+     "proposer": "ANSON",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 3,
+   "proposals": [
+    {
+     "team": [
+      "MICHELLE",
+      "CC",
+      "FREDERICK",
+      "KEV",
+      "RATS"
+     ],
+     "votes": [
+      "CC",
+      "SRNA",
+      "FREDERICK"
+     ],
+     "state": "REJECTED",
+     "proposer": "SRNA"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "MICHELLE",
+     "votes": [
+      "SRNA",
+      "GEX",
+      "MICHELLE",
+      "CC"
+     ],
+     "team": [
+      "MICHELLE",
+      "SRNA",
+      "CC",
+      "RATS",
+      "GEX"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SRNA"
+     ],
+     "team": [
+      "MICHELLE",
+      "CC",
+      "SRNA",
+      "KEV",
+      "GEX"
+     ],
+     "proposer": "GEX"
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "RATS",
+     "team": [
+      "GEX",
+      "MICHELLE",
+      "FREDERICK",
+      "KEV",
+      "ANSON"
+     ]
+    },
+    {
+     "proposer": "CC",
+     "votes": [
+      "ANSON",
+      "FREDERICK",
+      "RATS",
+      "CC",
+      "SRNA",
+      "KEV",
+      "GEX"
+     ],
+     "team": [
+      "SRNA",
+      "MICHELLE",
+      "KEV",
+      "RATS",
+      "CC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SRNA",
+    "MICHELLE",
+    "KEV",
+    "RATS",
+    "CC"
+   ],
+   "teamSize": 5,
+   "state": "FAIL"
+  }
+ ],
+ "players": [
+  {
+   "name": "RATS",
+   "uid": "c2Q63ZkUArWf3TCYazTbhWDLBkg1"
+  },
+  {
+   "name": "CC",
+   "uid": "9BDcrvha4OUxaP0kgKOdmKi7cuU2"
+  },
+  {
+   "name": "FREDERICK",
+   "uid": "c604rU1J9Zc8JeBjB82DdiZkr383"
+  },
+  {
+   "uid": "B04A70KNGPccjpGhEh4n169pQL12",
+   "name": "KEV"
+  },
+  {
+   "uid": "hJ28Wfq1xMWSFt1ooh31NCE1eSG3",
+   "name": "ANSON"
+  },
+  {
+   "name": "SRNA",
+   "uid": "s9ClHXQNXRVuGjiZkHJXfGGqANS2"
+  },
+  {
+   "uid": "BljF4uYlhTg8B9h23z1myog9wZs1",
+   "name": "MICHELLE"
+  },
+  {
+   "name": "GEX",
+   "uid": "vV8CiKope1ZNALZSr8eJw69ztPl2"
+  }
+ ]
+}

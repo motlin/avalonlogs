@@ -1,0 +1,319 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MASI"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SHIERA",
+    "assassin": false
+   },
+   {
+    "name": "PAPI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "LULU",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "GLEN",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "votes": [
+   {
+    "JA": true,
+    "MASI": true
+   },
+   {
+    "MASI": true,
+    "LULU": true,
+    "JA": true
+   },
+   {
+    "JA": true,
+    "GLEN": false,
+    "MASI": true,
+    "LULU": false
+   },
+   {
+    "JA": true,
+    "MASI": true,
+    "GLEN": false
+   },
+   {
+    "SHIERA": true,
+    "MASI": true,
+    "JA": true,
+    "PAPI": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "MASI"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "MASI",
+      "JA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MASI",
+      "PAPI",
+      "LULU",
+      "JA",
+      "GLEN",
+      "SHIERA"
+     ],
+     "proposer": "LULU"
+    }
+   ],
+   "team": [
+    "MASI",
+    "JA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "JA",
+      "MASI",
+      "LULU"
+     ],
+     "proposer": "JA",
+     "state": "APPROVED",
+     "votes": [
+      "GLEN",
+      "JA",
+      "PAPI",
+      "LULU",
+      "SHIERA",
+      "MASI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "JA",
+    "MASI",
+    "LULU"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "LULU",
+      "MASI",
+      "JA",
+      "GLEN",
+      "PAPI"
+     ],
+     "proposer": "GLEN",
+     "team": [
+      "MASI",
+      "LULU",
+      "JA",
+      "GLEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MASI",
+    "LULU",
+    "JA",
+    "GLEN"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "MASI",
+    "GLEN",
+    "JA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SHIERA",
+      "MASI",
+      "GLEN"
+     ],
+     "proposer": "SHIERA",
+     "state": "REJECTED",
+     "votes": [
+      "GLEN",
+      "SHIERA"
+     ]
+    },
+    {
+     "proposer": "PAPI",
+     "state": "REJECTED",
+     "team": [
+      "PAPI",
+      "MASI",
+      "JA"
+     ],
+     "votes": [
+      "PAPI",
+      "SHIERA"
+     ]
+    },
+    {
+     "votes": [
+      "SHIERA",
+      "JA",
+      "MASI",
+      "GLEN",
+      "PAPI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MASI",
+      "GLEN",
+      "JA"
+     ],
+     "proposer": "MASI"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "LULU",
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "JA",
+      "SHIERA",
+      "LULU",
+      "PAPI"
+     ]
+    },
+    {
+     "proposer": "JA",
+     "state": "REJECTED",
+     "votes": [
+      "MASI",
+      "SHIERA",
+      "JA"
+     ],
+     "team": [
+      "JA",
+      "MASI",
+      "SHIERA",
+      "PAPI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GLEN"
+     ],
+     "team": [
+      "PAPI",
+      "SHIERA",
+      "JA",
+      "GLEN"
+     ],
+     "proposer": "GLEN"
+    },
+    {
+     "votes": [
+      "PAPI",
+      "SHIERA",
+      "MASI",
+      "JA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MASI",
+      "JA",
+      "PAPI",
+      "SHIERA"
+     ],
+     "proposer": "SHIERA"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "MASI",
+    "JA",
+    "PAPI",
+    "SHIERA"
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1597810911,
+  "_nanoseconds": 632000000
+ },
+ "players": [
+  {
+   "uid": "7kfmjiOBQHVTe5JQ0EE52Q9RF7q1",
+   "name": "MASI"
+  },
+  {
+   "name": "LULU",
+   "uid": "EqvcQrucZWWXqUI232lMc8Uv4593"
+  },
+  {
+   "uid": "HaAEQV3gHUPlbnHSvlcEkniugiN2",
+   "name": "JA"
+  },
+  {
+   "name": "GLEN",
+   "uid": "l62rUJeCMFM83Mp8BozMPVfVWUM2"
+  },
+  {
+   "uid": "tTWiCM2W3NbhmwBiPcG3P7YMOtH2",
+   "name": "SHIERA"
+  },
+  {
+   "uid": "etR32CkVG2ZiQcAgYpKVg9hhdFQ2",
+   "name": "PAPI"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1597808665,
+  "_nanoseconds": 503000000
+ }
+}

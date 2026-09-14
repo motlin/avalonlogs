@@ -1,0 +1,245 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "EREN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "YUCKYSUCKY"
+   },
+   {
+    "assassin": false,
+    "name": "HOTTIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "YODDLS"
+   },
+   {
+    "name": "AD",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "votes": [
+   {
+    "YUCKYSUCKY": true,
+    "EREN": true
+   },
+   {
+    "AD": false,
+    "EREN": true,
+    "YODDLS": true
+   },
+   {
+    "EREN": true,
+    "HOTTIE": true
+   },
+   {
+    "EREN": true,
+    "YODDLS": true,
+    "AD": false
+   },
+   {
+    "EREN": true,
+    "HOTTIE": true,
+    "AD": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "vrNkKKHYoBP3nmouJuLWamgK82i2",
+   "name": "HOTTIE"
+  },
+  {
+   "name": "YODDLS",
+   "uid": "vPSceSdbA3h85a4kvKR9YiHv0513"
+  },
+  {
+   "name": "AD",
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2"
+  },
+  {
+   "name": "EREN",
+   "uid": "7HUOGrGuy9azjzxxu3u1X4D11KE2"
+  },
+  {
+   "uid": "PEbvv1lPlkhbZz9FPWopOzRF6rF2",
+   "name": "YUCKYSUCKY"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EREN",
+      "YUCKYSUCKY",
+      "HOTTIE",
+      "AD"
+     ],
+     "team": [
+      "YUCKYSUCKY",
+      "EREN"
+     ],
+     "proposer": "EREN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "YUCKYSUCKY",
+    "EREN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "AD",
+    "EREN",
+    "YODDLS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EREN",
+      "YUCKYSUCKY",
+      "HOTTIE",
+      "YODDLS",
+      "AD"
+     ],
+     "proposer": "YUCKYSUCKY",
+     "team": [
+      "AD",
+      "EREN",
+      "YODDLS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "EREN",
+      "HOTTIE"
+     ],
+     "votes": [
+      "HOTTIE",
+      "YODDLS",
+      "AD",
+      "EREN",
+      "YUCKYSUCKY"
+     ],
+     "proposer": "HOTTIE"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "EREN",
+    "HOTTIE"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "YODDLS",
+    "AD",
+    "EREN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "YODDLS",
+      "AD",
+      "EREN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EREN",
+      "YUCKYSUCKY",
+      "YODDLS",
+      "AD"
+     ],
+     "proposer": "YODDLS"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "EREN",
+    "HOTTIE",
+    "AD"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "YUCKYSUCKY",
+      "AD"
+     ],
+     "proposer": "AD",
+     "state": "REJECTED",
+     "team": [
+      "YUCKYSUCKY",
+      "EREN",
+      "HOTTIE"
+     ]
+    },
+    {
+     "proposer": "EREN",
+     "state": "APPROVED",
+     "votes": [
+      "HOTTIE",
+      "AD",
+      "EREN",
+      "YUCKYSUCKY"
+     ],
+     "team": [
+      "EREN",
+      "HOTTIE",
+      "AD"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587493991,
+  "_nanoseconds": 52000000
+ },
+ "timeCreated": {
+  "_seconds": 1587493770,
+  "_nanoseconds": 477000000
+ }
+}

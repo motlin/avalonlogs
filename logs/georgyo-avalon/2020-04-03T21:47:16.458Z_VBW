@@ -1,0 +1,254 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "LEAH"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JASON",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JASONN"
+   },
+   {
+    "assassin": false,
+    "name": "VICTORIA",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "ALAYNA",
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "VICTORIA",
+  "votes": [
+   {
+    "JASON": true,
+    "ALAYNA": true
+   },
+   {
+    "JASONN": false,
+    "VICTORIA": true,
+    "ALAYNA": true
+   },
+   {
+    "LEAH": false,
+    "ALAYNA": true
+   },
+   {
+    "VICTORIA": true,
+    "ALAYNA": true,
+    "JASON": true
+   },
+   {
+    "JASON": true,
+    "VICTORIA": true,
+    "ALAYNA": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALAYNA",
+      "JASON"
+     ],
+     "proposer": "ALAYNA",
+     "votes": [
+      "LEAH",
+      "JASON",
+      "JASONN",
+      "VICTORIA",
+      "ALAYNA"
+     ]
+    }
+   ],
+   "team": [
+    "ALAYNA",
+    "JASON"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JASONN",
+      "ALAYNA",
+      "VICTORIA"
+     ],
+     "proposer": "JASON",
+     "votes": [
+      "ALAYNA",
+      "LEAH",
+      "JASON",
+      "JASONN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "JASONN",
+    "ALAYNA",
+    "VICTORIA"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "ALAYNA",
+    "LEAH"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "LEAH",
+     "team": [
+      "ALAYNA",
+      "LEAH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JASONN",
+      "ALAYNA",
+      "LEAH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "JASON",
+    "ALAYNA",
+    "VICTORIA"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ALAYNA",
+      "JASON",
+      "VICTORIA"
+     ],
+     "proposer": "VICTORIA",
+     "state": "REJECTED",
+     "votes": [
+      "VICTORIA",
+      "ALAYNA"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JASON",
+      "ALAYNA",
+      "VICTORIA"
+     ],
+     "votes": [
+      "VICTORIA",
+      "ALAYNA",
+      "LEAH",
+      "JASON",
+      "JASONN"
+     ],
+     "proposer": "JASONN"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ALAYNA",
+     "team": [
+      "ALAYNA",
+      "JASON",
+      "VICTORIA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "VICTORIA",
+      "ALAYNA"
+     ]
+    },
+    {
+     "team": [
+      "JASON",
+      "ALAYNA",
+      "VICTORIA"
+     ],
+     "proposer": "JASON",
+     "votes": [
+      "VICTORIA",
+      "ALAYNA",
+      "JASON",
+      "JASONN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JASON",
+    "ALAYNA",
+    "VICTORIA"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585950436,
+  "_nanoseconds": 458000000
+ },
+ "timeFinished": {
+  "_seconds": 1585951150,
+  "_nanoseconds": 729936000
+ },
+ "players": [
+  {
+   "uid": "Ki8j3pQJjOV4bFhbMXmhqOaGKsu2",
+   "name": "ALAYNA"
+  },
+  {
+   "uid": "7ScRSVwBx1PGbZ2NX0s9FggRZUy2",
+   "name": "JASON"
+  },
+  {
+   "name": "LEAH",
+   "uid": "i2SOTi0WckYOTWGZ2YQUigcgStZ2"
+  },
+  {
+   "name": "VICTORIA",
+   "uid": "PRkD7pM7AkhJr9fYLFsQdts0hzw1"
+  },
+  {
+   "name": "JASONN",
+   "uid": "3UpaM6ccoDhPs9Ftv7GLL4Fs5gk2"
+  }
+ ]
+}

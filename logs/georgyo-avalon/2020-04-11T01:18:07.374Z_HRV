@@ -1,0 +1,314 @@
+{
+ "timeFinished": {
+  "_seconds": 1586568703,
+  "_nanoseconds": 250015000
+ },
+ "timeCreated": {
+  "_seconds": 1586567887,
+  "_nanoseconds": 374000000
+ },
+ "missions": [
+  {
+   "team": [
+    "BEEKS",
+    "CEL"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "BAGUETTE",
+     "votes": [
+      "BEEKS",
+      "FGB",
+      "CEL",
+      "BAGUETTE",
+      "EMILY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BEEKS",
+      "CEL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "BEEKS",
+    "CEL",
+    "FGB"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "CEL",
+     "votes": [
+      "FGB",
+      "CEL",
+      "EMILY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "EMILY",
+      "FGB",
+      "BEEKS"
+     ]
+    },
+    {
+     "votes": [
+      "CEL",
+      "BAGUETTE",
+      "BEEKS",
+      "FGB"
+     ],
+     "team": [
+      "BEEKS",
+      "CEL",
+      "FGB"
+     ],
+     "state": "APPROVED",
+     "proposer": "BEEKS"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "HEATHER",
+     "team": [
+      "HEATHER",
+      "BEEKS",
+      "EMILY",
+      "BAGUETTE"
+     ],
+     "votes": [
+      "EMILY",
+      "HEATHER"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "EMILY",
+      "BEEKS",
+      "BAGUETTE",
+      "HEATHER"
+     ],
+     "proposer": "EMILY",
+     "votes": [
+      "EMILY",
+      "HEATHER"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "FGB",
+      "BAGUETTE",
+      "HEATHER",
+      "BEEKS"
+     ],
+     "votes": [
+      "EMILY",
+      "BEEKS",
+      "FGB",
+      "HEATHER"
+     ],
+     "proposer": "FGB"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "FGB",
+    "BAGUETTE",
+    "HEATHER",
+    "BEEKS"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "BAGUETTE",
+      "BEEKS",
+      "FGB"
+     ],
+     "state": "REJECTED",
+     "proposer": "BAGUETTE",
+     "votes": [
+      "BAGUETTE",
+      "BEEKS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CEL",
+     "votes": [
+      "FGB",
+      "HEATHER"
+     ],
+     "team": [
+      "CEL",
+      "HEATHER",
+      "EMILY"
+     ]
+    },
+    {
+     "votes": [
+      "BEEKS",
+      "HEATHER",
+      "BAGUETTE",
+      "EMILY"
+     ],
+     "proposer": "BEEKS",
+     "team": [
+      "BEEKS",
+      "EMILY",
+      "BAGUETTE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BEEKS",
+    "EMILY",
+    "BAGUETTE"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BEEKS",
+      "FGB",
+      "HEATHER",
+      "EMILY"
+     ],
+     "team": [
+      "HEATHER",
+      "BAGUETTE",
+      "EMILY",
+      "BEEKS"
+     ],
+     "proposer": "HEATHER"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "HEATHER",
+    "BAGUETTE",
+    "EMILY",
+    "BEEKS"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CEL": true,
+    "BEEKS": true
+   },
+   {
+    "CEL": true,
+    "BEEKS": true,
+    "FGB": false
+   },
+   {
+    "HEATHER": true,
+    "BEEKS": true,
+    "BAGUETTE": true,
+    "FGB": false
+   },
+   {
+    "BAGUETTE": true,
+    "EMILY": true,
+    "BEEKS": true
+   },
+   {
+    "HEATHER": false,
+    "BAGUETTE": true,
+    "BEEKS": true,
+    "EMILY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "BEEKS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "FGB"
+   },
+   {
+    "name": "HEATHER",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "CEL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "BAGUETTE"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "EMILY",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "BEEKS",
+   "uid": "mPBsQ0tZYZVytbmrEbs2HXFFtnC3"
+  },
+  {
+   "uid": "y5O2B4N6fpZeJzEajJkm4MMRiE42",
+   "name": "HEATHER"
+  },
+  {
+   "name": "EMILY",
+   "uid": "zFvg8VmzMxVsbq7m5JavJGHuuVT2"
+  },
+  {
+   "uid": "3ifCRVTHnQbRjssUsACCXryap4y1",
+   "name": "FGB"
+  },
+  {
+   "name": "BAGUETTE",
+   "uid": "sorl3xUmL1MFagfhmUUAS3ub7TY2"
+  },
+  {
+   "name": "CEL",
+   "uid": "a3NSnQUqksbMb0E9pagO2b6zJSh1"
+  }
+ ]
+}

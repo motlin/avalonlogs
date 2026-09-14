@@ -1,0 +1,371 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "BOBBY": true,
+    "PETER": true
+   },
+   {
+    "FAHEEM": true,
+    "PETER": true,
+    "PETERGGGGG": false
+   },
+   {
+    "FAHEEM": true,
+    "JONATHAN": true,
+    "LINUS": true,
+    "PETER": true
+   },
+   {
+    "PETER": true,
+    "LINUS": true,
+    "FAHEEM": true
+   }
+  ],
+  "assassinated": "JONATHAN",
+  "roles": [
+   {
+    "name": "LINUS",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PETER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "PETERGGGGG"
+   },
+   {
+    "assassin": false,
+    "name": "FAHEEM",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORGANA",
+    "name": "BOBBY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JONATHAN"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BOBBY"
+     ],
+     "team": [
+      "BOBBY",
+      "PETERGGGGG"
+     ],
+     "proposer": "BOBBY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JONATHAN",
+      "BOBBY"
+     ],
+     "team": [
+      "JONATHAN",
+      "FAHEEM"
+     ],
+     "proposer": "JONATHAN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "FAHEEM",
+      "PETERGGGGG"
+     ],
+     "votes": [
+      "FAHEEM",
+      "BOBBY",
+      "PETERGGGGG"
+     ],
+     "proposer": "FAHEEM"
+    },
+    {
+     "votes": [
+      "JONATHAN",
+      "PETER",
+      "BOBBY",
+      "PETERGGGGG"
+     ],
+     "team": [
+      "PETER",
+      "BOBBY"
+     ],
+     "state": "APPROVED",
+     "proposer": "PETER"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "PETER",
+    "BOBBY"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "FAHEEM",
+    "PETER",
+    "PETERGGGGG"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LINUS",
+      "JONATHAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "LINUS",
+     "team": [
+      "LINUS",
+      "PETERGGGGG",
+      "PETER"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "PETERGGGGG",
+     "votes": [],
+     "team": [
+      "LINUS",
+      "JONATHAN",
+      "FAHEEM"
+     ]
+    },
+    {
+     "team": [
+      "BOBBY",
+      "PETERGGGGG",
+      "PETER"
+     ],
+     "state": "REJECTED",
+     "proposer": "BOBBY",
+     "votes": [
+      "BOBBY"
+     ]
+    },
+    {
+     "votes": [
+      "PETER",
+      "LINUS",
+      "JONATHAN"
+     ],
+     "proposer": "JONATHAN",
+     "state": "REJECTED",
+     "team": [
+      "JONATHAN",
+      "PETERGGGGG",
+      "LINUS"
+     ]
+    },
+    {
+     "proposer": "FAHEEM",
+     "state": "APPROVED",
+     "votes": [
+      "FAHEEM",
+      "LINUS",
+      "JONATHAN",
+      "BOBBY",
+      "PETER"
+     ],
+     "team": [
+      "FAHEEM",
+      "PETER",
+      "PETERGGGGG"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "JONATHAN",
+    "FAHEEM",
+    "LINUS",
+    "PETER"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "PETER"
+     ],
+     "proposer": "PETER",
+     "team": [
+      "PETER",
+      "FAHEEM",
+      "BOBBY",
+      "LINUS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LINUS",
+     "votes": [
+      "PETER",
+      "LINUS",
+      "JONATHAN",
+      "FAHEEM"
+     ],
+     "team": [
+      "JONATHAN",
+      "FAHEEM",
+      "LINUS",
+      "PETER"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "FAHEEM",
+    "PETER",
+    "LINUS"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "FAHEEM",
+      "PETER",
+      "JONATHAN"
+     ],
+     "votes": [
+      "PETERGGGGG"
+     ],
+     "proposer": "PETERGGGGG"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BOBBY",
+      "PETERGGGGG"
+     ],
+     "team": [
+      "PETERGGGGG",
+      "BOBBY",
+      "LINUS"
+     ],
+     "proposer": "BOBBY"
+    },
+    {
+     "team": [
+      "JONATHAN",
+      "LINUS",
+      "BOBBY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BOBBY",
+      "JONATHAN"
+     ],
+     "proposer": "JONATHAN"
+    },
+    {
+     "team": [
+      "FAHEEM",
+      "PETER",
+      "LINUS"
+     ],
+     "votes": [
+      "FAHEEM",
+      "LINUS"
+     ],
+     "state": "REJECTED",
+     "proposer": "FAHEEM"
+    },
+    {
+     "proposer": "PETER",
+     "team": [
+      "FAHEEM",
+      "PETER",
+      "LINUS"
+     ],
+     "votes": [
+      "LINUS",
+      "PETER",
+      "FAHEEM",
+      "BOBBY",
+      "PETERGGGGG",
+      "JONATHAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1601758211,
+  "_nanoseconds": 988000000
+ },
+ "players": [
+  {
+   "uid": "k04SqWCeh7VKNbhWUUKOMzYepxK2",
+   "name": "FAHEEM"
+  },
+  {
+   "name": "PETER",
+   "uid": "CMMO7gIesgfmdHE3zHlPik6bpZt1"
+  },
+  {
+   "uid": "HvftfzosCuVHLWlNWayicuIMcdX2",
+   "name": "LINUS"
+  },
+  {
+   "name": "PETERGGGGG",
+   "uid": "0E15goi5wwhYQDXlgoTXrhTucv33"
+  },
+  {
+   "name": "BOBBY",
+   "uid": "alJ5uAl1cSVGNayU3nb3DX6bWOk1"
+  },
+  {
+   "name": "JONATHAN",
+   "uid": "fC3nxlydfgUBI3dqICJECt1AkQU2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1601754462,
+  "_nanoseconds": 297000000
+ }
+}

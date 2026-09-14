@@ -1,0 +1,363 @@
+{
+ "timeFinished": {
+  "_seconds": 1590906178,
+  "_nanoseconds": 326000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "JOHN": true,
+    "KEVINF": true,
+    "MICHAEL": true
+   },
+   {
+    "JOHN": false,
+    "MICHAEL": true,
+    "KEVIN": false,
+    "KEVINF": true
+   },
+   {
+    "JUDIII": true,
+    "KEVIN": false,
+    "RAY": true,
+    "JOSHUA": true
+   },
+   {
+    "JUDIII": true,
+    "DHANA": true,
+    "JOSHUA": true,
+    "RAY": true,
+    "ICEMONEY": true
+   },
+   {
+    "JUDIII": true,
+    "RAY": true,
+    "JOSHUA": true,
+    "DHANA": true,
+    "KEVINF": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DHANA",
+    "assassin": false
+   },
+   {
+    "name": "KEVINF",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JOHN",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MICHAEL"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RAY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ICEMONEY",
+    "role": "MORGANA"
+   },
+   {
+    "name": "JOSHUA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "JUDIII",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "MICHAEL"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590901736,
+  "_nanoseconds": 562000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "MICHAEL",
+      "ICEMONEY",
+      "JOHN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JUDIII",
+      "KEVINF",
+      "MICHAEL",
+      "ICEMONEY"
+     ],
+     "proposer": "MICHAEL"
+    },
+    {
+     "team": [
+      "KEVIN",
+      "DHANA",
+      "ICEMONEY"
+     ],
+     "state": "REJECTED",
+     "proposer": "ICEMONEY",
+     "votes": [
+      "KEVINF",
+      "MICHAEL"
+     ]
+    },
+    {
+     "team": [
+      "JOHN",
+      "MICHAEL",
+      "KEVINF"
+     ],
+     "proposer": "JOHN",
+     "state": "APPROVED",
+     "votes": [
+      "JUDIII",
+      "KEVINF",
+      "JOHN",
+      "KEVIN",
+      "RAY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "JOHN",
+    "MICHAEL",
+    "KEVINF"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JOSHUA",
+      "JUDIII",
+      "DHANA",
+      "KEVINF",
+      "JOHN",
+      "KEVIN",
+      "RAY"
+     ],
+     "team": [
+      "KEVIN",
+      "JOHN",
+      "MICHAEL",
+      "KEVINF"
+     ],
+     "proposer": "KEVIN",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 4,
+   "team": [
+    "KEVIN",
+    "JOHN",
+    "MICHAEL",
+    "KEVINF"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "RAY",
+    "KEVIN",
+    "JOSHUA",
+    "JUDIII"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JOSHUA",
+      "JUDIII",
+      "DHANA",
+      "RAY"
+     ],
+     "team": [
+      "DHANA",
+      "JOSHUA",
+      "KEVIN",
+      "ICEMONEY"
+     ],
+     "proposer": "DHANA"
+    },
+    {
+     "votes": [
+      "JUDIII",
+      "DHANA",
+      "KEVIN",
+      "RAY",
+      "JOSHUA"
+     ],
+     "proposer": "RAY",
+     "team": [
+      "RAY",
+      "KEVIN",
+      "JOSHUA",
+      "JUDIII"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "JUDIII",
+    "RAY",
+    "JOSHUA",
+    "DHANA",
+    "ICEMONEY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JUDIII",
+     "votes": [
+      "KEVIN",
+      "RAY",
+      "ICEMONEY",
+      "JOSHUA",
+      "JUDIII",
+      "DHANA",
+      "JOHN",
+      "MICHAEL"
+     ],
+     "team": [
+      "JUDIII",
+      "RAY",
+      "JOSHUA",
+      "DHANA",
+      "ICEMONEY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 5
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "team": [
+    "KEVINF",
+    "JOSHUA",
+    "JUDIII",
+    "RAY",
+    "DHANA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JOSHUA",
+     "votes": [
+      "JOSHUA",
+      "JUDIII",
+      "KEVINF",
+      "RAY"
+     ],
+     "team": [
+      "JUDIII",
+      "JOSHUA",
+      "DHANA",
+      "KEVINF",
+      "RAY"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JOSHUA",
+      "JUDIII",
+      "DHANA",
+      "KEVINF",
+      "JOHN",
+      "MICHAEL",
+      "RAY"
+     ],
+     "team": [
+      "KEVINF",
+      "JOSHUA",
+      "JUDIII",
+      "RAY",
+      "DHANA"
+     ],
+     "proposer": "KEVINF"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "Caopz8kKWQXvef37J0iZSBpsZaG2",
+   "name": "KEVIN"
+  },
+  {
+   "uid": "soHKlrflMlQt9ncwae9jpeJra9x1",
+   "name": "DHANA"
+  },
+  {
+   "uid": "2i47YYJXw5a7xL9uHLkzjNr22Om2",
+   "name": "RAY"
+  },
+  {
+   "name": "JUDIII",
+   "uid": "3jYpVJA8jyYDd4Y1wxAlUkNPfPj2"
+  },
+  {
+   "name": "JOSHUA",
+   "uid": "5H0huIVEGdO0zemg0a4hDmQQbS72"
+  },
+  {
+   "name": "KEVINF",
+   "uid": "OIldn7FigsR49oZVeoqZCjPfGJt1"
+  },
+  {
+   "uid": "z55yqFNUBHZW8DnVQZiPu9j57ah1",
+   "name": "MICHAEL"
+  },
+  {
+   "name": "ICEMONEY",
+   "uid": "Ah2fju4v0AXtSnnZwIef7iM7KLg2"
+  },
+  {
+   "name": "JOHN",
+   "uid": "z9rWwW0362crJB1ewn7m8aWcM8Z2"
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "players": [
+  {
+   "uid": "ouXMorBTweWuQnGMWpQIBjDXcIG2",
+   "name": "RAMYA"
+  },
+  {
+   "name": "ALKHANSA",
+   "uid": "QfWwliaTN3YURPy9X7iXBHFV67z1"
+  },
+  {
+   "name": "IZZY",
+   "uid": "aAxDtaMVOchGac1r0JqSAu9AIsg2"
+  },
+  {
+   "uid": "WXy8DSVQ0DcUno5ccAM4ifjW4jn2",
+   "name": "YOUNESS"
+  },
+  {
+   "name": "SCOTT",
+   "uid": "v6wYFsp31RQ4T73zUw7UYJJsCaw1"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "IZZY",
+    "YOUNESS"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "IZZY",
+      "YOUNESS"
+     ],
+     "state": "APPROVED",
+     "proposer": "IZZY",
+     "votes": [
+      "IZZY",
+      "YOUNESS",
+      "ALKHANSA",
+      "RAMYA"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "IZZY",
+    "ALKHANSA",
+    "RAMYA"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "YOUNESS",
+     "votes": [
+      "RAMYA",
+      "IZZY",
+      "YOUNESS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "IZZY",
+      "ALKHANSA",
+      "RAMYA"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "SCOTT",
+     "team": [
+      "YOUNESS",
+      "ALKHANSA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "IZZY",
+      "YOUNESS",
+      "SCOTT",
+      "ALKHANSA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "YOUNESS",
+    "ALKHANSA"
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "IZZY",
+    "ALKHANSA",
+    "YOUNESS"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "IZZY",
+      "YOUNESS",
+      "RAMYA"
+     ],
+     "team": [
+      "IZZY",
+      "ALKHANSA",
+      "YOUNESS"
+     ],
+     "proposer": "RAMYA"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "YOUNESS",
+      "SCOTT",
+      "ALKHANSA",
+      "RAMYA",
+      "IZZY"
+     ],
+     "team": [
+      "ALKHANSA",
+      "YOUNESS",
+      "SCOTT"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALKHANSA"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "ALKHANSA",
+    "YOUNESS",
+    "SCOTT"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590800852,
+  "_nanoseconds": 188000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "ALKHANSA",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "YOUNESS"
+   },
+   {
+    "name": "SCOTT",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALKHANSA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "RAMYA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "IZZY"
+   }
+  ],
+  "votes": [
+   {
+    "YOUNESS": true,
+    "IZZY": true
+   },
+   {
+    "ALKHANSA": true,
+    "RAMYA": false,
+    "IZZY": true
+   },
+   {
+    "YOUNESS": true,
+    "ALKHANSA": true
+   },
+   {
+    "YOUNESS": true,
+    "ALKHANSA": true,
+    "IZZY": false
+   },
+   {
+    "YOUNESS": true,
+    "ALKHANSA": true,
+    "SCOTT": true
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1590801215,
+  "_nanoseconds": 230000000
+ }
+}

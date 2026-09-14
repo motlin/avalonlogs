@@ -1,0 +1,305 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "WILL",
+    "JERRY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "WILL",
+     "state": "APPROVED",
+     "votes": [
+      "KENNY",
+      "SIDDHANT",
+      "WILL",
+      "MAL",
+      "JERRY",
+      "AMANDA"
+     ],
+     "team": [
+      "WILL",
+      "JERRY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "WILL",
+    "JERRY",
+    "SIDDHANT"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "KENNY",
+     "team": [
+      "KENNY",
+      "WILL",
+      "JERRY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JERRY",
+      "AMANDA",
+      "KENNY"
+     ]
+    },
+    {
+     "team": [
+      "NIKKI",
+      "WILL",
+      "JERRY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KENNY",
+      "JERRY",
+      "AMANDA"
+     ],
+     "proposer": "NIKKI"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KENNY",
+      "NIKKI",
+      "SIDDHANT",
+      "WILL",
+      "JERRY",
+      "AMANDA"
+     ],
+     "proposer": "SIDDHANT",
+     "team": [
+      "WILL",
+      "JERRY",
+      "SIDDHANT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "AMANDA",
+    "WILL",
+    "JERRY"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "AMANDA",
+     "votes": [
+      "KENNY",
+      "NIKKI",
+      "SIDDHANT",
+      "WILL",
+      "JERRY",
+      "AMANDA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AMANDA",
+      "WILL",
+      "JERRY"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MAL",
+      "KENNY"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAL",
+     "team": [
+      "MAL",
+      "JERRY",
+      "AMANDA",
+      "WILL"
+     ]
+    },
+    {
+     "proposer": "JERRY",
+     "team": [
+      "JERRY",
+      "WILL",
+      "KENNY",
+      "NIKKI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "JERRY",
+      "KENNY",
+      "SIDDHANT"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "JERRY",
+    "WILL",
+    "KENNY",
+    "NIKKI"
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "NIKKI",
+      "AMANDA",
+      "MAL",
+      "WILL"
+     ],
+     "proposer": "WILL",
+     "votes": [
+      "MAL",
+      "AMANDA",
+      "NIKKI",
+      "WILL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "NIKKI",
+    "AMANDA",
+    "MAL",
+    "WILL"
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "WILL",
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83"
+  },
+  {
+   "uid": "V2KfteaM2obh7vvdP96tqZfsKFY2",
+   "name": "KENNY"
+  },
+  {
+   "name": "NIKKI",
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743"
+  },
+  {
+   "name": "SIDDHANT",
+   "uid": "BOfgQoFuXVcasobc5ELL1WmBERS2"
+  },
+  {
+   "name": "AMANDA",
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "WILL": true,
+    "JERRY": true
+   },
+   {
+    "WILL": true,
+    "SIDDHANT": true,
+    "JERRY": true
+   },
+   {
+    "WILL": true,
+    "JERRY": false,
+    "AMANDA": true
+   },
+   {
+    "NIKKI": true,
+    "JERRY": false,
+    "KENNY": false,
+    "WILL": true
+   },
+   {
+    "WILL": true,
+    "MAL": true,
+    "NIKKI": true,
+    "AMANDA": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "WILL"
+   },
+   {
+    "assassin": false,
+    "name": "MAL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JERRY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AMANDA"
+   },
+   {
+    "name": "KENNY",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "NIKKI",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "SIDDHANT",
+    "assassin": false
+   }
+  ],
+  "assassinated": "WILL"
+ },
+ "timeFinished": {
+  "_seconds": 1591931177,
+  "_nanoseconds": 964000000
+ },
+ "timeCreated": {
+  "_seconds": 1591929114,
+  "_nanoseconds": 851000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

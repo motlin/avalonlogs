@@ -1,0 +1,341 @@
+{
+ "players": [
+  {
+   "name": "KEVIN",
+   "uid": "yGLYyTMOo7a9dJHNw909plAV5Su1"
+  },
+  {
+   "name": "JIHYUN",
+   "uid": "A0cdwbhJ7NPz4f8kUozBBJbQAiZ2"
+  },
+  {
+   "name": "HAMNCHEESE",
+   "uid": "MZ7xXwGxhRTpeljrgCIsBsz29fs2"
+  },
+  {
+   "uid": "2K4D6IUAdHaN3GfZMeRHYN2Dc2c2",
+   "name": "JOYCE"
+  },
+  {
+   "uid": "66ZCCWrr76Nq80SVMtLyE8CLiUO2",
+   "name": "SCREELAI"
+  },
+  {
+   "name": "PAIGE",
+   "uid": "pkXuouORjROQ2cjMktsm3V0mbIh1"
+  },
+  {
+   "uid": "5gCiHhpxvCZC4rW551ZHVHnG3sg1",
+   "name": "ANGU"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "JIHYUN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "PAIGE"
+   },
+   {
+    "name": "ANGU",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "SCREELAI"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "JOYCE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "HAMNCHEESE",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "ANGU": true,
+    "KEVIN": true
+   },
+   {
+    "SCREELAI": false,
+    "JIHYUN": true,
+    "PAIGE": true
+   },
+   {
+    "KEVIN": true,
+    "ANGU": true,
+    "SCREELAI": false
+   },
+   {
+    "JOYCE": true,
+    "HAMNCHEESE": true,
+    "KEVIN": true,
+    "ANGU": true
+   },
+   {
+    "JOYCE": true,
+    "ANGU": true,
+    "KEVIN": false,
+    "HAMNCHEESE": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1611385063,
+  "_nanoseconds": 609000000
+ },
+ "timeFinished": {
+  "_seconds": 1611386904,
+  "_nanoseconds": 360000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KEVIN",
+      "ANGU"
+     ],
+     "proposer": "ANGU",
+     "votes": [
+      "KEVIN",
+      "HAMNCHEESE",
+      "ANGU",
+      "JIHYUN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KEVIN",
+    "ANGU"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SCREELAI",
+      "KEVIN",
+      "HAMNCHEESE"
+     ],
+     "state": "REJECTED",
+     "proposer": "KEVIN",
+     "team": [
+      "KEVIN",
+      "HAMNCHEESE",
+      "SCREELAI"
+     ]
+    },
+    {
+     "proposer": "JIHYUN",
+     "votes": [
+      "SCREELAI",
+      "PAIGE",
+      "JIHYUN",
+      "HAMNCHEESE"
+     ],
+     "team": [
+      "PAIGE",
+      "JIHYUN",
+      "SCREELAI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "PAIGE",
+    "JIHYUN",
+    "SCREELAI"
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "HAMNCHEESE",
+      "KEVIN",
+      "SCREELAI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "HAMNCHEESE"
+     ],
+     "proposer": "HAMNCHEESE"
+    },
+    {
+     "team": [
+      "JIHYUN",
+      "JOYCE",
+      "PAIGE"
+     ],
+     "proposer": "JOYCE",
+     "votes": [
+      "PAIGE",
+      "JIHYUN",
+      "JOYCE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "SCREELAI",
+      "PAIGE",
+      "KEVIN"
+     ],
+     "proposer": "SCREELAI",
+     "votes": [
+      "PAIGE",
+      "SCREELAI"
+     ]
+    },
+    {
+     "votes": [
+      "PAIGE"
+     ],
+     "team": [
+      "PAIGE",
+      "KEVIN",
+      "HAMNCHEESE"
+     ],
+     "proposer": "PAIGE",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KEVIN",
+      "ANGU",
+      "SCREELAI"
+     ],
+     "votes": [
+      "JIHYUN",
+      "HAMNCHEESE",
+      "SCREELAI",
+      "KEVIN",
+      "ANGU",
+      "PAIGE"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANGU"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "KEVIN",
+    "ANGU",
+    "SCREELAI"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "PAIGE",
+      "SCREELAI",
+      "HAMNCHEESE",
+      "ANGU",
+      "KEVIN"
+     ],
+     "proposer": "KEVIN",
+     "state": "APPROVED",
+     "team": [
+      "KEVIN",
+      "ANGU",
+      "HAMNCHEESE",
+      "JOYCE"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "KEVIN",
+    "ANGU",
+    "HAMNCHEESE",
+    "JOYCE"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "JIHYUN",
+     "team": [
+      "JOYCE",
+      "HAMNCHEESE",
+      "JIHYUN",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JOYCE",
+      "JIHYUN",
+      "PAIGE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "HAMNCHEESE",
+      "JOYCE",
+      "KEVIN",
+      "ANGU"
+     ],
+     "proposer": "HAMNCHEESE",
+     "votes": [
+      "SCREELAI",
+      "JOYCE",
+      "PAIGE",
+      "HAMNCHEESE",
+      "KEVIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "HAMNCHEESE",
+    "JOYCE",
+    "KEVIN",
+    "ANGU"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

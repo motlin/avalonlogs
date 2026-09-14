@@ -1,0 +1,366 @@
+{
+ "timeCreated": {
+  "_seconds": 1588999113,
+  "_nanoseconds": 846000000
+ },
+ "timeFinished": {
+  "_seconds": 1589001373,
+  "_nanoseconds": 206000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORDRED",
+    "name": "PAYAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AMI"
+   },
+   {
+    "assassin": false,
+    "name": "RONAK",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CHINGPING",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "name": "DISHANK",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SID",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "TEJAL",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SHRUTI"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JITU"
+   },
+   {
+    "assassin": false,
+    "name": "ZBH",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "CHINGPING": true,
+    "PAYAL": true,
+    "AMI": true
+   },
+   {
+    "PAYAL": false,
+    "RONAK": true,
+    "ZBH": true,
+    "JITU": true
+   },
+   {
+    "SHRUTI": true,
+    "AMI": true,
+    "SID": true,
+    "DISHANK": false
+   },
+   {
+    "AMI": true,
+    "SID": true,
+    "JITU": true,
+    "RONAK": true,
+    "SHRUTI": true
+   },
+   {
+    "AMI": true,
+    "RONAK": true,
+    "SHRUTI": true,
+    "SID": true,
+    "ZBH": true
+   }
+  ],
+  "assassinated": "ZBH",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "PAYAL",
+      "AMI",
+      "CHINGPING",
+      "DISHANK",
+      "TEJAL",
+      "JITU",
+      "ZBH"
+     ],
+     "team": [
+      "AMI",
+      "CHINGPING",
+      "PAYAL"
+     ],
+     "proposer": "TEJAL",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "AMI",
+    "CHINGPING",
+    "PAYAL"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [],
+     "proposer": "PAYAL",
+     "team": [
+      "JITU",
+      "ZBH",
+      "DISHANK",
+      "TEJAL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SID",
+     "state": "APPROVED",
+     "votes": [
+      "PAYAL",
+      "AMI",
+      "RONAK",
+      "DISHANK",
+      "SID",
+      "TEJAL",
+      "SHRUTI",
+      "JITU",
+      "ZBH"
+     ],
+     "team": [
+      "RONAK",
+      "PAYAL",
+      "JITU",
+      "ZBH"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "RONAK",
+    "PAYAL",
+    "JITU",
+    "ZBH"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SHRUTI",
+      "SID",
+      "AMI",
+      "DISHANK"
+     ],
+     "proposer": "JITU",
+     "votes": [
+      "TEJAL",
+      "SHRUTI",
+      "JITU",
+      "ZBH",
+      "PAYAL",
+      "AMI",
+      "RONAK",
+      "CHINGPING",
+      "DISHANK",
+      "SID"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SHRUTI",
+    "SID",
+    "AMI",
+    "DISHANK"
+   ],
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "RONAK",
+      "AMI",
+      "SID",
+      "SHRUTI",
+      "JITU"
+     ],
+     "votes": [
+      "AMI",
+      "RONAK",
+      "SID",
+      "SHRUTI",
+      "JITU"
+     ],
+     "proposer": "SHRUTI"
+    },
+    {
+     "team": [
+      "DISHANK",
+      "TEJAL",
+      "SHRUTI",
+      "PAYAL",
+      "CHINGPING"
+     ],
+     "proposer": "CHINGPING",
+     "votes": [
+      "CHINGPING",
+      "DISHANK",
+      "TEJAL",
+      "PAYAL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "PAYAL",
+      "AMI",
+      "RONAK",
+      "CHINGPING",
+      "SID",
+      "SHRUTI",
+      "JITU",
+      "ZBH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AMI",
+      "JITU",
+      "SID",
+      "SHRUTI",
+      "RONAK"
+     ],
+     "proposer": "ZBH"
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 0,
+   "team": [
+    "AMI",
+    "JITU",
+    "SID",
+    "SHRUTI",
+    "RONAK"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 5
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "team": [
+    "RONAK",
+    "AMI",
+    "SID",
+    "SHRUTI",
+    "ZBH"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SID",
+      "TEJAL",
+      "SHRUTI",
+      "JITU",
+      "ZBH",
+      "AMI",
+      "RONAK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RONAK",
+      "AMI",
+      "SID",
+      "SHRUTI",
+      "ZBH"
+     ],
+     "proposer": "RONAK"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "RONAK",
+   "uid": "9MuqB9kE76h8vaLKmni7ymiwkKJ2"
+  },
+  {
+   "name": "AMI",
+   "uid": "qzUH1f62i2SbqYdVs2RYPJmhqAq2"
+  },
+  {
+   "name": "DISHANK",
+   "uid": "m5OjONdZOfgLhCY8lhGX6y1R2O12"
+  },
+  {
+   "uid": "2JK3piP2LcVFdBEDl0Y4n3M3LDp2",
+   "name": "TEJAL"
+  },
+  {
+   "name": "PAYAL",
+   "uid": "w4d0IZir1uMAC5lBk2B2M4XzFOO2"
+  },
+  {
+   "name": "SID",
+   "uid": "Wjm4GNF6JRgGfJuDdVXbOeYdgja2"
+  },
+  {
+   "name": "JITU",
+   "uid": "I2hiSHmBFDWUH1a4yoDevpDF0yY2"
+  },
+  {
+   "uid": "ZiFKgODmrXZ6UoOyeItDDxrOPNb2",
+   "name": "SHRUTI"
+  },
+  {
+   "name": "CHINGPING",
+   "uid": "fEOUnCEV3tQ2RKBRnrBnYnqOz6S2"
+  },
+  {
+   "uid": "OvCQlJMX7eho35EPvTz4GeD7PX82",
+   "name": "ZBH"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

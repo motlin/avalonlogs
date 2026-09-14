@@ -1,0 +1,278 @@
+{
+ "timeFinished": {
+  "_seconds": 1586002796,
+  "_nanoseconds": 785007000
+ },
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "KAS",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "KAT",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ERAJ",
+    "role": "MORDRED"
+   },
+   {
+    "name": "LOCTRI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "JAS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "RICHARD",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JAS": true,
+    "LOCTRI": true
+   },
+   {
+    "ERAJ": true,
+    "RICHARD": true,
+    "KAS": true
+   },
+   {
+    "RICHARD": true,
+    "KAT": true,
+    "KAS": true,
+    "ERAJ": false
+   },
+   {
+    "KAT": true,
+    "LOCTRI": true,
+    "ERAJ": false
+   },
+   {
+    "RICHARD": true,
+    "LOCTRI": true,
+    "ERAJ": false,
+    "JAS": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ERAJ",
+      "LOCTRI",
+      "JAS",
+      "RICHARD",
+      "KAS",
+      "KAT"
+     ],
+     "proposer": "LOCTRI",
+     "team": [
+      "LOCTRI",
+      "JAS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "LOCTRI",
+    "JAS"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ERAJ",
+      "KAS",
+      "RICHARD"
+     ],
+     "votes": [
+      "ERAJ",
+      "LOCTRI",
+      "JAS",
+      "RICHARD",
+      "KAS",
+      "KAT"
+     ],
+     "proposer": "ERAJ"
+    }
+   ],
+   "team": [
+    "ERAJ",
+    "KAS",
+    "RICHARD"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "KAS",
+      "RICHARD",
+      "KAT",
+      "ERAJ"
+     ],
+     "state": "REJECTED",
+     "proposer": "KAS",
+     "votes": [
+      "RICHARD",
+      "KAS",
+      "KAT"
+     ]
+    },
+    {
+     "team": [
+      "ERAJ",
+      "KAS",
+      "RICHARD",
+      "KAT"
+     ],
+     "proposer": "RICHARD",
+     "votes": [
+      "KAS",
+      "KAT",
+      "ERAJ",
+      "LOCTRI",
+      "JAS",
+      "RICHARD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "ERAJ",
+    "KAS",
+    "RICHARD",
+    "KAT"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "KAT",
+    "LOCTRI",
+    "ERAJ"
+   ],
+   "proposals": [
+    {
+     "proposer": "KAT",
+     "team": [
+      "KAT",
+      "LOCTRI",
+      "ERAJ"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KAS",
+      "KAT",
+      "LOCTRI",
+      "JAS",
+      "RICHARD"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "LOCTRI",
+    "JAS",
+    "ERAJ",
+    "RICHARD"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [],
+     "team": [
+      "JAS",
+      "KAT",
+      "ERAJ",
+      "RICHARD"
+     ],
+     "proposer": "JAS",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LOCTRI",
+      "JAS",
+      "ERAJ",
+      "RICHARD"
+     ],
+     "proposer": "LOCTRI",
+     "state": "APPROVED",
+     "votes": [
+      "ERAJ",
+      "LOCTRI",
+      "JAS",
+      "KAS"
+     ]
+    }
+   ],
+   "numFails": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586000742,
+  "_nanoseconds": 416000000
+ },
+ "players": [
+  {
+   "uid": "LmEFFBf3KzeOcfVwQhkfFAMFzEt1",
+   "name": "JAS"
+  },
+  {
+   "name": "LOCTRI",
+   "uid": "CKtdeqEnqhYLHV2daeURGdwt3em2"
+  },
+  {
+   "name": "ERAJ",
+   "uid": "kIHWLcIzlvZJzGEJRAWz5XDdo2U2"
+  },
+  {
+   "uid": "lKg5QVMrxBVnKo3mNjtj6kg8vaF2",
+   "name": "KAS"
+  },
+  {
+   "uid": "n881TP9mNnQgKkCqYU0kOFkVh9u1",
+   "name": "RICHARD"
+  },
+  {
+   "name": "KAT",
+   "uid": "WHhFQY87aIht0n4nLhFDWjsrBfn2"
+  }
+ ]
+}

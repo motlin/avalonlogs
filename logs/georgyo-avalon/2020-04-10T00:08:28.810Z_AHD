@@ -1,0 +1,273 @@
+{
+ "outcome": {
+  "assassinated": "PLEE",
+  "votes": [
+   {
+    "PLEE": true,
+    "ELIOT": true
+   },
+   {
+    "ELIOT": true,
+    "CAROL": false,
+    "MIKE": true
+   },
+   {
+    "MEG": true,
+    "PLEE": true,
+    "MIKE": true,
+    "ELIOT": true
+   },
+   {
+    "PLEE": true,
+    "MIKE": true,
+    "ELIOT": true
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MARCUS"
+   },
+   {
+    "name": "CAROL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ELIOT",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "PLEE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "MEG"
+   },
+   {
+    "name": "MIKE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "ELIOT",
+   "uid": "90g2Q0d6rYhqusSQ8I6iLSNV5qE2"
+  },
+  {
+   "name": "CAROL",
+   "uid": "HXPQEhFDhVWmHhZAHENWLvz3S2R2"
+  },
+  {
+   "name": "MARCUS",
+   "uid": "Kc36t0APpneg2jLX9yJ5N5K0ULx2"
+  },
+  {
+   "name": "PLEE",
+   "uid": "Bx2bdYkKmwZPmZ8eDZ9vnWUByon2"
+  },
+  {
+   "uid": "00Jhs9xNePYm7Ifmd1U624nQVZL2",
+   "name": "MEG"
+  },
+  {
+   "uid": "I2VJpXDJoGQK0Ln5YGxa5bAFPSb2",
+   "name": "MIKE"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586477308,
+  "_nanoseconds": 810000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "PLEE",
+    "ELIOT"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MIKE",
+      "MARCUS"
+     ],
+     "votes": [
+      "MARCUS",
+      "PLEE",
+      "MIKE"
+     ],
+     "proposer": "MARCUS"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MEG",
+      "MIKE",
+      "ELIOT",
+      "PLEE"
+     ],
+     "proposer": "PLEE",
+     "team": [
+      "PLEE",
+      "ELIOT"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "MEG",
+     "state": "REJECTED",
+     "team": [
+      "MIKE",
+      "CAROL",
+      "PLEE"
+     ],
+     "votes": [
+      "CAROL",
+      "MEG",
+      "MIKE"
+     ]
+    },
+    {
+     "team": [
+      "ELIOT",
+      "MIKE",
+      "CAROL"
+     ],
+     "proposer": "MIKE",
+     "state": "APPROVED",
+     "votes": [
+      "MEG",
+      "MIKE",
+      "MARCUS",
+      "CAROL",
+      "ELIOT"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "ELIOT",
+    "MIKE",
+    "CAROL"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PLEE",
+      "ELIOT",
+      "MEG",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MEG",
+      "MIKE",
+      "MARCUS",
+      "CAROL",
+      "ELIOT",
+      "PLEE"
+     ],
+     "proposer": "ELIOT"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "PLEE",
+    "ELIOT",
+    "MEG",
+    "MIKE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "PLEE",
+    "ELIOT",
+    "MIKE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "CAROL",
+      "PLEE",
+      "ELIOT"
+     ],
+     "votes": [
+      "CAROL"
+     ],
+     "proposer": "CAROL",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "MARCUS",
+      "MIKE",
+      "PLEE"
+     ],
+     "proposer": "MARCUS",
+     "votes": [
+      "MARCUS",
+      "CAROL"
+     ]
+    },
+    {
+     "proposer": "PLEE",
+     "state": "APPROVED",
+     "team": [
+      "PLEE",
+      "ELIOT",
+      "MIKE"
+     ],
+     "votes": [
+      "MARCUS",
+      "CAROL",
+      "ELIOT",
+      "PLEE",
+      "MEG",
+      "MIKE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586478601,
+  "_nanoseconds": 443951000
+ }
+}

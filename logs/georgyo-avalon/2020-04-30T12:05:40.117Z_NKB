@@ -1,0 +1,202 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "PAUL",
+  "votes": [
+   {
+    "TOMDOM": true,
+    "ANDYSON": true
+   },
+   {
+    "MINH": true,
+    "TOMDOM": false,
+    "ANDYSON": true
+   },
+   {
+    "HUY": true,
+    "ANDYSON": true
+   },
+   {
+    "MINH": true,
+    "HUY": true,
+    "ANDYSON": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "HUY"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "TOMDOM",
+    "assassin": true
+   },
+   {
+    "name": "PAUL",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "MINH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANDYSON",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "HUY",
+   "uid": "GYOOGLNl3QhrXCZX93ih4P6iwQk1"
+  },
+  {
+   "name": "PAUL",
+   "uid": "W1vuHM0YJcXCl9iviX8J3U8ApMP2"
+  },
+  {
+   "uid": "inn5ah7uqhWn1iu0aarJ2l60EPo2",
+   "name": "TOMDOM"
+  },
+  {
+   "name": "MINH",
+   "uid": "rtlmNnpOZuUiMOE3OxTCzTHWeC82"
+  },
+  {
+   "uid": "3fcxhGQC1wOZzka10DoufIpU2ho1",
+   "name": "ANDYSON"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588248635,
+  "_nanoseconds": 948000000
+ },
+ "timeCreated": {
+  "_seconds": 1588248340,
+  "_nanoseconds": 117000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ANDYSON",
+    "TOMDOM"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ANDYSON",
+      "TOMDOM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TOMDOM",
+      "PAUL",
+      "MINH",
+      "ANDYSON"
+     ],
+     "proposer": "TOMDOM"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "TOMDOM",
+    "ANDYSON",
+    "MINH"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "MINH",
+     "state": "APPROVED",
+     "team": [
+      "TOMDOM",
+      "ANDYSON",
+      "MINH"
+     ],
+     "votes": [
+      "TOMDOM",
+      "PAUL",
+      "MINH",
+      "ANDYSON"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "HUY",
+      "ANDYSON"
+     ],
+     "proposer": "ANDYSON",
+     "state": "APPROVED",
+     "votes": [
+      "MINH",
+      "ANDYSON",
+      "HUY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "HUY",
+    "ANDYSON"
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HUY",
+     "votes": [
+      "MINH",
+      "ANDYSON",
+      "HUY"
+     ],
+     "team": [
+      "ANDYSON",
+      "HUY",
+      "MINH"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "ANDYSON",
+    "HUY",
+    "MINH"
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

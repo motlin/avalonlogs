@@ -1,0 +1,264 @@
+{
+ "timeFinished": {
+  "_seconds": 1585793111,
+  "_nanoseconds": 860625000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "EMILY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "BLAYDE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "DOUGLAS"
+   },
+   {
+    "name": "JORDAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "TIM",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "EMILY": true,
+    "ERIC": true
+   },
+   {
+    "EMILY": true,
+    "TIM": false,
+    "ERIC": true
+   },
+   {
+    "BLAYDE": true,
+    "ERIC": true,
+    "JORDAN": true,
+    "EMILY": true
+   },
+   {
+    "EMILY": true,
+    "ERIC": true,
+    "BLAYDE": true
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "BLAYDE"
+ },
+ "players": [
+  {
+   "uid": "pPa6MuQiVnXFk5a1gGBzsGrxExG3",
+   "name": "JORDAN"
+  },
+  {
+   "name": "TIM",
+   "uid": "LFhha6pI3PUI6Mv1pRL8ZfLSITn2"
+  },
+  {
+   "name": "BLAYDE",
+   "uid": "0ifjrL2pANM9IUk0UXCPGckXaMf1"
+  },
+  {
+   "uid": "5RXeJkvibWZyZl4pAnxFbqTAhIq2",
+   "name": "EMILY"
+  },
+  {
+   "uid": "wGdp2DYNfeW5AJPz5O7XKsQkloE2",
+   "name": "ERIC"
+  },
+  {
+   "uid": "fxwcLzOBz5ho0qvL4jCCPMbJkG12",
+   "name": "DOUGLAS"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TIM",
+     "votes": [
+      "DOUGLAS",
+      "JORDAN",
+      "TIM",
+      "EMILY",
+      "ERIC"
+     ],
+     "team": [
+      "EMILY",
+      "ERIC"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "EMILY",
+    "ERIC"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "EMILY",
+      "ERIC",
+      "TIM"
+     ],
+     "proposer": "BLAYDE",
+     "votes": [
+      "DOUGLAS",
+      "JORDAN",
+      "EMILY",
+      "BLAYDE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "EMILY",
+    "ERIC",
+    "TIM"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "JORDAN",
+    "BLAYDE",
+    "EMILY",
+    "ERIC"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "EMILY",
+      "ERIC",
+      "DOUGLAS",
+      "BLAYDE"
+     ],
+     "state": "REJECTED",
+     "proposer": "EMILY",
+     "votes": [
+      "DOUGLAS",
+      "EMILY"
+     ]
+    },
+    {
+     "team": [
+      "ERIC",
+      "TIM",
+      "JORDAN",
+      "DOUGLAS"
+     ],
+     "proposer": "ERIC",
+     "votes": [
+      "TIM",
+      "ERIC",
+      "DOUGLAS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "TIM",
+      "DOUGLAS"
+     ],
+     "team": [
+      "DOUGLAS",
+      "EMILY",
+      "ERIC",
+      "TIM"
+     ],
+     "proposer": "DOUGLAS",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JORDAN",
+      "TIM",
+      "EMILY",
+      "ERIC",
+      "BLAYDE",
+      "DOUGLAS"
+     ],
+     "proposer": "JORDAN",
+     "state": "APPROVED",
+     "team": [
+      "JORDAN",
+      "BLAYDE",
+      "EMILY",
+      "ERIC"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "BLAYDE",
+    "ERIC",
+    "EMILY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BLAYDE",
+      "ERIC",
+      "EMILY"
+     ],
+     "votes": [
+      "ERIC",
+      "BLAYDE",
+      "DOUGLAS",
+      "JORDAN",
+      "TIM",
+      "EMILY"
+     ],
+     "proposer": "TIM"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585792268,
+  "_nanoseconds": 180000000
+ }
+}

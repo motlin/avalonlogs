@@ -1,0 +1,236 @@
+{
+ "timeFinished": {
+  "_seconds": 1586398250,
+  "_nanoseconds": 969359000
+ },
+ "timeCreated": {
+  "_seconds": 1586397879,
+  "_nanoseconds": 233000000
+ },
+ "players": [
+  {
+   "name": "BIGCAT",
+   "uid": "bwYRJWHfmTfJbkEXKTuv4MlXivG2"
+  },
+  {
+   "name": "KRISHU",
+   "uid": "pit2Txtfu4ONuuSfCEY0Xxb5dPm1"
+  },
+  {
+   "name": "JANANI",
+   "uid": "o0jh6aCeZ0UFvfKpvnucp7V67mj1"
+  },
+  {
+   "uid": "OAu5c063bzUQoFjB81mw0jTwwu53",
+   "name": "DONUTMAN"
+  },
+  {
+   "name": "SUNIL",
+   "uid": "DVCrwgLYsaM2znFEJiHcGRQAXfa2"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "JANANI": true,
+    "KRISHU": true
+   },
+   {
+    "DONUTMAN": true,
+    "BIGCAT": true,
+    "SUNIL": true
+   },
+   {
+    "SUNIL": true,
+    "BIGCAT": false
+   },
+   {
+    "JANANI": true,
+    "KRISHU": false,
+    "DONUTMAN": true
+   },
+   {
+    "SUNIL": true,
+    "JANANI": true,
+    "DONUTMAN": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "DONUTMAN",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KRISHU"
+   },
+   {
+    "assassin": false,
+    "name": "SUNIL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "BIGCAT",
+    "assassin": false
+   },
+   {
+    "name": "JANANI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DONUTMAN",
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "KRISHU",
+      "JANANI",
+      "DONUTMAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JANANI",
+      "KRISHU"
+     ],
+     "proposer": "JANANI"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "JANANI",
+    "KRISHU"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "DONUTMAN",
+    "BIGCAT",
+    "SUNIL"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JANANI",
+      "DONUTMAN",
+      "KRISHU",
+      "BIGCAT"
+     ],
+     "team": [
+      "DONUTMAN",
+      "BIGCAT",
+      "SUNIL"
+     ],
+     "proposer": "DONUTMAN",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "SUNIL",
+    "BIGCAT"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SUNIL",
+      "BIGCAT"
+     ],
+     "proposer": "SUNIL",
+     "votes": [
+      "DONUTMAN",
+      "SUNIL",
+      "BIGCAT"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BIGCAT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KRISHU",
+      "SUNIL",
+      "DONUTMAN"
+     ],
+     "proposer": "BIGCAT"
+    },
+    {
+     "votes": [
+      "KRISHU",
+      "SUNIL",
+      "BIGCAT",
+      "JANANI"
+     ],
+     "proposer": "KRISHU",
+     "state": "APPROVED",
+     "team": [
+      "KRISHU",
+      "JANANI",
+      "DONUTMAN"
+     ]
+    }
+   ],
+   "team": [
+    "KRISHU",
+    "JANANI",
+    "DONUTMAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JANANI",
+    "DONUTMAN",
+    "SUNIL"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JANANI",
+     "team": [
+      "JANANI",
+      "DONUTMAN",
+      "SUNIL"
+     ],
+     "votes": [
+      "SUNIL",
+      "JANANI",
+      "DONUTMAN"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "VALOU",
+    "assassin": false
+   },
+   {
+    "name": "REGIS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CHRISTIAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ELISA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "FREDLEMUET",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "LAURA",
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CECILOUVE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "XOFF",
+    "role": "MERLIN"
+   }
+  ],
+  "votes": [
+   {
+    "XOFF": true,
+    "CECILOUVE": true,
+    "LAURA": true
+   },
+   {
+    "ELISA": true,
+    "CECILOUVE": true,
+    "XOFF": true,
+    "LAURA": false
+   },
+   {
+    "XOFF": true,
+    "CHRISTIAN": true,
+    "CECILOUVE": true,
+    "LAURA": false
+   }
+  ],
+  "message": "Five team proposals in a row rejected",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1610230240,
+  "_nanoseconds": 983000000
+ },
+ "timeCreated": {
+  "_seconds": 1610227339,
+  "_nanoseconds": 508000000
+ },
+ "players": [
+  {
+   "name": "FREDLEMUET",
+   "uid": "ASDKVcFeXKZkO0eVxwAGwYf1yhF2"
+  },
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "name": "CECILOUVE",
+   "uid": "mrBWU8UQMDRnK01vjUfL8DxG6yj1"
+  },
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  },
+  {
+   "name": "XOFF",
+   "uid": "7c9cOvwPFJOcVYUQpJRXcFoBqon1"
+  },
+  {
+   "uid": "N7p6ARtAOIXnWklCnpAmYxvsion2",
+   "name": "VALOU"
+  },
+  {
+   "uid": "BTutGuKZrLVDghq13uIpKVtjs7J3",
+   "name": "ELISA"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "XOFF",
+    "CECILOUVE",
+    "LAURA"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHRISTIAN",
+     "state": "REJECTED",
+     "votes": [
+      "ELISA",
+      "FREDLEMUET",
+      "CHRISTIAN",
+      "VALOU"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "XOFF",
+      "VALOU"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "XOFF",
+      "CECILOUVE",
+      "LAURA"
+     ],
+     "votes": [
+      "FREDLEMUET",
+      "ELISA",
+      "LAURA",
+      "CECILOUVE",
+      "XOFF",
+      "VALOU"
+     ],
+     "proposer": "XOFF"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CHRISTIAN",
+      "VALOU",
+      "FREDLEMUET"
+     ],
+     "proposer": "VALOU",
+     "state": "REJECTED",
+     "team": [
+      "VALOU",
+      "LAURA",
+      "CECILOUVE",
+      "XOFF"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRISTIAN",
+      "XOFF",
+      "ELISA",
+      "FREDLEMUET",
+      "VALOU"
+     ],
+     "team": [
+      "ELISA",
+      "XOFF",
+      "CECILOUVE",
+      "LAURA"
+     ],
+     "proposer": "ELISA"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ELISA",
+    "XOFF",
+    "CECILOUVE",
+    "LAURA"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "FREDLEMUET",
+      "XOFF",
+      "CECILOUVE",
+      "LAURA"
+     ],
+     "votes": [
+      "FREDLEMUET"
+     ],
+     "proposer": "FREDLEMUET"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "XOFF",
+      "CECILOUVE",
+      "CHRISTIAN"
+     ],
+     "proposer": "LAURA"
+    },
+    {
+     "votes": [
+      "CECILOUVE",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "CECILOUVE",
+     "team": [
+      "LAURA",
+      "CECILOUVE",
+      "XOFF",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CECILOUVE",
+      "REGIS",
+      "CHRISTIAN",
+      "XOFF"
+     ],
+     "votes": [
+      "XOFF",
+      "FREDLEMUET",
+      "ELISA",
+      "REGIS"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "CECILOUVE",
+      "ELISA",
+      "XOFF",
+      "VALOU",
+      "CHRISTIAN",
+      "FREDLEMUET",
+      "LAURA",
+      "REGIS"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "XOFF",
+      "CECILOUVE",
+      "LAURA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "CHRISTIAN",
+    "XOFF",
+    "CECILOUVE",
+    "LAURA"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "XOFF",
+     "team": [
+      "XOFF",
+      "ELISA",
+      "LAURA",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "votes": [
+      "VALOU",
+      "FREDLEMUET",
+      "ELISA",
+      "XOFF"
+     ]
+    },
+    {
+     "votes": [
+      "ELISA",
+      "CHRISTIAN",
+      "VALOU"
+     ],
+     "team": [
+      "VALOU",
+      "ELISA",
+      "XOFF",
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "proposer": "VALOU"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ELISA",
+      "CHRISTIAN",
+      "REGIS",
+      "XOFF",
+      "LAURA"
+     ],
+     "proposer": "ELISA",
+     "votes": [
+      "CHRISTIAN",
+      "XOFF",
+      "ELISA",
+      "LAURA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "FREDLEMUET",
+     "votes": [
+      "FREDLEMUET",
+      "LAURA",
+      "VALOU",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "FREDLEMUET",
+      "LAURA",
+      "XOFF",
+      "CECILOUVE",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "LAURA",
+     "votes": [
+      "FREDLEMUET",
+      "CECILOUVE",
+      "VALOU",
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "FREDLEMUET",
+      "VALOU",
+      "CECILOUVE",
+      "XOFF"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "state": "PENDING"
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 5,
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

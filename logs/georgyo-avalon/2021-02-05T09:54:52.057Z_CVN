@@ -1,0 +1,250 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "MICHA": false,
+    "MARCO": true,
+    "LASSE": true
+   },
+   {
+    "JULIJA": true,
+    "RICKO": true,
+    "LUCA": false,
+    "HANS": true
+   },
+   {
+    "SOREN": true,
+    "HANS": true,
+    "SALIM": false,
+    "JULIJA": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SOREN",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SALIM",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "RICKO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LUCA",
+    "assassin": true
+   },
+   {
+    "name": "JULIJA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LASSE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MARCO"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ED",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "HANS"
+   },
+   {
+    "assassin": false,
+    "name": "MICHA",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "OHCAEduoeygWuwlQ0M2QY3eU3ms2",
+   "name": "LUCA"
+  },
+  {
+   "uid": "qjhXL50hbdWDd23y6LDuRgW1UQq1",
+   "name": "MARCO"
+  },
+  {
+   "uid": "3TKeaFvMlIQoXQOd9VoQVuoZP7H2",
+   "name": "HANS"
+  },
+  {
+   "name": "SALIM",
+   "uid": "y7MQUQ0YzJYxrHVbaUjI7EktIR93"
+  },
+  {
+   "name": "MICHA",
+   "uid": "MvaYIb604MfhLZjydq0dRwAQqNE3"
+  },
+  {
+   "uid": "mqlkx80ktSXWqFTkXbCP7vcqkZ72",
+   "name": "RICKO"
+  },
+  {
+   "name": "JULIJA",
+   "uid": "wg7BzTyLLkaGt3wlVma229eYXsn1"
+  },
+  {
+   "uid": "RlFnfofKZVhbOl275f7h8qFRw1P2",
+   "name": "SOREN"
+  },
+  {
+   "name": "LASSE",
+   "uid": "u04xTK1wnUT2BfaZd4INbZBQ9RE2"
+  },
+  {
+   "uid": "kGaaoGESjPVQCymMvAGh2Ter5Pk2",
+   "name": "ED"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "MARCO",
+    "LASSE",
+    "MICHA"
+   ],
+   "proposals": [
+    {
+     "proposer": "MARCO",
+     "state": "APPROVED",
+     "team": [
+      "MARCO",
+      "LASSE",
+      "MICHA"
+     ],
+     "votes": [
+      "JULIJA",
+      "LASSE",
+      "ED",
+      "RICKO",
+      "MARCO",
+      "HANS",
+      "MICHA",
+      "SOREN",
+      "LUCA",
+      "SALIM"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "HANS",
+    "LUCA",
+    "RICKO",
+    "JULIJA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "HANS",
+      "LUCA",
+      "RICKO",
+      "JULIJA"
+     ],
+     "proposer": "HANS",
+     "votes": [
+      "LASSE",
+      "ED",
+      "LUCA",
+      "SALIM",
+      "HANS",
+      "RICKO",
+      "MICHA",
+      "JULIJA",
+      "MARCO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MARCO",
+      "JULIJA",
+      "ED",
+      "SALIM",
+      "HANS",
+      "LASSE",
+      "MICHA",
+      "LUCA"
+     ],
+     "team": [
+      "SALIM",
+      "HANS",
+      "SOREN",
+      "JULIJA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SALIM"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "SALIM",
+    "HANS",
+    "SOREN",
+    "JULIJA"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 2,
+   "team": [],
+   "teamSize": 5,
+   "proposals": [],
+   "state": "PENDING"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1612518892,
+  "_nanoseconds": 57000000
+ },
+ "timeFinished": {
+  "_seconds": 1612519519,
+  "_nanoseconds": 800000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

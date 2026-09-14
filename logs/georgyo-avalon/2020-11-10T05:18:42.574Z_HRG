@@ -1,0 +1,329 @@
+{
+ "timeCreated": {
+  "_seconds": 1604985522,
+  "_nanoseconds": 574000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DYLAN",
+      "MARIO",
+      "JESSE",
+      "ROBERT"
+     ],
+     "team": [
+      "JESSE",
+      "MARIO",
+      "DANY"
+     ],
+     "proposer": "DYLAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ROBERT",
+      "DYLAN",
+      "DANY"
+     ],
+     "state": "APPROVED",
+     "proposer": "ROBERT",
+     "votes": [
+      "NICOLE",
+      "JESSE",
+      "DYLAN",
+      "DANY",
+      "ROBERT"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "ROBERT",
+    "DYLAN",
+    "DANY"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "DANY",
+    "NICOLE",
+    "RUCHI",
+    "JESSE"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DANY",
+     "votes": [
+      "RUCHI",
+      "NICOLE",
+      "DYLAN",
+      "JESSE",
+      "DANY"
+     ],
+     "team": [
+      "DANY",
+      "NICOLE",
+      "RUCHI",
+      "JESSE"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "NEIL",
+     "votes": [
+      "JESSE",
+      "DANY",
+      "ROBERT",
+      "NICOLE",
+      "SHELLEY",
+      "NEIL",
+      "RUCHI"
+     ],
+     "team": [
+      "RUCHI",
+      "NICOLE",
+      "JESSE",
+      "DANY"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "RUCHI",
+    "NICOLE",
+    "JESSE",
+    "DANY"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "NICOLE",
+    "SHELLEY",
+    "DANY",
+    "ROBERT",
+    "RUCHI"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ROBERT",
+      "NEIL"
+     ],
+     "team": [
+      "RUCHI",
+      "MARIO",
+      "DANY",
+      "NEIL",
+      "DYLAN"
+     ],
+     "proposer": "RUCHI"
+    },
+    {
+     "proposer": "NICOLE",
+     "votes": [
+      "DANY",
+      "NICOLE",
+      "DYLAN",
+      "ROBERT",
+      "NEIL"
+     ],
+     "team": [
+      "NICOLE",
+      "SHELLEY",
+      "DANY",
+      "ROBERT",
+      "RUCHI"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SHELLEY",
+      "DANY",
+      "JESSE",
+      "ROBERT",
+      "NICOLE",
+      "NEIL",
+      "DYLAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JESSE",
+     "team": [
+      "NICOLE",
+      "JESSE",
+      "SHELLEY",
+      "RUCHI",
+      "MARIO"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 5,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "NICOLE",
+    "JESSE",
+    "SHELLEY",
+    "RUCHI",
+    "MARIO"
+   ]
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DYLAN": true,
+    "ROBERT": false,
+    "DANY": true
+   },
+   {
+    "JESSE": true,
+    "NICOLE": true,
+    "RUCHI": true,
+    "DANY": true
+   },
+   {
+    "RUCHI": true,
+    "JESSE": true,
+    "NICOLE": false,
+    "DANY": true
+   },
+   {
+    "DANY": true,
+    "SHELLEY": true,
+    "ROBERT": false,
+    "NICOLE": true,
+    "RUCHI": true
+   },
+   {
+    "JESSE": true,
+    "MARIO": true,
+    "SHELLEY": true,
+    "RUCHI": true,
+    "NICOLE": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MARIO",
+    "assassin": false
+   },
+   {
+    "name": "NICOLE",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "DYLAN"
+   },
+   {
+    "name": "NEIL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "DANY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SHELLEY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JESSE",
+    "assassin": false
+   },
+   {
+    "name": "ROBERT",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "RUCHI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1604987263,
+  "_nanoseconds": 549000000
+ },
+ "players": [
+  {
+   "name": "NEIL",
+   "uid": "nuBizBAt62aXFDtYyTcK0p691Ru2"
+  },
+  {
+   "name": "RUCHI",
+   "uid": "7gfwjAMzLMY0CKEdEYEf6aH7cWp2"
+  },
+  {
+   "name": "NICOLE",
+   "uid": "zMY0CuBhl6Z6YCM1bLpJfbQ9Qwk1"
+  },
+  {
+   "uid": "mvwI71AYAfSDIK0Lh1DArik53Lh2",
+   "name": "JESSE"
+  },
+  {
+   "name": "MARIO",
+   "uid": "ID9co7IaJySfULupRbjVWUPVj7u2"
+  },
+  {
+   "name": "SHELLEY",
+   "uid": "a3kElbJsujO0kxVwXMmlG0u29eX2"
+  },
+  {
+   "name": "DYLAN",
+   "uid": "tcDdD6p5BncBLjH9pxyaBPqq7mU2"
+  },
+  {
+   "name": "ROBERT",
+   "uid": "cLl9fs1WuvaRuNeGZAAG9PJATWD3"
+  },
+  {
+   "name": "DANY",
+   "uid": "3ATsW5WfjrV56qheS3zr006wcrv1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

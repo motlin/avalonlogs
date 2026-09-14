@@ -1,0 +1,220 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JACOB",
+   "uid": "JwaYxzA0rtRzzrOdAXjJaxOEdGf1"
+  },
+  {
+   "uid": "sdmkmI5kJib8ddqI6k49z3h6knq2",
+   "name": "JAMES"
+  },
+  {
+   "name": "MOOMIN",
+   "uid": "plWnS1pM9MaAbKbAQwkel8Me29r1"
+  },
+  {
+   "name": "JACK",
+   "uid": "MAZtvwMwaINUbpcROkAdF6VvumB3"
+  },
+  {
+   "name": "LARS",
+   "uid": "U47wD6a8iifY8tspoqG57eyhg5N2"
+  },
+  {
+   "uid": "expBDVV9ZYgQEIYolY5lsZys19X2",
+   "name": "SCOTT"
+  },
+  {
+   "name": "ASH",
+   "uid": "5H6oxE3V49QTlnvsFruYeA3xpER2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "JAMES",
+    "LARS"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JACOB",
+     "votes": [
+      "ASH",
+      "LARS",
+      "JACK",
+      "JAMES",
+      "SCOTT",
+      "JACOB",
+      "MOOMIN"
+     ],
+     "team": [
+      "JAMES",
+      "LARS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "JAMES",
+    "LARS",
+    "JACOB"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ASH",
+      "LARS",
+      "JACK",
+      "JAMES",
+      "SCOTT",
+      "JACOB",
+      "MOOMIN"
+     ],
+     "proposer": "JAMES",
+     "state": "APPROVED",
+     "team": [
+      "JAMES",
+      "LARS",
+      "JACOB"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "LARS",
+    "JACOB",
+    "JAMES"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MOOMIN",
+      "JAMES",
+      "LARS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ASH",
+      "SCOTT",
+      "MOOMIN"
+     ],
+     "proposer": "MOOMIN"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JACK",
+     "team": [
+      "LARS",
+      "JACOB",
+      "JAMES"
+     ],
+     "votes": [
+      "ASH",
+      "LARS",
+      "JACK",
+      "JAMES",
+      "JACOB"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 4,
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "ASH",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LARS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JACK"
+   },
+   {
+    "assassin": false,
+    "name": "JAMES",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SCOTT",
+    "assassin": true
+   },
+   {
+    "name": "JACOB",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "MOOMIN"
+   }
+  ],
+  "assassinated": "LARS",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JAMES": true,
+    "LARS": true
+   },
+   {
+    "JACOB": true,
+    "LARS": true,
+    "JAMES": true
+   },
+   {
+    "JACOB": true,
+    "JAMES": true,
+    "LARS": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1587752090,
+  "_nanoseconds": 36000000
+ },
+ "timeFinished": {
+  "_seconds": 1587752803,
+  "_nanoseconds": 597000000
+ }
+}

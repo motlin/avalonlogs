@@ -1,0 +1,226 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "EDWINA"
+   },
+   {
+    "name": "PIR",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "OLIVER",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": true,
+    "name": "RANAMI",
+    "role": "MORDRED"
+   },
+   {
+    "name": "ARTHUR",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "EDWINA": true,
+    "RANAMI": true
+   },
+   {
+    "PIR": true,
+    "RANAMI": false,
+    "EDWINA": true
+   },
+   {
+    "PIR": true,
+    "ARTHUR": true
+   },
+   {
+    "OLIVER": false,
+    "PIR": true,
+    "ARTHUR": true
+   },
+   {
+    "ARTHUR": true,
+    "EDWINA": true,
+    "PIR": true
+   }
+  ],
+  "assassinated": "ARTHUR"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "EDWINA",
+      "RANAMI"
+     ],
+     "state": "APPROVED",
+     "proposer": "EDWINA",
+     "votes": [
+      "EDWINA",
+      "PIR",
+      "RANAMI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "EDWINA",
+    "RANAMI"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PIR",
+      "RANAMI",
+      "EDWINA"
+     ],
+     "team": [
+      "RANAMI",
+      "EDWINA",
+      "PIR"
+     ],
+     "state": "APPROVED",
+     "proposer": "RANAMI"
+    }
+   ],
+   "team": [
+    "RANAMI",
+    "EDWINA",
+    "PIR"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "PIR",
+      "OLIVER",
+      "ARTHUR"
+     ],
+     "proposer": "ARTHUR",
+     "team": [
+      "ARTHUR",
+      "PIR"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ARTHUR",
+    "PIR"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "OLIVER",
+     "team": [
+      "OLIVER",
+      "PIR",
+      "ARTHUR"
+     ],
+     "votes": [
+      "PIR",
+      "RANAMI",
+      "OLIVER"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "OLIVER",
+    "PIR",
+    "ARTHUR"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "PIR",
+    "ARTHUR",
+    "EDWINA"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PIR",
+      "ARTHUR",
+      "EDWINA"
+     ],
+     "proposer": "PIR",
+     "votes": [
+      "PIR",
+      "EDWINA",
+      "RANAMI",
+      "ARTHUR"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "OLIVER",
+   "uid": "BgUpMd2mM9OsJ2kM6d1w5XruWzQ2"
+  },
+  {
+   "uid": "6s7BIgnhgLf2G0ugJCrfgOXR7Jt2",
+   "name": "PIR"
+  },
+  {
+   "name": "EDWINA",
+   "uid": "kGEvWOQJzQaBzcbtTlGxs4AOx6B3"
+  },
+  {
+   "uid": "IKPJoBKMPJPltAvBrxYmMjLqkyo2",
+   "name": "RANAMI"
+  },
+  {
+   "uid": "BsTDBnCYKtTWrK25R25k0gAP7Oy1",
+   "name": "ARTHUR"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1601860062,
+  "_nanoseconds": 854000000
+ },
+ "timeCreated": {
+  "_seconds": 1601859438,
+  "_nanoseconds": 993000000
+ }
+}

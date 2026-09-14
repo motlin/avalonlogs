@@ -1,0 +1,282 @@
+{
+ "timeCreated": {
+  "_seconds": 1585968041,
+  "_nanoseconds": 775000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "WILL",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SLIMJIM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "WILL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "PATRICK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "JACK",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORDRED",
+    "name": "COLTON",
+    "assassin": false
+   },
+   {
+    "name": "JONESY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BRIAN",
+    "assassin": false
+   },
+   {
+    "name": "RYAN",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "RYAN": true,
+    "COLTON": true,
+    "JONESY": true
+   },
+   {
+    "RYAN": true,
+    "JONESY": true,
+    "BRIAN": true,
+    "COLTON": false
+   },
+   {
+    "WILL": true,
+    "SLIMJIM": true,
+    "BRIAN": true,
+    "JONESY": true
+   },
+   {
+    "JACK": false,
+    "SLIMJIM": true,
+    "JONESY": true,
+    "WILL": true,
+    "BRIAN": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "RYAN",
+   "uid": "oQjsTL0wzrUW5PTgoq3umuIRG092"
+  },
+  {
+   "uid": "5aN3VrDxwcXUzak6ES1eaDPfmFb2",
+   "name": "BRIAN"
+  },
+  {
+   "uid": "LhyFGhwMgtbiRqE7dlKmUxJAsd32",
+   "name": "SLIMJIM"
+  },
+  {
+   "name": "WILL",
+   "uid": "1QIV0uTbxgR0NlDY6zDRdATLWnm1"
+  },
+  {
+   "uid": "pdaf5Tm8x7f0P8seyz2GDC8ETsN2",
+   "name": "JONESY"
+  },
+  {
+   "uid": "BpVSg7CRg1aZv9so7JIsVSbKzr72",
+   "name": "JACK"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "3w5m1hCT7Jfk8dFzVAoSEgih79I2"
+  },
+  {
+   "name": "COLTON",
+   "uid": "VihrTsKPREabcbZa13y11Ccp50n1"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RYAN",
+     "votes": [
+      "WILL",
+      "COLTON",
+      "JONESY",
+      "BRIAN",
+      "RYAN"
+     ],
+     "team": [
+      "RYAN",
+      "JONESY",
+      "COLTON"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "RYAN",
+    "JONESY",
+    "COLTON"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "RYAN",
+    "BRIAN",
+    "JONESY",
+    "COLTON"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BRIAN",
+     "votes": [
+      "COLTON",
+      "JONESY",
+      "BRIAN",
+      "RYAN",
+      "SLIMJIM",
+      "WILL"
+     ],
+     "team": [
+      "RYAN",
+      "BRIAN",
+      "JONESY",
+      "COLTON"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "WILL",
+    "JONESY",
+    "SLIMJIM",
+    "BRIAN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "SLIMJIM",
+     "votes": [
+      "COLTON",
+      "RYAN"
+     ],
+     "team": [
+      "SLIMJIM",
+      "RYAN",
+      "JONESY",
+      "COLTON"
+     ]
+    },
+    {
+     "votes": [
+      "WILL",
+      "COLTON",
+      "JONESY",
+      "BRIAN",
+      "RYAN"
+     ],
+     "team": [
+      "WILL",
+      "JONESY",
+      "SLIMJIM",
+      "BRIAN"
+     ],
+     "proposer": "WILL",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JONESY",
+     "team": [
+      "JONESY",
+      "WILL",
+      "BRIAN",
+      "SLIMJIM",
+      "JACK"
+     ],
+     "votes": [
+      "SLIMJIM",
+      "WILL",
+      "JONESY",
+      "BRIAN"
+     ]
+    },
+    {
+     "proposer": "JACK",
+     "team": [
+      "BRIAN",
+      "SLIMJIM",
+      "WILL",
+      "JONESY",
+      "JACK"
+     ],
+     "votes": [
+      "JACK",
+      "BRIAN",
+      "RYAN",
+      "SLIMJIM",
+      "WILL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "BRIAN",
+    "SLIMJIM",
+    "WILL",
+    "JONESY",
+    "JACK"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 5
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585968794,
+  "_nanoseconds": 141531000
+ }
+}

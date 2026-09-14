@@ -1,0 +1,270 @@
+{
+ "timeCreated": {
+  "_seconds": 1585449534,
+  "_nanoseconds": 902000000
+ },
+ "players": [
+  {
+   "name": "SCOTT",
+   "uid": "E1N7D9RLkxQH9AtqBRPvymtdwPv2"
+  },
+  {
+   "uid": "GqkRdXH8zDQsqJXRumZnsmsZvUn1",
+   "name": "ANDREW"
+  },
+  {
+   "name": "RYANJIANG",
+   "uid": "PajOdSE56YYkVUu5hwFqkxbR2C72"
+  },
+  {
+   "uid": "4cJd5Mag2HV1U5XcWciEkXDDlae2",
+   "name": "ANNA"
+  },
+  {
+   "uid": "x5gI57PR4OSrbIfZqt1j2o0Ic1k1",
+   "name": "JENNY"
+  },
+  {
+   "uid": "EQPT8m12KbYuImq2XRbJyH7hpnG3",
+   "name": "SHIVI"
+  },
+  {
+   "uid": "CDrkkdrLjMVXhRWSwWjciWaxy5v1",
+   "name": "ZDX"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "SCOTT": true,
+    "ANDREW": true
+   },
+   {
+    "SCOTT": true,
+    "RYANJIANG": true,
+    "ANDREW": true
+   },
+   {
+    "RYANJIANG": true,
+    "SCOTT": true,
+    "ANDREW": false
+   },
+   {
+    "JENNY": false,
+    "RYANJIANG": true,
+    "SHIVI": true,
+    "ANDREW": false
+   },
+   {
+    "SHIVI": true,
+    "ZDX": true,
+    "SCOTT": false,
+    "RYANJIANG": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ANDREW",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "JENNY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "SHIVI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANNA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SCOTT",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "name": "ZDX",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "RYANJIANG",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1585453071,
+  "_nanoseconds": 50718000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ANDREW",
+      "JENNY",
+      "SHIVI",
+      "SCOTT"
+     ],
+     "proposer": "ANDREW",
+     "state": "APPROVED",
+     "team": [
+      "SCOTT",
+      "ANDREW"
+     ]
+    }
+   ],
+   "team": [
+    "SCOTT",
+    "ANDREW"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "ANDREW",
+    "RYANJIANG",
+    "SCOTT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SCOTT",
+      "RYANJIANG",
+      "ANDREW",
+      "JENNY"
+     ],
+     "proposer": "RYANJIANG",
+     "team": [
+      "ANDREW",
+      "RYANJIANG",
+      "SCOTT"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "RYANJIANG",
+    "ANDREW",
+    "SCOTT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RYANJIANG",
+      "ANDREW",
+      "SCOTT"
+     ],
+     "proposer": "ANNA",
+     "state": "APPROVED",
+     "votes": [
+      "ANNA",
+      "SCOTT",
+      "RYANJIANG",
+      "ANDREW",
+      "JENNY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "SHIVI",
+    "JENNY",
+    "RYANJIANG",
+    "ANDREW"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ANDREW",
+      "RYANJIANG",
+      "JENNY",
+      "SHIVI"
+     ],
+     "proposer": "JENNY",
+     "votes": [
+      "ANDREW",
+      "JENNY",
+      "SHIVI"
+     ]
+    },
+    {
+     "votes": [
+      "ANDREW",
+      "JENNY",
+      "SHIVI",
+      "RYANJIANG"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SHIVI",
+      "JENNY",
+      "RYANJIANG",
+      "ANDREW"
+     ],
+     "proposer": "SHIVI"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JENNY",
+      "SHIVI",
+      "ZDX",
+      "RYANJIANG"
+     ],
+     "state": "APPROVED",
+     "proposer": "ZDX",
+     "team": [
+      "SCOTT",
+      "RYANJIANG",
+      "SHIVI",
+      "ZDX"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "SCOTT",
+    "RYANJIANG",
+    "SHIVI",
+    "ZDX"
+   ],
+   "failsRequired": 1
+  }
+ ]
+}

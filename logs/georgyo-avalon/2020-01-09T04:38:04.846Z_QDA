@@ -1,0 +1,196 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "NAV",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANDREW"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ROB"
+   },
+   {
+    "name": "JERSH",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "ZZZZ",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "ROB",
+  "votes": [
+   {
+    "JERSH": true,
+    "NAV": true
+   },
+   {
+    "JERSH": true,
+    "ROB": true,
+    "NAV": true
+   },
+   {
+    "ANDREW": true,
+    "JERSH": true
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1578544684,
+  "_nanoseconds": 846000000
+ },
+ "timeFinished": {
+  "_seconds": 1578545170,
+  "_nanoseconds": 494698000
+ },
+ "players": [
+  {
+   "name": "ANDREW",
+   "uid": "Femz53uJPyNGl1bPihNgpNrnqmw1"
+  },
+  {
+   "name": "JERSH",
+   "uid": "VxlISaDB5bMlxRwqCWQWnHIE4RD2"
+  },
+  {
+   "name": "NAV",
+   "uid": "WwZlHIWC2ZX4eHfUTCvOLGXfKag1"
+  },
+  {
+   "name": "ROB",
+   "uid": "Rh7YLDoR7zObEtwCnCVe2qpbp5K2"
+  },
+  {
+   "uid": "DCQy8J0xUIhD1fjQ179KzXWSwGm1",
+   "name": "ZZZZ"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "NAV",
+    "JERSH"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NAV",
+      "ANDREW"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANDREW",
+      "NAV"
+     ],
+     "proposer": "JERSH"
+    },
+    {
+     "votes": [
+      "JERSH",
+      "ZZZZ",
+      "NAV"
+     ],
+     "proposer": "NAV",
+     "team": [
+      "NAV",
+      "JERSH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JERSH",
+      "ZZZZ",
+      "NAV"
+     ],
+     "team": [
+      "ROB",
+      "JERSH",
+      "NAV"
+     ],
+     "state": "APPROVED",
+     "proposer": "ROB"
+    }
+   ],
+   "team": [
+    "ROB",
+    "JERSH",
+    "NAV"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ANDREW",
+    "JERSH"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ZZZZ",
+      "ROB"
+     ],
+     "team": [
+      "NAV",
+      "ZZZZ"
+     ],
+     "proposer": "ZZZZ"
+    },
+    {
+     "team": [
+      "ANDREW",
+      "JERSH"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANDREW",
+     "votes": [
+      "NAV",
+      "ANDREW",
+      "JERSH"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 3
+  }
+ ]
+}

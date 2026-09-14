@@ -1,0 +1,240 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ERIC": true,
+    "INYOURBASE": true
+   },
+   {
+    "GRAWG": true,
+    "ERIC": false,
+    "INYOURBASE": true
+   },
+   {
+    "ERIC": false,
+    "ANDY": true
+   },
+   {
+    "ANDY": true,
+    "GRAWG": true,
+    "INYOURBASE": true
+   },
+   {
+    "ANDY": true,
+    "GRAWG": true,
+    "INYOURBASE": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GRAWG"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ERIC"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "INYOURBASE"
+   },
+   {
+    "name": "KEVINSGOOD",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "ANDY",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": "INYOURBASE"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ERIC",
+    "INYOURBASE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ERIC",
+      "INYOURBASE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GRAWG",
+      "ERIC",
+      "INYOURBASE",
+      "KEVINSGOOD"
+     ],
+     "proposer": "ERIC"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "GRAWG",
+     "team": [
+      "GRAWG",
+      "ERIC",
+      "INYOURBASE"
+     ],
+     "votes": [
+      "GRAWG",
+      "ERIC",
+      "INYOURBASE",
+      "KEVINSGOOD",
+      "ANDY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "GRAWG",
+    "ERIC",
+    "INYOURBASE"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "ANDY",
+    "ERIC"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANDY",
+      "INYOURBASE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "INYOURBASE"
+     ],
+     "proposer": "INYOURBASE"
+    },
+    {
+     "votes": [
+      "GRAWG",
+      "ERIC",
+      "ANDY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANDY",
+      "ERIC"
+     ],
+     "proposer": "ANDY"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ERIC",
+      "INYOURBASE",
+      "KEVINSGOOD",
+      "ANDY",
+      "GRAWG"
+     ],
+     "team": [
+      "GRAWG",
+      "INYOURBASE",
+      "ANDY"
+     ],
+     "state": "APPROVED",
+     "proposer": "KEVINSGOOD"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "GRAWG",
+    "INYOURBASE",
+    "ANDY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "GRAWG",
+      "ERIC",
+      "INYOURBASE",
+      "KEVINSGOOD"
+     ],
+     "proposer": "ERIC",
+     "team": [
+      "GRAWG",
+      "INYOURBASE",
+      "ANDY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "GRAWG",
+    "INYOURBASE",
+    "ANDY"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586231505,
+  "_nanoseconds": 248000000
+ },
+ "timeFinished": {
+  "_seconds": 1586232021,
+  "_nanoseconds": 388926000
+ },
+ "players": [
+  {
+   "name": "ERIC",
+   "uid": "CuDkBmBqsHPzneqm9fpP77b1dvW2"
+  },
+  {
+   "uid": "8dX7v1ok1PReo4v9rmXQTT0k4Ku1",
+   "name": "GRAWG"
+  },
+  {
+   "name": "INYOURBASE",
+   "uid": "zugJ7ZPlQTN26bqiabKM94JNDzm1"
+  },
+  {
+   "uid": "f2KIo09nXaPXxKBE9WB0Ur1VbyY2",
+   "name": "ANDY"
+  },
+  {
+   "uid": "aMBrPx68jube972KXHvlYKbj0ys1",
+   "name": "KEVINSGOOD"
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "EREN": true,
+    "AD": true
+   },
+   {
+    "YODDLS": true,
+    "YAMAHA": true,
+    "YUCKYSUCKY": true
+   },
+   {
+    "AD": true,
+    "YUCKYSUCKY": false,
+    "YODDLS": true,
+    "YAMAHA": true
+   },
+   {
+    "YAMAHA": true,
+    "EREN": true,
+    "YUCKYSUCKY": false
+   },
+   {
+    "YODDLS": true,
+    "AD": true,
+    "EREN": true,
+    "HOTTIE": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "YUCKYSUCKY",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "HOTTIE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "EREN",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "YAMAHA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "YODDLS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "AD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1587496411,
+  "_nanoseconds": 299000000
+ },
+ "timeFinished": {
+  "_seconds": 1587496770,
+  "_nanoseconds": 627000000
+ },
+ "players": [
+  {
+   "name": "HOTTIE",
+   "uid": "vrNkKKHYoBP3nmouJuLWamgK82i2"
+  },
+  {
+   "name": "YODDLS",
+   "uid": "vPSceSdbA3h85a4kvKR9YiHv0513"
+  },
+  {
+   "name": "AD",
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2"
+  },
+  {
+   "name": "EREN",
+   "uid": "7HUOGrGuy9azjzxxu3u1X4D11KE2"
+  },
+  {
+   "name": "YUCKYSUCKY",
+   "uid": "PEbvv1lPlkhbZz9FPWopOzRF6rF2"
+  },
+  {
+   "uid": "aRtexD045UaUsZTHepe4KghcKnv1",
+   "name": "YAMAHA"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "HOTTIE",
+     "state": "APPROVED",
+     "votes": [
+      "YODDLS",
+      "AD",
+      "YUCKYSUCKY",
+      "HOTTIE",
+      "EREN",
+      "YAMAHA"
+     ],
+     "team": [
+      "AD",
+      "EREN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "AD",
+    "EREN"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "YODDLS",
+      "YUCKYSUCKY",
+      "YAMAHA"
+     ],
+     "state": "APPROVED",
+     "proposer": "YODDLS",
+     "votes": [
+      "YUCKYSUCKY",
+      "HOTTIE",
+      "YAMAHA",
+      "YODDLS",
+      "AD"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "YODDLS",
+    "YUCKYSUCKY",
+    "YAMAHA"
+   ]
+  },
+  {
+   "team": [
+    "AD",
+    "YUCKYSUCKY",
+    "YAMAHA",
+    "YODDLS"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "YODDLS",
+      "AD",
+      "YUCKYSUCKY",
+      "YAMAHA"
+     ],
+     "team": [
+      "AD",
+      "YUCKYSUCKY",
+      "YAMAHA",
+      "YODDLS"
+     ],
+     "proposer": "AD"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "YODDLS",
+      "AD",
+      "EREN",
+      "YAMAHA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "EREN",
+      "YAMAHA",
+      "YUCKYSUCKY"
+     ],
+     "proposer": "EREN"
+    }
+   ],
+   "team": [
+    "EREN",
+    "YAMAHA",
+    "YUCKYSUCKY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "HOTTIE",
+    "YODDLS",
+    "EREN",
+    "AD"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "YUCKYSUCKY",
+     "votes": [
+      "YUCKYSUCKY",
+      "YODDLS",
+      "AD"
+     ],
+     "team": [
+      "HOTTIE",
+      "YODDLS",
+      "AD",
+      "EREN"
+     ]
+    },
+    {
+     "team": [
+      "YAMAHA",
+      "YODDLS",
+      "EREN",
+      "YUCKYSUCKY"
+     ],
+     "state": "REJECTED",
+     "proposer": "YAMAHA",
+     "votes": [
+      "YUCKYSUCKY",
+      "YAMAHA"
+     ]
+    },
+    {
+     "team": [
+      "HOTTIE",
+      "YODDLS",
+      "EREN",
+      "AD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "YODDLS",
+      "AD",
+      "YUCKYSUCKY",
+      "HOTTIE"
+     ],
+     "proposer": "HOTTIE"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL"
+  }
+ ]
+}

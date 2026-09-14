@@ -1,0 +1,278 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "KILLER": true,
+    "PRANAV": true
+   },
+   {
+    "SNE": true,
+    "KILLER": false,
+    "ROBOROBO": true
+   },
+   {
+    "M": false,
+    "PRANAV": true,
+    "SNE": true
+   },
+   {
+    "HRICCHAI": true,
+    "HRUDHAI": true,
+    "PRANAV": true,
+    "ROBOROBO": true
+   },
+   {
+    "SNE": true,
+    "HRUDHAI": false,
+    "PRANAV": true,
+    "ROBOROBO": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "HRUDHAI",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KILLER",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ROBOROBO",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SNE"
+   },
+   {
+    "assassin": false,
+    "name": "HRICCHAI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "M",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "PRANAV"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "dJk0zm45lpdRwzfgFhRzf21GThN2",
+   "name": "KILLER"
+  },
+  {
+   "name": "ROBOROBO",
+   "uid": "tPOBnWGNdlMlLkELrLAQBWgejUp2"
+  },
+  {
+   "uid": "4wyOUES0NmVj4LAI5Kq4uOgbo2Y2",
+   "name": "SNE"
+  },
+  {
+   "name": "HRUDHAI",
+   "uid": "U0nkFO6IHkRUEddg0dwFiLK11xP2"
+  },
+  {
+   "name": "HRICCHAI",
+   "uid": "jsuQcwkAh8hZufXyOKFSAxdlIZo1"
+  },
+  {
+   "name": "M",
+   "uid": "1uqw1GrUz1OPVk8uZZBc8ao1XFJ2"
+  },
+  {
+   "uid": "38unDnZjmGbcg7omgAXzEEtzgNn2",
+   "name": "PRANAV"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596294748,
+  "_nanoseconds": 897000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "KILLER",
+    "PRANAV"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PRANAV",
+      "SNE",
+      "HRICCHAI",
+      "HRUDHAI",
+      "KILLER"
+     ],
+     "proposer": "KILLER",
+     "team": [
+      "KILLER",
+      "PRANAV"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "HRICCHAI",
+      "HRUDHAI",
+      "ROBOROBO",
+      "SNE",
+      "M",
+      "PRANAV",
+      "KILLER"
+     ],
+     "proposer": "ROBOROBO",
+     "team": [
+      "KILLER",
+      "ROBOROBO",
+      "SNE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "KILLER",
+    "ROBOROBO",
+    "SNE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KILLER",
+      "HRUDHAI",
+      "PRANAV",
+      "M",
+      "SNE"
+     ],
+     "team": [
+      "SNE",
+      "M",
+      "PRANAV"
+     ],
+     "proposer": "SNE",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "SNE",
+    "M",
+    "PRANAV"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "HRUDHAI",
+     "team": [
+      "HRUDHAI",
+      "HRICCHAI",
+      "ROBOROBO",
+      "M"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "HRUDHAI",
+      "M",
+      "HRICCHAI"
+     ]
+    },
+    {
+     "team": [
+      "ROBOROBO",
+      "HRUDHAI",
+      "HRICCHAI",
+      "PRANAV"
+     ],
+     "votes": [
+      "HRICCHAI",
+      "ROBOROBO",
+      "PRANAV",
+      "HRUDHAI"
+     ],
+     "proposer": "HRICCHAI",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ROBOROBO",
+    "HRUDHAI",
+    "HRICCHAI",
+    "PRANAV"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "HRUDHAI",
+    "ROBOROBO",
+    "PRANAV",
+    "SNE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "HRICCHAI",
+      "SNE",
+      "KILLER",
+      "M",
+      "HRUDHAI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "HRUDHAI",
+      "ROBOROBO",
+      "PRANAV",
+      "SNE"
+     ],
+     "proposer": "M"
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1596294385,
+  "_nanoseconds": 943000000
+ }
+}

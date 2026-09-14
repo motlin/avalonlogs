@@ -1,0 +1,263 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MILLERTIME",
+    "JACOB"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "MILLERTIME",
+      "PHANCYEATS",
+      "KEON",
+      "JACOB"
+     ],
+     "team": [
+      "MILLERTIME",
+      "JACOB"
+     ],
+     "state": "APPROVED",
+     "proposer": "MILLERTIME"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "PHANCYEATS",
+     "state": "APPROVED",
+     "team": [
+      "PHANCYEATS",
+      "MILLERTIME",
+      "JACOB"
+     ],
+     "votes": [
+      "JACOB",
+      "MILLERTIME",
+      "KEON"
+     ]
+    }
+   ],
+   "team": [
+    "PHANCYEATS",
+    "MILLERTIME",
+    "JACOB"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "MILLERTIME",
+    "KEON"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "EMERSON",
+      "PHANCYEATS"
+     ],
+     "state": "REJECTED",
+     "proposer": "EMERSON",
+     "votes": [
+      "JACOB",
+      "MILLERTIME"
+     ]
+    },
+    {
+     "team": [
+      "KEON",
+      "MILLERTIME"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KEON",
+      "MILLERTIME"
+     ],
+     "proposer": "KEON"
+    },
+    {
+     "team": [
+      "JACOB",
+      "EMERSON"
+     ],
+     "proposer": "JACOB",
+     "state": "REJECTED",
+     "votes": [
+      "JACOB"
+     ]
+    },
+    {
+     "votes": [
+      "PHANCYEATS",
+      "EMERSON",
+      "KEON",
+      "MILLERTIME"
+     ],
+     "team": [
+      "MILLERTIME",
+      "KEON"
+     ],
+     "proposer": "MILLERTIME",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "PHANCYEATS",
+    "MILLERTIME",
+    "KEON"
+   ],
+   "proposals": [
+    {
+     "proposer": "PHANCYEATS",
+     "team": [
+      "PHANCYEATS",
+      "MILLERTIME",
+      "KEON"
+     ],
+     "votes": [
+      "EMERSON",
+      "MILLERTIME",
+      "PHANCYEATS",
+      "KEON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KEON",
+      "MILLERTIME",
+      "EMERSON"
+     ],
+     "team": [
+      "EMERSON",
+      "KEON",
+      "MILLERTIME"
+     ],
+     "proposer": "EMERSON"
+    }
+   ],
+   "team": [
+    "EMERSON",
+    "KEON",
+    "MILLERTIME"
+   ]
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "JACOB": true,
+    "MILLERTIME": true
+   },
+   {
+    "MILLERTIME": true,
+    "PHANCYEATS": true,
+    "JACOB": false
+   },
+   {
+    "KEON": true,
+    "MILLERTIME": true
+   },
+   {
+    "KEON": false,
+    "MILLERTIME": true,
+    "PHANCYEATS": true
+   },
+   {
+    "KEON": false,
+    "MILLERTIME": true,
+    "EMERSON": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JACOB",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "KEON",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "PHANCYEATS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "EMERSON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MILLERTIME"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "KgEg5NvTY6OkEOFw5RNqb6eEAVD3",
+   "name": "EMERSON"
+  },
+  {
+   "name": "KEON",
+   "uid": "CRAo4cjSqXM6sZ3vr9VK2YLji003"
+  },
+  {
+   "uid": "2kkT3FL8EsOPKj3k1U3nv1g07Ou1",
+   "name": "JACOB"
+  },
+  {
+   "name": "MILLERTIME",
+   "uid": "l8JzD6xjccgDr0LeRniyX7zhlPP2"
+  },
+  {
+   "uid": "rxsLmVGWOgcjCqKDTokMNyu8k7o2",
+   "name": "PHANCYEATS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1606700252,
+  "_nanoseconds": 240000000
+ },
+ "timeCreated": {
+  "_seconds": 1606699474,
+  "_nanoseconds": 568000000
+ }
+}

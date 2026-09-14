@@ -1,0 +1,239 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "MARTIN",
+   "uid": "L0Gx6Bis5pcXH1FfGkFIYNHXT9F3"
+  },
+  {
+   "uid": "fYg8XNyRKtdJZzgYBXjGLqmhMqy1",
+   "name": "SEAN"
+  },
+  {
+   "name": "JAYDEN",
+   "uid": "jIA8yP5fcETQMW3vdbdcdGFyGsv2"
+  },
+  {
+   "name": "IAN",
+   "uid": "tBu4vgzOAscojPHI0baJZ11Wqgi1"
+  },
+  {
+   "uid": "ZqPGAOWTg8ZpgdNzaMJWf49WkyY2",
+   "name": "JUSTIN"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "JAYDEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "IAN"
+   },
+   {
+    "name": "JUSTIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SEAN"
+   },
+   {
+    "assassin": true,
+    "name": "MARTIN",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "SEAN",
+  "votes": [
+   {
+    "JAYDEN": true,
+    "MARTIN": false
+   },
+   {
+    "SEAN": true,
+    "JUSTIN": true,
+    "IAN": true
+   },
+   {
+    "IAN": true,
+    "JAYDEN": true
+   },
+   {
+    "JUSTIN": true,
+    "SEAN": true,
+    "IAN": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1593982414,
+  "_nanoseconds": 264000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAYDEN",
+      "IAN",
+      "MARTIN"
+     ],
+     "proposer": "JAYDEN",
+     "team": [
+      "JAYDEN",
+      "MARTIN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 2,
+   "team": [
+    "JAYDEN",
+    "MARTIN"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "SEAN",
+    "IAN",
+    "JUSTIN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SEAN",
+      "IAN"
+     ],
+     "team": [
+      "SEAN",
+      "JUSTIN",
+      "IAN"
+     ],
+     "proposer": "IAN"
+    },
+    {
+     "team": [
+      "JUSTIN",
+      "JAYDEN",
+      "MARTIN"
+     ],
+     "votes": [
+      "IAN"
+     ],
+     "proposer": "JUSTIN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MARTIN",
+      "IAN",
+      "SEAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MARTIN",
+      "IAN"
+     ],
+     "proposer": "MARTIN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SEAN",
+      "IAN",
+      "JUSTIN"
+     ],
+     "proposer": "SEAN",
+     "team": [
+      "SEAN",
+      "IAN",
+      "JUSTIN"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JAYDEN",
+     "votes": [
+      "JAYDEN",
+      "IAN",
+      "JUSTIN",
+      "MARTIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JAYDEN",
+      "IAN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "JAYDEN",
+    "IAN"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "IAN",
+     "votes": [
+      "JUSTIN",
+      "SEAN",
+      "IAN"
+     ],
+     "team": [
+      "IAN",
+      "SEAN",
+      "JUSTIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "IAN",
+    "SEAN",
+    "JUSTIN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593981710,
+  "_nanoseconds": 834000000
+ }
+}

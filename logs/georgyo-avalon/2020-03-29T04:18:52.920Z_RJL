@@ -1,0 +1,317 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "NIKI",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JIMMY"
+   },
+   {
+    "name": "LAURA",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "AUDREY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "WALKER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "NIGEL"
+   },
+   {
+    "assassin": false,
+    "name": "JEFF",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CARL"
+   },
+   {
+    "name": "ROZIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "NIGEL",
+  "votes": [
+   {
+    "JEFF": true,
+    "LAURA": true,
+    "NIGEL": true
+   },
+   {
+    "JIMMY": false,
+    "JEFF": true,
+    "LAURA": false,
+    "NIGEL": true
+   },
+   {
+    "JIMMY": false,
+    "WALKER": true,
+    "ROZIE": true,
+    "AUDREY": true
+   },
+   {
+    "JEFF": true,
+    "NIGEL": true,
+    "AUDREY": true,
+    "WALKER": true,
+    "CARL": true
+   },
+   {
+    "WALKER": true,
+    "AUDREY": true,
+    "JEFF": true,
+    "NIGEL": true,
+    "CARL": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "NIGEL",
+      "JEFF",
+      "CARL",
+      "ROZIE",
+      "NIKI",
+      "LAURA",
+      "AUDREY"
+     ],
+     "proposer": "JEFF",
+     "team": [
+      "LAURA",
+      "NIGEL",
+      "JEFF"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "LAURA",
+    "NIGEL",
+    "JEFF"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CARL",
+      "ROZIE",
+      "NIKI",
+      "JIMMY",
+      "AUDREY",
+      "NIGEL",
+      "JEFF"
+     ],
+     "team": [
+      "NIGEL",
+      "JEFF",
+      "LAURA",
+      "JIMMY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JIMMY"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "NIGEL",
+    "JEFF",
+    "LAURA",
+    "JIMMY"
+   ],
+   "teamSize": 4,
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "WALKER",
+    "ROZIE",
+    "JIMMY",
+    "AUDREY"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ROZIE",
+     "votes": [
+      "CARL",
+      "ROZIE",
+      "NIKI",
+      "JIMMY",
+      "LAURA",
+      "AUDREY",
+      "WALKER"
+     ],
+     "team": [
+      "WALKER",
+      "ROZIE",
+      "JIMMY",
+      "AUDREY"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIKI",
+      "LAURA"
+     ],
+     "proposer": "LAURA",
+     "team": [
+      "JIMMY",
+      "LAURA",
+      "JEFF",
+      "AUDREY",
+      "ROZIE"
+     ]
+    },
+    {
+     "team": [
+      "NIGEL",
+      "JEFF",
+      "WALKER",
+      "CARL",
+      "AUDREY"
+     ],
+     "proposer": "NIGEL",
+     "state": "APPROVED",
+     "votes": [
+      "JIMMY",
+      "LAURA",
+      "AUDREY",
+      "WALKER",
+      "NIGEL",
+      "JEFF",
+      "CARL",
+      "ROZIE"
+     ]
+    }
+   ],
+   "team": [
+    "NIGEL",
+    "JEFF",
+    "WALKER",
+    "CARL",
+    "AUDREY"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "NIGEL",
+    "CARL",
+    "WALKER",
+    "AUDREY",
+    "JEFF"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "NIGEL",
+      "CARL",
+      "WALKER",
+      "AUDREY",
+      "JEFF"
+     ],
+     "proposer": "CARL",
+     "state": "APPROVED",
+     "votes": [
+      "CARL",
+      "LAURA",
+      "AUDREY",
+      "WALKER",
+      "NIGEL",
+      "JEFF"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585455532,
+  "_nanoseconds": 920000000
+ },
+ "players": [
+  {
+   "name": "NIGEL",
+   "uid": "eg7UDaA2gMU7K7gcPabyg60I5Oo1"
+  },
+  {
+   "uid": "pXtvGj9rVth15svpr2JgbxoOF2v1",
+   "name": "CARL"
+  },
+  {
+   "name": "NIKI",
+   "uid": "qy500PYGGFYrccUzWpCNhaOvssR2"
+  },
+  {
+   "uid": "KQ6CAvEFXeUnyTqHpokvrSzwYbx1",
+   "name": "WALKER"
+  },
+  {
+   "uid": "UoslXRO7vaefHq19QAlBoIxYoAt1",
+   "name": "AUDREY"
+  },
+  {
+   "name": "JEFF",
+   "uid": "bYzgcJ3LUESk0lJyH2zm8nD8oxh1"
+  },
+  {
+   "name": "JIMMY",
+   "uid": "ol31JZYbPBZXNJAXbmpT7g0oq9o1"
+  },
+  {
+   "uid": "PoOy5RCgcGMcDrOrcWSc5vDb4x62",
+   "name": "ROZIE"
+  },
+  {
+   "uid": "oTMXJGQbmRgqJRvrT7hZbGjVX373",
+   "name": "LAURA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585456995,
+  "_nanoseconds": 596330000
+ }
+}

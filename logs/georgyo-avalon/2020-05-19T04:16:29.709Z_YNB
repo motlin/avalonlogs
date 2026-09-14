@@ -1,0 +1,413 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589863124,
+  "_nanoseconds": 542000000
+ },
+ "players": [
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "name": "CBROWN",
+   "uid": "o4LZvEhWgaexflrQs0XWpfRyVTD2"
+  },
+  {
+   "name": "AFFINE",
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "BRYCE",
+   "uid": "LNbFQPCC7NhM56pyXzg2u76WE0g1"
+  },
+  {
+   "uid": "sZAbXIiWArSQ03rtdYtijtUIHCf1",
+   "name": "JET"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589861789,
+  "_nanoseconds": 709000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ADAM",
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JET"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "BRYCE"
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AFFINE"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "CBROWN",
+    "assassin": true
+   }
+  ],
+  "votes": [
+   {
+    "NIKOLAI": true,
+    "BRYCE": true
+   },
+   {
+    "AFFINE": true,
+    "NIKOLAI": false,
+    "BRYCE": true
+   },
+   {
+    "ADAM": true,
+    "CBROWN": false,
+    "JET": true,
+    "AFFINE": true
+   },
+   {
+    "NIKOLAI": false,
+    "ADAM": true,
+    "CBROWN": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "CBROWN",
+     "votes": [
+      "BRYCE",
+      "NIKOLAI",
+      "CBROWN"
+     ],
+     "team": [
+      "CBROWN",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "AFFINE",
+      "CBROWN"
+     ],
+     "proposer": "AFFINE",
+     "state": "REJECTED",
+     "votes": [
+      "BRYCE",
+      "CBROWN"
+     ]
+    },
+    {
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "votes": [
+      "BRYCE",
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKOLAI",
+      "BRYCE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BRYCE"
+     ],
+     "team": [
+      "JET",
+      "BRYCE"
+     ],
+     "proposer": "BRYCE"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NIKOLAI",
+      "CBROWN",
+      "ADAM",
+      "JET",
+      "BRYCE"
+     ],
+     "team": [
+      "BRYCE",
+      "NIKOLAI"
+     ],
+     "proposer": "JET"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "BRYCE",
+    "NIKOLAI"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "NIKOLAI",
+    "BRYCE",
+    "AFFINE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "NIKOLAI",
+      "BRYCE"
+     ],
+     "votes": [
+      "ADAM",
+      "BRYCE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CBROWN"
+     ],
+     "proposer": "CBROWN",
+     "team": [
+      "CBROWN",
+      "ADAM",
+      "AFFINE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AFFINE",
+      "JET"
+     ],
+     "team": [
+      "AFFINE",
+      "BRYCE",
+      "NIKOLAI"
+     ],
+     "proposer": "AFFINE"
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "BRYCE",
+      "AFFINE"
+     ],
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKOLAI",
+      "AFFINE",
+      "JET",
+      "BRYCE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [],
+     "team": [
+      "ADAM",
+      "CBROWN",
+      "BRYCE",
+      "JET"
+     ],
+     "state": "REJECTED",
+     "proposer": "BRYCE"
+    },
+    {
+     "proposer": "JET",
+     "votes": [
+      "JET",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CBROWN",
+      "NIKOLAI",
+      "BRYCE",
+      "JET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "AFFINE",
+      "BRYCE",
+      "CBROWN"
+     ],
+     "votes": [
+      "BRYCE",
+      "CBROWN"
+     ],
+     "proposer": "ADAM"
+    },
+    {
+     "team": [
+      "BRYCE",
+      "AFFINE",
+      "CBROWN",
+      "ADAM"
+     ],
+     "state": "REJECTED",
+     "proposer": "CBROWN",
+     "votes": [
+      "NIKOLAI",
+      "CBROWN",
+      "BRYCE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ADAM",
+      "CBROWN",
+      "AFFINE",
+      "JET"
+     ],
+     "proposer": "AFFINE",
+     "votes": [
+      "ADAM",
+      "JET",
+      "BRYCE",
+      "NIKOLAI",
+      "AFFINE",
+      "CBROWN"
+     ]
+    }
+   ],
+   "team": [
+    "ADAM",
+    "CBROWN",
+    "AFFINE",
+    "JET"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "NIKOLAI",
+      "JET"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "BRYCE",
+      "JET"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "team": [
+      "ADAM",
+      "BRYCE",
+      "AFFINE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BRYCE",
+      "AFFINE",
+      "ADAM"
+     ],
+     "proposer": "BRYCE"
+    },
+    {
+     "team": [
+      "CBROWN",
+      "NIKOLAI",
+      "BRYCE"
+     ],
+     "state": "REJECTED",
+     "proposer": "JET",
+     "votes": [
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "ADAM"
+     ],
+     "proposer": "ADAM",
+     "team": [
+      "JET",
+      "BRYCE",
+      "AFFINE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AFFINE",
+      "CBROWN",
+      "ADAM",
+      "JET"
+     ],
+     "proposer": "CBROWN",
+     "team": [
+      "CBROWN",
+      "NIKOLAI",
+      "ADAM"
+     ]
+    }
+   ],
+   "team": [
+    "CBROWN",
+    "NIKOLAI",
+    "ADAM"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ]
+}

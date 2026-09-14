@@ -1,0 +1,261 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "JDB",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "IMLDA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MAISIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ALIHA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JOSH",
+    "role": "MORGANA"
+   },
+   {
+    "name": "SNL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "MAISIE": true,
+    "IMLDA": true
+   },
+   {
+    "IMLDA": true,
+    "JDB": true,
+    "JOSH": false
+   },
+   {
+    "SNL": true,
+    "MAISIE": true,
+    "ALIHA": true,
+    "JDB": false
+   },
+   {
+    "MAISIE": true,
+    "IMLDA": true,
+    "JDB": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1589228031,
+  "_nanoseconds": 528000000
+ },
+ "timeFinished": {
+  "_seconds": 1589229556,
+  "_nanoseconds": 485000000
+ },
+ "players": [
+  {
+   "uid": "zkF9qP0QhZTVFTjLBFAKd1ngzWg1",
+   "name": "JDB"
+  },
+  {
+   "uid": "JOjO5n8d6VNtL83Y2VVDKJmXs823",
+   "name": "ALIHA"
+  },
+  {
+   "uid": "go7Ty4TWPGQ70BlL3fpZmSCT0t32",
+   "name": "IMLDA"
+  },
+  {
+   "name": "JOSH",
+   "uid": "jWX46Na5lZT03beEzfTdILo8iJl1"
+  },
+  {
+   "name": "MAISIE",
+   "uid": "XSn1Q4PvB4RrZQCYZyf1mmIhBzx1"
+  },
+  {
+   "name": "SNL",
+   "uid": "xjKxzjgRp3PJEms1qLVMQjKmIxr2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "IMLDA",
+    "MAISIE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "IMLDA",
+      "MAISIE"
+     ],
+     "proposer": "IMLDA",
+     "votes": [
+      "ALIHA",
+      "JOSH",
+      "JDB",
+      "IMLDA",
+      "MAISIE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "IMLDA",
+      "JDB",
+      "JOSH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ALIHA",
+      "JOSH",
+      "JDB",
+      "IMLDA"
+     ],
+     "proposer": "JOSH"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "IMLDA",
+    "JDB",
+    "JOSH"
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SNL",
+      "MAISIE"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAISIE",
+     "team": [
+      "JDB",
+      "MAISIE",
+      "SNL",
+      "IMLDA"
+     ]
+    },
+    {
+     "votes": [],
+     "proposer": "SNL",
+     "state": "REJECTED",
+     "team": [
+      "ALIHA",
+      "JDB",
+      "IMLDA",
+      "JOSH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALIHA",
+      "JOSH",
+      "SNL",
+      "JDB",
+      "MAISIE"
+     ],
+     "proposer": "JDB",
+     "team": [
+      "SNL",
+      "MAISIE",
+      "JDB",
+      "ALIHA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "SNL",
+    "MAISIE",
+    "JDB",
+    "ALIHA"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "IMLDA",
+    "MAISIE",
+    "JDB"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ALIHA",
+      "IMLDA",
+      "MAISIE"
+     ],
+     "state": "REJECTED",
+     "proposer": "ALIHA",
+     "votes": [
+      "IMLDA",
+      "ALIHA",
+      "JOSH"
+     ]
+    },
+    {
+     "team": [
+      "IMLDA",
+      "MAISIE",
+      "JDB"
+     ],
+     "votes": [
+      "JDB",
+      "IMLDA",
+      "MAISIE",
+      "ALIHA",
+      "SNL"
+     ],
+     "proposer": "IMLDA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

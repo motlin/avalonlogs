@@ -1,0 +1,257 @@
+{
+ "players": [
+  {
+   "name": "JAMES",
+   "uid": "liTXGBqdAWcXM98E01pTMJAL7h83"
+  },
+  {
+   "uid": "NJ5s3UaRXdc8BkMlj1sI9R1wIuc2",
+   "name": "MINHCHAU"
+  },
+  {
+   "uid": "eITHkdsh5hSINAPjgoZcp4FXhkF2",
+   "name": "HAHN"
+  },
+  {
+   "name": "OLIVIA",
+   "uid": "rWFiGJYp74gA7oua9rQysmscFYJ3"
+  },
+  {
+   "name": "NPS",
+   "uid": "eoe4hYHljjMFneLPXXsvEaUCqU23"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "OLIVIA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MINHCHAU"
+   },
+   {
+    "name": "JAMES",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "HAHN",
+    "role": "MORDRED"
+   },
+   {
+    "name": "NPS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": "NPS",
+  "votes": [
+   {
+    "OLIVIA": true,
+    "NPS": true
+   },
+   {
+    "MINHCHAU": true,
+    "OLIVIA": false,
+    "NPS": true
+   },
+   {
+    "OLIVIA": true,
+    "NPS": true
+   },
+   {
+    "OLIVIA": false,
+    "HAHN": true,
+    "NPS": true
+   },
+   {
+    "MINHCHAU": true,
+    "JAMES": true,
+    "NPS": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1593312385,
+  "_nanoseconds": 695000000
+ },
+ "timeFinished": {
+  "_seconds": 1593313174,
+  "_nanoseconds": 962000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "OLIVIA",
+    "NPS"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "OLIVIA",
+      "MINHCHAU",
+      "JAMES",
+      "HAHN",
+      "NPS"
+     ],
+     "team": [
+      "OLIVIA",
+      "NPS"
+     ],
+     "proposer": "OLIVIA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "OLIVIA",
+      "MINHCHAU",
+      "NPS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MINHCHAU",
+      "HAHN",
+      "NPS",
+      "OLIVIA"
+     ],
+     "proposer": "NPS"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "OLIVIA",
+    "MINHCHAU",
+    "NPS"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "OLIVIA",
+    "NPS"
+   ],
+   "proposals": [
+    {
+     "proposer": "JAMES",
+     "votes": [
+      "JAMES"
+     ],
+     "team": [
+      "MINHCHAU",
+      "JAMES"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "OLIVIA",
+      "NPS"
+     ],
+     "votes": [
+      "HAHN",
+      "NPS",
+      "OLIVIA",
+      "MINHCHAU",
+      "JAMES"
+     ],
+     "proposer": "MINHCHAU"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "HAHN",
+    "OLIVIA",
+    "NPS"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "HAHN",
+      "OLIVIA",
+      "NPS"
+     ],
+     "votes": [
+      "MINHCHAU",
+      "JAMES",
+      "HAHN",
+      "NPS",
+      "OLIVIA"
+     ],
+     "proposer": "HAHN"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "OLIVIA",
+     "votes": [
+      "HAHN",
+      "OLIVIA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MINHCHAU",
+      "HAHN",
+      "OLIVIA"
+     ]
+    },
+    {
+     "votes": [
+      "MINHCHAU",
+      "JAMES",
+      "HAHN",
+      "NPS"
+     ],
+     "proposer": "NPS",
+     "team": [
+      "JAMES",
+      "MINHCHAU",
+      "NPS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JAMES",
+    "MINHCHAU",
+    "NPS"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ]
+}

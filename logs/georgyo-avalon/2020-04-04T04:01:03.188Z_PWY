@@ -1,0 +1,304 @@
+{
+ "timeCreated": {
+  "_seconds": 1585972863,
+  "_nanoseconds": 188000000
+ },
+ "timeFinished": {
+  "_seconds": 1585973717,
+  "_nanoseconds": 238397000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "VISION",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "LIV"
+   },
+   {
+    "assassin": false,
+    "name": "DONN",
+    "role": "OBERON"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MADI",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MAC"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "TORCH"
+   },
+   {
+    "name": "LILA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "HAYNES",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "RODBOD",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "MAC": true,
+    "DONN": true,
+    "LIV": true
+   },
+   {
+    "MAC": true,
+    "LIV": true,
+    "DONN": false,
+    "LILA": true
+   },
+   {
+    "LIV": true,
+    "LILA": true,
+    "RODBOD": false,
+    "MAC": true
+   },
+   {
+    "MADI": true,
+    "LILA": true,
+    "DONN": false,
+    "VISION": true,
+    "LIV": true
+   },
+   {
+    "TORCH": false,
+    "HAYNES": true,
+    "MADI": true,
+    "DONN": false,
+    "VISION": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "Ymmls5wEeDRqVTzA8Mu4zN6mGlu2",
+   "name": "HAYNES"
+  },
+  {
+   "uid": "fhhd6VF7sjeOuxnkg4GDyUDThUm1",
+   "name": "DONN"
+  },
+  {
+   "uid": "lzvFCUxNeiRU3DtVCInnflHYmfk1",
+   "name": "LILA"
+  },
+  {
+   "name": "RODBOD",
+   "uid": "UIcBdeb2mIgZjnLFs9To3GrdPit1"
+  },
+  {
+   "uid": "ApdjsxZJqCg822NgktEpnY3FheV2",
+   "name": "MADI"
+  },
+  {
+   "name": "TORCH",
+   "uid": "QUwlJL0B2Nggy3injQUZHPQHUfh1"
+  },
+  {
+   "name": "LIV",
+   "uid": "uRVhDgda4KQZnqLej1ZC2dRS1u63"
+  },
+  {
+   "name": "MAC",
+   "uid": "GAbyBRIVHZSRUPru8Og3yJMuIga2"
+  },
+  {
+   "name": "VISION",
+   "uid": "FudCJmyFFJMlVv4lD7vWWVWttJd2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "DONN",
+     "votes": [
+      "MADI",
+      "MAC",
+      "TORCH",
+      "LILA",
+      "RODBOD",
+      "VISION",
+      "LIV",
+      "DONN"
+     ],
+     "team": [
+      "LIV",
+      "MAC",
+      "DONN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "LIV",
+    "MAC",
+    "DONN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VISION",
+      "LIV",
+      "MADI",
+      "MAC",
+      "LILA",
+      "HAYNES",
+      "RODBOD"
+     ],
+     "proposer": "LILA",
+     "team": [
+      "LILA",
+      "DONN",
+      "LIV",
+      "MAC"
+     ]
+    }
+   ],
+   "team": [
+    "LILA",
+    "DONN",
+    "LIV",
+    "MAC"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TORCH",
+      "LILA",
+      "HAYNES",
+      "RODBOD",
+      "VISION",
+      "LIV",
+      "DONN",
+      "MADI",
+      "MAC"
+     ],
+     "team": [
+      "MAC",
+      "LIV",
+      "LILA",
+      "RODBOD"
+     ],
+     "proposer": "RODBOD",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MAC",
+    "LIV",
+    "LILA",
+    "RODBOD"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "MADI",
+    "VISION",
+    "LILA",
+    "LIV",
+    "DONN"
+   ],
+   "teamSize": 5,
+   "numFails": 1,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "VISION",
+      "LIV",
+      "DONN",
+      "MADI",
+      "LILA",
+      "HAYNES",
+      "RODBOD"
+     ],
+     "team": [
+      "MADI",
+      "VISION",
+      "LILA",
+      "LIV",
+      "DONN"
+     ],
+     "proposer": "MADI",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "RODBOD",
+      "DONN",
+      "MAC",
+      "TORCH",
+      "LILA",
+      "HAYNES"
+     ],
+     "team": [
+      "HAYNES",
+      "VISION",
+      "DONN",
+      "MADI",
+      "TORCH"
+     ],
+     "proposer": "TORCH",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HAYNES",
+    "VISION",
+    "DONN",
+    "MADI",
+    "TORCH"
+   ],
+   "numFails": 2,
+   "state": "FAIL"
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "timeFinished": {
+  "_seconds": 1586387764,
+  "_nanoseconds": 742767000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "HNG": false,
+    "TIM": true
+   },
+   {
+    "TIM": true,
+    "KATE": true,
+    "HELEB": true
+   },
+   {
+    "HELEB": true,
+    "TIM": true
+   },
+   {
+    "HELEB": true,
+    "TIM": true,
+    "KATE": true
+   }
+  ],
+  "assassinated": "KATE",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "KATE"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "HELEB"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TIM"
+   },
+   {
+    "name": "AMO",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "HNG",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "NlzVvrWfIDPgfBkRFKFhCNBd7Na2",
+   "name": "HELEB"
+  },
+  {
+   "uid": "qVpNVKharfh0VAUsOP94hdRppNv2",
+   "name": "TIM"
+  },
+  {
+   "uid": "pBLWs5tGylaoDdhR4sJW4a8FzaG2",
+   "name": "HNG"
+  },
+  {
+   "uid": "pXlzqx0cCve1Ze7g7EUWfeAC0Dd2",
+   "name": "KATE"
+  },
+  {
+   "name": "AMO",
+   "uid": "DBliuCLsHgWcprmk6olfl1LBUxh1"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "TIM",
+    "HNG"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "TIM",
+      "HNG"
+     ],
+     "votes": [
+      "AMO",
+      "HNG",
+      "KATE",
+      "HELEB",
+      "TIM"
+     ],
+     "state": "APPROVED",
+     "proposer": "TIM"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "KATE",
+    "TIM",
+    "HELEB"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "HNG",
+      "KATE",
+      "HELEB"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AMO",
+      "HNG"
+     ],
+     "proposer": "HNG"
+    },
+    {
+     "team": [
+      "KATE",
+      "TIM",
+      "HELEB"
+     ],
+     "state": "APPROVED",
+     "proposer": "KATE",
+     "votes": [
+      "KATE",
+      "HELEB",
+      "TIM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "KATE",
+      "HELEB",
+      "TIM",
+      "AMO"
+     ],
+     "proposer": "AMO",
+     "state": "APPROVED",
+     "team": [
+      "TIM",
+      "HELEB"
+     ]
+    }
+   ],
+   "team": [
+    "TIM",
+    "HELEB"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "HELEB",
+      "TIM",
+      "KATE"
+     ],
+     "state": "APPROVED",
+     "proposer": "HELEB",
+     "votes": [
+      "KATE",
+      "HELEB",
+      "TIM",
+      "HNG"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "HELEB",
+    "TIM",
+    "KATE"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586387582,
+  "_nanoseconds": 700000000
+ }
+}

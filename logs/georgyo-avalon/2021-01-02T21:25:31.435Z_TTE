@@ -1,0 +1,273 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "BRUCE",
+      "JOE"
+     ],
+     "votes": [
+      "BRUCE",
+      "MAYKO"
+     ],
+     "proposer": "BRUCE",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JOE",
+      "MAYKO"
+     ],
+     "proposer": "JOE",
+     "votes": [
+      "MAYKO"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "HU",
+     "state": "REJECTED",
+     "votes": [
+      "MAYKO",
+      "HU"
+     ],
+     "team": [
+      "HU",
+      "BRUCE"
+     ]
+    },
+    {
+     "team": [
+      "JOE",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MAYKO",
+      "JOE",
+      "BRIAN"
+     ],
+     "proposer": "MAYKO"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "JOE",
+    "BRIAN"
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "BRIAN",
+    "JOE",
+    "MAYKO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BRIAN",
+      "JOE",
+      "MAYKO"
+     ],
+     "team": [
+      "BRIAN",
+      "JOE",
+      "MAYKO"
+     ],
+     "proposer": "BRIAN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MAYKO",
+      "BRUCE",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BRUCE",
+      "HU"
+     ],
+     "proposer": "BRUCE"
+    }
+   ],
+   "team": [
+    "BRUCE",
+    "HU"
+   ],
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "JOE",
+     "votes": [
+      "HU"
+     ],
+     "team": [
+      "BRIAN",
+      "JOE",
+      "HU"
+     ]
+    },
+    {
+     "team": [
+      "BRIAN",
+      "JOE",
+      "HU"
+     ],
+     "proposer": "HU",
+     "state": "REJECTED",
+     "votes": [
+      "BRIAN",
+      "HU"
+     ]
+    },
+    {
+     "votes": [
+      "MAYKO"
+     ],
+     "proposer": "MAYKO",
+     "team": [
+      "MAYKO",
+      "HU",
+      "BRUCE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BRIAN",
+      "JOE",
+      "HU"
+     ],
+     "proposer": "BRIAN",
+     "votes": [
+      "BRIAN",
+      "HU",
+      "JOE",
+      "MAYKO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BRIAN",
+    "JOE",
+    "HU"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "HU"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MAYKO"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BRUCE",
+    "assassin": false
+   },
+   {
+    "name": "JOE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BRIAN",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "BRIAN": true,
+    "JOE": true
+   },
+   {
+    "BRIAN": true,
+    "MAYKO": false,
+    "JOE": true
+   },
+   {
+    "HU": false,
+    "BRUCE": true
+   },
+   {
+    "HU": false,
+    "BRIAN": true,
+    "JOE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1609622731,
+  "_nanoseconds": 435000000
+ },
+ "players": [
+  {
+   "name": "BRIAN",
+   "uid": "zH62FhdO93fgue6xy1GZiX6emJC3"
+  },
+  {
+   "name": "BRUCE",
+   "uid": "UDW0LpRg2STjoxnExy4LaQCHg0s1"
+  },
+  {
+   "uid": "Q5qgYH7iT4NHnj6MNsv7W605RUf1",
+   "name": "JOE"
+  },
+  {
+   "uid": "rhReFTrGCIW29G5PPpSOEmovGF02",
+   "name": "HU"
+  },
+  {
+   "name": "MAYKO",
+   "uid": "HHItKdP7xvdDetulD1pTHKA1wok2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609623963,
+  "_nanoseconds": 499000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

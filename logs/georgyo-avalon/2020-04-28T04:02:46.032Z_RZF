@@ -1,0 +1,273 @@
+{
+ "players": [
+  {
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2",
+   "name": "GOODWIN"
+  },
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "name": "BRYCE",
+   "uid": "LNbFQPCC7NhM56pyXzg2u76WE0g1"
+  },
+  {
+   "name": "ANINDYA",
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  },
+  {
+   "uid": "0v9dXMc3kvZ2yKoL8dZuHeRAl3d2",
+   "name": "AFFINE"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "BRYCE": true,
+    "ANINDYA": true
+   },
+   {
+    "ANINDYA": true,
+    "NIKOLAI": true,
+    "BRYCE": true
+   },
+   {
+    "ANINDYA": true,
+    "BRYCE": true,
+    "AFFINE": true,
+    "NIKOLAI": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AFFINE"
+   },
+   {
+    "name": "GOODWIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ADAM",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "BRYCE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANINDYA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "NIKOLAI",
+    "role": "PERCIVAL"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "NIKOLAI"
+ },
+ "timeCreated": {
+  "_seconds": 1588046566,
+  "_nanoseconds": 32000000
+ },
+ "timeFinished": {
+  "_seconds": 1588047401,
+  "_nanoseconds": 950000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ADAM",
+      "ANINDYA"
+     ],
+     "proposer": "BRYCE",
+     "votes": [
+      "GOODWIN",
+      "BRYCE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BRYCE",
+      "ANINDYA"
+     ],
+     "team": [
+      "ANINDYA",
+      "BRYCE"
+     ],
+     "proposer": "ANINDYA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "NIKOLAI",
+     "votes": [
+      "BRYCE",
+      "ANINDYA",
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "team": [
+      "ANINDYA",
+      "BRYCE"
+     ]
+    }
+   ],
+   "team": [
+    "ANINDYA",
+    "BRYCE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "BRYCE",
+    "ANINDYA",
+    "NIKOLAI"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "BRYCE",
+      "ANINDYA",
+      "AFFINE"
+     ],
+     "votes": [
+      "ANINDYA",
+      "AFFINE"
+     ],
+     "proposer": "AFFINE"
+    },
+    {
+     "proposer": "GOODWIN",
+     "state": "REJECTED",
+     "votes": [
+      "GOODWIN",
+      "BRYCE"
+     ],
+     "team": [
+      "GOODWIN",
+      "ADAM",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "votes": [
+      "BRYCE",
+      "ANINDYA",
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BRYCE",
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "proposer": "ADAM"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ADAM",
+      "BRYCE",
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "proposer": "BRYCE",
+     "state": "REJECTED",
+     "votes": [
+      "ADAM",
+      "BRYCE",
+      "ANINDYA"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "ANINDYA",
+      "BRYCE",
+      "ADAM"
+     ],
+     "votes": [
+      "ADAM",
+      "BRYCE",
+      "ANINDYA"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANINDYA"
+    },
+    {
+     "votes": [
+      "AFFINE",
+      "BRYCE",
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "APPROVED",
+     "team": [
+      "BRYCE",
+      "ANINDYA",
+      "NIKOLAI",
+      "AFFINE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "BRYCE",
+    "ANINDYA",
+    "NIKOLAI",
+    "AFFINE"
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "proposals": []
+  }
+ ]
+}

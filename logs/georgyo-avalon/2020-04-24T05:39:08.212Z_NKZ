@@ -1,0 +1,284 @@
+{
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "BECHASSMOF": true,
+    "CJ": true
+   },
+   {
+    "JIZANTHEPU": true,
+    "BECHASSMOF": true,
+    "CJ": true
+   },
+   {
+    "SHOOLTALA": true,
+    "JIZANTHEPU": false,
+    "CJ": true,
+    "BECHASSMOF": true
+   },
+   {
+    "BECHASSMOF": true,
+    "JIZANTHEPU": false,
+    "CJ": true
+   },
+   {
+    "SHOOLTALA": true,
+    "BECHASSMOF": true,
+    "SAMAN": true,
+    "CJ": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SHOOLTALA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JIZANTHEPU",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "YASI",
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BECHASSMOF",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CJ"
+   },
+   {
+    "name": "SAMAN",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": "SHOOLTALA",
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1587706748,
+  "_nanoseconds": 212000000
+ },
+ "players": [
+  {
+   "name": "BECHASSMOF",
+   "uid": "Y1fsNG0PGdeantgQ5We7IsNxNN43"
+  },
+  {
+   "name": "CJ",
+   "uid": "DKSwh8wGqhfHWSZq4MCABkLU19z2"
+  },
+  {
+   "name": "YASI",
+   "uid": "eoxx13cGrkc33ZRPWa71ad0Qsz03"
+  },
+  {
+   "uid": "uFPnz97R3dbvqEG04esCyioXOSr2",
+   "name": "JIZANTHEPU"
+  },
+  {
+   "uid": "Jrn5SOEoTpQUjp2aMf24njhg2pg1",
+   "name": "SHOOLTALA"
+  },
+  {
+   "name": "SAMAN",
+   "uid": "VTuyFcjanBWQBv1YVZLE6UNDfhn2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587708073,
+  "_nanoseconds": 225000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "BECHASSMOF",
+     "votes": [
+      "SAMAN",
+      "SHOOLTALA",
+      "JIZANTHEPU",
+      "YASI",
+      "BECHASSMOF",
+      "CJ"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BECHASSMOF",
+      "CJ"
+     ]
+    }
+   ],
+   "team": [
+    "BECHASSMOF",
+    "CJ"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "CJ",
+    "BECHASSMOF",
+    "JIZANTHEPU"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CJ",
+     "team": [
+      "CJ",
+      "BECHASSMOF",
+      "JIZANTHEPU"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SAMAN",
+      "SHOOLTALA",
+      "JIZANTHEPU",
+      "YASI",
+      "BECHASSMOF",
+      "CJ"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "YASI",
+     "votes": [
+      "SAMAN",
+      "JIZANTHEPU",
+      "YASI"
+     ],
+     "team": [
+      "CJ",
+      "JIZANTHEPU",
+      "BECHASSMOF",
+      "SAMAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SAMAN",
+      "SHOOLTALA",
+      "JIZANTHEPU",
+      "YASI",
+      "BECHASSMOF"
+     ],
+     "proposer": "JIZANTHEPU",
+     "team": [
+      "BECHASSMOF",
+      "CJ",
+      "JIZANTHEPU",
+      "SHOOLTALA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BECHASSMOF",
+    "CJ",
+    "JIZANTHEPU",
+    "SHOOLTALA"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "CJ",
+    "JIZANTHEPU",
+    "BECHASSMOF"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SHOOLTALA",
+     "state": "REJECTED",
+     "team": [
+      "SHOOLTALA",
+      "SAMAN",
+      "YASI"
+     ],
+     "votes": [
+      "YASI",
+      "SAMAN",
+      "SHOOLTALA"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SAMAN",
+      "JIZANTHEPU",
+      "YASI",
+      "BECHASSMOF",
+      "CJ"
+     ],
+     "proposer": "SAMAN",
+     "team": [
+      "CJ",
+      "JIZANTHEPU",
+      "BECHASSMOF"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "SAMAN",
+    "BECHASSMOF",
+    "CJ",
+    "SHOOLTALA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SHOOLTALA",
+      "JIZANTHEPU",
+      "BECHASSMOF",
+      "CJ",
+      "SAMAN"
+     ],
+     "proposer": "BECHASSMOF",
+     "state": "APPROVED",
+     "team": [
+      "SAMAN",
+      "BECHASSMOF",
+      "CJ",
+      "SHOOLTALA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

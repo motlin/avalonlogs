@@ -1,0 +1,203 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ETHAN",
+      "NEIL"
+     ],
+     "state": "APPROVED",
+     "proposer": "ETHAN",
+     "votes": [
+      "EVE",
+      "NEIL",
+      "ANA",
+      "ETHAN",
+      "BEN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ETHAN",
+    "NEIL"
+   ]
+  },
+  {
+   "team": [
+    "ANA",
+    "BEN",
+    "NEIL"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "EVE",
+      "ANA",
+      "NEIL",
+      "ETHAN"
+     ],
+     "proposer": "EVE",
+     "team": [
+      "ANA",
+      "BEN",
+      "NEIL"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ETHAN",
+      "ANA",
+      "BEN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "ETHAN"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "BEN",
+    "ETHAN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "NEIL",
+      "ANA",
+      "ETHAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EVE",
+      "NEIL",
+      "ETHAN"
+     ],
+     "proposer": "NEIL"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "NEIL",
+    "ANA",
+    "ETHAN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ETHAN": true,
+    "NEIL": true
+   },
+   {
+    "NEIL": false,
+    "BEN": true,
+    "ANA": true
+   },
+   {
+    "ETHAN": true,
+    "BEN": true
+   },
+   {
+    "NEIL": true,
+    "ANA": true,
+    "ETHAN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "EVE",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANA"
+   },
+   {
+    "name": "ETHAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NEIL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "BEN"
+   }
+  ],
+  "assassinated": "ETHAN",
+  "state": "GOOD_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1605155307,
+  "_nanoseconds": 962000000
+ },
+ "players": [
+  {
+   "name": "BEN",
+   "uid": "Nd5hMAhNClUlVLDwF78qja9Ao8x1"
+  },
+  {
+   "name": "NEIL",
+   "uid": "8Ms0ms28MIMpu0kTifzzOFntKCi2"
+  },
+  {
+   "name": "ANA",
+   "uid": "hqLlIb2VFecxrwr3KcD0VdyQ86E3"
+  },
+  {
+   "name": "ETHAN",
+   "uid": "2Wi9syZxnESgSk06YuyrSQSoqnM2"
+  },
+  {
+   "name": "EVE",
+   "uid": "mXBWz8EfNZUIZMxqT3tIPYvO6r82"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1605155020,
+  "_nanoseconds": 138000000
+ }
+}

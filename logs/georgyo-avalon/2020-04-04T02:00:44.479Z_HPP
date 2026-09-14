@@ -1,0 +1,283 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "TORI": true,
+    "JAKE": true,
+    "JACOB": true
+   },
+   {
+    "JACOB": false,
+    "RYAN": true,
+    "KILLERKELS": false,
+    "CLWNDRGN": true
+   },
+   {
+    "RYAN": true,
+    "JOHN": true,
+    "JAKE": true,
+    "JESS": true
+   },
+   {
+    "JOHN": true,
+    "TORI": true,
+    "JESS": true,
+    "JAKE": true,
+    "RYAN": true
+   }
+  ],
+  "assassinated": "JAKE",
+  "roles": [
+   {
+    "name": "JOHN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JESS",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "TORI",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JACOB"
+   },
+   {
+    "assassin": false,
+    "name": "CLWNDRGN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JAKE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "KILLERKELS",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "TORI",
+     "team": [
+      "JACOB",
+      "TORI",
+      "JAKE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JAKE",
+      "KILLERKELS",
+      "JOHN",
+      "RYAN",
+      "JESS",
+      "TORI",
+      "JACOB"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JACOB",
+    "TORI",
+    "JAKE"
+   ]
+  },
+  {
+   "team": [
+    "CLWNDRGN",
+    "JACOB",
+    "KILLERKELS",
+    "RYAN"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CLWNDRGN",
+      "JACOB",
+      "KILLERKELS",
+      "RYAN"
+     ],
+     "votes": [
+      "TORI",
+      "CLWNDRGN",
+      "KILLERKELS",
+      "JOHN",
+      "RYAN"
+     ],
+     "proposer": "CLWNDRGN",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "RYAN",
+    "JAKE",
+    "JESS",
+    "JOHN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JESS",
+      "JAKE",
+      "JOHN",
+      "CLWNDRGN"
+     ],
+     "votes": [
+      "JOHN",
+      "JESS",
+      "JAKE",
+      "KILLERKELS"
+     ],
+     "proposer": "JESS",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "RYAN",
+     "team": [
+      "RYAN",
+      "JAKE",
+      "JESS",
+      "JOHN"
+     ],
+     "votes": [
+      "JAKE",
+      "KILLERKELS",
+      "JOHN",
+      "RYAN",
+      "CLWNDRGN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "teamSize": 5,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JACOB"
+     ],
+     "team": [
+      "JACOB",
+      "KILLERKELS",
+      "JAKE",
+      "JOHN",
+      "JESS"
+     ],
+     "proposer": "JACOB"
+    },
+    {
+     "votes": [
+      "JAKE",
+      "JOHN",
+      "RYAN",
+      "JESS",
+      "TORI",
+      "JACOB"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAKE",
+     "team": [
+      "JAKE",
+      "JESS",
+      "TORI",
+      "RYAN",
+      "JOHN"
+     ]
+    }
+   ],
+   "team": [
+    "JAKE",
+    "JESS",
+    "TORI",
+    "RYAN",
+    "JOHN"
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "KILLERKELS",
+   "uid": "30iMTljosXU9Og9jhgIqp3RKgew2"
+  },
+  {
+   "name": "TORI",
+   "uid": "dufztdDpdFMIHv3nPXlZTq0dIUH3"
+  },
+  {
+   "uid": "wzbGHiYUirfHfewgLKBSNxQSnD42",
+   "name": "CLWNDRGN"
+  },
+  {
+   "name": "JESS",
+   "uid": "BW4XDxZ07Fc05QRdwJoWrQM0E772"
+  },
+  {
+   "uid": "VrkK7kYBUJQEhyw878HTRVXj9Z92",
+   "name": "RYAN"
+  },
+  {
+   "uid": "rsAXHWMFR5cUY2qe03dK93dfpSx2",
+   "name": "JACOB"
+  },
+  {
+   "name": "JAKE",
+   "uid": "LGlwKscGqQTPGXeU63Cg17t9ZAE3"
+  },
+  {
+   "name": "JOHN",
+   "uid": "J4S7MCZstRhjNEFOQ1jjKksflFU2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585967356,
+  "_nanoseconds": 409860000
+ },
+ "timeCreated": {
+  "_seconds": 1585965644,
+  "_nanoseconds": 479000000
+ }
+}

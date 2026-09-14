@@ -1,0 +1,204 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "JOE",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "HU": true,
+    "JOE": true
+   },
+   {
+    "HU": true,
+    "BRUCE": true,
+    "JOE": true
+   },
+   {
+    "BRUCE": true,
+    "HU": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "BRIAN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BRUCE",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "JOE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "HU"
+   },
+   {
+    "assassin": true,
+    "name": "MAYKO",
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "zH62FhdO93fgue6xy1GZiX6emJC3",
+   "name": "BRIAN"
+  },
+  {
+   "name": "HU",
+   "uid": "rhReFTrGCIW29G5PPpSOEmovGF02"
+  },
+  {
+   "uid": "UDW0LpRg2STjoxnExy4LaQCHg0s1",
+   "name": "BRUCE"
+  },
+  {
+   "name": "JOE",
+   "uid": "Q5qgYH7iT4NHnj6MNsv7W605RUf1"
+  },
+  {
+   "name": "MAYKO",
+   "uid": "HHItKdP7xvdDetulD1pTHKA1wok2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1610837370,
+  "_nanoseconds": 319000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1610836646,
+  "_nanoseconds": 403000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JOE",
+      "MAYKO",
+      "HU"
+     ],
+     "team": [
+      "JOE",
+      "HU"
+     ],
+     "proposer": "JOE"
+    }
+   ],
+   "team": [
+    "JOE",
+    "HU"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MAYKO",
+      "JOE",
+      "HU"
+     ],
+     "votes": [
+      "MAYKO",
+      "JOE"
+     ],
+     "proposer": "MAYKO",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BRIAN",
+      "HU",
+      "BRUCE"
+     ],
+     "proposer": "BRIAN",
+     "state": "REJECTED",
+     "votes": [
+      "MAYKO",
+      "BRIAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAYKO",
+      "HU",
+      "JOE",
+      "BRUCE"
+     ],
+     "team": [
+      "HU",
+      "BRUCE",
+      "JOE"
+     ],
+     "proposer": "HU"
+    }
+   ],
+   "team": [
+    "HU",
+    "BRUCE",
+    "JOE"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "HU",
+    "BRUCE"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BRUCE",
+     "votes": [
+      "BRUCE",
+      "JOE",
+      "HU",
+      "MAYKO",
+      "BRIAN"
+     ],
+     "team": [
+      "HU",
+      "BRUCE"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 3
+  }
+ ]
+}

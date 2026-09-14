@@ -1,0 +1,304 @@
+{
+ "players": [
+  {
+   "name": "SOLV",
+   "uid": "DykF9EtQvBN63YhDvQrauSanpYu1"
+  },
+  {
+   "uid": "qPIYra8LXHcID7Vmxts9q32GUGq2",
+   "name": "PERCIVALS"
+  },
+  {
+   "name": "SWEE",
+   "uid": "JnvFx6wpH8T4LQorOxnu0KTuk1s1"
+  },
+  {
+   "uid": "yD0Arogk0PNpBhI0FTxD7oPL5kt1",
+   "name": "CHEESE"
+  },
+  {
+   "name": "WEI",
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2"
+  },
+  {
+   "name": "SOVEREIGN",
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22"
+  },
+  {
+   "uid": "f6AxJ6Tnh8SnMxKKrxFIP0QzLVE3",
+   "name": "GANSKIES"
+  },
+  {
+   "uid": "b9ybZX9V6WTTWpTfaa7oicof2cl1",
+   "name": "ASHTON"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591368504,
+  "_nanoseconds": 792000000
+ },
+ "timeCreated": {
+  "_seconds": 1591367750,
+  "_nanoseconds": 503000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ASHTON": false,
+    "GANSKIES": true,
+    "SOVEREIGN": true
+   },
+   {
+    "WEI": true,
+    "GANSKIES": true,
+    "PERCIVALS": false,
+    "SOLV": true
+   },
+   {
+    "GANSKIES": true,
+    "PERCIVALS": true,
+    "SWEE": true,
+    "SOVEREIGN": true
+   },
+   {
+    "GANSKIES": true,
+    "SOVEREIGN": true,
+    "PERCIVALS": true,
+    "SWEE": true,
+    "SOLV": true
+   },
+   {
+    "PERCIVALS": false,
+    "SOVEREIGN": true,
+    "SOLV": true,
+    "GANSKIES": true,
+    "SWEE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "SWEE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "ASHTON",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GANSKIES",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SOLV",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CHEESE",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "PERCIVALS",
+    "role": "MORDRED"
+   },
+   {
+    "name": "SOVEREIGN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "WEI",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "team": [
+    "SOVEREIGN",
+    "GANSKIES",
+    "ASHTON"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SOVEREIGN",
+      "GANSKIES",
+      "ASHTON"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ASHTON",
+      "GANSKIES",
+      "SOLV",
+      "CHEESE",
+      "SOVEREIGN",
+      "WEI"
+     ],
+     "proposer": "SOVEREIGN"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "GANSKIES",
+    "SOLV",
+    "PERCIVALS",
+    "WEI"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "GANSKIES",
+     "votes": [
+      "ASHTON",
+      "GANSKIES",
+      "SOLV",
+      "PERCIVALS",
+      "WEI"
+     ],
+     "team": [
+      "GANSKIES",
+      "SOLV",
+      "PERCIVALS",
+      "WEI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "SWEE",
+    "GANSKIES",
+    "SOVEREIGN",
+    "PERCIVALS"
+   ],
+   "proposals": [
+    {
+     "proposer": "ASHTON",
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "PERCIVALS",
+      "WEI",
+      "SOLV",
+      "GANSKIES"
+     ]
+    },
+    {
+     "votes": [
+      "SOLV",
+      "CHEESE",
+      "PERCIVALS",
+      "SOVEREIGN",
+      "WEI",
+      "SWEE",
+      "ASHTON",
+      "GANSKIES"
+     ],
+     "team": [
+      "SWEE",
+      "GANSKIES",
+      "SOVEREIGN",
+      "PERCIVALS"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOLV"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [
+    "SOLV",
+    "PERCIVALS",
+    "SWEE",
+    "SOVEREIGN",
+    "GANSKIES"
+   ],
+   "proposals": [
+    {
+     "proposer": "PERCIVALS",
+     "team": [
+      "SOLV",
+      "PERCIVALS",
+      "SWEE",
+      "SOVEREIGN",
+      "GANSKIES"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PERCIVALS",
+      "SOVEREIGN",
+      "WEI",
+      "SWEE",
+      "GANSKIES",
+      "SOLV",
+      "CHEESE"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "SOLV",
+    "PERCIVALS",
+    "SWEE",
+    "SOVEREIGN",
+    "GANSKIES"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SOLV",
+      "PERCIVALS",
+      "SWEE",
+      "SOVEREIGN",
+      "GANSKIES"
+     ],
+     "proposer": "SWEE",
+     "votes": [
+      "SWEE",
+      "GANSKIES",
+      "SOLV",
+      "CHEESE",
+      "PERCIVALS",
+      "SOVEREIGN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "numFails": 1
+  }
+ ]
+}

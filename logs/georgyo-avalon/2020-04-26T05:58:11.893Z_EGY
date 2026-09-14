@@ -1,0 +1,294 @@
+{
+ "timeFinished": {
+  "_seconds": 1587881112,
+  "_nanoseconds": 965000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "lLbnA05okrbSr3qNJsd0AKcpQPN2",
+   "name": "SAAK"
+  },
+  {
+   "name": "DADI",
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2"
+  },
+  {
+   "uid": "DhUsOXH1LhSIgj7hiLECw5H0pc23",
+   "name": "MARWA"
+  },
+  {
+   "uid": "Tlhtdcc5dEffPpWjhxivorKS2HC2",
+   "name": "JIJI"
+  },
+  {
+   "name": "NEEHAW",
+   "uid": "VCKDlXqBm8VPlQUs4Cp8VnrzA1F3"
+  },
+  {
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2",
+   "name": "AD"
+  },
+  {
+   "name": "SANG",
+   "uid": "VC6osNuueXYBnlenQGGO543wgFX2"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "DADI": true,
+    "JIJI": true
+   },
+   {
+    "JIJI": true,
+    "MARWA": true,
+    "AD": true
+   },
+   {
+    "DADI": true,
+    "JIJI": false,
+    "AD": true
+   },
+   {
+    "JIJI": false,
+    "MARWA": true,
+    "AD": true,
+    "SANG": false
+   },
+   {
+    "SAAK": false,
+    "MARWA": true,
+    "NEEHAW": true,
+    "AD": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "JIJI",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DADI"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "AD"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MARWA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SAAK",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "SANG",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "NEEHAW"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "DADI",
+    "JIJI"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SAAK",
+      "SANG",
+      "NEEHAW",
+      "JIJI",
+      "DADI",
+      "AD",
+      "MARWA"
+     ],
+     "team": [
+      "DADI",
+      "JIJI"
+     ],
+     "proposer": "DADI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "MARWA",
+    "JIJI",
+    "AD"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SAAK",
+      "SANG",
+      "NEEHAW",
+      "JIJI",
+      "AD",
+      "MARWA"
+     ],
+     "team": [
+      "MARWA",
+      "JIJI",
+      "AD"
+     ],
+     "proposer": "MARWA",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "JIJI",
+      "AD",
+      "DADI"
+     ],
+     "proposer": "JIJI",
+     "state": "APPROVED",
+     "votes": [
+      "SAAK",
+      "NEEHAW",
+      "JIJI",
+      "DADI",
+      "MARWA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "JIJI",
+    "AD",
+    "DADI"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "NEEHAW",
+      "DADI"
+     ],
+     "proposer": "NEEHAW",
+     "state": "REJECTED",
+     "team": [
+      "MARWA",
+      "AD",
+      "NEEHAW",
+      "DADI"
+     ]
+    },
+    {
+     "team": [
+      "AD",
+      "MARWA",
+      "JIJI",
+      "SANG"
+     ],
+     "proposer": "AD",
+     "votes": [
+      "SANG",
+      "JIJI",
+      "AD",
+      "MARWA",
+      "SAAK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 4,
+   "team": [
+    "AD",
+    "MARWA",
+    "JIJI",
+    "SANG"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SANG",
+      "JIJI",
+      "AD"
+     ],
+     "proposer": "SANG",
+     "team": [
+      "SANG",
+      "NEEHAW",
+      "MARWA",
+      "AD"
+     ]
+    },
+    {
+     "team": [
+      "NEEHAW",
+      "SAAK",
+      "MARWA",
+      "AD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DADI",
+      "AD",
+      "SAAK",
+      "SANG",
+      "JIJI"
+     ],
+     "proposer": "SAAK"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "NEEHAW",
+    "SAAK",
+    "MARWA",
+    "AD"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587880691,
+  "_nanoseconds": 893000000
+ }
+}

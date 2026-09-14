@@ -1,0 +1,355 @@
+{
+ "timeFinished": {
+  "_seconds": 1588944255,
+  "_nanoseconds": 916000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "OBERON",
+    "name": "CECILE",
+    "assassin": false
+   },
+   {
+    "name": "FARID",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CHRISTIAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LAURA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "REGIS"
+   },
+   {
+    "name": "AURELIA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "REGIS": true,
+    "CHRISTIAN": true
+   },
+   {
+    "AURELIA": true,
+    "FARID": true,
+    "LAURA": true
+   },
+   {
+    "FARID": true,
+    "AURELIA": true,
+    "REGIS": true,
+    "LAURA": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588942253,
+  "_nanoseconds": 540000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHRISTIAN",
+    "REGIS"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "AURELIA",
+      "FARID"
+     ],
+     "votes": [
+      "AURELIA",
+      "FARID",
+      "LAURA"
+     ],
+     "proposer": "AURELIA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "CECILE",
+     "team": [
+      "CECILE",
+      "REGIS"
+     ],
+     "votes": [
+      "REGIS",
+      "CECILE"
+     ]
+    },
+    {
+     "proposer": "FARID",
+     "votes": [
+      "CECILE",
+      "FARID",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CECILE",
+      "FARID"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "FARID",
+      "LAURA",
+      "AURELIA"
+     ],
+     "team": [
+      "LAURA",
+      "AURELIA"
+     ],
+     "proposer": "LAURA"
+    },
+    {
+     "team": [
+      "CHRISTIAN",
+      "REGIS"
+     ],
+     "proposer": "CHRISTIAN",
+     "state": "APPROVED",
+     "votes": [
+      "REGIS",
+      "AURELIA",
+      "CECILE",
+      "FARID",
+      "CHRISTIAN"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "LAURA",
+    "AURELIA",
+    "FARID"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "REGIS",
+      "CHRISTIAN",
+      "AURELIA"
+     ],
+     "proposer": "REGIS",
+     "state": "REJECTED",
+     "votes": [
+      "FARID",
+      "CHRISTIAN",
+      "REGIS"
+     ]
+    },
+    {
+     "team": [
+      "AURELIA",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "AURELIA",
+     "votes": [
+      "CHRISTIAN",
+      "REGIS",
+      "AURELIA"
+     ]
+    },
+    {
+     "votes": [
+      "CECILE",
+      "CHRISTIAN"
+     ],
+     "team": [
+      "CECILE",
+      "REGIS",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "CECILE"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "FARID"
+     ],
+     "proposer": "FARID",
+     "team": [
+      "FARID",
+      "LAURA",
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "LAURA",
+     "votes": [
+      "REGIS",
+      "AURELIA",
+      "CECILE",
+      "FARID",
+      "CHRISTIAN",
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "AURELIA",
+      "FARID"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LAURA",
+    "FARID",
+    "AURELIA",
+    "REGIS"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CHRISTIAN",
+      "REGIS",
+      "AURELIA",
+      "FARID"
+     ],
+     "proposer": "CHRISTIAN"
+    },
+    {
+     "votes": [
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AURELIA",
+      "CECILE",
+      "FARID",
+      "CHRISTIAN"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "votes": [
+      "LAURA",
+      "AURELIA",
+      "FARID"
+     ],
+     "team": [
+      "AURELIA",
+      "LAURA",
+      "FARID",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "proposer": "AURELIA"
+    },
+    {
+     "proposer": "CECILE",
+     "state": "REJECTED",
+     "votes": [
+      "CECILE"
+     ],
+     "team": [
+      "CECILE",
+      "AURELIA",
+      "FARID",
+      "LAURA"
+     ]
+    },
+    {
+     "team": [
+      "LAURA",
+      "FARID",
+      "AURELIA",
+      "REGIS"
+     ],
+     "votes": [
+      "REGIS",
+      "AURELIA",
+      "CECILE",
+      "FARID",
+      "LAURA"
+     ],
+     "proposer": "FARID",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ],
+ "players": [
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "name": "AURELIA",
+   "uid": "t3hmiC7r8wW7e7CCSa3XJ8KkIAc2"
+  },
+  {
+   "name": "CECILE",
+   "uid": "Xybo3Pw6qbdtbBJF3Hn2pCnT2Rr1"
+  },
+  {
+   "name": "FARID",
+   "uid": "gOxLJaoqrvPnwE8TrF9eMsgIkr53"
+  },
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "uid": "cSPD8oxmiIao14lQqfGzhbEKN9x1",
+   "name": "CHRISTIAN"
+  }
+ ]
+}

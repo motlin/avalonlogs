@@ -1,0 +1,218 @@
+{
+ "players": [
+  {
+   "name": "DELANEY",
+   "uid": "MQW494wOmOdoDLbNPxtZK9F3wfa2"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "0tHkE8DF0Pa3yENHun7suCQiVfg2"
+  },
+  {
+   "uid": "TxkaF4mV8KY1Y3wNEEum1MCbwdc2",
+   "name": "ALLIE"
+  },
+  {
+   "name": "BIANCA",
+   "uid": "YXKXUhmBNCXG3BwDJl4oJ33rGWL2"
+  },
+  {
+   "uid": "USsfTrNmTwh5aPw3jqAH9FjLeNv1",
+   "name": "PAUL"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "DELANEY",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "CHRIS",
+    "role": "MORGANA"
+   },
+   {
+    "name": "PAUL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ALLIE",
+    "assassin": false
+   },
+   {
+    "name": "BIANCA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "PAUL",
+  "votes": [
+   {
+    "DELANEY": true,
+    "BIANCA": true
+   },
+   {
+    "PAUL": true,
+    "ALLIE": true,
+    "BIANCA": true
+   },
+   {
+    "BIANCA": true,
+    "DELANEY": false
+   },
+   {
+    "ALLIE": true,
+    "BIANCA": true,
+    "PAUL": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "DELANEY",
+    "BIANCA"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "BIANCA",
+      "DELANEY",
+      "CHRIS",
+      "PAUL",
+      "ALLIE"
+     ],
+     "proposer": "BIANCA",
+     "state": "APPROVED",
+     "team": [
+      "DELANEY",
+      "BIANCA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DELANEY",
+      "CHRIS",
+      "PAUL",
+      "ALLIE",
+      "BIANCA"
+     ],
+     "proposer": "PAUL",
+     "team": [
+      "PAUL",
+      "BIANCA",
+      "ALLIE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "PAUL",
+    "BIANCA",
+    "ALLIE"
+   ]
+  },
+  {
+   "team": [
+    "BIANCA",
+    "DELANEY"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "BIANCA",
+      "PAUL"
+     ],
+     "votes": [
+      "PAUL",
+      "ALLIE"
+     ],
+     "proposer": "DELANEY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "DELANEY",
+      "CHRIS",
+      "BIANCA"
+     ],
+     "team": [
+      "BIANCA",
+      "DELANEY"
+     ],
+     "proposer": "CHRIS",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PAUL",
+      "BIANCA",
+      "ALLIE"
+     ],
+     "proposer": "ALLIE",
+     "state": "APPROVED",
+     "votes": [
+      "DELANEY",
+      "CHRIS",
+      "PAUL",
+      "ALLIE",
+      "BIANCA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "PAUL",
+    "BIANCA",
+    "ALLIE"
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591407713,
+  "_nanoseconds": 123000000
+ },
+ "timeFinished": {
+  "_seconds": 1591407996,
+  "_nanoseconds": 218000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "timeFinished": {
+  "_seconds": 1598761015,
+  "_nanoseconds": 120000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "KRISTJAN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ABHI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "GREG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "JOE",
+    "assassin": false
+   },
+   {
+    "name": "ANGELICA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KRISTJAN": true,
+    "ANGELICA": true
+   },
+   {
+    "ANGELICA": true,
+    "KRISTJAN": true,
+    "JOE": true
+   },
+   {
+    "ANGELICA": true,
+    "KRISTJAN": false
+   },
+   {
+    "GREG": true,
+    "ANGELICA": true,
+    "JOE": false
+   },
+   {
+    "ABHI": true,
+    "KRISTJAN": false,
+    "GREG": true
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KRISTJAN",
+      "GREG",
+      "ANGELICA",
+      "ABHI",
+      "JOE"
+     ],
+     "team": [
+      "KRISTJAN",
+      "ANGELICA"
+     ],
+     "proposer": "KRISTJAN"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "KRISTJAN",
+    "ANGELICA"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JOE",
+     "state": "APPROVED",
+     "votes": [
+      "GREG",
+      "JOE",
+      "ANGELICA",
+      "KRISTJAN",
+      "ABHI"
+     ],
+     "team": [
+      "KRISTJAN",
+      "JOE",
+      "ANGELICA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "KRISTJAN",
+    "JOE",
+    "ANGELICA"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "KRISTJAN",
+    "ANGELICA"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ABHI",
+     "votes": [
+      "JOE",
+      "ABHI"
+     ],
+     "team": [
+      "ABHI",
+      "JOE"
+     ]
+    },
+    {
+     "team": [
+      "KRISTJAN",
+      "ANGELICA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JOE",
+      "GREG",
+      "ANGELICA"
+     ],
+     "proposer": "GREG"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ABHI",
+      "GREG",
+      "JOE",
+      "KRISTJAN",
+      "ANGELICA"
+     ],
+     "proposer": "ANGELICA",
+     "state": "APPROVED",
+     "team": [
+      "JOE",
+      "GREG",
+      "ANGELICA"
+     ]
+    }
+   ],
+   "team": [
+    "JOE",
+    "GREG",
+    "ANGELICA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "KRISTJAN",
+     "team": [
+      "KRISTJAN",
+      "ABHI",
+      "GREG"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ABHI",
+      "KRISTJAN",
+      "JOE",
+      "GREG"
+     ]
+    }
+   ],
+   "team": [
+    "KRISTJAN",
+    "ABHI",
+    "GREG"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598760589,
+  "_nanoseconds": 786000000
+ },
+ "players": [
+  {
+   "name": "KRISTJAN",
+   "uid": "NPmFyw9KvMMh9eTqGX6STBcLCdY2"
+  },
+  {
+   "uid": "GTrZrlNSr0dZVpmJ7kcoGpomTJO2",
+   "name": "JOE"
+  },
+  {
+   "uid": "rItF9k4zoDMRvkJtqEhL8VNhLZ62",
+   "name": "ABHI"
+  },
+  {
+   "uid": "nX3IGm1uIWVMTHOuRnbrJLOj8Tt1",
+   "name": "GREG"
+  },
+  {
+   "name": "ANGELICA",
+   "uid": "gdX6G947ICaQIdw3khiJvHj0miM2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

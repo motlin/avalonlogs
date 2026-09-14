@@ -1,0 +1,253 @@
+{
+ "timeCreated": {
+  "_seconds": 1586006098,
+  "_nanoseconds": 480000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "HANNAH": true,
+    "IVAN": true
+   },
+   {
+    "NICK": false,
+    "HANNAH": true,
+    "IVAN": true
+   },
+   {
+    "IVAN": true,
+    "NICK": true,
+    "LAUREN": true,
+    "BROOKE": true
+   },
+   {
+    "IVAN": true,
+    "BROOKE": false,
+    "LAUREN": true
+   },
+   {
+    "OLLIE": true,
+    "IVAN": true,
+    "HANNAH": true,
+    "LAUREN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "IVAN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "OLLIE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HANNAH",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "LAUREN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "BROOKE",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "name": "NICK",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "LAUREN"
+ },
+ "missions": [
+  {
+   "team": [
+    "IVAN",
+    "HANNAH"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "IVAN",
+      "HANNAH"
+     ],
+     "proposer": "HANNAH",
+     "votes": [
+      "IVAN",
+      "OLLIE",
+      "HANNAH",
+      "LAUREN",
+      "BROOKE",
+      "NICK"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "IVAN",
+    "HANNAH",
+    "NICK"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "IVAN",
+      "HANNAH",
+      "NICK"
+     ],
+     "proposer": "NICK",
+     "votes": [
+      "HANNAH",
+      "LAUREN",
+      "BROOKE",
+      "NICK",
+      "IVAN",
+      "OLLIE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "BROOKE",
+    "IVAN",
+    "LAUREN",
+    "NICK"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BROOKE",
+     "team": [
+      "BROOKE",
+      "IVAN",
+      "LAUREN",
+      "NICK"
+     ],
+     "votes": [
+      "NICK",
+      "IVAN",
+      "OLLIE",
+      "HANNAH",
+      "LAUREN",
+      "BROOKE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "IVAN",
+    "LAUREN",
+    "BROOKE"
+   ],
+   "proposals": [
+    {
+     "proposer": "IVAN",
+     "votes": [
+      "BROOKE",
+      "NICK",
+      "IVAN",
+      "OLLIE",
+      "HANNAH",
+      "LAUREN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "IVAN",
+      "LAUREN",
+      "BROOKE"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "LAUREN",
+    "IVAN",
+    "OLLIE",
+    "HANNAH"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LAUREN",
+      "IVAN",
+      "OLLIE",
+      "HANNAH"
+     ],
+     "votes": [
+      "HANNAH",
+      "LAUREN",
+      "IVAN",
+      "OLLIE"
+     ],
+     "proposer": "LAUREN"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "IVAN",
+   "uid": "tOlSrkaGZyVvNXB5fldjcaCM4eD3"
+  },
+  {
+   "uid": "rXG2tIZlUjacUDYclDzaDZVVfF92",
+   "name": "LAUREN"
+  },
+  {
+   "name": "OLLIE",
+   "uid": "yvKKUOWJMwO3oZXmtqyCLVjsUr03"
+  },
+  {
+   "name": "HANNAH",
+   "uid": "omBKgF70XzaINDV4ZjpejpDDDEm2"
+  },
+  {
+   "name": "NICK",
+   "uid": "xKhaP39lI2VJTpmTBjB8o0cJeME3"
+  },
+  {
+   "name": "BROOKE",
+   "uid": "e7z0W9ZAGbdlRQVXxb3DM1oLxGq2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586006944,
+  "_nanoseconds": 932787000
+ }
+}

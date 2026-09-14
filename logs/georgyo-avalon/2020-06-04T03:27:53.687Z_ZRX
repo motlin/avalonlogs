@@ -1,0 +1,269 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "SOGGY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "ISHYISH",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "DNAIK"
+   },
+   {
+    "role": "MORGANA",
+    "name": "THEPEBBLE",
+    "assassin": false
+   },
+   {
+    "name": "ICE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SPLOOSH",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "SOGGY": true,
+    "SPLOOSH": true
+   },
+   {
+    "SPLOOSH": true,
+    "ISHYISH": true,
+    "SOGGY": false
+   },
+   {
+    "SPLOOSH": true,
+    "DNAIK": true,
+    "THEPEBBLE": false,
+    "ICE": true
+   },
+   {
+    "DNAIK": true,
+    "ICE": true,
+    "ISHYISH": true
+   },
+   {
+    "ISHYISH": true,
+    "DNAIK": true,
+    "SOGGY": false,
+    "ICE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "ISHYISH",
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62"
+  },
+  {
+   "name": "THEPEBBLE",
+   "uid": "BFYQOA17uOXmU9tXluHXb964U4C3"
+  },
+  {
+   "name": "SOGGY",
+   "uid": "2cqiTd5tlyOAZjk7XzGEH0pINPE2"
+  },
+  {
+   "name": "ICE",
+   "uid": "IroQlyB05YPqQDIKP8xOZd2AFJE2"
+  },
+  {
+   "uid": "fS9mr21rGYQwBBMdESWSjZGuOsv2",
+   "name": "SPLOOSH"
+  },
+  {
+   "uid": "zBKMzPQp8uODk6urkBaihOcq9J53",
+   "name": "DNAIK"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591241538,
+  "_nanoseconds": 34000000
+ },
+ "timeCreated": {
+  "_seconds": 1591241273,
+  "_nanoseconds": 687000000
+ },
+ "missions": [
+  {
+   "team": [
+    "SPLOOSH",
+    "SOGGY"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "THEPEBBLE",
+     "team": [
+      "SPLOOSH",
+      "SOGGY"
+     ],
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "ICE",
+      "SPLOOSH"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "SOGGY",
+    "SPLOOSH",
+    "ISHYISH"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH",
+      "SOGGY"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOGGY",
+     "team": [
+      "SOGGY",
+      "SPLOOSH",
+      "ISHYISH"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "DNAIK",
+    "SPLOOSH",
+    "ICE",
+    "THEPEBBLE"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DNAIK",
+      "SPLOOSH",
+      "ICE",
+      "THEPEBBLE"
+     ],
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH"
+     ],
+     "proposer": "ICE"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SPLOOSH",
+      "ICE",
+      "DNAIK"
+     ],
+     "proposer": "SPLOOSH",
+     "state": "REJECTED",
+     "votes": [
+      "SPLOOSH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "DNAIK",
+      "ICE",
+      "ISHYISH"
+     ],
+     "votes": [
+      "SOGGY",
+      "ISHYISH",
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH"
+     ],
+     "proposer": "DNAIK"
+    }
+   ],
+   "team": [
+    "DNAIK",
+    "ICE",
+    "ISHYISH"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ISHYISH",
+     "votes": [
+      "DNAIK",
+      "THEPEBBLE",
+      "ICE",
+      "SPLOOSH",
+      "SOGGY",
+      "ISHYISH"
+     ],
+     "team": [
+      "ISHYISH",
+      "SOGGY",
+      "ICE",
+      "DNAIK"
+     ]
+    }
+   ],
+   "team": [
+    "ISHYISH",
+    "SOGGY",
+    "ICE",
+    "DNAIK"
+   ]
+  }
+ ]
+}

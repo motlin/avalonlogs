@@ -1,0 +1,266 @@
+{
+ "timeCreated": {
+  "_seconds": 1597981063,
+  "_nanoseconds": 95000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JET"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KLAUDIA",
+    "assassin": true
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "OBERON",
+    "name": "CORDER",
+    "assassin": false
+   },
+   {
+    "name": "NIKHIL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GAURAV",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ADAM"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "NIKHIL",
+  "votes": [
+   {
+    "KLAUDIA": true,
+    "GAURAV": true
+   },
+   {
+    "NIKHIL": true,
+    "JET": true,
+    "GAURAV": true
+   },
+   {
+    "GAURAV": true,
+    "JET": true,
+    "NIKHIL": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1597981489,
+  "_nanoseconds": 55000000
+ },
+ "players": [
+  {
+   "name": "NIKHIL",
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3"
+  },
+  {
+   "name": "CORDER",
+   "uid": "UUujbzRbuPeYBBv9tIB7OrFdnXo2"
+  },
+  {
+   "name": "JET",
+   "uid": "52CTisrvmHRBMHj6JINVrznWOMG3"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "uid": "gOiGniqYSdWLat6om6YeFJidRZ22",
+   "name": "GAURAV"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "GAURAV",
+    "KLAUDIA"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CORDER",
+      "JET",
+      "KLAUDIA",
+      "GAURAV"
+     ],
+     "team": [
+      "GAURAV",
+      "KLAUDIA"
+     ],
+     "state": "APPROVED",
+     "proposer": "JET"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "NIKHIL",
+    "GAURAV",
+    "JET"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JET",
+      "CORDER",
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKOLAI",
+      "JET",
+      "KLAUDIA"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKOLAI"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "ADAM",
+      "KLAUDIA"
+     ],
+     "proposer": "ADAM",
+     "votes": [
+      "CORDER",
+      "ADAM",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "CORDER"
+     ],
+     "votes": [
+      "NIKOLAI",
+      "KLAUDIA"
+     ],
+     "state": "REJECTED",
+     "proposer": "KLAUDIA"
+    },
+    {
+     "proposer": "GAURAV",
+     "state": "REJECTED",
+     "team": [
+      "GAURAV",
+      "KLAUDIA",
+      "CORDER"
+     ],
+     "votes": [
+      "GAURAV",
+      "KLAUDIA",
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "ADAM",
+      "JET",
+      "NIKOLAI",
+      "NIKHIL",
+      "KLAUDIA",
+      "GAURAV"
+     ],
+     "proposer": "NIKHIL",
+     "state": "APPROVED",
+     "team": [
+      "NIKHIL",
+      "GAURAV",
+      "JET"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "NIKHIL",
+    "GAURAV",
+    "JET"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "NIKHIL",
+      "NIKOLAI",
+      "CORDER"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "CORDER"
+    },
+    {
+     "votes": [
+      "JET",
+      "CORDER",
+      "NIKHIL",
+      "GAURAV"
+     ],
+     "team": [
+      "NIKHIL",
+      "GAURAV",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "proposer": "JET"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4
+  }
+ ]
+}

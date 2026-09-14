@@ -1,0 +1,231 @@
+{
+ "timeFinished": {
+  "_seconds": 1587786512,
+  "_nanoseconds": 538000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ANJELYKA",
+   "uid": "DhiTZufej8ONOpnFpwl1etfOftE3"
+  },
+  {
+   "uid": "5G8rECjerQTqNvN2FiODyOCJE7w2",
+   "name": "RICH"
+  },
+  {
+   "uid": "TnBQw2HMI7cYyhZ1wT4565nuyOL2",
+   "name": "LISA"
+  },
+  {
+   "name": "MICHAEL",
+   "uid": "rlZx5gt8KNMOsnsBW68isGNcfhh2"
+  },
+  {
+   "uid": "yCSnB29cLBT37KLgmGKETD3Q3822",
+   "name": "MONICA"
+  },
+  {
+   "name": "KMART",
+   "uid": "2Hb6ricPsVQJQEALNzZWtxXRx3e2"
+  },
+  {
+   "name": "BANYAN",
+   "uid": "QWMYoHzMcKROSTBxeEN8DnH8ONy1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587786014,
+  "_nanoseconds": 180000000
+ },
+ "missions": [
+  {
+   "team": [
+    "BANYAN",
+    "LISA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RICH",
+     "team": [
+      "BANYAN",
+      "LISA"
+     ],
+     "votes": [
+      "BANYAN",
+      "RICH",
+      "LISA",
+      "MONICA"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "KMART",
+    "LISA",
+    "RICH"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "LISA",
+      "MONICA",
+      "MICHAEL",
+      "KMART",
+      "BANYAN",
+      "ANJELYKA"
+     ],
+     "state": "APPROVED",
+     "proposer": "LISA",
+     "team": [
+      "KMART",
+      "LISA",
+      "RICH"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "MICHAEL",
+    "LISA",
+    "BANYAN"
+   ],
+   "numFails": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MICHAEL",
+     "state": "APPROVED",
+     "votes": [
+      "MONICA",
+      "MICHAEL",
+      "BANYAN",
+      "RICH"
+     ],
+     "team": [
+      "MICHAEL",
+      "LISA",
+      "BANYAN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "MONICA",
+     "team": [
+      "MONICA",
+      "RICH",
+      "ANJELYKA",
+      "KMART"
+     ],
+     "votes": [
+      "RICH",
+      "ANJELYKA",
+      "MONICA",
+      "KMART",
+      "BANYAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MONICA",
+    "RICH",
+    "ANJELYKA",
+    "KMART"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "RICH",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MONICA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MICHAEL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KMART"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BANYAN"
+   },
+   {
+    "assassin": false,
+    "name": "RICH",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANJELYKA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LISA",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "BANYAN": true,
+    "LISA": true
+   },
+   {
+    "LISA": true,
+    "RICH": true,
+    "KMART": true
+   },
+   {
+    "BANYAN": true,
+    "LISA": false,
+    "MICHAEL": false
+   },
+   {
+    "MONICA": true,
+    "ANJELYKA": true,
+    "KMART": true,
+    "RICH": true
+   }
+  ]
+ }
+}

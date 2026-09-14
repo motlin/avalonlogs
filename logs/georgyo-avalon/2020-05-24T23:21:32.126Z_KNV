@@ -1,0 +1,312 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANNA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "JEDI"
+   },
+   {
+    "name": "JOSIAH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TSHEEJ",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "LIZ"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "NATE",
+    "assassin": true
+   },
+   {
+    "name": "CAROYEE",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "MARY",
+    "assassin": false
+   },
+   {
+    "name": "MERCY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "MERCY",
+  "votes": [
+   {
+    "ANNA": true,
+    "LIZ": true,
+    "JOSIAH": true
+   },
+   {
+    "LIZ": true,
+    "MERCY": true,
+    "JOSIAH": true,
+    "ANNA": true
+   },
+   {
+    "MERCY": true,
+    "JOSIAH": true,
+    "NATE": false,
+    "ANNA": true
+   },
+   {
+    "CAROYEE": true,
+    "JEDI": true,
+    "JOSIAH": true,
+    "TSHEEJ": true,
+    "LIZ": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1590362492,
+  "_nanoseconds": 126000000
+ },
+ "timeFinished": {
+  "_seconds": 1590363974,
+  "_nanoseconds": 269000000
+ },
+ "players": [
+  {
+   "uid": "cgkA5KykmfcOEZLo9lpAYc1TJlE3",
+   "name": "MERCY"
+  },
+  {
+   "name": "MARY",
+   "uid": "eCQGD2luCWa233a0FXVOhLNfVRH2"
+  },
+  {
+   "name": "JEDI",
+   "uid": "auhAAFCXioZ3Bkjw9Z1meFuHXpi2"
+  },
+  {
+   "uid": "zmI1UczHOxYhm0Yz0pi589cCKpF3",
+   "name": "NATE"
+  },
+  {
+   "uid": "um2qvL64P4MvC7O7CpkHbcLKrdv1",
+   "name": "JOSIAH"
+  },
+  {
+   "name": "LIZ",
+   "uid": "a9dwN1rGApftxXrXeu0UxeLb90I3"
+  },
+  {
+   "name": "CAROYEE",
+   "uid": "o4LGkREGG1YMZoJJ7hIwUYzwug82"
+  },
+  {
+   "name": "ANNA",
+   "uid": "x6MlsmGLjFhv69pOOtKZrPkgwqM2"
+  },
+  {
+   "name": "TSHEEJ",
+   "uid": "ZdoPl34veMSUwYB1jVcjFSP1KUh2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ANNA",
+    "JOSIAH",
+    "LIZ"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ANNA",
+     "votes": [
+      "LIZ",
+      "NATE",
+      "MARY",
+      "ANNA",
+      "JEDI",
+      "JOSIAH",
+      "TSHEEJ"
+     ],
+     "team": [
+      "ANNA",
+      "JOSIAH",
+      "LIZ"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "TSHEEJ",
+     "team": [
+      "TSHEEJ",
+      "ANNA",
+      "LIZ",
+      "JOSIAH"
+     ],
+     "votes": [
+      "ANNA",
+      "JEDI",
+      "JOSIAH",
+      "TSHEEJ"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "MERCY",
+     "votes": [
+      "NATE",
+      "MARY",
+      "MERCY",
+      "ANNA",
+      "JEDI",
+      "JOSIAH"
+     ],
+     "team": [
+      "MERCY",
+      "LIZ",
+      "JOSIAH",
+      "ANNA"
+     ]
+    }
+   ],
+   "team": [
+    "MERCY",
+    "LIZ",
+    "JOSIAH",
+    "ANNA"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "NATE",
+    "JOSIAH",
+    "MERCY",
+    "ANNA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "LIZ",
+      "MARY",
+      "TSHEEJ"
+     ],
+     "proposer": "MARY",
+     "team": [
+      "MARY",
+      "CAROYEE",
+      "JEDI",
+      "JOSIAH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LIZ",
+      "JEDI"
+     ],
+     "proposer": "JEDI",
+     "team": [
+      "LIZ",
+      "ANNA",
+      "MERCY",
+      "JEDI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "NATE",
+      "JOSIAH",
+      "MERCY",
+      "ANNA"
+     ],
+     "votes": [
+      "LIZ",
+      "NATE",
+      "CAROYEE",
+      "MARY",
+      "MERCY",
+      "ANNA",
+      "JOSIAH"
+     ],
+     "proposer": "NATE",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "team": [
+    "JOSIAH",
+    "CAROYEE",
+    "TSHEEJ",
+    "JEDI",
+    "LIZ"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JOSIAH",
+      "CAROYEE",
+      "TSHEEJ",
+      "JEDI",
+      "LIZ"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JOSIAH",
+      "TSHEEJ",
+      "LIZ",
+      "CAROYEE",
+      "JEDI"
+     ],
+     "proposer": "JOSIAH"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": [],
+   "proposals": []
+  }
+ ]
+}

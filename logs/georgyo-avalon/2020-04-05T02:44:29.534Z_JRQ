@@ -1,0 +1,358 @@
+{
+ "outcome": {
+  "assassinated": "RYAN",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "TOBY": false,
+    "TINA": true,
+    "GOODWIN": true
+   },
+   {
+    "GOODWIN": true,
+    "JENNA": true,
+    "TYLER": true,
+    "RYAN": true
+   },
+   {
+    "TYLER": true,
+    "RYAN": true,
+    "GOODWIN": true,
+    "JENNA": true
+   },
+   {
+    "BRIAN": true,
+    "GOODWIN": true,
+    "RYAN": true,
+    "JENNA": true,
+    "TYLER": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "GOODWIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "STEVE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JENNA"
+   },
+   {
+    "name": "BRIAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "TOBY"
+   },
+   {
+    "role": "MERLIN",
+    "name": "TYLER",
+    "assassin": false
+   },
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TINA",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "TINA",
+    "TOBY",
+    "GOODWIN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "TYLER",
+      "TOBY",
+      "RYAN"
+     ],
+     "proposer": "TYLER",
+     "votes": [
+      "TYLER"
+     ]
+    },
+    {
+     "team": [
+      "RYAN",
+      "TINA",
+      "STEVE"
+     ],
+     "proposer": "STEVE",
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "STEVE",
+      "BRIAN"
+     ],
+     "team": [
+      "BRIAN",
+      "STEVE",
+      "GOODWIN"
+     ],
+     "proposer": "BRIAN"
+    },
+    {
+     "votes": [
+      "TINA",
+      "GOODWIN",
+      "JENNA",
+      "RYAN"
+     ],
+     "team": [
+      "GOODWIN",
+      "RYAN",
+      "TINA"
+     ],
+     "state": "REJECTED",
+     "proposer": "GOODWIN"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "TINA",
+      "TOBY",
+      "GOODWIN"
+     ],
+     "proposer": "TOBY",
+     "votes": [
+      "BRIAN",
+      "TOBY",
+      "TYLER",
+      "RYAN",
+      "TINA",
+      "GOODWIN",
+      "STEVE",
+      "JENNA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JENNA",
+      "RYAN",
+      "TINA",
+      "TYLER"
+     ],
+     "proposer": "JENNA",
+     "votes": [
+      "BRIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "TINA",
+      "JENNA",
+      "RYAN",
+      "STEVE"
+     ],
+     "proposer": "TINA",
+     "votes": [
+      "TINA",
+      "JENNA",
+      "BRIAN"
+     ]
+    },
+    {
+     "votes": [],
+     "team": [
+      "RYAN",
+      "TYLER",
+      "GOODWIN",
+      "JENNA"
+     ],
+     "state": "REJECTED",
+     "proposer": "RYAN"
+    },
+    {
+     "team": [
+      "TYLER",
+      "RYAN",
+      "JENNA",
+      "GOODWIN"
+     ],
+     "proposer": "TYLER",
+     "state": "APPROVED",
+     "votes": [
+      "BRIAN",
+      "TYLER",
+      "RYAN",
+      "GOODWIN",
+      "JENNA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "TYLER",
+    "RYAN",
+    "JENNA",
+    "GOODWIN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "TYLER",
+    "RYAN",
+    "GOODWIN",
+    "JENNA"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "GOODWIN",
+      "JENNA",
+      "STEVE",
+      "TYLER"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "STEVE",
+      "TOBY"
+     ],
+     "proposer": "STEVE"
+    },
+    {
+     "proposer": "BRIAN",
+     "votes": [
+      "JENNA",
+      "BRIAN",
+      "TOBY",
+      "TYLER",
+      "RYAN",
+      "GOODWIN"
+     ],
+     "team": [
+      "TYLER",
+      "RYAN",
+      "GOODWIN",
+      "JENNA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GOODWIN",
+      "JENNA",
+      "BRIAN",
+      "TOBY",
+      "TYLER",
+      "RYAN"
+     ],
+     "team": [
+      "GOODWIN",
+      "JENNA",
+      "RYAN",
+      "TYLER",
+      "BRIAN"
+     ],
+     "proposer": "GOODWIN"
+    }
+   ],
+   "team": [
+    "GOODWIN",
+    "JENNA",
+    "RYAN",
+    "TYLER",
+    "BRIAN"
+   ],
+   "numFails": 0,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 5,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "players": [
+  {
+   "name": "GOODWIN",
+   "uid": "cHNOoQaxdcToOGCOjVbXrDRiiRs2"
+  },
+  {
+   "uid": "boU490NnWVST9a98HR680j33UV23",
+   "name": "TOBY"
+  },
+  {
+   "name": "JENNA",
+   "uid": "b9nYYQJDxXedEOfTC23SoPfTF0o1"
+  },
+  {
+   "name": "TINA",
+   "uid": "w6SIgBFvBDNOEcgaLpkccA4CC3K3"
+  },
+  {
+   "name": "RYAN",
+   "uid": "L9o64j2S5tWguwROtqrBB2yfySU2"
+  },
+  {
+   "name": "TYLER",
+   "uid": "JGCLVetGepXx4rLnxA33ErZRAXB2"
+  },
+  {
+   "uid": "SRmi8qkCH0a2XeZk9QAeO26m3eY2",
+   "name": "STEVE"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "YckS9udxtgcpWUfqj3t66QdVZmi1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586056865,
+  "_nanoseconds": 328292000
+ },
+ "timeCreated": {
+  "_seconds": 1586054669,
+  "_nanoseconds": 534000000
+ }
+}

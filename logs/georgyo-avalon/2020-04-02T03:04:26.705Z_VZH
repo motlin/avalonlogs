@@ -1,0 +1,459 @@
+{
+ "timeFinished": {
+  "_seconds": 1585798139,
+  "_nanoseconds": 441410000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "WELLS": true,
+    "TIFFANY": true,
+    "DICKSON": false
+   },
+   {
+    "NICOLAS": true,
+    "EVRA": true,
+    "MAXWELL": true,
+    "NOTRICK": true
+   },
+   {
+    "NICOLAS": true,
+    "NOTRICK": true,
+    "MAXWELL": true,
+    "EVRA": true
+   },
+   {
+    "NICOLAS": true,
+    "NOTRICK": false,
+    "EVRA": true,
+    "MAXWELL": false,
+    "WELLS": true
+   },
+   {
+    "TIFFANY": true,
+    "NICOLAS": true,
+    "YASH": true,
+    "NOTRICK": false,
+    "EVRA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "DICKSON",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "EVRA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "TIFFANY"
+   },
+   {
+    "name": "NOTRICK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "NICOLAS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "WELLS",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MAXWELL",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "YASH"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1585796666,
+  "_nanoseconds": 705000000
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "team": [
+    "DICKSON",
+    "WELLS",
+    "TIFFANY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MAXWELL",
+      "YASH",
+      "EVRA"
+     ],
+     "votes": [
+      "EVRA",
+      "TIFFANY",
+      "WELLS",
+      "MAXWELL"
+     ],
+     "proposer": "MAXWELL"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "WELLS",
+      "YASH",
+      "NICOLAS"
+     ],
+     "proposer": "NICOLAS",
+     "votes": [
+      "TIFFANY",
+      "WELLS",
+      "MAXWELL",
+      "YASH"
+     ]
+    },
+    {
+     "proposer": "TIFFANY",
+     "votes": [
+      "TIFFANY",
+      "WELLS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TIFFANY",
+      "WELLS",
+      "YASH"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "WELLS",
+     "team": [
+      "DICKSON",
+      "EVRA",
+      "NOTRICK"
+     ],
+     "votes": [
+      "EVRA",
+      "TIFFANY",
+      "NOTRICK",
+      "NICOLAS"
+     ]
+    },
+    {
+     "team": [
+      "DICKSON",
+      "WELLS",
+      "TIFFANY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EVRA",
+      "TIFFANY",
+      "NOTRICK",
+      "NICOLAS",
+      "WELLS",
+      "MAXWELL",
+      "YASH",
+      "DICKSON"
+     ],
+     "proposer": "YASH"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "NOTRICK",
+    "EVRA",
+    "NICOLAS",
+    "MAXWELL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NOTRICK",
+      "EVRA",
+      "NICOLAS",
+      "MAXWELL"
+     ],
+     "proposer": "NOTRICK",
+     "state": "APPROVED",
+     "votes": [
+      "NICOLAS",
+      "WELLS",
+      "MAXWELL",
+      "YASH",
+      "EVRA",
+      "TIFFANY",
+      "NOTRICK"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "MAXWELL",
+    "NICOLAS",
+    "EVRA",
+    "NOTRICK"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "DICKSON",
+     "votes": [
+      "EVRA",
+      "NOTRICK",
+      "WELLS",
+      "MAXWELL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NOTRICK",
+      "EVRA",
+      "NICOLAS",
+      "MAXWELL"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NOTRICK",
+      "TIFFANY",
+      "NICOLAS",
+      "YASH"
+     ],
+     "proposer": "EVRA",
+     "votes": [
+      "TIFFANY",
+      "NOTRICK",
+      "MAXWELL"
+     ]
+    },
+    {
+     "team": [
+      "MAXWELL",
+      "DICKSON",
+      "EVRA",
+      "NICOLAS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MAXWELL",
+      "EVRA",
+      "TIFFANY"
+     ],
+     "proposer": "MAXWELL"
+    },
+    {
+     "votes": [
+      "NOTRICK",
+      "NICOLAS",
+      "WELLS",
+      "MAXWELL",
+      "YASH",
+      "EVRA",
+      "TIFFANY"
+     ],
+     "proposer": "NICOLAS",
+     "team": [
+      "MAXWELL",
+      "NICOLAS",
+      "EVRA",
+      "NOTRICK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "YASH",
+      "EVRA",
+      "TIFFANY"
+     ],
+     "proposer": "TIFFANY",
+     "state": "REJECTED",
+     "team": [
+      "TIFFANY",
+      "WELLS",
+      "MAXWELL",
+      "NICOLAS",
+      "YASH"
+     ]
+    },
+    {
+     "team": [
+      "MAXWELL",
+      "NICOLAS",
+      "EVRA",
+      "NOTRICK",
+      "WELLS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NOTRICK",
+      "NICOLAS",
+      "WELLS",
+      "MAXWELL",
+      "EVRA",
+      "TIFFANY"
+     ],
+     "proposer": "WELLS"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "MAXWELL",
+    "NICOLAS",
+    "EVRA",
+    "NOTRICK",
+    "WELLS"
+   ],
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MAXWELL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MAXWELL",
+      "NICOLAS",
+      "TIFFANY",
+      "WELLS",
+      "DICKSON"
+     ],
+     "proposer": "YASH"
+    },
+    {
+     "proposer": "NOTRICK",
+     "state": "REJECTED",
+     "team": [
+      "NOTRICK",
+      "EVRA",
+      "TIFFANY",
+      "DICKSON",
+      "YASH"
+     ],
+     "votes": [
+      "EVRA",
+      "TIFFANY",
+      "MAXWELL",
+      "DICKSON"
+     ]
+    },
+    {
+     "votes": [
+      "NICOLAS",
+      "MAXWELL",
+      "DICKSON",
+      "EVRA"
+     ],
+     "team": [
+      "YASH",
+      "NICOLAS",
+      "DICKSON",
+      "EVRA",
+      "TIFFANY"
+     ],
+     "state": "REJECTED",
+     "proposer": "DICKSON"
+    },
+    {
+     "votes": [
+      "DICKSON",
+      "TIFFANY",
+      "NOTRICK",
+      "NICOLAS",
+      "MAXWELL"
+     ],
+     "team": [
+      "EVRA",
+      "NOTRICK",
+      "YASH",
+      "TIFFANY",
+      "NICOLAS"
+     ],
+     "state": "APPROVED",
+     "proposer": "EVRA"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "EVRA",
+    "NOTRICK",
+    "YASH",
+    "TIFFANY",
+    "NICOLAS"
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "4W1dLdVRjZVeG3NWxBAQbyBOXx83",
+   "name": "MAXWELL"
+  },
+  {
+   "uid": "5fRJchdQRihmaYAowJu40J0iVIv1",
+   "name": "NICOLAS"
+  },
+  {
+   "name": "TIFFANY",
+   "uid": "wanJ8P6MxthP9lfd3yRJ3OpiImy2"
+  },
+  {
+   "uid": "M6J64YeZRYVmHqaXCmOmQOtQW8p1",
+   "name": "WELLS"
+  },
+  {
+   "name": "YASH",
+   "uid": "5Fumj2DR7pdpPOaNSubyMFFy87b2"
+  },
+  {
+   "name": "NOTRICK",
+   "uid": "gAQ0yo6gDyfzZ5ZvOPsuGa8W0pg1"
+  },
+  {
+   "name": "DICKSON",
+   "uid": "M0Zoj5PQuQYXQ93oRwdfoTFbjXt2"
+  },
+  {
+   "uid": "8RvYLyv7r1eQBfjqBhe6jPQXmkQ2",
+   "name": "EVRA"
+  }
+ ]
+}

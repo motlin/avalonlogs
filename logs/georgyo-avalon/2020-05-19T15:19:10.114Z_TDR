@@ -1,0 +1,221 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "MORDRED",
+    "name": "CC",
+    "assassin": true
+   },
+   {
+    "name": "S",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "FAQUA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MZ",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JEE"
+   },
+   {
+    "role": "MORGANA",
+    "name": "MUXUAN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "MZ": true,
+    "JEE": true
+   },
+   {
+    "MZ": true,
+    "JEE": true,
+    "FAQUA": true
+   },
+   {
+    "JEE": true,
+    "MZ": true,
+    "FAQUA": true,
+    "CC": false
+   },
+   {
+    "FAQUA": true,
+    "MZ": true,
+    "JEE": true
+   }
+  ],
+  "assassinated": "FAQUA",
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEE",
+      "MUXUAN",
+      "CC",
+      "S",
+      "FAQUA"
+     ],
+     "team": [
+      "JEE",
+      "MZ"
+     ],
+     "proposer": "MUXUAN"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "JEE",
+    "MZ"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "MZ",
+    "JEE",
+    "FAQUA"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MZ",
+     "votes": [
+      "CC",
+      "FAQUA",
+      "MZ",
+      "JEE"
+     ],
+     "team": [
+      "MZ",
+      "JEE",
+      "FAQUA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "S",
+     "team": [
+      "JEE",
+      "FAQUA",
+      "MZ",
+      "CC"
+     ],
+     "votes": [
+      "S",
+      "FAQUA",
+      "JEE",
+      "CC"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "JEE",
+    "FAQUA",
+    "MZ",
+    "CC"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CC",
+      "S",
+      "FAQUA",
+      "MZ",
+      "JEE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JEE",
+      "FAQUA",
+      "MZ"
+     ],
+     "proposer": "JEE"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "JEE",
+    "FAQUA",
+    "MZ"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589901782,
+  "_nanoseconds": 602000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "cXhkCYQ5L3YKR4pYmDx22eWpFQk1",
+   "name": "JEE"
+  },
+  {
+   "name": "CC",
+   "uid": "5VmFJMdZ6fayhiqdEM4J9tOYWUP2"
+  },
+  {
+   "name": "FAQUA",
+   "uid": "pWYQs1W3h9cxLXLfB0r7khTR2lN2"
+  },
+  {
+   "name": "MUXUAN",
+   "uid": "v7MRtmLfTVbTkgKU0RCIZBQtLj12"
+  },
+  {
+   "uid": "GdvKfkOLEfNQ0bymWv992lwWocF2",
+   "name": "MZ"
+  },
+  {
+   "name": "S",
+   "uid": "5FkYTqSqkhUEvThEyVEE0mzVjB33"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589901550,
+  "_nanoseconds": 114000000
+ }
+}
