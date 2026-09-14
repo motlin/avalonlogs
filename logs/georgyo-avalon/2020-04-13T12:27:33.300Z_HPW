@@ -1,0 +1,296 @@
+{
+ "timeCreated": {
+  "_seconds": 1586780853,
+  "_nanoseconds": 300000000
+ },
+ "timeFinished": {
+  "_seconds": 1586782626,
+  "_nanoseconds": 346863000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MATT": true,
+    "SAC": true
+   },
+   {
+    "SAC": false,
+    "MATT": true,
+    "GABE": true
+   },
+   {
+    "PRINCESS": true,
+    "GABE": false,
+    "KEVLAR": true
+   },
+   {
+    "MATT": true,
+    "PRISCA": true,
+    "KEVLAR": true,
+    "DAN": true
+   },
+   {
+    "SAC": false,
+    "PRISCA": false,
+    "MATT": true,
+    "DAN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KEVLAR"
+   },
+   {
+    "assassin": false,
+    "name": "PRISCA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "DAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MATT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SAC",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "GABE"
+   },
+   {
+    "assassin": false,
+    "name": "PRINCESS",
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "MATT",
+    "SAC"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KEVLAR",
+      "PRISCA",
+      "DAN",
+      "MATT",
+      "SAC",
+      "GABE"
+     ],
+     "proposer": "MATT",
+     "team": [
+      "MATT",
+      "SAC"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "MATT",
+      "SAC",
+      "GABE"
+     ],
+     "proposer": "SAC",
+     "votes": [
+      "SAC",
+      "GABE",
+      "PRINCESS",
+      "KEVLAR",
+      "PRISCA",
+      "DAN",
+      "MATT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "MATT",
+    "SAC",
+    "GABE"
+   ]
+  },
+  {
+   "team": [
+    "KEVLAR",
+    "PRINCESS",
+    "GABE"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SAC",
+      "PRINCESS",
+      "KEVLAR",
+      "PRISCA",
+      "DAN",
+      "MATT"
+     ],
+     "state": "APPROVED",
+     "proposer": "GABE",
+     "team": [
+      "KEVLAR",
+      "PRINCESS",
+      "GABE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "PRINCESS"
+     ],
+     "team": [
+      "DAN",
+      "KEVLAR",
+      "MATT",
+      "PRISCA"
+     ],
+     "proposer": "PRINCESS",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "KEVLAR",
+     "votes": [
+      "GABE",
+      "PRINCESS",
+      "KEVLAR",
+      "PRISCA",
+      "DAN",
+      "MATT",
+      "SAC"
+     ],
+     "team": [
+      "KEVLAR",
+      "DAN",
+      "PRISCA",
+      "MATT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "team": [
+    "KEVLAR",
+    "DAN",
+    "PRISCA",
+    "MATT"
+   ]
+  },
+  {
+   "numFails": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "DAN",
+     "team": [
+      "KEVLAR",
+      "DAN",
+      "GABE",
+      "PRISCA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KEVLAR",
+      "DAN",
+      "GABE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PRISCA",
+      "MATT",
+      "SAC",
+      "GABE",
+      "PRINCESS"
+     ],
+     "proposer": "PRISCA",
+     "team": [
+      "PRISCA",
+      "SAC",
+      "DAN",
+      "MATT"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PRISCA",
+    "SAC",
+    "DAN",
+    "MATT"
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "PRINCESS",
+   "uid": "yx0Z5W44STPgXByuH75yzZTSblA2"
+  },
+  {
+   "name": "KEVLAR",
+   "uid": "4C5j2CXoL3VUDeraoWO2WYEh93h2"
+  },
+  {
+   "name": "DAN",
+   "uid": "LwGYTJa1ahWwsaM61nAOwKTBJsY2"
+  },
+  {
+   "uid": "d7nNTCgjkqPpmbML5O0EsKkVth22",
+   "name": "PRISCA"
+  },
+  {
+   "uid": "3Z1CTAyJMWTIqDM8qDDApr2QqHs1",
+   "name": "MATT"
+  },
+  {
+   "name": "SAC",
+   "uid": "VZOdIZRhT6gIEsGXPjlYzAf0JKM2"
+  },
+  {
+   "name": "GABE",
+   "uid": "HUxEZ23vaBMcw9Umi9ZcRftEbMm2"
+  }
+ ]
+}

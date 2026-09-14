@@ -1,0 +1,288 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "MAX",
+    "SARA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SARA",
+      "JULIA",
+      "MAX",
+      "JUD"
+     ],
+     "team": [
+      "MAX",
+      "SARA"
+     ],
+     "proposer": "MAX"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "MAX",
+      "SARA",
+      "SHAY"
+     ],
+     "votes": [
+      "SARA",
+      "SHAY",
+      "MAX",
+      "JUD",
+      "JULIA"
+     ],
+     "proposer": "SARA",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MAX",
+    "SARA",
+    "SHAY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SHAY",
+     "state": "REJECTED",
+     "votes": [
+      "SARA",
+      "JUD",
+      "SHAY"
+     ],
+     "team": [
+      "SHAY",
+      "JULIA",
+      "JUD",
+      "ALTER"
+     ]
+    },
+    {
+     "team": [
+      "ALTER",
+      "MAX",
+      "JUD",
+      "SHAY"
+     ],
+     "proposer": "JUD",
+     "votes": [
+      "MAX",
+      "SHAY",
+      "JULIA",
+      "JUD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "ALTER",
+    "MAX",
+    "JUD",
+    "SHAY"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JULIA",
+     "state": "REJECTED",
+     "team": [
+      "JULIA",
+      "JUD",
+      "SARA"
+     ],
+     "votes": [
+      "JUD",
+      "JULIA"
+     ]
+    },
+    {
+     "team": [
+      "ALTER",
+      "JUD",
+      "SARA"
+     ],
+     "proposer": "ALTER",
+     "votes": [
+      "JUD",
+      "ALTER"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SARA",
+      "JUD"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAX",
+     "team": [
+      "MAX",
+      "JUD",
+      "ALTER"
+     ]
+    },
+    {
+     "proposer": "SARA",
+     "state": "REJECTED",
+     "votes": [
+      "MAX",
+      "JUD",
+      "SARA"
+     ],
+     "team": [
+      "SARA",
+      "JUD",
+      "MAX"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALTER",
+      "SHAY",
+      "JULIA",
+      "SARA"
+     ],
+     "proposer": "SHAY",
+     "team": [
+      "ALTER",
+      "JUD",
+      "SHAY"
+     ]
+    }
+   ],
+   "team": [
+    "ALTER",
+    "JUD",
+    "SHAY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "MAX",
+   "uid": "oqn17O9xl6dHx3Qz81k4RvNUSzY2"
+  },
+  {
+   "name": "SARA",
+   "uid": "HyAH7SGjVxYEyW5VtqFr8cRYXxu1"
+  },
+  {
+   "name": "SHAY",
+   "uid": "7ivpqtbunnMgU5fnS9LaOVD3BOn2"
+  },
+  {
+   "uid": "GnfIARSnFXOIMOb29KeOFIXyOla2",
+   "name": "JUD"
+  },
+  {
+   "uid": "C4GpMAfk7LavCnsBoHabGwj5ULA2",
+   "name": "JULIA"
+  },
+  {
+   "name": "ALTER",
+   "uid": "LkabRXP6RaQLcR4OoIGyL6V7mOv2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "JULIA"
+   },
+   {
+    "assassin": false,
+    "name": "ALTER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "SHAY",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MAX",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JUD"
+   },
+   {
+    "assassin": false,
+    "name": "SARA",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "MAX": true,
+    "SARA": true
+   },
+   {
+    "SHAY": false,
+    "MAX": true,
+    "SARA": true
+   },
+   {
+    "ALTER": true,
+    "SHAY": false,
+    "JUD": true,
+    "MAX": true
+   },
+   {
+    "JUD": true,
+    "SHAY": false,
+    "ALTER": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1598324275,
+  "_nanoseconds": 642000000
+ },
+ "timeCreated": {
+  "_seconds": 1598322626,
+  "_nanoseconds": 740000000
+ }
+}

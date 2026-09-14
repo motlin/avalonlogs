@@ -1,0 +1,295 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590421216,
+  "_nanoseconds": 240000000
+ },
+ "players": [
+  {
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2",
+   "name": "ROBIN"
+  },
+  {
+   "name": "SOVEREIGN",
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22"
+  },
+  {
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3",
+   "name": "KENT"
+  },
+  {
+   "name": "SWEE",
+   "uid": "JnvFx6wpH8T4LQorOxnu0KTuk1s1"
+  },
+  {
+   "name": "CHEESE",
+   "uid": "yD0Arogk0PNpBhI0FTxD7oPL5kt1"
+  },
+  {
+   "uid": "w2ngiDASElTWBTMXd9fdYpBlSNx1",
+   "name": "PROVIDENCE"
+  },
+  {
+   "uid": "qPIYra8LXHcID7Vmxts9q32GUGq2",
+   "name": "PERCIVALS"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590422304,
+  "_nanoseconds": 655000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KENT": true,
+    "SWEE": true
+   },
+   {
+    "PROVIDENCE": true,
+    "SWEE": false,
+    "KENT": true
+   },
+   {
+    "CHEESE": false,
+    "PROVIDENCE": true,
+    "SOVEREIGN": true
+   },
+   {
+    "ROBIN": true,
+    "KENT": true,
+    "SOVEREIGN": true,
+    "PROVIDENCE": true
+   },
+   {
+    "KENT": false,
+    "SOVEREIGN": true,
+    "PERCIVALS": true,
+    "PROVIDENCE": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PROVIDENCE",
+    "assassin": false
+   },
+   {
+    "name": "ROBIN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SWEE",
+    "role": "MORGANA"
+   },
+   {
+    "name": "CHEESE",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "PERCIVALS",
+    "role": "MERLIN"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "KENT"
+   },
+   {
+    "name": "SOVEREIGN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "KENT",
+     "team": [
+      "KENT",
+      "SWEE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PERCIVALS",
+      "KENT",
+      "SOVEREIGN",
+      "ROBIN",
+      "SWEE",
+      "CHEESE"
+     ]
+    }
+   ],
+   "team": [
+    "KENT",
+    "SWEE"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "KENT",
+    "SWEE",
+    "PROVIDENCE"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SWEE",
+     "state": "APPROVED",
+     "team": [
+      "KENT",
+      "SWEE",
+      "PROVIDENCE"
+     ],
+     "votes": [
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "ROBIN",
+      "SWEE",
+      "CHEESE",
+      "PERCIVALS",
+      "KENT"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHEESE",
+    "PROVIDENCE",
+    "SOVEREIGN"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "CHEESE",
+      "PROVIDENCE",
+      "SOVEREIGN"
+     ],
+     "proposer": "CHEESE",
+     "state": "APPROVED",
+     "votes": [
+      "PERCIVALS",
+      "KENT",
+      "SOVEREIGN",
+      "SWEE",
+      "CHEESE"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "PROVIDENCE",
+      "ROBIN",
+      "SOVEREIGN",
+      "KENT"
+     ],
+     "votes": [
+      "PROVIDENCE",
+      "ROBIN",
+      "SWEE",
+      "CHEESE",
+      "KENT",
+      "SOVEREIGN"
+     ],
+     "state": "APPROVED",
+     "proposer": "PROVIDENCE"
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 0,
+   "team": [
+    "PROVIDENCE",
+    "ROBIN",
+    "SOVEREIGN",
+    "KENT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHEESE",
+      "PERCIVALS"
+     ],
+     "proposer": "PERCIVALS",
+     "team": [
+      "PROVIDENCE",
+      "SOVEREIGN",
+      "ROBIN",
+      "PERCIVALS"
+     ]
+    },
+    {
+     "proposer": "ROBIN",
+     "team": [
+      "ROBIN",
+      "PROVIDENCE",
+      "SWEE",
+      "KENT"
+     ],
+     "votes": [
+      "ROBIN",
+      "CHEESE",
+      "KENT"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHEESE",
+      "KENT",
+      "SOVEREIGN",
+      "PROVIDENCE",
+      "ROBIN"
+     ],
+     "proposer": "SOVEREIGN",
+     "team": [
+      "PROVIDENCE",
+      "KENT",
+      "SOVEREIGN",
+      "PERCIVALS"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "PROVIDENCE",
+    "KENT",
+    "SOVEREIGN",
+    "PERCIVALS"
+   ]
+  }
+ ]
+}

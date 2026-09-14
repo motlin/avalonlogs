@@ -1,0 +1,279 @@
+{
+ "missions": [
+  {
+   "team": [
+    "SHAOPAUL",
+    "ROU",
+    "HOWARD"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SHAOPAUL",
+     "team": [
+      "SHAOPAUL",
+      "ROU",
+      "HOWARD"
+     ],
+     "votes": [
+      "SUSAN",
+      "HOWARD",
+      "ROU",
+      "JERRY",
+      "CHERRY",
+      "XIANG",
+      "HP",
+      "SHAOPAUL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "ROU",
+    "SUSAN",
+    "SHAOPAUL",
+    "HP"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SUSAN",
+      "HOWARD",
+      "ROU",
+      "XIANG"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SUSAN",
+      "SHAOPAUL",
+      "ROU",
+      "HOWARD"
+     ],
+     "proposer": "SUSAN"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ROU",
+     "votes": [
+      "SUSAN",
+      "HOWARD",
+      "ROU",
+      "CHERRY",
+      "XIANG",
+      "HP"
+     ],
+     "team": [
+      "ROU",
+      "SUSAN",
+      "SHAOPAUL",
+      "HP"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ROU",
+      "SHAOPAUL",
+      "SUSAN",
+      "HP"
+     ],
+     "proposer": "HOWARD",
+     "votes": [
+      "SUSAN",
+      "HOWARD",
+      "ROU",
+      "JERRY",
+      "CHERRY",
+      "XIANG",
+      "HP",
+      "SHAOPAUL"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 2,
+   "team": [
+    "ROU",
+    "SHAOPAUL",
+    "SUSAN",
+    "HP"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "HP",
+    "JERRY",
+    "SHAOPAUL",
+    "HOWARD",
+    "CHERRY"
+   ],
+   "failsRequired": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SUSAN",
+      "HOWARD",
+      "ROU",
+      "JERRY",
+      "CHERRY",
+      "XIANG",
+      "HP",
+      "SHAOPAUL"
+     ],
+     "team": [
+      "HP",
+      "JERRY",
+      "SHAOPAUL",
+      "HOWARD",
+      "CHERRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JERRY"
+    }
+   ],
+   "teamSize": 5,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 5,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590468248,
+  "_nanoseconds": 75000000
+ },
+ "players": [
+  {
+   "name": "HOWARD",
+   "uid": "CLZ73hWlzJUvwZMxmX40QFFBUZ93"
+  },
+  {
+   "uid": "o7jnlZPADTWhTHclholAWHDYjX32",
+   "name": "JERRY"
+  },
+  {
+   "name": "CHERRY",
+   "uid": "OgHLk6FrW2TMiSaFmKoneBcSUh92"
+  },
+  {
+   "uid": "qjDeDxtpggSF9WWbIBj8hkrx8Oe2",
+   "name": "HP"
+  },
+  {
+   "name": "XIANG",
+   "uid": "Bk5EH82zTOZV3ZvsqhTGTgty2jJ3"
+  },
+  {
+   "uid": "CmlfNiUOQ0WBkKkHTAPpccsnUHD2",
+   "name": "SHAOPAUL"
+  },
+  {
+   "uid": "R4fmZj79uDNSNHMlUvXLOlhN1x82",
+   "name": "SUSAN"
+  },
+  {
+   "name": "ROU",
+   "uid": "LZGigpMr77hCl5smIMUdylrg96S2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590470967,
+  "_nanoseconds": 230000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "HOWARD": true,
+    "ROU": true,
+    "SHAOPAUL": true
+   },
+   {
+    "ROU": true,
+    "SUSAN": true,
+    "HP": true,
+    "SHAOPAUL": true
+   },
+   {
+    "ROU": true,
+    "SUSAN": false,
+    "SHAOPAUL": false,
+    "HP": true
+   },
+   {
+    "HP": true,
+    "CHERRY": true,
+    "HOWARD": true,
+    "SHAOPAUL": false,
+    "JERRY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "ROU",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHERRY",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "XIANG",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HP",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SHAOPAUL",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "name": "SUSAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "HOWARD"
+   }
+  ],
+  "assassinated": "JERRY"
+ }
+}

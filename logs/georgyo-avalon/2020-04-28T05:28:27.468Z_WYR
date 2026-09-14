@@ -1,0 +1,227 @@
+{
+ "timeFinished": {
+  "_seconds": 1588051917,
+  "_nanoseconds": 96000000
+ },
+ "timeCreated": {
+  "_seconds": 1588051707,
+  "_nanoseconds": 468000000
+ },
+ "players": [
+  {
+   "uid": "zXNlP6Fj4dVnLAG0wVEbyjdjWYB3",
+   "name": "ODENIGBO"
+  },
+  {
+   "name": "KOA",
+   "uid": "9DxmuS4Tr7ZdXaJ5qG4IyvDukG92"
+  },
+  {
+   "uid": "PYMvAzM7cvOhem8Q4I7jHFsVyy43",
+   "name": "YENACHI"
+  },
+  {
+   "uid": "NrabLulNZQVjK09MKfcwIkM9qp03",
+   "name": "POPOVICH"
+  },
+  {
+   "name": "LUA",
+   "uid": "Dcwhr15UP1bnqB7sxQc7e6OLS8T2"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "LUA": true,
+    "ODENIGBO": false
+   },
+   {
+    "POPOVICH": true,
+    "YENACHI": true,
+    "KOA": false
+   },
+   {
+    "YENACHI": true,
+    "LUA": true
+   },
+   {
+    "YENACHI": true,
+    "LUA": true,
+    "POPOVICH": true
+   },
+   {
+    "LUA": true,
+    "YENACHI": true,
+    "POPOVICH": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "YENACHI",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "KOA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ODENIGBO",
+    "assassin": true
+   },
+   {
+    "name": "LUA",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "POPOVICH"
+   }
+  ],
+  "assassinated": "LUA",
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "ODENIGBO",
+    "LUA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ODENIGBO",
+     "team": [
+      "ODENIGBO",
+      "LUA"
+     ],
+     "votes": [
+      "KOA",
+      "ODENIGBO",
+      "YENACHI"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KOA",
+      "ODENIGBO",
+      "POPOVICH"
+     ],
+     "team": [
+      "KOA",
+      "YENACHI",
+      "POPOVICH"
+     ],
+     "proposer": "KOA"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "KOA",
+    "YENACHI",
+    "POPOVICH"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LUA",
+    "YENACHI"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "YENACHI",
+     "votes": [
+      "KOA",
+      "ODENIGBO",
+      "POPOVICH",
+      "LUA",
+      "YENACHI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LUA",
+      "YENACHI"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "YENACHI",
+    "POPOVICH",
+    "LUA"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "YENACHI",
+      "POPOVICH",
+      "LUA"
+     ],
+     "proposer": "POPOVICH",
+     "state": "APPROVED",
+     "votes": [
+      "KOA",
+      "POPOVICH",
+      "LUA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "LUA",
+     "votes": [
+      "YENACHI",
+      "LUA",
+      "POPOVICH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LUA",
+      "POPOVICH",
+      "YENACHI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "LUA",
+    "POPOVICH",
+    "YENACHI"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "players": [
+  {
+   "name": "JO",
+   "uid": "ha3HOOgvknSDpN42s6SKS2vxL0B3"
+  },
+  {
+   "name": "NIXON",
+   "uid": "oRg8pDtA2nY1MsB9q9HYrduDVOh1"
+  },
+  {
+   "name": "EZRA",
+   "uid": "j5jJLFQ0PQWtCES96NEZL07E6l93"
+  },
+  {
+   "name": "MANDA",
+   "uid": "CdXe3uGOOUQboqmgaCoB0KS5k6r1"
+  },
+  {
+   "uid": "SvBPd0vXXAbrGLtdeBlIxP8ETw33",
+   "name": "RACHEL"
+  },
+  {
+   "name": "WHOYOU",
+   "uid": "SYbJu3qMgkh7v4VeWdq1aPcSAR53"
+  },
+  {
+   "name": "CKY",
+   "uid": "lMaxNyaLC5OtXRsfi8M8UkS741z2"
+  },
+  {
+   "uid": "TJMjnPjsFgSlJl08aZbrWGGCmOJ2",
+   "name": "CLEM"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587736932,
+  "_nanoseconds": 630000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "RACHEL",
+  "votes": [
+   {
+    "MANDA": true,
+    "RACHEL": true,
+    "JO": true
+   },
+   {
+    "RACHEL": true,
+    "JO": true,
+    "WHOYOU": true,
+    "MANDA": true
+   },
+   {
+    "RACHEL": true,
+    "WHOYOU": true,
+    "MANDA": true,
+    "JO": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RACHEL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "NIXON",
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "MANDA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "JO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "WHOYOU",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CKY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "EZRA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "CLEM"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "RACHEL",
+    "MANDA",
+    "JO"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CKY",
+      "EZRA",
+      "CLEM",
+      "RACHEL",
+      "NIXON",
+      "MANDA",
+      "JO",
+      "WHOYOU"
+     ],
+     "proposer": "MANDA",
+     "state": "APPROVED",
+     "team": [
+      "RACHEL",
+      "MANDA",
+      "JO"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "RACHEL",
+    "MANDA",
+    "JO",
+    "WHOYOU"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RACHEL",
+      "MANDA",
+      "JO",
+      "WHOYOU"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RACHEL",
+      "NIXON",
+      "MANDA",
+      "JO",
+      "WHOYOU",
+      "CKY",
+      "CLEM"
+     ],
+     "proposer": "RACHEL"
+    }
+   ]
+  },
+  {
+   "team": [
+    "WHOYOU",
+    "RACHEL",
+    "MANDA",
+    "JO"
+   ],
+   "proposals": [
+    {
+     "proposer": "WHOYOU",
+     "votes": [
+      "RACHEL",
+      "NIXON",
+      "MANDA",
+      "JO",
+      "WHOYOU",
+      "CKY",
+      "EZRA",
+      "CLEM"
+     ],
+     "team": [
+      "WHOYOU",
+      "RACHEL",
+      "MANDA",
+      "JO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 2,
+   "teamSize": 5,
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 5,
+   "proposals": [],
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587737380,
+  "_nanoseconds": 575000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

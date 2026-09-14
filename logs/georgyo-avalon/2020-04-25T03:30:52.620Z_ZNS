@@ -1,0 +1,264 @@
+{
+ "players": [
+  {
+   "name": "VED",
+   "uid": "kga5ovBVI0UF0GohoZ0cewtChua2"
+  },
+  {
+   "name": "ALICE",
+   "uid": "CP4UjqQmDJbs2K4q4XhyBIk1CfC3"
+  },
+  {
+   "name": "STEV",
+   "uid": "W6Z8jnt5KIOeZCCSO1BSnf25M7i1"
+  },
+  {
+   "uid": "i0ChwySgoXZ9GmzNxiAGDC93O632",
+   "name": "CHRIS"
+  },
+  {
+   "uid": "dWEmd9tAZSfTMKJNijZN9u05DIq2",
+   "name": "OZSEXYMAN"
+  },
+  {
+   "uid": "xSjl6IEjoVenHNzrWpyMAPPRD5i1",
+   "name": "JERRY"
+  },
+  {
+   "name": "SUQI",
+   "uid": "hoMNBUNdwuW1AxgC8AcKVih2OL63"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587785452,
+  "_nanoseconds": 620000000
+ },
+ "outcome": {
+  "assassinated": "CHRIS",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "CHRIS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "OZSEXYMAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JERRY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "name": "SUQI",
+    "assassin": false
+   },
+   {
+    "name": "VED",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "ALICE",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "STEV",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "CHRIS": true,
+    "JERRY": true
+   },
+   {
+    "SUQI": true,
+    "STEV": true,
+    "CHRIS": true
+   },
+   {
+    "OZSEXYMAN": true,
+    "SUQI": false,
+    "STEV": true
+   },
+   {
+    "CHRIS": true,
+    "SUQI": true,
+    "STEV": true,
+    "ALICE": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587786124,
+  "_nanoseconds": 318000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CHRIS",
+      "JERRY"
+     ],
+     "votes": [
+      "VED",
+      "ALICE",
+      "STEV",
+      "CHRIS",
+      "OZSEXYMAN",
+      "JERRY",
+      "SUQI"
+     ],
+     "state": "APPROVED",
+     "proposer": "STEV"
+    }
+   ],
+   "team": [
+    "CHRIS",
+    "JERRY"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHRIS",
+    "SUQI",
+    "STEV"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "CHRIS",
+      "OZSEXYMAN",
+      "SUQI",
+      "VED",
+      "ALICE",
+      "STEV"
+     ],
+     "proposer": "CHRIS",
+     "state": "APPROVED",
+     "team": [
+      "CHRIS",
+      "SUQI",
+      "STEV"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "OZSEXYMAN",
+    "STEV",
+    "SUQI"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "OZSEXYMAN",
+      "STEV",
+      "SUQI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "OZSEXYMAN",
+      "SUQI",
+      "VED",
+      "STEV"
+     ],
+     "proposer": "OZSEXYMAN"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "numFails": 1,
+   "team": [
+    "SUQI",
+    "CHRIS",
+    "STEV",
+    "ALICE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SUQI",
+      "VED",
+      "STEV"
+     ],
+     "team": [
+      "JERRY",
+      "SUQI",
+      "VED",
+      "STEV"
+     ],
+     "proposer": "JERRY"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "OZSEXYMAN"
+     ],
+     "team": [
+      "SUQI",
+      "VED",
+      "OZSEXYMAN",
+      "STEV"
+     ],
+     "proposer": "SUQI"
+    },
+    {
+     "votes": [
+      "VED",
+      "ALICE",
+      "STEV",
+      "CHRIS",
+      "OZSEXYMAN",
+      "SUQI"
+     ],
+     "proposer": "VED",
+     "state": "APPROVED",
+     "team": [
+      "SUQI",
+      "CHRIS",
+      "STEV",
+      "ALICE"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

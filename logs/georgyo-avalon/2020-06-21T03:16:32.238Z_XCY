@@ -1,0 +1,263 @@
+{
+ "players": [
+  {
+   "uid": "oUbh0cbD3dS4GAEzbDoU6qfEEO73",
+   "name": "ASHLEY"
+  },
+  {
+   "name": "CINDY",
+   "uid": "r42ghwvuAXYXp5woGW8JjK86C0C3"
+  },
+  {
+   "uid": "o0J4MjCZwlbJ7YDGCkZ7UERLSN83",
+   "name": "NINO"
+  },
+  {
+   "uid": "c8AL0Gy5vPUsFpW1yXNE04LiMJB2",
+   "name": "JANET"
+  },
+  {
+   "name": "CATHY",
+   "uid": "9lEDnYZldlPbAqymqmKdhmK0KLH2"
+  },
+  {
+   "name": "LOYAL",
+   "uid": "5ROZzXe2h0QLOYLTi2uNvytkqPp2"
+  },
+  {
+   "uid": "BSV8PXzydYaXtBuMWGVGx0eYPL02",
+   "name": "ALAN"
+  },
+  {
+   "uid": "lckLRrCDaSeHjYoj6wuNDLDq7uu1",
+   "name": "KEVIN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592710306,
+  "_nanoseconds": 596000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "NINO": true,
+    "CATHY": true,
+    "JANET": true
+   },
+   {
+    "JANET": true,
+    "LOYAL": true,
+    "NINO": true,
+    "CATHY": true
+   },
+   {
+    "LOYAL": true,
+    "JANET": true,
+    "CATHY": false,
+    "NINO": true
+   },
+   {
+    "ALAN": true,
+    "CATHY": false,
+    "LOYAL": true,
+    "NINO": true,
+    "JANET": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ASHLEY",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "JANET",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LOYAL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NINO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ALAN"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "CATHY"
+   },
+   {
+    "name": "CINDY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "CINDY"
+ },
+ "timeCreated": {
+  "_seconds": 1592709392,
+  "_nanoseconds": 238000000
+ },
+ "missions": [
+  {
+   "team": [
+    "JANET",
+    "CATHY",
+    "NINO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "JANET",
+      "CATHY",
+      "NINO"
+     ],
+     "votes": [
+      "CATHY",
+      "CINDY",
+      "KEVIN",
+      "ASHLEY",
+      "JANET",
+      "LOYAL",
+      "NINO",
+      "ALAN"
+     ],
+     "proposer": "CATHY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "NINO",
+    "JANET",
+    "CATHY",
+    "LOYAL"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CATHY",
+      "CINDY",
+      "KEVIN",
+      "ASHLEY",
+      "JANET",
+      "LOYAL",
+      "NINO",
+      "ALAN"
+     ],
+     "team": [
+      "NINO",
+      "JANET",
+      "CATHY",
+      "LOYAL"
+     ],
+     "state": "APPROVED",
+     "proposer": "LOYAL"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JANET",
+      "LOYAL",
+      "NINO",
+      "ALAN",
+      "CATHY",
+      "CINDY",
+      "KEVIN",
+      "ASHLEY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NINO",
+      "JANET",
+      "CATHY",
+      "LOYAL"
+     ],
+     "proposer": "ALAN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "NINO",
+    "JANET",
+    "CATHY",
+    "LOYAL"
+   ]
+  },
+  {
+   "team": [
+    "NINO",
+    "JANET",
+    "CATHY",
+    "LOYAL",
+    "ALAN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "team": [
+      "NINO",
+      "JANET",
+      "CATHY",
+      "LOYAL",
+      "ALAN"
+     ],
+     "votes": [
+      "KEVIN",
+      "ASHLEY",
+      "JANET",
+      "LOYAL",
+      "ALAN",
+      "CATHY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 1,
+   "teamSize": 5
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

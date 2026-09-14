@@ -1,0 +1,250 @@
+{
+ "timeCreated": {
+  "_seconds": 1585708498,
+  "_nanoseconds": 411000000
+ },
+ "timeFinished": {
+  "_seconds": 1585709166,
+  "_nanoseconds": 63145000
+ },
+ "players": [
+  {
+   "name": "KEBIN",
+   "uid": "9nZcLkwjJoYdZ6MRgOUwJSHQR2k2"
+  },
+  {
+   "uid": "NfNbqlt8f5OENG0PhUcqXTpaDNy1",
+   "name": "LAUREN"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "5Ud49cUaYmU7mFN5ei9w43wjY7r2"
+  },
+  {
+   "uid": "1HostrJzPDNwFgNfICt56aXtGPy1",
+   "name": "ALEX"
+  },
+  {
+   "uid": "YobHaMQqE1WkOuORldJg5luyJF93",
+   "name": "GWU"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "LAUREN",
+    "DANIEL"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "LAUREN",
+     "team": [
+      "LAUREN",
+      "DANIEL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GWU",
+      "DANIEL",
+      "LAUREN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "DANIEL",
+      "LAUREN"
+     ],
+     "proposer": "DANIEL",
+     "team": [
+      "DANIEL",
+      "LAUREN",
+      "ALEX"
+     ]
+    },
+    {
+     "proposer": "ALEX",
+     "votes": [
+      "LAUREN"
+     ],
+     "team": [
+      "ALEX",
+      "LAUREN",
+      "KEBIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "GWU",
+     "team": [
+      "GWU",
+      "ALEX",
+      "LAUREN"
+     ],
+     "votes": [
+      "KEBIN",
+      "ALEX",
+      "GWU"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "GWU",
+    "ALEX",
+    "LAUREN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "KEBIN",
+    "GWU"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "GWU",
+      "DANIEL",
+      "LAUREN",
+      "KEBIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KEBIN",
+      "GWU"
+     ],
+     "proposer": "KEBIN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "LAUREN",
+    "DANIEL",
+    "KEBIN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "GWU",
+      "DANIEL",
+      "LAUREN",
+      "KEBIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LAUREN",
+      "DANIEL",
+      "KEBIN"
+     ],
+     "proposer": "LAUREN"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DANIEL",
+     "team": [
+      "DANIEL",
+      "LAUREN",
+      "KEBIN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GWU",
+      "DANIEL",
+      "LAUREN",
+      "KEBIN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "DANIEL",
+    "LAUREN",
+    "KEBIN"
+   ],
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ALEX",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "GWU",
+    "assassin": true
+   },
+   {
+    "name": "DANIEL",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "LAUREN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KEBIN",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": "ALEX",
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "LAUREN": true,
+    "DANIEL": true
+   },
+   {
+    "ALEX": true,
+    "LAUREN": true,
+    "GWU": false
+   },
+   {
+    "KEBIN": true,
+    "GWU": false
+   },
+   {
+    "LAUREN": true,
+    "DANIEL": true,
+    "KEBIN": true
+   },
+   {
+    "DANIEL": true,
+    "LAUREN": true,
+    "KEBIN": true
+   }
+  ]
+ }
+}

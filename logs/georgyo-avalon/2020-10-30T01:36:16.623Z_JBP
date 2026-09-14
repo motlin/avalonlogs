@@ -1,0 +1,264 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "KADEN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "SHRUTHIKA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ELLIANA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JEFFERSONV",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "COLLIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "CHOLANVK",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "KEVIN"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SHRUTHIKA": true,
+    "COLLIN": true
+   },
+   {
+    "JEFFERSONV": true,
+    "ELLIANA": true,
+    "KADEN": false
+   },
+   {
+    "CHOLANVK": false,
+    "SHRUTHIKA": true,
+    "ELLIANA": true
+   },
+   {
+    "SHRUTHIKA": true,
+    "CHOLANVK": false,
+    "COLLIN": true,
+    "KEVIN": false
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "CHOLANVK",
+   "uid": "d7tEhZgNE1ckPhNqWyWtfSDOoeq1"
+  },
+  {
+   "uid": "yA6NCDVOGcSBQkLImke4YYkCALC2",
+   "name": "SHRUTHIKA"
+  },
+  {
+   "uid": "Y2eDw7DpzZgrQqLPB5hg4YEYD9J3",
+   "name": "KADEN"
+  },
+  {
+   "uid": "fNHS51BybwSfkpY4wbIw8a2vouY2",
+   "name": "COLLIN"
+  },
+  {
+   "uid": "ao0f0hybPhWL3qaR90rplXZhicS2",
+   "name": "ELLIANA"
+  },
+  {
+   "uid": "YtHbXJggDTX4ZzN7odlMPZwzrWl1",
+   "name": "JEFFERSONV"
+  },
+  {
+   "uid": "gD2Vx7yMydTpKDOP3zpjxq3Cbck1",
+   "name": "KEVIN"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1604021776,
+  "_nanoseconds": 623000000
+ },
+ "missions": [
+  {
+   "team": [
+    "SHRUTHIKA",
+    "COLLIN"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CHOLANVK",
+      "COLLIN",
+      "ELLIANA",
+      "KEVIN",
+      "JEFFERSONV",
+      "KADEN",
+      "SHRUTHIKA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHRUTHIKA",
+     "team": [
+      "SHRUTHIKA",
+      "COLLIN"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "KADEN",
+     "state": "APPROVED",
+     "votes": [
+      "SHRUTHIKA",
+      "CHOLANVK",
+      "COLLIN",
+      "KEVIN",
+      "JEFFERSONV",
+      "KADEN",
+      "ELLIANA"
+     ],
+     "team": [
+      "ELLIANA",
+      "KADEN",
+      "JEFFERSONV"
+     ]
+    }
+   ],
+   "team": [
+    "ELLIANA",
+    "KADEN",
+    "JEFFERSONV"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "ELLIANA",
+    "SHRUTHIKA",
+    "CHOLANVK"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "SHRUTHIKA",
+      "ELLIANA",
+      "KADEN",
+      "COLLIN",
+      "KEVIN"
+     ],
+     "proposer": "COLLIN",
+     "state": "APPROVED",
+     "team": [
+      "ELLIANA",
+      "SHRUTHIKA",
+      "CHOLANVK"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "COLLIN",
+    "KEVIN",
+    "SHRUTHIKA",
+    "CHOLANVK"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ELLIANA"
+     ],
+     "proposer": "ELLIANA",
+     "team": [
+      "KEVIN",
+      "ELLIANA",
+      "CHOLANVK",
+      "COLLIN"
+     ]
+    },
+    {
+     "team": [
+      "JEFFERSONV",
+      "COLLIN",
+      "ELLIANA",
+      "SHRUTHIKA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "COLLIN",
+      "ELLIANA",
+      "JEFFERSONV"
+     ],
+     "proposer": "JEFFERSONV"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KEVIN",
+     "votes": [
+      "SHRUTHIKA",
+      "KADEN",
+      "COLLIN",
+      "KEVIN",
+      "CHOLANVK"
+     ],
+     "team": [
+      "COLLIN",
+      "KEVIN",
+      "SHRUTHIKA",
+      "CHOLANVK"
+     ]
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604022291,
+  "_nanoseconds": 514000000
+ }
+}

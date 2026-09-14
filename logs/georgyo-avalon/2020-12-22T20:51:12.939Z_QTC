@@ -1,0 +1,245 @@
+{
+ "players": [
+  {
+   "uid": "wXx4DMlFSlYx5hOl8huaU6elO5V2",
+   "name": "JUAN"
+  },
+  {
+   "name": "CHARLIE",
+   "uid": "CWZvYZ848AMvHmHahztQJfQXkjn1"
+  },
+  {
+   "name": "STEVEN",
+   "uid": "PEJpthLNhheVoFZFk0lrZuZ4x4m1"
+  },
+  {
+   "name": "ELLIOT",
+   "uid": "zET7OYDt8cUzNbhrumGmlLiRnIw1"
+  },
+  {
+   "name": "STEVE",
+   "uid": "TLhKC1ALKzfbU5xjBdoMgtp3itl1"
+  },
+  {
+   "uid": "joO2whPLeXhmnYUdCz1bwz95xKt2",
+   "name": "ANITA"
+  },
+  {
+   "name": "SGTNUTBUTT",
+   "uid": "BWez4J8VXddI7Ig1kQjsIPlx9qh1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "STEVEN",
+      "SGTNUTBUTT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ELLIOT",
+      "STEVEN",
+      "JUAN",
+      "ANITA",
+      "SGTNUTBUTT",
+      "CHARLIE"
+     ],
+     "proposer": "STEVEN"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "STEVEN",
+    "SGTNUTBUTT"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ELLIOT",
+      "STEVEN",
+      "SGTNUTBUTT"
+     ],
+     "state": "REJECTED",
+     "proposer": "ELLIOT",
+     "votes": [
+      "STEVEN",
+      "CHARLIE",
+      "ELLIOT"
+     ]
+    },
+    {
+     "proposer": "STEVE",
+     "team": [
+      "STEVE",
+      "ANITA",
+      "JUAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SGTNUTBUTT",
+      "STEVE",
+      "ANITA",
+      "CHARLIE"
+     ]
+    }
+   ],
+   "team": [
+    "STEVE",
+    "ANITA",
+    "JUAN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ANITA",
+     "votes": [
+      "ANITA",
+      "JUAN",
+      "SGTNUTBUTT",
+      "STEVEN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ANITA",
+      "JUAN",
+      "STEVEN"
+     ]
+    }
+   ],
+   "team": [
+    "ANITA",
+    "JUAN",
+    "STEVEN"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 0,
+   "team": [
+    "JUAN",
+    "STEVEN",
+    "ANITA",
+    "SGTNUTBUTT"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "SGTNUTBUTT",
+     "state": "APPROVED",
+     "votes": [
+      "JUAN",
+      "CHARLIE",
+      "ANITA",
+      "SGTNUTBUTT",
+      "STEVEN"
+     ],
+     "team": [
+      "JUAN",
+      "STEVEN",
+      "ANITA",
+      "SGTNUTBUTT"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1608670272,
+  "_nanoseconds": 939000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "JUAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "ANITA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ELLIOT",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SGTNUTBUTT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "STEVE",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "STEVEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CHARLIE",
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "SGTNUTBUTT": true,
+    "STEVEN": true
+   },
+   {
+    "STEVE": false,
+    "JUAN": true,
+    "ANITA": true
+   },
+   {
+    "ANITA": true,
+    "JUAN": true,
+    "STEVEN": true
+   },
+   {
+    "SGTNUTBUTT": true,
+    "JUAN": true,
+    "STEVEN": true,
+    "ANITA": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "JUAN",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1608670808,
+  "_nanoseconds": 403000000
+ }
+}

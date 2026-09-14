@@ -1,0 +1,212 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MC"
+   },
+   {
+    "name": "SWAGISON",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "KHRUSHCHEV",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "RILEY",
+    "assassin": false
+   },
+   {
+    "name": "BRIAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "RILEY": true,
+    "MC": false
+   },
+   {
+    "SWAGISON": false,
+    "RILEY": true,
+    "KHRUSHCHEV": true
+   },
+   {
+    "BRIAN": true,
+    "MC": false
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1613966146,
+  "_nanoseconds": 899000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "MC",
+    "RILEY"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MC",
+     "votes": [
+      "RILEY",
+      "KHRUSHCHEV",
+      "MC",
+      "SWAGISON"
+     ],
+     "team": [
+      "MC",
+      "RILEY"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "RILEY",
+      "SWAGISON",
+      "KHRUSHCHEV"
+     ],
+     "proposer": "SWAGISON",
+     "votes": [
+      "KHRUSHCHEV",
+      "RILEY",
+      "SWAGISON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "RILEY",
+    "SWAGISON",
+    "KHRUSHCHEV"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MC",
+    "BRIAN"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "RILEY",
+      "KHRUSHCHEV"
+     ],
+     "state": "REJECTED",
+     "proposer": "KHRUSHCHEV",
+     "team": [
+      "RILEY",
+      "BRIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KHRUSHCHEV",
+      "RILEY"
+     ],
+     "votes": [
+      "RILEY",
+      "KHRUSHCHEV"
+     ],
+     "proposer": "RILEY"
+    },
+    {
+     "votes": [
+      "SWAGISON",
+      "BRIAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BRIAN",
+      "SWAGISON"
+     ],
+     "proposer": "BRIAN"
+    },
+    {
+     "votes": [
+      "MC",
+      "SWAGISON",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MC",
+     "team": [
+      "MC",
+      "BRIAN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "players": [
+  {
+   "name": "BRIAN",
+   "uid": "YNuslEESHqOp6USUpGWPnkEbzIt1"
+  },
+  {
+   "uid": "e5LuxDzA4oVfR58Hwvwf9pvUmEG2",
+   "name": "MC"
+  },
+  {
+   "name": "SWAGISON",
+   "uid": "X53dxHT72CWfxwIQRqwIE1tj5OM2"
+  },
+  {
+   "name": "KHRUSHCHEV",
+   "uid": "3O9SFMNZkgaAm6xG1dO6IHWcg4C2"
+  },
+  {
+   "uid": "oUE6V9ShSpXmIqvqMK2AiKqCNhq1",
+   "name": "RILEY"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1613965895,
+  "_nanoseconds": 731000000
+ }
+}

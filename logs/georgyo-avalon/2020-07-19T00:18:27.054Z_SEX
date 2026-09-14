@@ -1,0 +1,438 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "STEVE": true,
+    "DANIEL": true,
+    "TOBY": true
+   },
+   {
+    "DANIEL": true,
+    "TOBY": true,
+    "DAISY": false,
+    "STEVE": true
+   },
+   {
+    "BRIAN": true,
+    "KIMMERLIN": true,
+    "TOBY": true,
+    "RAFMAN": true
+   },
+   {
+    "KIMMERLIN": true,
+    "TOBY": true,
+    "STEVE": true,
+    "RAFMAN": true,
+    "BRIAN": true
+   }
+  ],
+  "assassinated": "RAFMAN",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "RAFMAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "BRIAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ROCIO",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "STEVE"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "DANIEL"
+   },
+   {
+    "name": "DAISY",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "KIMMERLIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ROCKY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KAREN"
+   },
+   {
+    "name": "TOBY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "kYmaig4V9qPVwzFNPynJHaGGk8P2",
+   "name": "KAREN"
+  },
+  {
+   "name": "TOBY",
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2"
+  },
+  {
+   "uid": "VK3pUVkXsCMFMxGEgEo0ckQuksm2",
+   "name": "BRIAN"
+  },
+  {
+   "name": "ROCIO",
+   "uid": "VbUDJdM4SNRVWhkElP1RFmbhRyo2"
+  },
+  {
+   "name": "STEVE",
+   "uid": "lHx01lkWR8RJbNr7VOto3YG3qz33"
+  },
+  {
+   "name": "ROCKY",
+   "uid": "zM9XPY9QEiM3EfKBXlgKk97GJAF3"
+  },
+  {
+   "name": "DAISY",
+   "uid": "dbm93qFqiIcexgBMYw3pyDdjwOF2"
+  },
+  {
+   "name": "KIMMERLIN",
+   "uid": "tVQNQuHDO8cihbBVOPRGTj0fm4I2"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "k8GkgnlDZMeTUGvxso2LASjqHZq1"
+  },
+  {
+   "uid": "iEzhrQLgEOXe7L05QEtqhr2uXDW2",
+   "name": "RAFMAN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595117907,
+  "_nanoseconds": 54000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "STEVE",
+    "TOBY",
+    "DANIEL"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "KAREN",
+      "ROCIO",
+      "DAISY"
+     ],
+     "proposer": "KAREN",
+     "state": "REJECTED",
+     "votes": [
+      "KAREN",
+      "DAISY"
+     ]
+    },
+    {
+     "proposer": "TOBY",
+     "votes": [
+      "TOBY",
+      "DAISY",
+      "KIMMERLIN"
+     ],
+     "team": [
+      "STEVE",
+      "DAISY",
+      "BRIAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RAFMAN",
+      "TOBY"
+     ],
+     "team": [
+      "BRIAN",
+      "TOBY",
+      "RAFMAN"
+     ],
+     "proposer": "BRIAN"
+    },
+    {
+     "votes": [
+      "ROCIO",
+      "DAISY",
+      "KAREN",
+      "KIMMERLIN"
+     ],
+     "proposer": "ROCIO",
+     "team": [
+      "ROCIO",
+      "DAISY",
+      "RAFMAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "STEVE",
+      "DAISY",
+      "KAREN",
+      "TOBY",
+      "RAFMAN",
+      "DANIEL",
+      "ROCKY",
+      "ROCIO",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "STEVE",
+     "team": [
+      "STEVE",
+      "TOBY",
+      "DANIEL"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ROCKY",
+     "votes": [
+      "KIMMERLIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ROCKY",
+      "TOBY",
+      "DANIEL",
+      "KIMMERLIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "DAISY",
+     "votes": [
+      "DAISY"
+     ],
+     "team": [
+      "STEVE",
+      "TOBY",
+      "DAISY",
+      "DANIEL"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KIMMERLIN",
+     "team": [
+      "KIMMERLIN",
+      "TOBY",
+      "DANIEL",
+      "BRIAN"
+     ],
+     "votes": [
+      "KIMMERLIN",
+      "TOBY"
+     ]
+    },
+    {
+     "proposer": "DANIEL",
+     "votes": [
+      "DAISY",
+      "KIMMERLIN",
+      "BRIAN",
+      "STEVE",
+      "DANIEL",
+      "KAREN",
+      "ROCIO"
+     ],
+     "team": [
+      "TOBY",
+      "DANIEL",
+      "STEVE",
+      "DAISY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "TOBY",
+    "DANIEL",
+    "STEVE",
+    "DAISY"
+   ],
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "RAFMAN",
+     "state": "REJECTED",
+     "votes": [
+      "TOBY",
+      "RAFMAN",
+      "DAISY",
+      "KIMMERLIN"
+     ],
+     "team": [
+      "KIMMERLIN",
+      "RAFMAN",
+      "BRIAN",
+      "TOBY"
+     ]
+    },
+    {
+     "votes": [
+      "DAISY",
+      "KAREN",
+      "RAFMAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BRIAN",
+      "KAREN",
+      "TOBY",
+      "RAFMAN"
+     ],
+     "proposer": "KAREN"
+    },
+    {
+     "proposer": "TOBY",
+     "state": "APPROVED",
+     "team": [
+      "TOBY",
+      "BRIAN",
+      "KIMMERLIN",
+      "RAFMAN"
+     ],
+     "votes": [
+      "DAISY",
+      "TOBY",
+      "BRIAN",
+      "STEVE",
+      "KIMMERLIN",
+      "KAREN"
+     ]
+    }
+   ],
+   "team": [
+    "TOBY",
+    "BRIAN",
+    "KIMMERLIN",
+    "RAFMAN"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "STEVE",
+    "RAFMAN",
+    "KIMMERLIN",
+    "BRIAN",
+    "TOBY"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "TOBY",
+      "BRIAN",
+      "KIMMERLIN",
+      "RAFMAN",
+      "KAREN"
+     ],
+     "votes": [
+      "KAREN",
+      "TOBY",
+      "KIMMERLIN",
+      "RAFMAN",
+      "BRIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "BRIAN"
+    },
+    {
+     "proposer": "ROCIO",
+     "state": "REJECTED",
+     "team": [
+      "TOBY",
+      "BRIAN",
+      "ROCIO",
+      "KIMMERLIN",
+      "RAFMAN"
+     ],
+     "votes": [
+      "ROCIO",
+      "KAREN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KIMMERLIN",
+      "RAFMAN",
+      "KAREN",
+      "STEVE",
+      "TOBY",
+      "BRIAN"
+     ],
+     "team": [
+      "STEVE",
+      "RAFMAN",
+      "KIMMERLIN",
+      "BRIAN",
+      "TOBY"
+     ],
+     "proposer": "STEVE"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 5,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1595119684,
+  "_nanoseconds": 949000000
+ }
+}

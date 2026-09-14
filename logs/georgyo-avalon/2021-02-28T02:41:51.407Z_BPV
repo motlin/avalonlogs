@@ -1,0 +1,228 @@
+{
+ "timeFinished": {
+  "_seconds": 1614480425,
+  "_nanoseconds": 936000000
+ },
+ "timeCreated": {
+  "_seconds": 1614480111,
+  "_nanoseconds": 407000000
+ },
+ "players": [
+  {
+   "name": "MO",
+   "uid": "6s7BIgnhgLf2G0ugJCrfgOXR7Jt2"
+  },
+  {
+   "name": "OLIVER",
+   "uid": "BgUpMd2mM9OsJ2kM6d1w5XruWzQ2"
+  },
+  {
+   "name": "ARTHUR",
+   "uid": "BsTDBnCYKtTWrK25R25k0gAP7Oy1"
+  },
+  {
+   "uid": "IKPJoBKMPJPltAvBrxYmMjLqkyo2",
+   "name": "EDWINA"
+  },
+  {
+   "uid": "fhLLNEamf9QvfNbq8RBI3GBBMAT2",
+   "name": "MONK"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "OLIVER",
+      "ARTHUR",
+      "MONK",
+      "MO",
+      "EDWINA"
+     ],
+     "proposer": "EDWINA",
+     "team": [
+      "EDWINA",
+      "MO"
+     ]
+    }
+   ],
+   "team": [
+    "EDWINA",
+    "MO"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "EDWINA",
+      "OLIVER",
+      "MONK"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MONK",
+      "OLIVER",
+      "ARTHUR"
+     ],
+     "proposer": "MONK"
+    }
+   ],
+   "team": [
+    "MONK",
+    "OLIVER",
+    "ARTHUR"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "ARTHUR",
+    "EDWINA"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MO",
+      "MONK"
+     ],
+     "proposer": "MO",
+     "votes": [
+      "MO",
+      "MONK"
+     ]
+    },
+    {
+     "team": [
+      "MO",
+      "OLIVER"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "OLIVER",
+      "MO"
+     ],
+     "proposer": "OLIVER"
+    },
+    {
+     "votes": [
+      "ARTHUR",
+      "MO",
+      "EDWINA",
+      "OLIVER"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ARTHUR",
+      "EDWINA"
+     ],
+     "proposer": "ARTHUR"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "OLIVER",
+      "MONK",
+      "ARTHUR",
+      "EDWINA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "OLIVER",
+      "ARTHUR",
+      "MONK"
+     ],
+     "proposer": "EDWINA"
+    }
+   ],
+   "team": [
+    "OLIVER",
+    "ARTHUR",
+    "MONK"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "EDWINA": true,
+    "MO": true
+   },
+   {
+    "ARTHUR": true,
+    "OLIVER": true,
+    "MONK": true
+   },
+   {
+    "ARTHUR": true,
+    "EDWINA": false
+   },
+   {
+    "OLIVER": true,
+    "ARTHUR": true,
+    "MONK": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "MONK",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "EDWINA"
+   },
+   {
+    "assassin": true,
+    "name": "MO",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "ARTHUR",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "OLIVER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "MONK"
+ }
+}

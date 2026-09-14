@@ -1,0 +1,245 @@
+{
+ "timeCreated": {
+  "_seconds": 1586053635,
+  "_nanoseconds": 85000000
+ },
+ "timeFinished": {
+  "_seconds": 1586053949,
+  "_nanoseconds": 380719000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "EW": false,
+    "VIRUS": true
+   },
+   {
+    "FORKY": true,
+    "BADGUY": true,
+    "CHRIZZINE": true
+   },
+   {
+    "CHRIZZINE": true,
+    "FORKY": true,
+    "VIRUS": true,
+    "BADGUY": true
+   },
+   {
+    "FORKY": true,
+    "CHRIZZINE": true,
+    "BADGUY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "FORKY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "CHRIZZINE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "GLORIA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "BADGUY"
+   },
+   {
+    "assassin": true,
+    "name": "EW",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "VIRUS",
+    "assassin": false
+   }
+  ],
+  "assassinated": "CHRIZZINE"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "GLORIA",
+      "EW"
+     ],
+     "state": "REJECTED",
+     "proposer": "GLORIA",
+     "votes": [
+      "CHRIZZINE",
+      "GLORIA",
+      "EW"
+     ]
+    },
+    {
+     "proposer": "EW",
+     "team": [
+      "VIRUS",
+      "EW"
+     ],
+     "votes": [
+      "CHRIZZINE",
+      "GLORIA",
+      "BADGUY",
+      "EW",
+      "VIRUS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "VIRUS",
+    "EW"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "FORKY",
+    "CHRIZZINE",
+    "BADGUY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "FORKY",
+      "CHRIZZINE",
+      "GLORIA"
+     ],
+     "team": [
+      "CHRIZZINE",
+      "BADGUY",
+      "GLORIA"
+     ],
+     "proposer": "CHRIZZINE",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "FORKY",
+      "CHRIZZINE",
+      "GLORIA",
+      "BADGUY"
+     ],
+     "proposer": "BADGUY",
+     "state": "APPROVED",
+     "team": [
+      "FORKY",
+      "CHRIZZINE",
+      "BADGUY"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "FORKY",
+    "CHRIZZINE",
+    "BADGUY",
+    "VIRUS"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "VIRUS",
+     "votes": [
+      "BADGUY",
+      "VIRUS",
+      "FORKY",
+      "CHRIZZINE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FORKY",
+      "CHRIZZINE",
+      "BADGUY",
+      "VIRUS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "CHRIZZINE",
+    "BADGUY",
+    "FORKY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "FORKY",
+      "CHRIZZINE",
+      "BADGUY",
+      "EW",
+      "VIRUS"
+     ],
+     "proposer": "FORKY",
+     "state": "APPROVED",
+     "team": [
+      "CHRIZZINE",
+      "BADGUY",
+      "FORKY"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "GLORIA",
+   "uid": "VDw1wKaKKQUR3Q1S0rYT28Z11Ws2"
+  },
+  {
+   "name": "EW",
+   "uid": "blO3cbthEHYMrrcOduALQoWBPXZ2"
+  },
+  {
+   "name": "CHRIZZINE",
+   "uid": "8QoEIat0dDSprs0OsHnGC5LPuYB2"
+  },
+  {
+   "uid": "m1XDiqfBZafyFFvCFiqwFKEmitn2",
+   "name": "BADGUY"
+  },
+  {
+   "uid": "tySOxcvJyNYXdaqdKp6kMGz5dFZ2",
+   "name": "VIRUS"
+  },
+  {
+   "name": "FORKY",
+   "uid": "QAZXiqAs1nV5oe6BgfQwaBzMR5O2"
+  }
+ ]
+}

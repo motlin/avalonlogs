@@ -1,0 +1,199 @@
+{
+ "players": [
+  {
+   "uid": "lEJCjoPjhrSN49fHQbwenfQMn4q2",
+   "name": "JORDAN"
+  },
+  {
+   "name": "DYLAN",
+   "uid": "RkU6fdwZuJVfOWLpArxaXKdeoB33"
+  },
+  {
+   "name": "JOMO",
+   "uid": "IZISDWbci5dOvAkpgMWw8b65pyA3"
+  },
+  {
+   "name": "LAELAE",
+   "uid": "JjZUCs0SlrNwThMEZGjV0ElpV9j2"
+  },
+  {
+   "uid": "B28nq3vagJazThdP9HJmjPOfhwZ2",
+   "name": "JAI"
+  },
+  {
+   "name": "DIB",
+   "uid": "HVDfWm0jMHdaEyRJSgWNcwNRIL72"
+  },
+  {
+   "uid": "JueYlUGm4wNAtpvC1oOg5IKF9vB2",
+   "name": "HENRY"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JAI": true,
+    "LAELAE": true
+   },
+   {
+    "JAI": true,
+    "HENRY": true,
+    "DIB": true
+   },
+   {
+    "DIB": true,
+    "JORDAN": true,
+    "JAI": true
+   }
+  ],
+  "assassinated": "JAI",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "OBERON",
+    "name": "LAELAE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DIB"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "HENRY",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "JAI",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "DYLAN"
+   },
+   {
+    "assassin": true,
+    "name": "JOMO",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JORDAN"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1592635844,
+  "_nanoseconds": 1000000
+ },
+ "timeCreated": {
+  "_seconds": 1592635034,
+  "_nanoseconds": 456000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "HENRY",
+      "JAI",
+      "JORDAN",
+      "LAELAE"
+     ],
+     "state": "APPROVED",
+     "proposer": "LAELAE",
+     "team": [
+      "LAELAE",
+      "JAI"
+     ]
+    }
+   ],
+   "team": [
+    "LAELAE",
+    "JAI"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JAI",
+      "DIB",
+      "HENRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAI",
+     "votes": [
+      "LAELAE",
+      "DIB",
+      "HENRY",
+      "JAI"
+     ]
+    }
+   ],
+   "team": [
+    "JAI",
+    "DIB",
+    "HENRY"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "DIB",
+    "JAI",
+    "JORDAN"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "DIB",
+      "JAI",
+      "JORDAN"
+     ],
+     "votes": [
+      "JORDAN",
+      "DIB",
+      "JAI",
+      "DYLAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "DIB"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

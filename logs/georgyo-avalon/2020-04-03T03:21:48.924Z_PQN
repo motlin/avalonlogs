@@ -1,0 +1,373 @@
+{
+ "timeFinished": {
+  "_seconds": 1585885944,
+  "_nanoseconds": 789432000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "DWANIELLL",
+  "roles": [
+   {
+    "name": "PQN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "LIBIDO",
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "DWANIELLL",
+    "assassin": false
+   },
+   {
+    "name": "MBR",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "DANZ",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "MBR": true,
+    "PQN": true
+   },
+   {
+    "PQN": false,
+    "LIBIDO": true,
+    "MBR": true
+   },
+   {
+    "DANZ": false,
+    "PQN": true
+   },
+   {
+    "DWANIELLL": true,
+    "MBR": true,
+    "LIBIDO": true
+   },
+   {
+    "MBR": true,
+    "DWANIELLL": true,
+    "LIBIDO": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "MBR",
+    "PQN"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "PQN",
+      "MBR"
+     ],
+     "proposer": "PQN",
+     "votes": [
+      "MBR",
+      "PQN"
+     ]
+    },
+    {
+     "votes": [
+      "LIBIDO",
+      "DANZ"
+     ],
+     "proposer": "DANZ",
+     "state": "REJECTED",
+     "team": [
+      "DANZ",
+      "LIBIDO"
+     ]
+    },
+    {
+     "team": [
+      "DWANIELLL",
+      "DANZ"
+     ],
+     "proposer": "DWANIELLL",
+     "state": "REJECTED",
+     "votes": [
+      "DWANIELLL",
+      "DANZ"
+     ]
+    },
+    {
+     "proposer": "LIBIDO",
+     "state": "REJECTED",
+     "team": [
+      "LIBIDO",
+      "DANZ"
+     ],
+     "votes": [
+      "DANZ",
+      "LIBIDO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MBR",
+      "DANZ",
+      "PQN",
+      "LIBIDO",
+      "DWANIELLL"
+     ],
+     "proposer": "MBR",
+     "team": [
+      "MBR",
+      "PQN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "PQN",
+    "MBR",
+    "LIBIDO"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PQN",
+      "LIBIDO",
+      "MBR"
+     ],
+     "proposer": "PQN",
+     "state": "APPROVED",
+     "team": [
+      "PQN",
+      "MBR",
+      "LIBIDO"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "DANZ",
+    "PQN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "DANZ",
+      "LIBIDO"
+     ],
+     "votes": [
+      "DANZ",
+      "LIBIDO"
+     ],
+     "proposer": "DANZ",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "DWANIELLL",
+      "LIBIDO"
+     ],
+     "votes": [
+      "LIBIDO",
+      "DWANIELLL"
+     ],
+     "proposer": "DWANIELLL"
+    },
+    {
+     "votes": [
+      "PQN",
+      "LIBIDO"
+     ],
+     "state": "REJECTED",
+     "proposer": "LIBIDO",
+     "team": [
+      "LIBIDO",
+      "PQN"
+     ]
+    },
+    {
+     "proposer": "MBR",
+     "state": "REJECTED",
+     "team": [
+      "MBR",
+      "PQN"
+     ],
+     "votes": [
+      "PQN",
+      "MBR"
+     ]
+    },
+    {
+     "proposer": "PQN",
+     "team": [
+      "DANZ",
+      "PQN"
+     ],
+     "votes": [
+      "PQN",
+      "LIBIDO",
+      "DWANIELLL",
+      "MBR",
+      "DANZ"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "LIBIDO"
+     ],
+     "proposer": "DANZ",
+     "team": [
+      "DANZ",
+      "LIBIDO",
+      "MBR"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "DWANIELLL",
+     "team": [
+      "DWANIELLL",
+      "MBR",
+      "LIBIDO"
+     ],
+     "votes": [
+      "LIBIDO",
+      "MBR"
+     ]
+    },
+    {
+     "proposer": "LIBIDO",
+     "votes": [
+      "PQN"
+     ],
+     "team": [
+      "MBR",
+      "PQN",
+      "DWANIELLL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MBR",
+      "DWANIELLL",
+      "LIBIDO"
+     ],
+     "proposer": "MBR",
+     "state": "APPROVED",
+     "votes": [
+      "LIBIDO",
+      "DWANIELLL",
+      "MBR"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "MBR",
+    "DWANIELLL",
+    "LIBIDO"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "PQN",
+      "DANZ"
+     ],
+     "team": [
+      "PQN",
+      "MBR",
+      "DANZ"
+     ],
+     "proposer": "PQN"
+    },
+    {
+     "team": [
+      "DWANIELLL",
+      "LIBIDO",
+      "MBR"
+     ],
+     "proposer": "DANZ",
+     "state": "APPROVED",
+     "votes": [
+      "MBR",
+      "DANZ",
+      "LIBIDO",
+      "DWANIELLL"
+     ]
+    }
+   ],
+   "team": [
+    "DWANIELLL",
+    "LIBIDO",
+    "MBR"
+   ],
+   "numFails": 0
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585884108,
+  "_nanoseconds": 924000000
+ },
+ "players": [
+  {
+   "name": "DANZ",
+   "uid": "nyBBIxHMaTNlQp73G7WDkTcz1De2"
+  },
+  {
+   "name": "DWANIELLL",
+   "uid": "GmYkPJKKYKRe3NuoffxXRTl4o5l1"
+  },
+  {
+   "uid": "39VbXyEgDGSUoFFHh7xO5w3jy2N2",
+   "name": "LIBIDO"
+  },
+  {
+   "name": "MBR",
+   "uid": "tv101gaXCPOwSJV4vZ3aKw2PkUg2"
+  },
+  {
+   "name": "PQN",
+   "uid": "psNDhMEBqDQUxyX3bsbxdeaWz8Q2"
+  }
+ ]
+}

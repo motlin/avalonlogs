@@ -1,0 +1,321 @@
+{
+ "timeCreated": {
+  "_seconds": 1609894702,
+  "_nanoseconds": 440000000
+ },
+ "timeFinished": {
+  "_seconds": 1609896916,
+  "_nanoseconds": 807000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "BORIS",
+   "uid": "GuRS92tzIsUQUCLvcfh6jBp63r52"
+  },
+  {
+   "name": "RACKLE",
+   "uid": "852hE09EZEfT4QcMfr08Oxmw3lf2"
+  },
+  {
+   "name": "KRISTI",
+   "uid": "e6ex7UgnnLRf5RmrSTCt7UrhGlf2"
+  },
+  {
+   "name": "MAYBEBRIAN",
+   "uid": "XYPdlDp3mgcL5IeNRPulElxMQAX2"
+  },
+  {
+   "uid": "SVNnplmT4bV03ymhBgDqiIFDNPD3",
+   "name": "MINMIN"
+  },
+  {
+   "name": "SUSAN",
+   "uid": "NYzU6wWeuGaHe04Zm0SQ3gRlPg03"
+  },
+  {
+   "uid": "2iAu4fGfYUg9a9zK7YfgewsNgCJ2",
+   "name": "JOEL"
+  },
+  {
+   "name": "MAX",
+   "uid": "IZuKCB9SpvhEyiJXFhtaoJoc64x1"
+  },
+  {
+   "uid": "jOzw0rQRfnVnIS2up1lZRlMfqsx1",
+   "name": "SHEWOLF"
+  }
+ ],
+ "outcome": {
+  "assassinated": "BORIS",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "KRISTI": true,
+    "SUSAN": true,
+    "SHEWOLF": false
+   },
+   {
+    "JOEL": true,
+    "MINMIN": true,
+    "KRISTI": true,
+    "MAX": true
+   },
+   {
+    "KRISTI": true,
+    "BORIS": true,
+    "SHEWOLF": false,
+    "JOEL": true
+   },
+   {
+    "MINMIN": true,
+    "MAX": true,
+    "BORIS": true,
+    "JOEL": true,
+    "RACKLE": true
+   },
+   {
+    "MINMIN": true,
+    "RACKLE": true,
+    "BORIS": true,
+    "JOEL": true,
+    "MAX": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JOEL"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MAYBEBRIAN"
+   },
+   {
+    "name": "SHEWOLF",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "MAX",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SUSAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "KRISTI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RACKLE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BORIS",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MINMIN"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "SUSAN",
+     "votes": [
+      "MAYBEBRIAN",
+      "KRISTI",
+      "JOEL",
+      "MINMIN",
+      "SHEWOLF",
+      "RACKLE",
+      "MAX",
+      "SUSAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SUSAN",
+      "KRISTI",
+      "SHEWOLF"
+     ]
+    }
+   ],
+   "team": [
+    "SUSAN",
+    "KRISTI",
+    "SHEWOLF"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "MINMIN",
+    "JOEL",
+    "KRISTI",
+    "MAX"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "RACKLE",
+      "MAX",
+      "KRISTI",
+      "MINMIN",
+      "SHEWOLF",
+      "MAYBEBRIAN",
+      "JOEL"
+     ],
+     "team": [
+      "MINMIN",
+      "JOEL",
+      "KRISTI",
+      "MAX"
+     ],
+     "proposer": "JOEL",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "BORIS",
+    "JOEL",
+    "SHEWOLF",
+    "KRISTI"
+   ],
+   "proposals": [
+    {
+     "proposer": "MAX",
+     "votes": [
+      "MAX",
+      "SHEWOLF",
+      "JOEL",
+      "SUSAN"
+     ],
+     "team": [
+      "MAX",
+      "SUSAN",
+      "MINMIN",
+      "JOEL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BORIS",
+      "JOEL",
+      "SHEWOLF",
+      "KRISTI"
+     ],
+     "proposer": "SHEWOLF",
+     "state": "APPROVED",
+     "votes": [
+      "RACKLE",
+      "SUSAN",
+      "MAX",
+      "SHEWOLF",
+      "BORIS",
+      "MAYBEBRIAN",
+      "JOEL",
+      "KRISTI"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BORIS",
+     "votes": [
+      "BORIS",
+      "MAYBEBRIAN",
+      "RACKLE",
+      "MAX",
+      "MINMIN",
+      "JOEL"
+     ],
+     "team": [
+      "BORIS",
+      "JOEL",
+      "RACKLE",
+      "MAX",
+      "MINMIN"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "BORIS",
+    "JOEL",
+    "RACKLE",
+    "MAX",
+    "MINMIN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RACKLE",
+     "team": [
+      "RACKLE",
+      "BORIS",
+      "MINMIN",
+      "JOEL",
+      "MAX"
+     ],
+     "votes": [
+      "RACKLE",
+      "MINMIN",
+      "BORIS",
+      "JOEL",
+      "MAX",
+      "KRISTI"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "RACKLE",
+    "BORIS",
+    "MINMIN",
+    "JOEL",
+    "MAX"
+   ]
+  }
+ ]
+}

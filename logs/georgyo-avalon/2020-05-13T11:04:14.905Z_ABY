@@ -1,0 +1,237 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ROBIN",
+      "WEI",
+      "SWEE",
+      "KENT",
+      "WEILUN",
+      "SOVEREIGN"
+     ],
+     "proposer": "KENT",
+     "team": [
+      "KENT",
+      "SOVEREIGN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "KENT",
+    "SOVEREIGN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "SOVEREIGN",
+    "KENT",
+    "WEILUN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KENT",
+      "WEILUN",
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI",
+      "SWEE"
+     ],
+     "team": [
+      "SOVEREIGN",
+      "KENT",
+      "WEILUN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOVEREIGN"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "WEI",
+     "team": [
+      "WEI",
+      "ROBIN",
+      "KENT",
+      "SWEE"
+     ],
+     "votes": [
+      "ROBIN",
+      "WEI",
+      "SWEE",
+      "KENT",
+      "WEILUN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "WEI",
+    "ROBIN",
+    "KENT",
+    "SWEE"
+   ]
+  },
+  {
+   "team": [
+    "ROBIN",
+    "SOVEREIGN",
+    "SWEE"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "WEILUN",
+      "SOVEREIGN",
+      "WEI"
+     ],
+     "votes": [
+      "WEILUN"
+     ],
+     "proposer": "WEILUN"
+    },
+    {
+     "team": [
+      "ROBIN",
+      "SOVEREIGN",
+      "SWEE"
+     ],
+     "proposer": "ROBIN",
+     "votes": [
+      "KENT",
+      "WEILUN",
+      "SOVEREIGN",
+      "ROBIN",
+      "WEI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589368222,
+  "_nanoseconds": 607000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SOVEREIGN": true,
+    "KENT": true
+   },
+   {
+    "KENT": true,
+    "WEILUN": false,
+    "SOVEREIGN": true
+   },
+   {
+    "SWEE": true,
+    "ROBIN": false,
+    "KENT": true,
+    "WEI": true
+   },
+   {
+    "SWEE": true,
+    "ROBIN": false,
+    "SOVEREIGN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "KENT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "WEILUN",
+    "assassin": false
+   },
+   {
+    "name": "SOVEREIGN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "ROBIN"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "WEI"
+   },
+   {
+    "name": "SWEE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1589367854,
+  "_nanoseconds": 905000000
+ },
+ "players": [
+  {
+   "name": "SWEE",
+   "uid": "JnvFx6wpH8T4LQorOxnu0KTuk1s1"
+  },
+  {
+   "uid": "1bJ81Hm1pVgWVQIR92GlUKEx6iH3",
+   "name": "KENT"
+  },
+  {
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22",
+   "name": "SOVEREIGN"
+  },
+  {
+   "name": "WEI",
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2"
+  },
+  {
+   "uid": "w6eoxVI6I5NrapBHh3I4tf1Igvr1",
+   "name": "WEILUN"
+  },
+  {
+   "name": "ROBIN",
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2"
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "MATT"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DUFF"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DZ"
+   },
+   {
+    "name": "KIKI",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "CAIT"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MASON"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "TROY"
+   }
+  ],
+  "votes": [
+   {
+    "DUFF": true,
+    "TROY": true
+   },
+   {
+    "DUFF": true,
+    "TROY": false,
+    "MASON": true
+   },
+   {
+    "MATT": true,
+    "DUFF": true,
+    "TROY": false
+   },
+   {
+    "KIKI": false,
+    "CAIT": true,
+    "TROY": false,
+    "DZ": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "name": "DUFF",
+   "uid": "cf0NdAUVOsRY3TyXvbXAP2OLBOg1"
+  },
+  {
+   "name": "TROY",
+   "uid": "rutPyCZbDQZPX8ZWn8kPGgxtjmf2"
+  },
+  {
+   "name": "MASON",
+   "uid": "EuyYu2wVdLXa8Byb8vnRzN0N6hG2"
+  },
+  {
+   "name": "MATT",
+   "uid": "G4qiF8XoqjTlRCth1KHaotGhjaG2"
+  },
+  {
+   "uid": "TbiqYVFCShg5hNPBlgTerXQ6HQF2",
+   "name": "CAIT"
+  },
+  {
+   "uid": "APWq0vl9VidXiFKvOJPf4WO0RCt2",
+   "name": "KIKI"
+  },
+  {
+   "uid": "zOXCCCtRgTZfaSB8JMuem6n9clz2",
+   "name": "DZ"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "DUFF",
+      "TROY"
+     ],
+     "proposer": "MATT",
+     "state": "APPROVED",
+     "votes": [
+      "MASON",
+      "TROY",
+      "MATT",
+      "DUFF",
+      "DZ",
+      "KIKI",
+      "CAIT"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "DUFF",
+    "TROY"
+   ]
+  },
+  {
+   "team": [
+    "DUFF",
+    "TROY",
+    "MASON"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DUFF",
+      "TROY",
+      "MASON"
+     ],
+     "proposer": "CAIT",
+     "votes": [
+      "MATT",
+      "DUFF",
+      "DZ",
+      "KIKI",
+      "CAIT",
+      "MASON",
+      "TROY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "DUFF",
+    "TROY",
+    "MATT"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "DUFF",
+      "KIKI",
+      "CAIT",
+      "MASON",
+      "TROY"
+     ],
+     "team": [
+      "DUFF",
+      "TROY",
+      "MATT"
+     ],
+     "proposer": "KIKI"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "state": "FAIL",
+   "team": [
+    "TROY",
+    "CAIT",
+    "KIKI",
+    "DZ"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DZ",
+      "KIKI",
+      "CAIT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MATT",
+      "DZ",
+      "KIKI",
+      "CAIT"
+     ],
+     "proposer": "DZ"
+    },
+    {
+     "proposer": "DUFF",
+     "team": [
+      "DUFF",
+      "TROY",
+      "DZ",
+      "CAIT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DUFF",
+      "MASON",
+      "TROY"
+     ]
+    },
+    {
+     "team": [
+      "TROY",
+      "CAIT",
+      "KIKI",
+      "DZ"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TROY",
+      "KIKI",
+      "CAIT",
+      "MASON"
+     ],
+     "proposer": "TROY"
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 4
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585368586,
+  "_nanoseconds": 710000000
+ },
+ "timeFinished": {
+  "_seconds": 1585368928,
+  "_nanoseconds": 815180000
+ }
+}

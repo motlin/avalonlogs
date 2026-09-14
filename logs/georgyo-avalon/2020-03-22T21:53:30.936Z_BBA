@@ -1,0 +1,279 @@
+{
+ "players": [
+  {
+   "uid": "XS5ktIO9CodAkKz5gtnDb5JxGCK2",
+   "name": "BRIAN"
+  },
+  {
+   "name": "STEVE",
+   "uid": "3nKOx7hRriT1kcsbCjKo2aRnpwI2"
+  },
+  {
+   "uid": "8X8DgZcy7XgkuTqMMdmoAGXgv5a2",
+   "name": "JOVI"
+  },
+  {
+   "uid": "iHBcs5gGOvOAP9X5Vpacbnil04b2",
+   "name": "NAS"
+  },
+  {
+   "uid": "OIaeC5D24ubB1wcPh7szOl7JPLg2",
+   "name": "DAVIDF"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1584914010,
+  "_nanoseconds": 936000000
+ },
+ "timeFinished": {
+  "_seconds": 1584914935,
+  "_nanoseconds": 410746000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "BRIAN": true,
+    "DAVIDF": true
+   },
+   {
+    "DAVIDF": true,
+    "BRIAN": false,
+    "STEVE": true
+   },
+   {
+    "STEVE": true,
+    "JOVI": true
+   },
+   {
+    "BRIAN": false,
+    "STEVE": true,
+    "JOVI": true
+   },
+   {
+    "JOVI": true,
+    "DAVIDF": true,
+    "STEVE": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "BRIAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "NAS"
+   },
+   {
+    "name": "DAVIDF",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "STEVE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JOVI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "DAVIDF",
+    "BRIAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAVIDF",
+      "BRIAN"
+     ],
+     "proposer": "DAVIDF",
+     "votes": [
+      "NAS",
+      "DAVIDF",
+      "STEVE",
+      "JOVI",
+      "BRIAN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [
+    "BRIAN",
+    "DAVIDF",
+    "STEVE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "BRIAN",
+      "DAVIDF",
+      "STEVE"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRIAN",
+     "votes": [
+      "BRIAN",
+      "NAS",
+      "DAVIDF",
+      "STEVE",
+      "JOVI"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "STEVE",
+     "votes": [
+      "STEVE",
+      "DAVIDF"
+     ],
+     "team": [
+      "STEVE",
+      "DAVIDF"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DAVIDF",
+      "STEVE",
+      "JOVI",
+      "NAS"
+     ],
+     "team": [
+      "JOVI",
+      "STEVE"
+     ],
+     "proposer": "JOVI"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "JOVI",
+    "STEVE"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "BRIAN",
+    "STEVE",
+    "JOVI"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "NAS",
+     "state": "REJECTED",
+     "votes": [
+      "NAS"
+     ],
+     "team": [
+      "BRIAN",
+      "DAVIDF",
+      "NAS"
+     ]
+    },
+    {
+     "votes": [
+      "DAVIDF",
+      "NAS"
+     ],
+     "team": [
+      "DAVIDF",
+      "JOVI",
+      "BRIAN"
+     ],
+     "proposer": "DAVIDF",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "BRIAN",
+     "state": "APPROVED",
+     "team": [
+      "BRIAN",
+      "STEVE",
+      "JOVI"
+     ],
+     "votes": [
+      "NAS",
+      "DAVIDF",
+      "STEVE",
+      "JOVI",
+      "BRIAN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "STEVE",
+      "JOVI"
+     ],
+     "state": "REJECTED",
+     "proposer": "STEVE",
+     "team": [
+      "STEVE",
+      "JOVI",
+      "DAVIDF"
+     ]
+    },
+    {
+     "votes": [
+      "STEVE",
+      "JOVI",
+      "DAVIDF"
+     ],
+     "proposer": "JOVI",
+     "state": "APPROVED",
+     "team": [
+      "STEVE",
+      "JOVI",
+      "DAVIDF"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "STEVE",
+    "JOVI",
+    "DAVIDF"
+   ]
+  }
+ ]
+}

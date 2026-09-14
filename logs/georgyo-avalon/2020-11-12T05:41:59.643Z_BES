@@ -1,0 +1,203 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "PAPA": true,
+    "POG": true
+   },
+   {
+    "PAPA": true,
+    "POG": true,
+    "DANIEL": true
+   },
+   {
+    "RYAN": false,
+    "DANIEL": true
+   },
+   {
+    "PAPA": true,
+    "POG": true,
+    "DANIEL": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "POG",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "PAPA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DANIEL"
+   },
+   {
+    "assassin": false,
+    "name": "RYAN",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "RAI"
+   }
+  ],
+  "assassinated": "PAPA",
+  "state": "EVIL_WIN"
+ },
+ "players": [
+  {
+   "name": "RYAN",
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2"
+  },
+  {
+   "name": "POG",
+   "uid": "54dWwNYNP3gqrSFES0lXE4c6tLl2"
+  },
+  {
+   "uid": "AFQYprSSIMdPQZYELrs3VywkUjX2",
+   "name": "RAI"
+  },
+  {
+   "uid": "dfEsarlLKJNzSeKM4sDydSasqzg1",
+   "name": "PAPA"
+  },
+  {
+   "uid": "M2ZgiJg2pHammObAqaElfGm34Zu1",
+   "name": "DANIEL"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1605159924,
+  "_nanoseconds": 403000000
+ },
+ "timeCreated": {
+  "_seconds": 1605159719,
+  "_nanoseconds": 643000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "PAPA",
+    "POG"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "PAPA",
+      "POG"
+     ],
+     "votes": [
+      "POG",
+      "DANIEL",
+      "RAI",
+      "PAPA",
+      "RYAN"
+     ],
+     "proposer": "PAPA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "POG",
+      "PAPA",
+      "DANIEL"
+     ],
+     "proposer": "DANIEL",
+     "state": "APPROVED",
+     "votes": [
+      "DANIEL",
+      "RAI",
+      "POG",
+      "PAPA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "POG",
+    "PAPA",
+    "DANIEL"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "RAI",
+      "PAPA",
+      "RYAN"
+     ],
+     "team": [
+      "RYAN",
+      "DANIEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYAN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "RYAN",
+    "DANIEL"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "POG",
+    "PAPA",
+    "DANIEL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "POG",
+      "DANIEL",
+      "PAPA"
+     ],
+     "team": [
+      "POG",
+      "PAPA",
+      "DANIEL"
+     ],
+     "proposer": "POG"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

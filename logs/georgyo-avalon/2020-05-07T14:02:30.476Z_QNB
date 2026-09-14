@@ -1,0 +1,256 @@
+{
+ "timeCreated": {
+  "_seconds": 1588860150,
+  "_nanoseconds": 476000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JOHN": true,
+    "BENJAMIN": true
+   },
+   {
+    "XD": true,
+    "BENJAMIN": false,
+    "JOHN": true
+   },
+   {
+    "XD": true,
+    "JOHN": true
+   },
+   {
+    "JOHN": true,
+    "JUNYOU": true,
+    "XD": false
+   },
+   {
+    "JUNYOU": true,
+    "BENJAMIN": false,
+    "JOHN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "XD"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JOHN"
+   },
+   {
+    "assassin": false,
+    "name": "JUNYOU",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "LIONEL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BENJAMIN",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1588861095,
+  "_nanoseconds": 423000000
+ },
+ "players": [
+  {
+   "uid": "QTJi9UrIw0gfPNIaNEUGDQOlkyl1",
+   "name": "JOHN"
+  },
+  {
+   "uid": "6SfkvMhu9mXdK2dgxlX2yYbevRP2",
+   "name": "JUNYOU"
+  },
+  {
+   "uid": "2gOzUxqJX2ddAlWPyt6Kl7XoilP2",
+   "name": "LIONEL"
+  },
+  {
+   "name": "BENJAMIN",
+   "uid": "Kolghv5KvWPwx3jx0JFZnv0SQN82"
+  },
+  {
+   "name": "XD",
+   "uid": "nQxyLxacTASEaLhCiLmiwaiVlRl1"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "XD",
+      "JOHN",
+      "JUNYOU",
+      "LIONEL",
+      "BENJAMIN"
+     ],
+     "proposer": "LIONEL",
+     "team": [
+      "JOHN",
+      "BENJAMIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "JOHN",
+    "BENJAMIN"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "BENJAMIN",
+      "JOHN",
+      "XD"
+     ],
+     "state": "APPROVED",
+     "proposer": "BENJAMIN",
+     "votes": [
+      "JOHN",
+      "LIONEL",
+      "BENJAMIN",
+      "XD"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "BENJAMIN",
+    "JOHN",
+    "XD"
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "XD",
+    "JOHN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "XD",
+      "JOHN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LIONEL",
+      "BENJAMIN",
+      "XD",
+      "JOHN",
+      "JUNYOU"
+     ],
+     "proposer": "XD"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "XD",
+    "JUNYOU",
+    "JOHN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "LIONEL",
+      "XD",
+      "JOHN"
+     ],
+     "team": [
+      "XD",
+      "JUNYOU",
+      "JOHN"
+     ],
+     "proposer": "JOHN",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JUNYOU",
+      "XD"
+     ],
+     "team": [
+      "LIONEL",
+      "JUNYOU",
+      "JOHN"
+     ],
+     "state": "REJECTED",
+     "proposer": "JUNYOU"
+    },
+    {
+     "votes": [
+      "LIONEL",
+      "BENJAMIN"
+     ],
+     "team": [
+      "JOHN",
+      "LIONEL",
+      "XD"
+     ],
+     "proposer": "LIONEL",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BENJAMIN",
+      "JOHN",
+      "JUNYOU"
+     ],
+     "proposer": "BENJAMIN",
+     "state": "APPROVED",
+     "votes": [
+      "JUNYOU",
+      "BENJAMIN",
+      "JOHN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "BENJAMIN",
+    "JOHN",
+    "JUNYOU"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

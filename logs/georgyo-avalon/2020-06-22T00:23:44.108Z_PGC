@@ -1,0 +1,418 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": "DAISY",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "GOODWIN": false,
+    "JAMES": true
+   },
+   {
+    "DAISY": true,
+    "TOBY": true,
+    "RAFMAN": false
+   },
+   {
+    "TOBY": true,
+    "KIMBERLY": true,
+    "DAISY": true
+   },
+   {
+    "DAISY": true,
+    "JAMES": true,
+    "TOBY": true,
+    "KIMBERLY": true
+   },
+   {
+    "JAMES": true,
+    "TOBY": true,
+    "KIMBERLY": true,
+    "DAISY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "TOBY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "RAFMAN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JAMES"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KIMBERLY"
+   },
+   {
+    "assassin": true,
+    "name": "ROCIO",
+    "role": "MORDRED"
+   },
+   {
+    "name": "DAISY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "GOODWIN",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1592785424,
+  "_nanoseconds": 108000000
+ },
+ "timeFinished": {
+  "_seconds": 1592787676,
+  "_nanoseconds": 357000000
+ },
+ "players": [
+  {
+   "name": "ROCIO",
+   "uid": "VbUDJdM4SNRVWhkElP1RFmbhRyo2"
+  },
+  {
+   "name": "RAFMAN",
+   "uid": "iEzhrQLgEOXe7L05QEtqhr2uXDW2"
+  },
+  {
+   "name": "TOBY",
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2"
+  },
+  {
+   "name": "JAMES",
+   "uid": "g21ycsypBoVjCAwdiYkPgudQhM23"
+  },
+  {
+   "uid": "dbm93qFqiIcexgBMYw3pyDdjwOF2",
+   "name": "DAISY"
+  },
+  {
+   "uid": "tVQNQuHDO8cihbBVOPRGTj0fm4I2",
+   "name": "KIMBERLY"
+  },
+  {
+   "name": "GOODWIN",
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2,
+   "team": [
+    "GOODWIN",
+    "JAMES"
+   ],
+   "proposals": [
+    {
+     "proposer": "GOODWIN",
+     "team": [
+      "KIMBERLY",
+      "GOODWIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "GOODWIN",
+      "KIMBERLY",
+      "DAISY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "RAFMAN",
+      "ROCIO"
+     ],
+     "proposer": "ROCIO",
+     "votes": [
+      "ROCIO",
+      "DAISY"
+     ]
+    },
+    {
+     "votes": [
+      "GOODWIN",
+      "RAFMAN"
+     ],
+     "proposer": "RAFMAN",
+     "state": "REJECTED",
+     "team": [
+      "RAFMAN",
+      "GOODWIN"
+     ]
+    },
+    {
+     "votes": [
+      "KIMBERLY",
+      "TOBY"
+     ],
+     "proposer": "TOBY",
+     "team": [
+      "TOBY",
+      "GOODWIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAFMAN",
+      "JAMES",
+      "ROCIO",
+      "DAISY",
+      "GOODWIN",
+      "TOBY"
+     ],
+     "team": [
+      "GOODWIN",
+      "JAMES"
+     ],
+     "proposer": "JAMES"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "DAISY",
+      "TOBY",
+      "KIMBERLY"
+     ],
+     "proposer": "DAISY",
+     "votes": [
+      "DAISY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KIMBERLY",
+      "RAFMAN",
+      "ROCIO"
+     ],
+     "votes": [
+      "KIMBERLY"
+     ],
+     "proposer": "KIMBERLY"
+    },
+    {
+     "team": [
+      "GOODWIN",
+      "TOBY",
+      "DAISY"
+     ],
+     "votes": [
+      "GOODWIN",
+      "TOBY"
+     ],
+     "proposer": "GOODWIN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ROCIO",
+      "KIMBERLY",
+      "DAISY"
+     ],
+     "proposer": "ROCIO",
+     "votes": [
+      "KIMBERLY",
+      "ROCIO",
+      "DAISY"
+     ]
+    },
+    {
+     "team": [
+      "RAFMAN",
+      "TOBY",
+      "DAISY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ROCIO",
+      "DAISY",
+      "GOODWIN",
+      "TOBY",
+      "RAFMAN",
+      "JAMES"
+     ],
+     "proposer": "RAFMAN"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "RAFMAN",
+    "TOBY",
+    "DAISY"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "TOBY",
+      "DAISY",
+      "KIMBERLY"
+     ],
+     "state": "REJECTED",
+     "proposer": "TOBY",
+     "votes": [
+      "KIMBERLY",
+      "DAISY"
+     ]
+    },
+    {
+     "team": [
+      "JAMES",
+      "DAISY",
+      "TOBY"
+     ],
+     "proposer": "JAMES",
+     "votes": [
+      "JAMES",
+      "DAISY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JAMES",
+      "KIMBERLY",
+      "DAISY"
+     ],
+     "team": [
+      "TOBY",
+      "DAISY",
+      "KIMBERLY"
+     ],
+     "state": "REJECTED",
+     "proposer": "DAISY"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KIMBERLY",
+     "team": [
+      "DAISY",
+      "KIMBERLY",
+      "TOBY"
+     ],
+     "votes": [
+      "TOBY",
+      "JAMES",
+      "KIMBERLY",
+      "ROCIO",
+      "DAISY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "DAISY",
+    "KIMBERLY",
+    "TOBY"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "KIMBERLY",
+    "TOBY",
+    "JAMES",
+    "DAISY"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "GOODWIN",
+     "votes": [
+      "RAFMAN",
+      "GOODWIN"
+     ],
+     "team": [
+      "GOODWIN",
+      "DAISY",
+      "RAFMAN",
+      "ROCIO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DAISY",
+      "TOBY",
+      "JAMES",
+      "KIMBERLY"
+     ],
+     "proposer": "ROCIO",
+     "team": [
+      "KIMBERLY",
+      "TOBY",
+      "JAMES",
+      "DAISY"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "TOBY",
+    "JAMES",
+    "DAISY",
+    "KIMBERLY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RAFMAN",
+     "team": [
+      "TOBY",
+      "JAMES",
+      "DAISY",
+      "KIMBERLY"
+     ],
+     "votes": [
+      "GOODWIN",
+      "TOBY",
+      "RAFMAN",
+      "JAMES",
+      "KIMBERLY",
+      "DAISY"
+     ]
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

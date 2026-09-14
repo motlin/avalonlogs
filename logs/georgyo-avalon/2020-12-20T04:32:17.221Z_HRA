@@ -1,0 +1,228 @@
+{
+ "players": [
+  {
+   "name": "CONNOR",
+   "uid": "1vkpZc0CupeI1Qigif8tWxMfZAf1"
+  },
+  {
+   "uid": "jqZOuUki3Jdn9c23JQE5Xw1ZMHP2",
+   "name": "BILLY"
+  },
+  {
+   "name": "MARY",
+   "uid": "2iLS2EXvRSZzYKSkNYpuvtRac533"
+  },
+  {
+   "name": "JEROME",
+   "uid": "FonMwIIh1mhgg57n39DtCibhDOx2"
+  },
+  {
+   "name": "JUJU",
+   "uid": "aqGo6oOqUFZW8Vxk89Zq6URuYzp1"
+  },
+  {
+   "name": "CHEEKS",
+   "uid": "kxwHsfQKRcXJdTfAxj54pEW3cxP2"
+  },
+  {
+   "name": "NATE",
+   "uid": "njE9lR462eaewWEceR23nr32CNx2"
+  },
+  {
+   "uid": "y7Z94s64vBegmWVCSdhJHwzOv5D3",
+   "name": "SARAH"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1608438737,
+  "_nanoseconds": 221000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CONNOR",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SARAH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BILLY"
+   },
+   {
+    "name": "MARY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "CHEEKS",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "JEROME",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JUJU"
+   },
+   {
+    "name": "NATE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "MARY": false,
+    "JEROME": true,
+    "BILLY": true
+   },
+   {
+    "NATE": true,
+    "JUJU": true,
+    "CONNOR": true,
+    "SARAH": false
+   },
+   {
+    "BILLY": true,
+    "JEROME": true,
+    "NATE": true,
+    "CHEEKS": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1608438988,
+  "_nanoseconds": 786000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NATE",
+      "CONNOR",
+      "SARAH",
+      "JEROME",
+      "BILLY",
+      "MARY",
+      "CHEEKS",
+      "JUJU"
+     ],
+     "proposer": "JEROME",
+     "team": [
+      "JEROME",
+      "MARY",
+      "BILLY"
+     ]
+    }
+   ],
+   "team": [
+    "JEROME",
+    "MARY",
+    "BILLY"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CHEEKS",
+      "SARAH",
+      "JUJU",
+      "BILLY",
+      "CONNOR",
+      "MARY",
+      "NATE"
+     ],
+     "team": [
+      "JUJU",
+      "CONNOR",
+      "SARAH",
+      "NATE"
+     ],
+     "proposer": "JUJU",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "JUJU",
+    "CONNOR",
+    "SARAH",
+    "NATE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "CHEEKS",
+      "BILLY",
+      "MARY",
+      "JEROME",
+      "SARAH",
+      "NATE",
+      "CONNOR",
+      "JUJU"
+     ],
+     "proposer": "CHEEKS",
+     "state": "APPROVED",
+     "team": [
+      "CHEEKS",
+      "JEROME",
+      "BILLY",
+      "NATE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CHEEKS",
+    "JEROME",
+    "BILLY",
+    "NATE"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 2,
+   "proposals": []
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ]
+}

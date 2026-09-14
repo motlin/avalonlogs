@@ -1,0 +1,231 @@
+{
+ "timeCreated": {
+  "_seconds": 1587100158,
+  "_nanoseconds": 331000000
+ },
+ "players": [
+  {
+   "name": "RANESH",
+   "uid": "Q0U7lxjXOCPPYZGFlIlbYVZKHjV2"
+  },
+  {
+   "name": "PROSCH",
+   "uid": "8gqPfpBkQRgEntc9oF3sQtP5TTw2"
+  },
+  {
+   "name": "BECHASSMOF",
+   "uid": "wJni2w0FWlfKtd6MJWJZ5WwcKEy1"
+  },
+  {
+   "name": "ALEX",
+   "uid": "vHFXBYfLb2emVAF2F5aLRDWPcuP2"
+  },
+  {
+   "uid": "hLGb6TyxxWYkhhJqB8gKXaDcTip1",
+   "name": "AARON"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "AARON",
+    "BECHASSMOF"
+   ],
+   "proposals": [
+    {
+     "proposer": "AARON",
+     "votes": [
+      "ALEX",
+      "AARON",
+      "RANESH",
+      "PROSCH",
+      "BECHASSMOF"
+     ],
+     "team": [
+      "AARON",
+      "BECHASSMOF"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "RANESH",
+    "AARON",
+    "BECHASSMOF"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "RANESH",
+      "AARON",
+      "BECHASSMOF"
+     ],
+     "votes": [
+      "ALEX",
+      "AARON",
+      "PROSCH",
+      "BECHASSMOF"
+     ],
+     "proposer": "RANESH",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "RANESH",
+    "BECHASSMOF"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ALEX",
+      "AARON",
+      "RANESH",
+      "PROSCH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RANESH",
+      "BECHASSMOF"
+     ],
+     "proposer": "PROSCH"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "BECHASSMOF",
+    "PROSCH",
+    "AARON"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BECHASSMOF",
+      "PROSCH",
+      "AARON"
+     ],
+     "proposer": "BECHASSMOF",
+     "state": "APPROVED",
+     "votes": [
+      "BECHASSMOF",
+      "ALEX",
+      "AARON",
+      "RANESH",
+      "PROSCH"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BECHASSMOF",
+    "ALEX",
+    "AARON"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "ALEX",
+     "votes": [
+      "ALEX",
+      "AARON",
+      "BECHASSMOF"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BECHASSMOF",
+      "ALEX",
+      "AARON"
+     ]
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587100724,
+  "_nanoseconds": 591215000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "AARON",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "BECHASSMOF",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ALEX",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "AARON",
+    "assassin": false
+   },
+   {
+    "name": "RANESH",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "name": "PROSCH",
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "AARON": true,
+    "BECHASSMOF": true
+   },
+   {
+    "BECHASSMOF": true,
+    "AARON": true,
+    "RANESH": true
+   },
+   {
+    "RANESH": false,
+    "BECHASSMOF": true
+   },
+   {
+    "PROSCH": false,
+    "BECHASSMOF": true,
+    "AARON": true
+   },
+   {
+    "BECHASSMOF": true,
+    "AARON": true,
+    "ALEX": true
+   }
+  ],
+  "message": "Three successful missions"
+ }
+}

@@ -1,0 +1,265 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "C531Ls81grSlaHLZya5TT9cyiMm2",
+   "name": "HP"
+  },
+  {
+   "name": "TOM",
+   "uid": "p77jTIdrcKeIntD6HbDl0ZDpiQx2"
+  },
+  {
+   "name": "EM",
+   "uid": "q7Hc5ZxprocXH4PMYLLm6N1NZWw1"
+  },
+  {
+   "name": "ANNA",
+   "uid": "KwkjBurWakhREmvyWDjRi3d2ti32"
+  },
+  {
+   "name": "ELEH",
+   "uid": "xmr2nY37CEN53IjutRHaQdP1BkY2"
+  },
+  {
+   "name": "ANGOOOSE",
+   "uid": "aHK4G29y7WPRTYwAKQXPhjvoRCr1"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "HP": true,
+    "TOM": false
+   },
+   {
+    "ANNA": true,
+    "ELEH": true,
+    "EM": true
+   },
+   {
+    "ANNA": true,
+    "ELEH": true,
+    "TOM": false,
+    "EM": true
+   },
+   {
+    "ELEH": true,
+    "EM": true,
+    "ANNA": true
+   },
+   {
+    "ANNA": true,
+    "EM": true,
+    "ELEH": true,
+    "HP": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANNA"
+   },
+   {
+    "assassin": false,
+    "name": "HP",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ELEH",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "TOM",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "ANGOOOSE",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "EM",
+    "assassin": false
+   }
+  ],
+  "assassinated": "HP"
+ },
+ "timeCreated": {
+  "_seconds": 1586899024,
+  "_nanoseconds": 831000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "HP",
+    "TOM"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ANGOOOSE",
+      "EM",
+      "ANNA",
+      "HP",
+      "TOM"
+     ],
+     "proposer": "TOM",
+     "team": [
+      "HP",
+      "TOM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "EM",
+      "ANNA",
+      "ELEH"
+     ],
+     "votes": [
+      "ELEH",
+      "TOM",
+      "ANGOOOSE",
+      "EM",
+      "ANNA"
+     ],
+     "proposer": "EM",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "EM",
+    "ANNA",
+    "ELEH"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "EM",
+    "ANNA",
+    "ELEH",
+    "TOM"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ANGOOOSE",
+      "EM",
+      "ANNA",
+      "ELEH"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANNA",
+     "team": [
+      "EM",
+      "ANNA",
+      "ELEH",
+      "TOM"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "EM",
+    "ANNA",
+    "ELEH"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "EM",
+      "ELEH",
+      "ANNA"
+     ],
+     "votes": [
+      "ELEH",
+      "EM",
+      "ANNA"
+     ],
+     "proposer": "ELEH",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ANNA",
+      "HP",
+      "ELEH",
+      "ANGOOOSE",
+      "EM"
+     ],
+     "proposer": "ANGOOOSE",
+     "state": "APPROVED",
+     "team": [
+      "EM",
+      "ANNA",
+      "ELEH"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "HP",
+    "EM",
+    "ANNA",
+    "ELEH"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "EM",
+      "ANNA",
+      "HP",
+      "ELEH"
+     ],
+     "team": [
+      "HP",
+      "EM",
+      "ANNA",
+      "ELEH"
+     ],
+     "state": "APPROVED",
+     "proposer": "HP"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586900213,
+  "_nanoseconds": 370959000
+ }
+}

@@ -1,0 +1,297 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "PAVI",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "PETER",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "GKOLEV",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "VORTIGEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "RADO",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ROSEN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "HRISTO"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "HRISTO": true,
+    "PAVI": true
+   },
+   {
+    "RADO": false,
+    "HRISTO": true,
+    "PAVI": false
+   },
+   {
+    "HRISTO": true,
+    "VORTIGEN": true,
+    "ROSEN": false
+   },
+   {
+    "GKOLEV": true,
+    "ROSEN": true,
+    "HRISTO": true,
+    "VORTIGEN": true
+   },
+   {
+    "HRISTO": true,
+    "PETER": true,
+    "GKOLEV": true,
+    "ROSEN": false
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "e0rhih8qntPYaSIoMM7Iy3vQwgo2",
+   "name": "GKOLEV"
+  },
+  {
+   "name": "HRISTO",
+   "uid": "kYEYMpBbnJapqjWpikK9HaU2G633"
+  },
+  {
+   "name": "PAVI",
+   "uid": "0ZujOZQKomNa5SzR586jybWCuxk2"
+  },
+  {
+   "uid": "4hIT4X2PpEhyzfnriL9eDsRmol83",
+   "name": "PETER"
+  },
+  {
+   "name": "RADO",
+   "uid": "Yd5UcLTMSuZm7fkp9vNa2ob6iek2"
+  },
+  {
+   "name": "ROSEN",
+   "uid": "39FfnO2UBGWjZ2gNYYYVCkkZ4sz1"
+  },
+  {
+   "name": "VORTIGEN",
+   "uid": "KLGRZnI4KLguDdpgK82zcaymxs93"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585944597,
+  "_nanoseconds": 617808000
+ },
+ "timeCreated": {
+  "_seconds": 1585944041,
+  "_nanoseconds": 130000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "HRISTO",
+      "PAVI"
+     ],
+     "votes": [
+      "PAVI",
+      "PETER",
+      "VORTIGEN",
+      "RADO",
+      "HRISTO"
+     ],
+     "proposer": "HRISTO",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "HRISTO",
+    "PAVI"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "PAVI",
+      "PETER",
+      "RADO"
+     ],
+     "proposer": "PAVI",
+     "state": "REJECTED",
+     "votes": [
+      "PAVI",
+      "PETER",
+      "RADO"
+     ]
+    },
+    {
+     "votes": [
+      "PAVI",
+      "PETER",
+      "GKOLEV"
+     ],
+     "team": [
+      "PETER",
+      "GKOLEV",
+      "PAVI"
+     ],
+     "proposer": "PETER",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "RADO",
+     "team": [
+      "HRISTO",
+      "PAVI",
+      "RADO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "HRISTO",
+      "PAVI",
+      "GKOLEV",
+      "RADO"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "HRISTO",
+    "PAVI",
+    "RADO"
+   ],
+   "failsRequired": 1,
+   "numFails": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ROSEN",
+      "VORTIGEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ROSEN",
+     "team": [
+      "HRISTO",
+      "ROSEN",
+      "VORTIGEN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RADO",
+      "ROSEN",
+      "HRISTO",
+      "VORTIGEN"
+     ],
+     "team": [
+      "VORTIGEN",
+      "HRISTO",
+      "ROSEN"
+     ],
+     "proposer": "VORTIGEN"
+    }
+   ],
+   "team": [
+    "VORTIGEN",
+    "HRISTO",
+    "ROSEN"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "HRISTO",
+      "GKOLEV",
+      "ROSEN",
+      "VORTIGEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GKOLEV",
+      "VORTIGEN",
+      "ROSEN",
+      "HRISTO"
+     ],
+     "proposer": "GKOLEV"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "HRISTO",
+    "GKOLEV",
+    "ROSEN",
+    "VORTIGEN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "RADO",
+      "ROSEN",
+      "HRISTO",
+      "PAVI",
+      "PETER"
+     ],
+     "team": [
+      "GKOLEV",
+      "HRISTO",
+      "PETER",
+      "ROSEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "HRISTO"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "GKOLEV",
+    "HRISTO",
+    "PETER",
+    "ROSEN"
+   ],
+   "state": "FAIL"
+  }
+ ]
+}

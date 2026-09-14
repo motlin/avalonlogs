@@ -1,0 +1,309 @@
+{
+ "players": [
+  {
+   "name": "JOSH",
+   "uid": "zrhBlBcoBcWOKkbTjGshr7dN3p43"
+  },
+  {
+   "name": "ATRA",
+   "uid": "baVuOnVjAJdsPbOsFs8lkENOr5B3"
+  },
+  {
+   "name": "JUICE",
+   "uid": "s1z3cWcBbsfH4X9lbYNfh2bs9qY2"
+  },
+  {
+   "uid": "WNQxEHjNsKPNzwUGGE5fftWyhvX2",
+   "name": "AAVA"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "2ZSW7aUnrEOsoCFgVlAz30dATdv1"
+  },
+  {
+   "name": "MANDY",
+   "uid": "XS2OU8qr9UbzozsAcAl6B4jqJ103"
+  },
+  {
+   "name": "SMM",
+   "uid": "nhNoZaalLqYwJmkwh1tnFLRafVJ3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587002280,
+  "_nanoseconds": 324000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "JUICE": true,
+    "SMM": true
+   },
+   {
+    "JUICE": true,
+    "SMM": true,
+    "JOSH": true
+   },
+   {
+    "DANIEL": false,
+    "ATRA": true,
+    "MANDY": false
+   },
+   {
+    "SMM": false,
+    "JUICE": true,
+    "DANIEL": false,
+    "JOSH": true
+   },
+   {
+    "AAVA": true,
+    "JOSH": true,
+    "SMM": false,
+    "JUICE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JOSH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JUICE"
+   },
+   {
+    "assassin": false,
+    "name": "AAVA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "MANDY",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "SMM",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ATRA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "DANIEL"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587003915,
+  "_nanoseconds": 895919000
+ },
+ "missions": [
+  {
+   "team": [
+    "JUICE",
+    "SMM"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "JUICE",
+      "SMM"
+     ],
+     "votes": [
+      "ATRA",
+      "DANIEL",
+      "JOSH",
+      "JUICE",
+      "AAVA",
+      "MANDY",
+      "SMM"
+     ],
+     "proposer": "SMM",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JOSH",
+     "votes": [
+      "SMM",
+      "ATRA",
+      "DANIEL",
+      "JOSH",
+      "JUICE",
+      "AAVA",
+      "MANDY"
+     ],
+     "team": [
+      "JUICE",
+      "SMM",
+      "JOSH"
+     ]
+    }
+   ],
+   "team": [
+    "JUICE",
+    "SMM",
+    "JOSH"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "ATRA",
+    "MANDY",
+    "DANIEL"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ATRA",
+      "MANDY",
+      "DANIEL"
+     ],
+     "proposer": "ATRA",
+     "votes": [
+      "JUICE",
+      "MANDY",
+      "SMM",
+      "ATRA"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "JUICE",
+    "JOSH",
+    "SMM",
+    "DANIEL"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "DANIEL",
+      "JOSH",
+      "JUICE",
+      "AAVA",
+      "MANDY",
+      "SMM"
+     ],
+     "team": [
+      "JUICE",
+      "JOSH",
+      "SMM",
+      "DANIEL"
+     ],
+     "proposer": "JUICE",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "AAVA",
+    "JOSH",
+    "SMM",
+    "JUICE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JUICE",
+      "AAVA",
+      "ATRA"
+     ],
+     "state": "REJECTED",
+     "proposer": "AAVA",
+     "team": [
+      "AAVA",
+      "JOSH",
+      "JUICE",
+      "ATRA"
+     ]
+    },
+    {
+     "votes": [
+      "MANDY",
+      "DANIEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "DANIEL",
+     "team": [
+      "DANIEL",
+      "SMM",
+      "JUICE",
+      "JOSH"
+     ]
+    },
+    {
+     "proposer": "MANDY",
+     "state": "REJECTED",
+     "team": [
+      "JOSH",
+      "AAVA",
+      "ATRA",
+      "MANDY"
+     ],
+     "votes": [
+      "DANIEL",
+      "MANDY",
+      "SMM"
+     ]
+    },
+    {
+     "team": [
+      "AAVA",
+      "JOSH",
+      "SMM",
+      "JUICE"
+     ],
+     "state": "APPROVED",
+     "proposer": "SMM",
+     "votes": [
+      "DANIEL",
+      "JUICE",
+      "MANDY",
+      "SMM"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "timeFinished": {
+  "_seconds": 1596068386,
+  "_nanoseconds": 590000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "tQpgKDFOxBgz3AqqpGqocau1S0a2",
+   "name": "KELVIN"
+  },
+  {
+   "name": "SAM",
+   "uid": "PyFnZWgR6pYN1SgJ1k5nRikqbIq2"
+  },
+  {
+   "name": "NICHOLAS",
+   "uid": "65JVZ1IEnCU2lDZAad1taZnkbFb2"
+  },
+  {
+   "uid": "wC6JSv620SYj4va4EDqrncEH2Jb2",
+   "name": "VAL"
+  },
+  {
+   "uid": "1jHHwUGEfQTY3fFz6iZTZXiiXI33",
+   "name": "EDISON"
+  },
+  {
+   "name": "ERIC",
+   "uid": "4I4pfoqbS0ZrY0GXWbhVQ9lA49y2"
+  },
+  {
+   "uid": "O78yb4V9GnNff9YuBn8IRotwtf02",
+   "name": "THOMSON"
+  },
+  {
+   "uid": "7t2CYSdOQNW7QKmOtgCvVjUv32K3",
+   "name": "JEREMY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596067755,
+  "_nanoseconds": 543000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "EDISON": true,
+    "ERIC": true,
+    "VAL": true
+   },
+   {
+    "EDISON": true,
+    "THOMSON": false,
+    "VAL": true,
+    "ERIC": true
+   },
+   {
+    "JEREMY": true,
+    "ERIC": true,
+    "EDISON": true,
+    "THOMSON": false
+   },
+   {
+    "ERIC": true,
+    "EDISON": true,
+    "KELVIN": true,
+    "VAL": true,
+    "THOMSON": true
+   },
+   {
+    "KELVIN": true,
+    "THOMSON": false,
+    "SAM": false,
+    "ERIC": true,
+    "EDISON": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KELVIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "THOMSON",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "ERIC",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "JEREMY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SAM",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "EDISON",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NICHOLAS",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "VAL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "ERIC",
+    "EDISON",
+    "VAL"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "EDISON",
+      "VAL",
+      "ERIC",
+      "NICHOLAS",
+      "KELVIN",
+      "THOMSON",
+      "JEREMY"
+     ],
+     "proposer": "ERIC",
+     "team": [
+      "ERIC",
+      "EDISON",
+      "VAL"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "THOMSON",
+    "ERIC",
+    "EDISON",
+    "VAL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ERIC",
+      "EDISON",
+      "THOMSON",
+      "VAL",
+      "KELVIN",
+      "NICHOLAS",
+      "JEREMY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "THOMSON",
+      "ERIC",
+      "EDISON",
+      "VAL"
+     ],
+     "proposer": "THOMSON"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "VAL",
+      "THOMSON",
+      "JEREMY",
+      "ERIC",
+      "EDISON"
+     ],
+     "team": [
+      "JEREMY",
+      "ERIC",
+      "EDISON",
+      "THOMSON"
+     ],
+     "state": "APPROVED",
+     "proposer": "JEREMY"
+    }
+   ],
+   "team": [
+    "JEREMY",
+    "ERIC",
+    "EDISON",
+    "THOMSON"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 2,
+   "team": [
+    "KELVIN",
+    "VAL",
+    "EDISON",
+    "ERIC",
+    "THOMSON"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "KELVIN",
+     "team": [
+      "KELVIN",
+      "VAL",
+      "EDISON",
+      "ERIC",
+      "THOMSON"
+     ],
+     "votes": [
+      "VAL",
+      "EDISON",
+      "THOMSON",
+      "NICHOLAS",
+      "KELVIN",
+      "ERIC",
+      "JEREMY"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "KELVIN",
+      "EDISON",
+      "ERIC",
+      "THOMSON",
+      "SAM"
+     ],
+     "proposer": "SAM",
+     "votes": [
+      "THOMSON",
+      "VAL",
+      "KELVIN",
+      "JEREMY",
+      "SAM",
+      "ERIC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 5,
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "KELVIN",
+    "EDISON",
+    "ERIC",
+    "THOMSON",
+    "SAM"
+   ]
+  }
+ ]
+}

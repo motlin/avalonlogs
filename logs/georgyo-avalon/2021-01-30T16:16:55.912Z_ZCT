@@ -1,0 +1,231 @@
+{
+ "timeCreated": {
+  "_seconds": 1612023415,
+  "_nanoseconds": 912000000
+ },
+ "players": [
+  {
+   "uid": "50aUkbSfd0XgiZCQ5pxa0nEIuKz2",
+   "name": "GENIUS"
+  },
+  {
+   "name": "VINCENT",
+   "uid": "iaDlIUCSayMIDBcQbrTbAfwjkSj2"
+  },
+  {
+   "name": "FROGGIE",
+   "uid": "sEsYhmIrsrhIgR2KHM9hmeFOLaI2"
+  },
+  {
+   "name": "CURTISSS",
+   "uid": "w1KIfZQMjrQc5sjIuIa74tCAET03"
+  },
+  {
+   "uid": "hcoByAZjLLTYSIgpxJllhzWP9Cr2",
+   "name": "PEPE"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "GENIUS",
+    "VINCENT"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "GENIUS",
+      "VINCENT"
+     ],
+     "proposer": "GENIUS",
+     "votes": [
+      "GENIUS",
+      "PEPE",
+      "VINCENT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "VINCENT",
+    "PEPE",
+    "GENIUS"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "VINCENT",
+      "PEPE",
+      "GENIUS"
+     ],
+     "votes": [
+      "FROGGIE",
+      "PEPE",
+      "VINCENT",
+      "CURTISSS",
+      "GENIUS"
+     ],
+     "proposer": "VINCENT"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "FROGGIE",
+      "CURTISSS"
+     ],
+     "proposer": "FROGGIE",
+     "state": "APPROVED",
+     "votes": [
+      "GENIUS",
+      "FROGGIE",
+      "VINCENT",
+      "PEPE",
+      "CURTISSS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "FROGGIE",
+    "CURTISSS"
+   ]
+  },
+  {
+   "team": [
+    "GENIUS",
+    "VINCENT",
+    "FROGGIE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CURTISSS",
+     "votes": [
+      "VINCENT",
+      "FROGGIE",
+      "GENIUS",
+      "PEPE",
+      "CURTISSS"
+     ],
+     "team": [
+      "GENIUS",
+      "VINCENT",
+      "FROGGIE"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CURTISSS",
+      "GENIUS",
+      "PEPE"
+     ],
+     "votes": [
+      "PEPE",
+      "CURTISSS",
+      "GENIUS"
+     ],
+     "proposer": "PEPE"
+    }
+   ],
+   "team": [
+    "CURTISSS",
+    "GENIUS",
+    "PEPE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "VINCENT": true,
+    "GENIUS": true
+   },
+   {
+    "PEPE": true,
+    "VINCENT": false,
+    "GENIUS": true
+   },
+   {
+    "FROGGIE": true,
+    "CURTISSS": true
+   },
+   {
+    "GENIUS": true,
+    "FROGGIE": false,
+    "VINCENT": false
+   },
+   {
+    "GENIUS": true,
+    "CURTISSS": true,
+    "PEPE": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "PEPE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CURTISSS",
+    "assassin": false
+   },
+   {
+    "name": "FROGGIE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "VINCENT",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GENIUS",
+    "assassin": false
+   }
+  ],
+  "assassinated": "PEPE"
+ },
+ "timeFinished": {
+  "_seconds": 1612024110,
+  "_nanoseconds": 431000000
+ }
+}

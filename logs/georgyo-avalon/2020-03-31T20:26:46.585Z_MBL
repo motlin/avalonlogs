@@ -1,0 +1,226 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MACKPHONE"
+   },
+   {
+    "name": "MATT",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "TEST"
+   },
+   {
+    "name": "IPAD",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "COMP",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "COMP": true,
+    "MACKPHONE": true
+   },
+   {
+    "MACKPHONE": true,
+    "COMP": true,
+    "TEST": true
+   },
+   {
+    "COMP": true,
+    "MATT": false
+   }
+  ],
+  "message": "Five team proposals in a row rejected"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "MACKPHONE",
+    "COMP"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "TEST",
+      "IPAD",
+      "COMP",
+      "MACKPHONE"
+     ],
+     "team": [
+      "MACKPHONE",
+      "COMP"
+     ],
+     "state": "APPROVED",
+     "proposer": "IPAD"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MACKPHONE",
+      "MATT",
+      "IPAD",
+      "COMP"
+     ],
+     "proposer": "MACKPHONE",
+     "state": "APPROVED",
+     "team": [
+      "MACKPHONE",
+      "COMP",
+      "TEST"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MACKPHONE",
+    "COMP",
+    "TEST"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "MATT",
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "TEST",
+      "IPAD",
+      "COMP"
+     ],
+     "team": [
+      "MATT",
+      "COMP"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "MATT",
+    "COMP"
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [
+    {
+     "team": [
+      "TEST",
+      "COMP",
+      "MATT"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "COMP"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "TEST",
+      "COMP",
+      "MATT"
+     ],
+     "votes": [],
+     "proposer": "TEST"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "TEST",
+      "COMP",
+      "MATT"
+     ],
+     "proposer": "IPAD",
+     "votes": []
+    },
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "MATT",
+      "COMP",
+      "IPAD"
+     ],
+     "proposer": "MACKPHONE"
+    },
+    {
+     "team": [
+      "TEST",
+      "COMP",
+      "MATT"
+     ],
+     "proposer": "MATT",
+     "votes": [],
+     "state": "REJECTED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585686406,
+  "_nanoseconds": 585000000
+ },
+ "timeFinished": {
+  "_seconds": 1585686980,
+  "_nanoseconds": 138652000
+ },
+ "players": [
+  {
+   "name": "IPAD",
+   "uid": "roDM5OSm2rhqoclfwSOtvlAUXvA2"
+  },
+  {
+   "name": "MACKPHONE",
+   "uid": "Vxa5zYxCMnPvpGP4NICp15shhka2"
+  },
+  {
+   "name": "MATT",
+   "uid": "YzgYs3I1yXQwdMldejBYCLIGwCK2"
+  },
+  {
+   "uid": "OlVhlHjLRJf0dFqvcaih9Wd41Mw2",
+   "name": "COMP"
+  },
+  {
+   "name": "TEST",
+   "uid": "Q1pkN2JcBaU5fzTgDCfrUlTkGef1"
+  }
+ ]
+}

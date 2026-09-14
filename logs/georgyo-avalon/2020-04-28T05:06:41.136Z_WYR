@@ -1,0 +1,230 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "POPOVICH",
+     "state": "APPROVED",
+     "team": [
+      "POPOVICH",
+      "ODENIGBO"
+     ],
+     "votes": [
+      "POPOVICH",
+      "LUA",
+      "YENACHI",
+      "KOA",
+      "ODENIGBO"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "POPOVICH",
+    "ODENIGBO"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "LUA",
+     "votes": [
+      "KOA",
+      "ODENIGBO",
+      "LUA",
+      "POPOVICH",
+      "YENACHI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LUA",
+      "ODENIGBO",
+      "POPOVICH"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "LUA",
+    "ODENIGBO",
+    "POPOVICH"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ODENIGBO",
+    "LUA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ODENIGBO",
+      "LUA"
+     ],
+     "votes": [
+      "YENACHI",
+      "ODENIGBO",
+      "POPOVICH"
+     ],
+     "proposer": "ODENIGBO"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ODENIGBO",
+    "KOA",
+    "POPOVICH"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ODENIGBO",
+      "KOA",
+      "POPOVICH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "YENACHI",
+      "KOA",
+      "ODENIGBO",
+      "LUA"
+     ],
+     "proposer": "KOA"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "YENACHI",
+     "votes": [
+      "LUA",
+      "POPOVICH",
+      "YENACHI"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YENACHI",
+      "LUA",
+      "ODENIGBO"
+     ]
+    }
+   ],
+   "team": [
+    "YENACHI",
+    "LUA",
+    "ODENIGBO"
+   ],
+   "numFails": 2,
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "uid": "zXNlP6Fj4dVnLAG0wVEbyjdjWYB3",
+   "name": "ODENIGBO"
+  },
+  {
+   "name": "KOA",
+   "uid": "9DxmuS4Tr7ZdXaJ5qG4IyvDukG92"
+  },
+  {
+   "uid": "PYMvAzM7cvOhem8Q4I7jHFsVyy43",
+   "name": "YENACHI"
+  },
+  {
+   "name": "POPOVICH",
+   "uid": "NrabLulNZQVjK09MKfcwIkM9qp03"
+  },
+  {
+   "uid": "Dcwhr15UP1bnqB7sxQc7e6OLS8T2",
+   "name": "LUA"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "ODENIGBO": true,
+    "POPOVICH": true
+   },
+   {
+    "POPOVICH": true,
+    "ODENIGBO": true,
+    "LUA": false
+   },
+   {
+    "LUA": false,
+    "ODENIGBO": true
+   },
+   {
+    "KOA": true,
+    "POPOVICH": true,
+    "ODENIGBO": true
+   },
+   {
+    "ODENIGBO": true,
+    "YENACHI": false,
+    "LUA": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "LUA",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "POPOVICH",
+    "role": "MERLIN"
+   },
+   {
+    "name": "YENACHI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KOA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ODENIGBO",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1588050675,
+  "_nanoseconds": 773000000
+ },
+ "timeCreated": {
+  "_seconds": 1588050401,
+  "_nanoseconds": 136000000
+ }
+}

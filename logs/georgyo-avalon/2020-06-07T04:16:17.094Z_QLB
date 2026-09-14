@@ -1,0 +1,274 @@
+{
+ "timeFinished": {
+  "_seconds": 1591503934,
+  "_nanoseconds": 828000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591503377,
+  "_nanoseconds": 94000000
+ },
+ "players": [
+  {
+   "name": "DADI",
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2"
+  },
+  {
+   "name": "RUIRUI",
+   "uid": "4rIubwDrfKeZ3d7XBWhRmJkylLc2"
+  },
+  {
+   "name": "ISHYISH",
+   "uid": "Vlxc61ZA8vRZCXGEdE3Nr5KU0y62"
+  },
+  {
+   "uid": "jqC6DNw9QPehrIBORPxDYw1IfwH2",
+   "name": "MERLIM"
+  },
+  {
+   "name": "TANHUNG",
+   "uid": "YFVN16lNL0SgIGALnBsczNv2RgD2"
+  },
+  {
+   "name": "SHREYAS",
+   "uid": "A7YjAEzvbWchUA0mXahjFNni5Z33"
+  },
+  {
+   "name": "SOMU",
+   "uid": "wpe6Yo39PNheuIqhhuAlarR6tGe2"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "ISHYISH": true,
+    "TANHUNG": true
+   },
+   {
+    "SOMU": false,
+    "MERLIM": true,
+    "DADI": true
+   },
+   {
+    "RUIRUI": true,
+    "SHREYAS": true,
+    "ISHYISH": true
+   },
+   {
+    "SHREYAS": true,
+    "TANHUNG": false,
+    "ISHYISH": true,
+    "SOMU": false
+   },
+   {
+    "SHREYAS": true,
+    "DADI": true,
+    "RUIRUI": true,
+    "ISHYISH": true
+   }
+  ],
+  "assassinated": "ISHYISH",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MERLIM"
+   },
+   {
+    "name": "TANHUNG",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "ISHYISH",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "SOMU"
+   },
+   {
+    "assassin": false,
+    "name": "SHREYAS",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "DADI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RUIRUI"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "ISHYISH",
+    "TANHUNG"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ISHYISH",
+      "TANHUNG"
+     ],
+     "votes": [
+      "MERLIM",
+      "TANHUNG",
+      "ISHYISH",
+      "SOMU",
+      "RUIRUI"
+     ],
+     "state": "APPROVED",
+     "proposer": "ISHYISH"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "MERLIM",
+    "DADI",
+    "SOMU"
+   ],
+   "proposals": [
+    {
+     "proposer": "MERLIM",
+     "team": [
+      "MERLIM",
+      "DADI",
+      "SOMU"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SOMU",
+      "SHREYAS",
+      "DADI",
+      "RUIRUI",
+      "MERLIM",
+      "TANHUNG"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TANHUNG",
+      "ISHYISH",
+      "SHREYAS"
+     ],
+     "votes": [
+      "TANHUNG",
+      "SOMU",
+      "DADI"
+     ],
+     "state": "REJECTED",
+     "proposer": "TANHUNG"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SHREYAS",
+      "RUIRUI",
+      "MERLIM",
+      "ISHYISH"
+     ],
+     "team": [
+      "SHREYAS",
+      "ISHYISH",
+      "RUIRUI"
+     ],
+     "proposer": "SHREYAS"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "SHREYAS",
+    "ISHYISH",
+    "RUIRUI"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "DADI",
+      "MERLIM",
+      "TANHUNG",
+      "SOMU"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SOMU",
+      "SHREYAS",
+      "ISHYISH",
+      "TANHUNG"
+     ],
+     "proposer": "SOMU"
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "SOMU",
+    "SHREYAS",
+    "ISHYISH",
+    "TANHUNG"
+   ],
+   "state": "FAIL",
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "DADI",
+    "RUIRUI",
+    "ISHYISH",
+    "SHREYAS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ISHYISH",
+      "SHREYAS",
+      "DADI",
+      "RUIRUI"
+     ],
+     "proposer": "DADI",
+     "state": "APPROVED",
+     "team": [
+      "DADI",
+      "RUIRUI",
+      "ISHYISH",
+      "SHREYAS"
+     ]
+    }
+   ]
+  }
+ ]
+}

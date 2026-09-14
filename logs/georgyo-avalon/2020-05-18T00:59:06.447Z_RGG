@@ -1,0 +1,268 @@
+{
+ "timeFinished": {
+  "_seconds": 1589764072,
+  "_nanoseconds": 567000000
+ },
+ "timeCreated": {
+  "_seconds": 1589763546,
+  "_nanoseconds": 447000000
+ },
+ "players": [
+  {
+   "name": "ZACK",
+   "uid": "tP0qTccCQUb1yBHRpIr0D16ZqEh2"
+  },
+  {
+   "name": "JACK",
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2"
+  },
+  {
+   "name": "MAY",
+   "uid": "RwWZNKOgKrUOvfWnPrUIb0UrG4Y2"
+  },
+  {
+   "name": "PATRICK",
+   "uid": "IYJsCh44gxO4DSnfNlnO6Quz4pu2"
+  },
+  {
+   "name": "RYAN",
+   "uid": "gAiRUjpSMlbOzGpCzUNPHhcdscG3"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "EHYfAoNoRMfUQVovgiSACfXd6nq2"
+  },
+  {
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1",
+   "name": "WILL"
+  },
+  {
+   "uid": "rlYsN9yWvjY50whmk7OijNcUXHy2",
+   "name": "SLIMMYJIMM"
+  },
+  {
+   "uid": "GTTQMzoE5Ca9dxaUVFrw9zdHj042",
+   "name": "COLTON"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SLIMMYJIMM": true,
+    "PATRICK": false,
+    "WILL": true
+   },
+   {
+    "RYAN": true,
+    "ZACK": true,
+    "MAY": true,
+    "JACK": true
+   },
+   {
+    "RYAN": true,
+    "MAY": true,
+    "JACK": true,
+    "ZACK": true
+   },
+   {
+    "ZACK": true,
+    "JACK": true,
+    "RYAN": true,
+    "BRIAN": true,
+    "MAY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "RYAN",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "ZACK",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "WILL",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "PATRICK"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JACK"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "COLTON",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "BRIAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MAY"
+   },
+   {
+    "role": "MORDRED",
+    "name": "SLIMMYJIMM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "RYAN",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "PATRICK",
+    "WILL",
+    "SLIMMYJIMM"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "PATRICK",
+      "WILL",
+      "SLIMMYJIMM"
+     ],
+     "proposer": "PATRICK",
+     "state": "APPROVED",
+     "votes": [
+      "ZACK",
+      "WILL",
+      "PATRICK",
+      "JACK",
+      "COLTON",
+      "BRIAN",
+      "MAY",
+      "SLIMMYJIMM",
+      "RYAN"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "ZACK",
+    "JACK",
+    "MAY",
+    "RYAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ZACK",
+      "JACK",
+      "MAY",
+      "RYAN"
+     ],
+     "proposer": "RYAN",
+     "state": "APPROVED",
+     "votes": [
+      "MAY",
+      "SLIMMYJIMM",
+      "RYAN",
+      "ZACK",
+      "WILL",
+      "COLTON"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JACK",
+      "ZACK",
+      "MAY",
+      "RYAN"
+     ],
+     "votes": [
+      "ZACK",
+      "WILL",
+      "PATRICK",
+      "COLTON",
+      "MAY"
+     ],
+     "proposer": "BRIAN"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JACK",
+    "ZACK",
+    "MAY",
+    "RYAN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "ZACK",
+      "JACK",
+      "MAY",
+      "RYAN",
+      "BRIAN"
+     ],
+     "proposer": "WILL",
+     "votes": [
+      "ZACK",
+      "WILL",
+      "PATRICK",
+      "BRIAN",
+      "MAY",
+      "RYAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ZACK",
+    "JACK",
+    "MAY",
+    "RYAN",
+    "BRIAN"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING",
+   "proposals": []
+  }
+ ]
+}

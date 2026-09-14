@@ -1,0 +1,239 @@
+{
+ "players": [
+  {
+   "name": "SARAH",
+   "uid": "y7Z94s64vBegmWVCSdhJHwzOv5D3"
+  },
+  {
+   "name": "LILVICKY",
+   "uid": "RbBznkdQa9M9U8Q7iQZORSR7yfP2"
+  },
+  {
+   "name": "HOTPOT",
+   "uid": "1vkpZc0CupeI1Qigif8tWxMfZAf1"
+  },
+  {
+   "uid": "RyFq6c9zaVboszhoIbHvqy1cYmC2",
+   "name": "YEEHAW"
+  },
+  {
+   "name": "DAVID",
+   "uid": "oXYMWdGfqTUdh0obOlr1jDy4myE2"
+  },
+  {
+   "name": "MARY",
+   "uid": "2iLS2EXvRSZzYKSkNYpuvtRac533"
+  },
+  {
+   "uid": "jqZOuUki3Jdn9c23JQE5Xw1ZMHP2",
+   "name": "BILLY"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BILLY",
+      "LILVICKY"
+     ],
+     "votes": [
+      "BILLY",
+      "SARAH",
+      "MARY",
+      "HOTPOT",
+      "YEEHAW",
+      "DAVID",
+      "LILVICKY"
+     ],
+     "proposer": "BILLY"
+    }
+   ],
+   "team": [
+    "BILLY",
+    "LILVICKY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "SARAH",
+    "BILLY",
+    "LILVICKY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MARY",
+      "DAVID",
+      "HOTPOT",
+      "SARAH",
+      "YEEHAW",
+      "BILLY",
+      "LILVICKY"
+     ],
+     "team": [
+      "SARAH",
+      "BILLY",
+      "LILVICKY"
+     ],
+     "proposer": "SARAH",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "LILVICKY",
+    "BILLY",
+    "HOTPOT"
+   ],
+   "proposals": [
+    {
+     "proposer": "LILVICKY",
+     "team": [
+      "LILVICKY",
+      "BILLY",
+      "HOTPOT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "YEEHAW",
+      "HOTPOT",
+      "MARY",
+      "DAVID",
+      "SARAH",
+      "BILLY",
+      "LILVICKY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "HOTPOT",
+     "team": [
+      "HOTPOT",
+      "LILVICKY",
+      "BILLY",
+      "DAVID"
+     ],
+     "votes": [
+      "DAVID",
+      "YEEHAW",
+      "HOTPOT",
+      "LILVICKY",
+      "BILLY",
+      "MARY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HOTPOT",
+    "LILVICKY",
+    "BILLY",
+    "DAVID"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609211886,
+  "_nanoseconds": 252000000
+ },
+ "outcome": {
+  "assassinated": "HOTPOT",
+  "votes": [
+   {
+    "BILLY": true,
+    "LILVICKY": true
+   },
+   {
+    "LILVICKY": true,
+    "SARAH": false,
+    "BILLY": true
+   },
+   {
+    "BILLY": true,
+    "HOTPOT": true,
+    "LILVICKY": true
+   },
+   {
+    "HOTPOT": true,
+    "BILLY": true,
+    "LILVICKY": true,
+    "DAVID": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "MARY"
+   },
+   {
+    "name": "LILVICKY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "YEEHAW"
+   },
+   {
+    "assassin": false,
+    "name": "DAVID",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "HOTPOT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BILLY",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "SARAH",
+    "assassin": false
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609211573,
+  "_nanoseconds": 99000000
+ }
+}

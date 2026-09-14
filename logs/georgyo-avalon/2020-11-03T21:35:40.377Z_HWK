@@ -1,0 +1,252 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "TOMEK": true,
+    "CARTMAN": true
+   },
+   {
+    "TOMEK": true,
+    "CARTMAN": false,
+    "MICHEL": true
+   },
+   {
+    "MICHEL": false,
+    "TOMEK": true,
+    "MARKUS": true,
+    "GREG": true
+   },
+   {
+    "GREG": true,
+    "TOMEK": true,
+    "CHRIS": true
+   },
+   {
+    "GREG": true,
+    "TOMEK": true,
+    "MICHEL": false,
+    "CHRIS": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "CHRIS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "TOMEK"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GREG"
+   },
+   {
+    "name": "MICHEL",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "CARTMAN",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "MARKUS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1604440392,
+  "_nanoseconds": 974000000
+ },
+ "players": [
+  {
+   "name": "MICHEL",
+   "uid": "lPGeVT4Ym1dnmmwxGYwwnNwGXsj1"
+  },
+  {
+   "uid": "p8qX7xRkGpNQkHSBJqSZjIYY4P52",
+   "name": "CHRIS"
+  },
+  {
+   "name": "CARTMAN",
+   "uid": "j3HEqTwvOsXe7DsJ4J8wrRCdLoc2"
+  },
+  {
+   "name": "MARKUS",
+   "uid": "d0vFnfHDXgh7nMamzcLJ9XjHvDH3"
+  },
+  {
+   "uid": "kdnEDBEsHsWQAUxKdsc9ygb6SIv1",
+   "name": "TOMEK"
+  },
+  {
+   "name": "GREG",
+   "uid": "VT1BGfRsBTMoplUaNugoUh6HQf33"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "CARTMAN",
+    "TOMEK"
+   ],
+   "proposals": [
+    {
+     "proposer": "CARTMAN",
+     "votes": [
+      "MICHEL",
+      "TOMEK",
+      "MARKUS",
+      "GREG",
+      "CHRIS",
+      "CARTMAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CARTMAN",
+      "TOMEK"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "CHRIS",
+      "GREG",
+      "CARTMAN",
+      "TOMEK"
+     ],
+     "proposer": "MARKUS",
+     "state": "APPROVED",
+     "team": [
+      "CARTMAN",
+      "TOMEK",
+      "MICHEL"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "CARTMAN",
+    "TOMEK",
+    "MICHEL"
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "TOMEK",
+      "MICHEL",
+      "GREG",
+      "MARKUS"
+     ],
+     "state": "APPROVED",
+     "proposer": "TOMEK",
+     "votes": [
+      "MARKUS",
+      "CARTMAN",
+      "MICHEL",
+      "GREG",
+      "TOMEK"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TOMEK",
+    "MICHEL",
+    "GREG",
+    "MARKUS"
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "CHRIS",
+    "GREG",
+    "TOMEK"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "GREG",
+     "votes": [
+      "TOMEK",
+      "MICHEL",
+      "GREG",
+      "MARKUS",
+      "CHRIS"
+     ],
+     "team": [
+      "CHRIS",
+      "GREG",
+      "TOMEK"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "CHRIS",
+    "GREG",
+    "TOMEK",
+    "MICHEL"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHRIS",
+      "GREG",
+      "TOMEK",
+      "MICHEL"
+     ],
+     "proposer": "MICHEL",
+     "votes": [
+      "GREG",
+      "CHRIS",
+      "MARKUS",
+      "MICHEL"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604439340,
+  "_nanoseconds": 377000000
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "timeFinished": {
+  "_seconds": 1586547443,
+  "_nanoseconds": 845919000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "DIMARO",
+      "IMAFF",
+      "ALEX",
+      "IVAN",
+      "OLESIA",
+      "ELENA"
+     ],
+     "team": [
+      "DIMARO",
+      "IMAFF"
+     ],
+     "proposer": "DIMARO",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DIMARO",
+    "IMAFF"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "OLESIA",
+    "IMAFF",
+    "DIMARO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ELENA",
+      "DIMARO",
+      "OLESIA"
+     ],
+     "proposer": "ELENA",
+     "state": "REJECTED",
+     "votes": [
+      "IVAN",
+      "OLESIA",
+      "ELENA"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX",
+      "IVAN",
+      "OLESIA",
+      "DIMARO",
+      "IMAFF"
+     ],
+     "team": [
+      "OLESIA",
+      "IMAFF",
+      "DIMARO"
+     ],
+     "state": "APPROVED",
+     "proposer": "OLESIA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "ALEX",
+    "IVAN",
+    "OLESIA",
+    "IMAFF"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "IVAN",
+      "OLESIA",
+      "IMAFF",
+      "ALEX"
+     ],
+     "proposer": "ALEX",
+     "team": [
+      "ALEX",
+      "IVAN",
+      "OLESIA",
+      "IMAFF"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "IVAN",
+    "OLESIA",
+    "ALEX"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "IMAFF",
+      "DIMARO",
+      "IVAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "IMAFF"
+     ],
+     "proposer": "IMAFF"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "IVAN",
+     "votes": [
+      "ALEX",
+      "IVAN",
+      "OLESIA",
+      "ELENA"
+     ],
+     "team": [
+      "IVAN",
+      "OLESIA",
+      "ALEX"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "IVAN",
+    "OLESIA",
+    "ALEX",
+    "DIMARO"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALEX",
+      "IVAN",
+      "OLESIA",
+      "DIMARO",
+      "IMAFF"
+     ],
+     "team": [
+      "IVAN",
+      "OLESIA",
+      "ALEX",
+      "DIMARO"
+     ],
+     "proposer": "DIMARO"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "IMAFF",
+   "uid": "iRt1pgFfT1cusxhGqwmFxgxFMjD2"
+  },
+  {
+   "uid": "Ep0SzZgPv8MNM5Zs7wxKOSpOfqS2",
+   "name": "IVAN"
+  },
+  {
+   "uid": "cvzyLysqSJOYELcrWJMy3rnQrDT2",
+   "name": "DIMARO"
+  },
+  {
+   "name": "ELENA",
+   "uid": "tG6AJtC4cHhOc1dvIIBdsPLTlpo2"
+  },
+  {
+   "uid": "Da8ks9CwTghNuduCUDN4eyPY57m2",
+   "name": "OLESIA"
+  },
+  {
+   "uid": "a1WccF5BG3ckRDB8uT4Sdnuz7Kb2",
+   "name": "ALEX"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "DIMARO": true,
+    "IMAFF": true
+   },
+   {
+    "OLESIA": true,
+    "IMAFF": false,
+    "DIMARO": true
+   },
+   {
+    "OLESIA": true,
+    "ALEX": true,
+    "IVAN": true,
+    "IMAFF": false
+   },
+   {
+    "OLESIA": true,
+    "IVAN": true,
+    "ALEX": true
+   },
+   {
+    "DIMARO": false,
+    "ALEX": true,
+    "IVAN": true,
+    "OLESIA": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DIMARO",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "IMAFF",
+    "assassin": false
+   },
+   {
+    "name": "ALEX",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "IVAN"
+   },
+   {
+    "assassin": false,
+    "name": "OLESIA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELENA"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586547092,
+  "_nanoseconds": 992000000
+ }
+}

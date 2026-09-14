@@ -1,0 +1,313 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "BOB",
+      "AVALONMAST",
+      "ME",
+      "JIBOOTY",
+      "FRESHMEX",
+      "SEHYUK",
+      "MERLINSMOM",
+      "GALAHAD"
+     ],
+     "team": [
+      "BOB",
+      "AVALONMAST",
+      "FRESHMEX"
+     ],
+     "proposer": "BOB",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "BOB",
+    "AVALONMAST",
+    "FRESHMEX"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "BOB",
+      "AVALONMAST",
+      "FRESHMEX",
+      "JACQUELINE"
+     ],
+     "proposer": "AVALONMAST",
+     "votes": [
+      "BOB",
+      "AVALONMAST",
+      "ME",
+      "JIBOOTY",
+      "JACQUELINE",
+      "FRESHMEX",
+      "SEHYUK",
+      "MERLINSMOM",
+      "GALAHAD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "BOB",
+    "AVALONMAST",
+    "FRESHMEX",
+    "JACQUELINE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "FRESHMEX",
+      "BOB",
+      "JACQUELINE",
+      "SEHYUK"
+     ],
+     "state": "REJECTED",
+     "proposer": "FRESHMEX",
+     "votes": [
+      "JACQUELINE",
+      "GALAHAD",
+      "BOB"
+     ]
+    },
+    {
+     "proposer": "SEHYUK",
+     "team": [
+      "SEHYUK",
+      "AVALONMAST",
+      "BOB",
+      "ME"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BOB",
+      "AVALONMAST",
+      "ME",
+      "SEHYUK",
+      "MERLINSMOM"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ME",
+      "MERLINSMOM",
+      "BOB",
+      "JIBOOTY"
+     ],
+     "votes": [
+      "FRESHMEX",
+      "SEHYUK",
+      "WHOAECHO",
+      "MERLINSMOM",
+      "BOB",
+      "AVALONMAST",
+      "ME",
+      "JIBOOTY"
+     ],
+     "proposer": "ME"
+    }
+   ],
+   "team": [
+    "ME",
+    "MERLINSMOM",
+    "BOB",
+    "JIBOOTY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "WHOAECHO",
+    "ME",
+    "MERLINSMOM",
+    "BOB",
+    "JIBOOTY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WHOAECHO",
+      "MERLINSMOM",
+      "BOB",
+      "AVALONMAST",
+      "ME",
+      "JIBOOTY",
+      "JACQUELINE",
+      "SEHYUK"
+     ],
+     "proposer": "GALAHAD",
+     "team": [
+      "WHOAECHO",
+      "ME",
+      "MERLINSMOM",
+      "BOB",
+      "JIBOOTY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "BOB",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "AVALONMAST"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ME"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JIBOOTY",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "JACQUELINE",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "FRESHMEX"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SEHYUK",
+    "assassin": false
+   },
+   {
+    "name": "WHOAECHO",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MERLINSMOM"
+   },
+   {
+    "name": "GALAHAD",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "BOB": true,
+    "AVALONMAST": true,
+    "FRESHMEX": true
+   },
+   {
+    "JACQUELINE": true,
+    "BOB": true,
+    "FRESHMEX": false,
+    "AVALONMAST": true
+   },
+   {
+    "ME": true,
+    "BOB": true,
+    "JIBOOTY": true,
+    "MERLINSMOM": true
+   },
+   {
+    "ME": true,
+    "JIBOOTY": true,
+    "WHOAECHO": true,
+    "BOB": true,
+    "MERLINSMOM": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "SEHYUK"
+ },
+ "timeCreated": {
+  "_seconds": 1586584564,
+  "_nanoseconds": 100000000
+ },
+ "players": [
+  {
+   "name": "AVALONMAST",
+   "uid": "g6iQosKsHpR2b7wiCicJdCI1CqK2"
+  },
+  {
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1",
+   "name": "FRESHMEX"
+  },
+  {
+   "uid": "GK1nW4w5QOagsE26OIrbR6Cpqtj2",
+   "name": "SEHYUK"
+  },
+  {
+   "name": "ME",
+   "uid": "bv44xXPLmFaUfTmPwpSX1uDJ8By2"
+  },
+  {
+   "name": "GALAHAD",
+   "uid": "yD7ZC83jboYO0fcc0RTtp264U583"
+  },
+  {
+   "name": "MERLINSMOM",
+   "uid": "prcNEV0fTlR6x8crVnrrshfyixD2"
+  },
+  {
+   "uid": "3ZtTLYxFYaZal88FfFYsA5Ov79o1",
+   "name": "JIBOOTY"
+  },
+  {
+   "uid": "LUzcXt9TZcWEkaZP9pmitbc5ENy2",
+   "name": "JACQUELINE"
+  },
+  {
+   "uid": "I7VsXdEkKJfBlqcO1aCGBp4YrUN2",
+   "name": "WHOAECHO"
+  },
+  {
+   "uid": "ytZLSm0DChP2A94lTWgXv4dVy8w1",
+   "name": "BOB"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586586382,
+  "_nanoseconds": 830895000
+ }
+}

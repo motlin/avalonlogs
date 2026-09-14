@@ -1,0 +1,310 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589162831,
+  "_nanoseconds": 177000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "VINCE": true,
+    "CHERRY": true
+   },
+   {
+    "VINCE": true,
+    "HUAIJEN": true,
+    "CHERRY": false
+   },
+   {
+    "VINCE": true,
+    "TERRY": false
+   },
+   {
+    "VINCE": true,
+    "HUAIJEN": true,
+    "STEVE": true
+   },
+   {
+    "STEVE": true,
+    "HUAIJEN": true,
+    "VINCE": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CHERRY",
+    "role": "MORGANA"
+   },
+   {
+    "name": "HUAIJEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "VINCE"
+   },
+   {
+    "role": "MERLIN",
+    "name": "STEVE",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "TERRY",
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "HUAIJEN"
+ },
+ "players": [
+  {
+   "name": "TERRY",
+   "uid": "TsHbIN5uvnVCndSWnydJm3hslsr1"
+  },
+  {
+   "name": "STEVE",
+   "uid": "QZLPPeU31wVct8z9uthsqRC5JX83"
+  },
+  {
+   "uid": "Q0YR5gDKJigN7q4QSfbvDN1HYro1",
+   "name": "HUAIJEN"
+  },
+  {
+   "uid": "yrMrDrkL49W8EajK1ejm0rqLU8d2",
+   "name": "VINCE"
+  },
+  {
+   "name": "CHERRY",
+   "uid": "dMw1qfayCHRtcDhxpcyP5RgjjOd2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589163701,
+  "_nanoseconds": 420000000
+ },
+ "missions": [
+  {
+   "team": [
+    "VINCE",
+    "CHERRY"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "HUAIJEN",
+      "TERRY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "TERRY"
+     ],
+     "proposer": "HUAIJEN"
+    },
+    {
+     "team": [
+      "VINCE",
+      "CHERRY"
+     ],
+     "proposer": "VINCE",
+     "state": "APPROVED",
+     "votes": [
+      "VINCE",
+      "STEVE",
+      "CHERRY"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CHERRY"
+     ],
+     "team": [
+      "CHERRY",
+      "TERRY",
+      "VINCE"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHERRY"
+    },
+    {
+     "team": [
+      "VINCE",
+      "TERRY",
+      "HUAIJEN"
+     ],
+     "votes": [
+      "TERRY",
+      "HUAIJEN"
+     ],
+     "proposer": "TERRY",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "STEVE",
+      "TERRY",
+      "HUAIJEN"
+     ],
+     "votes": [
+      "HUAIJEN",
+      "TERRY"
+     ],
+     "state": "REJECTED",
+     "proposer": "STEVE"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "HUAIJEN",
+      "VINCE",
+      "CHERRY"
+     ],
+     "votes": [
+      "CHERRY",
+      "HUAIJEN",
+      "VINCE"
+     ],
+     "proposer": "HUAIJEN"
+    }
+   ],
+   "team": [
+    "HUAIJEN",
+    "VINCE",
+    "CHERRY"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "VINCE",
+    "TERRY"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "VINCE",
+     "team": [
+      "STEVE",
+      "VINCE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "VINCE",
+      "STEVE"
+     ]
+    },
+    {
+     "votes": [
+      "TERRY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TERRY",
+      "VINCE"
+     ],
+     "proposer": "CHERRY"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TERRY",
+      "CHERRY",
+      "VINCE"
+     ],
+     "team": [
+      "VINCE",
+      "TERRY"
+     ],
+     "proposer": "TERRY"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "HUAIJEN",
+      "STEVE",
+      "VINCE"
+     ],
+     "votes": [
+      "VINCE",
+      "STEVE"
+     ],
+     "proposer": "STEVE"
+    },
+    {
+     "votes": [
+      "STEVE",
+      "HUAIJEN",
+      "VINCE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "STEVE",
+      "HUAIJEN",
+      "VINCE"
+     ],
+     "proposer": "HUAIJEN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "STEVE",
+    "HUAIJEN",
+    "VINCE"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "STEVE",
+    "HUAIJEN",
+    "VINCE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HUAIJEN",
+      "VINCE",
+      "STEVE"
+     ],
+     "team": [
+      "STEVE",
+      "HUAIJEN",
+      "VINCE"
+     ],
+     "proposer": "VINCE"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ]
+}

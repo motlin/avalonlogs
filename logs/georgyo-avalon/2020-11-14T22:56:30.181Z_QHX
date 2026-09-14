@@ -1,0 +1,276 @@
+{
+ "timeFinished": {
+  "_seconds": 1605395250,
+  "_nanoseconds": 35000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MADCAP": true,
+    "SPLOOSH": true
+   },
+   {
+    "SPLOOSH": true,
+    "EJP": false,
+    "RICE": true
+   },
+   {
+    "SPLOOSH": true,
+    "EMMA": false,
+    "DIABOLICAL": false
+   },
+   {
+    "BEEF": true,
+    "DIABOLICAL": true,
+    "MADCAP": true,
+    "EJP": false
+   },
+   {
+    "MADCAP": true,
+    "EJP": false,
+    "BEEF": true,
+    "RICE": true
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MADCAP"
+   },
+   {
+    "role": "MORGANA",
+    "name": "EJP",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "RICE",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SPLOOSH"
+   },
+   {
+    "name": "DIABOLICAL",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BEEF",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "EMMA",
+    "assassin": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1605394590,
+  "_nanoseconds": 181000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "EMMA",
+      "MADCAP",
+      "RICE",
+      "DIABOLICAL",
+      "SPLOOSH",
+      "EJP",
+      "BEEF"
+     ],
+     "proposer": "MADCAP",
+     "state": "APPROVED",
+     "team": [
+      "MADCAP",
+      "SPLOOSH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "MADCAP",
+    "SPLOOSH"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "EJP",
+      "DIABOLICAL",
+      "RICE",
+      "SPLOOSH",
+      "EMMA"
+     ],
+     "state": "APPROVED",
+     "proposer": "EJP",
+     "team": [
+      "EJP",
+      "SPLOOSH",
+      "RICE"
+     ]
+    }
+   ],
+   "team": [
+    "EJP",
+    "SPLOOSH",
+    "RICE"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "EMMA",
+     "votes": [
+      "BEEF",
+      "EMMA",
+      "DIABOLICAL"
+     ],
+     "team": [
+      "EMMA",
+      "SPLOOSH",
+      "RICE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "BEEF",
+      "SPLOOSH",
+      "DIABOLICAL",
+      "EJP",
+      "EMMA"
+     ],
+     "team": [
+      "SPLOOSH",
+      "DIABOLICAL",
+      "EMMA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SPLOOSH"
+    }
+   ],
+   "team": [
+    "SPLOOSH",
+    "DIABOLICAL",
+    "EMMA"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "BEEF",
+     "team": [
+      "EJP",
+      "DIABOLICAL",
+      "BEEF",
+      "MADCAP"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DIABOLICAL",
+      "MADCAP",
+      "EMMA",
+      "BEEF"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "EJP",
+    "DIABOLICAL",
+    "BEEF",
+    "MADCAP"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "MADCAP",
+    "BEEF",
+    "RICE",
+    "EJP"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "MADCAP",
+      "BEEF",
+      "RICE",
+      "EJP"
+     ],
+     "proposer": "DIABOLICAL",
+     "votes": [
+      "EJP",
+      "EMMA",
+      "DIABOLICAL",
+      "RICE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "HWz6kT9JkwSK4Zcim49UdB9ZaVC3",
+   "name": "MADCAP"
+  },
+  {
+   "uid": "vUyiilxgP1Ty3Qx2TCUyUMK5B0d2",
+   "name": "EJP"
+  },
+  {
+   "name": "EMMA",
+   "uid": "AncbGwKin1dKVhQdo7eT3UI5L173"
+  },
+  {
+   "uid": "ZIxopETmK0V5O1c9fJkXuAWLJVA2",
+   "name": "SPLOOSH"
+  },
+  {
+   "uid": "Kbfe96IFoKhMUpzZ2I5wgw2uamM2",
+   "name": "BEEF"
+  },
+  {
+   "name": "DIABOLICAL",
+   "uid": "XQ4WwMZT7ggTdzfcIVVXeju5Icm2"
+  },
+  {
+   "name": "RICE",
+   "uid": "X1MOdC6GMCWkHx8tFNnrmTwbZBz2"
+  }
+ ]
+}

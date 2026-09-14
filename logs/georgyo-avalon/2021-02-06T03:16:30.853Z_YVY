@@ -1,0 +1,240 @@
+{
+ "timeFinished": {
+  "_seconds": 1612581661,
+  "_nanoseconds": 809000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JET": true,
+    "KEN": true
+   },
+   {
+    "GEORGE": true,
+    "KEN": true,
+    "JET": true
+   },
+   {
+    "KEN": true,
+    "GEORGE": false
+   },
+   {
+    "JET": false,
+    "NIKOLAI": true,
+    "KEN": true
+   },
+   {
+    "ADAM": true,
+    "KEN": true,
+    "JET": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ADAM"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "NIKOLAI"
+   },
+   {
+    "name": "JET",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "KEN"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "GEORGE"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "KEN",
+    "JET"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KEN",
+      "JET"
+     ],
+     "votes": [
+      "ADAM",
+      "GEORGE",
+      "JET",
+      "KEN"
+     ],
+     "proposer": "ADAM"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "GEORGE",
+    "JET",
+    "KEN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KEN",
+      "GEORGE",
+      "JET"
+     ],
+     "team": [
+      "GEORGE",
+      "JET",
+      "KEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "GEORGE"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "JET",
+     "votes": [
+      "KEN",
+      "JET",
+      "GEORGE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GEORGE",
+      "KEN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "FAIL",
+   "team": [
+    "GEORGE",
+    "KEN"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "JET",
+    "KEN",
+    "NIKOLAI"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KEN",
+      "NIKOLAI",
+      "JET",
+      "GEORGE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JET",
+      "KEN",
+      "NIKOLAI"
+     ],
+     "proposer": "KEN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "ADAM",
+    "JET",
+    "KEN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "GEORGE",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KEN",
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "votes": [
+      "ADAM",
+      "GEORGE",
+      "JET"
+     ],
+     "proposer": "ADAM",
+     "team": [
+      "ADAM",
+      "JET",
+      "KEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "ekB9z2g5m1g4EI4ltUs7k3BbrFG2",
+   "name": "GEORGE"
+  },
+  {
+   "name": "JET",
+   "uid": "sFBtD4TgvehoZhD1px1cMaIEt2J3"
+  },
+  {
+   "uid": "nVHWfN2xwIg9KYTQtigTn5CZdgy2",
+   "name": "KEN"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  },
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1612581390,
+  "_nanoseconds": 853000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

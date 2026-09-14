@@ -1,0 +1,240 @@
+{
+ "players": [
+  {
+   "name": "LUKE",
+   "uid": "bwGw2zkFfeOH24CRKuunkNjFpOn1"
+  },
+  {
+   "name": "ELLA",
+   "uid": "4Oc1pzCZqGQZyGFl2KO0cCrL2mk1"
+  },
+  {
+   "name": "ALICE",
+   "uid": "GXz45EgIdGh9vBVwlO3N5zRMZrw2"
+  },
+  {
+   "name": "SHAL",
+   "uid": "NIAmvvfK4pNNBRZTyluXo7elAnh2"
+  },
+  {
+   "name": "JAK",
+   "uid": "Yc8SPVfUNcXHAbYoCC1bjj9yQTA2"
+  },
+  {
+   "uid": "iRszaW7C7kVSlrmOUY3k9MyqssA2",
+   "name": "BENNN"
+  },
+  {
+   "uid": "PtnYZP937Yaj3BRoOoEibJKvmNq1",
+   "name": "TARA"
+  },
+  {
+   "uid": "qSnk1ixTSQe99RcFQMoHxUSEYXt2",
+   "name": "TOM"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "BENNN",
+    "JAK",
+    "TARA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "BENNN",
+     "state": "APPROVED",
+     "team": [
+      "BENNN",
+      "JAK",
+      "TARA"
+     ],
+     "votes": [
+      "ALICE",
+      "TARA",
+      "BENNN",
+      "ELLA",
+      "LUKE",
+      "TOM",
+      "SHAL",
+      "JAK"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALICE",
+      "ELLA",
+      "TOM",
+      "SHAL",
+      "TARA",
+      "JAK",
+      "BENNN"
+     ],
+     "proposer": "TARA",
+     "team": [
+      "TARA",
+      "JAK",
+      "BENNN",
+      "ELLA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "TARA",
+    "JAK",
+    "BENNN",
+    "ELLA"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "TOM",
+     "team": [
+      "TOM",
+      "BENNN",
+      "JAK",
+      "SHAL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SHAL",
+      "TOM",
+      "ALICE"
+     ]
+    },
+    {
+     "votes": [
+      "JAK",
+      "BENNN",
+      "ALICE",
+      "ELLA",
+      "LUKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "LUKE",
+     "team": [
+      "LUKE",
+      "ELLA",
+      "BENNN",
+      "JAK"
+     ]
+    }
+   ],
+   "team": [
+    "LUKE",
+    "ELLA",
+    "BENNN",
+    "JAK"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [],
+   "state": "PENDING"
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 5
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "BENNN": true,
+    "TARA": true,
+    "JAK": true
+   },
+   {
+    "JAK": true,
+    "ELLA": true,
+    "TARA": true,
+    "BENNN": true
+   },
+   {
+    "ELLA": true,
+    "JAK": true,
+    "BENNN": true,
+    "LUKE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "JAK",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "LUKE"
+   },
+   {
+    "name": "JAK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SHAL",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "TOM"
+   },
+   {
+    "name": "ALICE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "BENNN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ELLA"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "TARA"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1608882758,
+  "_nanoseconds": 297000000
+ },
+ "timeCreated": {
+  "_seconds": 1608882384,
+  "_nanoseconds": 545000000
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "players": [
+  {
+   "uid": "rCO5DKBv4pbwmEmuLUZCgPhWIra2",
+   "name": "MONI"
+  },
+  {
+   "uid": "cfwlE1MIeiZvAUVKYOvxsSZgopJ2",
+   "name": "PLABONI"
+  },
+  {
+   "name": "SAF",
+   "uid": "nY0qEwBqu3fm5AnBusEbcNU6kMw1"
+  },
+  {
+   "uid": "EhAXoEm0wzO47ky9x6MWSgpZsOJ2",
+   "name": "JACOB"
+  },
+  {
+   "name": "DEEPTI",
+   "uid": "iNgdSxWDP8P2EHPj41ZASnXp6Ss1"
+  },
+  {
+   "uid": "673nACuaHjamWikp7p9EZeK6xCF3",
+   "name": "VY"
+  },
+  {
+   "name": "SWAGGYJ",
+   "uid": "q07B0iLfWfMOKUJCSM7I3Tycuqp2"
+  },
+  {
+   "name": "AMBER",
+   "uid": "tZmyce9eTub3ugz8zonoY78Ip1C2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586050693,
+  "_nanoseconds": 968000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PLABONI",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "AMBER"
+   },
+   {
+    "name": "VY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "DEEPTI",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "SAF"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MONI"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SWAGGYJ"
+   },
+   {
+    "assassin": false,
+    "name": "JACOB",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "VY": true,
+    "JACOB": true,
+    "MONI": true
+   },
+   {
+    "AMBER": true,
+    "VY": false,
+    "PLABONI": true,
+    "MONI": true
+   },
+   {
+    "JACOB": true,
+    "PLABONI": true,
+    "DEEPTI": false,
+    "VY": true
+   },
+   {
+    "MONI": true,
+    "AMBER": true,
+    "VY": false,
+    "SWAGGYJ": true,
+    "JACOB": true
+   },
+   {
+    "JACOB": true,
+    "AMBER": true,
+    "DEEPTI": false,
+    "VY": false,
+    "MONI": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1586051722,
+  "_nanoseconds": 321809000
+ },
+ "missions": [
+  {
+   "team": [
+    "MONI",
+    "JACOB",
+    "VY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "MONI",
+      "JACOB",
+      "SWAGGYJ"
+     ],
+     "state": "REJECTED",
+     "proposer": "AMBER",
+     "votes": [
+      "MONI",
+      "SWAGGYJ",
+      "JACOB",
+      "AMBER"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MONI",
+      "JACOB",
+      "VY"
+     ],
+     "proposer": "MONI",
+     "votes": [
+      "VY",
+      "DEEPTI",
+      "SAF",
+      "MONI",
+      "SWAGGYJ",
+      "JACOB",
+      "PLABONI",
+      "AMBER"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "PLABONI",
+    "AMBER",
+    "MONI",
+    "VY"
+   ],
+   "proposals": [
+    {
+     "proposer": "PLABONI",
+     "votes": [
+      "SWAGGYJ",
+      "PLABONI",
+      "AMBER",
+      "VY",
+      "SAF",
+      "MONI"
+     ],
+     "team": [
+      "PLABONI",
+      "AMBER",
+      "MONI",
+      "VY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "VY",
+      "DEEPTI",
+      "JACOB",
+      "PLABONI"
+     ],
+     "proposer": "SAF",
+     "votes": [
+      "PLABONI",
+      "VY",
+      "DEEPTI",
+      "SAF",
+      "SWAGGYJ",
+      "JACOB"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "VY",
+    "DEEPTI",
+    "JACOB",
+    "PLABONI"
+   ],
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MONI",
+      "JACOB",
+      "AMBER",
+      "VY",
+      "SWAGGYJ"
+     ],
+     "votes": [
+      "MONI",
+      "SWAGGYJ",
+      "JACOB",
+      "PLABONI",
+      "AMBER",
+      "VY",
+      "DEEPTI"
+     ],
+     "proposer": "JACOB"
+    }
+   ],
+   "teamSize": 5,
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "numFails": 1,
+   "team": [
+    "MONI",
+    "JACOB",
+    "AMBER",
+    "VY",
+    "SWAGGYJ"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 5,
+   "team": [
+    "DEEPTI",
+    "MONI",
+    "JACOB",
+    "AMBER",
+    "VY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "DEEPTI",
+     "state": "APPROVED",
+     "team": [
+      "DEEPTI",
+      "MONI",
+      "JACOB",
+      "AMBER",
+      "VY"
+     ],
+     "votes": [
+      "MONI",
+      "SWAGGYJ",
+      "JACOB",
+      "PLABONI",
+      "AMBER",
+      "VY"
+     ]
+    }
+   ],
+   "numFails": 2
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ANTHLOU": true,
+    "TOBY": true
+   },
+   {
+    "VICKY": false,
+    "TOBY": true,
+    "LOU": true
+   },
+   {
+    "ANTHLOU": true,
+    "LEO": true,
+    "RAVEN": true,
+    "TOBY": true
+   },
+   {
+    "RAVEN": true,
+    "ANTHLOU": true,
+    "TOBY": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "ANTHLOU"
+   },
+   {
+    "name": "VICKY",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LOU",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LEO",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RAVEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "TOBY",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "TOBY",
+    "ANTHLOU"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "TOBY",
+      "ANTHLOU"
+     ],
+     "proposer": "LEO",
+     "state": "APPROVED",
+     "votes": [
+      "ANTHLOU",
+      "TOBY",
+      "RAVEN",
+      "LEO",
+      "LOU",
+      "VICKY"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "VICKY",
+    "TOBY",
+    "LOU"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ANTHLOU",
+      "LEO",
+      "VICKY",
+      "RAVEN",
+      "LOU"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "VICKY",
+      "TOBY",
+      "LOU"
+     ],
+     "proposer": "VICKY"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RAVEN",
+      "LOU"
+     ],
+     "team": [
+      "ANTHLOU",
+      "LOU",
+      "RAVEN",
+      "LEO"
+     ],
+     "proposer": "RAVEN"
+    },
+    {
+     "proposer": "ANTHLOU",
+     "state": "APPROVED",
+     "team": [
+      "ANTHLOU",
+      "TOBY",
+      "LEO",
+      "RAVEN"
+     ],
+     "votes": [
+      "LEO",
+      "LOU",
+      "TOBY",
+      "RAVEN",
+      "VICKY",
+      "ANTHLOU"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "ANTHLOU",
+    "TOBY",
+    "LEO",
+    "RAVEN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LOU",
+      "RAVEN"
+     ],
+     "team": [
+      "RAVEN",
+      "TOBY",
+      "LOU"
+     ],
+     "proposer": "LOU"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "TOBY",
+      "RAVEN",
+      "ANTHLOU"
+     ],
+     "proposer": "TOBY",
+     "votes": [
+      "VICKY",
+      "RAVEN",
+      "LOU",
+      "LEO",
+      "ANTHLOU",
+      "TOBY"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "TOBY",
+    "RAVEN",
+    "ANTHLOU"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609458791,
+  "_nanoseconds": 733000000
+ },
+ "players": [
+  {
+   "name": "ANTHLOU",
+   "uid": "SidQwKsj1VbDoH0sYA8LiK5XfrF3"
+  },
+  {
+   "uid": "Scamg41mJQYhPinZAsqp1l6AiUD3",
+   "name": "LOU"
+  },
+  {
+   "name": "TOBY",
+   "uid": "y9JfNSpMtehm5ohLQxGUp1pGROY2"
+  },
+  {
+   "name": "LEO",
+   "uid": "aFlZOME6Psa2vG8w9tV5Hio9KpH3"
+  },
+  {
+   "name": "VICKY",
+   "uid": "bnKBePRNZjd1l2gSgFHevRbjkvL2"
+  },
+  {
+   "name": "RAVEN",
+   "uid": "7DffispN6KNOfpXqTIccEyvUFTA2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1609458311,
+  "_nanoseconds": 440000000
+ }
+}

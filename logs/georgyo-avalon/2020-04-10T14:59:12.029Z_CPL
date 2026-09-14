@@ -1,0 +1,202 @@
+{
+ "timeCreated": {
+  "_seconds": 1586530752,
+  "_nanoseconds": 29000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "PERRY": true,
+    "MICHEL": true
+   },
+   {
+    "MICHEL": false,
+    "CPL": true,
+    "PERRY": true
+   },
+   {
+    "CPL": true,
+    "WES": true
+   },
+   {
+    "CPL": true,
+    "WES": true,
+    "PERRY": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "WES",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "CPL",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "MICHEL",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "PERRY"
+   },
+   {
+    "assassin": false,
+    "name": "LOC",
+    "role": "MORGANA"
+   }
+  ],
+  "assassinated": "PERRY"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MICHEL",
+     "votes": [
+      "PERRY",
+      "LOC",
+      "WES",
+      "CPL",
+      "MICHEL"
+     ],
+     "team": [
+      "MICHEL",
+      "PERRY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "MICHEL",
+    "PERRY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PERRY",
+      "LOC",
+      "CPL",
+      "MICHEL"
+     ],
+     "team": [
+      "PERRY",
+      "MICHEL",
+      "CPL"
+     ],
+     "proposer": "PERRY"
+    }
+   ],
+   "team": [
+    "PERRY",
+    "MICHEL",
+    "CPL"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "CPL",
+    "WES"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CPL",
+      "MICHEL",
+      "LOC",
+      "WES"
+     ],
+     "proposer": "WES",
+     "team": [
+      "CPL",
+      "WES"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "CPL",
+    "WES",
+    "PERRY"
+   ],
+   "proposals": [
+    {
+     "proposer": "CPL",
+     "votes": [
+      "PERRY",
+      "LOC",
+      "WES",
+      "CPL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CPL",
+      "WES",
+      "PERRY"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586531318,
+  "_nanoseconds": 617695000
+ },
+ "players": [
+  {
+   "uid": "nnPP02SUyWeF3gpWyfI8T9OzF053",
+   "name": "CPL"
+  },
+  {
+   "uid": "aDJx4bobm4WBZGlfm1oaTKVwtkw2",
+   "name": "LOC"
+  },
+  {
+   "uid": "9xvziqOuVSMznhIGczBkRjK1jO72",
+   "name": "MICHEL"
+  },
+  {
+   "name": "PERRY",
+   "uid": "5DYiPpm4MIhsr9IGXKijFcB0Gnq2"
+  },
+  {
+   "name": "WES",
+   "uid": "M2GRgkRti9aSFRdxOs2Inth39Vz1"
+  }
+ ]
+}

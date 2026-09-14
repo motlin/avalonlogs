@@ -1,0 +1,422 @@
+{
+ "timeFinished": {
+  "_seconds": 1598080317,
+  "_nanoseconds": 835000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "BANANYA"
+   },
+   {
+    "name": "AN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "LL",
+    "assassin": false
+   },
+   {
+    "name": "CHEVIN",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "YI"
+   },
+   {
+    "role": "MORDRED",
+    "name": "SEAN",
+    "assassin": true
+   },
+   {
+    "name": "PRAVEEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ABHI",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "SEAN": true,
+    "PRAVEEN": true,
+    "BANANYA": true
+   },
+   {
+    "SEAN": false,
+    "BANANYA": true,
+    "PRAVEEN": true,
+    "CHEVIN": true
+   },
+   {
+    "ABHI": true,
+    "BANANYA": true,
+    "LL": false,
+    "SEAN": true
+   },
+   {
+    "CHEVIN": true,
+    "ABHI": true,
+    "PRAVEEN": true,
+    "BANANYA": true,
+    "YI": true
+   },
+   {
+    "ABHI": true,
+    "YI": true,
+    "PRAVEEN": true,
+    "SEAN": false,
+    "CHEVIN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "PRAVEEN",
+     "team": [
+      "PRAVEEN",
+      "SEAN",
+      "BANANYA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PRAVEEN",
+      "CHEVIN",
+      "SEAN",
+      "ABHI",
+      "BANANYA"
+     ]
+    }
+   ],
+   "team": [
+    "PRAVEEN",
+    "SEAN",
+    "BANANYA"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "BANANYA",
+    "SEAN",
+    "PRAVEEN",
+    "CHEVIN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ABHI",
+      "PRAVEEN",
+      "YI",
+      "CHEVIN"
+     ],
+     "team": [
+      "YI",
+      "BANANYA",
+      "SEAN",
+      "PRAVEEN"
+     ],
+     "proposer": "YI"
+    },
+    {
+     "votes": [
+      "BANANYA",
+      "ABHI",
+      "AN"
+     ],
+     "proposer": "SEAN",
+     "state": "REJECTED",
+     "team": [
+      "PRAVEEN",
+      "SEAN",
+      "BANANYA",
+      "AN"
+     ]
+    },
+    {
+     "team": [
+      "CHEVIN",
+      "PRAVEEN",
+      "SEAN",
+      "BANANYA"
+     ],
+     "votes": [
+      "PRAVEEN",
+      "CHEVIN",
+      "BANANYA",
+      "ABHI"
+     ],
+     "proposer": "CHEVIN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "BANANYA",
+     "state": "APPROVED",
+     "votes": [
+      "PRAVEEN",
+      "ABHI",
+      "BANANYA",
+      "YI",
+      "CHEVIN"
+     ],
+     "team": [
+      "BANANYA",
+      "SEAN",
+      "PRAVEEN",
+      "CHEVIN"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "ABHI",
+    "SEAN",
+    "LL",
+    "BANANYA"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "ABHI",
+     "state": "APPROVED",
+     "votes": [
+      "BANANYA",
+      "LL",
+      "AN",
+      "ABHI",
+      "YI"
+     ],
+     "team": [
+      "ABHI",
+      "SEAN",
+      "LL",
+      "BANANYA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "YI",
+    "ABHI",
+    "CHEVIN",
+    "PRAVEEN",
+    "BANANYA"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "AN",
+      "LL",
+      "PRAVEEN",
+      "SEAN",
+      "YI"
+     ],
+     "proposer": "AN"
+    },
+    {
+     "votes": [],
+     "team": [
+      "LL",
+      "PRAVEEN",
+      "CHEVIN",
+      "ABHI",
+      "YI"
+     ],
+     "state": "REJECTED",
+     "proposer": "LL"
+    },
+    {
+     "votes": [
+      "YI",
+      "BANANYA",
+      "PRAVEEN",
+      "CHEVIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "PRAVEEN",
+      "YI",
+      "CHEVIN",
+      "BANANYA",
+      "ABHI"
+     ],
+     "proposer": "PRAVEEN"
+    },
+    {
+     "votes": [
+      "ABHI",
+      "YI",
+      "BANANYA",
+      "AN",
+      "PRAVEEN",
+      "CHEVIN",
+      "LL"
+     ],
+     "team": [
+      "YI",
+      "ABHI",
+      "CHEVIN",
+      "PRAVEEN",
+      "BANANYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "YI"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "ABHI",
+    "CHEVIN",
+    "SEAN",
+    "YI",
+    "PRAVEEN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SEAN",
+      "CHEVIN",
+      "ABHI",
+      "BANANYA",
+      "YI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ABHI",
+      "SEAN"
+     ],
+     "proposer": "SEAN"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHEVIN",
+      "ABHI",
+      "SEAN",
+      "YI",
+      "PRAVEEN"
+     ],
+     "votes": [
+      "PRAVEEN",
+      "ABHI",
+      "CHEVIN",
+      "SEAN"
+     ],
+     "proposer": "CHEVIN"
+    },
+    {
+     "proposer": "BANANYA",
+     "team": [
+      "BANANYA",
+      "ABHI",
+      "CHEVIN",
+      "YI",
+      "PRAVEEN"
+     ],
+     "votes": [
+      "BANANYA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ABHI",
+      "YI",
+      "SEAN",
+      "PRAVEEN",
+      "CHEVIN"
+     ],
+     "proposer": "ABHI",
+     "state": "APPROVED",
+     "team": [
+      "ABHI",
+      "CHEVIN",
+      "SEAN",
+      "YI",
+      "PRAVEEN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 5,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598077748,
+  "_nanoseconds": 464000000
+ },
+ "players": [
+  {
+   "name": "AN",
+   "uid": "fkS5ZYpOT3N3cgqn0bzao5y0aaY2"
+  },
+  {
+   "name": "LL",
+   "uid": "1bkbk09boMYSV5pWJPdUEBUELvf2"
+  },
+  {
+   "name": "PRAVEEN",
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2"
+  },
+  {
+   "name": "YI",
+   "uid": "hJeFLpAxnFMEypzHti9SffWE3px1"
+  },
+  {
+   "uid": "WQADefDBh7Prh3zmvSwKuztnx6k1",
+   "name": "SEAN"
+  },
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  },
+  {
+   "name": "BANANYA",
+   "uid": "k7iJX8HmWXVl64SNmDJrEj4avBr2"
+  },
+  {
+   "name": "ABHI",
+   "uid": "MI0IbEIEXiOR66Bpw355j1LO1er2"
+  }
+ ]
+}

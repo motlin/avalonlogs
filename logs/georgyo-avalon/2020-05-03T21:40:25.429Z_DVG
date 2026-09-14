@@ -1,0 +1,273 @@
+{
+ "players": [
+  {
+   "uid": "Y6Xqb1CQemTE7xp0SKceH3ABCMw2",
+   "name": "LEDA"
+  },
+  {
+   "name": "ILARIA",
+   "uid": "Q5GLJ1bjkRbmnWJT5ciyXvGKN932"
+  },
+  {
+   "uid": "RUOSsj8pjBVhNXEJPrP5O8UdXBk2",
+   "name": "PADREPIOTV"
+  },
+  {
+   "uid": "zoK2rbD76yX8TyD2O9r6oisA7sB2",
+   "name": "TABI"
+  },
+  {
+   "uid": "aV7mNIvfi8NvQNn0InKbudh7btT2",
+   "name": "CALVOKLEIN"
+  },
+  {
+   "uid": "07by38pTuBO6QYuOSL7olKfFrC62",
+   "name": "DADOKILL"
+  },
+  {
+   "uid": "SnBBkyBzVOVDl0nxM565VseFPi73",
+   "name": "ZAZA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588542950,
+  "_nanoseconds": 105000000
+ },
+ "timeCreated": {
+  "_seconds": 1588542025,
+  "_nanoseconds": 429000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "PADREPIOTV": true,
+    "CALVOKLEIN": false
+   },
+   {
+    "LEDA": true,
+    "PADREPIOTV": true,
+    "DADOKILL": true
+   },
+   {
+    "LEDA": true,
+    "ZAZA": true,
+    "ILARIA": true
+   },
+   {
+    "ZAZA": true,
+    "ILARIA": true,
+    "LEDA": true,
+    "PADREPIOTV": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "PADREPIOTV",
+  "roles": [
+   {
+    "name": "CALVOKLEIN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "DADOKILL",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ZAZA",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LEDA",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PADREPIOTV"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ILARIA"
+   },
+   {
+    "name": "TABI",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ILARIA",
+     "team": [
+      "PADREPIOTV",
+      "CALVOKLEIN"
+     ],
+     "votes": [
+      "CALVOKLEIN",
+      "ZAZA",
+      "LEDA",
+      "ILARIA",
+      "TABI"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "PADREPIOTV",
+    "CALVOKLEIN"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "PADREPIOTV",
+    "DADOKILL",
+    "LEDA"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ILARIA",
+      "CALVOKLEIN",
+      "DADOKILL"
+     ],
+     "proposer": "PADREPIOTV",
+     "votes": [
+      "DADOKILL",
+      "ILARIA",
+      "TABI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "DADOKILL",
+      "ZAZA",
+      "PADREPIOTV"
+     ],
+     "proposer": "TABI",
+     "votes": [
+      "DADOKILL",
+      "ZAZA",
+      "TABI"
+     ]
+    },
+    {
+     "team": [
+      "CALVOKLEIN",
+      "LEDA",
+      "ZAZA"
+     ],
+     "proposer": "CALVOKLEIN",
+     "state": "REJECTED",
+     "votes": [
+      "CALVOKLEIN",
+      "ZAZA",
+      "TABI"
+     ]
+    },
+    {
+     "proposer": "DADOKILL",
+     "team": [
+      "PADREPIOTV",
+      "DADOKILL",
+      "LEDA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LEDA",
+      "PADREPIOTV",
+      "TABI",
+      "DADOKILL"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ZAZA",
+    "LEDA",
+    "ILARIA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ZAZA",
+     "team": [
+      "ZAZA",
+      "LEDA",
+      "ILARIA"
+     ],
+     "votes": [
+      "CALVOKLEIN",
+      "ZAZA",
+      "LEDA",
+      "ILARIA",
+      "TABI"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LEDA",
+      "PADREPIOTV",
+      "ILARIA",
+      "CALVOKLEIN",
+      "ZAZA"
+     ],
+     "team": [
+      "LEDA",
+      "ILARIA",
+      "ZAZA",
+      "PADREPIOTV"
+     ],
+     "proposer": "LEDA"
+    }
+   ],
+   "team": [
+    "LEDA",
+    "ILARIA",
+    "ZAZA",
+    "PADREPIOTV"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ]
+}

@@ -1,0 +1,226 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "JAMES"
+   },
+   {
+    "assassin": false,
+    "name": "NPS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "ARI",
+    "assassin": false
+   },
+   {
+    "name": "HAHN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "OLIVIA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MINHCHAU"
+   }
+  ],
+  "assassinated": "OLIVIA",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "NPS": true,
+    "MINHCHAU": true
+   },
+   {
+    "NPS": true,
+    "HAHN": true,
+    "MINHCHAU": true
+   },
+   {
+    "HAHN": true,
+    "NPS": true,
+    "ARI": false,
+    "MINHCHAU": true
+   },
+   {
+    "HAHN": true,
+    "MINHCHAU": true,
+    "NPS": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "players": [
+  {
+   "name": "JAMES",
+   "uid": "liTXGBqdAWcXM98E01pTMJAL7h83"
+  },
+  {
+   "uid": "NJ5s3UaRXdc8BkMlj1sI9R1wIuc2",
+   "name": "MINHCHAU"
+  },
+  {
+   "name": "HAHN",
+   "uid": "eITHkdsh5hSINAPjgoZcp4FXhkF2"
+  },
+  {
+   "name": "ARI",
+   "uid": "s0HGk6EDBnUwWSwD6oAkCFhyGMr1"
+  },
+  {
+   "name": "OLIVIA",
+   "uid": "rWFiGJYp74gA7oua9rQysmscFYJ3"
+  },
+  {
+   "name": "NPS",
+   "uid": "eoe4hYHljjMFneLPXXsvEaUCqU23"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593311777,
+  "_nanoseconds": 702000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "MINHCHAU",
+      "NPS"
+     ],
+     "state": "APPROVED",
+     "proposer": "MINHCHAU",
+     "votes": [
+      "ARI",
+      "HAHN",
+      "OLIVIA",
+      "MINHCHAU",
+      "JAMES",
+      "NPS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "MINHCHAU",
+    "NPS"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "MINHCHAU",
+    "NPS",
+    "HAHN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ARI",
+      "HAHN",
+      "OLIVIA",
+      "MINHCHAU",
+      "JAMES",
+      "NPS"
+     ],
+     "proposer": "HAHN",
+     "state": "APPROVED",
+     "team": [
+      "MINHCHAU",
+      "NPS",
+      "HAHN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ARI",
+    "HAHN",
+    "MINHCHAU",
+    "NPS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ARI",
+      "HAHN",
+      "MINHCHAU",
+      "NPS"
+     ],
+     "proposer": "ARI",
+     "votes": [
+      "HAHN",
+      "OLIVIA",
+      "MINHCHAU",
+      "JAMES",
+      "ARI"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "MINHCHAU",
+      "NPS",
+      "HAHN"
+     ],
+     "state": "APPROVED",
+     "proposer": "OLIVIA",
+     "votes": [
+      "JAMES",
+      "NPS",
+      "ARI",
+      "HAHN",
+      "OLIVIA",
+      "MINHCHAU"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "MINHCHAU",
+    "NPS",
+    "HAHN"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593311250,
+  "_nanoseconds": 122000000
+ }
+}

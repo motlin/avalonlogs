@@ -1,0 +1,217 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1598391434,
+  "_nanoseconds": 77000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "QUIM",
+    "EMROSE"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "EMROSE",
+     "team": [
+      "QUIM",
+      "EMROSE"
+     ],
+     "votes": [
+      "ANNA",
+      "EMROSE",
+      "ANGUS",
+      "TOM",
+      "QUIM"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "ANNA",
+    "QUIM",
+    "ANGUS"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANNA",
+      "QUIM",
+      "ANGUS"
+     ],
+     "votes": [
+      "ANGUS",
+      "ANNA",
+      "EMROSE",
+      "QUIM"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANNA"
+    }
+   ]
+  },
+  {
+   "team": [
+    "TOM",
+    "ANNA"
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "TOM",
+     "team": [
+      "TOM",
+      "ANNA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "QUIM",
+      "EMROSE",
+      "TOM"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "QUIM",
+    "ANGUS",
+    "TOM"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANGUS",
+      "ANNA",
+      "QUIM"
+     ],
+     "votes": [
+      "ANNA",
+      "ANGUS"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANGUS"
+    },
+    {
+     "votes": [
+      "TOM",
+      "QUIM",
+      "ANGUS",
+      "EMROSE"
+     ],
+     "team": [
+      "QUIM",
+      "ANGUS",
+      "TOM"
+     ],
+     "proposer": "QUIM",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "EMROSE": false,
+    "QUIM": true
+   },
+   {
+    "ANGUS": true,
+    "QUIM": true,
+    "ANNA": true
+   },
+   {
+    "TOM": false,
+    "ANNA": true
+   },
+   {
+    "QUIM": true,
+    "ANGUS": true,
+    "TOM": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "ANGUS",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "ANNA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "QUIM"
+   },
+   {
+    "name": "EMROSE",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "TOM"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1598391948,
+  "_nanoseconds": 768000000
+ },
+ "players": [
+  {
+   "uid": "p77jTIdrcKeIntD6HbDl0ZDpiQx2",
+   "name": "TOM"
+  },
+  {
+   "uid": "aHK4G29y7WPRTYwAKQXPhjvoRCr1",
+   "name": "ANGUS"
+  },
+  {
+   "uid": "uUf9wrCxgaN8hzazHS2Na4T8dPs2",
+   "name": "QUIM"
+  },
+  {
+   "name": "EMROSE",
+   "uid": "q7Hc5ZxprocXH4PMYLLm6N1NZWw1"
+  },
+  {
+   "uid": "KwkjBurWakhREmvyWDjRi3d2ti32",
+   "name": "ANNA"
+  }
+ ]
+}

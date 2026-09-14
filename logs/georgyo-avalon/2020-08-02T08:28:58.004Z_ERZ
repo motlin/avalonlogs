@@ -1,0 +1,288 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "4bAp2tvw1qfQKQ4FIz5li6firWC3",
+   "name": "KIANOO"
+  },
+  {
+   "name": "HANDSOME",
+   "uid": "dhD0c8MAsgPqMD2PSLf03WXLdin2"
+  },
+  {
+   "uid": "TPGCTkxK7mM3XTfgADQmZRpwdEB3",
+   "name": "SERENE"
+  },
+  {
+   "name": "GAYET",
+   "uid": "1Dc383uoghPJjvSlo5UvZpQvc3S2"
+  },
+  {
+   "name": "GELO",
+   "uid": "7XG2JFug7aMxpyhcvGMmOCAZ6xn1"
+  },
+  {
+   "name": "PAU",
+   "uid": "jntVUmC5hmTRAxgiNDlu5AU7ngu1"
+  },
+  {
+   "uid": "JBv8eYLV3ZfiiCxpPXX7EtL7ozF2",
+   "name": "LYKS"
+  },
+  {
+   "name": "ALYY",
+   "uid": "aFDsqazrXtWg4Wcr34YbHp8D9gI2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596357211,
+  "_nanoseconds": 315000000
+ },
+ "timeCreated": {
+  "_seconds": 1596356938,
+  "_nanoseconds": 4000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "ALYY",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SERENE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "HANDSOME",
+    "role": "MORGANA"
+   },
+   {
+    "name": "GELO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LYKS",
+    "role": "MORDRED"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "KIANOO",
+    "assassin": false
+   },
+   {
+    "name": "GAYET",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PAU",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "ALYY",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "PAU": true,
+    "GELO": true,
+    "LYKS": true
+   },
+   {
+    "ALYY": true,
+    "PAU": true,
+    "GELO": true,
+    "LYKS": true
+   },
+   {
+    "ALYY": true,
+    "LYKS": false,
+    "GELO": true,
+    "PAU": true
+   },
+   {
+    "ALYY": true,
+    "SERENE": true,
+    "PAU": true,
+    "HANDSOME": true,
+    "GELO": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "GELO",
+    "PAU",
+    "LYKS"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "GELO",
+      "PAU",
+      "LYKS"
+     ],
+     "votes": [
+      "GELO",
+      "PAU",
+      "GAYET",
+      "SERENE",
+      "LYKS",
+      "HANDSOME",
+      "ALYY",
+      "KIANOO"
+     ],
+     "proposer": "ALYY",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "PAU",
+    "LYKS",
+    "ALYY",
+    "GELO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KIANOO"
+     ],
+     "team": [
+      "KIANOO",
+      "HANDSOME",
+      "PAU",
+      "ALYY"
+     ],
+     "state": "REJECTED",
+     "proposer": "KIANOO"
+    },
+    {
+     "team": [
+      "PAU",
+      "LYKS",
+      "ALYY",
+      "GELO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SERENE",
+      "PAU",
+      "ALYY",
+      "GELO",
+      "HANDSOME",
+      "LYKS"
+     ],
+     "proposer": "HANDSOME"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PAU",
+      "SERENE",
+      "LYKS",
+      "HANDSOME",
+      "GAYET",
+      "GELO",
+      "ALYY"
+     ],
+     "state": "APPROVED",
+     "proposer": "SERENE",
+     "team": [
+      "GELO",
+      "PAU",
+      "LYKS",
+      "ALYY"
+     ]
+    }
+   ],
+   "team": [
+    "GELO",
+    "PAU",
+    "LYKS",
+    "ALYY"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "GAYET",
+      "LYKS"
+     ],
+     "team": [
+      "LYKS",
+      "HANDSOME",
+      "GELO",
+      "SERENE",
+      "ALYY"
+     ],
+     "proposer": "GAYET"
+    },
+    {
+     "team": [
+      "GELO",
+      "PAU",
+      "ALYY",
+      "SERENE",
+      "HANDSOME"
+     ],
+     "votes": [
+      "LYKS",
+      "GAYET",
+      "ALYY",
+      "GELO",
+      "PAU",
+      "HANDSOME"
+     ],
+     "state": "APPROVED",
+     "proposer": "GELO"
+    }
+   ],
+   "team": [
+    "GELO",
+    "PAU",
+    "ALYY",
+    "SERENE",
+    "HANDSOME"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 5,
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ]
+}

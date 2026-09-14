@@ -1,0 +1,258 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JPAN",
+   "uid": "Tfkds28SE7OCuA5NCxdwN4QDZ1g1"
+  },
+  {
+   "name": "SIDDHANT",
+   "uid": "BOfgQoFuXVcasobc5ELL1WmBERS2"
+  },
+  {
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83",
+   "name": "WILL"
+  },
+  {
+   "name": "MAL",
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62"
+  },
+  {
+   "name": "NIKKI",
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743"
+  },
+  {
+   "name": "KENNY",
+   "uid": "V2KfteaM2obh7vvdP96tqZfsKFY2"
+  },
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SIDDHANT": true,
+    "JPAN": true
+   },
+   {
+    "SIDDHANT": true,
+    "JPAN": true,
+    "WILL": false
+   },
+   {
+    "JPAN": true,
+    "SIDDHANT": true,
+    "MAL": true
+   },
+   {
+    "MAL": false,
+    "JPAN": true,
+    "SIDDHANT": true,
+    "NIKKI": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "WILL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MAL"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JERRY"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "KENNY"
+   },
+   {
+    "name": "JPAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "NIKKI",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SIDDHANT",
+    "assassin": false
+   }
+  ],
+  "assassinated": "SIDDHANT"
+ },
+ "timeFinished": {
+  "_seconds": 1593833886,
+  "_nanoseconds": 34000000
+ },
+ "timeCreated": {
+  "_seconds": 1593833026,
+  "_nanoseconds": 924000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KENNY",
+      "WILL"
+     ],
+     "proposer": "JERRY",
+     "team": [
+      "JPAN",
+      "JERRY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JPAN",
+     "state": "REJECTED",
+     "votes": [
+      "KENNY",
+      "JPAN",
+      "MAL"
+     ],
+     "team": [
+      "JPAN",
+      "NIKKI"
+     ]
+    },
+    {
+     "team": [
+      "SIDDHANT",
+      "JPAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "KENNY",
+      "JPAN",
+      "SIDDHANT",
+      "WILL"
+     ],
+     "proposer": "SIDDHANT"
+    }
+   ],
+   "team": [
+    "SIDDHANT",
+    "JPAN"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "WILL",
+    "SIDDHANT",
+    "JPAN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "SIDDHANT",
+      "WILL",
+      "JERRY",
+      "KENNY",
+      "JPAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "WILL",
+     "team": [
+      "WILL",
+      "SIDDHANT",
+      "JPAN"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MAL",
+    "SIDDHANT",
+    "JPAN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MAL",
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "KENNY",
+      "JPAN",
+      "SIDDHANT"
+     ],
+     "team": [
+      "MAL",
+      "SIDDHANT",
+      "JPAN"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "JERRY",
+      "KENNY",
+      "JPAN",
+      "SIDDHANT"
+     ],
+     "team": [
+      "NIKKI",
+      "JPAN",
+      "SIDDHANT",
+      "MAL"
+     ],
+     "proposer": "NIKKI"
+    }
+   ],
+   "team": [
+    "NIKKI",
+    "JPAN",
+    "SIDDHANT",
+    "MAL"
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

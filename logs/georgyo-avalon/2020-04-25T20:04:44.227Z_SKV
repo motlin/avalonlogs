@@ -1,0 +1,254 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SANJAY"
+   },
+   {
+    "assassin": true,
+    "name": "BHATLA",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "ADNAAN",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "VK"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MUSKITEER"
+   },
+   {
+    "name": "RAMU",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "MUSKITEER": true,
+    "VK": true
+   },
+   {
+    "VK": true,
+    "RAMU": false,
+    "MUSKITEER": true
+   },
+   {
+    "BHATLA": false,
+    "SANJAY": true,
+    "ADNAAN": true,
+    "VK": true
+   },
+   {
+    "MUSKITEER": true,
+    "SANJAY": true,
+    "ADNAAN": true
+   },
+   {
+    "SANJAY": true,
+    "ADNAAN": true,
+    "MUSKITEER": true,
+    "VK": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "SANJAY",
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1587845848,
+  "_nanoseconds": 984000000
+ },
+ "players": [
+  {
+   "name": "VK",
+   "uid": "1lTtJDSz1eZdOrfJMqn45PFETMH2"
+  },
+  {
+   "name": "MUSKITEER",
+   "uid": "VFJ0hFkgYXVA6KZCz5Xw3aUjweC2"
+  },
+  {
+   "uid": "0zbOqjICfJfO48I1P8yufYz3UXF3",
+   "name": "RAMU"
+  },
+  {
+   "uid": "ey8idj5HLGOtnvuypH2nqw6TGOA3",
+   "name": "SANJAY"
+  },
+  {
+   "name": "BHATLA",
+   "uid": "9c9NGzycawRKrKBEs335OQpfvxu2"
+  },
+  {
+   "name": "ADNAAN",
+   "uid": "8RM8ZeiswVTroTST2gWJSXOzbMP2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587845084,
+  "_nanoseconds": 227000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "MUSKITEER",
+      "VK"
+     ],
+     "proposer": "MUSKITEER",
+     "state": "APPROVED",
+     "votes": [
+      "VK",
+      "MUSKITEER",
+      "RAMU",
+      "SANJAY",
+      "BHATLA",
+      "ADNAAN"
+     ]
+    }
+   ],
+   "team": [
+    "MUSKITEER",
+    "VK"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "RAMU",
+    "MUSKITEER",
+    "VK"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ADNAAN",
+      "VK",
+      "MUSKITEER",
+      "RAMU",
+      "SANJAY",
+      "BHATLA"
+     ],
+     "team": [
+      "RAMU",
+      "MUSKITEER",
+      "VK"
+     ],
+     "proposer": "RAMU"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SANJAY",
+     "votes": [
+      "ADNAAN",
+      "VK",
+      "MUSKITEER",
+      "SANJAY",
+      "BHATLA"
+     ],
+     "team": [
+      "SANJAY",
+      "ADNAAN",
+      "BHATLA",
+      "VK"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "SANJAY",
+    "ADNAAN",
+    "BHATLA",
+    "VK"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MUSKITEER",
+      "SANJAY",
+      "BHATLA",
+      "ADNAAN",
+      "VK"
+     ],
+     "team": [
+      "ADNAAN",
+      "MUSKITEER",
+      "SANJAY"
+     ],
+     "state": "APPROVED",
+     "proposer": "BHATLA"
+    }
+   ],
+   "team": [
+    "ADNAAN",
+    "MUSKITEER",
+    "SANJAY"
+   ]
+  },
+  {
+   "team": [
+    "ADNAAN",
+    "SANJAY",
+    "MUSKITEER",
+    "VK"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ADNAAN",
+      "SANJAY",
+      "MUSKITEER",
+      "VK"
+     ],
+     "votes": [
+      "SANJAY",
+      "ADNAAN",
+      "VK",
+      "MUSKITEER"
+     ],
+     "proposer": "ADNAAN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

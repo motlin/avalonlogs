@@ -1,0 +1,305 @@
+{
+ "timeFinished": {
+  "_seconds": 1589138212,
+  "_nanoseconds": 452000000
+ },
+ "players": [
+  {
+   "name": "JW",
+   "uid": "XHzBsHkuPjZlHqJTr62Q91UbfUe2"
+  },
+  {
+   "name": "XIAO",
+   "uid": "wguKKm8G8dVFMrObcuWAF49yzvJ3"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "IoolRV7g9POaY9YZiusS7G2TPiF3"
+  },
+  {
+   "uid": "SSLXuM9NWZTeQlNQq6KVoqzolKX2",
+   "name": "JJHH"
+  },
+  {
+   "uid": "PthEpJ8NWOhglI0OBxOO4u6yhjc2",
+   "name": "KZ"
+  },
+  {
+   "name": "DONURDTRUM",
+   "uid": "0vN2j9DLEiPKFVsfdD0kZvPbmio2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589137324,
+  "_nanoseconds": 96000000
+ },
+ "outcome": {
+  "assassinated": "XIAO",
+  "votes": [
+   {
+    "XIAO": true,
+    "JW": true
+   },
+   {
+    "XIAO": true,
+    "JW": true,
+    "DONURDTRUM": true
+   },
+   {
+    "XIAO": true,
+    "CHRIS": true,
+    "DONURDTRUM": false,
+    "JW": true
+   },
+   {
+    "XIAO": true,
+    "DONURDTRUM": false,
+    "JJHH": true
+   },
+   {
+    "XIAO": true,
+    "JW": true,
+    "JJHH": true,
+    "CHRIS": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JJHH"
+   },
+   {
+    "name": "KZ",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "XIAO",
+    "assassin": false
+   },
+   {
+    "name": "CHRIS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JW",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "DONURDTRUM"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "XIAO",
+    "JW"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "XIAO",
+      "JW"
+     ],
+     "votes": [
+      "CHRIS",
+      "JW",
+      "DONURDTRUM",
+      "JJHH",
+      "KZ",
+      "XIAO"
+     ],
+     "proposer": "KZ"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "JW",
+    "XIAO",
+    "DONURDTRUM"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JW",
+      "DONURDTRUM",
+      "JJHH",
+      "CHRIS"
+     ],
+     "team": [
+      "JW",
+      "XIAO",
+      "DONURDTRUM"
+     ],
+     "proposer": "DONURDTRUM",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "JW",
+    "XIAO",
+    "DONURDTRUM",
+    "CHRIS"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "JW",
+      "XIAO",
+      "DONURDTRUM",
+      "CHRIS"
+     ],
+     "votes": [
+      "JW",
+      "DONURDTRUM",
+      "JJHH",
+      "CHRIS"
+     ],
+     "state": "APPROVED",
+     "proposer": "JW"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "DONURDTRUM",
+    "JJHH",
+    "XIAO"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "XIAO",
+     "team": [
+      "CHRIS",
+      "XIAO",
+      "JW"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "XIAO",
+      "JW"
+     ]
+    },
+    {
+     "votes": [
+      "CHRIS",
+      "KZ"
+     ],
+     "proposer": "CHRIS",
+     "state": "REJECTED",
+     "team": [
+      "CHRIS",
+      "KZ",
+      "DONURDTRUM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JJHH",
+      "KZ",
+      "JW"
+     ],
+     "team": [
+      "JJHH",
+      "XIAO",
+      "JW"
+     ],
+     "proposer": "JJHH"
+    },
+    {
+     "proposer": "KZ",
+     "team": [
+      "KZ",
+      "DONURDTRUM",
+      "JW"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KZ"
+     ]
+    },
+    {
+     "team": [
+      "DONURDTRUM",
+      "JJHH",
+      "XIAO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DONURDTRUM",
+      "JJHH",
+      "XIAO",
+      "CHRIS",
+      "JW"
+     ],
+     "proposer": "DONURDTRUM"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JJHH",
+      "KZ",
+      "XIAO",
+      "CHRIS",
+      "JW",
+      "DONURDTRUM"
+     ],
+     "proposer": "JW",
+     "state": "APPROVED",
+     "team": [
+      "JW",
+      "XIAO",
+      "JJHH",
+      "CHRIS"
+     ]
+    }
+   ],
+   "team": [
+    "JW",
+    "XIAO",
+    "JJHH",
+    "CHRIS"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

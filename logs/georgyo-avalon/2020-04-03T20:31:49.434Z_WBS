@@ -1,0 +1,174 @@
+{
+ "players": [
+  {
+   "name": "PEPE",
+   "uid": "AnDajbNJ9TRPHsaSYPCWotFk7Pt1"
+  },
+  {
+   "name": "ANNA",
+   "uid": "hmAO9VGgcDhH2KGzXJ5Dp9Ni1kd2"
+  },
+  {
+   "name": "ANETT",
+   "uid": "mDcKOPNZI2gRT1NNY51zGKj5B9X2"
+  },
+  {
+   "name": "DORKU",
+   "uid": "r5oVenvaHQe8FwKeT9F3om2XkhI3"
+  },
+  {
+   "uid": "2az83usmhpZvZeRIVN5dLoajft22",
+   "name": "GABIPUKI"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585946528,
+  "_nanoseconds": 193161000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "GABIPUKI": false,
+    "DORKU": true
+   },
+   {
+    "PEPE": true,
+    "ANETT": true,
+    "ANNA": false
+   },
+   {
+    "ANETT": true,
+    "ANNA": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "PEPE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANETT",
+    "assassin": false
+   },
+   {
+    "name": "GABIPUKI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "DORKU"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "ANNA"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DORKU",
+    "GABIPUKI"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "PEPE",
+      "ANETT",
+      "GABIPUKI",
+      "DORKU",
+      "ANNA"
+     ],
+     "proposer": "ANETT",
+     "team": [
+      "DORKU",
+      "GABIPUKI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "PEPE",
+      "ANNA",
+      "ANETT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "PEPE",
+      "GABIPUKI",
+      "DORKU"
+     ],
+     "proposer": "DORKU"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "PEPE",
+    "ANNA",
+    "ANETT"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ANNA",
+      "ANETT"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANETT",
+      "GABIPUKI",
+      "DORKU"
+     ],
+     "proposer": "GABIPUKI"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 1,
+   "team": [
+    "ANNA",
+    "ANETT"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 3
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585945909,
+  "_nanoseconds": 434000000
+ }
+}

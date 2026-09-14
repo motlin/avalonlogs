@@ -1,0 +1,232 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JOE",
+      "ADI",
+      "DCK",
+      "FIGS",
+      "HACKERMAN",
+      "DRSUES"
+     ],
+     "proposer": "HACKERMAN",
+     "team": [
+      "HACKERMAN",
+      "DCK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "HACKERMAN",
+    "DCK"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "DCK",
+    "HACKERMAN",
+    "NOODLE"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "DCK",
+      "HACKERMAN",
+      "NOODLE"
+     ],
+     "proposer": "NOODLE",
+     "votes": [
+      "JOE",
+      "DCK",
+      "NOODLE",
+      "ADI",
+      "HACKERMAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "DRSUES",
+    "DCK",
+    "JOE"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "FIGS",
+     "state": "APPROVED",
+     "votes": [
+      "FIGS",
+      "DRSUES",
+      "ADI",
+      "HACKERMAN",
+      "JOE"
+     ],
+     "team": [
+      "DRSUES",
+      "DCK",
+      "JOE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "DRSUES",
+    "JOE",
+    "NOODLE",
+    "ADI"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JOE",
+      "FIGS",
+      "DRSUES",
+      "NOODLE"
+     ],
+     "team": [
+      "DRSUES",
+      "JOE",
+      "NOODLE",
+      "ADI"
+     ],
+     "proposer": "ADI"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "DCK": true,
+    "HACKERMAN": true
+   },
+   {
+    "HACKERMAN": true,
+    "NOODLE": true,
+    "DCK": true
+   },
+   {
+    "DRSUES": true,
+    "DCK": true,
+    "JOE": false
+   },
+   {
+    "JOE": true,
+    "NOODLE": true,
+    "ADI": false,
+    "DRSUES": true
+   }
+  ],
+  "assassinated": "DCK",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "DRSUES",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "HACKERMAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "NOODLE"
+   },
+   {
+    "name": "ADI",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DCK"
+   },
+   {
+    "assassin": true,
+    "name": "JOE",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORDRED",
+    "name": "FIGS",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1603870873,
+  "_nanoseconds": 970000000
+ },
+ "timeFinished": {
+  "_seconds": 1603871605,
+  "_nanoseconds": 210000000
+ },
+ "players": [
+  {
+   "name": "DRSUES",
+   "uid": "aoQvgG3wE6c0b1xmTJthRZs5E433"
+  },
+  {
+   "uid": "LsOPIDutBjeOViCFdOmRkLW41rO2",
+   "name": "DCK"
+  },
+  {
+   "uid": "0YsHalsK4CdQUEd5v3NVEReueUl2",
+   "name": "JOE"
+  },
+  {
+   "name": "HACKERMAN",
+   "uid": "wpPGNSPz74eHRIaCoXH7yJFbZZi2"
+  },
+  {
+   "uid": "JF29xxedXdU6FbYhZOVJdL7P29h2",
+   "name": "NOODLE"
+  },
+  {
+   "name": "FIGS",
+   "uid": "6qHXJfFk3BTz25U7KK0iATSz0RJ2"
+  },
+  {
+   "name": "ADI",
+   "uid": "SxpZ8P4uJecJuGNKp5kp6SzyD6m1"
+  }
+ ]
+}

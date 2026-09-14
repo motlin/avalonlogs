@@ -1,0 +1,271 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "AA": true,
+    "INEEN": true
+   },
+   {
+    "IMRAN": true,
+    "AA": true,
+    "INEEN": true
+   },
+   {
+    "AA": true,
+    "INEEN": false,
+    "TOMA": true
+   },
+   {
+    "MAHJABIN": true,
+    "AA": true,
+    "IMRAN": false,
+    "INEEN": false
+   },
+   {
+    "MAHJABIN": true,
+    "AA": true,
+    "TOMA": true,
+    "AVI": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "AVI",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AVI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "INEEN",
+    "role": "MORDRED"
+   },
+   {
+    "name": "IMRAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "TOMA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SONGJUKTA",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "AA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MAHJABIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1592703662,
+  "_nanoseconds": 757000000
+ },
+ "timeCreated": {
+  "_seconds": 1592703255,
+  "_nanoseconds": 174000000
+ },
+ "players": [
+  {
+   "uid": "YLnDKOrzU6NugJSFU5E5mMrYVQu2",
+   "name": "AVI"
+  },
+  {
+   "uid": "bKiR8EgWCwgWW7HU9qDCrf1Q4ri2",
+   "name": "SONGJUKTA"
+  },
+  {
+   "name": "INEEN",
+   "uid": "oUuVx0unYDYJPIWvy6eWyvUIJLr2"
+  },
+  {
+   "name": "AA",
+   "uid": "T8TBgABkCROGa6xcOmjPKh48v8G3"
+  },
+  {
+   "uid": "J6QwGwc3LlTGO4hAd4CapnEWFzs2",
+   "name": "IMRAN"
+  },
+  {
+   "uid": "di3aCL7cOdcTrvxZLLcjlBPB3Aw2",
+   "name": "TOMA"
+  },
+  {
+   "uid": "t3EWHhU8LJM2uWw9jd545etTjNR2",
+   "name": "MAHJABIN"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "AA",
+     "team": [
+      "AA",
+      "INEEN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "IMRAN",
+      "TOMA",
+      "SONGJUKTA",
+      "AA",
+      "MAHJABIN",
+      "AVI",
+      "INEEN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "AA",
+    "INEEN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "IMRAN",
+    "AA",
+    "INEEN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "IMRAN",
+      "AA",
+      "INEEN"
+     ],
+     "votes": [
+      "AVI",
+      "INEEN",
+      "IMRAN",
+      "TOMA",
+      "SONGJUKTA",
+      "AA",
+      "MAHJABIN"
+     ],
+     "proposer": "IMRAN"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "TOMA",
+    "INEEN",
+    "AA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "TOMA",
+     "votes": [
+      "AA",
+      "MAHJABIN",
+      "AVI",
+      "INEEN",
+      "IMRAN",
+      "TOMA",
+      "SONGJUKTA"
+     ],
+     "team": [
+      "TOMA",
+      "INEEN",
+      "AA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MAHJABIN",
+     "team": [
+      "MAHJABIN",
+      "AA",
+      "INEEN",
+      "IMRAN"
+     ],
+     "votes": [
+      "INEEN",
+      "IMRAN",
+      "SONGJUKTA",
+      "AA",
+      "MAHJABIN",
+      "AVI"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 2,
+   "team": [
+    "MAHJABIN",
+    "AA",
+    "INEEN",
+    "IMRAN"
+   ],
+   "numFails": 2,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "AA",
+    "AVI",
+    "TOMA",
+    "MAHJABIN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "INEEN",
+      "IMRAN",
+      "TOMA",
+      "SONGJUKTA",
+      "AA",
+      "MAHJABIN",
+      "AVI"
+     ],
+     "proposer": "AVI",
+     "state": "APPROVED",
+     "team": [
+      "AA",
+      "AVI",
+      "TOMA",
+      "MAHJABIN"
+     ]
+    }
+   ]
+  }
+ ]
+}

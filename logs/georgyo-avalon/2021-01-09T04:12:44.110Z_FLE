@@ -1,0 +1,228 @@
+{
+ "players": [
+  {
+   "name": "GRON",
+   "uid": "slRZjvtsIbZv5eBOK1IvYtSFVYw2"
+  },
+  {
+   "uid": "7JJdf1z8NfOcLVk2Z1ZtOtMOk6j1",
+   "name": "YANNINI"
+  },
+  {
+   "uid": "iJqRXsAVRWUnDhBYYNtOGcIrqgr1",
+   "name": "IMVERYSAD"
+  },
+  {
+   "name": "EVIL",
+   "uid": "5hGLg7W9nIZHya7gBMiSQ0Jy7CP2"
+  },
+  {
+   "uid": "rHuCLP3dOGPku2VwY9KAlLsUVbe2",
+   "name": "DANDO"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "DANDO",
+    "YANNINI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DANDO",
+      "YANNINI"
+     ],
+     "votes": [
+      "IMVERYSAD",
+      "DANDO",
+      "YANNINI",
+      "EVIL",
+      "GRON"
+     ],
+     "proposer": "DANDO"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "YANNINI",
+      "GRON",
+      "DANDO"
+     ],
+     "team": [
+      "GRON",
+      "YANNINI",
+      "DANDO"
+     ],
+     "state": "APPROVED",
+     "proposer": "GRON"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "GRON",
+    "YANNINI",
+    "DANDO"
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "EVIL",
+      "IMVERYSAD",
+      "YANNINI",
+      "DANDO"
+     ],
+     "team": [
+      "YANNINI",
+      "DANDO"
+     ],
+     "state": "APPROVED",
+     "proposer": "YANNINI"
+    }
+   ],
+   "team": [
+    "YANNINI",
+    "DANDO"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "IMVERYSAD",
+     "votes": [
+      "YANNINI",
+      "DANDO",
+      "IMVERYSAD"
+     ],
+     "team": [
+      "IMVERYSAD",
+      "YANNINI",
+      "DANDO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "IMVERYSAD",
+    "YANNINI",
+    "DANDO"
+   ],
+   "numFails": 2,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "EVIL",
+    "YANNINI",
+    "GRON"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "EVIL",
+      "YANNINI",
+      "GRON"
+     ],
+     "proposer": "EVIL",
+     "state": "APPROVED",
+     "votes": [
+      "EVIL",
+      "GRON",
+      "YANNINI"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "YANNINI",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "DANDO",
+    "assassin": false
+   },
+   {
+    "name": "IMVERYSAD",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EVIL"
+   },
+   {
+    "role": "MERLIN",
+    "name": "GRON",
+    "assassin": false
+   }
+  ],
+  "assassinated": "EVIL",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "DANDO": true,
+    "YANNINI": true
+   },
+   {
+    "YANNINI": true,
+    "DANDO": false,
+    "GRON": true
+   },
+   {
+    "DANDO": true,
+    "YANNINI": true
+   },
+   {
+    "IMVERYSAD": false,
+    "DANDO": false,
+    "YANNINI": true
+   },
+   {
+    "GRON": true,
+    "YANNINI": true,
+    "EVIL": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1610165564,
+  "_nanoseconds": 110000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1610166069,
+  "_nanoseconds": 914000000
+ }
+}

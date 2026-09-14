@@ -1,0 +1,242 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "MILEY": true,
+    "ALLIEE": true
+   },
+   {
+    "CRACKERS": true,
+    "JDAWG": true,
+    "ADAM": false
+   },
+   {
+    "MILEY": true,
+    "ALLIEE": true
+   },
+   {
+    "MILEY": true,
+    "ADAM": false,
+    "ALLIEE": true
+   },
+   {
+    "ALLIEE": true,
+    "MILEY": false,
+    "JDAWG": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "ALLIEE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "ADAM"
+   },
+   {
+    "assassin": false,
+    "name": "MILEY",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JDAWG"
+   },
+   {
+    "name": "CRACKERS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MILEY",
+    "ALLIEE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MILEY",
+      "ALLIEE"
+     ],
+     "proposer": "MILEY",
+     "votes": [
+      "MILEY",
+      "CRACKERS",
+      "ADAM",
+      "JDAWG",
+      "ALLIEE"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "JDAWG",
+    "CRACKERS",
+    "ADAM"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JDAWG",
+      "ALLIEE",
+      "ADAM",
+      "CRACKERS"
+     ],
+     "team": [
+      "JDAWG",
+      "CRACKERS",
+      "ADAM"
+     ],
+     "proposer": "JDAWG"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "MILEY",
+      "ALLIEE"
+     ],
+     "proposer": "ADAM",
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "JDAWG",
+      "ALLIEE",
+      "MILEY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MILEY",
+    "ALLIEE"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "ADAM",
+      "ALLIEE",
+      "MILEY"
+     ],
+     "team": [
+      "MILEY",
+      "ALLIEE",
+      "ADAM"
+     ],
+     "state": "APPROVED",
+     "proposer": "ALLIEE"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "MILEY",
+    "ALLIEE",
+    "ADAM"
+   ]
+  },
+  {
+   "team": [
+    "MILEY",
+    "JDAWG",
+    "ALLIEE"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "CRACKERS",
+     "team": [
+      "CRACKERS",
+      "ALLIEE",
+      "ADAM"
+     ],
+     "votes": [
+      "CRACKERS",
+      "ADAM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MILEY",
+      "ALLIEE",
+      "JDAWG"
+     ],
+     "state": "APPROVED",
+     "proposer": "MILEY",
+     "team": [
+      "MILEY",
+      "JDAWG",
+      "ALLIEE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1610749245,
+  "_nanoseconds": 49000000
+ },
+ "players": [
+  {
+   "name": "ADAM",
+   "uid": "h6fSDdSbnBPRDBbrZ9heftowqfq1"
+  },
+  {
+   "uid": "AQFYmu5q1GdbUH2vvG2OUKRheLI2",
+   "name": "ALLIEE"
+  },
+  {
+   "name": "CRACKERS",
+   "uid": "RQo5clMnTISUzfZPTNP45X6KiwX2"
+  },
+  {
+   "uid": "0kDAqxd4pigDzEOCReZblGq4LAV2",
+   "name": "MILEY"
+  },
+  {
+   "uid": "lbl8JewS5kfqvLMjEkm4qJh7QYU2",
+   "name": "JDAWG"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1610748599,
+  "_nanoseconds": 222000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

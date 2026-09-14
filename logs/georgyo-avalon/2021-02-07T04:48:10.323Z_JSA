@@ -1,0 +1,287 @@
+{
+ "timeFinished": {
+  "_seconds": 1612674449,
+  "_nanoseconds": 112000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CONNOR": true,
+    "KENMR": true,
+    "MARC": true
+   },
+   {
+    "KENMR": true,
+    "DREW": false,
+    "BART": true,
+    "BEN": true
+   },
+   {
+    "MARC": true,
+    "KENMR": true,
+    "CONNOR": true,
+    "ROSE": false
+   },
+   {
+    "CONNOR": true,
+    "DREW": false,
+    "KENMR": true,
+    "ROSE": false,
+    "BEN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KAYLA",
+    "role": "OBERON"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "BART",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "ROSE",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KENMR"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CONNOR"
+   },
+   {
+    "name": "DREW",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "BEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MARC",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "dt2w9QmarAVvbJ4XCHimhQKfOmU2",
+   "name": "BEN"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83"
+  },
+  {
+   "name": "BART",
+   "uid": "uiZHHxdYrThK7mcr6OLJQTcZBO73"
+  },
+  {
+   "uid": "pZe1H7oDY8TaLOIWNd8KWKbe0Dx1",
+   "name": "KAYLA"
+  },
+  {
+   "uid": "zL1yQUaXgiQeOAvdfIIxqqwqGS72",
+   "name": "KENMR"
+  },
+  {
+   "uid": "Kd9gvaBxtCO5a0I4MmewNknH2lZ2",
+   "name": "MARC"
+  },
+  {
+   "name": "DREW",
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1"
+  },
+  {
+   "name": "ROSE",
+   "uid": "uz4EJ59odwNGVS8HmsUJ9Utmj863"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1612673290,
+  "_nanoseconds": 323000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "CONNOR",
+    "KENMR",
+    "MARC"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CONNOR",
+      "KENMR",
+      "MARC"
+     ],
+     "proposer": "CONNOR",
+     "votes": [
+      "BART",
+      "KENMR",
+      "DREW",
+      "ROSE",
+      "MARC",
+      "KAYLA",
+      "CONNOR"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "BART",
+    "BEN",
+    "DREW",
+    "KENMR"
+   ],
+   "proposals": [
+    {
+     "proposer": "BART",
+     "state": "APPROVED",
+     "team": [
+      "BART",
+      "BEN",
+      "DREW",
+      "KENMR"
+     ],
+     "votes": [
+      "MARC",
+      "BEN",
+      "KENMR",
+      "BART",
+      "DREW",
+      "ROSE"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "KENMR",
+    "CONNOR",
+    "MARC",
+    "ROSE"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "KENMR",
+      "KAYLA",
+      "BEN"
+     ],
+     "team": [
+      "KAYLA",
+      "CONNOR",
+      "KENMR",
+      "MARC"
+     ],
+     "proposer": "KAYLA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DREW",
+      "CONNOR",
+      "ROSE",
+      "BEN",
+      "KENMR"
+     ],
+     "team": [
+      "KENMR",
+      "CONNOR",
+      "MARC",
+      "ROSE"
+     ],
+     "proposer": "KENMR"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "CONNOR",
+    "DREW",
+    "KENMR",
+    "BEN",
+    "ROSE"
+   ],
+   "proposals": [
+    {
+     "proposer": "MARC",
+     "team": [
+      "MARC",
+      "CONNOR",
+      "KENMR",
+      "DREW",
+      "BART"
+     ],
+     "votes": [
+      "BART",
+      "MARC"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BEN",
+      "MARC",
+      "KENMR",
+      "CONNOR",
+      "ROSE",
+      "DREW"
+     ],
+     "team": [
+      "CONNOR",
+      "DREW",
+      "KENMR",
+      "BEN",
+      "ROSE"
+     ],
+     "proposer": "DREW"
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 2,
+   "state": "FAIL",
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": []
+  }
+ ]
+}

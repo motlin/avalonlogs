@@ -1,0 +1,259 @@
+{
+ "players": [
+  {
+   "uid": "IDYe3GvfnTd0vDbbkH0p2pQyjj03",
+   "name": "SAGAR"
+  },
+  {
+   "uid": "PWiPmDbOWyS28LMLsrWBKFg2su82",
+   "name": "JASHU"
+  },
+  {
+   "name": "SHRIA",
+   "uid": "scvA0mKbCfV0VHSNYwWMYVHEIn73"
+  },
+  {
+   "name": "FULLMETAL",
+   "uid": "QAFACwIi5iVCSR30oBMKpafm07f1"
+  },
+  {
+   "name": "RAJESH",
+   "uid": "d7gRdnQA7eYOoe5FCKBwdKeuOo92"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587053403,
+  "_nanoseconds": 759000000
+ },
+ "timeFinished": {
+  "_seconds": 1587053679,
+  "_nanoseconds": 352959000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "FULLMETAL": true,
+    "JASHU": true
+   },
+   {
+    "SAGAR": true,
+    "JASHU": false,
+    "RAJESH": true
+   },
+   {
+    "JASHU": false,
+    "SAGAR": true
+   },
+   {
+    "FULLMETAL": true,
+    "RAJESH": true,
+    "SAGAR": true
+   },
+   {
+    "RAJESH": true,
+    "SAGAR": true,
+    "FULLMETAL": true
+   }
+  ],
+  "assassinated": "FULLMETAL",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "RAJESH",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "FULLMETAL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "JASHU",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "name": "SAGAR",
+    "assassin": false
+   },
+   {
+    "name": "SHRIA",
+    "assassin": false,
+    "role": "MORDRED"
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "FULLMETAL",
+    "JASHU"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAJESH",
+      "FULLMETAL",
+      "JASHU",
+      "SAGAR",
+      "SHRIA"
+     ],
+     "proposer": "FULLMETAL",
+     "team": [
+      "FULLMETAL",
+      "JASHU"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAJESH",
+      "FULLMETAL",
+      "JASHU",
+      "SAGAR",
+      "SHRIA"
+     ],
+     "proposer": "RAJESH",
+     "team": [
+      "SAGAR",
+      "RAJESH",
+      "JASHU"
+     ]
+    }
+   ],
+   "team": [
+    "SAGAR",
+    "RAJESH",
+    "JASHU"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JASHU",
+      "SAGAR",
+      "SHRIA"
+     ],
+     "team": [
+      "SAGAR",
+      "JASHU"
+     ],
+     "state": "APPROVED",
+     "proposer": "SAGAR"
+    }
+   ],
+   "team": [
+    "SAGAR",
+    "JASHU"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JASHU",
+      "SHRIA"
+     ],
+     "proposer": "JASHU",
+     "state": "REJECTED",
+     "team": [
+      "JASHU",
+      "SAGAR",
+      "FULLMETAL"
+     ]
+    },
+    {
+     "proposer": "SHRIA",
+     "votes": [
+      "SHRIA",
+      "JASHU"
+     ],
+     "team": [
+      "SHRIA",
+      "JASHU",
+      "SAGAR"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "FULLMETAL",
+      "RAJESH",
+      "SAGAR"
+     ],
+     "votes": [
+      "RAJESH",
+      "FULLMETAL",
+      "JASHU",
+      "SAGAR",
+      "SHRIA"
+     ],
+     "proposer": "FULLMETAL",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "FULLMETAL",
+    "RAJESH",
+    "SAGAR"
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "SAGAR",
+    "FULLMETAL",
+    "RAJESH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RAJESH",
+      "FULLMETAL",
+      "JASHU",
+      "SAGAR",
+      "SHRIA"
+     ],
+     "team": [
+      "SAGAR",
+      "FULLMETAL",
+      "RAJESH"
+     ],
+     "proposer": "RAJESH"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  }
+ ]
+}

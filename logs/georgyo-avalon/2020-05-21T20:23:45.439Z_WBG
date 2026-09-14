@@ -1,0 +1,272 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "POLINA",
+    "JANEK"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JAREK",
+      "JANEK"
+     ],
+     "team": [
+      "JAREK",
+      "JANEK"
+     ],
+     "proposer": "JAREK",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KUBA",
+      "POLINA"
+     ],
+     "proposer": "POLINA",
+     "votes": [
+      "POLINA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KUBA"
+     ],
+     "team": [
+      "JAREK",
+      "KUBA"
+     ],
+     "proposer": "KUBA"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TOMKE"
+     ],
+     "team": [
+      "TOMKE",
+      "JANEK"
+     ],
+     "proposer": "TOMKE"
+    },
+    {
+     "team": [
+      "POLINA",
+      "JANEK"
+     ],
+     "proposer": "JANEK",
+     "votes": [
+      "KUBA",
+      "JANEK",
+      "POLINA",
+      "JAREK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "JANEK",
+    "JAREK",
+    "POLINA"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "JANEK",
+      "POLINA",
+      "TOMKE",
+      "JAREK"
+     ],
+     "team": [
+      "JANEK",
+      "JAREK",
+      "POLINA"
+     ],
+     "proposer": "JAREK",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "KUBA",
+    "JANEK"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "POLINA",
+      "JANEK"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JANEK",
+      "POLINA"
+     ],
+     "proposer": "POLINA"
+    },
+    {
+     "proposer": "KUBA",
+     "votes": [
+      "KUBA",
+      "JANEK",
+      "POLINA",
+      "TOMKE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KUBA",
+      "JANEK"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "TOMKE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TOMKE",
+      "KUBA",
+      "POLINA"
+     ],
+     "proposer": "TOMKE"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JANEK",
+     "votes": [
+      "KUBA",
+      "JANEK",
+      "POLINA"
+     ],
+     "team": [
+      "KUBA",
+      "JANEK",
+      "POLINA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "KUBA",
+    "JANEK",
+    "POLINA"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "FHXxBkxYJYNCbph8Ioc1O15tEDO2",
+   "name": "KUBA"
+  },
+  {
+   "name": "TOMKE",
+   "uid": "5GLwW31R3ddUVMWe776TH7XZpvG3"
+  },
+  {
+   "uid": "q6sQb0CBN6TehRMwWTho0duukyQ2",
+   "name": "JANEK"
+  },
+  {
+   "name": "JAREK",
+   "uid": "pkhcbqsuLPRP2gqJuZcCnMBEoAq1"
+  },
+  {
+   "uid": "bFMW2UxDeLb531j4PJVKmsuPlLk2",
+   "name": "POLINA"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590092625,
+  "_nanoseconds": 439000000
+ },
+ "timeFinished": {
+  "_seconds": 1590093615,
+  "_nanoseconds": 440000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "POLINA": true,
+    "JANEK": true
+   },
+   {
+    "JANEK": true,
+    "JAREK": false,
+    "POLINA": true
+   },
+   {
+    "KUBA": true,
+    "JANEK": true
+   },
+   {
+    "KUBA": true,
+    "POLINA": true,
+    "JANEK": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "JAREK",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KUBA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "JANEK",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "POLINA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "TOMKE",
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "JANEK"
+ }
+}

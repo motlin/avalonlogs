@@ -1,0 +1,294 @@
+{
+ "outcome": {
+  "assassinated": "JET",
+  "votes": [
+   {
+    "ADAM": true,
+    "NIKOLAI": true
+   },
+   {
+    "JET": true,
+    "WENO": true,
+    "KLAUDIA": false
+   },
+   {
+    "NIKOLAI": true,
+    "ADAM": false
+   },
+   {
+    "NIKOLAI": true,
+    "JET": true,
+    "WENO": true
+   },
+   {
+    "NIKOLAI": true,
+    "JET": true,
+    "WENO": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ADAM",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "NIKOLAI",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "JET",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "WENO",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "KLAUDIA",
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1596688904,
+  "_nanoseconds": 435000000
+ },
+ "players": [
+  {
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2",
+   "name": "KLAUDIA"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  },
+  {
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1",
+   "name": "ADAM"
+  },
+  {
+   "uid": "BsKHDR2tcCTGSxFjjtq0oIkN0xf1",
+   "name": "WENO"
+  },
+  {
+   "uid": "AfqLC5kwfVgdN1EitKEjcNy9E5D2",
+   "name": "JET"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596688274,
+  "_nanoseconds": 55000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "state": "APPROVED",
+     "votes": [
+      "JET",
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "team": [
+      "ADAM",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "ADAM",
+    "NIKOLAI"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "WENO",
+     "votes": [
+      "JET",
+      "WENO"
+     ],
+     "team": [
+      "KLAUDIA",
+      "WENO",
+      "JET"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "WENO",
+      "JET",
+      "KLAUDIA"
+     ],
+     "state": "APPROVED",
+     "proposer": "JET",
+     "team": [
+      "KLAUDIA",
+      "WENO",
+      "JET"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "KLAUDIA",
+    "WENO",
+    "JET"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "KLAUDIA",
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "ADAM"
+     ]
+    },
+    {
+     "votes": [
+      "NIKOLAI",
+      "JET"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKOLAI"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ADAM",
+     "votes": [
+      "JET",
+      "NIKOLAI",
+      "WENO"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ADAM"
+     ]
+    }
+   ],
+   "team": [
+    "NIKOLAI",
+    "ADAM"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "WENO",
+      "JET"
+     ],
+     "proposer": "WENO",
+     "votes": [
+      "NIKOLAI",
+      "WENO"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JET",
+     "votes": [],
+     "team": [
+      "KLAUDIA",
+      "ADAM",
+      "JET"
+     ]
+    },
+    {
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "ADAM",
+      "WENO"
+     ],
+     "votes": []
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NIKOLAI",
+      "WENO",
+      "JET"
+     ],
+     "proposer": "NIKOLAI",
+     "team": [
+      "NIKOLAI",
+      "WENO",
+      "JET"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "NIKOLAI",
+    "WENO",
+    "JET"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "team": [
+      "JET",
+      "WENO",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "JET",
+      "KLAUDIA",
+      "NIKOLAI",
+      "ADAM",
+      "WENO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JET",
+    "WENO",
+    "NIKOLAI"
+   ],
+   "numFails": 0
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

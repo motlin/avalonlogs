@@ -1,0 +1,226 @@
+{
+ "players": [
+  {
+   "name": "AISHU",
+   "uid": "NExUaKiHeJOxY4ki0WR3yHiqq3F3"
+  },
+  {
+   "name": "AKSHAT",
+   "uid": "d6Gfrh5g8NacyA0XOpoM70361Y43"
+  },
+  {
+   "name": "HARSHITA",
+   "uid": "OXO7Fa4zxPbdDhOHh5HlvuU4u0x2"
+  },
+  {
+   "uid": "yXvqW9Bh7wQRAfACdS20bpFrDpq1",
+   "name": "SANJAY"
+  },
+  {
+   "uid": "8YYc3NDzh9bTZMDvY1plYrNSd2F3",
+   "name": "MUNIRA"
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "MUNIRA": true,
+    "AISHU": true
+   },
+   {
+    "MUNIRA": false,
+    "AKSHAT": true,
+    "HARSHITA": true
+   },
+   {
+    "AKSHAT": true,
+    "SANJAY": true
+   },
+   {
+    "AKSHAT": true,
+    "AISHU": true,
+    "HARSHITA": true
+   }
+  ],
+  "assassinated": "AISHU",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SANJAY",
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "AISHU",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "HARSHITA"
+   },
+   {
+    "name": "MUNIRA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AKSHAT",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1586020427,
+  "_nanoseconds": 281000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "AKSHAT",
+      "SANJAY",
+      "AISHU",
+      "MUNIRA"
+     ],
+     "team": [
+      "AISHU",
+      "MUNIRA"
+     ],
+     "state": "APPROVED",
+     "proposer": "AISHU"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "AISHU",
+    "MUNIRA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AKSHAT",
+      "SANJAY",
+      "AISHU",
+      "HARSHITA",
+      "MUNIRA"
+     ],
+     "team": [
+      "HARSHITA",
+      "MUNIRA",
+      "AKSHAT"
+     ],
+     "proposer": "AKSHAT"
+    }
+   ],
+   "team": [
+    "HARSHITA",
+    "MUNIRA",
+    "AKSHAT"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "HARSHITA",
+      "AKSHAT"
+     ],
+     "votes": [
+      "AKSHAT",
+      "HARSHITA"
+     ],
+     "proposer": "HARSHITA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SANJAY",
+      "AISHU",
+      "MUNIRA",
+      "AKSHAT"
+     ],
+     "team": [
+      "AKSHAT",
+      "SANJAY"
+     ],
+     "proposer": "SANJAY",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "AKSHAT",
+    "SANJAY"
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "HARSHITA",
+    "AISHU",
+    "AKSHAT"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SANJAY",
+      "MUNIRA",
+      "AKSHAT"
+     ],
+     "proposer": "MUNIRA",
+     "votes": [
+      "MUNIRA",
+      "SANJAY"
+     ]
+    },
+    {
+     "proposer": "AISHU",
+     "state": "APPROVED",
+     "votes": [
+      "AKSHAT",
+      "AISHU",
+      "HARSHITA"
+     ],
+     "team": [
+      "HARSHITA",
+      "AISHU",
+      "AKSHAT"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586020872,
+  "_nanoseconds": 338995000
+ }
+}

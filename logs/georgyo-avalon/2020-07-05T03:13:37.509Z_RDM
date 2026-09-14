@@ -1,0 +1,306 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "fjQZGtOmRHVfbUPJfemn6Z6rzFk2",
+   "name": "CALEB"
+  },
+  {
+   "uid": "bnDN3aL0EOcwoRA2zQzFV0xa7r33",
+   "name": "KAROLINE"
+  },
+  {
+   "name": "JUNE",
+   "uid": "9k3jrZMe0wNdXeaOewWKRdcN1kl1"
+  },
+  {
+   "name": "LES",
+   "uid": "OFOtJ6c1oSQXO3tSybBsrxlE6HA2"
+  },
+  {
+   "uid": "aRRmRdicv9VnUCPGxBXVokC8VTs2",
+   "name": "JP"
+  },
+  {
+   "name": "RDM",
+   "uid": "IeXICrMA62QT4cmrASLOZr1z2d63"
+  },
+  {
+   "uid": "Ca3VT5d9X2SOfy4zFq3XplRuVlD3",
+   "name": "RACHEL"
+  },
+  {
+   "uid": "fkXAhd677lekXNAxDTRvyrb5V9c2",
+   "name": "LONG"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "RACHEL",
+  "votes": [
+   {
+    "KAROLINE": true,
+    "RACHEL": true,
+    "LES": true
+   },
+   {
+    "KAROLINE": true,
+    "CALEB": true,
+    "RACHEL": true,
+    "LES": true
+   },
+   {
+    "LES": false,
+    "KAROLINE": true,
+    "CALEB": true,
+    "RACHEL": true
+   },
+   {
+    "LES": false,
+    "LONG": true,
+    "RACHEL": true,
+    "CALEB": true,
+    "JUNE": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "LES"
+   },
+   {
+    "name": "KAROLINE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "RDM"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RACHEL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LONG",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JUNE",
+    "role": "MORDRED"
+   },
+   {
+    "name": "CALEB",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "JP",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "LES",
+    "RACHEL",
+    "KAROLINE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "RDM",
+      "RACHEL",
+      "LONG",
+      "JUNE",
+      "JP",
+      "LES",
+      "KAROLINE"
+     ],
+     "proposer": "KAROLINE",
+     "team": [
+      "LES",
+      "RACHEL",
+      "KAROLINE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "LES",
+    "RACHEL",
+    "KAROLINE",
+    "CALEB"
+   ],
+   "proposals": [
+    {
+     "proposer": "JUNE",
+     "state": "REJECTED",
+     "team": [
+      "LONG",
+      "RDM",
+      "JP",
+      "CALEB"
+     ],
+     "votes": [
+      "LES",
+      "LONG",
+      "JUNE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JUNE",
+      "CALEB",
+      "JP",
+      "LES",
+      "KAROLINE",
+      "RACHEL"
+     ],
+     "team": [
+      "LES",
+      "RACHEL",
+      "KAROLINE",
+      "CALEB"
+     ],
+     "proposer": "LES"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "LES",
+    "RACHEL",
+    "KAROLINE",
+    "CALEB"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "JP",
+     "state": "APPROVED",
+     "votes": [
+      "RACHEL",
+      "LONG",
+      "JUNE",
+      "CALEB",
+      "JP",
+      "LES",
+      "KAROLINE"
+     ],
+     "team": [
+      "LES",
+      "RACHEL",
+      "KAROLINE",
+      "CALEB"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RDM",
+      "JP",
+      "LES"
+     ],
+     "team": [
+      "LES",
+      "KAROLINE",
+      "CALEB",
+      "JUNE",
+      "RDM"
+     ],
+     "proposer": "RDM"
+    },
+    {
+     "proposer": "RACHEL",
+     "votes": [
+      "LONG",
+      "KAROLINE",
+      "RACHEL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RACHEL",
+      "KAROLINE",
+      "CALEB",
+      "LES",
+      "LONG"
+     ]
+    },
+    {
+     "proposer": "LONG",
+     "state": "APPROVED",
+     "team": [
+      "RACHEL",
+      "CALEB",
+      "JUNE",
+      "LONG",
+      "LES"
+     ],
+     "votes": [
+      "JP",
+      "LES",
+      "KAROLINE",
+      "RACHEL",
+      "LONG",
+      "JUNE"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "RACHEL",
+    "CALEB",
+    "JUNE",
+    "LONG",
+    "LES"
+   ],
+   "teamSize": 5
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593920177,
+  "_nanoseconds": 888000000
+ },
+ "timeCreated": {
+  "_seconds": 1593918817,
+  "_nanoseconds": 509000000
+ }
+}

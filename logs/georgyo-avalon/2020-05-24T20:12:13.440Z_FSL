@@ -1,0 +1,260 @@
+{
+ "timeFinished": {
+  "_seconds": 1590352536,
+  "_nanoseconds": 28000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "REGIS": false,
+    "LAURA": true
+   },
+   {
+    "CEDRIC": true,
+    "AURELIA": true,
+    "FRANCOIS": true
+   },
+   {
+    "AURELIA": true,
+    "FRANCOIS": true
+   },
+   {
+    "CEDRIC": true,
+    "AURELIA": true,
+    "FRANCOIS": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "CEDRIC",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LAURA",
+    "assassin": true
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "REGIS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "AURELIA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "FRANCOIS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "FRANCOIS",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "REGIS",
+      "LAURA"
+     ],
+     "proposer": "REGIS",
+     "state": "APPROVED",
+     "votes": [
+      "REGIS",
+      "FRANCOIS",
+      "LAURA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "REGIS",
+    "LAURA"
+   ]
+  },
+  {
+   "team": [
+    "AURELIA",
+    "CEDRIC",
+    "FRANCOIS"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "FRANCOIS",
+     "state": "REJECTED",
+     "votes": [
+      "CEDRIC"
+     ],
+     "team": [
+      "FRANCOIS",
+      "AURELIA",
+      "CEDRIC"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "AURELIA",
+      "CEDRIC",
+      "FRANCOIS"
+     ],
+     "votes": [
+      "AURELIA",
+      "CEDRIC"
+     ],
+     "proposer": "AURELIA"
+    },
+    {
+     "team": [
+      "AURELIA",
+      "CEDRIC",
+      "FRANCOIS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "AURELIA",
+      "CEDRIC",
+      "REGIS"
+     ],
+     "proposer": "CEDRIC"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "LAURA",
+     "votes": [
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "AURELIA"
+     ]
+    },
+    {
+     "team": [
+      "AURELIA",
+      "CEDRIC"
+     ],
+     "proposer": "REGIS",
+     "votes": [
+      "CEDRIC",
+      "REGIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "FRANCOIS",
+     "votes": [
+      "AURELIA",
+      "FRANCOIS"
+     ],
+     "team": [
+      "FRANCOIS",
+      "AURELIA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "AURELIA",
+      "FRANCOIS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LAURA",
+      "AURELIA",
+      "FRANCOIS"
+     ],
+     "proposer": "AURELIA"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "AURELIA",
+    "FRANCOIS"
+   ]
+  },
+  {
+   "team": [
+    "CEDRIC",
+    "FRANCOIS",
+    "AURELIA"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "CEDRIC",
+      "FRANCOIS",
+      "AURELIA"
+     ],
+     "proposer": "CEDRIC",
+     "votes": [
+      "AURELIA",
+      "FRANCOIS",
+      "CEDRIC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590351133,
+  "_nanoseconds": 440000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "CEDRIC",
+   "uid": "e6SFzKVMZdbZtFKNryUsTye9UOw2"
+  },
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1",
+   "name": "REGIS"
+  },
+  {
+   "name": "FRANCOIS",
+   "uid": "KRvwa95fAYhVBFzvm0PC3i5EFdQ2"
+  },
+  {
+   "uid": "t3hmiC7r8wW7e7CCSa3XJ8KkIAc2",
+   "name": "AURELIA"
+  }
+ ]
+}

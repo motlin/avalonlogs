@@ -1,0 +1,347 @@
+{
+ "missions": [
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "CHEVIN",
+     "team": [
+      "CHEVIN",
+      "LL",
+      "MEHUL"
+     ],
+     "votes": [
+      "LL",
+      "YI",
+      "KZHU",
+      "AN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "PRAVEEN",
+     "state": "REJECTED",
+     "votes": [
+      "YI",
+      "PRAVEEN",
+      "KZHU"
+     ],
+     "team": [
+      "PRAVEEN",
+      "KZHU",
+      "YI"
+     ]
+    },
+    {
+     "team": [
+      "MEHUL",
+      "PRAVEEN",
+      "LL"
+     ],
+     "votes": [
+      "LL",
+      "AN",
+      "MEHUL",
+      "PRAVEEN"
+     ],
+     "proposer": "MEHUL",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "SEAN",
+      "YI",
+      "LL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KZHU",
+      "AN",
+      "LL",
+      "CHEVIN"
+     ],
+     "proposer": "SEAN"
+    },
+    {
+     "team": [
+      "YI",
+      "PRAVEEN",
+      "LL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MEHUL",
+      "AN",
+      "LL",
+      "SEAN",
+      "CHEVIN",
+      "PRAVEEN"
+     ],
+     "proposer": "YI"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "YI",
+    "PRAVEEN",
+    "LL"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "AN",
+    "LL",
+    "YI",
+    "PRAVEEN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "KZHU",
+     "state": "REJECTED",
+     "votes": [
+      "AN",
+      "KZHU",
+      "PRAVEEN",
+      "MEHUL"
+     ],
+     "team": [
+      "YI",
+      "PRAVEEN",
+      "LL",
+      "KZHU"
+     ]
+    },
+    {
+     "votes": [
+      "PRAVEEN",
+      "KZHU",
+      "MEHUL",
+      "AN",
+      "YI",
+      "CHEVIN",
+      "SEAN"
+     ],
+     "team": [
+      "AN",
+      "LL",
+      "YI",
+      "PRAVEEN"
+     ],
+     "proposer": "AN",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "AN",
+      "PRAVEEN",
+      "KZHU",
+      "YI"
+     ],
+     "team": [
+      "LL",
+      "AN",
+      "YI",
+      "CHEVIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "LL"
+    },
+    {
+     "proposer": "CHEVIN",
+     "votes": [
+      "CHEVIN",
+      "LL",
+      "PRAVEEN",
+      "YI",
+      "AN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHEVIN",
+      "YI",
+      "AN",
+      "LL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "CHEVIN",
+    "YI",
+    "AN",
+    "LL"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PRAVEEN",
+     "votes": [
+      "KZHU",
+      "MEHUL",
+      "PRAVEEN",
+      "CHEVIN",
+      "LL"
+     ],
+     "team": [
+      "CHEVIN",
+      "PRAVEEN",
+      "MEHUL",
+      "AN",
+      "LL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 5,
+   "failsRequired": 2,
+   "numFails": 3,
+   "team": [
+    "CHEVIN",
+    "PRAVEEN",
+    "MEHUL",
+    "AN",
+    "LL"
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5,
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609914200,
+  "_nanoseconds": 645000000
+ },
+ "timeFinished": {
+  "_seconds": 1609915171,
+  "_nanoseconds": 143000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "PRAVEEN": true,
+    "LL": true,
+    "YI": true
+   },
+   {
+    "AN": false,
+    "PRAVEEN": true,
+    "LL": true,
+    "YI": true
+   },
+   {
+    "YI": true,
+    "AN": true,
+    "LL": true,
+    "CHEVIN": false
+   },
+   {
+    "PRAVEEN": true,
+    "MEHUL": false,
+    "AN": false,
+    "LL": true,
+    "CHEVIN": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "CHEVIN"
+   },
+   {
+    "assassin": false,
+    "name": "KZHU",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "SEAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "AN",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "YI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "LL"
+   },
+   {
+    "assassin": false,
+    "name": "PRAVEEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "MEHUL"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "players": [
+  {
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1",
+   "name": "CHEVIN"
+  },
+  {
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2",
+   "name": "PRAVEEN"
+  },
+  {
+   "name": "MEHUL",
+   "uid": "2oKyrIhWywOiTB73oJ9ayPYTvGA2"
+  },
+  {
+   "uid": "WQADefDBh7Prh3zmvSwKuztnx6k1",
+   "name": "SEAN"
+  },
+  {
+   "name": "YI",
+   "uid": "hJeFLpAxnFMEypzHti9SffWE3px1"
+  },
+  {
+   "name": "KZHU",
+   "uid": "09iwCUAVE5bu4SsdsOz3S6trYTl2"
+  },
+  {
+   "uid": "fkS5ZYpOT3N3cgqn0bzao5y0aaY2",
+   "name": "AN"
+  },
+  {
+   "name": "LL",
+   "uid": "1bkbk09boMYSV5pWJPdUEBUELvf2"
+  }
+ ]
+}

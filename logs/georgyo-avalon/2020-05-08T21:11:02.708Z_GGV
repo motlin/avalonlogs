@@ -1,0 +1,221 @@
+{
+ "players": [
+  {
+   "name": "SHUANG",
+   "uid": "BaP2oKzuoSTBf7UotDJvpFV8rBu1"
+  },
+  {
+   "name": "MICHAEL",
+   "uid": "KSwGDEeTPnPKhWSx6UZM1WdS5Qt1"
+  },
+  {
+   "uid": "6Q6aPS2IdxUcg9EVr4lpq027YJI3",
+   "name": "LAVINIA"
+  },
+  {
+   "name": "FERENC",
+   "uid": "OVBfmMLDc5YEz1OLs3grch8YUYC3"
+  },
+  {
+   "name": "GGV",
+   "uid": "Q4aL6wvyFkbxOjG4rQ9MztSqc122"
+  },
+  {
+   "uid": "WwLS6xXs46hiAHm88aps8J0ML6n1",
+   "name": "PRANJAL"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SHUANG",
+      "PRANJAL"
+     ],
+     "proposer": "SHUANG",
+     "state": "APPROVED",
+     "votes": [
+      "FERENC",
+      "SHUANG",
+      "GGV",
+      "LAVINIA",
+      "PRANJAL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SHUANG",
+    "PRANJAL"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "GGV",
+    "PRANJAL",
+    "FERENC"
+   ],
+   "proposals": [
+    {
+     "proposer": "MICHAEL",
+     "votes": [
+      "MICHAEL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LAVINIA",
+      "FERENC",
+      "GGV"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LAVINIA",
+      "MICHAEL"
+     ],
+     "proposer": "LAVINIA",
+     "team": [
+      "GGV",
+      "PRANJAL",
+      "MICHAEL"
+     ]
+    },
+    {
+     "votes": [
+      "FERENC",
+      "SHUANG",
+      "GGV",
+      "LAVINIA",
+      "PRANJAL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "GGV",
+      "PRANJAL",
+      "FERENC"
+     ],
+     "proposer": "FERENC"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "SHUANG",
+      "GGV",
+      "PRANJAL",
+      "MICHAEL",
+      "FERENC"
+     ],
+     "team": [
+      "FERENC",
+      "GGV",
+      "PRANJAL",
+      "SHUANG"
+     ],
+     "state": "APPROVED",
+     "proposer": "GGV"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "FERENC",
+    "GGV",
+    "PRANJAL",
+    "SHUANG"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "assassinated": "GGV",
+  "roles": [
+   {
+    "name": "MICHAEL",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "FERENC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SHUANG",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "GGV",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "LAVINIA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PRANJAL",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PRANJAL": true,
+    "SHUANG": true
+   },
+   {
+    "PRANJAL": true,
+    "FERENC": true,
+    "GGV": true
+   },
+   {
+    "FERENC": true,
+    "SHUANG": true,
+    "PRANJAL": true,
+    "GGV": true
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1588972578,
+  "_nanoseconds": 689000000
+ },
+ "timeCreated": {
+  "_seconds": 1588972262,
+  "_nanoseconds": 708000000
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "KIKI",
+   "uid": "Rruh6j25tzbNhwLoaRnNc25Ng5s1"
+  },
+  {
+   "name": "ADP",
+   "uid": "cerZqFV3jIXGTuBL71ygi9AkasX2"
+  },
+  {
+   "name": "FAIZSENPAI",
+   "uid": "nWTZrfZ9zChuIsOwu76kNBmCZNr1"
+  },
+  {
+   "name": "RABIT",
+   "uid": "ZFgUktJiuxZj6wOC4HX9xrcvZNv1"
+  },
+  {
+   "name": "JCW",
+   "uid": "Dsv7rzheuWgY4VHBsC7WaeM3qll2"
+  },
+  {
+   "name": "ADRIANKUN",
+   "uid": "iHVrjwsUMlgnkhXn7pXcWsBWfir2"
+  },
+  {
+   "name": "ATSU",
+   "uid": "D6UJ1DmKV7N1cLuVpJWo3qhTKEI3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604680234,
+  "_nanoseconds": 689000000
+ },
+ "timeCreated": {
+  "_seconds": 1604679329,
+  "_nanoseconds": 268000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "KIKI": true,
+    "RABIT": true
+   },
+   {
+    "ADP": true,
+    "FAIZSENPAI": true,
+    "JCW": true
+   },
+   {
+    "ADP": false,
+    "JCW": true,
+    "FAIZSENPAI": false
+   },
+   {
+    "RABIT": true,
+    "FAIZSENPAI": true,
+    "ATSU": true,
+    "KIKI": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "KIKI"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ADRIANKUN",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JCW"
+   },
+   {
+    "name": "FAIZSENPAI",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "OBERON",
+    "name": "ADP",
+    "assassin": false
+   },
+   {
+    "name": "ATSU",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "RABIT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "KIKI",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ADRIANKUN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ADRIANKUN",
+     "team": [
+      "ADRIANKUN",
+      "KIKI"
+     ]
+    },
+    {
+     "team": [
+      "RABIT",
+      "ATSU"
+     ],
+     "proposer": "ATSU",
+     "votes": [
+      "ATSU"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KIKI",
+     "team": [
+      "KIKI",
+      "RABIT"
+     ],
+     "votes": [
+      "KIKI",
+      "ADRIANKUN",
+      "RABIT",
+      "ATSU"
+     ]
+    }
+   ],
+   "team": [
+    "KIKI",
+    "RABIT"
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "ADP",
+    "FAIZSENPAI",
+    "JCW"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ADP",
+     "team": [
+      "ADP",
+      "FAIZSENPAI",
+      "JCW"
+     ],
+     "votes": [
+      "ADP",
+      "JCW",
+      "RABIT",
+      "ATSU"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "FAIZSENPAI",
+      "JCW",
+      "ADP"
+     ],
+     "votes": [
+      "ADP",
+      "ATSU",
+      "RABIT",
+      "ADRIANKUN",
+      "JCW"
+     ],
+     "proposer": "FAIZSENPAI",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 2,
+   "team": [
+    "FAIZSENPAI",
+    "JCW",
+    "ADP"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ATSU",
+      "KIKI",
+      "RABIT",
+      "FAIZSENPAI"
+     ],
+     "team": [
+      "RABIT",
+      "FAIZSENPAI",
+      "KIKI",
+      "ATSU"
+     ],
+     "proposer": "RABIT",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "team": [
+    "RABIT",
+    "FAIZSENPAI",
+    "KIKI",
+    "ATSU"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ]
+}

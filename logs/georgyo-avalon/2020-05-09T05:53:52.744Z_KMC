@@ -1,0 +1,246 @@
+{
+ "players": [
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  },
+  {
+   "uid": "1bkbk09boMYSV5pWJPdUEBUELvf2",
+   "name": "LL"
+  },
+  {
+   "name": "SEAN",
+   "uid": "hX6Ojw74Z1RCWOKVx2qAk1o09o22"
+  },
+  {
+   "uid": "wmW7nsKi71hbFvaOpNedH7VJfBp2",
+   "name": "MOIRA"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "CeWU2iWTInU6lkX2gLmWeSY3eG73"
+  },
+  {
+   "uid": "GUcaXEuwzIXG9zcipS4dBnUSFqY2",
+   "name": "AN"
+  },
+  {
+   "name": "YI",
+   "uid": "hJeFLpAxnFMEypzHti9SffWE3px1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589003632,
+  "_nanoseconds": 744000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "CHEVIN": true,
+    "YI": true
+   },
+   {
+    "YI": true,
+    "CHEVIN": true,
+    "LL": true
+   },
+   {
+    "YI": true,
+    "CHEVIN": true,
+    "LL": true
+   }
+  ],
+  "assassinated": "CHEVIN",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "CHEVIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SEAN",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "YI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MOIRA",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "KEVIN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "LL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "AN"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "MOIRA",
+     "team": [
+      "KEVIN",
+      "AN"
+     ]
+    },
+    {
+     "team": [
+      "KEVIN",
+      "YI"
+     ],
+     "state": "REJECTED",
+     "proposer": "KEVIN",
+     "votes": [
+      "KEVIN"
+     ]
+    },
+    {
+     "team": [
+      "AN",
+      "YI"
+     ],
+     "proposer": "AN",
+     "votes": [],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "YI",
+      "MOIRA",
+      "LL",
+      "CHEVIN"
+     ],
+     "proposer": "YI",
+     "team": [
+      "YI",
+      "CHEVIN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "YI",
+    "CHEVIN"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MOIRA",
+      "LL",
+      "CHEVIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "YI",
+      "CHEVIN",
+      "LL"
+     ],
+     "proposer": "CHEVIN"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "LL",
+      "CHEVIN",
+      "YI"
+     ],
+     "proposer": "LL",
+     "votes": [
+      "YI",
+      "MOIRA",
+      "LL",
+      "AN",
+      "CHEVIN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "LL",
+    "CHEVIN",
+    "YI"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "CHEVIN",
+    "LL",
+    "YI"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "CHEVIN",
+      "LL",
+      "YI"
+     ],
+     "proposer": "SEAN",
+     "state": "APPROVED",
+     "votes": [
+      "MOIRA",
+      "LL",
+      "AN",
+      "CHEVIN",
+      "YI"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 2
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589004329,
+  "_nanoseconds": 671000000
+ }
+}

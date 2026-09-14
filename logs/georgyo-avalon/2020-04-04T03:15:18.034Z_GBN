@@ -1,0 +1,304 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "SARAH": true,
+    "XIAO": true,
+    "BUENO": true
+   },
+   {
+    "XIAO": true,
+    "LONG": true,
+    "SARAH": true,
+    "BUENO": false
+   },
+   {
+    "LONG": true,
+    "CARMIZZY": true,
+    "KT": true,
+    "CHRISTIAN": true
+   },
+   {
+    "CHRISTIAN": false,
+    "CARMIZZY": true,
+    "LONG": true,
+    "SARAH": true,
+    "KT": false
+   },
+   {
+    "STELLZ": true,
+    "LONG": true,
+    "CARMIZZY": true,
+    "SARAH": true,
+    "XIAO": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "name": "CHRISTIAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SARAH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "KT"
+   },
+   {
+    "assassin": false,
+    "name": "XIAO",
+    "role": "MERLIN"
+   },
+   {
+    "name": "LONG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CARMIZZY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "STELLZ",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BUENO",
+    "assassin": false,
+    "role": "MORDRED"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "XIAO"
+ },
+ "players": [
+  {
+   "uid": "7cyQfAqqoOZ3mgu4SQ1ezsKGL0V2",
+   "name": "BUENO"
+  },
+  {
+   "uid": "iFvhv61e84XRjQ9ca2rUqThGzBi1",
+   "name": "CARMIZZY"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "NaFYziihH5bYL2AmxrVGyKbtwEY2"
+  },
+  {
+   "name": "KT",
+   "uid": "tDoA6BErmKM880PG5U2L4YlJHmI3"
+  },
+  {
+   "name": "LONG",
+   "uid": "yhhfmruxxqPlpfBV08VbChMD4YJ3"
+  },
+  {
+   "uid": "zz7z2OXshHbnQXRUoa9KUqjjKsC2",
+   "name": "SARAH"
+  },
+  {
+   "name": "STELLZ",
+   "uid": "K3tiOOxzYHQ1V5zyAsH9wLt9xkF2"
+  },
+  {
+   "name": "XIAO",
+   "uid": "IoaihRQBjLRHNLFzbj3uwQ5FOFF3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585970118,
+  "_nanoseconds": 34000000
+ },
+ "timeFinished": {
+  "_seconds": 1585971783,
+  "_nanoseconds": 73469000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "SARAH",
+    "BUENO",
+    "XIAO"
+   ],
+   "proposals": [
+    {
+     "proposer": "XIAO",
+     "state": "APPROVED",
+     "team": [
+      "SARAH",
+      "BUENO",
+      "XIAO"
+     ],
+     "votes": [
+      "SARAH",
+      "KT",
+      "XIAO",
+      "CARMIZZY",
+      "STELLZ",
+      "BUENO",
+      "CHRISTIAN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BUENO",
+    "XIAO",
+    "SARAH",
+    "LONG"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BUENO",
+      "XIAO",
+      "SARAH",
+      "LONG"
+     ],
+     "votes": [
+      "SARAH",
+      "KT",
+      "XIAO",
+      "LONG",
+      "CARMIZZY",
+      "STELLZ",
+      "BUENO",
+      "CHRISTIAN"
+     ],
+     "proposer": "BUENO"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "CHRISTIAN",
+    "CARMIZZY",
+    "KT",
+    "LONG"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CARMIZZY",
+      "LONG",
+      "XIAO",
+      "CHRISTIAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CARMIZZY",
+      "STELLZ",
+      "CHRISTIAN"
+     ],
+     "proposer": "CARMIZZY"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "CHRISTIAN",
+     "votes": [
+      "LONG",
+      "STELLZ",
+      "BUENO",
+      "CHRISTIAN",
+      "SARAH",
+      "KT"
+     ],
+     "team": [
+      "CHRISTIAN",
+      "CARMIZZY",
+      "KT",
+      "LONG"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "proposer": "KT",
+     "state": "APPROVED",
+     "votes": [
+      "CHRISTIAN",
+      "SARAH",
+      "KT",
+      "STELLZ",
+      "BUENO"
+     ],
+     "team": [
+      "LONG",
+      "KT",
+      "CHRISTIAN",
+      "CARMIZZY",
+      "SARAH"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "LONG",
+    "KT",
+    "CHRISTIAN",
+    "CARMIZZY",
+    "SARAH"
+   ],
+   "numFails": 2,
+   "failsRequired": 2
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "LONG",
+    "XIAO",
+    "CARMIZZY",
+    "SARAH",
+    "STELLZ"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "CARMIZZY",
+      "STELLZ",
+      "SARAH",
+      "XIAO",
+      "LONG"
+     ],
+     "team": [
+      "LONG",
+      "XIAO",
+      "CARMIZZY",
+      "SARAH",
+      "STELLZ"
+     ],
+     "proposer": "LONG",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ]
+}

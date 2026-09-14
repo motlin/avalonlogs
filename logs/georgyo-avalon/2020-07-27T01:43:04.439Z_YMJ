@@ -1,0 +1,253 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1595814894,
+  "_nanoseconds": 779000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "DAULTON": false,
+    "JACK": true
+   },
+   {
+    "WILL": true,
+    "RYAN": true,
+    "ADAM": false
+   },
+   {
+    "RYAN": true,
+    "ADAM": false,
+    "JACK": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JACK"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "DAULTON"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MAY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RYAN"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "BRIAN"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "WILL"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ADAM"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "MAY",
+   "uid": "RwWZNKOgKrUOvfWnPrUIb0UrG4Y2"
+  },
+  {
+   "uid": "fFCH4DQRTpUVCVrn3NNx99qhlZD3",
+   "name": "ADAM"
+  },
+  {
+   "name": "WILL",
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1"
+  },
+  {
+   "uid": "EHYfAoNoRMfUQVovgiSACfXd6nq2",
+   "name": "BRIAN"
+  },
+  {
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2",
+   "name": "JACK"
+  },
+  {
+   "name": "DAULTON",
+   "uid": "C58KNFd0vcdJEonDao29DeU4Tzk1"
+  },
+  {
+   "name": "RYAN",
+   "uid": "gAiRUjpSMlbOzGpCzUNPHhcdscG3"
+  }
+ ],
+ "missions": [
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "team": [
+    "DAULTON",
+    "JACK"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DAULTON",
+      "MAY",
+      "RYAN",
+      "BRIAN",
+      "WILL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DAULTON",
+      "JACK"
+     ],
+     "proposer": "DAULTON"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "RYAN",
+      "JACK"
+     ],
+     "proposer": "RYAN",
+     "state": "REJECTED",
+     "team": [
+      "RYAN",
+      "JACK",
+      "ADAM"
+     ]
+    },
+    {
+     "proposer": "MAY",
+     "team": [
+      "MAY",
+      "JACK",
+      "ADAM"
+     ],
+     "votes": [
+      "JACK",
+      "MAY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "WILL",
+      "RYAN"
+     ],
+     "proposer": "ADAM",
+     "votes": [
+      "RYAN",
+      "BRIAN",
+      "ADAM"
+     ]
+    },
+    {
+     "team": [
+      "RYAN",
+      "WILL",
+      "ADAM"
+     ],
+     "votes": [
+      "RYAN",
+      "BRIAN",
+      "ADAM",
+      "DAULTON",
+      "MAY"
+     ],
+     "proposer": "WILL",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "RYAN",
+    "WILL",
+    "ADAM"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "JACK",
+    "RYAN",
+    "ADAM"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "BRIAN",
+     "votes": [
+      "BRIAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "WILL",
+      "BRIAN",
+      "ADAM"
+     ]
+    },
+    {
+     "team": [
+      "JACK",
+      "RYAN",
+      "ADAM"
+     ],
+     "proposer": "JACK",
+     "state": "APPROVED",
+     "votes": [
+      "RYAN",
+      "ADAM",
+      "JACK",
+      "MAY"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1595814184,
+  "_nanoseconds": 439000000
+ }
+}

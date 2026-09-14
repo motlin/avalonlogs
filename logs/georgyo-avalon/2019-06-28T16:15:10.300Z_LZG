@@ -1,0 +1,254 @@
+{
+ "players": [
+  {
+   "name": "ADAM",
+   "uid": "mjk3bLnBHGapK8nq5ONQuZTe9Nm1"
+  },
+  {
+   "uid": "1rAUijqg2sQz4F3Gj68XcTyjLSd2",
+   "name": "OWEN"
+  },
+  {
+   "uid": "8R41m6vFPqgMeUTYxdZkDWJ2wYC2",
+   "name": "VISHANT"
+  },
+  {
+   "uid": "UuyAzWA9jbTbsA0yhEbJCtWv4uv1",
+   "name": "PETROS"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "fp1pQzF5uef2lPf3jcNNo1705gj2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1561738975,
+  "_nanoseconds": 193298000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "assassinated": "ADAM",
+  "votes": [
+   {
+    "VISHANT": true,
+    "ADAM": true
+   },
+   {
+    "ADAM": true,
+    "OWEN": true,
+    "VISHANT": true
+   },
+   {
+    "ADAM": true,
+    "VISHANT": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ADAM",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "PETROS"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "OWEN"
+   },
+   {
+    "name": "VISHANT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "KLAUDIA"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1561738510,
+  "_nanoseconds": 300000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "PETROS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "OWEN",
+      "PETROS"
+     ],
+     "proposer": "PETROS"
+    },
+    {
+     "proposer": "KLAUDIA",
+     "votes": [
+      "KLAUDIA"
+     ],
+     "team": [
+      "KLAUDIA",
+      "ADAM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ADAM",
+      "OWEN"
+     ],
+     "proposer": "ADAM",
+     "state": "REJECTED",
+     "votes": [
+      "OWEN",
+      "PETROS"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "OWEN",
+     "votes": [],
+     "team": [
+      "VISHANT",
+      "OWEN"
+     ]
+    },
+    {
+     "proposer": "VISHANT",
+     "team": [
+      "VISHANT",
+      "ADAM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "PETROS",
+      "OWEN",
+      "VISHANT",
+      "KLAUDIA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "VISHANT",
+    "ADAM"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "VISHANT",
+    "OWEN",
+    "ADAM"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "PETROS",
+     "votes": [
+      "PETROS"
+     ],
+     "team": [
+      "PETROS",
+      "VISHANT",
+      "OWEN"
+     ]
+    },
+    {
+     "team": [
+      "VISHANT",
+      "KLAUDIA",
+      "PETROS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KLAUDIA",
+      "PETROS"
+     ],
+     "proposer": "KLAUDIA"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "VISHANT",
+      "OWEN",
+      "ADAM"
+     ],
+     "votes": [
+      "PETROS",
+      "OWEN",
+      "VISHANT"
+     ],
+     "proposer": "ADAM"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "OWEN",
+     "team": [
+      "OWEN",
+      "VISHANT"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "OWEN",
+      "VISHANT"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "OWEN",
+      "VISHANT"
+     ],
+     "proposer": "VISHANT",
+     "team": [
+      "VISHANT",
+      "ADAM"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "VISHANT",
+    "ADAM"
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING"
+  }
+ ]
+}

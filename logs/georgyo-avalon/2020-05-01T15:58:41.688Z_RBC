@@ -1,0 +1,266 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588348721,
+  "_nanoseconds": 688000000
+ },
+ "timeFinished": {
+  "_seconds": 1588348976,
+  "_nanoseconds": 666000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "STEFFI": true,
+    "MICHAEL": true
+   },
+   {
+    "LISSI": false,
+    "JOJO": true,
+    "LOLSUER": true
+   },
+   {
+    "LOLSUER": true,
+    "MICHAEL": true,
+    "JOJO": true,
+    "STEFFI": false
+   },
+   {
+    "MICHAEL": true,
+    "JOJO": true,
+    "LISSI": true
+   },
+   {
+    "LOLSUER": true,
+    "LISSI": false,
+    "JOJO": true,
+    "STEFFI": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "LISSI"
+   },
+   {
+    "name": "NASENBAER",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "STEFFI"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MICHAEL"
+   },
+   {
+    "name": "LOLSUER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JOJO",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "MICHAEL",
+   "uid": "GLoa6GZtBddQjbZJ8qhFji0n32i1"
+  },
+  {
+   "name": "LOLSUER",
+   "uid": "kVm1sfZ5l7eWTVtYlZJ4MWrYpr42"
+  },
+  {
+   "name": "STEFFI",
+   "uid": "lpHlVxXP9JhF2LydPiaKnb8ldmi1"
+  },
+  {
+   "name": "JOJO",
+   "uid": "dKyLySViUmVO7OdBb4I54aJJzgT2"
+  },
+  {
+   "name": "NASENBAER",
+   "uid": "REIVdgcAvwS2y9SgVIsUoTcBeWu2"
+  },
+  {
+   "uid": "y41BjVE2BcQR5owmXurH5qFLvEr2",
+   "name": "LISSI"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "LISSI",
+      "NASENBAER",
+      "STEFFI",
+      "MICHAEL",
+      "JOJO"
+     ],
+     "state": "APPROVED",
+     "proposer": "NASENBAER",
+     "team": [
+      "STEFFI",
+      "MICHAEL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "STEFFI",
+    "MICHAEL"
+   ]
+  },
+  {
+   "team": [
+    "LOLSUER",
+    "JOJO",
+    "LISSI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LISSI",
+     "votes": [
+      "NASENBAER",
+      "STEFFI",
+      "JOJO",
+      "LISSI"
+     ],
+     "team": [
+      "LOLSUER",
+      "JOJO",
+      "LISSI"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MICHAEL",
+      "STEFFI",
+      "LOLSUER",
+      "JOJO"
+     ],
+     "votes": [
+      "MICHAEL",
+      "JOJO",
+      "LISSI",
+      "NASENBAER",
+      "STEFFI"
+     ],
+     "proposer": "MICHAEL",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "MICHAEL",
+    "STEFFI",
+    "LOLSUER",
+    "JOJO"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LOLSUER",
+      "JOJO",
+      "LISSI",
+      "STEFFI"
+     ],
+     "team": [
+      "MICHAEL",
+      "JOJO",
+      "LISSI"
+     ],
+     "proposer": "LOLSUER"
+    }
+   ],
+   "team": [
+    "MICHAEL",
+    "JOJO",
+    "LISSI"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "STEFFI",
+      "LISSI",
+      "NASENBAER"
+     ],
+     "team": [
+      "LISSI",
+      "NASENBAER",
+      "LOLSUER",
+      "STEFFI"
+     ],
+     "state": "REJECTED",
+     "proposer": "STEFFI"
+    },
+    {
+     "team": [
+      "LOLSUER",
+      "STEFFI",
+      "JOJO",
+      "LISSI"
+     ],
+     "votes": [
+      "LISSI",
+      "STEFFI",
+      "MICHAEL",
+      "LOLSUER",
+      "JOJO"
+     ],
+     "proposer": "JOJO",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "LOLSUER",
+    "STEFFI",
+    "JOJO",
+    "LISSI"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "timeFinished": {
+  "_seconds": 1611976653,
+  "_nanoseconds": 800000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "EMILY": true,
+    "JILLIAN": false
+   },
+   {
+    "MATT": true,
+    "PETER": true,
+    "FRANK": true
+   },
+   {
+    "EMILY": true,
+    "FRANK": true
+   },
+   {
+    "JILLIAN": false,
+    "FRANK": true,
+    "PETER": false
+   },
+   {
+    "EMILY": true,
+    "PETER": true,
+    "MATT": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "JILLIAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "FRANK",
+    "role": "MERLIN"
+   },
+   {
+    "name": "EMILY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "MATT",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "PETER",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "FRANK"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "scJaAVSmpnN9i6QQPllZrRhFjHS2",
+   "name": "MATT"
+  },
+  {
+   "name": "PETER",
+   "uid": "buxSsWUY2MWEditSgDqH2RAMget1"
+  },
+  {
+   "uid": "sYtDQCG1IPQX8fvsIjfF3RBGEyW2",
+   "name": "EMILY"
+  },
+  {
+   "uid": "lLbHpNOQTMSTNBas1PGl6U2smwL2",
+   "name": "FRANK"
+  },
+  {
+   "name": "JILLIAN",
+   "uid": "xw5mzzMB5Pbrf59hwt2cSEjvWsz2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1611975480,
+  "_nanoseconds": 455000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "JILLIAN",
+    "EMILY"
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "EMILY",
+      "PETER",
+      "FRANK",
+      "JILLIAN"
+     ],
+     "proposer": "JILLIAN",
+     "state": "APPROVED",
+     "team": [
+      "JILLIAN",
+      "EMILY"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "FRANK",
+    "PETER",
+    "MATT"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MATT",
+      "JILLIAN"
+     ],
+     "proposer": "MATT",
+     "state": "REJECTED",
+     "team": [
+      "MATT",
+      "FRANK",
+      "JILLIAN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "FRANK",
+      "PETER",
+      "MATT"
+     ],
+     "proposer": "PETER",
+     "votes": [
+      "JILLIAN",
+      "PETER",
+      "MATT",
+      "EMILY"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "FRANK",
+      "EMILY"
+     ],
+     "proposer": "EMILY",
+     "state": "APPROVED",
+     "votes": [
+      "PETER",
+      "FRANK",
+      "JILLIAN",
+      "EMILY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "FRANK",
+    "EMILY"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "FRANK",
+     "state": "APPROVED",
+     "team": [
+      "PETER",
+      "FRANK",
+      "JILLIAN"
+     ],
+     "votes": [
+      "FRANK",
+      "PETER",
+      "JILLIAN",
+      "MATT"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 2,
+   "team": [
+    "PETER",
+    "FRANK",
+    "JILLIAN"
+   ]
+  },
+  {
+   "team": [
+    "EMILY",
+    "MATT",
+    "PETER"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "EMILY",
+      "PETER",
+      "FRANK"
+     ],
+     "votes": [
+      "JILLIAN"
+     ],
+     "proposer": "JILLIAN"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MATT",
+      "JILLIAN",
+      "EMILY"
+     ],
+     "team": [
+      "EMILY",
+      "MATT",
+      "PETER"
+     ],
+     "proposer": "MATT"
+    }
+   ]
+  }
+ ]
+}

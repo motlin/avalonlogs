@@ -1,0 +1,359 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593750781,
+  "_nanoseconds": 500000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "YOURNAME": true,
+    "STEVE": true,
+    "CRAIGLAZER": false
+   },
+   {
+    "NGO": true,
+    "ERICC": true,
+    "CRAIGLAZER": true,
+    "FMT": true
+   },
+   {
+    "NGO": true,
+    "FMT": true,
+    "CRAIGLAZER": true,
+    "ERICC": true
+   },
+   {
+    "NGO": false,
+    "STEVE": true,
+    "ERICC": false,
+    "CRAIGLAZER": false,
+    "FMT": true
+   },
+   {
+    "NGO": false,
+    "SHAAN": true,
+    "CRAIGLAZER": false,
+    "YOURNAME": true,
+    "COLIN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "NGO",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "YOURNAME",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "ERICC"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "FMT",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "CRAIGLAZER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "COLIN"
+   },
+   {
+    "name": "SEYMOUR",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "MACE",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "STEVE"
+   },
+   {
+    "name": "SHAAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "CRAIGLAZER",
+    "STEVE",
+    "YOURNAME"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CRAIGLAZER",
+      "STEVE",
+      "YOURNAME"
+     ],
+     "proposer": "CRAIGLAZER",
+     "votes": [
+      "YOURNAME",
+      "ERICC",
+      "FMT",
+      "SEYMOUR",
+      "MACE",
+      "STEVE",
+      "SHAAN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "NGO",
+    "FMT",
+    "ERICC",
+    "CRAIGLAZER"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ERICC"
+     ],
+     "proposer": "ERICC",
+     "team": [
+      "ERICC",
+      "FMT",
+      "NGO",
+      "MACE"
+     ]
+    },
+    {
+     "team": [
+      "CRAIGLAZER",
+      "FMT",
+      "NGO",
+      "MACE"
+     ],
+     "state": "REJECTED",
+     "proposer": "FMT",
+     "votes": [
+      "ERICC",
+      "FMT",
+      "CRAIGLAZER",
+      "SEYMOUR"
+     ]
+    },
+    {
+     "team": [
+      "NGO",
+      "FMT",
+      "ERICC",
+      "CRAIGLAZER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NGO",
+      "ERICC",
+      "FMT",
+      "CRAIGLAZER",
+      "MACE",
+      "STEVE",
+      "SHAAN"
+     ],
+     "proposer": "NGO"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "NGO",
+    "FMT",
+    "ERICC",
+    "CRAIGLAZER"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NGO",
+      "ERICC",
+      "FMT",
+      "CRAIGLAZER",
+      "MACE",
+      "STEVE",
+      "SHAAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MACE",
+     "team": [
+      "NGO",
+      "FMT",
+      "ERICC",
+      "CRAIGLAZER"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "CRAIGLAZER",
+    "ERICC",
+    "FMT",
+    "NGO",
+    "STEVE"
+   ],
+   "state": "FAIL",
+   "numFails": 3,
+   "proposals": [
+    {
+     "votes": [
+      "NGO",
+      "ERICC",
+      "FMT",
+      "SEYMOUR",
+      "MACE",
+      "STEVE",
+      "SHAAN"
+     ],
+     "proposer": "COLIN",
+     "state": "APPROVED",
+     "team": [
+      "CRAIGLAZER",
+      "ERICC",
+      "FMT",
+      "NGO",
+      "STEVE"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "team": [
+    "SHAAN",
+    "COLIN",
+    "YOURNAME",
+    "NGO",
+    "CRAIGLAZER"
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SEYMOUR",
+      "SHAAN",
+      "CRAIGLAZER",
+      "NGO",
+      "YOURNAME"
+     ],
+     "votes": [
+      "CRAIGLAZER",
+      "SEYMOUR"
+     ],
+     "proposer": "SEYMOUR",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "NGO",
+      "YOURNAME",
+      "ERICC",
+      "FMT",
+      "CRAIGLAZER",
+      "COLIN",
+      "SEYMOUR",
+      "SHAAN"
+     ],
+     "proposer": "SHAAN",
+     "state": "APPROVED",
+     "team": [
+      "SHAAN",
+      "COLIN",
+      "YOURNAME",
+      "NGO",
+      "CRAIGLAZER"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1593748682,
+  "_nanoseconds": 613000000
+ },
+ "players": [
+  {
+   "name": "COLIN",
+   "uid": "aAikGINkVIWNuv0BDZ9dEeCR6sc2"
+  },
+  {
+   "uid": "ee6eyUB14aNrfwxfgS3EpXKkJ4r1",
+   "name": "SEYMOUR"
+  },
+  {
+   "name": "SHAAN",
+   "uid": "amRYItsOKBYSmkMLrXd9VewVUzn2"
+  },
+  {
+   "uid": "uE69a2I2iwNs9BRJunufBCvLoz22",
+   "name": "YOURNAME"
+  },
+  {
+   "uid": "vYmfMH8wMERnwcDVMbDmZt7cFu13",
+   "name": "STEVE"
+  },
+  {
+   "uid": "DPpf6SHZuPMBOpPqL7kGodAZW2E2",
+   "name": "CRAIGLAZER"
+  },
+  {
+   "uid": "m8h49IOcLTNcjYnSuL1aShmn7wu1",
+   "name": "ERICC"
+  },
+  {
+   "name": "FMT",
+   "uid": "q6uWKml1ghaACq7cDrKUkppHZk22"
+  },
+  {
+   "uid": "ecqGjz7tzhMr8GPdHmP95YsJ9Cd2",
+   "name": "NGO"
+  },
+  {
+   "name": "MACE",
+   "uid": "STYYW1bvydOViACtN0rY8luDtp93"
+  }
+ ]
+}

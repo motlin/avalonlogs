@@ -1,0 +1,248 @@
+{
+ "players": [
+  {
+   "name": "NIMBU",
+   "uid": "Vsbha2lnYLfXN7SmCZSY37mNnAp1"
+  },
+  {
+   "name": "SHRUTI",
+   "uid": "xkSvq3zbJsM6yzZ6KENM9xhkuqC2"
+  },
+  {
+   "uid": "i2rLqHDdKMfpQypYS6D6oL0i0Hh2",
+   "name": "TAN"
+  },
+  {
+   "name": "SITA",
+   "uid": "32HWMZzND8fp1p7MVsOxqXokfhv2"
+  },
+  {
+   "uid": "C9IE0ILpiaPe8P6BI8HS5iYtC493",
+   "name": "SHARK"
+  },
+  {
+   "name": "KIMMETH",
+   "uid": "rg0sQH36GmarkNbZ8RHY0EB8LI23"
+  },
+  {
+   "name": "DHYEY",
+   "uid": "GtighiaVV4UE4Gn6rWbzmnD2l982"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586487926,
+  "_nanoseconds": 719919000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "SHARK": true,
+    "KIMMETH": true
+   },
+   {
+    "SHARK": true,
+    "DHYEY": true,
+    "KIMMETH": true
+   },
+   {
+    "SHARK": true,
+    "DHYEY": false,
+    "KIMMETH": true
+   },
+   {
+    "KIMMETH": true,
+    "SHARK": true,
+    "TAN": true,
+    "NIMBU": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "TAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "SHRUTI"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SHARK"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NIMBU",
+    "assassin": false
+   },
+   {
+    "name": "SITA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "KIMMETH"
+   },
+   {
+    "name": "DHYEY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "TAN"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SHRUTI",
+      "SHARK",
+      "SITA",
+      "KIMMETH",
+      "DHYEY",
+      "TAN"
+     ],
+     "team": [
+      "SHARK",
+      "KIMMETH"
+     ],
+     "proposer": "KIMMETH",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SHARK",
+    "KIMMETH"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DHYEY",
+     "votes": [
+      "TAN",
+      "SHRUTI",
+      "SHARK",
+      "NIMBU",
+      "SITA",
+      "KIMMETH",
+      "DHYEY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KIMMETH",
+      "SHARK",
+      "DHYEY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "KIMMETH",
+    "SHARK",
+    "DHYEY"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SHARK",
+      "KIMMETH",
+      "DHYEY"
+     ],
+     "state": "APPROVED",
+     "proposer": "NIMBU",
+     "votes": [
+      "TAN",
+      "SHRUTI",
+      "SHARK",
+      "NIMBU",
+      "SITA",
+      "KIMMETH"
+     ]
+    }
+   ],
+   "team": [
+    "SHARK",
+    "KIMMETH",
+    "DHYEY"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "TAN",
+    "SHARK",
+    "KIMMETH",
+    "NIMBU"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DHYEY",
+      "SHRUTI",
+      "SITA"
+     ],
+     "team": [
+      "TAN",
+      "SITA",
+      "SHARK",
+      "KIMMETH"
+     ],
+     "state": "REJECTED",
+     "proposer": "SHRUTI"
+    },
+    {
+     "proposer": "TAN",
+     "team": [
+      "TAN",
+      "SHARK",
+      "KIMMETH",
+      "NIMBU"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SITA",
+      "KIMMETH",
+      "TAN",
+      "SHRUTI",
+      "SHARK"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586487554,
+  "_nanoseconds": 478000000
+ }
+}

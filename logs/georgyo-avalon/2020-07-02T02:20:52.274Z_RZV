@@ -1,0 +1,372 @@
+{
+ "players": [
+  {
+   "name": "ANINDYA",
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2"
+  },
+  {
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2",
+   "name": "GOODWIN"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "71Lnm5hJt4NYB6IMrg6vXvQOyTl1"
+  },
+  {
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3",
+   "name": "NIKHIL"
+  },
+  {
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2",
+   "name": "KLAUDIA"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593657830,
+  "_nanoseconds": 719000000
+ },
+ "timeCreated": {
+  "_seconds": 1593656452,
+  "_nanoseconds": 274000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CHRIS",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "NIKHIL",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANINDYA"
+   },
+   {
+    "name": "KLAUDIA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "GOODWIN",
+    "assassin": true
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "NIKOLAI"
+   }
+  ],
+  "votes": [
+   {
+    "NIKHIL": true,
+    "GOODWIN": false
+   },
+   {
+    "KLAUDIA": true,
+    "NIKOLAI": true,
+    "ANINDYA": true
+   },
+   {
+    "NIKOLAI": true,
+    "ANINDYA": true,
+    "KLAUDIA": true,
+    "CHRIS": true
+   },
+   {
+    "NIKOLAI": true,
+    "KLAUDIA": true,
+    "ANINDYA": true
+   }
+  ],
+  "assassinated": "NIKOLAI"
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "GOODWIN",
+    "NIKHIL"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHRIS",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "NIKOLAI",
+      "CHRIS"
+     ],
+     "proposer": "CHRIS"
+    },
+    {
+     "team": [
+      "NIKHIL",
+      "KLAUDIA"
+     ],
+     "votes": [
+      "NIKHIL"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKHIL"
+    },
+    {
+     "votes": [
+      "KLAUDIA",
+      "NIKHIL"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "REJECTED",
+     "team": [
+      "KLAUDIA",
+      "NIKHIL"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "ANINDYA"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "team": [
+      "ANINDYA",
+      "NIKHIL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "GOODWIN",
+      "NIKHIL"
+     ],
+     "proposer": "GOODWIN",
+     "votes": [
+      "NIKOLAI",
+      "CHRIS",
+      "ANINDYA",
+      "KLAUDIA",
+      "GOODWIN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "NIKOLAI",
+    "ANINDYA",
+    "KLAUDIA"
+   ],
+   "proposals": [
+    {
+     "proposer": "NIKOLAI",
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "ANINDYA"
+     ],
+     "votes": [
+      "NIKOLAI"
+     ]
+    },
+    {
+     "proposer": "CHRIS",
+     "state": "REJECTED",
+     "team": [
+      "CHRIS",
+      "NIKHIL",
+      "KLAUDIA"
+     ],
+     "votes": [
+      "CHRIS"
+     ]
+    },
+    {
+     "team": [
+      "CHRIS",
+      "NIKHIL",
+      "ANINDYA"
+     ],
+     "votes": [
+      "NIKHIL"
+     ],
+     "proposer": "NIKHIL",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KLAUDIA",
+     "team": [
+      "KLAUDIA",
+      "CHRIS",
+      "NIKOLAI"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "GOODWIN",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "ANINDYA",
+      "KLAUDIA"
+     ],
+     "state": "APPROVED",
+     "proposer": "ANINDYA",
+     "votes": [
+      "NIKOLAI",
+      "CHRIS",
+      "NIKHIL",
+      "ANINDYA",
+      "KLAUDIA",
+      "GOODWIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "KLAUDIA",
+    "ANINDYA",
+    "NIKOLAI",
+    "CHRIS"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "GOODWIN",
+      "NIKOLAI",
+      "ANINDYA",
+      "KLAUDIA"
+     ],
+     "state": "REJECTED",
+     "proposer": "GOODWIN",
+     "votes": []
+    },
+    {
+     "votes": [
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKOLAI",
+     "team": [
+      "NIKOLAI",
+      "ANINDYA",
+      "CHRIS",
+      "KLAUDIA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHRIS"
+     ],
+     "team": [
+      "CHRIS",
+      "NIKOLAI",
+      "NIKHIL",
+      "KLAUDIA"
+     ],
+     "proposer": "CHRIS"
+    },
+    {
+     "votes": [
+      "CHRIS",
+      "NIKHIL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "KLAUDIA",
+      "ANINDYA",
+      "CHRIS"
+     ],
+     "proposer": "NIKHIL"
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "ANINDYA",
+      "NIKOLAI",
+      "CHRIS"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "GOODWIN",
+      "NIKOLAI",
+      "CHRIS",
+      "ANINDYA"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "NIKOLAI",
+      "ANINDYA",
+      "KLAUDIA"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "CHRIS",
+      "NIKHIL",
+      "ANINDYA"
+     ],
+     "proposer": "ANINDYA",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "NIKOLAI",
+    "ANINDYA",
+    "KLAUDIA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ]
+}

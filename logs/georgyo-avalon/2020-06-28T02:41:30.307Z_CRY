@@ -1,0 +1,266 @@
+{
+ "timeCreated": {
+  "_seconds": 1593312090,
+  "_nanoseconds": 307000000
+ },
+ "players": [
+  {
+   "name": "BEN",
+   "uid": "ThdIVouIYXSExHJuJ4KyrXiJN992"
+  },
+  {
+   "name": "ARCANELARP",
+   "uid": "aKqUSiReJsaUbxxzHrdNobflHzQ2"
+  },
+  {
+   "uid": "BJwVJhNHLyceJzyl4b8WSyLEVxv2",
+   "name": "SABER"
+  },
+  {
+   "uid": "LLENEBi4aCN8rhdSN4AznsBE8ih1",
+   "name": "KRISFATE"
+  },
+  {
+   "uid": "6sQZqQt0ieYIRBLGgoFJTXKzvbj2",
+   "name": "KMK"
+  },
+  {
+   "uid": "DBqQCMjh0PVKHn0RETRxBxrWP372",
+   "name": "FRANK"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SABER": true,
+    "ARCANELARP": true
+   },
+   {
+    "FRANK": true,
+    "BEN": true,
+    "ARCANELARP": true
+   },
+   {
+    "KMK": true,
+    "ARCANELARP": false,
+    "SABER": true,
+    "KRISFATE": true
+   },
+   {
+    "ARCANELARP": false,
+    "KMK": true,
+    "SABER": true
+   },
+   {
+    "BEN": false,
+    "ARCANELARP": false,
+    "KRISFATE": true,
+    "KMK": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SABER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BEN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "FRANK"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KRISFATE",
+    "assassin": false
+   },
+   {
+    "name": "ARCANELARP",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "KMK"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ARCANELARP",
+     "votes": [
+      "FRANK",
+      "KMK",
+      "SABER",
+      "BEN"
+     ],
+     "team": [
+      "SABER",
+      "ARCANELARP"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "SABER",
+    "ARCANELARP"
+   ]
+  },
+  {
+   "team": [
+    "BEN",
+    "FRANK",
+    "ARCANELARP"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SABER",
+      "BEN",
+      "FRANK",
+      "KRISFATE",
+      "ARCANELARP"
+     ],
+     "team": [
+      "BEN",
+      "FRANK",
+      "ARCANELARP"
+     ],
+     "state": "APPROVED",
+     "proposer": "SABER"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "ARCANELARP",
+    "SABER",
+    "KRISFATE",
+    "KMK"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ARCANELARP",
+      "SABER",
+      "KRISFATE",
+      "KMK"
+     ],
+     "votes": [
+      "FRANK",
+      "KRISFATE",
+      "ARCANELARP",
+      "KMK",
+      "SABER",
+      "BEN"
+     ],
+     "proposer": "KRISFATE"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "KMK",
+      "ARCANELARP",
+      "SABER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FRANK",
+      "ARCANELARP",
+      "KMK",
+      "SABER",
+      "BEN"
+     ],
+     "proposer": "KMK"
+    }
+   ],
+   "team": [
+    "KMK",
+    "ARCANELARP",
+    "SABER"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "FRANK",
+     "votes": [
+      "FRANK",
+      "SABER"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ARCANELARP",
+      "SABER",
+      "KRISFATE",
+      "FRANK"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KRISFATE",
+      "ARCANELARP",
+      "KMK",
+      "BEN"
+     ],
+     "team": [
+      "BEN",
+      "ARCANELARP",
+      "KRISFATE",
+      "KMK"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "BEN",
+    "ARCANELARP",
+    "KRISFATE",
+    "KMK"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593312819,
+  "_nanoseconds": 245000000
+ }
+}

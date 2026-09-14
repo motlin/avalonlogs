@@ -1,0 +1,236 @@
+{
+ "players": [
+  {
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22",
+   "name": "SOVEREIGN"
+  },
+  {
+   "name": "PERCIVALS",
+   "uid": "qPIYra8LXHcID7Vmxts9q32GUGq2"
+  },
+  {
+   "name": "SWEE",
+   "uid": "JnvFx6wpH8T4LQorOxnu0KTuk1s1"
+  },
+  {
+   "uid": "f6AxJ6Tnh8SnMxKKrxFIP0QzLVE3",
+   "name": "GANSKIES"
+  },
+  {
+   "name": "SLAVEINDIA",
+   "uid": "3OtqbaCBXeckAfN85RxndqpMeMl1"
+  },
+  {
+   "name": "SOLV",
+   "uid": "DykF9EtQvBN63YhDvQrauSanpYu1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PERCIVALS",
+      "SLAVEINDIA",
+      "SOVEREIGN",
+      "SWEE",
+      "GANSKIES",
+      "SOLV"
+     ],
+     "team": [
+      "SOLV",
+      "SLAVEINDIA"
+     ],
+     "proposer": "SOLV"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "SOLV",
+    "SLAVEINDIA"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "SOVEREIGN",
+    "SLAVEINDIA",
+    "SOLV"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "GANSKIES",
+      "SOLV",
+      "SLAVEINDIA",
+      "SOVEREIGN"
+     ],
+     "team": [
+      "SOVEREIGN",
+      "SLAVEINDIA",
+      "SOLV"
+     ],
+     "state": "APPROVED",
+     "proposer": "SOVEREIGN"
+    }
+   ]
+  },
+  {
+   "team": [
+    "PERCIVALS",
+    "SWEE",
+    "SLAVEINDIA",
+    "SOLV"
+   ],
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "PERCIVALS",
+     "votes": [
+      "PERCIVALS",
+      "SLAVEINDIA",
+      "SWEE",
+      "GANSKIES",
+      "SOLV"
+     ],
+     "team": [
+      "PERCIVALS",
+      "SWEE",
+      "SLAVEINDIA",
+      "SOLV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SOVEREIGN",
+      "PERCIVALS",
+      "SWEE"
+     ],
+     "proposer": "SWEE",
+     "state": "REJECTED",
+     "votes": [
+      "SOVEREIGN",
+      "SWEE",
+      "GANSKIES"
+     ]
+    },
+    {
+     "team": [
+      "GANSKIES",
+      "PERCIVALS",
+      "SWEE"
+     ],
+     "votes": [
+      "SWEE",
+      "GANSKIES",
+      "PERCIVALS",
+      "SOVEREIGN"
+     ],
+     "state": "APPROVED",
+     "proposer": "GANSKIES"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "GANSKIES",
+    "PERCIVALS",
+    "SWEE"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 4,
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SOLV": true,
+    "SLAVEINDIA": true
+   },
+   {
+    "SOVEREIGN": false,
+    "SLAVEINDIA": true,
+    "SOLV": true
+   },
+   {
+    "SWEE": true,
+    "SLAVEINDIA": true,
+    "PERCIVALS": false,
+    "SOLV": true
+   },
+   {
+    "GANSKIES": true,
+    "SWEE": true,
+    "PERCIVALS": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "PERCIVALS",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "SLAVEINDIA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SOVEREIGN"
+   },
+   {
+    "assassin": false,
+    "name": "SWEE",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "GANSKIES"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "SOLV"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1591024788,
+  "_nanoseconds": 946000000
+ },
+ "timeCreated": {
+  "_seconds": 1591024201,
+  "_nanoseconds": 984000000
+ }
+}

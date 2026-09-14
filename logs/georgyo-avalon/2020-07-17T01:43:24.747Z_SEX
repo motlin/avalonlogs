@@ -1,0 +1,425 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JERCIVAL": true,
+    "BRIAN": true,
+    "DAISY": true
+   },
+   {
+    "JERCIVAL": false,
+    "BRIAN": true,
+    "TOBY": true,
+    "DAISY": true
+   },
+   {
+    "LASERBLUE": true,
+    "KIMMERLIN": true,
+    "DAISY": true,
+    "BRIAN": true
+   },
+   {
+    "DAISY": true,
+    "LASERBLUE": true,
+    "KIMMERLIN": true,
+    "RRYYAANN": true,
+    "BRIAN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DAISY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LASERBLUE",
+    "role": "MERLIN"
+   },
+   {
+    "name": "ROCKY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "JERCIVAL",
+    "role": "OBERON"
+   },
+   {
+    "role": "MORDRED",
+    "name": "RRYYAANN",
+    "assassin": true
+   },
+   {
+    "name": "TOBY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KIMMERLIN"
+   },
+   {
+    "name": "BRIAN",
+    "role": "PERCIVAL",
+    "assassin": false
+   }
+  ],
+  "assassinated": "LASERBLUE",
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "BRIAN",
+     "team": [
+      "BRIAN",
+      "KIMMERLIN",
+      "TOBY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "LASERBLUE",
+      "KIMMERLIN"
+     ]
+    },
+    {
+     "team": [
+      "TOBY",
+      "LASERBLUE",
+      "ROCKY"
+     ],
+     "proposer": "TOBY",
+     "state": "REJECTED",
+     "votes": [
+      "TOBY"
+     ]
+    },
+    {
+     "votes": [
+      "TOBY",
+      "KIMMERLIN",
+      "RRYYAANN",
+      "DAISY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DAISY",
+      "JERCIVAL",
+      "RRYYAANN"
+     ],
+     "proposer": "DAISY"
+    },
+    {
+     "votes": [
+      "KIMMERLIN",
+      "LASERBLUE",
+      "TOBY",
+      "ROCKY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ROCKY",
+      "TOBY",
+      "LASERBLUE"
+     ],
+     "proposer": "ROCKY"
+    },
+    {
+     "votes": [
+      "BRIAN",
+      "TOBY",
+      "JERCIVAL",
+      "DAISY",
+      "ROCKY",
+      "KIMMERLIN",
+      "LASERBLUE",
+      "RRYYAANN"
+     ],
+     "team": [
+      "JERCIVAL",
+      "DAISY",
+      "BRIAN"
+     ],
+     "proposer": "JERCIVAL",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "JERCIVAL",
+    "DAISY",
+    "BRIAN"
+   ]
+  },
+  {
+   "team": [
+    "TOBY",
+    "BRIAN",
+    "DAISY",
+    "JERCIVAL"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "LASERBLUE",
+     "team": [
+      "LASERBLUE",
+      "DAISY",
+      "TOBY",
+      "BRIAN"
+     ],
+     "votes": [
+      "LASERBLUE",
+      "DAISY",
+      "RRYYAANN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "RRYYAANN",
+     "votes": [
+      "DAISY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RRYYAANN",
+      "JERCIVAL",
+      "DAISY",
+      "BRIAN"
+     ]
+    },
+    {
+     "team": [
+      "KIMMERLIN",
+      "TOBY",
+      "ROCKY",
+      "DAISY"
+     ],
+     "votes": [
+      "KIMMERLIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "KIMMERLIN"
+    },
+    {
+     "votes": [],
+     "team": [
+      "BRIAN",
+      "DAISY",
+      "TOBY",
+      "RRYYAANN"
+     ],
+     "proposer": "BRIAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RRYYAANN",
+      "LASERBLUE",
+      "TOBY",
+      "BRIAN",
+      "DAISY",
+      "ROCKY",
+      "JERCIVAL"
+     ],
+     "state": "APPROVED",
+     "proposer": "TOBY",
+     "team": [
+      "TOBY",
+      "BRIAN",
+      "DAISY",
+      "JERCIVAL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "JERCIVAL",
+      "DAISY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BRIAN",
+      "DAISY",
+      "LASERBLUE",
+      "RRYYAANN"
+     ],
+     "proposer": "DAISY"
+    },
+    {
+     "votes": [
+      "ROCKY"
+     ],
+     "state": "REJECTED",
+     "proposer": "ROCKY",
+     "team": [
+      "ROCKY",
+      "LASERBLUE",
+      "TOBY",
+      "RRYYAANN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JERCIVAL",
+      "DAISY"
+     ],
+     "team": [
+      "JERCIVAL",
+      "DAISY",
+      "BRIAN",
+      "KIMMERLIN"
+     ],
+     "proposer": "JERCIVAL"
+    },
+    {
+     "votes": [
+      "BRIAN",
+      "DAISY",
+      "KIMMERLIN",
+      "JERCIVAL",
+      "LASERBLUE"
+     ],
+     "proposer": "LASERBLUE",
+     "team": [
+      "LASERBLUE",
+      "KIMMERLIN",
+      "BRIAN",
+      "DAISY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "LASERBLUE",
+    "KIMMERLIN",
+    "BRIAN",
+    "DAISY"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "RRYYAANN",
+     "state": "REJECTED",
+     "votes": [
+      "RRYYAANN",
+      "JERCIVAL",
+      "LASERBLUE",
+      "DAISY"
+     ],
+     "team": [
+      "KIMMERLIN",
+      "BRIAN",
+      "DAISY",
+      "LASERBLUE",
+      "RRYYAANN"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KIMMERLIN",
+      "BRIAN",
+      "DAISY",
+      "LASERBLUE",
+      "RRYYAANN"
+     ],
+     "proposer": "KIMMERLIN",
+     "votes": [
+      "RRYYAANN",
+      "JERCIVAL",
+      "TOBY",
+      "KIMMERLIN",
+      "DAISY",
+      "LASERBLUE",
+      "BRIAN"
+     ]
+    }
+   ],
+   "team": [
+    "KIMMERLIN",
+    "BRIAN",
+    "DAISY",
+    "LASERBLUE",
+    "RRYYAANN"
+   ],
+   "teamSize": 5,
+   "failsRequired": 2
+  },
+  {
+   "team": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1594950204,
+  "_nanoseconds": 747000000
+ },
+ "players": [
+  {
+   "name": "KIMMERLIN",
+   "uid": "tVQNQuHDO8cihbBVOPRGTj0fm4I2"
+  },
+  {
+   "uid": "VK3pUVkXsCMFMxGEgEo0ckQuksm2",
+   "name": "BRIAN"
+  },
+  {
+   "name": "TOBY",
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2"
+  },
+  {
+   "uid": "dbm93qFqiIcexgBMYw3pyDdjwOF2",
+   "name": "DAISY"
+  },
+  {
+   "uid": "zM9XPY9QEiM3EfKBXlgKk97GJAF3",
+   "name": "ROCKY"
+  },
+  {
+   "name": "JERCIVAL",
+   "uid": "g21ycsypBoVjCAwdiYkPgudQhM23"
+  },
+  {
+   "uid": "1BzGT5Pb9SR0DbGe7Xxp8UUky8T2",
+   "name": "LASERBLUE"
+  },
+  {
+   "name": "RRYYAANN",
+   "uid": "FP5bENHJa0btJuQ704ASF8ekuwL2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1594952398,
+  "_nanoseconds": 331000000
+ }
+}

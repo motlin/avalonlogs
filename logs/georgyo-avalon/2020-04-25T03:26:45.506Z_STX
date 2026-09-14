@@ -1,0 +1,229 @@
+{
+ "timeFinished": {
+  "_seconds": 1587785925,
+  "_nanoseconds": 224000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "PETER",
+    "DADI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DADI",
+      "PETER",
+      "ROMES",
+      "SRAV",
+      "ANNIKA"
+     ],
+     "proposer": "PETER",
+     "state": "APPROVED",
+     "team": [
+      "PETER",
+      "DADI"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "DADI",
+    "ROMES",
+    "SRAV"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ROMES",
+      "SRAV",
+      "ANNIKA",
+      "DADI"
+     ],
+     "team": [
+      "DADI",
+      "ROMES",
+      "SRAV"
+     ],
+     "proposer": "DADI",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "team": [
+    "PETER",
+    "ANNIKA"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "SRAV",
+      "ROMES"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ROMES",
+      "SRAV"
+     ],
+     "proposer": "ROMES"
+    },
+    {
+     "team": [
+      "PETER",
+      "ANNIKA"
+     ],
+     "proposer": "ANNIKA",
+     "state": "APPROVED",
+     "votes": [
+      "DADI",
+      "PETER",
+      "ANNIKA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "PETER",
+    "SRAV",
+    "ROMES"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ROMES",
+      "SRAV"
+     ],
+     "proposer": "SRAV",
+     "team": [
+      "DADI",
+      "ROMES",
+      "SRAV"
+     ]
+    },
+    {
+     "votes": [
+      "DADI",
+      "PETER",
+      "SRAV",
+      "ANNIKA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PETER",
+      "SRAV",
+      "ROMES"
+     ],
+     "proposer": "PETER"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587785205,
+  "_nanoseconds": 506000000
+ },
+ "players": [
+  {
+   "name": "DADI",
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2"
+  },
+  {
+   "uid": "tu4FzKebTETWccNDPjwBMvnPcqi1",
+   "name": "ROMES"
+  },
+  {
+   "name": "ANNIKA",
+   "uid": "5sWF4iW51oP1v5Flyrv0iJYwDEL2"
+  },
+  {
+   "uid": "fjTIpXaJIse0zFZvxV4xXvprK973",
+   "name": "SRAV"
+  },
+  {
+   "name": "PETER",
+   "uid": "SDDQpdIlBEcchIhwUwnXO7Rkdu02"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "DADI": true,
+    "PETER": true
+   },
+   {
+    "DADI": false,
+    "ROMES": true,
+    "SRAV": true
+   },
+   {
+    "ANNIKA": true,
+    "PETER": true
+   },
+   {
+    "PETER": true,
+    "SRAV": true,
+    "ROMES": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "DADI"
+   },
+   {
+    "assassin": false,
+    "name": "PETER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ROMES",
+    "assassin": false
+   },
+   {
+    "name": "SRAV",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "ANNIKA",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "PETER",
+  "message": "Three successful missions"
+ }
+}

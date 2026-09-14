@@ -1,0 +1,445 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "NIKOLAI": true,
+    "DAN": true,
+    "ELEASAURUS": true
+   },
+   {
+    "DAN": true,
+    "ELEASAURUS": true,
+    "NIKOLAI": true,
+    "NIKHIL": false
+   },
+   {
+    "NIKOLAI": true,
+    "DAN": false,
+    "ANINDYA": true,
+    "JET": true
+   },
+   {
+    "NIKHIL": false,
+    "DAN": false,
+    "GEORGE": true,
+    "JET": true,
+    "ANINDYA": false
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "NIKHIL",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "GEORGE",
+    "assassin": false
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JET",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANINDYA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "DAN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "ELEASAURUS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1609383554,
+  "_nanoseconds": 116000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1609385393,
+  "_nanoseconds": 345000000
+ },
+ "players": [
+  {
+   "name": "ELEASAURUS",
+   "uid": "B9Jzq7DdiKOFlir4hgkZOFsoVTx1"
+  },
+  {
+   "name": "GEORGE",
+   "uid": "ekB9z2g5m1g4EI4ltUs7k3BbrFG2"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "vqE0w9LGvkdAjV6gzyE9aUephJi1"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "uid": "sFBtD4TgvehoZhD1px1cMaIEt2J3",
+   "name": "JET"
+  },
+  {
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3",
+   "name": "NIKHIL"
+  },
+  {
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2",
+   "name": "ANINDYA"
+  },
+  {
+   "uid": "Ds3YQyl9z9Q2lRjNZFT21kj2s063",
+   "name": "DAN"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JET"
+     ],
+     "proposer": "JET",
+     "team": [
+      "DAN",
+      "GEORGE",
+      "KEVIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "JET",
+      "DAN"
+     ],
+     "votes": [
+      "JET",
+      "NIKHIL",
+      "KEVIN"
+     ],
+     "proposer": "NIKHIL"
+    },
+    {
+     "team": [
+      "ANINDYA",
+      "NIKHIL",
+      "JET"
+     ],
+     "state": "REJECTED",
+     "proposer": "ANINDYA",
+     "votes": [
+      "NIKHIL",
+      "ANINDYA"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "DAN",
+      "ANINDYA",
+      "JET"
+     ],
+     "proposer": "DAN",
+     "team": [
+      "DAN",
+      "ANINDYA",
+      "NIKHIL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ELEASAURUS",
+     "votes": [
+      "DAN",
+      "NIKOLAI",
+      "JET",
+      "GEORGE",
+      "ANINDYA",
+      "ELEASAURUS",
+      "KEVIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ELEASAURUS",
+      "DAN",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "ELEASAURUS",
+    "DAN",
+    "NIKOLAI"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "JET",
+      "GEORGE",
+      "ELEASAURUS"
+     ],
+     "state": "REJECTED",
+     "proposer": "GEORGE",
+     "team": [
+      "DAN",
+      "NIKOLAI",
+      "ELEASAURUS",
+      "GEORGE"
+     ]
+    },
+    {
+     "team": [
+      "ELEASAURUS",
+      "DAN",
+      "NIKOLAI",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KEVIN",
+      "ELEASAURUS",
+      "NIKOLAI"
+     ],
+     "proposer": "KEVIN"
+    },
+    {
+     "votes": [
+      "NIKOLAI",
+      "KEVIN",
+      "ELEASAURUS"
+     ],
+     "team": [
+      "NIKOLAI",
+      "ELEASAURUS",
+      "DAN",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKOLAI"
+    },
+    {
+     "votes": [
+      "NIKOLAI",
+      "JET",
+      "ELEASAURUS"
+     ],
+     "proposer": "JET",
+     "team": [
+      "KEVIN",
+      "JET",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "NIKHIL",
+      "ELEASAURUS",
+      "DAN",
+      "NIKOLAI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NIKHIL",
+      "ANINDYA",
+      "GEORGE",
+      "ELEASAURUS",
+      "KEVIN",
+      "NIKOLAI",
+      "DAN"
+     ],
+     "proposer": "NIKHIL"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "NIKHIL",
+    "ELEASAURUS",
+    "DAN",
+    "NIKOLAI"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI"
+     ],
+     "team": [
+      "ANINDYA",
+      "DAN",
+      "NIKOLAI",
+      "KEVIN"
+     ],
+     "proposer": "ANINDYA"
+    },
+    {
+     "votes": [
+      "GEORGE",
+      "JET",
+      "NIKOLAI",
+      "DAN",
+      "ANINDYA"
+     ],
+     "team": [
+      "DAN",
+      "JET",
+      "NIKOLAI",
+      "ANINDYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "DAN"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "DAN",
+    "JET",
+    "NIKOLAI",
+    "ANINDYA"
+   ]
+  },
+  {
+   "numFails": 3,
+   "team": [
+    "JET",
+    "NIKHIL",
+    "GEORGE",
+    "ANINDYA",
+    "DAN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [],
+     "proposer": "ELEASAURUS",
+     "team": [
+      "DAN",
+      "NIKHIL",
+      "GEORGE",
+      "ELEASAURUS",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "GEORGE",
+      "NIKHIL"
+     ],
+     "proposer": "GEORGE",
+     "team": [
+      "DAN",
+      "NIKHIL",
+      "JET",
+      "GEORGE",
+      "ELEASAURUS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KEVIN",
+      "NIKOLAI",
+      "ELEASAURUS",
+      "DAN",
+      "GEORGE"
+     ],
+     "proposer": "KEVIN",
+     "state": "REJECTED",
+     "votes": [
+      "KEVIN",
+      "NIKOLAI",
+      "ELEASAURUS"
+     ]
+    },
+    {
+     "proposer": "NIKOLAI",
+     "team": [
+      "NIKOLAI",
+      "KEVIN",
+      "ELEASAURUS",
+      "GEORGE",
+      "DAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KEVIN",
+      "NIKOLAI",
+      "ELEASAURUS"
+     ]
+    },
+    {
+     "votes": [
+      "GEORGE",
+      "ANINDYA",
+      "ELEASAURUS",
+      "NIKHIL",
+      "DAN",
+      "NIKOLAI",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JET",
+      "NIKHIL",
+      "GEORGE",
+      "ANINDYA",
+      "DAN"
+     ],
+     "proposer": "JET"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ]
+}

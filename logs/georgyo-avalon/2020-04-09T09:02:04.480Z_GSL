@@ -1,0 +1,255 @@
+{
+ "players": [
+  {
+   "name": "ANGELINE",
+   "uid": "66GJdQYodLWvoYxxSFPZ8rsoTs93"
+  },
+  {
+   "name": "AARON",
+   "uid": "UeZpmKRXoLgIr4dVpMUqr5kRMH83"
+  },
+  {
+   "uid": "orCrQOqYh0MU9qOPqryT7G9zLj93",
+   "name": "CHAEYOUNG"
+  },
+  {
+   "name": "DAIN",
+   "uid": "gTPg0yPF6cY6xEiIPE5SqGA8JHG3"
+  },
+  {
+   "uid": "NAPfsVXMCBWaWYeGIRYvNnhOSq52",
+   "name": "ROYBOY"
+  },
+  {
+   "uid": "XgPsGwrcM5ck0NVq6tJZB0cM3st2",
+   "name": "NISHI"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ANGELINE",
+    "AARON"
+   ],
+   "proposals": [
+    {
+     "proposer": "ANGELINE",
+     "state": "APPROVED",
+     "team": [
+      "ANGELINE",
+      "AARON"
+     ],
+     "votes": [
+      "CHAEYOUNG",
+      "NISHI",
+      "ANGELINE",
+      "AARON",
+      "DAIN",
+      "ROYBOY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "AARON",
+     "state": "APPROVED",
+     "votes": [
+      "CHAEYOUNG",
+      "NISHI",
+      "ANGELINE",
+      "AARON",
+      "DAIN",
+      "ROYBOY"
+     ],
+     "team": [
+      "AARON",
+      "CHAEYOUNG",
+      "DAIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "AARON",
+    "CHAEYOUNG",
+    "DAIN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "CHAEYOUNG",
+    "DAIN",
+    "ROYBOY",
+    "NISHI"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CHAEYOUNG",
+      "NISHI",
+      "ANGELINE",
+      "AARON",
+      "DAIN",
+      "ROYBOY"
+     ],
+     "team": [
+      "CHAEYOUNG",
+      "DAIN",
+      "ROYBOY",
+      "NISHI"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHAEYOUNG"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "DAIN",
+    "CHAEYOUNG",
+    "AARON"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "DAIN",
+     "team": [
+      "DAIN",
+      "CHAEYOUNG",
+      "AARON"
+     ],
+     "votes": [
+      "CHAEYOUNG",
+      "NISHI",
+      "ANGELINE",
+      "AARON",
+      "DAIN",
+      "ROYBOY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ANGELINE",
+      "ROYBOY",
+      "NISHI",
+      "DAIN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CHAEYOUNG",
+      "NISHI",
+      "ANGELINE",
+      "AARON",
+      "DAIN",
+      "ROYBOY"
+     ],
+     "proposer": "ROYBOY"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "ANGELINE",
+    "ROYBOY",
+    "NISHI",
+    "DAIN"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "AARON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DAIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ROYBOY"
+   },
+   {
+    "name": "CHAEYOUNG",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "NISHI",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ANGELINE"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ANGELINE": true,
+    "AARON": true
+   },
+   {
+    "AARON": true,
+    "CHAEYOUNG": true,
+    "DAIN": true
+   },
+   {
+    "DAIN": true,
+    "NISHI": true,
+    "CHAEYOUNG": false,
+    "ROYBOY": true
+   },
+   {
+    "CHAEYOUNG": true,
+    "DAIN": true,
+    "AARON": false
+   },
+   {
+    "NISHI": true,
+    "ROYBOY": true,
+    "DAIN": true,
+    "ANGELINE": true
+   }
+  ],
+  "assassinated": "ANGELINE"
+ },
+ "timeCreated": {
+  "_seconds": 1586422924,
+  "_nanoseconds": 480000000
+ },
+ "timeFinished": {
+  "_seconds": 1586423254,
+  "_nanoseconds": 468543000
+ }
+}

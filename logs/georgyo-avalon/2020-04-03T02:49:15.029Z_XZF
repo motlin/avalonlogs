@@ -1,0 +1,219 @@
+{
+ "timeFinished": {
+  "_seconds": 1585882872,
+  "_nanoseconds": 999724000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "ARUN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "CHIPS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORDRED",
+    "name": "HOWDOWEDO",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "NINA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "SLUGHORN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MINTY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MINTY": true,
+    "NINA": true
+   },
+   {
+    "ARUN": false,
+    "MINTY": true,
+    "NINA": true
+   },
+   {
+    "SLUGHORN": true,
+    "NINA": true,
+    "HOWDOWEDO": false,
+    "CHIPS": true
+   },
+   {
+    "NINA": true,
+    "SLUGHORN": true,
+    "HOWDOWEDO": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1585882155,
+  "_nanoseconds": 29000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NINA",
+      "SLUGHORN",
+      "MINTY",
+      "ARUN",
+      "CHIPS",
+      "HOWDOWEDO"
+     ],
+     "team": [
+      "MINTY",
+      "NINA"
+     ],
+     "proposer": "CHIPS"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "MINTY",
+    "NINA"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "MINTY",
+    "NINA",
+    "ARUN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ARUN",
+     "state": "APPROVED",
+     "votes": [
+      "MINTY",
+      "ARUN",
+      "HOWDOWEDO",
+      "SLUGHORN"
+     ],
+     "team": [
+      "MINTY",
+      "NINA",
+      "ARUN"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CHIPS",
+      "HOWDOWEDO",
+      "NINA",
+      "SLUGHORN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MINTY",
+     "votes": [
+      "SLUGHORN",
+      "MINTY",
+      "CHIPS",
+      "HOWDOWEDO"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "CHIPS",
+    "HOWDOWEDO",
+    "NINA",
+    "SLUGHORN"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "NINA",
+      "SLUGHORN",
+      "HOWDOWEDO"
+     ],
+     "votes": [
+      "HOWDOWEDO",
+      "NINA",
+      "SLUGHORN",
+      "ARUN",
+      "CHIPS"
+     ],
+     "proposer": "NINA",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "NINA",
+    "SLUGHORN",
+    "HOWDOWEDO"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "ARUN",
+   "uid": "YWPt61g9PKcsEfXSPVGlUwG3gI02"
+  },
+  {
+   "name": "MINTY",
+   "uid": "Uiea1JwCfqeqUYYtVoiy24W0TS32"
+  },
+  {
+   "uid": "wBCDs6JBeNOU947Gh9jwrGGg6uf1",
+   "name": "NINA"
+  },
+  {
+   "uid": "EAo3DC2OYQYzOpQ01qyQmLBYVc93",
+   "name": "SLUGHORN"
+  },
+  {
+   "name": "HOWDOWEDO",
+   "uid": "YwcIK5DBV0fp2Xd3w8KdnDVrknz2"
+  },
+  {
+   "name": "CHIPS",
+   "uid": "qBsI9bUIrjaFWWUrQEeh0g0X5VL2"
+  }
+ ]
+}

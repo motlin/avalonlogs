@@ -1,0 +1,242 @@
+{
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "MMM": true,
+    "SANG": true
+   },
+   {
+    "ISAAC": false,
+    "JANELEAIKO": false,
+    "MMM": true
+   },
+   {
+    "KAYAK": true,
+    "SANG": true,
+    "TIM": true
+   },
+   {
+    "KAYAK": true,
+    "MEG": true,
+    "TIM": true,
+    "SANG": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "KAYAK"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JANELEAIKO"
+   },
+   {
+    "assassin": false,
+    "name": "ISAAC",
+    "role": "MORGANA"
+   },
+   {
+    "name": "SANG",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "MMM",
+    "role": "MERLIN"
+   },
+   {
+    "name": "MEG",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "TIM",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "MMM"
+ },
+ "timeFinished": {
+  "_seconds": 1586058566,
+  "_nanoseconds": 541491000
+ },
+ "missions": [
+  {
+   "team": [
+    "SANG",
+    "MMM"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ISAAC",
+      "SANG",
+      "MMM",
+      "MEG",
+      "TIM",
+      "JANELEAIKO"
+     ],
+     "team": [
+      "SANG",
+      "MMM"
+     ],
+     "proposer": "JANELEAIKO"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 2,
+   "failsRequired": 1,
+   "team": [
+    "MMM",
+    "JANELEAIKO",
+    "ISAAC"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "KAYAK",
+     "team": [
+      "MMM",
+      "JANELEAIKO",
+      "ISAAC"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KAYAK",
+      "JANELEAIKO",
+      "ISAAC",
+      "TIM"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KAYAK",
+      "ISAAC",
+      "MEG"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MEG",
+      "KAYAK",
+      "MMM"
+     ],
+     "proposer": "MEG"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KAYAK",
+      "JANELEAIKO",
+      "MEG",
+      "TIM"
+     ],
+     "proposer": "SANG",
+     "team": [
+      "SANG",
+      "KAYAK",
+      "TIM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "SANG",
+    "KAYAK",
+    "TIM"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SANG",
+      "TIM",
+      "MEG",
+      "KAYAK"
+     ],
+     "votes": [
+      "SANG",
+      "MMM",
+      "MEG",
+      "TIM",
+      "KAYAK"
+     ],
+     "proposer": "MMM"
+    }
+   ],
+   "team": [
+    "SANG",
+    "TIM",
+    "MEG",
+    "KAYAK"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "UAPMyX4aOlRZuZotdpIzHtKQA1n1",
+   "name": "SANG"
+  },
+  {
+   "uid": "AGNcR2e99PPqL1JsaqboYL09AW72",
+   "name": "MMM"
+  },
+  {
+   "name": "ISAAC",
+   "uid": "hLjJyAarjOYHisF1EAv1i5xPnz52"
+  },
+  {
+   "name": "TIM",
+   "uid": "3sfUTa5xNvUF6hlpjy1ihhbOOqO2"
+  },
+  {
+   "name": "JANELEAIKO",
+   "uid": "dy8rRVlBtfbvZ82oFn2Ybqy7Kpq2"
+  },
+  {
+   "name": "KAYAK",
+   "uid": "an7HZfPuf7RBYlCYZyOv0t0Pr5X2"
+  },
+  {
+   "name": "MEG",
+   "uid": "mV3KPEm4hySzeXjl6r6Q17h6d0E2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586057324,
+  "_nanoseconds": 92000000
+ }
+}

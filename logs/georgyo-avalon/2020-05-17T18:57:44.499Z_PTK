@@ -1,0 +1,397 @@
+{
+ "players": [
+  {
+   "uid": "wguKKm8G8dVFMrObcuWAF49yzvJ3",
+   "name": "XIAO"
+  },
+  {
+   "uid": "XHzBsHkuPjZlHqJTr62Q91UbfUe2",
+   "name": "JW"
+  },
+  {
+   "name": "KZ",
+   "uid": "PthEpJ8NWOhglI0OBxOO4u6yhjc2"
+  },
+  {
+   "name": "RA",
+   "uid": "RRZ47YSJJQNYV5TAoZ3v8VNnuBB2"
+  },
+  {
+   "uid": "IoolRV7g9POaY9YZiusS7G2TPiF3",
+   "name": "CHRIS"
+  },
+  {
+   "name": "JJHH",
+   "uid": "SSLXuM9NWZTeQlNQq6KVoqzolKX2"
+  },
+  {
+   "uid": "MW6qONhZCMMv5S2pobW3R3tEHbC2",
+   "name": "WEI"
+  },
+  {
+   "name": "FAKEGEORGE",
+   "uid": "LZF5wloD8zXZy1RQxt4PwpmnRRe2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589743823,
+  "_nanoseconds": 729000000
+ },
+ "timeCreated": {
+  "_seconds": 1589741864,
+  "_nanoseconds": 499000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "RA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "JJHH",
+    "role": "MORDRED"
+   },
+   {
+    "name": "XIAO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KZ"
+   },
+   {
+    "name": "FAKEGEORGE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHRIS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JW",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "WEI",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "XIAO": true,
+    "KZ": true,
+    "JW": true
+   },
+   {
+    "KZ": true,
+    "JJHH": false,
+    "XIAO": true,
+    "JW": true
+   },
+   {
+    "JW": true,
+    "JJHH": false,
+    "FAKEGEORGE": true,
+    "CHRIS": true
+   },
+   {
+    "WEI": true,
+    "CHRIS": true,
+    "FAKEGEORGE": true,
+    "XIAO": true,
+    "KZ": true
+   },
+   {
+    "XIAO": true,
+    "KZ": true,
+    "JJHH": false,
+    "FAKEGEORGE": true,
+    "CHRIS": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "JW",
+    "KZ",
+    "XIAO"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JJHH",
+      "XIAO",
+      "KZ",
+      "CHRIS",
+      "JW",
+      "WEI"
+     ],
+     "team": [
+      "JW",
+      "KZ",
+      "XIAO"
+     ],
+     "proposer": "JW"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "KZ",
+      "JW",
+      "XIAO",
+      "JJHH"
+     ],
+     "proposer": "KZ",
+     "state": "APPROVED",
+     "votes": [
+      "JJHH",
+      "XIAO",
+      "KZ",
+      "CHRIS",
+      "JW"
+     ]
+    }
+   ],
+   "team": [
+    "KZ",
+    "JW",
+    "XIAO",
+    "JJHH"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JW",
+      "RA",
+      "XIAO"
+     ],
+     "team": [
+      "XIAO",
+      "JW",
+      "KZ",
+      "RA"
+     ],
+     "proposer": "RA"
+    },
+    {
+     "votes": [
+      "RA",
+      "JJHH",
+      "CHRIS",
+      "JW"
+     ],
+     "team": [
+      "JJHH",
+      "CHRIS",
+      "JW",
+      "KZ"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHRIS"
+    },
+    {
+     "team": [
+      "JW",
+      "CHRIS",
+      "JJHH",
+      "FAKEGEORGE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "WEI",
+      "RA",
+      "JJHH",
+      "FAKEGEORGE",
+      "CHRIS"
+     ],
+     "proposer": "JJHH"
+    }
+   ],
+   "team": [
+    "JW",
+    "CHRIS",
+    "JJHH",
+    "FAKEGEORGE"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "team": [
+    "XIAO",
+    "KZ",
+    "CHRIS",
+    "WEI",
+    "FAKEGEORGE"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "XIAO",
+      "KZ",
+      "JW",
+      "WEI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CHRIS",
+      "JW",
+      "WEI",
+      "KZ",
+      "XIAO"
+     ],
+     "proposer": "WEI"
+    },
+    {
+     "votes": [
+      "KZ",
+      "FAKEGEORGE",
+      "CHRIS",
+      "RA"
+     ],
+     "team": [
+      "FAKEGEORGE",
+      "CHRIS",
+      "XIAO",
+      "KZ",
+      "RA"
+     ],
+     "proposer": "FAKEGEORGE",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "XIAO",
+     "team": [
+      "XIAO",
+      "KZ",
+      "CHRIS",
+      "WEI",
+      "FAKEGEORGE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "XIAO",
+      "KZ",
+      "CHRIS",
+      "JW",
+      "WEI"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 5,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "JW",
+     "team": [
+      "XIAO",
+      "KZ",
+      "CHRIS",
+      "WEI",
+      "FAKEGEORGE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JW",
+      "KZ"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KZ"
+     ],
+     "team": [
+      "KZ",
+      "XIAO",
+      "FAKEGEORGE",
+      "JW",
+      "CHRIS"
+     ],
+     "proposer": "KZ"
+    },
+    {
+     "team": [
+      "FAKEGEORGE",
+      "RA",
+      "XIAO",
+      "KZ",
+      "CHRIS"
+     ],
+     "proposer": "RA",
+     "votes": [
+      "KZ",
+      "FAKEGEORGE",
+      "JJHH"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JJHH",
+      "XIAO",
+      "KZ",
+      "FAKEGEORGE",
+      "CHRIS"
+     ],
+     "team": [
+      "XIAO",
+      "FAKEGEORGE",
+      "KZ",
+      "CHRIS",
+      "JJHH"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHRIS"
+    }
+   ],
+   "team": [
+    "XIAO",
+    "FAKEGEORGE",
+    "KZ",
+    "CHRIS",
+    "JJHH"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "timeFinished": {
+  "_seconds": 1590547077,
+  "_nanoseconds": 87000000
+ },
+ "players": [
+  {
+   "name": "CHELSEA",
+   "uid": "LVbpE4rgG6VpurSnLqo6X1Mb9cI3"
+  },
+  {
+   "name": "IAN",
+   "uid": "vhIlK1cXkPdTZkwkZUNII0sU8ro1"
+  },
+  {
+   "uid": "iQusGVO56Xdpr6VN53244OYcYYw2",
+   "name": "DANNYG"
+  },
+  {
+   "uid": "b1aRSr9TikbL3wbLwhPtHJkaosq2",
+   "name": "TONY"
+  },
+  {
+   "name": "COURTNEY",
+   "uid": "iVsLtSlNPYSZEJcTa2LSnDlMoGI3"
+  },
+  {
+   "name": "BRITTNEY",
+   "uid": "vIyCsXZLPzbYSyrOahHl3ritOWC3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590546707,
+  "_nanoseconds": 48000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CHELSEA",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "COURTNEY"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "DANNYG"
+   },
+   {
+    "assassin": false,
+    "name": "TONY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRITTNEY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "IAN"
+   }
+  ],
+  "votes": [
+   {
+    "CHELSEA": true,
+    "TONY": true
+   },
+   {
+    "TONY": true,
+    "BRITTNEY": true,
+    "CHELSEA": true
+   },
+   {
+    "IAN": true,
+    "BRITTNEY": true,
+    "TONY": true,
+    "CHELSEA": true
+   }
+  ],
+  "assassinated": "TONY",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "COURTNEY",
+      "TONY",
+      "BRITTNEY",
+      "IAN",
+      "CHELSEA"
+     ],
+     "state": "APPROVED",
+     "proposer": "TONY",
+     "team": [
+      "CHELSEA",
+      "TONY"
+     ]
+    }
+   ],
+   "team": [
+    "CHELSEA",
+    "TONY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CHELSEA",
+    "TONY",
+    "BRITTNEY"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "COURTNEY",
+      "DANNYG",
+      "BRITTNEY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "IAN",
+      "DANNYG",
+      "BRITTNEY"
+     ],
+     "proposer": "COURTNEY"
+    },
+    {
+     "votes": [
+      "TONY",
+      "BRITTNEY",
+      "IAN",
+      "CHELSEA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHELSEA",
+      "TONY",
+      "BRITTNEY"
+     ],
+     "proposer": "BRITTNEY"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [
+    "CHELSEA",
+    "IAN",
+    "BRITTNEY",
+    "TONY"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "IAN",
+      "CHELSEA",
+      "TONY",
+      "BRITTNEY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHELSEA",
+      "IAN",
+      "BRITTNEY",
+      "TONY"
+     ],
+     "proposer": "CHELSEA"
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

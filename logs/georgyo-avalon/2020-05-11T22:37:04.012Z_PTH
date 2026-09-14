@@ -1,0 +1,271 @@
+{
+ "players": [
+  {
+   "name": "ZAIN",
+   "uid": "EizqnPS6PpbD6SLC66oODsd8jHN2"
+  },
+  {
+   "uid": "Wjr8vxPJ1vSS6XIGwr3tNLLTWBC2",
+   "name": "SAAAD"
+  },
+  {
+   "name": "RAHUL",
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2",
+   "name": "RAAS"
+  },
+  {
+   "uid": "Nl3X1bQKg2UiLz2f9LXhdaymPOj2",
+   "name": "MK"
+  },
+  {
+   "name": "SANJY",
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589237537,
+  "_nanoseconds": 608000000
+ },
+ "timeCreated": {
+  "_seconds": 1589236624,
+  "_nanoseconds": 12000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MK": true,
+    "RAAS": true
+   },
+   {
+    "MK": true,
+    "RAAS": false,
+    "SANJY": true
+   },
+   {
+    "MAFAZLA": true,
+    "RAHUL": true,
+    "SANJY": true
+   },
+   {
+    "SANJY": true,
+    "RAHUL": true,
+    "MAFAZLA": true,
+    "ZAIN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "MK",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "RAAS",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ZAIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "SAAAD"
+   },
+   {
+    "name": "MAFAZLA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "RAHUL"
+   },
+   {
+    "name": "SANJY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "RAHUL"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "RAAS",
+    "MK"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "SANJY",
+      "MK",
+      "RAAS",
+      "ZAIN",
+      "RAHUL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RAAS",
+      "MK"
+     ],
+     "proposer": "RAAS"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "MK",
+      "SANJY",
+      "RAAS"
+     ],
+     "proposer": "MK",
+     "state": "APPROVED",
+     "votes": [
+      "SANJY",
+      "MK",
+      "RAAS",
+      "ZAIN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "MK",
+    "SANJY",
+    "RAAS"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "SANJY",
+     "state": "REJECTED",
+     "votes": [
+      "ZAIN",
+      "RAHUL",
+      "SANJY"
+     ],
+     "team": [
+      "SANJY",
+      "ZAIN",
+      "RAHUL"
+     ]
+    },
+    {
+     "team": [
+      "ZAIN",
+      "MAFAZLA",
+      "MK"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ZAIN",
+      "MAFAZLA",
+      "MK"
+     ],
+     "proposer": "ZAIN"
+    },
+    {
+     "proposer": "SAAAD",
+     "state": "REJECTED",
+     "votes": [
+      "RAAS",
+      "SAAAD",
+      "SANJY"
+     ],
+     "team": [
+      "SAAAD",
+      "RAAS",
+      "SANJY"
+     ]
+    },
+    {
+     "proposer": "RAHUL",
+     "state": "APPROVED",
+     "team": [
+      "SANJY",
+      "RAHUL",
+      "MAFAZLA"
+     ],
+     "votes": [
+      "RAAS",
+      "ZAIN",
+      "RAHUL",
+      "SANJY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "SANJY",
+    "RAHUL",
+    "MAFAZLA"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MAFAZLA",
+      "RAHUL",
+      "SANJY",
+      "ZAIN"
+     ],
+     "votes": [
+      "ZAIN",
+      "MAFAZLA",
+      "RAHUL",
+      "SANJY"
+     ],
+     "proposer": "MAFAZLA"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "MAFAZLA",
+    "RAHUL",
+    "SANJY",
+    "ZAIN"
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

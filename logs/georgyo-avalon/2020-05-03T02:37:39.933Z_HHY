@@ -1,0 +1,252 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "KEVIN",
+   "uid": "bFEIbjtUEsg9hP32Cd6iANtwApq2"
+  },
+  {
+   "name": "DARCY",
+   "uid": "ptXNobkMNVTPv8jcO2DtQ2iNGeF3"
+  },
+  {
+   "name": "OMAIR",
+   "uid": "iqvwBPb1eceyDTb1KtC7dZvUDG42"
+  },
+  {
+   "name": "ZAARA",
+   "uid": "EUGmyyFwRMYcBgjVVeXB2RsKC293"
+  },
+  {
+   "uid": "3JBw90U8B4cYcu27WmOzRhKw7rE2",
+   "name": "BOXYJACK"
+  },
+  {
+   "name": "LILSLIVY",
+   "uid": "l9hSFGB3BvTEgjVRhlVhZD16CDo1"
+  },
+  {
+   "name": "ACSLATER",
+   "uid": "ifU7Y4mkm9X8qM58QBNlXTmwyTH3"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "BOXYJACK": true,
+    "ACSLATER": true
+   },
+   {
+    "ACSLATER": false,
+    "BOXYJACK": true,
+    "LILSLIVY": true
+   },
+   {
+    "KEVIN": true,
+    "OMAIR": true,
+    "LILSLIVY": true
+   },
+   {
+    "LILSLIVY": true,
+    "OMAIR": true,
+    "KEVIN": true,
+    "DARCY": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "DARCY",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DARCY",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "KEVIN",
+    "assassin": false
+   },
+   {
+    "name": "LILSLIVY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "ACSLATER",
+    "assassin": false
+   },
+   {
+    "name": "ZAARA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "OMAIR",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BOXYJACK",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1588474128,
+  "_nanoseconds": 211000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ACSLATER",
+    "BOXYJACK"
+   ],
+   "proposals": [
+    {
+     "proposer": "BOXYJACK",
+     "team": [
+      "ACSLATER",
+      "BOXYJACK"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DARCY",
+      "KEVIN",
+      "LILSLIVY",
+      "ACSLATER",
+      "ZAARA",
+      "OMAIR",
+      "BOXYJACK"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LILSLIVY",
+     "team": [
+      "LILSLIVY",
+      "ACSLATER",
+      "BOXYJACK"
+     ],
+     "votes": [
+      "ZAARA",
+      "OMAIR",
+      "BOXYJACK",
+      "DARCY",
+      "KEVIN",
+      "LILSLIVY",
+      "ACSLATER"
+     ]
+    }
+   ],
+   "team": [
+    "LILSLIVY",
+    "ACSLATER",
+    "BOXYJACK"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "KEVIN",
+    "OMAIR",
+    "LILSLIVY"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BOXYJACK",
+      "ACSLATER",
+      "OMAIR"
+     ],
+     "votes": [
+      "BOXYJACK",
+      "ZAARA"
+     ],
+     "state": "REJECTED",
+     "proposer": "ACSLATER"
+    },
+    {
+     "votes": [
+      "BOXYJACK",
+      "DARCY",
+      "KEVIN",
+      "LILSLIVY",
+      "ACSLATER",
+      "ZAARA",
+      "OMAIR"
+     ],
+     "team": [
+      "KEVIN",
+      "OMAIR",
+      "LILSLIVY"
+     ],
+     "proposer": "KEVIN",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "DARCY",
+    "KEVIN",
+    "OMAIR",
+    "LILSLIVY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DARCY",
+      "KEVIN",
+      "OMAIR",
+      "LILSLIVY"
+     ],
+     "votes": [
+      "DARCY",
+      "KEVIN",
+      "LILSLIVY",
+      "ACSLATER",
+      "ZAARA",
+      "OMAIR"
+     ],
+     "proposer": "DARCY"
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1588473459,
+  "_nanoseconds": 933000000
+ }
+}

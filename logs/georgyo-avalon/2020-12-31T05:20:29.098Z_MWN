@@ -1,0 +1,251 @@
+{
+ "players": [
+  {
+   "uid": "OaNPtj1HJlYTbtPTV5H39quwOVh1",
+   "name": "MICHAEL"
+  },
+  {
+   "uid": "iG5IWhRUATVk90zZd7kjTRZCZWC2",
+   "name": "KEN"
+  },
+  {
+   "uid": "8NJkeIezbvfCfICqvwRvCcdlcVM2",
+   "name": "POTATO"
+  },
+  {
+   "uid": "Q8vWfRv2RlYoKXngvK3yw8jVmUC3",
+   "name": "LE"
+  },
+  {
+   "name": "MURSECHAU",
+   "uid": "YXuRT3VCQJZxvUI1PTZNU4ngC9y1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609392388,
+  "_nanoseconds": 140000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "LE",
+    "MURSECHAU"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "POTATO",
+      "LE",
+      "MURSECHAU"
+     ],
+     "team": [
+      "LE",
+      "MURSECHAU"
+     ],
+     "proposer": "LE",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "KEN",
+    "POTATO",
+    "LE"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "MURSECHAU",
+      "LE",
+      "POTATO"
+     ],
+     "proposer": "MURSECHAU",
+     "votes": [
+      "MURSECHAU",
+      "LE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MICHAEL"
+     ],
+     "proposer": "MICHAEL",
+     "state": "REJECTED",
+     "team": [
+      "MICHAEL",
+      "KEN",
+      "POTATO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KEN",
+     "votes": [
+      "KEN",
+      "LE",
+      "MURSECHAU",
+      "POTATO"
+     ],
+     "team": [
+      "KEN",
+      "POTATO",
+      "LE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "MICHAEL",
+    "POTATO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MICHAEL",
+      "POTATO"
+     ],
+     "proposer": "POTATO",
+     "state": "APPROVED",
+     "votes": [
+      "KEN",
+      "MICHAEL",
+      "POTATO"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "MICHAEL",
+    "POTATO",
+    "LE"
+   ],
+   "proposals": [
+    {
+     "proposer": "LE",
+     "team": [
+      "MICHAEL",
+      "POTATO",
+      "LE"
+     ],
+     "votes": [
+      "MICHAEL",
+      "POTATO",
+      "LE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MURSECHAU",
+      "POTATO",
+      "KEN"
+     ],
+     "proposer": "MURSECHAU",
+     "votes": [
+      "LE",
+      "KEN",
+      "MURSECHAU"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MURSECHAU",
+    "POTATO",
+    "KEN"
+   ],
+   "numFails": 1
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MURSECHAU": true,
+    "LE": true
+   },
+   {
+    "KEN": true,
+    "POTATO": true,
+    "LE": false
+   },
+   {
+    "POTATO": true,
+    "MICHAEL": true
+   },
+   {
+    "POTATO": true,
+    "MICHAEL": true,
+    "LE": false
+   },
+   {
+    "KEN": true,
+    "POTATO": true,
+    "MURSECHAU": false
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "KEN",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "POTATO",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LE",
+    "assassin": false
+   },
+   {
+    "name": "MURSECHAU",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "MICHAEL",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609392029,
+  "_nanoseconds": 98000000
+ }
+}

@@ -1,0 +1,259 @@
+{
+ "outcome": {
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "ALLIE": true,
+    "KELLY": false
+   },
+   {
+    "ALLIE": true,
+    "IAN": true,
+    "ERIC": true
+   },
+   {
+    "IAN": false,
+    "ALLIE": true,
+    "ERIC": true
+   },
+   {
+    "GMA": true,
+    "IAN": true,
+    "ERIC": true,
+    "ALLIE": true
+   },
+   {
+    "AMG": true,
+    "ERIC": true,
+    "GMA": true,
+    "ALLIE": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "AMG"
+   },
+   {
+    "assassin": false,
+    "name": "ALLIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "IAN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "KELLY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ERIC"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GMA"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "BANANA"
+   }
+  ],
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "KELLY",
+    "ALLIE"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "KELLY",
+      "BANANA",
+      "AMG",
+      "IAN"
+     ],
+     "proposer": "BANANA",
+     "state": "APPROVED",
+     "team": [
+      "KELLY",
+      "ALLIE"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "IAN",
+    "ALLIE",
+    "ERIC"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "IAN",
+      "ALLIE",
+      "ERIC"
+     ],
+     "proposer": "IAN",
+     "state": "APPROVED",
+     "votes": [
+      "BANANA",
+      "AMG",
+      "ALLIE",
+      "IAN",
+      "KELLY",
+      "ERIC"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "IAN",
+      "ERIC",
+      "ALLIE"
+     ],
+     "proposer": "AMG",
+     "votes": [
+      "AMG",
+      "ALLIE",
+      "IAN",
+      "KELLY",
+      "ERIC"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "IAN",
+    "ERIC",
+    "ALLIE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "team": [
+    "ERIC",
+    "GMA",
+    "ALLIE",
+    "IAN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KELLY",
+      "ERIC",
+      "GMA",
+      "BANANA",
+      "ALLIE",
+      "IAN"
+     ],
+     "team": [
+      "ERIC",
+      "GMA",
+      "ALLIE",
+      "IAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "GMA"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ALLIE",
+      "ERIC",
+      "GMA",
+      "AMG"
+     ],
+     "proposer": "ERIC",
+     "state": "APPROVED",
+     "team": [
+      "ERIC",
+      "GMA",
+      "AMG",
+      "ALLIE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "ERIC",
+    "GMA",
+    "AMG",
+    "ALLIE"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1584926172,
+  "_nanoseconds": 937480000
+ },
+ "players": [
+  {
+   "name": "ALLIE",
+   "uid": "XVsFpPv1qHVRCceLlcRZC5uA5Be2"
+  },
+  {
+   "name": "BANANA",
+   "uid": "Ip2o3f6u4fZ9xZEA8E2QI1tcM4W2"
+  },
+  {
+   "name": "IAN",
+   "uid": "hx8xP9Hz80Xn3yx6Pd8q6fLsReL2"
+  },
+  {
+   "name": "AMG",
+   "uid": "fdHKc8ZMyYewp7zFJNU4uxtzB792"
+  },
+  {
+   "name": "GMA",
+   "uid": "u3Ftewk3mvctlsXW3gA5XTnWI6P2"
+  },
+  {
+   "name": "ERIC",
+   "uid": "WZ6Sh9sl6iPjBJBivdmJo1mZZgy1"
+  },
+  {
+   "uid": "7ckpQ5Ap3RUWm65hK28l1RHrvG82",
+   "name": "KELLY"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1584924878,
+  "_nanoseconds": 39000000
+ }
+}

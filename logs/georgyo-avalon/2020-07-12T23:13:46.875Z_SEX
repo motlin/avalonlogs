@@ -1,0 +1,528 @@
+{
+ "players": [
+  {
+   "name": "BLUETINA",
+   "uid": "HXoN5uYy10RFdjSv5xUP6IW2TCb2"
+  },
+  {
+   "name": "ROCIO",
+   "uid": "VbUDJdM4SNRVWhkElP1RFmbhRyo2"
+  },
+  {
+   "name": "TOBYYY",
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2"
+  },
+  {
+   "name": "ROCKY",
+   "uid": "zM9XPY9QEiM3EfKBXlgKk97GJAF3"
+  },
+  {
+   "name": "KAREN",
+   "uid": "kYmaig4V9qPVwzFNPynJHaGGk8P2"
+  },
+  {
+   "uid": "k8GkgnlDZMeTUGvxso2LASjqHZq1",
+   "name": "DANIEL"
+  },
+  {
+   "uid": "7l4eqVu8MTPBqLwvlj5jOeefHZl1",
+   "name": "TERRY"
+  },
+  {
+   "name": "KIMBERLY",
+   "uid": "tVQNQuHDO8cihbBVOPRGTj0fm4I2"
+  },
+  {
+   "uid": "iEzhrQLgEOXe7L05QEtqhr2uXDW2",
+   "name": "RAFMAN"
+  },
+  {
+   "uid": "1BzGT5Pb9SR0DbGe7Xxp8UUky8T2",
+   "name": "LASER"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "BLUETINA": true,
+    "KIMBERLY": true,
+    "DANIEL": true
+   },
+   {
+    "TOBYYY": true,
+    "BLUETINA": true,
+    "LASER": false,
+    "ROCKY": true
+   },
+   {
+    "DANIEL": false,
+    "ROCKY": true,
+    "KIMBERLY": true,
+    "BLUETINA": true
+   },
+   {
+    "ROCKY": true,
+    "TOBYYY": true,
+    "ROCIO": false,
+    "BLUETINA": true,
+    "TERRY": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KAREN"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "ROCIO"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "TOBYYY",
+    "assassin": false
+   },
+   {
+    "name": "ROCKY",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "LASER",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "DANIEL",
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "BLUETINA"
+   },
+   {
+    "name": "RAFMAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "name": "TERRY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KIMBERLY",
+    "role": "LOYAL FOLLOWER"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1594598218,
+  "_nanoseconds": 758000000
+ },
+ "timeCreated": {
+  "_seconds": 1594595626,
+  "_nanoseconds": 875000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "KIMBERLY",
+    "DANIEL",
+    "BLUETINA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "LASER"
+     ],
+     "team": [
+      "ROCKY",
+      "TERRY",
+      "KIMBERLY"
+     ],
+     "proposer": "ROCKY",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KIMBERLY",
+      "KAREN",
+      "ROCIO",
+      "DANIEL",
+      "RAFMAN"
+     ],
+     "proposer": "KAREN",
+     "team": [
+      "KAREN",
+      "ROCKY",
+      "ROCIO"
+     ]
+    },
+    {
+     "team": [
+      "KIMBERLY",
+      "DANIEL",
+      "BLUETINA"
+     ],
+     "votes": [
+      "DANIEL",
+      "BLUETINA"
+     ],
+     "state": "REJECTED",
+     "proposer": "DANIEL"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TERRY",
+      "TOBYYY",
+      "LASER",
+      "DANIEL"
+     ],
+     "proposer": "TERRY",
+     "team": [
+      "TERRY",
+      "DANIEL",
+      "LASER"
+     ]
+    },
+    {
+     "votes": [
+      "KIMBERLY",
+      "KAREN",
+      "ROCIO",
+      "TOBYYY",
+      "ROCKY",
+      "LASER",
+      "DANIEL",
+      "BLUETINA",
+      "RAFMAN",
+      "TERRY"
+     ],
+     "state": "APPROVED",
+     "proposer": "KIMBERLY",
+     "team": [
+      "KIMBERLY",
+      "DANIEL",
+      "BLUETINA"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "TOBYYY",
+    "LASER",
+    "ROCKY",
+    "BLUETINA"
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "RAFMAN",
+     "state": "REJECTED",
+     "team": [
+      "KIMBERLY",
+      "DANIEL",
+      "KAREN",
+      "RAFMAN"
+     ],
+     "votes": [
+      "KAREN",
+      "DANIEL",
+      "RAFMAN"
+     ]
+    },
+    {
+     "votes": [
+      "LASER",
+      "DANIEL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LASER",
+      "KIMBERLY",
+      "BLUETINA",
+      "TOBYYY"
+     ],
+     "proposer": "LASER"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "BLUETINA",
+      "KIMBERLY",
+      "DANIEL",
+      "TOBYYY"
+     ],
+     "votes": [
+      "KIMBERLY",
+      "KAREN",
+      "ROCKY",
+      "DANIEL",
+      "BLUETINA"
+     ],
+     "proposer": "BLUETINA"
+    },
+    {
+     "votes": [
+      "ROCIO",
+      "DANIEL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ROCIO",
+      "KIMBERLY",
+      "BLUETINA",
+      "DANIEL"
+     ],
+     "proposer": "ROCIO"
+    },
+    {
+     "proposer": "TOBYYY",
+     "team": [
+      "TOBYYY",
+      "LASER",
+      "ROCKY",
+      "BLUETINA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ROCKY",
+      "LASER",
+      "DANIEL",
+      "BLUETINA",
+      "RAFMAN",
+      "TERRY",
+      "KAREN",
+      "TOBYYY"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "ROCKY",
+     "team": [
+      "ROCKY",
+      "BLUETINA",
+      "DANIEL",
+      "KIMBERLY"
+     ],
+     "votes": [
+      "KIMBERLY",
+      "TOBYYY",
+      "ROCKY",
+      "DANIEL"
+     ]
+    },
+    {
+     "votes": [
+      "KAREN",
+      "LASER",
+      "DANIEL"
+     ],
+     "team": [
+      "KAREN",
+      "BLUETINA",
+      "KIMBERLY",
+      "LASER"
+     ],
+     "state": "REJECTED",
+     "proposer": "KAREN"
+    },
+    {
+     "votes": [
+      "ROCKY",
+      "DANIEL",
+      "BLUETINA",
+      "KIMBERLY"
+     ],
+     "proposer": "DANIEL",
+     "state": "REJECTED",
+     "team": [
+      "BLUETINA",
+      "ROCKY",
+      "DANIEL",
+      "KIMBERLY"
+     ]
+    },
+    {
+     "team": [
+      "TERRY",
+      "KIMBERLY",
+      "DANIEL",
+      "BLUETINA"
+     ],
+     "votes": [
+      "BLUETINA",
+      "TERRY",
+      "TOBYYY"
+     ],
+     "state": "REJECTED",
+     "proposer": "TERRY"
+    },
+    {
+     "team": [
+      "DANIEL",
+      "KIMBERLY",
+      "BLUETINA",
+      "ROCKY"
+     ],
+     "proposer": "KIMBERLY",
+     "state": "APPROVED",
+     "votes": [
+      "KIMBERLY",
+      "KAREN",
+      "ROCIO",
+      "TOBYYY",
+      "ROCKY",
+      "LASER",
+      "DANIEL",
+      "BLUETINA",
+      "RAFMAN",
+      "TERRY"
+     ]
+    }
+   ],
+   "team": [
+    "DANIEL",
+    "KIMBERLY",
+    "BLUETINA",
+    "ROCKY"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "numFails": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "BLUETINA",
+      "ROCKY",
+      "DANIEL",
+      "RAFMAN",
+      "LASER"
+     ],
+     "proposer": "RAFMAN",
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "LASER",
+      "ROCKY",
+      "KIMBERLY",
+      "KAREN",
+      "RAFMAN"
+     ],
+     "votes": [
+      "KAREN",
+      "LASER",
+      "DANIEL"
+     ],
+     "proposer": "LASER"
+    },
+    {
+     "proposer": "BLUETINA",
+     "state": "REJECTED",
+     "team": [
+      "BLUETINA",
+      "ROCKY",
+      "TOBYYY",
+      "RAFMAN",
+      "ROCIO"
+     ],
+     "votes": [
+      "ROCKY",
+      "BLUETINA",
+      "RAFMAN",
+      "TOBYYY"
+     ]
+    },
+    {
+     "team": [
+      "ROCIO",
+      "BLUETINA",
+      "ROCKY",
+      "TOBYYY",
+      "KIMBERLY"
+     ],
+     "votes": [
+      "KIMBERLY",
+      "ROCIO",
+      "LASER",
+      "RAFMAN"
+     ],
+     "proposer": "ROCIO",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "TOBYYY",
+     "votes": [
+      "ROCKY",
+      "LASER",
+      "DANIEL",
+      "BLUETINA",
+      "RAFMAN",
+      "KIMBERLY",
+      "KAREN",
+      "ROCIO",
+      "TOBYYY"
+     ],
+     "team": [
+      "TOBYYY",
+      "BLUETINA",
+      "ROCKY",
+      "ROCIO",
+      "TERRY"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 2,
+   "team": [
+    "TOBYYY",
+    "BLUETINA",
+    "ROCKY",
+    "ROCIO",
+    "TERRY"
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ]
+}

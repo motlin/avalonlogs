@@ -1,0 +1,241 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "CHAITHANYA",
+    "MORLIN"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHAITHANYA",
+     "team": [
+      "CHAITHANYA",
+      "MORLIN"
+     ],
+     "votes": [
+      "CHAITHANYA",
+      "MORLIN",
+      "ABHIJIT",
+      "LBJ",
+      "ANIKETH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "MORLIN",
+    "CHAITHANYA",
+    "ANIKETH"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MORLIN",
+      "CHAITHANYA",
+      "ANIKETH"
+     ],
+     "proposer": "MORLIN",
+     "votes": [
+      "ABHIJIT",
+      "LBJ",
+      "ANIKETH",
+      "CHAITHANYA"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ANIKETH",
+    "MORLIN"
+   ],
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHAITHANYA",
+      "MORLIN",
+      "ABHIJIT",
+      "ANIKETH"
+     ],
+     "proposer": "ANIKETH",
+     "team": [
+      "ANIKETH",
+      "MORLIN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "LBJ",
+    "ANIKETH",
+    "CHAITHANYA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MORLIN",
+      "ABHIJIT"
+     ],
+     "team": [
+      "ABHIJIT",
+      "CHAITHANYA",
+      "ANIKETH"
+     ],
+     "state": "REJECTED",
+     "proposer": "ABHIJIT"
+    },
+    {
+     "team": [
+      "LBJ",
+      "ANIKETH",
+      "CHAITHANYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "LBJ",
+     "votes": [
+      "CHAITHANYA",
+      "MORLIN",
+      "LBJ",
+      "ANIKETH"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CHAITHANYA",
+      "MORLIN",
+      "LBJ",
+      "ANIKETH"
+     ],
+     "team": [
+      "CHAITHANYA",
+      "LBJ",
+      "ANIKETH"
+     ],
+     "proposer": "CHAITHANYA",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "CHAITHANYA",
+    "LBJ",
+    "ANIKETH"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586582436,
+  "_nanoseconds": 795695000
+ },
+ "players": [
+  {
+   "name": "CHAITHANYA",
+   "uid": "cAjDOV1WbPRqRjv28SDq7BYb6Up2"
+  },
+  {
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3",
+   "name": "MORLIN"
+  },
+  {
+   "name": "ANIKETH",
+   "uid": "mhGqERYygScqJ0S29jQ3yK7o2ku2"
+  },
+  {
+   "name": "ABHIJIT",
+   "uid": "EccvBFC0axSC6fAdNR0WC6sNsB33"
+  },
+  {
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652",
+   "name": "LBJ"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "MORLIN": true,
+    "CHAITHANYA": true
+   },
+   {
+    "MORLIN": false,
+    "CHAITHANYA": true,
+    "ANIKETH": true
+   },
+   {
+    "ANIKETH": true,
+    "MORLIN": false
+   },
+   {
+    "LBJ": true,
+    "CHAITHANYA": true,
+    "ANIKETH": true
+   },
+   {
+    "LBJ": true,
+    "CHAITHANYA": true,
+    "ANIKETH": true
+   }
+  ],
+  "assassinated": "LBJ",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "ABHIJIT",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LBJ",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "ANIKETH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "CHAITHANYA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MORLIN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586581706,
+  "_nanoseconds": 604000000
+ }
+}

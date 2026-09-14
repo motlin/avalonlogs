@@ -1,0 +1,243 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "RALPH",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MENOSPY",
+    "assassin": false
+   },
+   {
+    "name": "THIRST",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "DOOGERTON",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "GAYDUDE",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "GAYDUDE": true,
+    "DOOGERTON": true
+   },
+   {
+    "THIRST": false,
+    "RALPH": true,
+    "DOOGERTON": true
+   },
+   {
+    "MENOSPY": true,
+    "GAYDUDE": true
+   },
+   {
+    "RALPH": true,
+    "DOOGERTON": true,
+    "MENOSPY": false
+   },
+   {
+    "MENOSPY": false,
+    "GAYDUDE": true,
+    "DOOGERTON": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1586853364,
+  "_nanoseconds": 20847000
+ },
+ "players": [
+  {
+   "uid": "apwmkhQuN5RN3DJmLCWcGVcnNms2",
+   "name": "RALPH"
+  },
+  {
+   "name": "DOOGERTON",
+   "uid": "jfCWbBt4EEVAgpAXR5LjKBESCA23"
+  },
+  {
+   "uid": "u7qlQV3RQTZyGekOYR5l3NQLjYH3",
+   "name": "THIRST"
+  },
+  {
+   "uid": "D0vJissHbjNvueGpUHPF9Unuiwg2",
+   "name": "MENOSPY"
+  },
+  {
+   "name": "GAYDUDE",
+   "uid": "4R0CgnmiqoMImJjqtnF93H0GkLG2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586852892,
+  "_nanoseconds": 506000000
+ },
+ "missions": [
+  {
+   "team": [
+    "GAYDUDE",
+    "DOOGERTON"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "GAYDUDE",
+      "RALPH",
+      "THIRST",
+      "DOOGERTON"
+     ],
+     "proposer": "DOOGERTON",
+     "team": [
+      "GAYDUDE",
+      "DOOGERTON"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "THIRST",
+      "DOOGERTON",
+      "GAYDUDE",
+      "MENOSPY"
+     ],
+     "team": [
+      "DOOGERTON",
+      "THIRST",
+      "RALPH"
+     ],
+     "proposer": "THIRST",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DOOGERTON",
+    "THIRST",
+    "RALPH"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "MENOSPY",
+     "state": "APPROVED",
+     "team": [
+      "GAYDUDE",
+      "MENOSPY"
+     ],
+     "votes": [
+      "MENOSPY",
+      "THIRST",
+      "DOOGERTON",
+      "GAYDUDE"
+     ]
+    }
+   ],
+   "team": [
+    "GAYDUDE",
+    "MENOSPY"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "GAYDUDE",
+     "state": "REJECTED",
+     "votes": [
+      "GAYDUDE",
+      "THIRST"
+     ],
+     "team": [
+      "RALPH",
+      "THIRST",
+      "DOOGERTON"
+     ]
+    },
+    {
+     "team": [
+      "RALPH",
+      "DOOGERTON",
+      "MENOSPY"
+     ],
+     "state": "APPROVED",
+     "proposer": "RALPH",
+     "votes": [
+      "THIRST",
+      "DOOGERTON",
+      "RALPH",
+      "MENOSPY"
+     ]
+    }
+   ],
+   "team": [
+    "RALPH",
+    "DOOGERTON",
+    "MENOSPY"
+   ]
+  },
+  {
+   "team": [
+    "GAYDUDE",
+    "MENOSPY",
+    "DOOGERTON"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "DOOGERTON",
+     "team": [
+      "GAYDUDE",
+      "MENOSPY",
+      "DOOGERTON"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GAYDUDE",
+      "MENOSPY",
+      "THIRST",
+      "DOOGERTON"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  }
+ ]
+}

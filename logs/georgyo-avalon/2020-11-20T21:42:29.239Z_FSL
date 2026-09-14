@@ -1,0 +1,420 @@
+{
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "THIERRY",
+    "assassin": false
+   },
+   {
+    "name": "LAURA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "REGIS",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "AMANDINE"
+   },
+   {
+    "name": "LEO",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "DELPHINE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CLAIRE",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "REGIS": true,
+    "LAURA": true
+   },
+   {
+    "LEO": false,
+    "LAURA": true,
+    "REGIS": true
+   },
+   {
+    "REGIS": false,
+    "THIERRY": true,
+    "LAURA": true
+   },
+   {
+    "DELPHINE": true,
+    "THIERRY": true,
+    "LEO": true,
+    "CLAIRE": true
+   },
+   {
+    "THIERRY": true,
+    "LEO": false,
+    "DELPHINE": true,
+    "LAURA": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1605913897,
+  "_nanoseconds": 935000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "REGIS",
+    "LAURA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "REGIS",
+      "THIERRY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "THIERRY",
+      "REGIS",
+      "AMANDINE"
+     ],
+     "proposer": "THIERRY"
+    },
+    {
+     "votes": [
+      "AMANDINE",
+      "LAURA"
+     ],
+     "proposer": "LEO",
+     "state": "REJECTED",
+     "team": [
+      "LEO",
+      "CLAIRE"
+     ]
+    },
+    {
+     "proposer": "LAURA",
+     "team": [
+      "LAURA",
+      "DELPHINE"
+     ],
+     "votes": [
+      "AMANDINE",
+      "LAURA",
+      "DELPHINE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "DELPHINE",
+      "LAURA"
+     ],
+     "state": "REJECTED",
+     "proposer": "DELPHINE",
+     "votes": [
+      "LAURA",
+      "LEO",
+      "DELPHINE"
+     ]
+    },
+    {
+     "votes": [
+      "DELPHINE",
+      "REGIS",
+      "LEO",
+      "LAURA",
+      "THIERRY",
+      "CLAIRE",
+      "AMANDINE"
+     ],
+     "proposer": "REGIS",
+     "state": "APPROVED",
+     "team": [
+      "REGIS",
+      "LAURA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "REGIS",
+      "CLAIRE",
+      "LEO"
+     ],
+     "votes": [
+      "AMANDINE",
+      "CLAIRE"
+     ],
+     "proposer": "CLAIRE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "AMANDINE",
+     "team": [
+      "AMANDINE",
+      "CLAIRE",
+      "LAURA"
+     ],
+     "votes": [
+      "LEO",
+      "AMANDINE"
+     ]
+    },
+    {
+     "proposer": "THIERRY",
+     "votes": [
+      "AMANDINE",
+      "DELPHINE",
+      "THIERRY"
+     ],
+     "team": [
+      "LAURA",
+      "REGIS",
+      "THIERRY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AMANDINE"
+     ],
+     "team": [
+      "LEO",
+      "DELPHINE",
+      "AMANDINE"
+     ],
+     "proposer": "LEO"
+    },
+    {
+     "team": [
+      "REGIS",
+      "LAURA",
+      "LEO"
+     ],
+     "state": "APPROVED",
+     "proposer": "LAURA",
+     "votes": [
+      "THIERRY",
+      "DELPHINE",
+      "REGIS",
+      "AMANDINE",
+      "LAURA",
+      "CLAIRE",
+      "LEO"
+     ]
+    }
+   ],
+   "team": [
+    "REGIS",
+    "LAURA",
+    "LEO"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "DELPHINE",
+      "THIERRY",
+      "LAURA"
+     ],
+     "proposer": "DELPHINE",
+     "votes": [
+      "DELPHINE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "REGIS"
+     ],
+     "proposer": "REGIS",
+     "team": [
+      "REGIS",
+      "LAURA",
+      "CLAIRE"
+     ]
+    },
+    {
+     "votes": [
+      "AMANDINE"
+     ],
+     "proposer": "CLAIRE",
+     "state": "REJECTED",
+     "team": [
+      "CLAIRE",
+      "LEO",
+      "LAURA"
+     ]
+    },
+    {
+     "votes": [
+      "AMANDINE",
+      "CLAIRE"
+     ],
+     "proposer": "AMANDINE",
+     "team": [
+      "AMANDINE",
+      "CLAIRE",
+      "LAURA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "THIERRY",
+      "DELPHINE",
+      "LAURA",
+      "AMANDINE",
+      "LEO",
+      "CLAIRE",
+      "REGIS"
+     ],
+     "proposer": "THIERRY",
+     "team": [
+      "LAURA",
+      "REGIS",
+      "THIERRY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "LAURA",
+    "REGIS",
+    "THIERRY"
+   ],
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "LEO",
+    "THIERRY",
+    "DELPHINE",
+    "CLAIRE"
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "LEO",
+     "state": "APPROVED",
+     "votes": [
+      "THIERRY",
+      "DELPHINE",
+      "LEO",
+      "LAURA",
+      "CLAIRE"
+     ],
+     "team": [
+      "LEO",
+      "THIERRY",
+      "DELPHINE",
+      "CLAIRE"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LAURA",
+     "votes": [
+      "LAURA",
+      "REGIS",
+      "DELPHINE",
+      "THIERRY",
+      "LEO"
+     ],
+     "team": [
+      "LAURA",
+      "DELPHINE",
+      "THIERRY",
+      "LEO"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "LAURA",
+    "DELPHINE",
+    "THIERRY",
+    "LEO"
+   ],
+   "numFails": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "LAURA",
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2"
+  },
+  {
+   "uid": "kVZS7AjbneWvxpJ2YmiQoeJJpjJ2",
+   "name": "DELPHINE"
+  },
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  },
+  {
+   "name": "CLAIRE",
+   "uid": "J6DN3aTJiAZBXj8w0yQgbagLfbS2"
+  },
+  {
+   "uid": "OhC8XQoMkYhYs1ImSJomxoAUsFF3",
+   "name": "AMANDINE"
+  },
+  {
+   "uid": "KkooH0R542OJC2knwB9yO4SgdO23",
+   "name": "THIERRY"
+  },
+  {
+   "name": "LEO",
+   "uid": "T0Y1Ud9ZYVctLMkv8A0SPJ0revh2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1605908549,
+  "_nanoseconds": 239000000
+ }
+}

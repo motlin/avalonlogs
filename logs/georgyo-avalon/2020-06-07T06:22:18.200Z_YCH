@@ -1,0 +1,177 @@
+{
+ "players": [
+  {
+   "name": "ZACH",
+   "uid": "bH4tIAsGmEO9QIrWbxqrS211mdW2"
+  },
+  {
+   "name": "YB",
+   "uid": "dBbDTVYBVOX3bdMaEHBbhW01IIB3"
+  },
+  {
+   "name": "DREW",
+   "uid": "WNEw31ozPgP0GMZ3QUAX3OHAaNs1"
+  },
+  {
+   "name": "MARC",
+   "uid": "Kd9gvaBxtCO5a0I4MmewNknH2lZ2"
+  },
+  {
+   "uid": "kdv28Sr4cfcBVhVB2XWdvBdAvM83",
+   "name": "CNN"
+  }
+ ],
+ "missions": [
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "CNN",
+     "state": "APPROVED",
+     "team": [
+      "CNN",
+      "MARC"
+     ],
+     "votes": [
+      "MARC",
+      "YB",
+      "ZACH"
+     ]
+    }
+   ],
+   "team": [
+    "CNN",
+    "MARC"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ZACH",
+    "YB",
+    "DREW"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ZACH",
+     "votes": [
+      "ZACH",
+      "MARC",
+      "YB",
+      "DREW"
+     ],
+     "team": [
+      "ZACH",
+      "YB",
+      "DREW"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "YB",
+    "CNN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "YB",
+      "CNN"
+     ],
+     "votes": [
+      "ZACH",
+      "CNN",
+      "YB",
+      "DREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "YB"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "CNN",
+    "assassin": false
+   },
+   {
+    "name": "YB",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DREW"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "ZACH"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MARC"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "CNN": false,
+    "MARC": true
+   },
+   {
+    "DREW": true,
+    "YB": true,
+    "ZACH": false
+   },
+   {
+    "CNN": false,
+    "YB": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591511269,
+  "_nanoseconds": 138000000
+ },
+ "timeCreated": {
+  "_seconds": 1591510938,
+  "_nanoseconds": 200000000
+ }
+}

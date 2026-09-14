@@ -1,0 +1,277 @@
+{
+ "timeFinished": {
+  "_seconds": 1585359047,
+  "_nanoseconds": 157585000
+ },
+ "timeCreated": {
+  "_seconds": 1585358348,
+  "_nanoseconds": 493000000
+ },
+ "players": [
+  {
+   "name": "OLIV",
+   "uid": "aDYcz61tQLgU9lZrNciYisqQSOY2"
+  },
+  {
+   "uid": "MFFjMfUx7uhcRmNUJVcY5TYloBt1",
+   "name": "BONKA"
+  },
+  {
+   "uid": "Q2eexRLYOON5BQxFL5v8fqKC1Wb2",
+   "name": "KIMMY"
+  },
+  {
+   "name": "SARAH",
+   "uid": "eK9Px4sSP5MeEYadkLpCbovRmoB3"
+  },
+  {
+   "uid": "KIemGsrnLnMXDeaqDfijiHb89S13",
+   "name": "TIEN"
+  },
+  {
+   "uid": "hA4mSr5OilQH5WdCQQQtREDRhn12",
+   "name": "LINA"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "SARAH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "OLIV",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BONKA"
+   },
+   {
+    "name": "KIMMY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LINA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "TIEN"
+   }
+  ],
+  "assassinated": "SARAH",
+  "votes": [
+   {
+    "TIEN": true,
+    "SARAH": true
+   },
+   {
+    "SARAH": true,
+    "TIEN": true,
+    "OLIV": false
+   },
+   {
+    "KIMMY": true,
+    "LINA": true,
+    "SARAH": true,
+    "TIEN": true
+   },
+   {
+    "LINA": true,
+    "OLIV": false,
+    "KIMMY": true
+   },
+   {
+    "SARAH": true,
+    "TIEN": true,
+    "KIMMY": true,
+    "LINA": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "SARAH",
+    "TIEN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SARAH",
+      "TIEN"
+     ],
+     "proposer": "SARAH",
+     "state": "APPROVED",
+     "votes": [
+      "LINA",
+      "TIEN",
+      "SARAH",
+      "OLIV",
+      "BONKA",
+      "KIMMY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "TIEN",
+    "SARAH",
+    "OLIV"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "TIEN",
+     "team": [
+      "TIEN",
+      "SARAH",
+      "OLIV"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SARAH",
+      "OLIV",
+      "KIMMY",
+      "LINA",
+      "TIEN"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "SARAH",
+    "LINA",
+    "TIEN",
+    "KIMMY"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BONKA",
+      "KIMMY",
+      "LINA",
+      "TIEN",
+      "SARAH",
+      "OLIV"
+     ],
+     "proposer": "LINA",
+     "team": [
+      "SARAH",
+      "LINA",
+      "TIEN",
+      "KIMMY"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "OLIV",
+      "KIMMY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BONKA",
+      "KIMMY",
+      "LINA"
+     ],
+     "proposer": "OLIV"
+    },
+    {
+     "team": [
+      "OLIV",
+      "BONKA",
+      "SARAH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "OLIV",
+      "KIMMY"
+     ],
+     "proposer": "BONKA"
+    },
+    {
+     "votes": [
+      "OLIV",
+      "KIMMY",
+      "LINA",
+      "TIEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "KIMMY",
+     "team": [
+      "KIMMY",
+      "LINA",
+      "OLIV"
+     ]
+    }
+   ],
+   "team": [
+    "KIMMY",
+    "LINA",
+    "OLIV"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SARAH",
+      "BONKA",
+      "KIMMY",
+      "LINA",
+      "TIEN"
+     ],
+     "team": [
+      "LINA",
+      "TIEN",
+      "SARAH",
+      "KIMMY"
+     ],
+     "proposer": "SARAH"
+    }
+   ],
+   "team": [
+    "LINA",
+    "TIEN",
+    "SARAH",
+    "KIMMY"
+   ],
+   "state": "SUCCESS"
+  }
+ ]
+}

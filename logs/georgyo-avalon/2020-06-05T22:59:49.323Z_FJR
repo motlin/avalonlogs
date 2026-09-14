@@ -1,0 +1,260 @@
+{
+ "timeFinished": {
+  "_seconds": 1591398930,
+  "_nanoseconds": 723000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "name": "LUCY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "TOM",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "TONY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CARLY"
+   },
+   {
+    "name": "DAISY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JOE"
+   },
+   {
+    "assassin": false,
+    "name": "KELLY",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "LUCY": false,
+    "DAISY": true
+   },
+   {
+    "DAISY": false,
+    "CARLY": true,
+    "JOE": true
+   },
+   {
+    "KELLY": true,
+    "TONY": true,
+    "CARLY": true
+   },
+   {
+    "JOE": true,
+    "TONY": true,
+    "KELLY": true,
+    "CARLY": true
+   },
+   {
+    "CARLY": true,
+    "JOE": true,
+    "TONY": true,
+    "KELLY": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "KELLY",
+     "state": "APPROVED",
+     "votes": [
+      "LUCY",
+      "TOM",
+      "TONY",
+      "DAISY",
+      "JOE",
+      "KELLY"
+     ],
+     "team": [
+      "LUCY",
+      "DAISY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "LUCY",
+    "DAISY"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "DAISY",
+    "CARLY",
+    "JOE"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DAISY",
+     "team": [
+      "DAISY",
+      "CARLY",
+      "JOE"
+     ],
+     "votes": [
+      "KELLY",
+      "LUCY",
+      "TOM",
+      "DAISY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "TONY",
+      "CARLY",
+      "KELLY"
+     ],
+     "proposer": "JOE",
+     "state": "APPROVED",
+     "votes": [
+      "TONY",
+      "CARLY",
+      "JOE",
+      "KELLY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "TONY",
+    "CARLY",
+    "KELLY"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "CARLY",
+    "TONY",
+    "JOE",
+    "KELLY"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "TOM",
+     "team": [
+      "CARLY",
+      "TONY",
+      "JOE",
+      "KELLY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LUCY",
+      "TONY",
+      "CARLY",
+      "JOE",
+      "KELLY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "TONY",
+    "CARLY",
+    "JOE",
+    "KELLY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "TONY",
+      "CARLY",
+      "JOE",
+      "KELLY"
+     ],
+     "state": "APPROVED",
+     "proposer": "TONY",
+     "votes": [
+      "TONY",
+      "CARLY",
+      "JOE",
+      "KELLY"
+     ]
+    }
+   ],
+   "teamSize": 4
+  }
+ ],
+ "players": [
+  {
+   "name": "JOE",
+   "uid": "vMKjz6iL1JdNqgOaPZ5fvmmexUf2"
+  },
+  {
+   "name": "TOM",
+   "uid": "1DaHFAnlG8N8sXOQiEEaNUZt1Ij1"
+  },
+  {
+   "name": "TONY",
+   "uid": "Ib7uaigWtebD3rO8vpH9uh4qhB22"
+  },
+  {
+   "name": "LUCY",
+   "uid": "aQVfDfriJWbANsVfkpFFSbjzfz73"
+  },
+  {
+   "uid": "wekzzTu1HXT3Es7TF3XzyGdwgGt2",
+   "name": "CARLY"
+  },
+  {
+   "name": "KELLY",
+   "uid": "CmcYIRncOIWWfq3ts2OdDyF8Yc23"
+  },
+  {
+   "uid": "wuKkbRwJvdeQh0lVCIhGxc3LXmo2",
+   "name": "DAISY"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591397989,
+  "_nanoseconds": 323000000
+ }
+}

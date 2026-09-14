@@ -1,0 +1,261 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587087462,
+  "_nanoseconds": 186000000
+ },
+ "players": [
+  {
+   "name": "JACK",
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2"
+  },
+  {
+   "uid": "xi35CAgu1pQX6cz9w1TGaSxDB7u1",
+   "name": "JONESY"
+  },
+  {
+   "name": "MAY",
+   "uid": "RwWZNKOgKrUOvfWnPrUIb0UrG4Y2"
+  },
+  {
+   "uid": "rlYsN9yWvjY50whmk7OijNcUXHy2",
+   "name": "SLIMMYJIMM"
+  },
+  {
+   "name": "REID",
+   "uid": "JsV7G0CQiXg86UzXmJdBAU0xe4n1"
+  },
+  {
+   "uid": "gAiRUjpSMlbOzGpCzUNPHhcdscG3",
+   "name": "RYAN"
+  },
+  {
+   "name": "WILL",
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587088175,
+  "_nanoseconds": 413423000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "WILL",
+    "RYAN"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "WILL",
+      "JACK",
+      "JONESY",
+      "MAY",
+      "SLIMMYJIMM",
+      "REID",
+      "RYAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "WILL",
+      "RYAN"
+     ],
+     "proposer": "WILL"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "JACK",
+     "team": [
+      "SLIMMYJIMM",
+      "WILL",
+      "RYAN"
+     ],
+     "votes": [
+      "JONESY",
+      "MAY",
+      "REID",
+      "WILL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "SLIMMYJIMM",
+    "WILL",
+    "RYAN"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SLIMMYJIMM",
+      "RYAN",
+      "JONESY"
+     ],
+     "votes": [
+      "JACK",
+      "SLIMMYJIMM"
+     ],
+     "proposer": "JONESY"
+    },
+    {
+     "team": [
+      "MAY",
+      "REID",
+      "SLIMMYJIMM"
+     ],
+     "votes": [
+      "MAY",
+      "REID"
+     ],
+     "proposer": "MAY",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "SLIMMYJIMM",
+     "state": "APPROVED",
+     "team": [
+      "SLIMMYJIMM",
+      "RYAN",
+      "JONESY"
+     ],
+     "votes": [
+      "SLIMMYJIMM",
+      "RYAN",
+      "JACK",
+      "JONESY",
+      "MAY"
+     ]
+    }
+   ],
+   "team": [
+    "SLIMMYJIMM",
+    "RYAN",
+    "JONESY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "SLIMMYJIMM",
+    "JONESY",
+    "RYAN",
+    "REID"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "JACK",
+      "JONESY",
+      "MAY",
+      "SLIMMYJIMM",
+      "REID",
+      "RYAN"
+     ],
+     "proposer": "REID",
+     "team": [
+      "SLIMMYJIMM",
+      "JONESY",
+      "RYAN",
+      "REID"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "outcome": {
+  "assassinated": "SLIMMYJIMM",
+  "roles": [
+   {
+    "name": "MAY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "SLIMMYJIMM",
+    "role": "MERLIN"
+   },
+   {
+    "name": "REID",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "name": "WILL",
+    "assassin": false
+   },
+   {
+    "name": "JACK",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JONESY"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "WILL": true,
+    "RYAN": true
+   },
+   {
+    "WILL": false,
+    "RYAN": true,
+    "SLIMMYJIMM": true
+   },
+   {
+    "JONESY": true,
+    "RYAN": true,
+    "SLIMMYJIMM": true
+   },
+   {
+    "SLIMMYJIMM": true,
+    "RYAN": true,
+    "REID": true,
+    "JONESY": true
+   }
+  ]
+ }
+}

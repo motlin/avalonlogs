@@ -1,0 +1,368 @@
+{
+ "timeCreated": {
+  "_seconds": 1586572960,
+  "_nanoseconds": 131000000
+ },
+ "timeFinished": {
+  "_seconds": 1586573995,
+  "_nanoseconds": 39903000
+ },
+ "players": [
+  {
+   "name": "KAREN",
+   "uid": "ug2Z3eGpttalUMWgZZKyDfzh4g12"
+  },
+  {
+   "name": "ILEANA",
+   "uid": "yFVB9oNaddS93y4hpO1S314w82C2"
+  },
+  {
+   "name": "TOMMY",
+   "uid": "QOzpgOjFxyL9rWT0v5Vd6O6tAPf1"
+  },
+  {
+   "uid": "pX5XTYx9R3Qyn1xIxCQWLavkeWX2",
+   "name": "AL"
+  },
+  {
+   "name": "TIM",
+   "uid": "brzNkVEtSuPmTvNvcCLkNUwrral2"
+  },
+  {
+   "name": "DAYANA",
+   "uid": "ngKX2HakezPFLvdNC4qYJv3nFiB2"
+  },
+  {
+   "uid": "KscppRqEaGUtNCT8ds7HKXWGheQ2",
+   "name": "ALEJANDRO"
+  },
+  {
+   "name": "DANNY",
+   "uid": "VREjPH4zDhRSWigHyRdH5dGb2yC2"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "ALEJANDRO": true,
+    "TOMMY": true,
+    "DANNY": true
+   },
+   {
+    "DAYANA": true,
+    "AL": true,
+    "KAREN": true,
+    "DANNY": true
+   },
+   {
+    "AL": true,
+    "TIM": false,
+    "TOMMY": false,
+    "ALEJANDRO": true
+   },
+   {
+    "TOMMY": false,
+    "DANNY": true,
+    "KAREN": true,
+    "ALEJANDRO": true,
+    "DAYANA": false
+   },
+   {
+    "TOMMY": false,
+    "KAREN": true,
+    "ALEJANDRO": true,
+    "DANNY": true,
+    "ILEANA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "KAREN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ILEANA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TOMMY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "AL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "TIM"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "DAYANA"
+   },
+   {
+    "name": "ALEJANDRO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DANNY",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "TOMMY",
+    "ALEJANDRO",
+    "DANNY"
+   ],
+   "proposals": [
+    {
+     "proposer": "DANNY",
+     "votes": [
+      "DANNY",
+      "KAREN",
+      "ILEANA",
+      "TOMMY",
+      "AL",
+      "TIM",
+      "DAYANA",
+      "ALEJANDRO"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "TOMMY",
+      "ALEJANDRO",
+      "DANNY"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAYANA",
+      "DANNY",
+      "AL",
+      "KAREN"
+     ],
+     "proposer": "KAREN",
+     "votes": [
+      "KAREN",
+      "TOMMY",
+      "AL",
+      "DAYANA",
+      "DANNY"
+     ]
+    }
+   ],
+   "team": [
+    "DAYANA",
+    "DANNY",
+    "AL",
+    "KAREN"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 2,
+   "state": "FAIL",
+   "team": [
+    "ALEJANDRO",
+    "TOMMY",
+    "TIM",
+    "AL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ILEANA",
+      "TIM",
+      "DAYANA",
+      "KAREN"
+     ],
+     "state": "REJECTED",
+     "proposer": "ILEANA",
+     "team": [
+      "DAYANA",
+      "DANNY",
+      "KAREN",
+      "ALEJANDRO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEJANDRO",
+      "TOMMY",
+      "TIM",
+      "AL"
+     ],
+     "proposer": "TOMMY",
+     "votes": [
+      "DANNY",
+      "TOMMY",
+      "TIM",
+      "DAYANA",
+      "ALEJANDRO"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "ILEANA",
+      "TOMMY",
+      "AL",
+      "DAYANA"
+     ],
+     "proposer": "AL",
+     "state": "REJECTED",
+     "team": [
+      "AL",
+      "KAREN",
+      "ILEANA",
+      "DAYANA",
+      "DANNY"
+     ]
+    },
+    {
+     "votes": [
+      "TIM"
+     ],
+     "state": "REJECTED",
+     "proposer": "TIM",
+     "team": [
+      "TIM",
+      "DAYANA",
+      "TOMMY",
+      "ILEANA",
+      "AL"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KAREN",
+      "ILEANA",
+      "AL",
+      "ALEJANDRO",
+      "DAYANA"
+     ],
+     "proposer": "DAYANA",
+     "votes": [
+      "DAYANA",
+      "ALEJANDRO",
+      "AL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ILEANA",
+      "TOMMY",
+      "DAYANA",
+      "ALEJANDRO",
+      "DANNY",
+      "KAREN"
+     ],
+     "proposer": "ALEJANDRO",
+     "team": [
+      "ALEJANDRO",
+      "KAREN",
+      "TOMMY",
+      "DANNY",
+      "DAYANA"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 2,
+   "team": [
+    "ALEJANDRO",
+    "KAREN",
+    "TOMMY",
+    "DANNY",
+    "DAYANA"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ILEANA",
+      "TIM",
+      "DAYANA",
+      "DANNY"
+     ],
+     "proposer": "DANNY",
+     "state": "REJECTED",
+     "team": [
+      "DANNY",
+      "ALEJANDRO",
+      "TOMMY",
+      "TIM",
+      "ILEANA"
+     ]
+    },
+    {
+     "proposer": "KAREN",
+     "team": [
+      "ILEANA",
+      "KAREN",
+      "ALEJANDRO",
+      "DANNY",
+      "TOMMY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DAYANA",
+      "ALEJANDRO",
+      "DANNY",
+      "KAREN",
+      "ILEANA",
+      "TOMMY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ILEANA",
+    "KAREN",
+    "ALEJANDRO",
+    "DANNY",
+    "TOMMY"
+   ],
+   "teamSize": 5,
+   "numFails": 1
+  }
+ ]
+}

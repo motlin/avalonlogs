@@ -1,0 +1,384 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "ANINDYA": true,
+    "JET": true
+   },
+   {
+    "KLAUDIA": true,
+    "HUMBERT": false,
+    "NIKOLAI": true
+   },
+   {
+    "JET": true,
+    "ANINDYA": true,
+    "ADAM": true
+   },
+   {
+    "JET": true,
+    "ANINDYA": true,
+    "NIKOLAI": false,
+    "ADAM": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KLAUDIA",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "GOODWIN",
+    "assassin": true
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANINDYA"
+   },
+   {
+    "name": "JET",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "HUMBERT",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ADAM",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "JET"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1592273649,
+  "_nanoseconds": 682000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "JET",
+    "ANINDYA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ADAM",
+      "HUMBERT"
+     ],
+     "votes": [
+      "JET",
+      "HUMBERT",
+      "ADAM"
+     ],
+     "state": "REJECTED",
+     "proposer": "ADAM"
+    },
+    {
+     "team": [
+      "NIKOLAI",
+      "JET"
+     ],
+     "proposer": "NIKOLAI",
+     "votes": [
+      "NIKOLAI",
+      "JET"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JET",
+      "KLAUDIA",
+      "NIKOLAI"
+     ],
+     "proposer": "KLAUDIA"
+    },
+    {
+     "team": [
+      "ANINDYA",
+      "JET"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ANINDYA",
+      "JET"
+     ],
+     "proposer": "ANINDYA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JET",
+     "votes": [
+      "ANINDYA",
+      "ADAM",
+      "JET",
+      "KLAUDIA",
+      "GOODWIN",
+      "NIKOLAI"
+     ],
+     "team": [
+      "JET",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "GOODWIN",
+      "NIKOLAI",
+      "ADAM"
+     ],
+     "proposer": "GOODWIN",
+     "state": "REJECTED",
+     "votes": [
+      "JET"
+     ]
+    },
+    {
+     "team": [
+      "HUMBERT",
+      "KLAUDIA",
+      "ADAM"
+     ],
+     "votes": [
+      "JET"
+     ],
+     "proposer": "HUMBERT",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ADAM",
+     "state": "REJECTED",
+     "team": [
+      "ANINDYA",
+      "JET",
+      "ADAM"
+     ],
+     "votes": [
+      "JET",
+      "ADAM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "team": [
+      "NIKOLAI",
+      "JET",
+      "ANINDYA"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "HUMBERT",
+      "NIKOLAI"
+     ],
+     "proposer": "KLAUDIA",
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "KLAUDIA",
+      "GOODWIN",
+      "NIKOLAI",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "KLAUDIA",
+    "HUMBERT",
+    "NIKOLAI"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ADAM",
+    "ANINDYA",
+    "JET"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ANINDYA",
+      "ADAM",
+      "JET"
+     ],
+     "proposer": "ANINDYA",
+     "team": [
+      "ANINDYA",
+      "JET",
+      "ADAM"
+     ]
+    },
+    {
+     "team": [
+      "KLAUDIA",
+      "HUMBERT",
+      "GOODWIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "JET"
+     ],
+     "proposer": "JET"
+    },
+    {
+     "votes": [
+      "JET",
+      "GOODWIN"
+     ],
+     "team": [
+      "KLAUDIA",
+      "GOODWIN",
+      "ANINDYA"
+     ],
+     "state": "REJECTED",
+     "proposer": "GOODWIN"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "HUMBERT",
+     "team": [
+      "HUMBERT",
+      "ADAM",
+      "KLAUDIA"
+     ],
+     "votes": [
+      "HUMBERT",
+      "JET"
+     ]
+    },
+    {
+     "team": [
+      "ADAM",
+      "ANINDYA",
+      "JET"
+     ],
+     "proposer": "ADAM",
+     "votes": [
+      "ADAM",
+      "KLAUDIA",
+      "GOODWIN",
+      "NIKOLAI",
+      "ANINDYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ADAM",
+      "NIKOLAI",
+      "ANINDYA",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANINDYA",
+      "JET",
+      "ADAM",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKOLAI"
+    }
+   ],
+   "team": [
+    "ADAM",
+    "NIKOLAI",
+    "ANINDYA",
+    "JET"
+   ],
+   "failsRequired": 2
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592274748,
+  "_nanoseconds": 634000000
+ },
+ "players": [
+  {
+   "name": "ADAM",
+   "uid": "5Nl0zBHVy1V9rmkYhtGINyXaWaj1"
+  },
+  {
+   "name": "NIKOLAI",
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23"
+  },
+  {
+   "name": "KLAUDIA",
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2"
+  },
+  {
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2",
+   "name": "ANINDYA"
+  },
+  {
+   "name": "JET",
+   "uid": "G1IRPXw7ETgM4zBCIMjVvlqaywg1"
+  },
+  {
+   "name": "GOODWIN",
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2"
+  },
+  {
+   "name": "HUMBERT",
+   "uid": "L8welunHOHaNlpw5kDPKZEWlxYt2"
+  }
+ ]
+}

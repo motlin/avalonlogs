@@ -1,0 +1,218 @@
+{
+ "players": [
+  {
+   "uid": "WAl2BeYz7TPLG2t6ggJZycgVi1t1",
+   "name": "JEHAN"
+  },
+  {
+   "name": "CONNOR",
+   "uid": "YX4GWVzGxbddG2c5cyUrxcQVNzi1"
+  },
+  {
+   "name": "LILY",
+   "uid": "6wXoysoa6uUWigELOrV2nqderym1"
+  },
+  {
+   "name": "ANOUSHKA",
+   "uid": "uAtjgzdDNueqNdyf5sBrqiKqS602"
+  },
+  {
+   "name": "HALL",
+   "uid": "44Qz7HrfMeQvGDBBtUnNEq9prhR2"
+  },
+  {
+   "uid": "9SmhyRMamGegT0R63YyG3Us217G3",
+   "name": "ASHLEY"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585721879,
+  "_nanoseconds": 962610000
+ },
+ "timeCreated": {
+  "_seconds": 1585720077,
+  "_nanoseconds": 409000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "HALL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CONNOR"
+   },
+   {
+    "assassin": true,
+    "name": "ANOUSHKA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "LILY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ASHLEY"
+   },
+   {
+    "name": "JEHAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "ASHLEY": true,
+    "ANOUSHKA": true
+   },
+   {
+    "ANOUSHKA": true,
+    "JEHAN": true,
+    "ASHLEY": true
+   },
+   {
+    "ASHLEY": true,
+    "LILY": true,
+    "HALL": false,
+    "JEHAN": true
+   },
+   {
+    "LILY": true,
+    "JEHAN": true,
+    "ASHLEY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "ASHLEY"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ASHLEY",
+    "ANOUSHKA"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "CONNOR",
+      "ANOUSHKA",
+      "LILY",
+      "ASHLEY",
+      "JEHAN",
+      "HALL"
+     ],
+     "team": [
+      "ASHLEY",
+      "ANOUSHKA"
+     ],
+     "state": "APPROVED",
+     "proposer": "ASHLEY"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "JEHAN",
+     "state": "APPROVED",
+     "team": [
+      "ASHLEY",
+      "ANOUSHKA",
+      "JEHAN"
+     ],
+     "votes": [
+      "JEHAN",
+      "ANOUSHKA",
+      "LILY",
+      "ASHLEY"
+     ]
+    }
+   ],
+   "team": [
+    "ASHLEY",
+    "ANOUSHKA",
+    "JEHAN"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "HALL",
+      "ASHLEY",
+      "LILY",
+      "JEHAN"
+     ],
+     "votes": [
+      "HALL",
+      "CONNOR",
+      "ANOUSHKA",
+      "LILY"
+     ],
+     "proposer": "CONNOR"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "HALL",
+    "ASHLEY",
+    "LILY",
+    "JEHAN"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "LILY",
+    "ASHLEY",
+    "JEHAN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "LILY",
+      "ASHLEY",
+      "JEHAN"
+     ],
+     "proposer": "LILY",
+     "state": "APPROVED",
+     "votes": [
+      "ANOUSHKA",
+      "LILY",
+      "ASHLEY",
+      "JEHAN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING"
+  }
+ ]
+}

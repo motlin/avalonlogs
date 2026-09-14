@@ -1,0 +1,246 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "CASPER",
+    "KLAAS"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CASPER",
+      "KLAAS"
+     ],
+     "votes": [
+      "CASPER",
+      "JOHAN",
+      "LISELOTTE",
+      "KLAAS",
+      "JEROEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "CASPER"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "KLAAS",
+    "ANOUK",
+    "CASPER"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "KLAAS",
+     "team": [
+      "KLAAS",
+      "ANOUK",
+      "CASPER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ANOUK",
+      "KLAAS",
+      "JOHAN",
+      "CASPER"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "FLO",
+    "JEROEN",
+    "JOHAN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "FLO",
+      "KLAAS",
+      "ANOUK",
+      "JOHAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "FLO",
+      "JEROEN",
+      "JOHAN"
+     ],
+     "proposer": "FLO"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 2,
+   "team": [
+    "JEROEN",
+    "LISELOTTE",
+    "JOHAN",
+    "CASPER"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JOHAN",
+      "ANOUK"
+     ],
+     "team": [
+      "ANOUK",
+      "JOHAN",
+      "KLAAS",
+      "FLO"
+     ],
+     "proposer": "ANOUK",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "LISELOTTE",
+     "votes": [
+      "JEROEN",
+      "KLAAS",
+      "ANOUK",
+      "FLO",
+      "LISELOTTE",
+      "CASPER",
+      "JOHAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JEROEN",
+      "LISELOTTE",
+      "JOHAN",
+      "CASPER"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1608929213,
+  "_nanoseconds": 131000000
+ },
+ "players": [
+  {
+   "name": "JEROEN",
+   "uid": "hIP0QQnFFWWoZwdpQmKaGnkaAd13"
+  },
+  {
+   "name": "CASPER",
+   "uid": "Y1GwrxpBz3eLOE29lKVtkAQhNcI3"
+  },
+  {
+   "uid": "YhoWnGN8lMfck6gqOt0W9NLaJTj2",
+   "name": "KLAAS"
+  },
+  {
+   "uid": "EiGQsuIGIRap5uBBVaIGi8369TM2",
+   "name": "FLO"
+  },
+  {
+   "name": "ANOUK",
+   "uid": "PJ7OWpCbceXYbn8RrxQ7yGvxpu13"
+  },
+  {
+   "name": "LISELOTTE",
+   "uid": "rrGX5fCBicPqTaAv0GAdu8XMD9v1"
+  },
+  {
+   "uid": "yu0ei4RCLsgIeXW0f6zbatHOrJW2",
+   "name": "JOHAN"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1608929703,
+  "_nanoseconds": 399000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JEROEN",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KLAAS",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "LISELOTTE",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "FLO",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANOUK",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JOHAN",
+    "role": "MORGANA"
+   },
+   {
+    "name": "CASPER",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "KLAAS": true,
+    "CASPER": true
+   },
+   {
+    "ANOUK": true,
+    "CASPER": true,
+    "KLAAS": false
+   },
+   {
+    "FLO": true,
+    "JOHAN": false,
+    "JEROEN": true
+   },
+   {
+    "JOHAN": false,
+    "CASPER": true,
+    "LISELOTTE": false,
+    "JEROEN": true
+   }
+  ],
+  "message": "Three failed missions"
+ }
+}

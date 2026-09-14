@@ -1,0 +1,264 @@
+{
+ "timeCreated": {
+  "_seconds": 1585370306,
+  "_nanoseconds": 109000000
+ },
+ "players": [
+  {
+   "uid": "nz9yDS0ylUQ4A9u8L2Et6dl0Xos1",
+   "name": "DAMONG"
+  },
+  {
+   "uid": "yrNvQqrlWfbBYXyMKrdu38P2PJ82",
+   "name": "MANDAZZLE"
+  },
+  {
+   "name": "NICK",
+   "uid": "Dp3HmUWUsFNOQzwitUKtoHZxjoQ2"
+  },
+  {
+   "name": "SCHMOO",
+   "uid": "E6MX6ElzOXeyNIFSm86fo6naLmE2"
+  },
+  {
+   "name": "VALENTINI",
+   "uid": "U6uRWbBbUyVDeVxpfI4tmiVxzoT2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585371043,
+  "_nanoseconds": 873637000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "MANDAZZLE",
+    "DAMONG"
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "MANDAZZLE",
+      "DAMONG"
+     ],
+     "votes": [
+      "SCHMOO",
+      "DAMONG",
+      "MANDAZZLE",
+      "VALENTINI",
+      "NICK"
+     ],
+     "proposer": "NICK",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "SCHMOO",
+    "VALENTINI",
+    "DAMONG"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "SCHMOO",
+     "state": "APPROVED",
+     "votes": [
+      "SCHMOO",
+      "DAMONG",
+      "VALENTINI"
+     ],
+     "team": [
+      "SCHMOO",
+      "VALENTINI",
+      "DAMONG"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SCHMOO",
+      "VALENTINI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "VALENTINI",
+      "SCHMOO"
+     ],
+     "proposer": "VALENTINI"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DAMONG",
+      "MANDAZZLE",
+      "SCHMOO"
+     ],
+     "team": [
+      "SCHMOO",
+      "VALENTINI"
+     ],
+     "proposer": "DAMONG"
+    }
+   ],
+   "team": [
+    "SCHMOO",
+    "VALENTINI"
+   ],
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "VALENTINI",
+    "SCHMOO",
+    "DAMONG"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MANDAZZLE",
+     "votes": [
+      "MANDAZZLE",
+      "VALENTINI"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MANDAZZLE",
+      "NICK",
+      "DAMONG"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "VALENTINI",
+      "NICK",
+      "DAMONG"
+     ],
+     "proposer": "NICK",
+     "votes": [
+      "MANDAZZLE",
+      "NICK"
+     ]
+    },
+    {
+     "team": [
+      "SCHMOO",
+      "VALENTINI",
+      "DAMONG"
+     ],
+     "votes": [
+      "SCHMOO",
+      "DAMONG"
+     ],
+     "proposer": "SCHMOO",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MANDAZZLE",
+      "NICK",
+      "VALENTINI"
+     ],
+     "votes": [
+      "MANDAZZLE",
+      "NICK"
+     ],
+     "proposer": "VALENTINI",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "VALENTINI",
+      "SCHMOO",
+      "DAMONG"
+     ],
+     "votes": [
+      "DAMONG",
+      "MANDAZZLE",
+      "VALENTINI",
+      "SCHMOO"
+     ],
+     "state": "APPROVED",
+     "proposer": "DAMONG"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "DAMONG"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "MANDAZZLE"
+   },
+   {
+    "assassin": false,
+    "name": "VALENTINI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "NICK",
+    "role": "MORGANA"
+   },
+   {
+    "name": "SCHMOO",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "votes": [
+   {
+    "MANDAZZLE": false,
+    "DAMONG": true
+   },
+   {
+    "SCHMOO": true,
+    "DAMONG": true,
+    "VALENTINI": true
+   },
+   {
+    "VALENTINI": true,
+    "SCHMOO": true
+   },
+   {
+    "VALENTINI": true,
+    "SCHMOO": true,
+    "DAMONG": true
+   }
+  ],
+  "assassinated": "SCHMOO",
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN"
+ }
+}

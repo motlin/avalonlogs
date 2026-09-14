@@ -1,0 +1,212 @@
+{
+ "timeCreated": {
+  "_seconds": 1588475943,
+  "_nanoseconds": 314000000
+ },
+ "timeFinished": {
+  "_seconds": 1588476102,
+  "_nanoseconds": 153000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "MAFAZLA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "RAHUL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "CHEZMASTA",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "RAAS",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SANJY",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "SANJY": true,
+    "RAAS": true
+   },
+   {
+    "SANJY": true,
+    "CHEZMASTA": false,
+    "RAAS": true
+   },
+   {
+    "CHEZMASTA": false,
+    "MAFAZLA": true
+   },
+   {
+    "RAHUL": true,
+    "RAAS": false,
+    "MAFAZLA": true
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "CHEZMASTA",
+   "uid": "1pALZ8GpFfaGpwypxX6CDZvFFJ22"
+  },
+  {
+   "name": "MAFAZLA",
+   "uid": "aZqL41Bbh3RbhHBKbl58qifvaV23"
+  },
+  {
+   "uid": "7QifjUCY46TIhGd8uMfK41WSrIo1",
+   "name": "RAHUL"
+  },
+  {
+   "name": "RAAS",
+   "uid": "oJoeG2DBmBcntH1iFhM8MdYn3ox2"
+  },
+  {
+   "name": "SANJY",
+   "uid": "IO3NiZdJh1Oy7IS0BAN6ZSsAe073"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "RAAS",
+    "SANJY"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CHEZMASTA",
+      "RAAS",
+      "SANJY"
+     ],
+     "proposer": "RAAS",
+     "state": "APPROVED",
+     "team": [
+      "RAAS",
+      "SANJY"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "RAAS",
+    "SANJY",
+    "CHEZMASTA"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "RAAS",
+      "SANJY",
+      "CHEZMASTA"
+     ],
+     "proposer": "SANJY",
+     "state": "APPROVED",
+     "votes": [
+      "SANJY",
+      "RAHUL",
+      "RAAS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "CHEZMASTA",
+    "MAFAZLA"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "CHEZMASTA",
+     "votes": [
+      "MAFAZLA",
+      "CHEZMASTA"
+     ],
+     "team": [
+      "CHEZMASTA",
+      "MAFAZLA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SANJY",
+      "MAFAZLA",
+      "CHEZMASTA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHEZMASTA",
+      "MAFAZLA"
+     ],
+     "proposer": "MAFAZLA"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "MAFAZLA",
+    "RAHUL",
+    "RAAS"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RAHUL",
+     "team": [
+      "MAFAZLA",
+      "RAHUL",
+      "RAAS"
+     ],
+     "votes": [
+      "MAFAZLA",
+      "RAHUL",
+      "RAAS"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

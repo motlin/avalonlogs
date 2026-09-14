@@ -1,0 +1,201 @@
+{
+ "players": [
+  {
+   "name": "SEAN",
+   "uid": "WQADefDBh7Prh3zmvSwKuztnx6k1"
+  },
+  {
+   "uid": "77YL8JTSCaaePyCaiNEhlXGOKi03",
+   "name": "CAROLYN"
+  },
+  {
+   "name": "EST",
+   "uid": "mdoW1bC9sWgcXtzysZUqubZwlWJ2"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "lDv3n2rXuefDsSk0t8ZMDtKKG9k1"
+  },
+  {
+   "uid": "0GOuaMQNqBZLOORqOZTB6Q4Uujy1",
+   "name": "MAGPIE"
+  },
+  {
+   "uid": "HGMfXPUbneWUV8c3Hb8KiZrjFvn2",
+   "name": "JAD"
+  },
+  {
+   "name": "MARTIN",
+   "uid": "53uOcfwlsAOBEB13wST6QEujf052"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593672498,
+  "_nanoseconds": 98000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "EST",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "CAROLYN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BRIAN"
+   },
+   {
+    "name": "SEAN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "JAD",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "MAGPIE",
+    "role": "OBERON"
+   },
+   {
+    "name": "MARTIN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "EST",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "JAD": true,
+    "MARTIN": true
+   },
+   {
+    "EST": true,
+    "MARTIN": true,
+    "CAROLYN": true
+   },
+   {
+    "MARTIN": true,
+    "EST": true,
+    "BRIAN": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1593672054,
+  "_nanoseconds": 445000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAD",
+      "MAGPIE",
+      "MARTIN",
+      "CAROLYN"
+     ],
+     "team": [
+      "JAD",
+      "MARTIN"
+     ],
+     "proposer": "CAROLYN"
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "JAD",
+    "MARTIN"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "CAROLYN",
+    "EST",
+    "MARTIN"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAD",
+      "MAGPIE",
+      "MARTIN",
+      "EST",
+      "CAROLYN"
+     ],
+     "proposer": "EST",
+     "team": [
+      "CAROLYN",
+      "EST",
+      "MARTIN"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "BRIAN",
+    "EST",
+    "MARTIN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BRIAN",
+      "EST",
+      "MARTIN"
+     ],
+     "votes": [
+      "EST",
+      "CAROLYN",
+      "BRIAN",
+      "MAGPIE",
+      "MARTIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BRIAN"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 2
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

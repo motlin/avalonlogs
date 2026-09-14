@@ -1,0 +1,196 @@
+{
+ "timeCreated": {
+  "_seconds": 1585031246,
+  "_nanoseconds": 219000000
+ },
+ "players": [
+  {
+   "name": "MASNUN",
+   "uid": "mDO2Xqo347XLf3sNDnh2sKhKzgr2"
+  },
+  {
+   "name": "WILL",
+   "uid": "WUubnvfHiVOt1A07p3ExmmCyiN23"
+  },
+  {
+   "uid": "ysdhPBeelfP1lSNsXQGe850b1F73",
+   "name": "ZDP"
+  },
+  {
+   "uid": "7ed86Ppc0kT3kLBx7FzzTDYrOYY2",
+   "name": "DEAN"
+  },
+  {
+   "uid": "m4HYuAScKdT8X9LSy0g1LnAv0Je2",
+   "name": "SHIRLEEN"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "WILL": true,
+    "SHIRLEEN": true
+   },
+   {
+    "SHIRLEEN": true,
+    "ZDP": true,
+    "WILL": true
+   },
+   {
+    "SHIRLEEN": true,
+    "WILL": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DEAN",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "WILL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "SHIRLEEN"
+   },
+   {
+    "assassin": true,
+    "name": "MASNUN",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ZDP"
+   }
+  ],
+  "assassinated": "SHIRLEEN",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "SHIRLEEN",
+      "ZDP"
+     ],
+     "team": [
+      "WILL",
+      "SHIRLEEN"
+     ],
+     "proposer": "SHIRLEEN"
+    }
+   ],
+   "team": [
+    "WILL",
+    "SHIRLEEN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "SHIRLEEN",
+    "ZDP",
+    "WILL"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "MASNUN",
+     "votes": [],
+     "team": [
+      "MASNUN",
+      "ZDP",
+      "WILL"
+     ]
+    },
+    {
+     "proposer": "WILL",
+     "state": "REJECTED",
+     "votes": [
+      "WILL",
+      "MASNUN"
+     ],
+     "team": [
+      "DEAN",
+      "MASNUN",
+      "WILL"
+     ]
+    },
+    {
+     "team": [
+      "SHIRLEEN",
+      "ZDP",
+      "WILL"
+     ],
+     "proposer": "ZDP",
+     "state": "APPROVED",
+     "votes": [
+      "SHIRLEEN",
+      "ZDP",
+      "WILL"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "SHIRLEEN",
+    "WILL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SHIRLEEN",
+      "WILL"
+     ],
+     "votes": [
+      "WILL",
+      "SHIRLEEN",
+      "ZDP",
+      "DEAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "DEAN"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585031971,
+  "_nanoseconds": 986746000
+ }
+}

@@ -1,0 +1,341 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "THEA",
+    "MIKEY"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "JAMES",
+      "THEA",
+      "CHRISTINA"
+     ],
+     "team": [
+      "THEA",
+      "JAMES"
+     ],
+     "proposer": "CHRISTINA",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "MIKEY",
+      "JAMES",
+      "THEA",
+      "CHRISTINA",
+      "TANDY"
+     ],
+     "team": [
+      "THEA",
+      "MIKEY"
+     ],
+     "state": "APPROVED",
+     "proposer": "THEA"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "THEA",
+    "MIKEY",
+    "TANDY"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHRISTINA",
+      "JAMES"
+     ],
+     "team": [
+      "JAMES",
+      "THEA",
+      "MIKEY"
+     ],
+     "proposer": "JAMES"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "THEA",
+      "JOEL",
+      "JAMES"
+     ],
+     "votes": [
+      "JOEL"
+     ],
+     "proposer": "JOEL"
+    },
+    {
+     "team": [
+      "THEA",
+      "MIKEY",
+      "TANDY"
+     ],
+     "votes": [
+      "MIKEY",
+      "THEA",
+      "TANDY",
+      "JAMES"
+     ],
+     "proposer": "MIKEY",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "THEA",
+      "TANDY",
+      "MIKEY",
+      "JOEL",
+      "JAMES"
+     ],
+     "proposer": "TANDY",
+     "team": [
+      "THEA",
+      "MIKEY",
+      "TANDY",
+      "JAMES"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "THEA",
+    "MIKEY",
+    "TANDY",
+    "JAMES"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "THEA",
+    "MIKEY",
+    "JOEL"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CHRISTINA"
+     ],
+     "team": [
+      "CHRISTINA",
+      "THEA",
+      "MIKEY"
+     ],
+     "proposer": "CHRISTINA",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAMES",
+      "THEA",
+      "JOEL"
+     ],
+     "team": [
+      "THEA",
+      "JAMES",
+      "JOEL"
+     ],
+     "proposer": "THEA"
+    },
+    {
+     "proposer": "JAMES",
+     "state": "APPROVED",
+     "votes": [
+      "TANDY",
+      "JAMES",
+      "JOEL",
+      "THEA"
+     ],
+     "team": [
+      "THEA",
+      "MIKEY",
+      "JOEL"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "THEA",
+    "JAMES",
+    "JOEL",
+    "TANDY"
+   ],
+   "proposals": [
+    {
+     "proposer": "JOEL",
+     "state": "REJECTED",
+     "team": [
+      "CHRISTINA",
+      "THEA",
+      "JAMES",
+      "MIKEY"
+     ],
+     "votes": [
+      "CHRISTINA"
+     ]
+    },
+    {
+     "team": [
+      "MIKEY",
+      "TANDY",
+      "THEA",
+      "JOEL"
+     ],
+     "votes": [
+      "JOEL",
+      "MIKEY"
+     ],
+     "proposer": "MIKEY",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "THEA",
+      "JOEL",
+      "JAMES",
+      "TANDY"
+     ],
+     "team": [
+      "THEA",
+      "JAMES",
+      "JOEL",
+      "TANDY"
+     ],
+     "proposer": "TANDY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "THEA": true,
+    "MIKEY": true
+   },
+   {
+    "THEA": true,
+    "MIKEY": true,
+    "TANDY": true
+   },
+   {
+    "JAMES": true,
+    "MIKEY": true,
+    "TANDY": false,
+    "THEA": true
+   },
+   {
+    "MIKEY": true,
+    "THEA": true,
+    "JOEL": false
+   },
+   {
+    "TANDY": false,
+    "JAMES": true,
+    "JOEL": false,
+    "THEA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "TANDY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "THEA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MIKEY"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "JAMES"
+   },
+   {
+    "role": "MORGANA",
+    "name": "JOEL",
+    "assassin": false
+   },
+   {
+    "name": "CHRISTINA",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "qGCqhNFbfWbAmJLiB19YRWtKFDn2",
+   "name": "CHRISTINA"
+  },
+  {
+   "uid": "z0NqzrdcNbQ1ppCWYJyYHbrhsoI2",
+   "name": "THEA"
+  },
+  {
+   "name": "JAMES",
+   "uid": "RFJqWpJzyvNc0G8QNUV0fM84zSx2"
+  },
+  {
+   "name": "JOEL",
+   "uid": "omXfsH70O7b44VDYNRKBRnT1WvW2"
+  },
+  {
+   "name": "MIKEY",
+   "uid": "GlfGzm3er8REfwqquX78V1B8HoC3"
+  },
+  {
+   "uid": "NFM8eUhTY5WrcqgdbJzBw7sDfZh1",
+   "name": "TANDY"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1610419482,
+  "_nanoseconds": 450000000
+ },
+ "timeCreated": {
+  "_seconds": 1610417965,
+  "_nanoseconds": 228000000
+ }
+}

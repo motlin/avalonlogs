@@ -1,0 +1,225 @@
+{
+ "timeFinished": {
+  "_seconds": 1590848393,
+  "_nanoseconds": 503000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "65VxTfi7Sxcf4TB5IlZeClUMiF33",
+   "name": "JOOXUAN"
+  },
+  {
+   "name": "SAM",
+   "uid": "iLGrb6C1DlejwTWiakj6ch0j9uT2"
+  },
+  {
+   "name": "NANA",
+   "uid": "UI4fa4uyzadaoTvJH37muyj3OKN2"
+  },
+  {
+   "name": "SHANE",
+   "uid": "sgKf5vA23kbmsYpJoYBY8skaR6k1"
+  },
+  {
+   "name": "WILLIE",
+   "uid": "QqLphXNaURWuGucF3hpszkKj2153"
+  },
+  {
+   "name": "SLAYDEN",
+   "uid": "sJwwqyjlQXgqMzMa7iba0C2cUV03"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "SAM",
+  "roles": [
+   {
+    "name": "SAM",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SLAYDEN",
+    "assassin": false
+   },
+   {
+    "name": "WILLIE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JOOXUAN",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "NANA"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": true,
+    "name": "SHANE"
+   }
+  ],
+  "votes": [
+   {
+    "NANA": true,
+    "SHANE": true
+   },
+   {
+    "WILLIE": true,
+    "SHANE": false,
+    "NANA": true
+   },
+   {
+    "SAM": true,
+    "SLAYDEN": true,
+    "JOOXUAN": true,
+    "NANA": true
+   },
+   {
+    "SAM": true,
+    "SLAYDEN": true,
+    "JOOXUAN": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "SHANE",
+     "votes": [
+      "SAM",
+      "SLAYDEN",
+      "WILLIE",
+      "JOOXUAN",
+      "NANA",
+      "SHANE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "NANA",
+      "SHANE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "NANA",
+    "SHANE"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SHANE",
+      "SAM",
+      "SLAYDEN",
+      "WILLIE",
+      "JOOXUAN",
+      "NANA"
+     ],
+     "team": [
+      "NANA",
+      "SHANE",
+      "WILLIE"
+     ],
+     "proposer": "WILLIE"
+    }
+   ],
+   "team": [
+    "NANA",
+    "SHANE",
+    "WILLIE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SLAYDEN",
+     "team": [
+      "SLAYDEN",
+      "SAM",
+      "NANA",
+      "JOOXUAN"
+     ],
+     "votes": [
+      "SHANE",
+      "SAM",
+      "SLAYDEN",
+      "JOOXUAN",
+      "NANA"
+     ]
+    }
+   ],
+   "team": [
+    "SLAYDEN",
+    "SAM",
+    "NANA",
+    "JOOXUAN"
+   ]
+  },
+  {
+   "team": [
+    "JOOXUAN",
+    "SAM",
+    "SLAYDEN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SAM",
+      "SLAYDEN",
+      "WILLIE",
+      "JOOXUAN",
+      "NANA"
+     ],
+     "team": [
+      "JOOXUAN",
+      "SAM",
+      "SLAYDEN"
+     ],
+     "proposer": "JOOXUAN"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590848086,
+  "_nanoseconds": 916000000
+ }
+}

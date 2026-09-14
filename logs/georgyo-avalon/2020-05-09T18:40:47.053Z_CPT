@@ -1,0 +1,259 @@
+{
+ "timeCreated": {
+  "_seconds": 1589049647,
+  "_nanoseconds": 53000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "PATRICK",
+   "uid": "PYYzqvbAyGeFXfpEIFus8sRMaWP2"
+  },
+  {
+   "uid": "rLlw5o67cwZVDwpeTLxyGWKXS1H3",
+   "name": "KARL"
+  },
+  {
+   "name": "NICK",
+   "uid": "3BZDbZZUidhTK3mWnTiu3F3bNXI3"
+  },
+  {
+   "name": "CHRISTOPH",
+   "uid": "Tzfj8KypC2NvafKDnRgrbYdDtk42"
+  },
+  {
+   "uid": "2BQcjWuUIxfKHkgKCRDeqBYLbcg2",
+   "name": "KOLAR"
+  },
+  {
+   "uid": "mRt3Q8chi3VkwBRXnqGZqf8l0gj2",
+   "name": "MARKUS"
+  },
+  {
+   "name": "INGO",
+   "uid": "ACKpLvD5HMNJPjbaoVuC4C7gdNA2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589050308,
+  "_nanoseconds": 310000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "CHRISTOPH",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "CHRISTOPH": true,
+    "INGO": true
+   },
+   {
+    "CHRISTOPH": true,
+    "INGO": true,
+    "PATRICK": true
+   },
+   {
+    "PATRICK": false,
+    "CHRISTOPH": true,
+    "INGO": true
+   },
+   {
+    "CHRISTOPH": true,
+    "KOLAR": true,
+    "INGO": true,
+    "PATRICK": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "KOLAR",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "INGO",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "PATRICK",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "name": "MARKUS",
+    "role": "OBERON"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NICK",
+    "assassin": false
+   },
+   {
+    "name": "CHRISTOPH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "KARL"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "INGO",
+      "CHRISTOPH"
+     ],
+     "votes": [
+      "INGO",
+      "MARKUS",
+      "NICK",
+      "CHRISTOPH",
+      "KARL",
+      "KOLAR"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARKUS"
+    }
+   ],
+   "team": [
+    "INGO",
+    "CHRISTOPH"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "INGO"
+     ],
+     "team": [
+      "NICK",
+      "CHRISTOPH",
+      "KOLAR"
+     ],
+     "state": "REJECTED",
+     "proposer": "INGO"
+    },
+    {
+     "votes": [
+      "KOLAR",
+      "INGO",
+      "PATRICK",
+      "MARKUS",
+      "NICK",
+      "CHRISTOPH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "INGO",
+      "CHRISTOPH",
+      "PATRICK"
+     ],
+     "proposer": "PATRICK"
+    }
+   ],
+   "team": [
+    "INGO",
+    "CHRISTOPH",
+    "PATRICK"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "PATRICK",
+    "CHRISTOPH",
+    "INGO"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KARL"
+     ],
+     "team": [
+      "PATRICK",
+      "CHRISTOPH",
+      "MARKUS"
+     ],
+     "proposer": "KARL",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "NICK",
+     "team": [
+      "PATRICK",
+      "CHRISTOPH",
+      "INGO"
+     ],
+     "votes": [
+      "INGO",
+      "PATRICK",
+      "NICK",
+      "CHRISTOPH",
+      "KARL",
+      "KOLAR"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "CHRISTOPH",
+    "KOLAR",
+    "INGO",
+    "PATRICK"
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "INGO",
+      "PATRICK",
+      "CHRISTOPH",
+      "KARL",
+      "KOLAR"
+     ],
+     "team": [
+      "CHRISTOPH",
+      "KOLAR",
+      "INGO",
+      "PATRICK"
+     ],
+     "proposer": "CHRISTOPH"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": []
+  }
+ ]
+}

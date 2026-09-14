@@ -1,0 +1,304 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "DANIEL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NOSOUL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "KATRINA",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MACHRICAR"
+   },
+   {
+    "name": "AL",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "KEVIN",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": "AL",
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "AL": true,
+    "NOSOUL": true
+   },
+   {
+    "MACHRICAR": true,
+    "KATRINA": true,
+    "DANIEL": true
+   },
+   {
+    "AL": true,
+    "KEVIN": false,
+    "MACHRICAR": true,
+    "NOSOUL": true
+   },
+   {
+    "NOSOUL": true,
+    "MACHRICAR": true,
+    "AL": true
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "NOSOUL",
+   "uid": "6fEa2a3PE2cWlvrJcanC0y7N2xi1"
+  },
+  {
+   "name": "AL",
+   "uid": "KKL6MlYXJxfMl975ZNwPlg2s0Nw1"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "ljLG5mE4YvaDtvpbkZNZjPZ5z2w1"
+  },
+  {
+   "name": "MACHRICAR",
+   "uid": "VbmSVyPlIbXSm7gZuDLTI89NDw32"
+  },
+  {
+   "name": "KATRINA",
+   "uid": "7AxpeTKvOOYvstQVijyZ7eq8EkQ2"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "sA9KulpWdFRdKLqPxew4Z23iZuO2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596251213,
+  "_nanoseconds": 6000000
+ },
+ "timeCreated": {
+  "_seconds": 1596249682,
+  "_nanoseconds": 424000000
+ },
+ "missions": [
+  {
+   "team": [
+    "AL",
+    "NOSOUL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MACHRICAR",
+      "DANIEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "NOSOUL",
+     "votes": [
+      "NOSOUL",
+      "MACHRICAR",
+      "DANIEL"
+     ]
+    },
+    {
+     "team": [
+      "AL",
+      "NOSOUL"
+     ],
+     "proposer": "AL",
+     "votes": [
+      "KEVIN",
+      "AL",
+      "KATRINA",
+      "NOSOUL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "MACHRICAR",
+    "DANIEL",
+    "KATRINA"
+   ],
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "team": [
+      "NOSOUL",
+      "AL",
+      "KEVIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KEVIN",
+      "NOSOUL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "MACHRICAR",
+     "votes": [
+      "KEVIN",
+      "KATRINA",
+      "DANIEL",
+      "MACHRICAR",
+      "NOSOUL"
+     ],
+     "team": [
+      "MACHRICAR",
+      "DANIEL",
+      "KATRINA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "KEVIN",
+    "MACHRICAR",
+    "NOSOUL",
+    "AL"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "KATRINA",
+      "MACHRICAR"
+     ],
+     "proposer": "KATRINA",
+     "team": [
+      "KATRINA",
+      "MACHRICAR",
+      "AL",
+      "NOSOUL"
+     ]
+    },
+    {
+     "votes": [
+      "MACHRICAR",
+      "KATRINA",
+      "DANIEL"
+     ],
+     "proposer": "DANIEL",
+     "state": "REJECTED",
+     "team": [
+      "DANIEL",
+      "MACHRICAR",
+      "KATRINA",
+      "NOSOUL"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "AL",
+      "KEVIN",
+      "KATRINA",
+      "NOSOUL"
+     ],
+     "votes": [
+      "KEVIN",
+      "AL",
+      "NOSOUL"
+     ],
+     "proposer": "NOSOUL"
+    },
+    {
+     "votes": [
+      "NOSOUL",
+      "KATRINA"
+     ],
+     "proposer": "AL",
+     "state": "REJECTED",
+     "team": [
+      "AL",
+      "NOSOUL",
+      "DANIEL",
+      "KATRINA"
+     ]
+    },
+    {
+     "team": [
+      "KEVIN",
+      "MACHRICAR",
+      "NOSOUL",
+      "AL"
+     ],
+     "state": "APPROVED",
+     "proposer": "KEVIN",
+     "votes": [
+      "AL",
+      "NOSOUL",
+      "DANIEL",
+      "MACHRICAR"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "MACHRICAR",
+    "NOSOUL",
+    "AL"
+   ],
+   "proposals": [
+    {
+     "proposer": "MACHRICAR",
+     "votes": [
+      "KATRINA",
+      "AL",
+      "DANIEL",
+      "MACHRICAR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MACHRICAR",
+      "NOSOUL",
+      "AL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "team": []
+  }
+ ]
+}

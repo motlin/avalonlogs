@@ -1,0 +1,222 @@
+{
+ "players": [
+  {
+   "uid": "7cyQfAqqoOZ3mgu4SQ1ezsKGL0V2",
+   "name": "BUENO"
+  },
+  {
+   "name": "CARMIZZY",
+   "uid": "iFvhv61e84XRjQ9ca2rUqThGzBi1"
+  },
+  {
+   "name": "CHRISTIAN",
+   "uid": "NaFYziihH5bYL2AmxrVGyKbtwEY2"
+  },
+  {
+   "name": "KT",
+   "uid": "tDoA6BErmKM880PG5U2L4YlJHmI3"
+  },
+  {
+   "name": "LONG",
+   "uid": "yhhfmruxxqPlpfBV08VbChMD4YJ3"
+  },
+  {
+   "uid": "zz7z2OXshHbnQXRUoa9KUqjjKsC2",
+   "name": "SARAH"
+  },
+  {
+   "name": "STELLZ",
+   "uid": "K3tiOOxzYHQ1V5zyAsH9wLt9xkF2"
+  },
+  {
+   "name": "XIAO",
+   "uid": "IoaihRQBjLRHNLFzbj3uwQ5FOFF3"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585968430,
+  "_nanoseconds": 423827000
+ },
+ "timeCreated": {
+  "_seconds": 1585967930,
+  "_nanoseconds": 860000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "CHRISTIAN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SARAH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "KT"
+   },
+   {
+    "name": "XIAO",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "LONG",
+    "role": "MERLIN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "CARMIZZY",
+    "assassin": false
+   },
+   {
+    "name": "STELLZ",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "BUENO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CARMIZZY": true,
+    "CHRISTIAN": false,
+    "SARAH": true
+   },
+   {
+    "BUENO": true,
+    "STELLZ": false,
+    "XIAO": true,
+    "LONG": true
+   },
+   {
+    "LONG": true,
+    "CARMIZZY": true,
+    "BUENO": true,
+    "KT": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "SARAH",
+      "CHRISTIAN",
+      "CARMIZZY"
+     ],
+     "votes": [
+      "XIAO",
+      "LONG",
+      "CARMIZZY",
+      "STELLZ",
+      "CHRISTIAN",
+      "SARAH",
+      "KT"
+     ],
+     "proposer": "STELLZ",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SARAH",
+    "CHRISTIAN",
+    "CARMIZZY"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "XIAO",
+     "state": "APPROVED",
+     "team": [
+      "BUENO",
+      "LONG",
+      "STELLZ",
+      "XIAO"
+     ],
+     "votes": [
+      "LONG",
+      "STELLZ",
+      "BUENO",
+      "CHRISTIAN",
+      "SARAH",
+      "KT",
+      "XIAO"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "BUENO",
+    "LONG",
+    "STELLZ",
+    "XIAO"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "BUENO",
+    "KT",
+    "LONG",
+    "CARMIZZY"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "CHRISTIAN",
+      "SARAH",
+      "KT",
+      "XIAO",
+      "STELLZ",
+      "BUENO"
+     ],
+     "proposer": "BUENO",
+     "state": "APPROVED",
+     "team": [
+      "BUENO",
+      "KT",
+      "LONG",
+      "CARMIZZY"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [],
+   "teamSize": 5,
+   "state": "PENDING",
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 5,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

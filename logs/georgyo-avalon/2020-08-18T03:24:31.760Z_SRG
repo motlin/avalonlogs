@@ -1,0 +1,248 @@
+{
+ "players": [
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  },
+  {
+   "name": "KENNY",
+   "uid": "V2KfteaM2obh7vvdP96tqZfsKFY2"
+  },
+  {
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2",
+   "name": "JERRY"
+  },
+  {
+   "uid": "8v7hEQeRTSWlBiECjTpfsyxef743",
+   "name": "NIKKI"
+  },
+  {
+   "name": "WILL",
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "KENNY",
+    "MAL"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KENNY",
+      "MAL"
+     ],
+     "votes": [
+      "JERRY",
+      "KENNY",
+      "MAL"
+     ],
+     "proposer": "KENNY"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JERRY",
+      "KENNY",
+      "MAL"
+     ],
+     "state": "APPROVED",
+     "proposer": "JERRY",
+     "team": [
+      "JERRY",
+      "KENNY",
+      "MAL"
+     ]
+    }
+   ],
+   "team": [
+    "JERRY",
+    "KENNY",
+    "MAL"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "NIKKI",
+      "JERRY"
+     ],
+     "proposer": "NIKKI",
+     "state": "REJECTED",
+     "votes": [
+      "KENNY",
+      "JERRY"
+     ]
+    },
+    {
+     "votes": [
+      "WILL",
+      "KENNY"
+     ],
+     "state": "REJECTED",
+     "proposer": "WILL",
+     "team": [
+      "WILL",
+      "KENNY"
+     ]
+    },
+    {
+     "team": [
+      "MAL",
+      "JERRY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "JERRY"
+     ],
+     "proposer": "MAL"
+    },
+    {
+     "votes": [
+      "KENNY",
+      "WILL",
+      "MAL"
+     ],
+     "proposer": "KENNY",
+     "state": "APPROVED",
+     "team": [
+      "MAL",
+      "NIKKI"
+     ]
+    }
+   ],
+   "team": [
+    "MAL",
+    "NIKKI"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JERRY"
+     ],
+     "proposer": "JERRY",
+     "team": [
+      "MAL",
+      "JERRY",
+      "NIKKI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "NIKKI",
+      "KENNY",
+      "MAL"
+     ],
+     "votes": [
+      "KENNY",
+      "NIKKI",
+      "MAL"
+     ],
+     "proposer": "NIKKI"
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "NIKKI",
+    "KENNY",
+    "MAL"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1597721071,
+  "_nanoseconds": 760000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "KENNY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "WILL"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "NIKKI"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "JERRY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MAL"
+   }
+  ],
+  "votes": [
+   {
+    "MAL": true,
+    "KENNY": true
+   },
+   {
+    "MAL": true,
+    "JERRY": false,
+    "KENNY": true
+   },
+   {
+    "NIKKI": true,
+    "MAL": true
+   },
+   {
+    "KENNY": true,
+    "NIKKI": true,
+    "MAL": true
+   }
+  ],
+  "assassinated": "KENNY"
+ },
+ "timeFinished": {
+  "_seconds": 1597721871,
+  "_nanoseconds": 135000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "SARAH",
+   "uid": "QE8lSDvgTtQw9sbm9cll5q1zY1H3"
+  },
+  {
+   "uid": "pfyPCW5hnRWSCvdVpEciqYhwOBv2",
+   "name": "SOPHIA"
+  },
+  {
+   "uid": "8DnljCkwd3PzcIh3EjT4OwnBrbm2",
+   "name": "JULIA"
+  },
+  {
+   "name": "SABRINA",
+   "uid": "ax4o12nKdOgGn9HyUPXVSgx4KzJ2"
+  },
+  {
+   "uid": "DWwdVxeaZHMCCnvNwTJGwog6t4a2",
+   "name": "MOLLY"
+  },
+  {
+   "name": "EMMA",
+   "uid": "EeuuM7uuJSZmkLGVaNqXlHY6vTl2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "MOLLY",
+    "SARAH"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "SARAH",
+      "JULIA",
+      "EMMA",
+      "SOPHIA",
+      "SABRINA",
+      "MOLLY"
+     ],
+     "team": [
+      "MOLLY",
+      "SARAH"
+     ],
+     "proposer": "SABRINA",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "MOLLY",
+    "SARAH",
+    "SABRINA"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SARAH",
+      "SOPHIA",
+      "SABRINA",
+      "MOLLY",
+      "EMMA"
+     ],
+     "state": "APPROVED",
+     "proposer": "MOLLY",
+     "team": [
+      "MOLLY",
+      "SARAH",
+      "SABRINA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "SARAH",
+    "SOPHIA",
+    "JULIA",
+    "SABRINA"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MOLLY",
+      "EMMA"
+     ],
+     "proposer": "EMMA",
+     "team": [
+      "SARAH",
+      "JULIA",
+      "MOLLY",
+      "SABRINA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "EMMA",
+      "JULIA",
+      "SABRINA",
+      "SOPHIA",
+      "SARAH"
+     ],
+     "proposer": "SARAH",
+     "team": [
+      "SARAH",
+      "SOPHIA",
+      "JULIA",
+      "SABRINA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SOPHIA",
+      "SARAH",
+      "JULIA",
+      "SABRINA",
+      "EMMA"
+     ],
+     "team": [
+      "SARAH",
+      "JULIA",
+      "SABRINA"
+     ],
+     "proposer": "SOPHIA"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "SARAH",
+    "JULIA",
+    "SABRINA"
+   ]
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "SOPHIA",
+    "SARAH",
+    "EMMA",
+    "JULIA"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SARAH",
+      "JULIA",
+      "EMMA",
+      "MOLLY"
+     ],
+     "team": [
+      "SOPHIA",
+      "SARAH",
+      "EMMA",
+      "JULIA"
+     ],
+     "proposer": "JULIA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1613959528,
+  "_nanoseconds": 202000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "MOLLY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "EMMA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "SOPHIA"
+   },
+   {
+    "name": "JULIA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "SABRINA"
+   },
+   {
+    "assassin": true,
+    "name": "SARAH",
+    "role": "MORDRED"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SARAH": true,
+    "MOLLY": true
+   },
+   {
+    "SABRINA": true,
+    "MOLLY": true,
+    "SARAH": false
+   },
+   {
+    "SOPHIA": true,
+    "SABRINA": true,
+    "SARAH": true,
+    "JULIA": true
+   },
+   {
+    "SARAH": false,
+    "JULIA": true,
+    "SABRINA": true
+   },
+   {
+    "SARAH": false,
+    "JULIA": true,
+    "EMMA": false,
+    "SOPHIA": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1613959213,
+  "_nanoseconds": 326000000
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "timeCreated": {
+  "_seconds": 1586586926,
+  "_nanoseconds": 77000000
+ },
+ "players": [
+  {
+   "name": "DENNIS",
+   "uid": "XSSNdr8pbnfvWnvYCuvpS1BIoIe2"
+  },
+  {
+   "name": "OAO",
+   "uid": "Eqw6eiX48Xgiqu6juP7zKjE5O9f1"
+  },
+  {
+   "uid": "QelXqoSsnIZapjGgJyS4nzEMCZs1",
+   "name": "WILL"
+  },
+  {
+   "name": "PHO",
+   "uid": "hhzPKJXGdhUlpZwvwZWWP5XnH313"
+  },
+  {
+   "uid": "SJvVUC8wSwXaws7875uMfdG69xG2",
+   "name": "STEPH"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "DENNIS": true,
+    "OAO": true
+   },
+   {
+    "STEPH": true,
+    "WILL": true,
+    "OAO": true
+   },
+   {
+    "OAO": true,
+    "PHO": false
+   },
+   {
+    "DENNIS": true,
+    "WILL": true,
+    "STEPH": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "name": "WILL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "PHO",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "OAO",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DENNIS"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "STEPH"
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1586587201,
+  "_nanoseconds": 951439000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "WILL",
+      "PHO",
+      "OAO",
+      "DENNIS",
+      "STEPH"
+     ],
+     "team": [
+      "DENNIS",
+      "OAO"
+     ],
+     "state": "APPROVED",
+     "proposer": "WILL"
+    }
+   ],
+   "team": [
+    "DENNIS",
+    "OAO"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WILL",
+      "PHO",
+      "OAO",
+      "DENNIS",
+      "STEPH"
+     ],
+     "proposer": "PHO",
+     "team": [
+      "STEPH",
+      "OAO",
+      "WILL"
+     ]
+    }
+   ],
+   "team": [
+    "STEPH",
+    "OAO",
+    "WILL"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "WILL",
+      "PHO",
+      "OAO",
+      "DENNIS",
+      "STEPH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PHO",
+      "OAO"
+     ],
+     "proposer": "STEPH"
+    }
+   ],
+   "team": [
+    "PHO",
+    "OAO"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "DENNIS",
+    "WILL",
+    "STEPH"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DENNIS",
+      "WILL",
+      "STEPH"
+     ],
+     "proposer": "DENNIS",
+     "votes": [
+      "OAO",
+      "DENNIS",
+      "STEPH",
+      "WILL",
+      "PHO"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3
+  }
+ ]
+}

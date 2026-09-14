@@ -1,0 +1,239 @@
+{
+ "timeFinished": {
+  "_seconds": 1584756760,
+  "_nanoseconds": 467140000
+ },
+ "timeCreated": {
+  "_seconds": 1584755898,
+  "_nanoseconds": 847000000
+ },
+ "players": [
+  {
+   "name": "DEB",
+   "uid": "p7XTBEasBwQfXBOdDe1zQtbIEZB3"
+  },
+  {
+   "name": "JAMES",
+   "uid": "Y3TVkgUxuwcKKoFb1AjviCIFw5B3"
+  },
+  {
+   "name": "FARCRY",
+   "uid": "wKjTCIoaS9MFxJiRtwyFnbCzsMy2"
+  },
+  {
+   "uid": "MwoapC2t5dPe8TKCI3zf8BQeztf2",
+   "name": "NOTMERLIN"
+  },
+  {
+   "name": "JESS",
+   "uid": "tUfEtieUStZlLrqfO8C95QRXX2y2"
+  }
+ ],
+ "outcome": {
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "NOTMERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "JAMES",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "DEB",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "JESS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "FARCRY",
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "NOTMERLIN": true,
+    "JAMES": true
+   },
+   {
+    "JESS": true,
+    "DEB": true,
+    "FARCRY": false
+   },
+   {
+    "JESS": true,
+    "JAMES": true
+   },
+   {
+    "JESS": true,
+    "NOTMERLIN": true,
+    "DEB": false
+   },
+   {
+    "FARCRY": true,
+    "JAMES": true,
+    "JESS": true
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "NOTMERLIN",
+    "JAMES"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "JAMES",
+      "DEB",
+      "JESS",
+      "FARCRY",
+      "NOTMERLIN"
+     ],
+     "team": [
+      "NOTMERLIN",
+      "JAMES"
+     ],
+     "proposer": "JAMES",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "FARCRY",
+    "DEB",
+    "JESS"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JAMES",
+      "JESS",
+      "FARCRY"
+     ],
+     "team": [
+      "FARCRY",
+      "DEB",
+      "JESS"
+     ],
+     "proposer": "FARCRY"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "JESS",
+    "JAMES"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "NOTMERLIN",
+      "JAMES"
+     ],
+     "state": "REJECTED",
+     "proposer": "NOTMERLIN",
+     "votes": [
+      "NOTMERLIN",
+      "DEB"
+     ]
+    },
+    {
+     "votes": [
+      "JESS",
+      "NOTMERLIN",
+      "DEB"
+     ],
+     "team": [
+      "JESS",
+      "JAMES"
+     ],
+     "state": "APPROVED",
+     "proposer": "JESS"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "DEB",
+    "NOTMERLIN",
+    "JESS"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DEB",
+     "votes": [
+      "JAMES",
+      "DEB",
+      "JESS",
+      "FARCRY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DEB",
+      "NOTMERLIN",
+      "JESS"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JAMES",
+     "votes": [
+      "NOTMERLIN",
+      "JAMES",
+      "DEB",
+      "JESS",
+      "FARCRY"
+     ],
+     "team": [
+      "JAMES",
+      "JESS",
+      "FARCRY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JAMES",
+    "JESS",
+    "FARCRY"
+   ]
+  }
+ ]
+}

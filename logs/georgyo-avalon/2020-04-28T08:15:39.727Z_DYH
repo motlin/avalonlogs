@@ -1,0 +1,264 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "LEA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "WILL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JERRY",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "AMANDA"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MAL"
+   }
+  ],
+  "votes": [
+   {
+    "JERRY": false,
+    "WILL": true
+   },
+   {
+    "LEA": true,
+    "JERRY": false,
+    "MAL": true
+   },
+   {
+    "LEA": true,
+    "AMANDA": true
+   },
+   {
+    "JERRY": false,
+    "AMANDA": true,
+    "LEA": true
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "JERRY",
+   "uid": "XWzHKSBzEuVXWoyT03d3GxGreEH2"
+  },
+  {
+   "uid": "qnxhb19kxuV55M3z8BjAObjoGP83",
+   "name": "WILL"
+  },
+  {
+   "name": "LEA",
+   "uid": "ypgiApuBmpe1SGgTtjqegOgSTHV2"
+  },
+  {
+   "uid": "GqgDHzzhRZUBDuQTVqyocktoyn62",
+   "name": "MAL"
+  },
+  {
+   "uid": "odPkiBFUb6ZbL9M5WK9z2QCdmki1",
+   "name": "AMANDA"
+  }
+ ],
+ "missions": [
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "WILL",
+      "JERRY"
+     ],
+     "proposer": "WILL",
+     "state": "APPROVED",
+     "votes": [
+      "MAL",
+      "LEA",
+      "WILL",
+      "JERRY",
+      "AMANDA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "WILL",
+    "JERRY"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "LEA",
+    "MAL",
+    "JERRY"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAL",
+      "LEA"
+     ],
+     "team": [
+      "LEA",
+      "MAL",
+      "AMANDA"
+     ],
+     "proposer": "LEA"
+    },
+    {
+     "votes": [
+      "MAL",
+      "LEA",
+      "JERRY"
+     ],
+     "team": [
+      "LEA",
+      "MAL",
+      "JERRY"
+     ],
+     "proposer": "MAL",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "AMANDA",
+      "LEA"
+     ],
+     "votes": [
+      "LEA",
+      "JERRY"
+     ],
+     "proposer": "AMANDA",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JERRY",
+      "LEA"
+     ],
+     "state": "REJECTED",
+     "proposer": "JERRY",
+     "votes": [
+      "JERRY",
+      "MAL"
+     ]
+    },
+    {
+     "proposer": "WILL",
+     "state": "REJECTED",
+     "votes": [
+      "WILL",
+      "MAL"
+     ],
+     "team": [
+      "WILL",
+      "LEA"
+     ]
+    },
+    {
+     "team": [
+      "LEA",
+      "AMANDA"
+     ],
+     "votes": [
+      "WILL",
+      "JERRY",
+      "LEA"
+     ],
+     "proposer": "LEA",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "LEA",
+    "AMANDA"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "AMANDA",
+    "LEA",
+    "JERRY"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "AMANDA",
+      "LEA",
+      "MAL"
+     ],
+     "proposer": "MAL",
+     "votes": [
+      "AMANDA",
+      "MAL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "AMANDA",
+      "LEA",
+      "JERRY"
+     ],
+     "votes": [
+      "AMANDA",
+      "LEA",
+      "JERRY"
+     ],
+     "proposer": "AMANDA"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588062412,
+  "_nanoseconds": 551000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588061739,
+  "_nanoseconds": 727000000
+ }
+}

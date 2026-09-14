@@ -1,0 +1,199 @@
+{
+ "timeFinished": {
+  "_seconds": 1586492307,
+  "_nanoseconds": 954175000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "HENTAIFAN": true,
+    "MADELEINE": true
+   },
+   {
+    "YABOI": true,
+    "MADELEINE": true,
+    "ALEX": false
+   },
+   {
+    "ALEX": false,
+    "HENTAIFAN": true
+   },
+   {
+    "ALEX": false,
+    "MADELEINE": true,
+    "ADDIE": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "ALEX",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "YABOI",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "HENTAIFAN"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "ADDIE"
+   },
+   {
+    "name": "MADELEINE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null
+ },
+ "players": [
+  {
+   "uid": "6aT4SjCX1gXfMSpvMNUrYUOrQYd2",
+   "name": "ADDIE"
+  },
+  {
+   "name": "ALEX",
+   "uid": "sZ1T8XwSBQezfeCrMCy2IanKbxu2"
+  },
+  {
+   "uid": "ETHnk2A12ANAnJkbz3br1bk5wZr2",
+   "name": "MADELEINE"
+  },
+  {
+   "name": "YABOI",
+   "uid": "gZ8QsExxzlPvr9WBp3YlylPRE023"
+  },
+  {
+   "uid": "1fpQqyb7JvValcPfnuSgKefk63p2",
+   "name": "HENTAIFAN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586491806,
+  "_nanoseconds": 886000000
+ },
+ "missions": [
+  {
+   "team": [
+    "HENTAIFAN",
+    "MADELEINE"
+   ],
+   "proposals": [
+    {
+     "proposer": "HENTAIFAN",
+     "state": "APPROVED",
+     "votes": [
+      "MADELEINE",
+      "YABOI",
+      "HENTAIFAN",
+      "ADDIE"
+     ],
+     "team": [
+      "HENTAIFAN",
+      "MADELEINE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "MADELEINE",
+      "YABOI"
+     ],
+     "proposer": "ADDIE",
+     "state": "APPROVED",
+     "votes": [
+      "ADDIE",
+      "MADELEINE",
+      "ALEX"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "ALEX",
+    "MADELEINE",
+    "YABOI"
+   ]
+  },
+  {
+   "teamSize": 2,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "HENTAIFAN",
+      "ALEX"
+     ],
+     "votes": [
+      "ALEX",
+      "ADDIE",
+      "MADELEINE"
+     ],
+     "proposer": "ALEX"
+    }
+   ],
+   "team": [
+    "HENTAIFAN",
+    "ALEX"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "MADELEINE",
+      "ALEX",
+      "HENTAIFAN",
+      "ADDIE"
+     ],
+     "proposer": "MADELEINE",
+     "team": [
+      "ADDIE",
+      "ALEX",
+      "MADELEINE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "ADDIE",
+    "ALEX",
+    "MADELEINE"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING"
+  }
+ ]
+}

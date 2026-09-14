@@ -1,0 +1,247 @@
+{
+ "players": [
+  {
+   "uid": "VFJ0hFkgYXVA6KZCz5Xw3aUjweC2",
+   "name": "MUSKITEER"
+  },
+  {
+   "uid": "0zbOqjICfJfO48I1P8yufYz3UXF3",
+   "name": "RAMU"
+  },
+  {
+   "uid": "ey8idj5HLGOtnvuypH2nqw6TGOA3",
+   "name": "SANJAY"
+  },
+  {
+   "uid": "GRpV5HGduThmNxXjFXVwVmSRrss1",
+   "name": "BHARATH"
+  },
+  {
+   "name": "ANIUDANIUD",
+   "uid": "L9rXl7s0dHgg7ZWEl9OgmEzGwD83"
+  },
+  {
+   "name": "ANU",
+   "uid": "QLOyI6mErUhQC3dExp9Z9vkYrsv1"
+  },
+  {
+   "name": "PRIYANKA",
+   "uid": "TcCzEgrw9NZVpB4a7kXalBfPuXG3"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "ANIUDANIUD"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANU",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "MUSKITEER",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "RAMU"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PRIYANKA",
+    "assassin": false
+   },
+   {
+    "name": "SANJAY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "BHARATH",
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "BHARATH",
+  "votes": [
+   {
+    "BHARATH": true,
+    "MUSKITEER": true
+   },
+   {
+    "BHARATH": true,
+    "ANU": true,
+    "MUSKITEER": false
+   },
+   {
+    "PRIYANKA": true,
+    "SANJAY": true,
+    "BHARATH": true
+   },
+   {
+    "SANJAY": true,
+    "PRIYANKA": true,
+    "BHARATH": true,
+    "MUSKITEER": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587754020,
+  "_nanoseconds": 2000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "BHARATH",
+      "MUSKITEER"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RAMU",
+      "PRIYANKA",
+      "SANJAY",
+      "BHARATH",
+      "ANIUDANIUD",
+      "ANU",
+      "MUSKITEER"
+     ],
+     "proposer": "BHARATH"
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "BHARATH",
+    "MUSKITEER"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ANU",
+    "MUSKITEER",
+    "BHARATH"
+   ],
+   "proposals": [
+    {
+     "proposer": "ANIUDANIUD",
+     "team": [
+      "ANIUDANIUD",
+      "SANJAY",
+      "MUSKITEER"
+     ],
+     "votes": [
+      "ANIUDANIUD"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RAMU",
+      "PRIYANKA",
+      "SANJAY",
+      "BHARATH",
+      "ANIUDANIUD",
+      "ANU"
+     ],
+     "proposer": "ANU",
+     "team": [
+      "ANU",
+      "MUSKITEER",
+      "BHARATH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BHARATH",
+      "ANIUDANIUD",
+      "ANU",
+      "RAMU",
+      "PRIYANKA"
+     ],
+     "team": [
+      "PRIYANKA",
+      "BHARATH",
+      "SANJAY"
+     ],
+     "state": "APPROVED",
+     "proposer": "PRIYANKA"
+    }
+   ],
+   "team": [
+    "PRIYANKA",
+    "BHARATH",
+    "SANJAY"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MUSKITEER",
+    "SANJAY",
+    "BHARATH",
+    "PRIYANKA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "MUSKITEER",
+      "SANJAY",
+      "BHARATH",
+      "PRIYANKA"
+     ],
+     "state": "APPROVED",
+     "proposer": "MUSKITEER",
+     "votes": [
+      "RAMU",
+      "PRIYANKA",
+      "SANJAY",
+      "BHARATH",
+      "MUSKITEER"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587753414,
+  "_nanoseconds": 614000000
+ }
+}

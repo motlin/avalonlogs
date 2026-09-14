@@ -1,0 +1,230 @@
+{
+ "players": [
+  {
+   "name": "SANG",
+   "uid": "VC6osNuueXYBnlenQGGO543wgFX2"
+  },
+  {
+   "name": "MARWA",
+   "uid": "DhUsOXH1LhSIgj7hiLECw5H0pc23"
+  },
+  {
+   "uid": "D9P4edHkq0ZUO0Q5HepkHOw9jWU2",
+   "name": "DADI"
+  },
+  {
+   "uid": "VCKDlXqBm8VPlQUs4Cp8VnrzA1F3",
+   "name": "NEEHAW"
+  },
+  {
+   "name": "AD",
+   "uid": "rMFSK1y64ocxqhydlDLxOeMgWfi2"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "SANG",
+    "MARWA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SANG",
+      "MARWA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DADI",
+      "NEEHAW",
+      "MARWA",
+      "AD",
+      "SANG"
+     ],
+     "proposer": "MARWA"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "DADI",
+    "MARWA",
+    "SANG"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DADI",
+     "state": "APPROVED",
+     "votes": [
+      "SANG",
+      "DADI",
+      "MARWA"
+     ],
+     "team": [
+      "DADI",
+      "MARWA",
+      "SANG"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "NEEHAW",
+      "MARWA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DADI",
+      "NEEHAW",
+      "MARWA",
+      "AD",
+      "SANG"
+     ],
+     "proposer": "NEEHAW"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "NEEHAW",
+    "MARWA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AD",
+      "MARWA",
+      "DADI"
+     ],
+     "proposer": "AD",
+     "votes": [
+      "AD",
+      "DADI",
+      "MARWA"
+     ]
+    }
+   ],
+   "team": [
+    "AD",
+    "MARWA",
+    "DADI"
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARWA",
+      "AD",
+      "SANG",
+      "DADI"
+     ],
+     "team": [
+      "SANG",
+      "MARWA",
+      "AD"
+     ],
+     "proposer": "SANG"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "SANG",
+    "MARWA",
+    "AD"
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1591075676,
+  "_nanoseconds": 990000000
+ },
+ "timeFinished": {
+  "_seconds": 1591075996,
+  "_nanoseconds": 21000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MARWA": true,
+    "SANG": true
+   },
+   {
+    "MARWA": true,
+    "DADI": false,
+    "SANG": true
+   },
+   {
+    "MARWA": true,
+    "NEEHAW": true
+   },
+   {
+    "DADI": false,
+    "MARWA": true,
+    "AD": true
+   },
+   {
+    "AD": true,
+    "SANG": true,
+    "MARWA": false
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AD",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SANG",
+    "role": "MERLIN"
+   },
+   {
+    "name": "DADI",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "NEEHAW",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MARWA",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ],
+  "message": "Three failed missions"
+ }
+}

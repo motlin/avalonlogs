@@ -1,0 +1,237 @@
+{
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "NIKOLAI",
+    "GEORGE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NIKOLAI",
+      "GEORGE"
+     ],
+     "proposer": "GEORGE",
+     "state": "APPROVED",
+     "votes": [
+      "GEORGE",
+      "JET",
+      "NIKOLAI"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "KLAUDIA",
+    "NIKOLAI",
+    "JET"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JET"
+     ],
+     "proposer": "JET",
+     "team": [
+      "JET",
+      "NIKOLAI",
+      "GEORGE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "NIKHIL",
+      "GEORGE",
+      "NIKOLAI"
+     ],
+     "proposer": "NIKHIL",
+     "votes": [
+      "NIKHIL",
+      "GEORGE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "JET"
+     ],
+     "votes": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "JET"
+     ],
+     "proposer": "KLAUDIA"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "KLAUDIA",
+      "JET"
+     ],
+     "proposer": "NIKOLAI",
+     "state": "APPROVED",
+     "votes": [
+      "NIKOLAI",
+      "KLAUDIA",
+      "JET"
+     ]
+    }
+   ],
+   "team": [
+    "KLAUDIA",
+    "JET"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "JET",
+    "NIKHIL",
+    "NIKOLAI"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "KLAUDIA",
+      "NIKOLAI",
+      "GEORGE"
+     ],
+     "votes": [
+      "GEORGE"
+     ],
+     "proposer": "GEORGE",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JET",
+     "state": "APPROVED",
+     "votes": [
+      "NIKOLAI",
+      "NIKHIL",
+      "JET"
+     ],
+     "team": [
+      "JET",
+      "NIKHIL",
+      "NIKOLAI"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1597372739,
+  "_nanoseconds": 877000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1597372489,
+  "_nanoseconds": 644000000
+ },
+ "players": [
+  {
+   "name": "JET",
+   "uid": "Tu4LW0iPTNZ73skXjfRd3lx8UYq2"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "V3CYobIAZwWneimGk4cLt7fQYEB3"
+  },
+  {
+   "uid": "zbmVWflTTrfBLHCGFWZsGfzu5YR2",
+   "name": "KLAUDIA"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "uid": "z9DTvNKA9mcMQLPbV0oBvWllyd32",
+   "name": "GEORGE"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "NIKOLAI": true,
+    "GEORGE": true
+   },
+   {
+    "JET": true,
+    "KLAUDIA": true,
+    "NIKOLAI": true
+   },
+   {
+    "JET": true,
+    "KLAUDIA": false
+   },
+   {
+    "JET": true,
+    "NIKOLAI": true,
+    "NIKHIL": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JET"
+   },
+   {
+    "name": "KLAUDIA",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "NIKOLAI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "NIKHIL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GEORGE"
+   }
+  ],
+  "assassinated": null,
+  "state": "GOOD_WIN"
+ }
+}

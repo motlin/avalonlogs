@@ -1,0 +1,260 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "MICHELLE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ANSON",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "FREDERICK",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "RATS",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "CC",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "SRNA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "KEV",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CC": true,
+    "FREDERICK": true
+   },
+   {
+    "KEV": true,
+    "MICHELLE": true,
+    "SRNA": false
+   },
+   {
+    "SRNA": false,
+    "RATS": false,
+    "FREDERICK": true
+   },
+   {
+    "ANSON": true,
+    "FREDERICK": true,
+    "CC": false,
+    "KEV": true
+   },
+   {
+    "CC": false,
+    "ANSON": true,
+    "FREDERICK": true,
+    "KEV": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "name": "RATS",
+   "uid": "c2Q63ZkUArWf3TCYazTbhWDLBkg1"
+  },
+  {
+   "uid": "9BDcrvha4OUxaP0kgKOdmKi7cuU2",
+   "name": "CC"
+  },
+  {
+   "name": "FREDERICK",
+   "uid": "c604rU1J9Zc8JeBjB82DdiZkr383"
+  },
+  {
+   "uid": "B04A70KNGPccjpGhEh4n169pQL12",
+   "name": "KEV"
+  },
+  {
+   "uid": "hJ28Wfq1xMWSFt1ooh31NCE1eSG3",
+   "name": "ANSON"
+  },
+  {
+   "uid": "s9ClHXQNXRVuGjiZkHJXfGGqANS2",
+   "name": "SRNA"
+  },
+  {
+   "name": "MICHELLE",
+   "uid": "BljF4uYlhTg8B9h23z1myog9wZs1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586489642,
+  "_nanoseconds": 352527000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "RATS",
+     "team": [
+      "CC",
+      "FREDERICK"
+     ],
+     "votes": [
+      "SRNA",
+      "KEV",
+      "MICHELLE",
+      "ANSON",
+      "FREDERICK",
+      "RATS",
+      "CC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "CC",
+    "FREDERICK"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "SRNA",
+    "KEV",
+    "MICHELLE"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "SRNA",
+      "KEV",
+      "MICHELLE"
+     ],
+     "proposer": "CC",
+     "votes": [
+      "KEV",
+      "MICHELLE",
+      "ANSON",
+      "FREDERICK",
+      "CC",
+      "SRNA"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "SRNA",
+    "RATS",
+    "FREDERICK"
+   ],
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "FREDERICK",
+     "state": "APPROVED",
+     "votes": [
+      "KEV",
+      "ANSON",
+      "FREDERICK",
+      "RATS",
+      "CC"
+     ],
+     "team": [
+      "SRNA",
+      "RATS",
+      "FREDERICK"
+     ]
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "FREDERICK",
+      "CC",
+      "KEV",
+      "ANSON"
+     ],
+     "proposer": "KEV",
+     "votes": [
+      "ANSON",
+      "FREDERICK",
+      "CC",
+      "KEV"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "team": [
+    "FREDERICK",
+    "CC",
+    "KEV",
+    "ANSON"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SRNA",
+      "KEV",
+      "ANSON",
+      "FREDERICK"
+     ],
+     "proposer": "ANSON",
+     "team": [
+      "ANSON",
+      "KEV",
+      "FREDERICK",
+      "CC"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "ANSON",
+    "KEV",
+    "FREDERICK",
+    "CC"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586489011,
+  "_nanoseconds": 475000000
+ }
+}

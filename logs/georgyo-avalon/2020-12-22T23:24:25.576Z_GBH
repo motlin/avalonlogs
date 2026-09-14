@@ -1,0 +1,309 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "1QHNmnCh5XWRBsZ8WC4eK1Yks8z2",
+   "name": "DAN"
+  },
+  {
+   "name": "CAIT",
+   "uid": "zFgbJkafhNPwxAMigXDkTlod2hq2"
+  },
+  {
+   "name": "ADAM",
+   "uid": "amDZEk7XcIcJNj7XNfuaiouxtZf2"
+  },
+  {
+   "name": "HARRY",
+   "uid": "pJNFF36TyieHcD1f3eaORFZzmZ13"
+  },
+  {
+   "uid": "laUICzvlYYhxEXhKoUaxoov5Jzw1",
+   "name": "LUCYMAS"
+  },
+  {
+   "uid": "CtkVRC1bksZ52XRUDENVitsv3in2",
+   "name": "DANIEL"
+  },
+  {
+   "name": "JOSHBTW",
+   "uid": "f3maJqsA2FRKy5G3Se1L3vnEvXZ2"
+  },
+  {
+   "uid": "2AgwSd8bJHZpzgfeviQclbTd18k1",
+   "name": "GABBLIT"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "LUCYMAS",
+    "role": "MERLIN"
+   },
+   {
+    "name": "DAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "ADAM"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "CAIT"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DANIEL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JOSHBTW"
+   },
+   {
+    "name": "GABBLIT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "HARRY",
+    "assassin": false
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "ADAM": true,
+    "GABBLIT": true,
+    "CAIT": true
+   },
+   {
+    "CAIT": true,
+    "GABBLIT": true,
+    "HARRY": true,
+    "ADAM": true
+   },
+   {
+    "CAIT": false,
+    "HARRY": true,
+    "LUCYMAS": true,
+    "GABBLIT": true
+   },
+   {
+    "CAIT": false,
+    "HARRY": true,
+    "GABBLIT": true,
+    "ADAM": false,
+    "DAN": true
+   },
+   {
+    "CAIT": false,
+    "DAN": true,
+    "DANIEL": true,
+    "LUCYMAS": true,
+    "GABBLIT": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1608679465,
+  "_nanoseconds": 576000000
+ },
+ "timeFinished": {
+  "_seconds": 1608680417,
+  "_nanoseconds": 311000000
+ },
+ "missions": [
+  {
+   "team": [
+    "ADAM",
+    "CAIT",
+    "GABBLIT"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "JOSHBTW",
+      "ADAM",
+      "DANIEL",
+      "LUCYMAS",
+      "CAIT"
+     ],
+     "team": [
+      "ADAM",
+      "CAIT",
+      "GABBLIT"
+     ],
+     "state": "APPROVED",
+     "proposer": "ADAM"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ADAM",
+    "CAIT",
+    "HARRY",
+    "GABBLIT"
+   ],
+   "proposals": [
+    {
+     "proposer": "HARRY",
+     "state": "APPROVED",
+     "votes": [
+      "JOSHBTW",
+      "LUCYMAS",
+      "DANIEL",
+      "ADAM",
+      "CAIT",
+      "DAN",
+      "HARRY",
+      "GABBLIT"
+     ],
+     "team": [
+      "ADAM",
+      "CAIT",
+      "HARRY",
+      "GABBLIT"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "CAIT",
+    "HARRY",
+    "LUCYMAS",
+    "GABBLIT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "CAIT",
+      "GABBLIT",
+      "LUCYMAS",
+      "HARRY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CAIT",
+      "ADAM",
+      "LUCYMAS",
+      "DANIEL"
+     ],
+     "proposer": "LUCYMAS"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LUCYMAS",
+      "ADAM",
+      "JOSHBTW",
+      "DAN",
+      "CAIT",
+      "DANIEL"
+     ],
+     "proposer": "DANIEL",
+     "team": [
+      "CAIT",
+      "HARRY",
+      "LUCYMAS",
+      "GABBLIT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "team": [
+    "ADAM",
+    "CAIT",
+    "HARRY",
+    "GABBLIT",
+    "DAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ADAM",
+      "CAIT",
+      "HARRY",
+      "GABBLIT",
+      "DAN"
+     ],
+     "proposer": "JOSHBTW",
+     "votes": [
+      "GABBLIT",
+      "ADAM",
+      "CAIT",
+      "HARRY",
+      "JOSHBTW",
+      "DAN",
+      "DANIEL"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "GABBLIT",
+     "state": "APPROVED",
+     "team": [
+      "GABBLIT",
+      "CAIT",
+      "LUCYMAS",
+      "DANIEL",
+      "DAN"
+     ],
+     "votes": [
+      "GABBLIT",
+      "DANIEL",
+      "CAIT",
+      "JOSHBTW",
+      "DAN",
+      "ADAM"
+     ]
+    }
+   ],
+   "team": [
+    "GABBLIT",
+    "CAIT",
+    "LUCYMAS",
+    "DANIEL",
+    "DAN"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 5
+  }
+ ]
+}

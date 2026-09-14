@@ -1,0 +1,245 @@
+{
+ "players": [
+  {
+   "uid": "kB3TvAZnM6O8ZHKvzoGBIcvuhCo1",
+   "name": "NATASHA"
+  },
+  {
+   "name": "BOYWONDER",
+   "uid": "5vQ4bHypyYTVQ8zowzWfZ3FON3B3"
+  },
+  {
+   "uid": "9lOLIgVtg3QONTBAVxIY9L13uud2",
+   "name": "CATLOAF"
+  },
+  {
+   "name": "EXODIA",
+   "uid": "0RZVfURpI3hkjCrhkExSy6DLXtr1"
+  },
+  {
+   "uid": "dXyht2ZaDkNsxRr5ZXVjOKbTBnX2",
+   "name": "BEACHASTE"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589208876,
+  "_nanoseconds": 748000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "BEACHASTE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "EXODIA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BOYWONDER",
+    "assassin": true
+   },
+   {
+    "name": "CATLOAF",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "NATASHA"
+   }
+  ],
+  "votes": [
+   {
+    "BOYWONDER": true,
+    "CATLOAF": true
+   },
+   {
+    "BEACHASTE": true,
+    "CATLOAF": true,
+    "NATASHA": true
+   },
+   {
+    "EXODIA": false,
+    "CATLOAF": true
+   },
+   {
+    "NATASHA": true,
+    "BEACHASTE": true,
+    "BOYWONDER": false
+   },
+   {
+    "EXODIA": false,
+    "CATLOAF": true,
+    "BEACHASTE": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1589209569,
+  "_nanoseconds": 270000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "EXODIA",
+     "state": "APPROVED",
+     "votes": [
+      "EXODIA",
+      "BOYWONDER",
+      "CATLOAF",
+      "NATASHA",
+      "BEACHASTE"
+     ],
+     "team": [
+      "BOYWONDER",
+      "CATLOAF"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "BOYWONDER",
+    "CATLOAF"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "BEACHASTE",
+    "NATASHA",
+    "CATLOAF"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "BEACHASTE",
+      "NATASHA",
+      "CATLOAF"
+     ],
+     "proposer": "BEACHASTE",
+     "votes": [
+      "BEACHASTE",
+      "BOYWONDER",
+      "NATASHA"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "CATLOAF",
+      "EXODIA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EXODIA",
+      "BOYWONDER",
+      "CATLOAF",
+      "NATASHA",
+      "BEACHASTE"
+     ],
+     "proposer": "NATASHA"
+    }
+   ],
+   "team": [
+    "CATLOAF",
+    "EXODIA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "BOYWONDER",
+     "team": [
+      "BOYWONDER",
+      "BEACHASTE",
+      "NATASHA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EXODIA",
+      "BOYWONDER",
+      "CATLOAF",
+      "NATASHA",
+      "BEACHASTE"
+     ]
+    }
+   ],
+   "team": [
+    "BOYWONDER",
+    "BEACHASTE",
+    "NATASHA"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CATLOAF",
+      "BEACHASTE"
+     ],
+     "proposer": "CATLOAF",
+     "team": [
+      "NATASHA",
+      "CATLOAF",
+      "BEACHASTE"
+     ]
+    },
+    {
+     "votes": [
+      "EXODIA",
+      "BOYWONDER",
+      "CATLOAF",
+      "NATASHA"
+     ],
+     "team": [
+      "CATLOAF",
+      "EXODIA",
+      "BEACHASTE"
+     ],
+     "state": "APPROVED",
+     "proposer": "EXODIA"
+    }
+   ],
+   "team": [
+    "CATLOAF",
+    "EXODIA",
+    "BEACHASTE"
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

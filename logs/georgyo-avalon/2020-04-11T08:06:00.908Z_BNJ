@@ -1,0 +1,199 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "CHANEL": true,
+    "GINA": true
+   },
+   {
+    "GINA": false,
+    "CHANEL": true,
+    "SW": true
+   },
+   {
+    "CHANEL": true,
+    "SANDRA": false
+   },
+   {
+    "BNJ": true,
+    "GINA": false,
+    "CHANEL": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": true,
+    "name": "SANDRA",
+    "role": "MORDRED"
+   },
+   {
+    "name": "GINA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHANEL",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "SW",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BNJ",
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "team": [
+    "CHANEL",
+    "GINA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHANEL",
+     "votes": [
+      "CHANEL",
+      "SANDRA",
+      "GINA"
+     ],
+     "team": [
+      "CHANEL",
+      "GINA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "GINA",
+     "votes": [
+      "GINA",
+      "CHANEL",
+      "SW",
+      "SANDRA"
+     ],
+     "team": [
+      "GINA",
+      "CHANEL",
+      "SW"
+     ]
+    }
+   ],
+   "team": [
+    "GINA",
+    "CHANEL",
+    "SW"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "SANDRA",
+     "state": "APPROVED",
+     "votes": [
+      "SANDRA",
+      "GINA",
+      "SW"
+     ],
+     "team": [
+      "SANDRA",
+      "CHANEL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SANDRA",
+    "CHANEL"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SANDRA",
+      "GINA",
+      "CHANEL",
+      "BNJ"
+     ],
+     "proposer": "BNJ",
+     "state": "APPROVED",
+     "team": [
+      "CHANEL",
+      "GINA",
+      "BNJ"
+     ]
+    }
+   ],
+   "team": [
+    "CHANEL",
+    "GINA",
+    "BNJ"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "uid": "1Hth30Vx0BhrBYRvLthNEsdZ2U42",
+   "name": "BNJ"
+  },
+  {
+   "uid": "Vpcxy6FsaJXwevPeC1JCoPczOxl1",
+   "name": "SW"
+  },
+  {
+   "uid": "ov2i8ntKcQb9hRNzqhQorT7dXBm2",
+   "name": "CHANEL"
+  },
+  {
+   "name": "GINA",
+   "uid": "9QJ8D8eahJeyfPTCMNhf1DyqUe03"
+  },
+  {
+   "name": "SANDRA",
+   "uid": "65oFVCieW1hNbWGMwT2MLiaLUwB3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586592360,
+  "_nanoseconds": 908000000
+ },
+ "timeFinished": {
+  "_seconds": 1586592729,
+  "_nanoseconds": 538751000
+ }
+}

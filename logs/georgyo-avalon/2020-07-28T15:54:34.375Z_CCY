@@ -1,0 +1,234 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "SILLY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MATTS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "MOUSE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "name": "YAN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ADADADAD",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "KACY",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "COW",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "KACY": true,
+    "YAN": true
+   },
+   {
+    "COW": true,
+    "KACY": true,
+    "YAN": false
+   },
+   {
+    "MATTS": true,
+    "ADADADAD": true,
+    "KACY": true
+   },
+   {
+    "ADADADAD": false,
+    "COW": true,
+    "KACY": true,
+    "MATTS": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "KACY"
+ },
+ "timeCreated": {
+  "_seconds": 1595951674,
+  "_nanoseconds": 375000000
+ },
+ "players": [
+  {
+   "name": "ADADADAD",
+   "uid": "eLYLpEvNFdUVAk4ZHmKMNVapU6v1"
+  },
+  {
+   "uid": "ZEuXKCgJWJcJYts8kyQft9yRJKk2",
+   "name": "KACY"
+  },
+  {
+   "name": "MATTS",
+   "uid": "y4Mn310CvShTNA0PD8iIRtwhJg63"
+  },
+  {
+   "uid": "wxdhxCCtiTPvWy0KtP6w5klzawB2",
+   "name": "YAN"
+  },
+  {
+   "name": "MOUSE",
+   "uid": "P6syyooATsaR7HoexA1Pr1PGXSp1"
+  },
+  {
+   "name": "COW",
+   "uid": "H2c9n1NMZzRcME94WYUIspQh44l1"
+  },
+  {
+   "name": "SILLY",
+   "uid": "44SHCwlX7ZNZxvNqs2HLmLFSMSl2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1595953327,
+  "_nanoseconds": 381000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "KACY",
+    "YAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "KACY",
+      "YAN"
+     ],
+     "proposer": "COW",
+     "votes": [
+      "MATTS",
+      "YAN",
+      "ADADADAD",
+      "KACY",
+      "COW"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "YAN",
+    "KACY",
+    "COW"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KACY",
+      "COW",
+      "SILLY",
+      "MATTS",
+      "MOUSE",
+      "YAN",
+      "ADADADAD"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YAN",
+      "KACY",
+      "COW"
+     ],
+     "proposer": "SILLY"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ADADADAD",
+     "state": "APPROVED",
+     "team": [
+      "MATTS",
+      "ADADADAD",
+      "KACY"
+     ],
+     "votes": [
+      "MATTS",
+      "MOUSE",
+      "YAN",
+      "ADADADAD",
+      "COW"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MATTS",
+    "ADADADAD",
+    "KACY"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "ADADADAD",
+    "KACY",
+    "MATTS",
+    "COW"
+   ],
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SILLY",
+      "MATTS",
+      "YAN",
+      "KACY",
+      "COW"
+     ],
+     "proposer": "KACY",
+     "state": "APPROVED",
+     "team": [
+      "ADADADAD",
+      "KACY",
+      "MATTS",
+      "COW"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

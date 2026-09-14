@@ -1,0 +1,307 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "KEVIN",
+    "assassin": false
+   },
+   {
+    "name": "ASHLEY",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "JANET",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "RM",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NINO"
+   },
+   {
+    "name": "ALAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MARCUS",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CATHY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "CINDY"
+   }
+  ],
+  "votes": [
+   {
+    "CATHY": true,
+    "MARCUS": true,
+    "CINDY": true
+   },
+   {
+    "NINO": true,
+    "CATHY": true,
+    "MARCUS": true,
+    "CINDY": true
+   },
+   {
+    "CINDY": false,
+    "CATHY": true,
+    "MARCUS": true,
+    "NINO": true
+   },
+   {
+    "MARCUS": true,
+    "CINDY": false,
+    "JANET": true,
+    "CATHY": true,
+    "NINO": true
+   }
+  ],
+  "assassinated": "NINO",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1590284564,
+  "_nanoseconds": 605000000
+ },
+ "timeFinished": {
+  "_seconds": 1590286730,
+  "_nanoseconds": 835000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MARCUS",
+     "votes": [
+      "MARCUS",
+      "CATHY",
+      "CINDY",
+      "KEVIN",
+      "ASHLEY",
+      "JANET",
+      "RM",
+      "NINO",
+      "ALAN"
+     ],
+     "team": [
+      "MARCUS",
+      "CATHY",
+      "CINDY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "MARCUS",
+    "CATHY",
+    "CINDY"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "MARCUS",
+    "CATHY",
+    "CINDY",
+    "NINO"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "CATHY",
+      "CINDY",
+      "KEVIN",
+      "ASHLEY",
+      "JANET",
+      "RM",
+      "NINO",
+      "ALAN",
+      "MARCUS"
+     ],
+     "proposer": "CATHY",
+     "team": [
+      "MARCUS",
+      "CATHY",
+      "CINDY",
+      "NINO"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "CINDY",
+    "CATHY",
+    "MARCUS",
+    "NINO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "NINO",
+      "ALAN",
+      "MARCUS",
+      "CATHY",
+      "CINDY",
+      "KEVIN",
+      "ASHLEY",
+      "JANET",
+      "RM"
+     ],
+     "team": [
+      "CINDY",
+      "CATHY",
+      "MARCUS",
+      "NINO"
+     ],
+     "proposer": "CINDY",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "MARCUS",
+    "CATHY",
+    "CINDY",
+    "NINO",
+    "JANET"
+   ],
+   "numFails": 1,
+   "failsRequired": 2,
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CINDY",
+      "KEVIN",
+      "NINO",
+      "MARCUS"
+     ],
+     "proposer": "KEVIN",
+     "team": [
+      "NINO",
+      "MARCUS",
+      "CATHY",
+      "CINDY",
+      "KEVIN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ASHLEY",
+      "CATHY",
+      "CINDY",
+      "MARCUS",
+      "NINO"
+     ],
+     "votes": [
+      "ASHLEY",
+      "RM"
+     ],
+     "proposer": "ASHLEY"
+    },
+    {
+     "votes": [
+      "KEVIN",
+      "JANET",
+      "NINO",
+      "ALAN",
+      "MARCUS",
+      "CINDY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MARCUS",
+      "CATHY",
+      "CINDY",
+      "NINO",
+      "JANET"
+     ],
+     "proposer": "JANET"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 5,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "ASHLEY",
+   "uid": "oUbh0cbD3dS4GAEzbDoU6qfEEO73"
+  },
+  {
+   "uid": "c8AL0Gy5vPUsFpW1yXNE04LiMJB2",
+   "name": "JANET"
+  },
+  {
+   "name": "RM",
+   "uid": "5ROZzXe2h0QLOYLTi2uNvytkqPp2"
+  },
+  {
+   "name": "NINO",
+   "uid": "o0J4MjCZwlbJ7YDGCkZ7UERLSN83"
+  },
+  {
+   "name": "ALAN",
+   "uid": "BSV8PXzydYaXtBuMWGVGx0eYPL02"
+  },
+  {
+   "uid": "GrouzuIWiGfIh1kiaWeynTsdmWo1",
+   "name": "MARCUS"
+  },
+  {
+   "uid": "9lEDnYZldlPbAqymqmKdhmK0KLH2",
+   "name": "CATHY"
+  },
+  {
+   "uid": "r42ghwvuAXYXp5woGW8JjK86C0C3",
+   "name": "CINDY"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "lckLRrCDaSeHjYoj6wuNDLDq7uu1"
+  }
+ ]
+}

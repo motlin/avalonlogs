@@ -1,0 +1,279 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ANIKETH",
+   "uid": "mhGqERYygScqJ0S29jQ3yK7o2ku2"
+  },
+  {
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3",
+   "name": "MARLIN"
+  },
+  {
+   "name": "PKBOOLEAN",
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652"
+  },
+  {
+   "uid": "cAjDOV1WbPRqRjv28SDq7BYb6Up2",
+   "name": "CHAITHANYA"
+  },
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "SUSHHI"
+  },
+  {
+   "uid": "M9nSGFmZJLediRJeU20AOG8aVjU2",
+   "name": "NITWIT"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "CHAITHANYA",
+    "PKBOOLEAN"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SUSHHI",
+      "PKBOOLEAN",
+      "NITWIT",
+      "CHAITHANYA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CHAITHANYA",
+      "PKBOOLEAN"
+     ],
+     "proposer": "CHAITHANYA"
+    }
+   ]
+  },
+  {
+   "team": [
+    "PKBOOLEAN",
+    "CHAITHANYA",
+    "SUSHHI"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "SUSHHI",
+     "votes": [
+      "MARLIN",
+      "SUSHHI",
+      "PKBOOLEAN",
+      "NITWIT",
+      "CHAITHANYA"
+     ],
+     "team": [
+      "PKBOOLEAN",
+      "CHAITHANYA",
+      "SUSHHI"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "NITWIT",
+      "SUSHHI",
+      "CHAITHANYA",
+      "PKBOOLEAN"
+     ],
+     "proposer": "NITWIT",
+     "state": "APPROVED",
+     "votes": [
+      "MARLIN",
+      "SUSHHI",
+      "PKBOOLEAN",
+      "NITWIT",
+      "CHAITHANYA"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "NITWIT",
+    "SUSHHI",
+    "CHAITHANYA",
+    "PKBOOLEAN"
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ANIKETH",
+      "SUSHHI",
+      "MARLIN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NITWIT",
+      "ANIKETH",
+      "SUSHHI"
+     ],
+     "proposer": "ANIKETH"
+    },
+    {
+     "votes": [
+      "ANIKETH",
+      "MARLIN",
+      "SUSHHI",
+      "PKBOOLEAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MARLIN",
+      "SUSHHI",
+      "PKBOOLEAN"
+     ],
+     "proposer": "MARLIN"
+    }
+   ],
+   "team": [
+    "MARLIN",
+    "SUSHHI",
+    "PKBOOLEAN"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "PKBOOLEAN",
+     "state": "REJECTED",
+     "votes": [
+      "NITWIT",
+      "PKBOOLEAN"
+     ],
+     "team": [
+      "PKBOOLEAN",
+      "CHAITHANYA",
+      "NITWIT",
+      "ANIKETH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHAITHANYA",
+      "NITWIT",
+      "ANIKETH",
+      "MARLIN"
+     ],
+     "proposer": "CHAITHANYA",
+     "votes": [
+      "NITWIT",
+      "CHAITHANYA",
+      "ANIKETH",
+      "MARLIN",
+      "PKBOOLEAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CHAITHANYA",
+    "NITWIT",
+    "ANIKETH",
+    "MARLIN"
+   ]
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "SUSHHI",
+    "assassin": true
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "PKBOOLEAN",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NITWIT",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CHAITHANYA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANIKETH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MARLIN"
+   }
+  ],
+  "assassinated": "CHAITHANYA",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "CHAITHANYA": true,
+    "PKBOOLEAN": true
+   },
+   {
+    "PKBOOLEAN": true,
+    "SUSHHI": true,
+    "CHAITHANYA": true
+   },
+   {
+    "NITWIT": true,
+    "PKBOOLEAN": true,
+    "SUSHHI": false,
+    "CHAITHANYA": true
+   },
+   {
+    "PKBOOLEAN": true,
+    "MARLIN": true,
+    "SUSHHI": false
+   },
+   {
+    "ANIKETH": true,
+    "MARLIN": true,
+    "CHAITHANYA": true,
+    "NITWIT": true
+   }
+  ],
+  "message": "Three successful missions"
+ },
+ "timeFinished": {
+  "_seconds": 1588476379,
+  "_nanoseconds": 124000000
+ },
+ "timeCreated": {
+  "_seconds": 1588475448,
+  "_nanoseconds": 241000000
+ }
+}

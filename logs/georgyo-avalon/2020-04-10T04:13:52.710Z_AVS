@@ -1,0 +1,271 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "DAYLON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "MOHSIN",
+    "assassin": false
+   },
+   {
+    "name": "SZEHEI",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "CORONA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "BOB"
+   }
+  ],
+  "votes": [
+   {
+    "BOB": true,
+    "CORONA": true
+   },
+   {
+    "MOHSIN": true,
+    "BOB": true,
+    "CORONA": false
+   },
+   {
+    "CORONA": false,
+    "BOB": true
+   },
+   {
+    "DAYLON": true,
+    "SZEHEI": true,
+    "MOHSIN": true
+   },
+   {
+    "DAYLON": true,
+    "MOHSIN": true,
+    "SZEHEI": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "SZEHEI"
+ },
+ "timeFinished": {
+  "_seconds": 1586492631,
+  "_nanoseconds": 448943000
+ },
+ "players": [
+  {
+   "name": "DAYLON",
+   "uid": "y77wydu6uEMdgJWSm2K2k2MT1mu2"
+  },
+  {
+   "name": "SZEHEI",
+   "uid": "IC3aLrQlj0Y4AKYdjUUSepAGyj32"
+  },
+  {
+   "name": "BOB",
+   "uid": "xM94HRwFsJNhYd3nkwlJBymzMcu2"
+  },
+  {
+   "uid": "VITmZDG0lYQEq8CgNXBxUprmx713",
+   "name": "CORONA"
+  },
+  {
+   "uid": "Dp7YvXxrdsS4QKhx6I2Gjzi8OSy2",
+   "name": "MOHSIN"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586492032,
+  "_nanoseconds": 710000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BOB",
+     "votes": [
+      "SZEHEI",
+      "CORONA",
+      "BOB",
+      "MOHSIN"
+     ],
+     "team": [
+      "BOB",
+      "CORONA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "BOB",
+    "CORONA"
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "BOB",
+    "CORONA",
+    "MOHSIN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MOHSIN",
+      "SZEHEI",
+      "CORONA"
+     ],
+     "team": [
+      "BOB",
+      "CORONA",
+      "MOHSIN"
+     ],
+     "proposer": "CORONA"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "MOHSIN",
+      "CORONA"
+     ],
+     "team": [
+      "CORONA",
+      "MOHSIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "MOHSIN"
+    },
+    {
+     "team": [
+      "DAYLON",
+      "BOB"
+     ],
+     "proposer": "DAYLON",
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "team": [
+      "BOB",
+      "CORONA"
+     ],
+     "votes": [
+      "SZEHEI",
+      "CORONA",
+      "BOB"
+     ],
+     "state": "APPROVED",
+     "proposer": "SZEHEI"
+    }
+   ],
+   "team": [
+    "BOB",
+    "CORONA"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "BOB",
+     "state": "REJECTED",
+     "votes": [
+      "BOB"
+     ],
+     "team": [
+      "CORONA",
+      "MOHSIN",
+      "DAYLON"
+     ]
+    },
+    {
+     "votes": [
+      "CORONA",
+      "BOB"
+     ],
+     "team": [
+      "CORONA",
+      "MOHSIN",
+      "DAYLON"
+     ],
+     "state": "REJECTED",
+     "proposer": "CORONA"
+    },
+    {
+     "team": [
+      "MOHSIN",
+      "DAYLON",
+      "SZEHEI"
+     ],
+     "proposer": "MOHSIN",
+     "votes": [
+      "BOB",
+      "DAYLON",
+      "MOHSIN",
+      "SZEHEI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MOHSIN",
+    "DAYLON",
+    "SZEHEI"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "DAYLON",
+    "SZEHEI",
+    "MOHSIN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SZEHEI",
+      "BOB",
+      "DAYLON",
+      "MOHSIN"
+     ],
+     "team": [
+      "DAYLON",
+      "SZEHEI",
+      "MOHSIN"
+     ],
+     "proposer": "DAYLON"
+    }
+   ]
+  }
+ ]
+}

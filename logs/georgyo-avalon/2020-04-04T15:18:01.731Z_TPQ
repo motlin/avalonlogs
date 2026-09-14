@@ -1,0 +1,273 @@
+{
+ "timeFinished": {
+  "_seconds": 1586015346,
+  "_nanoseconds": 13187000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "CLAUD",
+    "assassin": false
+   },
+   {
+    "name": "TYRESE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "KATIE"
+   },
+   {
+    "assassin": false,
+    "name": "BRY",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "SHAZ",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ZENIXENOCH",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "CC",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ZENIXENOCH": true,
+    "TYRESE": true
+   },
+   {
+    "CLAUD": true,
+    "TYRESE": true,
+    "BRY": true
+   },
+   {
+    "CLAUD": false,
+    "TYRESE": true,
+    "CC": true
+   },
+   {
+    "CC": true,
+    "CLAUD": false,
+    "SHAZ": true,
+    "KATIE": false
+   },
+   {
+    "ZENIXENOCH": false,
+    "TYRESE": true,
+    "KATIE": false,
+    "SHAZ": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "name": "BRY",
+   "uid": "MkDstn558edosZanw6yHCSZcw5H3"
+  },
+  {
+   "uid": "pnv04dJg66XkFbPSowaoNpSUMat1",
+   "name": "CLAUD"
+  },
+  {
+   "uid": "BmJWt1WzXmMtb8vMiGMboNlkUfk1",
+   "name": "KATIE"
+  },
+  {
+   "name": "SHAZ",
+   "uid": "eT0fjl1qhWZDzmyyZc6JQ9MCwUy2"
+  },
+  {
+   "uid": "c8FbW1y2NJOcw4A21ptj06kqu093",
+   "name": "TYRESE"
+  },
+  {
+   "uid": "VJnzu3lPRybziIfKSyslGK2Kpfl1",
+   "name": "ZENIXENOCH"
+  },
+  {
+   "uid": "Zmu2rjg0eRgHHCp1tjkB6j7HNFI2",
+   "name": "CC"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586013481,
+  "_nanoseconds": 731000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "TYRESE",
+      "KATIE",
+      "SHAZ",
+      "ZENIXENOCH",
+      "CC",
+      "CLAUD"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "TYRESE",
+      "ZENIXENOCH"
+     ],
+     "proposer": "TYRESE"
+    }
+   ],
+   "team": [
+    "TYRESE",
+    "ZENIXENOCH"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "BRY",
+    "TYRESE",
+    "CLAUD"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZENIXENOCH",
+      "CC",
+      "CLAUD",
+      "KATIE"
+     ],
+     "team": [
+      "BRY",
+      "TYRESE",
+      "CLAUD"
+     ],
+     "proposer": "ZENIXENOCH"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "CC",
+    "TYRESE",
+    "CLAUD"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "CC",
+      "TYRESE",
+      "CLAUD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KATIE",
+      "ZENIXENOCH",
+      "CC",
+      "CLAUD",
+      "TYRESE"
+     ],
+     "proposer": "CC"
+    }
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "BRY",
+      "SHAZ",
+      "ZENIXENOCH",
+      "CC"
+     ],
+     "proposer": "BRY",
+     "votes": [
+      "BRY",
+      "CC"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "CLAUD",
+      "KATIE",
+      "SHAZ",
+      "CC"
+     ],
+     "proposer": "CLAUD",
+     "state": "APPROVED",
+     "votes": [
+      "CC",
+      "CLAUD",
+      "KATIE",
+      "SHAZ",
+      "ZENIXENOCH"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "CLAUD",
+    "KATIE",
+    "SHAZ",
+    "CC"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "KATIE",
+     "state": "APPROVED",
+     "team": [
+      "KATIE",
+      "TYRESE",
+      "ZENIXENOCH",
+      "SHAZ"
+     ],
+     "votes": [
+      "CLAUD",
+      "TYRESE",
+      "KATIE",
+      "SHAZ",
+      "ZENIXENOCH"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "KATIE",
+    "TYRESE",
+    "ZENIXENOCH",
+    "SHAZ"
+   ],
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 4
+  }
+ ]
+}

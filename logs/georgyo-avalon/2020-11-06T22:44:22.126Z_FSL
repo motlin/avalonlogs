@@ -1,0 +1,356 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "CEDRIC": true,
+    "FARID": true
+   },
+   {
+    "LAURA": false,
+    "CEDRIC": true,
+    "FARID": true
+   },
+   {
+    "LEO": true,
+    "LAURA": true,
+    "REGIS": false,
+    "AURELIA": true
+   },
+   {
+    "LEO": true,
+    "REGIS": false,
+    "LAURA": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AURELIA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "LAURA"
+   },
+   {
+    "assassin": false,
+    "name": "FARID",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "REGIS"
+   },
+   {
+    "name": "LEO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CEDRIC"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "CEDRIC",
+    "FARID"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CEDRIC",
+      "FARID"
+     ],
+     "proposer": "CEDRIC",
+     "votes": [
+      "FARID",
+      "LAURA",
+      "LEO",
+      "CEDRIC"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "FARID",
+      "CEDRIC"
+     ],
+     "proposer": "LEO",
+     "state": "REJECTED",
+     "team": [
+      "CEDRIC",
+      "LEO",
+      "FARID"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "FARID",
+      "CEDRIC",
+      "LEO"
+     ],
+     "votes": [
+      "FARID",
+      "CEDRIC",
+      "LEO"
+     ],
+     "proposer": "FARID"
+    },
+    {
+     "votes": [
+      "AURELIA"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AURELIA",
+      "REGIS",
+      "LEO"
+     ],
+     "proposer": "AURELIA"
+    },
+    {
+     "proposer": "LAURA",
+     "votes": [
+      "LEO",
+      "CEDRIC",
+      "LAURA",
+      "FARID"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "LAURA",
+      "CEDRIC",
+      "FARID"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "LAURA",
+    "CEDRIC",
+    "FARID"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "REGIS",
+      "LEO",
+      "LAURA",
+      "AURELIA"
+     ],
+     "votes": [
+      "REGIS",
+      "AURELIA"
+     ],
+     "proposer": "REGIS"
+    },
+    {
+     "votes": [
+      "LEO",
+      "CEDRIC",
+      "REGIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CEDRIC",
+      "FARID",
+      "REGIS",
+      "AURELIA"
+     ],
+     "proposer": "CEDRIC"
+    },
+    {
+     "votes": [
+      "FARID",
+      "LEO"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "AURELIA",
+      "REGIS",
+      "LEO",
+      "FARID"
+     ],
+     "proposer": "LEO"
+    },
+    {
+     "votes": [
+      "LEO",
+      "FARID"
+     ],
+     "proposer": "FARID",
+     "team": [
+      "REGIS",
+      "FARID",
+      "LEO",
+      "AURELIA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LEO",
+      "LAURA",
+      "CEDRIC",
+      "REGIS",
+      "AURELIA"
+     ],
+     "team": [
+      "AURELIA",
+      "LEO",
+      "REGIS",
+      "LAURA"
+     ],
+     "state": "APPROVED",
+     "proposer": "AURELIA"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "AURELIA",
+    "LEO",
+    "REGIS",
+    "LAURA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AURELIA",
+      "LAURA"
+     ],
+     "team": [
+      "LAURA",
+      "REGIS",
+      "AURELIA"
+     ],
+     "proposer": "LAURA"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "REGIS",
+     "team": [
+      "REGIS",
+      "LAURA",
+      "LEO"
+     ],
+     "votes": [
+      "LEO",
+      "LAURA",
+      "REGIS"
+     ]
+    },
+    {
+     "proposer": "CEDRIC",
+     "votes": [
+      "CEDRIC",
+      "AURELIA"
+     ],
+     "team": [
+      "CEDRIC",
+      "LAURA",
+      "REGIS"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LEO",
+      "LAURA",
+      "REGIS"
+     ],
+     "votes": [
+      "LAURA",
+      "REGIS",
+      "CEDRIC",
+      "LEO"
+     ],
+     "state": "APPROVED",
+     "proposer": "LEO"
+    }
+   ],
+   "numFails": 2,
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "LEO",
+    "LAURA",
+    "REGIS"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "uid": "DddGwIPbYTYseSgjSdd1Qbwqm3R2",
+   "name": "LAURA"
+  },
+  {
+   "name": "REGIS",
+   "uid": "gTS5ixzdhtVY6fw6XK6AnEjGrGi1"
+  },
+  {
+   "uid": "e6SFzKVMZdbZtFKNryUsTye9UOw2",
+   "name": "CEDRIC"
+  },
+  {
+   "uid": "T0Y1Ud9ZYVctLMkv8A0SPJ0revh2",
+   "name": "LEO"
+  },
+  {
+   "uid": "gOxLJaoqrvPnwE8TrF9eMsgIkr53",
+   "name": "FARID"
+  },
+  {
+   "uid": "t3hmiC7r8wW7e7CCSa3XJ8KkIAc2",
+   "name": "AURELIA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604705260,
+  "_nanoseconds": 283000000
+ },
+ "timeCreated": {
+  "_seconds": 1604702662,
+  "_nanoseconds": 126000000
+ }
+}

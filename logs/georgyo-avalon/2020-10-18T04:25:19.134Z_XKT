@@ -1,0 +1,235 @@
+{
+ "timeFinished": {
+  "_seconds": 1602996171,
+  "_nanoseconds": 268000000
+ },
+ "timeCreated": {
+  "_seconds": 1602995119,
+  "_nanoseconds": 134000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "KINGJEFF": true,
+    "VALERIE": true
+   },
+   {
+    "VALERIE": true,
+    "HAN": true,
+    "KINGJEFF": false
+   },
+   {
+    "HAN": true,
+    "HP": true,
+    "VALERIE": true
+   },
+   {
+    "VALERIE": true,
+    "HAN": true,
+    "JERRY": false,
+    "HP": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JERRY",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "DANIELLIN",
+    "assassin": false
+   },
+   {
+    "name": "VALERIE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "HP",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "KINGJEFF"
+   },
+   {
+    "name": "HAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CLZZZ",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "HAN",
+  "state": "GOOD_WIN"
+ },
+ "players": [
+  {
+   "uid": "R2MBx3GaFKZAtXjWMkTBkR2lBlt1",
+   "name": "VALERIE"
+  },
+  {
+   "uid": "S99Z2pKmwAegFTF1KlLpAuHeAVM2",
+   "name": "KINGJEFF"
+  },
+  {
+   "name": "HAN",
+   "uid": "MFZQLxl4e5PuWtkthMLEMU2SDSg2"
+  },
+  {
+   "name": "HP",
+   "uid": "qjDeDxtpggSF9WWbIBj8hkrx8Oe2"
+  },
+  {
+   "uid": "05ULQQvy5fgwNqOxUBb9MIHYv8e2",
+   "name": "JERRY"
+  },
+  {
+   "uid": "b5bLTFRDUJWrSPLXcLhhkSZfTNu2",
+   "name": "CLZZZ"
+  },
+  {
+   "name": "DANIELLIN",
+   "uid": "OrPqHl1PdIM768Jq7CgEjR4KxtY2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "VALERIE",
+    "KINGJEFF"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "VALERIE",
+     "state": "APPROVED",
+     "team": [
+      "VALERIE",
+      "KINGJEFF"
+     ],
+     "votes": [
+      "HP",
+      "JERRY",
+      "HAN",
+      "VALERIE",
+      "DANIELLIN",
+      "KINGJEFF",
+      "CLZZZ"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "KINGJEFF",
+    "VALERIE",
+    "HAN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "HAN",
+      "CLZZZ",
+      "VALERIE",
+      "KINGJEFF",
+      "JERRY",
+      "DANIELLIN"
+     ],
+     "team": [
+      "KINGJEFF",
+      "VALERIE",
+      "HAN"
+     ],
+     "proposer": "KINGJEFF",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "VALERIE",
+    "HAN",
+    "HP"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "VALERIE",
+      "HAN",
+      "HP"
+     ],
+     "state": "APPROVED",
+     "proposer": "HAN",
+     "votes": [
+      "HP",
+      "JERRY",
+      "DANIELLIN",
+      "HAN",
+      "VALERIE"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VALERIE",
+      "JERRY",
+      "DANIELLIN",
+      "HAN",
+      "HP"
+     ],
+     "team": [
+      "HAN",
+      "HP",
+      "VALERIE",
+      "JERRY"
+     ],
+     "proposer": "HP"
+    }
+   ],
+   "team": [
+    "HAN",
+    "HP",
+    "VALERIE",
+    "JERRY"
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

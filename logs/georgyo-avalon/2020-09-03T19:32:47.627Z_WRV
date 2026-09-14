@@ -1,0 +1,236 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "OLIVIA": true,
+    "ANTHONY": true
+   },
+   {
+    "ANTHONY": true,
+    "MAURA": false,
+    "NATE": true
+   },
+   {
+    "THOMAS": true,
+    "MAE": true,
+    "OLIVIA": true
+   },
+   {
+    "ANTHONY": true,
+    "THOMAS": true,
+    "OLIVIA": true,
+    "MAE": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "NIC"
+   },
+   {
+    "name": "MAURA",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "NATE",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "OLIVIA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ANTHONY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MAE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "THOMAS",
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "NATE"
+ },
+ "timeCreated": {
+  "_seconds": 1599161567,
+  "_nanoseconds": 627000000
+ },
+ "timeFinished": {
+  "_seconds": 1599161908,
+  "_nanoseconds": 100000000
+ },
+ "players": [
+  {
+   "name": "MAE",
+   "uid": "n4aRfoNL1UdF6JQT7s4Zngck7Tw2"
+  },
+  {
+   "name": "NATE",
+   "uid": "zeuGxguQC6cJGlVzp7EuPjax2YD3"
+  },
+  {
+   "name": "NIC",
+   "uid": "MYpiSOAr44aEhZrKBh1SZQYRIXi1"
+  },
+  {
+   "uid": "tIFbZtH9jvX2FqPn2m8enLFNsYy1",
+   "name": "OLIVIA"
+  },
+  {
+   "name": "THOMAS",
+   "uid": "pQp3V1GS2IhW0yEIWvaEkN8OJFf2"
+  },
+  {
+   "uid": "Sb2VMJBKcZVtB1lhrmC7Rr1bMKI2",
+   "name": "ANTHONY"
+  },
+  {
+   "name": "MAURA",
+   "uid": "q7qxRKTc07RuD13KrXs60NHrfwh2"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "NIC",
+     "team": [
+      "OLIVIA",
+      "ANTHONY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "OLIVIA",
+      "MAURA",
+      "ANTHONY",
+      "THOMAS",
+      "NATE",
+      "NIC",
+      "MAE"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "OLIVIA",
+    "ANTHONY"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "OLIVIA",
+      "MAE",
+      "MAURA",
+      "THOMAS",
+      "ANTHONY",
+      "NIC"
+     ],
+     "team": [
+      "ANTHONY",
+      "MAURA",
+      "NATE"
+     ],
+     "proposer": "OLIVIA"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "ANTHONY",
+    "MAURA",
+    "NATE"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "MAE",
+      "THOMAS",
+      "OLIVIA"
+     ],
+     "proposer": "THOMAS",
+     "state": "APPROVED",
+     "votes": [
+      "ANTHONY",
+      "NATE",
+      "OLIVIA",
+      "THOMAS",
+      "MAE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "MAE",
+    "THOMAS",
+    "OLIVIA"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAE",
+      "NATE",
+      "THOMAS",
+      "OLIVIA",
+      "MAURA",
+      "ANTHONY"
+     ],
+     "team": [
+      "ANTHONY",
+      "OLIVIA",
+      "MAE",
+      "THOMAS"
+     ],
+     "proposer": "ANTHONY"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "ANTHONY",
+    "OLIVIA",
+    "MAE",
+    "THOMAS"
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

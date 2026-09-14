@@ -1,0 +1,251 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "ELEH": true,
+    "MATTHEW": true
+   },
+   {
+    "MATTHEW": true,
+    "ELEH": false,
+    "HP": true
+   },
+   {
+    "EMROSE": true,
+    "MATTHEW": true,
+    "ELEH": false,
+    "ROSIE": true
+   },
+   {
+    "MATTHEW": true,
+    "LUCY": true,
+    "ELEH": false
+   }
+  ],
+  "roles": [
+   {
+    "name": "ROSIE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "ELEH"
+   },
+   {
+    "name": "EMROSE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "HP",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "LUCY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "MATTHEW",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1604865375,
+  "_nanoseconds": 254000000
+ },
+ "players": [
+  {
+   "name": "HP",
+   "uid": "C531Ls81grSlaHLZya5TT9cyiMm2"
+  },
+  {
+   "name": "EMROSE",
+   "uid": "q7Hc5ZxprocXH4PMYLLm6N1NZWw1"
+  },
+  {
+   "uid": "4rpdWRCtQedKg1kGSbzQwzxe7l22",
+   "name": "ROSIE"
+  },
+  {
+   "name": "MATTHEW",
+   "uid": "AaBQt90COSbOizVK2M91UcxydZI2"
+  },
+  {
+   "uid": "ymOoMY3PNUSZf1lDhQDVOsnmBGX2",
+   "name": "LUCY"
+  },
+  {
+   "uid": "xmr2nY37CEN53IjutRHaQdP1BkY2",
+   "name": "ELEH"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1604864646,
+  "_nanoseconds": 18000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ROSIE",
+      "EMROSE",
+      "ELEH",
+      "LUCY",
+      "MATTHEW"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MATTHEW",
+      "ELEH"
+     ],
+     "proposer": "ELEH"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MATTHEW",
+    "ELEH"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HP",
+     "team": [
+      "MATTHEW",
+      "ELEH",
+      "HP"
+     ],
+     "votes": [
+      "ELEH",
+      "MATTHEW",
+      "ROSIE",
+      "LUCY",
+      "HP"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "MATTHEW",
+    "ELEH",
+    "HP"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "MATTHEW",
+      "ELEH",
+      "EMROSE",
+      "ROSIE"
+     ],
+     "proposer": "EMROSE",
+     "votes": [
+      "ELEH",
+      "EMROSE",
+      "ROSIE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ROSIE",
+      "LUCY",
+      "MATTHEW",
+      "HP"
+     ],
+     "proposer": "ROSIE",
+     "votes": [
+      "ROSIE"
+     ]
+    },
+    {
+     "proposer": "MATTHEW",
+     "team": [
+      "MATTHEW",
+      "ELEH",
+      "ROSIE",
+      "EMROSE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "EMROSE",
+      "ELEH",
+      "LUCY",
+      "HP",
+      "MATTHEW"
+     ]
+    }
+   ],
+   "team": [
+    "MATTHEW",
+    "ELEH",
+    "ROSIE",
+    "EMROSE"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "MATTHEW",
+    "ELEH",
+    "LUCY"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "MATTHEW",
+      "ELEH",
+      "LUCY"
+     ],
+     "proposer": "LUCY",
+     "votes": [
+      "EMROSE",
+      "HP",
+      "ELEH",
+      "LUCY",
+      "ROSIE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1
+  }
+ ]
+}

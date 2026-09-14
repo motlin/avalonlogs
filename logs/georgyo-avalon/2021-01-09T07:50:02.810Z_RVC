@@ -1,0 +1,352 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1610178602,
+  "_nanoseconds": 810000000
+ },
+ "players": [
+  {
+   "name": "AMEYA",
+   "uid": "9zncAWQsozR4bbicTwcmgc58tT13"
+  },
+  {
+   "uid": "lHvH2Q0Vc1UbF40N06Zr6svg26i1",
+   "name": "KAUSHAL"
+  },
+  {
+   "name": "DIKSINGH",
+   "uid": "4GfCahioxqeJie6psB9eYJTCG793"
+  },
+  {
+   "name": "SHRAVAN",
+   "uid": "JbCckK6FAEQcLuHKAvN69wqbOS73"
+  },
+  {
+   "uid": "bPC4ngKgF1UioBVRuUmIGyPEOw03",
+   "name": "NOBODY"
+  },
+  {
+   "name": "ROHAN",
+   "uid": "kxOTeulhGKcu2MOCO9lYm5giHP82"
+  },
+  {
+   "name": "MEMO",
+   "uid": "1FdWUDx8sCeb6EZoZXIQJlZsnTJ3"
+  },
+  {
+   "uid": "ESUVVlXrnAOwvl3RvTxFQpRJQdW2",
+   "name": "JAIJEEEEET"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ROHAN"
+   },
+   {
+    "assassin": false,
+    "name": "SHRAVAN",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "DIKSINGH"
+   },
+   {
+    "assassin": false,
+    "name": "NOBODY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "KAUSHAL",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "JAIJEEEEET",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "MEMO"
+   },
+   {
+    "assassin": true,
+    "name": "AMEYA",
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "DIKSINGH",
+  "votes": [
+   {
+    "SHRAVAN": true,
+    "DIKSINGH": true,
+    "NOBODY": true
+   },
+   {
+    "SHRAVAN": false,
+    "NOBODY": true,
+    "KAUSHAL": true,
+    "ROHAN": true
+   },
+   {
+    "MEMO": false,
+    "NOBODY": true,
+    "ROHAN": true,
+    "KAUSHAL": true
+   },
+   {
+    "DIKSINGH": true,
+    "NOBODY": true,
+    "JAIJEEEEET": true,
+    "KAUSHAL": true,
+    "ROHAN": true
+   },
+   {
+    "DIKSINGH": true,
+    "KAUSHAL": true,
+    "NOBODY": true,
+    "JAIJEEEEET": true,
+    "ROHAN": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "SHRAVAN",
+    "DIKSINGH",
+    "NOBODY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DIKSINGH",
+      "KAUSHAL",
+      "AMEYA",
+      "MEMO",
+      "ROHAN",
+      "NOBODY",
+      "SHRAVAN",
+      "JAIJEEEEET"
+     ],
+     "team": [
+      "SHRAVAN",
+      "DIKSINGH",
+      "NOBODY"
+     ],
+     "state": "APPROVED",
+     "proposer": "NOBODY"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "ROHAN",
+    "NOBODY",
+    "KAUSHAL",
+    "SHRAVAN"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ROHAN",
+      "NOBODY",
+      "KAUSHAL",
+      "SHRAVAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ROHAN",
+     "votes": [
+      "JAIJEEEEET",
+      "KAUSHAL",
+      "ROHAN",
+      "MEMO",
+      "SHRAVAN",
+      "NOBODY"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "MEMO",
+      "KAUSHAL",
+      "NOBODY",
+      "ROHAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "KAUSHAL",
+      "AMEYA",
+      "NOBODY",
+      "MEMO",
+      "ROHAN",
+      "DIKSINGH"
+     ],
+     "proposer": "MEMO"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "MEMO",
+    "KAUSHAL",
+    "NOBODY",
+    "ROHAN"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "AMEYA",
+      "JAIJEEEEET"
+     ],
+     "team": [
+      "JAIJEEEEET",
+      "AMEYA",
+      "DIKSINGH",
+      "SHRAVAN",
+      "MEMO"
+     ],
+     "state": "REJECTED",
+     "proposer": "JAIJEEEEET"
+    },
+    {
+     "votes": [
+      "JAIJEEEEET",
+      "AMEYA"
+     ],
+     "team": [
+      "AMEYA",
+      "SHRAVAN",
+      "ROHAN",
+      "JAIJEEEEET",
+      "KAUSHAL"
+     ],
+     "proposer": "AMEYA",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KAUSHAL",
+      "NOBODY",
+      "MEMO",
+      "SHRAVAN",
+      "JAIJEEEEET"
+     ],
+     "state": "REJECTED",
+     "proposer": "KAUSHAL",
+     "votes": [
+      "JAIJEEEEET",
+      "MEMO"
+     ]
+    },
+    {
+     "proposer": "DIKSINGH",
+     "votes": [
+      "JAIJEEEEET",
+      "ROHAN",
+      "DIKSINGH",
+      "KAUSHAL",
+      "NOBODY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DIKSINGH",
+      "KAUSHAL",
+      "NOBODY",
+      "JAIJEEEEET",
+      "ROHAN"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "numFails": 0,
+   "teamSize": 5,
+   "state": "SUCCESS",
+   "team": [
+    "DIKSINGH",
+    "KAUSHAL",
+    "NOBODY",
+    "JAIJEEEEET",
+    "ROHAN"
+   ]
+  },
+  {
+   "team": [
+    "ROHAN",
+    "KAUSHAL",
+    "DIKSINGH",
+    "NOBODY",
+    "JAIJEEEEET"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "SHRAVAN",
+      "JAIJEEEEET"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "DIKSINGH",
+      "SHRAVAN",
+      "KAUSHAL",
+      "NOBODY",
+      "JAIJEEEEET"
+     ],
+     "proposer": "SHRAVAN"
+    },
+    {
+     "proposer": "NOBODY",
+     "votes": [
+      "ROHAN",
+      "MEMO",
+      "JAIJEEEEET",
+      "KAUSHAL",
+      "NOBODY",
+      "DIKSINGH"
+     ],
+     "team": [
+      "ROHAN",
+      "KAUSHAL",
+      "DIKSINGH",
+      "NOBODY",
+      "JAIJEEEEET"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1610181583,
+  "_nanoseconds": 544000000
+ }
+}

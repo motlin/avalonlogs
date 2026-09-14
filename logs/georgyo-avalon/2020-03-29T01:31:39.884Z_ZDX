@@ -1,0 +1,211 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "JENNY": true,
+    "SCOTT": true
+   },
+   {
+    "SCOTT": true,
+    "ANNA": true,
+    "JENNY": true
+   },
+   {
+    "JENNY": true,
+    "ANNA": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "ANDREW",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "RYANJIANG"
+   },
+   {
+    "role": "MORGANA",
+    "name": "ANNA",
+    "assassin": false
+   },
+   {
+    "name": "ANDREW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SCOTT",
+    "role": "MERLIN"
+   },
+   {
+    "name": "JENNY",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "SCOTT",
+   "uid": "E1N7D9RLkxQH9AtqBRPvymtdwPv2"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "GqkRdXH8zDQsqJXRumZnsmsZvUn1"
+  },
+  {
+   "uid": "PajOdSE56YYkVUu5hwFqkxbR2C72",
+   "name": "RYANJIANG"
+  },
+  {
+   "uid": "4cJd5Mag2HV1U5XcWciEkXDDlae2",
+   "name": "ANNA"
+  },
+  {
+   "name": "JENNY",
+   "uid": "x5gI57PR4OSrbIfZqt1j2o0Ic1k1"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "JENNY",
+     "team": [
+      "SCOTT",
+      "JENNY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SCOTT",
+      "JENNY",
+      "ANNA",
+      "ANDREW"
+     ]
+    }
+   ],
+   "team": [
+    "SCOTT",
+    "JENNY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ANNA",
+    "SCOTT",
+    "JENNY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SCOTT"
+     ],
+     "team": [
+      "SCOTT",
+      "ANDREW",
+      "JENNY"
+     ],
+     "proposer": "SCOTT"
+    },
+    {
+     "team": [
+      "SCOTT",
+      "ANDREW",
+      "JENNY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SCOTT",
+      "JENNY"
+     ],
+     "proposer": "ANDREW"
+    },
+    {
+     "votes": [
+      "JENNY",
+      "RYANJIANG"
+     ],
+     "team": [
+      "ANNA",
+      "JENNY",
+      "RYANJIANG"
+     ],
+     "proposer": "RYANJIANG",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "RYANJIANG",
+      "ANNA",
+      "JENNY"
+     ],
+     "proposer": "ANNA",
+     "team": [
+      "ANNA",
+      "SCOTT",
+      "JENNY"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANNA",
+      "JENNY"
+     ],
+     "proposer": "JENNY",
+     "votes": [
+      "ANDREW",
+      "JENNY",
+      "RYANJIANG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ANNA",
+    "JENNY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585446537,
+  "_nanoseconds": 157458000
+ },
+ "timeCreated": {
+  "_seconds": 1585445499,
+  "_nanoseconds": 884000000
+ }
+}

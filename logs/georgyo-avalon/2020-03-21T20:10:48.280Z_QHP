@@ -1,0 +1,261 @@
+{
+ "players": [
+  {
+   "name": "BOGITO",
+   "uid": "IDdZnRywy8YrvwJroGkVN5ABsd42"
+  },
+  {
+   "name": "DZV",
+   "uid": "CHyREJpx5XRaiS6ST83twXHOuQB3"
+  },
+  {
+   "name": "MIRO",
+   "uid": "fiRWME9M3ZcMAlHUI1sbilAmrCx1"
+  },
+  {
+   "uid": "QeR0HEG8KlffoGKUrB0YeBu0NZ93",
+   "name": "TISHO"
+  },
+  {
+   "uid": "KLGRZnI4KLguDdpgK82zcaymxs93",
+   "name": "VORTIGEN"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "VORTIGEN",
+      "MIRO",
+      "DZV",
+      "BOGITO"
+     ],
+     "proposer": "DZV",
+     "team": [
+      "DZV",
+      "MIRO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DZV",
+    "MIRO"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DZV",
+      "MIRO",
+      "VORTIGEN"
+     ],
+     "votes": [
+      "BOGITO",
+      "VORTIGEN",
+      "MIRO",
+      "DZV"
+     ],
+     "proposer": "MIRO"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "DZV",
+    "MIRO",
+    "VORTIGEN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "DZV",
+    "MIRO"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "DZV",
+      "TISHO"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "TISHO",
+      "DZV"
+     ],
+     "proposer": "TISHO"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "VORTIGEN",
+      "DZV"
+     ],
+     "team": [
+      "MIRO",
+      "VORTIGEN"
+     ],
+     "proposer": "VORTIGEN"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "BOGITO",
+     "votes": [
+      "BOGITO",
+      "VORTIGEN",
+      "DZV"
+     ],
+     "team": [
+      "DZV",
+      "MIRO"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "DZV",
+     "votes": [
+      "TISHO",
+      "VORTIGEN",
+      "DZV"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DZV",
+      "TISHO",
+      "VORTIGEN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "DZV",
+    "TISHO",
+    "VORTIGEN"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MIRO",
+      "BOGITO"
+     ],
+     "team": [
+      "MIRO",
+      "BOGITO",
+      "TISHO"
+     ],
+     "proposer": "MIRO"
+    },
+    {
+     "votes": [
+      "TISHO",
+      "VORTIGEN",
+      "DZV"
+     ],
+     "team": [
+      "TISHO",
+      "VORTIGEN",
+      "DZV"
+     ],
+     "proposer": "TISHO",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "TISHO",
+    "VORTIGEN",
+    "DZV"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "BOGITO",
+    "assassin": true
+   },
+   {
+    "name": "TISHO",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "VORTIGEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "MIRO"
+   },
+   {
+    "name": "DZV",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "MIRO": true,
+    "DZV": true
+   },
+   {
+    "DZV": true,
+    "VORTIGEN": true,
+    "MIRO": false
+   },
+   {
+    "DZV": true,
+    "MIRO": false
+   },
+   {
+    "TISHO": true,
+    "VORTIGEN": true,
+    "DZV": true
+   },
+   {
+    "VORTIGEN": true,
+    "DZV": true,
+    "TISHO": true
+   }
+  ],
+  "assassinated": "TISHO",
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1584821448,
+  "_nanoseconds": 280000000
+ },
+ "timeFinished": {
+  "_seconds": 1584821845,
+  "_nanoseconds": 462399000
+ }
+}

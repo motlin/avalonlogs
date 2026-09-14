@@ -1,0 +1,344 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "MATT": true,
+    "EMMERY": true,
+    "BRANDO": true
+   },
+   {
+    "WISON": false,
+    "BRANDO": true,
+    "MATT": true,
+    "EMMERY": true
+   },
+   {
+    "EMMERY": true,
+    "BRANDO": true,
+    "BOX": true,
+    "MATT": true
+   },
+   {
+    "BOX": true,
+    "EMMERY": false,
+    "MATT": true,
+    "APPLEPIE": false,
+    "BRANDO": true
+   },
+   {
+    "BRANDO": true,
+    "NKB": true,
+    "KIRENA": true,
+    "MATT": true,
+    "EMMERY": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "APPLEPIE",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BRANDO"
+   },
+   {
+    "assassin": false,
+    "name": "WISON",
+    "role": "OBERON"
+   },
+   {
+    "name": "NKB",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "BOX",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "KIRENA",
+    "assassin": false
+   },
+   {
+    "name": "EMMERY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "MATT",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "BOX",
+     "votes": [
+      "BRANDO",
+      "WISON",
+      "BOX",
+      "EMMERY"
+     ],
+     "team": [
+      "KIRENA",
+      "NKB",
+      "APPLEPIE"
+     ]
+    },
+    {
+     "team": [
+      "BRANDO",
+      "MATT",
+      "EMMERY"
+     ],
+     "proposer": "BRANDO",
+     "state": "APPROVED",
+     "votes": [
+      "BRANDO",
+      "WISON",
+      "BOX",
+      "KIRENA",
+      "EMMERY",
+      "MATT",
+      "APPLEPIE"
+     ]
+    }
+   ],
+   "team": [
+    "BRANDO",
+    "MATT",
+    "EMMERY"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "MATT",
+     "votes": [
+      "NKB",
+      "BOX",
+      "KIRENA",
+      "EMMERY",
+      "MATT",
+      "APPLEPIE",
+      "BRANDO",
+      "WISON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MATT",
+      "EMMERY",
+      "BRANDO",
+      "WISON"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "MATT",
+    "EMMERY",
+    "BRANDO",
+    "WISON"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "team": [
+    "EMMERY",
+    "MATT",
+    "BRANDO",
+    "BOX"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "EMMERY",
+      "MATT",
+      "BRANDO",
+      "BOX"
+     ],
+     "votes": [
+      "APPLEPIE",
+      "WISON",
+      "NKB",
+      "BOX",
+      "KIRENA",
+      "EMMERY"
+     ],
+     "proposer": "EMMERY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "BRANDO",
+    "MATT",
+    "EMMERY",
+    "APPLEPIE",
+    "BOX"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BRANDO",
+      "WISON",
+      "BOX",
+      "EMMERY"
+     ],
+     "proposer": "WISON",
+     "team": [
+      "BOX",
+      "EMMERY",
+      "MATT",
+      "BRANDO",
+      "WISON"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BRANDO",
+      "MATT",
+      "EMMERY",
+      "APPLEPIE",
+      "BOX"
+     ],
+     "state": "APPROVED",
+     "proposer": "APPLEPIE",
+     "votes": [
+      "BRANDO",
+      "WISON",
+      "NKB",
+      "BOX",
+      "EMMERY",
+      "MATT",
+      "APPLEPIE"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5
+  },
+  {
+   "team": [
+    "KIRENA",
+    "NKB",
+    "EMMERY",
+    "MATT",
+    "BRANDO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NKB",
+      "KIRENA",
+      "MATT",
+      "EMMERY",
+      "BRANDO"
+     ],
+     "proposer": "NKB",
+     "votes": [
+      "APPLEPIE",
+      "BRANDO",
+      "WISON",
+      "KIRENA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KIRENA",
+      "NKB",
+      "EMMERY",
+      "MATT",
+      "BRANDO"
+     ],
+     "votes": [
+      "APPLEPIE",
+      "BRANDO",
+      "WISON",
+      "NKB",
+      "KIRENA",
+      "EMMERY"
+     ],
+     "proposer": "KIRENA"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 5,
+   "state": "FAIL"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1594868924,
+  "_nanoseconds": 972000000
+ },
+ "timeFinished": {
+  "_seconds": 1594870264,
+  "_nanoseconds": 440000000
+ },
+ "players": [
+  {
+   "name": "BRANDO",
+   "uid": "ah4hYZ3SutQhVfsC7jlmxTiE9DH2"
+  },
+  {
+   "name": "MATT",
+   "uid": "OH7MRHBoWnW7C4Oldvn3XYM7fSi2"
+  },
+  {
+   "uid": "O9S80lT4AFgj3nOfJgeK2opiGNl2",
+   "name": "EMMERY"
+  },
+  {
+   "uid": "Ah5EeXZHQBXmIFzoQgRf1KnZFzY2",
+   "name": "WISON"
+  },
+  {
+   "name": "APPLEPIE",
+   "uid": "Nkbd2nY2vWMG3un5sbOb77iL6G63"
+  },
+  {
+   "uid": "ZfS23qUXaCNSw4J0K92hQ1V2t5y1",
+   "name": "NKB"
+  },
+  {
+   "uid": "fa1VPoY86yWKpTQ6V7nDAaf3GCJ3",
+   "name": "KIRENA"
+  },
+  {
+   "uid": "bp89D5gLrxTzBLqpjQ5IAeBm5WA2",
+   "name": "BOX"
+  }
+ ]
+}

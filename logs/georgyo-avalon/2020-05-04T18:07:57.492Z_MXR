@@ -1,0 +1,224 @@
+{
+ "timeCreated": {
+  "_seconds": 1588615677,
+  "_nanoseconds": 492000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "MILKYVIKY": true,
+    "AKKULHARI": true
+   },
+   {
+    "GRANDPA": true,
+    "MILKYVIKY": true,
+    "AKKULHARI": true
+   },
+   {
+    "GRANDPA": true,
+    "MILKYVIKY": true,
+    "AKKULHARI": true,
+    "GYM": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "SOMA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "GRANDPA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MILKYVIKY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AKKULHARI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "GYM",
+    "role": "MERLIN"
+   },
+   {
+    "name": "SANGEETH",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "assassinated": "GYM"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "SANGEETH",
+   "uid": "b1H6y6VtbgPjiNdo0FFASI3Ys6v1"
+  },
+  {
+   "uid": "N7AFgtdY4igcBphXLcrNdeijltG3",
+   "name": "SOMA"
+  },
+  {
+   "name": "GRANDPA",
+   "uid": "nad3BBjEZpgAqeMSpZQm9fG5ie02"
+  },
+  {
+   "name": "GYM",
+   "uid": "FRfQNQ5P1JcF7BIoaT421OF9v9P2"
+  },
+  {
+   "name": "MILKYVIKY",
+   "uid": "GZMX2NijLtVJBHuUgNi7SkRcwyC2"
+  },
+  {
+   "name": "AKKULHARI",
+   "uid": "aK0lNNcScZQYJ0IS1olNT00AA0Z2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1588615976,
+  "_nanoseconds": 386000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "GRANDPA",
+      "MILKYVIKY",
+      "AKKULHARI",
+      "GYM",
+      "SANGEETH",
+      "SOMA"
+     ],
+     "team": [
+      "MILKYVIKY",
+      "AKKULHARI"
+     ],
+     "proposer": "MILKYVIKY",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "MILKYVIKY",
+    "AKKULHARI"
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MILKYVIKY",
+    "AKKULHARI",
+    "GRANDPA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MILKYVIKY",
+      "AKKULHARI",
+      "GRANDPA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "GYM",
+      "SOMA",
+      "GRANDPA",
+      "MILKYVIKY",
+      "AKKULHARI"
+     ],
+     "proposer": "AKKULHARI"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "GRANDPA",
+    "GYM",
+    "MILKYVIKY",
+    "AKKULHARI"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "SOMA",
+      "SANGEETH"
+     ],
+     "team": [
+      "GYM",
+      "SANGEETH",
+      "SOMA",
+      "MILKYVIKY"
+     ],
+     "proposer": "SANGEETH"
+    },
+    {
+     "proposer": "SOMA",
+     "team": [
+      "GYM",
+      "MILKYVIKY",
+      "AKKULHARI",
+      "SANGEETH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SOMA",
+      "SANGEETH"
+     ]
+    },
+    {
+     "proposer": "GRANDPA",
+     "state": "APPROVED",
+     "votes": [
+      "GYM",
+      "GRANDPA",
+      "MILKYVIKY",
+      "AKKULHARI"
+     ],
+     "team": [
+      "GRANDPA",
+      "GYM",
+      "MILKYVIKY",
+      "AKKULHARI"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 3,
+   "proposals": [],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ]
+}

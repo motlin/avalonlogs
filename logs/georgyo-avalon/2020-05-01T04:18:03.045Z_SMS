@@ -1,0 +1,180 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1588306683,
+  "_nanoseconds": 45000000
+ },
+ "timeFinished": {
+  "_seconds": 1588307432,
+  "_nanoseconds": 117000000
+ },
+ "players": [
+  {
+   "name": "MARC",
+   "uid": "aFMsf9BmvmT8UsbBmnGjiauAAXc2"
+  },
+  {
+   "name": "MOONSTONE",
+   "uid": "ofsJiwY8M7RGr9OParPygu6eOMl2"
+  },
+  {
+   "name": "SIMIANWARE",
+   "uid": "7txfLPGHklbkkW5oRqhakBXF4Ta2"
+  },
+  {
+   "uid": "tbDoeRpJisaZqPfWTqZUyciR1Pa2",
+   "name": "LY"
+  },
+  {
+   "uid": "RdWyDFt1wjgMtfCzE8jJhHsVzZr2",
+   "name": "SASA"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MARC",
+      "MOONSTONE",
+      "SIMIANWARE",
+      "SASA",
+      "LY"
+     ],
+     "team": [
+      "MOONSTONE",
+      "SASA"
+     ],
+     "proposer": "MOONSTONE"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "MOONSTONE",
+    "SASA"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "MOONSTONE",
+    "SASA",
+    "SIMIANWARE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MOONSTONE",
+      "SASA",
+      "SIMIANWARE"
+     ],
+     "votes": [
+      "SASA",
+      "LY",
+      "MARC",
+      "MOONSTONE",
+      "SIMIANWARE"
+     ],
+     "proposer": "SIMIANWARE",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MOONSTONE",
+    "SIMIANWARE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MOONSTONE",
+      "SIMIANWARE",
+      "SASA",
+      "LY"
+     ],
+     "team": [
+      "MOONSTONE",
+      "SIMIANWARE"
+     ],
+     "proposer": "LY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "SASA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "LY"
+   },
+   {
+    "name": "MARC",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "MOONSTONE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "SIMIANWARE"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "SASA": true,
+    "MOONSTONE": true
+   },
+   {
+    "MOONSTONE": true,
+    "SIMIANWARE": true,
+    "SASA": true
+   },
+   {
+    "SIMIANWARE": true,
+    "MOONSTONE": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "SIMIANWARE"
+ }
+}

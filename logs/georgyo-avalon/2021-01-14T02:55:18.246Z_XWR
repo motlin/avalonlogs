@@ -1,0 +1,224 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "EVALON": true,
+    "NBA": true
+   },
+   {
+    "NBA": true,
+    "EDIE": true,
+    "USA": true
+   },
+   {
+    "PAOPAO": false,
+    "EVALON": true,
+    "USA": true,
+    "NBA": false
+   },
+   {
+    "PAOPAO": true,
+    "EDIE": true,
+    "USA": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "USA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "EVALON",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "PAOPAO",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ROSE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EDIE"
+   },
+   {
+    "role": "MORGANA",
+    "name": "NBA",
+    "assassin": false
+   }
+  ],
+  "assassinated": "EVALON",
+  "state": "GOOD_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1610593446,
+  "_nanoseconds": 717000000
+ },
+ "timeCreated": {
+  "_seconds": 1610592918,
+  "_nanoseconds": 246000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "Yi7NBxHo7gMdQjbw7PBXPw8oy3w1",
+   "name": "EVALON"
+  },
+  {
+   "uid": "rxu15VYPVJXpPc4ePYOzNmqyDd03",
+   "name": "PAOPAO"
+  },
+  {
+   "name": "ROSE",
+   "uid": "7txST9V7d9aT1OguankIwn3nHbs2"
+  },
+  {
+   "uid": "8exgiSRsRDPSYc2tA9QeVa42BEj2",
+   "name": "EDIE"
+  },
+  {
+   "uid": "RyZJi4xOUPNcQXan3yuuPhwpZAs2",
+   "name": "NBA"
+  },
+  {
+   "name": "USA",
+   "uid": "vRmNtyStXIfTWE79wPOk3t15lZu1"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "EVALON",
+      "NBA"
+     ],
+     "votes": [
+      "EDIE",
+      "EVALON",
+      "ROSE",
+      "PAOPAO",
+      "USA",
+      "NBA"
+     ],
+     "state": "APPROVED",
+     "proposer": "NBA"
+    }
+   ],
+   "team": [
+    "EVALON",
+    "NBA"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NBA",
+      "USA",
+      "EDIE"
+     ],
+     "proposer": "USA",
+     "state": "APPROVED",
+     "votes": [
+      "ROSE",
+      "NBA",
+      "EDIE",
+      "USA",
+      "PAOPAO"
+     ]
+    }
+   ],
+   "team": [
+    "NBA",
+    "USA",
+    "EDIE"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "PAOPAO",
+      "ROSE",
+      "EDIE",
+      "USA",
+      "EVALON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "EVALON",
+      "NBA",
+      "USA",
+      "PAOPAO"
+     ],
+     "proposer": "EVALON"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "EVALON",
+    "NBA",
+    "USA",
+    "PAOPAO"
+   ],
+   "numFails": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "PAOPAO",
+     "state": "APPROVED",
+     "team": [
+      "USA",
+      "EDIE",
+      "PAOPAO"
+     ],
+     "votes": [
+      "USA",
+      "PAOPAO",
+      "ROSE",
+      "EDIE",
+      "NBA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "USA",
+    "EDIE",
+    "PAOPAO"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4
+  }
+ ]
+}

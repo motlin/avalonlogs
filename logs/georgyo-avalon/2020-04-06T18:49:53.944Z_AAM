@@ -1,0 +1,247 @@
+{
+ "timeCreated": {
+  "_seconds": 1586198993,
+  "_nanoseconds": 944000000
+ },
+ "players": [
+  {
+   "name": "ANDREAS",
+   "uid": "B5B2aTKfkzY5qHEApaW9SElNVzu2"
+  },
+  {
+   "uid": "MO1l4uBVTwg7VNjdHBHJLFhPLIq2",
+   "name": "XRISTOS"
+  },
+  {
+   "uid": "7ppnR3ChMBhSTgN8cb0CS8H0zM02",
+   "name": "SEVASTI"
+  },
+  {
+   "name": "TILEMACHOS",
+   "uid": "4U1RjnYW6uMCdApvdu1BtdvzkNH3"
+  },
+  {
+   "name": "KATERINA",
+   "uid": "93XqeWbCjoNMseX3eK74yCOhXdA2"
+  },
+  {
+   "name": "MINAS",
+   "uid": "vQFBMIaJ1YY9tlV1k9YSM4QxQR83"
+  },
+  {
+   "name": "SAVVOS",
+   "uid": "3crLlOM5r9YDpclGP3vDecpLiV22"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "SAVVOS": true,
+    "XRISTOS": true
+   },
+   {
+    "XRISTOS": true,
+    "SEVASTI": true,
+    "SAVVOS": true
+   },
+   {
+    "SEVASTI": true,
+    "XRISTOS": true,
+    "TILEMACHOS": false
+   },
+   {
+    "XRISTOS": true,
+    "MINAS": true,
+    "SEVASTI": true,
+    "SAVVOS": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "name": "SAVVOS",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ANDREAS"
+   },
+   {
+    "role": "MORDRED",
+    "name": "KATERINA",
+    "assassin": true
+   },
+   {
+    "name": "SEVASTI",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "TILEMACHOS"
+   },
+   {
+    "name": "MINAS",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "XRISTOS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "SEVASTI"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "XRISTOS",
+    "SAVVOS"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SEVASTI",
+      "TILEMACHOS",
+      "MINAS",
+      "XRISTOS",
+      "SAVVOS",
+      "ANDREAS",
+      "KATERINA"
+     ],
+     "team": [
+      "XRISTOS",
+      "SAVVOS"
+     ],
+     "proposer": "XRISTOS",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "SEVASTI",
+     "team": [
+      "SEVASTI",
+      "XRISTOS",
+      "SAVVOS"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SAVVOS",
+      "ANDREAS",
+      "SEVASTI",
+      "TILEMACHOS",
+      "MINAS",
+      "XRISTOS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "SEVASTI",
+    "XRISTOS",
+    "SAVVOS"
+   ],
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KATERINA",
+      "SEVASTI",
+      "TILEMACHOS",
+      "XRISTOS"
+     ],
+     "proposer": "TILEMACHOS",
+     "state": "APPROVED",
+     "team": [
+      "TILEMACHOS",
+      "SEVASTI",
+      "XRISTOS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "TILEMACHOS",
+    "SEVASTI",
+    "XRISTOS"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "XRISTOS",
+      "KATERINA",
+      "SEVASTI"
+     ],
+     "state": "REJECTED",
+     "proposer": "KATERINA",
+     "team": [
+      "XRISTOS",
+      "KATERINA",
+      "SAVVOS",
+      "TILEMACHOS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TILEMACHOS",
+      "MINAS",
+      "XRISTOS",
+      "SAVVOS",
+      "ANDREAS",
+      "KATERINA"
+     ],
+     "team": [
+      "XRISTOS",
+      "MINAS",
+      "SAVVOS",
+      "SEVASTI"
+     ],
+     "proposer": "MINAS"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "XRISTOS",
+    "MINAS",
+    "SAVVOS",
+    "SEVASTI"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586199519,
+  "_nanoseconds": 892541000
+ }
+}

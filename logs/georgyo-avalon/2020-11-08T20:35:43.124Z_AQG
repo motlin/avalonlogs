@@ -1,0 +1,439 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1604869289,
+  "_nanoseconds": 128000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CLAIRE"
+   },
+   {
+    "assassin": false,
+    "name": "HAROLD",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "ANDREW",
+    "assassin": false
+   },
+   {
+    "name": "ARTEMIS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BEMMA"
+   },
+   {
+    "assassin": true,
+    "name": "LAURA",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MORGANA",
+    "name": "SIMON",
+    "assassin": false
+   },
+   {
+    "name": "SIM",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "LAURA": true,
+    "HAROLD": true,
+    "BEMMA": true
+   },
+   {
+    "BEMMA": true,
+    "SIM": true,
+    "LAURA": false,
+    "HAROLD": true
+   },
+   {
+    "HAROLD": true,
+    "LAURA": true,
+    "SIM": true,
+    "CLAIRE": true
+   },
+   {
+    "SIMON": false,
+    "HAROLD": true,
+    "LAURA": false,
+    "BEMMA": true,
+    "CLAIRE": true
+   },
+   {
+    "ARTEMIS": true,
+    "HAROLD": true,
+    "BEMMA": true,
+    "ANDREW": false,
+    "CLAIRE": true
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1604867743,
+  "_nanoseconds": 124000000
+ },
+ "players": [
+  {
+   "name": "CLAIRE",
+   "uid": "hl47lNC9xJgZ9GWX3QlGsF5UAqi1"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "SVqT5u1ATAdOCmlOnbseDN8SP8P2"
+  },
+  {
+   "uid": "2vMmmfk6A5MRubOlkAk73b3pkH93",
+   "name": "SIMON"
+  },
+  {
+   "name": "ARTEMIS",
+   "uid": "AZ3z34x6ogStcYXzkRVf7bFzjBm1"
+  },
+  {
+   "uid": "TgkqAjPT3ah6jjwpgmvGsJeak1A3",
+   "name": "LAURA"
+  },
+  {
+   "name": "BEMMA",
+   "uid": "RQI5FbiW8labJsbJvHtw5NNT3cv2"
+  },
+  {
+   "uid": "clZcSQF8FjWUueEzhPVv0TxBsKB2",
+   "name": "HAROLD"
+  },
+  {
+   "name": "SIM",
+   "uid": "GD8R1IOOePWd1P5KyufsQnZlrn32"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "LAURA",
+    "BEMMA",
+    "HAROLD"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "LAURA",
+      "BEMMA",
+      "HAROLD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CLAIRE",
+      "HAROLD",
+      "BEMMA",
+      "LAURA",
+      "SIM"
+     ],
+     "proposer": "LAURA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "BEMMA",
+     "team": [
+      "BEMMA",
+      "CLAIRE",
+      "HAROLD",
+      "SIM"
+     ],
+     "votes": [
+      "SIM",
+      "CLAIRE",
+      "BEMMA",
+      "HAROLD"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "HAROLD",
+      "BEMMA",
+      "LAURA",
+      "SIM"
+     ],
+     "proposer": "HAROLD",
+     "votes": [
+      "CLAIRE",
+      "SIM",
+      "LAURA",
+      "ANDREW",
+      "BEMMA",
+      "HAROLD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "HAROLD",
+    "BEMMA",
+    "LAURA",
+    "SIM"
+   ],
+   "teamSize": 4,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "HAROLD",
+      "LAURA",
+      "SIM",
+      "CLAIRE"
+     ],
+     "proposer": "SIM",
+     "state": "APPROVED",
+     "votes": [
+      "HAROLD",
+      "LAURA",
+      "BEMMA",
+      "SIM",
+      "SIMON",
+      "CLAIRE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "HAROLD",
+    "LAURA",
+    "SIM",
+    "CLAIRE"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CLAIRE",
+     "team": [
+      "CLAIRE",
+      "SIM",
+      "LAURA",
+      "HAROLD",
+      "ARTEMIS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "CLAIRE",
+      "HAROLD",
+      "SIM",
+      "ARTEMIS"
+     ]
+    },
+    {
+     "team": [
+      "ANDREW",
+      "SIMON",
+      "CLAIRE",
+      "HAROLD",
+      "SIM"
+     ],
+     "proposer": "ANDREW",
+     "state": "REJECTED",
+     "votes": [
+      "ANDREW",
+      "SIMON",
+      "BEMMA"
+     ]
+    },
+    {
+     "team": [
+      "BEMMA",
+      "HAROLD",
+      "SIM",
+      "SIMON",
+      "ANDREW"
+     ],
+     "proposer": "SIMON",
+     "state": "REJECTED",
+     "votes": [
+      "ANDREW",
+      "SIMON",
+      "SIM",
+      "BEMMA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ARTEMIS",
+      "SIM",
+      "HAROLD",
+      "CLAIRE"
+     ],
+     "proposer": "ARTEMIS",
+     "team": [
+      "ARTEMIS",
+      "CLAIRE",
+      "LAURA",
+      "HAROLD",
+      "SIM"
+     ]
+    },
+    {
+     "proposer": "LAURA",
+     "state": "APPROVED",
+     "votes": [
+      "BEMMA",
+      "SIMON",
+      "CLAIRE",
+      "LAURA",
+      "SIM",
+      "HAROLD",
+      "ARTEMIS"
+     ],
+     "team": [
+      "SIMON",
+      "LAURA",
+      "BEMMA",
+      "CLAIRE",
+      "HAROLD"
+     ]
+    }
+   ],
+   "team": [
+    "SIMON",
+    "LAURA",
+    "BEMMA",
+    "CLAIRE",
+    "HAROLD"
+   ],
+   "teamSize": 5
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "LAURA"
+     ],
+     "team": [
+      "CLAIRE",
+      "ANDREW",
+      "ARTEMIS",
+      "BEMMA",
+      "HAROLD"
+     ],
+     "state": "REJECTED",
+     "proposer": "BEMMA"
+    },
+    {
+     "proposer": "HAROLD",
+     "votes": [
+      "SIM",
+      "ANDREW",
+      "SIMON"
+     ],
+     "team": [
+      "HAROLD",
+      "ARTEMIS",
+      "CLAIRE",
+      "SIMON",
+      "SIM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "SIM",
+     "votes": [
+      "SIM",
+      "HAROLD",
+      "ARTEMIS"
+     ],
+     "team": [
+      "SIM",
+      "BEMMA",
+      "ARTEMIS",
+      "CLAIRE",
+      "HAROLD"
+     ]
+    },
+    {
+     "votes": [
+      "ANDREW",
+      "LAURA",
+      "CLAIRE",
+      "SIMON"
+     ],
+     "proposer": "CLAIRE",
+     "state": "REJECTED",
+     "team": [
+      "CLAIRE",
+      "HAROLD",
+      "LAURA",
+      "ARTEMIS",
+      "SIM"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "ANDREW",
+     "votes": [
+      "SIMON",
+      "LAURA",
+      "ANDREW",
+      "BEMMA",
+      "HAROLD",
+      "ARTEMIS",
+      "CLAIRE",
+      "SIM"
+     ],
+     "team": [
+      "CLAIRE",
+      "ANDREW",
+      "ARTEMIS",
+      "BEMMA",
+      "HAROLD"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CLAIRE",
+    "ANDREW",
+    "ARTEMIS",
+    "BEMMA",
+    "HAROLD"
+   ],
+   "teamSize": 5,
+   "numFails": 1
+  }
+ ]
+}

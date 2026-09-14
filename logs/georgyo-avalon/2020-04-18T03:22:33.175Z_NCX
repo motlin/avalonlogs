@@ -1,0 +1,310 @@
+{
+ "timeFinished": {
+  "_seconds": 1587181555,
+  "_nanoseconds": 587000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "KINGDING"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "DEREK",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JASON"
+   },
+   {
+    "assassin": false,
+    "name": "YAMIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "BLAKE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "LUCAS",
+    "assassin": false
+   },
+   {
+    "name": "DANIEL",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "KINGDING": true,
+    "DANIEL": true
+   },
+   {
+    "JASON": false,
+    "KINGDING": false,
+    "DANIEL": true
+   },
+   {
+    "YAMIN": true,
+    "BLAKE": true,
+    "DEREK": true
+   },
+   {
+    "YAMIN": true,
+    "LUCAS": true,
+    "BLAKE": true,
+    "DEREK": true
+   }
+  ],
+  "assassinated": "BLAKE",
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1587180153,
+  "_nanoseconds": 175000000
+ },
+ "players": [
+  {
+   "uid": "ZfYkRxOjOueo9q2aiXdkO1Z47QI2",
+   "name": "YAMIN"
+  },
+  {
+   "name": "DANIEL",
+   "uid": "A5AVlRg8GESIMZ9Y3Zpwqw0hCPT2"
+  },
+  {
+   "uid": "n7LNyyPmWSc788kh58uhmvhPlX33",
+   "name": "KINGDING"
+  },
+  {
+   "name": "LUCAS",
+   "uid": "DAFFA27l52RNY3pnYCeHqx2Dnv33"
+  },
+  {
+   "uid": "GGDUXKz8G5aRQbedwCH3K1p9uK62",
+   "name": "BLAKE"
+  },
+  {
+   "name": "DEREK",
+   "uid": "REDuVDyv45hr9vOQnW8Q30k0nad2"
+  },
+  {
+   "name": "JASON",
+   "uid": "09K2LIvte2XgTKxJWP9wUUCA8Pf1"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "KINGDING",
+      "DEREK",
+      "JASON"
+     ],
+     "team": [
+      "JASON",
+      "DEREK"
+     ],
+     "state": "REJECTED",
+     "proposer": "JASON"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "YAMIN",
+     "votes": [
+      "KINGDING",
+      "YAMIN",
+      "DANIEL"
+     ],
+     "team": [
+      "KINGDING",
+      "DANIEL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "DANIEL",
+     "team": [
+      "DANIEL",
+      "KINGDING"
+     ],
+     "votes": [
+      "KINGDING",
+      "JASON",
+      "YAMIN",
+      "DANIEL"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "DANIEL",
+    "KINGDING"
+   ]
+  },
+  {
+   "team": [
+    "JASON",
+    "DANIEL",
+    "KINGDING"
+   ],
+   "proposals": [
+    {
+     "proposer": "KINGDING",
+     "votes": [
+      "JASON",
+      "DANIEL",
+      "KINGDING"
+     ],
+     "team": [
+      "DANIEL",
+      "KINGDING",
+      "JASON"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "LUCAS"
+     ],
+     "team": [
+      "LUCAS",
+      "DANIEL",
+      "KINGDING"
+     ],
+     "state": "REJECTED",
+     "proposer": "LUCAS"
+    },
+    {
+     "proposer": "BLAKE",
+     "votes": [
+      "DEREK"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BLAKE",
+      "DEREK",
+      "JASON"
+     ]
+    },
+    {
+     "votes": [
+      "DEREK"
+     ],
+     "team": [
+      "DEREK",
+      "KINGDING",
+      "DANIEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "DEREK"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JASON",
+     "votes": [
+      "JASON",
+      "YAMIN",
+      "BLAKE",
+      "LUCAS",
+      "DANIEL",
+      "KINGDING",
+      "DEREK"
+     ],
+     "team": [
+      "JASON",
+      "DANIEL",
+      "KINGDING"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 2
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "KINGDING",
+      "DEREK",
+      "JASON",
+      "YAMIN",
+      "BLAKE",
+      "DANIEL"
+     ],
+     "state": "APPROVED",
+     "proposer": "YAMIN",
+     "team": [
+      "DEREK",
+      "BLAKE",
+      "YAMIN"
+     ]
+    }
+   ],
+   "team": [
+    "DEREK",
+    "BLAKE",
+    "YAMIN"
+   ]
+  },
+  {
+   "team": [
+    "YAMIN",
+    "LUCAS",
+    "BLAKE",
+    "DEREK"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DEREK",
+      "YAMIN",
+      "BLAKE",
+      "LUCAS",
+      "DANIEL"
+     ],
+     "team": [
+      "YAMIN",
+      "LUCAS",
+      "BLAKE",
+      "DEREK"
+     ],
+     "proposer": "DANIEL"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

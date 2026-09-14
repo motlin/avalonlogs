@@ -1,0 +1,293 @@
+{
+ "players": [
+  {
+   "uid": "KI3PiEivMyaNimyKHXISGlV99yc2",
+   "name": "DK"
+  },
+  {
+   "uid": "pIjSItKivKMn77h7ZckVCClmZIx2",
+   "name": "JAY"
+  },
+  {
+   "name": "SKRUBFLOOR",
+   "uid": "c2G7YSolhJZSvjhu4L2kkGYFMGT2"
+  },
+  {
+   "name": "BOBA",
+   "uid": "9na0lw5AyTbGCQiKhm2SkaXgENz1"
+  },
+  {
+   "uid": "NXi2HRKn4eMBFW1xEXyPZqfidZy2",
+   "name": "CUMBERBAE"
+  },
+  {
+   "uid": "470PvtMDpMew2YFyAYVRWmoRznv2",
+   "name": "JMH"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "DK",
+    "JAY"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "DK",
+      "JAY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DK",
+      "JMH",
+      "SKRUBFLOOR",
+      "CUMBERBAE",
+      "JAY"
+     ],
+     "proposer": "DK"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "team": [
+    "DK",
+    "JAY",
+    "SKRUBFLOOR"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CUMBERBAE",
+      "DK",
+      "JMH",
+      "BOBA",
+      "JAY"
+     ],
+     "team": [
+      "DK",
+      "JAY",
+      "SKRUBFLOOR"
+     ],
+     "proposer": "JAY",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "SKRUBFLOOR",
+    "JAY",
+    "DK",
+    "BOBA"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "SKRUBFLOOR",
+      "BOBA",
+      "JAY",
+      "DK"
+     ],
+     "proposer": "SKRUBFLOOR",
+     "state": "APPROVED",
+     "team": [
+      "SKRUBFLOOR",
+      "JAY",
+      "DK",
+      "BOBA"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "JAY",
+      "BOBA"
+     ],
+     "proposer": "BOBA",
+     "team": [
+      "JAY",
+      "DK",
+      "BOBA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "DK",
+      "CUMBERBAE",
+      "JAY"
+     ],
+     "proposer": "CUMBERBAE",
+     "team": [
+      "DK",
+      "JAY",
+      "SKRUBFLOOR"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JMH",
+     "team": [
+      "JMH",
+      "JAY",
+      "DK"
+     ],
+     "votes": [
+      "JMH",
+      "SKRUBFLOOR",
+      "DK"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "DK",
+      "JAY",
+      "SKRUBFLOOR"
+     ],
+     "votes": [
+      "JAY",
+      "DK",
+      "SKRUBFLOOR",
+      "JMH",
+      "CUMBERBAE"
+     ],
+     "proposer": "DK"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "DK",
+    "JAY",
+    "SKRUBFLOOR"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "SKRUBFLOOR",
+    "DK",
+    "BOBA",
+    "JMH"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BOBA",
+      "DK",
+      "JMH",
+      "SKRUBFLOOR",
+      "JAY"
+     ],
+     "proposer": "JAY",
+     "team": [
+      "SKRUBFLOOR",
+      "DK",
+      "BOBA",
+      "JMH"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1612502761,
+  "_nanoseconds": 849000000
+ },
+ "timeCreated": {
+  "_seconds": 1612500760,
+  "_nanoseconds": 955000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "DK": true,
+    "JAY": true
+   },
+   {
+    "DK": true,
+    "SKRUBFLOOR": true,
+    "JAY": true
+   },
+   {
+    "JAY": false,
+    "DK": true,
+    "SKRUBFLOOR": true,
+    "BOBA": true
+   },
+   {
+    "JAY": false,
+    "SKRUBFLOOR": true,
+    "DK": true
+   },
+   {
+    "DK": true,
+    "JMH": true,
+    "SKRUBFLOOR": true,
+    "BOBA": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JMH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "SKRUBFLOOR"
+   },
+   {
+    "name": "DK",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BOBA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JAY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MORGANA",
+    "name": "CUMBERBAE",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "DK"
+ }
+}

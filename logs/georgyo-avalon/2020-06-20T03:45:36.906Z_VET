@@ -1,0 +1,250 @@
+{
+ "players": [
+  {
+   "uid": "xPWNyctN3oOkA0zpyURlSypFPa13",
+   "name": "KATHY"
+  },
+  {
+   "uid": "b25DmqfXhjUeasw8uNY0kb8MXUq2",
+   "name": "MAR"
+  },
+  {
+   "uid": "xn5BwNPMDtOVN71osUtLfi2pagL2",
+   "name": "BEANS"
+  },
+  {
+   "name": "SABRINA",
+   "uid": "sB4YRTlcULboxjVaJ7WQPScHT3M2"
+  },
+  {
+   "name": "ANIKA",
+   "uid": "vE58UioEIuOEdbQQoxlAKqZvSd23"
+  },
+  {
+   "uid": "nqkBz3I9rVVlgQJ18D4le8WinPL2",
+   "name": "OREOLUWA"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "MAR",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "BEANS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "KATHY",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "SABRINA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ANIKA"
+   },
+   {
+    "name": "OREOLUWA",
+    "role": "MORDRED",
+    "assassin": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "BEANS": true,
+    "MAR": true
+   },
+   {
+    "MAR": true,
+    "KATHY": true,
+    "BEANS": true
+   },
+   {
+    "ANIKA": true,
+    "OREOLUWA": false,
+    "BEANS": true,
+    "KATHY": true
+   },
+   {
+    "KATHY": true,
+    "BEANS": true,
+    "MAR": true
+   }
+  ],
+  "assassinated": "KATHY",
+  "message": "Merlin assassinated"
+ },
+ "timeFinished": {
+  "_seconds": 1592625327,
+  "_nanoseconds": 830000000
+ },
+ "timeCreated": {
+  "_seconds": 1592624736,
+  "_nanoseconds": 906000000
+ },
+ "missions": [
+  {
+   "team": [
+    "MAR",
+    "BEANS"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BEANS",
+      "KATHY",
+      "SABRINA",
+      "ANIKA",
+      "OREOLUWA",
+      "MAR"
+     ],
+     "proposer": "MAR",
+     "team": [
+      "MAR",
+      "BEANS"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BEANS",
+     "votes": [
+      "OREOLUWA",
+      "MAR",
+      "BEANS",
+      "KATHY",
+      "SABRINA"
+     ],
+     "team": [
+      "BEANS",
+      "MAR",
+      "KATHY"
+     ]
+    }
+   ],
+   "team": [
+    "BEANS",
+    "MAR",
+    "KATHY"
+   ],
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "KATHY",
+    "OREOLUWA",
+    "BEANS",
+    "ANIKA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KATHY",
+      "OREOLUWA",
+      "BEANS",
+      "ANIKA"
+     ],
+     "votes": [
+      "OREOLUWA",
+      "BEANS",
+      "KATHY",
+      "SABRINA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SABRINA"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "OREOLUWA",
+      "MAR",
+      "ANIKA"
+     ],
+     "team": [
+      "ANIKA",
+      "MAR",
+      "BEANS"
+     ],
+     "proposer": "ANIKA"
+    },
+    {
+     "votes": [
+      "BEANS",
+      "SABRINA",
+      "OREOLUWA"
+     ],
+     "team": [
+      "KATHY",
+      "SABRINA",
+      "BEANS"
+     ],
+     "state": "REJECTED",
+     "proposer": "OREOLUWA"
+    },
+    {
+     "votes": [
+      "MAR",
+      "BEANS",
+      "KATHY",
+      "ANIKA"
+     ],
+     "state": "APPROVED",
+     "proposer": "KATHY",
+     "team": [
+      "KATHY",
+      "BEANS",
+      "MAR"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "KATHY",
+    "BEANS",
+    "MAR"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

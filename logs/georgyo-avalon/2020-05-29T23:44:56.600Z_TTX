@@ -1,0 +1,295 @@
+{
+ "timeFinished": {
+  "_seconds": 1590799196,
+  "_nanoseconds": 848000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590795896,
+  "_nanoseconds": 600000000
+ },
+ "players": [
+  {
+   "name": "ZACH",
+   "uid": "bdkFhJxxnybw2WeSKWdOCTPs4Wn1"
+  },
+  {
+   "name": "DAVE",
+   "uid": "ZuSenJwfieO8QgHvb6gkYrMLC2q1"
+  },
+  {
+   "uid": "4Wua0HqqjfT7GE8UZqMqT3fNJdJ2",
+   "name": "BRIDGET"
+  },
+  {
+   "uid": "himjISTnitMlr0nzAD5L2kYxRS02",
+   "name": "STACEY"
+  },
+  {
+   "uid": "Qvwg2cfoR8gjWMQZZ6j40qLSm4B2",
+   "name": "JESS"
+  },
+  {
+   "uid": "pMRkIjejxmcNQg3z300ii46iAnO2",
+   "name": "MARK"
+  },
+  {
+   "name": "NEEPA",
+   "uid": "9UwdrvGHKSa5CCjSSU6OonODapD3"
+  },
+  {
+   "uid": "hs9FXJR57fOKyAAtlEVKnNtMmHv1",
+   "name": "NANCY"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "MARK",
+  "votes": [
+   {
+    "MARK": true,
+    "NANCY": true,
+    "BRIDGET": true
+   },
+   {
+    "NANCY": true,
+    "MARK": true,
+    "BRIDGET": true,
+    "ZACH": false
+   },
+   {
+    "BRIDGET": true,
+    "STACEY": true,
+    "MARK": true,
+    "DAVE": true
+   },
+   {
+    "STACEY": true,
+    "JESS": false,
+    "DAVE": true,
+    "MARK": true,
+    "BRIDGET": false
+   },
+   {
+    "NANCY": true,
+    "NEEPA": true,
+    "MARK": true,
+    "STACEY": true,
+    "DAVE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "MARK",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "DAVE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRIDGET",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "STACEY",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "NANCY"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ZACH"
+   },
+   {
+    "assassin": true,
+    "name": "JESS",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "NEEPA"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "NANCY",
+      "ZACH",
+      "JESS",
+      "NEEPA",
+      "MARK",
+      "DAVE",
+      "BRIDGET",
+      "STACEY"
+     ],
+     "proposer": "NANCY",
+     "state": "APPROVED",
+     "team": [
+      "NANCY",
+      "MARK",
+      "BRIDGET"
+     ]
+    }
+   ],
+   "team": [
+    "NANCY",
+    "MARK",
+    "BRIDGET"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ZACH",
+      "BRIDGET",
+      "NANCY",
+      "MARK"
+     ],
+     "proposer": "ZACH",
+     "votes": [
+      "JESS",
+      "NEEPA",
+      "MARK",
+      "DAVE",
+      "BRIDGET",
+      "NANCY",
+      "ZACH"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "ZACH",
+    "BRIDGET",
+    "NANCY",
+    "MARK"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "DAVE",
+    "MARK",
+    "BRIDGET",
+    "STACEY"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "DAVE",
+     "team": [
+      "DAVE",
+      "MARK",
+      "BRIDGET",
+      "STACEY"
+     ],
+     "votes": [
+      "STACEY",
+      "NANCY",
+      "ZACH",
+      "JESS",
+      "NEEPA",
+      "MARK",
+      "DAVE",
+      "BRIDGET"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "team": [
+    "DAVE",
+    "BRIDGET",
+    "STACEY",
+    "MARK",
+    "JESS"
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "BRIDGET",
+     "state": "APPROVED",
+     "team": [
+      "DAVE",
+      "BRIDGET",
+      "STACEY",
+      "MARK",
+      "JESS"
+     ],
+     "votes": [
+      "JESS",
+      "NEEPA",
+      "DAVE",
+      "BRIDGET",
+      "NANCY",
+      "ZACH"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "STACEY",
+    "MARK",
+    "NANCY",
+    "DAVE",
+    "NEEPA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "STACEY",
+      "MARK",
+      "NANCY",
+      "DAVE",
+      "NEEPA"
+     ],
+     "proposer": "STACEY",
+     "state": "APPROVED",
+     "votes": [
+      "NEEPA",
+      "MARK",
+      "DAVE",
+      "STACEY",
+      "NANCY"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ]
+}

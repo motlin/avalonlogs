@@ -1,0 +1,289 @@
+{
+ "timeFinished": {
+  "_seconds": 1586618413,
+  "_nanoseconds": 133903000
+ },
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "BRAZZZ": true,
+    "STEF": true
+   },
+   {
+    "CL": false,
+    "BRAZZZ": true,
+    "STEF": true
+   },
+   {
+    "STEF": true,
+    "CL": false,
+    "ADDIE": true,
+    "LEO": true
+   },
+   {
+    "CL": false,
+    "WC": false,
+    "STEF": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "WC",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ADDIE"
+   },
+   {
+    "name": "BRAZZZ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "STEF",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LEO",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CL",
+    "role": "MORDRED",
+    "assassin": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "STEF",
+    "BRAZZZ"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "STEF",
+      "BRAZZZ"
+     ],
+     "proposer": "BRAZZZ",
+     "votes": [
+      "ADDIE",
+      "BRAZZZ",
+      "STEF",
+      "LEO",
+      "CL"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "CL",
+     "team": [
+      "BRAZZZ",
+      "CL",
+      "STEF"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADDIE",
+      "BRAZZZ",
+      "STEF",
+      "CL"
+     ]
+    }
+   ],
+   "team": [
+    "BRAZZZ",
+    "CL",
+    "STEF"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ADDIE",
+      "LEO",
+      "CL"
+     ],
+     "state": "REJECTED",
+     "proposer": "LEO",
+     "team": [
+      "LEO",
+      "CL",
+      "ADDIE",
+      "STEF"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "STEF",
+      "LEO",
+      "ADDIE",
+      "CL"
+     ],
+     "proposer": "STEF",
+     "votes": [
+      "STEF",
+      "LEO",
+      "CL"
+     ]
+    },
+    {
+     "team": [
+      "STEF",
+      "ADDIE",
+      "LEO",
+      "CL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADDIE",
+      "STEF",
+      "LEO",
+      "CL"
+     ],
+     "proposer": "ADDIE"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "STEF",
+    "ADDIE",
+    "LEO",
+    "CL"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "LEO",
+      "CL",
+      "WC"
+     ],
+     "team": [
+      "LEO",
+      "CL",
+      "WC"
+     ],
+     "proposer": "WC"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ADDIE",
+      "BRAZZZ",
+      "STEF"
+     ],
+     "proposer": "BRAZZZ",
+     "team": [
+      "BRAZZZ",
+      "ADDIE",
+      "STEF"
+     ]
+    },
+    {
+     "votes": [
+      "LEO",
+      "CL",
+      "WC"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CL",
+      "WC",
+      "LEO"
+     ],
+     "proposer": "CL"
+    },
+    {
+     "votes": [
+      "WC",
+      "STEF",
+      "LEO",
+      "CL"
+     ],
+     "proposer": "LEO",
+     "state": "APPROVED",
+     "team": [
+      "STEF",
+      "CL",
+      "WC"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "STEF",
+    "CL",
+    "WC"
+   ],
+   "numFails": 2
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586617576,
+  "_nanoseconds": 434000000
+ },
+ "players": [
+  {
+   "uid": "SeupGISRjoSmUxPiGeO69mT6jQo1",
+   "name": "LEO"
+  },
+  {
+   "uid": "FbMLPUyhi6eCm1JjslPkxNRMiII3",
+   "name": "STEF"
+  },
+  {
+   "name": "ADDIE",
+   "uid": "I5FAzuqhD1WR6s6lObf29hvzknC3"
+  },
+  {
+   "name": "WC",
+   "uid": "yV2L32NdWZS86KcOhQIZO519Gjv2"
+  },
+  {
+   "name": "BRAZZZ",
+   "uid": "BvYA3AbTrseAN1gmCK6SBfi01J33"
+  },
+  {
+   "name": "CL",
+   "uid": "0ZtKEXpheKd695cbzeI8uCnjBm23"
+  }
+ ]
+}

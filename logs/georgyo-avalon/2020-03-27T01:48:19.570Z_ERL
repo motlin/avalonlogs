@@ -1,0 +1,317 @@
+{
+ "timeCreated": {
+  "_seconds": 1585273699,
+  "_nanoseconds": 570000000
+ },
+ "players": [
+  {
+   "name": "ADEL",
+   "uid": "zqkUYXzpfxZw8c7QsylRfe0ScR53"
+  },
+  {
+   "uid": "kY8pS2l7XzPOq8Vc6FOylG8LWFp1",
+   "name": "ALAYNA"
+  },
+  {
+   "uid": "wj73uoQNYRd8KIorUxUBR9EuxCh2",
+   "name": "SEBI"
+  },
+  {
+   "uid": "PnvRjlkwlsfRbcHvSE7VLBEcRjp1",
+   "name": "SUSH"
+  },
+  {
+   "name": "TIBBY",
+   "uid": "o3FIgUGYiiZbF3RFnbO8iAKvTmB2"
+  },
+  {
+   "uid": "TnjRK5CSbUZFJThaQN2CZtwk9HL2",
+   "name": "CONNOR"
+  },
+  {
+   "name": "HANNAH",
+   "uid": "ldJwDPdPWoWv8H6qwz1FUxOj4go1"
+  },
+  {
+   "name": "ENRIQUE",
+   "uid": "LMwjMBs7VxXLw8yoM8YMBwBSykl2"
+  },
+  {
+   "name": "GREG",
+   "uid": "09qdX1wF7gR9Dc8Dt6rmageI8mK2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585275170,
+  "_nanoseconds": 434392000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ALAYNA": true,
+    "HANNAH": true,
+    "ENRIQUE": true
+   },
+   {
+    "SUSH": true,
+    "CONNOR": false,
+    "ENRIQUE": true,
+    "TIBBY": true
+   },
+   {
+    "GREG": true,
+    "ALAYNA": true,
+    "SEBI": true,
+    "SUSH": true
+   },
+   {
+    "ALAYNA": true,
+    "ENRIQUE": true,
+    "GREG": false,
+    "ADEL": false,
+    "SUSH": true
+   },
+   {
+    "TIBBY": true,
+    "GREG": false,
+    "SEBI": true,
+    "ENRIQUE": true,
+    "SUSH": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "TIBBY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "SEBI"
+   },
+   {
+    "name": "SUSH",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "HANNAH"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ENRIQUE"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "CONNOR"
+   },
+   {
+    "name": "ALAYNA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "ADEL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "GREG",
+    "role": "MORDRED"
+   }
+  ],
+  "message": "Three failed missions",
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "ALAYNA",
+    "HANNAH",
+    "ENRIQUE"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "SEBI",
+      "SUSH",
+      "HANNAH",
+      "ENRIQUE",
+      "CONNOR",
+      "ALAYNA",
+      "ADEL",
+      "GREG",
+      "TIBBY"
+     ],
+     "state": "APPROVED",
+     "proposer": "HANNAH",
+     "team": [
+      "ALAYNA",
+      "HANNAH",
+      "ENRIQUE"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ENRIQUE",
+      "SUSH",
+      "TIBBY",
+      "CONNOR"
+     ],
+     "proposer": "ENRIQUE",
+     "votes": [
+      "SUSH",
+      "ENRIQUE",
+      "CONNOR",
+      "ADEL",
+      "GREG"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "ENRIQUE",
+    "SUSH",
+    "TIBBY",
+    "CONNOR"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "HANNAH",
+      "ENRIQUE",
+      "CONNOR",
+      "ALAYNA",
+      "ADEL",
+      "TIBBY",
+      "SEBI"
+     ],
+     "proposer": "GREG",
+     "team": [
+      "SEBI",
+      "SUSH",
+      "ALAYNA",
+      "GREG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SEBI",
+    "SUSH",
+    "ALAYNA",
+    "GREG"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "ADEL",
+    "ALAYNA",
+    "ENRIQUE",
+    "GREG",
+    "SUSH"
+   ],
+   "teamSize": 5,
+   "state": "FAIL",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "ADEL",
+     "state": "APPROVED",
+     "votes": [
+      "SUSH",
+      "HANNAH",
+      "CONNOR",
+      "ADEL",
+      "GREG"
+     ],
+     "team": [
+      "ADEL",
+      "ALAYNA",
+      "ENRIQUE",
+      "GREG",
+      "SUSH"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CONNOR",
+      "ALAYNA",
+      "ADEL",
+      "GREG"
+     ],
+     "team": [
+      "ALAYNA",
+      "HANNAH",
+      "CONNOR",
+      "GREG",
+      "ADEL"
+     ],
+     "proposer": "ALAYNA"
+    },
+    {
+     "votes": [
+      "CONNOR",
+      "ADEL",
+      "TIBBY",
+      "SEBI",
+      "SUSH",
+      "HANNAH",
+      "ENRIQUE"
+     ],
+     "team": [
+      "ENRIQUE",
+      "SEBI",
+      "SUSH",
+      "TIBBY",
+      "GREG"
+     ],
+     "proposer": "SEBI",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "ENRIQUE",
+    "SEBI",
+    "SUSH",
+    "TIBBY",
+    "GREG"
+   ],
+   "state": "FAIL",
+   "teamSize": 5
+  }
+ ]
+}

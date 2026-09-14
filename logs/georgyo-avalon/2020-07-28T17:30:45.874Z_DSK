@@ -1,0 +1,266 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "PIYA": true,
+    "HELLRAISER": true
+   },
+   {
+    "PIYA": true,
+    "AMRO": false,
+    "HELLRAISER": true
+   },
+   {
+    "MADDY": true,
+    "AMRO": true,
+    "POOJA": true,
+    "PRATARDAN": true
+   },
+   {
+    "PIYA": true,
+    "POOJA": true,
+    "PRATARDAN": false
+   },
+   {
+    "AMRO": false,
+    "MADDY": true,
+    "POOJA": true,
+    "PRATARDAN": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "POOJA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MADDY",
+    "assassin": false
+   },
+   {
+    "name": "AMRO",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "PRATARDAN"
+   },
+   {
+    "name": "HELLRAISER",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "PIYA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1595957900,
+  "_nanoseconds": 995000000
+ },
+ "players": [
+  {
+   "uid": "5CTLuPHkikd4lp7NAx0MVSTQWjl1",
+   "name": "AMRO"
+  },
+  {
+   "name": "MADDY",
+   "uid": "uhyBfm4pKecJkuLzFIGda77f4qS2"
+  },
+  {
+   "name": "HELLRAISER",
+   "uid": "fvqBWEZQJnhfV6ZFUqe7Zt893We2"
+  },
+  {
+   "uid": "JvA8dIRGNIQmCc7LGPyGW3x4ir52",
+   "name": "PIYA"
+  },
+  {
+   "uid": "5P3GqqkcSSgAjnfkDbVF5XroTn52",
+   "name": "POOJA"
+  },
+  {
+   "uid": "b7xV4fuGUJg3ccabKmVByDvBFEq1",
+   "name": "PRATARDAN"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "HELLRAISER",
+      "PIYA"
+     ],
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "HELLRAISER",
+      "PIYA"
+     ],
+     "state": "APPROVED",
+     "proposer": "HELLRAISER"
+    }
+   ],
+   "team": [
+    "HELLRAISER",
+    "PIYA"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "team": [
+    "PIYA",
+    "HELLRAISER",
+    "AMRO"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "PIYA",
+     "team": [
+      "PIYA",
+      "HELLRAISER",
+      "AMRO"
+     ],
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "PRATARDAN",
+      "HELLRAISER",
+      "PIYA"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "POOJA",
+      "AMRO",
+      "PIYA",
+      "MADDY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "POOJA",
+      "PRATARDAN"
+     ],
+     "proposer": "POOJA"
+    },
+    {
+     "team": [
+      "PRATARDAN",
+      "AMRO",
+      "POOJA",
+      "MADDY"
+     ],
+     "state": "APPROVED",
+     "proposer": "PRATARDAN",
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "PRATARDAN"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "PRATARDAN",
+    "AMRO",
+    "POOJA",
+    "MADDY"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "POOJA",
+    "PIYA",
+    "PRATARDAN"
+   ],
+   "proposals": [
+    {
+     "proposer": "AMRO",
+     "state": "APPROVED",
+     "votes": [
+      "MADDY",
+      "AMRO",
+      "PRATARDAN",
+      "HELLRAISER",
+      "PIYA"
+     ],
+     "team": [
+      "POOJA",
+      "PIYA",
+      "PRATARDAN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "MADDY",
+    "AMRO",
+    "POOJA",
+    "PRATARDAN"
+   ],
+   "proposals": [
+    {
+     "proposer": "MADDY",
+     "state": "APPROVED",
+     "votes": [
+      "POOJA",
+      "MADDY",
+      "AMRO",
+      "PRATARDAN"
+     ],
+     "team": [
+      "MADDY",
+      "AMRO",
+      "POOJA",
+      "PRATARDAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 2
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1595957445,
+  "_nanoseconds": 874000000
+ }
+}

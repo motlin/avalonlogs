@@ -1,0 +1,201 @@
+{
+ "timeCreated": {
+  "_seconds": 1597270538,
+  "_nanoseconds": 417000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1597270928,
+  "_nanoseconds": 699000000
+ },
+ "players": [
+  {
+   "uid": "Ss0aKXARBRaavVg8E742vwdMJdA2",
+   "name": "SUFY"
+  },
+  {
+   "name": "KATTU",
+   "uid": "ubaQEGTO3eUWoQbX8wpjeFUTxIU2"
+  },
+  {
+   "name": "JD",
+   "uid": "NhIbflgddyXgORQzt8Q0Lc0XpyV2"
+  },
+  {
+   "uid": "WkOfXdrT8hOxx0q9DLMcDtNJLoB3",
+   "name": "BOB"
+  },
+  {
+   "name": "KUSHAL",
+   "uid": "E2T348gVmcZEId6ENFaNyV69sGm1"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "BOB",
+    "KUSHAL"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "BOB",
+      "KUSHAL"
+     ],
+     "state": "APPROVED",
+     "proposer": "KATTU",
+     "votes": [
+      "KUSHAL",
+      "BOB",
+      "KATTU",
+      "SUFY"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "SUFY",
+    "JD",
+    "BOB"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KUSHAL",
+      "JD",
+      "SUFY"
+     ],
+     "team": [
+      "SUFY",
+      "JD",
+      "BOB"
+     ],
+     "state": "APPROVED",
+     "proposer": "JD"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "SUFY",
+    "KUSHAL"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BOB",
+     "votes": [
+      "SUFY",
+      "KUSHAL",
+      "BOB"
+     ],
+     "team": [
+      "SUFY",
+      "KUSHAL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "KATTU",
+    "BOB",
+    "KUSHAL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "KATTU",
+      "BOB",
+      "KUSHAL"
+     ],
+     "team": [
+      "KATTU",
+      "BOB",
+      "KUSHAL"
+     ],
+     "proposer": "KUSHAL",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "KUSHAL": true,
+    "BOB": true
+   },
+   {
+    "SUFY": true,
+    "JD": true,
+    "BOB": true
+   },
+   {
+    "KUSHAL": true,
+    "SUFY": false
+   },
+   {
+    "KUSHAL": true,
+    "BOB": true,
+    "KATTU": true
+   }
+  ],
+  "message": "Three missions succeeded",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "name": "KATTU",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JD",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "KUSHAL"
+   },
+   {
+    "name": "BOB",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "SUFY",
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "GOOD_WIN"
+ }
+}

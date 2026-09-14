@@ -1,0 +1,314 @@
+{
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "KABS",
+    "RONJ",
+    "KUSH"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "KABS",
+      "RONJ",
+      "KUSH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ADEL",
+      "KUSH",
+      "RONJ",
+      "OFER",
+      "DAVE",
+      "KABS",
+      "ARON",
+      "CARN"
+     ],
+     "proposer": "KABS"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "OFER",
+      "ADEL",
+      "ARON",
+      "CARN"
+     ],
+     "votes": [
+      "OFER",
+      "DAVE",
+      "KABS",
+      "ARON",
+      "CARN",
+      "ADEL",
+      "KUSH",
+      "RONJ"
+     ],
+     "proposer": "ADEL",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "OFER",
+    "ADEL",
+    "ARON",
+    "CARN"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "team": [
+    "ARON",
+    "ADEL",
+    "OFER",
+    "CARN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ADEL",
+      "KUSH",
+      "RONJ",
+      "OFER",
+      "DAVE",
+      "KABS",
+      "ARON",
+      "CARN"
+     ],
+     "proposer": "ARON",
+     "state": "APPROVED",
+     "team": [
+      "ARON",
+      "ADEL",
+      "OFER",
+      "CARN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DAVE",
+     "team": [
+      "DAVE",
+      "ARON",
+      "CARN",
+      "RONJ",
+      "KUSH"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "DAVE",
+      "KABS",
+      "KUSH"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "KABS",
+      "ARON",
+      "CARN",
+      "ADEL",
+      "RONJ",
+      "OFER",
+      "DAVE"
+     ],
+     "team": [
+      "CARN",
+      "OFER",
+      "RONJ",
+      "KABS",
+      "ARON"
+     ],
+     "proposer": "CARN"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "team": [
+    "CARN",
+    "OFER",
+    "RONJ",
+    "KABS",
+    "ARON"
+   ],
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "OFER",
+     "state": "APPROVED",
+     "team": [
+      "OFER",
+      "KUSH",
+      "DAVE",
+      "ARON",
+      "RONJ"
+     ],
+     "votes": [
+      "OFER",
+      "DAVE",
+      "ARON",
+      "ADEL",
+      "KUSH",
+      "RONJ"
+     ]
+    }
+   ],
+   "team": [
+    "OFER",
+    "KUSH",
+    "DAVE",
+    "ARON",
+    "RONJ"
+   ],
+   "failsRequired": 1,
+   "teamSize": 5,
+   "numFails": 2,
+   "state": "FAIL"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "KABS": true,
+    "KUSH": true,
+    "RONJ": true
+   },
+   {
+    "CARN": true,
+    "OFER": true,
+    "ADEL": true,
+    "ARON": true
+   },
+   {
+    "ARON": true,
+    "ADEL": true,
+    "CARN": true,
+    "OFER": false
+   },
+   {
+    "OFER": false,
+    "RONJ": false,
+    "ARON": true,
+    "KABS": true,
+    "CARN": true
+   },
+   {
+    "RONJ": false,
+    "ARON": true,
+    "DAVE": true,
+    "KUSH": true,
+    "OFER": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "RONJ"
+   },
+   {
+    "name": "OFER",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "DAVE",
+    "assassin": false
+   },
+   {
+    "name": "KABS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ARON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "CARN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ADEL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "KUSH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593500655,
+  "_nanoseconds": 558000000
+ },
+ "players": [
+  {
+   "name": "KUSH",
+   "uid": "W7UBy0qrBQeAm5oMYOLfdk6aKwO2"
+  },
+  {
+   "name": "RONJ",
+   "uid": "x5hjRcSqbjTGm9T9xbVTwKtJhxB3"
+  },
+  {
+   "uid": "YuANxnqvkthmvODh5fMC7XOJZ0w1",
+   "name": "KABS"
+  },
+  {
+   "name": "ADEL",
+   "uid": "C3dzysFpzqS9IqLXpM7VbsXco9B3"
+  },
+  {
+   "name": "ARON",
+   "uid": "W66mIQaktqZPGSRmcFcMTYcOg7N2"
+  },
+  {
+   "name": "DAVE",
+   "uid": "72QnLwmIQXRtPpYnv6IreSmP9RI2"
+  },
+  {
+   "name": "CARN",
+   "uid": "gKLQFkTLQlhOTXFCs4lWjvTAKIG3"
+  },
+  {
+   "name": "OFER",
+   "uid": "rCZ2dAV1CzVn7ZjL0XZn7TO7u6P2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593502976,
+  "_nanoseconds": 659000000
+ }
+}

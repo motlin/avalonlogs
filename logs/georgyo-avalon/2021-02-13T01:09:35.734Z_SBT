@@ -1,0 +1,336 @@
+{
+ "timeCreated": {
+  "_seconds": 1613178575,
+  "_nanoseconds": 734000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "assassinated": "HUNG",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "VISHAL",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "MICHELLE"
+   },
+   {
+    "assassin": false,
+    "name": "ADITYA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "HUNG",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CHUNNING",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "NAV"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "ADITYA": true,
+    "VISHAL": true
+   },
+   {
+    "VISHAL": true,
+    "NAV": false,
+    "ADITYA": true
+   },
+   {
+    "CHUNNING": true,
+    "NAV": false,
+    "MICHELLE": true,
+    "HUNG": true
+   },
+   {
+    "CHUNNING": true,
+    "ADITYA": true,
+    "HUNG": true
+   },
+   {
+    "CHUNNING": true,
+    "HUNG": true,
+    "VISHAL": true,
+    "ADITYA": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1613180428,
+  "_nanoseconds": 298000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ADITYA",
+    "VISHAL"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ADITYA",
+      "VISHAL"
+     ],
+     "proposer": "ADITYA",
+     "votes": [
+      "CHUNNING",
+      "ADITYA",
+      "NAV",
+      "HUNG",
+      "VISHAL"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "NAV",
+      "ADITYA",
+      "VISHAL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NAV",
+      "ADITYA",
+      "VISHAL",
+      "HUNG",
+      "CHUNNING",
+      "MICHELLE"
+     ],
+     "proposer": "NAV"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "NAV",
+    "ADITYA",
+    "VISHAL"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "HUNG",
+    "NAV",
+    "MICHELLE",
+    "CHUNNING"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MICHELLE",
+      "NAV",
+      "ADITYA",
+      "VISHAL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "VISHAL",
+      "ADITYA"
+     ],
+     "proposer": "MICHELLE"
+    },
+    {
+     "proposer": "CHUNNING",
+     "votes": [
+      "CHUNNING"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NAV",
+      "CHUNNING",
+      "HUNG",
+      "VISHAL"
+     ]
+    },
+    {
+     "proposer": "HUNG",
+     "state": "REJECTED",
+     "team": [
+      "ADITYA",
+      "HUNG",
+      "CHUNNING",
+      "VISHAL"
+     ],
+     "votes": [
+      "VISHAL",
+      "CHUNNING",
+      "HUNG"
+     ]
+    },
+    {
+     "proposer": "VISHAL",
+     "votes": [
+      "HUNG",
+      "ADITYA",
+      "VISHAL",
+      "NAV",
+      "MICHELLE"
+     ],
+     "team": [
+      "HUNG",
+      "NAV",
+      "MICHELLE",
+      "CHUNNING"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "ADITYA",
+    "HUNG",
+    "CHUNNING"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "ADITYA",
+     "state": "APPROVED",
+     "votes": [
+      "MICHELLE",
+      "NAV",
+      "HUNG",
+      "VISHAL",
+      "CHUNNING",
+      "ADITYA"
+     ],
+     "team": [
+      "ADITYA",
+      "HUNG",
+      "CHUNNING"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "VISHAL",
+    "ADITYA",
+    "CHUNNING",
+    "HUNG"
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NAV",
+      "ADITYA"
+     ],
+     "team": [
+      "ADITYA",
+      "CHUNNING",
+      "HUNG",
+      "NAV"
+     ],
+     "proposer": "NAV"
+    },
+    {
+     "team": [
+      "HUNG",
+      "MICHELLE",
+      "VISHAL",
+      "ADITYA"
+     ],
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "MICHELLE"
+    },
+    {
+     "votes": [
+      "VISHAL",
+      "CHUNNING",
+      "HUNG"
+     ],
+     "state": "REJECTED",
+     "proposer": "CHUNNING",
+     "team": [
+      "CHUNNING",
+      "HUNG",
+      "ADITYA",
+      "VISHAL"
+     ]
+    },
+    {
+     "votes": [
+      "VISHAL",
+      "ADITYA",
+      "HUNG",
+      "CHUNNING"
+     ],
+     "team": [
+      "VISHAL",
+      "ADITYA",
+      "CHUNNING",
+      "HUNG"
+     ],
+     "proposer": "HUNG",
+     "state": "APPROVED"
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "VISHAL",
+   "uid": "ZdflgOGzTZevi5Qva6nIjAOXNDp2"
+  },
+  {
+   "name": "ADITYA",
+   "uid": "lHyjSpG6P9YETEnz3d9ue0rUjoM2"
+  },
+  {
+   "name": "NAV",
+   "uid": "s9k4LWq8LBafd430jAbs5wefW1b2"
+  },
+  {
+   "name": "MICHELLE",
+   "uid": "XEQZT3flpXVOlNZg86uWVWv2rQ53"
+  },
+  {
+   "name": "CHUNNING",
+   "uid": "v1iQGrWcuwY9SZ6sy9MGQG9zNk33"
+  },
+  {
+   "name": "HUNG",
+   "uid": "fNnVjJa4Y4fcpdcZQTGRktqO3RD3"
+  }
+ ]
+}

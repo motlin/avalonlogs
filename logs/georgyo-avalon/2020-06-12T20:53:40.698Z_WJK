@@ -1,0 +1,289 @@
+{
+ "players": [
+  {
+   "uid": "BiQVzdqt6lbabbptS4yKyS9VnSI3",
+   "name": "STEVEN"
+  },
+  {
+   "uid": "BaP2oKzuoSTBf7UotDJvpFV8rBu1",
+   "name": "SHUANG"
+  },
+  {
+   "uid": "KSwGDEeTPnPKhWSx6UZM1WdS5Qt1",
+   "name": "MICHAEL"
+  },
+  {
+   "name": "LAVINIA",
+   "uid": "6Q6aPS2IdxUcg9EVr4lpq027YJI3"
+  },
+  {
+   "uid": "Q4aL6wvyFkbxOjG4rQ9MztSqc122",
+   "name": "LAJTHABL"
+  },
+  {
+   "name": "FERENC",
+   "uid": "OVBfmMLDc5YEz1OLs3grch8YUYC3"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1591995220,
+  "_nanoseconds": 698000000
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "MICHAEL"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "LAJTHABL"
+   },
+   {
+    "name": "SHUANG",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "name": "LAVINIA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "FERENC"
+   },
+   {
+    "name": "STEVEN",
+    "role": "MERLIN",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "LAVINIA": true,
+    "LAJTHABL": true
+   },
+   {
+    "LAVINIA": true,
+    "SHUANG": true,
+    "FERENC": true
+   },
+   {
+    "MICHAEL": true,
+    "FERENC": true,
+    "SHUANG": true,
+    "LAVINIA": false
+   },
+   {
+    "LAVINIA": true,
+    "LAJTHABL": true,
+    "SHUANG": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "MICHAEL"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "MICHAEL",
+     "team": [
+      "FERENC",
+      "MICHAEL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "FERENC",
+      "MICHAEL",
+      "LAVINIA"
+     ]
+    },
+    {
+     "team": [
+      "LAVINIA",
+      "LAJTHABL"
+     ],
+     "proposer": "LAVINIA",
+     "state": "APPROVED",
+     "votes": [
+      "LAJTHABL",
+      "LAVINIA",
+      "FERENC",
+      "STEVEN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "LAVINIA",
+    "LAJTHABL"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "LAJTHABL",
+      "SHUANG",
+      "FERENC"
+     ],
+     "team": [
+      "STEVEN",
+      "SHUANG",
+      "MICHAEL"
+     ],
+     "state": "REJECTED",
+     "proposer": "LAJTHABL"
+    },
+    {
+     "votes": [
+      "FERENC",
+      "MICHAEL",
+      "LAJTHABL",
+      "SHUANG",
+      "LAVINIA"
+     ],
+     "proposer": "FERENC",
+     "state": "APPROVED",
+     "team": [
+      "FERENC",
+      "LAVINIA",
+      "SHUANG"
+     ]
+    }
+   ],
+   "team": [
+    "FERENC",
+    "LAVINIA",
+    "SHUANG"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "SHUANG",
+    "LAVINIA",
+    "FERENC",
+    "MICHAEL"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "STEVEN",
+      "LAJTHABL"
+     ],
+     "team": [
+      "LAVINIA",
+      "LAJTHABL",
+      "STEVEN",
+      "FERENC"
+     ],
+     "proposer": "STEVEN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "FERENC",
+      "STEVEN",
+      "MICHAEL",
+      "LAJTHABL",
+      "SHUANG"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHUANG",
+     "team": [
+      "SHUANG",
+      "LAVINIA",
+      "FERENC",
+      "MICHAEL"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LAJTHABL",
+    "LAVINIA",
+    "SHUANG"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "FERENC",
+      "MICHAEL",
+      "LAVINIA"
+     ],
+     "team": [
+      "MICHAEL",
+      "LAJTHABL",
+      "LAVINIA"
+     ],
+     "proposer": "MICHAEL"
+    },
+    {
+     "proposer": "LAVINIA",
+     "votes": [
+      "MICHAEL",
+      "LAVINIA"
+     ],
+     "team": [
+      "LAVINIA",
+      "FERENC",
+      "MICHAEL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "LAJTHABL",
+      "LAVINIA",
+      "SHUANG"
+     ],
+     "proposer": "LAJTHABL",
+     "votes": [
+      "LAJTHABL",
+      "SHUANG",
+      "LAVINIA",
+      "FERENC"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1591996344,
+  "_nanoseconds": 693000000
+ }
+}

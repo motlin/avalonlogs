@@ -1,0 +1,205 @@
+{
+ "players": [
+  {
+   "name": "ALEXIS",
+   "uid": "S56JnMQWPxdeVzmrFAMPMlVXeWx1"
+  },
+  {
+   "uid": "rRyd5vEaHvVJLuiHMu66FPIDruG3",
+   "name": "MARYLOVE"
+  },
+  {
+   "name": "EZRA",
+   "uid": "Uns8jizFJ3U0iQSzyz3MosQUjev1"
+  },
+  {
+   "uid": "OiP8IVAVJrbQbVXaQ5wjZAYEKC42",
+   "name": "LOWKEY"
+  },
+  {
+   "name": "SAM",
+   "uid": "GtyBet2MaATTBeDpYJqmKQKHl712"
+  }
+ ],
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "LOWKEY": true,
+    "MARYLOVE": true
+   },
+   {
+    "MARYLOVE": true,
+    "EZRA": false,
+    "ALEXIS": true
+   },
+   {
+    "MARYLOVE": true,
+    "LOWKEY": true
+   },
+   {
+    "MARYLOVE": true,
+    "ALEXIS": true,
+    "LOWKEY": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "LOWKEY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ALEXIS"
+   },
+   {
+    "name": "SAM",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MARYLOVE"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "EZRA"
+   }
+  ],
+  "assassinated": "LOWKEY"
+ },
+ "timeCreated": {
+  "_seconds": 1587768939,
+  "_nanoseconds": 102000000
+ },
+ "timeFinished": {
+  "_seconds": 1587769540,
+  "_nanoseconds": 431000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "LOWKEY",
+    "MARYLOVE"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "LOWKEY",
+      "MARYLOVE"
+     ],
+     "proposer": "LOWKEY",
+     "state": "APPROVED",
+     "votes": [
+      "EZRA",
+      "LOWKEY",
+      "ALEXIS",
+      "SAM",
+      "MARYLOVE"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "EZRA",
+    "MARYLOVE",
+    "ALEXIS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "EZRA",
+      "MARYLOVE",
+      "ALEXIS"
+     ],
+     "votes": [
+      "ALEXIS",
+      "SAM",
+      "MARYLOVE"
+     ],
+     "proposer": "SAM"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LOWKEY",
+      "ALEXIS",
+      "SAM",
+      "MARYLOVE",
+      "EZRA"
+     ],
+     "team": [
+      "MARYLOVE",
+      "LOWKEY"
+     ],
+     "proposer": "ALEXIS"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "MARYLOVE",
+    "LOWKEY"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ALEXIS",
+    "MARYLOVE",
+    "LOWKEY"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "LOWKEY",
+      "ALEXIS",
+      "SAM",
+      "MARYLOVE"
+     ],
+     "team": [
+      "ALEXIS",
+      "MARYLOVE",
+      "LOWKEY"
+     ],
+     "proposer": "MARYLOVE"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

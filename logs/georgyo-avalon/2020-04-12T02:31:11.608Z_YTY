@@ -1,0 +1,261 @@
+{
+ "players": [
+  {
+   "name": "TOMMY",
+   "uid": "QOzpgOjFxyL9rWT0v5Vd6O6tAPf1"
+  },
+  {
+   "uid": "63bl9mOR62SH1kCyiYMj1TrLsnw1",
+   "name": "MYLEY"
+  },
+  {
+   "name": "SHANE",
+   "uid": "yQ9i7xfdKIW5pfcnamayMcUZtct1"
+  },
+  {
+   "name": "ZIPZOOM",
+   "uid": "2au1QgMdhKbJXPLgU2l3Xs8OWgK2"
+  },
+  {
+   "name": "MARTHA",
+   "uid": "F0m9ugi6kbTtzVMU8Ol6uiSlQr82"
+  },
+  {
+   "name": "LOVEDADICK",
+   "uid": "topjLiK9CFO8MOKdg6dDcLlgEIG2"
+  },
+  {
+   "name": "SWEETSEX",
+   "uid": "TsQBIz5eljaLNPe4XYFgPkUJCzu1"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "MYLEY": true,
+    "SWEETSEX": true
+   },
+   {
+    "LOVEDADICK": true,
+    "ZIPZOOM": false,
+    "TOMMY": true
+   },
+   {
+    "MYLEY": false,
+    "LOVEDADICK": true,
+    "SWEETSEX": false
+   },
+   {
+    "TOMMY": true,
+    "SWEETSEX": false,
+    "SHANE": true,
+    "MARTHA": true
+   },
+   {
+    "MARTHA": true,
+    "SHANE": true,
+    "TOMMY": true,
+    "LOVEDADICK": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "LOVEDADICK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "TOMMY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ZIPZOOM",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "name": "SWEETSEX",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "MARTHA"
+   },
+   {
+    "name": "SHANE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "MYLEY",
+    "assassin": false
+   }
+  ]
+ },
+ "timeCreated": {
+  "_seconds": 1586658671,
+  "_nanoseconds": 608000000
+ },
+ "timeFinished": {
+  "_seconds": 1586659162,
+  "_nanoseconds": 902223000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "MYLEY",
+    "SWEETSEX"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MYLEY",
+     "team": [
+      "MYLEY",
+      "SWEETSEX"
+     ],
+     "votes": [
+      "MARTHA",
+      "SHANE",
+      "MYLEY",
+      "LOVEDADICK",
+      "TOMMY",
+      "ZIPZOOM",
+      "SWEETSEX"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "LOVEDADICK",
+    "ZIPZOOM",
+    "TOMMY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ZIPZOOM",
+      "SWEETSEX",
+      "MARTHA",
+      "SHANE",
+      "MYLEY",
+      "TOMMY"
+     ],
+     "proposer": "SHANE",
+     "team": [
+      "LOVEDADICK",
+      "ZIPZOOM",
+      "TOMMY"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "MYLEY",
+    "SWEETSEX",
+    "LOVEDADICK"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "LOVEDADICK",
+      "TOMMY",
+      "ZIPZOOM",
+      "SWEETSEX",
+      "MYLEY"
+     ],
+     "team": [
+      "MYLEY",
+      "SWEETSEX",
+      "LOVEDADICK"
+     ],
+     "proposer": "ZIPZOOM",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 2
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SWEETSEX",
+      "MARTHA",
+      "TOMMY",
+      "SHANE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "TOMMY",
+      "ZIPZOOM",
+      "SWEETSEX",
+      "MARTHA",
+      "SHANE"
+     ],
+     "proposer": "MARTHA"
+    }
+   ],
+   "team": [
+    "SWEETSEX",
+    "MARTHA",
+    "TOMMY",
+    "SHANE"
+   ],
+   "teamSize": 4,
+   "failsRequired": 2
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LOVEDADICK",
+      "MARTHA",
+      "TOMMY",
+      "SHANE"
+     ],
+     "proposer": "LOVEDADICK",
+     "votes": [
+      "LOVEDADICK",
+      "TOMMY",
+      "MARTHA",
+      "SHANE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "LOVEDADICK",
+    "MARTHA",
+    "TOMMY",
+    "SHANE"
+   ]
+  }
+ ]
+}

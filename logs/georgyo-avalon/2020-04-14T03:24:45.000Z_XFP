@@ -1,0 +1,353 @@
+{
+ "outcome": {
+  "assassinated": "MIKEPECK",
+  "votes": [
+   {
+    "MIKEPECK": true,
+    "GOPAL": false
+   },
+   {
+    "BLAYDE": true,
+    "GOODKEVIN": true,
+    "JORDAN": true
+   },
+   {
+    "ERIC": true,
+    "TIM": true,
+    "BLAYDE": false
+   },
+   {
+    "JORDAN": true,
+    "GOODKEVIN": true,
+    "TIM": true,
+    "ERIC": true
+   },
+   {
+    "TIM": true,
+    "MIKEPECK": true,
+    "ERIC": true,
+    "JORDAN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "GOPAL"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "ERIC"
+   },
+   {
+    "name": "BLAYDE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "JORDAN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MIKEPECK",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "GOODKEVIN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "TIM",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN"
+ },
+ "players": [
+  {
+   "name": "TIM",
+   "uid": "oq2SOz3Nr4e8pEdu793UIinIHmG2"
+  },
+  {
+   "name": "MIKEPECK",
+   "uid": "SQ8dk2hL2vfj7vLUKVpbTnVLYju2"
+  },
+  {
+   "uid": "aMBrPx68jube972KXHvlYKbj0ys1",
+   "name": "GOODKEVIN"
+  },
+  {
+   "name": "GOPAL",
+   "uid": "FNQaYsJrgndNgKlDTbQdg0neLhx1"
+  },
+  {
+   "name": "ERIC",
+   "uid": "CuDkBmBqsHPzneqm9fpP77b1dvW2"
+  },
+  {
+   "name": "BLAYDE",
+   "uid": "Cum75UR5knaJxoLKdjiU6GS3Jxh2"
+  },
+  {
+   "name": "JORDAN",
+   "uid": "0S7nTqwNXDdjUhYzVDy6hfhJBSP2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586836909,
+  "_nanoseconds": 887951000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1586834685,
+  "_nanoseconds": 0
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MIKEPECK",
+    "GOPAL"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "TIM",
+      "GOPAL"
+     ],
+     "proposer": "JORDAN",
+     "votes": [
+      "BLAYDE",
+      "JORDAN",
+      "TIM"
+     ]
+    },
+    {
+     "votes": [
+      "ERIC",
+      "BLAYDE",
+      "GOPAL"
+     ],
+     "proposer": "TIM",
+     "state": "REJECTED",
+     "team": [
+      "TIM",
+      "GOPAL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ERIC",
+      "BLAYDE",
+      "JORDAN",
+      "MIKEPECK",
+      "TIM"
+     ],
+     "team": [
+      "MIKEPECK",
+      "GOPAL"
+     ],
+     "proposer": "MIKEPECK"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "BLAYDE",
+    "JORDAN",
+    "GOODKEVIN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JORDAN",
+      "GOODKEVIN",
+      "GOPAL"
+     ],
+     "team": [
+      "GOODKEVIN",
+      "ERIC",
+      "TIM"
+     ],
+     "proposer": "GOODKEVIN"
+    },
+    {
+     "votes": [
+      "GOODKEVIN",
+      "GOPAL"
+     ],
+     "team": [
+      "TIM",
+      "GOODKEVIN",
+      "ERIC"
+     ],
+     "state": "REJECTED",
+     "proposer": "GOPAL"
+    },
+    {
+     "votes": [
+      "ERIC",
+      "BLAYDE"
+     ],
+     "team": [
+      "ERIC",
+      "TIM",
+      "BLAYDE"
+     ],
+     "proposer": "ERIC",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TIM"
+     ],
+     "team": [
+      "BLAYDE",
+      "MIKEPECK",
+      "JORDAN"
+     ],
+     "proposer": "BLAYDE"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "BLAYDE",
+      "JORDAN",
+      "GOODKEVIN"
+     ],
+     "votes": [
+      "ERIC",
+      "BLAYDE",
+      "JORDAN",
+      "MIKEPECK",
+      "GOODKEVIN"
+     ],
+     "proposer": "JORDAN"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "BLAYDE",
+    "ERIC",
+    "TIM"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "TIM",
+      "ERIC",
+      "GOODKEVIN"
+     ],
+     "proposer": "TIM",
+     "state": "REJECTED",
+     "votes": [
+      "GOPAL"
+     ]
+    },
+    {
+     "team": [
+      "BLAYDE",
+      "ERIC",
+      "TIM"
+     ],
+     "proposer": "MIKEPECK",
+     "votes": [
+      "MIKEPECK",
+      "GOODKEVIN",
+      "TIM",
+      "ERIC",
+      "BLAYDE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "GOODKEVIN",
+      "TIM",
+      "GOPAL",
+      "ERIC",
+      "BLAYDE",
+      "JORDAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JORDAN",
+      "ERIC",
+      "TIM",
+      "GOODKEVIN"
+     ],
+     "proposer": "GOODKEVIN"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "team": [
+    "JORDAN",
+    "ERIC",
+    "TIM",
+    "GOODKEVIN"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "MIKEPECK",
+      "TIM",
+      "GOPAL",
+      "ERIC",
+      "JORDAN"
+     ],
+     "team": [
+      "ERIC",
+      "JORDAN",
+      "MIKEPECK",
+      "TIM"
+     ],
+     "state": "APPROVED",
+     "proposer": "GOPAL"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "ERIC",
+    "JORDAN",
+    "MIKEPECK",
+    "TIM"
+   ],
+   "failsRequired": 1
+  }
+ ]
+}

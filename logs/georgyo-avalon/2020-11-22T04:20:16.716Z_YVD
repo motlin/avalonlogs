@@ -1,0 +1,233 @@
+{
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "SCOTT",
+     "votes": [
+      "CHRIS",
+      "CLAIRE",
+      "Z",
+      "NIRU",
+      "SCOTT",
+      "CAM",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SCOTT",
+      "Z"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "SCOTT",
+    "Z"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "Z",
+    "SCOTT",
+    "MIKE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "Z",
+      "NIRU",
+      "CAM",
+      "CLAIRE",
+      "SCOTT",
+      "MIKE"
+     ],
+     "team": [
+      "Z",
+      "SCOTT",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "proposer": "Z"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SCOTT",
+      "CAM",
+      "CLAIRE",
+      "NIRU"
+     ],
+     "team": [
+      "NIRU",
+      "SCOTT",
+      "CAM"
+     ],
+     "proposer": "NIRU"
+    }
+   ],
+   "team": [
+    "NIRU",
+    "SCOTT",
+    "CAM"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "failsRequired": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "numFails": 2,
+   "team": [
+    "Z",
+    "CHRIS",
+    "CLAIRE",
+    "MIKE"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CHRIS",
+      "CLAIRE",
+      "SCOTT",
+      "NIRU"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "Z",
+      "CHRIS",
+      "CLAIRE",
+      "MIKE"
+     ],
+     "proposer": "CHRIS"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "KqtfEYlRSGUjooGevMUcEy3yEP93",
+   "name": "Z"
+  },
+  {
+   "uid": "LO4vJHsGR3e8LOq0LfJ7OY0ivCt1",
+   "name": "NIRU"
+  },
+  {
+   "uid": "YMOaMs80xdZT6q8T976H5lOdoKr1",
+   "name": "CHRIS"
+  },
+  {
+   "name": "CAM",
+   "uid": "ssnuXVBEflb052Ux1z4KccpcCI93"
+  },
+  {
+   "name": "CLAIRE",
+   "uid": "KnNOdRTo5sPZiYqmPcg1KzO7Xz13"
+  },
+  {
+   "uid": "14n8V3qsIyPjHyQ2hef4kgsb8qm1",
+   "name": "MIKE"
+  },
+  {
+   "name": "SCOTT",
+   "uid": "Oq2Xvk1jQ8RjoLaWTzTWT2OfKcc2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1606018816,
+  "_nanoseconds": 716000000
+ },
+ "timeFinished": {
+  "_seconds": 1606019372,
+  "_nanoseconds": 826000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "Z": true,
+    "SCOTT": true
+   },
+   {
+    "Z": true,
+    "MIKE": false,
+    "SCOTT": true
+   },
+   {
+    "NIRU": true,
+    "CAM": true,
+    "SCOTT": false
+   },
+   {
+    "CLAIRE": true,
+    "Z": true,
+    "MIKE": false,
+    "CHRIS": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CAM"
+   },
+   {
+    "assassin": false,
+    "name": "NIRU",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "CHRIS"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "SCOTT",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CLAIRE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "Z"
+   },
+   {
+    "name": "MIKE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "state": "EVIL_WIN"
+ }
+}

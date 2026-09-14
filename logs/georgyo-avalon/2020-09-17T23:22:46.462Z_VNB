@@ -1,0 +1,265 @@
+{
+ "timeCreated": {
+  "_seconds": 1600384966,
+  "_nanoseconds": 462000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "MRDRSEYES",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "G"
+   },
+   {
+    "name": "CHUCK",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MEZART"
+   },
+   {
+    "name": "CHOWDADDY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "PAPAZIG",
+    "role": "MERLIN"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JETT"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "MRDRSEYES": true,
+    "JETT": true
+   },
+   {
+    "G": true,
+    "MRDRSEYES": true,
+    "JETT": false
+   },
+   {
+    "CHUCK": true,
+    "MEZART": true,
+    "JETT": false
+   },
+   {
+    "MRDRSEYES": true,
+    "PAPAZIG": true,
+    "G": false,
+    "CHOWDADDY": false
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "uid": "nP937cwwRXMdWWPc0mG6uQ9UHPr2",
+   "name": "MEZART"
+  },
+  {
+   "uid": "T8SLMerrXhdGOlBPPRroVzAg2Jf1",
+   "name": "PAPAZIG"
+  },
+  {
+   "name": "CHOWDADDY",
+   "uid": "ee6eyUB14aNrfwxfgS3EpXKkJ4r1"
+  },
+  {
+   "name": "JETT",
+   "uid": "afQtTPyhalX5m7ZfeWX6lysHMu02"
+  },
+  {
+   "name": "MRDRSEYES",
+   "uid": "1N5pKDy1WLYp55QxW4Q98DK0d7O2"
+  },
+  {
+   "name": "G",
+   "uid": "JSS4JmyM7tUbzdtmFGijm0HfLcn1"
+  },
+  {
+   "uid": "RomzvLUXOQOI9ZyRguqeJRqWKGx1",
+   "name": "CHUCK"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "MRDRSEYES",
+    "JETT"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MRDRSEYES",
+      "JETT"
+     ],
+     "votes": [
+      "MRDRSEYES",
+      "CHOWDADDY",
+      "PAPAZIG",
+      "JETT",
+      "CHUCK",
+      "G"
+     ],
+     "proposer": "MRDRSEYES"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "G",
+    "JETT",
+    "MRDRSEYES"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MEZART",
+      "CHUCK",
+      "G",
+      "CHOWDADDY",
+      "MRDRSEYES",
+      "JETT"
+     ],
+     "proposer": "G",
+     "team": [
+      "G",
+      "JETT",
+      "MRDRSEYES"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHUCK",
+     "votes": [
+      "CHOWDADDY",
+      "MEZART",
+      "CHUCK",
+      "G",
+      "MRDRSEYES",
+      "JETT"
+     ],
+     "team": [
+      "CHUCK",
+      "MEZART",
+      "JETT"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "CHUCK",
+    "MEZART",
+    "JETT"
+   ],
+   "numFails": 1
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 2,
+   "teamSize": 4,
+   "team": [
+    "CHOWDADDY",
+    "MRDRSEYES",
+    "PAPAZIG",
+    "G"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHUCK",
+      "JETT",
+      "PAPAZIG",
+      "MRDRSEYES"
+     ],
+     "votes": [
+      "G",
+      "MEZART"
+     ],
+     "proposer": "MEZART"
+    },
+    {
+     "proposer": "PAPAZIG",
+     "state": "REJECTED",
+     "team": [
+      "PAPAZIG",
+      "MRDRSEYES",
+      "G",
+      "MEZART"
+     ],
+     "votes": [
+      "PAPAZIG",
+      "MEZART",
+      "CHUCK"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHOWDADDY",
+      "MRDRSEYES",
+      "PAPAZIG",
+      "G"
+     ],
+     "proposer": "CHOWDADDY",
+     "votes": [
+      "MEZART",
+      "G",
+      "PAPAZIG",
+      "CHUCK",
+      "CHOWDADDY",
+      "JETT"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [],
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1600385851,
+  "_nanoseconds": 741000000
+ }
+}

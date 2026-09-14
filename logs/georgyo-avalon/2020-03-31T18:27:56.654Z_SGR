@@ -1,0 +1,177 @@
+{
+ "outcome": {
+  "message": "Three missions succeeded",
+  "votes": [
+   {
+    "ELLY": true,
+    "LEONORE": true
+   },
+   {
+    "LEONORE": true,
+    "BIRTE": true,
+    "LEONTIEN": true
+   },
+   {
+    "BIRTE": true,
+    "YVOONE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "LEONTIEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BIRTE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ELLY"
+   },
+   {
+    "name": "LEONORE",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "YVOONE",
+    "role": "EVIL MINION"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "LEONORE",
+    "ELLY"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LEONTIEN",
+     "votes": [
+      "LEONTIEN",
+      "ELLY",
+      "LEONORE",
+      "YVOONE"
+     ],
+     "team": [
+      "LEONORE",
+      "ELLY"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "BIRTE",
+    "LEONORE",
+    "LEONTIEN"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "BIRTE",
+      "LEONORE",
+      "LEONTIEN"
+     ],
+     "proposer": "LEONORE",
+     "state": "APPROVED",
+     "votes": [
+      "LEONTIEN",
+      "BIRTE",
+      "ELLY",
+      "LEONORE",
+      "YVOONE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "YVOONE",
+    "BIRTE"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BIRTE",
+     "votes": [
+      "LEONORE",
+      "YVOONE",
+      "LEONTIEN",
+      "BIRTE",
+      "ELLY"
+     ],
+     "team": [
+      "YVOONE",
+      "BIRTE"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585679555,
+  "_nanoseconds": 287157000
+ },
+ "players": [
+  {
+   "name": "ELLY",
+   "uid": "rSxTgh5TGJYLMKQUEYlsGWX2YLu2"
+  },
+  {
+   "name": "LEONTIEN",
+   "uid": "gkAqJr88UdO9Y4O7T4e7gOqgXbz2"
+  },
+  {
+   "name": "LEONORE",
+   "uid": "4yGPrkoCy5MdoPMRm8cFwujBFyu2"
+  },
+  {
+   "name": "BIRTE",
+   "uid": "bTRu3Sfz3VhBF48M2YbRBunWw4n1"
+  },
+  {
+   "name": "YVOONE",
+   "uid": "E52C1VYzT0OUDjOz7g4k75X5V2p2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585679276,
+  "_nanoseconds": 654000000
+ }
+}

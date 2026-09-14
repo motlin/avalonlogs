@@ -1,0 +1,488 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "TAI": true,
+    "KENNY": true,
+    "ELLIE": true
+   },
+   {
+    "TAI": true,
+    "ELLIE": true,
+    "BEN": true,
+    "KENNY": false
+   },
+   {
+    "BEN": true,
+    "DOM": true,
+    "ELLIE": true,
+    "KENNY": true
+   },
+   {
+    "DOM": false,
+    "BEN": true,
+    "ELLIE": true,
+    "KENNY": false,
+    "SANDRA": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "DOM"
+   },
+   {
+    "name": "KENNY",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ELLIE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "TAI"
+   },
+   {
+    "assassin": false,
+    "name": "BEN",
+    "role": "MORDRED"
+   },
+   {
+    "name": "LASER",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "AINI",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "SANDRA",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Five team proposals in a row rejected"
+ },
+ "timeCreated": {
+  "_seconds": 1586638551,
+  "_nanoseconds": 100000000
+ },
+ "players": [
+  {
+   "name": "DOM",
+   "uid": "g2saJNVJyLfN6OFRyod2aY0Jrer2"
+  },
+  {
+   "uid": "1BzGT5Pb9SR0DbGe7Xxp8UUky8T2",
+   "name": "LASER"
+  },
+  {
+   "uid": "7l4eqVu8MTPBqLwvlj5jOeefHZl1",
+   "name": "TAI"
+  },
+  {
+   "name": "ELLIE",
+   "uid": "OOP2nQEUsPemaubNSWf0ZtwJ9ZN2"
+  },
+  {
+   "name": "AINI",
+   "uid": "NFJKxgalxcMOOtV4qAWLW0OlFB72"
+  },
+  {
+   "name": "KENNY",
+   "uid": "IFaNJK9jz9aGorOsvQ85GwoBB8b2"
+  },
+  {
+   "uid": "klLOCBScCmXTbHsqi9RGsjPzULw1",
+   "name": "SANDRA"
+  },
+  {
+   "name": "BEN",
+   "uid": "g3xT4KzWvFPnf0uk7wvWHmVkNyh2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "LASER",
+      "TAI",
+      "DOM"
+     ],
+     "proposer": "LASER",
+     "state": "REJECTED",
+     "votes": [
+      "TAI",
+      "LASER"
+     ]
+    },
+    {
+     "proposer": "TAI",
+     "team": [
+      "TAI",
+      "ELLIE",
+      "LASER"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KENNY",
+      "TAI",
+      "LASER"
+     ]
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "ELLIE",
+     "team": [
+      "ELLIE",
+      "SANDRA",
+      "DOM"
+     ]
+    },
+    {
+     "votes": [
+      "LASER",
+      "KENNY"
+     ],
+     "team": [
+      "AINI",
+      "ELLIE",
+      "BEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "AINI"
+    },
+    {
+     "team": [
+      "ELLIE",
+      "KENNY",
+      "TAI"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LASER",
+      "SANDRA",
+      "DOM",
+      "KENNY",
+      "ELLIE",
+      "TAI",
+      "BEN"
+     ],
+     "proposer": "KENNY"
+    }
+   ],
+   "team": [
+    "ELLIE",
+    "KENNY",
+    "TAI"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "TAI",
+    "ELLIE",
+    "KENNY",
+    "BEN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "SANDRA",
+     "team": [
+      "KENNY",
+      "TAI",
+      "ELLIE",
+      "SANDRA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SANDRA",
+      "KENNY"
+     ]
+    },
+    {
+     "proposer": "BEN",
+     "votes": [
+      "KENNY",
+      "BEN"
+     ],
+     "team": [
+      "TAI",
+      "ELLIE",
+      "KENNY",
+      "BEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "DOM",
+     "votes": [
+      "DOM"
+     ],
+     "team": [
+      "DOM",
+      "ELLIE",
+      "KENNY",
+      "BEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "LASER",
+     "team": [
+      "LASER",
+      "AINI",
+      "KENNY",
+      "DOM"
+     ],
+     "votes": [
+      "LASER",
+      "DOM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "TAI",
+     "state": "APPROVED",
+     "votes": [
+      "TAI",
+      "BEN",
+      "LASER",
+      "SANDRA",
+      "DOM",
+      "KENNY",
+      "ELLIE"
+     ],
+     "team": [
+      "TAI",
+      "ELLIE",
+      "KENNY",
+      "BEN"
+     ]
+    }
+   ],
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "AINI",
+      "ELLIE",
+      "DOM",
+      "KENNY"
+     ],
+     "votes": [],
+     "proposer": "ELLIE"
+    },
+    {
+     "proposer": "AINI",
+     "team": [
+      "AINI",
+      "TAI",
+      "ELLIE",
+      "BEN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "AINI",
+      "ELLIE",
+      "TAI"
+     ]
+    },
+    {
+     "team": [
+      "AINI",
+      "TAI",
+      "ELLIE",
+      "KENNY"
+     ],
+     "proposer": "KENNY",
+     "state": "REJECTED",
+     "votes": [
+      "TAI",
+      "KENNY"
+     ]
+    },
+    {
+     "team": [
+      "SANDRA",
+      "KENNY",
+      "AINI",
+      "DOM"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "LASER",
+      "SANDRA",
+      "ELLIE"
+     ],
+     "proposer": "SANDRA"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "ELLIE",
+      "DOM",
+      "KENNY"
+     ],
+     "votes": [
+      "DOM",
+      "KENNY",
+      "ELLIE",
+      "TAI",
+      "BEN",
+      "LASER",
+      "SANDRA"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "BEN",
+    "ELLIE",
+    "DOM",
+    "KENNY"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "failsRequired": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "DOM",
+      "ELLIE",
+      "KENNY",
+      "BEN",
+      "SANDRA"
+     ],
+     "proposer": "DOM",
+     "state": "APPROVED",
+     "votes": [
+      "LASER",
+      "SANDRA",
+      "DOM",
+      "KENNY",
+      "BEN"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "numFails": 2,
+   "team": [
+    "DOM",
+    "ELLIE",
+    "KENNY",
+    "BEN",
+    "SANDRA"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [
+    {
+     "votes": [],
+     "team": [
+      "KENNY",
+      "LASER",
+      "AINI",
+      "BEN",
+      "TAI"
+     ],
+     "proposer": "LASER",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "TAI",
+      "SANDRA",
+      "BEN",
+      "AINI",
+      "KENNY"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "TAI"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ELLIE",
+      "BEN",
+      "AINI"
+     ],
+     "team": [
+      "ELLIE",
+      "AINI",
+      "TAI",
+      "SANDRA",
+      "BEN"
+     ],
+     "proposer": "ELLIE"
+    },
+    {
+     "votes": [
+      "AINI",
+      "BEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "AINI",
+     "team": [
+      "AINI",
+      "SANDRA",
+      "BEN",
+      "ELLIE",
+      "TAI"
+     ]
+    },
+    {
+     "votes": [
+      "BEN",
+      "LASER",
+      "KENNY"
+     ],
+     "proposer": "KENNY",
+     "state": "REJECTED",
+     "team": [
+      "KENNY",
+      "DOM",
+      "BEN",
+      "ELLIE",
+      "TAI"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586642771,
+  "_nanoseconds": 272335000
+ }
+}

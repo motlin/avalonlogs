@@ -1,0 +1,280 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "CAIJIE"
+   },
+   {
+    "name": "CW",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "YUWEI"
+   },
+   {
+    "assassin": false,
+    "name": "QDW",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "TEDDYBEAR"
+   },
+   {
+    "name": "SWEE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "votes": [
+   {
+    "TEDDYBEAR": true,
+    "CAIJIE": true
+   },
+   {
+    "TEDDYBEAR": false,
+    "YUWEI": true,
+    "CAIJIE": true
+   },
+   {
+    "QDW": true,
+    "CAIJIE": true,
+    "CW": false,
+    "TEDDYBEAR": false
+   },
+   {
+    "CAIJIE": true,
+    "SWEE": true,
+    "YUWEI": true
+   },
+   {
+    "SWEE": true,
+    "YUWEI": true,
+    "QDW": true,
+    "CAIJIE": true
+   }
+  ],
+  "assassinated": "YUWEI"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "team": [
+      "CAIJIE",
+      "TEDDYBEAR"
+     ],
+     "proposer": "CAIJIE",
+     "state": "APPROVED",
+     "votes": [
+      "CW",
+      "YUWEI",
+      "QDW",
+      "TEDDYBEAR",
+      "SWEE",
+      "CAIJIE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "CAIJIE",
+    "TEDDYBEAR"
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CAIJIE",
+      "YUWEI",
+      "TEDDYBEAR"
+     ],
+     "proposer": "YUWEI",
+     "votes": [
+      "CW",
+      "YUWEI",
+      "QDW",
+      "SWEE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CAIJIE",
+    "YUWEI",
+    "TEDDYBEAR"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "team": [
+    "QDW",
+    "CW",
+    "CAIJIE",
+    "TEDDYBEAR"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CW",
+      "QDW",
+      "TEDDYBEAR",
+      "SWEE",
+      "CAIJIE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "QDW",
+      "CW",
+      "CAIJIE",
+      "TEDDYBEAR"
+     ],
+     "proposer": "QDW"
+    }
+   ],
+   "numFails": 2,
+   "failsRequired": 1
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "YUWEI",
+      "QDW",
+      "CW"
+     ],
+     "proposer": "CW",
+     "votes": [
+      "CW",
+      "QDW",
+      "TEDDYBEAR"
+     ]
+    },
+    {
+     "proposer": "SWEE",
+     "votes": [
+      "SWEE",
+      "CAIJIE",
+      "CW",
+      "YUWEI",
+      "QDW",
+      "TEDDYBEAR"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "YUWEI",
+      "SWEE",
+      "CAIJIE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "YUWEI",
+    "SWEE",
+    "CAIJIE"
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "TEDDYBEAR",
+     "votes": [
+      "TEDDYBEAR"
+     ],
+     "team": [
+      "QDW",
+      "TEDDYBEAR",
+      "SWEE",
+      "YUWEI"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CAIJIE",
+      "YUWEI",
+      "QDW",
+      "SWEE"
+     ],
+     "team": [
+      "CAIJIE",
+      "YUWEI",
+      "QDW",
+      "SWEE"
+     ],
+     "proposer": "CAIJIE"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "CAIJIE",
+    "YUWEI",
+    "QDW",
+    "SWEE"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589037146,
+  "_nanoseconds": 622000000
+ },
+ "players": [
+  {
+   "uid": "AgS9118HplRG2G2MU3ojO2lDu8Y2",
+   "name": "CAIJIE"
+  },
+  {
+   "name": "YUWEI",
+   "uid": "CZA3PqDY4mV3sl3vakTKPm5mf6F2"
+  },
+  {
+   "name": "QDW",
+   "uid": "gE5yQQeYsEYrFc5tcfTWAWjhj913"
+  },
+  {
+   "name": "CW",
+   "uid": "A8hoIo0DiAaOVIQbMcbJRXqvv1e2"
+  },
+  {
+   "name": "SWEE",
+   "uid": "JnvFx6wpH8T4LQorOxnu0KTuk1s1"
+  },
+  {
+   "name": "TEDDYBEAR",
+   "uid": "R2bMwedZryPSEhyObNZRKvGFcdw1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589036496,
+  "_nanoseconds": 667000000
+ }
+}

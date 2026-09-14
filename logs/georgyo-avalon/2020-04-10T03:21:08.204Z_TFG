@@ -1,0 +1,287 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "name": "DAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANINDYA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "NIKOLAI"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "JET"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "CRAIG"
+   },
+   {
+    "assassin": false,
+    "name": "KENNETH",
+    "role": "MORGANA"
+   },
+   {
+    "name": "OWEN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "ALEX",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "OWEN": true,
+    "DAN": true,
+    "ALEX": true
+   },
+   {
+    "OWEN": true,
+    "CRAIG": true,
+    "DAN": true,
+    "ALEX": true
+   },
+   {
+    "ALEX": true,
+    "DAN": true,
+    "CRAIG": true,
+    "OWEN": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "JET"
+ },
+ "timeFinished": {
+  "_seconds": 1586490304,
+  "_nanoseconds": 540495000
+ },
+ "timeCreated": {
+  "_seconds": 1586488868,
+  "_nanoseconds": 204000000
+ },
+ "players": [
+  {
+   "name": "CRAIG",
+   "uid": "4sNqa4aD3MWk2zEPWcJKx4sKBXf1"
+  },
+  {
+   "uid": "QODvuT833JNtPCbTsGwjTMGP9Sp1",
+   "name": "ALEX"
+  },
+  {
+   "name": "DAN",
+   "uid": "Ds3YQyl9z9Q2lRjNZFT21kj2s063"
+  },
+  {
+   "uid": "kdnDzJ8nJnRmhaqgbpylpgp1KHk1",
+   "name": "OWEN"
+  },
+  {
+   "uid": "JAPBZxxk0fMO1c5d7Dli45JF9D23",
+   "name": "NIKOLAI"
+  },
+  {
+   "name": "KENNETH",
+   "uid": "Pami2ZJ0YHSMhHLII5RVzgcX2MI2"
+  },
+  {
+   "name": "ANINDYA",
+   "uid": "J17GkcYwZBNJxVolkWs5PaqUKye2"
+  },
+  {
+   "name": "JET",
+   "uid": "dkBAA5oRvaXAxG2kDgD1XiNWcOo1"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 3,
+   "team": [
+    "OWEN",
+    "DAN",
+    "ALEX"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "OWEN",
+     "state": "APPROVED",
+     "team": [
+      "OWEN",
+      "DAN",
+      "ALEX"
+     ],
+     "votes": [
+      "JET",
+      "CRAIG",
+      "OWEN",
+      "ALEX",
+      "DAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "OWEN",
+      "DAN",
+      "JET"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "NIKOLAI",
+      "KENNETH",
+      "ANINDYA",
+      "JET"
+     ],
+     "proposer": "NIKOLAI"
+    },
+    {
+     "votes": [
+      "KENNETH"
+     ],
+     "team": [
+      "KENNETH",
+      "CRAIG",
+      "ANINDYA",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "proposer": "KENNETH"
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "ANINDYA",
+      "OWEN",
+      "JET",
+      "ALEX"
+     ],
+     "proposer": "ANINDYA"
+    },
+    {
+     "proposer": "JET",
+     "team": [
+      "JET",
+      "ANINDYA",
+      "KENNETH",
+      "NIKOLAI"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NIKOLAI",
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "KENNETH",
+      "OWEN",
+      "ALEX",
+      "DAN",
+      "ANINDYA",
+      "NIKOLAI",
+      "JET",
+      "CRAIG"
+     ],
+     "state": "APPROVED",
+     "proposer": "CRAIG",
+     "team": [
+      "ALEX",
+      "CRAIG",
+      "OWEN",
+      "DAN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "team": [
+    "ALEX",
+    "CRAIG",
+    "OWEN",
+    "DAN"
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "ALEX",
+     "votes": [
+      "ALEX",
+      "OWEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "CRAIG",
+      "ALEX",
+      "OWEN",
+      "NIKOLAI"
+     ]
+    },
+    {
+     "team": [
+      "OWEN",
+      "DAN",
+      "ALEX",
+      "CRAIG"
+     ],
+     "proposer": "DAN",
+     "state": "APPROVED",
+     "votes": [
+      "JET",
+      "CRAIG",
+      "KENNETH",
+      "DAN",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "OWEN",
+    "DAN",
+    "ALEX",
+    "CRAIG"
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 2,
+   "state": "PENDING",
+   "teamSize": 5,
+   "team": []
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 5
+  }
+ ]
+}

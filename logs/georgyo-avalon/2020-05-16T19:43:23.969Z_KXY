@@ -1,0 +1,360 @@
+{
+ "timeFinished": {
+  "_seconds": 1589662886,
+  "_nanoseconds": 623000000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "ALETTUCE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JONATHAN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "PETER"
+   },
+   {
+    "role": "MERLIN",
+    "name": "DREVIL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "FAHEEM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BOBBY",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "name": "BCABBAGE",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "DREVIL": true,
+    "BOBBY": true
+   },
+   {
+    "BOBBY": true,
+    "DREVIL": true,
+    "JONATHAN": true
+   },
+   {
+    "BOBBY": true,
+    "DREVIL": true,
+    "JONATHAN": false
+   },
+   {
+    "PETER": false,
+    "ALETTUCE": true,
+    "BCABBAGE": true,
+    "BOBBY": false
+   },
+   {
+    "BOBBY": false,
+    "FAHEEM": true,
+    "DREVIL": true,
+    "BCABBAGE": true
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "BOBBY",
+    "DREVIL"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BOBBY",
+      "DREVIL"
+     ],
+     "votes": [
+      "DREVIL",
+      "BOBBY",
+      "BCABBAGE",
+      "ALETTUCE"
+     ],
+     "proposer": "BOBBY"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "BCABBAGE",
+     "team": [
+      "PETER",
+      "BCABBAGE",
+      "ALETTUCE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ALETTUCE"
+     ]
+    },
+    {
+     "team": [
+      "DREVIL",
+      "BOBBY",
+      "JONATHAN"
+     ],
+     "votes": [
+      "BCABBAGE",
+      "ALETTUCE",
+      "JONATHAN",
+      "BOBBY"
+     ],
+     "state": "APPROVED",
+     "proposer": "JONATHAN"
+    }
+   ],
+   "team": [
+    "DREVIL",
+    "BOBBY",
+    "JONATHAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "PETER",
+     "team": [
+      "PETER",
+      "DREVIL",
+      "BOBBY"
+     ],
+     "votes": [
+      "PETER"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ALETTUCE",
+      "DREVIL",
+      "FAHEEM",
+      "BOBBY"
+     ],
+     "team": [
+      "BOBBY",
+      "DREVIL",
+      "JONATHAN"
+     ],
+     "proposer": "ALETTUCE"
+    }
+   ],
+   "team": [
+    "BOBBY",
+    "DREVIL",
+    "JONATHAN"
+   ]
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "FAHEEM"
+     ],
+     "team": [
+      "FAHEEM",
+      "DREVIL",
+      "BOBBY",
+      "JONATHAN"
+     ],
+     "proposer": "FAHEEM",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "DREVIL",
+      "BOBBY",
+      "JONATHAN",
+      "BCABBAGE"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "DREVIL"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "BOBBY",
+      "BCABBAGE",
+      "PETER",
+      "ALETTUCE"
+     ],
+     "votes": [
+      "DREVIL",
+      "BOBBY",
+      "ALETTUCE",
+      "PETER"
+     ],
+     "proposer": "BOBBY"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "BOBBY",
+    "BCABBAGE",
+    "PETER",
+    "ALETTUCE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "DREVIL",
+      "BCABBAGE",
+      "FAHEEM",
+      "BOBBY"
+     ],
+     "proposer": "BCABBAGE",
+     "votes": [
+      "DREVIL",
+      "BCABBAGE"
+     ]
+    },
+    {
+     "team": [
+      "FAHEEM",
+      "BOBBY",
+      "ALETTUCE",
+      "JONATHAN"
+     ],
+     "votes": [
+      "ALETTUCE",
+      "JONATHAN"
+     ],
+     "proposer": "JONATHAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "PETER",
+      "JONATHAN",
+      "BOBBY",
+      "FAHEEM"
+     ],
+     "votes": [
+      "PETER"
+     ],
+     "proposer": "PETER",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ALETTUCE"
+     ],
+     "team": [
+      "ALETTUCE",
+      "FAHEEM",
+      "PETER",
+      "JONATHAN"
+     ],
+     "proposer": "ALETTUCE"
+    },
+    {
+     "team": [
+      "BOBBY",
+      "FAHEEM",
+      "DREVIL",
+      "BCABBAGE"
+     ],
+     "votes": [
+      "PETER",
+      "DREVIL",
+      "FAHEEM",
+      "BOBBY",
+      "BCABBAGE"
+     ],
+     "proposer": "FAHEEM",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "BOBBY",
+    "FAHEEM",
+    "DREVIL",
+    "BCABBAGE"
+   ]
+  }
+ ],
+ "players": [
+  {
+   "uid": "fC3nxlydfgUBI3dqICJECt1AkQU2",
+   "name": "JONATHAN"
+  },
+  {
+   "uid": "CMMO7gIesgfmdHE3zHlPik6bpZt1",
+   "name": "PETER"
+  },
+  {
+   "uid": "Kz9kW7esAnN3TCv4q2FqV6KFz5A2",
+   "name": "ALETTUCE"
+  },
+  {
+   "uid": "k04SqWCeh7VKNbhWUUKOMzYepxK2",
+   "name": "FAHEEM"
+  },
+  {
+   "uid": "B19DtdmNnKhmAD5EdnZuYGRrbeu2",
+   "name": "DREVIL"
+  },
+  {
+   "name": "BOBBY",
+   "uid": "GBpdXQzQXUbDVGnshSeXAapoW1k2"
+  },
+  {
+   "name": "BCABBAGE",
+   "uid": "uZBJU2AFu1al1tFoDiIIa8Pr4bv2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589658203,
+  "_nanoseconds": 969000000
+ }
+}

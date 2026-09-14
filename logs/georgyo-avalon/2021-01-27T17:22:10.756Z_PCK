@@ -1,0 +1,289 @@
+{
+ "players": [
+  {
+   "uid": "I8iByyCkpUOYhPEEDXfNECuPBoa2",
+   "name": "CM"
+  },
+  {
+   "name": "NOPPADON",
+   "uid": "i9mcblHln4Mgw8ewg8lBDKlQCi92"
+  },
+  {
+   "uid": "opbyy9dtMRW3ytoXYGUUMiB4dWx2",
+   "name": "KOCOA"
+  },
+  {
+   "name": "NOMSODBOYZ",
+   "uid": "OhXp2rPL2VMO52HjdPLJG27U0Tz1"
+  },
+  {
+   "name": "NUTNAHEE",
+   "uid": "xwsFl39geZVBvTNBlTgWE3Gm0yQ2"
+  },
+  {
+   "name": "TIKI",
+   "uid": "6jeRARKpMXgtL3JtQkuPgbPvny23"
+  },
+  {
+   "uid": "URcA3PivEWaPNcWv2XsYosSqL1y1",
+   "name": "QEDOEWFKOD"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "QEDOEWFKOD": true,
+    "NOMSODBOYZ": true
+   },
+   {
+    "NOMSODBOYZ": true,
+    "QEDOEWFKOD": true,
+    "NUTNAHEE": false
+   },
+   {
+    "CM": false,
+    "NUTNAHEE": true,
+    "KOCOA": true
+   },
+   {
+    "QEDOEWFKOD": true,
+    "CM": false,
+    "TIKI": true,
+    "KOCOA": true
+   },
+   {
+    "KOCOA": true,
+    "NOPPADON": true,
+    "NOMSODBOYZ": false,
+    "CM": false
+   }
+  ],
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "KOCOA",
+    "assassin": false
+   },
+   {
+    "name": "NOPPADON",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "NUTNAHEE",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "NOMSODBOYZ",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "name": "CM",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "QEDOEWFKOD",
+    "assassin": false
+   },
+   {
+    "name": "TIKI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "NOMSODBOYZ",
+     "state": "APPROVED",
+     "team": [
+      "QEDOEWFKOD",
+      "NOMSODBOYZ"
+     ],
+     "votes": [
+      "TIKI",
+      "QEDOEWFKOD",
+      "NOPPADON",
+      "NUTNAHEE",
+      "NOMSODBOYZ",
+      "CM"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "QEDOEWFKOD",
+    "NOMSODBOYZ"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "NUTNAHEE",
+      "QEDOEWFKOD",
+      "NOMSODBOYZ"
+     ],
+     "votes": [
+      "CM",
+      "KOCOA",
+      "TIKI",
+      "NOMSODBOYZ",
+      "NOPPADON"
+     ],
+     "state": "APPROVED",
+     "proposer": "NUTNAHEE"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "NUTNAHEE",
+    "QEDOEWFKOD",
+    "NOMSODBOYZ"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "TIKI",
+      "NOPPADON",
+      "QEDOEWFKOD"
+     ],
+     "votes": [
+      "QEDOEWFKOD",
+      "TIKI"
+     ],
+     "state": "REJECTED",
+     "proposer": "TIKI"
+    },
+    {
+     "votes": [
+      "QEDOEWFKOD",
+      "TIKI"
+     ],
+     "proposer": "QEDOEWFKOD",
+     "state": "REJECTED",
+     "team": [
+      "QEDOEWFKOD",
+      "TIKI",
+      "NUTNAHEE"
+     ]
+    },
+    {
+     "team": [
+      "NUTNAHEE",
+      "KOCOA",
+      "CM"
+     ],
+     "votes": [
+      "NUTNAHEE",
+      "NOPPADON",
+      "KOCOA",
+      "CM",
+      "NOMSODBOYZ"
+     ],
+     "proposer": "CM",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "NUTNAHEE",
+    "KOCOA",
+    "CM"
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CM",
+      "NOPPADON",
+      "TIKI",
+      "NUTNAHEE",
+      "QEDOEWFKOD"
+     ],
+     "proposer": "NOPPADON",
+     "team": [
+      "CM",
+      "KOCOA",
+      "TIKI",
+      "QEDOEWFKOD"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "CM",
+    "KOCOA",
+    "TIKI",
+    "QEDOEWFKOD"
+   ],
+   "failsRequired": 2,
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "NOMSODBOYZ",
+      "CM",
+      "KOCOA",
+      "NOPPADON"
+     ],
+     "proposer": "KOCOA",
+     "votes": [
+      "NOPPADON",
+      "KOCOA",
+      "CM",
+      "NOMSODBOYZ",
+      "NUTNAHEE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "NOMSODBOYZ",
+    "CM",
+    "KOCOA",
+    "NOPPADON"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 2
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1611768130,
+  "_nanoseconds": 756000000
+ },
+ "timeFinished": {
+  "_seconds": 1611768513,
+  "_nanoseconds": 839000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

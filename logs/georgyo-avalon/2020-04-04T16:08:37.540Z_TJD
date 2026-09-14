@@ -1,0 +1,200 @@
+{
+ "players": [
+  {
+   "uid": "yXvqW9Bh7wQRAfACdS20bpFrDpq1",
+   "name": "SANJAY"
+  },
+  {
+   "uid": "OXO7Fa4zxPbdDhOHh5HlvuU4u0x2",
+   "name": "HARSHITA"
+  },
+  {
+   "name": "ANKUR",
+   "uid": "U3kYTVP5reerdDO8PPwus1NbGTv1"
+  },
+  {
+   "uid": "d6Gfrh5g8NacyA0XOpoM70361Y43",
+   "name": "AKSHAT"
+  },
+  {
+   "uid": "NExUaKiHeJOxY4ki0WR3yHiqq3F3",
+   "name": "AISHU"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "AISHU",
+    "HARSHITA"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AISHU",
+      "HARSHITA"
+     ],
+     "votes": [
+      "AKSHAT",
+      "SANJAY",
+      "AISHU",
+      "HARSHITA"
+     ],
+     "proposer": "AISHU"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "ANKUR",
+    "SANJAY",
+    "HARSHITA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ANKUR",
+      "SANJAY",
+      "HARSHITA"
+     ],
+     "proposer": "SANJAY",
+     "state": "APPROVED",
+     "votes": [
+      "SANJAY",
+      "AISHU",
+      "ANKUR",
+      "HARSHITA",
+      "AKSHAT"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ANKUR",
+    "AKSHAT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ANKUR",
+      "AKSHAT"
+     ],
+     "votes": [
+      "AISHU",
+      "ANKUR",
+      "HARSHITA"
+     ],
+     "state": "APPROVED",
+     "proposer": "HARSHITA"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ANKUR",
+      "AISHU",
+      "HARSHITA"
+     ],
+     "proposer": "ANKUR",
+     "votes": [
+      "ANKUR",
+      "HARSHITA",
+      "AKSHAT"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ANKUR",
+    "AISHU",
+    "HARSHITA"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "AISHU": true,
+    "HARSHITA": true
+   },
+   {
+    "ANKUR": true,
+    "HARSHITA": false,
+    "SANJAY": true
+   },
+   {
+    "AKSHAT": false,
+    "ANKUR": true
+   },
+   {
+    "AISHU": true,
+    "ANKUR": true,
+    "HARSHITA": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "AKSHAT",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "SANJAY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "AISHU",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANKUR",
+    "assassin": false
+   },
+   {
+    "name": "HARSHITA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1586016517,
+  "_nanoseconds": 540000000
+ },
+ "timeFinished": {
+  "_seconds": 1586016901,
+  "_nanoseconds": 9523000
+ }
+}

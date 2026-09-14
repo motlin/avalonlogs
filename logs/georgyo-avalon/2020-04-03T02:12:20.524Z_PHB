@@ -1,0 +1,250 @@
+{
+ "timeFinished": {
+  "_seconds": 1585880629,
+  "_nanoseconds": 901619000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "JULIAN": true,
+    "GURDAVE": true
+   },
+   {
+    "PITBULL": true,
+    "JULIAN": true,
+    "GURDAVE": true
+   },
+   {
+    "JULIAN": true,
+    "GURVIN": true,
+    "GURDAVE": true,
+    "SOPHIE": false
+   },
+   {
+    "PHB": false,
+    "GURVIN": true,
+    "JULIAN": true
+   },
+   {
+    "JULIAN": true,
+    "GURDAVE": true,
+    "GURVIN": true,
+    "PITBULL": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "JULIAN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GURDAVE"
+   },
+   {
+    "name": "JULIAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "GURVIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "SOPHIE"
+   },
+   {
+    "name": "PHB",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "PITBULL"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "GURDAVE",
+   "uid": "ZklElVtlvJVNrLvNFUGl8ZUkuj43"
+  },
+  {
+   "uid": "BSAvt3YIChOvi58Mt0ruo0CPNiP2",
+   "name": "JULIAN"
+  },
+  {
+   "uid": "OvSBS1JAZdgeExnf4H84J5zoYup2",
+   "name": "SOPHIE"
+  },
+  {
+   "name": "PHB",
+   "uid": "iircQpJ8xFUKu3PHMBVcEKoR4Ks2"
+  },
+  {
+   "name": "PITBULL",
+   "uid": "vbmiwBw2HhfMHwYvhOLfQST01sk2"
+  },
+  {
+   "uid": "a5D3rzwcsqXgBf2eSFVcnNn0rlq1",
+   "name": "GURVIN"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "GURDAVE",
+    "JULIAN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "GURDAVE",
+      "JULIAN",
+      "GURVIN",
+      "SOPHIE",
+      "PHB",
+      "PITBULL"
+     ],
+     "team": [
+      "GURDAVE",
+      "JULIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "GURDAVE"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "JULIAN",
+    "GURDAVE",
+    "PITBULL"
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "JULIAN",
+      "GURDAVE",
+      "PITBULL"
+     ],
+     "proposer": "JULIAN",
+     "state": "APPROVED",
+     "votes": [
+      "GURDAVE",
+      "JULIAN",
+      "GURVIN",
+      "SOPHIE",
+      "PHB",
+      "PITBULL"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SOPHIE",
+     "votes": [
+      "GURVIN",
+      "SOPHIE",
+      "PHB",
+      "GURDAVE",
+      "JULIAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SOPHIE",
+      "GURDAVE",
+      "JULIAN",
+      "GURVIN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "SOPHIE",
+    "GURDAVE",
+    "JULIAN",
+    "GURVIN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "PHB",
+     "team": [
+      "GURVIN",
+      "PHB",
+      "JULIAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JULIAN",
+      "GURVIN",
+      "SOPHIE",
+      "PHB"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "GURVIN",
+    "PHB",
+    "JULIAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "PITBULL",
+    "GURDAVE",
+    "GURVIN",
+    "JULIAN"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PITBULL",
+      "GURDAVE",
+      "JULIAN",
+      "GURVIN"
+     ],
+     "team": [
+      "PITBULL",
+      "GURDAVE",
+      "GURVIN",
+      "JULIAN"
+     ],
+     "proposer": "PITBULL"
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585879940,
+  "_nanoseconds": 524000000
+ }
+}

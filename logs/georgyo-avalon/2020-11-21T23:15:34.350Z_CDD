@@ -1,0 +1,217 @@
+{
+ "players": [
+  {
+   "uid": "RvQE1B9HQ3fiHYZuYeeu0TMJh8e2",
+   "name": "FERGUS"
+  },
+  {
+   "uid": "U7kuWt9knnUjUxfTXFz59bD5BA43",
+   "name": "ARIANA"
+  },
+  {
+   "name": "GEE",
+   "uid": "0w73hKMMAyXXbROfKABLgQJIeDH2"
+  },
+  {
+   "name": "GRAEME",
+   "uid": "R1eqFjkSFcfdw9idmVyJ6ciEZI02"
+  },
+  {
+   "name": "PEW",
+   "uid": "uClDspFF9iPOUBBoyZxtZfpJqy92"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "FERGUS",
+    "GRAEME"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "FERGUS",
+     "votes": [
+      "FERGUS",
+      "GRAEME",
+      "ARIANA",
+      "PEW"
+     ],
+     "team": [
+      "FERGUS",
+      "GRAEME"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ARIANA",
+     "team": [
+      "GEE",
+      "FERGUS",
+      "GRAEME"
+     ],
+     "votes": [
+      "GRAEME",
+      "ARIANA",
+      "PEW",
+      "FERGUS",
+      "GEE"
+     ]
+    }
+   ],
+   "team": [
+    "GEE",
+    "FERGUS",
+    "GRAEME"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "GEE",
+     "votes": [
+      "ARIANA",
+      "GEE"
+     ],
+     "team": [
+      "FERGUS",
+      "GEE"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "FERGUS",
+      "GRAEME"
+     ],
+     "proposer": "GRAEME",
+     "votes": [
+      "ARIANA",
+      "GRAEME",
+      "FERGUS",
+      "PEW"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FERGUS",
+    "GRAEME"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "GRAEME",
+    "GEE",
+    "PEW"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "PEW",
+      "ARIANA",
+      "GEE",
+      "GRAEME"
+     ],
+     "team": [
+      "GRAEME",
+      "GEE",
+      "PEW"
+     ],
+     "state": "APPROVED",
+     "proposer": "PEW"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1606000962,
+  "_nanoseconds": 880000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "GRAEME": true,
+    "FERGUS": true
+   },
+   {
+    "FERGUS": false,
+    "GEE": true,
+    "GRAEME": true
+   },
+   {
+    "FERGUS": true,
+    "GRAEME": true
+   },
+   {
+    "GRAEME": true,
+    "PEW": true,
+    "GEE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "GRAEME",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "GRAEME",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ARIANA",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "PEW",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "FERGUS",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "GEE"
+   }
+  ]
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1606000534,
+  "_nanoseconds": 350000000
+ }
+}

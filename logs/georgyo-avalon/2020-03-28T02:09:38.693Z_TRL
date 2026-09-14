@@ -1,0 +1,190 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "assassinated": "IMMERLIN",
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "IMMERLIN",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JACKASS"
+   },
+   {
+    "name": "JENSEN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "PERLOJR",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "RICHARD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "RICHARD": true,
+    "PERLOJR": true
+   },
+   {
+    "RICHARD": true,
+    "JENSEN": true,
+    "PERLOJR": true
+   },
+   {
+    "JENSEN": true,
+    "RICHARD": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "PERLOJR",
+    "RICHARD"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "PERLOJR",
+     "votes": [
+      "JENSEN",
+      "PERLOJR",
+      "RICHARD",
+      "IMMERLIN",
+      "JACKASS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PERLOJR",
+      "RICHARD"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "PERLOJR",
+    "RICHARD",
+    "JENSEN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "PERLOJR",
+      "RICHARD"
+     ],
+     "team": [
+      "PERLOJR",
+      "RICHARD",
+      "IMMERLIN"
+     ],
+     "proposer": "IMMERLIN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "JENSEN",
+      "PERLOJR",
+      "RICHARD",
+      "JACKASS"
+     ],
+     "proposer": "RICHARD",
+     "team": [
+      "PERLOJR",
+      "RICHARD",
+      "JENSEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "RICHARD",
+      "JENSEN"
+     ],
+     "votes": [
+      "PERLOJR",
+      "RICHARD",
+      "IMMERLIN",
+      "JACKASS",
+      "JENSEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JENSEN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "RICHARD",
+    "JENSEN"
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 3,
+   "team": [],
+   "failsRequired": 1,
+   "state": "PENDING"
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [],
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585361892,
+  "_nanoseconds": 229353000
+ },
+ "timeCreated": {
+  "_seconds": 1585361378,
+  "_nanoseconds": 693000000
+ },
+ "players": [
+  {
+   "name": "JACKASS",
+   "uid": "v9Gh0iBdAYY8FnPOk6QU9mv0JIQ2"
+  },
+  {
+   "name": "PERLOJR",
+   "uid": "XNFmc2W9XeU9XDRIjYjmHsJ5Axg1"
+  },
+  {
+   "name": "IMMERLIN",
+   "uid": "zGbaJi6VDkNiNU6GJj5yNKLedBr2"
+  },
+  {
+   "name": "RICHARD",
+   "uid": "yOZiyJnkz0NmNNUXz5H9d32beZk1"
+  },
+  {
+   "name": "JENSEN",
+   "uid": "Eu4a5j79TMWWqQteW5LTu4p8knF2"
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "CHANDAN": true,
+    "GAUTIST": true
+   },
+   {
+    "NGP": true,
+    "RAHUL": true,
+    "PUCKHOE": true
+   },
+   {
+    "CHANDAN": true,
+    "GAUTIST": true,
+    "NGP": true,
+    "PUCKHOE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "PUCKHOE",
+  "roles": [
+   {
+    "name": "PUCKHOE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "ADITHYA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "NGP",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "GAUTIST",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "name": "CHANDAN",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "RAHUL",
+    "assassin": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "GAUTIST",
+    "CHANDAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PUCKHOE",
+      "ADITHYA",
+      "NGP",
+      "GAUTIST",
+      "CHANDAN",
+      "RAHUL"
+     ],
+     "proposer": "GAUTIST",
+     "team": [
+      "GAUTIST",
+      "CHANDAN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "PUCKHOE",
+    "RAHUL",
+    "NGP"
+   ],
+   "proposals": [
+    {
+     "proposer": "PUCKHOE",
+     "votes": [
+      "NGP",
+      "RAHUL",
+      "PUCKHOE",
+      "ADITHYA"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "PUCKHOE",
+      "RAHUL",
+      "NGP"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "NGP",
+    "GAUTIST",
+    "CHANDAN",
+    "PUCKHOE"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "RAHUL",
+      "PUCKHOE",
+      "NGP",
+      "GAUTIST"
+     ],
+     "proposer": "RAHUL",
+     "votes": [
+      "RAHUL",
+      "PUCKHOE"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "PUCKHOE",
+      "ADITHYA",
+      "NGP",
+      "GAUTIST",
+      "CHANDAN",
+      "RAHUL"
+     ],
+     "proposer": "NGP",
+     "team": [
+      "NGP",
+      "GAUTIST",
+      "CHANDAN",
+      "PUCKHOE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585983786,
+  "_nanoseconds": 806124000
+ },
+ "timeCreated": {
+  "_seconds": 1585983563,
+  "_nanoseconds": 818000000
+ },
+ "players": [
+  {
+   "name": "ADITHYA",
+   "uid": "zPBITAoA8mUfSa0lFBJTz9FPat02"
+  },
+  {
+   "name": "CHANDAN",
+   "uid": "c0nahfL5laM56X72EMpxST5yEcA2"
+  },
+  {
+   "uid": "HmQ2lErT1sQwh7KK6ll3iiQVkgx2",
+   "name": "GAUTIST"
+  },
+  {
+   "uid": "l2WfetfYI1hqg5MzQyeUKIpuZ2F3",
+   "name": "PUCKHOE"
+  },
+  {
+   "name": "RAHUL",
+   "uid": "tx0kcEK6OLReXSxfyfrW6pENoTC3"
+  },
+  {
+   "uid": "qFZUTCUGNiNNymej1aS1gQnPjKS2",
+   "name": "NGP"
+  }
+ ]
+}

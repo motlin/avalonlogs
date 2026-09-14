@@ -1,0 +1,261 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587748987,
+  "_nanoseconds": 786000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "LARS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JACK",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JAMES",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SHEEBZ"
+   },
+   {
+    "name": "SCOTT",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "JACOB"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MOOMIN"
+   }
+  ],
+  "assassinated": "SHEEBZ",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "JAMES": true,
+    "LARS": true
+   },
+   {
+    "JACOB": false,
+    "JAMES": true,
+    "LARS": true
+   },
+   {
+    "MOOMIN": false,
+    "JACK": true,
+    "SHEEBZ": true
+   },
+   {
+    "LARS": true,
+    "SHEEBZ": true,
+    "JACK": true,
+    "JAMES": true
+   },
+   {
+    "LARS": true,
+    "JACK": true,
+    "JAMES": true,
+    "SHEEBZ": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "JACOB",
+   "uid": "JwaYxzA0rtRzzrOdAXjJaxOEdGf1"
+  },
+  {
+   "name": "JAMES",
+   "uid": "sdmkmI5kJib8ddqI6k49z3h6knq2"
+  },
+  {
+   "name": "MOOMIN",
+   "uid": "plWnS1pM9MaAbKbAQwkel8Me29r1"
+  },
+  {
+   "name": "JACK",
+   "uid": "MAZtvwMwaINUbpcROkAdF6VvumB3"
+  },
+  {
+   "uid": "4tIKgZfAEjS1Lf5srY2zTxe9oY02",
+   "name": "SHEEBZ"
+  },
+  {
+   "name": "LARS",
+   "uid": "U47wD6a8iifY8tspoqG57eyhg5N2"
+  },
+  {
+   "uid": "expBDVV9ZYgQEIYolY5lsZys19X2",
+   "name": "SCOTT"
+  }
+ ],
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "LARS",
+    "JAMES"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "LARS",
+     "state": "APPROVED",
+     "votes": [
+      "JACOB",
+      "LARS",
+      "JACK",
+      "JAMES",
+      "SCOTT"
+     ],
+     "team": [
+      "LARS",
+      "JAMES"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JACK",
+      "SHEEBZ",
+      "SCOTT",
+      "JACOB",
+      "MOOMIN"
+     ],
+     "proposer": "SCOTT",
+     "team": [
+      "JAMES",
+      "LARS",
+      "JACOB"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "team": [
+    "JAMES",
+    "LARS",
+    "JACOB"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JACOB",
+     "votes": [
+      "SCOTT",
+      "JACOB",
+      "JACK",
+      "SHEEBZ"
+     ],
+     "team": [
+      "SHEEBZ",
+      "JACK",
+      "MOOMIN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "SHEEBZ",
+    "JACK",
+    "MOOMIN"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "state": "SUCCESS",
+   "team": [
+    "JAMES",
+    "JACK",
+    "LARS",
+    "SHEEBZ"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JAMES",
+      "JACK",
+      "LARS",
+      "SHEEBZ"
+     ],
+     "proposer": "JAMES",
+     "votes": [
+      "JACOB",
+      "MOOMIN",
+      "LARS",
+      "JAMES",
+      "SHEEBZ"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "LARS",
+    "SHEEBZ",
+    "JACK",
+    "JAMES"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "LARS",
+      "JAMES",
+      "SHEEBZ",
+      "JACOB",
+      "MOOMIN"
+     ],
+     "team": [
+      "LARS",
+      "SHEEBZ",
+      "JACK",
+      "JAMES"
+     ],
+     "state": "APPROVED",
+     "proposer": "MOOMIN"
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587749690,
+  "_nanoseconds": 435000000
+ }
+}

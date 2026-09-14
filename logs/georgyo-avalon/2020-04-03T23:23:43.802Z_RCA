@@ -1,0 +1,395 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "name": "SHADOW",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "KARAN"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ARIEL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "EMILY"
+   },
+   {
+    "assassin": false,
+    "name": "HUMMUS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MANOLYA"
+   },
+   {
+    "name": "ANNI",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "CAT",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "RCA",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "CINDY"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "HUMMUS": true,
+    "RCA": true,
+    "EMILY": true
+   },
+   {
+    "ARIEL": true,
+    "SHADOW": true,
+    "EMILY": true,
+    "CINDY": true
+   },
+   {
+    "SHADOW": true,
+    "ARIEL": true,
+    "CINDY": false,
+    "EMILY": true
+   },
+   {
+    "ARIEL": true,
+    "HUMMUS": true,
+    "SHADOW": true,
+    "CAT": false,
+    "CINDY": false
+   },
+   {
+    "SHADOW": true,
+    "ANNI": true,
+    "KARAN": true,
+    "CINDY": false,
+    "HUMMUS": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "EMILY",
+    "HUMMUS",
+    "RCA"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "RCA",
+      "SHADOW",
+      "EMILY",
+      "MANOLYA",
+      "ANNI",
+      "CAT"
+     ],
+     "team": [
+      "EMILY",
+      "HUMMUS",
+      "RCA"
+     ],
+     "proposer": "EMILY",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "EMILY",
+      "HUMMUS",
+      "RCA",
+      "CAT"
+     ],
+     "state": "REJECTED",
+     "proposer": "HUMMUS",
+     "votes": [
+      "MANOLYA",
+      "ANNI",
+      "RCA",
+      "EMILY"
+     ]
+    },
+    {
+     "proposer": "KARAN",
+     "team": [
+      "HUMMUS",
+      "EMILY",
+      "ARIEL",
+      "KARAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "EMILY",
+      "RCA",
+      "KARAN",
+      "ARIEL"
+     ]
+    },
+    {
+     "proposer": "MANOLYA",
+     "state": "REJECTED",
+     "votes": [
+      "EMILY",
+      "MANOLYA",
+      "CAT",
+      "RCA"
+     ],
+     "team": [
+      "CINDY",
+      "EMILY",
+      "MANOLYA",
+      "RCA"
+     ]
+    },
+    {
+     "team": [
+      "SHADOW",
+      "ARIEL",
+      "CINDY",
+      "EMILY"
+     ],
+     "state": "APPROVED",
+     "proposer": "SHADOW",
+     "votes": [
+      "CAT",
+      "RCA",
+      "SHADOW",
+      "KARAN",
+      "ARIEL",
+      "EMILY",
+      "HUMMUS",
+      "MANOLYA",
+      "ANNI"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "team": [
+    "SHADOW",
+    "ARIEL",
+    "CINDY",
+    "EMILY"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "ARIEL",
+    "CINDY",
+    "EMILY",
+    "SHADOW"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "RCA",
+     "votes": [
+      "ARIEL",
+      "EMILY",
+      "HUMMUS",
+      "MANOLYA",
+      "ANNI",
+      "CAT",
+      "RCA",
+      "CINDY",
+      "SHADOW",
+      "KARAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ARIEL",
+      "CINDY",
+      "EMILY",
+      "SHADOW"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "ARIEL",
+    "HUMMUS",
+    "CAT",
+    "SHADOW",
+    "CINDY"
+   ],
+   "failsRequired": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ANNI",
+     "team": [
+      "ARIEL",
+      "CINDY",
+      "HUMMUS",
+      "KARAN",
+      "MANOLYA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MANOLYA",
+      "ANNI",
+      "RCA"
+     ]
+    },
+    {
+     "proposer": "ARIEL",
+     "state": "APPROVED",
+     "team": [
+      "ARIEL",
+      "HUMMUS",
+      "CAT",
+      "SHADOW",
+      "CINDY"
+     ],
+     "votes": [
+      "CINDY",
+      "SHADOW",
+      "ARIEL",
+      "HUMMUS",
+      "MANOLYA",
+      "ANNI",
+      "RCA"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "numFails": 2
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "ANNI",
+    "SHADOW",
+    "CINDY",
+    "HUMMUS",
+    "KARAN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "EMILY",
+      "MANOLYA",
+      "CAT"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RCA",
+      "HUMMUS",
+      "CAT",
+      "MANOLYA",
+      "EMILY"
+     ],
+     "proposer": "CAT"
+    },
+    {
+     "team": [
+      "ANNI",
+      "SHADOW",
+      "CINDY",
+      "HUMMUS",
+      "KARAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SHADOW",
+      "KARAN",
+      "ARIEL",
+      "MANOLYA",
+      "ANNI",
+      "CAT",
+      "CINDY"
+     ],
+     "proposer": "CINDY"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 5
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585956223,
+  "_nanoseconds": 802000000
+ },
+ "players": [
+  {
+   "name": "ANNI",
+   "uid": "mocxL0vb6jOVIpkc6ELm6ywJQrr2"
+  },
+  {
+   "uid": "iHW8Z689RZg2KAsSXNXkMFaRfdV2",
+   "name": "ARIEL"
+  },
+  {
+   "name": "CAT",
+   "uid": "agMo67tDZdcIFWh52plIyja1vVS2"
+  },
+  {
+   "name": "CINDY",
+   "uid": "aEX6xgzhwtVbph6thNMQfwsW8y83"
+  },
+  {
+   "name": "EMILY",
+   "uid": "MOo1wYSvkbM5HSDr8YGSX6KF9Iz1"
+  },
+  {
+   "name": "HUMMUS",
+   "uid": "PHfMXRMMsYWH8U3mtIJZRyCBava2"
+  },
+  {
+   "name": "KARAN",
+   "uid": "INcyfUXIE7fGwkk5uo7qQBbJPm22"
+  },
+  {
+   "uid": "ms4UGeBcXzLePC62nj2rOpdoi1d2",
+   "name": "MANOLYA"
+  },
+  {
+   "uid": "9JBTsVG2pSZTRLMXPCrm6gvSEpE2",
+   "name": "SHADOW"
+  },
+  {
+   "uid": "kYK4PbdvjRQQCVQ1QKb2L6nVODI3",
+   "name": "RCA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585957912,
+  "_nanoseconds": 843931000
+ }
+}

@@ -1,0 +1,235 @@
+{
+ "timeCreated": {
+  "_seconds": 1604094276,
+  "_nanoseconds": 445000000
+ },
+ "players": [
+  {
+   "name": "BILLY",
+   "uid": "C0624BOrACWhGYd0eUVsGfiCdAS2"
+  },
+  {
+   "name": "STAS",
+   "uid": "jXQZD8u9ZNe6fa3XraEvRkZ8WTj2"
+  },
+  {
+   "uid": "GOom1aSiSNeyh8J6nn1TPOlBtvf1",
+   "name": "NOTSUS"
+  },
+  {
+   "uid": "n4CQTKbS7lhiACEXKoQynMR4wGo1",
+   "name": "ANDY"
+  },
+  {
+   "uid": "6LKYRxije6OoatSLqamhH9jB8gz2",
+   "name": "WEI"
+  },
+  {
+   "name": "SETH",
+   "uid": "u5kXjUnUIOdIPqZ3DgSoY7HoBiu1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ANDY": true,
+    "WEI": true
+   },
+   {
+    "ANDY": false,
+    "WEI": true,
+    "STAS": true
+   },
+   {
+    "WEI": true,
+    "NOTSUS": true,
+    "SETH": true,
+    "STAS": true
+   },
+   {
+    "STAS": true,
+    "NOTSUS": true,
+    "SETH": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "NOTSUS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SETH",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "BILLY"
+   },
+   {
+    "name": "WEI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ANDY",
+    "role": "MORGANA"
+   },
+   {
+    "name": "STAS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": "WEI",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ANDY",
+    "WEI"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ANDY",
+      "WEI"
+     ],
+     "proposer": "ANDY",
+     "votes": [
+      "ANDY",
+      "WEI",
+      "STAS",
+      "NOTSUS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "WEI",
+    "ANDY",
+    "STAS"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "WEI",
+      "ANDY",
+      "STAS"
+     ],
+     "proposer": "WEI",
+     "state": "APPROVED",
+     "votes": [
+      "BILLY",
+      "NOTSUS",
+      "STAS",
+      "SETH",
+      "WEI",
+      "ANDY"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "STAS",
+    "NOTSUS",
+    "WEI",
+    "SETH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "STAS",
+      "NOTSUS",
+      "WEI",
+      "SETH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "STAS",
+      "ANDY",
+      "NOTSUS",
+      "WEI",
+      "SETH"
+     ],
+     "proposer": "SETH"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "NOTSUS",
+    "STAS",
+    "SETH"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BILLY"
+     ],
+     "proposer": "BILLY",
+     "team": [
+      "BILLY",
+      "SETH",
+      "NOTSUS"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SETH",
+      "BILLY",
+      "STAS",
+      "WEI",
+      "NOTSUS"
+     ],
+     "team": [
+      "NOTSUS",
+      "STAS",
+      "SETH"
+     ],
+     "proposer": "STAS"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1604095197,
+  "_nanoseconds": 92000000
+ }
+}

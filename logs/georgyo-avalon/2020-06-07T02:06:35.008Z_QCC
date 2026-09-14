@@ -1,0 +1,392 @@
+{
+ "timeCreated": {
+  "_seconds": 1591495595,
+  "_nanoseconds": 8000000
+ },
+ "players": [
+  {
+   "name": "STEVE",
+   "uid": "lHx01lkWR8RJbNr7VOto3YG3qz33"
+  },
+  {
+   "uid": "GtnoqXEanyXtkUj99PorBMhxrlB2",
+   "name": "JENNA"
+  },
+  {
+   "name": "RYAN",
+   "uid": "FP5bENHJa0btJuQ704ASF8ekuwL2"
+  },
+  {
+   "uid": "VlJgElRD4VZXmlTxpA5QRET5Z4W2",
+   "name": "TOBY"
+  },
+  {
+   "uid": "zM9XPY9QEiM3EfKBXlgKk97GJAF3",
+   "name": "ROCKY"
+  },
+  {
+   "name": "TINA",
+   "uid": "HXoN5uYy10RFdjSv5xUP6IW2TCb2"
+  },
+  {
+   "uid": "kYmaig4V9qPVwzFNPynJHaGGk8P2",
+   "name": "KAREN"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "VK3pUVkXsCMFMxGEgEo0ckQuksm2"
+  },
+  {
+   "name": "JAMES",
+   "uid": "g21ycsypBoVjCAwdiYkPgudQhM23"
+  },
+  {
+   "name": "GOODWIN",
+   "uid": "EDXTH34DvjgBYoF6bMw6kUhvIoz2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "RYAN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BRIAN"
+   },
+   {
+    "name": "JAMES",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KAREN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JENNA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "GOODWIN",
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "ROCKY",
+    "role": "MORGANA"
+   },
+   {
+    "name": "TOBY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "STEVE",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "TINA",
+    "assassin": false,
+    "role": "MORDRED"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KAREN": true,
+    "RYAN": false,
+    "BRIAN": true
+   },
+   {
+    "BRIAN": true,
+    "TOBY": true,
+    "TINA": false,
+    "JENNA": true
+   },
+   {
+    "JAMES": true,
+    "JENNA": true,
+    "TOBY": true,
+    "ROCKY": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "JAMES",
+     "state": "REJECTED",
+     "votes": [
+      "KAREN",
+      "GOODWIN",
+      "TOBY",
+      "JAMES"
+     ],
+     "team": [
+      "JAMES",
+      "GOODWIN",
+      "TOBY"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "GOODWIN",
+      "JAMES",
+      "TOBY"
+     ],
+     "votes": [
+      "JAMES",
+      "GOODWIN"
+     ],
+     "proposer": "GOODWIN"
+    },
+    {
+     "team": [
+      "STEVE",
+      "TOBY",
+      "BRIAN"
+     ],
+     "votes": [
+      "STEVE",
+      "TOBY",
+      "BRIAN"
+     ],
+     "proposer": "STEVE",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "KAREN",
+      "JENNA",
+      "GOODWIN",
+      "BRIAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JENNA",
+      "KAREN",
+      "BRIAN"
+     ],
+     "proposer": "JENNA"
+    },
+    {
+     "votes": [
+      "KAREN",
+      "JENNA",
+      "GOODWIN",
+      "ROCKY",
+      "TOBY",
+      "STEVE",
+      "TINA",
+      "RYAN",
+      "BRIAN",
+      "JAMES"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "BRIAN",
+      "KAREN"
+     ],
+     "proposer": "RYAN"
+    }
+   ],
+   "team": [
+    "RYAN",
+    "BRIAN",
+    "KAREN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TOBY"
+     ],
+     "team": [
+      "TOBY",
+      "JENNA",
+      "BRIAN",
+      "KAREN"
+     ],
+     "proposer": "TOBY"
+    },
+    {
+     "proposer": "ROCKY",
+     "state": "REJECTED",
+     "votes": [
+      "ROCKY"
+     ],
+     "team": [
+      "ROCKY",
+      "STEVE",
+      "TINA",
+      "BRIAN"
+     ]
+    },
+    {
+     "votes": [
+      "TINA",
+      "KAREN"
+     ],
+     "state": "REJECTED",
+     "proposer": "TINA",
+     "team": [
+      "TINA",
+      "TOBY",
+      "KAREN",
+      "BRIAN"
+     ]
+    },
+    {
+     "votes": [],
+     "state": "REJECTED",
+     "proposer": "KAREN",
+     "team": [
+      "TOBY",
+      "ROCKY",
+      "KAREN",
+      "BRIAN"
+     ]
+    },
+    {
+     "votes": [
+      "KAREN",
+      "JENNA",
+      "GOODWIN",
+      "TOBY",
+      "STEVE",
+      "TINA",
+      "RYAN",
+      "BRIAN",
+      "JAMES"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BRIAN",
+      "TOBY",
+      "JENNA",
+      "TINA"
+     ],
+     "proposer": "BRIAN"
+    }
+   ],
+   "team": [
+    "BRIAN",
+    "TOBY",
+    "JENNA",
+    "TINA"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JAMES"
+     ],
+     "proposer": "JAMES",
+     "team": [
+      "TOBY",
+      "JENNA",
+      "JAMES",
+      "ROCKY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "GOODWIN",
+      "KAREN",
+      "JENNA",
+      "JAMES"
+     ],
+     "proposer": "GOODWIN",
+     "votes": []
+    },
+    {
+     "proposer": "STEVE",
+     "votes": [],
+     "team": [
+      "STEVE",
+      "KAREN",
+      "JAMES",
+      "ROCKY"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JENNA",
+     "state": "APPROVED",
+     "votes": [
+      "KAREN",
+      "JENNA",
+      "GOODWIN",
+      "ROCKY",
+      "TOBY",
+      "STEVE",
+      "JAMES"
+     ],
+     "team": [
+      "JENNA",
+      "JAMES",
+      "TOBY",
+      "ROCKY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "JENNA",
+    "JAMES",
+    "TOBY",
+    "ROCKY"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 4
+  },
+  {
+   "proposals": [],
+   "failsRequired": 2,
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 5
+  },
+  {
+   "team": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1591498063,
+  "_nanoseconds": 784000000
+ }
+}

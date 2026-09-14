@@ -1,0 +1,235 @@
+{
+ "players": [
+  {
+   "uid": "oL0gcK7CIhRREJyzgidP7nwU5Wu1",
+   "name": "ADAM"
+  },
+  {
+   "name": "CRAIG",
+   "uid": "S0hyXdfkKiO8ldnjw1fkdDNfPYo1"
+  },
+  {
+   "name": "JET",
+   "uid": "e4a9GYVYZ0P8G14iXQlDgd8g9Tz1"
+  },
+  {
+   "uid": "eacR81DbSLOb7oTQgTU7Qx1L0WY2",
+   "name": "KEVIN"
+  },
+  {
+   "uid": "GnwQ0bTmgmh1EQyNUkmhNymEjDQ2",
+   "name": "ALEX"
+  },
+  {
+   "uid": "Lz8eeZidlbN3vvvxPLmbTRBW7TF2",
+   "name": "ANIN"
+  },
+  {
+   "name": "KEN",
+   "uid": "W2fhXWuJtAQVqsoW0hywf799RzK2"
+  },
+  {
+   "uid": "l9VitANYVnV6WjbYyNPoevUL6932",
+   "name": "OWEN"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "votes": [
+      "KEN",
+      "KEVIN",
+      "JET",
+      "ADAM",
+      "OWEN"
+     ],
+     "team": [
+      "ADAM",
+      "OWEN",
+      "KEN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ADAM",
+    "OWEN",
+    "KEN"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "CRAIG",
+     "votes": [
+      "JET",
+      "ADAM",
+      "CRAIG",
+      "OWEN"
+     ],
+     "team": [
+      "CRAIG",
+      "ADAM",
+      "OWEN",
+      "KEN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JET",
+     "votes": [
+      "JET",
+      "ADAM",
+      "CRAIG",
+      "OWEN"
+     ],
+     "team": [
+      "ADAM",
+      "CRAIG",
+      "KEN",
+      "OWEN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "KEVIN",
+     "votes": [
+      "KEN",
+      "KEVIN",
+      "JET"
+     ],
+     "team": [
+      "OWEN",
+      "ADAM",
+      "KEN",
+      "KEVIN"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX",
+      "JET"
+     ],
+     "team": [
+      "ALEX",
+      "KEN",
+      "OWEN",
+      "ADAM"
+     ],
+     "proposer": "ALEX",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ADAM",
+      "OWEN",
+      "KEN",
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANIN",
+      "KEN",
+      "OWEN",
+      "ADAM"
+     ],
+     "proposer": "ANIN"
+    }
+   ],
+   "state": "PENDING"
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  },
+  {
+   "team": [],
+   "failsRequired": 2,
+   "teamSize": 5,
+   "state": "PENDING",
+   "proposals": []
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 5,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585622122,
+  "_nanoseconds": 792000000
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "ADAM": true,
+    "OWEN": true,
+    "KEN": true
+   }
+  ],
+  "message": "Five team proposals in a row rejected",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JET",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "ADAM",
+    "assassin": false
+   },
+   {
+    "name": "CRAIG",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "OWEN"
+   },
+   {
+    "name": "KEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "name": "ALEX",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ANIN",
+    "role": "MORGANA"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1585622713,
+  "_nanoseconds": 511175000
+ }
+}

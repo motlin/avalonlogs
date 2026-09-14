@@ -1,0 +1,206 @@
+{
+ "timeCreated": {
+  "_seconds": 1596056990,
+  "_nanoseconds": 143000000
+ },
+ "timeFinished": {
+  "_seconds": 1596057452,
+  "_nanoseconds": 813000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "INOM",
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JTEO",
+    "assassin": false
+   },
+   {
+    "name": "OMAR",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AMARESH",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "CHRIS",
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "OMAR": true,
+    "AMARESH": true
+   },
+   {
+    "OMAR": false,
+    "INOM": true,
+    "JTEO": true
+   },
+   {
+    "AMARESH": true,
+    "OMAR": false
+   },
+   {
+    "CHRIS": false,
+    "JTEO": true,
+    "AMARESH": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "OMAR",
+      "AMARESH"
+     ],
+     "proposer": "OMAR",
+     "votes": [
+      "AMARESH",
+      "JTEO",
+      "CHRIS",
+      "OMAR",
+      "INOM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "OMAR",
+    "AMARESH"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "OMAR",
+    "JTEO",
+    "INOM"
+   ],
+   "proposals": [
+    {
+     "proposer": "CHRIS",
+     "state": "APPROVED",
+     "team": [
+      "OMAR",
+      "JTEO",
+      "INOM"
+     ],
+     "votes": [
+      "JTEO",
+      "AMARESH",
+      "CHRIS",
+      "INOM",
+      "OMAR"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "OMAR",
+    "AMARESH"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "OMAR",
+      "JTEO",
+      "CHRIS",
+      "AMARESH"
+     ],
+     "team": [
+      "OMAR",
+      "AMARESH"
+     ],
+     "proposer": "AMARESH",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 2
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "CHRIS",
+      "JTEO",
+      "OMAR",
+      "AMARESH"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "AMARESH",
+      "JTEO",
+      "CHRIS"
+     ],
+     "proposer": "JTEO"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "AMARESH",
+    "JTEO",
+    "CHRIS"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "a0t3gEcB3MQDeTUl5Nm8e36jcTC3",
+   "name": "OMAR"
+  },
+  {
+   "uid": "BTM9v1eDtlWDIeEOkdFrO1Ljzhm2",
+   "name": "CHRIS"
+  },
+  {
+   "uid": "8l9hT97xPiep569l3opgYgfj5KA2",
+   "name": "AMARESH"
+  },
+  {
+   "name": "JTEO",
+   "uid": "b3aQkDrHqJeLSym3CMy9qTeJxRv1"
+  },
+  {
+   "uid": "LC4aFu4eGAMw3UPCoydHxusHtow2",
+   "name": "INOM"
+  }
+ ]
+}

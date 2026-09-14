@@ -1,0 +1,344 @@
+{
+ "players": [
+  {
+   "uid": "oIXqsSE67xM0EfRyqynRLd6Lup13",
+   "name": "RAM"
+  },
+  {
+   "uid": "ucR6UvUq64g3kgZx1f1Cpxxm9sE2",
+   "name": "SHWETA"
+  },
+  {
+   "name": "DOLORES",
+   "uid": "ePNh7KF2u4RQi3smqn4qOwsIuJg1"
+  },
+  {
+   "uid": "ygP3d522t5hcbua7CbbmvGlNS5S2",
+   "name": "JAMALLAMA"
+  },
+  {
+   "name": "MANU",
+   "uid": "HO7rr0Pc4LQzlsbmCAZ1mUkIu4A2"
+  },
+  {
+   "uid": "stN4SYUkixaYHvFEUTCgcJaoZyN2",
+   "name": "AISHANI"
+  },
+  {
+   "name": "UNNI",
+   "uid": "ubRq4fLn33NDfsHEsApwoC4WMmD3"
+  },
+  {
+   "name": "KUSHH",
+   "uid": "SG6ubnWcFqUNL1XAaIoteT3XX3J2"
+  },
+  {
+   "uid": "uu2JpYDOoQbdZRcjMxoReVzV0K03",
+   "name": "MOOBLES"
+  },
+  {
+   "uid": "ZfMwL4decjY8EmI7GnOV3l9hbkz2",
+   "name": "AMALICIOUS"
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "AISHANI": true,
+    "UNNI": true,
+    "KUSHH": true
+   },
+   {
+    "KUSHH": true,
+    "UNNI": false,
+    "AISHANI": true,
+    "MOOBLES": false
+   },
+   {
+    "RAM": true,
+    "MANU": true,
+    "JAMALLAMA": true,
+    "SHWETA": true
+   },
+   {
+    "RAM": true,
+    "JAMALLAMA": true,
+    "SHWETA": true,
+    "MOOBLES": false,
+    "MANU": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "KUSHH",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AISHANI"
+   },
+   {
+    "role": "MERLIN",
+    "name": "MANU",
+    "assassin": false
+   },
+   {
+    "name": "DOLORES",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "AMALICIOUS",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "RAM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "UNNI"
+   },
+   {
+    "name": "JAMALLAMA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MOOBLES"
+   },
+   {
+    "name": "SHWETA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "assassinated": "MANU"
+ },
+ "timeFinished": {
+  "_seconds": 1592109947,
+  "_nanoseconds": 454000000
+ },
+ "missions": [
+  {
+   "team": [
+    "KUSHH",
+    "UNNI",
+    "AISHANI"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "UNNI",
+      "MANU",
+      "JAMALLAMA"
+     ],
+     "votes": [
+      "DOLORES"
+     ],
+     "proposer": "UNNI"
+    },
+    {
+     "votes": [
+      "UNNI",
+      "JAMALLAMA",
+      "MOOBLES",
+      "KUSHH",
+      "AISHANI",
+      "DOLORES",
+      "MANU",
+      "AMALICIOUS"
+     ],
+     "team": [
+      "KUSHH",
+      "UNNI",
+      "AISHANI"
+     ],
+     "proposer": "KUSHH",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 4,
+   "team": [
+    "MOOBLES",
+    "KUSHH",
+    "UNNI",
+    "AISHANI"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MOOBLES",
+      "KUSHH",
+      "UNNI",
+      "AISHANI"
+     ],
+     "votes": [
+      "JAMALLAMA",
+      "MOOBLES",
+      "MANU",
+      "AMALICIOUS",
+      "UNNI"
+     ],
+     "state": "REJECTED",
+     "proposer": "MOOBLES"
+    },
+    {
+     "votes": [
+      "KUSHH",
+      "MANU",
+      "RAM",
+      "UNNI",
+      "JAMALLAMA",
+      "MOOBLES"
+     ],
+     "proposer": "AMALICIOUS",
+     "team": [
+      "MOOBLES",
+      "KUSHH",
+      "UNNI",
+      "AISHANI"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "team": [
+    "JAMALLAMA",
+    "MANU",
+    "SHWETA",
+    "RAM"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "RAM",
+     "votes": [
+      "JAMALLAMA",
+      "MOOBLES",
+      "KUSHH",
+      "MANU"
+     ],
+     "team": [
+      "RAM",
+      "MOOBLES",
+      "JAMALLAMA",
+      "MANU"
+     ]
+    },
+    {
+     "proposer": "SHWETA",
+     "votes": [
+      "MANU",
+      "RAM",
+      "JAMALLAMA",
+      "SHWETA",
+      "KUSHH"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "SHWETA",
+      "RAM",
+      "JAMALLAMA",
+      "MANU"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MOOBLES",
+      "KUSHH",
+      "AISHANI",
+      "MANU",
+      "AMALICIOUS",
+      "RAM",
+      "UNNI",
+      "JAMALLAMA"
+     ],
+     "team": [
+      "JAMALLAMA",
+      "MANU",
+      "SHWETA",
+      "RAM"
+     ],
+     "proposer": "DOLORES"
+    }
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 1,
+   "failsRequired": 2,
+   "team": [
+    "RAM",
+    "SHWETA",
+    "JAMALLAMA",
+    "MANU",
+    "MOOBLES"
+   ],
+   "teamSize": 5,
+   "proposals": [
+    {
+     "votes": [
+      "MOOBLES",
+      "SHWETA",
+      "KUSHH",
+      "DOLORES",
+      "MANU",
+      "AMALICIOUS",
+      "RAM",
+      "UNNI",
+      "JAMALLAMA"
+     ],
+     "team": [
+      "RAM",
+      "SHWETA",
+      "JAMALLAMA",
+      "MANU",
+      "MOOBLES"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAMALLAMA"
+    }
+   ]
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1592107308,
+  "_nanoseconds": 247000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

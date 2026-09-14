@@ -1,0 +1,373 @@
+{
+ "timeCreated": {
+  "_seconds": 1613425913,
+  "_nanoseconds": 198000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "name": "ALLIEE",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BDAYBOI",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "VFR"
+   },
+   {
+    "assassin": false,
+    "name": "VICTORIA",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "CRACKERS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "JCB"
+   },
+   {
+    "assassin": false,
+    "name": "JDAWG",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ADAM"
+   }
+  ],
+  "votes": [
+   {
+    "JCB": true,
+    "JDAWG": true,
+    "VICTORIA": true
+   },
+   {
+    "VICTORIA": false,
+    "ALLIEE": false,
+    "JDAWG": true,
+    "JCB": true
+   },
+   {
+    "ADAM": true,
+    "BDAYBOI": false,
+    "CRACKERS": true,
+    "VFR": true
+   },
+   {
+    "JDAWG": true,
+    "VFR": true,
+    "JCB": true,
+    "VICTORIA": false,
+    "CRACKERS": true
+   },
+   {
+    "ADAM": true,
+    "BDAYBOI": false,
+    "JDAWG": true,
+    "VFR": true,
+    "CRACKERS": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeFinished": {
+  "_seconds": 1613428081,
+  "_nanoseconds": 682000000
+ },
+ "missions": [
+  {
+   "team": [
+    "JCB",
+    "JDAWG",
+    "VICTORIA"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JCB",
+      "JDAWG",
+      "VICTORIA"
+     ],
+     "votes": [
+      "JCB",
+      "VICTORIA",
+      "ADAM",
+      "JDAWG",
+      "CRACKERS",
+      "BDAYBOI",
+      "ALLIEE"
+     ],
+     "proposer": "JCB"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "JCB",
+    "JDAWG",
+    "VICTORIA",
+    "ALLIEE"
+   ],
+   "numFails": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "BDAYBOI",
+      "CRACKERS",
+      "JCB",
+      "ALLIEE",
+      "VICTORIA",
+      "ADAM"
+     ],
+     "proposer": "JDAWG",
+     "state": "APPROVED",
+     "team": [
+      "JCB",
+      "JDAWG",
+      "VICTORIA",
+      "ALLIEE"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "state": "APPROVED",
+     "votes": [
+      "ADAM",
+      "ALLIEE",
+      "VFR",
+      "VICTORIA",
+      "BDAYBOI",
+      "JCB"
+     ],
+     "team": [
+      "ADAM",
+      "BDAYBOI",
+      "CRACKERS",
+      "VFR"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ADAM",
+    "BDAYBOI",
+    "CRACKERS",
+    "VFR"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "state": "SUCCESS",
+   "teamSize": 5,
+   "proposals": [
+    {
+     "team": [
+      "VICTORIA",
+      "ADAM",
+      "BDAYBOI",
+      "VFR",
+      "CRACKERS"
+     ],
+     "proposer": "VICTORIA",
+     "votes": [
+      "VICTORIA",
+      "VFR",
+      "ALLIEE",
+      "ADAM"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "VFR",
+     "state": "REJECTED",
+     "votes": [
+      "ADAM",
+      "JCB",
+      "VICTORIA",
+      "VFR"
+     ],
+     "team": [
+      "VFR",
+      "JCB",
+      "ADAM",
+      "BDAYBOI",
+      "CRACKERS"
+     ]
+    },
+    {
+     "votes": [
+      "BDAYBOI",
+      "CRACKERS",
+      "VICTORIA",
+      "VFR"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "BDAYBOI",
+      "VFR",
+      "CRACKERS",
+      "JCB",
+      "JDAWG"
+     ],
+     "proposer": "BDAYBOI"
+    },
+    {
+     "team": [
+      "JCB",
+      "JDAWG",
+      "VFR",
+      "CRACKERS",
+      "VICTORIA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BDAYBOI",
+      "CRACKERS",
+      "JDAWG",
+      "VICTORIA",
+      "VFR"
+     ],
+     "proposer": "CRACKERS"
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "JCB",
+    "JDAWG",
+    "VFR",
+    "CRACKERS",
+    "VICTORIA"
+   ]
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "JDAWG",
+      "CRACKERS",
+      "BDAYBOI",
+      "JCB",
+      "VFR"
+     ],
+     "votes": [
+      "ALLIEE",
+      "VICTORIA"
+     ],
+     "proposer": "ALLIEE"
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "JCB",
+     "votes": [
+      "ALLIEE",
+      "VICTORIA",
+      "JCB",
+      "CRACKERS"
+     ],
+     "team": [
+      "CRACKERS",
+      "BDAYBOI",
+      "VFR",
+      "VICTORIA",
+      "JCB"
+     ]
+    },
+    {
+     "team": [
+      "ADAM",
+      "BDAYBOI",
+      "JDAWG",
+      "CRACKERS",
+      "VFR"
+     ],
+     "votes": [
+      "ADAM",
+      "BDAYBOI",
+      "JDAWG",
+      "VICTORIA",
+      "ALLIEE"
+     ],
+     "state": "APPROVED",
+     "proposer": "JDAWG"
+    }
+   ],
+   "team": [
+    "ADAM",
+    "BDAYBOI",
+    "JDAWG",
+    "CRACKERS",
+    "VFR"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 5
+  }
+ ],
+ "players": [
+  {
+   "name": "ADAM",
+   "uid": "h6fSDdSbnBPRDBbrZ9heftowqfq1"
+  },
+  {
+   "name": "VICTORIA",
+   "uid": "y7KMW3K7brXhrV6X91oykL0xfbo2"
+  },
+  {
+   "name": "VFR",
+   "uid": "PLIo9qRFZ6dObsoZEWy8grC60vB3"
+  },
+  {
+   "name": "BDAYBOI",
+   "uid": "0kDAqxd4pigDzEOCReZblGq4LAV2"
+  },
+  {
+   "name": "CRACKERS",
+   "uid": "RQo5clMnTISUzfZPTNP45X6KiwX2"
+  },
+  {
+   "name": "ALLIEE",
+   "uid": "AQFYmu5q1GdbUH2vvG2OUKRheLI2"
+  },
+  {
+   "uid": "e5asNwAXqta7nG9f04i6pXm5vDw1",
+   "name": "JCB"
+  },
+  {
+   "name": "JDAWG",
+   "uid": "lbl8JewS5kfqvLMjEkm4qJh7QYU2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

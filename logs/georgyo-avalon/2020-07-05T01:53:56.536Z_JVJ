@@ -1,0 +1,235 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593914036,
+  "_nanoseconds": 536000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "RUM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "BEN"
+   },
+   {
+    "assassin": false,
+    "name": "SRINATH",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "NATHAN"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRIS"
+   }
+  ],
+  "votes": [
+   {
+    "RUM": true,
+    "BEN": true
+   },
+   {
+    "BEN": false,
+    "RUM": true,
+    "NATHAN": false
+   },
+   {
+    "ALEX": true,
+    "RUM": true,
+    "SRINATH": true,
+    "CHRIS": true
+   },
+   {
+    "SRINATH": true,
+    "CHRIS": true,
+    "ALEX": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "SRINATH"
+ },
+ "timeFinished": {
+  "_seconds": 1593914519,
+  "_nanoseconds": 204000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "RUM",
+    "BEN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SRINATH",
+      "NATHAN",
+      "CHRIS",
+      "RUM",
+      "ALEX",
+      "BEN"
+     ],
+     "proposer": "RUM",
+     "team": [
+      "RUM",
+      "BEN"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "RUM",
+      "BEN",
+      "SRINATH",
+      "NATHAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "RUM",
+      "BEN",
+      "NATHAN"
+     ],
+     "proposer": "BEN"
+    }
+   ],
+   "numFails": 2,
+   "team": [
+    "RUM",
+    "BEN",
+    "NATHAN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "ALEX",
+    "CHRIS",
+    "SRINATH",
+    "RUM"
+   ],
+   "proposals": [
+    {
+     "proposer": "NATHAN",
+     "team": [
+      "NATHAN",
+      "ALEX",
+      "SRINATH",
+      "CHRIS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "NATHAN"
+     ]
+    },
+    {
+     "votes": [
+      "RUM",
+      "ALEX",
+      "SRINATH",
+      "CHRIS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "CHRIS",
+      "SRINATH",
+      "RUM"
+     ],
+     "proposer": "ALEX"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "CHRIS",
+      "SRINATH"
+     ],
+     "state": "APPROVED",
+     "proposer": "CHRIS",
+     "votes": [
+      "RUM",
+      "ALEX",
+      "SRINATH",
+      "NATHAN",
+      "CHRIS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0,
+   "team": [
+    "ALEX",
+    "CHRIS",
+    "SRINATH"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "Mlj1qcrbbPh3rdp4IXOSSGUH1it1"
+  },
+  {
+   "uid": "KzT00XSSEjdTKXa0SSMsagAlPqt1",
+   "name": "SRINATH"
+  },
+  {
+   "name": "RUM",
+   "uid": "Wr2kCw2bEhd65IHciJObz5WIOK53"
+  },
+  {
+   "name": "BEN",
+   "uid": "kLcA2vNNH7N9dUmvlsAaRIoryUO2"
+  },
+  {
+   "uid": "jeWwT2iLauOBK1EWkm8HEA0LF5h1",
+   "name": "NATHAN"
+  },
+  {
+   "name": "ALEX",
+   "uid": "RQSiWEI5IRfYS70BzidxD5pfTNC3"
+  }
+ ]
+}

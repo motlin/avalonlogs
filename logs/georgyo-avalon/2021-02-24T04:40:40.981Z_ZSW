@@ -1,0 +1,247 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JESS": true,
+    "DK": true
+   },
+   {
+    "JESS": true,
+    "DK": true,
+    "CUMBERBAE": false
+   },
+   {
+    "DORICE": true,
+    "JESS": true,
+    "JAY": false,
+    "CUMBERBAE": true
+   },
+   {
+    "DK": true,
+    "JAY": false,
+    "TIAN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "JAY",
+    "assassin": false
+   },
+   {
+    "name": "TIAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "DK",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CUMBERBAE",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "DORICE"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JESS"
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JESS",
+      "DK"
+     ],
+     "proposer": "JESS",
+     "votes": [
+      "JESS",
+      "JAY",
+      "DORICE",
+      "DK",
+      "TIAN",
+      "CUMBERBAE"
+     ]
+    }
+   ],
+   "team": [
+    "JESS",
+    "DK"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "DK",
+     "votes": [
+      "DORICE",
+      "DK",
+      "JESS",
+      "CUMBERBAE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DK",
+      "JESS",
+      "CUMBERBAE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "team": [
+    "DK",
+    "JESS",
+    "CUMBERBAE"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "DORICE",
+    "JESS",
+    "CUMBERBAE",
+    "JAY"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CUMBERBAE",
+     "state": "REJECTED",
+     "team": [
+      "JAY",
+      "CUMBERBAE",
+      "TIAN",
+      "JESS"
+     ],
+     "votes": [
+      "TIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "TIAN"
+     ],
+     "team": [
+      "TIAN",
+      "JAY",
+      "CUMBERBAE",
+      "JESS"
+     ],
+     "proposer": "TIAN"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "DORICE",
+     "team": [
+      "DORICE",
+      "JESS",
+      "CUMBERBAE",
+      "JAY"
+     ],
+     "votes": [
+      "JESS",
+      "TIAN",
+      "DORICE",
+      "CUMBERBAE"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "DK",
+      "TIAN",
+      "JESS",
+      "JAY"
+     ],
+     "team": [
+      "JAY",
+      "DK",
+      "TIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAY"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "JAY",
+    "DK",
+    "TIAN"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "JAY",
+   "uid": "pIjSItKivKMn77h7ZckVCClmZIx2"
+  },
+  {
+   "uid": "7ic4lvFDEIOVVc1zMDm3X5p4ywJ3",
+   "name": "JESS"
+  },
+  {
+   "name": "DK",
+   "uid": "KI3PiEivMyaNimyKHXISGlV99yc2"
+  },
+  {
+   "uid": "NXi2HRKn4eMBFW1xEXyPZqfidZy2",
+   "name": "CUMBERBAE"
+  },
+  {
+   "uid": "LzqUwZcUU6axzfarkXcfJGaWul22",
+   "name": "TIAN"
+  },
+  {
+   "uid": "SJpry8iE2XUXULBPHg3hNzunphk1",
+   "name": "DORICE"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1614142580,
+  "_nanoseconds": 238000000
+ },
+ "timeCreated": {
+  "_seconds": 1614141640,
+  "_nanoseconds": 981000000
+ }
+}

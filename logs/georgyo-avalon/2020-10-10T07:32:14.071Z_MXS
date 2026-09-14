@@ -1,0 +1,247 @@
+{
+ "players": [
+  {
+   "name": "RYAN",
+   "uid": "9AvhmBxoE4exIMcCpQNx8MnuJTO2"
+  },
+  {
+   "name": "ALLY",
+   "uid": "2YorulrFNHb2MdA2YHOao6nNfS52"
+  },
+  {
+   "name": "DRSUES",
+   "uid": "aoQvgG3wE6c0b1xmTJthRZs5E433"
+  },
+  {
+   "uid": "gwix1oO6aIT8R7vtBfwGdZEPFKG2",
+   "name": "JAY"
+  },
+  {
+   "uid": "KAVm2nNtkoP0XFRiO5JSSqHLcAv1",
+   "name": "JEJMIN"
+  },
+  {
+   "name": "JOON",
+   "uid": "j9ls4MYglxZclHY6BCerDK8x7Vk2"
+  },
+  {
+   "name": "BRANDEN",
+   "uid": "Vx8DzbnEyrezzZk1KQFcmEgq2Op1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "RYAN",
+    "JAY"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "RYAN",
+      "JAY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "JAY",
+      "JEJMIN",
+      "BRANDEN",
+      "JOON",
+      "ALLY",
+      "RYAN"
+     ],
+     "proposer": "JAY"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "JEJMIN",
+    "JAY",
+    "RYAN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "BRANDEN",
+      "JOON",
+      "ALLY",
+      "RYAN",
+      "JAY",
+      "JEJMIN"
+     ],
+     "proposer": "JEJMIN",
+     "team": [
+      "JEJMIN",
+      "JAY",
+      "RYAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "RYAN",
+    "ALLY",
+    "BRANDEN"
+   ],
+   "proposals": [
+    {
+     "proposer": "JOON",
+     "votes": [
+      "JEJMIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JEJMIN",
+      "JOON",
+      "JAY"
+     ]
+    },
+    {
+     "votes": [
+      "BRANDEN",
+      "RYAN",
+      "JOON",
+      "ALLY",
+      "JAY",
+      "JEJMIN"
+     ],
+     "team": [
+      "RYAN",
+      "ALLY",
+      "BRANDEN"
+     ],
+     "proposer": "BRANDEN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "RYAN",
+    "ALLY",
+    "BRANDEN",
+    "JAY"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "ALLY",
+      "JAY",
+      "RYAN",
+      "BRANDEN",
+      "JOON"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYAN",
+     "team": [
+      "RYAN",
+      "ALLY",
+      "BRANDEN",
+      "JAY"
+     ]
+    }
+   ],
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1602316971,
+  "_nanoseconds": 820000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "RYAN": true,
+    "JAY": true
+   },
+   {
+    "JEJMIN": true,
+    "RYAN": true,
+    "JAY": false
+   },
+   {
+    "RYAN": true,
+    "ALLY": true,
+    "BRANDEN": true
+   },
+   {
+    "RYAN": true,
+    "ALLY": true,
+    "JAY": true,
+    "BRANDEN": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "BRANDEN"
+   },
+   {
+    "role": "MORDRED",
+    "name": "JOON",
+    "assassin": false
+   },
+   {
+    "name": "DRSUES",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "JEJMIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "JAY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALLY",
+    "assassin": false
+   },
+   {
+    "name": "RYAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": "BRANDEN"
+ },
+ "timeCreated": {
+  "_seconds": 1602315134,
+  "_nanoseconds": 71000000
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "timeCreated": {
+  "_seconds": 1587176930,
+  "_nanoseconds": 152000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "BANANA": true,
+    "NITWIT": true,
+    "MERWIN": false
+   },
+   {
+    "CHAITHANYA": true,
+    "MERWIN": true,
+    "PKBOOLEAN": false,
+    "ABHIJIT": true
+   },
+   {
+    "SUSHHI": true,
+    "BANANA": true,
+    "PKBOOLEAN": false,
+    "AVI": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ABHIJIT",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BANANA",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "SUSHHI",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "MERWIN"
+   },
+   {
+    "name": "PKBOOLEAN",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "AVI",
+    "assassin": false
+   },
+   {
+    "name": "NITWIT",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "CHAITHANYA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "players": [
+  {
+   "name": "CHAITHANYA",
+   "uid": "cAjDOV1WbPRqRjv28SDq7BYb6Up2"
+  },
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "SUSHHI"
+  },
+  {
+   "name": "ABHIJIT",
+   "uid": "EccvBFC0axSC6fAdNR0WC6sNsB33"
+  },
+  {
+   "uid": "weox9NOyNDZiyKTtPDAXxvazdFV2",
+   "name": "BANANA"
+  },
+  {
+   "name": "PKBOOLEAN",
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652"
+  },
+  {
+   "uid": "RMh8asPf7khAo3YWIMNdy1EDHDp2",
+   "name": "AVI"
+  },
+  {
+   "uid": "M9nSGFmZJLediRJeU20AOG8aVjU2",
+   "name": "NITWIT"
+  },
+  {
+   "name": "MERWIN",
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "BANANA",
+    "MERWIN",
+    "NITWIT"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BANANA",
+      "MERWIN",
+      "NITWIT"
+     ],
+     "proposer": "BANANA",
+     "votes": [
+      "CHAITHANYA",
+      "BANANA",
+      "SUSHHI",
+      "MERWIN",
+      "PKBOOLEAN",
+      "NITWIT"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "PKBOOLEAN",
+    "CHAITHANYA",
+    "ABHIJIT",
+    "MERWIN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "PKBOOLEAN",
+      "CHAITHANYA",
+      "ABHIJIT",
+      "MERWIN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SUSHHI",
+      "MERWIN",
+      "PKBOOLEAN",
+      "NITWIT",
+      "CHAITHANYA"
+     ],
+     "proposer": "PKBOOLEAN"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "AVI",
+      "NITWIT"
+     ],
+     "team": [
+      "BANANA",
+      "NITWIT",
+      "AVI",
+      "ABHIJIT"
+     ],
+     "proposer": "AVI",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "BANANA",
+      "AVI",
+      "SUSHHI",
+      "PKBOOLEAN"
+     ],
+     "proposer": "NITWIT",
+     "state": "APPROVED",
+     "votes": [
+      "BANANA",
+      "SUSHHI",
+      "MERWIN",
+      "PKBOOLEAN",
+      "AVI",
+      "NITWIT"
+     ]
+    }
+   ],
+   "team": [
+    "BANANA",
+    "AVI",
+    "SUSHHI",
+    "PKBOOLEAN"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 2,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5
+  },
+  {
+   "teamSize": 5,
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587177813,
+  "_nanoseconds": 833000000
+ }
+}

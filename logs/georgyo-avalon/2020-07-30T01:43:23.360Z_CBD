@@ -1,0 +1,248 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "VIC": true,
+    "JACOB": true
+   },
+   {
+    "MILLERTIME": true,
+    "JACOB": false,
+    "VIC": true
+   },
+   {
+    "KEON": true,
+    "VIC": true
+   },
+   {
+    "KEON": true,
+    "VIC": true,
+    "JACOB": false
+   },
+   {
+    "MILLERTIME": true,
+    "KEON": true,
+    "VIC": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "name": "MILLERTIME",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "EMERSON"
+   },
+   {
+    "name": "JACOB",
+    "role": "EVIL MINION",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "KEON"
+   },
+   {
+    "assassin": false,
+    "name": "VIC",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Three missions succeeded"
+ },
+ "players": [
+  {
+   "uid": "l8JzD6xjccgDr0LeRniyX7zhlPP2",
+   "name": "MILLERTIME"
+  },
+  {
+   "uid": "2kkT3FL8EsOPKj3k1U3nv1g07Ou1",
+   "name": "JACOB"
+  },
+  {
+   "name": "KEON",
+   "uid": "CRAo4cjSqXM6sZ3vr9VK2YLji003"
+  },
+  {
+   "name": "EMERSON",
+   "uid": "KgEg5NvTY6OkEOFw5RNqb6eEAVD3"
+  },
+  {
+   "name": "VIC",
+   "uid": "rxsLmVGWOgcjCqKDTokMNyu8k7o2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1596074462,
+  "_nanoseconds": 894000000
+ },
+ "missions": [
+  {
+   "team": [
+    "VIC",
+    "JACOB"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "VIC",
+     "state": "APPROVED",
+     "votes": [
+      "JACOB",
+      "KEON",
+      "MILLERTIME",
+      "VIC"
+     ],
+     "team": [
+      "VIC",
+      "JACOB"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "MILLERTIME",
+    "JACOB",
+    "VIC"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "MILLERTIME",
+     "state": "APPROVED",
+     "team": [
+      "MILLERTIME",
+      "JACOB",
+      "VIC"
+     ],
+     "votes": [
+      "JACOB",
+      "MILLERTIME",
+      "VIC"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "KEON",
+    "VIC"
+   ],
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "JACOB",
+     "team": [
+      "EMERSON",
+      "VIC"
+     ]
+    },
+    {
+     "proposer": "KEON",
+     "votes": [
+      "KEON",
+      "VIC",
+      "JACOB"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "KEON",
+      "VIC"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "EMERSON",
+     "state": "REJECTED",
+     "team": [
+      "EMERSON",
+      "KEON",
+      "VIC"
+     ],
+     "votes": [
+      "KEON",
+      "EMERSON"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "KEON",
+      "JACOB",
+      "VIC"
+     ],
+     "proposer": "VIC",
+     "votes": [
+      "VIC",
+      "KEON",
+      "JACOB"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "team": [
+    "KEON",
+    "JACOB",
+    "VIC"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "MILLERTIME",
+    "KEON",
+    "VIC"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MILLERTIME",
+      "KEON",
+      "VIC"
+     ],
+     "proposer": "MILLERTIME",
+     "state": "APPROVED",
+     "votes": [
+      "MILLERTIME",
+      "KEON",
+      "VIC"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1596073403,
+  "_nanoseconds": 360000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

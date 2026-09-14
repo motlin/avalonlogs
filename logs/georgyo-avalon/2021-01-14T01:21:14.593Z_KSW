@@ -1,0 +1,230 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "TARA",
+   "uid": "PtnYZP937Yaj3BRoOoEibJKvmNq1"
+  },
+  {
+   "name": "CONNIE",
+   "uid": "k1V219mrmGYAsgT90qxUWc7lURs2"
+  },
+  {
+   "name": "ANAHITA",
+   "uid": "VOL3sfphhTb4cJ8VaE5fBBxDbDU2"
+  },
+  {
+   "name": "LAUREN",
+   "uid": "Tglc1lFpkPZ71xrGQDeieBc3hc72"
+  },
+  {
+   "name": "IMANI",
+   "uid": "HWXm0y7Y8GczWXABvfomdJPUkrK2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1610587706,
+  "_nanoseconds": 180000000
+ },
+ "timeCreated": {
+  "_seconds": 1610587274,
+  "_nanoseconds": 593000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "CONNIE": true,
+    "LAUREN": true
+   },
+   {
+    "CONNIE": false,
+    "IMANI": true,
+    "ANAHITA": true
+   },
+   {
+    "LAUREN": true,
+    "CONNIE": true
+   },
+   {
+    "TARA": true,
+    "IMANI": true,
+    "LAUREN": false
+   },
+   {
+    "TARA": true,
+    "ANAHITA": true,
+    "IMANI": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "TARA"
+   },
+   {
+    "assassin": false,
+    "name": "CONNIE",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ANAHITA",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "LAUREN"
+   },
+   {
+    "assassin": false,
+    "name": "IMANI",
+    "role": "PERCIVAL"
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "IMANI"
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "team": [
+    "CONNIE",
+    "LAUREN"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CONNIE",
+      "LAUREN"
+     ],
+     "votes": [
+      "IMANI",
+      "ANAHITA",
+      "CONNIE",
+      "TARA",
+      "LAUREN"
+     ],
+     "proposer": "CONNIE"
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ANAHITA",
+    "CONNIE",
+    "IMANI"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ANAHITA",
+     "votes": [
+      "CONNIE",
+      "IMANI",
+      "ANAHITA"
+     ],
+     "team": [
+      "ANAHITA",
+      "CONNIE",
+      "IMANI"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "CONNIE",
+    "LAUREN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CONNIE",
+      "ANAHITA",
+      "LAUREN"
+     ],
+     "team": [
+      "CONNIE",
+      "LAUREN"
+     ],
+     "proposer": "LAUREN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "IMANI",
+    "TARA",
+    "LAUREN"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "IMANI",
+     "votes": [
+      "ANAHITA",
+      "CONNIE",
+      "LAUREN",
+      "TARA",
+      "IMANI"
+     ],
+     "team": [
+      "IMANI",
+      "TARA",
+      "LAUREN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "TARA",
+    "IMANI",
+    "ANAHITA"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "TARA",
+      "IMANI",
+      "ANAHITA"
+     ],
+     "proposer": "TARA",
+     "state": "APPROVED",
+     "votes": [
+      "IMANI",
+      "CONNIE",
+      "TARA",
+      "ANAHITA"
+     ]
+    }
+   ]
+  }
+ ]
+}

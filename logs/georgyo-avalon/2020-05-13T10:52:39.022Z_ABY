@@ -1,0 +1,232 @@
+{
+ "players": [
+  {
+   "name": "SOVEREIGN",
+   "uid": "hJiNVPvKNVNZrAynLC7dKKaLkU22"
+  },
+  {
+   "uid": "z9rJN41CX3RPQD3KnRDIc4omgdo2",
+   "name": "WEI"
+  },
+  {
+   "name": "SWEE",
+   "uid": "JnvFx6wpH8T4LQorOxnu0KTuk1s1"
+  },
+  {
+   "name": "WEILUN",
+   "uid": "w6eoxVI6I5NrapBHh3I4tf1Igvr1"
+  },
+  {
+   "name": "ROBIN",
+   "uid": "ebEgmZuKkIgkRJkcrMMtNXmpJhB2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SOVEREIGN",
+      "SWEE",
+      "WEILUN",
+      "ROBIN",
+      "WEI"
+     ],
+     "team": [
+      "WEI",
+      "ROBIN"
+     ],
+     "proposer": "WEI"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "WEI",
+    "ROBIN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "WEI",
+    "ROBIN",
+    "SWEE"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "WEILUN",
+      "ROBIN",
+      "WEI",
+      "SOVEREIGN",
+      "SWEE"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "WEI",
+      "ROBIN",
+      "SWEE"
+     ],
+     "proposer": "SWEE"
+    }
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "WEI",
+      "SOVEREIGN",
+      "SWEE",
+      "WEILUN",
+      "ROBIN"
+     ],
+     "proposer": "WEILUN",
+     "team": [
+      "WEILUN",
+      "SOVEREIGN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "team": [
+    "WEILUN",
+    "SOVEREIGN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "SOVEREIGN",
+    "WEILUN",
+    "ROBIN"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "SOVEREIGN",
+      "WEILUN",
+      "ROBIN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SOVEREIGN",
+      "WEILUN",
+      "ROBIN"
+     ],
+     "proposer": "ROBIN"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "team": [
+    "SOVEREIGN",
+    "WEI",
+    "WEILUN"
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "SOVEREIGN",
+     "state": "APPROVED",
+     "votes": [
+      "WEILUN",
+      "ROBIN",
+      "WEI",
+      "SOVEREIGN"
+     ],
+     "team": [
+      "SOVEREIGN",
+      "WEI",
+      "WEILUN"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589367496,
+  "_nanoseconds": 32000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "WEILUN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "name": "ROBIN",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "WEI"
+   },
+   {
+    "name": "SOVEREIGN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "SWEE",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "votes": [
+   {
+    "WEI": true,
+    "ROBIN": true
+   },
+   {
+    "ROBIN": false,
+    "SWEE": true,
+    "WEI": true
+   },
+   {
+    "WEILUN": true,
+    "SOVEREIGN": true
+   },
+   {
+    "WEILUN": true,
+    "ROBIN": false,
+    "SOVEREIGN": true
+   },
+   {
+    "SOVEREIGN": false,
+    "WEILUN": true,
+    "WEI": true
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589367159,
+  "_nanoseconds": 22000000
+ }
+}

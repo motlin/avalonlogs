@@ -1,0 +1,497 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORDRED",
+    "name": "NOTSO"
+   },
+   {
+    "name": "BARNABY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "GEAORGE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SIRJOSCHKA",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JAMES",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "RONAN"
+   },
+   {
+    "name": "ARTEMIS",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "HAYDEN",
+    "assassin": false
+   },
+   {
+    "name": "MAEL",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "NOTSO": true,
+    "BARNABY": true,
+    "GEAORGE": true
+   },
+   {
+    "BARNABY": true,
+    "RONAN": true,
+    "GEAORGE": true,
+    "NOTSO": true
+   },
+   {
+    "GEAORGE": true,
+    "NOTSO": false,
+    "RONAN": true,
+    "BARNABY": true
+   },
+   {
+    "MAEL": false,
+    "RONAN": true,
+    "HAYDEN": true,
+    "NOTSO": false,
+    "BARNABY": true
+   },
+   {
+    "JAMES": true,
+    "ARTEMIS": true,
+    "RONAN": true,
+    "SIRJOSCHKA": true,
+    "BARNABY": true
+   }
+  ],
+  "assassinated": "JAMES"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SIRJOSCHKA",
+      "JAMES",
+      "RONAN"
+     ],
+     "team": [
+      "RONAN",
+      "JAMES",
+      "SIRJOSCHKA"
+     ],
+     "proposer": "RONAN",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "HAYDEN",
+      "MAEL",
+      "ARTEMIS"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ARTEMIS",
+      "HAYDEN",
+      "MAEL"
+     ],
+     "proposer": "ARTEMIS"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAEL",
+      "BARNABY"
+     ],
+     "team": [
+      "HAYDEN",
+      "BARNABY",
+      "MAEL"
+     ],
+     "proposer": "HAYDEN"
+    },
+    {
+     "votes": [
+      "MAEL"
+     ],
+     "team": [
+      "MAEL",
+      "HAYDEN",
+      "ARTEMIS"
+     ],
+     "proposer": "MAEL",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "RONAN",
+      "ARTEMIS",
+      "HAYDEN",
+      "MAEL",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "SIRJOSCHKA",
+      "JAMES"
+     ],
+     "proposer": "NOTSO",
+     "state": "APPROVED",
+     "team": [
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "NOTSO",
+    "BARNABY",
+    "GEAORGE"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "SIRJOSCHKA"
+     ],
+     "proposer": "BARNABY",
+     "state": "REJECTED",
+     "team": [
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "SIRJOSCHKA"
+     ]
+    },
+    {
+     "team": [
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "ARTEMIS"
+     ],
+     "proposer": "GEAORGE",
+     "state": "REJECTED",
+     "votes": [
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "SIRJOSCHKA",
+     "votes": [
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "SIRJOSCHKA"
+     ],
+     "team": [
+      "SIRJOSCHKA",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE"
+     ]
+    },
+    {
+     "votes": [
+      "BARNABY",
+      "GEAORGE",
+      "JAMES",
+      "NOTSO"
+     ],
+     "state": "REJECTED",
+     "proposer": "JAMES",
+     "team": [
+      "JAMES",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE"
+     ]
+    },
+    {
+     "team": [
+      "RONAN",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE"
+     ],
+     "proposer": "RONAN",
+     "votes": [
+      "ARTEMIS",
+      "HAYDEN",
+      "MAEL",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "SIRJOSCHKA",
+      "JAMES",
+      "RONAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "RONAN",
+    "NOTSO",
+    "BARNABY",
+    "GEAORGE"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RONAN",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE"
+     ],
+     "proposer": "ARTEMIS",
+     "votes": [
+      "HAYDEN",
+      "MAEL",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "SIRJOSCHKA",
+      "JAMES",
+      "RONAN"
+     ]
+    }
+   ],
+   "team": [
+    "RONAN",
+    "NOTSO",
+    "BARNABY",
+    "GEAORGE"
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 5,
+   "state": "FAIL",
+   "failsRequired": 2,
+   "numFails": 2,
+   "proposals": [
+    {
+     "proposer": "HAYDEN",
+     "votes": [
+      "HAYDEN",
+      "NOTSO",
+      "GEAORGE"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "RONAN",
+      "NOTSO",
+      "BARNABY",
+      "GEAORGE",
+      "HAYDEN"
+     ]
+    },
+    {
+     "team": [
+      "MAEL",
+      "RONAN",
+      "NOTSO",
+      "BARNABY",
+      "HAYDEN"
+     ],
+     "proposer": "MAEL",
+     "state": "APPROVED",
+     "votes": [
+      "HAYDEN",
+      "MAEL",
+      "NOTSO",
+      "BARNABY",
+      "SIRJOSCHKA"
+     ]
+    }
+   ],
+   "team": [
+    "MAEL",
+    "RONAN",
+    "NOTSO",
+    "BARNABY",
+    "HAYDEN"
+   ]
+  },
+  {
+   "team": [
+    "JAMES",
+    "ARTEMIS",
+    "RONAN",
+    "SIRJOSCHKA",
+    "BARNABY"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "RONAN",
+      "HAYDEN",
+      "NOTSO",
+      "BARNABY",
+      "SIRJOSCHKA"
+     ],
+     "state": "REJECTED",
+     "proposer": "NOTSO",
+     "votes": []
+    },
+    {
+     "votes": [
+      "BARNABY"
+     ],
+     "proposer": "BARNABY",
+     "state": "REJECTED",
+     "team": [
+      "ARTEMIS",
+      "JAMES",
+      "SIRJOSCHKA",
+      "BARNABY",
+      "RONAN"
+     ]
+    },
+    {
+     "votes": [
+      "GEAORGE",
+      "MAEL",
+      "NOTSO"
+     ],
+     "team": [
+      "GEAORGE",
+      "RONAN",
+      "BARNABY",
+      "JAMES",
+      "NOTSO"
+     ],
+     "proposer": "GEAORGE",
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAEL",
+      "SIRJOSCHKA"
+     ],
+     "team": [
+      "SIRJOSCHKA",
+      "ARTEMIS",
+      "RONAN",
+      "GEAORGE",
+      "JAMES"
+     ],
+     "proposer": "SIRJOSCHKA"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "JAMES",
+     "votes": [
+      "RONAN",
+      "ARTEMIS",
+      "HAYDEN",
+      "NOTSO",
+      "BARNABY",
+      "SIRJOSCHKA",
+      "JAMES"
+     ],
+     "team": [
+      "JAMES",
+      "ARTEMIS",
+      "RONAN",
+      "SIRJOSCHKA",
+      "BARNABY"
+     ]
+    }
+   ],
+   "teamSize": 5,
+   "numFails": 0
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1586992975,
+  "_nanoseconds": 290000000
+ },
+ "players": [
+  {
+   "name": "JAMES",
+   "uid": "TUvaKdrdRrRF5SM1EVFmEkzjnvL2"
+  },
+  {
+   "name": "RONAN",
+   "uid": "jmVsQpe5qCXsj5gUpHkUgEAsJvY2"
+  },
+  {
+   "uid": "AZ3z34x6ogStcYXzkRVf7bFzjBm1",
+   "name": "ARTEMIS"
+  },
+  {
+   "name": "HAYDEN",
+   "uid": "P2bEB4bJlWX0FVzKofin2A5FmTc2"
+  },
+  {
+   "uid": "y7g1weahVLWM7ZY3O35JD0aWXGm2",
+   "name": "MAEL"
+  },
+  {
+   "uid": "jetOD2tlf3PcaRuXGegEfbMqcUg2",
+   "name": "NOTSO"
+  },
+  {
+   "name": "BARNABY",
+   "uid": "aHO0UFdBqCRDwbeQk4DCbViNVjC2"
+  },
+  {
+   "name": "GEAORGE",
+   "uid": "4PVIw6rJkFYPkm8beXj3H8OJQ332"
+  },
+  {
+   "uid": "VDVzijUrwVTGQ3rYwNvoouW0t272",
+   "name": "SIRJOSCHKA"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586995120,
+  "_nanoseconds": 927967000
+ }
+}

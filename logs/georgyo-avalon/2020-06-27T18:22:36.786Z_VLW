@@ -1,0 +1,198 @@
+{
+ "players": [
+  {
+   "name": "ARTH",
+   "uid": "cORmGt7PxMTwGU0YNt09fmYNXK63"
+  },
+  {
+   "uid": "EgAGHRRxcEf5WMfnex3cCVsxnlz1",
+   "name": "SHINTOWA"
+  },
+  {
+   "uid": "UVzjJn8xErgtLz0n8tnfg57xqDw2",
+   "name": "JAMIE"
+  },
+  {
+   "uid": "QL5Ovpspn9SC3LFXtxXAleAGNjk2",
+   "name": "MATEO"
+  },
+  {
+   "uid": "JfL1lB1zYOc09vEapFfCfkRkF232",
+   "name": "BEN"
+  },
+  {
+   "uid": "sIyZAPeUL1a51o68i8GZ3Et9Ryn1",
+   "name": "DHIVAN"
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "JAMIE": true,
+    "BEN": true
+   },
+   {
+    "JAMIE": true,
+    "MATEO": true,
+    "BEN": true
+   },
+   {
+    "SHINTOWA": true,
+    "MATEO": true,
+    "BEN": true,
+    "JAMIE": true
+   }
+  ],
+  "assassinated": "JAMIE",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JAMIE",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "ARTH"
+   },
+   {
+    "assassin": true,
+    "name": "DHIVAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "BEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MATEO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SHINTOWA",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated"
+ },
+ "timeCreated": {
+  "_seconds": 1593282156,
+  "_nanoseconds": 786000000
+ },
+ "timeFinished": {
+  "_seconds": 1593282312,
+  "_nanoseconds": 384000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "team": [
+    "JAMIE",
+    "BEN"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "JAMIE",
+      "BEN"
+     ],
+     "votes": [
+      "SHINTOWA",
+      "JAMIE",
+      "ARTH",
+      "DHIVAN",
+      "BEN",
+      "MATEO"
+     ],
+     "state": "APPROVED",
+     "proposer": "JAMIE"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "MATEO",
+    "BEN",
+    "JAMIE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "MATEO",
+      "BEN",
+      "JAMIE"
+     ],
+     "proposer": "MATEO",
+     "state": "APPROVED",
+     "votes": [
+      "JAMIE",
+      "DHIVAN",
+      "BEN",
+      "MATEO",
+      "SHINTOWA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 4,
+   "numFails": 0,
+   "team": [
+    "BEN",
+    "MATEO",
+    "JAMIE",
+    "SHINTOWA"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "DHIVAN",
+      "BEN",
+      "MATEO",
+      "SHINTOWA",
+      "JAMIE",
+      "ARTH"
+     ],
+     "proposer": "BEN",
+     "state": "APPROVED",
+     "team": [
+      "BEN",
+      "MATEO",
+      "JAMIE",
+      "SHINTOWA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 3,
+   "team": []
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": []
+  }
+ ]
+}

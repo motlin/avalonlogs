@@ -1,0 +1,234 @@
+{
+ "timeFinished": {
+  "_seconds": 1612019323,
+  "_nanoseconds": 697000000
+ },
+ "timeCreated": {
+  "_seconds": 1612018763,
+  "_nanoseconds": 743000000
+ },
+ "players": [
+  {
+   "name": "REBECCA",
+   "uid": "5SPRhPMJCbeBqx9PLRP28RI1Dot2"
+  },
+  {
+   "name": "KIKI",
+   "uid": "7wLyVQ0ckrX0GEFmmFX1vgkTorl2"
+  },
+  {
+   "uid": "FouNZT7mh1ZOekwdKO4B21zz3Cd2",
+   "name": "G"
+  },
+  {
+   "name": "STARLORD",
+   "uid": "nnAIdqSflsOAOck1aTxRTWeojKo1"
+  },
+  {
+   "uid": "sbwBpjLENIUhWXrcnum63POcoQK2",
+   "name": "ASH"
+  },
+  {
+   "name": "PAUL",
+   "uid": "WxouQm8LGycqOVPisjhOAeaYulG3"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "team": [
+    "ASH",
+    "KIKI"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ASH",
+      "PAUL",
+      "KIKI",
+      "REBECCA",
+      "G"
+     ],
+     "team": [
+      "ASH",
+      "KIKI"
+     ],
+     "state": "APPROVED",
+     "proposer": "KIKI"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "REBECCA",
+    "PAUL",
+    "STARLORD"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "votes": [
+      "REBECCA",
+      "G",
+      "PAUL",
+      "STARLORD"
+     ],
+     "proposer": "G",
+     "team": [
+      "REBECCA",
+      "PAUL",
+      "STARLORD"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "REBECCA",
+    "PAUL",
+    "KIKI",
+    "STARLORD"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "STARLORD",
+     "votes": [
+      "KIKI",
+      "STARLORD",
+      "G",
+      "PAUL"
+     ],
+     "team": [
+      "REBECCA",
+      "PAUL",
+      "KIKI",
+      "STARLORD"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "REBECCA",
+    "KIKI",
+    "STARLORD"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ASH",
+      "PAUL",
+      "G"
+     ],
+     "proposer": "ASH",
+     "votes": [
+      "G",
+      "ASH"
+     ]
+    },
+    {
+     "votes": [
+      "PAUL",
+      "KIKI",
+      "G",
+      "REBECCA",
+      "STARLORD"
+     ],
+     "team": [
+      "REBECCA",
+      "KIKI",
+      "STARLORD"
+     ],
+     "state": "APPROVED",
+     "proposer": "PAUL"
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "ASH": false,
+    "KIKI": true
+   },
+   {
+    "REBECCA": true,
+    "STARLORD": true,
+    "PAUL": true
+   },
+   {
+    "PAUL": true,
+    "REBECCA": true,
+    "KIKI": true,
+    "STARLORD": true
+   },
+   {
+    "KIKI": true,
+    "STARLORD": true,
+    "REBECCA": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "KIKI",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "STARLORD",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "PAUL",
+    "assassin": false
+   },
+   {
+    "name": "REBECCA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ASH",
+    "role": "MORGANA"
+   },
+   {
+    "name": "G",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "assassinated": "STARLORD"
+ }
+}

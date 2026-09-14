@@ -1,0 +1,305 @@
+{
+ "timeFinished": {
+  "_seconds": 1585973416,
+  "_nanoseconds": 38043000
+ },
+ "timeCreated": {
+  "_seconds": 1585972706,
+  "_nanoseconds": 141000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "ME",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "PETER"
+   },
+   {
+    "name": "BUGGIE",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "SARAHAHAHA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NRGZ",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "JERLIN",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "BUGGIE",
+  "votes": [
+   {
+    "ME": true,
+    "NRGZ": true
+   },
+   {
+    "NRGZ": true,
+    "ME": false,
+    "SARAHAHAHA": true
+   },
+   {
+    "PETER": true,
+    "ME": false,
+    "BUGGIE": true,
+    "JERLIN": true
+   },
+   {
+    "BUGGIE": true,
+    "JERLIN": true,
+    "SARAHAHAHA": true
+   },
+   {
+    "BUGGIE": true,
+    "SARAHAHAHA": true,
+    "NRGZ": true,
+    "JERLIN": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "ME",
+    "NRGZ"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ME",
+      "BUGGIE",
+      "SARAHAHAHA",
+      "NRGZ",
+      "JERLIN"
+     ],
+     "team": [
+      "ME",
+      "NRGZ"
+     ],
+     "proposer": "ME"
+    }
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NRGZ",
+      "SARAHAHAHA",
+      "ME"
+     ],
+     "state": "APPROVED",
+     "proposer": "SARAHAHAHA",
+     "votes": [
+      "PETER",
+      "BUGGIE",
+      "SARAHAHAHA",
+      "NRGZ"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "team": [
+    "NRGZ",
+    "SARAHAHAHA",
+    "ME"
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "ME",
+    "PETER",
+    "BUGGIE",
+    "JERLIN"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "NRGZ",
+     "votes": [
+      "NRGZ",
+      "PETER"
+     ],
+     "team": [
+      "NRGZ",
+      "JERLIN",
+      "PETER",
+      "SARAHAHAHA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BUGGIE",
+      "NRGZ"
+     ],
+     "proposer": "BUGGIE",
+     "team": [
+      "NRGZ",
+      "BUGGIE",
+      "PETER",
+      "SARAHAHAHA"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "PETER",
+     "votes": [
+      "PETER"
+     ],
+     "team": [
+      "PETER",
+      "ME",
+      "SARAHAHAHA",
+      "NRGZ"
+     ]
+    },
+    {
+     "proposer": "JERLIN",
+     "state": "REJECTED",
+     "team": [
+      "NRGZ",
+      "JERLIN",
+      "SARAHAHAHA",
+      "BUGGIE"
+     ],
+     "votes": [
+      "NRGZ",
+      "JERLIN"
+     ]
+    },
+    {
+     "proposer": "ME",
+     "state": "APPROVED",
+     "votes": [
+      "ME",
+      "PETER",
+      "SARAHAHAHA",
+      "NRGZ"
+     ],
+     "team": [
+      "ME",
+      "PETER",
+      "BUGGIE",
+      "JERLIN"
+     ]
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "SARAHAHAHA",
+    "JERLIN",
+    "BUGGIE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "SARAHAHAHA",
+      "JERLIN",
+      "BUGGIE"
+     ],
+     "votes": [
+      "ME",
+      "PETER",
+      "BUGGIE",
+      "SARAHAHAHA",
+      "NRGZ",
+      "JERLIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "SARAHAHAHA"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "NRGZ",
+    "BUGGIE",
+    "JERLIN",
+    "SARAHAHAHA"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NRGZ",
+      "BUGGIE",
+      "JERLIN",
+      "SARAHAHAHA"
+     ],
+     "state": "APPROVED",
+     "proposer": "NRGZ",
+     "votes": [
+      "SARAHAHAHA",
+      "NRGZ",
+      "JERLIN",
+      "ME",
+      "PETER",
+      "BUGGIE"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "numFails": 0
+  }
+ ],
+ "players": [
+  {
+   "name": "NRGZ",
+   "uid": "uBIDCqRDtfbgwDHP8uQqbfXTXaK2"
+  },
+  {
+   "name": "BUGGIE",
+   "uid": "ntX7FbJkgQgwQZQyh3QQKOOvsXY2"
+  },
+  {
+   "name": "PETER",
+   "uid": "1ezUz2aAZ5UEKDD41zR3vfUjwMH3"
+  },
+  {
+   "name": "JERLIN",
+   "uid": "f9GbIgZD8fQxgwXQb3JOi24UvRh2"
+  },
+  {
+   "uid": "iY8oPllGTWW11QsugmUvnxrz6xL2",
+   "name": "ME"
+  },
+  {
+   "uid": "iGAwcfpgobUY6Trz29GkrPytJGs1",
+   "name": "SARAHAHAHA"
+  }
+ ]
+}

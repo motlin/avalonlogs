@@ -1,0 +1,204 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CAITLIN",
+     "team": [
+      "CAITLIN",
+      "BARWELL"
+     ],
+     "votes": [
+      "TODD",
+      "ANDY",
+      "BARWELL",
+      "CAITLIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CAITLIN",
+    "BARWELL"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ANDY",
+    "BARWELL",
+    "CAITLIN"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "TODD",
+      "ANDY",
+      "BARWELL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "ANDY",
+      "ALICE"
+     ],
+     "proposer": "ALICE"
+    },
+    {
+     "team": [
+      "CAITLIN",
+      "BARWELL",
+      "ANDY"
+     ],
+     "votes": [
+      "ANDY",
+      "BARWELL"
+     ],
+     "proposer": "BARWELL",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ANDY",
+      "ALICE",
+      "BARWELL",
+      "CAITLIN"
+     ],
+     "team": [
+      "ANDY",
+      "BARWELL",
+      "CAITLIN"
+     ],
+     "proposer": "ANDY",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "BARWELL",
+    "ANDY"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ANDY",
+      "ALICE",
+      "BARWELL",
+      "TODD"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "BARWELL",
+      "ANDY"
+     ],
+     "proposer": "TODD"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 3,
+   "team": []
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "team": [],
+   "proposals": [],
+   "teamSize": 3
+  }
+ ],
+ "players": [
+  {
+   "uid": "vpfGqtxejjXWS1COxi4YEkOVz3U2",
+   "name": "CAITLIN"
+  },
+  {
+   "uid": "KG767dfSgmOaacKmolfrfWTOGGr2",
+   "name": "ALICE"
+  },
+  {
+   "name": "BARWELL",
+   "uid": "j0ZOuvzQF8SL5PkhOrNsA74xYZp2"
+  },
+  {
+   "uid": "hBQAWZAci4XhPZaJCFlzS2JSOfg2",
+   "name": "ANDY"
+  },
+  {
+   "name": "TODD",
+   "uid": "vKr7qhoIrGOSWFOdMr5lNLyuzzn1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1587065979,
+  "_nanoseconds": 3711000
+ },
+ "timeCreated": {
+  "_seconds": 1587065656,
+  "_nanoseconds": 89000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "BARWELL": true,
+    "CAITLIN": true
+   },
+   {
+    "ANDY": true,
+    "BARWELL": true,
+    "CAITLIN": true
+   },
+   {
+    "BARWELL": true,
+    "ANDY": true
+   }
+  ],
+  "message": "Three successful missions",
+  "assassinated": "BARWELL",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "TODD",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ANDY",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ALICE"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BARWELL",
+    "assassin": false
+   },
+   {
+    "name": "CAITLIN",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ]
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "timeFinished": {
+  "_seconds": 1585514469,
+  "_nanoseconds": 995813000
+ },
+ "timeCreated": {
+  "_seconds": 1585514099,
+  "_nanoseconds": 992000000
+ },
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "EVA": false,
+    "LOGAN": true
+   },
+   {
+    "JOE": true,
+    "MAX": false,
+    "EVA": true
+   },
+   {
+    "JOE": true,
+    "IDO": true
+   },
+   {
+    "IDO": true,
+    "JOE": true,
+    "LOGAN": true
+   },
+   {
+    "JOE": true,
+    "IDO": true,
+    "LOGAN": true
+   }
+  ],
+  "assassinated": "JOE",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "EVA"
+   },
+   {
+    "name": "MAX",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JOE",
+    "assassin": false
+   },
+   {
+    "name": "IDO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LOGAN",
+    "role": "MERLIN"
+   }
+  ]
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "IDO",
+     "state": "REJECTED",
+     "team": [
+      "IDO",
+      "MAX"
+     ],
+     "votes": [
+      "IDO"
+     ]
+    },
+    {
+     "proposer": "MAX",
+     "state": "APPROVED",
+     "votes": [
+      "EVA",
+      "MAX",
+      "JOE",
+      "IDO",
+      "LOGAN"
+     ],
+     "team": [
+      "EVA",
+      "LOGAN"
+     ]
+    }
+   ],
+   "team": [
+    "EVA",
+    "LOGAN"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "votes": [
+      "EVA"
+     ],
+     "team": [
+      "LOGAN",
+      "JOE",
+      "MAX"
+     ],
+     "proposer": "EVA",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "MAX",
+      "LOGAN",
+      "JOE"
+     ],
+     "votes": [
+      "IDO",
+      "LOGAN"
+     ],
+     "proposer": "LOGAN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JOE",
+      "MAX",
+      "EVA"
+     ],
+     "votes": [
+      "EVA",
+      "MAX",
+      "JOE",
+      "IDO"
+     ],
+     "proposer": "JOE"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "JOE",
+    "MAX",
+    "EVA"
+   ]
+  },
+  {
+   "team": [
+    "IDO",
+    "JOE"
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MAX",
+      "JOE",
+      "IDO",
+      "LOGAN"
+     ],
+     "team": [
+      "IDO",
+      "JOE"
+     ],
+     "proposer": "IDO"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "IDO",
+    "LOGAN",
+    "JOE"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "MAX",
+      "EVA",
+      "LOGAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAX",
+     "votes": [
+      "EVA",
+      "MAX"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MAX",
+      "EVA"
+     ],
+     "proposer": "EVA",
+     "team": [
+      "IDO",
+      "MAX",
+      "JOE"
+     ]
+    },
+    {
+     "votes": [
+      "JOE",
+      "IDO",
+      "LOGAN"
+     ],
+     "proposer": "LOGAN",
+     "team": [
+      "IDO",
+      "LOGAN",
+      "JOE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JOE",
+     "votes": [
+      "JOE",
+      "IDO",
+      "LOGAN"
+     ],
+     "team": [
+      "IDO",
+      "LOGAN",
+      "JOE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "IDO",
+    "LOGAN",
+    "JOE"
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "IDO",
+   "uid": "xktobEw95VdYv7fAUX53tMzb0Ku1"
+  },
+  {
+   "name": "MAX",
+   "uid": "Mlkq7mGszSga6WTayYuf5WN5r0o2"
+  },
+  {
+   "uid": "RvCdx31U97Yz8GEQpVLXnliU19p1",
+   "name": "EVA"
+  },
+  {
+   "uid": "rg7FTyteDagVDJPg9o6VzOXqSZs2",
+   "name": "LOGAN"
+  },
+  {
+   "uid": "ZZbaXEr38UQkXrmNBzVhW30DIAg2",
+   "name": "JOE"
+  }
+ ]
+}

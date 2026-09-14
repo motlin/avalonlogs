@@ -1,0 +1,263 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1595295450,
+  "_nanoseconds": 37000000
+ },
+ "timeCreated": {
+  "_seconds": 1595294360,
+  "_nanoseconds": 578000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JOEL",
+    "role": "PERCIVAL"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JAMES"
+   },
+   {
+    "name": "TANDY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "THEA"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "CHRISTINA",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "MIKEY",
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "THEA": true,
+    "CHRISTINA": true
+   },
+   {
+    "MIKEY": true,
+    "CHRISTINA": false,
+    "THEA": true
+   },
+   {
+    "JAMES": false,
+    "MIKEY": true,
+    "THEA": true,
+    "TANDY": true
+   },
+   {
+    "CHRISTINA": false,
+    "THEA": true,
+    "TANDY": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHRISTINA",
+     "votes": [
+      "TANDY",
+      "JAMES",
+      "MIKEY",
+      "THEA",
+      "CHRISTINA"
+     ],
+     "team": [
+      "CHRISTINA",
+      "THEA"
+     ]
+    }
+   ],
+   "team": [
+    "CHRISTINA",
+    "THEA"
+   ],
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "CHRISTINA",
+      "TANDY",
+      "THEA",
+      "JAMES"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "THEA",
+      "CHRISTINA",
+      "MIKEY"
+     ],
+     "proposer": "THEA"
+    }
+   ],
+   "team": [
+    "THEA",
+    "CHRISTINA",
+    "MIKEY"
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "JOEL",
+      "THEA",
+      "MIKEY"
+     ],
+     "team": [
+      "MIKEY",
+      "TANDY",
+      "JOEL",
+      "THEA"
+     ],
+     "state": "REJECTED",
+     "proposer": "MIKEY"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "TANDY",
+      "THEA",
+      "JAMES",
+      "CHRISTINA"
+     ],
+     "proposer": "TANDY",
+     "team": [
+      "THEA",
+      "MIKEY",
+      "TANDY",
+      "JAMES"
+     ]
+    }
+   ],
+   "team": [
+    "THEA",
+    "MIKEY",
+    "TANDY",
+    "JAMES"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "CHRISTINA",
+    "THEA",
+    "TANDY"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "proposer": "JOEL",
+     "team": [
+      "TANDY",
+      "JOEL",
+      "THEA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MIKEY",
+      "TANDY",
+      "JOEL"
+     ]
+    },
+    {
+     "votes": [
+      "TANDY",
+      "JAMES",
+      "CHRISTINA"
+     ],
+     "proposer": "JAMES",
+     "state": "REJECTED",
+     "team": [
+      "TANDY",
+      "JOEL",
+      "JAMES"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "CHRISTINA",
+     "team": [
+      "CHRISTINA",
+      "THEA",
+      "TANDY"
+     ],
+     "votes": [
+      "JOEL",
+      "CHRISTINA",
+      "THEA",
+      "TANDY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 3
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "players": [
+  {
+   "name": "THEA",
+   "uid": "z0NqzrdcNbQ1ppCWYJyYHbrhsoI2"
+  },
+  {
+   "name": "MIKEY",
+   "uid": "GlfGzm3er8REfwqquX78V1B8HoC3"
+  },
+  {
+   "name": "TANDY",
+   "uid": "NFM8eUhTY5WrcqgdbJzBw7sDfZh1"
+  },
+  {
+   "name": "JOEL",
+   "uid": "omXfsH70O7b44VDYNRKBRnT1WvW2"
+  },
+  {
+   "uid": "RFJqWpJzyvNc0G8QNUV0fM84zSx2",
+   "name": "JAMES"
+  },
+  {
+   "name": "CHRISTINA",
+   "uid": "qGCqhNFbfWbAmJLiB19YRWtKFDn2"
+  }
+ ]
+}

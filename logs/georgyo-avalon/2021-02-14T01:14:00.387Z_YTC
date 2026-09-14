@@ -1,0 +1,234 @@
+{
+ "players": [
+  {
+   "uid": "GF0BaVfxNBZFk9LHgQCRSbZg5g93",
+   "name": "JAMES"
+  },
+  {
+   "uid": "xCFl0uymKST34YgMGeenqnArkJy1",
+   "name": "STEPH"
+  },
+  {
+   "uid": "5nVsxGYo0Fchb7LJkwhJ77XQcKh2",
+   "name": "CONNOR"
+  },
+  {
+   "name": "KARLIN",
+   "uid": "v9qEYBLTH6anIt55z2vb3kTm08W2"
+  },
+  {
+   "uid": "hcesd5h7Cva4nlygkn3EgPJOSgT2",
+   "name": "ERIN"
+  },
+  {
+   "name": "YELIN",
+   "uid": "Cz3L5keyzrOXsD1Vw3ywRib6jJT2"
+  },
+  {
+   "uid": "hjPtBmdbPmeujJo24AO3UBAlA5o1",
+   "name": "JOSEPH"
+  }
+ ],
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "team": [
+      "ERIN",
+      "STEPH"
+     ],
+     "proposer": "ERIN",
+     "state": "APPROVED",
+     "votes": [
+      "STEPH",
+      "ERIN",
+      "JAMES",
+      "JOSEPH",
+      "CONNOR"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "ERIN",
+    "STEPH"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 2,
+   "team": [
+    "YELIN",
+    "ERIN",
+    "STEPH"
+   ],
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "YELIN",
+      "ERIN",
+      "STEPH"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ERIN",
+      "CONNOR",
+      "STEPH",
+      "YELIN",
+      "JOSEPH"
+     ],
+     "proposer": "YELIN"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "KARLIN",
+    "JOSEPH",
+    "JAMES"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JOSEPH",
+     "votes": [
+      "YELIN",
+      "STEPH",
+      "CONNOR",
+      "JAMES",
+      "JOSEPH",
+      "ERIN"
+     ],
+     "team": [
+      "KARLIN",
+      "JOSEPH",
+      "JAMES"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "JAMES",
+    "KARLIN",
+    "JOSEPH",
+    "CONNOR"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "JAMES",
+     "team": [
+      "JAMES",
+      "KARLIN",
+      "JOSEPH",
+      "CONNOR"
+     ],
+     "votes": [
+      "STEPH",
+      "ERIN",
+      "KARLIN",
+      "JAMES",
+      "CONNOR",
+      "JOSEPH"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 2
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": []
+  }
+ ],
+ "outcome": {
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "STEPH": true,
+    "ERIN": true
+   },
+   {
+    "YELIN": false,
+    "ERIN": true,
+    "STEPH": false
+   },
+   {
+    "JOSEPH": true,
+    "JAMES": true,
+    "KARLIN": true
+   },
+   {
+    "JAMES": true,
+    "JOSEPH": true,
+    "KARLIN": true,
+    "CONNOR": true
+   }
+  ],
+  "assassinated": "ERIN",
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "JOSEPH",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "STEPH",
+    "assassin": true
+   },
+   {
+    "name": "KARLIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "ERIN",
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "YELIN",
+    "role": "OBERON"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "CONNOR",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JAMES",
+    "assassin": false
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1613265563,
+  "_nanoseconds": 159000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1613265240,
+  "_nanoseconds": 387000000
+ }
+}

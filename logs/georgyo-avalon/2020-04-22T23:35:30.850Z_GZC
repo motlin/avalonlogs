@@ -1,0 +1,215 @@
+{
+ "outcome": {
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "BRADY": true,
+    "WEST": true
+   },
+   {
+    "JEANINE": false,
+    "WEST": true,
+    "AMANDA": true
+   },
+   {
+    "BRADY": true,
+    "STEVE": true
+   },
+   {
+    "AMANDA": true,
+    "BRADY": true,
+    "WEST": true
+   }
+  ],
+  "assassinated": "BRADY",
+  "roles": [
+   {
+    "name": "STEVE",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "WEST",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "JEANINE"
+   },
+   {
+    "name": "BRADY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "AMANDA",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "BRADY",
+   "uid": "lWFgbn4ea7ToA4BTDD3nMdnEYbG2"
+  },
+  {
+   "uid": "QHRVLjFXY1VD9Apuxi2Nn2rULF72",
+   "name": "AMANDA"
+  },
+  {
+   "uid": "V8kxP8P9egZwtGJAh0fs6p3Siro2",
+   "name": "WEST"
+  },
+  {
+   "name": "JEANINE",
+   "uid": "oE90PG5LO1M6lVzCuVjQ0GmW0gp1"
+  },
+  {
+   "name": "STEVE",
+   "uid": "r8jMYt81PZREHiyo7lZ13zm2UA42"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1587598859,
+  "_nanoseconds": 742000000
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "WEST",
+     "team": [
+      "BRADY",
+      "WEST"
+     ],
+     "votes": [
+      "JEANINE",
+      "BRADY",
+      "AMANDA",
+      "WEST"
+     ]
+    }
+   ],
+   "team": [
+    "BRADY",
+    "WEST"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "FAIL",
+   "team": [
+    "WEST",
+    "JEANINE",
+    "AMANDA"
+   ],
+   "teamSize": 3,
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "JEANINE",
+      "STEVE",
+      "AMANDA"
+     ],
+     "votes": [
+      "STEVE",
+      "JEANINE"
+     ],
+     "state": "REJECTED",
+     "proposer": "JEANINE"
+    },
+    {
+     "votes": [
+      "JEANINE",
+      "AMANDA",
+      "STEVE"
+     ],
+     "proposer": "STEVE",
+     "team": [
+      "WEST",
+      "JEANINE",
+      "AMANDA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "STEVE",
+    "BRADY"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BRADY",
+     "team": [
+      "STEVE",
+      "BRADY"
+     ],
+     "votes": [
+      "STEVE",
+      "JEANINE",
+      "BRADY",
+      "AMANDA"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "team": [
+    "WEST",
+    "AMANDA",
+    "BRADY"
+   ],
+   "teamSize": 3,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "WEST",
+      "AMANDA",
+      "BRADY"
+     ],
+     "proposer": "AMANDA",
+     "state": "APPROVED",
+     "votes": [
+      "JEANINE",
+      "AMANDA",
+      "WEST"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587598530,
+  "_nanoseconds": 850000000
+ }
+}

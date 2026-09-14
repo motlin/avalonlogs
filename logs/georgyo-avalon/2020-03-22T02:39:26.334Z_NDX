@@ -1,0 +1,554 @@
+{
+ "timeFinished": {
+  "_seconds": 1584846959,
+  "_nanoseconds": 521055000
+ },
+ "timeCreated": {
+  "_seconds": 1584844766,
+  "_nanoseconds": 334000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": true,
+    "name": "CRAIG",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "KERRAN",
+    "assassin": true,
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "OWEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "KEN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX"
+   },
+   {
+    "name": "ANINDYA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "NIKHIL",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JET"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ADAM"
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "KERRAN": false,
+    "NIKHIL": true,
+    "JET": true
+   },
+   {
+    "ADAM": true,
+    "JET": true,
+    "NIKHIL": true,
+    "OWEN": true
+   },
+   {
+    "NIKHIL": true,
+    "ADAM": false,
+    "OWEN": true,
+    "JET": true
+   },
+   {
+    "ADAM": true,
+    "ANINDYA": true,
+    "NIKHIL": true,
+    "KEN": true,
+    "JET": true
+   },
+   {
+    "NIKHIL": true,
+    "KEN": true,
+    "ANINDYA": true,
+    "JET": true,
+    "ADAM": false
+   }
+  ]
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "ADAM",
+     "votes": [
+      "JET",
+      "ADAM",
+      "CRAIG",
+      "KEN"
+     ],
+     "team": [
+      "ADAM",
+      "CRAIG",
+      "KEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ALEX",
+      "ADAM",
+      "CRAIG"
+     ],
+     "votes": [
+      "ALEX",
+      "JET",
+      "ADAM",
+      "CRAIG"
+     ],
+     "proposer": "ALEX",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "JET",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "OWEN",
+      "KEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JET",
+      "OWEN",
+      "NIKHIL"
+     ]
+    },
+    {
+     "proposer": "NIKHIL",
+     "state": "REJECTED",
+     "votes": [
+      "CRAIG",
+      "OWEN",
+      "NIKHIL",
+      "JET"
+     ],
+     "team": [
+      "JET",
+      "NIKHIL",
+      "OWEN"
+     ]
+    },
+    {
+     "team": [
+      "KERRAN",
+      "NIKHIL",
+      "JET"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "KERRAN",
+      "OWEN",
+      "KEN",
+      "ALEX",
+      "ANINDYA"
+     ],
+     "proposer": "KERRAN"
+    }
+   ],
+   "team": [
+    "KERRAN",
+    "NIKHIL",
+    "JET"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "JET",
+    "ADAM",
+    "NIKHIL",
+    "OWEN"
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "NIKHIL",
+      "OWEN",
+      "JET",
+      "ADAM"
+     ],
+     "proposer": "OWEN",
+     "state": "REJECTED",
+     "votes": [
+      "OWEN",
+      "NIKHIL",
+      "ADAM"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "ADAM",
+      "OWEN",
+      "ANINDYA",
+      "JET"
+     ],
+     "proposer": "ANINDYA",
+     "votes": [
+      "JET"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "CRAIG",
+      "KEN"
+     ],
+     "team": [
+      "CRAIG",
+      "ANINDYA",
+      "KEN",
+      "NIKHIL"
+     ],
+     "proposer": "KEN"
+    },
+    {
+     "proposer": "CRAIG",
+     "team": [
+      "CRAIG",
+      "KEN",
+      "NIKHIL",
+      "ANINDYA"
+     ],
+     "votes": [
+      "KEN",
+      "ANINDYA",
+      "NIKHIL",
+      "CRAIG"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JET",
+      "ADAM",
+      "NIKHIL",
+      "OWEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "ADAM",
+     "votes": [
+      "ALEX",
+      "ANINDYA",
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "KERRAN",
+      "OWEN"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "OWEN",
+    "JET",
+    "ADAM",
+    "NIKHIL"
+   ],
+   "teamSize": 4,
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ALEX",
+      "ADAM",
+      "NIKHIL",
+      "JET"
+     ],
+     "proposer": "ALEX",
+     "votes": [
+      "OWEN",
+      "ALEX"
+     ]
+    },
+    {
+     "proposer": "JET",
+     "team": [
+      "CRAIG",
+      "KEN",
+      "JET",
+      "NIKHIL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "KEN",
+      "JET"
+     ]
+    },
+    {
+     "votes": [
+      "NIKHIL",
+      "CRAIG",
+      "KERRAN"
+     ],
+     "team": [
+      "JET",
+      "NIKHIL",
+      "ADAM",
+      "OWEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKHIL"
+    },
+    {
+     "proposer": "KERRAN",
+     "votes": [
+      "KERRAN"
+     ],
+     "team": [
+      "JET",
+      "NIKHIL",
+      "OWEN",
+      "KERRAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ANINDYA",
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "OWEN",
+      "KEN",
+      "ALEX"
+     ],
+     "team": [
+      "OWEN",
+      "JET",
+      "ADAM",
+      "NIKHIL"
+     ],
+     "state": "APPROVED",
+     "proposer": "OWEN"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "ANINDYA",
+    "NIKHIL",
+    "JET",
+    "ADAM",
+    "KEN"
+   ],
+   "numFails": 0,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "JET",
+      "KEN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ANINDYA",
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "KEN"
+     ],
+     "proposer": "ANINDYA"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "JET",
+      "NIKHIL",
+      "ANINDYA",
+      "KEN",
+      "ADAM"
+     ],
+     "proposer": "KEN",
+     "votes": [
+      "JET",
+      "KEN"
+     ]
+    },
+    {
+     "proposer": "CRAIG",
+     "team": [
+      "CRAIG",
+      "ADAM",
+      "KEN",
+      "NIKHIL",
+      "JET"
+     ],
+     "votes": [
+      "CRAIG",
+      "KERRAN",
+      "KEN",
+      "JET"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "ANINDYA",
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "KEN"
+     ],
+     "proposer": "ADAM",
+     "state": "APPROVED",
+     "votes": [
+      "NIKHIL",
+      "JET",
+      "ADAM",
+      "OWEN",
+      "KEN",
+      "ANINDYA"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 5,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ALEX",
+      "JET"
+     ],
+     "team": [
+      "JET",
+      "NIKHIL",
+      "ANINDYA",
+      "KEN",
+      "ALEX"
+     ],
+     "proposer": "ALEX"
+    },
+    {
+     "team": [
+      "ALEX",
+      "KEN",
+      "ANINDYA",
+      "NIKHIL",
+      "JET"
+     ],
+     "votes": [
+      "JET",
+      "ALEX"
+     ],
+     "state": "REJECTED",
+     "proposer": "JET"
+    },
+    {
+     "proposer": "NIKHIL",
+     "votes": [
+      "CRAIG",
+      "KEN",
+      "ALEX",
+      "ANINDYA",
+      "NIKHIL",
+      "ADAM"
+     ],
+     "team": [
+      "JET",
+      "NIKHIL",
+      "ADAM",
+      "KEN",
+      "ANINDYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "JET",
+    "NIKHIL",
+    "ADAM",
+    "KEN",
+    "ANINDYA"
+   ],
+   "state": "FAIL"
+  }
+ ],
+ "players": [
+  {
+   "name": "JET",
+   "uid": "1DBvCrMct5almfufDPrQuTLaaX03"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "eCy76AZs4qTw7xwCuPQOxXVnOKA3"
+  },
+  {
+   "name": "KERRAN",
+   "uid": "4eM2M3rfXqZ6CAghTBhaNPowvr13"
+  },
+  {
+   "name": "OWEN",
+   "uid": "PhWtBH7VXpQDuJFbp0nmMCfzBtv1"
+  },
+  {
+   "name": "ANINDYA",
+   "uid": "6Dt2tf4EITMkwuZ6IbRfgRLshkm1"
+  },
+  {
+   "uid": "6PCL9MsjMLVXFKkhF0F0UJNWTJJ2",
+   "name": "KEN"
+  },
+  {
+   "name": "CRAIG",
+   "uid": "mVFFad03qlYiUkjeycqlBpzrIeH3"
+  },
+  {
+   "name": "ADAM",
+   "uid": "cb9RtKLnfGZjuGqfVT2VsgxQYU02"
+  },
+  {
+   "name": "ALEX",
+   "uid": "GnwQ0bTmgmh1EQyNUkmhNymEjDQ2"
+  }
+ ]
+}

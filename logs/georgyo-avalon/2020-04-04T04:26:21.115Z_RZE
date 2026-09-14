@@ -1,0 +1,279 @@
+{
+ "players": [
+  {
+   "name": "JULIA",
+   "uid": "zY3pVpkUyXO1QW1UnaUAj8z2prf1"
+  },
+  {
+   "uid": "Ui8HF0i2aOcayLRvCQzO2RdeCRp2",
+   "name": "NTK"
+  },
+  {
+   "uid": "19d9PeNvMSaefpz07aPG9PGBQIx2",
+   "name": "BIGGPP"
+  },
+  {
+   "name": "IVY",
+   "uid": "tKUV9qi3N8d73S9dtqqgfz3OOo83"
+  },
+  {
+   "name": "HYUK",
+   "uid": "uXsYCSH4wObajDD7XcO2r5MBYpC3"
+  },
+  {
+   "uid": "ZbGv7E7dZ8PEqeVAYmFOZ4vFsZ03",
+   "name": "HOYKI"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585974381,
+  "_nanoseconds": 115000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "BIGGPP": true,
+    "NTK": true
+   },
+   {
+    "NTK": true,
+    "IVY": true,
+    "BIGGPP": true
+   },
+   {
+    "BIGGPP": true,
+    "NTK": false,
+    "HYUK": true,
+    "JULIA": true
+   },
+   {
+    "HOYKI": true,
+    "NTK": false,
+    "HYUK": true
+   },
+   {
+    "HYUK": true,
+    "JULIA": true,
+    "BIGGPP": true,
+    "HOYKI": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "IVY"
+   },
+   {
+    "name": "BIGGPP",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "JULIA"
+   },
+   {
+    "name": "HOYKI",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "HYUK",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "assassin": false,
+    "name": "NTK"
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "JULIA"
+ },
+ "missions": [
+  {
+   "team": [
+    "BIGGPP",
+    "NTK"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HYUK",
+      "NTK",
+      "IVY",
+      "BIGGPP",
+      "JULIA"
+     ],
+     "team": [
+      "BIGGPP",
+      "NTK"
+     ],
+     "proposer": "BIGGPP"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "BIGGPP",
+    "NTK",
+    "IVY"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "BIGGPP",
+      "NTK",
+      "IVY"
+     ],
+     "proposer": "IVY",
+     "state": "APPROVED",
+     "votes": [
+      "HOYKI",
+      "HYUK",
+      "IVY",
+      "BIGGPP",
+      "JULIA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "JULIA",
+    "NTK",
+    "BIGGPP",
+    "HYUK"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BIGGPP",
+      "HYUK",
+      "NTK"
+     ],
+     "state": "REJECTED",
+     "proposer": "HYUK",
+     "team": [
+      "BIGGPP",
+      "NTK",
+      "HYUK",
+      "HOYKI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "BIGGPP",
+      "NTK",
+      "HOYKI",
+      "JULIA"
+     ],
+     "votes": [
+      "JULIA",
+      "HOYKI",
+      "IVY"
+     ],
+     "proposer": "HOYKI"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "JULIA",
+      "NTK",
+      "BIGGPP",
+      "HYUK"
+     ],
+     "proposer": "JULIA",
+     "votes": [
+      "HYUK",
+      "NTK",
+      "IVY",
+      "BIGGPP",
+      "JULIA"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "HOYKI",
+    "NTK",
+    "HYUK"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "HYUK",
+      "NTK",
+      "IVY",
+      "BIGGPP",
+      "HOYKI"
+     ],
+     "proposer": "NTK",
+     "state": "APPROVED",
+     "team": [
+      "HOYKI",
+      "NTK",
+      "HYUK"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 0,
+   "teamSize": 4,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BIGGPP",
+      "HOYKI",
+      "HYUK",
+      "NTK"
+     ],
+     "team": [
+      "JULIA",
+      "HYUK",
+      "HOYKI",
+      "BIGGPP"
+     ],
+     "proposer": "BIGGPP"
+    }
+   ],
+   "team": [
+    "JULIA",
+    "HYUK",
+    "HOYKI",
+    "BIGGPP"
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585975370,
+  "_nanoseconds": 916521000
+ }
+}

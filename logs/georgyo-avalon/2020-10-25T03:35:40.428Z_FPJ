@@ -1,0 +1,214 @@
+{
+ "timeCreated": {
+  "_seconds": 1603596940,
+  "_nanoseconds": 428000000
+ },
+ "timeFinished": {
+  "_seconds": 1603597158,
+  "_nanoseconds": 602000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "assassinated": null,
+  "votes": [
+   {
+    "MAL": true,
+    "DOM": true
+   },
+   {
+    "DOM": true,
+    "MAL": false,
+    "SID": true
+   },
+   {
+    "NANN": true,
+    "MAL": false
+   },
+   {
+    "SID": true,
+    "MUSTAFA": true,
+    "NANN": false
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "NANN",
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DOM"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "MAL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MUSTAFA"
+   },
+   {
+    "name": "SID",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "iDefrELK3oQ923ZLxi9T63ZSbAL2",
+   "name": "MAL"
+  },
+  {
+   "uid": "ywU8vggyDGeV7jcNjDGXHB1EmIq2",
+   "name": "MUSTAFA"
+  },
+  {
+   "name": "DOM",
+   "uid": "WsxhNZjuovhvC5pq8aF7uIIWWfK2"
+  },
+  {
+   "uid": "ZMnDELNfwfNY1AZ9oikIXdH0Kzz1",
+   "name": "SID"
+  },
+  {
+   "name": "NANN",
+   "uid": "cRdVN3aWQ6PVqCD92GzOAOVWxr92"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "DOM",
+    "MAL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "DOM",
+      "MAL"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NANN",
+      "SID",
+      "MAL",
+      "DOM"
+     ],
+     "proposer": "DOM"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "SID",
+    "DOM",
+    "MAL"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "SID",
+      "DOM",
+      "MAL"
+     ],
+     "votes": [
+      "SID",
+      "MAL",
+      "NANN",
+      "DOM",
+      "MUSTAFA"
+     ],
+     "proposer": "SID",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "NANN",
+     "state": "APPROVED",
+     "votes": [
+      "DOM",
+      "NANN",
+      "MAL"
+     ],
+     "team": [
+      "NANN",
+      "MAL"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "NANN",
+    "MAL"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "SID",
+    "NANN",
+    "MUSTAFA"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "DOM",
+      "MAL",
+      "MUSTAFA"
+     ],
+     "proposer": "MAL",
+     "state": "REJECTED",
+     "votes": []
+    },
+    {
+     "votes": [
+      "MUSTAFA",
+      "SID",
+      "NANN",
+      "MAL"
+     ],
+     "proposer": "MUSTAFA",
+     "state": "APPROVED",
+     "team": [
+      "SID",
+      "NANN",
+      "MUSTAFA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "PENDING"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

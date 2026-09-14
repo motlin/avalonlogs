@@ -1,0 +1,394 @@
+{
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "CHEVIN",
+   "uid": "xdF3AA3GpWYH48o1Wl0qnKey2qh1"
+  },
+  {
+   "uid": "hX6Ojw74Z1RCWOKVx2qAk1o09o22",
+   "name": "SEAN"
+  },
+  {
+   "name": "LL",
+   "uid": "1bkbk09boMYSV5pWJPdUEBUELvf2"
+  },
+  {
+   "uid": "EHVzw875RhONc4GJh5xay65sbsE2",
+   "name": "PRAVEEN"
+  },
+  {
+   "name": "CARCAR",
+   "uid": "2OWLXHkX5eZVp1LpG6nY3qJOOL13"
+  },
+  {
+   "uid": "fkS5ZYpOT3N3cgqn0bzao5y0aaY2",
+   "name": "AN"
+  },
+  {
+   "name": "MOIRA",
+   "uid": "wmW7nsKi71hbFvaOpNedH7VJfBp2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "PRAVEEN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MOIRA",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "AN",
+    "role": "OBERON",
+    "assassin": false
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "SEAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "LL",
+    "role": "MORGANA"
+   },
+   {
+    "role": "MERLIN",
+    "name": "CHEVIN",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "CARCAR"
+   }
+  ],
+  "votes": [
+   {
+    "MOIRA": true,
+    "AN": false
+   },
+   {
+    "CARCAR": false,
+    "SEAN": true,
+    "CHEVIN": true
+   },
+   {
+    "CHEVIN": true,
+    "SEAN": true,
+    "PRAVEEN": true
+   },
+   {
+    "PRAVEEN": true,
+    "CHEVIN": true,
+    "SEAN": true,
+    "MOIRA": true
+   },
+   {
+    "MOIRA": true,
+    "PRAVEEN": true,
+    "CHEVIN": true,
+    "SEAN": true
+   }
+  ],
+  "assassinated": "CHEVIN",
+  "message": "Merlin assassinated"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "PRAVEEN",
+      "AN",
+      "CARCAR"
+     ],
+     "proposer": "LL",
+     "team": [
+      "LL",
+      "PRAVEEN"
+     ]
+    },
+    {
+     "team": [
+      "PRAVEEN",
+      "LL"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "PRAVEEN"
+     ],
+     "proposer": "PRAVEEN"
+    },
+    {
+     "votes": [
+      "CARCAR"
+     ],
+     "proposer": "CARCAR",
+     "team": [
+      "CARCAR",
+      "AN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "AN",
+      "CHEVIN"
+     ],
+     "votes": [
+      "PRAVEEN",
+      "LL"
+     ],
+     "proposer": "AN"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "MOIRA",
+     "votes": [
+      "MOIRA",
+      "AN",
+      "SEAN",
+      "LL",
+      "CHEVIN",
+      "CARCAR",
+      "PRAVEEN"
+     ],
+     "team": [
+      "MOIRA",
+      "AN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "team": [
+    "MOIRA",
+    "AN"
+   ]
+  },
+  {
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "CHEVIN",
+      "PRAVEEN",
+      "LL"
+     ],
+     "proposer": "CHEVIN",
+     "votes": [
+      "PRAVEEN",
+      "CARCAR"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "AN"
+     ],
+     "team": [
+      "SEAN",
+      "LL",
+      "CHEVIN"
+     ],
+     "proposer": "SEAN"
+    },
+    {
+     "proposer": "LL",
+     "votes": [
+      "PRAVEEN",
+      "MOIRA",
+      "LL"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "LL",
+      "MOIRA",
+      "CHEVIN"
+     ]
+    },
+    {
+     "proposer": "PRAVEEN",
+     "team": [
+      "PRAVEEN",
+      "LL",
+      "MOIRA"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "PRAVEEN",
+      "LL"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MOIRA",
+      "AN",
+      "SEAN",
+      "LL",
+      "CHEVIN",
+      "CARCAR",
+      "PRAVEEN"
+     ],
+     "team": [
+      "CARCAR",
+      "SEAN",
+      "CHEVIN"
+     ],
+     "proposer": "CARCAR"
+    }
+   ],
+   "team": [
+    "CARCAR",
+    "SEAN",
+    "CHEVIN"
+   ]
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SEAN",
+      "CHEVIN",
+      "PRAVEEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "AN",
+     "votes": [
+      "AN",
+      "CHEVIN"
+     ]
+    },
+    {
+     "proposer": "MOIRA",
+     "votes": [
+      "PRAVEEN"
+     ],
+     "team": [
+      "MOIRA",
+      "SEAN",
+      "PRAVEEN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PRAVEEN",
+      "MOIRA",
+      "AN",
+      "SEAN",
+      "CHEVIN",
+      "CARCAR"
+     ],
+     "proposer": "CHEVIN",
+     "team": [
+      "CHEVIN",
+      "SEAN",
+      "PRAVEEN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "CHEVIN",
+    "SEAN",
+    "PRAVEEN"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "AN",
+      "SEAN",
+      "CHEVIN",
+      "CARCAR",
+      "PRAVEEN",
+      "MOIRA"
+     ],
+     "team": [
+      "SEAN",
+      "CHEVIN",
+      "PRAVEEN",
+      "MOIRA"
+     ],
+     "state": "APPROVED",
+     "proposer": "SEAN"
+    }
+   ],
+   "numFails": 0,
+   "failsRequired": 2,
+   "team": [
+    "SEAN",
+    "CHEVIN",
+    "PRAVEEN",
+    "MOIRA"
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "CHEVIN",
+      "SEAN",
+      "PRAVEEN",
+      "MOIRA"
+     ],
+     "state": "APPROVED",
+     "proposer": "LL",
+     "votes": [
+      "PRAVEEN",
+      "MOIRA",
+      "AN",
+      "SEAN",
+      "LL",
+      "CHEVIN",
+      "CARCAR"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "CHEVIN",
+    "SEAN",
+    "PRAVEEN",
+    "MOIRA"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1590898333,
+  "_nanoseconds": 498000000
+ },
+ "timeFinished": {
+  "_seconds": 1590901318,
+  "_nanoseconds": 728000000
+ }
+}

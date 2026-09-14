@@ -1,0 +1,272 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "JOSEPH": true,
+    "ERIN": true
+   },
+   {
+    "HAYLEY": true,
+    "ERIN": true,
+    "JOSEPH": true
+   },
+   {
+    "CLAMMY": true,
+    "ERIN": true,
+    "HAYLEY": false
+   },
+   {
+    "JOSEPH": true,
+    "CLAMMY": true,
+    "ERIN": true,
+    "ED": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ED",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "PETE"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "HAYLEY"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CLAMMY",
+    "assassin": false
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "PHIL"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ERIN"
+   },
+   {
+    "name": "JOSEPH",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": "JOSEPH"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "JOSEPH",
+     "votes": [
+      "ED",
+      "PETE",
+      "CLAMMY",
+      "ERIN",
+      "JOSEPH"
+     ],
+     "team": [
+      "JOSEPH",
+      "ERIN"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "JOSEPH",
+    "ERIN"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "ERIN",
+      "JOSEPH",
+      "PETE",
+      "HAYLEY"
+     ],
+     "team": [
+      "HAYLEY",
+      "ERIN",
+      "JOSEPH"
+     ],
+     "state": "APPROVED",
+     "proposer": "HAYLEY"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "HAYLEY",
+    "ERIN",
+    "JOSEPH"
+   ],
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "PHIL",
+     "team": [
+      "ERIN",
+      "JOSEPH",
+      "PHIL"
+     ],
+     "votes": [
+      "HAYLEY",
+      "PHIL",
+      "ERIN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "ED",
+      "PETE",
+      "HAYLEY",
+      "CLAMMY",
+      "ERIN",
+      "JOSEPH"
+     ],
+     "team": [
+      "CLAMMY",
+      "ERIN",
+      "HAYLEY"
+     ],
+     "proposer": "CLAMMY",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "CLAMMY",
+    "ERIN",
+    "HAYLEY"
+   ]
+  },
+  {
+   "failsRequired": 2,
+   "numFails": 0,
+   "team": [
+    "CLAMMY",
+    "ERIN",
+    "ED",
+    "JOSEPH"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "PETE",
+      "HAYLEY",
+      "PHIL"
+     ],
+     "team": [
+      "JOSEPH",
+      "PHIL",
+      "CLAMMY",
+      "PETE"
+     ],
+     "proposer": "ERIN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "PETE",
+      "CLAMMY",
+      "JOSEPH",
+      "PHIL"
+     ],
+     "votes": [
+      "PETE",
+      "HAYLEY"
+     ],
+     "state": "REJECTED",
+     "proposer": "PETE"
+    },
+    {
+     "proposer": "ED",
+     "votes": [
+      "PHIL",
+      "ERIN",
+      "JOSEPH",
+      "ED",
+      "CLAMMY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CLAMMY",
+      "ERIN",
+      "ED",
+      "JOSEPH"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585494926,
+  "_nanoseconds": 900193000
+ },
+ "timeCreated": {
+  "_seconds": 1585494097,
+  "_nanoseconds": 682000000
+ },
+ "players": [
+  {
+   "name": "CLAMMY",
+   "uid": "hRvi0wwBTfNVJqQHgUZVtHuv8kG3"
+  },
+  {
+   "name": "ERIN",
+   "uid": "7Pps76fURphfToGkJRWKhM48AJC3"
+  },
+  {
+   "uid": "dZEEUj6awJcOobY8dDWzu6jyZqn2",
+   "name": "PETE"
+  },
+  {
+   "name": "ED",
+   "uid": "AVrDDZtySveFetGLpQv8Rbzq1D52"
+  },
+  {
+   "uid": "sAttpVLR0AdXCGqLVhhnbVYYzUD2",
+   "name": "JOSEPH"
+  },
+  {
+   "name": "HAYLEY",
+   "uid": "QpU6oAKgpifk2kQr5EH8f1ORcxh1"
+  },
+  {
+   "name": "PHIL",
+   "uid": "kBZa4RQECRMy73TrTnAA1QzsUoW2"
+  }
+ ]
+}

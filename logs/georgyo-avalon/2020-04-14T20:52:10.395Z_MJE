@@ -1,0 +1,288 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "ALEX": false,
+    "BENNO": true
+   },
+   {
+    "RHIBARB": true,
+    "NATHAN": true,
+    "JALLEN": true
+   },
+   {
+    "BENNO": true,
+    "JALLEN": true
+   },
+   {
+    "BENNO": true,
+    "NATHAN": false,
+    "JALLEN": true
+   },
+   {
+    "RHIBARB": true,
+    "BENNO": true,
+    "NATHAN": false
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "JALLEN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "BENNO"
+   },
+   {
+    "assassin": false,
+    "name": "NATHAN",
+    "role": "MORDRED"
+   },
+   {
+    "assassin": true,
+    "name": "ALEX",
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "name": "RHIBARB",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1586897530,
+  "_nanoseconds": 395000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "NATHAN",
+   "uid": "eM9Ltl7b52O1f1oH4iegamCVSoE2"
+  },
+  {
+   "name": "RHIBARB",
+   "uid": "d2qaR1wtLMf6eD0fe27SXJ85kkA3"
+  },
+  {
+   "uid": "rtvrnDmT1lMNdSICJKOcT0Lyx7g1",
+   "name": "ALEX"
+  },
+  {
+   "name": "JALLEN",
+   "uid": "fVErk18gatRj5L06IUTGVSgPwNx2"
+  },
+  {
+   "uid": "4sTXF8FpXXcusQcAG7ghZmLLZoA2",
+   "name": "BENNO"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586898436,
+  "_nanoseconds": 483743000
+ },
+ "missions": [
+  {
+   "team": [
+    "ALEX",
+    "BENNO"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "NATHAN",
+      "BENNO"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "BENNO"
+     ],
+     "proposer": "NATHAN"
+    },
+    {
+     "team": [
+      "RHIBARB",
+      "BENNO"
+     ],
+     "proposer": "RHIBARB",
+     "state": "REJECTED",
+     "votes": [
+      "RHIBARB",
+      "BENNO"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "BENNO",
+      "ALEX",
+      "RHIBARB",
+      "JALLEN"
+     ],
+     "team": [
+      "ALEX",
+      "BENNO"
+     ],
+     "proposer": "ALEX"
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "team": [
+    "JALLEN",
+    "RHIBARB",
+    "NATHAN"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "JALLEN",
+      "RHIBARB",
+      "NATHAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NATHAN",
+      "ALEX",
+      "RHIBARB",
+      "JALLEN"
+     ],
+     "proposer": "JALLEN"
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "BENNO",
+      "JALLEN"
+     ],
+     "votes": [
+      "BENNO",
+      "RHIBARB",
+      "JALLEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BENNO"
+    }
+   ],
+   "team": [
+    "BENNO",
+    "JALLEN"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "BENNO",
+      "RHIBARB",
+      "JALLEN"
+     ],
+     "state": "REJECTED",
+     "proposer": "NATHAN",
+     "votes": [
+      "NATHAN"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX",
+      "RHIBARB"
+     ],
+     "proposer": "RHIBARB",
+     "state": "REJECTED",
+     "team": [
+      "RHIBARB",
+      "JALLEN",
+      "BENNO"
+     ]
+    },
+    {
+     "votes": [
+      "ALEX"
+     ],
+     "proposer": "ALEX",
+     "state": "REJECTED",
+     "team": [
+      "BENNO",
+      "JALLEN",
+      "ALEX"
+     ]
+    },
+    {
+     "team": [
+      "JALLEN",
+      "NATHAN",
+      "BENNO"
+     ],
+     "votes": [
+      "BENNO",
+      "NATHAN",
+      "JALLEN"
+     ],
+     "proposer": "JALLEN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "JALLEN",
+    "NATHAN",
+    "BENNO"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "BENNO",
+      "RHIBARB",
+      "NATHAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BENNO",
+      "NATHAN",
+      "ALEX",
+      "RHIBARB"
+     ],
+     "proposer": "BENNO"
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "BENNO",
+    "RHIBARB",
+    "NATHAN"
+   ],
+   "teamSize": 3
+  }
+ ]
+}

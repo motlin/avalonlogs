@@ -1,0 +1,308 @@
+{
+ "timeCreated": {
+  "_seconds": 1608604693,
+  "_nanoseconds": 745000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ANUJ",
+    "ARCHIT"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ANUJ",
+      "ARCHIT"
+     ],
+     "proposer": "ANUJ",
+     "state": "APPROVED",
+     "votes": [
+      "NIKHIL",
+      "ARCHIT",
+      "ANUJ",
+      "ROSHAN",
+      "ARYA"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "NIKHIL",
+      "ANUJ",
+      "ARCHIT"
+     ],
+     "proposer": "NIKHIL",
+     "votes": [
+      "NIKHIL"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ARCHIT",
+     "team": [
+      "ARCHIT",
+      "ROSHAN",
+      "ARYA"
+     ],
+     "votes": [
+      "ARCHIT",
+      "ARYA"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ARNAV",
+     "votes": [
+      "ARNAV"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "ARNAV",
+      "ANUJ",
+      "ARCHIT"
+     ]
+    },
+    {
+     "proposer": "ARYA",
+     "state": "APPROVED",
+     "team": [
+      "ARYA",
+      "ROSHAN",
+      "ANUJ"
+     ],
+     "votes": [
+      "ANUJ",
+      "ARYA",
+      "ROSHAN",
+      "ARNAV"
+     ]
+    }
+   ],
+   "team": [
+    "ARYA",
+    "ROSHAN",
+    "ANUJ"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "team": [
+      "ROSHAN",
+      "ARYA",
+      "NIKHIL",
+      "ARCHIT"
+     ],
+     "votes": [
+      "ARYA"
+     ],
+     "proposer": "ROSHAN",
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "ANUJ",
+     "votes": [],
+     "team": [
+      "ANUJ",
+      "ARCHIT",
+      "ARYA",
+      "ARNAV"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "NIKHIL",
+      "ARCHIT",
+      "ARNAV",
+      "ARYA"
+     ],
+     "votes": [
+      "NIKHIL"
+     ],
+     "state": "REJECTED",
+     "proposer": "NIKHIL"
+    },
+    {
+     "proposer": "ARCHIT",
+     "team": [
+      "ARCHIT",
+      "ARYA",
+      "ROSHAN",
+      "NIKHIL"
+     ],
+     "votes": [
+      "ROSHAN",
+      "NIKHIL",
+      "ARCHIT",
+      "ARNAV",
+      "ARYA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ARCHIT",
+    "ARYA",
+    "ROSHAN",
+    "NIKHIL"
+   ]
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ARNAV",
+      "ARCHIT",
+      "ARYA"
+     ],
+     "proposer": "ARNAV",
+     "state": "REJECTED",
+     "votes": [
+      "ARNAV"
+     ]
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ARYA",
+      "ROSHAN",
+      "ARCHIT"
+     ],
+     "votes": [
+      "NIKHIL",
+      "ARNAV",
+      "ARCHIT",
+      "ROSHAN",
+      "ARYA"
+     ],
+     "proposer": "ARYA"
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "ARYA",
+    "ROSHAN",
+    "ARCHIT"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1608605400,
+  "_nanoseconds": 679000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "ANUJ",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "ROSHAN"
+   },
+   {
+    "name": "ARYA",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "ARNAV"
+   },
+   {
+    "name": "ARCHIT",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "NIKHIL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "ARCHIT": true,
+    "ANUJ": true
+   },
+   {
+    "ANUJ": false,
+    "ROSHAN": true,
+    "ARYA": true
+   },
+   {
+    "NIKHIL": true,
+    "ROSHAN": true,
+    "ARCHIT": true,
+    "ARYA": true
+   },
+   {
+    "ARCHIT": true,
+    "ROSHAN": true,
+    "ARYA": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "ARCHIT"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ARCHIT",
+   "uid": "iaL7tjQ48Tf2vjbIktxvSbJarXx2"
+  },
+  {
+   "name": "ARNAV",
+   "uid": "Kv4TdN3EHtNBMG5TKshEdx54bRd2"
+  },
+  {
+   "name": "ARYA",
+   "uid": "bxfjvlNw9JagwsIFDKlCQIX93eI3"
+  },
+  {
+   "uid": "99CxasfeY8MhYYg6p0oozT5GB7C3",
+   "name": "ROSHAN"
+  },
+  {
+   "name": "ANUJ",
+   "uid": "ZFe8R4FosZYNKZIRUbicJk9Krm12"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "CHzK6fALkTeyGhmSG0UJuqMhcKw2"
+  }
+ ]
+}

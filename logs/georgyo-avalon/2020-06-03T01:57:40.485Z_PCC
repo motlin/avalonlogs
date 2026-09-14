@@ -1,0 +1,233 @@
+{
+ "timeCreated": {
+  "_seconds": 1591149460,
+  "_nanoseconds": 485000000
+ },
+ "players": [
+  {
+   "name": "DALTY",
+   "uid": "MzHCscCmXPPgZwvyJ0p28pBsPRs1"
+  },
+  {
+   "name": "NEVAN",
+   "uid": "mSLT26GHjXXZyi19vnsrSNSkJpu1"
+  },
+  {
+   "uid": "s1T2dZGkDYV0llAvgBe8aioG2d73",
+   "name": "KDAWG"
+  },
+  {
+   "uid": "K5JEbfHjbTaDeEhTcBGaASMlfr53",
+   "name": "NOTMORDRED"
+  },
+  {
+   "name": "MATYSMOKES",
+   "uid": "f1xWaAkbiJOZSQH406zJ1vVppYw2"
+  },
+  {
+   "name": "RYAN",
+   "uid": "IJbmsN3m9jNqE4boK1YQG4UBtzr1"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "RYAN",
+     "votes": [
+      "MATYSMOKES",
+      "NOTMORDRED",
+      "KDAWG",
+      "DALTY",
+      "NEVAN"
+     ],
+     "team": [
+      "RYAN",
+      "NEVAN"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 2,
+   "team": [
+    "RYAN",
+    "NEVAN"
+   ],
+   "failsRequired": 1
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MATYSMOKES",
+      "NOTMORDRED",
+      "KDAWG",
+      "DALTY",
+      "NEVAN"
+     ],
+     "team": [
+      "DALTY",
+      "NEVAN",
+      "RYAN"
+     ],
+     "proposer": "DALTY"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "DALTY",
+    "NEVAN",
+    "RYAN"
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "proposer": "NEVAN",
+     "state": "APPROVED",
+     "team": [
+      "NEVAN",
+      "DALTY",
+      "MATYSMOKES",
+      "NOTMORDRED"
+     ],
+     "votes": [
+      "MATYSMOKES",
+      "NOTMORDRED",
+      "DALTY",
+      "NEVAN"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "NEVAN",
+    "DALTY",
+    "MATYSMOKES",
+    "NOTMORDRED"
+   ]
+  },
+  {
+   "team": [
+    "NOTMORDRED",
+    "NEVAN",
+    "MATYSMOKES"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "KDAWG"
+     ],
+     "proposer": "KDAWG",
+     "team": [
+      "KDAWG",
+      "MATYSMOKES",
+      "RYAN"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "NOTMORDRED",
+     "team": [
+      "NOTMORDRED",
+      "NEVAN",
+      "MATYSMOKES"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RYAN",
+      "MATYSMOKES",
+      "NOTMORDRED",
+      "NEVAN"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "assassinated": null,
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "NEVAN": true,
+    "RYAN": true
+   },
+   {
+    "NEVAN": true,
+    "RYAN": false,
+    "DALTY": true
+   },
+   {
+    "NEVAN": true,
+    "MATYSMOKES": true,
+    "NOTMORDRED": false,
+    "DALTY": true
+   },
+   {
+    "MATYSMOKES": true,
+    "NOTMORDRED": false,
+    "NEVAN": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORDRED",
+    "name": "RYAN",
+    "assassin": true
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "MATYSMOKES"
+   },
+   {
+    "assassin": false,
+    "name": "NOTMORDRED",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "name": "KDAWG",
+    "role": "MERLIN"
+   },
+   {
+    "name": "DALTY",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "NEVAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1591151017,
+  "_nanoseconds": 645000000
+ }
+}

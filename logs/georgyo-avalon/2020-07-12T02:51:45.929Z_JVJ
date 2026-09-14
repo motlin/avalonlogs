@@ -1,0 +1,267 @@
+{
+ "players": [
+  {
+   "name": "NATHAN",
+   "uid": "jeWwT2iLauOBK1EWkm8HEA0LF5h1"
+  },
+  {
+   "uid": "kLcA2vNNH7N9dUmvlsAaRIoryUO2",
+   "name": "BEN"
+  },
+  {
+   "name": "ALEX",
+   "uid": "RQSiWEI5IRfYS70BzidxD5pfTNC3"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "Mlj1qcrbbPh3rdp4IXOSSGUH1it1"
+  },
+  {
+   "name": "ADRIAN",
+   "uid": "AhN13pF8dpcE25hMPsFXip8FqCl2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "BEN": false,
+    "ALEX": true
+   },
+   {
+    "CHRIS": true,
+    "NATHAN": false,
+    "BEN": false
+   },
+   {
+    "ADRIAN": true,
+    "ALEX": true
+   },
+   {
+    "ALEX": true,
+    "ADRIAN": true,
+    "CHRIS": true
+   },
+   {
+    "ADRIAN": true,
+    "CHRIS": true,
+    "ALEX": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "ALEX",
+    "assassin": false
+   },
+   {
+    "name": "CHRIS",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "role": "MORDRED",
+    "name": "NATHAN",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "role": "OBERON",
+    "name": "BEN"
+   },
+   {
+    "name": "ADRIAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "CHRIS"
+ },
+ "timeCreated": {
+  "_seconds": 1594522305,
+  "_nanoseconds": 929000000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "teamSize": 2,
+   "team": [
+    "BEN",
+    "ALEX"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "ALEX",
+      "CHRIS",
+      "NATHAN",
+      "BEN",
+      "ADRIAN"
+     ],
+     "team": [
+      "BEN",
+      "ALEX"
+     ],
+     "state": "APPROVED",
+     "proposer": "BEN"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "team": [
+    "CHRIS",
+    "NATHAN",
+    "BEN"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "ALEX",
+      "CHRIS",
+      "ADRIAN"
+     ],
+     "votes": [
+      "ALEX",
+      "CHRIS"
+     ],
+     "proposer": "ALEX",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "NATHAN",
+      "BEN"
+     ],
+     "team": [
+      "CHRIS",
+      "NATHAN",
+      "BEN"
+     ],
+     "proposer": "CHRIS"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "ADRIAN"
+     ],
+     "proposer": "ADRIAN",
+     "votes": [
+      "ALEX",
+      "CHRIS",
+      "NATHAN",
+      "ADRIAN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "ALEX",
+    "ADRIAN"
+   ],
+   "state": "SUCCESS",
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "ADRIAN",
+      "ALEX",
+      "NATHAN"
+     ],
+     "proposer": "NATHAN",
+     "state": "REJECTED",
+     "votes": [
+      "CHRIS",
+      "NATHAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "BEN"
+     ],
+     "team": [
+      "BEN",
+      "ALEX",
+      "ADRIAN"
+     ],
+     "proposer": "BEN"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "CHRIS",
+      "ADRIAN"
+     ],
+     "votes": [
+      "ALEX",
+      "CHRIS",
+      "ADRIAN"
+     ],
+     "proposer": "ALEX"
+    }
+   ],
+   "team": [
+    "ALEX",
+    "CHRIS",
+    "ADRIAN"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "ALEX",
+    "CHRIS",
+    "ADRIAN"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ALEX",
+      "CHRIS",
+      "ADRIAN"
+     ],
+     "votes": [
+      "ALEX",
+      "CHRIS",
+      "BEN",
+      "ADRIAN"
+     ],
+     "proposer": "CHRIS"
+    }
+   ]
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1594523150,
+  "_nanoseconds": 817000000
+ }
+}

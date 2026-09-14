@@ -1,0 +1,267 @@
+{
+ "players": [
+  {
+   "name": "CHRIS",
+   "uid": "0tHkE8DF0Pa3yENHun7suCQiVfg2"
+  },
+  {
+   "uid": "USsfTrNmTwh5aPw3jqAH9FjLeNv1",
+   "name": "PAUL"
+  },
+  {
+   "uid": "TxkaF4mV8KY1Y3wNEEum1MCbwdc2",
+   "name": "ALLIE"
+  },
+  {
+   "uid": "MQW494wOmOdoDLbNPxtZK9F3wfa2",
+   "name": "DELANEY"
+  },
+  {
+   "name": "JACKSON",
+   "uid": "rKrXZPSnPFNo8U4tqZMXL90B8I22"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590895250,
+  "_nanoseconds": 782000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "CHRIS": true,
+    "PAUL": true
+   },
+   {
+    "DELANEY": true,
+    "JACKSON": false,
+    "ALLIE": true
+   },
+   {
+    "CHRIS": true,
+    "ALLIE": true
+   },
+   {
+    "PAUL": false,
+    "ALLIE": true,
+    "CHRIS": true
+   },
+   {
+    "DELANEY": true,
+    "ALLIE": true,
+    "CHRIS": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MERLIN",
+    "name": "DELANEY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRIS"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "PAUL",
+    "assassin": true
+   },
+   {
+    "name": "ALLIE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JACKSON",
+    "role": "EVIL MINION"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "DELANEY"
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "proposals": [
+    {
+     "proposer": "PAUL",
+     "votes": [
+      "DELANEY",
+      "CHRIS",
+      "PAUL",
+      "JACKSON"
+     ],
+     "team": [
+      "PAUL",
+      "CHRIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "PAUL",
+    "CHRIS"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "PAUL",
+      "ALLIE"
+     ],
+     "team": [
+      "PAUL",
+      "DELANEY",
+      "JACKSON"
+     ],
+     "proposer": "ALLIE"
+    },
+    {
+     "votes": [
+      "DELANEY",
+      "CHRIS"
+     ],
+     "team": [
+      "DELANEY",
+      "CHRIS",
+      "ALLIE"
+     ],
+     "proposer": "DELANEY",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JACKSON",
+      "DELANEY",
+      "ALLIE"
+     ],
+     "proposer": "JACKSON",
+     "votes": [
+      "CHRIS",
+      "PAUL",
+      "JACKSON"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "JACKSON",
+    "DELANEY",
+    "ALLIE"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "CHRIS",
+     "votes": [
+      "DELANEY",
+      "CHRIS",
+      "PAUL",
+      "ALLIE",
+      "JACKSON"
+     ],
+     "team": [
+      "CHRIS",
+      "ALLIE"
+     ]
+    }
+   ],
+   "team": [
+    "CHRIS",
+    "ALLIE"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "PAUL"
+     ],
+     "team": [
+      "PAUL",
+      "CHRIS",
+      "JACKSON"
+     ],
+     "proposer": "PAUL"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "PAUL",
+      "ALLIE",
+      "JACKSON"
+     ],
+     "team": [
+      "CHRIS",
+      "ALLIE",
+      "PAUL"
+     ],
+     "proposer": "ALLIE"
+    }
+   ],
+   "numFails": 1,
+   "team": [
+    "CHRIS",
+    "ALLIE",
+    "PAUL"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "DELANEY",
+    "ALLIE",
+    "CHRIS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DELANEY",
+      "PAUL",
+      "ALLIE"
+     ],
+     "proposer": "DELANEY",
+     "team": [
+      "DELANEY",
+      "ALLIE",
+      "CHRIS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590894702,
+  "_nanoseconds": 609000000
+ }
+}

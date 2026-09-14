@@ -1,0 +1,238 @@
+{
+ "timeCreated": {
+  "_seconds": 1587212498,
+  "_nanoseconds": 719000000
+ },
+ "timeFinished": {
+  "_seconds": 1587213731,
+  "_nanoseconds": 791000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN",
+  "assassinated": "ASH",
+  "votes": [
+   {
+    "MICHAELA": true,
+    "MEGATHOT": true
+   },
+   {
+    "HOEBERYN": true,
+    "KATT": true,
+    "ASH": true
+   },
+   {
+    "MICHAELA": false,
+    "KATT": true,
+    "MEGATHOT": false
+   },
+   {
+    "BLOOP": true,
+    "ASH": true,
+    "PRASHUTUP": false,
+    "HOEBERYN": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "ASH",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "MEGATHOT",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "role": "PERCIVAL",
+    "name": "KATT",
+    "assassin": false
+   },
+   {
+    "name": "PRASHUTUP",
+    "assassin": true,
+    "role": "MORDRED"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "HOEBERYN",
+    "assassin": false
+   },
+   {
+    "role": "OBERON",
+    "name": "MICHAELA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BLOOP"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "MICHAELA",
+   "uid": "s36ZkARrMRUhQoPxjYqPdp1nFVq1"
+  },
+  {
+   "uid": "nB2vY5dol7MrzuJoDbc5RmP4rcb2",
+   "name": "BLOOP"
+  },
+  {
+   "name": "ASH",
+   "uid": "9Ni1kLMLf6TQz8aU5k3DrOzuSoS2"
+  },
+  {
+   "name": "KATT",
+   "uid": "crftSJGK5ngCyltY6autqMIhma83"
+  },
+  {
+   "name": "PRASHUTUP",
+   "uid": "n24bszAiJwc1V1CakeizNjGuoQU2"
+  },
+  {
+   "name": "MEGATHOT",
+   "uid": "puYHLnWsY9cQP5HhYnbzL57mshh2"
+  },
+  {
+   "name": "HOEBERYN",
+   "uid": "Ub3YBsY1yPgVMR0x8blslubr7Cd2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ASH",
+      "MEGATHOT",
+      "KATT",
+      "PRASHUTUP",
+      "HOEBERYN",
+      "MICHAELA",
+      "BLOOP"
+     ],
+     "proposer": "MEGATHOT",
+     "state": "APPROVED",
+     "team": [
+      "MEGATHOT",
+      "MICHAELA"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "MEGATHOT",
+    "MICHAELA"
+   ]
+  },
+  {
+   "team": [
+    "KATT",
+    "ASH",
+    "HOEBERYN"
+   ],
+   "numFails": 0,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "HOEBERYN",
+     "votes": [
+      "BLOOP",
+      "ASH",
+      "MEGATHOT",
+      "KATT",
+      "PRASHUTUP",
+      "HOEBERYN",
+      "MICHAELA"
+     ],
+     "team": [
+      "KATT",
+      "ASH",
+      "HOEBERYN"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "MICHAELA",
+    "MEGATHOT",
+    "KATT"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ASH",
+      "MEGATHOT",
+      "KATT",
+      "PRASHUTUP",
+      "MICHAELA",
+      "BLOOP"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "MICHAELA",
+      "MEGATHOT",
+      "KATT"
+     ],
+     "proposer": "MICHAELA"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "SUCCESS",
+   "team": [
+    "BLOOP",
+    "HOEBERYN",
+    "ASH",
+    "PRASHUTUP"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "MEGATHOT",
+      "KATT",
+      "PRASHUTUP",
+      "HOEBERYN",
+      "BLOOP",
+      "ASH"
+     ],
+     "team": [
+      "BLOOP",
+      "HOEBERYN",
+      "ASH",
+      "PRASHUTUP"
+     ],
+     "proposer": "BLOOP",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 2,
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "teamSize": 4,
+   "state": "PENDING",
+   "proposals": [],
+   "team": []
+  }
+ ]
+}

@@ -1,0 +1,241 @@
+{
+ "missions": [
+  {
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "AMBIKA",
+    "FGB"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "AMBIKA",
+     "votes": [
+      "FGB",
+      "AMBIKA",
+      "HEATHER",
+      "EMIRY",
+      "CEL"
+     ],
+     "team": [
+      "AMBIKA",
+      "FGB"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "FGB",
+    "HEATHER",
+    "AMBIKA"
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "FGB",
+      "HEATHER",
+      "AMBIKA"
+     ],
+     "proposer": "CEL",
+     "state": "APPROVED",
+     "votes": [
+      "FGB",
+      "AMBIKA",
+      "HEATHER",
+      "EMIRY",
+      "CEL"
+     ]
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "HEATHER",
+    "AMBIKA"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "AMBIKA",
+      "HEATHER",
+      "CEL"
+     ],
+     "team": [
+      "HEATHER",
+      "AMBIKA"
+     ],
+     "proposer": "HEATHER"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "AMBIKA",
+      "HEATHER",
+      "FGB"
+     ],
+     "proposer": "FGB",
+     "votes": [
+      "FGB",
+      "AMBIKA",
+      "HEATHER",
+      "EMIRY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "AMBIKA",
+    "HEATHER",
+    "FGB"
+   ]
+  },
+  {
+   "team": [
+    "AMBIKA",
+    "CEL",
+    "HEATHER"
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "EMIRY",
+     "votes": [
+      "EMIRY",
+      "FGB"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "EMIRY",
+      "CEL",
+      "FGB"
+     ]
+    },
+    {
+     "votes": [
+      "CEL",
+      "FGB",
+      "AMBIKA",
+      "HEATHER"
+     ],
+     "team": [
+      "AMBIKA",
+      "CEL",
+      "HEATHER"
+     ],
+     "proposer": "AMBIKA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 0
+  }
+ ],
+ "outcome": {
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "votes": [
+   {
+    "AMBIKA": true,
+    "FGB": true
+   },
+   {
+    "AMBIKA": true,
+    "HEATHER": true,
+    "FGB": false
+   },
+   {
+    "HEATHER": true,
+    "AMBIKA": true
+   },
+   {
+    "FGB": false,
+    "HEATHER": true,
+    "AMBIKA": true
+   },
+   {
+    "HEATHER": true,
+    "AMBIKA": true,
+    "CEL": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "FGB",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AMBIKA"
+   },
+   {
+    "assassin": false,
+    "name": "HEATHER",
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "EMIRY"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "CEL"
+   }
+  ],
+  "assassinated": "CEL"
+ },
+ "timeCreated": {
+  "_seconds": 1586048313,
+  "_nanoseconds": 387000000
+ },
+ "players": [
+  {
+   "name": "AMBIKA",
+   "uid": "KdmNC1JyqhOPFjmnTgsDeDz93pi1"
+  },
+  {
+   "uid": "qZUiSBgKyPcZFidy9Qd1CNblZeF3",
+   "name": "CEL"
+  },
+  {
+   "name": "HEATHER",
+   "uid": "1zg9llJq70YmzAS3NyYs0Ejpxjt1"
+  },
+  {
+   "name": "FGB",
+   "uid": "PLMWD3qfwZNLb6qG3KBd5J2pERq2"
+  },
+  {
+   "uid": "Ye3qAfkUMIW9h03lnhY1SOjByus1",
+   "name": "EMIRY"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1586048774,
+  "_nanoseconds": 874024000
+ }
+}

@@ -1,0 +1,235 @@
+{
+ "timeCreated": {
+  "_seconds": 1604971317,
+  "_nanoseconds": 698000000
+ },
+ "players": [
+  {
+   "name": "CALEB",
+   "uid": "IVfN4OMnTUQdOIWSiQqlhFNXjcV2"
+  },
+  {
+   "name": "JIAAO",
+   "uid": "K3zmBlegIGZPARHsQEeK9dt755p1"
+  },
+  {
+   "uid": "Kp1zSZ6RtYYPTr5McM15GxSjI3s2",
+   "name": "KUNAL"
+  },
+  {
+   "name": "CHAO",
+   "uid": "m0cAdlUv3ASSaqy6ad25nWAtQ0o2"
+  },
+  {
+   "name": "FAN",
+   "uid": "BRg6QJKXu9T3i8U5ACTpcalZTJ12"
+  },
+  {
+   "uid": "CsyTQva6AHPpgc8QWJJsw47UWFH3",
+   "name": "OMAR"
+  },
+  {
+   "name": "RUI",
+   "uid": "O0AOTnMhasfi6ZkPLP9b6FxGsWt2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CALEB",
+      "JIAAO"
+     ],
+     "proposer": "KUNAL",
+     "votes": [
+      "CALEB",
+      "RUI",
+      "KUNAL",
+      "JIAAO",
+      "FAN",
+      "OMAR"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "CALEB",
+    "JIAAO"
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "team": [
+    "JIAAO",
+    "FAN",
+    "OMAR"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "CHAO",
+     "team": [
+      "JIAAO",
+      "FAN",
+      "OMAR"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FAN",
+      "CHAO",
+      "RUI",
+      "KUNAL",
+      "OMAR",
+      "CALEB"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "CALEB",
+      "FAN",
+      "KUNAL",
+      "RUI",
+      "OMAR"
+     ],
+     "team": [
+      "FAN",
+      "JIAAO",
+      "KUNAL"
+     ],
+     "proposer": "FAN"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "FAN",
+    "JIAAO",
+    "KUNAL"
+   ]
+  },
+  {
+   "team": [
+    "OMAR",
+    "JIAAO",
+    "KUNAL",
+    "CHAO"
+   ],
+   "failsRequired": 2,
+   "teamSize": 4,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "OMAR",
+     "votes": [
+      "CHAO",
+      "RUI",
+      "KUNAL",
+      "JIAAO",
+      "OMAR",
+      "FAN"
+     ],
+     "team": [
+      "OMAR",
+      "JIAAO",
+      "KUNAL",
+      "CHAO"
+     ]
+    }
+   ]
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": [],
+   "proposals": []
+  }
+ ],
+ "outcome": {
+  "votes": [
+   {
+    "CALEB": true,
+    "JIAAO": true
+   },
+   {
+    "FAN": true,
+    "OMAR": true,
+    "JIAAO": true
+   },
+   {
+    "FAN": false,
+    "JIAAO": true,
+    "KUNAL": true
+   },
+   {
+    "OMAR": true,
+    "KUNAL": true,
+    "CHAO": true,
+    "JIAAO": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "CALEB",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "FAN",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "KUNAL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JIAAO"
+   },
+   {
+    "assassin": false,
+    "name": "RUI",
+    "role": "MORDRED"
+   },
+   {
+    "name": "OMAR",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHAO",
+    "assassin": false
+   }
+  ],
+  "assassinated": "JIAAO",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1604971902,
+  "_nanoseconds": 892000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

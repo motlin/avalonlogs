@@ -1,0 +1,234 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "ND": true,
+    "YAMA": true
+   },
+   {
+    "YAMA": true,
+    "ND": true,
+    "MIKE": true
+   },
+   {
+    "ND": true,
+    "MIKE": true,
+    "YAMA": true,
+    "DEN": false
+   },
+   {
+    "FEEFS": true,
+    "ND": true,
+    "YAMA": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "name": "JOE",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "name": "DEN",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "FEEFS",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "MIKE",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "ND",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "YAMA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "MIKE"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "QiceSEq9q5PWzTDLM4BKrDNbOvK2",
+   "name": "FEEFS"
+  },
+  {
+   "uid": "phmdP3l6kbdCy3eAxUpzu6AYvvH3",
+   "name": "JOE"
+  },
+  {
+   "name": "ND",
+   "uid": "lPYxFpeJAoYfHZoTSWFjfpvEs7B3"
+  },
+  {
+   "name": "YAMA",
+   "uid": "FHfAgIt8mWVSy3XHJx6NwhWGFXo2"
+  },
+  {
+   "name": "MIKE",
+   "uid": "PHim6ip66SZHOr0kj7YxyjMrv8o2"
+  },
+  {
+   "name": "DEN",
+   "uid": "ywHqpFS7FfdOoAD1BS282rNzD1H2"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1610888198,
+  "_nanoseconds": 722000000
+ },
+ "timeFinished": {
+  "_seconds": 1610888660,
+  "_nanoseconds": 809000000
+ },
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "team": [
+    "YAMA",
+    "ND"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "ND",
+      "FEEFS"
+     ],
+     "votes": [
+      "FEEFS",
+      "ND",
+      "DEN"
+     ],
+     "proposer": "ND"
+    },
+    {
+     "team": [
+      "YAMA",
+      "ND"
+     ],
+     "proposer": "YAMA",
+     "votes": [
+      "MIKE",
+      "YAMA",
+      "DEN",
+      "ND",
+      "JOE",
+      "FEEFS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "ND",
+      "YAMA",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "ND",
+      "JOE",
+      "MIKE",
+      "YAMA"
+     ],
+     "proposer": "MIKE"
+    }
+   ],
+   "team": [
+    "ND",
+    "YAMA",
+    "MIKE"
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "ND",
+      "JOE",
+      "DEN",
+      "YAMA"
+     ],
+     "proposer": "DEN",
+     "team": [
+      "MIKE",
+      "YAMA",
+      "DEN",
+      "ND"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "team": [
+    "MIKE",
+    "YAMA",
+    "DEN",
+    "ND"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "FEEFS",
+    "ND",
+    "YAMA"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "FEEFS",
+      "ND",
+      "YAMA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "YAMA",
+      "FEEFS",
+      "ND",
+      "MIKE"
+     ],
+     "proposer": "FEEFS"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "timeCreated": {
+  "_seconds": 1585967365,
+  "_nanoseconds": 320000000
+ },
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "LILA": true,
+    "DONN": true,
+    "HAYNES": true
+   },
+   {
+    "LILA": true,
+    "DONN": true,
+    "HAYNES": true,
+    "RODBOD": false
+   },
+   {
+    "DONN": true,
+    "MADI": true,
+    "VISION": true,
+    "HAYNES": true
+   },
+   {
+    "HAYNES": true,
+    "TORCH": false,
+    "DONN": true,
+    "MADI": true,
+    "VISION": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "TORCH",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "LILA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "HAYNES",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "RODBOD",
+    "role": "MORDRED"
+   },
+   {
+    "name": "VISION",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "LIV",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "DONN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "MADI",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MAC"
+   }
+  ],
+  "assassinated": "LIV"
+ },
+ "players": [
+  {
+   "name": "HAYNES",
+   "uid": "Ymmls5wEeDRqVTzA8Mu4zN6mGlu2"
+  },
+  {
+   "uid": "fhhd6VF7sjeOuxnkg4GDyUDThUm1",
+   "name": "DONN"
+  },
+  {
+   "name": "LILA",
+   "uid": "lzvFCUxNeiRU3DtVCInnflHYmfk1"
+  },
+  {
+   "uid": "UIcBdeb2mIgZjnLFs9To3GrdPit1",
+   "name": "RODBOD"
+  },
+  {
+   "name": "MADI",
+   "uid": "ApdjsxZJqCg822NgktEpnY3FheV2"
+  },
+  {
+   "name": "TORCH",
+   "uid": "QUwlJL0B2Nggy3injQUZHPQHUfh1"
+  },
+  {
+   "name": "LIV",
+   "uid": "uRVhDgda4KQZnqLej1ZC2dRS1u63"
+  },
+  {
+   "uid": "GAbyBRIVHZSRUPru8Og3yJMuIga2",
+   "name": "MAC"
+  },
+  {
+   "uid": "FudCJmyFFJMlVv4lD7vWWVWttJd2",
+   "name": "VISION"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "LILA",
+    "DONN",
+    "HAYNES"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "LIV",
+      "MADI",
+      "MAC",
+      "LILA",
+      "HAYNES"
+     ],
+     "proposer": "LILA",
+     "state": "APPROVED",
+     "team": [
+      "LILA",
+      "DONN",
+      "HAYNES"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL",
+   "team": [
+    "RODBOD",
+    "LILA",
+    "DONN",
+    "HAYNES"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RODBOD",
+      "LILA",
+      "DONN",
+      "HAYNES"
+     ],
+     "votes": [
+      "LILA",
+      "HAYNES",
+      "RODBOD",
+      "LIV",
+      "MADI",
+      "MAC"
+     ],
+     "state": "APPROVED",
+     "proposer": "RODBOD"
+    }
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MADI",
+      "TORCH",
+      "HAYNES",
+      "VISION",
+      "LIV"
+     ],
+     "team": [
+      "MADI",
+      "HAYNES",
+      "DONN",
+      "VISION"
+     ],
+     "proposer": "MADI",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "MADI",
+    "HAYNES",
+    "DONN",
+    "VISION"
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "team": [
+    "TORCH",
+    "DONN",
+    "MADI",
+    "HAYNES",
+    "VISION"
+   ],
+   "numFails": 1,
+   "teamSize": 5,
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "DONN",
+      "MADI",
+      "MAC",
+      "TORCH",
+      "LILA",
+      "HAYNES"
+     ],
+     "team": [
+      "TORCH",
+      "DONN",
+      "MADI",
+      "HAYNES",
+      "VISION"
+     ],
+     "state": "APPROVED",
+     "proposer": "TORCH"
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 5,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585968267,
+  "_nanoseconds": 868728000
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "players": [
+  {
+   "name": "LILY",
+   "uid": "ETSDsbTLzMeAH699whnDxiakPlo2"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "WbuWZE9ytJMdKRivY5mLMug5Aqt1"
+  },
+  {
+   "uid": "fFFZXfb27sP6iQrlIKOlo3BmtS82",
+   "name": "EUNICE"
+  },
+  {
+   "uid": "1itOqZiIdmMfq8lGFi7W09Ha2Gc2",
+   "name": "FRANK"
+  },
+  {
+   "uid": "nnIJvspV93WhQIDPT03pgWq9y6t1",
+   "name": "SYLVIA"
+  },
+  {
+   "name": "MASON",
+   "uid": "AzIstDWHgdO2tpUu3QpkI7H27Pz1"
+  },
+  {
+   "uid": "mShfSw4mwEf0tbbOf0BmbUDdRq23",
+   "name": "MUSA"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "FRANK",
+     "team": [
+      "SYLVIA",
+      "LILY"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SYLVIA",
+      "MASON"
+     ]
+    },
+    {
+     "team": [
+      "SYLVIA",
+      "MASON"
+     ],
+     "proposer": "SYLVIA",
+     "votes": [
+      "MASON",
+      "ANDREW",
+      "SYLVIA",
+      "LILY",
+      "FRANK"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "SYLVIA",
+    "MASON"
+   ],
+   "numFails": 1
+  },
+  {
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "MASON",
+     "state": "REJECTED",
+     "votes": [
+      "MUSA"
+     ],
+     "team": [
+      "SYLVIA",
+      "MUSA",
+      "MASON"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MUSA",
+      "MASON"
+     ],
+     "team": [
+      "MUSA",
+      "MASON",
+      "EUNICE"
+     ],
+     "proposer": "MUSA"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "FRANK",
+      "MASON",
+      "EUNICE",
+      "LILY"
+     ],
+     "team": [
+      "MASON",
+      "LILY",
+      "EUNICE"
+     ],
+     "proposer": "LILY"
+    }
+   ],
+   "team": [
+    "MASON",
+    "LILY",
+    "EUNICE"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "MUSA"
+     ],
+     "proposer": "ANDREW",
+     "state": "REJECTED",
+     "team": [
+      "MUSA",
+      "MASON",
+      "ANDREW"
+     ]
+    },
+    {
+     "team": [
+      "EUNICE",
+      "MASON",
+      "LILY"
+     ],
+     "votes": [
+      "MASON",
+      "EUNICE",
+      "SYLVIA",
+      "FRANK",
+      "LILY",
+      "ANDREW"
+     ],
+     "state": "APPROVED",
+     "proposer": "EUNICE"
+    }
+   ],
+   "team": [
+    "EUNICE",
+    "MASON",
+    "LILY"
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "proposer": "FRANK",
+     "team": [
+      "LILY",
+      "MASON",
+      "EUNICE",
+      "FRANK"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LILY",
+      "MASON",
+      "FRANK",
+      "ANDREW",
+      "SYLVIA",
+      "EUNICE"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "LILY",
+    "MASON",
+    "EUNICE",
+    "FRANK"
+   ],
+   "teamSize": 4
+  },
+  {
+   "state": "PENDING",
+   "failsRequired": 1,
+   "proposals": [],
+   "team": [],
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "LILY",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "FRANK"
+   },
+   {
+    "name": "MASON",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "EUNICE",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "MUSA"
+   },
+   {
+    "assassin": false,
+    "name": "ANDREW",
+    "role": "MORGANA"
+   },
+   {
+    "name": "SYLVIA",
+    "assassin": false,
+    "role": "EVIL MINION"
+   }
+  ],
+  "votes": [
+   {
+    "MASON": true,
+    "SYLVIA": false
+   },
+   {
+    "LILY": true,
+    "EUNICE": true,
+    "MASON": true
+   },
+   {
+    "MASON": true,
+    "EUNICE": true,
+    "LILY": true
+   },
+   {
+    "LILY": true,
+    "FRANK": true,
+    "MASON": true,
+    "EUNICE": true
+   }
+  ],
+  "assassinated": "LILY",
+  "message": "Merlin assassinated",
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1599191179,
+  "_nanoseconds": 87000000
+ },
+ "timeCreated": {
+  "_seconds": 1599189938,
+  "_nanoseconds": 713000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

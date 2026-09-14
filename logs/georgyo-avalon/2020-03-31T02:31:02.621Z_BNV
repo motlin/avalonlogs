@@ -1,0 +1,223 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "THECOOLKID"
+   },
+   {
+    "name": "SLATYAF",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "BIGBRAIN"
+   },
+   {
+    "name": "SAHANA",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "MINION",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "votes": [
+   {
+    "MINION": true,
+    "BIGBRAIN": true
+   },
+   {
+    "BIGBRAIN": false,
+    "SLATYAF": true,
+    "MINION": true
+   },
+   {
+    "SAHANA": false,
+    "SLATYAF": true
+   },
+   {
+    "SLATYAF": true,
+    "THECOOLKID": true,
+    "MINION": true
+   },
+   {
+    "MINION": true,
+    "BIGBRAIN": false,
+    "THECOOLKID": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1585621862,
+  "_nanoseconds": 621000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "SLATYAF",
+      "BIGBRAIN",
+      "SAHANA",
+      "MINION"
+     ],
+     "proposer": "MINION",
+     "team": [
+      "MINION",
+      "BIGBRAIN"
+     ]
+    }
+   ],
+   "team": [
+    "MINION",
+    "BIGBRAIN"
+   ],
+   "numFails": 0,
+   "teamSize": 2
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "MINION",
+    "BIGBRAIN",
+    "SLATYAF"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "MINION",
+      "BIGBRAIN",
+      "SLATYAF"
+     ],
+     "proposer": "THECOOLKID",
+     "votes": [
+      "SAHANA",
+      "MINION",
+      "THECOOLKID"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "SAHANA",
+    "SLATYAF"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "votes": [
+      "BIGBRAIN",
+      "SAHANA",
+      "SLATYAF"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SAHANA",
+      "SLATYAF"
+     ],
+     "proposer": "SAHANA"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 2
+  },
+  {
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "SLATYAF",
+      "MINION",
+      "THECOOLKID"
+     ],
+     "proposer": "SLATYAF",
+     "state": "APPROVED",
+     "votes": [
+      "MINION",
+      "THECOOLKID",
+      "SLATYAF"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "SLATYAF",
+    "MINION",
+    "THECOOLKID"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "BIGBRAIN",
+      "MINION",
+      "THECOOLKID"
+     ],
+     "votes": [
+      "THECOOLKID",
+      "SLATYAF",
+      "BIGBRAIN"
+     ],
+     "proposer": "BIGBRAIN"
+    }
+   ],
+   "team": [
+    "BIGBRAIN",
+    "MINION",
+    "THECOOLKID"
+   ],
+   "teamSize": 3
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585622128,
+  "_nanoseconds": 482917000
+ },
+ "players": [
+  {
+   "name": "THECOOLKID",
+   "uid": "cSIXMOsorfXVSthj6ZqTluxrSYH2"
+  },
+  {
+   "name": "SAHANA",
+   "uid": "HCuU9ZfUODSdUOgTREEB4DBxor03"
+  },
+  {
+   "name": "SLATYAF",
+   "uid": "3wq6wB5nUmPSCwGmtyBf8uumBsi2"
+  },
+  {
+   "uid": "PxnNzsqMuNaURgEyqSeHxOKJITS2",
+   "name": "BIGBRAIN"
+  },
+  {
+   "uid": "01AjMAuWy5ZSXc8S8EBTPEvX0lf1",
+   "name": "MINION"
+  }
+ ]
+}

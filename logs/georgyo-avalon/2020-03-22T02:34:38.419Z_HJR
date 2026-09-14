@@ -1,0 +1,240 @@
+{
+ "players": [
+  {
+   "name": "RYAN",
+   "uid": "r3rQ8NeSNCeISkARawWb4UmbDTJ3"
+  },
+  {
+   "uid": "ekYMDcY4rIf4qHriXiTOWXk0CGt2",
+   "name": "EDGE"
+  },
+  {
+   "uid": "3B8sV0lFx6V9NwhAJMRBHXOSXrD2",
+   "name": "PIXIE"
+  },
+  {
+   "uid": "ChnVBLjndUgFhAAWKQIMNCpFKCz1",
+   "name": "INCOG"
+  },
+  {
+   "name": "ETWO",
+   "uid": "abP1Fn1aeUYeM7tdtdDe82yzjfH2"
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": true,
+    "name": "RYAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "EDGE",
+    "assassin": true,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ETWO",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "INCOG",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "PIXIE",
+    "role": "PERCIVAL"
+   }
+  ],
+  "votes": [
+   {
+    "EDGE": false,
+    "PIXIE": true
+   },
+   {
+    "PIXIE": true,
+    "INCOG": true,
+    "EDGE": false
+   },
+   {
+    "RYAN": true,
+    "ETWO": true
+   },
+   {
+    "INCOG": true,
+    "PIXIE": true,
+    "EDGE": true
+   },
+   {
+    "INCOG": true,
+    "RYAN": false,
+    "ETWO": true
+   }
+  ],
+  "message": "Three failed missions"
+ },
+ "timeCreated": {
+  "_seconds": 1584844478,
+  "_nanoseconds": 419000000
+ },
+ "timeFinished": {
+  "_seconds": 1584844680,
+  "_nanoseconds": 724742000
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "EDGE",
+    "PIXIE"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "RYAN",
+      "EDGE"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "RYAN",
+      "PIXIE"
+     ],
+     "proposer": "RYAN"
+    },
+    {
+     "team": [
+      "EDGE",
+      "PIXIE"
+     ],
+     "votes": [
+      "ETWO",
+      "INCOG",
+      "RYAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "EDGE"
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "INCOG",
+    "PIXIE",
+    "EDGE"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "INCOG",
+      "PIXIE",
+      "EDGE"
+     ],
+     "proposer": "PIXIE",
+     "votes": [
+      "INCOG",
+      "PIXIE",
+      "RYAN",
+      "EDGE",
+      "ETWO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "RYAN",
+      "ETWO"
+     ],
+     "votes": [
+      "ETWO",
+      "INCOG",
+      "PIXIE",
+      "RYAN",
+      "EDGE"
+     ],
+     "proposer": "INCOG"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "team": [
+    "RYAN",
+    "ETWO"
+   ],
+   "numFails": 0
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "ETWO",
+     "votes": [
+      "EDGE",
+      "ETWO",
+      "PIXIE"
+     ],
+     "team": [
+      "INCOG",
+      "PIXIE",
+      "EDGE"
+     ]
+    }
+   ],
+   "team": [
+    "INCOG",
+    "PIXIE",
+    "EDGE"
+   ],
+   "teamSize": 3
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "RYAN",
+     "votes": [
+      "ETWO",
+      "INCOG",
+      "PIXIE",
+      "RYAN",
+      "EDGE"
+     ],
+     "team": [
+      "RYAN",
+      "INCOG",
+      "ETWO"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "RYAN",
+    "INCOG",
+    "ETWO"
+   ],
+   "teamSize": 3,
+   "numFails": 1
+  }
+ ]
+}

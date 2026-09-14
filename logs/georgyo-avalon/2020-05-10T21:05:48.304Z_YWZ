@@ -1,0 +1,235 @@
+{
+ "players": [
+  {
+   "name": "NAN",
+   "uid": "YdvG266agOTSaMFxiGfpWd1vfkB3"
+  },
+  {
+   "name": "BERT",
+   "uid": "H18sk7GAsLfaXKim6lcmR2JdK7q1"
+  },
+  {
+   "name": "TOM",
+   "uid": "v1GvzsGSzrd9Otsj4epJD9AOWuP2"
+  },
+  {
+   "name": "LILLY",
+   "uid": "EK4lIYvymiPc9E7qSiN58j3bRts2"
+  },
+  {
+   "name": "LUCY",
+   "uid": "6VdYNLMNNhYQOdIKaYPLAHpFN2C3"
+  },
+  {
+   "uid": "sZUfmlG9zdgN6ae0WBqe3sRuZqM2",
+   "name": "BEN"
+  },
+  {
+   "name": "JENNY",
+   "uid": "75hvJ3YLkbfgwWxfACUvGGLedxU2"
+  }
+ ],
+ "outcome": {
+  "assassinated": null,
+  "votes": [
+   {
+    "LUCY": true,
+    "JENNY": false
+   },
+   {
+    "BEN": true,
+    "LUCY": true,
+    "NAN": false
+   },
+   {
+    "LILLY": true,
+    "BEN": true,
+    "BERT": true
+   },
+   {
+    "LILLY": true,
+    "BERT": false,
+    "JENNY": false,
+    "BEN": true
+   }
+  ],
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "LILLY"
+   },
+   {
+    "name": "LUCY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "JENNY"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BEN"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "NAN",
+    "assassin": false
+   },
+   {
+    "name": "BERT",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "TOM"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "missions": [
+  {
+   "proposals": [
+    {
+     "votes": [
+      "BEN",
+      "NAN",
+      "BERT",
+      "TOM",
+      "LILLY",
+      "LUCY"
+     ],
+     "team": [
+      "JENNY",
+      "LUCY"
+     ],
+     "state": "APPROVED",
+     "proposer": "LILLY"
+    }
+   ],
+   "team": [
+    "JENNY",
+    "LUCY"
+   ],
+   "state": "FAIL",
+   "teamSize": 2,
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "LUCY",
+    "BEN",
+    "NAN"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LUCY",
+      "BEN",
+      "NAN"
+     ],
+     "proposer": "LUCY",
+     "votes": [
+      "TOM",
+      "LUCY",
+      "JENNY",
+      "BEN",
+      "NAN",
+      "BERT"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "LILLY",
+      "BERT"
+     ],
+     "votes": [
+      "JENNY",
+      "BEN",
+      "NAN",
+      "BERT"
+     ],
+     "proposer": "BEN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "BEN",
+    "LILLY",
+    "BERT"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "teamSize": 4,
+   "numFails": 2,
+   "team": [
+    "BEN",
+    "BERT",
+    "LILLY",
+    "JENNY"
+   ],
+   "state": "FAIL",
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "team": [
+      "BEN",
+      "BERT",
+      "LILLY",
+      "JENNY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LUCY",
+      "JENNY",
+      "BEN",
+      "NAN",
+      "BERT",
+      "TOM",
+      "LILLY"
+     ],
+     "proposer": "JENNY"
+    }
+   ]
+  },
+  {
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1589144748,
+  "_nanoseconds": 304000000
+ },
+ "timeFinished": {
+  "_seconds": 1589145350,
+  "_nanoseconds": 189000000
+ }
+}

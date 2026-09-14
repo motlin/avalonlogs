@@ -1,0 +1,231 @@
+{
+ "players": [
+  {
+   "uid": "0mh4RvNm1TRR05UK8joDgUwaiD42",
+   "name": "TINA"
+  },
+  {
+   "uid": "fAcahLGomkWmUBgeDtZHKrInDb23",
+   "name": "DORCAS"
+  },
+  {
+   "name": "PIKACHUMI",
+   "uid": "HYNZrOIM1DNH5xen4kYEefrCyAb2"
+  },
+  {
+   "name": "TESIA",
+   "uid": "EhMDNVJFAAREeWlzvx6IssN3gaF3"
+  },
+  {
+   "name": "HANNAH",
+   "uid": "s2vc8RLbiQdA8JMvOT8q2ZqdeKa2"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "votes": [
+   {
+    "TINA": true,
+    "HANNAH": true
+   },
+   {
+    "HANNAH": true,
+    "DORCAS": true,
+    "TINA": true
+   },
+   {
+    "PIKACHUMI": false,
+    "DORCAS": true
+   },
+   {
+    "DORCAS": true,
+    "TESIA": false,
+    "TINA": true
+   },
+   {
+    "TINA": true,
+    "HANNAH": true,
+    "DORCAS": true
+   }
+  ],
+  "assassinated": "HANNAH",
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "TESIA"
+   },
+   {
+    "name": "DORCAS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "PIKACHUMI",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "HANNAH"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "TINA"
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1608997433,
+  "_nanoseconds": 921000000
+ },
+ "missions": [
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "TINA",
+    "HANNAH"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "TINA",
+      "HANNAH"
+     ],
+     "votes": [
+      "PIKACHUMI",
+      "DORCAS",
+      "TESIA",
+      "HANNAH",
+      "TINA"
+     ],
+     "proposer": "TINA"
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "TINA",
+    "DORCAS",
+    "HANNAH"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "DORCAS",
+     "state": "APPROVED",
+     "votes": [
+      "TESIA",
+      "HANNAH",
+      "DORCAS",
+      "TINA"
+     ],
+     "team": [
+      "TINA",
+      "DORCAS",
+      "HANNAH"
+     ]
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 2,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "PIKACHUMI",
+      "DORCAS"
+     ],
+     "proposer": "PIKACHUMI",
+     "votes": [
+      "TINA",
+      "TESIA",
+      "PIKACHUMI",
+      "DORCAS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "PIKACHUMI",
+    "DORCAS"
+   ]
+  },
+  {
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "TESIA",
+    "DORCAS",
+    "TINA"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "TINA",
+      "PIKACHUMI",
+      "TESIA",
+      "DORCAS"
+     ],
+     "team": [
+      "TESIA",
+      "DORCAS",
+      "TINA"
+     ],
+     "proposer": "TESIA",
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "HANNAH",
+      "DORCAS",
+      "TINA"
+     ],
+     "proposer": "HANNAH",
+     "votes": [
+      "TESIA",
+      "DORCAS",
+      "HANNAH",
+      "TINA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "HANNAH",
+    "DORCAS",
+    "TINA"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1608996851,
+  "_nanoseconds": 267000000
+ }
+}

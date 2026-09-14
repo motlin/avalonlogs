@@ -1,0 +1,225 @@
+{
+ "timeFinished": {
+  "_seconds": 1586051325,
+  "_nanoseconds": 618663000
+ },
+ "players": [
+  {
+   "name": "ABBAS",
+   "uid": "9lVK8EtlRjSBjQ9VeroOmnHHlBi2"
+  },
+  {
+   "uid": "yVN4l7lvPncDVFhq7Xw3EMqIoTx2",
+   "name": "ANDREW"
+  },
+  {
+   "name": "BSCHNADO",
+   "uid": "bQZMcInrKaR75y8tclegecjWBjS2"
+  },
+  {
+   "uid": "3VNOgvK6lQQkajxyLXZxxLPv1ir1",
+   "name": "JULES"
+  },
+  {
+   "name": "SASHA",
+   "uid": "VrXsddC8B7WexURfmgOGKgMCFGw1"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ABBAS",
+    "ANDREW"
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "ANDREW",
+      "JULES",
+      "SASHA",
+      "ABBAS",
+      "BSCHNADO"
+     ],
+     "team": [
+      "ABBAS",
+      "ANDREW"
+     ],
+     "proposer": "ABBAS",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "ANDREW",
+      "ABBAS",
+      "SASHA"
+     ],
+     "proposer": "ANDREW",
+     "state": "APPROVED",
+     "votes": [
+      "JULES",
+      "SASHA",
+      "ABBAS",
+      "ANDREW"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "ANDREW",
+    "ABBAS",
+    "SASHA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "team": [
+    "JULES",
+    "ANDREW"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "BSCHNADO",
+     "team": [
+      "JULES",
+      "ANDREW"
+     ],
+     "votes": [
+      "JULES",
+      "SASHA",
+      "BSCHNADO"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "ABBAS",
+    "ANDREW",
+    "BSCHNADO"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "failsRequired": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "proposer": "JULES",
+     "team": [
+      "ABBAS",
+      "ANDREW",
+      "BSCHNADO"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "BSCHNADO",
+      "JULES",
+      "SASHA"
+     ]
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "SASHA",
+     "state": "APPROVED",
+     "votes": [
+      "SASHA",
+      "ABBAS",
+      "ANDREW"
+     ],
+     "team": [
+      "ABBAS",
+      "ANDREW",
+      "SASHA"
+     ]
+    }
+   ],
+   "team": [
+    "ABBAS",
+    "ANDREW",
+    "SASHA"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ABBAS": true,
+    "ANDREW": true
+   },
+   {
+    "ABBAS": true,
+    "SASHA": true,
+    "ANDREW": true
+   },
+   {
+    "ANDREW": true,
+    "JULES": false
+   },
+   {
+    "BSCHNADO": false,
+    "ABBAS": true,
+    "ANDREW": true
+   },
+   {
+    "SASHA": true,
+    "ABBAS": true,
+    "ANDREW": true
+   }
+  ],
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": true,
+    "name": "JULES"
+   },
+   {
+    "assassin": false,
+    "name": "SASHA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "ABBAS"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "BSCHNADO"
+   },
+   {
+    "name": "ANDREW",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "assassinated": "ANDREW"
+ },
+ "timeCreated": {
+  "_seconds": 1586050735,
+  "_nanoseconds": 874000000
+ }
+}

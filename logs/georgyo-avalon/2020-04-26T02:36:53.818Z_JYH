@@ -1,0 +1,241 @@
+{
+ "players": [
+  {
+   "uid": "QU50MosWFfYzxviXDgspiSugaUk2",
+   "name": "JEN"
+  },
+  {
+   "name": "MICHELLE",
+   "uid": "hMyvLCmwHkSrIfCOJDjVh7YHxAs2"
+  },
+  {
+   "uid": "jeL8S7lq6nd9C0D3zf1NI3wAV1B3",
+   "name": "CAM"
+  },
+  {
+   "name": "SIMONE",
+   "uid": "dp0J2fUvQ9gj7wNGpwtQ37d6C222"
+  },
+  {
+   "uid": "LqYzt6RQCaXVsEbegSExM5aemtS2",
+   "name": "THUY"
+  },
+  {
+   "name": "SAM",
+   "uid": "l7AjzdjRx7ddnDaboyCFfVwu3eI3"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "JEN",
+      "MICHELLE",
+      "CAM",
+      "SIMONE",
+      "SAM",
+      "THUY"
+     ],
+     "proposer": "CAM",
+     "team": [
+      "CAM",
+      "JEN"
+     ]
+    }
+   ],
+   "team": [
+    "CAM",
+    "JEN"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "team": [
+    "JEN",
+    "SIMONE",
+    "SAM"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JEN",
+      "SIMONE",
+      "SAM"
+     ],
+     "proposer": "SIMONE",
+     "votes": [
+      "SAM",
+      "THUY",
+      "JEN",
+      "MICHELLE",
+      "CAM",
+      "SIMONE"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "THUY",
+    "SIMONE",
+    "JEN",
+    "SAM"
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "MICHELLE",
+      "CAM",
+      "SIMONE",
+      "SAM",
+      "THUY",
+      "JEN"
+     ],
+     "team": [
+      "THUY",
+      "SIMONE",
+      "JEN",
+      "SAM"
+     ],
+     "state": "APPROVED",
+     "proposer": "THUY"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "SAM",
+      "SIMONE",
+      "JEN"
+     ],
+     "votes": [
+      "JEN",
+      "SIMONE",
+      "SAM"
+     ],
+     "proposer": "SAM"
+    },
+    {
+     "votes": [
+      "THUY",
+      "JEN",
+      "MICHELLE",
+      "CAM",
+      "SIMONE",
+      "SAM"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "JEN",
+      "SIMONE",
+      "CAM"
+     ],
+     "proposer": "JEN"
+    }
+   ],
+   "team": [
+    "JEN",
+    "SIMONE",
+    "CAM"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "state": "PENDING",
+   "failsRequired": 1,
+   "teamSize": 4
+  }
+ ],
+ "outcome": {
+  "assassinated": "SIMONE",
+  "votes": [
+   {
+    "JEN": true,
+    "CAM": true
+   },
+   {
+    "SAM": true,
+    "JEN": true,
+    "SIMONE": true
+   },
+   {
+    "SAM": true,
+    "JEN": true,
+    "THUY": false,
+    "SIMONE": true
+   },
+   {
+    "JEN": true,
+    "CAM": true,
+    "SIMONE": true
+   }
+  ],
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "role": "MORGANA",
+    "name": "THUY",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "JEN"
+   },
+   {
+    "name": "MICHELLE",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "CAM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "SIMONE",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": false,
+    "name": "SAM",
+    "role": "LOYAL FOLLOWER"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeFinished": {
+  "_seconds": 1587869472,
+  "_nanoseconds": 516000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1587868613,
+  "_nanoseconds": 818000000
+ }
+}

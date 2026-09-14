@@ -1,0 +1,281 @@
+{
+ "timeCreated": {
+  "_seconds": 1593982510,
+  "_nanoseconds": 561000000
+ },
+ "players": [
+  {
+   "name": "MARTIN",
+   "uid": "L0Gx6Bis5pcXH1FfGkFIYNHXT9F3"
+  },
+  {
+   "uid": "fYg8XNyRKtdJZzgYBXjGLqmhMqy1",
+   "name": "SEAN"
+  },
+  {
+   "name": "JAYDEN",
+   "uid": "jIA8yP5fcETQMW3vdbdcdGFyGsv2"
+  },
+  {
+   "name": "IAN",
+   "uid": "tBu4vgzOAscojPHI0baJZ11Wqgi1"
+  },
+  {
+   "uid": "ZqPGAOWTg8ZpgdNzaMJWf49WkyY2",
+   "name": "JUSTIN"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "JUSTIN"
+   },
+   {
+    "assassin": true,
+    "name": "SEAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "MARTIN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "JAYDEN",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": false,
+    "name": "IAN",
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "JAYDEN": true,
+    "SEAN": true
+   },
+   {
+    "IAN": true,
+    "SEAN": false,
+    "JAYDEN": true
+   },
+   {
+    "IAN": true,
+    "MARTIN": true
+   },
+   {
+    "IAN": false,
+    "MARTIN": true,
+    "JAYDEN": true
+   }
+  ],
+  "assassinated": null,
+  "message": "Five team proposals in a row rejected"
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1593983336,
+  "_nanoseconds": 43000000
+ },
+ "missions": [
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "team": [
+    "SEAN",
+    "JAYDEN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "SEAN",
+      "IAN",
+      "JUSTIN"
+     ],
+     "proposer": "SEAN",
+     "state": "APPROVED",
+     "team": [
+      "SEAN",
+      "JAYDEN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "JAYDEN",
+     "team": [
+      "IAN",
+      "JAYDEN",
+      "SEAN"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SEAN",
+      "JAYDEN",
+      "IAN",
+      "JUSTIN"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "team": [
+    "IAN",
+    "JAYDEN",
+    "SEAN"
+   ],
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "IAN",
+    "MARTIN"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "IAN",
+      "MARTIN"
+     ],
+     "state": "APPROVED",
+     "proposer": "IAN",
+     "votes": [
+      "JAYDEN",
+      "IAN",
+      "JUSTIN",
+      "SEAN",
+      "MARTIN"
+     ]
+    }
+   ]
+  },
+  {
+   "team": [
+    "MARTIN",
+    "IAN",
+    "JAYDEN"
+   ],
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "JUSTIN",
+      "JAYDEN",
+      "IAN"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "SEAN"
+     ],
+     "proposer": "JUSTIN"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MARTIN",
+      "IAN",
+      "JAYDEN"
+     ],
+     "proposer": "MARTIN",
+     "votes": [
+      "JAYDEN",
+      "IAN",
+      "SEAN"
+     ]
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "JAYDEN",
+      "SEAN"
+     ],
+     "team": [
+      "SEAN",
+      "MARTIN",
+      "JUSTIN"
+     ],
+     "proposer": "SEAN"
+    },
+    {
+     "votes": [
+      "JAYDEN",
+      "SEAN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JAYDEN",
+      "SEAN",
+      "JUSTIN"
+     ],
+     "proposer": "JAYDEN"
+    },
+    {
+     "votes": [
+      "SEAN",
+      "IAN"
+     ],
+     "team": [
+      "IAN",
+      "JAYDEN",
+      "MARTIN"
+     ],
+     "proposer": "IAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "JUSTIN",
+      "JAYDEN",
+      "MARTIN"
+     ],
+     "votes": [
+      "JUSTIN",
+      "MARTIN"
+     ],
+     "state": "REJECTED",
+     "proposer": "JUSTIN"
+    },
+    {
+     "votes": [
+      "JUSTIN",
+      "MARTIN"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MARTIN",
+      "JAYDEN",
+      "JUSTIN"
+     ],
+     "proposer": "MARTIN"
+    }
+   ],
+   "state": "PENDING"
+  }
+ ]
+}

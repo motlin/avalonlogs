@@ -1,0 +1,333 @@
+{
+ "timeFinished": {
+  "_seconds": 1613548859,
+  "_nanoseconds": 457000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "SALMAN": true,
+    "MUBS": true,
+    "AMMAD": true
+   },
+   {
+    "ALI": false,
+    "SAFAN": true,
+    "SALMAN": true,
+    "AMMAD": true
+   },
+   {
+    "INARRA": false,
+    "AMMAD": true,
+    "ANUSHA": true,
+    "SALMAN": true
+   },
+   {
+    "AMMAD": true,
+    "MUBS": true,
+    "MAHIN": false,
+    "SAFAN": true,
+    "ALI": false
+   }
+  ],
+  "message": "Three failed missions",
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "ALI"
+   },
+   {
+    "name": "MAHIN",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "SALMAN"
+   },
+   {
+    "name": "SAFAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "INARRA",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "role": "MERLIN",
+    "name": "ANUSHA",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "AMMAD"
+   },
+   {
+    "name": "MUBS",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1613547270,
+  "_nanoseconds": 906000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "SALMAN",
+      "AMMAD",
+      "MAHIN",
+      "ALI",
+      "ANUSHA",
+      "SAFAN",
+      "INARRA",
+      "MUBS"
+     ],
+     "team": [
+      "MUBS",
+      "AMMAD",
+      "SALMAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "MUBS"
+    }
+   ],
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "MUBS",
+    "AMMAD",
+    "SALMAN"
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "SALMAN",
+    "AMMAD",
+    "SAFAN",
+    "ALI"
+   ],
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SALMAN",
+      "AMMAD",
+      "SAFAN",
+      "ALI"
+     ],
+     "votes": [
+      "ALI",
+      "SAFAN",
+      "SALMAN",
+      "INARRA",
+      "AMMAD"
+     ],
+     "state": "APPROVED",
+     "proposer": "SAFAN"
+    }
+   ],
+   "numFails": 1
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "MUBS",
+      "SAFAN",
+      "SALMAN",
+      "ANUSHA"
+     ],
+     "proposer": "ANUSHA",
+     "state": "REJECTED",
+     "team": [
+      "SAFAN",
+      "SALMAN",
+      "MUBS",
+      "ANUSHA"
+     ]
+    },
+    {
+     "team": [
+      "MAHIN",
+      "SAFAN",
+      "SALMAN",
+      "AMMAD"
+     ],
+     "state": "REJECTED",
+     "proposer": "MAHIN",
+     "votes": [
+      "MAHIN",
+      "ALI"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "MUBS",
+      "ANUSHA",
+      "INARRA"
+     ],
+     "team": [
+      "AMMAD",
+      "INARRA",
+      "ANUSHA",
+      "SALMAN"
+     ],
+     "proposer": "AMMAD"
+    },
+    {
+     "votes": [
+      "SALMAN",
+      "ANUSHA",
+      "MUBS",
+      "INARRA",
+      "ALI",
+      "SAFAN"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "INARRA",
+      "SALMAN",
+      "AMMAD",
+      "ANUSHA"
+     ],
+     "proposer": "INARRA"
+    }
+   ],
+   "teamSize": 4,
+   "state": "FAIL",
+   "team": [
+    "INARRA",
+    "SALMAN",
+    "AMMAD",
+    "ANUSHA"
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "MUBS",
+    "ALI",
+    "AMMAD",
+    "SAFAN",
+    "MAHIN"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "ALI"
+     ],
+     "team": [
+      "ALI",
+      "SAFAN",
+      "SALMAN",
+      "ANUSHA",
+      "MAHIN"
+     ],
+     "proposer": "ALI"
+    },
+    {
+     "votes": [
+      "INARRA",
+      "SALMAN",
+      "ANUSHA"
+     ],
+     "team": [
+      "SALMAN",
+      "MUBS",
+      "ANUSHA",
+      "SAFAN",
+      "INARRA"
+     ],
+     "proposer": "SALMAN",
+     "state": "REJECTED"
+    },
+    {
+     "state": "APPROVED",
+     "team": [
+      "MUBS",
+      "ALI",
+      "AMMAD",
+      "SAFAN",
+      "MAHIN"
+     ],
+     "proposer": "MUBS",
+     "votes": [
+      "MAHIN",
+      "SAFAN",
+      "AMMAD",
+      "MUBS",
+      "INARRA",
+      "ALI"
+     ]
+    }
+   ],
+   "numFails": 2,
+   "teamSize": 5,
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "7FFmesVvk9WPatCONMnSo7hgvuC3",
+   "name": "INARRA"
+  },
+  {
+   "name": "ALI",
+   "uid": "ao9rD3nwTrb7tVVxDo9yJIDcwqQ2"
+  },
+  {
+   "uid": "97zJ6RPMVOZAlp03HTtdxdR7bID3",
+   "name": "SALMAN"
+  },
+  {
+   "name": "MUBS",
+   "uid": "eD3z7D1FevdhSeH4hqQXOUNLKsf2"
+  },
+  {
+   "uid": "GEyVFBdcQlO0IJzeTL948ZebUE63",
+   "name": "SAFAN"
+  },
+  {
+   "name": "ANUSHA",
+   "uid": "ympyXZiI6JWAD5KFemwK6BO7tSD2"
+  },
+  {
+   "uid": "Q5IeHRPiaie0r6t0mUQAxrRsGJu2",
+   "name": "MAHIN"
+  },
+  {
+   "uid": "NYf4TAprohetijt3R5tQ6Aula502",
+   "name": "AMMAD"
+  }
+ ]
+}

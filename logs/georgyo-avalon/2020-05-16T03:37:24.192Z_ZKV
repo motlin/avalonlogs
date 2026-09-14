@@ -1,0 +1,317 @@
+{
+ "timeFinished": {
+  "_seconds": 1589601761,
+  "_nanoseconds": 120000000
+ },
+ "players": [
+  {
+   "name": "DEEPAK",
+   "uid": "2OkMelI3saWFZpisTOzWhxpAAT62"
+  },
+  {
+   "uid": "RA5oqXy1BqcEJ6N1FS4BEL1M9ti1",
+   "name": "RAMMU"
+  },
+  {
+   "uid": "4Ri0sXtIqdghSXdT8Av79RYWv2z2",
+   "name": "MEENA"
+  },
+  {
+   "uid": "Zriaxu14yvMoN8lHn77qYakdrks2",
+   "name": "HARLEEN"
+  },
+  {
+   "name": "SHRAVAN",
+   "uid": "UVKfpbgakPNllBB5zg2WUUJgQaP2"
+  },
+  {
+   "name": "KARTHVIDDR",
+   "uid": "xZ0OoOrtemMZM7CyW9zgbvx4d0k1"
+  },
+  {
+   "name": "BRAJASH",
+   "uid": "F7txaCWFJEXhh3RCCphToIWPWNZ2"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "name": "HARLEEN",
+    "assassin": false,
+    "role": "MORDRED"
+   },
+   {
+    "name": "RAMMU",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "MEENA"
+   },
+   {
+    "assassin": false,
+    "name": "KARTHVIDDR",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "BRAJASH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "SHRAVAN",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": true,
+    "name": "DEEPAK",
+    "role": "EVIL MINION"
+   }
+  ],
+  "assassinated": null,
+  "votes": [
+   {
+    "DEEPAK": false,
+    "KARTHVIDDR": true
+   },
+   {
+    "MEENA": true,
+    "HARLEEN": true,
+    "BRAJASH": true
+   },
+   {
+    "MEENA": true,
+    "BRAJASH": true,
+    "HARLEEN": false
+   },
+   {
+    "SHRAVAN": true,
+    "RAMMU": true,
+    "KARTHVIDDR": true,
+    "BRAJASH": true
+   },
+   {
+    "BRAJASH": true,
+    "SHRAVAN": true,
+    "RAMMU": false,
+    "HARLEEN": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "teamSize": 2,
+   "team": [
+    "DEEPAK",
+    "KARTHVIDDR"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "DEEPAK",
+      "KARTHVIDDR"
+     ],
+     "state": "APPROVED",
+     "proposer": "DEEPAK",
+     "votes": [
+      "RAMMU",
+      "MEENA",
+      "KARTHVIDDR",
+      "BRAJASH",
+      "SHRAVAN",
+      "DEEPAK",
+      "HARLEEN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MEENA",
+      "HARLEEN",
+      "RAMMU"
+     ],
+     "proposer": "RAMMU",
+     "votes": [
+      "HARLEEN",
+      "RAMMU"
+     ],
+     "state": "REJECTED"
+    },
+    {
+     "proposer": "MEENA",
+     "state": "APPROVED",
+     "votes": [
+      "BRAJASH",
+      "DEEPAK",
+      "HARLEEN",
+      "RAMMU",
+      "MEENA",
+      "KARTHVIDDR"
+     ],
+     "team": [
+      "MEENA",
+      "HARLEEN",
+      "BRAJASH"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "teamSize": 3,
+   "state": "SUCCESS",
+   "team": [
+    "MEENA",
+    "HARLEEN",
+    "BRAJASH"
+   ],
+   "numFails": 0
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "MEENA",
+      "HARLEEN",
+      "BRAJASH"
+     ],
+     "votes": [
+      "HARLEEN",
+      "RAMMU",
+      "MEENA",
+      "KARTHVIDDR",
+      "BRAJASH",
+      "DEEPAK"
+     ],
+     "state": "APPROVED",
+     "proposer": "HARLEEN"
+    }
+   ],
+   "team": [
+    "MEENA",
+    "HARLEEN",
+    "BRAJASH"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "failsRequired": 2,
+   "team": [
+    "SHRAVAN",
+    "RAMMU",
+    "KARTHVIDDR",
+    "BRAJASH"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "proposer": "SHRAVAN",
+     "state": "APPROVED",
+     "votes": [
+      "SHRAVAN",
+      "DEEPAK",
+      "HARLEEN",
+      "RAMMU",
+      "KARTHVIDDR",
+      "BRAJASH"
+     ],
+     "team": [
+      "SHRAVAN",
+      "RAMMU",
+      "KARTHVIDDR",
+      "BRAJASH"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "KARTHVIDDR",
+     "votes": [],
+     "state": "REJECTED",
+     "team": [
+      "SHRAVAN",
+      "BRAJASH",
+      "HARLEEN",
+      "KARTHVIDDR"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "RAMMU",
+      "BRAJASH",
+      "DEEPAK"
+     ],
+     "proposer": "BRAJASH",
+     "team": [
+      "DEEPAK",
+      "HARLEEN",
+      "SHRAVAN",
+      "BRAJASH"
+     ]
+    },
+    {
+     "team": [
+      "DEEPAK",
+      "KARTHVIDDR",
+      "SHRAVAN",
+      "BRAJASH"
+     ],
+     "state": "REJECTED",
+     "votes": [],
+     "proposer": "DEEPAK"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "HARLEEN",
+      "RAMMU",
+      "BRAJASH",
+      "SHRAVAN",
+      "DEEPAK"
+     ],
+     "team": [
+      "RAMMU",
+      "BRAJASH",
+      "HARLEEN",
+      "SHRAVAN"
+     ],
+     "proposer": "RAMMU"
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 2,
+   "teamSize": 4,
+   "team": [
+    "RAMMU",
+    "BRAJASH",
+    "HARLEEN",
+    "SHRAVAN"
+   ]
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1589600244,
+  "_nanoseconds": 192000000
+ },
+ "options": {
+  "inGameLog": false
+ }
+}

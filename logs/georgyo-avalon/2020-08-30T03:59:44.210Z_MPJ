@@ -1,0 +1,230 @@
+{
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "team": [
+    "ALLEN",
+    "AND"
+   ],
+   "proposals": [
+    {
+     "proposer": "AND",
+     "team": [
+      "ALLEN",
+      "AND"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "MAX",
+      "VDAWG",
+      "MASTERDIZ",
+      "AND",
+      "ALLEN"
+     ]
+    }
+   ],
+   "numFails": 0
+  },
+  {
+   "teamSize": 3,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "ALLEN",
+    "AND",
+    "MAX"
+   ],
+   "proposals": [
+    {
+     "team": [
+      "ALLEN",
+      "AND",
+      "MAX"
+     ],
+     "proposer": "MAX",
+     "state": "APPROVED",
+     "votes": [
+      "AND",
+      "MASTERDIZ",
+      "ALLEN",
+      "VDAWG",
+      "MAX"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "MASTERDIZ",
+      "MAX",
+      "VDAWG"
+     ],
+     "proposer": "MASTERDIZ",
+     "team": [
+      "MAX",
+      "VDAWG"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "team": [
+    "MAX",
+    "VDAWG"
+   ],
+   "state": "FAIL",
+   "numFails": 1
+  },
+  {
+   "team": [
+    "ALLEN",
+    "AND",
+    "MAX"
+   ],
+   "numFails": 1,
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "team": [
+      "ALLEN",
+      "AND",
+      "MAX"
+     ],
+     "votes": [
+      "ALLEN",
+      "AND",
+      "VDAWG",
+      "MAX"
+     ],
+     "proposer": "VDAWG",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "ALLEN",
+    "MASTERDIZ",
+    "VDAWG"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "ALLEN",
+     "votes": [
+      "VDAWG",
+      "MAX",
+      "MASTERDIZ"
+     ],
+     "team": [
+      "ALLEN",
+      "MASTERDIZ",
+      "VDAWG"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "name": "ALLEN",
+   "uid": "Otyhww6DQZPfdwldw6MRDatkS5I3"
+  },
+  {
+   "uid": "zQNLjUvTDpVWY4lIMhxwoKBgYjf2",
+   "name": "AND"
+  },
+  {
+   "name": "MAX",
+   "uid": "oGCzA6emXjSBN5FkPEEEI5MDQ5p2"
+  },
+  {
+   "name": "MASTERDIZ",
+   "uid": "asYRGAHN8da7cFG4KyWpG3zDLt13"
+  },
+  {
+   "name": "VDAWG",
+   "uid": "Dkrh5VMyondwmaDnlcdewt5y78r1"
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1598759984,
+  "_nanoseconds": 210000000
+ },
+ "timeFinished": {
+  "_seconds": 1598760251,
+  "_nanoseconds": 498000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "ALLEN": true,
+    "AND": true
+   },
+   {
+    "MAX": true,
+    "ALLEN": true,
+    "AND": true
+   },
+   {
+    "MAX": false,
+    "VDAWG": true
+   },
+   {
+    "MAX": false,
+    "AND": true,
+    "ALLEN": true
+   },
+   {
+    "ALLEN": true,
+    "MASTERDIZ": false,
+    "VDAWG": true
+   }
+  ],
+  "assassinated": null,
+  "roles": [
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "VDAWG"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "AND"
+   },
+   {
+    "assassin": true,
+    "name": "MAX",
+    "role": "MORDRED"
+   },
+   {
+    "name": "MASTERDIZ",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "name": "ALLEN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "message": "Three failed missions"
+ }
+}

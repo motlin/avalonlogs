@@ -1,0 +1,217 @@
+{
+ "players": [
+  {
+   "name": "DORICE",
+   "uid": "SJpry8iE2XUXULBPHg3hNzunphk1"
+  },
+  {
+   "uid": "KI3PiEivMyaNimyKHXISGlV99yc2",
+   "name": "DK"
+  },
+  {
+   "name": "CUMBERBAE",
+   "uid": "NXi2HRKn4eMBFW1xEXyPZqfidZy2"
+  },
+  {
+   "uid": "9na0lw5AyTbGCQiKhm2SkaXgENz1",
+   "name": "BOBA"
+  },
+  {
+   "uid": "pIjSItKivKMn77h7ZckVCClmZIx2",
+   "name": "JAY"
+  }
+ ],
+ "missions": [
+  {
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "BOBA",
+      "CUMBERBAE",
+      "DORICE",
+      "DK",
+      "JAY"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "DK",
+      "DORICE"
+     ],
+     "proposer": "DK"
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "team": [
+    "DK",
+    "DORICE"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "DORICE",
+    "DK",
+    "CUMBERBAE"
+   ],
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CUMBERBAE",
+     "votes": [
+      "BOBA",
+      "CUMBERBAE",
+      "JAY",
+      "DK",
+      "DORICE"
+     ],
+     "team": [
+      "DORICE",
+      "DK",
+      "CUMBERBAE"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "numFails": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 2,
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "team": [
+    "BOBA",
+    "DK"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "CUMBERBAE",
+      "BOBA",
+      "JAY",
+      "DK"
+     ],
+     "proposer": "BOBA",
+     "state": "APPROVED",
+     "team": [
+      "BOBA",
+      "DK"
+     ]
+    }
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "DORICE",
+    "DK",
+    "BOBA"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "votes": [
+      "JAY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "JAY",
+      "BOBA",
+      "DK"
+     ],
+     "proposer": "JAY"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "DORICE",
+      "DK",
+      "BOBA"
+     ],
+     "team": [
+      "DORICE",
+      "DK",
+      "BOBA"
+     ],
+     "proposer": "DORICE"
+    }
+   ],
+   "teamSize": 3
+  },
+  {
+   "failsRequired": 1,
+   "team": [],
+   "teamSize": 3,
+   "state": "PENDING",
+   "proposals": []
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1612327868,
+  "_nanoseconds": 616000000
+ },
+ "outcome": {
+  "votes": [
+   {
+    "DORICE": true,
+    "DK": true
+   },
+   {
+    "CUMBERBAE": false,
+    "DK": true,
+    "DORICE": true
+   },
+   {
+    "DK": true,
+    "BOBA": true
+   },
+   {
+    "DK": true,
+    "BOBA": true,
+    "DORICE": true
+   }
+  ],
+  "roles": [
+   {
+    "name": "JAY",
+    "role": "MORDRED",
+    "assassin": true
+   },
+   {
+    "role": "MORGANA",
+    "assassin": false,
+    "name": "CUMBERBAE"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "BOBA"
+   },
+   {
+    "name": "DORICE",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "DK",
+    "assassin": false,
+    "role": "MERLIN"
+   }
+  ],
+  "assassinated": "DORICE",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions"
+ },
+ "timeCreated": {
+  "_seconds": 1612326789,
+  "_nanoseconds": 2000000
+ }
+}

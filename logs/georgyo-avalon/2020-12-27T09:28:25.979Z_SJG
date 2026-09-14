@@ -1,0 +1,251 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CHONGZ",
+    "role": "OBERON"
+   },
+   {
+    "name": "SEAN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ANDREW",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "BRANDON"
+   },
+   {
+    "name": "KEVIN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "assassin": true,
+    "name": "MIKE",
+    "role": "MORDRED"
+   },
+   {
+    "name": "ALBERT",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "votes": [
+   {
+    "MIKE": true,
+    "ALBERT": false
+   },
+   {
+    "BRANDON": true,
+    "KEVIN": true,
+    "MIKE": false
+   },
+   {
+    "SEAN": true,
+    "KEVIN": true,
+    "MIKE": false
+   }
+  ],
+  "assassinated": null
+ },
+ "players": [
+  {
+   "name": "ANDREW",
+   "uid": "L6cFKHEED6YMGL2rnCfSlDbDPxr2"
+  },
+  {
+   "name": "MIKE",
+   "uid": "o2le7m7rXvQDAWZ9hTXakkMVOZ53"
+  },
+  {
+   "uid": "64McfzW9cJPIOzSj8rfmYGhScLg1",
+   "name": "CHONGZ"
+  },
+  {
+   "name": "ALBERT",
+   "uid": "a9zinWFXOuRCFGdnneS5bJQPuRF2"
+  },
+  {
+   "name": "KEVIN",
+   "uid": "T3KiFaDEOEY8wSMnNf76VjKor313"
+  },
+  {
+   "uid": "c5QMEd24KQW8zogkGKZwTeAXALk1",
+   "name": "BRANDON"
+  },
+  {
+   "name": "SEAN",
+   "uid": "exK4FwYzbjY8SxjALsct8IWLuYt1"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1609062617,
+  "_nanoseconds": 665000000
+ },
+ "missions": [
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "ANDREW",
+     "state": "REJECTED",
+     "votes": [
+      "ANDREW",
+      "CHONGZ",
+      "BRANDON"
+     ],
+     "team": [
+      "ANDREW",
+      "BRANDON"
+     ]
+    },
+    {
+     "votes": [
+      "CHONGZ",
+      "MIKE"
+     ],
+     "proposer": "MIKE",
+     "state": "REJECTED",
+     "team": [
+      "MIKE",
+      "CHONGZ"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "CHONGZ",
+      "SEAN"
+     ],
+     "team": [
+      "CHONGZ",
+      "MIKE"
+     ],
+     "proposer": "CHONGZ"
+    },
+    {
+     "proposer": "ALBERT",
+     "team": [
+      "ALBERT",
+      "MIKE"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CHONGZ",
+      "MIKE",
+      "ANDREW",
+      "SEAN",
+      "ALBERT"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "failsRequired": 1,
+   "team": [
+    "ALBERT",
+    "MIKE"
+   ]
+  },
+  {
+   "team": [
+    "MIKE",
+    "KEVIN",
+    "BRANDON"
+   ],
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "KEVIN",
+     "team": [
+      "MIKE",
+      "KEVIN",
+      "BRANDON"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "SEAN",
+      "KEVIN",
+      "CHONGZ",
+      "BRANDON",
+      "ANDREW"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3
+  },
+  {
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "KEVIN",
+      "BRANDON",
+      "ALBERT"
+     ],
+     "proposer": "BRANDON",
+     "state": "REJECTED",
+     "votes": [
+      "BRANDON",
+      "ALBERT"
+     ]
+    },
+    {
+     "proposer": "SEAN",
+     "votes": [
+      "ANDREW",
+      "SEAN",
+      "KEVIN",
+      "ALBERT"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SEAN",
+      "KEVIN",
+      "MIKE"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SEAN",
+    "KEVIN",
+    "MIKE"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "teamSize": 4,
+   "failsRequired": 2
+  },
+  {
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1,
+   "state": "PENDING",
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1609061305,
+  "_nanoseconds": 979000000
+ }
+}

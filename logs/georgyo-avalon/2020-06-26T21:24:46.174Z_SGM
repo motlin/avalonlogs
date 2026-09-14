@@ -1,0 +1,262 @@
+{
+ "timeCreated": {
+  "_seconds": 1593206686,
+  "_nanoseconds": 174000000
+ },
+ "timeFinished": {
+  "_seconds": 1593207149,
+  "_nanoseconds": 349000000
+ },
+ "players": [
+  {
+   "uid": "FxNVnPh3OQhH9a24DbpHwR8uJLU2",
+   "name": "LOUIS"
+  },
+  {
+   "name": "YANNY",
+   "uid": "5wT6hEk7h1OrespCYq34YPAwqdx2"
+  },
+  {
+   "uid": "dGxWpetP0XNBvHhWS0nICIXeK4Y2",
+   "name": "EVAN"
+  },
+  {
+   "uid": "gDWnsaaToTO3W2wuBJnyv2xC70k1",
+   "name": "KORITKO"
+  },
+  {
+   "uid": "XD4pfa6DR9RBzp2OSNWyohxhakj1",
+   "name": "ERIC"
+  },
+  {
+   "name": "JESSICA",
+   "uid": "r8gOHrrtdlbojdqbzaggtsuIAgY2"
+  },
+  {
+   "name": "JOHN",
+   "uid": "sbo25FQlZGTCEaJOSBGl3evpqCn1"
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "EVAN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "ERIC"
+   },
+   {
+    "assassin": false,
+    "role": "EVIL MINION",
+    "name": "JESSICA"
+   },
+   {
+    "name": "JOHN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "YANNY",
+    "assassin": false,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "LOUIS",
+    "assassin": false
+   },
+   {
+    "name": "KORITKO",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": null,
+  "votes": [
+   {
+    "YANNY": false,
+    "EVAN": false
+   },
+   {
+    "LOUIS": true,
+    "JOHN": true,
+    "KORITKO": true
+   },
+   {
+    "JOHN": true,
+    "LOUIS": true,
+    "KORITKO": true
+   },
+   {
+    "JOHN": true,
+    "ERIC": true,
+    "LOUIS": true,
+    "KORITKO": true
+   }
+  ],
+  "message": "Three missions succeeded"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "team": [
+    "EVAN",
+    "YANNY"
+   ],
+   "teamSize": 2,
+   "state": "FAIL",
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "KORITKO",
+      "JESSICA",
+      "JOHN",
+      "YANNY",
+      "LOUIS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "EVAN",
+      "YANNY"
+     ],
+     "proposer": "JESSICA"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "JOHN",
+      "LOUIS",
+      "KORITKO"
+     ],
+     "votes": [
+      "KORITKO",
+      "ERIC",
+      "JOHN",
+      "YANNY",
+      "LOUIS"
+     ],
+     "proposer": "JOHN",
+     "state": "APPROVED"
+    }
+   ],
+   "state": "SUCCESS",
+   "team": [
+    "JOHN",
+    "LOUIS",
+    "KORITKO"
+   ],
+   "numFails": 0,
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3,
+   "team": [
+    "KORITKO",
+    "JOHN",
+    "LOUIS"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LOUIS",
+     "team": [
+      "KORITKO",
+      "JOHN",
+      "LOUIS"
+     ],
+     "votes": [
+      "JOHN",
+      "YANNY",
+      "LOUIS",
+      "KORITKO",
+      "ERIC",
+      "JESSICA"
+     ]
+    }
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "teamSize": 4,
+   "failsRequired": 2,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "EVAN",
+      "JESSICA",
+      "YANNY"
+     ],
+     "proposer": "YANNY",
+     "state": "REJECTED",
+     "team": [
+      "YANNY",
+      "JESSICA",
+      "KORITKO",
+      "EVAN"
+     ]
+    },
+    {
+     "votes": [
+      "EVAN",
+      "JESSICA",
+      "YANNY"
+     ],
+     "team": [
+      "EVAN",
+      "JESSICA",
+      "KORITKO",
+      "ERIC"
+     ],
+     "proposer": "EVAN",
+     "state": "REJECTED"
+    },
+    {
+     "team": [
+      "KORITKO",
+      "JOHN",
+      "ERIC",
+      "LOUIS"
+     ],
+     "state": "APPROVED",
+     "proposer": "KORITKO",
+     "votes": [
+      "KORITKO",
+      "JESSICA",
+      "JOHN",
+      "LOUIS"
+     ]
+    }
+   ],
+   "team": [
+    "KORITKO",
+    "JOHN",
+    "ERIC",
+    "LOUIS"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 1,
+   "proposals": [],
+   "teamSize": 4
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "JACK",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "MORGANA",
+    "name": "JONESY",
+    "assassin": false
+   },
+   {
+    "name": "MAY",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "SLIMMYJIMM",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "REID",
+    "assassin": true
+   },
+   {
+    "role": "MORDRED",
+    "name": "RYAN",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "WILL",
+    "role": "PERCIVAL"
+   }
+  ],
+  "assassinated": "JACK",
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "votes": [
+   {
+    "JONESY": true,
+    "MAY": true
+   },
+   {
+    "JONESY": false,
+    "SLIMMYJIMM": true,
+    "MAY": true
+   },
+   {
+    "SLIMMYJIMM": true,
+    "WILL": true,
+    "MAY": true
+   },
+   {
+    "WILL": true,
+    "SLIMMYJIMM": true,
+    "MAY": true,
+    "JACK": true
+   }
+  ]
+ },
+ "timeFinished": {
+  "_seconds": 1587086416,
+  "_nanoseconds": 314399000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "JONESY",
+      "MAY"
+     ],
+     "state": "APPROVED",
+     "proposer": "RYAN",
+     "votes": [
+      "WILL",
+      "JACK",
+      "JONESY",
+      "REID",
+      "RYAN"
+     ]
+    }
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "JONESY",
+    "MAY"
+   ]
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "JONESY",
+      "MAY",
+      "SLIMMYJIMM"
+     ],
+     "proposer": "SLIMMYJIMM",
+     "votes": [
+      "SLIMMYJIMM",
+      "RYAN",
+      "JONESY",
+      "MAY"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "JONESY",
+    "MAY",
+    "SLIMMYJIMM"
+   ]
+  },
+  {
+   "team": [
+    "SLIMMYJIMM",
+    "MAY",
+    "WILL"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JACK",
+      "MAY",
+      "SLIMMYJIMM",
+      "REID",
+      "WILL"
+     ],
+     "proposer": "MAY",
+     "state": "APPROVED",
+     "team": [
+      "SLIMMYJIMM",
+      "MAY",
+      "WILL"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 0
+  },
+  {
+   "team": [
+    "MAY",
+    "SLIMMYJIMM",
+    "WILL",
+    "JACK"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 2,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "votes": [
+      "REID",
+      "RYAN",
+      "WILL",
+      "JACK"
+     ],
+     "proposer": "REID",
+     "state": "APPROVED",
+     "team": [
+      "MAY",
+      "SLIMMYJIMM",
+      "WILL",
+      "JACK"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1587085706,
+  "_nanoseconds": 189000000
+ },
+ "players": [
+  {
+   "name": "SLIMMYJIMM",
+   "uid": "rlYsN9yWvjY50whmk7OijNcUXHy2"
+  },
+  {
+   "name": "MAY",
+   "uid": "RwWZNKOgKrUOvfWnPrUIb0UrG4Y2"
+  },
+  {
+   "uid": "JsV7G0CQiXg86UzXmJdBAU0xe4n1",
+   "name": "REID"
+  },
+  {
+   "uid": "FSth5yaAaSg2HtNaBN88XwMCxlv1",
+   "name": "WILL"
+  },
+  {
+   "name": "JONESY",
+   "uid": "xi35CAgu1pQX6cz9w1TGaSxDB7u1"
+  },
+  {
+   "name": "JACK",
+   "uid": "dWkLr2TeeMZh5RVBubE0LS1tWrh2"
+  },
+  {
+   "name": "RYAN",
+   "uid": "gAiRUjpSMlbOzGpCzUNPHhcdscG3"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

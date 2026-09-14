@@ -1,0 +1,309 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "FUITGUMMY": true,
+    "SLANKET": true
+   },
+   {
+    "SLANKET": true,
+    "FUITGUMMY": true,
+    "MONUTS": false
+   },
+   {
+    "DICKSON": true,
+    "VCR": true,
+    "FUITGUMMY": true,
+    "SLANKET": true
+   },
+   {
+    "SLANKET": true,
+    "FUITGUMMY": true,
+    "DICKSON": true
+   }
+  ],
+  "message": "Three successful missions",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "VCR"
+   },
+   {
+    "assassin": false,
+    "name": "MONUTS",
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "DICKSON"
+   },
+   {
+    "name": "SLANKET",
+    "role": "MERLIN",
+    "assassin": false
+   },
+   {
+    "name": "NICOLAS",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "FUITGUMMY",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "state": "GOOD_WIN",
+  "assassinated": "VCR"
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "teamSize": 2,
+   "proposals": [
+    {
+     "votes": [
+      "VCR",
+      "MONUTS",
+      "FUITGUMMY"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "MONUTS",
+      "FUITGUMMY"
+     ],
+     "proposer": "DICKSON"
+    },
+    {
+     "votes": [
+      "MONUTS",
+      "NICOLAS"
+     ],
+     "team": [
+      "SLANKET",
+      "NICOLAS"
+     ],
+     "state": "REJECTED",
+     "proposer": "MONUTS"
+    },
+    {
+     "state": "REJECTED",
+     "votes": [
+      "FUITGUMMY",
+      "VCR",
+      "MONUTS"
+     ],
+     "team": [
+      "VCR",
+      "FUITGUMMY"
+     ],
+     "proposer": "VCR"
+    },
+    {
+     "votes": [
+      "FUITGUMMY",
+      "NICOLAS"
+     ],
+     "state": "REJECTED",
+     "proposer": "NICOLAS",
+     "team": [
+      "NICOLAS",
+      "FUITGUMMY"
+     ]
+    },
+    {
+     "team": [
+      "SLANKET",
+      "FUITGUMMY"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "FUITGUMMY",
+      "VCR",
+      "MONUTS",
+      "DICKSON",
+      "NICOLAS",
+      "SLANKET"
+     ],
+     "proposer": "SLANKET"
+    }
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "team": [
+    "SLANKET",
+    "FUITGUMMY"
+   ]
+  },
+  {
+   "team": [
+    "SLANKET",
+    "FUITGUMMY",
+    "MONUTS"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "SLANKET",
+      "FUITGUMMY",
+      "MONUTS"
+     ],
+     "proposer": "FUITGUMMY",
+     "state": "APPROVED",
+     "votes": [
+      "NICOLAS",
+      "FUITGUMMY",
+      "VCR",
+      "MONUTS"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "SLANKET",
+    "FUITGUMMY",
+    "DICKSON",
+    "VCR"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "team": [
+      "SLANKET",
+      "DICKSON",
+      "VCR",
+      "MONUTS"
+     ],
+     "state": "REJECTED",
+     "votes": [
+      "MONUTS"
+     ],
+     "proposer": "DICKSON"
+    },
+    {
+     "votes": [
+      "MONUTS",
+      "DICKSON"
+     ],
+     "proposer": "MONUTS",
+     "state": "REJECTED",
+     "team": [
+      "NICOLAS",
+      "SLANKET",
+      "FUITGUMMY",
+      "DICKSON"
+     ]
+    },
+    {
+     "votes": [
+      "SLANKET",
+      "FUITGUMMY",
+      "VCR",
+      "MONUTS",
+      "DICKSON"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "SLANKET",
+      "FUITGUMMY",
+      "DICKSON",
+      "VCR"
+     ],
+     "proposer": "VCR"
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4
+  },
+  {
+   "state": "SUCCESS",
+   "numFails": 0,
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "NICOLAS",
+      "VCR",
+      "FUITGUMMY"
+     ],
+     "votes": [
+      "NICOLAS",
+      "MONUTS"
+     ],
+     "proposer": "NICOLAS",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SLANKET",
+      "FUITGUMMY",
+      "VCR",
+      "DICKSON"
+     ],
+     "proposer": "SLANKET",
+     "state": "APPROVED",
+     "team": [
+      "SLANKET",
+      "FUITGUMMY",
+      "DICKSON"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "SLANKET",
+    "FUITGUMMY",
+    "DICKSON"
+   ]
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 1,
+   "teamSize": 4,
+   "team": []
+  }
+ ],
+ "timeCreated": {
+  "_seconds": 1585192294,
+  "_nanoseconds": 177000000
+ },
+ "players": [
+  {
+   "uid": "5fRJchdQRihmaYAowJu40J0iVIv1",
+   "name": "NICOLAS"
+  },
+  {
+   "name": "SLANKET",
+   "uid": "rFoLjnY1O9dKi8iMx6xE1Oo0g292"
+  },
+  {
+   "name": "FUITGUMMY",
+   "uid": "M6J64YeZRYVmHqaXCmOmQOtQW8p1"
+  },
+  {
+   "name": "DICKSON",
+   "uid": "5Fumj2DR7pdpPOaNSubyMFFy87b2"
+  },
+  {
+   "name": "MONUTS",
+   "uid": "n8TY5m2F4pZxlRXXSjbhtQjaULD2"
+  },
+  {
+   "uid": "W1J5paMqKTTrO6t9ESJF46Qv04p2",
+   "name": "VCR"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1585193200,
+  "_nanoseconds": 60179000
+ }
+}

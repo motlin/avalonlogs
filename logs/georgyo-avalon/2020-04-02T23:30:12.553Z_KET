@@ -1,0 +1,217 @@
+{
+ "timeFinished": {
+  "_seconds": 1585870445,
+  "_nanoseconds": 958104000
+ },
+ "timeCreated": {
+  "_seconds": 1585870212,
+  "_nanoseconds": 553000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "assassin": false,
+    "name": "DIANA",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "CHRIS",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "TIM",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "name": "THOMAS",
+    "role": "PERCIVAL"
+   },
+   {
+    "assassin": true,
+    "role": "MORDRED",
+    "name": "DAVID"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "MICHELLE"
+   }
+  ],
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "TIM": true,
+    "THOMAS": true
+   },
+   {
+    "THOMAS": true,
+    "TIM": true,
+    "DIANA": false
+   },
+   {
+    "MICHELLE": true,
+    "DAVID": false,
+    "CHRIS": true,
+    "THOMAS": true
+   },
+   {
+    "DAVID": false,
+    "CHRIS": true,
+    "TIM": true
+   }
+  ]
+ },
+ "players": [
+  {
+   "uid": "SqiaA6X0CjVOxMDPmyjFvcsayX03",
+   "name": "DIANA"
+  },
+  {
+   "name": "DAVID",
+   "uid": "UQJFUagMgcQ2aPTmCXk2tN18Gp73"
+  },
+  {
+   "name": "CHRIS",
+   "uid": "WW9UDSJTWjcv5IEHdIzn4W3pC0F3"
+  },
+  {
+   "name": "MICHELLE",
+   "uid": "NRa4Y5BvIRUu0NJtNcgsbihHeRV2"
+  },
+  {
+   "uid": "U3BfWb5BfHQ0FbnqlzsGEnbrg5p2",
+   "name": "THOMAS"
+  },
+  {
+   "name": "TIM",
+   "uid": "EZ6man5jV1Ws1fTtrxeAIajz8ky2"
+  }
+ ],
+ "missions": [
+  {
+   "proposals": [
+    {
+     "proposer": "TIM",
+     "votes": [
+      "DAVID",
+      "CHRIS",
+      "TIM",
+      "THOMAS"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "THOMAS",
+      "TIM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "THOMAS",
+    "TIM"
+   ],
+   "failsRequired": 1,
+   "teamSize": 2
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "DIANA",
+     "team": [
+      "DIANA",
+      "THOMAS",
+      "TIM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "DAVID",
+      "DIANA",
+      "CHRIS",
+      "TIM",
+      "THOMAS"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "DIANA",
+    "THOMAS",
+    "TIM"
+   ],
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "DAVID",
+    "THOMAS",
+    "MICHELLE",
+    "CHRIS"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DAVID",
+      "THOMAS",
+      "MICHELLE",
+      "CHRIS"
+     ],
+     "votes": [
+      "DAVID",
+      "MICHELLE",
+      "CHRIS",
+      "THOMAS"
+     ],
+     "proposer": "DAVID"
+    }
+   ]
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "DAVID",
+      "CHRIS",
+      "TIM"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "CHRIS",
+      "TIM",
+      "DAVID",
+      "DIANA"
+     ],
+     "proposer": "CHRIS"
+    }
+   ],
+   "team": [
+    "DAVID",
+    "CHRIS",
+    "TIM"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 3,
+   "numFails": 1
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "state": "PENDING",
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ]
+}

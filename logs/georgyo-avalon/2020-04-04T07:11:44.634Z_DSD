@@ -1,0 +1,218 @@
+{
+ "timeFinished": {
+  "_seconds": 1585984819,
+  "_nanoseconds": 926284000
+ },
+ "outcome": {
+  "message": "Three failed missions",
+  "roles": [
+   {
+    "name": "RYAN",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": true,
+    "role": "EVIL MINION",
+    "name": "DSD"
+   },
+   {
+    "role": "MERLIN",
+    "name": "ZIWEI",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "XD"
+   },
+   {
+    "assassin": false,
+    "name": "ERIN",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "ANDREW",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "REG"
+   },
+   {
+    "assassin": false,
+    "name": "RIS",
+    "role": "MORGANA"
+   }
+  ],
+  "state": "EVIL_WIN",
+  "votes": [
+   {
+    "ANDREW": false,
+    "ERIN": true,
+    "XD": true
+   },
+   {
+    "ERIN": true,
+    "RYAN": true,
+    "XD": true,
+    "DSD": false
+   },
+   {
+    "RIS": false,
+    "RYAN": true,
+    "ANDREW": false,
+    "REG": true
+   }
+  ],
+  "assassinated": null
+ },
+ "timeCreated": {
+  "_seconds": 1585984304,
+  "_nanoseconds": 634000000
+ },
+ "players": [
+  {
+   "name": "ZIWEI",
+   "uid": "BMIn51ktEqVpvSz8qa1eJZV5lud2"
+  },
+  {
+   "uid": "u4qNwWAcZORsH9p9cJBUMDM4Shz2",
+   "name": "RYAN"
+  },
+  {
+   "name": "REG",
+   "uid": "S1oe0wQAicS2vWmjlqhDQCJukTi2"
+  },
+  {
+   "name": "ANDREW",
+   "uid": "q2cGWCYTs9hFP6LujiqwmsIjDch2"
+  },
+  {
+   "name": "DSD",
+   "uid": "eYLNQLhGfuViEB1FhUZ4MfkjRcA2"
+  },
+  {
+   "uid": "DUAyFH4yxsNxzZtf1qtbrfwRPf23",
+   "name": "RIS"
+  },
+  {
+   "name": "ERIN",
+   "uid": "2KbFCfxG3VT6Uvr0zoWU382VT932"
+  },
+  {
+   "name": "XD",
+   "uid": "hq1drzooqKNZO61hOXv2ODqOmPD3"
+  }
+ ],
+ "missions": [
+  {
+   "numFails": 1,
+   "proposals": [
+    {
+     "team": [
+      "ANDREW",
+      "ERIN",
+      "XD"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "RIS",
+      "XD",
+      "ERIN",
+      "ANDREW",
+      "REG"
+     ],
+     "proposer": "ANDREW"
+    }
+   ],
+   "state": "FAIL",
+   "team": [
+    "ANDREW",
+    "ERIN",
+    "XD"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "DSD",
+    "ERIN",
+    "XD",
+    "RYAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DSD",
+      "ERIN",
+      "XD",
+      "RYAN"
+     ],
+     "votes": [
+      "RYAN",
+      "DSD",
+      "XD",
+      "ERIN",
+      "ANDREW",
+      "RIS"
+     ],
+     "proposer": "DSD"
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 2,
+   "proposals": [
+    {
+     "votes": [
+      "ANDREW",
+      "REG",
+      "RIS",
+      "RYAN",
+      "DSD"
+     ],
+     "proposer": "RIS",
+     "team": [
+      "ANDREW",
+      "REG",
+      "RYAN",
+      "RIS"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "FAIL",
+   "team": [
+    "ANDREW",
+    "REG",
+    "RYAN",
+    "RIS"
+   ],
+   "teamSize": 4
+  },
+  {
+   "teamSize": 5,
+   "team": [],
+   "state": "PENDING",
+   "proposals": [],
+   "failsRequired": 2
+  },
+  {
+   "failsRequired": 1,
+   "state": "PENDING",
+   "proposals": [],
+   "team": [],
+   "teamSize": 5
+  }
+ ]
+}

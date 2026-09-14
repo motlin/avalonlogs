@@ -1,0 +1,312 @@
+{
+ "outcome": {
+  "state": "EVIL_WIN",
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "CHAIRMAN": true,
+    "CINDE": true,
+    "DOROTHY": true
+   },
+   {
+    "CHAIRMAN": true,
+    "CINDE": true,
+    "NIKHIL": true,
+    "DOROTHY": true
+   },
+   {
+    "DOROTHY": true,
+    "CHAIRMAN": true,
+    "CINDE": false,
+    "NIKHIL": true
+   },
+   {
+    "EFFIE": true,
+    "DOROTHY": true,
+    "NIKHIL": true,
+    "CHAIRMAN": false,
+    "CINDE": false
+   },
+   {
+    "NIKHIL": true,
+    "CINDE": false,
+    "DOROTHY": true,
+    "CRYSTAL": true,
+    "LLOLLO": true
+   }
+  ],
+  "roles": [
+   {
+    "assassin": false,
+    "name": "CINDE",
+    "role": "MORGANA"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "DOROTHY"
+   },
+   {
+    "assassin": false,
+    "name": "CLAIREBEAR",
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "CRYSTAL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "NIKHIL",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "JESSI",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "CHAIRMAN",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "LLOLLO",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "EFFIE"
+   }
+  ],
+  "assassinated": null
+ },
+ "missions": [
+  {
+   "team": [
+    "CHAIRMAN",
+    "DOROTHY",
+    "CINDE"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CHAIRMAN",
+      "DOROTHY",
+      "CINDE"
+     ],
+     "votes": [
+      "NIKHIL",
+      "JESSI",
+      "CHAIRMAN",
+      "LLOLLO",
+      "EFFIE",
+      "CINDE",
+      "DOROTHY",
+      "CLAIREBEAR",
+      "CRYSTAL"
+     ],
+     "proposer": "CHAIRMAN"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "NIKHIL",
+      "JESSI",
+      "CHAIRMAN",
+      "LLOLLO",
+      "EFFIE",
+      "CINDE",
+      "DOROTHY",
+      "CLAIREBEAR",
+      "CRYSTAL"
+     ],
+     "team": [
+      "CHAIRMAN",
+      "DOROTHY",
+      "CINDE",
+      "NIKHIL"
+     ],
+     "proposer": "NIKHIL",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "CHAIRMAN",
+    "DOROTHY",
+    "CINDE",
+    "NIKHIL"
+   ],
+   "state": "SUCCESS"
+  },
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "team": [
+    "DOROTHY",
+    "CHAIRMAN",
+    "NIKHIL",
+    "CINDE"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "DOROTHY",
+      "CHAIRMAN",
+      "NIKHIL",
+      "CINDE"
+     ],
+     "proposer": "JESSI",
+     "votes": [
+      "CINDE",
+      "DOROTHY",
+      "CLAIREBEAR",
+      "CRYSTAL",
+      "NIKHIL",
+      "JESSI",
+      "CHAIRMAN",
+      "LLOLLO",
+      "EFFIE"
+     ]
+    }
+   ],
+   "teamSize": 4,
+   "failsRequired": 1
+  },
+  {
+   "proposals": [
+    {
+     "proposer": "EFFIE",
+     "state": "APPROVED",
+     "votes": [
+      "CLAIREBEAR",
+      "CRYSTAL",
+      "NIKHIL",
+      "CHAIRMAN",
+      "LLOLLO",
+      "EFFIE",
+      "CINDE",
+      "DOROTHY"
+     ],
+     "team": [
+      "DOROTHY",
+      "CHAIRMAN",
+      "CINDE",
+      "NIKHIL",
+      "EFFIE"
+     ]
+    }
+   ],
+   "failsRequired": 2,
+   "team": [
+    "DOROTHY",
+    "CHAIRMAN",
+    "CINDE",
+    "NIKHIL",
+    "EFFIE"
+   ],
+   "state": "FAIL",
+   "numFails": 2,
+   "teamSize": 5
+  },
+  {
+   "state": "FAIL",
+   "proposals": [
+    {
+     "proposer": "CINDE",
+     "votes": [
+      "JESSI",
+      "CHAIRMAN",
+      "EFFIE",
+      "CINDE",
+      "DOROTHY",
+      "CRYSTAL",
+      "NIKHIL"
+     ],
+     "state": "APPROVED",
+     "team": [
+      "CINDE",
+      "LLOLLO",
+      "NIKHIL",
+      "DOROTHY",
+      "CRYSTAL"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "team": [
+    "CINDE",
+    "LLOLLO",
+    "NIKHIL",
+    "DOROTHY",
+    "CRYSTAL"
+   ],
+   "teamSize": 5
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "players": [
+  {
+   "uid": "bvvILdEqYIddTt8jTPw5MEe0qGh1",
+   "name": "CLAIREBEAR"
+  },
+  {
+   "uid": "OxvU8NeivmeRR12dzpQ8NEZuJh93",
+   "name": "DOROTHY"
+  },
+  {
+   "uid": "SxmSeNbvETXoiktHthSRiT8S1fU2",
+   "name": "CHAIRMAN"
+  },
+  {
+   "name": "NIKHIL",
+   "uid": "0vFCM4uozTTBZ5KwxQ4ROvIyM732"
+  },
+  {
+   "name": "JESSI",
+   "uid": "B0vhVmDvEKRgkyvDml99Mf0E1L23"
+  },
+  {
+   "name": "EFFIE",
+   "uid": "t8SYAupeMBQzbJQQ94SYWYEwOHI2"
+  },
+  {
+   "name": "CINDE",
+   "uid": "4H9ruPuPYqT84odJW6uDxkVFGoQ2"
+  },
+  {
+   "name": "CRYSTAL",
+   "uid": "EsywELZTGnfrlvStEleO0DDOOiG3"
+  },
+  {
+   "name": "LLOLLO",
+   "uid": "aI0KFloWf7fvpzDJ80G7koTRP1H2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593835597,
+  "_nanoseconds": 467000000
+ },
+ "timeCreated": {
+  "_seconds": 1593833214,
+  "_nanoseconds": 626000000
+ }
+}

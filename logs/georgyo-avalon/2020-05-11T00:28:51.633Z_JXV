@@ -1,0 +1,254 @@
+{
+ "missions": [
+  {
+   "state": "FAIL",
+   "numFails": 1,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "CYRUS",
+      "SAL"
+     ],
+     "votes": [
+      "NOAH",
+      "JIM",
+      "SAMMIE",
+      "SAL",
+      "CYRUS"
+     ],
+     "proposer": "CYRUS"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "CYRUS",
+    "SAL"
+   ],
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "JIM",
+    "CYRUS",
+    "NOAH"
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "numFails": 1,
+   "proposals": [
+    {
+     "proposer": "JIM",
+     "team": [
+      "JIM",
+      "CYRUS",
+      "NOAH"
+     ],
+     "votes": [
+      "CYRUS",
+      "NOAH",
+      "JIM",
+      "SAMMIE"
+     ],
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "team": [
+    "SAMMIE",
+    "CYRUS"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "JIM",
+      "SAMMIE",
+      "CYRUS",
+      "NOAH"
+     ],
+     "proposer": "SAMMIE",
+     "state": "APPROVED",
+     "team": [
+      "SAMMIE",
+      "CYRUS"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 2,
+   "numFails": 0
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "CYRUS",
+    "SAMMIE",
+    "JIM"
+   ],
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [],
+     "team": [
+      "SAL",
+      "CYRUS",
+      "JIM"
+     ],
+     "proposer": "SAL"
+    },
+    {
+     "team": [
+      "CYRUS",
+      "NOAH",
+      "SAMMIE"
+     ],
+     "votes": [
+      "NOAH",
+      "SAL"
+     ],
+     "state": "REJECTED",
+     "proposer": "NOAH"
+    },
+    {
+     "proposer": "CYRUS",
+     "state": "APPROVED",
+     "votes": [
+      "JIM",
+      "SAMMIE",
+      "SAL",
+      "CYRUS"
+     ],
+     "team": [
+      "CYRUS",
+      "SAMMIE",
+      "JIM"
+     ]
+    }
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3
+  },
+  {
+   "team": [
+    "JIM",
+    "SAMMIE",
+    "CYRUS"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "team": [
+      "JIM",
+      "SAMMIE",
+      "CYRUS"
+     ],
+     "proposer": "JIM",
+     "state": "APPROVED",
+     "votes": [
+      "JIM",
+      "SAMMIE",
+      "SAL",
+      "CYRUS"
+     ]
+    }
+   ]
+  }
+ ],
+ "players": [
+  {
+   "name": "JIM",
+   "uid": "0JHTg7ZXCBXtOUop3x2FaKZtnNq1"
+  },
+  {
+   "name": "SAMMIE",
+   "uid": "g7rwHbTJRmedXlQtZs3cRtsYwR43"
+  },
+  {
+   "name": "SAL",
+   "uid": "nLCLOI1U87Vr28IwWA1MNunueWf2"
+  },
+  {
+   "uid": "mfU86kNSdCaFdLEfg76wxbGWS3c2",
+   "name": "NOAH"
+  },
+  {
+   "uid": "9YgRanEWgvcCaCDHzG8mnHK9eLU2",
+   "name": "CYRUS"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "timeFinished": {
+  "_seconds": 1589158040,
+  "_nanoseconds": 500000000
+ },
+ "timeCreated": {
+  "_seconds": 1589156931,
+  "_nanoseconds": 633000000
+ },
+ "outcome": {
+  "roles": [
+   {
+    "role": "PERCIVAL",
+    "name": "JIM",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "SAMMIE",
+    "assassin": false
+   },
+   {
+    "name": "SAL",
+    "role": "EVIL MINION",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "CYRUS",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "NOAH",
+    "assassin": false,
+    "role": "MORGANA"
+   }
+  ],
+  "message": "Three successful missions",
+  "state": "GOOD_WIN",
+  "assassinated": "CYRUS",
+  "votes": [
+   {
+    "SAL": false,
+    "CYRUS": true
+   },
+   {
+    "NOAH": false,
+    "JIM": true,
+    "CYRUS": true
+   },
+   {
+    "SAMMIE": true,
+    "CYRUS": true
+   },
+   {
+    "JIM": true,
+    "CYRUS": true,
+    "SAMMIE": true
+   },
+   {
+    "CYRUS": true,
+    "SAMMIE": true,
+    "JIM": true
+   }
+  ]
+ }
+}

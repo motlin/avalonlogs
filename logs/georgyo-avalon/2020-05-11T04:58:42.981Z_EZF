@@ -1,0 +1,204 @@
+{
+ "players": [
+  {
+   "name": "GRON",
+   "uid": "eyY3DEcBcwh6VTpOpHAzlCBZHKh2"
+  },
+  {
+   "uid": "EnPurkvQCPcpGq6PX7GYaV12qEu2",
+   "name": "YENEEGOO"
+  },
+  {
+   "uid": "iJqRXsAVRWUnDhBYYNtOGcIrqgr1",
+   "name": "IMVERYSAD"
+  },
+  {
+   "name": "LORENZO",
+   "uid": "8eIpZiCJf7Xa6504BhB3caR5MTq1"
+  },
+  {
+   "name": "ECHOZOOMER",
+   "uid": "J0wCPNOkdsN4BtpZ0n8aSKlZrNm1"
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ },
+ "outcome": {
+  "roles": [
+   {
+    "name": "IMVERYSAD",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "GRON"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LORENZO",
+    "assassin": true
+   },
+   {
+    "name": "YENEEGOO",
+    "assassin": false,
+    "role": "MORGANA"
+   },
+   {
+    "assassin": false,
+    "role": "MERLIN",
+    "name": "ECHOZOOMER"
+   }
+  ],
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "LORENZO": true,
+    "IMVERYSAD": true
+   },
+   {
+    "ECHOZOOMER": true,
+    "LORENZO": false,
+    "IMVERYSAD": true
+   },
+   {
+    "ECHOZOOMER": true,
+    "IMVERYSAD": true
+   },
+   {
+    "IMVERYSAD": true,
+    "GRON": true,
+    "ECHOZOOMER": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "ECHOZOOMER"
+ },
+ "missions": [
+  {
+   "team": [
+    "LORENZO",
+    "IMVERYSAD"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "LORENZO",
+      "IMVERYSAD"
+     ],
+     "proposer": "IMVERYSAD",
+     "votes": [
+      "IMVERYSAD",
+      "GRON",
+      "LORENZO",
+      "YENEEGOO",
+      "ECHOZOOMER"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "LORENZO",
+     "votes": [
+      "GRON",
+      "LORENZO",
+      "ECHOZOOMER",
+      "IMVERYSAD"
+     ],
+     "team": [
+      "LORENZO",
+      "IMVERYSAD",
+      "ECHOZOOMER"
+     ]
+    }
+   ],
+   "team": [
+    "LORENZO",
+    "IMVERYSAD",
+    "ECHOZOOMER"
+   ],
+   "failsRequired": 1,
+   "numFails": 1,
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "votes": [
+      "ECHOZOOMER",
+      "IMVERYSAD",
+      "GRON",
+      "YENEEGOO"
+     ],
+     "team": [
+      "ECHOZOOMER",
+      "IMVERYSAD"
+     ],
+     "proposer": "ECHOZOOMER",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "ECHOZOOMER",
+    "IMVERYSAD"
+   ],
+   "teamSize": 2,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "GRON",
+    "IMVERYSAD",
+    "ECHOZOOMER"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "ECHOZOOMER",
+      "IMVERYSAD",
+      "GRON"
+     ],
+     "team": [
+      "GRON",
+      "IMVERYSAD",
+      "ECHOZOOMER"
+     ],
+     "state": "APPROVED",
+     "proposer": "GRON"
+    }
+   ],
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [],
+   "team": [],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "PENDING"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1589173500,
+  "_nanoseconds": 601000000
+ },
+ "timeCreated": {
+  "_seconds": 1589173122,
+  "_nanoseconds": 981000000
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "players": [
+  {
+   "name": "CHAITHANYA",
+   "uid": "cAjDOV1WbPRqRjv28SDq7BYb6Up2"
+  },
+  {
+   "uid": "mhGqERYygScqJ0S29jQ3yK7o2ku2",
+   "name": "ANIKETH"
+  },
+  {
+   "uid": "XEF7htVWhSUvAdmJuNmB1PdIAjH3",
+   "name": "MARLIN"
+  },
+  {
+   "uid": "weox9NOyNDZiyKTtPDAXxvazdFV2",
+   "name": "BANANA"
+  },
+  {
+   "name": "ABHIJIT",
+   "uid": "EccvBFC0axSC6fAdNR0WC6sNsB33"
+  },
+  {
+   "name": "KARAN",
+   "uid": "1yawy0IzcvTwYGbNSNefkUZnxej1"
+  },
+  {
+   "uid": "RMh8asPf7khAo3YWIMNdy1EDHDp2",
+   "name": "HWSNBN"
+  },
+  {
+   "uid": "KH4ZmjI5XOUYu4rOwmw4oDElxue2",
+   "name": "SUSHH"
+  },
+  {
+   "name": "WINECREAM",
+   "uid": "4WjzgIwYySXugGpvP4wy7Wp5Ugo1"
+  },
+  {
+   "name": "PKBOOLEAN",
+   "uid": "MZNNYGz2dyObT9G5nUSdpYmwN652"
+  }
+ ],
+ "outcome": {
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "PKBOOLEAN": true,
+    "KARAN": false,
+    "ANIKETH": true
+   },
+   {
+    "MARLIN": true,
+    "ANIKETH": true,
+    "WINECREAM": false,
+    "PKBOOLEAN": true
+   },
+   {
+    "MARLIN": true,
+    "BANANA": true,
+    "CHAITHANYA": true,
+    "ABHIJIT": false
+   }
+  ],
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "name": "CHAITHANYA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "name": "HWSNBN",
+    "assassin": true,
+    "role": "EVIL MINION"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "SUSHH",
+    "assassin": false
+   },
+   {
+    "name": "ANIKETH",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "MARLIN",
+    "assassin": false,
+    "role": "PERCIVAL"
+   },
+   {
+    "name": "ABHIJIT",
+    "role": "MORDRED",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "BANANA",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "OBERON",
+    "assassin": false,
+    "name": "KARAN"
+   },
+   {
+    "name": "PKBOOLEAN",
+    "assassin": false,
+    "role": "MERLIN"
+   },
+   {
+    "name": "WINECREAM",
+    "role": "MORGANA",
+    "assassin": false
+   }
+  ],
+  "assassinated": null
+ },
+ "timeFinished": {
+  "_seconds": 1588216482,
+  "_nanoseconds": 174000000
+ },
+ "timeCreated": {
+  "_seconds": 1588215567,
+  "_nanoseconds": 930000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "numFails": 1,
+   "team": [
+    "ANIKETH",
+    "PKBOOLEAN",
+    "KARAN"
+   ],
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "team": [
+      "ANIKETH",
+      "PKBOOLEAN",
+      "KARAN"
+     ],
+     "votes": [
+      "WINECREAM",
+      "CHAITHANYA",
+      "HWSNBN",
+      "SUSHH",
+      "ANIKETH",
+      "ABHIJIT",
+      "BANANA",
+      "KARAN"
+     ],
+     "proposer": "ANIKETH"
+    }
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "state": "FAIL"
+  },
+  {
+   "team": [
+    "ANIKETH",
+    "PKBOOLEAN",
+    "WINECREAM",
+    "MARLIN"
+   ],
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "proposer": "MARLIN",
+     "votes": [
+      "SUSHH",
+      "ANIKETH",
+      "MARLIN",
+      "ABHIJIT",
+      "BANANA",
+      "KARAN",
+      "WINECREAM"
+     ],
+     "team": [
+      "ANIKETH",
+      "PKBOOLEAN",
+      "WINECREAM",
+      "MARLIN"
+     ]
+    }
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "failsRequired": 1,
+   "team": [
+    "ABHIJIT",
+    "MARLIN",
+    "BANANA",
+    "CHAITHANYA"
+   ],
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "BANANA",
+      "CHAITHANYA",
+      "PKBOOLEAN",
+      "HWSNBN"
+     ],
+     "votes": [
+      "BANANA",
+      "SUSHH"
+     ],
+     "proposer": "BANANA"
+    },
+    {
+     "votes": [
+      "ABHIJIT",
+      "BANANA",
+      "PKBOOLEAN",
+      "ANIKETH"
+     ],
+     "team": [
+      "ABHIJIT",
+      "MARLIN",
+      "PKBOOLEAN",
+      "CHAITHANYA"
+     ],
+     "proposer": "ABHIJIT",
+     "state": "REJECTED"
+    },
+    {
+     "votes": [
+      "SUSHH",
+      "KARAN",
+      "WINECREAM"
+     ],
+     "state": "REJECTED",
+     "team": [
+      "KARAN",
+      "ABHIJIT",
+      "BANANA",
+      "MARLIN"
+     ],
+     "proposer": "KARAN"
+    },
+    {
+     "votes": [
+      "MARLIN",
+      "ABHIJIT",
+      "BANANA",
+      "PKBOOLEAN",
+      "WINECREAM",
+      "CHAITHANYA",
+      "ANIKETH"
+     ],
+     "state": "APPROVED",
+     "proposer": "HWSNBN",
+     "team": [
+      "ABHIJIT",
+      "MARLIN",
+      "BANANA",
+      "CHAITHANYA"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 5,
+   "proposals": [],
+   "state": "PENDING",
+   "team": [],
+   "failsRequired": 2
+  },
+  {
+   "state": "PENDING",
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "team": []
+  }
+ ]
+}

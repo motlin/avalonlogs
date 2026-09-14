@@ -1,0 +1,289 @@
+{
+ "outcome": {
+  "assassinated": null,
+  "state": "EVIL_WIN",
+  "roles": [
+   {
+    "role": "EVIL MINION",
+    "assassin": false,
+    "name": "EVAN"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "BEN",
+    "assassin": false
+   },
+   {
+    "name": "YANNY",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "LOUIS",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "role": "LOYAL FOLLOWER",
+    "name": "NQG",
+    "assassin": false
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "BRIAN",
+    "assassin": false
+   }
+  ],
+  "message": "Three failed missions",
+  "votes": [
+   {
+    "YANNY": true,
+    "BEN": true
+   },
+   {
+    "BEN": true,
+    "EVAN": false,
+    "YANNY": true
+   },
+   {
+    "BRIAN": false,
+    "BEN": true,
+    "NQG": true,
+    "YANNY": true
+   },
+   {
+    "BRIAN": false,
+    "NQG": true,
+    "LOUIS": true
+   }
+  ]
+ },
+ "missions": [
+  {
+   "team": [
+    "BEN",
+    "YANNY"
+   ],
+   "teamSize": 2,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "proposals": [
+    {
+     "votes": [
+      "EVAN",
+      "BEN",
+      "YANNY",
+      "LOUIS",
+      "BRIAN"
+     ],
+     "state": "APPROVED",
+     "proposer": "BEN",
+     "team": [
+      "BEN",
+      "YANNY"
+     ]
+    }
+   ],
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "YANNY",
+    "BEN",
+    "EVAN"
+   ],
+   "proposals": [
+    {
+     "votes": [
+      "BRIAN",
+      "EVAN",
+      "BEN",
+      "YANNY",
+      "LOUIS"
+     ],
+     "team": [
+      "YANNY",
+      "BEN",
+      "EVAN"
+     ],
+     "proposer": "EVAN",
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 3,
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "failsRequired": 1,
+   "teamSize": 4,
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "NQG",
+      "BRIAN",
+      "LOUIS",
+      "EVAN"
+     ],
+     "votes": [
+      "BRIAN"
+     ],
+     "proposer": "NQG"
+    },
+    {
+     "proposer": "LOUIS",
+     "state": "REJECTED",
+     "votes": [
+      "BRIAN",
+      "YANNY",
+      "LOUIS"
+     ],
+     "team": [
+      "LOUIS",
+      "YANNY",
+      "BEN",
+      "BRIAN"
+     ]
+    },
+    {
+     "team": [
+      "YANNY",
+      "BEN",
+      "BRIAN",
+      "NQG"
+     ],
+     "votes": [
+      "EVAN",
+      "BEN",
+      "YANNY",
+      "NQG",
+      "BRIAN"
+     ],
+     "proposer": "BRIAN",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "YANNY",
+    "BEN",
+    "BRIAN",
+    "NQG"
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "team": [
+    "BRIAN",
+    "LOUIS",
+    "NQG"
+   ],
+   "state": "FAIL",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "YANNY"
+     ],
+     "state": "REJECTED",
+     "proposer": "YANNY",
+     "team": [
+      "NQG",
+      "YANNY",
+      "BRIAN"
+     ]
+    },
+    {
+     "team": [
+      "LOUIS",
+      "BEN",
+      "BRIAN"
+     ],
+     "state": "REJECTED",
+     "proposer": "BEN",
+     "votes": [
+      "BEN",
+      "LOUIS",
+      "BRIAN"
+     ]
+    },
+    {
+     "state": "REJECTED",
+     "proposer": "EVAN",
+     "votes": [
+      "EVAN",
+      "YANNY"
+     ],
+     "team": [
+      "LOUIS",
+      "EVAN",
+      "NQG"
+     ]
+    },
+    {
+     "votes": [
+      "NQG",
+      "BRIAN",
+      "EVAN",
+      "YANNY"
+     ],
+     "proposer": "NQG",
+     "state": "APPROVED",
+     "team": [
+      "BRIAN",
+      "LOUIS",
+      "NQG"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 4,
+   "state": "PENDING",
+   "team": [],
+   "proposals": [],
+   "failsRequired": 1
+  }
+ ],
+ "players": [
+  {
+   "uid": "FxNVnPh3OQhH9a24DbpHwR8uJLU2",
+   "name": "LOUIS"
+  },
+  {
+   "name": "BRIAN",
+   "uid": "gDWnsaaToTO3W2wuBJnyv2xC70k1"
+  },
+  {
+   "name": "YANNY",
+   "uid": "5wT6hEk7h1OrespCYq34YPAwqdx2"
+  },
+  {
+   "uid": "Ley1q8PRq5aIZUrF0wptPf66HPn1",
+   "name": "BEN"
+  },
+  {
+   "name": "EVAN",
+   "uid": "dGxWpetP0XNBvHhWS0nICIXeK4Y2"
+  },
+  {
+   "name": "NQG",
+   "uid": "sfiXryFW6XZOU9Ea2vAm58pqGrG2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1593810231,
+  "_nanoseconds": 902000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1593808825,
+  "_nanoseconds": 736000000
+ }
+}

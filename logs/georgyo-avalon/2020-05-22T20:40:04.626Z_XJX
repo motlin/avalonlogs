@@ -1,0 +1,307 @@
+{
+ "outcome": {
+  "votes": [
+   {
+    "ICECREAM": true,
+    "ROSE": true,
+    "EMMA": true
+   },
+   {
+    "ROSY": true,
+    "ELLIE": true,
+    "CARA": true,
+    "EMMA": true
+   },
+   {
+    "ROSY": false,
+    "CARA": true,
+    "SHREK": true,
+    "ELLIE": true
+   },
+   {
+    "CARA": true,
+    "EMMA": true,
+    "ICECREAM": true,
+    "ROSY": false,
+    "ELLIE": true
+   }
+  ],
+  "state": "GOOD_WIN",
+  "message": "Three successful missions",
+  "assassinated": "EMMA",
+  "roles": [
+   {
+    "assassin": false,
+    "role": "PERCIVAL",
+    "name": "ELLIE"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "LOUISE",
+    "assassin": true
+   },
+   {
+    "assassin": false,
+    "name": "ROSY",
+    "role": "EVIL MINION"
+   },
+   {
+    "name": "EMMA",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "role": "MERLIN",
+    "name": "ICECREAM",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "name": "ROSE",
+    "role": "MORGANA"
+   },
+   {
+    "name": "SHREK",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   },
+   {
+    "assassin": false,
+    "role": "LOYAL FOLLOWER",
+    "name": "CARA"
+   }
+  ]
+ },
+ "players": [
+  {
+   "name": "ICECREAM",
+   "uid": "LU6D80BOzrb2wqrxJAjxLXpolTz2"
+  },
+  {
+   "uid": "8GEIhDOTUFSRfX0miNofFoy08Gm2",
+   "name": "ROSE"
+  },
+  {
+   "uid": "SJRRLK7HL2SFlTANUZg3jvNfd8w1",
+   "name": "EMMA"
+  },
+  {
+   "name": "LOUISE",
+   "uid": "CLC9wUJ9EROrg0J29AiJbtoCxfc2"
+  },
+  {
+   "uid": "ziiH8YS3bxV2qlHJkleuqPxPPTC2",
+   "name": "SHREK"
+  },
+  {
+   "name": "ELLIE",
+   "uid": "R4Usv641GdRcgbuJtcnSFqgX9g73"
+  },
+  {
+   "name": "CARA",
+   "uid": "HpTlbl4IMTZZqOFGvJoUsDwLnjH2"
+  },
+  {
+   "name": "ROSY",
+   "uid": "971yV0PJiJg7AsyU2VMxLYoSpNM2"
+  }
+ ],
+ "missions": [
+  {
+   "team": [
+    "ICECREAM",
+    "ROSE",
+    "EMMA"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "ICECREAM",
+     "team": [
+      "ICECREAM",
+      "ROSE",
+      "EMMA"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "LOUISE",
+      "ROSY",
+      "EMMA",
+      "ICECREAM",
+      "ROSE",
+      "SHREK",
+      "CARA"
+     ]
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "teamSize": 3
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "ROSY",
+      "ELLIE",
+      "SHREK",
+      "LOUISE"
+     ],
+     "proposer": "ROSE",
+     "state": "REJECTED",
+     "votes": [
+      "ROSE",
+      "CARA",
+      "ELLIE",
+      "ROSY"
+     ]
+    },
+    {
+     "team": [
+      "EMMA",
+      "ELLIE",
+      "CARA",
+      "ROSY"
+     ],
+     "votes": [
+      "ELLIE",
+      "LOUISE",
+      "ROSY",
+      "EMMA",
+      "ICECREAM",
+      "ROSE",
+      "CARA"
+     ],
+     "state": "APPROVED",
+     "proposer": "EMMA"
+    }
+   ],
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "numFails": 0,
+   "team": [
+    "EMMA",
+    "ELLIE",
+    "CARA",
+    "ROSY"
+   ],
+   "teamSize": 4
+  },
+  {
+   "failsRequired": 1,
+   "state": "FAIL",
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "SHREK",
+    "CARA",
+    "ELLIE",
+    "ROSY"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "proposer": "LOUISE",
+     "votes": [
+      "SHREK",
+      "LOUISE",
+      "ROSY"
+     ],
+     "team": [
+      "ICECREAM",
+      "LOUISE",
+      "ELLIE",
+      "SHREK"
+     ]
+    },
+    {
+     "votes": [
+      "SHREK",
+      "CARA",
+      "ELLIE",
+      "LOUISE",
+      "ROSY",
+      "ICECREAM"
+     ],
+     "team": [
+      "SHREK",
+      "CARA",
+      "ELLIE",
+      "ROSY"
+     ],
+     "proposer": "SHREK",
+     "state": "APPROVED"
+    }
+   ]
+  },
+  {
+   "numFails": 1,
+   "team": [
+    "CARA",
+    "EMMA",
+    "ROSY",
+    "ELLIE",
+    "ICECREAM"
+   ],
+   "failsRequired": 2,
+   "proposals": [
+    {
+     "votes": [
+      "EMMA",
+      "ICECREAM",
+      "ELLIE"
+     ],
+     "proposer": "ELLIE",
+     "state": "REJECTED",
+     "team": [
+      "ICECREAM",
+      "EMMA",
+      "ELLIE",
+      "CARA",
+      "ROSY"
+     ]
+    },
+    {
+     "proposer": "CARA",
+     "team": [
+      "CARA",
+      "EMMA",
+      "ROSY",
+      "ELLIE",
+      "ICECREAM"
+     ],
+     "votes": [
+      "ICECREAM",
+      "SHREK",
+      "CARA",
+      "ELLIE",
+      "LOUISE",
+      "ROSY",
+      "EMMA"
+     ],
+     "state": "APPROVED"
+    }
+   ],
+   "teamSize": 5,
+   "state": "SUCCESS"
+  },
+  {
+   "proposals": [],
+   "teamSize": 5,
+   "failsRequired": 1,
+   "state": "PENDING",
+   "team": []
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590181992,
+  "_nanoseconds": 221000000
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "timeCreated": {
+  "_seconds": 1590180004,
+  "_nanoseconds": 626000000
+ }
+}

@@ -1,0 +1,294 @@
+{
+ "players": [
+  {
+   "name": "SHUANG",
+   "uid": "BaP2oKzuoSTBf7UotDJvpFV8rBu1"
+  },
+  {
+   "name": "FERENC",
+   "uid": "OVBfmMLDc5YEz1OLs3grch8YUYC3"
+  },
+  {
+   "name": "LAJTHABL",
+   "uid": "Q4aL6wvyFkbxOjG4rQ9MztSqc122"
+  },
+  {
+   "name": "STEVEN",
+   "uid": "BiQVzdqt6lbabbptS4yKyS9VnSI3"
+  },
+  {
+   "name": "MICHAEL",
+   "uid": "KSwGDEeTPnPKhWSx6UZM1WdS5Qt1"
+  },
+  {
+   "name": "KREETHIGHA",
+   "uid": "a2tZASMM9ASV09GS7pTMPVjb4ew2"
+  },
+  {
+   "name": "PARMINDER",
+   "uid": "0xyoLrUNmbdEQOhgTiVLyBRRGyl2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1592340620,
+  "_nanoseconds": 808000000
+ },
+ "outcome": {
+  "message": "Merlin assassinated",
+  "roles": [
+   {
+    "assassin": false,
+    "name": "PARMINDER",
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "FERENC",
+    "assassin": false,
+    "role": "LOYAL FOLLOWER"
+   },
+   {
+    "name": "STEVEN",
+    "role": "PERCIVAL",
+    "assassin": false
+   },
+   {
+    "name": "MICHAEL",
+    "assassin": false,
+    "role": "OBERON"
+   },
+   {
+    "assassin": false,
+    "name": "KREETHIGHA",
+    "role": "MERLIN"
+   },
+   {
+    "name": "LAJTHABL",
+    "role": "MORGANA",
+    "assassin": false
+   },
+   {
+    "name": "SHUANG",
+    "assassin": true,
+    "role": "MORDRED"
+   }
+  ],
+  "assassinated": "KREETHIGHA",
+  "votes": [
+   {
+    "PARMINDER": true,
+    "LAJTHABL": true
+   },
+   {
+    "SHUANG": true,
+    "PARMINDER": true,
+    "LAJTHABL": true
+   },
+   {
+    "SHUANG": true,
+    "LAJTHABL": false,
+    "PARMINDER": true
+   },
+   {
+    "STEVEN": true,
+    "SHUANG": false,
+    "LAJTHABL": false,
+    "PARMINDER": true
+   },
+   {
+    "PARMINDER": true,
+    "STEVEN": true,
+    "KREETHIGHA": true,
+    "FERENC": true
+   }
+  ],
+  "state": "EVIL_WIN"
+ },
+ "timeCreated": {
+  "_seconds": 1592339749,
+  "_nanoseconds": 570000000
+ },
+ "missions": [
+  {
+   "failsRequired": 1,
+   "numFails": 0,
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "PARMINDER",
+      "FERENC",
+      "STEVEN",
+      "MICHAEL",
+      "KREETHIGHA",
+      "LAJTHABL"
+     ],
+     "proposer": "PARMINDER",
+     "team": [
+      "PARMINDER",
+      "LAJTHABL"
+     ]
+    }
+   ],
+   "team": [
+    "PARMINDER",
+    "LAJTHABL"
+   ],
+   "state": "SUCCESS",
+   "teamSize": 2
+  },
+  {
+   "team": [
+    "SHUANG",
+    "LAJTHABL",
+    "PARMINDER"
+   ],
+   "teamSize": 3,
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "proposer": "SHUANG",
+     "state": "APPROVED",
+     "votes": [
+      "PARMINDER",
+      "FERENC",
+      "STEVEN",
+      "MICHAEL",
+      "LAJTHABL",
+      "SHUANG"
+     ],
+     "team": [
+      "SHUANG",
+      "LAJTHABL",
+      "PARMINDER"
+     ]
+    }
+   ]
+  },
+  {
+   "teamSize": 3,
+   "numFails": 1,
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "team": [
+      "SHUANG",
+      "FERENC",
+      "PARMINDER"
+     ],
+     "proposer": "FERENC",
+     "state": "REJECTED",
+     "votes": [
+      "KREETHIGHA",
+      "PARMINDER",
+      "FERENC"
+     ]
+    },
+    {
+     "votes": [
+      "LAJTHABL",
+      "SHUANG",
+      "PARMINDER",
+      "FERENC",
+      "STEVEN"
+     ],
+     "team": [
+      "SHUANG",
+      "LAJTHABL",
+      "PARMINDER"
+     ],
+     "proposer": "LAJTHABL",
+     "state": "APPROVED"
+    }
+   ],
+   "team": [
+    "SHUANG",
+    "LAJTHABL",
+    "PARMINDER"
+   ],
+   "state": "FAIL"
+  },
+  {
+   "proposals": [
+    {
+     "team": [
+      "STEVEN",
+      "SHUANG",
+      "LAJTHABL",
+      "PARMINDER"
+     ],
+     "votes": [
+      "MICHAEL",
+      "LAJTHABL",
+      "SHUANG",
+      "PARMINDER",
+      "FERENC",
+      "STEVEN"
+     ],
+     "state": "APPROVED",
+     "proposer": "STEVEN"
+    }
+   ],
+   "teamSize": 4,
+   "team": [
+    "STEVEN",
+    "SHUANG",
+    "LAJTHABL",
+    "PARMINDER"
+   ],
+   "failsRequired": 2,
+   "numFails": 2,
+   "state": "FAIL"
+  },
+  {
+   "numFails": 0,
+   "failsRequired": 1,
+   "state": "SUCCESS",
+   "teamSize": 4,
+   "team": [
+    "KREETHIGHA",
+    "PARMINDER",
+    "STEVEN",
+    "FERENC"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "votes": [
+      "FERENC",
+      "MICHAEL",
+      "SHUANG"
+     ],
+     "team": [
+      "MICHAEL",
+      "FERENC",
+      "SHUANG",
+      "KREETHIGHA"
+     ],
+     "proposer": "MICHAEL"
+    },
+    {
+     "state": "APPROVED",
+     "proposer": "KREETHIGHA",
+     "votes": [
+      "PARMINDER",
+      "FERENC",
+      "STEVEN",
+      "MICHAEL",
+      "KREETHIGHA"
+     ],
+     "team": [
+      "KREETHIGHA",
+      "PARMINDER",
+      "STEVEN",
+      "FERENC"
+     ]
+    }
+   ]
+  }
+ ],
+ "options": {
+  "inGameLog": false
+ }
+}

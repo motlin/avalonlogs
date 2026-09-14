@@ -1,0 +1,278 @@
+{
+ "players": [
+  {
+   "name": "KARL",
+   "uid": "rLlw5o67cwZVDwpeTLxyGWKXS1H3"
+  },
+  {
+   "uid": "3BZDbZZUidhTK3mWnTiu3F3bNXI3",
+   "name": "NICK"
+  },
+  {
+   "uid": "Tzfj8KypC2NvafKDnRgrbYdDtk42",
+   "name": "CHRISTOPH"
+  },
+  {
+   "name": "MARKUS",
+   "uid": "mRt3Q8chi3VkwBRXnqGZqf8l0gj2"
+  },
+  {
+   "uid": "vVd0Puuj52doSnLo6hThDUAAKLz1",
+   "name": "STEFAN"
+  },
+  {
+   "name": "INGO",
+   "uid": "ACKpLvD5HMNJPjbaoVuC4C7gdNA2"
+  }
+ ],
+ "timeFinished": {
+  "_seconds": 1590875305,
+  "_nanoseconds": 0
+ },
+ "options": {
+  "inGameLog": false
+ },
+ "missions": [
+  {
+   "team": [
+    "STEFAN",
+    "INGO"
+   ],
+   "numFails": 0,
+   "state": "SUCCESS",
+   "failsRequired": 1,
+   "proposals": [
+    {
+     "votes": [
+      "KARL",
+      "INGO",
+      "STEFAN",
+      "MARKUS"
+     ],
+     "state": "APPROVED",
+     "proposer": "MARKUS",
+     "team": [
+      "STEFAN",
+      "INGO"
+     ]
+    }
+   ],
+   "teamSize": 2
+  },
+  {
+   "numFails": 1,
+   "state": "FAIL",
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "STEFAN",
+      "INGO",
+      "KARL"
+     ],
+     "votes": [
+      "MARKUS",
+      "KARL",
+      "INGO",
+      "STEFAN"
+     ],
+     "proposer": "STEFAN",
+     "state": "APPROVED"
+    }
+   ],
+   "failsRequired": 1,
+   "team": [
+    "STEFAN",
+    "INGO",
+    "KARL"
+   ]
+  },
+  {
+   "teamSize": 4,
+   "numFails": 1,
+   "team": [
+    "NICK",
+    "CHRISTOPH",
+    "STEFAN",
+    "INGO"
+   ],
+   "proposals": [
+    {
+     "state": "REJECTED",
+     "team": [
+      "INGO",
+      "STEFAN",
+      "CHRISTOPH",
+      "NICK"
+     ],
+     "votes": [
+      "NICK",
+      "CHRISTOPH",
+      "STEFAN"
+     ],
+     "proposer": "INGO"
+    },
+    {
+     "state": "REJECTED",
+     "team": [
+      "KARL",
+      "NICK",
+      "CHRISTOPH",
+      "INGO"
+     ],
+     "votes": [
+      "KARL"
+     ],
+     "proposer": "KARL"
+    },
+    {
+     "state": "APPROVED",
+     "votes": [
+      "STEFAN",
+      "NICK",
+      "MARKUS",
+      "CHRISTOPH",
+      "INGO"
+     ],
+     "proposer": "NICK",
+     "team": [
+      "NICK",
+      "CHRISTOPH",
+      "STEFAN",
+      "INGO"
+     ]
+    }
+   ],
+   "state": "FAIL",
+   "failsRequired": 1
+  },
+  {
+   "team": [
+    "KARL",
+    "INGO",
+    "NICK"
+   ],
+   "teamSize": 3,
+   "proposals": [
+    {
+     "team": [
+      "KARL",
+      "INGO",
+      "NICK"
+     ],
+     "state": "APPROVED",
+     "votes": [
+      "NICK",
+      "MARKUS",
+      "CHRISTOPH",
+      "KARL",
+      "INGO"
+     ],
+     "proposer": "CHRISTOPH"
+    }
+   ],
+   "failsRequired": 1,
+   "numFails": 0,
+   "state": "SUCCESS"
+  },
+  {
+   "team": [
+    "KARL",
+    "NICK",
+    "INGO",
+    "MARKUS"
+   ],
+   "state": "SUCCESS",
+   "proposals": [
+    {
+     "state": "APPROVED",
+     "votes": [
+      "NICK",
+      "MARKUS",
+      "KARL",
+      "INGO"
+     ],
+     "proposer": "MARKUS",
+     "team": [
+      "KARL",
+      "NICK",
+      "INGO",
+      "MARKUS"
+     ]
+    }
+   ],
+   "numFails": 0,
+   "teamSize": 4,
+   "failsRequired": 1
+  }
+ ],
+ "outcome": {
+  "roles": [
+   {
+    "role": "LOYAL FOLLOWER",
+    "assassin": false,
+    "name": "INGO"
+   },
+   {
+    "assassin": false,
+    "role": "MORGANA",
+    "name": "STEFAN"
+   },
+   {
+    "role": "MERLIN",
+    "assassin": false,
+    "name": "NICK"
+   },
+   {
+    "role": "PERCIVAL",
+    "assassin": false,
+    "name": "MARKUS"
+   },
+   {
+    "role": "EVIL MINION",
+    "name": "CHRISTOPH",
+    "assassin": true
+   },
+   {
+    "name": "KARL",
+    "role": "LOYAL FOLLOWER",
+    "assassin": false
+   }
+  ],
+  "message": "Merlin assassinated",
+  "votes": [
+   {
+    "INGO": true,
+    "STEFAN": true
+   },
+   {
+    "KARL": true,
+    "INGO": true,
+    "STEFAN": false
+   },
+   {
+    "INGO": true,
+    "CHRISTOPH": true,
+    "NICK": true,
+    "STEFAN": false
+   },
+   {
+    "NICK": true,
+    "KARL": true,
+    "INGO": true
+   },
+   {
+    "KARL": true,
+    "INGO": true,
+    "MARKUS": true,
+    "NICK": true
+   }
+  ],
+  "state": "EVIL_WIN",
+  "assassinated": "NICK"
+ },
+ "timeCreated": {
+  "_seconds": 1590874268,
+  "_nanoseconds": 705000000
+ }
+}
