@@ -6,6 +6,39 @@ This repository contains JSON-formatted logs of thousands of games from the site
 
 The log file format is not documented here, but is self-explanatory.
 
+## Layout
+
+Logs are stored per server, because the games come from two separate Firestore projects:
+
+| Directory              | Firestore project | Site                                      |
+| ---------------------- | ----------------- | ----------------------------------------- |
+| `logs/georgyo-avalon/` | `georgyo-avalon`  | the upstream avalongame.online deployment |
+| `logs/avalon-cool/`    | `avalon-cool`     | our own avalon.cool deployment            |
+
+Each file is named `<ISO timestamp>_<game code>`, for example `2026-08-28T08:30:28.510Z_CSG`.
+
+## Fetching
+
+```shell
+just fetch-logs                                 # every server
+just fetch-logs-from --source avalon-cool       # one server
+just fetch-logs-dry-run                         # show what would be downloaded
+```
+
+Fetching is incremental: each server's newest local log sets the high-water mark for that server alone, so one server lagging behind never causes the other's games to be skipped.
+
+Credentials are resolved per server, from `AVALON_CREDENTIALS_GEORGYO_AVALON` / `AVALON_CREDENTIALS_AVALON_COOL` if set, otherwise from the service account keys in `~/projects/avalon-online/server/`. A key whose `project_id` does not match the requested server is rejected, so one server's games can never be filed under the other's directory.
+
+### Agent test games
+
+The agent test harness plays games under fixed display names (`ALICE`/`BOB`/`CAROL` or `CARL`/`DAVE`/`EVE`, and `JIMMY`/`USERONE`..`USERFIVE`). Those games live in Firestore alongside real ones -- 48 of the 60 documents currently upstream are synthetic -- so the fetcher drops them instead of writing them to disk.
+
+A game is treated as synthetic only when _every_ player is a known agent. One real game has a player named `TEST`, and a real player could share a first name with an agent, so a single unrecognized name is enough to keep the game. The agents mint a fresh anonymous account per run, so player uids cannot be used to identify them; the roster is the only stable signal.
+
+The roster is not visible until the document is read, so skipped games are still fetched and then discarded, and `fetch-logs-dry-run` lists them as candidates. Skipped games never advance the local high-water mark, so they are re-examined on each run.
+
+Note that the upstream `logs` collection only retains recent games -- at the time of writing it held 60 documents going back to 2026-04-16, while this repository archives 12,927 games back to 2019. This repository is the only complete record.
+
 ## Insights
 
 Evil wins about 55% of the time (6835 / 12228 games).
