@@ -29,23 +29,15 @@ repos:
             language: system
             files: '(?i)(^|/)\.?justfile$|\.just$'
             types: [file]
-          - id: biome
-            name: biome
-            entry: npx biome format --write
-            language: system
-            types: [file]
-            files: \.(js|jsx|ts|tsx|mjs|cjs|json|json5)$
-            exclude: "package(-lock)?\\.json"
-
           - id: prettier
             name: prettier
-            entry: npx prettier --write
+            entry: vp exec prettier --write
             language: system
             types_or: [yaml, markdown, html]
 
-          - id: eslint
-            name: eslint
-            entry: npx eslint --fix
+          - id: oxlint
+            name: vp lint
+            entry: vp lint --fix
             language: system
-            files: \.(js|jsx|ts|tsx|mjs|cjs)$
+            files: \.(js|jsx|ts|tsx|mjs|cjs|mts|cts)$
             types: [file]
