@@ -2,9 +2,9 @@
 default:
     @just --list --unsorted
 
-# `npm install`
+# `vp install`
 install:
-    npm install
+    vp install
 
 # Download a specific log document by ID
 download DOC_ID:
@@ -14,7 +14,7 @@ download DOC_ID:
     mkdir -p logs
     # Download the document using the third-party tool
     echo "Downloading document: {{ DOC_ID }}"
-    npx --package node-firestore-import-export \
+    vp dlx --package node-firestore-import-export \
         firestore-export \
         --accountCredentials ~/projects/avalon-online/server/georgyo-avalon-firebase-adminsdk-uewf3-bf74e6c4c1.json \
         --backupFile "logs/{{ DOC_ID }}" \
@@ -22,16 +22,20 @@ download DOC_ID:
         --prettyPrint
     echo "Saved to logs/{{ DOC_ID }}"
 
-# `npm run typecheck:ci`
+# Run the test suite
+test:
+    vp test run --passWithNoTests
+
+# `vp run typecheck:ci`
 typecheck: install
-    npm run typecheck:ci
+    vp run typecheck:ci
 
 # `pre-commit run --all-files`
 pre-commit: install
     pre-commit run --all-files
 
 # Run all pre-commit checks
-precommit: typecheck pre-commit
+precommit: typecheck test pre-commit
 
 # Fetch all avalon logs from Firestore
 fetch-logs:
