@@ -30,12 +30,16 @@ test:
 typecheck: install
     vp run typecheck:ci
 
+# `vp lint --fix`
+lint: install
+    vp lint --fix
+
 # `pre-commit run --all-files`
 pre-commit: install
     pre-commit run --all-files
 
 # Run all pre-commit checks
-precommit: typecheck test pre-commit
+precommit: typecheck lint test pre-commit
 
 # Fetch all avalon logs from Firestore
 fetch-logs:

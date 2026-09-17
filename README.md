@@ -1,18 +1,18 @@
 # Avalon: The Resistance Logs
 
-https://avalongame.online/ is a site that allows friends to play Avalon: The Resistance in person or via videoconference.
+The site <https://avalongame.online/> allows friends to play Avalon: The Resistance in person or via videoconference.
 
 This repository contains JSON-formatted logs of thousands of games from the site.
 
 The log file format is not documented here, but is self-explanatory.
 
-# Insights
+## Insights
 
 Evil wins about 55% of the time (6835 / 12228 games).
 
 Of those wins, Merlin was assassinated 41% of the time (2801 / 6835 games). That means that an evil team successfully assassinates Merlin about 1/3rd of the time (2801 out of 8194 attempts).
 
-## Merlin
+### Merlin
 
 In games _without_ the Merlin role (ie, the barebones Resistance game), evil has a win percentage of about 50%.
 
@@ -28,7 +28,7 @@ The longer the game goes on, the more likely it is that Merlin will get killed a
 
 The only thing that can save Merlin is perhaps the second most powerful role in the game...
 
-## Percival
+### Percival
 
 I expected to see that the Percival gets assassinated instead of Merlin a fair bit (that's kind of his job, after all!), and was surprised to see that it's not the case. In fact, Percival gets assassinated at about the same rate as non-special players on the good team, and the presence of Percival doesn't reduce the odds that Merlin gets killed.
 
@@ -38,7 +38,7 @@ The other special roles deserve a quick look too:
 
 Having **Oberon** in the game improves the good team's chances by 3-4%. **Mordred** or **Morgana** each improve the evil team's win rate by about the same amount (3-4%).
 
-# Other ideas for data exploration
+## Other ideas for data exploration
 
 - Examine whether different cohorts of players have different game meta as evidenced by stats
 - Examine how the length of the game in wallclock time affects stats
