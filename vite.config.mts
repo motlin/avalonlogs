@@ -2,6 +2,8 @@ import {defineConfig} from "vite-plus";
 
 export default defineConfig({
 	fmt: {
+		// npm owns the lockfile, and the game logs are archived exactly as fetched.
+		ignorePatterns: ["package-lock.json", "logs/**"],
 		semi: true,
 		singleQuote: false,
 		useTabs: true,
@@ -22,11 +24,6 @@ export default defineConfig({
 	},
 	staged: {
 		"*": "vp check --fix",
-	},
-	check: {
-		// Prettier still owns formatting here, and `.prettierignore` starts with `**/*`,
-		// which leaves oxfmt with no files at all. Re-enable once oxfmt replaces prettier.
-		fmt: false,
 	},
 	lint: {
 		plugins: ["oxc", "typescript", "unicorn"],
