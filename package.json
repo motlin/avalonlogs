@@ -17,9 +17,9 @@
 	"main": "fetch-new-logs.js",
 	"scripts": {
 		"lint": "vp lint . --fix",
-		"format": "prettier --write .",
+		"fmt": "vp fmt",
 		"oxlint:ci": "vp lint . --format json",
-		"prettier:ci": "prettier --check \"src/**/*.{js,ts,css,md,json}\"",
+		"fmt:ci": "vp fmt --check",
 		"typecheck:ci": "tsc --noEmit",
 		"test": "vp test run --passWithNoTests",
 		"test:ci": "vp test run --passWithNoTests",
@@ -31,7 +31,6 @@
 	"devDependencies": {
 		"fallow": "^3.27.0",
 		"markdownlint-cli2": "^0.23.2",
-		"prettier": "^3.6.2",
 		"typescript": "^5.9.3",
 		"vite-plus": "0.2.5",
 		"vitest": "4.1.10"
