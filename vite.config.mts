@@ -1,177 +1,176 @@
-import { defineConfig } from 'vite-plus';
+import {defineConfig} from "vite-plus";
 
 export default defineConfig({
-  staged: {
-    "*": "vp check --fix"
-  },
-  check: {
-    // Prettier still owns formatting here, and `.prettierignore` starts with `**/*`,
-    // which leaves oxfmt with no files at all. Re-enable once oxfmt replaces prettier.
-    fmt: false
-  },
-  lint: {
-    "plugins": [
-      "oxc",
-      "typescript",
-      "unicorn"
-    ],
-    "categories": {
-      "correctness": "warn"
-    },
-    "env": {
-      "builtin": true
-    },
-    "ignorePatterns": [
-      "dist",
-      "build",
-      ".llm/**",
-      "node_modules/**",
-      "avalon-logs-all.json"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "**/*.js"
-        ],
-        "rules": {
-          "constructor-super": "error",
-          "for-direction": "error",
-          "getter-return": "error",
-          "no-async-promise-executor": "error",
-          "no-case-declarations": "error",
-          "no-class-assign": "error",
-          "no-compare-neg-zero": "error",
-          "no-cond-assign": "error",
-          "no-const-assign": "error",
-          "no-constant-binary-expression": "error",
-          "no-constant-condition": "error",
-          "no-control-regex": "error",
-          "no-debugger": "error",
-          "no-delete-var": "error",
-          "no-dupe-class-members": "error",
-          "no-dupe-else-if": "error",
-          "no-dupe-keys": "error",
-          "no-duplicate-case": "error",
-          "no-empty": [
-            "error",
-            {
-              "allowEmptyCatch": true
-            }
-          ],
-          "no-empty-character-class": "error",
-          "no-empty-pattern": "error",
-          "no-empty-static-block": "error",
-          "no-ex-assign": "error",
-          "no-extra-boolean-cast": "error",
-          "no-fallthrough": "error",
-          "no-func-assign": "error",
-          "no-global-assign": "error",
-          "no-import-assign": "error",
-          "no-invalid-regexp": "error",
-          "no-irregular-whitespace": "error",
-          "no-loss-of-precision": "error",
-          "no-misleading-character-class": "error",
-          "no-new-native-nonconstructor": "error",
-          "no-nonoctal-decimal-escape": "error",
-          "no-obj-calls": "error",
-          "no-prototype-builtins": "error",
-          "no-redeclare": "error",
-          "no-regex-spaces": "error",
-          "no-self-assign": "error",
-          "no-setter-return": "error",
-          "no-shadow-restricted-names": "error",
-          "no-sparse-arrays": "error",
-          "no-this-before-super": "error",
-          "no-undef": "error",
-          "no-unexpected-multiline": "error",
-          "no-unreachable": "error",
-          "no-unsafe-finally": "error",
-          "no-unsafe-negation": "error",
-          "no-unsafe-optional-chaining": "error",
-          "no-unused-labels": "error",
-          "no-unused-private-class-members": "error",
-          "no-unused-vars": [
-            "error",
-            {
-              "varsIgnorePattern": "^[A-Z_]",
-              "argsIgnorePattern": "^_"
-            }
-          ],
-          "no-useless-backreference": "error",
-          "no-useless-catch": "error",
-          "no-useless-escape": "error",
-          "no-with": "error",
-          "require-yield": "error",
-          "use-isnan": "error",
-          "valid-typeof": "error",
-          "eqeqeq": [
-            "error",
-            "smart"
-          ]
-        },
-        "env": {
-          "es2020": true,
-          "commonjs": true,
-          "node": true
-        }
-      },
-      {
-        "files": [
-          "**/*.ts"
-        ],
-        "rules": {
-          "no-array-constructor": "error",
-          "no-unused-expressions": "error",
-          "no-unused-vars": [
-            "error",
-            {
-              "varsIgnorePattern": "^[A-Z_]",
-              "argsIgnorePattern": "^_"
-            }
-          ],
-          "eqeqeq": [
-            "error",
-            "smart"
-          ],
-          "typescript/ban-ts-comment": "error",
-          "typescript/no-duplicate-enum-values": "error",
-          "typescript/no-empty-object-type": "error",
-          "typescript/no-explicit-any": "off",
-          "typescript/no-extra-non-null-assertion": "error",
-          "typescript/no-misused-new": "error",
-          "typescript/no-namespace": "error",
-          "typescript/no-non-null-asserted-optional-chain": "error",
-          "typescript/no-require-imports": "error",
-          "typescript/no-this-alias": "error",
-          "typescript/no-unnecessary-type-constraint": "error",
-          "typescript/no-unsafe-declaration-merging": "error",
-          "typescript/no-unsafe-function-type": "error",
-          "typescript/no-wrapper-object-types": "error",
-          "typescript/prefer-as-const": "error",
-          "typescript/prefer-namespace-keyword": "error",
-          "typescript/triple-slash-reference": "error"
-        },
-        "env": {
-          "es2020": true,
-          "commonjs": true,
-          "node": true
-        }
-      }
-    ],
-    "options": {
-      "typeAware": true,
-      "typeCheck": true
-    },
-    "jsPlugins": [
-      {
-        "name": "vite-plus",
-        "specifier": "vite-plus/oxlint-plugin"
-      }
-    ],
-    "rules": {
-      // This package is "type": "commonjs", so `vite-plus/test` resolves to its CJS
-      // re-export and loads a second, uninitialized vitest instance. Import `vitest`.
-      "vite-plus/prefer-vite-plus-imports": "off"
-    }
-  },
+	fmt: {
+		semi: true,
+		singleQuote: false,
+		useTabs: true,
+		tabWidth: 4,
+		printWidth: 120,
+		bracketSpacing: false,
+		trailingComma: "all",
+		arrowParens: "always",
+		overrides: [
+			{
+				files: [".yamllint.yaml", "**/*.yaml", "**/*.yml"],
+				options: {
+					useTabs: false,
+					tabWidth: 2,
+				},
+			},
+		],
+	},
+	staged: {
+		"*": "vp check --fix",
+	},
+	check: {
+		// Prettier still owns formatting here, and `.prettierignore` starts with `**/*`,
+		// which leaves oxfmt with no files at all. Re-enable once oxfmt replaces prettier.
+		fmt: false,
+	},
+	lint: {
+		plugins: ["oxc", "typescript", "unicorn"],
+		categories: {
+			correctness: "warn",
+		},
+		env: {
+			builtin: true,
+		},
+		ignorePatterns: ["dist", "build", ".llm/**", "node_modules/**", "avalon-logs-all.json"],
+		overrides: [
+			{
+				files: ["**/*.js"],
+				rules: {
+					"constructor-super": "error",
+					"for-direction": "error",
+					"getter-return": "error",
+					"no-async-promise-executor": "error",
+					"no-case-declarations": "error",
+					"no-class-assign": "error",
+					"no-compare-neg-zero": "error",
+					"no-cond-assign": "error",
+					"no-const-assign": "error",
+					"no-constant-binary-expression": "error",
+					"no-constant-condition": "error",
+					"no-control-regex": "error",
+					"no-debugger": "error",
+					"no-delete-var": "error",
+					"no-dupe-class-members": "error",
+					"no-dupe-else-if": "error",
+					"no-dupe-keys": "error",
+					"no-duplicate-case": "error",
+					"no-empty": [
+						"error",
+						{
+							allowEmptyCatch: true,
+						},
+					],
+					"no-empty-character-class": "error",
+					"no-empty-pattern": "error",
+					"no-empty-static-block": "error",
+					"no-ex-assign": "error",
+					"no-extra-boolean-cast": "error",
+					"no-fallthrough": "error",
+					"no-func-assign": "error",
+					"no-global-assign": "error",
+					"no-import-assign": "error",
+					"no-invalid-regexp": "error",
+					"no-irregular-whitespace": "error",
+					"no-loss-of-precision": "error",
+					"no-misleading-character-class": "error",
+					"no-new-native-nonconstructor": "error",
+					"no-nonoctal-decimal-escape": "error",
+					"no-obj-calls": "error",
+					"no-prototype-builtins": "error",
+					"no-redeclare": "error",
+					"no-regex-spaces": "error",
+					"no-self-assign": "error",
+					"no-setter-return": "error",
+					"no-shadow-restricted-names": "error",
+					"no-sparse-arrays": "error",
+					"no-this-before-super": "error",
+					"no-undef": "error",
+					"no-unexpected-multiline": "error",
+					"no-unreachable": "error",
+					"no-unsafe-finally": "error",
+					"no-unsafe-negation": "error",
+					"no-unsafe-optional-chaining": "error",
+					"no-unused-labels": "error",
+					"no-unused-private-class-members": "error",
+					"no-unused-vars": [
+						"error",
+						{
+							varsIgnorePattern: "^[A-Z_]",
+							argsIgnorePattern: "^_",
+						},
+					],
+					"no-useless-backreference": "error",
+					"no-useless-catch": "error",
+					"no-useless-escape": "error",
+					"no-with": "error",
+					"require-yield": "error",
+					"use-isnan": "error",
+					"valid-typeof": "error",
+					eqeqeq: ["error", "smart"],
+				},
+				env: {
+					es2020: true,
+					commonjs: true,
+					node: true,
+				},
+			},
+			{
+				files: ["**/*.ts"],
+				rules: {
+					"no-array-constructor": "error",
+					"no-unused-expressions": "error",
+					"no-unused-vars": [
+						"error",
+						{
+							varsIgnorePattern: "^[A-Z_]",
+							argsIgnorePattern: "^_",
+						},
+					],
+					eqeqeq: ["error", "smart"],
+					"typescript/ban-ts-comment": "error",
+					"typescript/no-duplicate-enum-values": "error",
+					"typescript/no-empty-object-type": "error",
+					"typescript/no-explicit-any": "off",
+					"typescript/no-extra-non-null-assertion": "error",
+					"typescript/no-misused-new": "error",
+					"typescript/no-namespace": "error",
+					"typescript/no-non-null-asserted-optional-chain": "error",
+					"typescript/no-require-imports": "error",
+					"typescript/no-this-alias": "error",
+					"typescript/no-unnecessary-type-constraint": "error",
+					"typescript/no-unsafe-declaration-merging": "error",
+					"typescript/no-unsafe-function-type": "error",
+					"typescript/no-wrapper-object-types": "error",
+					"typescript/prefer-as-const": "error",
+					"typescript/prefer-namespace-keyword": "error",
+					"typescript/triple-slash-reference": "error",
+				},
+				env: {
+					es2020: true,
+					commonjs: true,
+					node: true,
+				},
+			},
+		],
+		options: {
+			typeAware: true,
+			typeCheck: true,
+		},
+		jsPlugins: [
+			{
+				name: "vite-plus",
+				specifier: "vite-plus/oxlint-plugin",
+			},
+		],
+		rules: {
+			// This package is "type": "commonjs", so `vite-plus/test` resolves to its CJS
+			// re-export and loads a second, uninitialized vitest instance. Import `vitest`.
+			"vite-plus/prefer-vite-plus-imports": "off",
+		},
+	},
 });
