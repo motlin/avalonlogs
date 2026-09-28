@@ -23,7 +23,7 @@ download DOC_ID:
     echo "Saved to logs/{{ DOC_ID }}"
 
 # Run the test suite
-test:
+test: install
     vp test run --passWithNoTests
 
 # `vp run typecheck:ci`
