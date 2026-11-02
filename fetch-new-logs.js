@@ -9,7 +9,8 @@ const {main} = require("./src/fetch");
 
 main()
 	.then((code) => process.exit(code))
-	.catch((error) => {
+	.catch((error) =>
+	{
 		console.error(`\x1b[31mFatal error: ${error.message}\x1b[0m`);
 		process.exit(1);
 	});
