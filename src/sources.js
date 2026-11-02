@@ -10,8 +10,10 @@ const AVALON_SERVER_DIR = path.join(process.env.HOME || "", "projects/avalon-onl
  * Each keeps its games in its own Firestore project, so each gets its own credentials and
  * its own logs subdirectory.
  */
-const SOURCES = {
-	"georgyo-avalon": {
+const SOURCES =
+{
+	"georgyo-avalon":
+	{
 		projectId: "georgyo-avalon",
 		collection: COLLECTION,
 		credentialEnvVar: "AVALON_CREDENTIALS_GEORGYO_AVALON",
@@ -20,7 +22,8 @@ const SOURCES = {
 			"./firebase-credentials-georgyo-avalon.json",
 		],
 	},
-	"avalon-cool": {
+	"avalon-cool":
+	{
 		projectId: "avalon-cool",
 		collection: COLLECTION,
 		credentialEnvVar: "AVALON_CREDENTIALS_AVALON_COOL",
@@ -28,50 +31,72 @@ const SOURCES = {
 	},
 };
 
-function listSourceNames() {
+function listSourceNames()
+{
 	return Object.keys(SOURCES);
 }
 
-function getSource(name) {
+function getSource(name)
+{
 	const source = SOURCES[name];
-	if (!source) {
+	if (!source)
+	{
 		throw new Error(`Unknown source "${name}". Known sources: ${listSourceNames().join(", ")}`);
 	}
-	return {name, ...source};
+	return {
+		name,
+		...source,
+	};
 }
 
-function logsDirFor(name) {
+function logsDirFor(name)
+{
 	return path.join(LOGS_DIR, name);
 }
 
-function parseArgs(argv) {
+function parseArgs(argv)
+{
 	const sources = [];
 	let dryRun = false;
 	let limit = null;
 
-	for (let i = 0; i < argv.length; i++) {
+	for (let i = 0; i < argv.length; i++)
+	{
 		const arg = argv[i];
-		if (arg === "--dry-run") {
+		if (arg === "--dry-run")
+		{
 			dryRun = true;
-		} else if (arg === "--source") {
+		}
+		else if (arg === "--source")
+		{
 			const value = argv[++i];
-			if (!value) {
+			if (!value)
+			{
 				throw new Error("--source requires a value");
 			}
 			getSource(value);
 			sources.push(value);
-		} else if (arg === "--limit") {
+		}
+		else if (arg === "--limit")
+		{
 			const value = argv[++i];
 			limit = Number(value);
-			if (!Number.isInteger(limit) || limit < 1) {
+			if (!Number.isInteger(limit) || limit < 1)
+			{
 				throw new Error("--limit requires a positive integer");
 			}
-		} else {
+		}
+		else
+		{
 			throw new Error(`Unknown argument "${arg}"`);
 		}
 	}
 
-	return {sources: sources.length > 0 ? sources : listSourceNames(), dryRun, limit};
+	return {
+		sources: sources.length > 0 ? sources : listSourceNames(),
+		dryRun,
+		limit,
+	};
 }
 
 /**
@@ -79,13 +104,17 @@ function parseArgs(argv) {
  * paths. `GOOGLE_APPLICATION_CREDENTIALS` is deliberately not consulted -- it names a
  * single file and we talk to two projects.
  */
-function credentialCandidates(source) {
+function credentialCandidates(source)
+{
 	return [process.env[source.credentialEnvVar], ...source.credentialPaths];
 }
 
-function selectCredentialPath(candidates, exists = (p) => fs.existsSync(p)) {
-	for (const candidate of candidates) {
-		if (candidate && exists(path.resolve(candidate))) {
+function selectCredentialPath(candidates, exists = (p) => fs.existsSync(p))
+{
+	for (const candidate of candidates)
+	{
+		if (candidate && exists(path.resolve(candidate)))
+		{
 			return candidate;
 		}
 	}
@@ -96,15 +125,18 @@ function selectCredentialPath(candidates, exists = (p) => fs.existsSync(p)) {
  * A key for the wrong project would silently file one server's games under the other's
  * directory, so treat a mismatch as fatal.
  */
-function assertProjectMatches(serviceAccount, expectedProjectId, credentialPath) {
-	if (serviceAccount.project_id !== expectedProjectId) {
+function assertProjectMatches(serviceAccount, expectedProjectId, credentialPath)
+{
+	if (serviceAccount.project_id !== expectedProjectId)
+	{
 		throw new Error(
 			`Credentials at ${credentialPath} are for project "${serviceAccount.project_id}", but source "${expectedProjectId}" was requested.`,
 		);
 	}
 }
 
-module.exports = {
+module.exports =
+{
 	listSourceNames,
 	getSource,
 	logsDirFor,

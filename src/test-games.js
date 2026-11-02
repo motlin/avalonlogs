@@ -23,15 +23,22 @@ const AGENT_NAMES = new Set([
  * named TEST, and real players could share a first name with an agent, so a game is
  * kept the moment one unrecognized name appears.
  */
-function isAgentRoster(playerNames) {
-	if (playerNames.length === 0) {
+function isAgentRoster(playerNames)
+{
+	if (playerNames.length === 0)
+	{
 		return false;
 	}
 	return playerNames.every((name) => AGENT_NAMES.has(name.trim().toUpperCase()));
 }
 
-function playerNamesOf(gameData) {
+function playerNamesOf(gameData)
+{
 	return (gameData.players || []).map((player) => player.name || "");
 }
 
-module.exports = {isAgentRoster, playerNamesOf};
+module.exports =
+{
+	isAgentRoster,
+	playerNamesOf,
+};
