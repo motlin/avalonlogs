@@ -14,3 +14,7 @@ Docs are local at `node_modules/vite-plus/docs` or online at https://viteplus.de
 - [ ] If setup, runtime, or package-manager behavior looks wrong, run `vp env doctor` and include its output when asking for help.
 
 <!--VITE PLUS END-->
+
+## Formatting
+
+Formatting uses [oxfmt-next-line](https://www.npmjs.com/package/oxfmt-next-line), a fork of oxfmt that puts opening braces on their own line. mise installs it, and it reads `.oxfmtrc.json`, which skips `package-lock.json` (npm owns it) and `logs/**` (game logs are archived exactly as fetched). Run `oxfmt-next-line` or `npm run fmt`, not `vp fmt`: Vite+'s bundled oxfmt does not support next-line braces, so `vite.config.mts` has no `fmt` block and sets `check.fmt: false`, which makes `vp check` lint and type-check without formatting. The pre-commit `oxfmt` hook enforces formatting in CI.
